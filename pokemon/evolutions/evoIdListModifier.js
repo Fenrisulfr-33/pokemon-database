@@ -1,14 +1,12 @@
-const evoIdList = require("./evoltuionIdAssignment.json");
+const evoIdList = require("./evoIdList.json");
 const saveFile = require("../helperFunctions/saveFile");
 const errors = {};
 
-console.log(Array.isArray(evoIdList));
-
 const evoIdListNew = evoIdList.map((evo) => {
-  if (evo.evolution !== null && evo.evolution > 47) {
+  if (evo.evolution !== null && evo.evolution > 118) {
     evo.evolution++;
   }
   return evo;
 });
 
-saveFile(evoIdListNew, `./evoIdList.json`, false, "Evolution Id List", errors);
+saveFile(evoIdListNew, `./evoIdList2`, false, "Evolution Id List", errors);
