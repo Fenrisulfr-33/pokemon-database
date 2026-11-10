@@ -1,5 +1,3 @@
-import { fileURLToPath } from 'url';
-import path from 'path';
 import validateEntries from '../../genericFunctions/schemaValidation.mjs';
 import schema from './schema.json' with { type: 'json' };
 import readJsonDir from '../../genericFunctions/files/readJsonDir.js';

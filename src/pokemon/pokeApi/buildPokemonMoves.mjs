@@ -1,5 +1,4 @@
 import { fetchData } from './APIrequest.mjs';
-import { amountOfPokemon } from './CONSTANTS.mjs';
 import { transformPokemonMoves, saveJsonFile } from './helpers.mjs';
 
 const endpoint = "pokemon/";

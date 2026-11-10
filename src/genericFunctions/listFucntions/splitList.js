@@ -8,7 +8,6 @@
 
 // The list you want to split goes here
 // const list = require('./00-temdex.json');
-import fs from 'fs';
 
 const splitList = () => {
 	const listArray = Object.values(list);

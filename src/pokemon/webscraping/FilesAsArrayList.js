@@ -2,15 +2,8 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { createRequire } from "module";
-import saveFile from "./helperFunctions/saveFile.js";
-import addMovesToPokemon from "./helperFunctions/addMovesToPokemon.js";
-import replaceWrongMoveNames from "./helperFunctions/replaceWrongMoveNames.js";
-import assignPokemonPokedexNumbers from "./helperFunctions/assignPokedexNumbers.js";
-import addGameDropDownToPokemon from "./helperFunctions/addGameDropDownToPokemon.js";
-import addFormsTabToPokemon from './helperFunctions/addFormsTabToPokemon.js';
 // import addEvolutionObjectToPokemon from './helperFunctions/addEvolutionObjectToPokemon.js';
 // import assignEvolutionKeys from './helperFunctions/assignEvolutionKeys.js';
-import { returnPokemonModel, returnPokemonMovesModel } from './helperFunctions/returnObjectModels.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

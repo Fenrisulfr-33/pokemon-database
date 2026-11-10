@@ -1,6 +1,4 @@
 import { fileURLToPath } from "url";
-import path from "path";
-import dotenv from "dotenv";
 import upsertEntries from "../helpers/upsertEntries.js";
 import assignPokemonPokedexNumbers from "./AssignPokedexNumbers.js";
 import schema from "./schema.json" with { type: "json" };
