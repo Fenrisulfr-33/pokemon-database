@@ -2,7 +2,7 @@ import { fileURLToPath } from "url";
 import path from "path";
 import dotenv from "dotenv";
 import upsertEntries from "../helpers/upsertEntries.js";
-import schema from "../schemas/ability.json" with { type: "json" };
+import schema from "./schema.json" with { type: "json" };
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import { ABILITIES_ENTRIES_DIR } from "#helpers/paths.js";
 

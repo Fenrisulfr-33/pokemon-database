@@ -2,7 +2,7 @@
 
 One document per pokemon and per form. Source:
 `src/pokemon/pokedex/entries/{_id}-{key}.json` (1,132 files, 107 of them
-forms with a decimal `_id`). Schema: `src/pokemon/schemas/pokemon.json`.
+forms with a decimal `_id`). Schema: `src/pokemon/pokedex/schema.json`.
 
 ## Relations
 

@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'url';
 import path from 'path';
 import validateEntries from '../../genericFunctions/schemaValidation.mjs';
-import schema from '../schemas/pokemon.json' with { type: 'json' };
+import schema from './schema.json' with { type: 'json' };
 import readJsonDir from '../../genericFunctions/files/readJsonDir.js';
 import { POKEDEX_ENTRIES_DIR } from '../helpers/paths.js';
 

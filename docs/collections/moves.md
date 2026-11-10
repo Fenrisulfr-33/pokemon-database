@@ -2,7 +2,7 @@
 
 One document per move. Source:
 `src/pokemon/moves/entries/{_id}-{key}.json` (920 files).
-Schema: `src/pokemon/schemas/move.json`. `_id` is the PokeAPI id.
+Schema: `src/pokemon/moves/schema.json`. `_id` is the PokeAPI id.
 
 ## Relations
 

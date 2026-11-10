@@ -16,7 +16,7 @@ website lives in a separate repo).
   data that gets uploaded.
 - `src/pokemon/<entity>/upsert.js` — pushes that entity to MongoDB
 - `src/pokemon/<entity>/validation.mjs` — schema check for that entity
-- `src/pokemon/schemas/` — JSON Schemas (evolutions has its own)
+- `src/pokemon/<entity>/schema.json` — JSON Schema for that entity
 - `src/pokemon/helpers/` — shared upsert / path helpers
 - `src/genericFunctions/` — non-Pokemon-specific helpers
   (`schemaValidation.mjs` exports `validateEntries`)

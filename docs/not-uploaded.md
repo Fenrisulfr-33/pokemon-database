@@ -45,4 +45,3 @@ Empty placeholder folder (`entries/` and an empty `README.md`).
 - `pokeApi/`: raw PokeAPI downloads used to build or check entries.
 - `webscraping/`: scrapers that produced some of the source data.
 - `constants/`: shared constants (dex lengths, learn methods).
-- `schemas/`: JSON schemas checked before upload.

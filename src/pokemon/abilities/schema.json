@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://pokemon-database.com/schemas/ability.json",
+    "title": "Pokemon Ability",
+    "description": "Schema for Pokemon ability data validation",
+    "type": "object",
+    "required": ["_id", "key", "name", "generation", "effect"],
+    "properties": {
+        "_id": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unique ability ID"
+        },
+        "key": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "URL-safe key identifier"
+        },
+        "name": {
+            "type": "object",
+            "required": ["english"],
+            "properties": {
+                "english": { "type": "string", "minLength": 1 }
+            }
+        },
+        "generation": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9
+        },
+        "effect": {
+            "type": "object",
+            "required": ["shortEffect", "full"],
+            "properties": {
+                "shortEffect": { "type": "string", "minLength": 1 },
+                "full": { "type": "string", "minLength": 1 }
+            }
+        },
+        "description": {
+            "type": "object",
+            "patternProperties": {
+                "^[a-z0-9-]+$": {
+                    "type": "string"
+                }
+            }
+        },
+        "pokemonWithAbility": {
+            "type": "object",
+            "properties": {
+                "normal": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": ["name", "id"],
+                        "properties": {
+                            "name": { "type": "string" },
+                            "id": { "type": "integer", "minimum": 1 }
+                        }
+                    }
+                },
+                "hidden": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": ["name", "id"],
+                        "properties": {
+                            "name": { "type": "string" },
+                            "id": { "type": "integer", "minimum": 1 }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "additionalProperties": false
+}

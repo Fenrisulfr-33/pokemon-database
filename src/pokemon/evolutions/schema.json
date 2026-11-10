@@ -1,0 +1,83 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://pokemon-database.com/schemas/evolutions.json",
+    "title": "PokemonEvolutionEntry",
+    "description": "Schema for one entry in src/pokemon/evolutions/entries. See src/pokemon/evolutions/README.md for the chain-type walkthrough this schema encodes.",
+    "type": "object",
+    "required": ["_id", "generation", "evolution"],
+    "additionalProperties": false,
+    "properties": {
+        "_id": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unique id for the evolution chain, shared by every line stored in `evolution`"
+        },
+        "generation": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Generation the base (first) evolution line was introduced in"
+        },
+        "evolution": {
+            "type": "array",
+            "minItems": 1,
+            "description": "One entry per distinct chain line: index 0 is the base line, any further entries are alternate-form lines (e.g. a regional variant)",
+            "items": { "$ref": "#/definitions/chain" }
+        }
+    },
+    "definitions": {
+        "pokemonId": {
+            "type": "number",
+            "description": "national-dex _id; alternate forms use a decimal suffix, e.g. 19.1 for Alolan Rattata"
+        },
+        "stage": {
+            "title": "Stage",
+            "description": "A single Pokemon within a chain: [pokemon_id] or [pokemon_id, how]. `how` is omitted for the first stage of a chain line",
+            "oneOf": [
+                {
+                    "type": "array",
+                    "items": [{ "$ref": "#/definitions/pokemonId" }],
+                    "minItems": 1,
+                    "maxItems": 1
+                },
+                {
+                    "type": "array",
+                    "items": [
+                        { "$ref": "#/definitions/pokemonId" },
+                        {
+                            "type": "string",
+                            "description": "How this stage is reached from the stage before it"
+                        }
+                    ],
+                    "minItems": 2,
+                    "maxItems": 2
+                }
+            ]
+        },
+        "chain": {
+            "type": "array",
+            "title": "Chain",
+            "description": "An ordered evolution line: a stage, followed by the stage(s)/branch(es) it can evolve into",
+            "minItems": 1,
+            "items": { "$ref": "#/definitions/chainNode" }
+        },
+        "chainNode": {
+            "title": "ChainNode",
+            "oneOf": [
+                { "$ref": "#/definitions/stage" },
+                { "$ref": "#/definitions/branch" }
+            ]
+        },
+        "branch": {
+            "type": "array",
+            "title": "Branch",
+            "description": "A split point where the preceding stage can evolve into more than one thing. Each option is either a single terminal stage (multiple chaining, e.g. Gloom -> Vileplume | Bellossom) or its own continuing chain (multiple continuation chaining, e.g. Nincada -> Ninjask | [Ninjask, Shedinja])",
+            "minItems": 1,
+            "items": {
+                "oneOf": [
+                    { "$ref": "#/definitions/stage" },
+                    { "$ref": "#/definitions/chain" }
+                ]
+            }
+        }
+    }
+}

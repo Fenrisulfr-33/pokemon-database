@@ -2,7 +2,7 @@
 
 One document per ability. Source:
 `src/pokemon/abilities/entries/{_id}-{key}.json` (307 files).
-Schema: `src/pokemon/schemas/ability.json`. `_id` is the PokeAPI id.
+Schema: `src/pokemon/abilities/schema.json`. `_id` is the PokeAPI id.
 
 ## Relations
 

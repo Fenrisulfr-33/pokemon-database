@@ -8,11 +8,11 @@ document, and its `_id` is the Mongo `_id`.
 
 | Collection     | Source folder                  | Upload script            | Schema                   |
 | -------------- | ------------------------------ | ------------------------ | ------------------------ |
-| `national-dex` | `src/pokemon/pokedex/entries`    | `npm run upsert:pokemon`    | `schemas/pokemon.json`   |
-| `abilities`    | `src/pokemon/abilities/entries`  | `npm run upsert:abilities`  | `schemas/ability.json`   |
-| `moves`        | `src/pokemon/moves/entries`      | `npm run upsert:moves`      | `schemas/move.json`      |
+| `national-dex` | `src/pokemon/pokedex/entries`    | `npm run upsert:pokemon`    | `pokedex/schema.json`    |
+| `abilities`    | `src/pokemon/abilities/entries`  | `npm run upsert:abilities`  | `abilities/schema.json`  |
+| `moves`        | `src/pokemon/moves/entries`      | `npm run upsert:moves`      | `moves/schema.json`      |
 | `learnsets`    | `src/pokemon/learnsets/entries`  | `npm run upsert:moves`      | none                     |
-| `evolutions`   | `src/pokemon/evolutions/entries` | `npm run upsert:evolutions` | `schemas/evolution.json` |
+| `evolutions`   | `src/pokemon/evolutions/entries` | `npm run upsert:evolutions` | `evolutions/schema.json` |
 | `form-tabs`    | `src/pokemon/formTabs/entries`   | `node src/pokemon/formTabs/upsert.js` | none           |
 
 One page per collection:

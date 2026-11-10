@@ -2,7 +2,7 @@
 
 One document per evolution chain. Source:
 `src/pokemon/evolutions/entries/{_id}-{firstPokemon}.json` (340 files).
-Schema: `src/pokemon/schemas/evolution.json`.
+Schema: `src/pokemon/evolutions/schema.json`.
 
 `_id` is a chain number, **not** a pokemon id. Chain `2` is the
 Charmander line, chain `51` is Eevee and its eeveelutions.

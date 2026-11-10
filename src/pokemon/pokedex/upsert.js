@@ -3,7 +3,7 @@ import path from "path";
 import dotenv from "dotenv";
 import upsertEntries from "../helpers/upsertEntries.js";
 import assignPokemonPokedexNumbers from "./AssignPokedexNumbers.js";
-import schema from "../schemas/pokemon.json" with { type: "json" };
+import schema from "./schema.json" with { type: "json" };
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import { POKEDEX_ENTRIES_DIR } from "../helpers/paths.js";
 
