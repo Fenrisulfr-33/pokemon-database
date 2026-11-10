@@ -1,7 +1,8 @@
 import readJson from '../../../genericFunctions/files/readJson.js';
+import { DEX_LENGTHS_KEYS } from '../../constants/DEX_LENGTHS.js';
 
 const legendsZaDex = readJson('./dexes_objects/32-legends-za.json', import.meta.url);
-const legendsZaLength = 232;
+const legendsZaLength = DEX_LENGTHS_KEYS.POKEMON_DEX_LEGEND_ZA;
 const legendsZAMegaLength = 0;
 
 describe('Legends ZA Dex validation', () => {
