@@ -97,8 +97,6 @@ The alternate form chain is when two lines of the pokemon exist, so the original
 }
 ```
 
-Notice how the alternate forms takes on another key called `form`, this is to display the form name even though the pokemon name stays the same. 
-
 This is a list of two lists. `[ [], [] ]`
 
 ### Multiple chaining
@@ -145,7 +143,7 @@ This is when both the original chain and the alternate chain can both have multi
 		[
 			[79.1], 
 			[
-				[80.1, "use Galarica Cuff"], 
+				[80.2, "use Galarica Cuff"], 
 				[199.1, "use Galarica Wreath"]
 			]
 		]
@@ -166,13 +164,16 @@ Multiple continuation chaining is when the chain breaks into multiple pokemon bu
     "_id": 101,
     "generation": 3,
     "evolution": [
-		[[290], 
+		[	
+			[290], 
 			[
-				[291, "Level 20"], 
-				[
-					[291, "Level 20, empty spot in party, Pokéball in bag"], 
-					[292, "+"]
-				]
+               	[
+                    [291, "Level 20"]
+                ],
+                [
+                    [291, "Level 20, empty spot in party, Pokéball in bag"],
+                    [292, "+"]
+                ]
 			]
 		]
     ]

@@ -9,27 +9,24 @@ Charmander line, chain `51` is Eevee and its eeveelutions.
 
 ## Relations
 
-| Field                     | Points to          |
-| ------------------------- | ------------------ |
-| `evolution[][].id`        | `national-dex._id` |
+| Field                          | Points to          |
+| ------------------------------ | ------------------ |
+| first item of each stage tuple | `national-dex._id` |
 
-The reverse link is `national-dex.evolution`, which should hold the id
-of the chain the pokemon appears in. Many are out of date; see
-[known issues](../known-issues.md).
+The reverse link is `national-dex.evolution`, which holds the id of the
+chain the pokemon appears in.
 
 ## Shape
 
-`evolution` is an array of **branches**. Each branch is an array of
-**stages** in order. A stage is either one pokemon object or, when the
-line splits, an array of pokemon objects.
+`evolution` is an array of **lines**: the base line first, then any
+alternate-form lines (e.g. regional variants). Each line is an array of
+**stages** in order.
 
-| Stage field | Type     | Notes                                    |
-| ----------- | -------- | ---------------------------------------- |
-| `id`        | number   | `national-dex._id`                       |
-| `name`      | string   | display copy                             |
-| `type`      | string[] | display copy                             |
-| `how`       | string   | evolution condition; absent on the first stage |
-| `form`      | string   | optional form label                      |
+A stage is a tuple: `[id]` for the first pokemon in a line, or
+`[id, how]` after that. `id` is a `national-dex._id`; name, types and
+form come from the pokedex. When the line splits, the stage is an array
+of options instead, and each option is a stage or its own continuing
+line. See `src/pokemon/evolutions/README.md` for every chain type.
 
 ## Examples
 
@@ -39,28 +36,30 @@ A straight line:
 {
     "_id": 3,
     "generation": 1,
-    "evolution": [[
-        { "id": 7, "name": "Squirtle", "type": ["Water"] },
-        { "id": 8, "name": "Wartortle", "type": ["Water"], "how": "Level 16" },
-        { "id": 9, "name": "Blastoise", "type": ["Water"], "how": "Level 36" }
-    ]]
+    "evolution": [
+        [
+            [7],
+            [8, "Level 16"],
+            [9, "Level 36"]
+        ]
+    ]
 }
 ```
 
-A split (Eevee, trimmed): the second stage is an array.
+A split (Eevee, trimmed): the second stage is an array of options.
 
 ```json
 {
     "_id": 51,
     "generation": 1,
-    "evolution": [[
-        { "id": 133, "name": "Eevee", "type": ["Normal"] },
+    "evolution": [
         [
-            { "id": 134, "name": "Vaporeon", "type": ["Water"],
-              "how": "Use Water Stone" },
-            { "id": 135, "name": "Jolteon", "type": ["Electric"],
-              "how": "Use Thunder Stone" }
+            [133],
+            [
+                [134, "Use Water Stone"],
+                [135, "Use Thunder Stone"]
+            ]
         ]
-    ]]
+    ]
 }
 ```

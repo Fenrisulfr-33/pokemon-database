@@ -71,7 +71,7 @@ erDiagram
     NATIONAL_DEX }o--o{ ABILITIES : "abilities.*.id / pokemonWithAbility"
     LEARNSETS }o--o{ MOVES : "last value of each tuple = moves._id"
     NATIONAL_DEX }o--o| EVOLUTIONS : "evolution = _id"
-    EVOLUTIONS ||--|{ NATIONAL_DEX : "evolution[][].id"
+    EVOLUTIONS ||--|{ NATIONAL_DEX : "evolution stage [id, how]"
     FORM_TABS ||--|{ NATIONAL_DEX : "pokemonIds[] / tab[].id"
 ```
 
@@ -87,7 +87,7 @@ any of them. Look-ups happen on the website server.
 | `learnsets._id`                        | `national-dex._id`  | one learnset per pokemon, 1:1            |
 | `learnsets.{game}.{method}[][last]`    | `moves._id`         | `moveId` is always the last tuple value  |
 | `national-dex.evolution`               | `evolutions._id`    | chain the pokemon belongs to (see [known issues](known-issues.md)) |
-| `evolutions.evolution[][].id`          | `national-dex._id`  | every pokemon in the chain               |
+| `evolutions.evolution` stage `[id, how]` | `national-dex._id`  | every pokemon in the chain               |
 | `form-tabs._id`                        | `national-dex._id`  | the base form                            |
 | `form-tabs.pokemonIds[]`, `tab[].id`   | `national-dex._id`  | every form shown in the tab bar          |
 
