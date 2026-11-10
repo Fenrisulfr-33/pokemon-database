@@ -11,6 +11,11 @@ const __dirname = path.dirname(__filename);
 
 const pokemonNames = readJson("./pokemonDatabaseURLNames.json", import.meta.url);
 
+const REQUEST_DELAY_MS = 1000;
+const RETRY_DELAY_MS = 15000;
+const MAX_RETRIES = 3;
+const retriesByIndex = {};
+
 const main = (games) => {
   games.forEach((game) => {
     const errors = {};
@@ -368,7 +373,7 @@ const scrapePokemonMoves = async (
         }
 
         i++;
-        scrapePokemonMoves(
+        setTimeout(() => scrapePokemonMoves(
           tab,
           gameName,
           generation,
@@ -376,10 +381,26 @@ const scrapePokemonMoves = async (
           errors,
           pokemonMovesJSON,
           pokedexLength
-        );
+        ), REQUEST_DELAY_MS);
       })
       .catch((error) => {
-        // console.log(error)
+        const status = error.response?.status;
+        console.log(`Error: ${i + 1} ${pokemon} - ${status ?? error.message}`);
+        retriesByIndex[i] = (retriesByIndex[i] ?? 0) + 1;
+        if (status !== 404 && retriesByIndex[i] <= MAX_RETRIES) {
+          console.log(`Retry ${retriesByIndex[i]}/${MAX_RETRIES} in 15s`);
+          setTimeout(() => scrapePokemonMoves(
+            tab,
+            gameName,
+            generation,
+            i,
+            errors,
+            pokemonMovesJSON,
+            pokedexLength
+          ), RETRY_DELAY_MS);
+          return;
+        }
+        errors[`${i + 1}-${pokemon}`] = `Failed: ${status ?? error.message}`;
         const pokemonNatDexNo = i + 1;
         if (pokemonNatDexNo.toString().length === 1) {
           console.log(
@@ -399,7 +420,7 @@ const scrapePokemonMoves = async (
           );
         }
         i++;
-        scrapePokemonMoves(
+        setTimeout(() => scrapePokemonMoves(
           tab,
           gameName,
           generation,
@@ -407,7 +428,7 @@ const scrapePokemonMoves = async (
           errors,
           pokemonMovesJSON,
           pokedexLength
-        );
+        ), REQUEST_DELAY_MS);
       });
   }
 };

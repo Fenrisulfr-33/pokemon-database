@@ -1,5 +1,5 @@
 export const gamesToScrape = [
-  { tabName: '#tab-moves-22', gameName: 'legends-za', generation: 9, startingPoint: 0, pokedexLength: 1025 },
+  // { tabName: '#tab-moves-22', gameName: 'legends-za', generation: 9, startingPoint: 0, pokedexLength: 1025 },
   // { tabName: '#tab-moves-21', gameName: 'scarlet-violet', generation: 9, startingPoint: 0, pokedexLength: 1025 },
   // { tabName: '#tab-moves-20', gameName: 'legends-arceus', generation: 8, startingPoint: 0, pokedexLength: 905 },
   // { tabName: '#tab-moves-19', gameName: 'brilliant-diamond-shining-pearl', generation: 0, startingPoint: 0, pokedexLength: 905 },
@@ -9,7 +9,7 @@ export const gamesToScrape = [
   // { tabName: '#tab-moves-15', gameName: 'sun-moon', generation: 0, startingPoint: 0, pokedexLength: 809 },
   // { tabName: '#tab-moves-14', gameName: 'omega-ruby-alpha-sapphire', generation: 6, startingPoint: 0, pokedexLength: 721 },
   // { tabName: '#tab-moves-13', gameName: 'x-y', generation: 6, startingPoint: 0, pokedexLength: 721 },
-  // { tabName: '#tab-moves-12', gameName: 'black-2-white-2', generation: 5, startingPoint: 0, pokedexLength: 649 },
+   { tabName: '#tab-moves-12', gameName: 'black-2-white-2', generation: 5, startingPoint: 0, pokedexLength: 649 },
   // { tabName: '#tab-moves-11', gameName: 'black-white', generation: 5, startingPoint: 0, pokedexLength: 649 },
   // { tabName: '#tab-moves-10', gameName: 'heart-gold-soul-silver', generation: 4, startingPoint: 0, pokedexLength: 493 },
   // { tabName: '#tab-moves-9', gameName: 'platinum', generation: 4, startingPoint: 0, pokedexLength: 493 },

@@ -135,6 +135,7 @@ function transformPokemon(pokemon, expectedKey, fileName) {
 
 function modifier() {
 	loopAndRewriteFolder(MOVES_GAMES_DIR, (gameMoves, fileName) => {
+		if (gameMoves[0]?.game_key) return;
 		const expectedKey = getExpectedGameKey(fileName);
 		return gameMoves.map((pokemon) => transformPokemon(pokemon, expectedKey, fileName));
 	});
