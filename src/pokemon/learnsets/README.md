@@ -5,7 +5,9 @@ Learnsets is a collection that stores all the moves a pokemon can learn by game.
 #### Structure
 - Learnsets stores method learned and `moveId`, data is later extracted from the moves collection on the server.
 - The keys come from the `KEYS.md`
-- The data orginally came from `moves/games/{id-gameName}.json`
+- The data orginally came from `moves/games/{id-gameName}.json`, which was
+  converted once by `buildLearnsets.mjs`. Both were removed afterwards, so
+  `entries/` is now the source of truth and is edited directly.
 - Currently no tests, as data has to be checked manually/interpreted from pokeAPI, then manually verified differences.
 
 ## Data Model

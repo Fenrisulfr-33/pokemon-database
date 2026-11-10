@@ -3,9 +3,11 @@ import path from "path";
 import dotenv from "dotenv";
 import upsertEntries from "../helpers/upsertEntries.js";
 import schema from "../schemas/move.json" with { type: "json" };
-import buildLearnsets from "./learnsets.js";
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
-import { MOVES_ENTRIES_DIR } from "#helpers/paths.js";
+import {
+	MOVES_ENTRIES_DIR,
+	LEARNSETS_ENTRIES_DIR,
+} from "#helpers/paths.js";
 
 dotenv.config();
 
@@ -24,8 +26,10 @@ async function run() {
 		schema 
 	});
 
-	const learnsets = buildLearnsets();
-	console.log(`Built ${learnsets.length} learnsets from moves/games`);
+	const learnsets = readJsonDir(LEARNSETS_ENTRIES_DIR);
+	console.log(
+		`Loaded ${learnsets.length} learnsets from ${LEARNSETS_ENTRIES_DIR}`
+	);
 	await upsertEntries({ 
 		environment: process.env.MONGO_ENV, 
 		dbName: `pokemon-${process.env.MONGO_ENV}`, 

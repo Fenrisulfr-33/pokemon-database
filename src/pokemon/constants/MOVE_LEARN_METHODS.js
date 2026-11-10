@@ -1,5 +1,5 @@
 /**
- * Every distinct way a pokemon can learn a move across the moves/games files.
+ * Every distinct way a pokemon can learn a move across the (now removed) moves/games files.
  */
 const MOVE_LEARN_METHODS = [
 	"level-up",
