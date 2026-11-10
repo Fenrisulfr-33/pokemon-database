@@ -12,20 +12,19 @@ Results of checking every reference between the `entries/` folders
 | `learnsets` moveId → `moves`                 | 649,566 | 0      |
 | `learnsets._id` → `national-dex`             | 1,075   | 0      |
 
-## `national-dex.evolution` is out of date
+## `national-dex.evolution` for pokemon not in a chain
 
 This field should be the `_id` of the evolution chain the pokemon is in.
+Every pokemon that is in a chain now has the right id (rebuilt from
+`evolutions/entries` on 2026-11-10).
 
-- Of 855 pokemon that appear in a chain, only **145** have the right
-  chain id. Many are close but shifted, e.g. Hitmonlee has `80` but is
-  in chain `81`; Lickitung has `164` but is in chain `166`.
-- **214** have `null`, including pokemon that are in a chain
-  (Goldeen, Dipplin, Archaludon).
-- **120** have `0`, which isn't a chain id.
-- `evolutions/evolutionIdList.json` doesn't match either (292 of 1,025).
+The 274 pokemon that aren't in any chain have no consistent value:
 
-`evolutions/entries` looks like the reliable side. The field could be
-rebuilt from it by finding the chain that contains each pokemon's id.
+- **200** have `null`
+- **37** have `0`
+- **37** have a chain id even though no chain contains them
+
+These should all use one value, probably `null`.
 
 ## `evolutions` ids missing from `national-dex`
 
@@ -52,3 +51,15 @@ It should probably be a boolean.
 
 `learnsets` and `form-tabs` have no schema, so bad data uploads without
 an error.
+
+## Failing tests
+
+4 of 6 test suites fail (`npm test`):
+
+- `_test/evolution-id-list.test.mjs` reads `_test/evolution-id-list.json`,
+  which doesn't exist.
+- `pokedex/pokedex.test.js` fails with `pokedex is not defined`.
+- `pokedex/dexes/archer-dexes.test.js`: the Legends ZA dex has 145
+  entries instead of 232, and isn't in `dexNo` order.
+- `pokedex/dexes/dexes.test.js`: `ULTRA_SUN_ULTRA_MOON_MELEMELE` has
+  149 entries instead of 150.
