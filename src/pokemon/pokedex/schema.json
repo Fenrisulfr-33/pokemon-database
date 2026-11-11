@@ -30,14 +30,10 @@
             "type": "string",
             "enum": ["Normal", "Fire", "Water", "Electric", "Grass", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy"]
         },
-        "abilityRef": {
-            "type": "object",
-            "required": ["name", "id"],
-            "additionalProperties": false,
-            "properties": {
-                "name": { "type": "string", "minLength": 1 },
-                "id": { "type": "integer", "minimum": 1, "description": "References abilities entry _id" }
-            }
+        "abilityId": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "References abilities entry _id"
         }
     },
     "properties": {
@@ -85,11 +81,24 @@
         },
         "abilities": {
             "type": "object",
+            "required": ["normal", "hidden"],
             "additionalProperties": false,
             "properties": {
-                "one": { "$ref": "#/definitions/abilityRef" },
-                "two": { "$ref": "#/definitions/abilityRef" },
-                "hidden": { "$ref": "#/definitions/abilityRef" }
+                "normal": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 2,
+                    "uniqueItems": true,
+                    "description": "Normal ability ids in slot order",
+                    "items": { "$ref": "#/definitions/abilityId" }
+                },
+                "hidden": {
+                    "description": "Hidden ability id, or null if the pokemon has none",
+                    "oneOf": [
+                        { "$ref": "#/definitions/abilityId" },
+                        { "type": "null" }
+                    ]
+                }
             }
         },
         "baseStats": {

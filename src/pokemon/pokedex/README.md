@@ -2,7 +2,7 @@
 
 ### Abilities
 
-Current format
+Old format
 
 ```json
 "abilities": {
@@ -17,11 +17,11 @@ Current format
 }
 ```
 
-New format
+Current format
 
 ```json
 "abilities": {
-	"normal": [65]
+	"normal": [65],
 	"hidden": 34
 }
 ```

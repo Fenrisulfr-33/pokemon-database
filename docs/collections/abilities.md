@@ -10,7 +10,7 @@ Schema: `src/pokemon/abilities/schema.json`. `_id` is the PokeAPI id.
 | --------------------------------------- | ------------------ |
 | `pokemonWithAbility.{normal,hidden}[].id` | `national-dex._id` |
 
-The reverse link is `national-dex.abilities.{one,two,hidden}.id`. Both
+The reverse link is `national-dex.abilities.{normal[],hidden}`. Both
 sides are stored, so adding an ability to a pokemon means editing both
 files. `pokemonWithAbility` lists base pokemon only, never forms.
 

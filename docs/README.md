@@ -38,7 +38,7 @@ erDiagram
         number _id PK "pokemon id, decimal for forms"
         string key
         object name
-        object abilities "one/two/hidden: {name, id}"
+        object abilities "normal: [id], hidden: id | null"
         number evolution FK "evolutions._id"
         object pokedexNumber "added on upload from dexes/"
     }
@@ -68,7 +68,7 @@ erDiagram
     }
 
     NATIONAL_DEX ||--o| LEARNSETS : "_id = _id"
-    NATIONAL_DEX }o--o{ ABILITIES : "abilities.*.id / pokemonWithAbility"
+    NATIONAL_DEX }o--o{ ABILITIES : "abilities.normal[] / hidden"
     LEARNSETS }o--o{ MOVES : "last value of each tuple = moves._id"
     NATIONAL_DEX }o--o| EVOLUTIONS : "evolution = _id"
     EVOLUTIONS ||--|{ NATIONAL_DEX : "evolution stage [id, how]"
@@ -82,7 +82,7 @@ any of them. Look-ups happen on the website server.
 
 | From                                   | To                  | Notes                                    |
 | -------------------------------------- | ------------------- | ---------------------------------------- |
-| `national-dex.abilities.{one,two,hidden}.id` | `abilities._id` | `name` is a copy for display          |
+| `national-dex.abilities.{normal[],hidden}` | `abilities._id` | ids only; names come from `abilities` |
 | `abilities.pokemonWithAbility.{normal,hidden}[].id` | `national-dex._id` | reverse of the line above; base pokemon only |
 | `learnsets._id`                        | `national-dex._id`  | one learnset per pokemon, 1:1            |
 | `learnsets.{game}.{method}[][last]`    | `moves._id`         | `moveId` is always the last tuple value  |

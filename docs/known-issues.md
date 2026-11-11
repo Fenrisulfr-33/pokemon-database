@@ -7,7 +7,7 @@ Results of checking every reference between the `entries/` folders
 
 | Reference                                    | Checked | Broken |
 | -------------------------------------------- | ------: | -----: |
-| `national-dex.abilities.*.id` → `abilities`  | 2,596   | 0      |
+| `national-dex.abilities` ids → `abilities`   | 2,596   | 0      |
 | `abilities.pokemonWithAbility.*.id` → `national-dex` | 2,284 | 0 |
 | `learnsets` moveId → `moves`                 | 649,566 | 0      |
 | `learnsets._id` → `national-dex`             | 1,075   | 0      |

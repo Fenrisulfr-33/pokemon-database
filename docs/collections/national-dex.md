@@ -8,7 +8,7 @@ forms with a decimal `_id`). Schema: `src/pokemon/pokedex/schema.json`.
 
 | Field                          | Points to          |
 | ------------------------------ | ------------------ |
-| `abilities.{one,two,hidden}.id`| `abilities._id`    |
+| `abilities.normal[]`, `abilities.hidden` | `abilities._id` |
 | `evolution`                    | `evolutions._id`   |
 | `_id`                          | `learnsets._id` (same id) |
 | `_id`                          | `form-tabs.pokemonIds[]` when it has forms |
@@ -22,7 +22,7 @@ forms with a decimal `_id`). Schema: `src/pokemon/pokedex/schema.json`.
 | `key`            | string            | slug, e.g. `charizard`, `alolan-marowak` |
 | `name`           | object            | `english` plus 7 other languages         |
 | `type`           | object            | `one`, optional `two`                    |
-| `abilities`      | object            | `one`, optional `two`/`hidden`: `{name, id}` |
+| `abilities`      | object            | `normal`: 1-2 ids in slot order; `hidden`: id or `null` |
 | `baseStats`      | object            | `hp atk def spatk spdef spd total`       |
 | `info`           | object            | `height`, `weight` display strings       |
 | `gender`         | object            | `male`, `female` (percent strings), `genderless` |
@@ -53,10 +53,7 @@ each regional dex in `pokedex/dexes/dexes_objects/` and records its
     "key": "charizard",
     "name": { "english": "Charizard", "japanese": "リザードン" },
     "type": { "one": "Fire", "two": "Flying" },
-    "abilities": {
-        "one": { "name": "Blaze", "id": 66 },
-        "hidden": { "name": "Solar Power", "id": 94 }
-    },
+    "abilities": { "normal": [66], "hidden": 94 },
     "baseStats": {
         "hp": 78, "atk": 84, "def": 78,
         "spatk": 109, "spdef": 85, "spd": 100, "total": 534
