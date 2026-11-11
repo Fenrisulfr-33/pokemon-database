@@ -1,29 +1,136 @@
 {
-  "_id": 95,
-  "key": "quick-feet",
-  "name": {
-    "english": "Quick Feet"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Increases Speed to 1.5× with a major status ailment.",
-    "full": "Whenever this Pokémon has a major status ailment, it has 1.5× its Speed. This Pokémon is not affected by the usual Speed cut from paralysis. Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved."
-  },
-  "description": {
-    "diamond-pearl": "Boosts Speed if there is a status problem.",
-    "platinum": "Boosts Speed if there is a status problem.",
-    "heartgold-soulsilver": "Boosts Speed if there is a status problem.",
-    "black-white": "Boosts Speed if there is a status problem.",
-    "black-2-white-2": "Boosts Speed if there is a status problem.",
-    "x-y": "Boosts the Speed stat if the Pokémon has a status condition.",
-    "omega-ruby-alpha-sapphire": "Boosts the Speed stat if the Pokémon has a status condition.",
-    "sun-moon": "Boosts the Speed stat if the Pokémon has a status condition.",
-    "ultra-sun-ultra-moon": "Boosts the Speed stat if the Pokémon has a status condition.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts the Speed stat if the Pokémon has a status condition.",
-    "sword-shield": "Boosts the Speed stat if the Pokémon has a status condition."
-  },
-  "pokemonWithAbility": {
-    "normal": [210, 216, 217, 261, 262],
-    "hidden": [135, 263, 263.1, 264, 264.1, 285]
-  }
+    "_id": 95,
+    "key": "quick-feet",
+    "name": {
+        "japanese-kana": "はやあし",
+        "korean": "속보",
+        "traditional-chinese": "飛毛腿",
+        "french": "Pied Véloce",
+        "german": "Rasanz",
+        "spanish": "Pies Rápidos",
+        "italian": "Piedisvelti",
+        "english": "Quick Feet",
+        "japanese": "はやあし",
+        "simplified-chinese": "飞毛腿",
+        "latin-american-spanish": "Pies Rápidos"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Increases Speed to 1.5× with a major status ailment.",
+        "full": "Whenever this Pokémon has a major status ailment, it has 1.5× its Speed.  This Pokémon is not affected by the usual Speed cut from paralysis. Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "Boosts Speed if there is a status problem.",
+            "pt": "Boosts Speed if there is a status problem.",
+            "hgss": "Boosts Speed if there is a status problem.",
+            "bw": "Boosts Speed if there is a status problem.",
+            "b2w2": "Boosts Speed if there is a status problem.",
+            "xy": "Boosts the Speed stat if the Pokémon has a status condition.",
+            "oras": "Boosts the Speed stat if the Pokémon has a status condition.",
+            "sm": "Boosts the Speed stat if the Pokémon has a status condition.",
+            "usum": "Boosts the Speed stat if the Pokémon has a status condition.",
+            "lgpe": "Boosts the Speed stat if the Pokémon has a status condition.",
+            "swsh": "Boosts the Speed stat if the Pokémon has a status condition.",
+            "sv": "Boosts the Speed stat if the Pokémon has a status condition."
+        },
+        "french": {
+            "bw": "Augmente la Vitesse en cas de problème de statut.",
+            "xd": "Augmente la Vitesse en cas de problème de statut.",
+            "b2w2": "Augmente la Vitesse en cas de problème de statut.",
+            "xy": "Augmente la Vitesse en cas de problème de statut.",
+            "oras": "Augmente la Vitesse en cas de problème de statut.",
+            "sm": "Augmente la Vitesse du Pokémon en cas d'altération de statut.",
+            "usum": "Augmente la Vitesse du Pokémon en cas d'altération de statut.",
+            "lgpe": "Augmente la Vitesse du Pokémon en cas d’altération de statut.",
+            "swsh": "Augmente la Vitesse du Pokémon en cas d'altération de statut.",
+            "sv": "Augmente la Vitesse du Pokémon en cas d'altération de statut."
+        },
+        "japanese-kana": {
+            "xy": "じょうたい　いじょうで すばやさが　あがる。",
+            "oras": "じょうたい　いじょうで すばやさが　あがる。",
+            "sm": "じょうたい　いじょうに　なると すばやさが　あがる。",
+            "usum": "じょうたい　いじょうに　なると すばやさが　あがる。",
+            "lgpe": "じょうたい　いじょうに　なると すばやさが　あがる。",
+            "swsh": "じょうたい　いじょうに　なると すばやさが　あがる。"
+        },
+        "korean": {
+            "xy": "상태 이상이 되면 스피드가 올라간다.",
+            "oras": "상태 이상이 되면 스피드가 올라간다.",
+            "sm": "상태 이상이 되면 스피드가 올라간다.",
+            "usum": "상태 이상이 되면 스피드가 올라간다.",
+            "lgpe": "상태 이상이 되면 스피드가 올라간다.",
+            "swsh": "상태 이상이 되면 스피드가 올라간다."
+        },
+        "german": {
+            "xy": "Erhöht bei Statusproblemen die Initiative.",
+            "oras": "Erhöht bei Statusproblemen die Initiative.",
+            "sm": "Erhöht bei Statusproblemen die Initiative.",
+            "usum": "Erhöht bei Statusproblemen die Initiative.",
+            "lgpe": "Erhöht bei Statusproblemen die Initiative.",
+            "swsh": "Erhöht bei Statusproblemen die Initiative."
+        },
+        "spanish": {
+            "xy": "Potencia la Velocidad si hay problemas de estado.",
+            "oras": "Potencia la Velocidad si hay problemas de estado.",
+            "sm": "Aumenta la Velocidad si sufre problemas de estado.",
+            "usum": "Aumenta la Velocidad si sufre problemas de estado.",
+            "lgpe": "Aumenta la Velocidad si sufre problemas de estado.",
+            "swsh": "Aumenta la Velocidad si sufre problemas de estado."
+        },
+        "italian": {
+            "xy": "Aumenta la Velocità se c’è un problema di stato.",
+            "oras": "Aumenta la Velocità se c’è un problema di stato.",
+            "sm": "Se il Pokémon è affetto da un problema di stato, la Velocità aumenta.",
+            "usum": "Se il Pokémon è affetto da un problema di stato, la Velocità aumenta.",
+            "lgpe": "Se il Pokémon è affetto da un problema di stato, la Velocità aumenta.",
+            "swsh": "Se il Pokémon è affetto da un problema di stato, la Velocità aumenta."
+        },
+        "japanese": {
+            "xy": "状態異常で 素早さが　あがる。",
+            "oras": "状態異常で 素早さが　あがる。",
+            "sm": "状態異常に　なると 素早さが　上がる。",
+            "usum": "状態異常に　なると 素早さが　上がる。",
+            "lgpe": "状態異常に　なると 素早さが　上がる。",
+            "swsh": "状態異常に　なると 素早さが　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potencia la Velocidad si hay problemas de estado.",
+            "oras": "Potencia la Velocidad si hay problemas de estado.",
+            "sm": "Aumenta la Velocidad si sufre problemas de estado.",
+            "usum": "Aumenta la Velocidad si sufre problemas de estado.",
+            "lgpe": "Aumenta la Velocidad si sufre problemas de estado.",
+            "swsh": "Aumenta la Velocidad si sufre problemas de estado."
+        },
+        "traditional-chinese": {
+            "sm": "陷入異常狀態時， 速度會提高。",
+            "usum": "陷入異常狀態時， 速度會提高。",
+            "lgpe": "陷入異常狀態時， 速度會提高。",
+            "swsh": "陷入異常狀態時， 速度會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "变为异常状态时， 速度会提高。",
+            "usum": "变为异常状态时， 速度会提高。",
+            "lgpe": "变为异常状态时， 速度会提高。",
+            "swsh": "变为异常状态时， 速度会提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            210,
+            216,
+            217,
+            261,
+            262
+        ],
+        "hidden": [
+            135,
+            263,
+            263.1,
+            264,
+            264.1,
+            285
+        ]
+    }
 }

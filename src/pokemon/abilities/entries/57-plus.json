@@ -1,32 +1,153 @@
 {
-  "_id": 57,
-  "key": "plus",
-  "name": {
-    "english": "Plus"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Increases Special Attack to 1.5× when a friendly Pokémon has plus or minus.",
-    "full": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has plus or minus. This bonus does not count as a stat modifier. If either ability is disabled by gastro acid, both lose their effect."
-  },
-  "description": {
-    "ruby-sapphire": "Powers up with MINUS.",
-    "emerald": "Powers up with MINUS.",
-    "firered-leafgreen": "Powers up with MINUS.",
-    "diamond-pearl": "Boosts Sp. Atk if another Pokémon has Minus.",
-    "platinum": "Boosts Sp. Atk if another Pokémon has Minus.",
-    "heartgold-soulsilver": "Ups Sp. Atk if another Pokémon has Minus.",
-    "black-white": "Ups Sp. Atk if another Pokémon has Plus or Minus.",
-    "black-2-white-2": "Ups Sp. Atk if another Pokémon has Plus or Minus.",
-    "x-y": "Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.",
-    "omega-ruby-alpha-sapphire": "Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.",
-    "sun-moon": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
-    "ultra-sun-ultra-moon": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
-    "sword-shield": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle."
-  },
-  "pokemonWithAbility": {
-    "normal": [311, 599, 600, 601, 849],
-    "hidden": [179, 180, 181, 702]
-  }
+    "_id": 57,
+    "key": "plus",
+    "name": {
+        "japanese-kana": "プラス",
+        "korean": "플러스",
+        "traditional-chinese": "正電",
+        "french": "Plus",
+        "german": "Plus",
+        "spanish": "Más",
+        "italian": "Più",
+        "english": "Plus",
+        "japanese": "プラス",
+        "simplified-chinese": "正电",
+        "latin-american-spanish": "Más"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",
+        "full": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus. This bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Fonctionne uniquement quand associé à Moins."
+        },
+        "german": {
+            "bw": "Funktioniert nur wenn es mit Minus kombiniert wird."
+        },
+        "english": {
+            "bw": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Minus."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Puissance + avec MINUS.",
+            "em": "Puissance + avec MINUS.",
+            "frlg": "Puissance + avec MINUS.",
+            "dp": "Améliore l'Atq. Spé. si un autre Pokémon a Minus.",
+            "pt": "Améliore l'Atq. Spé. si un autre Pokémon a Minus.",
+            "hgss": "Améliore l'Atq. Spé. si un autre Pokémon a Minus.",
+            "bw": "Augmente l'Atq. Spé. si un Pokémon a Minus ou Plus.",
+            "xd": "Augmente l'Atq. Spé. si un Pokémon a Minus ou Plus.",
+            "b2w2": "Augmente l'Atq. Spé. si un Pokémon a Minus ou Plus.",
+            "xy": "Augmente l’Attaque Spéciale si un Pokémon a Minus ou Plus.",
+            "oras": "Augmente l'Atq. Spé. si un Pokémon a Minus ou Plus.",
+            "sm": "L'Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Minus ou Plus.",
+            "usum": "L'Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Minus ou Plus.",
+            "lgpe": "L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Minus ou Plus.",
+            "swsh": "L'Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Moins ou Plus.",
+            "sv": "L’Attaque Spéciale du Pokémon augmente\\nsi un Pokémon allié a le talent Moins ou Plus."
+        },
+        "english": {
+            "rs": "Powers up with MINUS.",
+            "em": "Powers up with MINUS.",
+            "frlg": "Powers up with MINUS.",
+            "dp": "Boosts Sp. Atk if another Pokémon has Minus.",
+            "pt": "Boosts Sp. Atk if another Pokémon has Minus.",
+            "hgss": "Ups Sp. Atk if another Pokémon has Minus.",
+            "bw": "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+            "b2w2": "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+            "xy": "Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.",
+            "oras": "Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.",
+            "sm": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+            "usum": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+            "lgpe": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+            "swsh": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+            "sv": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle."
+        },
+        "japanese-kana": {
+            "xy": "プラスかマイナスがいると とくこうが　あがる。",
+            "oras": "プラスかマイナスがいると とくこうが　あがる。",
+            "sm": "プラスか　マイナスの　とくせいを　もつ ポケモンが　なかまに　いると じぶんの　とくこうが　あがる。",
+            "usum": "プラスか　マイナスの　とくせいを　もつ ポケモンが　なかまに　いると じぶんの　とくこうが　あがる。",
+            "lgpe": "プラスか　マイナスの　とくせいを　もつ ポケモンが　なかまに　いると じぶんの　とくこうが　あがる。",
+            "swsh": "プラスか　マイナスの　とくせいを　もつ ポケモンが　なかまに　いると じぶんの　とくこうが　あがる。"
+        },
+        "korean": {
+            "xy": "플러스나 마이너스가 있으면 특수공격이 올라간다.",
+            "oras": "플러스나 마이너스가 있으면 특수공격이 올라간다.",
+            "sm": "플러스나 마이너스의 특성을 가진 포켓몬이 동료에 있으면 자신의 특수공격이 올라간다.",
+            "usum": "플러스나 마이너스의 특성을 가진 포켓몬이 동료에 있으면 자신의 특수공격이 올라간다.",
+            "lgpe": "플러스나 마이너스의 특성을 가진 포켓몬이 동료에 있으면 자신의 특수공격이 올라간다.",
+            "swsh": "플러스나 마이너스의 특성을 가진 포켓몬이 동료에 있으면 자신의 특수공격이 올라간다."
+        },
+        "german": {
+            "xy": "Erhöht den Spezial-Angriff, wenn Plus oder Minus vertreten sind.",
+            "oras": "Erhöht den Spezial-Angriff, wenn Plus oder Minus vertreten ist.",
+            "sm": "Erhöht den Spezial-Angriff, wenn das Pokémon einen Mitstreiter mit der Fähigkeit Plus oder Minus hat.",
+            "usum": "Erhöht den Spezial-Angriff, wenn das Pokémon einen Mitstreiter mit der Fähigkeit Plus oder Minus hat.",
+            "lgpe": "Erhöht den Spezial-Angriff, wenn das Pokémon einen Mitstreiter mit der Fähigkeit Plus oder Minus hat.",
+            "swsh": "Erhöht den Spezial-Angriff, wenn das Pokémon einen Mitstreiter mit der Fähigkeit Plus oder Minus hat."
+        },
+        "spanish": {
+            "xy": "Potencia el At. Esp. si algún otro Pokémon tiene Más o Menos.",
+            "oras": "Potencia el At. Esp. si algún otro Pokémon tiene Más o Menos.",
+            "sm": "Potencia el Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+            "usum": "Potencia el Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+            "lgpe": "Potencia el Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+            "swsh": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos."
+        },
+        "italian": {
+            "xy": "Aumenta l’Attacco Speciale se ci sono Pokémon con Meno o Più.",
+            "oras": "Aumenta l’Attacco Speciale se ci sono Pokémon con Meno o Più.",
+            "sm": "Aumenta l’Attacco Speciale se ci sono alleati con l’abilità Meno o Più.",
+            "usum": "Aumenta l’Attacco Speciale se ci sono alleati con l’abilità Meno o Più.",
+            "lgpe": "Aumenta l’Attacco Speciale se ci sono alleati con l’abilità Meno o Più.",
+            "swsh": "L’Attacco Speciale aumenta se ci sono alleati con l’abilità Meno o Più."
+        },
+        "japanese": {
+            "xy": "プラスかマイナスがいると 特攻が　あがる。",
+            "oras": "プラスかマイナスがいると 特攻が　あがる。",
+            "sm": "プラスか　マイナスの　特性を　持つ ポケモンが　仲間に　いると 自分の　特攻が　上がる。",
+            "usum": "プラスか　マイナスの　特性を　持つ ポケモンが　仲間に　いると 自分の　特攻が　上がる。",
+            "lgpe": "プラスか　マイナスの　特性を　持つ ポケモンが　仲間に　いると 自分の　特攻が　上がる。",
+            "swsh": "プラスか　マイナスの　特性を　持つ ポケモンが　仲間に　いると 自分の　特攻が　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potencia el At. Esp. si algún otro Pokémon tiene Más o Menos.",
+            "oras": "Potencia el At. Esp. si algún otro Pokémon tiene Más o Menos.",
+            "sm": "Potencia el Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+            "usum": "Potencia el Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+            "lgpe": "Potencia el Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+            "swsh": "Potencia su Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos."
+        },
+        "traditional-chinese": {
+            "sm": "場上的夥伴之中， 如果有正電或負電特性的寶可夢， 自己的特攻會提高。",
+            "usum": "場上的夥伴之中， 如果有正電或負電特性的寶可夢， 自己的特攻會提高。",
+            "lgpe": "場上的夥伴之中， 如果有正電或負電特性的寶可夢， 自己的特攻會提高。",
+            "swsh": "場上的夥伴之中， 如果有正電或負電特性的寶可夢， 自己的特攻會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "出场的伙伴之间 如果有正电或负电特性的宝可梦， 自己的特攻会提高。",
+            "usum": "出场的伙伴之间 如果有正电或负电特性的宝可梦， 自己的特攻会提高。",
+            "lgpe": "出场的伙伴之间 如果有正电或负电特性的宝可梦， 自己的特攻会提高。",
+            "swsh": "出场的伙伴之间 如果有正电或负电特性的宝可梦， 自己的特攻会提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            311,
+            599,
+            600,
+            601,
+            849
+        ],
+        "hidden": [
+            179,
+            180,
+            181,
+            702
+        ]
+    }
 }

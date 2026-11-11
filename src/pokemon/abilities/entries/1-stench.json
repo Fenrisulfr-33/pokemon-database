@@ -1,32 +1,153 @@
 {
-  "_id": 1,
-  "key": "stench",
-  "name": {
-    "english": "Stench"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Has a 10% chance of making target Pokémon flinch with each hit.",
-    "full": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect. This ability does not stack with a held item. Overworld: The wild encounter rate is halved while this Pokémon is first in the party."
-  },
-  "description": {
-    "ruby-sapphire": "Helps repel wild POKéMON.",
-    "emerald": "Helps repel wild POKéMON.",
-    "firered-leafgreen": "Helps repel wild POKéMON.",
-    "diamond-pearl": "The stench helps keep wild Pokémon away.",
-    "platinum": "The stench helps keep wild Pokémon away.",
-    "heartgold-soulsilver": "The stench helps keep wild Pokémon away.",
-    "black-white": "The stench may cause the target to flinch.",
-    "black-2-white-2": "The stench may cause the target to flinch.",
-    "x-y": "The stench may cause the target to flinch.",
-    "omega-ruby-alpha-sapphire": "The stench may cause the target to flinch.",
-    "sun-moon": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
-    "ultra-sun-ultra-moon": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
-    "lets-go-pikachu-lets-go-eevee": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
-    "sword-shield": "By releasing stench when attacking, this Pokémon may cause the target to flinch."
-  },
-  "pokemonWithAbility": {
-    "normal": [88, 89, 434, 435, 568, 569],
-    "hidden": [44, 109, 110]
-  }
+    "_id": 1,
+    "key": "stench",
+    "name": {
+        "japanese-kana": "あくしゅう",
+        "korean": "악취",
+        "traditional-chinese": "惡臭",
+        "french": "Puanteur",
+        "german": "Duftnote",
+        "spanish": "Hedor",
+        "italian": "Tanfo",
+        "english": "Stench",
+        "japanese": "あくしゅう",
+        "simplified-chinese": "恶臭",
+        "latin-american-spanish": "Hedor"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Has a 10% chance of making target Pokémon flinch with each hit.",
+        "full": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect. This ability does not stack with a held item. Overworld: The wild encounter rate is halved while this Pokémon is first in the party."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "N'a aucun effet en combat."
+        },
+        "german": {
+            "bw": "Hat im Kampf keinen Effekt."
+        },
+        "english": {
+            "bw": "Has no effect in battle."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Repousse POKéMON sauvage.",
+            "em": "Repousse POKéMON sauvage.",
+            "frlg": "Repousse POKéMON sauvage.",
+            "dp": "La puanteur peut repousser les Pokémon sauvages.",
+            "pt": "La puanteur peut repousser les Pokémon sauvages.",
+            "hgss": "La puanteur peut repousser les Pokémon sauvages.",
+            "bw": "La puanteur peut effrayer l'adversaire.",
+            "xd": "La puanteur peut effrayer l'adversaire.",
+            "b2w2": "La puanteur peut effrayer l'adversaire.",
+            "xy": "La puanteur peut effrayer l’adversaire.",
+            "oras": "La puanteur peut effrayer l'adversaire.",
+            "sm": "Le Pokémon émet une odeur si nauséabonde qu'il peut effrayer sa cible.",
+            "usum": "Le Pokémon émet une odeur si nauséabonde qu'il peut effrayer sa cible.",
+            "lgpe": "Le Pokémon émet une odeur si nauséabonde qu’il peut effrayer sa cible.",
+            "swsh": "Le Pokémon émet une odeur si nauséabonde qu'il peut effrayer sa cible.",
+            "sv": "Le Pokémon émet une odeur si nauséabonde qu'il peut effrayer sa cible en l'attaquant."
+        },
+        "english": {
+            "rs": "Helps repel wild POKéMON.",
+            "em": "Helps repel wild POKéMON.",
+            "frlg": "Helps repel wild POKéMON.",
+            "dp": "The stench helps keep wild Pokémon away.",
+            "pt": "The stench helps keep wild Pokémon away.",
+            "hgss": "The stench helps keep wild Pokémon away.",
+            "bw": "The stench may cause the target to flinch.",
+            "b2w2": "The stench may cause the target to flinch.",
+            "xy": "The stench may cause the target to flinch.",
+            "oras": "The stench may cause the target to flinch.",
+            "sm": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
+            "usum": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
+            "lgpe": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
+            "swsh": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
+            "sv": "By releasing a stench when attacking, the Pokémon may cause the target to flinch."
+        },
+        "japanese-kana": {
+            "xy": "くさくて　あいてが ひるむ　ことがある。",
+            "oras": "くさくて　あいてが ひるむ　ことがある。",
+            "sm": "くさい　においを　はなつことによって こうげきした　ときに　あいてを ひるませることが　ある。",
+            "usum": "くさい　においを　はなつことによって こうげきした　ときに　あいてを ひるませることが　ある。",
+            "lgpe": "くさい　においを　はなつことによって こうげきした　ときに　あいてを ひるませることが　ある。",
+            "swsh": "くさい　においを　はなつことによって こうげきした　ときに　あいてを ひるませることが　ある。"
+        },
+        "korean": {
+            "xy": "악취 때문에 상대가 풀죽을 때가 있다.",
+            "oras": "악취 때문에 상대가 풀죽을 때가 있다.",
+            "sm": "악취를 풍겨서 공격했을 때 상대가 풀죽을 때가 있다.",
+            "usum": "악취를 풍겨서 공격했을 때 상대가 풀죽을 때가 있다.",
+            "lgpe": "악취를 풍겨서 공격했을 때 상대가 풀죽을 때가 있다.",
+            "swsh": "악취를 풍겨서 공격했을 때 상대가 풀죽을 때가 있다."
+        },
+        "german": {
+            "xy": "Lässt den Gegner durch Gestank zurückschrecken.",
+            "oras": "Lässt den Gegner durch Gestank zurückschrecken.",
+            "sm": "Lässt das Ziel beim Angriff eventuell durch Gestank zurückschrecken.",
+            "usum": "Lässt das Ziel beim Angriff eventuell durch Gestank zurückschrecken.",
+            "lgpe": "Lässt das Ziel beim Angriff eventuell durch Gestank zurückschrecken.",
+            "swsh": "Lässt das Ziel beim Angriff eventuell durch Gestank zurückschrecken."
+        },
+        "spanish": {
+            "xy": "Es posible que el rival retroceda por el mal olor.",
+            "oras": "Es posible que el rival retroceda por el mal olor.",
+            "sm": "Debido al mal olor que emana, al atacar al rival puede hacerlo retroceder.",
+            "usum": "Debido al mal olor que emana, al atacar al rival puede hacerlo retroceder.",
+            "lgpe": "Debido al mal olor que emana, al atacar al rival puede hacerlo retroceder.",
+            "swsh": "Puede amedrentar al rival al atacarlo debido al mal olor que emana."
+        },
+        "italian": {
+            "xy": "A volte il cattivo odore fa tentennare i nemici.",
+            "oras": "A volte il cattivo odore fa tentennare i nemici.",
+            "sm": "A volte il cattivo odore emesso dal Pokémon fa tentennare i nemici quando attacca.",
+            "usum": "A volte il cattivo odore emesso dal Pokémon fa tentennare i nemici quando attacca.",
+            "lgpe": "A volte il cattivo odore emesso dal Pokémon fa tentennare i nemici quando attacca.",
+            "swsh": "A volte il cattivo odore emesso dal Pokémon fa tentennare i nemici quando attacca."
+        },
+        "japanese": {
+            "xy": "臭くて　相手が ひるむ　ことがある。",
+            "oras": "臭くて　相手が ひるむ　ことがある。",
+            "sm": "臭い　においを　放つことによって 攻撃した　ときに　相手を ひるませることが　ある。",
+            "usum": "臭い　においを　放つことによって 攻撃した　ときに　相手を ひるませることが　ある。",
+            "lgpe": "臭い　においを　放つことによって 攻撃した　ときに　相手を ひるませることが　ある。",
+            "swsh": "臭い　においを　放つことによって 攻撃した　ときに　相手を ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Es posible que el rival retroceda por el mal olor.",
+            "oras": "Es posible que el rival retroceda por el mal olor.",
+            "sm": "Debido al mal olor que emana, al atacar al rival puede hacerlo retroceder.",
+            "usum": "Debido al mal olor que emana, al atacar al rival puede hacerlo retroceder.",
+            "lgpe": "Debido al mal olor que emana, al atacar al rival puede hacerlo retroceder.",
+            "swsh": "Puede amedrentar al rival al atacarlo debido al mal olor que emana."
+        },
+        "traditional-chinese": {
+            "sm": "發出臭氣， 在攻擊的時候， 有時會使對手畏縮。",
+            "usum": "發出臭氣， 在攻擊的時候， 有時會使對手畏縮。",
+            "lgpe": "發出臭氣， 在攻擊的時候， 有時會使對手畏縮。",
+            "swsh": "發出臭氣， 在攻擊的時候， 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "通过释放臭臭的气味， 在攻击的时候， 有时会使对手畏缩。",
+            "usum": "通过释放臭臭的气味， 在攻击的时候， 有时会使对手畏缩。",
+            "lgpe": "通过释放臭臭的气味， 在攻击的时候， 有时会使对手畏缩。",
+            "swsh": "通过释放臭臭的气味， 在攻击的时候， 有时会使对手畏缩。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            88,
+            89,
+            434,
+            435,
+            568,
+            569
+        ],
+        "hidden": [
+            44,
+            109,
+            110
+        ]
+    }
 }

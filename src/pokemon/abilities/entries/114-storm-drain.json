@@ -1,29 +1,147 @@
 {
-  "_id": 114,
-  "key": "storm-drain",
-  "name": {
-    "english": "Storm Drain"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Redirects single-target water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage.",
-    "full": "All other Pokémon's single-target water-type moves are redirected to this Pokémon, if it is an eligible target. Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it. If the move's intended target also has this ability, the move is not redirected. When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon. follow me takes precedence over this ability."
-  },
-  "description": {
-    "diamond-pearl": "The Pokémon draws in all Water-type moves.",
-    "platinum": "The Pokémon draws in all Water-type moves.",
-    "heartgold-soulsilver": "The Pokémon draws in all Water-type moves.",
-    "black-white": "Draws in all Water-type moves to up Sp. Attack.",
-    "black-2-white-2": "Draws in all Water-type moves to up Sp. Attack.",
-    "x-y": "Draws in all Water-type moves to boost its Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "Draws in all Water-type moves to boost its Sp. Atk stat.",
-    "sun-moon": "Draws in all Water-type moves. Instead of being hit  by Water-type moves, it boosts its Sp. Atk.",
-    "ultra-sun-ultra-moon": "Draws in all Water-type moves. Instead of being hit  by Water-type moves, it boosts its Sp. Atk.",
-    "lets-go-pikachu-lets-go-eevee": "Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk.",
-    "sword-shield": "Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk."
-  },
-  "pokemonWithAbility": {
-    "normal": [422, 423, 456, 457],
-    "hidden": [345, 346, 556, 978, 978.1, 978.2]
-  }
+    "_id": 114,
+    "key": "storm-drain",
+    "name": {
+        "japanese-kana": "よびみず",
+        "korean": "마중물",
+        "traditional-chinese": "引水",
+        "french": "Lavabo",
+        "german": "Sturmsog",
+        "spanish": "Colector",
+        "italian": "Acquascolo",
+        "english": "Storm Drain",
+        "japanese": "よびみず",
+        "simplified-chinese": "引水",
+        "latin-american-spanish": "Colector"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Redirects single-target Water moves to this Pokémon where possible.  Absorbs Water moves, raising Special Attack one stage.",
+        "full": "All other Pokémon's single-target Water-type moves are redirected to this Pokémon, if it is an eligible target.  Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it. If the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Redirige les capacités Eau sans les annuler ou garantir aucun boost d'Attaque Spéciale. Ne redirige pas Puissance Cachée."
+        },
+        "german": {
+            "bw": "Leitet Wasser-Attacken um ohne den Spezialangriff Bonus zu gewähren. Leitet Kraftreserve nicht um."
+        },
+        "english": {
+            "bw": "If this Pokemon is not the target of a single-target Water-type move used by another Pokemon, this Pokemon redirects that move to itself. This ability counts hidden power as normal type."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "dp": "Attire les attaques Eau visant un Pokémon.",
+            "pt": "Attire les attaques Eau visant un Pokémon.",
+            "hgss": "Attire les attaques Eau visant un Pokémon.",
+            "bw": "Attire l'eau et augmente l'Atq. Spé.",
+            "b2w2": "Attire l'eau et augmente l'Atq. Spé.",
+            "xy": "Attire et neutralise les attaques Eau, et monte l'Attaque Spéciale.",
+            "oras": "Attire et neutralise les attaques Eau, et monte l'Attaque Spéciale.",
+            "sm": "Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en montant son Attaque Spéciale.",
+            "usum": "Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en montant son Attaque Spéciale.",
+            "lgpe": "Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en montant son Attaque Spéciale.",
+            "swsh": "Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en montant son Attaque Spéciale.",
+            "sv": "Le Pokémon détourne sur lui les capacités de\\ntype Eau et les neutralise, tout en augmentant\\nson Attaque Spéciale."
+        },
+        "english": {
+            "dp": "The Pokémon draws in all Water-type moves.",
+            "pt": "The Pokémon draws in all Water-type moves.",
+            "hgss": "The Pokémon draws in all Water-type moves.",
+            "bw": "Draws in all Water-type moves to up Sp. Attack.",
+            "b2w2": "Draws in all Water-type moves to up Sp. Attack.",
+            "xy": "Draws in all Water-type moves to boost its Sp. Atk stat.",
+            "oras": "Draws in all Water-type moves to boost its Sp. Atk stat.",
+            "sm": "Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk.",
+            "usum": "Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk.",
+            "lgpe": "Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk.",
+            "swsh": "Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk.",
+            "sv": "The Pokémon draws in all Water-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+        },
+        "japanese-kana": {
+            "xy": "みずを　よびこんで とくこうを　あげる。",
+            "oras": "ずを　よびこんで とくこうを　あげる。",
+            "sm": "みずタイプの　わざを　じぶんに　よせつけ ダメージは　うけずに　とくこうが　あがる。",
+            "usum": "みずタイプの　わざを　じぶんに　よせつけ ダメージは　うけずに　とくこうが　あがる。",
+            "lgpe": "みずタイプの　わざを　じぶんに　よせつけ ダメージは　うけずに　とくこうが　あがる。",
+            "swsh": "みずタイプの　わざを　じぶんに　よせつけ ダメージは　うけずに　とくこうが　あがる。"
+        },
+        "korean": {
+            "xy": "물을 끌어모아 특수공격을 올린다.",
+            "oras": "물을 끌어모아 특수공격을 올린다.",
+            "sm": "물타입의 기술을 자신에게 끌어모아 데미지는 받지 않고 특수공격이 올라간다.",
+            "usum": "물타입의 기술을 자신에게 끌어모아 데미지는 받지 않고 특수공격이 올라간다.",
+            "lgpe": "물타입의 기술을 자신에게 끌어모아 데미지는 받지 않고 특수공격이 올라간다.",
+            "swsh": "물타입의 기술을 자신에게 끌어모아 데미지는 받지 않고 특수공격이 올라간다."
+        },
+        "german": {
+            "xy": "Absorbiert Wasser-Attacken und steigert den Spezial-Angriff.",
+            "oras": "Absorbiert Wasser-Attacken und steigert den Spezial-Angriff.",
+            "sm": "Zieht Wasser-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+            "usum": "Zieht Wasser-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+            "lgpe": "Zieht Wasser-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+            "swsh": "Zieht Wasser-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff."
+        },
+        "spanish": {
+            "xy": "Atrae y neutraliza los movimientos de tipo Agua y sube el At. Esp.",
+            "oras": "Atrae y neutraliza los movimientos de tipo Agua y sube el At. Esp.",
+            "sm": "Además de atraer y neutralizar los movimientos de tipo Agua, sube el Ataque Especial.",
+            "usum": "Además de atraer y neutralizar los movimientos de tipo Agua, sube el Ataque Especial.",
+            "lgpe": "Además de atraer y neutralizar los movimientos de tipo Agua, sube el Ataque Especial.",
+            "swsh": "Atrae y neutraliza los movimientos de tipo Agua, que además le suben el Ataque Especial."
+        },
+        "italian": {
+            "xy": "Neutralizza mosse di tipo Acqua per aumentare l’Attacco Speciale.",
+            "oras": "Neutralizza mosse di tipo Acqua per aumentare l’Attacco Speciale.",
+            "sm": "Attira e neutralizza mosse di tipo Acqua e aumenta l’Attacco Speciale.",
+            "usum": "Attira e neutralizza mosse di tipo Acqua e aumenta l’Attacco Speciale.",
+            "lgpe": "Attira e neutralizza mosse di tipo Acqua e aumenta l’Attacco Speciale.",
+            "swsh": "Il Pokémon attira e neutralizza le mosse di tipo Acqua e fa aumentare il proprio Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "みずを　呼び込んで 特攻を　あげる。",
+            "oras": "ずを　呼び込んで 特攻を　あげる。",
+            "sm": "みずタイプの　技を　自分に　よせつけ ダメージは　受けずに　特攻が　上がる。",
+            "usum": "みずタイプの　技を　自分に　よせつけ ダメージは　受けずに　特攻が　上がる。",
+            "lgpe": "みずタイプの　技を　自分に　よせつけ ダメージは　受けずに　特攻が　上がる。",
+            "swsh": "みずタイプの　技を　自分に　よせつけ ダメージは　受けずに　特攻が　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Atrae y neutraliza los movimientos de tipo Agua y sube el At. Esp.",
+            "oras": "Atrae y neutraliza los movimientos de tipo Agua y sube el At. Esp.",
+            "sm": "Además de atraer y neutralizar los movimientos de tipo Agua, sube el Ataque Especial.",
+            "usum": "Además de atraer y neutralizar los movimientos de tipo Agua, sube el Ataque Especial.",
+            "lgpe": "Además de atraer y neutralizar los movimientos de tipo Agua, sube el Ataque Especial.",
+            "swsh": "Atrae y neutraliza los movimientos de tipo Agua, que además le suben el Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "將水屬性的招式引到自己身上， 不但不會受到傷害， 反而會提高特攻。",
+            "usum": "將水屬性的招式引到自己身上， 不但不會受到傷害， 反而會提高特攻。",
+            "lgpe": "將水屬性的招式引到自己身上， 不但不會受到傷害， 反而會提高特攻。",
+            "swsh": "將水屬性的招式引到自己身上， 不但不會受到傷害， 反而會提高特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "将水属性的招式引到自己身上， 不会受到伤害，而是会提高特攻。",
+            "usum": "将水属性的招式引到自己身上， 不会受到伤害，而是会提高特攻。",
+            "lgpe": "将水属性的招式引到自己身上， 不会受到伤害，而是会提高特攻。",
+            "swsh": "将水属性的招式引到自己身上， 不会受到伤害，而是会提高特攻。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            422,
+            423,
+            456,
+            457
+        ],
+        "hidden": [
+            345,
+            346,
+            556,
+            978,
+            978.1,
+            978.2
+        ]
+    }
 }

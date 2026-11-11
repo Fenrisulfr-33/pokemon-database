@@ -1,32 +1,145 @@
 {
-  "_id": 23,
-  "key": "shadow-tag",
-  "name": {
-    "english": "Shadow Tag"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Prevents opponents from fleeing or switching out.",
-    "full": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Other Pokémon with this ability are unaffected. Pokémon with run away can still flee. Pokémon can still switch out with the use of a move or item."
-  },
-  "description": {
-    "ruby-sapphire": "Prevents the foe’s escape.",
-    "emerald": "Prevents the foe’s escape.",
-    "firered-leafgreen": "Prevents the foe’s escape.",
-    "diamond-pearl": "Prevents the foe from escaping.",
-    "platinum": "Prevents the foe from escaping.",
-    "heartgold-soulsilver": "Prevents the foe from escaping.",
-    "black-white": "Prevents the foe from escaping.",
-    "black-2-white-2": "Prevents the foe from escaping.",
-    "x-y": "Prevents opposing Pokémon from escaping.",
-    "omega-ruby-alpha-sapphire": "Prevents opposing Pokémon from escaping.",
-    "sun-moon": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
-    "ultra-sun-ultra-moon": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
-    "lets-go-pikachu-lets-go-eevee": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
-    "sword-shield": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping."
-  },
-  "pokemonWithAbility": {
-    "normal": [94.1, 202, 360],
-    "hidden": [574, 575, 576]
-  }
+    "_id": 23,
+    "key": "shadow-tag",
+    "name": {
+        "japanese-kana": "かげふみ",
+        "korean": "그림자밟기",
+        "traditional-chinese": "踩影",
+        "french": "Marque Ombre",
+        "german": "Wegsperre",
+        "spanish": "Sombra Trampa",
+        "italian": "Pedinombra",
+        "english": "Shadow Tag",
+        "japanese": "かげふみ",
+        "simplified-chinese": "踩影",
+        "latin-american-spanish": "Sombra Trampa"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Prevents opponents from fleeing or switching out.",
+        "full": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Other Pokémon with this ability are unaffected.  Pokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item."
+    },
+    "effectChanges": {
+        "french": {
+            "dp": "Affecte les autres Pokémon avec ce talent."
+        },
+        "german": {
+            "dp": "Betrifft andere Pokémon mit dieser Fähigkeit."
+        },
+        "english": {
+            "dp": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Pokémon with Run Away can still flee."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Empêche la fuite ennemie.",
+            "em": "Empêche la fuite ennemie.",
+            "frlg": "Empêche la fuite ennemie.",
+            "bw": "Empêche le Pokémon ennemi de quitter le combat.",
+            "xy": "Empêche le Pokémon ennemi de quitter le combat.",
+            "oras": "Empêche le Pokémon ennemi de quitter le combat.",
+            "sm": "Empêche le Pokémon ennemi de quitter le combat.",
+            "usum": "Empêche le Pokémon ennemi de quitter le combat.",
+            "lgpe": "Empêche le Pokémon ennemi de quitter le combat.",
+            "swsh": "Empêche le Pokémon ennemi de quitter le combat.",
+            "sv": "Empêche les Pokémon ennemis de quitter le terrain."
+        },
+        "english": {
+            "rs": "Prevents the foe’s escape.",
+            "em": "Prevents the foe’s escape.",
+            "frlg": "Prevents the foe’s escape.",
+            "dp": "Prevents the foe from escaping.",
+            "pt": "Prevents the foe from escaping.",
+            "hgss": "Prevents the foe from escaping.",
+            "bw": "Prevents the foe from escaping.",
+            "b2w2": "Prevents the foe from escaping.",
+            "xy": "Prevents opposing Pokémon from escaping.",
+            "oras": "Prevents opposing Pokémon from escaping.",
+            "sm": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
+            "usum": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
+            "lgpe": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
+            "swsh": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
+            "sv": "The Pokémon steps on the opposing Pokémon's shadows to prevent them from fleeing or switching out."
+        },
+        "japanese-kana": {
+            "xy": "あいての　かげをふみ にげられなくする。",
+            "oras": "あいての　かげをふ  にげられなくする。",
+            "sm": "あいての　かげを　ふみ にげたり　こうたい　できなくする。",
+            "usum": "あいての　かげを　ふみ にげたり　こうたい　できなくする。",
+            "lgpe": "あいての　かげを　ふみ にげたり　こうたい　できなくする。",
+            "swsh": "あいての　かげを　ふみ にげたり　こうたい　できなくする。"
+        },
+        "korean": {
+            "xy": "상대의 그림자를 밟아 도망칠 수 없게 한다.",
+            "oras": "상대의 그림자를 밟아 도망칠 수 없게 한다.",
+            "sm": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다.",
+            "usum": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다.",
+            "lgpe": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다.",
+            "swsh": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다."
+        },
+        "german": {
+            "xy": "Hindert Gegner an der Flucht.",
+            "oras": "Hindert Gegner an der Flucht.",
+            "sm": "Hindert den Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihm den Weg versperrt.",
+            "usum": "Hindert den Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihm den Weg versperrt.",
+            "lgpe": "Hindert den Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihm den Weg versperrt.",
+            "swsh": "Hindert Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihnen den Weg versperrt."
+        },
+        "spanish": {
+            "xy": "Evita que el enemigo huya.",
+            "oras": "Evita que el enemigo huya.",
+            "sm": "Evita que el enemigo huya o sea cambiado por otro.",
+            "usum": "Evita que el enemigo huya o sea cambiado por otro.",
+            "lgpe": "Evita que el enemigo huya o sea cambiado por otro.",
+            "swsh": "Impide que el enemigo huya o sea cambiado por otro."
+        },
+        "italian": {
+            "xy": "Impedisce la fuga al nemico.",
+            "oras": "Impedisce la fuga al nemico.",
+            "sm": "Calpesta l’ombra del nemico impedendogli la fuga o la sostituzione.",
+            "usum": "Calpesta l’ombra del nemico impedendogli la fuga o la sostituzione.",
+            "lgpe": "Calpesta l’ombra del nemico impedendogli la fuga o la sostituzione.",
+            "swsh": "Il Pokémon calpesta l’ombra del nemico impedendogli la fuga o la sostituzione."
+        },
+        "japanese": {
+            "xy": "相手の　影をふみ 逃げられなくする。",
+            "oras": "相手の　影をふ  逃げられなくする。",
+            "sm": "相手の　影を　踏み 逃げたり　交代　できなくする。",
+            "usum": "相手の　影を　踏み 逃げたり　交代　できなくする。",
+            "lgpe": "相手の　影を　踏み 逃げたり　交代　できなくする。",
+            "swsh": "相手の　影を　踏み 逃げたり　交代　できなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Evita que el enemigo huya.",
+            "oras": "Evita que el enemigo huya.",
+            "sm": "Evita que el enemigo huya o sea cambiado por otro.",
+            "usum": "Evita que el enemigo huya o sea cambiado por otro.",
+            "lgpe": "Evita que el enemigo huya o sea cambiado por otro.",
+            "swsh": "Impide que el enemigo huya o sea cambiado por otro."
+        },
+        "traditional-chinese": {
+            "sm": "踩住對手的影子 使其無法逃走或替換。",
+            "usum": "踩住對手的影子 使其無法逃走或替換。",
+            "lgpe": "踩住對手的影子 使其無法逃走或替換。",
+            "swsh": "踩住對手的影子 使其無法逃走或替換。"
+        },
+        "simplified-chinese": {
+            "sm": "踩住对手的影子 使其无法逃走或替换。",
+            "usum": "踩住对手的影子 使其无法逃走或替换。",
+            "lgpe": "踩住对手的影子 使其无法逃走或替换。",
+            "swsh": "踩住对手的影子 使其无法逃走或替换。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            94.1,
+            202,
+            360
+        ],
+        "hidden": [
+            574,
+            575,
+            576
+        ]
+    }
 }

@@ -36,13 +36,13 @@
                 "full": { "type": "string", "minLength": 1 }
             }
         },
-        "description": {
-            "type": "object",
-            "patternProperties": {
-                "^[a-z0-9-]+$": {
-                    "type": "string"
-                }
-            }
+        "effectChanges": {
+            "$ref": "#/definitions/textByLanguageAndGame",
+            "description": "Older effect text, keyed by language, then game key (constants/GAME_KEYS.js)"
+        },
+        "flavorText": {
+            "$ref": "#/definitions/textByLanguageAndGame",
+            "description": "In-game ability text, keyed by language, then game key (constants/GAME_KEYS.js)"
         },
         "pokemonWithAbility": {
             "type": "object",
@@ -64,6 +64,19 @@
         }
     },
     "definitions": {
+        "textByLanguageAndGame": {
+            "type": "object",
+            "additionalProperties": false,
+            "patternProperties": {
+                "^[a-z0-9-]+$": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "patternProperties": {
+                        "^[a-z0-9-]+$": { "type": "string", "minLength": 1 }
+                    }
+                }
+            }
+        },
         "pokemonId": {
             "type": "number",
             "minimum": 1,

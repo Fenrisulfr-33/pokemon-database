@@ -1,32 +1,173 @@
 {
-  "_id": 33,
-  "key": "swift-swim",
-  "name": {
-    "english": "Swift Swim"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Doubles Speed during rain.",
-    "full": "This Pokémon's Speed is doubled during rain. This bonus does not count as a stat modifier."
-  },
-  "description": {
-    "ruby-sapphire": "Raises SPEED in rain.",
-    "emerald": "Raises SPEED in rain.",
-    "firered-leafgreen": "Raises SPEED in rain.",
-    "diamond-pearl": "Boosts the Pokémon’s Speed in rain.",
-    "platinum": "Boosts the Pokémon’s Speed in rain.",
-    "heartgold-soulsilver": "Boosts the Pokémon’s Speed in rain.",
-    "black-white": "Boosts the Pokémon’s Speed in rain.",
-    "black-2-white-2": "Boosts the Pokémon’s Speed in rain.",
-    "x-y": "Boosts the Pokémon’s Speed stat in rain.",
-    "omega-ruby-alpha-sapphire": "Boosts the Pokémon’s Speed stat in rain.",
-    "sun-moon": "Boosts the Pokémon’s Speed stat in rain.",
-    "ultra-sun-ultra-moon": "Boosts the Pokémon’s Speed stat in rain.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts the Pokémon’s Speed stat in rain.",
-    "sword-shield": "Boosts the Pokémon’s Speed stat in rain."
-  },
-  "pokemonWithAbility": {
-    "normal": [116, 118, 119, 129, 138, 139, 140, 141, 211, 226, 230, 260.1, 270, 271, 272, 283, 349, 367, 368, 369, 370, 418, 419, 456, 457, 458, 535, 536, 537, 846, 847, 904],
-    "hidden": [54, 55, 60, 61, 62, 347, 348, 564, 565, 614, 833, 834]
-  }
+    "_id": 33,
+    "key": "swift-swim",
+    "name": {
+        "japanese-kana": "すいすい",
+        "korean": "쓱쓱",
+        "traditional-chinese": "悠游自如",
+        "french": "Glissade",
+        "german": "Wassertempo",
+        "spanish": "Nado Rápido",
+        "italian": "Nuotovelox",
+        "english": "Swift Swim",
+        "japanese": "すいすい",
+        "simplified-chinese": "悠游自如",
+        "latin-american-spanish": "Nado Rápido"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Doubles Speed during rain.",
+        "full": "This Pokémon's Speed is doubled during rain. This bonus does not count as a stat modifier."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "rs": "Monte VITESSE s'il pleut.",
+            "em": "Monte VITESSE s'il pleut.",
+            "frlg": "Monte VITESSE s'il pleut.",
+            "bw": "Augmente la Vitesse du Pokémon s’il pleut.",
+            "xy": "Augmente la Vitesse du Pokémon s'il pleut.",
+            "oras": "Augmente la Vitesse du Pokémon s'il pleut.",
+            "sm": "Augmente la Vitesse du Pokémon s'il pleut.",
+            "usum": "Augmente la Vitesse du Pokémon s'il pleut.",
+            "lgpe": "Augmente la Vitesse du Pokémon s’il pleut.",
+            "swsh": "Augmente la Vitesse du Pokémon s'il pleut.",
+            "sv": "Augmente la Vitesse du Pokémon s'il pleut."
+        },
+        "english": {
+            "rs": "Raises SPEED in rain.",
+            "em": "Raises SPEED in rain.",
+            "frlg": "Raises SPEED in rain.",
+            "dp": "Boosts the Pokémon’s Speed in rain.",
+            "pt": "Boosts the Pokémon’s Speed in rain.",
+            "hgss": "Boosts the Pokémon’s Speed in rain.",
+            "bw": "Boosts the Pokémon’s Speed in rain.",
+            "b2w2": "Boosts the Pokémon’s Speed in rain.",
+            "xy": "Boosts the Pokémon’s Speed stat in rain.",
+            "oras": "Boosts the Pokémon’s Speed stat in rain.",
+            "sm": "Boosts the Pokémon’s Speed stat in rain.",
+            "usum": "Boosts the Pokémon’s Speed stat in rain.",
+            "lgpe": "Boosts the Pokémon’s Speed stat in rain.",
+            "swsh": "Boosts the Pokémon’s Speed stat in rain.",
+            "sv": "Boosts the Pokémon's Speed stat in rain."
+        },
+        "japanese-kana": {
+            "xy": "あめのとき　すばやさが あがる。",
+            "oras": "あめのとき　すばやさが あがる。",
+            "sm": "てんきが　あめのとき すばやさが　あがる。",
+            "usum": "てんきが　あめのとき すばやさが　あがる。",
+            "lgpe": "てんきが　あめのとき すばやさが　あがる。",
+            "swsh": "てんきが　あめのとき すばやさが　あがる。"
+        },
+        "korean": {
+            "xy": "비가 올 때 스피드가 올라간다.",
+            "oras": "비가 올 때 스피드가 올라간다.",
+            "sm": "비가 오는 날씨일 때 스피드가 올라간다.",
+            "usum": "비가 오는 날씨일 때 스피드가 올라간다.",
+            "lgpe": "비가 오는 날씨일 때 스피드가 올라간다.",
+            "swsh": "비가 오는 날씨일 때 스피드가 올라간다."
+        },
+        "german": {
+            "xy": "Steigert bei Regen die Initiative.",
+            "oras": "Steigert bei Regen die Initiative.",
+            "sm": "Erhöht bei Regen die Initiative.",
+            "usum": "Erhöht bei Regen die Initiative.",
+            "lgpe": "Erhöht bei Regen die Initiative.",
+            "swsh": "Erhöht bei Regen die Initiative."
+        },
+        "spanish": {
+            "xy": "Sube la Velocidad cuando hay lluvia.",
+            "oras": "Sube la Velocidad cuando hay lluvia.",
+            "sm": "Sube la Velocidad cuando llueve.",
+            "usum": "Sube la Velocidad cuando llueve.",
+            "lgpe": "Sube la Velocidad cuando llueve.",
+            "swsh": "Sube su Velocidad cuando llueve."
+        },
+        "italian": {
+            "xy": "Se piove, la statistica Velocità aumenta.",
+            "oras": "Se piove, la statistica Velocità aumenta.",
+            "sm": "Se piove, la Velocità aumenta.",
+            "usum": "Se piove, la Velocità aumenta.",
+            "lgpe": "Se piove, la Velocità aumenta.",
+            "swsh": "Se piove, la Velocità aumenta."
+        },
+        "japanese": {
+            "xy": "雨のとき　素早さが あがる。",
+            "oras": "雨のとき　素早さが あがる。",
+            "sm": "天気が　雨のとき 素早さが　上がる。",
+            "usum": "天気が　雨のとき 素早さが　上がる。",
+            "lgpe": "天気が　雨のとき 素早さが　上がる。",
+            "swsh": "天気が　雨のとき 素早さが　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Sube la Velocidad cuando hay lluvia.",
+            "oras": "Sube la Velocidad cuando hay lluvia.",
+            "sm": "Sube la Velocidad cuando llueve.",
+            "usum": "Sube la Velocidad cuando llueve.",
+            "lgpe": "Sube la Velocidad cuando llueve.",
+            "swsh": "Sube su Velocidad cuando llueve."
+        },
+        "traditional-chinese": {
+            "sm": "天氣為下雨時， 速度會提高。",
+            "usum": "天氣為下雨時， 速度會提高。",
+            "lgpe": "天氣為下雨時， 速度會提高。",
+            "swsh": "天氣為下雨時， 速度會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "下雨天气时， 速度会提高。",
+            "usum": "下雨天气时， 速度会提高。",
+            "lgpe": "下雨天气时， 速度会提高。",
+            "swsh": "下雨天气时， 速度会提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            116,
+            118,
+            119,
+            129,
+            138,
+            139,
+            140,
+            141,
+            211,
+            226,
+            230,
+            260.1,
+            270,
+            271,
+            272,
+            283,
+            349,
+            367,
+            368,
+            369,
+            370,
+            418,
+            419,
+            456,
+            457,
+            458,
+            535,
+            536,
+            537,
+            846,
+            847,
+            904
+        ],
+        "hidden": [
+            54,
+            55,
+            60,
+            61,
+            62,
+            347,
+            348,
+            564,
+            565,
+            614,
+            833,
+            834
+        ]
+    }
 }

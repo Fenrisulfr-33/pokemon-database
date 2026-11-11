@@ -1,29 +1,145 @@
 {
-  "_id": 97,
-  "key": "sniper",
-  "name": {
-    "english": "Sniper"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Strengthens critical hits to inflict 3× damage rather than 2×.",
-    "full": "This Pokémon inflicts triple damage with critical hits, rather than the usual double damage."
-  },
-  "description": {
-    "diamond-pearl": "Powers up moves if they become critical hits.",
-    "platinum": "Powers up moves if they become critical hits.",
-    "heartgold-soulsilver": "Powers up moves if they become critical hits.",
-    "black-white": "Powers up moves if they become critical hits.",
-    "black-2-white-2": "Powers up moves if they become critical hits.",
-    "x-y": "Powers up moves if they become critical hits.",
-    "omega-ruby-alpha-sapphire": "Powers up moves if they become critical hits.",
-    "sun-moon": "Powers up moves if they become critical hits when attacking.",
-    "ultra-sun-ultra-moon": "Powers up moves if they become critical hits when attacking.",
-    "lets-go-pikachu-lets-go-eevee": "Powers up moves if they become critical hits when attacking.",
-    "sword-shield": "Powers up moves if they become critical hits when attacking."
-  },
-  "pokemonWithAbility": {
-    "normal": [116, 117, 223, 224, 230, 451, 452, 688, 689],
-    "hidden": [15, 21, 22, 167, 168, 816, 817, 818]
-  }
+    "_id": 97,
+    "key": "sniper",
+    "name": {
+        "japanese-kana": "スナイパー",
+        "korean": "스나이퍼",
+        "traditional-chinese": "狙擊手",
+        "french": "Sniper",
+        "german": "Superschütze",
+        "spanish": "Francotirador",
+        "italian": "Cecchino",
+        "english": "Sniper",
+        "japanese": "スナイパー",
+        "simplified-chinese": "狙击手",
+        "latin-american-spanish": "Puntería"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Strengthens critical hits to inflict 3× damage rather than 2×.",
+        "full": "This Pokémon inflicts triple damage with critical hits, rather than the usual double damage."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "dp": "Booste les capacités qui sont des coups critiques.",
+            "pt": "Booste les capacités qui sont des coups critiques.",
+            "hgss": "Booste les capacités qui sont des coups critiques.",
+            "bw": "Augmente la puissance des coups critiques.",
+            "xd": "Augmente la puissance des coups critiques.",
+            "b2w2": "Augmente la puissance des coups critiques.",
+            "xy": "Augmente la puissance des coups critiques.",
+            "oras": "Augmente la puissance des coups critiques.",
+            "sm": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d'habitude.",
+            "usum": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d'habitude.",
+            "lgpe": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d’habitude.",
+            "swsh": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d'habitude.",
+            "ttm": "Lorsque le Pokémon porte un coup critique, les dégâts\\ninfligés augmentent encore plus que d’habitude."
+        },
+        "english": {
+            "dp": "Powers up moves if they become critical hits.",
+            "pt": "Powers up moves if they become critical hits.",
+            "hgss": "Powers up moves if they become critical hits.",
+            "bw": "Powers up moves if they become critical hits.",
+            "b2w2": "Powers up moves if they become critical hits.",
+            "xy": "Powers up moves if they become critical hits.",
+            "oras": "Powers up moves if they become critical hits.",
+            "sm": "Powers up moves if they become critical hits when attacking.",
+            "usum": "Powers up moves if they become critical hits when attacking.",
+            "lgpe": "Powers up moves if they become critical hits when attacking.",
+            "swsh": "Powers up moves if they become critical hits when attacking.",
+            "ttm": "If the Pokémon's attack lands a critical hit, the attack is powered up even further."
+        },
+        "japanese-kana": {
+            "xy": "きゅうしょに　あてたとき いりょくが　あがる。",
+            "oras": "きゅうしょに　あてたとき いりょくが　あがる。",
+            "sm": "こうげきを　きゅうしょに　あてると いりょくが　さらに　あがる。",
+            "usum": "こうげきを　きゅうしょに　あてると いりょくが　さらに　あがる。",
+            "lgpe": "こうげきを　きゅうしょに　あてると いりょくが　さらに　あがる。",
+            "swsh": "こうげきを　きゅうしょに　あてると いりょくが　さらに　あがる。"
+        },
+        "korean": {
+            "xy": "급소에 맞혔을 때 위력이 올라간다.",
+            "oras": "급소에 맞혔을 때 위력이 올라간다.",
+            "sm": "공격을 급소에 맞혔을 때 위력이 더욱 올라간다.",
+            "usum": "공격을 급소에 맞혔을 때 위력이 더욱 올라간다.",
+            "lgpe": "공격을 급소에 맞혔을 때 위력이 더욱 올라간다.",
+            "swsh": "공격을 급소에 맞혔을 때 위력이 더욱 올라간다."
+        },
+        "german": {
+            "xy": "Steigert den Schaden von Volltreffern.",
+            "oras": "Steigert den Schaden von Volltreffern.",
+            "sm": "Erhöht bei Volltreffern die Stärke der Attacke noch weiter.",
+            "usum": "Erhöht bei Volltreffern die Stärke der Attacke noch weiter.",
+            "lgpe": "Erhöht bei Volltreffern die Stärke der Attacke noch weiter.",
+            "swsh": "Erhöht bei Volltreffern die Stärke der Attacke noch weiter."
+        },
+        "spanish": {
+            "xy": "Potencia los movimientos si se vuelven críticos.",
+            "oras": "Potencia los movimientos si se vuelven críticos.",
+            "sm": "Potencia los golpes críticos aún más de lo normal.",
+            "usum": "Potencia los golpes críticos aún más de lo normal.",
+            "lgpe": "Potencia los golpes críticos aún más de lo normal.",
+            "swsh": "Potencia los golpes críticos que asesta aún más de lo normal."
+        },
+        "italian": {
+            "xy": "Aumenta i danni inflitti dai brutti colpi.",
+            "oras": "Aumenta i danni inflitti dai brutti colpi.",
+            "sm": "Aumenta ulteriormente i danni inflitti dai brutti colpi.",
+            "usum": "Aumenta ulteriormente i danni inflitti dai brutti colpi.",
+            "lgpe": "Aumenta ulteriormente i danni inflitti dai brutti colpi.",
+            "swsh": "Aumenta ulteriormente i danni inflitti dai brutti colpi."
+        },
+        "japanese": {
+            "xy": "急所に　当てたとき 威力が　あがる。",
+            "oras": "急所に　当てたとき 威力が　あがる。",
+            "sm": "攻撃を　急所に　当てると 威力が　さらに　上がる。",
+            "usum": "攻撃を　急所に　当てると 威力が　さらに　上がる。",
+            "lgpe": "攻撃を　急所に　当てると 威力が　さらに　上がる。",
+            "swsh": "攻撃を　急所に　当てると 威力が　さらに　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potencia los movimientos si se vuelven críticos.",
+            "oras": "Potencia los movimientos si se vuelven críticos.",
+            "sm": "Potencia los golpes críticos aún más de lo normal.",
+            "usum": "Potencia los golpes críticos aún más de lo normal.",
+            "lgpe": "Potencia los golpes críticos aún más de lo normal.",
+            "swsh": "Potencia los golpes críticos que asesta aún más de lo normal."
+        },
+        "traditional-chinese": {
+            "sm": "擊中要害時， 威力會進一步提高。",
+            "usum": "擊中要害時， 威力會進一步提高。",
+            "lgpe": "擊中要害時， 威力會進一步提高。",
+            "swsh": "擊中要害時， 威力會進一步提高。"
+        },
+        "simplified-chinese": {
+            "sm": "击中要害时， 威力会变得更强。",
+            "usum": "击中要害时， 威力会变得更强。",
+            "lgpe": "击中要害时， 威力会变得更强。",
+            "swsh": "击中要害时， 威力会变得更强。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            116,
+            117,
+            223,
+            224,
+            230,
+            451,
+            452,
+            688,
+            689
+        ],
+        "hidden": [
+            15,
+            21,
+            22,
+            167,
+            168,
+            816,
+            817,
+            818
+        ]
+    }
 }

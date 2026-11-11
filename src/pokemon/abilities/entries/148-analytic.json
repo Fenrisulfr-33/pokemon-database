@@ -1,26 +1,131 @@
 {
-  "_id": 148,
-  "key": "analytic",
-  "name": {
-    "english": "Analytic"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Strengthens moves to 1.3× their power when moving last.",
-    "full": "This Pokémon's moves have 1.3× their power when it moves last in a turn. future sight and doom desire are unaffected."
-  },
-  "description": {
-    "black-white": "Boosts move power when the Pokémon moves last.",
-    "black-2-white-2": "Boosts move power when the Pokémon moves last.",
-    "x-y": "Boosts move power when the Pokémon moves after the target.",
-    "omega-ruby-alpha-sapphire": "Boosts move power when the Pokémon moves after the target.",
-    "sun-moon": "Boosts move power when the Pokémon moves last.",
-    "ultra-sun-ultra-moon": "Boosts move power when the Pokémon moves last.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts move power when the Pokémon moves last.",
-    "sword-shield": "Boosts move power when the Pokémon moves last."
-  },
-  "pokemonWithAbility": {
-    "normal": [],
-    "hidden": [81, 82, 120, 121, 137, 233, 462, 474, 504, 505, 605, 606]
-  }
+    "_id": 148,
+    "key": "analytic",
+    "name": {
+        "japanese-kana": "アナライズ",
+        "korean": "애널라이즈",
+        "traditional-chinese": "分析",
+        "french": "Analyste",
+        "german": "Analyse",
+        "spanish": "Cálculo Final",
+        "italian": "Ponderazione",
+        "english": "Analytic",
+        "japanese": "アナライズ",
+        "simplified-chinese": "分析",
+        "latin-american-spanish": "Cálculo Final"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Strengthens moves to 1.3× their power when moving last.",
+        "full": "This Pokémon's moves have 1.3× their power when it moves last in a turn. Future Sight and Doom Desire are unaffected."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Booste les capacités s’il attaque en dernier.",
+            "xy": "Booste les capacités s’il attaque en dernier.",
+            "oras": "Booste les capacités s’il attaque en dernier.",
+            "sm": "Augmente la puissance des capacités du Pokémon s’il attaque en dernier.",
+            "usum": "Augmente la puissance des capacités du Pokémon s’il attaque en dernier.",
+            "lgpe": "Augmente la puissance des capacités du Pokémon s’il attaque en dernier.",
+            "swsh": "Augmente la puissance des capacités du Pokémon s’il attaque en dernier.",
+            "sv": "Augmente la puissance des capacités du Pokémon\\ns’il attaque en dernier."
+        },
+        "english": {
+            "bw": "Boosts move power when the Pokémon moves last.",
+            "b2w2": "Boosts move power when the Pokémon moves last.",
+            "xy": "Boosts move power when the Pokémon moves after the target.",
+            "oras": "Boosts move power when the Pokémon moves after the target.",
+            "sm": "Boosts move power when the Pokémon moves last.",
+            "usum": "Boosts move power when the Pokémon moves last.",
+            "lgpe": "Boosts move power when the Pokémon moves last.",
+            "swsh": "Boosts move power when the Pokémon moves last.",
+            "sv": "Boosts the power of the Pokémon's move if it is the last to act that turn."
+        },
+        "japanese-kana": {
+            "xy": "いちばん　さいごに わざをだすと　つよくなる。",
+            "oras": "いちばん　さいごに わざをだすと　つよくなる。",
+            "sm": "いちばん　さいごに　わざを　だすと わざの　いりょくが　あがる。",
+            "usum": "いちばん　さいごに　わざを　だすと わざの　いりょくが　あがる。",
+            "lgpe": "いちばん　さいごに　わざを　だすと わざの　いりょくが　あがる。",
+            "swsh": "いちばん　さいごに　わざを　だすと わざの　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "제일 마지막에 기술을 쓰면 강해진다.",
+            "oras": "제일 마지막에 기술을 쓰면 강해진다.",
+            "sm": "제일 마지막에 기술을 쓰면 기술의 위력이 올라간다.",
+            "usum": "제일 마지막에 기술을 쓰면 기술의 위력이 올라간다.",
+            "lgpe": "제일 마지막에 기술을 쓰면 기술의 위력이 올라간다.",
+            "swsh": "제일 마지막에 기술을 쓰면 기술의 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Greift das Pokémon zuletzt an, ist es stärker.",
+            "oras": "Greift das Pokémon zuletzt an, ist es stärker.",
+            "sm": "Greift das Pokémon zuletzt an, erhöht sich die Stärke der Attacke, die es einsetzt.",
+            "usum": "Greift das Pokémon zuletzt an, erhöht sich die Stärke der Attacke, die es einsetzt.",
+            "lgpe": "Greift das Pokémon zuletzt an, erhöht sich die Stärke der Attacke, die es einsetzt.",
+            "swsh": "Greift das Pokémon zuletzt an, erhöht sich die Stärke der Attacke, die es einsetzt."
+        },
+        "spanish": {
+            "xy": "Potencia el movimiento si es el último en atacar.",
+            "oras": "Potencia el movimiento si es el último en atacar.",
+            "sm": "Aumenta la potencia del movimiento si es el último en atacar.",
+            "usum": "Aumenta la potencia del movimiento si es el último en atacar.",
+            "lgpe": "Aumenta la potencia del movimiento si es el último en atacar.",
+            "swsh": "Aumenta la potencia de su movimiento si es el último en atacar."
+        },
+        "italian": {
+            "xy": "Se agisce per ultimo, la potenza della mossa sale.",
+            "oras": "Se agisce per ultimo, la potenza della mossa sale.",
+            "sm": "Se il Pokémon agisce per ultimo, la potenza della mossa aumenta.",
+            "usum": "Se il Pokémon agisce per ultimo, la potenza della mossa aumenta.",
+            "lgpe": "Se il Pokémon agisce per ultimo, la potenza della mossa aumenta.",
+            "swsh": "Se il Pokémon agisce per ultimo, la potenza della mossa aumenta."
+        },
+        "japanese": {
+            "xy": "一番　最後に 技をだすと　強くなる。",
+            "oras": "一番　最後に 技をだすと　強くなる。",
+            "sm": "いちばん　最後に　技を　出すと 技の　威力が　上がる。",
+            "usum": "いちばん　最後に　技を　出すと 技の　威力が　上がる。",
+            "lgpe": "いちばん　最後に　技を　出すと 技の　威力が　上がる。",
+            "swsh": "いちばん　最後に　技を　出すと 技の　威力が　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potencia el movimiento si es el último en atacar.",
+            "oras": "Potencia el movimiento si es el último en atacar.",
+            "sm": "Aumenta la potencia del movimiento si es el último en atacar.",
+            "usum": "Aumenta la potencia del movimiento si es el último en atacar.",
+            "lgpe": "Aumenta la potencia del movimiento si es el último en atacar.",
+            "swsh": "Aumenta la potencia de su movimiento si es el último en atacar."
+        },
+        "traditional-chinese": {
+            "sm": "如果在最後使出招式， 招式就會變強。",
+            "usum": "如果在最後使出招式， 招式就會變強。",
+            "lgpe": "如果在最後使出招式， 招式就會變強。",
+            "swsh": "如果在最後使出招式， 招式的威力就會變強。"
+        },
+        "simplified-chinese": {
+            "sm": "如果在最后使出招式， 招式的威力会提高。",
+            "usum": "如果在最后使出招式， 招式的威力会提高。",
+            "lgpe": "如果在最后使出招式， 招式的威力会提高。",
+            "swsh": "如果在最后使出招式， 招式的威力会提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [],
+        "hidden": [
+            81,
+            82,
+            120,
+            121,
+            137,
+            233,
+            462,
+            474,
+            504,
+            505,
+            605,
+            606
+        ]
+    }
 }

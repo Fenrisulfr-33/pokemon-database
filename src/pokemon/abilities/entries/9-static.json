@@ -1,32 +1,164 @@
 {
-  "_id": 9,
-  "key": "static",
-  "name": {
-    "english": "Static"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
-    "full": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed. Pokémon that are immune to electric-type moves can still be paralyzed by this ability. Overworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an electric Pokémon, if applicable."
-  },
-  "description": {
-    "ruby-sapphire": "Paralyzes on contact.",
-    "emerald": "Paralyzes on contact.",
-    "firered-leafgreen": "Paralyzes on contact.",
-    "diamond-pearl": "Contact with the Pokémon may cause paralysis.",
-    "platinum": "Contact with the Pokémon may cause paralysis.",
-    "heartgold-soulsilver": "Contact with the Pokémon may cause paralysis.",
-    "black-white": "Contact with the Pokémon may cause paralysis.",
-    "black-2-white-2": "Contact with the Pokémon may cause paralysis.",
-    "x-y": "Contact with the Pokémon may cause paralysis.",
-    "omega-ruby-alpha-sapphire": "Contact with the Pokémon may cause paralysis.",
-    "sun-moon": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
-    "ultra-sun-ultra-moon": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
-    "sword-shield": "The Pokémon is charged with static electricity, so contact with it may cause paralysis."
-  },
-  "pokemonWithAbility": {
-    "normal": [25, 26, 100, 101, 125, 172, 179, 180, 181, 239, 309, 310, 587, 618, 848, 881, 921, 938, 939],
-    "hidden": [145]
-  }
+    "_id": 9,
+    "key": "static",
+    "name": {
+        "japanese-kana": "せいでんき",
+        "korean": "정전기",
+        "traditional-chinese": "靜電",
+        "french": "Statik",
+        "german": "Statik",
+        "spanish": "Electricidad Estática",
+        "italian": "Statico",
+        "english": "Static",
+        "japanese": "せいでんき",
+        "simplified-chinese": "静电",
+        "latin-american-spanish": "Electricidad Estática"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+        "full": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed. Pokémon that are immune to Electric-type moves can still be paralyzed by this ability. Overworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt."
+        },
+        "english": {
+            "em": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed. Pokémon that are immune to Electric-type moves can still be paralyzed by this ability."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Paralyse au toucher.",
+            "em": "Paralyse au toucher.",
+            "frlg": "Paralyse au toucher.",
+            "dp": "Un contact avec le Pokémon peut paralyser.",
+            "pt": "Un contact avec le Pokémon peut paralyser.",
+            "hgss": "Un contact avec le Pokémon peut paralyser.",
+            "bw": "Un contact avec le Pokémon peut paralyser.",
+            "xd": "Un contact avec le Pokémon peut paralyser.",
+            "b2w2": "Un contact avec le Pokémon peut paralyser.",
+            "xy": "Un contact avec le Pokémon peut paralyser.",
+            "oras": "Un contact avec le Pokémon peut paralyser.",
+            "sm": "Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser.",
+            "usum": "Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser.",
+            "lgpe": "Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser.",
+            "swsh": "Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser.",
+            "sv": "Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser."
+        },
+        "english": {
+            "rs": "Paralyzes on contact.",
+            "em": "Paralyzes on contact.",
+            "frlg": "Paralyzes on contact.",
+            "dp": "Contact with the Pokémon may cause paralysis.",
+            "pt": "Contact with the Pokémon may cause paralysis.",
+            "hgss": "Contact with the Pokémon may cause paralysis.",
+            "bw": "Contact with the Pokémon may cause paralysis.",
+            "b2w2": "Contact with the Pokémon may cause paralysis.",
+            "xy": "Contact with the Pokémon may cause paralysis.",
+            "oras": "Contact with the Pokémon may cause paralysis.",
+            "sm": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
+            "usum": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
+            "lgpe": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
+            "swsh": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
+            "sv": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+        },
+        "japanese-kana": {
+            "xy": "さわった　あいてを まひさせる　ことがある。",
+            "oras": "さわった　あいてを まひさせる　ことがある。",
+            "sm": "せいでんきを　からだに　まとい さわった　あいてを まひさせる　ことがある。",
+            "usum": "せいでんきを　からだに　まとい さわった　あいてを まひさせる　ことがある。",
+            "lgpe": "せいでんきを　からだに　まとい さわった　あいてを まひさせる　ことがある。",
+            "swsh": "せいでんきを　からだに　まとい さわった　あいてを まひさせる　ことがある。"
+        },
+        "korean": {
+            "xy": "접촉한 상대를 마비시킬 때가 있다.",
+            "oras": "접촉한 상대를 마비시킬 때가 있다.",
+            "sm": "정전기를 몸에 둘러 접촉한 상대를 마비시킬 때가 있다.",
+            "usum": "정전기를 몸에 둘러 접촉한 상대를 마비시킬 때가 있다.",
+            "lgpe": "정전기를 몸에 둘러 접촉한 상대를 마비시킬 때가 있다.",
+            "swsh": "정전기를 몸에 둘러 접촉한 상대를 마비시킬 때가 있다."
+        },
+        "german": {
+            "xy": "Kann bei Berührung paralysieren.",
+            "oras": "Kann bei Berührung paralysieren.",
+            "sm": "Kann bei Berührung durch statisch aufgeladenen Körper paralysieren.",
+            "usum": "Kann bei Berührung durch statisch aufgeladenen Körper paralysieren.",
+            "lgpe": "Kann bei Berührung durch statisch aufgeladenen Körper paralysieren.",
+            "swsh": "Kann bei Berührung durch statisch aufgeladenen Körper paralysieren."
+        },
+        "spanish": {
+            "xy": "Puede paralizar al mínimo contacto.",
+            "oras": "Puede paralizar al mínimo contacto.",
+            "sm": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "usum": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "lgpe": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "swsh": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto."
+        },
+        "italian": {
+            "xy": "Il contatto fisico con il Pokémon può causare paralisi.",
+            "oras": "Il contatto fisico con il Pokémon può causare paralisi.",
+            "sm": "Il contatto fisico con il corpo percorso dall’elettricità statica del Pokémon può causare paralisi.",
+            "usum": "Il contatto fisico con il corpo percorso dall’elettricità statica del Pokémon può causare paralisi.",
+            "lgpe": "Il contatto fisico con il corpo percorso dall’elettricità statica del Pokémon può causare paralisi.",
+            "swsh": "Il contatto fisico con il corpo percorso dall’elettricità statica del Pokémon può causare paralisi."
+        },
+        "japanese": {
+            "xy": "触った　相手を まひさせる　ことがある。",
+            "oras": "触った　相手を まひさせる　ことがある。",
+            "sm": "静電気を　体に　まとい 触った　相手を まひさせる　ことがある。",
+            "usum": "静電気を　体に　まとい 触った　相手を まひさせる　ことがある。",
+            "lgpe": "静電気を　体に　まとい 触った　相手を まひさせる　ことがある。",
+            "swsh": "静電気を　体に　まとい 触った　相手を まひさせる　ことがある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puede paralizar al mínimo contacto.",
+            "oras": "Puede paralizar al mínimo contacto.",
+            "sm": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "usum": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "lgpe": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "swsh": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto."
+        },
+        "traditional-chinese": {
+            "sm": "身上帶有靜電， 有時會令接觸到的對手麻痺。",
+            "usum": "身上帶有靜電， 有時會令接觸到的對手麻痺。",
+            "lgpe": "身上帶有靜電， 有時會令接觸到的對手麻痺。",
+            "swsh": "身上帶有靜電， 有時會令接觸到的對手麻痺。"
+        },
+        "simplified-chinese": {
+            "sm": "身上带有静电， 有时会让接触到的对手麻痹。",
+            "usum": "身上带有静电， 有时会让接触到的对手麻痹。",
+            "lgpe": "身上带有静电， 有时会让接触到的对手麻痹。",
+            "swsh": "身上带有静电， 有时会让接触到的对手麻痹。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            25,
+            26,
+            100,
+            101,
+            125,
+            172,
+            179,
+            180,
+            181,
+            239,
+            309,
+            310,
+            587,
+            618,
+            848,
+            881,
+            921,
+            938,
+            939
+        ],
+        "hidden": [
+            145
+        ]
+    }
 }

@@ -1,32 +1,152 @@
 {
-  "_id": 38,
-  "key": "poison-point",
-  "name": {
-    "english": "Poison Point"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Has a 30% chance of poisoning attacking Pokémon on contact.",
-    "full": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned."
-  },
-  "description": {
-    "ruby-sapphire": "Poisons foe on contact.",
-    "emerald": "Poisons foe on contact.",
-    "firered-leafgreen": "Poisons foe on contact.",
-    "diamond-pearl": "Contact with the Pokémon may poison the foe.",
-    "platinum": "Contact with the Pokémon may poison the foe.",
-    "heartgold-soulsilver": "Contact with the Pokémon may poison the foe.",
-    "black-white": "Contact with the Pokémon may poison the attacker.",
-    "black-2-white-2": "Contact with the Pokémon may poison the attacker.",
-    "x-y": "Contact with the Pokémon may poison the attacker.",
-    "omega-ruby-alpha-sapphire": "Contact with the Pokémon may poison the attacker.",
-    "sun-moon": "Contact with the Pokémon may poison the attacker.",
-    "ultra-sun-ultra-moon": "Contact with the Pokémon may poison the attacker.",
-    "lets-go-pikachu-lets-go-eevee": "Contact with the Pokémon may poison the attacker.",
-    "sword-shield": "Contact with the Pokémon may poison the attacker."
-  },
-  "pokemonWithAbility": {
-    "normal": [29, 30, 31, 32, 33, 34, 117, 194.1, 211, 315, 406, 407, 543, 544, 545, 690, 691, 904, 980],
-    "hidden": []
-  }
+    "_id": 38,
+    "key": "poison-point",
+    "name": {
+        "japanese-kana": "どくのトゲ",
+        "korean": "독가시",
+        "traditional-chinese": "毒刺",
+        "french": "Point Poison",
+        "german": "Giftdorn",
+        "spanish": "Punto Tóxico",
+        "italian": "Velenopunto",
+        "english": "Poison Point",
+        "japanese": "どくのトゲ",
+        "simplified-chinese": "毒刺",
+        "latin-american-spanish": "Punto Tóxico"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+        "full": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "rs": "Empoisonne quand touché.",
+            "em": "Empoisonne quand touché.",
+            "frlg": "Empoisonne quand touché.",
+            "dp": "Peut empoisonner l'ennemi s'il y a contact.",
+            "pt": "Peut empoisonner l'ennemi s'il y a contact.",
+            "hgss": "Peut empoisonner l'ennemi s'il y a contact.",
+            "bw": "Peut empoisonner l'ennemi s'il y a contact.",
+            "xd": "Peut empoisonner l'ennemi s'il y a contact.",
+            "b2w2": "Peut empoisonner l'ennemi s'il y a contact.",
+            "xy": "Peut empoisonner l'attaquant lorsque le Pokémon subit une attaque directe.",
+            "oras": "Peut empoisonner l'ennemi s'il y a contact.",
+            "sm": "Peut empoisonner l'attaquant lorsque le Pokémon subit une attaque directe.",
+            "usum": "Peut empoisonner l'attaquant lorsque le Pokémon subit une attaque directe.",
+            "lgpe": "Peut empoisonner l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "swsh": "Peut empoisonner l'attaquant lorsque le Pokémon subit une attaque directe.",
+            "sv": "Peut empoisonner l'attaquant lorsque le Pokémon subit une attaque directe."
+        },
+        "english": {
+            "rs": "Poisons foe on contact.",
+            "em": "Poisons foe on contact.",
+            "frlg": "Poisons foe on contact.",
+            "dp": "Contact with the Pokémon may poison the foe.",
+            "pt": "Contact with the Pokémon may poison the foe.",
+            "hgss": "Contact with the Pokémon may poison the foe.",
+            "bw": "Contact with the Pokémon may poison the attacker.",
+            "b2w2": "Contact with the Pokémon may poison the attacker.",
+            "xy": "Contact with the Pokémon may poison the attacker.",
+            "oras": "Contact with the Pokémon may poison the attacker.",
+            "sm": "Contact with the Pokémon may poison the attacker.",
+            "usum": "Contact with the Pokémon may poison the attacker.",
+            "lgpe": "Contact with the Pokémon may poison the attacker.",
+            "swsh": "Contact with the Pokémon may poison the attacker.",
+            "sv": "Contact with the Pokémon may poison the attacker."
+        },
+        "japanese-kana": {
+            "xy": "ふれた　あいてに　どくを おわせる　ことがある。",
+            "oras": "ふれた　あいてに　どくを おわせる　ことがある。",
+            "sm": "じぶんに　さわった　あいてを どく　じょうたいに　する　ことがある。",
+            "usum": "じぶんに　さわった　あいてを どく　じょうたいに　する　ことがある。",
+            "lgpe": "じぶんに　さわった　あいてを どく　じょうたいに　する　ことがある。",
+            "swsh": "じぶんに　さわった　あいてを どく　じょうたいに　する　ことがある。"
+        },
+        "korean": {
+            "xy": "접촉한 상대를 중독시킬 때가 있다.",
+            "oras": "접촉한 상대를 중독시킬 때가 있다.",
+            "sm": "자신과 접촉한 상대를 독 상태로 만들 때가 있다.",
+            "usum": "자신과 접촉한 상대를 독 상태로 만들 때가 있다.",
+            "lgpe": "자신과 접촉한 상대를 독 상태로 만들 때가 있다.",
+            "swsh": "자신과 접촉한 상대를 독 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Vergiftet den Angreifer eventuell bei Berührung.",
+            "oras": "Vergiftet den Angreifer eventuell bei Berührung.",
+            "sm": "Vergiftet den Angreifer bei Berührung eventuell.",
+            "usum": "Vergiftet den Angreifer bei Berührung eventuell.",
+            "lgpe": "Vergiftet den Angreifer bei Berührung eventuell.",
+            "swsh": "Vergiftet den Angreifer bei Berührung eventuell."
+        },
+        "spanish": {
+            "xy": "Puede envenenar al mínimo contacto.",
+            "oras": "Puede envenenar al mínimo contacto.",
+            "sm": "Puede envenenar al mínimo contacto.",
+            "usum": "Puede envenenar al mínimo contacto.",
+            "lgpe": "Puede envenenar al mínimo contacto.",
+            "swsh": "Puede envenenar al mínimo contacto."
+        },
+        "italian": {
+            "xy": "Può avvelenare chi manda a segno una mossa fisica.",
+            "oras": "Può avvelenare chi manda a segno una mossa fisica.",
+            "sm": "Può avvelenare chi manda a segno un attacco diretto.",
+            "usum": "Può avvelenare chi manda a segno un attacco diretto.",
+            "lgpe": "Può avvelenare chi manda a segno un attacco diretto.",
+            "swsh": "Può avvelenare chi manda a segno un attacco diretto."
+        },
+        "japanese": {
+            "xy": "触れた　相手に　どくを おわせる　ことがある。",
+            "oras": "触れた　相手に　どくを おわせる　ことがある。",
+            "sm": "自分に　触った　相手を どく状態に　することがある。",
+            "usum": "自分に　触った　相手を どく状態に　することがある。",
+            "lgpe": "自分に　触った　相手を どく状態に　することがある。",
+            "swsh": "自分に　触った　相手を どく状態に　することがある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puede envenenar al mínimo contacto.",
+            "oras": "Puede envenenar al mínimo contacto.",
+            "sm": "Puede envenenar al mínimo contacto.",
+            "usum": "Puede envenenar al mínimo contacto.",
+            "lgpe": "Puede envenenar al mínimo contacto.",
+            "swsh": "Puede envenenar al mínimo contacto."
+        },
+        "traditional-chinese": {
+            "sm": "有時會讓接觸到自己的 對手陷入中毒狀態。",
+            "usum": "有時會讓接觸到自己的 對手陷入中毒狀態。",
+            "lgpe": "有時會讓接觸到自己的 對手陷入中毒狀態。",
+            "swsh": "有時會讓接觸到自己的 對手陷入中毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "有时会让接触到自己的 对手变为中毒状态。",
+            "usum": "有时会让接触到自己的 对手变为中毒状态。",
+            "lgpe": "有时会让接触到自己的 对手变为中毒状态。",
+            "swsh": "有时会让接触到自己的 对手变为中毒状态。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            117,
+            194.1,
+            211,
+            315,
+            406,
+            407,
+            543,
+            544,
+            545,
+            690,
+            691,
+            904,
+            980
+        ],
+        "hidden": []
+    }
 }

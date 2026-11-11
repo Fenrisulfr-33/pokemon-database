@@ -1,32 +1,137 @@
 {
-  "_id": 54,
-  "key": "truant",
-  "name": {
-    "english": "Truant"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Skips every second turn.",
-    "full": "Every second turn on which this Pokémon should attempt to use a move, it will instead do nothing (\"loaf around\"). Loafing around interrupts moves that take multiple turns the same way paralysis, flinching, etc do. Most such moves, for example bide or rollout, are simply cut off upon loafing around. Attacks with a recharge turn, such as hyper beam, do not have to recharge; attacks with a preparation turn, such as fly, do not end up being used. Moves that are forced over multiple turns and keep going through failure, such as outrage, uproar, or any move forced by encore, keep going as usual. If this Pokémon is confused, its confusion is not checked when loafing around; the Pokémon cannot hurt itself, and its confusion does not end or come closer to ending. If this Pokémon attempts to move but fails, e.g. because of paralysis or gravity, it still counts as having moved and will loaf around the next turn. If it does not attempt to move, e.g. because it is asleep or frozen, whatever it would have done will be postponed until its next attempt; that is, it will either loaf around or move as usual, depending on what it last did. This ability cannot be changed with worry seed, but it can be disabled with gastro acid, changed with role play, or traded away with skill swap."
-  },
-  "description": {
-    "ruby-sapphire": "Moves only every two turns.",
-    "emerald": "Moves only every two turns.",
-    "firered-leafgreen": "Moves only every two turns.",
-    "diamond-pearl": "The Pokémon can’t attack on consecutive turns.",
-    "platinum": "The Pokémon can’t attack on consecutive turns.",
-    "heartgold-soulsilver": "Pokémon can’t attack on consecutive turns.",
-    "black-white": "Pokémon can’t attack on consecutive turns.",
-    "black-2-white-2": "Pokémon can’t attack on consecutive turns.",
-    "x-y": "The Pokémon can’t attack on consecutive turns.",
-    "omega-ruby-alpha-sapphire": "The Pokémon can’t attack on consecutive turns.",
-    "sun-moon": "The Pokémon can’t use a move the following turn if it uses one.",
-    "ultra-sun-ultra-moon": "The Pokémon can’t use a move the following turn if it uses one.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon can’t use a move if it had used a move on the previous turn.",
-    "sword-shield": "The Pokémon can’t use a move if it had used a move on the previous turn."
-  },
-  "pokemonWithAbility": {
-    "normal": [287, 289],
-    "hidden": [632]
-  }
+    "_id": 54,
+    "key": "truant",
+    "name": {
+        "japanese-kana": "なまけ",
+        "korean": "게으름",
+        "traditional-chinese": "懶惰",
+        "french": "Absentéisme",
+        "german": "Schnarchnase",
+        "spanish": "Ausente",
+        "italian": "Pigrone",
+        "english": "Truant",
+        "japanese": "なまけ",
+        "simplified-chinese": "懒惰",
+        "latin-american-spanish": "Ausente"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Skips every second turn.",
+        "full": "Every second turn on which this Pokémon should attempt to use a move, it will instead do nothing (\"loaf around\"). Loafing around interrupts moves that take multiple turns the same way paralysis, flinching, etc do.  Most such moves, for example Bide or Rollout, are simply cut off upon loafing around.  Attacks with a recharge turn, such as Hyper Beam, do not have to recharge; attacks with a preparation turn, such as Fly, do not end up being used.  Moves that are forced over multiple turns and keep going through failure, such as Outrage, Uproar, or any move forced by Encore, keep going as usual. If this Pokémon is confused, its confusion is not checked when loafing around; the Pokémon cannot hurt itself, and its confusion does not end or come closer to ending. If this Pokémon attempts to move but fails, e.g. because of paralysis or Gravity, it still counts as having moved and will loaf around the next turn.  If it does not attempt to move, e.g. because it is asleep or frozen, whatever it would have done will be postponed until its next attempt; that is, it will either loaf around or move as usual, depending on what it last did. This ability cannot be changed with Worry Seed, but it can be disabled with Gastro Acid, changed with Role Play, or traded away with Skill Swap."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "rs": "Frappe tous les 2 tours.",
+            "em": "Frappe tous les 2 tours.",
+            "frlg": "Frappe tous les 2 tours.",
+            "dp": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "pt": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "hgss": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "bw": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "xd": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "b2w2": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "xy": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "oras": "Le Pokémon ne frappe qu'un tour sur deux.",
+            "sm": "Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser.",
+            "usum": "Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser.",
+            "lgpe": "Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser.",
+            "swsh": "Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser.",
+            "sv": "Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser."
+        },
+        "english": {
+            "rs": "Moves only every two turns.",
+            "em": "Moves only every two turns.",
+            "frlg": "Moves only every two turns.",
+            "dp": "The Pokémon can’t attack on consecutive turns.",
+            "pt": "The Pokémon can’t attack on consecutive turns.",
+            "hgss": "Pokémon can’t attack on consecutive turns.",
+            "bw": "Pokémon can’t attack on consecutive turns.",
+            "b2w2": "Pokémon can’t attack on consecutive turns.",
+            "xy": "The Pokémon can’t attack on consecutive turns.",
+            "oras": "The Pokémon can’t attack on consecutive turns.",
+            "sm": "The Pokémon can’t use a move the following turn if it uses one.",
+            "usum": "The Pokémon can’t use a move the following turn if it uses one.",
+            "lgpe": "The Pokémon can’t use a move if it had used a move on the previous turn.",
+            "swsh": "The Pokémon can’t use a move if it had used a move on the previous turn.",
+            "sv": "Each time the Pokémon uses a move, it spends the next turn loafing around."
+        },
+        "japanese-kana": {
+            "xy": "こうげきが　れんぞくで だせない。",
+            "oras": "こうげきが　れんぞくで だせない。",
+            "sm": "わざを　だすと つぎの　ターンは　やすんでしまう。",
+            "usum": "わざを　だすと つぎの　ターンは　やすんでしまう。",
+            "lgpe": "わざを　だすと つぎの　ターンは　やすんでしまう。",
+            "swsh": "わざを　だすと つぎの　ターンは　やすんでしまう。"
+        },
+        "korean": {
+            "xy": "연속으로 공격할 수 없다.",
+            "oras": "연속으로 공격할 수 없다.",
+            "sm": "기술을 사용하면 다음 턴은 쉰다.",
+            "usum": "기술을 사용하면 다음 턴은 쉰다.",
+            "lgpe": "기술을 사용하면 다음 턴은 쉰다.",
+            "swsh": "기술을 사용하면 다음 턴은 쉰다."
+        },
+        "german": {
+            "xy": "Greift nur alle zwei Runden an.",
+            "oras": "Greift nur alle zwei Runden an.",
+            "sm": "Das Pokémon muss nach Einsatz einer Attacke eine Runde lang aussetzen.",
+            "usum": "Das Pokémon muss nach Einsatz einer Attacke eine Runde lang aussetzen.",
+            "lgpe": "Das Pokémon muss nach Einsatz einer Attacke eine Runde lang aussetzen.",
+            "swsh": "Das Pokémon muss nach Einsatz einer Attacke eine Runde lang aussetzen."
+        },
+        "spanish": {
+            "xy": "El Pokémon no atacará en turnos consecutivos.",
+            "oras": "El Pokémon no atacará en turnos consecutivos.",
+            "sm": "Al ejecutar un movimiento, el Pokémon descansará en el turno siguiente.",
+            "usum": "Al ejecutar un movimiento, el Pokémon descansará en el turno siguiente.",
+            "lgpe": "Al ejecutar un movimiento, el Pokémon descansará en el turno siguiente.",
+            "swsh": "Al ejecutar un movimiento, descansará en el turno siguiente."
+        },
+        "italian": {
+            "xy": "Il Pokémon attacca un turno sì e uno no.",
+            "oras": "Il Pokémon attacca un turno sì e uno no.",
+            "sm": "Quando il Pokémon usa una mossa, nel turno successivo si riposerà.",
+            "usum": "Quando il Pokémon usa una mossa, nel turno successivo si riposerà.",
+            "lgpe": "Quando il Pokémon usa una mossa, nel turno successivo si riposerà.",
+            "swsh": "Quando il Pokémon usa una mossa, nel turno successivo si riposerà."
+        },
+        "japanese": {
+            "xy": "攻撃が　連続で だせない。",
+            "oras": "攻撃が　連続で だせない。",
+            "sm": "技を　出すと つぎの　ターンは　休んでしまう。",
+            "usum": "技を　出すと つぎの　ターンは　休んでしまう。",
+            "lgpe": "技を　出すと つぎの　ターンは　休んでしまう。",
+            "swsh": "技を　出すと 次の　ターンは　休んでしまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon no atacará en turnos consecutivos.",
+            "oras": "El Pokémon no atacará en turnos consecutivos.",
+            "sm": "Al ejecutar un movimiento, el Pokémon descansará en el turno siguiente.",
+            "usum": "Al ejecutar un movimiento, el Pokémon descansará en el turno siguiente.",
+            "lgpe": "Al ejecutar un movimiento, el Pokémon descansará en el turno siguiente.",
+            "swsh": "Al ejecutar un movimiento, descansará en el turno siguiente."
+        },
+        "traditional-chinese": {
+            "sm": "如果使出招式， 下一回合就需要休息。",
+            "usum": "如果使出招式， 下一回合就需要休息。",
+            "lgpe": "如果使出招式， 下一回合就需要休息。",
+            "swsh": "如果使出招式， 下一回合就需要休息。"
+        },
+        "simplified-chinese": {
+            "sm": "如果使出招式， 下一回合就会休息。",
+            "usum": "如果使出招式， 下一回合就会休息。",
+            "lgpe": "如果使出招式， 下一回合就会休息。",
+            "swsh": "如果使出招式， 下一回合就会休息。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            287,
+            289
+        ],
+        "hidden": [
+            632
+        ]
+    }
 }

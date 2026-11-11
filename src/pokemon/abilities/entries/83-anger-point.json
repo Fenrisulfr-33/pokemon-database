@@ -1,29 +1,135 @@
 {
-  "_id": 83,
-  "key": "anger-point",
-  "name": {
-    "english": "Anger Point"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
-    "full": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages. This ability will still take effect if the critical hit is received by a substitute."
-  },
-  "description": {
-    "diamond-pearl": "Raises Attack upon taking a critical hit.",
-    "platinum": "Raises Attack upon taking a critical hit.",
-    "heartgold-soulsilver": "Raises Attack upon taking a critical hit.",
-    "black-white": "Maxes Attack after taking a critical hit.",
-    "black-2-white-2": "Maxes Attack after taking a critical hit.",
-    "x-y": "Maxes the Attack stat after the Pokémon takes a critical hit.",
-    "omega-ruby-alpha-sapphire": "Maxes the Attack stat after the Pokémon takes a critical hit.",
-    "sun-moon": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
-    "ultra-sun-ultra-moon": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
-    "sword-shield": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
-  },
-  "pokemonWithAbility": {
-    "normal": [56, 57, 128, 128.1, 128.2, 128.3],
-    "hidden": [323, 551, 552, 553, 739, 740]
-  }
+    "_id": 83,
+    "key": "anger-point",
+    "name": {
+        "japanese-kana": "いかりのつぼ",
+        "korean": "분노의경혈",
+        "traditional-chinese": "憤怒穴位",
+        "french": "Colérique",
+        "german": "Kurzschluss",
+        "spanish": "Irascible",
+        "italian": "Grancollera",
+        "english": "Anger Point",
+        "japanese": "いかりのつぼ",
+        "simplified-chinese": "愤怒穴位",
+        "latin-american-spanish": "Irascible"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
+        "full": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages. This ability will still take effect if the critical hit is received by a Substitute."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "Raises Attack upon taking a critical hit.",
+            "pt": "Raises Attack upon taking a critical hit.",
+            "hgss": "Raises Attack upon taking a critical hit.",
+            "bw": "Maxes Attack after taking a critical hit.",
+            "b2w2": "Maxes Attack after taking a critical hit.",
+            "xy": "Maxes the Attack stat after the Pokémon takes a critical hit.",
+            "oras": "Maxes the Attack stat after the Pokémon takes a critical hit.",
+            "sm": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+            "usum": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+            "lgpe": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+            "swsh": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+            "sv": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+        },
+        "french": {
+            "bw": "Monte l’Attaque au max après un coup critique.",
+            "xy": "Monte l’Attaque au max après avoir reçu un coup critique.",
+            "oras": "Monte l’Attaque au max après avoir reçu un coup critique.",
+            "sm": "Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum.",
+            "usum": "Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum.",
+            "lgpe": "Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum.",
+            "swsh": "Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum.",
+            "sv": "Si le Pokémon subit un coup critique, il entre\\ndans une colère noire qui augmente son Attaque\\nau maximum."
+        },
+        "japanese-kana": {
+            "xy": "きゅうしょに　うけると こうげきが　あがる。",
+            "oras": "きゅうしょに　うけると こうげきが　あがる。",
+            "sm": "きゅうしょに　こうげきが　あたると いかりくるって　こうげきりょくが さいだいに　なる。",
+            "usum": "きゅうしょに　こうげきが　あたると いかりくるって　こうげきりょくが さいだいに　なる。",
+            "lgpe": "きゅうしょに　こうげきが　あたると いかりくるって　こうげきりょくが さいだいに　なる。",
+            "swsh": "きゅうしょに　こうげきが　あたると いかりくるって　こうげきりょくが さいだいに　なる。"
+        },
+        "korean": {
+            "xy": "급소에 맞으면 공격이 올라간다.",
+            "oras": "급소에 맞으면 공격이 올라간다.",
+            "sm": "급소에 공격이 맞으면 크게 분노해 공격력이 최대가 된다.",
+            "usum": "급소에 공격이 맞으면 크게 분노해 공격력이 최대가 된다.",
+            "lgpe": "급소에 공격이 맞으면 크게 분노해 공격력이 최대가 된다.",
+            "swsh": "급소에 공격이 맞으면 크게 분노해 공격력이 최대가 된다."
+        },
+        "german": {
+            "xy": "Maximiert nach Einstecken eines Volltreffers den Angriffs-Wert.",
+            "oras": "Maximiert nach Einstecken eines Volltreffers den Angriffs-Wert.",
+            "sm": "Wird nach Einstecken eines Volltreffers wütend und maximiert dabei seinen Angriffs-Wert.",
+            "usum": "Wird nach Einstecken eines Volltreffers wütend und maximiert dabei seinen Angriffs-Wert.",
+            "lgpe": "Wird nach Einstecken eines Volltreffers wütend und maximiert dabei seinen Angriffs-Wert.",
+            "swsh": "Wird nach Einstecken eines Volltreffers wütend und maximiert dabei seinen Angriffs-Wert."
+        },
+        "spanish": {
+            "xy": "Sube el Ataque al máximo tras un golpe crítico.",
+            "oras": "Sube el Ataque al máximo tras un golpe crítico.",
+            "sm": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "usum": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "lgpe": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "swsh": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo."
+        },
+        "italian": {
+            "xy": "Massimizza l’Attacco se si subisce un brutto colpo.",
+            "oras": "Massimizza l’Attacco se si subisce un brutto colpo.",
+            "sm": "Se il Pokémon subisce un brutto colpo, monta su tutte le furie e il suo Attacco aumenta al massimo.",
+            "usum": "Se il Pokémon subisce un brutto colpo, monta su tutte le furie e il suo Attacco aumenta al massimo.",
+            "lgpe": "Se il Pokémon subisce un brutto colpo, monta su tutte le furie e il suo Attacco aumenta al massimo.",
+            "swsh": "Se il Pokémon subisce un brutto colpo, monta su tutte le furie e il suo Attacco aumenta al massimo."
+        },
+        "japanese": {
+            "xy": "急所に　受けると 攻撃が　あがる。",
+            "oras": "急所に　受けると 攻撃が　あがる。",
+            "sm": "急所に　攻撃が　当たると 怒りくるって　攻撃力が 最大に　なる。",
+            "usum": "急所に　攻撃が　当たると 怒りくるって　攻撃力が 最大に　なる。",
+            "lgpe": "急所に　攻撃が　当たると 怒りくるって　攻撃力が 最大に　なる。",
+            "swsh": "急所に　攻撃が　当たると 怒りくるって　攻撃力が 最大に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Sube el Ataque al máximo tras un golpe crítico.",
+            "oras": "Sube el Ataque al máximo tras un golpe crítico.",
+            "sm": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "usum": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "lgpe": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "swsh": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo."
+        },
+        "traditional-chinese": {
+            "sm": "要害被擊中時會大發雷霆。 攻擊力會提高到最大。",
+            "usum": "要害被擊中時會大發雷霆。 攻擊力會提高到最大。",
+            "lgpe": "要害被擊中時會大發雷霆。 攻擊力會提高到最大。",
+            "swsh": "要害被擊中時會大發雷霆。 攻擊力會提高到最大。"
+        },
+        "simplified-chinese": {
+            "sm": "要害被击中时， 会大发雷霆， 攻击力变为最大。",
+            "usum": "要害被击中时， 会大发雷霆， 攻击力变为最大。",
+            "lgpe": "要害被击中时， 会大发雷霆， 攻击力变为最大。",
+            "swsh": "要害被击中时， 会大发雷霆， 攻击力变为最大。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            56,
+            57,
+            128,
+            128.1,
+            128.2,
+            128.3
+        ],
+        "hidden": [
+            323,
+            551,
+            552,
+            553,
+            739,
+            740
+        ]
+    }
 }

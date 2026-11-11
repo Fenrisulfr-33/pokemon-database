@@ -1,32 +1,154 @@
 {
-  "_id": 60,
-  "key": "sticky-hold",
-  "name": {
-    "english": "Sticky Hold"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Prevents a held item from being removed by other Pokémon.",
-    "full": "This Pokémon's hold item cannot be removed by other Pokémon. Damaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. knock off or pluck. This Pokémon can still use moves that involve the loss of its own item, e.g. fling or trick. Overworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased."
-  },
-  "description": {
-    "ruby-sapphire": "Prevents item theft.",
-    "emerald": "Prevents item theft.",
-    "firered-leafgreen": "Prevents item theft.",
-    "diamond-pearl": "Protects the Pokémon from item theft.",
-    "platinum": "Protects the Pokémon from item theft.",
-    "heartgold-soulsilver": "Protects the Pokémon from item theft.",
-    "black-white": "Protects the Pokémon from item theft.",
-    "black-2-white-2": "Protects the Pokémon from item theft.",
-    "x-y": "Protects the Pokémon from item theft.",
-    "omega-ruby-alpha-sapphire": "Protects the Pokémon from item theft.",
-    "sun-moon": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
-    "ultra-sun-ultra-moon": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
-    "sword-shield": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon."
-  },
-  "pokemonWithAbility": {
-    "normal": [88, 89, 316, 317, 422, 423, 568, 617],
-    "hidden": [1011, 1019]
-  }
+    "_id": 60,
+    "key": "sticky-hold",
+    "name": {
+        "japanese-kana": "ねんちゃく",
+        "korean": "점착",
+        "traditional-chinese": "黏著",
+        "french": "Glu",
+        "german": "Klebekörper",
+        "spanish": "Viscosidad",
+        "italian": "Antifurto",
+        "english": "Sticky Hold",
+        "japanese": "ねんちゃく",
+        "simplified-chinese": "黏着",
+        "latin-american-spanish": "Viscosidad"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Prevents a held item from being removed by other Pokémon.",
+        "full": "This Pokémon's hold item cannot be removed by other Pokémon. Damaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off or Pluck.  This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick. Overworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt."
+        },
+        "english": {
+            "em": "This Pokémon's hold item cannot be removed by other Pokémon. Damaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. Knock Off. This Pokémon can still use moves that involve the loss of its own item, e.g. Fling or Trick."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Empêche le vol d'objets.",
+            "em": "Empêche le vol d'objets.",
+            "frlg": "Empêche le vol d'objets.",
+            "dp": "Protège le Pokémon contre le vol d'objets.",
+            "pt": "Protège le Pokémon contre le vol d'objets.",
+            "hgss": "Protège le Pokémon contre le vol d'objets.",
+            "bw": "Fait s'agripper à l'objet pour en empêcher le vol.",
+            "xd": "Fait s'agripper à l'objet pour en empêcher le vol.",
+            "b2w2": "Fait s'agripper à l'objet pour en empêcher le vol.",
+            "xy": "Fait s’agripper à l’objet pour en empêcher le vol.",
+            "oras": "Fait s'agripper à l'objet pour en empêcher le vol.",
+            "sm": "Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober.",
+            "usum": "Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober.",
+            "lgpe": "Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober.",
+            "swsh": "Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober.",
+            "sv": "Les objets sont collés au corps gluant du Pokémon,\\nce qui empêche ses adversaires de les dérober."
+        },
+        "english": {
+            "rs": "Prevents item theft.",
+            "em": "Prevents item theft.",
+            "frlg": "Prevents item theft.",
+            "dp": "Protects the Pokémon from item theft.",
+            "pt": "Protects the Pokémon from item theft.",
+            "hgss": "Protects the Pokémon from item theft.",
+            "bw": "Protects the Pokémon from item theft.",
+            "b2w2": "Protects the Pokémon from item theft.",
+            "xy": "Protects the Pokémon from item theft.",
+            "oras": "Protects the Pokémon from item theft.",
+            "sm": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
+            "usum": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
+            "lgpe": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
+            "swsh": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
+            "sv": "The Pokémon's held items cling to its sticky body and cannot be removed by other Pokémon."
+        },
+        "japanese-kana": {
+            "xy": "ねんちゃくして どうぐを　まもる。",
+            "oras": "ねんちゃくして どうぐを　まもる。",
+            "sm": "ねんちゃくしつの　からだに どうぐが　くっついているため あいてに　どうぐを　うばわれない。",
+            "usum": "ねんちゃくしつの　からだに どうぐが　くっついているため あいてに　どうぐを　うばわれない。",
+            "lgpe": "ねんちゃくしつの　からだに どうぐが　くっついているため あいてに　どうぐを　うばわれない。",
+            "swsh": "ねんちゃくしつの　からだに どうぐが　くっついているため あいてに　どうぐを　うばわれない。"
+        },
+        "korean": {
+            "xy": "달라붙어서 도구를 지킨다.",
+            "oras": "달라붙어서 도구를 지킨다.",
+            "sm": "점착질의 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다.",
+            "usum": "점착질의 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다.",
+            "lgpe": "점착질의 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다.",
+            "swsh": "점착질의 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다."
+        },
+        "german": {
+            "xy": "Verhindert durch Klebe-Effekt Item-Diebstähle.",
+            "oras": "Verhindert durch Klebe-Effekt Item-Diebstähle.",
+            "sm": "Trägt es ein Item, bleibt dieses an seinem klebrigen Körper haften, wodurch Item-Diebstahl verhindert wird.",
+            "usum": "Trägt es ein Item, bleibt dieses an seinem klebrigen Körper haften, wodurch Item-Diebstahl verhindert wird.",
+            "lgpe": "Trägt es ein Item, bleibt dieses an seinem klebrigen Körper haften, wodurch Item-Diebstahl verhindert wird.",
+            "swsh": "Trägt es ein Item, bleibt dieses an seinem klebrigen Körper haften, wodurch Item-Diebstahl verhindert wird."
+        },
+        "spanish": {
+            "xy": "Protege al Pokémon del robo de objetos.",
+            "oras": "Protege al Pokémon del robo de objetos.",
+            "sm": "Protege al Pokémon del robo de objetos al quedarse pegados a su cuerpo.",
+            "usum": "Protege al Pokémon del robo de objetos al quedarse pegados a su cuerpo.",
+            "lgpe": "Protege al Pokémon del robo de objetos al quedarse pegados a su cuerpo.",
+            "swsh": "Los objetos se quedan pegados a su cuerpo, por lo que no pueden robárselos."
+        },
+        "italian": {
+            "xy": "Protegge il Pokémon dal furto di strumenti.",
+            "oras": "Protegge il Pokémon dal furto di strumenti.",
+            "sm": "Gli strumenti restano appiccicati al corpo adesivo del Pokémon e non possono essere rubati.",
+            "usum": "Gli strumenti restano appiccicati al corpo adesivo del Pokémon e non possono essere rubati.",
+            "lgpe": "Gli strumenti restano appiccicati al corpo adesivo del Pokémon e non possono essere rubati.",
+            "swsh": "Gli strumenti restano appiccicati al corpo adesivo del Pokémon e non possono essere rubati."
+        },
+        "japanese": {
+            "xy": "ねんちゃくして 道具を　守る。",
+            "oras": "ねんちゃくして 道具を　守る。",
+            "sm": "粘着質の　体に 道具が　くっついているため 相手に　道具を　奪われない。",
+            "usum": "粘着質の　体に 道具が　くっついているため 相手に　道具を　奪われない。",
+            "lgpe": "粘着質の　体に 道具が　くっついているため 相手に　道具を　奪われない。",
+            "swsh": "粘着質の　体に 道具が　くっついているため 相手に　道具を　奪われない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Protege al Pokémon del robo de objetos.",
+            "oras": "Protege al Pokémon del robo de objetos.",
+            "sm": "Protege al Pokémon del robo de objetos al quedarse pegados a su cuerpo.",
+            "usum": "Protege al Pokémon del robo de objetos al quedarse pegados a su cuerpo.",
+            "lgpe": "Protege al Pokémon del robo de objetos al quedarse pegados a su cuerpo.",
+            "swsh": "Los objetos se quedan pegados a su cuerpo, por lo que no pueden robárselos."
+        },
+        "traditional-chinese": {
+            "sm": "道具會黏在 具有黏性的身體上， 不會被對手奪走。",
+            "usum": "道具會黏在 具有黏性的身體上， 不會被對手奪走。",
+            "lgpe": "道具會黏在 具有黏性的身體上， 不會被對手奪走。",
+            "swsh": "道具會黏在 具有黏性的身體上， 不會被對手奪走。"
+        },
+        "simplified-chinese": {
+            "sm": "因为道具是粘在黏性身体上的， 所以不会被对手夺走。",
+            "usum": "因为道具是粘在黏性身体上的， 所以不会被对手夺走。",
+            "lgpe": "因为道具是粘在黏性身体上的， 所以不会被对手夺走。",
+            "swsh": "因为道具是粘在黏性身体上的， 所以不会被对手夺走。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            88,
+            89,
+            316,
+            317,
+            422,
+            423,
+            568,
+            617
+        ],
+        "hidden": [
+            1011,
+            1019
+        ]
+    }
 }

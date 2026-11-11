@@ -1,26 +1,133 @@
 {
-  "_id": 130,
-  "key": "cursed-body",
-  "name": {
-    "english": "Cursed Body"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Has a 30% chance of Disabling any move that hits the Pokémon.",
-    "full": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward."
-  },
-  "description": {
-    "black-white": "May disable a move used on the Pokémon.",
-    "black-2-white-2": "May disable a move used on the Pokémon.",
-    "x-y": "May disable a move used on the Pokémon.",
-    "omega-ruby-alpha-sapphire": "May disable a move used on the Pokémon.",
-    "sun-moon": "May disable a move used on the Pokémon.",
-    "ultra-sun-ultra-moon": "May disable a move used on the Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "May disable a move used on the Pokémon.",
-    "sword-shield": "May disable a move used on the Pokémon."
-  },
-  "pokemonWithAbility": {
-    "normal": [94, 105.1, 592, 593],
-    "hidden": [222.1, 353, 354, 478, 854, 855, 885, 886, 887]
-  }
+    "_id": 130,
+    "key": "cursed-body",
+    "name": {
+        "japanese-kana": "のろわれボディ",
+        "korean": "저주받은바디",
+        "traditional-chinese": "詛咒之軀",
+        "french": "Corps Maudit",
+        "german": "Tastfluch",
+        "spanish": "Cuerpo Maldito",
+        "italian": "Corpofunesto",
+        "english": "Cursed Body",
+        "japanese": "のろわれボディ",
+        "simplified-chinese": "诅咒之躯",
+        "latin-american-spanish": "Cuerpo Maldito"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Has a 30% chance of Disabling any move that hits the Pokémon.",
+        "full": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Peut empêcher l’ennemi de réutiliser une attaque.",
+            "xy": "Peut empêcher l’ennemi de réutiliser une attaque.",
+            "oras": "Peut empêcher l’ennemi de réutiliser une attaque.",
+            "sm": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+            "usum": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+            "lgpe": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+            "swsh": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+            "sv": "Quand le Pokémon est touché par une capacité adverse,\\nil inflige parfois Entrave sur celle-ci."
+        },
+        "english": {
+            "bw": "May disable a move used on the Pokémon.",
+            "b2w2": "May disable a move used on the Pokémon.",
+            "xy": "May disable a move used on the Pokémon.",
+            "oras": "May disable a move used on the Pokémon.",
+            "sm": "May disable a move used on the Pokémon.",
+            "usum": "May disable a move used on the Pokémon.",
+            "lgpe": "May disable a move used on the Pokémon.",
+            "swsh": "May disable a move used on the Pokémon.",
+            "sv": "May disable a move that has dealt damage to the Pokémon."
+        },
+        "japanese-kana": {
+            "xy": "こうげきされると　たまに かなしばりにする。",
+            "oras": "こうげきされると　たまに かなしばりにする。",
+            "sm": "こうげきを　うけると　あいての　わざを かなしばり　じょうたいに することが　ある。",
+            "usum": "こうげきを　うけると　あいての　わざを かなしばり　じょうたいに することが　ある。",
+            "lgpe": "こうげきを　うけると　あいての　わざを かなしばり　じょうたいに することが　ある。",
+            "swsh": "こうげきを　うけると　あいての　わざを かなしばり　じょうたいに することが　ある。"
+        },
+        "korean": {
+            "xy": "공격받으면 가끔 상대를 사슬묶기 상태로 만든다.",
+            "oras": "공격받으면 가끔 상대를 사슬묶기 상태로 만든다.",
+            "sm": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다.",
+            "usum": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다.",
+            "lgpe": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다.",
+            "swsh": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Blockiert gelegentlich Attacken.",
+            "oras": "Blockiert gelegentlich Attacken.",
+            "sm": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat.",
+            "usum": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat.",
+            "lgpe": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat.",
+            "swsh": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat."
+        },
+        "spanish": {
+            "xy": "Puede anular el movimiento usado en su contra.",
+            "oras": "Puede anular el movimiento usado en su contra.",
+            "sm": "Puede anular el movimiento usado en su contra.",
+            "usum": "Puede anular el movimiento usado en su contra.",
+            "lgpe": "Puede anular el movimiento usado en su contra.",
+            "swsh": "Puede anular el movimiento usado en su contra."
+        },
+        "italian": {
+            "xy": "A volte inibisce l’ultima mossa usata dal nemico.",
+            "oras": "A volte inibisce l’ultima mossa usata dal nemico.",
+            "sm": "A volte blocca l’ultima mossa usata dal nemico.",
+            "usum": "A volte blocca l’ultima mossa usata dal nemico.",
+            "lgpe": "A volte blocca l’ultima mossa usata dal nemico.",
+            "swsh": "Può bloccare la mossa subita dal Pokémon."
+        },
+        "japanese": {
+            "xy": "攻撃されると　たまに かなしばりにする。",
+            "oras": "攻撃されると　たまに かなしばりにする。",
+            "sm": "攻撃を　受けると　相手の　技を かなしばり状態に することが　ある。",
+            "usum": "攻撃を　受けると　相手の　技を かなしばり状態に することが　ある。",
+            "lgpe": "攻撃を　受けると　相手の　技を かなしばり状態に することが　ある。",
+            "swsh": "攻撃を　受けると　相手の　技を かなしばり状態に することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puede anular el movimiento usado en su contra.",
+            "oras": "Puede anular el movimiento usado en su contra.",
+            "sm": "Puede anular el movimiento usado en su contra.",
+            "usum": "Puede anular el movimiento usado en su contra.",
+            "lgpe": "Puede anular el movimiento usado en su contra.",
+            "swsh": "Puede anular el movimiento usado en su contra."
+        },
+        "traditional-chinese": {
+            "sm": "受到攻擊時， 有時會把對手的招式 變為定身法狀態。",
+            "usum": "受到攻擊時， 有時會把對手的招式 變為定身法狀態。",
+            "lgpe": "受到攻擊時， 有時會把對手的招式 變為定身法狀態。",
+            "swsh": "受到攻擊時， 有時會把對手的招式 變為定身法狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "受到攻击时， 有时会把对手的招式 变为定身法状态。",
+            "usum": "受到攻击时， 有时会把对手的招式 变为定身法状态。",
+            "lgpe": "受到攻击时， 有时会把对手的招式 变为定身法状态。",
+            "swsh": "受到攻击时， 有时会把对手的招式 变为定身法状态。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            94,
+            105.1,
+            592,
+            593
+        ],
+        "hidden": [
+            222.1,
+            353,
+            354,
+            478,
+            854,
+            855,
+            885,
+            886,
+            887
+        ]
+    }
 }

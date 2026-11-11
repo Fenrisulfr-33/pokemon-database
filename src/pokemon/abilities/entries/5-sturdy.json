@@ -1,32 +1,182 @@
 {
-  "_id": 5,
-  "key": "sturdy",
-  "name": {
-    "english": "Sturdy"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",
-    "full": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP. Regardless of its current HP, it is also immune to the one-hit KO moves: fissure, guillotine, horn drill, and sheer cold. If this Pokémon is holding a focus sash, this ability takes precedence and the item will not be consumed."
-  },
-  "description": {
-    "ruby-sapphire": "Negates 1-hit KO attacks.",
-    "emerald": "Negates 1-hit KO attacks.",
-    "firered-leafgreen": "Negates 1-hit KO attacks.",
-    "diamond-pearl": "The Pokémon is protected against 1-hit KO attacks.",
-    "platinum": "The Pokémon is protected against 1-hit KO attacks.",
-    "heartgold-soulsilver": "It is protected against 1-hit KO attacks.",
-    "black-white": "It cannot be knocked out with one hit.",
-    "black-2-white-2": "It cannot be knocked out with one hit.",
-    "x-y": "It cannot be knocked out with one hit.",
-    "omega-ruby-alpha-sapphire": "It cannot be knocked out with one hit.",
-    "sun-moon": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
-    "ultra-sun-ultra-moon": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
-    "lets-go-pikachu-lets-go-eevee": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
-    "sword-shield": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either."
-  },
-  "pokemonWithAbility": {
-    "normal": [74, 74.1, 75, 75.1, 76, 76.1, 81, 82, 95, 185, 204, 205, 208, 213, 227, 232, 299, 304, 305, 306, 410, 411, 438, 462, 476, 524, 525, 526, 539, 557, 558, 564, 565, 790, 932, 933, 934, 1017.3, 1018],
-    "hidden": [369, 377, 696, 703, 712, 713, 777]
-  }
+    "_id": 5,
+    "key": "sturdy",
+    "name": {
+        "japanese-kana": "がんじょう",
+        "korean": "옹골참",
+        "traditional-chinese": "結實",
+        "french": "Fermeté",
+        "german": "Robustheit",
+        "spanish": "Robustez",
+        "italian": "Vigore",
+        "english": "Sturdy",
+        "japanese": "がんじょう",
+        "simplified-chinese": "结实",
+        "latin-american-spanish": "Robustez"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP.",
+        "full": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold. If this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "N'empêche pas les KO réguliers en ayant tous ses PV."
+        },
+        "german": {
+            "bw": "Verhindert keine regulären K.O. bei vollen KP."
+        },
+        "english": {
+            "bw": "One Hit KO moves have no effect when used on this Pokemon."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Negates 1-hit KO attacks.",
+            "em": "Negates 1-hit KO attacks.",
+            "frlg": "Negates 1-hit KO attacks.",
+            "dp": "The Pokémon is protected against 1-hit KO attacks.",
+            "pt": "The Pokémon is protected against 1-hit KO attacks.",
+            "hgss": "It is protected against 1-hit KO attacks.",
+            "bw": "It cannot be knocked out with one hit.",
+            "b2w2": "It cannot be knocked out with one hit.",
+            "xy": "It cannot be knocked out with one hit.",
+            "oras": "It cannot be knocked out with one hit.",
+            "sm": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
+            "usum": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
+            "lgpe": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
+            "swsh": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
+            "sv": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+        },
+        "french": {
+            "bw": "Protège des capacités mettant K.O. en un coup.",
+            "xy": "Protège des capacités mettant K.O. en un coup.",
+            "oras": "Protège des capacités mettant K.O. en un coup.",
+            "sm": "Le Pokémon encaisse toujours au moins une attaque s’il a tous ses PV. Il est également immunisé contre les capacités pouvant mettre K.O. en un coup.",
+            "usum": "Le Pokémon encaisse toujours au moins une attaque s’il a tous ses PV. Il est également immunisé contre les capacités pouvant mettre K.O. en un coup.",
+            "lgpe": "Le Pokémon encaisse toujours au moins une attaque s’il a tous ses PV. Il est également immunisé contre les capacités pouvant mettre K.O. en un coup.",
+            "swsh": "Le Pokémon encaisse toujours au moins une attaque s’il a tous ses PV. Il est également immunisé contre les capacités pouvant mettre K.O. en un coup.",
+            "sv": "Le Pokémon encaisse toujours au moins une attaque\\ns’il a tous ses PV. Il est également immunisé contre\\nles capacités pouvant mettre K.O. en un coup."
+        },
+        "japanese-kana": {
+            "xy": "いちげきで たおされない。",
+            "oras": "いちげきで たおされない。",
+            "sm": "あいての　わざを　うけても いちげきで　たおされることが　ない。 いちげきひっさつわざも　きかない。",
+            "usum": "あいての　わざを　うけても いちげきで　たおされることが　ない。 いちげきひっさつわざも　きかない。",
+            "lgpe": "あいての　わざを　うけても いちげきで　たおされることが　ない。 いちげきひっさつわざも　きかない。",
+            "swsh": "あいての　わざを　うけても いちげきで　たおされることが　ない。 いちげきひっさつわざも　きかない。"
+        },
+        "korean": {
+            "xy": "일격으로 쓰러지지 않는다.",
+            "oras": "일격으로 쓰러지지 않는다.",
+            "sm": "상대 기술을 받아도 일격으로 쓰러지지 않는다. 일격필살 기술도 효과 없다.",
+            "usum": "상대 기술을 받아도 일격으로 쓰러지지 않는다. 일격필살 기술도 효과 없다.",
+            "lgpe": "상대 기술을 받아도 일격으로 쓰러지지 않는다. 일격필살 기술도 효과 없다.",
+            "swsh": "상대 기술을 받아도 일격으로 쓰러지지 않는다. 일격필살 기술도 효과 없다."
+        },
+        "german": {
+            "xy": "Bietet Schutz gegen K.O.-Treffer.",
+            "oras": "Bietet Schutz gegen K.O.-Treffer.",
+            "sm": "Bietet Schutz gegen K.O.-Attacken. Bei vollen KP übersteht das Pokémon auch K.O.-Treffer.",
+            "usum": "Bietet Schutz gegen K.O.-Attacken. Bei vollen KP übersteht das Pokémon auch K.O.-Treffer.",
+            "lgpe": "Bietet Schutz gegen K.O.-Attacken. Bei vollen KP übersteht das Pokémon auch K.O.-Treffer.",
+            "swsh": "Bietet Schutz gegen K.O.-Attacken. Bei vollen KP übersteht das Pokémon auch K.O.-Treffer."
+        },
+        "spanish": {
+            "xy": "Evita que el rival pueda debilitarle de un solo golpe.",
+            "oras": "Evita que el rival pueda debilitarle de un solo golpe.",
+            "sm": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También anula los movimientos fulminantes.",
+            "usum": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También anula los movimientos fulminantes.",
+            "lgpe": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También anula los movimientos fulminantes.",
+            "swsh": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes."
+        },
+        "italian": {
+            "xy": "Evita che il Pokémon vada KO in un sol colpo.",
+            "oras": "Evita che il Pokémon vada KO in un sol colpo.",
+            "sm": "Se il Pokémon ha tutti i PS, evita che vada KO in un sol colpo. Inoltre, è immune alle mosse che causano KO immediato.",
+            "usum": "Se il Pokémon ha tutti i PS, evita che vada KO in un sol colpo. Inoltre, è immune alle mosse che causano KO immediato.",
+            "lgpe": "Se il Pokémon ha tutti i PS, evita che vada KO in un sol colpo. Inoltre, è immune alle mosse che causano KO immediato.",
+            "swsh": "Evita che il Pokémon vada KO in un sol colpo se ha tutti i PS, e lo rende immune alle mosse che causano KO immediato."
+        },
+        "japanese": {
+            "xy": "一撃で　倒されない。",
+            "oras": "一撃で　倒されない。",
+            "sm": "相手の　技を　受けても 一撃で　倒されることが　ない。 一撃必殺技も　効かない。",
+            "usum": "相手の　技を　受けても 一撃で　倒されることが　ない。 一撃必殺技も　効かない。",
+            "lgpe": "相手の　技を　受けても 一撃で　倒されることが　ない。 一撃必殺技も　効かない。",
+            "swsh": "相手の　技を　受けても 一撃で　倒されることが　ない。 一撃必殺技も　効かない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Evita que el rival pueda debilitarle de un solo golpe.",
+            "oras": "Evita que el rival pueda debilitarle de un solo golpe.",
+            "sm": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También anula los movimientos fulminantes.",
+            "usum": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También anula los movimientos fulminantes.",
+            "lgpe": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También anula los movimientos fulminantes.",
+            "swsh": "Evita que el rival pueda debilitarlo de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes."
+        },
+        "traditional-chinese": {
+            "sm": "受到對手的招式攻擊時 不會被一擊打倒。 一擊必殺的招式也沒有效果。",
+            "usum": "受到對手的招式攻擊時 不會被一擊打倒。 一擊必殺的招式也沒有效果。",
+            "lgpe": "受到對手的招式攻擊時 不會被一擊打倒。 一擊必殺的招式也沒有效果。",
+            "swsh": "受到對手的招式攻擊時 不會被一擊打倒。 一擊必殺的招式也沒有效果。"
+        },
+        "simplified-chinese": {
+            "sm": "即使受到对手的招式攻击， 也不会被一击打倒。 一击必杀的招式也没有效果。",
+            "usum": "即使受到对手的招式攻击， 也不会被一击打倒。 一击必杀的招式也没有效果。",
+            "lgpe": "即使受到对手的招式攻击， 也不会被一击打倒。 一击必杀的招式也没有效果。",
+            "swsh": "即使受到对手的招式攻击， 也不会被一击打倒。 一击必杀的招式也没有效果。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            74,
+            74.1,
+            75,
+            75.1,
+            76,
+            76.1,
+            81,
+            82,
+            95,
+            185,
+            204,
+            205,
+            208,
+            213,
+            227,
+            232,
+            299,
+            304,
+            305,
+            306,
+            410,
+            411,
+            438,
+            462,
+            476,
+            524,
+            525,
+            526,
+            539,
+            557,
+            558,
+            564,
+            565,
+            790,
+            932,
+            933,
+            934,
+            1017.3,
+            1018
+        ],
+        "hidden": [
+            369,
+            377,
+            696,
+            703,
+            712,
+            713,
+            777
+        ]
+    }
 }

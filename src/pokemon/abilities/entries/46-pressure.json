@@ -1,32 +1,168 @@
 {
-  "_id": 46,
-  "key": "pressure",
-  "name": {
-    "english": "Pressure"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Increases the PP cost of moves targetting the Pokémon by one.",
-    "full": "Moves targetting this Pokémon use one extra PP. This ability stacks if multiple targets have it. This ability still affects moves that fail or miss. This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field. If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP. When this Pokémon enters battle, all participating trainers are notified that it has this ability. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
-  },
-  "description": {
-    "ruby-sapphire": "Raises foe’s PP usage.",
-    "emerald": "Raises foe’s PP usage.",
-    "firered-leafgreen": "Raises foe’s PP usage.",
-    "diamond-pearl": "The Pokémon raises the foe’s PP usage.",
-    "platinum": "The Pokémon raises the foe’s PP usage.",
-    "heartgold-soulsilver": "The Pokémon raises the foe’s PP usage.",
-    "black-white": "The Pokémon raises the foe’s PP usage.",
-    "black-2-white-2": "The Pokémon raises the foe’s PP usage.",
-    "x-y": "The Pokémon raises opposing Pokémon’s PP usage.",
-    "omega-ruby-alpha-sapphire": "The Pokémon raises opposing Pokémon’s PP usage.",
-    "sun-moon": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
-    "ultra-sun-ultra-moon": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
-    "lets-go-pikachu-lets-go-eevee": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
-    "sword-shield": "By putting pressure on the opposing Pokémon, it raises their PP usage."
-  },
-  "pokemonWithAbility": {
-    "normal": [142, 144, 145, 146, 150, 243, 244, 245, 249, 250, 356, 359, 386, 416, 442, 461, 477, 483, 484, 487, 646, 823, 890, 903],
-    "hidden": [320, 321, 624, 625, 983]
-  }
+    "_id": 46,
+    "key": "pressure",
+    "name": {
+        "japanese-kana": "プレッシャー",
+        "korean": "프레셔",
+        "traditional-chinese": "壓迫感",
+        "french": "Pression",
+        "german": "Erzwinger",
+        "spanish": "Presión",
+        "italian": "Pressione",
+        "english": "Pressure",
+        "japanese": "プレッシャー",
+        "simplified-chinese": "压迫感",
+        "latin-american-spanish": "Presión"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Increases the PP cost of moves targetting the Pokémon by one.",
+        "full": "Moves targetting this Pokémon use one extra PP. This ability stacks if multiple targets have it.  This ability still affects moves that fail or miss.  This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field.  If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP. When this Pokémon enters battle, all participating trainers are notified that it has this ability. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat.",
+            "dp": "N'affecte pas les capacités du Pokémon allié qui ciblent tous les autres Pokémon. La présence de ce talent n'est pas annoncée à son entrée au combat."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt.",
+            "dp": "Betrifft keine Attacken von Teammitgliedern die alle anderen Pokémon als Ziel haben. Diese Fähigkeit wird im Kampf nicht angekündigt."
+        },
+        "english": {
+            "em": "Moves targetting this Pokémon use one extra PP. This ability stacks if multiple targets have it. This ability still affects moves that fail or miss. This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field. If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP. When this Pokémon enters battle, all participating trainers are notified that it has this ability.",
+            "dp": "Moves targetting this Pokémon use one extra PP. This ability stacks if multiple targets have it. This ability still affects moves that fail or miss. This ability does not affect friendly Pokémon's moves that target all other Pokémon, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field. If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Raises foe’s PP usage.",
+            "em": "Raises foe’s PP usage.",
+            "frlg": "Raises foe’s PP usage.",
+            "dp": "The Pokémon raises the foe’s PP usage.",
+            "pt": "The Pokémon raises the foe’s PP usage.",
+            "hgss": "The Pokémon raises the foe’s PP usage.",
+            "bw": "The Pokémon raises the foe’s PP usage.",
+            "b2w2": "The Pokémon raises the foe’s PP usage.",
+            "xy": "The Pokémon raises opposing Pokémon’s PP usage.",
+            "oras": "The Pokémon raises opposing Pokémon’s PP usage.",
+            "sm": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
+            "usum": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
+            "lgpe": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
+            "swsh": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
+            "sv": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+        },
+        "french": {
+            "bw": "Force l’ennemi à dépenser plus de PP.",
+            "xy": "Force l’ennemi à dépenser plus de PP.",
+            "oras": "Force l’ennemi à dépenser plus de PP.",
+            "sm": "Force l’ennemi à dépenser plus de PP.",
+            "usum": "Force l’ennemi à dépenser plus de PP.",
+            "lgpe": "Force l’ennemi à dépenser plus de PP.",
+            "swsh": "Met la pression à l’ennemi pour le forcer à dépenser plus de PP.",
+            "sv": "Met la pression à l’adversaire pour le forcer\\nà dépenser plus de PP."
+        },
+        "japanese-kana": {
+            "xy": "あいての　つかう　わざの ＰＰを　おおく　へらす。",
+            "oras": "あいての　つかう　わざの ＰＰを　おおく　へらす。",
+            "sm": "プレッシャーを　あたえて あいての　つかう　わざの　ＰＰを おおく　へらす。",
+            "usum": "プレッシャーを　あたえて あいての　つかう　わざの　ＰＰを おおく　へらす。",
+            "lgpe": "プレッシャーを　あたえて あいての　つかう　わざの　ＰＰを おおく　へらす。",
+            "swsh": "プレッシャーを　あたえて あいての　つかう　わざの　ＰＰを おおく　へらす。"
+        },
+        "korean": {
+            "xy": "상대가 사용하는 기술의 PP를 많이 줄인다.",
+            "oras": "상대가 사용하는 기술의 PP를 많이 줄인다.",
+            "sm": "프레셔를 줘서 상대가 쓰는 기술의 PP를 많이 줄인다.",
+            "usum": "프레셔를 줘서 상대가 쓰는 기술의 PP를 많이 줄인다.",
+            "lgpe": "프레셔를 줘서 상대가 쓰는 기술의 PP를 많이 줄인다.",
+            "swsh": "프레셔를 줘서 상대가 쓰는 기술의 PP를 많이 줄인다."
+        },
+        "german": {
+            "xy": "Steigert den AP-Verbrauch des Gegners.",
+            "oras": "Steigert den AP-Verbrauch des Gegners.",
+            "sm": "Zwingt den Gegner dazu, beim Einsatz von Attacken mehr AP zu verbrauchen.",
+            "usum": "Zwingt den Gegner dazu, beim Einsatz von Attacken mehr AP zu verbrauchen.",
+            "lgpe": "Zwingt den Gegner dazu, beim Einsatz von Attacken mehr AP zu verbrauchen.",
+            "swsh": "Zwingt Gegner dazu, beim Einsatz von Attacken mehr AP zu verbrauchen."
+        },
+        "spanish": {
+            "xy": "Hace que los PP del rival se acaben antes.",
+            "oras": "Hace que los PP del rival se acaben antes.",
+            "sm": "Presiona al rival para que sus PP se acaben antes.",
+            "usum": "Presiona al rival para que sus PP se acaben antes.",
+            "lgpe": "Presiona al rival para que sus PP se acaben antes.",
+            "swsh": "Presiona al rival para que sus PP se acaben antes."
+        },
+        "italian": {
+            "xy": "Il nemico usa più PP.",
+            "oras": "Il nemico usa più PP.",
+            "sm": "Mette pressione al nemico, facendogli consumare più PP.",
+            "usum": "Mette pressione al nemico, facendogli consumare più PP.",
+            "lgpe": "Mette pressione al nemico, facendogli consumare più PP.",
+            "swsh": "Il Pokémon mette pressione al nemico, facendogli consumare più PP."
+        },
+        "japanese": {
+            "xy": "相手の　使う　技の ＰＰを　多く　減らす。",
+            "oras": "相手の　使う　技の ＰＰを　多く　減らす。",
+            "sm": "プレッシャーを　あたえて 相手の　使う　技の　ＰＰを 多く　減らす。",
+            "usum": "プレッシャーを　あたえて 相手の　使う　技の　ＰＰを 多く　減らす。",
+            "lgpe": "プレッシャーを　あたえて 相手の　使う　技の　ＰＰを 多く　減らす。",
+            "swsh": "プレッシャーを　あたえて 相手の　使う　技の　ＰＰを 多く　減らす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Hace que los PP del rival se acaben antes.",
+            "oras": "Hace que los PP del rival se acaben antes.",
+            "sm": "Presiona al rival para que sus PP se acaben antes.",
+            "usum": "Presiona al rival para que sus PP se acaben antes.",
+            "lgpe": "Presiona al rival para que sus PP se acaben antes.",
+            "swsh": "Presiona al rival para que sus PP se acaben antes."
+        },
+        "traditional-chinese": {
+            "sm": "給予對手壓迫感， 大量減少其使用招式的ＰＰ。",
+            "usum": "給予對手壓迫感， 大量減少其使用招式的ＰＰ。",
+            "lgpe": "給予對手壓迫感， 大量減少其使用招式的PP。",
+            "swsh": "給予對手壓迫感， 大量減少其使用招式的ＰＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "给予对手压迫感， 大量减少其使用招式的ＰＰ。",
+            "usum": "给予对手压迫感， 大量减少其使用招式的ＰＰ。",
+            "lgpe": "给予对手压迫感， 大量减少其使用招式的PP。",
+            "swsh": "给予对手压迫感， 大量减少其使用招式的ＰＰ。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            142,
+            144,
+            145,
+            146,
+            150,
+            243,
+            244,
+            245,
+            249,
+            250,
+            356,
+            359,
+            386,
+            416,
+            442,
+            461,
+            477,
+            483,
+            484,
+            487,
+            646,
+            823,
+            890,
+            903
+        ],
+        "hidden": [
+            320,
+            321,
+            624,
+            625,
+            983
+        ]
+    }
 }

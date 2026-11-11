@@ -1,26 +1,131 @@
 {
-  "_id": 131,
-  "key": "healer",
-  "name": {
-    "english": "Healer"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
-    "full": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn."
-  },
-  "description": {
-    "black-white": "May heal an ally’s status conditions.",
-    "black-2-white-2": "May heal an ally’s status conditions.",
-    "x-y": "Sometimes heals an ally’s status condition.",
-    "omega-ruby-alpha-sapphire": "Sometimes heals an ally’s status condition.",
-    "sun-moon": "Sometimes heals an ally’s status condition.",
-    "ultra-sun-ultra-moon": "Sometimes heals an ally’s status condition.",
-    "lets-go-pikachu-lets-go-eevee": "Sometimes heals an ally’s status condition.",
-    "sword-shield": "Sometimes heals an ally’s status condition."
-  },
-  "pokemonWithAbility": {
-    "normal": [531, 531.1, 594, 682, 683, 856, 857, 858],
-    "hidden": [113, 182, 242]
-  }
+    "_id": 131,
+    "key": "healer",
+    "name": {
+        "japanese-kana": "いやしのこころ",
+        "korean": "치유의마음",
+        "traditional-chinese": "治癒之心",
+        "french": "Cœur Soin",
+        "german": "Heilherz",
+        "spanish": "Alma Cura",
+        "italian": "Curacuore",
+        "english": "Healer",
+        "japanese": "いやしのこころ",
+        "simplified-chinese": "治愈之心",
+        "latin-american-spanish": "Alma Sanadora"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+        "full": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Guérit parfois le statut des alliés alentour.",
+            "xy": "Guérit parfois le statut des alliés alentour.",
+            "oras": "Guérit parfois le statut des alliés alentour.",
+            "sm": "Soigne parfois une altération de statut d’un allié proche.",
+            "usum": "Soigne parfois une altération de statut d’un allié proche.",
+            "lgpe": "Soigne parfois une altération de statut d’un allié proche.",
+            "swsh": "Soigne parfois une altération de statut d’un allié proche.",
+            "sv": "Soigne parfois une altération de statut d’un allié proche."
+        },
+        "english": {
+            "bw": "May heal an ally’s status conditions.",
+            "b2w2": "May heal an ally’s status conditions.",
+            "xy": "Sometimes heals an ally’s status condition.",
+            "oras": "Sometimes heals an ally’s status condition.",
+            "sm": "Sometimes heals an ally’s status condition.",
+            "usum": "Sometimes heals an ally’s status condition.",
+            "lgpe": "Sometimes heals an ally’s status condition.",
+            "swsh": "Sometimes heals an ally’s status condition.",
+            "sv": "Sometimes cures the status conditions of the Pokémon's allies."
+        },
+        "japanese-kana": {
+            "xy": "じょうたい　いじょうの みかたを　たまに　なおす。",
+            "oras": "じょうたい　いじょうの  かたを　たまに　なおす。",
+            "sm": "じょうたい　いじょうの　みかたを たまに　なおしてあげる。",
+            "usum": "じょうたい　いじょうの　みかたを たまに　なおしてあげる。",
+            "lgpe": "じょうたい　いじょうの　みかたを たまに　なおしてあげる。",
+            "swsh": "じょうたい　いじょうの　みかたを たまに　なおしてあげる。"
+        },
+        "korean": {
+            "xy": "같은 편의 상태 이상을 가끔 회복시킨다.",
+            "oras": "같은 편의 상태 이상을 가끔 회복시킨다.",
+            "sm": "같은 편의 상태 이상을 가끔 회복시킨다.",
+            "usum": "같은 편의 상태 이상을 가끔 회복시킨다.",
+            "lgpe": "같은 편의 상태 이상을 가끔 회복시킨다.",
+            "swsh": "같은 편의 상태 이상을 가끔 회복시킨다."
+        },
+        "german": {
+            "xy": "Befreit Mitstreiter gelegentlich von Statusproblemen.",
+            "oras": "Befreit Mitstreiter gelegentlich von Statusproblemen.",
+            "sm": "Befreit Mitstreiter gelegentlich von Statusproblemen.",
+            "usum": "Befreit Mitstreiter gelegentlich von Statusproblemen.",
+            "lgpe": "Befreit Mitstreiter gelegentlich von Statusproblemen.",
+            "swsh": "Befreit Mitstreiter gelegentlich von Statusproblemen."
+        },
+        "spanish": {
+            "xy": "A veces cura los cambios de estado de un aliado.",
+            "oras": "A veces cura los cambios de estado de un aliado.",
+            "sm": "A veces cura los problemas de estado de un aliado.",
+            "usum": "A veces cura los problemas de estado de un aliado.",
+            "lgpe": "A veces cura los problemas de estado de un aliado.",
+            "swsh": "A veces cura los problemas de estado de un aliado."
+        },
+        "italian": {
+            "xy": "A volte cura i problemi di stato degli alleati.",
+            "oras": "A volte cura i problemi di stato degli alleati.",
+            "sm": "A volte cura i problemi di stato degli alleati.",
+            "usum": "A volte cura i problemi di stato degli alleati.",
+            "lgpe": "A volte cura i problemi di stato degli alleati.",
+            "swsh": "A volte cura i problemi di stato degli alleati."
+        },
+        "japanese": {
+            "xy": "状態異常の 味方を　たまに　治す。",
+            "oras": "状態異常の 味方を　たまに　治す。",
+            "sm": "状態異常の　味方を たまに　治してあげる。",
+            "usum": "状態異常の　味方を たまに　治してあげる。",
+            "lgpe": "状態異常の　味方を たまに　治してあげる。",
+            "swsh": "状態異常の　味方を たまに　治してあげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "A veces cura los cambios de estado de un aliado.",
+            "oras": "A veces cura los cambios de estado de un aliado.",
+            "sm": "A veces cura los problemas de estado de un aliado.",
+            "usum": "A veces cura los problemas de estado de un aliado.",
+            "lgpe": "A veces cura los problemas de estado de un aliado.",
+            "swsh": "A veces cura los problemas de estado de un aliado."
+        },
+        "traditional-chinese": {
+            "sm": "有時會治癒同伴的異常狀態。",
+            "usum": "有時會治癒同伴的異常狀態。",
+            "lgpe": "有時會治癒同伴的異常狀態。",
+            "swsh": "有時會治癒同伴的異常狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "有时会治愈异常状态的同伴。",
+            "usum": "有时会治愈异常状态的同伴。",
+            "lgpe": "有时会治愈异常状态的同伴。",
+            "swsh": "有时会治愈异常状态的同伴。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            531,
+            531.1,
+            594,
+            682,
+            683,
+            856,
+            857,
+            858
+        ],
+        "hidden": [
+            113,
+            182,
+            242
+        ]
+    }
 }

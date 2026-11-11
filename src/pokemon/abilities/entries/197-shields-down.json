@@ -1,22 +1,99 @@
 {
-  "_id": 197,
-  "key": "shields-down",
-  "name": {
-    "english": "Shields Down"
-  },
-  "generation": 7,
-  "effect": {
-    "shortEffect": "Transforms this Minior between Core Form and Meteor Form. Prevents major status ailments and drowsiness while in Meteor Form.",
-    "full": "When this Pokémon enters battle and at the end of each turn, if its HP is 50% or above, it changes into Meteor Form; otherwise, it changes into Core Form. In Meteor Form, it cannot be given a major status ailment (though existing ones are not cured), cannot become drowsy from yawn, and cannot use rest (which will simply fail). This ability cannot be copied, replaced, or nullified. This ability only takes effect for Minior."
-  },
-  "description": {
-    "sun-moon": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive.",
-    "ultra-sun-ultra-moon": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive.",
-    "lets-go-pikachu-lets-go-eevee": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive.",
-    "sword-shield": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive."
-  },
-  "pokemonWithAbility": {
-    "normal": [774],
-    "hidden": []
-  }
+    "_id": 197,
+    "key": "shields-down",
+    "name": {
+        "japanese-kana": "リミットシールド",
+        "korean": "리밋실드",
+        "traditional-chinese": "界限盾殼",
+        "french": "Bouclier-Carcan",
+        "german": "Limitschild",
+        "spanish": "Escudo Limitado",
+        "italian": "Scudosoglia",
+        "english": "Shields Down",
+        "japanese": "リミットシールド",
+        "simplified-chinese": "界限盾壳",
+        "latin-american-spanish": "Escudo Limitado"
+    },
+    "generation": 7,
+    "effect": {
+        "shortEffect": "Transforms this Minior between Core Form and Meteor Form.  Prevents major status ailments and drowsiness while in Meteor Form.",
+        "full": "When this Pokémon enters battle and at the end of each turn, if its HP is 50% or above, it changes into Meteor Form; otherwise, it changes into Core Form.  In Meteor Form, it cannot be given a major status ailment (though existing ones are not cured), cannot become drowsy from Yawn, and cannot use Rest (which will simply fail). This ability cannot be copied, replaced, or nullified.  This ability only takes effect for Minior."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "ＨＰが　はんぶんに　なると からが　こわれて こうげきてきに　なる。",
+            "usum": "ＨＰが　はんぶんに　なると からが　こわれて こうげきてきに　なる。",
+            "lgpe": "ＨＰが　はんぶんに　なると からが　こわれて こうげきてきに　なる。",
+            "swsh": "ＨＰが　はんぶんに　なると からが　こわれて こうげきてきに　なる。"
+        },
+        "korean": {
+            "sm": "HP가 절반이 되면 껍질이 깨져 공격적으로 된다.",
+            "usum": "HP가 절반이 되면 껍질이 깨져 공격적으로 된다.",
+            "lgpe": "HP가 절반이 되면 껍질이 깨져 공격적으로 된다.",
+            "swsh": "HP가 절반이 되면 껍질이 깨져 공격적으로 된다."
+        },
+        "traditional-chinese": {
+            "sm": "ＨＰ變為一半時， 殼會壞掉，變得更有攻擊性。",
+            "usum": "ＨＰ變為一半時， 殼會壞掉，變得更有攻擊性。",
+            "lgpe": "HP變為一半時， 殼會壞掉，變得更有攻擊性。",
+            "swsh": "ＨＰ變為一半時， 殼會壞掉，變得更有攻擊性。"
+        },
+        "french": {
+            "sm": "Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise, mais son Attaque et son Attaque Spéciale augmentent.",
+            "usum": "Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise, mais son Attaque et son Attaque Spéciale augmentent.",
+            "lgpe": "Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise, mais son Attaque et son Attaque Spéciale augmentent.",
+            "swsh": "Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise, mais son Attaque et son Attaque Spéciale augmentent.",
+            "tid": "Lorsque le Pokémon perd la moitié de ses PV,\\nson enveloppe se brise et il adopte une posture\\noffensive."
+        },
+        "german": {
+            "sm": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, zerbricht die Panzerung des Pokémon und es wird aggressiver.",
+            "usum": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, zerbricht die Panzerung des Pokémon und es wird aggressiver.",
+            "lgpe": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, zerbricht die Panzerung des Pokémon und es wird aggressiver.",
+            "swsh": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, zerbricht die Panzerung des Pokémon und es wird aggressiver."
+        },
+        "spanish": {
+            "sm": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
+            "usum": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
+            "lgpe": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
+            "swsh": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva."
+        },
+        "italian": {
+            "sm": "Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all’offensiva.",
+            "usum": "Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all’offensiva.",
+            "lgpe": "Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all’offensiva.",
+            "swsh": "Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all’offensiva."
+        },
+        "english": {
+            "sm": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive.",
+            "usum": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive.",
+            "lgpe": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive.",
+            "swsh": "When its HP becomes half or less, the Pokémon’s shell breaks and it becomes aggressive.",
+            "tid": "When its HP drops to half or less, the Pokémon's shell breaks and it becomes aggressive."
+        },
+        "japanese": {
+            "sm": "ＨＰが　半分に　なると 殻が　壊れて 攻撃的に　なる。",
+            "usum": "ＨＰが　半分に　なると 殻が　壊れて 攻撃的に　なる。",
+            "lgpe": "ＨＰが　半分に　なると 殻が　壊れて 攻撃的に　なる。",
+            "swsh": "ＨＰが　半分に　なると 殻が　壊れて 攻撃的に　なる。"
+        },
+        "simplified-chinese": {
+            "sm": "ＨＰ变为一半时， 壳会坏掉，变得有攻击性。",
+            "usum": "ＨＰ变为一半时， 壳会坏掉，变得有攻击性。",
+            "lgpe": "HP变为一半时， 壳会坏掉，变得有攻击性。",
+            "swsh": "ＨＰ变为一半时， 壳会坏掉，变得有攻击性。"
+        },
+        "latin-american-spanish": {
+            "sm": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
+            "usum": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
+            "lgpe": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva.",
+            "swsh": "Rompe su coraza cuando sus PS se ven reducidos a la mitad y adopta una forma ofensiva."
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            774
+        ],
+        "hidden": []
+    }
 }

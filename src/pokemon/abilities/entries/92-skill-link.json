@@ -1,29 +1,148 @@
 {
-  "_id": 92,
-  "key": "skill-link",
-  "name": {
-    "english": "Skill Link"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Extends two-to-five-hit moves and triple kick to their full length every time.",
-    "full": "This Pokémon always hits five times with two-to-five-hit moves, such as icicle spear. It also bypasses the accuracy checks on triple kick's second and third hits."
-  },
-  "description": {
-    "diamond-pearl": "Increases the frequency of multi-strike moves.",
-    "platinum": "Increases the frequency of multi-strike moves.",
-    "heartgold-soulsilver": "Increases the frequency of multi-strike moves.",
-    "black-white": "Increases the frequency of multi-strike moves.",
-    "black-2-white-2": "Increases the frequency of multi-strike moves.",
-    "x-y": "Increases the number of times multi-strike moves hit.",
-    "omega-ruby-alpha-sapphire": "Increases the number of times multi-strike moves hit.",
-    "sun-moon": "Maximizes the number of times multi-strike moves hit.",
-    "ultra-sun-ultra-moon": "Maximizes the number of times multi-strike moves hit.",
-    "lets-go-pikachu-lets-go-eevee": "Maximizes the number of times multistrike moves hit.",
-    "sword-shield": "Maximizes the number of times multistrike moves hit."
-  },
-  "pokemonWithAbility": {
-    "normal": [90, 91, 214.1, 731, 732, 733],
-    "hidden": [190, 424, 572, 573]
-  }
+    "_id": 92,
+    "key": "skill-link",
+    "name": {
+        "japanese-kana": "スキルリンク",
+        "korean": "스킬링크",
+        "traditional-chinese": "連續攻擊",
+        "french": "Multi-Coups",
+        "german": "Wertelink",
+        "spanish": "Encadenado",
+        "italian": "Abillegame",
+        "english": "Skill Link",
+        "japanese": "スキルリンク",
+        "simplified-chinese": "连续攻击",
+        "latin-american-spanish": "Encadenado"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Extends two-to-five-hit moves and Triple Kick to their full length every time.",
+        "full": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear.  It also bypasses the accuracy checks on Triple Kick's second and third hits."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Triple Pied n'est pas affecté."
+        },
+        "german": {
+            "bw": "Dreifachkick wird nicht beeinflusst."
+        },
+        "english": {
+            "bw": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "dp": "Augmente la fréquence des attaques multiples.",
+            "pt": "Augmente la fréquence des attaques multiples.",
+            "hgss": "Augmente la fréquence des attaques multiples.",
+            "bw": "Augmente la fréquence des attaques multiples.",
+            "xd": "Augmente la fréquence des attaques multiples.",
+            "b2w2": "Augmente la fréquence des attaques multiples.",
+            "xy": "Augmente la fréquence des attaques multiples.",
+            "oras": "Augmente la fréquence des attaques multiples.",
+            "sm": "Les capacités pouvant frapper plusieurs fois frappent toujours le nombre maximum de coups.",
+            "usum": "Les capacités pouvant frapper plusieurs fois frappent toujours le nombre maximum de coups.",
+            "lgpe": "Les capacités pouvant frapper plusieurs fois frappent toujours le nombre maximum de coups.",
+            "swsh": "Les capacités pouvant frapper plusieurs fois frappent toujours le nombre maximal de coups.",
+            "sv": "Les capacités pouvant frapper plusieurs fois frappent\\ntoujours le nombre maximal de coups."
+        },
+        "english": {
+            "dp": "Increases the frequency of multi-strike moves.",
+            "pt": "Increases the frequency of multi-strike moves.",
+            "hgss": "Increases the frequency of multi-strike moves.",
+            "bw": "Increases the frequency of multi-strike moves.",
+            "b2w2": "Increases the frequency of multi-strike moves.",
+            "xy": "Increases the number of times multi-strike moves hit.",
+            "oras": "Increases the number of times multi-strike moves hit.",
+            "sm": "Maximizes the number of times multi-strike moves hit.",
+            "usum": "Maximizes the number of times multi-strike moves hit.",
+            "lgpe": "Maximizes the number of times multistrike moves hit.",
+            "swsh": "Maximizes the number of times multistrike moves hit.",
+            "sv": "Maximizes the number of times multistrike moves hit."
+        },
+        "japanese-kana": {
+            "xy": "れんぞく　わざを たくさん　だせる。",
+            "oras": "れんぞく　わざを たくさん　だせる。",
+            "sm": "れんぞくわざを　つかうと　いつも さいこう　かいすう　だすことが　できる。",
+            "usum": "れんぞくわざを　つかうと　いつも さいこう　かいすう　だすことが　できる。",
+            "lgpe": "れんぞくわざを　つかうと　いつも さいこう　かいすう　だすことが　できる。",
+            "swsh": "れんぞくわざを　つかうと　いつも さいこう　かいすう　だすことが　できる。"
+        },
+        "korean": {
+            "xy": "연속 기술을 많이 쓸 수 있다.",
+            "oras": "연속 기술을 많이 쓸 수 있다.",
+            "sm": "연속 기술을 사용하면 항상 최고 횟수를 사용할 수 있다.",
+            "usum": "연속 기술을 사용하면 항상 최고 횟수를 사용할 수 있다.",
+            "lgpe": "연속 기술을 사용하면 항상 최고 횟수를 사용할 수 있다.",
+            "swsh": "연속 기술을 사용하면 항상 최고 횟수를 사용할 수 있다."
+        },
+        "german": {
+            "xy": "Ermöglicht längere Trefferserien mit Serien-Attacken.",
+            "oras": "Ermöglicht längere Trefferserien mit Serien-Attacken.",
+            "sm": "Landet mit Serien-Attacken immer die maximale Anzahl an Treffern.",
+            "usum": "Landet mit Serien-Attacken immer die maximale Anzahl an Treffern.",
+            "lgpe": "Landet mit Serien-Attacken immer die maximale Anzahl an Treffern.",
+            "swsh": "Landet mit Serien-Attacken immer die maximale Anzahl an Treffern."
+        },
+        "spanish": {
+            "xy": "Aumenta la frecuencia de los movimientos múltiples.",
+            "oras": "Aumenta la frecuencia de los movimientos múltiples.",
+            "sm": "Los movimientos múltiples se ejecutarán siempre con el número máximo de golpes.",
+            "usum": "Los movimientos múltiples se ejecutarán siempre con el número máximo de golpes.",
+            "lgpe": "Los movimientos múltiples se ejecutarán siempre con el número máximo de golpes.",
+            "swsh": "Ejecuta siempre los movimientos múltiples con el número máximo de golpes."
+        },
+        "italian": {
+            "xy": "Aumenta la frequenza di mosse multicolpo.",
+            "oras": "Aumenta la frequenza di mosse multicolpo.",
+            "sm": "Le mosse multicolpo eseguono sempre il massimo degli attacchi possibili.",
+            "usum": "Le mosse multicolpo eseguono sempre il massimo degli attacchi possibili.",
+            "lgpe": "Le mosse multicolpo eseguono sempre il massimo degli attacchi possibili.",
+            "swsh": "Le mosse multicolpo mandano a segno sempre il massimo dei colpi possibili."
+        },
+        "japanese": {
+            "xy": "連続技を たくさん　だせる。",
+            "oras": "連続技を たくさん　だせる。",
+            "sm": "連続技を　使うと　いつも 最高回数　出すことが　できる。",
+            "usum": "連続技を　使うと　いつも 最高回数　出すことが　できる。",
+            "lgpe": "連続技を　使うと　いつも 最高回数　出すことが　できる。",
+            "swsh": "連続技を　使うと　いつも 最高回数　出すことが　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aumenta la frecuencia de los movimientos múltiples.",
+            "oras": "Aumenta la frecuencia de los movimientos múltiples.",
+            "sm": "Los movimientos múltiples se ejecutarán siempre con el número máximo de golpes.",
+            "usum": "Los movimientos múltiples se ejecutarán siempre con el número máximo de golpes.",
+            "lgpe": "Los movimientos múltiples se ejecutarán siempre con el número máximo de golpes.",
+            "swsh": "Ejecuta siempre los movimientos múltiples con el número máximo de golpes."
+        },
+        "traditional-chinese": {
+            "sm": "若使用連續招式， 總是可使出最高次數。",
+            "usum": "若使用連續招式， 總是可使出最高次數。",
+            "lgpe": "若使用連續招式， 總是可使出最高次數。",
+            "swsh": "使用連續招式時， 每回都能以最多次數進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "如果使用连续招式， 总是能使出最高次数。",
+            "usum": "如果使用连续招式， 总是能使出最高次数。",
+            "lgpe": "如果使用连续招式， 总是能使出最高次数。",
+            "swsh": "如果使用连续招式， 总是能使出最高次数。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            90,
+            91,
+            214.1,
+            731,
+            732,
+            733
+        ],
+        "hidden": [
+            190,
+            424,
+            572,
+            573
+        ]
+    }
 }

@@ -1,29 +1,135 @@
 {
-  "_id": 87,
-  "key": "dry-skin",
-  "name": {
-    "english": "Dry Skin"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain. Increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max HP.",
-    "full": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain. This Pokémon takes 1.25× as much damage from fire-type moves, but whenever a water move hits it, it heals for 1/4 its maximum HP instead."
-  },
-  "description": {
-    "diamond-pearl": "Reduces HP if it is hot. Water restores HP.",
-    "platinum": "Reduces HP if it is hot. Water restores HP.",
-    "heartgold-soulsilver": "Reduces HP if it is hot. Water restores HP.",
-    "black-white": "Reduces HP if it is hot. Water restores HP.",
-    "black-2-white-2": "Reduces HP if it is hot. Water restores HP.",
-    "x-y": "Reduces HP if it’s hot. Water restores HP.",
-    "omega-ruby-alpha-sapphire": "Reduces HP if it’s hot. Water restores HP.",
-    "sun-moon": "Restores HP in rain or when hit by Water-type moves. Reduces HP in sunshine, and increases the damage received from Fire-type moves.",
-    "ultra-sun-ultra-moon": "Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
-    "lets-go-pikachu-lets-go-eevee": "Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
-    "sword-shield": "Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves."
-  },
-  "pokemonWithAbility": {
-    "normal": [46, 47, 453, 454, 694, 695],
-    "hidden": [124]
-  }
+    "_id": 87,
+    "key": "dry-skin",
+    "name": {
+        "japanese-kana": "かんそうはだ",
+        "korean": "건조피부",
+        "traditional-chinese": "乾燥皮膚",
+        "french": "Peau Sèche",
+        "german": "Trockenheit",
+        "spanish": "Piel Seca",
+        "italian": "Pellearsa",
+        "english": "Dry Skin",
+        "japanese": "かんそうはだ",
+        "simplified-chinese": "干燥皮肤",
+        "latin-american-spanish": "Piel Seca"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP.",
+        "full": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "dp": "Perd des PV à la chaleur. L'eau les restaure.",
+            "pt": "Perd des PV à la chaleur. L'eau les restaure.",
+            "hgss": "Perd des PV à la chaleur. L'eau les restaure.",
+            "bw": "Perd des PV à la chaleur. L'eau les restaure.",
+            "xd": "Perd des PV à la chaleur. L'eau les restaure.",
+            "b2w2": "Perd des PV à la chaleur. L'eau les restaure.",
+            "xy": "Perd des PV à la chaleur. L’eau les restaure.",
+            "oras": "Perd des PV à la chaleur. L'eau les restaure.",
+            "sm": "Le Pokémon regagne des PV sous la pluie ou s'il est touché par une capacité Eau, mais il déteste les capacités Feu ou quand le soleil brille.",
+            "usum": "Le Pokémon regagne des PV sous la pluie ou s'il est touché par une capacité Eau, mais il déteste les capacités Feu ou quand le soleil brille.",
+            "lgpe": "Le Pokémon regagne des PV sous la pluie ou s’il est touché par une capacité Eau, mais il déteste les capacités Feu ou quand le soleil brille.",
+            "swsh": "Le Pokémon perd des PV quand le soleil brille, mais il en regagne lorsqu'il pleut ou s'il est touché par une capacité Eau. Il subit aussi plus de dégâts de Feu.",
+            "sv": "Quand le soleil brille, le Pokémon perd des PV et subit plus de dégâts des capacités Feu, mais il regagne des PV lorsqu'il pleut ou s'il est touché par une capacité Eau."
+        },
+        "english": {
+            "dp": "Reduces HP if it is hot. Water restores HP.",
+            "pt": "Reduces HP if it is hot. Water restores HP.",
+            "hgss": "Reduces HP if it is hot. Water restores HP.",
+            "bw": "Reduces HP if it is hot. Water restores HP.",
+            "b2w2": "Reduces HP if it is hot. Water restores HP.",
+            "xy": "Reduces HP if it’s hot. Water restores HP.",
+            "oras": "Reduces HP if it’s hot. Water restores HP.",
+            "sm": "Restores HP in rain or when hit by Water-type moves. Reduces HP in sunshine, and increases the damage received from Fire-type moves.",
+            "usum": "Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
+            "lgpe": "Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
+            "swsh": "Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
+            "sv": "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves."
+        },
+        "japanese-kana": {
+            "xy": "あついと　ＨＰが　へる。 みずで　ＨＰを　かいふく。",
+            "oras": "あついと　ＨＰが　へる。  ずで　ＨＰを　かいふく。",
+            "sm": "てんきが　あめのときや　みずタイプの わざで　ＨＰが　かいふくし　はれのときや ほのおタイプの　わざで　へってしまう。",
+            "usum": "てんきが　あめのときや　みずタイプの わざで　ＨＰが　かいふくし　はれのときや ほのおタイプの　わざで　へってしまう。",
+            "lgpe": "てんきが　あめのときや　みずタイプの わざで　ＨＰが　かいふくし　はれのときや ほのおタイプの　わざで　へってしまう。",
+            "swsh": "てんきが　あめのときや　みずタイプの わざで　ＨＰが　かいふくし　はれのときや ほのおタイプの　わざで　へってしまう。"
+        },
+        "korean": {
+            "xy": "더우면 HP가 줄어든다. 물로 HP를 회복한다.",
+            "oras": "더우면 HP가 줄어든다. 물로 HP를 회복한다.",
+            "sm": "비가 오는 날씨나 물타입의 기술로 HP가 회복되고 맑을 때나 불꽃타입의 기술로는 줄어든다.",
+            "usum": "비가 오는 날씨나 물타입의 기술로 HP가 회복되고 맑을 때나 불꽃타입의 기술로는 줄어든다.",
+            "lgpe": "비가 오는 날씨나 물타입의 기술로 HP가 회복되고 맑을 때나 불꽃타입의 기술로는 줄어든다.",
+            "swsh": "비가 오는 날씨나 물타입의 기술로 HP가 회복되고 맑을 때나 불꽃타입의 기술로는 줄어든다."
+        },
+        "german": {
+            "xy": "Bei heißem Wetter verliert das Pokémon KP. Wasser heilt KP.",
+            "oras": "Bei heißem Wetter verliert das Pokémon KP. Wasser heilt KP.",
+            "sm": "Bei Sonnenschein verliert das Pokémon KP und der Schaden durch Feuer-Attacken steigt. Bei Regen und Treffern durch Wasser-Attacken regeneriert es KP.",
+            "usum": "Bei Sonnenschein verliert das Pokémon KP und der Schaden durch Feuer-Attacken steigt. Bei Regen und Treffern durch Wasser-Attacken regeneriert es KP.",
+            "lgpe": "Bei Sonnenschein verliert das Pokémon KP und der Schaden durch Feuer-Attacken steigt. Bei Regen und Treffern durch Wasser-Attacken regeneriert es KP.",
+            "swsh": "Bei Sonnenschein verliert das Pokémon KP und der Schaden durch Feuer-Attacken steigt. Bei Regen und Treffern durch Wasser-Attacken regeneriert es KP."
+        },
+        "spanish": {
+            "xy": "Pierde PS si hace calor. Los recupera con agua.",
+            "oras": "Pierde PS si hace calor. Los recupera con agua.",
+            "sm": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+            "usum": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+            "lgpe": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+            "swsh": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal."
+        },
+        "italian": {
+            "xy": "Riduce i PS se fa caldo. In presenza di acqua, ridà PS.",
+            "oras": "Riduce i PS se fa caldo. In presenza di acqua, ridà PS.",
+            "sm": "Il Pokémon recupera PS se piove o se subisce mosse di tipo Acqua, ma con la luce solare intensa perde PS. Subisce più danni da mosse di tipo Fuoco.",
+            "usum": "Il Pokémon recupera PS se piove o se subisce mosse di tipo Acqua, ma con la luce solare intensa perde PS. Subisce più danni da mosse di tipo Fuoco.",
+            "lgpe": "Il Pokémon recupera PS se piove o se subisce mosse di tipo Acqua, ma con la luce solare intensa perde PS. Subisce più danni da mosse di tipo Fuoco.",
+            "swsh": "Il Pokémon recupera PS se piove o se subisce mosse di tipo Acqua, ma perde PS con la luce solare intensa. Subisce più danni da mosse di tipo Fuoco."
+        },
+        "japanese": {
+            "xy": "あついと　ＨＰが　減る。 みずで　ＨＰを　回復。",
+            "oras": "あついと　ＨＰが　減る。  ずで　ＨＰを　回復。",
+            "sm": "天気が　雨の時や　みずタイプの 技で　ＨＰが　回復し　はれの時や ほのおタイプの　技で　減ってしまう。",
+            "usum": "天気が　雨の時や　みずタイプの 技で　ＨＰが　回復し　はれの時や ほのおタイプの　技で　減ってしまう。",
+            "lgpe": "天気が　雨の時や　みずタイプの 技で　ＨＰが　回復し　はれの時や ほのおタイプの　技で　減ってしまう。",
+            "swsh": "天気が　雨の時や　みずタイプの 技で　ＨＰが　回復し　はれの時や ほのおタイプの　技で　減ってしまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Pierde PS si hace calor. Los recupera con agua.",
+            "oras": "Pierde PS si hace calor. Los recupera con agua.",
+            "sm": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+            "usum": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+            "lgpe": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+            "swsh": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal."
+        },
+        "traditional-chinese": {
+            "sm": "下雨天氣時和受到水屬性的招式攻擊時， HP會回復。晴朗天氣時和受到火屬性的 招式攻擊時，ＨＰ會減少。",
+            "usum": "下雨天氣時和受到水屬性的招式攻擊時， HP會回復。晴朗天氣時和受到火屬性的 招式攻擊時，ＨＰ會減少。",
+            "lgpe": "下雨天氣時和受到水屬性的招式攻擊時， HP會回復。晴朗天氣時和受到火屬性的 招式攻擊時，HP會減少。",
+            "swsh": "下雨天氣時和受到水屬性的招式攻擊時， ＨＰ會回復。晴朗天氣時和受到火屬性的 招式攻擊時，ＨＰ會減少。"
+        },
+        "simplified-chinese": {
+            "sm": "下雨天气时和受到水属性的招式时， ＨＰ会回复。晴朗天气时和受到火属性的 招式时，ＨＰ会减少。",
+            "usum": "下雨天气时和受到水属性的招式时， ＨＰ会回复。晴朗天气时和受到火属性的 招式时，ＨＰ会减少。",
+            "lgpe": "下雨天气时和受到水属性的招式时， HP会回复。晴朗天气时和受到火属性的 招式时，HP会减少。",
+            "swsh": "下雨天气时和受到水属性的招式时， ＨＰ会回复。晴朗天气时和受到火属性的 招式时，ＨＰ会减少。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            46,
+            47,
+            453,
+            454,
+            694,
+            695
+        ],
+        "hidden": [
+            124
+        ]
+    }
 }

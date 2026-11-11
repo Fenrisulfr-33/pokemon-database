@@ -1,29 +1,162 @@
 {
-  "_id": 82,
-  "key": "gluttony",
-  "name": {
-    "english": "Gluttony"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
-    "full": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold."
-  },
-  "description": {
-    "diamond-pearl": "Encourages the early use of a held Berry.",
-    "platinum": "Encourages the early use of a held Berry.",
-    "heartgold-soulsilver": "Encourages the early use of a held Berry.",
-    "black-white": "Encourages the early use of a held Berry.",
-    "black-2-white-2": "Encourages the early use of a held Berry.",
-    "x-y": "Makes the Pokémon use a held Berry earlier than usual.",
-    "omega-ruby-alpha-sapphire": "Makes the Pokémon use a held Berry earlier than usual.",
-    "sun-moon": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
-    "ultra-sun-ultra-moon": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
-    "lets-go-pikachu-lets-go-eevee": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
-    "sword-shield": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual."
-  },
-  "pokemonWithAbility": {
-    "normal": [19.1, 20.1, 79.1, 88.1, 89.1, 213, 263, 263.1, 264, 264.1, 511, 512, 513, 514, 515, 516, 631, 840, 841, 842, 915, 916, 916.1, 1011],
-    "hidden": [69, 70, 71, 143, 316, 317, 325, 326, 446, 819, 820]
-  }
+    "_id": 82,
+    "key": "gluttony",
+    "name": {
+        "japanese-kana": "くいしんぼう",
+        "korean": "먹보",
+        "traditional-chinese": "貪吃鬼",
+        "french": "Gloutonnerie",
+        "german": "Völlerei",
+        "spanish": "Gula",
+        "italian": "Voracità",
+        "english": "Gluttony",
+        "japanese": "くいしんぼう",
+        "simplified-chinese": "贪吃鬼",
+        "latin-american-spanish": "Gula"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+        "full": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "dp": "Encourage l'utilisation d'une Baie tenue.",
+            "pt": "Encourage l'utilisation d'une Baie tenue.",
+            "hgss": "Encourage l'utilisation d'une Baie tenue.",
+            "bw": "Encourage l'utilisation d'une Baie tenue.",
+            "b2w2": "Encourage l'utilisation d'une Baie tenue.",
+            "xy": "Permet d'utiliser plus rapidement une Baie tenue.",
+            "oras": "Permet d'utiliser plus rapidement une Baie tenue.",
+            "sm": "Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu'il a perdu la moitié de ses PV.",
+            "usum": "Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu'il a perdu la moitié de ses PV.",
+            "lgpe": "Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu’il a perdu la moitié de ses PV.",
+            "swsh": "Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu'il a perdu la moitié de ses PV.",
+            "sv": "Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu'il a perdu la moitié de ses PV."
+        },
+        "english": {
+            "dp": "Encourages the early use of a held Berry.",
+            "pt": "Encourages the early use of a held Berry.",
+            "hgss": "Encourages the early use of a held Berry.",
+            "bw": "Encourages the early use of a held Berry.",
+            "b2w2": "Encourages the early use of a held Berry.",
+            "xy": "Makes the Pokémon use a held Berry earlier than usual.",
+            "oras": "Makes the Pokémon use a held Berry earlier than usual.",
+            "sm": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
+            "usum": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
+            "lgpe": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
+            "swsh": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
+            "sv": "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less."
+        },
+        "japanese-kana": {
+            "xy": "きのみを　いつもより はやく　つかう。",
+            "oras": "きの を　いつもより はやく　つかう。",
+            "sm": "ＨＰが　すくなくなったら　たべる きのみを　ＨＰ　はんぶんの ときに　たべてしまう。",
+            "usum": "ＨＰが　すくなくなったら　たべる きのみを　ＨＰ　はんぶんの ときに　たべてしまう。",
+            "lgpe": "ＨＰが　すくなくなったら　たべる きのみを　ＨＰ　はんぶんの ときに　たべてしまう。",
+            "swsh": "ＨＰが　すくなくなったら　たべる きのみを　ＨＰ　はんぶんの ときに　たべてしまう。"
+        },
+        "korean": {
+            "xy": "나무열매를 여느 때보다 빨리 사용한다.",
+            "oras": "나무열매를 여느 때보다 빨리 사용한다.",
+            "sm": "HP가 줄어들면 먹을 나무열매를 HP가 절반일 때 먹어버린다.",
+            "usum": "HP가 줄어들면 먹을 나무열매를 HP가 절반일 때 먹어버린다.",
+            "lgpe": "HP가 줄어들면 먹을 나무열매를 HP가 절반일 때 먹어버린다.",
+            "swsh": "HP가 줄어들면 먹을 나무열매를 HP가 절반일 때 먹어버린다."
+        },
+        "german": {
+            "xy": "Ermutigt zum frühzeitigen Einsatz von Beeren.",
+            "oras": "Ermutigt zum frühzeitigen Einsatz von Beeren.",
+            "sm": "Setzt bestimmte Beeren nicht erst in einer Notlage ein, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts fallen.",
+            "usum": "Setzt bestimmte Beeren nicht erst in einer Notlage ein, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts fallen.",
+            "lgpe": "Setzt bestimmte Beeren nicht erst in einer Notlage ein, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts fallen.",
+            "swsh": "Setzt bestimmte Beeren nicht erst in einer Notlage ein, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts fallen."
+        },
+        "spanish": {
+            "xy": "Fomenta el uso rápido de la baya que porte.",
+            "oras": "Fomenta el uso rápido de la baya que porte.",
+            "sm": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+            "usum": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+            "lgpe": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+            "swsh": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS."
+        },
+        "italian": {
+            "xy": "Favorisce l’uso anticipato di una bacca tenuta dal Pokémon.",
+            "oras": "Favorisce l’uso anticipato di una bacca tenuta dal Pokémon.",
+            "sm": "Il Pokémon non attende di aver perso molti PS per mangiare certe bacche, ma lo fa non appena i suoi PS scendono a metà o meno.",
+            "usum": "Il Pokémon non attende di aver perso molti PS per mangiare certe bacche, ma lo fa non appena i suoi PS scendono a metà o meno.",
+            "lgpe": "Il Pokémon non attende di aver perso molti PS per mangiare certe bacche, ma lo fa non appena i suoi PS scendono a metà o meno.",
+            "swsh": "Il Pokémon non attende di aver perso molti PS per mangiare certe bacche, ma lo fa non appena i suoi PS scendono a metà o meno."
+        },
+        "japanese": {
+            "xy": "きのみを　いつもより 早く　使う。",
+            "oras": "きの を　いつもより 早く　使う。",
+            "sm": "ＨＰが　少なくなったら　食べる きのみを　ＨＰ　半分の 時に　食べてしまう。",
+            "usum": "ＨＰが　少なくなったら　食べる きのみを　ＨＰ　半分の 時に　食べてしまう。",
+            "lgpe": "ＨＰが　少なくなったら　食べる きのみを　ＨＰ　半分の 時に　食べてしまう。",
+            "swsh": "ＨＰが　少なくなったら　食べる きのみを　ＨＰ　半分の 時に　食べてしまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Fomenta el uso rápido de la baya que porte.",
+            "oras": "Fomenta el uso rápido de la baya que porte.",
+            "sm": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+            "usum": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+            "lgpe": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+            "swsh": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS."
+        },
+        "traditional-chinese": {
+            "sm": "原本ＨＰ變得很少時才會吃的樹果， 在ＨＰ還有一半時就會把它吃掉。",
+            "usum": "原本ＨＰ變得很少時才會吃的樹果， 在ＨＰ還有一半時就會把它吃掉。",
+            "lgpe": "原本HP變得很少時才會吃的樹果， 在HP還有一半時就會把它吃掉。",
+            "swsh": "原本ＨＰ變得很少時才會吃的樹果， 在ＨＰ還有一半時就會把它吃掉。"
+        },
+        "simplified-chinese": {
+            "sm": "原本ＨＰ变得很少时才会吃树果， 在ＨＰ还有一半时就会把它吃掉。",
+            "usum": "原本ＨＰ变得很少时才会吃树果， 在ＨＰ还有一半时就会把它吃掉。",
+            "lgpe": "原本HP变得很少时才会吃树果， 在HP还有一半时就会把它吃掉。",
+            "swsh": "原本ＨＰ变得很少时才会吃树果， 在ＨＰ还有一半时就会把它吃掉。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            19.1,
+            20.1,
+            79.1,
+            88.1,
+            89.1,
+            213,
+            263,
+            263.1,
+            264,
+            264.1,
+            511,
+            512,
+            513,
+            514,
+            515,
+            516,
+            631,
+            840,
+            841,
+            842,
+            915,
+            916,
+            916.1,
+            1011
+        ],
+        "hidden": [
+            69,
+            70,
+            71,
+            143,
+            316,
+            317,
+            325,
+            326,
+            446,
+            819,
+            820
+        ]
+    }
 }

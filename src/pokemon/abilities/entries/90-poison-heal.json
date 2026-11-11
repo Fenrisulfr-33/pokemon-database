@@ -1,29 +1,141 @@
 {
-  "_id": 90,
-  "key": "poison-heal",
-  "name": {
-    "english": "Poison Heal"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Heals for 1/8 max HP after each turn when poisoned in place of damage.",
-    "full": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage. This includes bad poison."
-  },
-  "description": {
-    "diamond-pearl": "Restores HP if the Pokémon is poisoned.",
-    "platinum": "Restores HP if the Pokémon is poisoned.",
-    "heartgold-soulsilver": "Restores HP if the Pokémon is poisoned.",
-    "black-white": "Restores HP if the Pokémon is poisoned.",
-    "black-2-white-2": "Restores HP if the Pokémon is poisoned.",
-    "x-y": "Restores HP if the Pokémon is poisoned.",
-    "omega-ruby-alpha-sapphire": "Restores HP if the Pokémon is poisoned.",
-    "sun-moon": "Restores HP if the Pokémon is poisoned, instead of losing HP.",
-    "ultra-sun-ultra-moon": "Restores HP if the Pokémon is poisoned, instead of losing HP.",
-    "lets-go-pikachu-lets-go-eevee": "Restores HP if the Pokémon is poisoned instead of losing HP.",
-    "sword-shield": "Restores HP if the Pokémon is poisoned instead of losing HP."
-  },
-  "pokemonWithAbility": {
-    "normal": [285, 286],
-    "hidden": [472]
-  }
+    "_id": 90,
+    "key": "poison-heal",
+    "name": {
+        "japanese-kana": "ポイズンヒール",
+        "korean": "포이즌힐",
+        "traditional-chinese": "毒療",
+        "french": "Soin Poison",
+        "german": "Aufheber",
+        "spanish": "Antídoto",
+        "italian": "Velencura",
+        "english": "Poison Heal",
+        "japanese": "ポイズンヒール",
+        "simplified-chinese": "毒疗",
+        "latin-american-spanish": "Antídoto"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Heals for 1/8 max HP after each turn when poisoned in place of damage.",
+        "full": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage.  This includes bad poison."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Le poison continue d'infliger des dégâts au Pokémon en dehors du combat."
+        },
+        "german": {
+            "bw": "Vergiftung schadet dem Pokémon außerhalb vom Kampf."
+        },
+        "english": {
+            "bw": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage. This includes bad poison. This ability does not prevent poison damage while outside of a battle."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "dp": "Restaure des PV si le Pokémon est empoisonné.",
+            "pt": "Restaure des PV si le Pokémon est empoisonné.",
+            "hgss": "Restaure des PV si le Pokémon est empoisonné.",
+            "bw": "Restaure des PV si le Pokémon est empoisonné.",
+            "xd": "Restaure des PV si le Pokémon est empoisonné.",
+            "b2w2": "Restaure des PV si le Pokémon est empoisonné.",
+            "xy": "Restaure des PV si le Pokémon est empoisonné.",
+            "oras": "Restaure des PV si le Pokémon est empoisonné.",
+            "sm": "Quand le Pokémon est empoisonné, il regagne des PV au lieu d'en perdre.",
+            "usum": "Quand le Pokémon est empoisonné, il regagne des PV au lieu d'en perdre.",
+            "lgpe": "Quand le Pokémon est empoisonné, il regagne des PV au lieu d’en perdre.",
+            "swsh": "Quand le Pokémon est empoisonné, il regagne des PV au lieu d'en perdre.",
+            "sv": "Quand le Pokémon est empoisonné, il regagne des PV\\nau lieu d’en perdre."
+        },
+        "english": {
+            "dp": "Restores HP if the Pokémon is poisoned.",
+            "pt": "Restores HP if the Pokémon is poisoned.",
+            "hgss": "Restores HP if the Pokémon is poisoned.",
+            "bw": "Restores HP if the Pokémon is poisoned.",
+            "b2w2": "Restores HP if the Pokémon is poisoned.",
+            "xy": "Restores HP if the Pokémon is poisoned.",
+            "oras": "Restores HP if the Pokémon is poisoned.",
+            "sm": "Restores HP if the Pokémon is poisoned, instead of losing HP.",
+            "usum": "Restores HP if the Pokémon is poisoned, instead of losing HP.",
+            "lgpe": "Restores HP if the Pokémon is poisoned instead of losing HP.",
+            "swsh": "Restores HP if the Pokémon is poisoned instead of losing HP.",
+            "sv": "If poisoned, the Pokémon has its HP restored instead of taking damage."
+        },
+        "japanese-kana": {
+            "xy": "どくじょうたいに　なると ＨＰを　かいふくする。",
+            "oras": "どくじょうたいに　なると ＨＰを　かいふくする。",
+            "sm": "どくじょうたいに　なると ＨＰが　へらずに　ふえていく。",
+            "usum": "どくじょうたいに　なると ＨＰが　へらずに　ふえていく。",
+            "lgpe": "どくじょうたいに　なると ＨＰが　へらずに　ふえていく。",
+            "swsh": "どくじょうたいに　なると ＨＰが　へらずに　ふえていく。"
+        },
+        "korean": {
+            "xy": "독 상태가 되면 HP를 회복한다.",
+            "oras": "독 상태가 되면 HP를 회복한다.",
+            "sm": "독 상태가 되면 HP가 줄지 않고 증가한다.",
+            "usum": "독 상태가 되면 HP가 줄지 않고 증가한다.",
+            "lgpe": "독 상태가 되면 HP가 줄지 않고 증가한다.",
+            "swsh": "독 상태가 되면 HP가 줄지 않고 증가한다."
+        },
+        "german": {
+            "xy": "Heilt bei Vergiftungen KP.",
+            "oras": "Heilt bei Vergiftungen KP.",
+            "sm": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert KP.",
+            "usum": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert KP.",
+            "lgpe": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert KP.",
+            "swsh": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert KP."
+        },
+        "spanish": {
+            "xy": "Recupera PS si el Pokémon ha sido envenenado.",
+            "oras": "Recupera PS si el Pokémon ha sido envenenado.",
+            "sm": "Si el Pokémon resulta envenenado, recupera PS en vez de perderlos.",
+            "usum": "Si el Pokémon resulta envenenado, recupera PS en vez de perderlos.",
+            "lgpe": "Si el Pokémon resulta envenenado, recupera PS en vez de perderlos.",
+            "swsh": "Si resulta envenenado, recupera PS en vez de perderlos."
+        },
+        "italian": {
+            "xy": "Ridà PS se il Pokémon è avvelenato.",
+            "oras": "Ridà PS se il Pokémon è avvelenato.",
+            "sm": "Il Pokémon recupera PS anziché perderli se è avvelenato.",
+            "usum": "Il Pokémon recupera PS anziché perderli se è avvelenato.",
+            "lgpe": "Il Pokémon recupera PS anziché perderli se è avvelenato.",
+            "swsh": "Se il Pokémon è avvelenato, recupera PS anziché perderli."
+        },
+        "japanese": {
+            "xy": "どく状態に　なると ＨＰを　回復する。",
+            "oras": "どく状態に　なると ＨＰを　回復する。",
+            "sm": "どく状態に　なると ＨＰが　減らずに　増えていく。",
+            "usum": "どく状態に　なると ＨＰが　減らずに　増えていく。",
+            "lgpe": "どく状態に　なると ＨＰが　減らずに　増えていく。",
+            "swsh": "どく状態に　なると ＨＰが　減らずに　増えていく。"
+        },
+        "latin-american-spanish": {
+            "xy": "Recupera PS si el Pokémon ha sido envenenado.",
+            "oras": "Recupera PS si el Pokémon ha sido envenenado.",
+            "sm": "Si el Pokémon resulta envenenado, recupera PS en vez de perderlos.",
+            "usum": "Si el Pokémon resulta envenenado, recupera PS en vez de perderlos.",
+            "lgpe": "Si el Pokémon resulta envenenado, recupera PS en vez de perderlos.",
+            "swsh": "Si resulta envenenado, recupera PS en vez de perderlos."
+        },
+        "traditional-chinese": {
+            "sm": "陷入中毒狀態時， ＨＰ不會減少，反而會漸漸增加。",
+            "usum": "陷入中毒狀態時， ＨＰ不會減少，反而會漸漸增加。",
+            "lgpe": "陷入中毒狀態時， HP不會減少，反而會漸漸增加。",
+            "swsh": "陷入中毒狀態時， ＨＰ不會減少，反而會漸漸增加。"
+        },
+        "simplified-chinese": {
+            "sm": "变为中毒状态时， ＨＰ不会减少，反而会增加起来。",
+            "usum": "变为中毒状态时， ＨＰ不会减少，反而会增加起来。",
+            "lgpe": "变为中毒状态时， HP不会减少，反而会增加起来。",
+            "swsh": "变为中毒状态时， ＨＰ不会减少，反而会增加起来。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            285,
+            286
+        ],
+        "hidden": [
+            472
+        ]
+    }
 }

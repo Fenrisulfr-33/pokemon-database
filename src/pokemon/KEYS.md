@@ -5,7 +5,8 @@ Every key is unique across both tables, so they can share a namespace.
 
 ## Games
 
-Ordered to match `games_order` in `pokeApi/CONSTANTS.mjs`.
+Ordered to match `games_order` in `pokeApi/CONSTANTS.mjs`. In code, use
+`GAME_KEYS` from `constants/GAME_KEYS.js` (version group → key).
 
 | Gen | Version group                     | Key    |
 | --- | --------------------------------- | ------ |

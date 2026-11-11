@@ -1,24 +1,116 @@
 {
-  "_id": 176,
-  "key": "stance-change",
-  "name": {
-    "english": "Stance Change"
-  },
-  "generation": 6,
-  "effect": {
-    "shortEffect": "Changes aegislash to Blade Forme before using a damaging move, or Shield Forme before using kings shield.",
-    "full": "Changes aegislash to Blade Forme before using a damaging move, or Shield Forme before using kings shield."
-  },
-  "description": {
-    "x-y": "The Pokémon changes form depending on how it battles.",
-    "omega-ruby-alpha-sapphire": "The Pokémon changes form depending on how it battles.",
-    "sun-moon": "The Pokémon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King’s Shield.",
-    "ultra-sun-ultra-moon": "The Pokémon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King’s Shield.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King’s Shield.",
-    "sword-shield": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King’s Shield."
-  },
-  "pokemonWithAbility": {
-    "normal": [681],
-    "hidden": []
-  }
+    "_id": 176,
+    "key": "stance-change",
+    "name": {
+        "japanese-kana": "バトルスイッチ",
+        "korean": "배틀스위치",
+        "traditional-chinese": "戰鬥切換",
+        "french": "Déclic Tactique",
+        "german": "Taktikwechsel",
+        "spanish": "Cambio Táctico",
+        "italian": "Accendilotta",
+        "english": "Stance Change",
+        "japanese": "バトルスイッチ",
+        "simplified-chinese": "战斗切换",
+        "latin-american-spanish": "Cambio Táctico"
+    },
+    "generation": 6,
+    "effect": {
+        "shortEffect": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King’s Shield.",
+        "full": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King’s Shield."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "せんとうモードで すがたが　かわる。",
+            "oras": "せんとうモードで すがたが　かわる。",
+            "sm": "こうげきわざを　だすと　ブレードフォルムに わざ　キングシールドを　だすと シールドフォルムに　へんかする。",
+            "usum": "こうげきわざを　だすと　ブレードフォルムに わざ　キングシールドを　だすと シールドフォルムに　へんかする。",
+            "lgpe": "こうげきわざを　だすと　ブレードフォルムに わざ　キングシールドを　だすと シールドフォルムに　へんかする。",
+            "swsh": "こうげきわざを　だすと　ブレードフォルムに わざ　キングシールドを　だすと シールドフォルムに　へんかする。"
+        },
+        "korean": {
+            "xy": "배틀모드에서 모습이 바뀐다.",
+            "oras": "배틀모드에서 모습이 바뀐다.",
+            "sm": "공격 기술을 쓰면 블레이드폼으로 기술 킹실드를 쓰면 실드폼으로 변한다.",
+            "usum": "공격 기술을 쓰면 블레이드폼으로 기술 킹실드를 쓰면 실드폼으로 변한다.",
+            "lgpe": "공격 기술을 쓰면 블레이드폼으로 기술 킹실드를 쓰면 실드폼으로 변한다.",
+            "swsh": "공격 기술을 쓰면 블레이드폼으로 기술 킹실드를 쓰면 실드폼으로 변한다."
+        },
+        "french": {
+            "xy": "Change de forme selon la façon dont le Pokémon se bat.",
+            "oras": "Change de forme selon la façon dont le Pokémon se bat.",
+            "sm": "Le Pokémon prend la Forme Assaut lorsqu’il utilise une attaque, et la Forme Parade lorsqu’il utilise Bouclier Royal.",
+            "usum": "Le Pokémon prend la Forme Assaut lorsqu’il utilise une attaque, et la Forme Parade lorsqu’il utilise Bouclier Royal.",
+            "lgpe": "Le Pokémon prend la Forme Assaut lorsqu’il utilise une attaque, et la Forme Parade lorsqu’il utilise Bouclier Royal.",
+            "swsh": "Le Pokémon prend la Forme Assaut lorsqu’il utilise une attaque, et la Forme Parade lorsqu’il utilise Bouclier Royal.",
+            "sv": "Le Pokémon prend la Forme Assaut lorsqu’il utilise\\nune capacité offensive, et la Forme Parade lorsqu’il\\nutilise Bouclier Royal."
+        },
+        "german": {
+            "xy": "Das Pokémon nimmt je nach Kampftaktik eine andere Form an.",
+            "oras": "Das Pokémon nimmt je nach Kampftaktik eine andere Form an.",
+            "sm": "Setzt das Pokémon eine Offensiv-Attacke ein, nimmt es die Klingenform an. Setzt es danach die Attacke Königsschild ein, nimmt es die Schildform an.",
+            "usum": "Setzt das Pokémon eine Offensiv-Attacke ein, nimmt es die Klingenform an. Setzt es danach die Attacke Königsschild ein, nimmt es die Schildform an.",
+            "lgpe": "Setzt das Pokémon eine Offensiv-Attacke ein, nimmt es die Klingenform an. Setzt es danach die Attacke Königsschild ein, nimmt es die Schildform an.",
+            "swsh": "Setzt das Pokémon eine Offensiv-Attacke ein, nimmt es die Klingenform an. Setzt es danach die Attacke Königsschild ein, nimmt es die Schildform an."
+        },
+        "spanish": {
+            "xy": "Cambia de forma según su estilo de combate.",
+            "oras": "Cambia de forma según su estilo de combate.",
+            "sm": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real.",
+            "usum": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real.",
+            "lgpe": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real.",
+            "swsh": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real."
+        },
+        "italian": {
+            "xy": "L’aspetto del Pokémon cambia in base alla modalità di lotta.",
+            "oras": "L’aspetto del Pokémon cambia in base alla modalità di lotta.",
+            "sm": "Assume la Forma Spada se usa una mossa d’attacco e la Forma Scudo se usa Scudo Reale.",
+            "usum": "Assume la Forma Spada se usa una mossa d’attacco e la Forma Scudo se usa Scudo Reale.",
+            "lgpe": "Assume la Forma Spada se usa una mossa d’attacco e la Forma Scudo se usa Scudo Reale.",
+            "swsh": "Assume la Forma Spada se usa una mossa d’attacco e la Forma Scudo se usa Scudo Reale."
+        },
+        "english": {
+            "xy": "The Pokémon changes form depending on how it battles.",
+            "oras": "The Pokémon changes form depending on how it battles.",
+            "sm": "The Pokémon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King’s Shield.",
+            "usum": "The Pokémon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King’s Shield.",
+            "lgpe": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King’s Shield.",
+            "swsh": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King’s Shield."
+        },
+        "japanese": {
+            "xy": "戦闘モードで 姿が　変わる。",
+            "oras": "戦闘モードで 姿が　変わる。",
+            "sm": "攻撃技を　出すと　ブレードフォルムに 技　キングシールドを　出すと シールドフォルムに　変化する。",
+            "usum": "攻撃技を　出すと　ブレードフォルムに 技　キングシールドを　出すと シールドフォルムに　変化する。",
+            "lgpe": "攻撃技を　出すと　ブレードフォルムに 技　キングシールドを　出すと シールドフォルムに　変化する。",
+            "swsh": "攻撃技を　出すと　ブレードフォルムに 技　キングシールドを　出すと シールドフォルムに　変化する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cambia de forma según su estilo de combate.",
+            "oras": "Cambia de forma según su estilo de combate.",
+            "sm": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real.",
+            "usum": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real.",
+            "lgpe": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real.",
+            "swsh": "Adopta la Forma Filo al lanzar un ataque, o bien la Forma Escudo si usa el movimiento Escudo Real."
+        },
+        "traditional-chinese": {
+            "sm": "若使出攻擊招式，會變為刀劍形態， 若使出招式「王者盾牌」， 會變為盾牌形態。",
+            "usum": "若使出攻擊招式，會變為刀劍形態， 若使出招式「王者盾牌」， 會變為盾牌形態。",
+            "lgpe": "若使出攻擊招式，會變為刀劍形態， 若使出招式「王者盾牌」， 會變為盾牌形態。",
+            "swsh": "若使出攻擊招式，會變為刀劍形態， 若使出招式「王者盾牌」， 會變為盾牌形態。"
+        },
+        "simplified-chinese": {
+            "sm": "如果使出攻击招式，会变为刀剑形态， 如果使出招式“王者盾牌”， 会变为盾牌形态。",
+            "usum": "如果使出攻击招式，会变为刀剑形态， 如果使出招式“王者盾牌”， 会变为盾牌形态。",
+            "lgpe": "如果使出攻击招式，会变为刀剑形态， 如果使出招式“王者盾牌”， 会变为盾牌形态。",
+            "swsh": "如果使出攻击招式，会变为刀剑形态， 如果使出招式“王者盾牌”， 会变为盾牌形态。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            681
+        ],
+        "hidden": []
+    }
 }

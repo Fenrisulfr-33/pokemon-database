@@ -1,26 +1,145 @@
 {
-  "_id": 140,
-  "key": "telepathy",
-  "name": {
-    "english": "Telepathy"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Protects against friendly Pokémon's damaging moves.",
-    "full": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it."
-  },
-  "description": {
-    "black-white": "Anticipates an ally’s attack and dodges it.",
-    "black-2-white-2": "Anticipates an ally’s attack and dodges it.",
-    "x-y": "Anticipates an ally’s attack and dodges it.",
-    "omega-ruby-alpha-sapphire": "Anticipates an ally’s attack and dodges it.",
-    "sun-moon": "Anticipates an ally’s attack and dodges it.",
-    "ultra-sun-ultra-moon": "Anticipates an ally’s attack and dodges it.",
-    "lets-go-pikachu-lets-go-eevee": "Anticipates an ally’s attack and dodges it.",
-    "sword-shield": "Anticipates an ally’s attack and dodges it."
-  },
-  "pokemonWithAbility": {
-    "normal": [605, 606, 765],
-    "hidden": [202, 280, 281, 282, 307, 308, 360, 483, 484, 487, 517, 518, 714, 715, 785, 786, 787, 788, 824, 825, 826, 954]
-  }
+    "_id": 140,
+    "key": "telepathy",
+    "name": {
+        "japanese-kana": "テレパシー",
+        "korean": "텔레파시",
+        "traditional-chinese": "心靈感應",
+        "french": "Télépathe",
+        "german": "Telepathie",
+        "spanish": "Telepatía",
+        "italian": "Telepatia",
+        "english": "Telepathy",
+        "japanese": "テレパシー",
+        "simplified-chinese": "心灵感应",
+        "latin-american-spanish": "Telepatía"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Protects against friendly Pokémon's damaging moves.",
+        "full": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Anticipe et évite les attaques de ses alliés.",
+            "xy": "Anticipe et évite les attaques de ses alliés.",
+            "oras": "Anticipe et évite les attaques de ses alliés.",
+            "sm": "Le Pokémon anticipe et évite les attaques de ses alliés.",
+            "usum": "Le Pokémon anticipe et évite les attaques de ses alliés.",
+            "lgpe": "Le Pokémon anticipe et évite les attaques de ses alliés.",
+            "swsh": "Le Pokémon anticipe et évite les attaques de ses alliés.",
+            "sv": "Le Pokémon anticipe et évite les attaques de ses alliés."
+        },
+        "english": {
+            "bw": "Anticipates an ally’s attack and dodges it.",
+            "b2w2": "Anticipates an ally’s attack and dodges it.",
+            "xy": "Anticipates an ally’s attack and dodges it.",
+            "oras": "Anticipates an ally’s attack and dodges it.",
+            "sm": "Anticipates an ally’s attack and dodges it.",
+            "usum": "Anticipates an ally’s attack and dodges it.",
+            "lgpe": "Anticipates an ally’s attack and dodges it.",
+            "swsh": "Anticipates an ally’s attack and dodges it.",
+            "sv": "The Pokémon anticipates and dodges the attacks of its allies."
+        },
+        "japanese-kana": {
+            "xy": "みかたの　こうげきを よみとって　うけない。",
+            "oras": "かたの　こうげきを よ とって　うけない。",
+            "sm": "みかたの　こうげきを　よみとって わざを　かいひする。",
+            "usum": "みかたの　こうげきを　よみとって わざを　かいひする。",
+            "lgpe": "みかたの　こうげきを　よみとって わざを　かいひする。",
+            "swsh": "みかたの　こうげきを　よみとって わざを　かいひする。"
+        },
+        "korean": {
+            "xy": "같은 편의 공격의 낌새를 읽고 기술을 받지 않는다.",
+            "oras": "같은 편의 공격의 낌새를 읽고 기술을 받지 않는다.",
+            "sm": "같은 편의 공격의 낌새를 읽고 기술을 회피한다.",
+            "usum": "같은 편의 공격의 낌새를 읽고 기술을 회피한다.",
+            "lgpe": "같은 편의 공격의 낌새를 읽고 기술을 회피한다.",
+            "swsh": "같은 편의 공격의 낌새를 읽고 기술을 회피한다."
+        },
+        "german": {
+            "xy": "Erkennt und pariert Attacken von Mitstreitern.",
+            "oras": "Erkennt und pariert Attacken von Mitstreitern.",
+            "sm": "Erkennt und pariert Attacken von Mitstreitern.",
+            "usum": "Erkennt und pariert Attacken von Mitstreitern.",
+            "lgpe": "Erkennt und pariert Attacken von Mitstreitern.",
+            "swsh": "Erkennt und pariert Attacken von Mitstreitern."
+        },
+        "spanish": {
+            "xy": "Elude los ataques de aliados en batalla.",
+            "oras": "Elude los ataques de aliados en batalla.",
+            "sm": "Elude los ataques de los aliados durante el combate.",
+            "usum": "Elude los ataques de los aliados durante el combate.",
+            "lgpe": "Elude los ataques de los aliados durante el combate.",
+            "swsh": "Elude los ataques de los aliados durante el combate."
+        },
+        "italian": {
+            "xy": "Prevede ed evita gli attacchi degli alleati.",
+            "oras": "Prevede ed evita gli attacchi degli alleati.",
+            "sm": "Prevede ed evita gli attacchi degli alleati.",
+            "usum": "Prevede ed evita gli attacchi degli alleati.",
+            "lgpe": "Prevede ed evita gli attacchi degli alleati.",
+            "swsh": "Il Pokémon prevede ed evita gli attacchi degli alleati."
+        },
+        "japanese": {
+            "xy": "味方の　攻撃を 読み取って　受けない。",
+            "oras": "味方の　攻撃を 読 取って　受けない。",
+            "sm": "味方の　攻撃を　読み取って 技を　回避する。",
+            "usum": "味方の　攻撃を　読み取って 技を　回避する。",
+            "lgpe": "味方の　攻撃を　読み取って 技を　回避する。",
+            "swsh": "味方の　攻撃を　読み取って 技を　回避する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Elude los ataques de aliados en batalla.",
+            "oras": "Elude los ataques de aliados en batalla.",
+            "sm": "Elude los ataques de los aliados durante el combate.",
+            "usum": "Elude los ataques de los aliados durante el combate.",
+            "lgpe": "Elude los ataques de los aliados durante el combate.",
+            "swsh": "Elude los ataques de los aliados durante el combate."
+        },
+        "traditional-chinese": {
+            "sm": "預測我方的攻擊， 並閃避其招式。",
+            "usum": "預測我方的攻擊， 並閃避其招式。",
+            "lgpe": "預測我方的攻擊， 並閃避其招式。",
+            "swsh": "預測我方的攻擊， 並閃避其招式。"
+        },
+        "simplified-chinese": {
+            "sm": "读取我方的攻击， 并闪避其招式伤害。",
+            "usum": "读取我方的攻击， 并闪避其招式伤害。",
+            "lgpe": "读取我方的攻击， 并闪避其招式伤害。",
+            "swsh": "读取我方的攻击， 并闪避其招式伤害。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            605,
+            606,
+            765
+        ],
+        "hidden": [
+            202,
+            280,
+            281,
+            282,
+            307,
+            308,
+            360,
+            483,
+            484,
+            487,
+            517,
+            518,
+            714,
+            715,
+            785,
+            786,
+            787,
+            788,
+            824,
+            825,
+            826,
+            954
+        ]
+    }
 }

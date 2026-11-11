@@ -1,32 +1,178 @@
 {
-  "_id": 68,
-  "key": "swarm",
-  "name": {
-    "english": "Swarm"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less.",
-    "full": "When this Pokémon has 1/3 or less of its HP remaining, its bug-type moves inflict 1.5× as much regular damage. Overworld: If the lead Pokémon has this ability, the wild encounter rate is increased."
-  },
-  "description": {
-    "ruby-sapphire": "Ups BUG moves in a pinch.",
-    "emerald": "Ups BUG moves in a pinch.",
-    "firered-leafgreen": "Ups BUG moves in a pinch.",
-    "diamond-pearl": "Powers up Bug-type moves in a pinch.",
-    "platinum": "Powers up Bug-type moves in a pinch.",
-    "heartgold-soulsilver": "Powers up Bug-type moves in a pinch.",
-    "black-white": "Powers up Bug-type moves in a pinch.",
-    "black-2-white-2": "Powers up Bug-type moves in a pinch.",
-    "x-y": "Powers up Bug-type moves when the Pokémon is in trouble.",
-    "omega-ruby-alpha-sapphire": "Powers up Bug-type moves when the Pokémon is in trouble.",
-    "sun-moon": "Powers up Bug-type moves when the Pokémon’s HP is low.",
-    "ultra-sun-ultra-moon": "Powers up Bug-type moves when the Pokémon’s HP is low.",
-    "lets-go-pikachu-lets-go-eevee": "Powers up Bug-type moves when the Pokémon’s HP is low.",
-    "sword-shield": "Powers up Bug-type moves when the Pokémon’s HP is low."
-  },
-  "pokemonWithAbility": {
-    "normal": [15, 123, 165, 166, 167, 168, 212, 214, 267, 313, 402, 414, 540, 542, 543, 544, 545, 588, 589, 632, 736, 824, 825, 826, 900, 919, 920],
-    "hidden": [595, 596, 636, 637]
-  }
+    "_id": 68,
+    "key": "swarm",
+    "name": {
+        "japanese-kana": "むしのしらせ",
+        "korean": "벌레의알림",
+        "traditional-chinese": "蟲之預感",
+        "french": "Essaim",
+        "german": "Hexaplaga",
+        "spanish": "Enjambre",
+        "italian": "Aiutinsetto",
+        "english": "Swarm",
+        "japanese": "むしのしらせ",
+        "simplified-chinese": "虫之预感",
+        "latin-american-spanish": "Enjambre"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+        "full": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: If the lead Pokémon has this ability, the wild encounter rate is increased."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat.",
+            "dp": "Augmente la fréquence des cris entendus dans le monde extérieur si un Pokémon de l'équipe a ce talent."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt.",
+            "dp": "Erhöht die Anzahl an Rufen die man außerhalb vom Kampf hört, wenn irgendein Pokémon im Team diese Fähigkeit hat."
+        },
+        "english": {
+            "em": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.",
+            "dp": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: Increases the frequency of cries heard on the overworld if any party Pokémon has this ability."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Augmente attaques INSECT.",
+            "em": "Augmente attaques INSECT.",
+            "frlg": "Augmente attaques INSECT.",
+            "dp": "Booste les capacités Insecte en cas de besoin.",
+            "pt": "Booste les capacités Insecte en cas de besoin.",
+            "hgss": "Booste les capacités Insecte en cas de besoin.",
+            "bw": "Booste les capacités Insecte en cas de besoin.",
+            "xd": "Booste les capacités Insecte en cas de besoin.",
+            "b2w2": "Booste les capacités Insecte en cas de besoin.",
+            "xy": "Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV.",
+            "oras": "Booste les capacités Insecte en cas de besoin.",
+            "sm": "Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV.",
+            "usum": "Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV.",
+            "lgpe": "Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV.",
+            "swsh": "Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV.",
+            "sv": "Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV."
+        },
+        "english": {
+            "rs": "Ups BUG moves in a pinch.",
+            "em": "Ups BUG moves in a pinch.",
+            "frlg": "Ups BUG moves in a pinch.",
+            "dp": "Powers up Bug-type moves in a pinch.",
+            "pt": "Powers up Bug-type moves in a pinch.",
+            "hgss": "Powers up Bug-type moves in a pinch.",
+            "bw": "Powers up Bug-type moves in a pinch.",
+            "b2w2": "Powers up Bug-type moves in a pinch.",
+            "xy": "Powers up Bug-type moves when the Pokémon is in trouble.",
+            "oras": "Powers up Bug-type moves when the Pokémon is in trouble.",
+            "sm": "Powers up Bug-type moves when the Pokémon’s HP is low.",
+            "usum": "Powers up Bug-type moves when the Pokémon’s HP is low.",
+            "lgpe": "Powers up Bug-type moves when the Pokémon’s HP is low.",
+            "swsh": "Powers up Bug-type moves when the Pokémon’s HP is low.",
+            "sv": "Powers up Bug-type moves when the Pokémon's HP is low."
+        },
+        "japanese-kana": {
+            "xy": "ピンチのとき　むしの いりょくが　あがる。",
+            "oras": "ピンチのとき　むしの いりょくが　あがる。",
+            "sm": "ＨＰが　へったとき むしタイプの　わざの いりょくが　あがる。",
+            "usum": "ＨＰが　へったとき むしタイプの　わざの いりょくが　あがる。",
+            "lgpe": "ＨＰが　へったとき むしタイプの　わざの いりょくが　あがる。",
+            "swsh": "ＨＰが　へったとき むしタイプの　わざの いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "위급할 때 벌레타입의 위력이 올라간다.",
+            "oras": "위급할 때 벌레타입의 위력이 올라간다.",
+            "sm": "HP가 줄었을 때 벌레타입 기술의 위력이 올라간다.",
+            "usum": "HP가 줄었을 때 벌레타입 기술의 위력이 올라간다.",
+            "lgpe": "HP가 줄었을 때 벌레타입 기술의 위력이 올라간다.",
+            "swsh": "HP가 줄었을 때 벌레타입 기술의 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Erhöht in Notfällen die Stärke von Käfer-Attacken.",
+            "oras": "Erhöht in Notfällen die Stärke von Käfer-Attacken.",
+            "sm": "Erhöht die Stärke von Käfer-Attacken, wenn die KP auf einen gewissen Wert fallen.",
+            "usum": "Erhöht die Stärke von Käfer-Attacken, wenn die KP auf einen gewissen Wert fallen.",
+            "lgpe": "Erhöht die Stärke von Käfer-Attacken, wenn die KP auf einen gewissen Wert fallen.",
+            "swsh": "Erhöht die Stärke von Käfer-Attacken, wenn die KP auf einen gewissen Wert fallen."
+        },
+        "spanish": {
+            "xy": "Potencia los ataques de tipo Bicho en un apuro.",
+            "oras": "Potencia los ataques de tipo Bicho en un apuro.",
+            "sm": "Potencia los movimientos de tipo Bicho del Pokémon cuando le quedan pocos PS.",
+            "usum": "Potencia los movimientos de tipo Bicho del Pokémon cuando le quedan pocos PS.",
+            "lgpe": "Potencia los movimientos de tipo Bicho del Pokémon cuando le quedan pocos PS.",
+            "swsh": "Potencia sus movimientos de tipo Bicho cuando le quedan pocos PS."
+        },
+        "italian": {
+            "xy": "Quando si è in difficoltà, potenzia le mosse di tipo Coleottero.",
+            "oras": "Quando si è in difficoltà, potenzia le mosse di tipo Coleottero.",
+            "sm": "Quando il Pokémon ha pochi PS, la potenza delle sue mosse di tipo Coleottero aumenta.",
+            "usum": "Quando il Pokémon ha pochi PS, la potenza delle sue mosse di tipo Coleottero aumenta.",
+            "lgpe": "Quando il Pokémon ha pochi PS, la potenza delle sue mosse di tipo Coleottero aumenta.",
+            "swsh": "Quando il Pokémon ha pochi PS, la potenza delle sue mosse di tipo Coleottero aumenta."
+        },
+        "japanese": {
+            "xy": "ピンチのとき　むしの 威力が　あがる。",
+            "oras": "ピンチのとき　むしの 威力が　あがる。",
+            "sm": "ＨＰが　減ったとき むしタイプの　技の 威力が　上がる。",
+            "usum": "ＨＰが　減ったとき むしタイプの　技の 威力が　上がる。",
+            "lgpe": "ＨＰが　減ったとき むしタイプの　技の 威力が　上がる。",
+            "swsh": "ＨＰが　減ったとき むしタイプの　技の 威力が　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potencia los ataques de tipo Bicho en un apuro.",
+            "oras": "Potencia los ataques de tipo Bicho en un apuro.",
+            "sm": "Potencia los movimientos de tipo Bicho del Pokémon cuando le quedan pocos PS.",
+            "usum": "Potencia los movimientos de tipo Bicho del Pokémon cuando le quedan pocos PS.",
+            "lgpe": "Potencia los movimientos de tipo Bicho del Pokémon cuando le quedan pocos PS.",
+            "swsh": "Potencia sus movimientos de tipo Bicho cuando le quedan pocos PS."
+        },
+        "traditional-chinese": {
+            "sm": "ＨＰ減少的時候， 蟲屬性的招式威力會提高。",
+            "usum": "ＨＰ減少的時候， 蟲屬性的招式威力會提高。",
+            "lgpe": "HP減少的時候， 蟲屬性的招式威力會提高。",
+            "swsh": "ＨＰ減少的時候， 蟲屬性的招式威力會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "ＨＰ减少的时候， 虫属性的招式威力会提高。",
+            "usum": "ＨＰ减少的时候， 虫属性的招式威力会提高。",
+            "lgpe": "HP减少的时候， 虫属性的招式威力会提高。",
+            "swsh": "ＨＰ减少的时候， 虫属性的招式威力会提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            15,
+            123,
+            165,
+            166,
+            167,
+            168,
+            212,
+            214,
+            267,
+            313,
+            402,
+            414,
+            540,
+            542,
+            543,
+            544,
+            545,
+            588,
+            589,
+            632,
+            736,
+            824,
+            825,
+            826,
+            900,
+            919,
+            920
+        ],
+        "hidden": [
+            595,
+            596,
+            636,
+            637
+        ]
+    }
 }

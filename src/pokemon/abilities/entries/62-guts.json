@@ -1,32 +1,169 @@
 {
-  "_id": 62,
-  "key": "guts",
-  "name": {
-    "english": "Guts"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Increases Attack to 1.5× with a major status ailment.",
-    "full": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier."
-  },
-  "description": {
-    "ruby-sapphire": "Ups ATTACK if suffering.",
-    "emerald": "Ups ATTACK if suffering.",
-    "firered-leafgreen": "Ups ATTACK if suffering.",
-    "diamond-pearl": "Boosts Attack if there is a status problem.",
-    "platinum": "Boosts Attack if there is a status problem.",
-    "heartgold-soulsilver": "Boosts Attack if there is a status problem.",
-    "black-white": "Boosts Attack if there is a status problem.",
-    "black-2-white-2": "Boosts Attack if there is a status problem.",
-    "x-y": "Boosts the Attack stat if the Pokémon has a status condition.",
-    "omega-ruby-alpha-sapphire": "Boosts the Attack stat if the Pokémon has a status condition.",
-    "sun-moon": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
-    "ultra-sun-ultra-moon": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
-    "sword-shield": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat."
-  },
-  "pokemonWithAbility": {
-    "normal": [19, 20, 66, 67, 68, 214, 217, 236, 246, 276, 277, 296, 297, 532, 533, 534, 538, 862, 901],
-    "hidden": [136, 403, 404, 405, 931, 931.1]
-  }
+    "_id": 62,
+    "key": "guts",
+    "name": {
+        "japanese-kana": "こんじょう",
+        "korean": "근성",
+        "traditional-chinese": "毅力",
+        "french": "Cran",
+        "german": "Adrenalin",
+        "spanish": "Agallas",
+        "italian": "Dentistretti",
+        "english": "Guts",
+        "japanese": "こんじょう",
+        "simplified-chinese": "毅力",
+        "latin-american-spanish": "Agallas"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Increases Attack to 1.5× with a major status ailment.",
+        "full": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier."
+    },
+    "effectChanges": {
+        "french": {
+            "dp": "Ne prend pas effet pendant le sommeil."
+        },
+        "german": {
+            "dp": "Hat keinen Effekt während das Pokémon schläft."
+        },
+        "english": {
+            "dp": "Whenever this Pokémon is burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Augmente ATT. quand blessé.",
+            "em": "Augmente ATT. quand blessé.",
+            "frlg": "Augmente ATT. quand blessé.",
+            "dp": "Augmente l'Attaque s'il y a un problème de statut.",
+            "pt": "Augmente l'Attaque s'il y a un problème de statut.",
+            "hgss": "Augmente l'Attaque s'il y a un problème de statut.",
+            "bw": "Augmente l'Attaque s'il y a un problème de statut.",
+            "xd": "Augmente l'Attaque s'il y a un problème de statut.",
+            "b2w2": "Augmente l'Attaque s'il y a un problème de statut.",
+            "xy": "Augmente l’Attaque s’il y a un problème de statut.",
+            "oras": "Augmente l'Attaque s'il y a un problème de statut.",
+            "sm": "Augmente l'Attaque du Pokémon s'il est affecté par une altération de statut.",
+            "usum": "Augmente l'Attaque du Pokémon s'il est affecté par une altération de statut.",
+            "lgpe": "Augmente l’Attaque du Pokémon s’il est affecté par une altération de statut.",
+            "swsh": "Augmente l'Attaque du Pokémon s'il est affecté par une altération de statut.",
+            "sv": "Augmente l'Attaque du Pokémon s'il est affecté par une altération de statut."
+        },
+        "english": {
+            "rs": "Ups ATTACK if suffering.",
+            "em": "Ups ATTACK if suffering.",
+            "frlg": "Ups ATTACK if suffering.",
+            "dp": "Boosts Attack if there is a status problem.",
+            "pt": "Boosts Attack if there is a status problem.",
+            "hgss": "Boosts Attack if there is a status problem.",
+            "bw": "Boosts Attack if there is a status problem.",
+            "b2w2": "Boosts Attack if there is a status problem.",
+            "xy": "Boosts the Attack stat if the Pokémon has a status condition.",
+            "oras": "Boosts the Attack stat if the Pokémon has a status condition.",
+            "sm": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+            "usum": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+            "lgpe": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+            "swsh": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+            "sv": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+        },
+        "japanese-kana": {
+            "xy": "じょうたい　いじょうで こうげきが　あがる。",
+            "oras": "じょうたい　いじょうで こうげきが　あがる。",
+            "sm": "じょうたい　いじょうに　なると こんじょうを　だして こうげきが　あがる。",
+            "usum": "じょうたい　いじょうに　なると こんじょうを　だして こうげきが　あがる。",
+            "lgpe": "じょうたい　いじょうに　なると こんじょうを　だして こうげきが　あがる。",
+            "swsh": "じょうたい　いじょうに　なると こんじょうを　だして こうげきが　あがる。"
+        },
+        "korean": {
+            "xy": "상태 이상이 되면 공격이 올라간다.",
+            "oras": "상태 이상이 되면 공격이 올라간다.",
+            "sm": "상태 이상이 되면 근성을 보여서 공격이 올라간다.",
+            "usum": "상태 이상이 되면 근성을 보여서 공격이 올라간다.",
+            "lgpe": "상태 이상이 되면 근성을 보여서 공격이 올라간다.",
+            "swsh": "상태 이상이 되면 근성을 보여서 공격이 올라간다."
+        },
+        "german": {
+            "xy": "Steigert bei Statusproblemen den Angriffs-Wert.",
+            "oras": "Steigert bei Statusproblemen den Angriffs-Wert.",
+            "sm": "Bei Statusproblemen setzt es Adrenalin frei und erhöht so seinen Angriffs-Wert.",
+            "usum": "Bei Statusproblemen setzt es Adrenalin frei und erhöht so seinen Angriffs-Wert.",
+            "lgpe": "Bei Statusproblemen setzt es Adrenalin frei und erhöht so seinen Angriffs-Wert.",
+            "swsh": "Bei Statusproblemen setzt es Adrenalin frei und erhöht so seinen Angriffs-Wert."
+        },
+        "spanish": {
+            "xy": "Sube el Ataque si sufre un problema de estado.",
+            "oras": "Sube el Ataque si sufre un problema de estado.",
+            "sm": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+            "usum": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+            "lgpe": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+            "swsh": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque."
+        },
+        "italian": {
+            "xy": "Aumenta l’Attacco in caso di problemi di stato.",
+            "oras": "Aumenta l’Attacco in caso di problemi di stato.",
+            "sm": "Se è affetto da un problema di stato, il Pokémon tira fuori la grinta e aumenta il proprio Attacco.",
+            "usum": "Se è affetto da un problema di stato, il Pokémon tira fuori la grinta e aumenta il proprio Attacco.",
+            "lgpe": "Se è affetto da un problema di stato, il Pokémon tira fuori la grinta e aumenta il proprio Attacco.",
+            "swsh": "Se il Pokémon è affetto da un problema di stato, tira fuori la grinta e aumenta il proprio Attacco."
+        },
+        "japanese": {
+            "xy": "状態異常で 攻撃が　あがる。",
+            "oras": "状態異常で 攻撃が　あがる。",
+            "sm": "状態異常に　なると 根性を　だして 攻撃が　上がる。",
+            "usum": "状態異常に　なると 根性を　だして 攻撃が　上がる。",
+            "lgpe": "状態異常に　なると 根性を　だして 攻撃が　上がる。",
+            "swsh": "状態異常に　なると 根性を　だして 攻撃が　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Sube el Ataque si sufre un problema de estado.",
+            "oras": "Sube el Ataque si sufre un problema de estado.",
+            "sm": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+            "usum": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+            "lgpe": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+            "swsh": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque."
+        },
+        "traditional-chinese": {
+            "sm": "陷入異常狀態時， 會拿出毅力， 攻擊會提高。",
+            "usum": "陷入異常狀態時， 會拿出毅力， 攻擊會提高。",
+            "lgpe": "陷入異常狀態時， 會拿出毅力， 攻擊會提高。",
+            "swsh": "陷入異常狀態時， 會拿出毅力， 攻擊會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "如果变为异常状态， 会拿出毅力， 攻击会提高。",
+            "usum": "如果变为异常状态， 会拿出毅力， 攻击会提高。",
+            "lgpe": "如果变为异常状态， 会拿出毅力， 攻击会提高。",
+            "swsh": "如果变为异常状态， 会拿出毅力， 攻击会提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            19,
+            20,
+            66,
+            67,
+            68,
+            214,
+            217,
+            236,
+            246,
+            276,
+            277,
+            296,
+            297,
+            532,
+            533,
+            534,
+            538,
+            862,
+            901
+        ],
+        "hidden": [
+            136,
+            403,
+            404,
+            405,
+            931,
+            931.1
+        ]
+    }
 }

@@ -1,32 +1,155 @@
 {
-  "_id": 10,
-  "key": "volt-absorb",
-  "name": {
-    "english": "Volt Absorb"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Absorbs electric moves, healing for 1/4 max HP.",
-    "full": "Whenever an electric-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it. This ability will not take effect if this Pokémon is ground-type and thus immune to Electric moves. Electric moves will ignore this Pokémon's substitute. This effect includes non-damaging moves, i.e. thunder wave."
-  },
-  "description": {
-    "ruby-sapphire": "Turns electricity into HP.",
-    "emerald": "Turns electricity into HP.",
-    "firered-leafgreen": "Turns electricity into HP.",
-    "diamond-pearl": "Restores HP if hit by an Electric-type move.",
-    "platinum": "Restores HP if hit by an Electric-type move.",
-    "heartgold-soulsilver": "Restores HP if hit by an Electric-type move.",
-    "black-white": "Restores HP if hit by an Electric-type move.",
-    "black-2-white-2": "Restores HP if hit by an Electric-type move.",
-    "x-y": "Restores HP if hit by an Electric-type move.",
-    "omega-ruby-alpha-sapphire": "Restores HP if hit by an Electric-type move.",
-    "sun-moon": "Restores HP if hit by an Electric-type move, instead of taking damage.",
-    "ultra-sun-ultra-moon": "Restores HP if hit by an Electric-type move, instead of taking damage.",
-    "lets-go-pikachu-lets-go-eevee": "Restores HP if hit by an Electric-type move instead of taking damage.",
-    "sword-shield": "Restores HP if hit by an Electric-type move instead of taking damage."
-  },
-  "pokemonWithAbility": {
-    "normal": [135, 170, 171, 807, 880, 881, 922, 923, 940, 941],
-    "hidden": [312, 417]
-  }
+    "_id": 10,
+    "key": "volt-absorb",
+    "name": {
+        "japanese-kana": "ちくでん",
+        "korean": "축전",
+        "traditional-chinese": "蓄電",
+        "french": "Absorbe-Volt",
+        "german": "Voltabsorber",
+        "spanish": "Absorbe Electricidad",
+        "italian": "Assorbivolt",
+        "english": "Volt Absorb",
+        "japanese": "ちくでん",
+        "simplified-chinese": "蓄电",
+        "latin-american-spanish": "Absorbevoltios"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Absorbs Electric moves, healing for 1/4 max HP.",
+        "full": "Whenever an Electric-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it. This ability will not take effect if this Pokémon is Ground-type and thus immune to Electric moves.  Electric moves will ignore this Pokémon's Substitute. This effect includes non-damaging moves, i.e. Thunder Wave."
+    },
+    "effectChanges": {
+        "french": {
+            "dp": "N'absorbe pas les capacités Électrik non-offensives, i.e. Cage Éclair."
+        },
+        "german": {
+            "dp": "Elektro-Attacken die keinen Schaden anrichten, wie Donnerwelle, werden nicht absorbiert."
+        },
+        "english": {
+            "dp": "This Pokemon is immune to damaging Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by one."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Change l'électricité en PV.",
+            "em": "Change l'électricité en PV.",
+            "frlg": "Change l'électricité en PV.",
+            "dp": "Récupère des PV si touché par une capacité Electrik.",
+            "pt": "Récupère des PV si touché par une capacité Electrik.",
+            "hgss": "Récupère des PV si touché par une capacité Electrik.",
+            "bw": "Récupère des PV si touché par une capacité Electrik.",
+            "b2w2": "Récupère des PV si touché par une capacité Electrik.",
+            "xy": "Récupère des PV si touché par une capacité Électrik.",
+            "oras": "Récupère des PV si touché par une capacité Électrik.",
+            "sm": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place.",
+            "usum": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place.",
+            "lgpe": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place.",
+            "swsh": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place.",
+            "sv": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place."
+        },
+        "english": {
+            "rs": "Turns electricity into HP.",
+            "em": "Turns electricity into HP.",
+            "frlg": "Turns electricity into HP.",
+            "dp": "Restores HP if hit by an Electric-type move.",
+            "pt": "Restores HP if hit by an Electric-type move.",
+            "hgss": "Restores HP if hit by an Electric-type move.",
+            "bw": "Restores HP if hit by an Electric-type move.",
+            "b2w2": "Restores HP if hit by an Electric-type move.",
+            "xy": "Restores HP if hit by an Electric-type move.",
+            "oras": "Restores HP if hit by an Electric-type move.",
+            "sm": "Restores HP if hit by an Electric-type move, instead of taking damage.",
+            "usum": "Restores HP if hit by an Electric-type move, instead of taking damage.",
+            "lgpe": "Restores HP if hit by an Electric-type move instead of taking damage.",
+            "swsh": "Restores HP if hit by an Electric-type move instead of taking damage.",
+            "sv": "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage."
+        },
+        "japanese-kana": {
+            "xy": "でんきを　うけると かいふくする。",
+            "oras": "でんきを　うけると かいふくする。",
+            "sm": "でんきタイプの　わざを　うけると ダメージを　うけずに　かいふくする。",
+            "usum": "でんきタイプの　わざを　うけると ダメージを　うけずに　かいふくする。",
+            "lgpe": "でんきタイプの　わざを　うけると ダメージを　うけずに　かいふくする。",
+            "swsh": "でんきタイプの　わざを　うけると ダメージを　うけずに　かいふくする。"
+        },
+        "korean": {
+            "xy": "전기를 받으면 회복한다.",
+            "oras": "전기를 받으면 회복한다.",
+            "sm": "전기타입의 기술을 받으면 데미지를 받지 않고 회복한다.",
+            "usum": "전기타입의 기술을 받으면 데미지를 받지 않고 회복한다.",
+            "lgpe": "전기타입의 기술을 받으면 데미지를 받지 않고 회복한다.",
+            "swsh": "전기타입의 기술을 받으면 데미지를 받지 않고 회복한다."
+        },
+        "german": {
+            "xy": "Treffer durch Elektro-Attacken regenerieren KP.",
+            "oras": "Treffer durch Elektro-Attacken regenerieren KP.",
+            "sm": "Treffer durch Elektro-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP.",
+            "usum": "Treffer durch Elektro-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP.",
+            "lgpe": "Treffer durch Elektro-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP.",
+            "swsh": "Treffer durch Elektro-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP."
+        },
+        "spanish": {
+            "xy": "Recupera PS al recibir ataques de tipo Eléctrico.",
+            "oras": "Recupera PS al recibir ataques de tipo Eléctrico.",
+            "sm": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
+            "usum": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
+            "lgpe": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
+            "swsh": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño."
+        },
+        "italian": {
+            "xy": "Ridà PS se il Pokémon subisce una mossa di tipo Elettro.",
+            "oras": "Ridà PS se il Pokémon subisce una mossa di tipo Elettro.",
+            "sm": "Se il Pokémon subisce una mossa di tipo Elettro, recupera PS anziché subire danni.",
+            "usum": "Se il Pokémon subisce una mossa di tipo Elettro, recupera PS anziché subire danni.",
+            "lgpe": "Se il Pokémon subisce una mossa di tipo Elettro, recupera PS anziché subire danni.",
+            "swsh": "Se il Pokémon viene colpito da una mossa di tipo Elettro, recupera PS anziché subire danni."
+        },
+        "japanese": {
+            "xy": "でんきを　受けると 回復する。",
+            "oras": "でんきを　受けると 回復する。",
+            "sm": "でんきタイプの　技を　受けると ダメージを　受けずに　回復する。",
+            "usum": "でんきタイプの　技を　受けると ダメージを　受けずに　回復する。",
+            "lgpe": "でんきタイプの　技を　受けると ダメージを　受けずに　回復する。",
+            "swsh": "でんきタイプの　技を　受けると ダメージを　受けずに　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Recupera PS al recibir ataques de tipo Eléctrico.",
+            "oras": "Recupera PS al recibir ataques de tipo Eléctrico.",
+            "sm": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
+            "usum": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
+            "lgpe": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño.",
+            "swsh": "Si le alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño."
+        },
+        "traditional-chinese": {
+            "sm": "受到電屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+            "usum": "受到電屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+            "lgpe": "受到電屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+            "swsh": "受到電屬性的招式攻擊時， 不會受到傷害，而是會回復。"
+        },
+        "simplified-chinese": {
+            "sm": "受到电属性的招式攻击时， 不会受到伤害，而是会回复。",
+            "usum": "受到电属性的招式攻击时， 不会受到伤害，而是会回复。",
+            "lgpe": "受到电属性的招式攻击时， 不会受到伤害，而是会回复。",
+            "swsh": "受到电属性的招式攻击时， 不会受到伤害，而是会回复。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            135,
+            170,
+            171,
+            807,
+            880,
+            881,
+            922,
+            923,
+            940,
+            941
+        ],
+        "hidden": [
+            312,
+            417
+        ]
+    }
 }

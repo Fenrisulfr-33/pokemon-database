@@ -1,32 +1,147 @@
 {
-  "_id": 21,
-  "key": "suction-cups",
-  "name": {
-    "english": "Suction Cups"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Prevents being forced out of battle by other Pokémon's moves.",
-    "full": "This Pokémon cannot be forced out of battle by moves such as whirlwind. dragon tail and circle throw still inflict damage against this Pokémon. Overworld: If the lead Pokémon has this ability, the success rate while fishing is increased."
-  },
-  "description": {
-    "ruby-sapphire": "Firmly anchors the body.",
-    "emerald": "Firmly anchors the body.",
-    "firered-leafgreen": "Firmly anchors the body.",
-    "diamond-pearl": "Negates moves that force switching out.",
-    "platinum": "Negates moves that force switching out.",
-    "heartgold-soulsilver": "Negates foes’ moves that force switching out.",
-    "black-white": "Negates all moves that force switching out.",
-    "black-2-white-2": "Negates all moves that force switching out.",
-    "x-y": "Negates all moves and items that force switching out.",
-    "omega-ruby-alpha-sapphire": "Negates all moves and items that force switching out.",
-    "sun-moon": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
-    "ultra-sun-ultra-moon": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
-    "lets-go-pikachu-lets-go-eevee": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
-    "sword-shield": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out."
-  },
-  "pokemonWithAbility": {
-    "normal": [224, 345, 346, 686, 687],
-    "hidden": []
-  }
+    "_id": 21,
+    "key": "suction-cups",
+    "name": {
+        "japanese-kana": "きゅうばん",
+        "korean": "흡반",
+        "traditional-chinese": "吸盤",
+        "french": "Ventouse",
+        "german": "Saugnapf",
+        "spanish": "Ventosas",
+        "italian": "Ventose",
+        "english": "Suction Cups",
+        "japanese": "きゅうばん",
+        "simplified-chinese": "吸盘",
+        "latin-american-spanish": "Ventosas"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Prevents being forced out of battle by other Pokémon's moves.",
+        "full": "This Pokémon cannot be forced out of battle by moves such as Whirlwind. Dragon Tail and Circle Throw still inflict damage against this Pokémon. Overworld: If the lead Pokémon has this ability, the success rate while fishing is increased."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt."
+        },
+        "english": {
+            "em": "This Pokémon cannot be forced out of battle by moves such as Whirlwind. Dragon Tail and Circle Throw still inflict damage against this Pokémon."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Fixe solidement le corps.",
+            "em": "Fixe solidement le corps.",
+            "frlg": "Fixe solidement le corps.",
+            "dp": "Annule les cap. forçant à changer de Pokémon.",
+            "pt": "Annule les cap. forçant à changer de Pokémon.",
+            "hgss": "Annule les cap. forçant à changer de Pokémon.",
+            "bw": "Annule les cap. et obj. qui font changer de Pokémon.",
+            "b2w2": "Annule les cap. et obj. qui font changer de Pokémon.",
+            "xy": "Annule les capacités ou objets qui font changer de Pokémon.",
+            "oras": "Annule les capacités ou objets qui font changer de Pokémon.",
+            "sm": "Le Pokémon est solidement fixé au sol, ce qui le protège des capacités ou objets qui font changer de Pokémon.",
+            "usum": "Le Pokémon est solidement fixé au sol, ce qui le protège des capacités ou objets qui font changer de Pokémon.",
+            "lgpe": "Le Pokémon est solidement fixé au sol, ce qui le protège des capacités ou objets qui font changer de Pokémon.",
+            "swsh": "Le Pokémon est solidement fixé au sol, ce qui le protège des capacités ou objets qui font changer de Pokémon.",
+            "tid": "Le Pokémon est solidement fixé au sol par des\\nventouses, ce qui le protège des capacités ou\\nobjets qui font changer de Pokémon."
+        },
+        "english": {
+            "rs": "Firmly anchors the body.",
+            "em": "Firmly anchors the body.",
+            "frlg": "Firmly anchors the body.",
+            "dp": "Negates moves that force switching out.",
+            "pt": "Negates moves that force switching out.",
+            "hgss": "Negates foes’ moves that force switching out.",
+            "bw": "Negates all moves that force switching out.",
+            "b2w2": "Negates all moves that force switching out.",
+            "xy": "Negates all moves and items that force switching out.",
+            "oras": "Negates all moves and items that force switching out.",
+            "sm": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
+            "usum": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
+            "lgpe": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
+            "swsh": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
+            "tid": "The Pokémon uses suction cups to stay in one spot. This protects it from moves and items that would force it to switch out."
+        },
+        "japanese-kana": {
+            "xy": "いれかえさせる　わざや どうぐが　きかない。",
+            "oras": "いれかえさせる　わざや どうぐが　きかない。",
+            "sm": "きゅうばんで　じめんに　はりつき ポケモンを　いれかえさせる わざや　どうぐが　きかなくなる。",
+            "usum": "きゅうばんで　じめんに　はりつき ポケモンを　いれかえさせる わざや　どうぐが　きかなくなる。",
+            "lgpe": "きゅうばんで　じめんに　はりつき ポケモンを　いれかえさせる わざや　どうぐが　きかなくなる。",
+            "swsh": "きゅうばんで　じめんに　はりつき ポケモンを　いれかえさせる わざや　どうぐが　きかなくなる。"
+        },
+        "korean": {
+            "xy": "교체시키는 기술이나 도구의 효과를 받지 않는다.",
+            "oras": "교체시키는 기술이나 도구의 효과를 받지 않는다.",
+            "sm": "흡반으로 지면에 달라붙어 포켓몬을 교체시키는 기술이나 도구의 효과를 발휘하지 못하게 한다.",
+            "usum": "흡반으로 지면에 달라붙어 포켓몬을 교체시키는 기술이나 도구의 효과를 발휘하지 못하게 한다.",
+            "lgpe": "흡반으로 지면에 달라붙어 포켓몬을 교체시키는 기술이나 도구의 효과를 발휘하지 못하게 한다.",
+            "swsh": "흡반으로 지면에 달라붙어 포켓몬을 교체시키는 기술이나 도구의 효과를 발휘하지 못하게 한다."
+        },
+        "german": {
+            "xy": "Blockt Attacken und Items, die Pokémon austauschen.",
+            "oras": "Blockt Attacken und Items, die Pokémon austauschen.",
+            "sm": "Blockt Attacken und Items, die Pokémon austauschen, indem es sich mit einem Saugnapf am Boden verankert.",
+            "usum": "Blockt Attacken und Items, die Pokémon austauschen, indem es sich mit einem Saugnapf am Boden verankert.",
+            "lgpe": "Blockt Attacken und Items, die Pokémon austauschen, indem es sich mit einem Saugnapf am Boden verankert.",
+            "swsh": "Blockt Attacken und Items, die Pokémon austauschen, indem es sich mit einem Saugnapf am Boden verankert."
+        },
+        "spanish": {
+            "xy": "Anula movimientos y objetos que fuerzan el relevo.",
+            "oras": "Anula movimientos y objetos que fuerzan el relevo.",
+            "sm": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+            "usum": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+            "lgpe": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+            "swsh": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo."
+        },
+        "italian": {
+            "xy": "Resiste a strumenti e mosse di sostituzione.",
+            "oras": "Resiste a strumenti e mosse di sostituzione.",
+            "sm": "Resiste a strumenti e mosse che causano la sostituzione appiccicandosi al terreno con le ventose.",
+            "usum": "Resiste a strumenti e mosse che causano la sostituzione appiccicandosi al terreno con le ventose.",
+            "lgpe": "Resiste a strumenti e mosse che causano la sostituzione appiccicandosi al terreno con le ventose.",
+            "swsh": "Il Pokémon resiste a strumenti e mosse che causano la sostituzione appiccicandosi al terreno con le ventose."
+        },
+        "japanese": {
+            "xy": "入れ替えさせる　技や 道具が　効かない。",
+            "oras": "入れ替えさせる　技や 道具が　効かない。",
+            "sm": "吸盤で　地面に　張り付き ポケモンを　入れ替えさせる 技や　道具が　効かなくなる。",
+            "usum": "吸盤で　地面に　張り付き ポケモンを　入れ替えさせる 技や　道具が　効かなくなる。",
+            "lgpe": "吸盤で　地面に　張り付き ポケモンを　入れ替えさせる 技や　道具が　効かなくなる。",
+            "swsh": "吸盤で　地面に　張り付き ポケモンを　入れ替えさせる 技や　道具が　効かなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Anula movimientos y objetos que fuerzan el relevo.",
+            "oras": "Anula movimientos y objetos que fuerzan el relevo.",
+            "sm": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+            "usum": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+            "lgpe": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+            "swsh": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo."
+        },
+        "traditional-chinese": {
+            "sm": "用吸盤將自己牢牢吸附在地面上， 讓替換寶可夢的招式和道具失效。",
+            "usum": "用吸盤將自己牢牢吸附在地面上， 讓替換寶可夢的招式和道具失效。",
+            "lgpe": "用吸盤將自己牢牢吸附在地面上， 讓替換寶可夢的招式和道具失效。",
+            "swsh": "用吸盤將自己牢牢吸附在地面上， 讓替換寶可夢的招式和道具失效。"
+        },
+        "simplified-chinese": {
+            "sm": "用吸盘牢牢贴在地面上， 让替换宝可梦的招式和道具无效。",
+            "usum": "用吸盘牢牢贴在地面上， 让替换宝可梦的招式和道具无效。",
+            "lgpe": "用吸盘牢牢贴在地面上， 让替换宝可梦的招式和道具无效。",
+            "swsh": "用吸盘牢牢贴在地面上， 让替换宝可梦的招式和道具无效。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            224,
+            345,
+            346,
+            686,
+            687
+        ],
+        "hidden": []
+    }
 }

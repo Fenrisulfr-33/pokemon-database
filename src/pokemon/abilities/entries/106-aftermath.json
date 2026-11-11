@@ -1,29 +1,135 @@
 {
-  "_id": 106,
-  "key": "aftermath",
-  "name": {
-    "english": "Aftermath"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
-    "full": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage."
-  },
-  "description": {
-    "diamond-pearl": "Damages the foe landing the finishing hit.",
-    "platinum": "Damages the foe landing the finishing hit.",
-    "heartgold-soulsilver": "Damages the foe landing the finishing hit.",
-    "black-white": "Damages the attacker landing the finishing hit.",
-    "black-2-white-2": "Damages the attacker landing the finishing hit.",
-    "x-y": "Damages the attacker landing the finishing hit.",
-    "omega-ruby-alpha-sapphire": "Damages the attacker landing the finishing hit.",
-    "sun-moon": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
-    "ultra-sun-ultra-moon": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
-    "lets-go-pikachu-lets-go-eevee": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
-    "sword-shield": "Damages the attacker if it contacts the Pokémon with a finishing hit."
-  },
-  "pokemonWithAbility": {
-    "normal": [425, 426, 434, 435],
-    "hidden": [100, 101, 568, 569]
-  }
+    "_id": 106,
+    "key": "aftermath",
+    "name": {
+        "japanese-kana": "ゆうばく",
+        "korean": "유폭",
+        "traditional-chinese": "引爆",
+        "french": "Boom Final",
+        "german": "Finalschlag",
+        "spanish": "Detonación",
+        "italian": "Scoppio",
+        "english": "Aftermath",
+        "japanese": "ゆうばく",
+        "simplified-chinese": "引爆",
+        "latin-american-spanish": "Secuela"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
+        "full": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "dp": "Blesse l'ennemi qui porte le coup de grâce.",
+            "pt": "Blesse l'ennemi qui porte le coup de grâce.",
+            "hgss": "Blesse l'ennemi qui porte le coup de grâce.",
+            "bw": "Blesse l'ennemi qui porte le coup de grâce.",
+            "b2w2": "Blesse l'ennemi qui porte le coup de grâce.",
+            "xy": "Blesse l'attaquant qui porte le coup de grâce.",
+            "oras": "Blesse l'attaquant qui porte le coup de grâce.",
+            "sm": "Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l'attaquant avant de s'évanouir.",
+            "usum": "Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l'attaquant avant de s'évanouir.",
+            "lgpe": "Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l’attaquant avant de s’évanouir.",
+            "swsh": "Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l'attaquant avant de s'évanouir.",
+            "sv": "Si le Pokémon est mis K.O. par une attaque directe,\\nil inflige des dégâts à l’attaquant avant de s’évanouir."
+        },
+        "english": {
+            "dp": "Damages the foe landing the finishing hit.",
+            "pt": "Damages the foe landing the finishing hit.",
+            "hgss": "Damages the foe landing the finishing hit.",
+            "bw": "Damages the attacker landing the finishing hit.",
+            "b2w2": "Damages the attacker landing the finishing hit.",
+            "xy": "Damages the attacker landing the finishing hit.",
+            "oras": "Damages the attacker landing the finishing hit.",
+            "sm": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
+            "usum": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
+            "lgpe": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
+            "swsh": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
+            "sv": "Damages the attacker if it knocks out the Pokémon with a move that makes direct contact."
+        },
+        "japanese-kana": {
+            "xy": "ひんしの　ときに　ふれた あいてに　ダメージ。",
+            "oras": "ひんしの　ときに　ふれた あいてに　ダメージ。",
+            "sm": "ひんしに　なったとき さわった　あいてに ダメージを　あたえる。",
+            "usum": "ひんしに　なったとき さわった　あいてに ダメージを　あたえる。",
+            "lgpe": "ひんしに　なったとき さわった　あいてに ダメージを　あたえる。",
+            "swsh": "ひんしに　なったとき さわった　あいてに ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "기절할 때 스친 상대에게 데미지를 준다.",
+            "oras": "기절할 때 스친 상대에게 데미지를 준다.",
+            "sm": "기절했을 때 접촉한 상대에게 데미지를 준다.",
+            "usum": "기절했을 때 접촉한 상대에게 데미지를 준다.",
+            "lgpe": "기절했을 때 접촉한 상대에게 데미지를 준다.",
+            "swsh": "기절했을 때 접촉한 상대에게 데미지를 준다."
+        },
+        "german": {
+            "xy": "Fügt einem Angreifer, der das Pokémon besiegt, Schaden zu.",
+            "oras": "Fügt einem Angreifer, der das Pokémon besiegt, Schaden zu.",
+            "sm": "Wird das Pokémon durch eine direkte Attacke besiegt, fügt es dem Angreifer Schaden zu.",
+            "usum": "Wird das Pokémon durch eine direkte Attacke besiegt, fügt es dem Angreifer Schaden zu.",
+            "lgpe": "Wird das Pokémon durch eine direkte Attacke besiegt, fügt es dem Angreifer Schaden zu.",
+            "swsh": "Wird das Pokémon durch eine direkte Attacke besiegt, fügt es dem Angreifer Schaden zu."
+        },
+        "spanish": {
+            "xy": "Daña al agresor que le ha dado el golpe de gracia.",
+            "oras": "Daña al agresor que le ha dado el golpe de gracia.",
+            "sm": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+            "usum": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+            "lgpe": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+            "swsh": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto."
+        },
+        "italian": {
+            "xy": "Arreca danni al Pokémon che sferra il colpo finale.",
+            "oras": "Arreca danni al Pokémon che sferra il colpo finale.",
+            "sm": "Chi manda KO questo Pokémon con un attacco diretto subisce dei danni.",
+            "usum": "Chi manda KO questo Pokémon con un attacco diretto subisce dei danni.",
+            "lgpe": "Chi manda KO questo Pokémon con un attacco diretto subisce dei danni.",
+            "swsh": "Chi manda KO questo Pokémon con un attacco diretto subisce dei danni."
+        },
+        "japanese": {
+            "xy": "ひんしの　ときに　触れた 相手に　ダメージ。",
+            "oras": "ひんしの　ときに　触れた 相手に　ダメージ。",
+            "sm": "ひんしに　なったとき 触った　相手に ダメージを　あたえる。",
+            "usum": "ひんしに　なったとき 触った　相手に ダメージを　あたえる。",
+            "lgpe": "ひんしに　なったとき 触った　相手に ダメージを　あたえる。",
+            "swsh": "ひんしに　なったとき 触った　相手に ダメージを　あたえる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Daña al agresor que le ha dado el golpe de gracia.",
+            "oras": "Daña al agresor que le ha dado el golpe de gracia.",
+            "sm": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+            "usum": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+            "lgpe": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+            "swsh": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto."
+        },
+        "traditional-chinese": {
+            "sm": "瀕死時， 會對接觸到自己的對手造成傷害。",
+            "usum": "瀕死時， 會對接觸到自己的對手造成傷害。",
+            "lgpe": "瀕死時， 會對接觸到自己的對手造成傷害。",
+            "swsh": "瀕死時， 會對接觸到自己的對手造成傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "变为濒死时， 会对接触到自己的对手造成伤害。",
+            "usum": "变为濒死时， 会对接触到自己的对手造成伤害。",
+            "lgpe": "变为濒死时， 会对接触到自己的对手造成伤害。",
+            "swsh": "变为濒死时， 会对接触到自己的对手造成伤害。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            425,
+            426,
+            434,
+            435
+        ],
+        "hidden": [
+            100,
+            101,
+            568,
+            569
+        ]
+    }
 }

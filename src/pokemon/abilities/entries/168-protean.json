@@ -1,24 +1,123 @@
 {
-  "_id": 168,
-  "key": "protean",
-  "name": {
-    "english": "Protean"
-  },
-  "generation": 6,
-  "effect": {
-    "shortEffect": "Changes the bearer's type to match each move it uses.",
-    "full": "Changes the bearer's type to match each move it uses. The type change takes place just before the move is used."
-  },
-  "description": {
-    "x-y": "Changes the Pokémon’s type to the type of the move it’s using.",
-    "omega-ruby-alpha-sapphire": "Changes the Pokémon’s type to the type of the move it’s using.",
-    "sun-moon": "Changes the Pokémon’s type to the type of the move it’s about to use.",
-    "ultra-sun-ultra-moon": "Changes the Pokémon’s type to the type of the move it’s about to use.",
-    "lets-go-pikachu-lets-go-eevee": "Changes the Pokémon’s type to the type of the move it’s about to use.",
-    "sword-shield": "Changes the Pokémon’s type to the type of the move it’s about to use."
-  },
-  "pokemonWithAbility": {
-    "normal": [],
-    "hidden": [352, 656, 657, 658, 906, 907, 908]
-  }
+    "_id": 168,
+    "key": "protean",
+    "name": {
+        "japanese-kana": "へんげんじざい",
+        "korean": "변환자재",
+        "traditional-chinese": "變幻自如",
+        "french": "Protéen",
+        "german": "Wandlungskunst",
+        "spanish": "Mutatipo",
+        "italian": "Mutatipo",
+        "english": "Protean",
+        "japanese": "へんげんじざい",
+        "simplified-chinese": "变幻自如",
+        "latin-american-spanish": "Mutatipo"
+    },
+    "generation": 6,
+    "effect": {
+        "shortEffect": "Changes the bearer's type to match each move it uses.",
+        "full": "Changes the bearer's type to match each move it uses. The type change takes place just before the move is used."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "だした　わざと　おなじ タイプに　へんかする。",
+            "oras": "だした　わざと　おなじ タイプに　へんかする。",
+            "sm": "じぶんが　だす　わざと おなじ　タイプに　へんかする。",
+            "usum": "じぶんが　だす　わざと おなじ　タイプに　へんかする。",
+            "lgpe": "じぶんが　だす　わざと おなじ　タイプに　へんかする。",
+            "swsh": "じぶんが　だす　わざと おなじ　タイプに　へんかする。"
+        },
+        "korean": {
+            "xy": "사용한 기술과 같은 타입으로 변화한다.",
+            "oras": "사용한 기술과 같은 타입으로 변화한다.",
+            "sm": "자신이 사용한 기술과 같은 타입으로 변화한다.",
+            "usum": "자신이 사용한 기술과 같은 타입으로 변화한다.",
+            "lgpe": "자신이 사용한 기술과 같은 타입으로 변화한다.",
+            "swsh": "자신이 사용한 기술과 같은 타입으로 변화한다."
+        },
+        "french": {
+            "xy": "Le Pokémon prend le type de sa dernière capacité lancée.",
+            "oras": "Le Pokémon prend le type de sa dernière capacité lancée.",
+            "sm": "Le Pokémon prend le type de la capacité qu’il utilise.",
+            "usum": "Le Pokémon prend le type de la capacité qu’il utilise.",
+            "lgpe": "Le Pokémon prend le type de la capacité qu’il utilise.",
+            "swsh": "Le Pokémon prend le type de la capacité qu’il utilise.",
+            "sv": "Le Pokémon prend le type de la capacité qu’il utilise.\\nCe talent ne peut se déclencher qu’une fois par entrée\\nau combat du Pokémon."
+        },
+        "german": {
+            "xy": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.",
+            "oras": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.",
+            "sm": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.",
+            "usum": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.",
+            "lgpe": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.",
+            "swsh": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an."
+        },
+        "spanish": {
+            "xy": "Cambia su tipo al del movimiento que acaba de usar.",
+            "oras": "Cambia su tipo al del movimiento que acaba de usar.",
+            "sm": "Cambia su tipo al del movimiento que va a usar.",
+            "usum": "Cambia su tipo al del movimiento que va a usar.",
+            "lgpe": "Cambia su tipo al del movimiento que va a usar.",
+            "swsh": "Cambia su tipo al del movimiento que va a usar."
+        },
+        "italian": {
+            "xy": "Cambia il tipo del Pokémon in quello della mossa usata.",
+            "oras": "Cambia il tipo del Pokémon in quello della mossa usata.",
+            "sm": "Cambia il tipo del Pokémon in quello della mossa che usa.",
+            "usum": "Cambia il tipo del Pokémon in quello della mossa che usa.",
+            "lgpe": "Cambia il tipo del Pokémon in quello della mossa che usa.",
+            "swsh": "Cambia il tipo del Pokémon in quello della mossa che usa."
+        },
+        "english": {
+            "xy": "Changes the Pokémon’s type to the type of the move it’s using.",
+            "oras": "Changes the Pokémon’s type to the type of the move it’s using.",
+            "sm": "Changes the Pokémon’s type to the type of the move it’s about to use.",
+            "usum": "Changes the Pokémon’s type to the type of the move it’s about to use.",
+            "lgpe": "Changes the Pokémon’s type to the type of the move it’s about to use.",
+            "swsh": "Changes the Pokémon’s type to the type of the move it’s about to use.",
+            "sv": "Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle."
+        },
+        "japanese": {
+            "xy": "だした　技と　同じ タイプに　変化する。",
+            "oras": "だした　技と　同じ タイプに　変化する。",
+            "sm": "自分が　出す　技と 同じ　タイプに　変化する。",
+            "usum": "自分が　出す　技と 同じ　タイプに　変化する。",
+            "lgpe": "自分が　出す　技と 同じ　タイプに　変化する。",
+            "swsh": "自分が　出す　技と 同じ　タイプに　変化する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cambia su tipo al del movimiento que acaba de usar.",
+            "oras": "Cambia su tipo al del movimiento que acaba de usar.",
+            "sm": "Cambia su tipo al del movimiento que va a usar.",
+            "usum": "Cambia su tipo al del movimiento que va a usar.",
+            "lgpe": "Cambia su tipo al del movimiento que va a usar.",
+            "swsh": "Cambia su tipo al del movimiento que va a usar."
+        },
+        "traditional-chinese": {
+            "sm": "變為與自己使出的招式 相同的屬性。",
+            "usum": "變為與自己使出的招式 相同的屬性。",
+            "lgpe": "變為與自己使出的招式 相同的屬性。",
+            "swsh": "變為與自己使出的招式 相同的屬性。"
+        },
+        "simplified-chinese": {
+            "sm": "变为与自己使出的招式 相同的属性。",
+            "usum": "变为与自己使出的招式 相同的属性。",
+            "lgpe": "变为与自己使出的招式 相同的属性。",
+            "swsh": "变为与自己使出的招式 相同的属性。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [],
+        "hidden": [
+            352,
+            656,
+            657,
+            658,
+            906,
+            907,
+            908
+        ]
+    }
 }

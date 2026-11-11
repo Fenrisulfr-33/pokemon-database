@@ -1,32 +1,183 @@
 {
-  "_id": 51,
-  "key": "keen-eye",
-  "name": {
-    "english": "Keen Eye"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Prevents accuracy from being lowered.",
-    "full": "This Pokémon cannot have its accuracy lowered. This ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate. This Pokémon can still be passed negative accuracy modifiers through heart swap. Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
-  },
-  "description": {
-    "ruby-sapphire": "Prevents loss of accuracy.",
-    "emerald": "Prevents loss of accuracy.",
-    "firered-leafgreen": "Prevents loss of accuracy.",
-    "diamond-pearl": "Prevents the Pokémon from losing accuracy.",
-    "platinum": "Prevents the Pokémon from losing accuracy.",
-    "heartgold-soulsilver": "Prevents the Pokémon from losing accuracy.",
-    "black-white": "Prevents other Pokémon from lowering accuracy.",
-    "black-2-white-2": "Prevents other Pokémon from lowering accuracy.",
-    "x-y": "Prevents other Pokémon from lowering accuracy.",
-    "omega-ruby-alpha-sapphire": "Prevents other Pokémon from lowering accuracy.",
-    "sun-moon": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy.",
-    "ultra-sun-ultra-moon": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy.",
-    "sword-shield": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy."
-  },
-  "pokemonWithAbility": {
-    "normal": [16, 17, 18, 21, 22, 83, 107, 161, 162, 163, 164, 215, 227, 278, 279, 302, 396, 441, 504, 505, 580, 581, 627, 628, 677, 678, 731, 732, 733, 744, 745, 821, 822, 962],
-    "hidden": [431, 434, 435, 451, 452]
-  }
+    "_id": 51,
+    "key": "keen-eye",
+    "name": {
+        "japanese-kana": "するどいめ",
+        "korean": "날카로운눈",
+        "traditional-chinese": "銳利目光",
+        "french": "Regard Vif",
+        "german": "Adlerauge",
+        "spanish": "Vista Lince",
+        "italian": "Sguardofermo",
+        "english": "Keen Eye",
+        "japanese": "するどいめ",
+        "simplified-chinese": "锐利目光",
+        "latin-american-spanish": "Perspicacia"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Prevents accuracy from being lowered.",
+        "full": "This Pokémon cannot have its accuracy lowered. This ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap. Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt."
+        },
+        "english": {
+            "em": "This Pokémon cannot have its accuracy lowered. This ability does not prevent other Pokémon's evasion from making this Pokémon's moves less accurate."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Empêche perte de précision.",
+            "em": "Empêche perte de précision.",
+            "frlg": "Empêche perte de précision.",
+            "dp": "Empêche le Pokémon de perdre en précision.",
+            "pt": "Empêche le Pokémon de perdre en précision.",
+            "hgss": "Empêche le Pokémon de perdre en précision.",
+            "bw": "Empêche le Pokémon de perdre en précision.",
+            "xd": "Empêche le Pokémon de perdre en précision.",
+            "b2w2": "Empêche le Pokémon de perdre en précision.",
+            "xy": "Empêche le Pokémon de perdre en Précision.",
+            "oras": "Empêche le Pokémon de perdre en précision.",
+            "sm": "Les yeux perçants du Pokémon empêchent sa Précision de baisser.",
+            "usum": "Les yeux perçants du Pokémon empêchent sa Précision de baisser.",
+            "lgpe": "Les yeux perçants du Pokémon empêchent sa Précision de baisser.",
+            "swsh": "Les yeux perçants du Pokémon empêchent sa Précision de baisser.",
+            "sv": "Les yeux perçants du Pokémon empêchent sa Précision de baisser."
+        },
+        "english": {
+            "rs": "Prevents loss of accuracy.",
+            "em": "Prevents loss of accuracy.",
+            "frlg": "Prevents loss of accuracy.",
+            "dp": "Prevents the Pokémon from losing accuracy.",
+            "pt": "Prevents the Pokémon from losing accuracy.",
+            "hgss": "Prevents the Pokémon from losing accuracy.",
+            "bw": "Prevents other Pokémon from lowering accuracy.",
+            "b2w2": "Prevents other Pokémon from lowering accuracy.",
+            "xy": "Prevents other Pokémon from lowering accuracy.",
+            "oras": "Prevents other Pokémon from lowering accuracy.",
+            "sm": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy.",
+            "usum": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy.",
+            "lgpe": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy.",
+            "swsh": "Keen eyes prevent other Pokémon from lowering this Pokémon’s accuracy.",
+            "sv": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        },
+        "japanese-kana": {
+            "xy": "めいちゅうりつを さげられない。",
+            "oras": "めいちゅうりつを さげられない。",
+            "sm": "するどい　めの　おかげで めいちゅうりつを　さげられない。",
+            "usum": "するどい　めの　おかげで めいちゅうりつを　さげられない。",
+            "lgpe": "するどい　めの　おかげで めいちゅうりつを　さげられない。",
+            "swsh": "するどい　めの　おかげで めいちゅうりつを　さげられない。"
+        },
+        "korean": {
+            "xy": "명중률이 떨어지지 않는다.",
+            "oras": "명중률이 떨어지지 않는다.",
+            "sm": "날카로운 눈 덕분에 명중률이 떨어지지 않는다.",
+            "usum": "날카로운 눈 덕분에 명중률이 떨어지지 않는다.",
+            "lgpe": "날카로운 눈 덕분에 명중률이 떨어지지 않는다.",
+            "swsh": "날카로운 눈 덕분에 명중률이 떨어지지 않는다."
+        },
+        "german": {
+            "xy": "Hindert Angreifer daran, die Genauigkeit zu senken.",
+            "oras": "Hindert Angreifer daran, die Genauigkeit zu senken.",
+            "sm": "Sein scharfer Blick hindert Angreifer daran, seine Genauigkeit zu senken.",
+            "usum": "Sein scharfer Blick hindert Angreifer daran, seine Genauigkeit zu senken.",
+            "lgpe": "Sein scharfer Blick hindert Angreifer daran, seine Genauigkeit zu senken.",
+            "swsh": "Sein scharfer Blick hindert Angreifer daran, seine Genauigkeit zu senken."
+        },
+        "spanish": {
+            "xy": "Evita que disminuya la Precisión.",
+            "oras": "Evita que disminuya la Precisión.",
+            "sm": "La aguda vista de este Pokémon evita que disminuya su Precisión.",
+            "usum": "La aguda vista de este Pokémon evita que disminuya su Precisión.",
+            "lgpe": "La aguda vista de este Pokémon evita que disminuya su Precisión.",
+            "swsh": "Su aguda vista evita que le disminuya la Precisión."
+        },
+        "italian": {
+            "xy": "Evita che la precisione diminuisca.",
+            "oras": "Evita che la precisione diminuisca.",
+            "sm": "La vista acuta del Pokémon impedisce che la sua precisione diminuisca.",
+            "usum": "La vista acuta del Pokémon impedisce che la sua precisione diminuisca.",
+            "lgpe": "La vista acuta del Pokémon impedisce che la sua precisione diminuisca.",
+            "swsh": "La vista acuta del Pokémon impedisce che la sua precisione diminuisca."
+        },
+        "japanese": {
+            "xy": "命中率を さげられない。",
+            "oras": "命中率を さげられない。",
+            "sm": "鋭い　目の　おかげで 命中率を　下げられない。",
+            "usum": "鋭い　目の　おかげで 命中率を　下げられない。",
+            "lgpe": "鋭い　目の　おかげで 命中率を　下げられない。",
+            "swsh": "鋭い　目の　おかげで 命中率を　下げられない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Evita que disminuya la Precisión.",
+            "oras": "Evita que disminuya la Precisión.",
+            "sm": "La aguda vista de este Pokémon evita que disminuya su Precisión.",
+            "usum": "La aguda vista de este Pokémon evita que disminuya su Precisión.",
+            "lgpe": "La aguda vista de este Pokémon evita que disminuya su Precisión.",
+            "swsh": "Su aguda vista evita que le disminuya la Precisión."
+        },
+        "traditional-chinese": {
+            "sm": "靠著銳利的目光， 命中率不會被降低。",
+            "usum": "靠著銳利的目光， 命中率不會被降低。",
+            "lgpe": "靠著銳利的目光， 命中率不會被降低。",
+            "swsh": "靠著銳利的目光， 命中率不會被降低。"
+        },
+        "simplified-chinese": {
+            "sm": "多亏了锐利的目光， 命中率不会被降低。",
+            "usum": "多亏了锐利的目光， 命中率不会被降低。",
+            "lgpe": "多亏了锐利的目光， 命中率不会被降低。",
+            "swsh": "多亏了锐利的目光， 命中率不会被降低。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            16,
+            17,
+            18,
+            21,
+            22,
+            83,
+            107,
+            161,
+            162,
+            163,
+            164,
+            215,
+            227,
+            278,
+            279,
+            302,
+            396,
+            441,
+            504,
+            505,
+            580,
+            581,
+            627,
+            628,
+            677,
+            678,
+            731,
+            732,
+            733,
+            744,
+            745,
+            821,
+            822,
+            962
+        ],
+        "hidden": [
+            431,
+            434,
+            435,
+            451,
+            452
+        ]
+    }
 }

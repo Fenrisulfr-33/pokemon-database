@@ -1,26 +1,141 @@
 {
-  "_id": 128,
-  "key": "defiant",
-  "name": {
-    "english": "Defiant"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Raises Attack two stages upon having any stat lowered.",
-    "full": "When any of this Pokémon's stats are lowered, its Attack rises by two stages. If multiple stats are lowered at once, this ability takes effect with each stat lowered."
-  },
-  "description": {
-    "black-white": "When its stats are lowered its Attack increases.",
-    "black-2-white-2": "When its stats are lowered its Attack increases.",
-    "x-y": "Boosts the Pokémon’s Attack stat when its stats are lowered.",
-    "omega-ruby-alpha-sapphire": "Boosts the Pokémon’s Attack stat when its stats are lowered.",
-    "sun-moon": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
-    "ultra-sun-ultra-moon": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
-    "sword-shield": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered."
-  },
-  "pokemonWithAbility": {
-    "normal": [145.1, 624, 625, 983, 1017],
-    "hidden": [56, 57, 83, 393, 394, 395, 432, 628, 641, 642, 766, 862, 870, 979]
-  }
+    "_id": 128,
+    "key": "defiant",
+    "name": {
+        "japanese-kana": "まけんき",
+        "korean": "오기",
+        "traditional-chinese": "不服輸",
+        "french": "Acharné",
+        "german": "Siegeswille",
+        "spanish": "Competitivo",
+        "italian": "Agonismo",
+        "english": "Defiant",
+        "japanese": "まけんき",
+        "simplified-chinese": "不服输",
+        "latin-american-spanish": "Competitivo"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Raises Attack two stages upon having any stat lowered.",
+        "full": "When any of this Pokémon's stats are lowered, its Attack rises by two stages. If multiple stats are lowered at once, this ability takes effect with each stat lowered."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Monte l'Attaque quand les stats baissent.",
+            "xd": "Monte l'Attaque quand les stats baissent.",
+            "b2w2": "Monte l'Attaque quand les stats baissent.",
+            "xy": "Monte l’Attaque quand une stat est baissée par l’adversaire.",
+            "oras": "Monte l'Attaque quand les stats baissent.",
+            "sm": "Augmente beaucoup l'Attaque du Pokémon quand ses stats baissent.",
+            "usum": "Augmente beaucoup l'Attaque du Pokémon quand ses stats baissent.",
+            "lgpe": "Augmente beaucoup l’Attaque du Pokémon quand ses stats baissent.",
+            "swsh": "Augmente beaucoup l'Attaque du Pokémon quand ses stats baissent.",
+            "sv": "Augmente beaucoup l'Attaque du Pokémon quand ses stats sont baissées par l'adversaire."
+        },
+        "english": {
+            "bw": "When its stats are lowered its Attack increases.",
+            "b2w2": "When its stats are lowered its Attack increases.",
+            "xy": "Boosts the Pokémon’s Attack stat when its stats are lowered.",
+            "oras": "Boosts the Pokémon’s Attack stat when its stats are lowered.",
+            "sm": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
+            "usum": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
+            "lgpe": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
+            "swsh": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
+            "sv": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply."
+        },
+        "japanese-kana": {
+            "xy": "のうりょくが　さがると こうげきが　あがる。",
+            "oras": "のうりょくが　さがると こうげきが　あがる。",
+            "sm": "のうりょくを　さげられると こうげきが　ぐーんと　あがる。",
+            "usum": "のうりょくを　さげられると こうげきが　ぐーんと　あがる。",
+            "lgpe": "のうりょくを　さげられると こうげきが　ぐーんと　あがる。",
+            "swsh": "のうりょくを　さげられると こうげきが　ぐーんと　あがる。"
+        },
+        "korean": {
+            "xy": "능력이 떨어지면 공격이 올라간다.",
+            "oras": "능력이 떨어지면 공격이 올라간다.",
+            "sm": "능력이 떨어지면 공격이 크게 올라간다.",
+            "usum": "능력이 떨어지면 공격이 크게 올라간다.",
+            "lgpe": "능력이 떨어지면 공격이 크게 올라간다.",
+            "swsh": "능력이 떨어지면 공격이 크게 올라간다."
+        },
+        "german": {
+            "xy": "Senkt der Gegner die Status- werte, steigt der Angriffs-Wert.",
+            "oras": "Senkt der Gegner die Status- werte, steigt der Angriffs-Wert.",
+            "sm": "Werden die Statuswerte des Pokémon gesenkt, steigt sein Angriff stark.",
+            "usum": "Werden die Statuswerte des Pokémon gesenkt, steigt sein Angriff stark.",
+            "lgpe": "Werden die Statuswerte des Pokémon gesenkt, steigt sein Angriff stark.",
+            "swsh": "Erhöht den Angriff stark, wenn ein Statuswert gesenkt wurde."
+        },
+        "spanish": {
+            "xy": "Sube el Ataque cuando el rival le baja las características.",
+            "oras": "Sube el Ataque cuando el rival le baja las características.",
+            "sm": "Sube mucho el Ataque cuando el rival le baja las características.",
+            "usum": "Sube mucho el Ataque cuando el rival le baja las características.",
+            "lgpe": "Sube mucho el Ataque cuando el rival le baja las características.",
+            "swsh": "Sube mucho su Ataque cuando el rival le baja las características."
+        },
+        "italian": {
+            "xy": "L’Attacco aumenta quando un nemico fa calare le statistiche.",
+            "oras": "L’Attacco aumenta quando un nemico fa calare le statistiche.",
+            "sm": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un nemico.",
+            "usum": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un nemico.",
+            "lgpe": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un nemico.",
+            "swsh": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un nemico."
+        },
+        "japanese": {
+            "xy": "能力が　さがると 攻撃が　あがる。",
+            "oras": "能力が　さがると 攻撃が　あがる。",
+            "sm": "能力を　下げられると 攻撃が　ぐーんと　上がる。",
+            "usum": "能力を　下げられると 攻撃が　ぐーんと　上がる。",
+            "lgpe": "能力を　下げられると 攻撃が　ぐーんと　上がる。",
+            "swsh": "能力を　下げられると 攻撃が　ぐーんと　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Sube el Ataque cuando el rival le baja las características.",
+            "oras": "Sube el Ataque cuando el rival le baja las características.",
+            "sm": "Sube mucho el Ataque cuando el rival le baja las características.",
+            "usum": "Sube mucho el Ataque cuando el rival le baja las características.",
+            "lgpe": "Sube mucho el Ataque cuando el rival le baja las características.",
+            "swsh": "Sube mucho su Ataque cuando el rival le baja las características."
+        },
+        "traditional-chinese": {
+            "sm": "能力被降低時， 攻擊會大幅提高。",
+            "usum": "能力被降低時， 攻擊會大幅提高。",
+            "lgpe": "能力被降低時， 攻擊會大幅提高。",
+            "swsh": "能力被降低時， 攻擊會大幅提高。"
+        },
+        "simplified-chinese": {
+            "sm": "能力被降低时， 攻击会大幅提高。",
+            "usum": "能力被降低时， 攻击会大幅提高。",
+            "lgpe": "能力被降低时， 攻击会大幅提高。",
+            "swsh": "能力被降低时， 攻击会大幅提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            145.1,
+            624,
+            625,
+            983,
+            1017
+        ],
+        "hidden": [
+            56,
+            57,
+            83,
+            393,
+            394,
+            395,
+            432,
+            628,
+            641,
+            642,
+            766,
+            862,
+            870,
+            979
+        ]
+    }
 }

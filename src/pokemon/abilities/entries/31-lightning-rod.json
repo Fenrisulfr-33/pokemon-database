@@ -1,32 +1,161 @@
 {
-  "_id": 31,
-  "key": "lightning-rod",
-  "name": {
-    "english": "Lightning Rod"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Redirects single-target electric moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage.",
-    "full": "All other Pokémon's single-target electric-type moves are redirected to this Pokémon if it is an eligible target. Other Pokémon's Electric moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it. If the move's intended target also has this ability, the move is not redirected. When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon. follow me takes precedence over this ability. If the Pokémon is a ground-type and thus immune to Electric moves, its immunity prevents the Special Attack boost."
-  },
-  "description": {
-    "firered-leafgreen": "Draws electrical moves.",
-    "diamond-pearl": "The Pokémon draws in all Electric-type moves.",
-    "platinum": "The Pokémon draws in all Electric-type moves.",
-    "heartgold-soulsilver": "The Pokémon draws in all Electric-type moves.",
-    "ruby-sapphire": "Draws electrical moves.",
-    "emerald": "Draws electrical moves.",
-    "black-white": "Draws in all Electric-type moves to up Sp. Attack.",
-    "black-2-white-2": "Draws in all Electric-type moves to up Sp. Attack.",
-    "x-y": "Draws in all Electric-type moves to boost its Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "Draws in all Electric-type moves to boost its Sp. Atk stat.",
-    "sun-moon": "The Pokémon draws in all Electric-type moves.  Instead of being hit by Electric-type moves,  it boosts its Sp. Atk.",
-    "ultra-sun-ultra-moon": "The Pokémon draws in all Electric-type moves.  Instead of being hit by Electric-type moves,  it boosts its Sp. Atk.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.",
-    "sword-shield": "The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk."
-  },
-  "pokemonWithAbility": {
-    "normal": [104, 105, 105.1, 111, 112, 254.1, 309, 310, 464, 522, 523, 777, 871],
-    "hidden": [25, 26, 118, 119, 172, 311]
-  }
+    "_id": 31,
+    "key": "lightning-rod",
+    "name": {
+        "japanese-kana": "ひらいしん",
+        "korean": "피뢰침",
+        "traditional-chinese": "避雷針",
+        "french": "Paratonnerre",
+        "german": "Blitzfänger",
+        "spanish": "Pararrayos",
+        "italian": "Parafulmine",
+        "english": "Lightning Rod",
+        "japanese": "ひらいしん",
+        "simplified-chinese": "避雷针",
+        "latin-american-spanish": "Pararrayos"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Redirects single-target Electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage.",
+        "full": "All other Pokémon's single-target Electric-type moves are redirected to this Pokémon if it is an eligible target.  Other Pokémon's Electric moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it. If the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability. If the Pokémon is a Ground-type and thus immune to Electric moves, its immunity prevents the Special Attack boost."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat.",
+            "dp": "N'affecte pas les capacités Électrik non-offensives, i.e. Cage Éclair. Augmente la fréquence des revanches dans le monde extérieur si un Pokémon de l'équipe a ce talent.",
+            "bw": "Redirige les capacités Électrik sans les annuler ou garantir aucun boost d'Attaque Spéciale. Ne redirige pas Puissance Cachée."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt.",
+            "dp": "Betrifft keine Elektro-Attacken die keinen Schaden anrichten, wie Donnerwelle. Erhöht die Anzahl an Trainer-Anrufen wenn irgendein Pokémon im Team diese Fähigkeit hat.",
+            "bw": "Leitet Elektro-Attacken um, ohne ihre Effekte zu deaktivieren oder einen Spezialangriff Bonus zu gewähren. Leitet Kraftreserve nicht um."
+        },
+        "english": {
+            "em": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power.",
+            "dp": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself.  Does not redirect Hidden Power. Overworld: Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
+            "bw": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself.  Does not redirect Hidden Power or Judgement."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Draws electrical moves.",
+            "em": "Draws electrical moves.",
+            "frlg": "Draws electrical moves.",
+            "dp": "The Pokémon draws in all Electric-type moves.",
+            "pt": "The Pokémon draws in all Electric-type moves.",
+            "hgss": "The Pokémon draws in all Electric-type moves.",
+            "bw": "Draws in all Electric-type moves to up Sp. Attack.",
+            "b2w2": "Draws in all Electric-type moves to up Sp. Attack.",
+            "xy": "Draws in all Electric-type moves to boost its Sp. Atk stat.",
+            "oras": "Draws in all Electric-type moves to boost its Sp. Atk stat.",
+            "sm": "The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.",
+            "usum": "The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.",
+            "lgpe": "The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.",
+            "swsh": "The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.",
+            "sv": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+        },
+        "french": {
+            "bw": "Attire l’électricité et augmente l’Atq. Spé.",
+            "xy": "Attire et neutralise les attaques Électrik et monte l’Atq. Spé.",
+            "oras": "Attire et neutralise les attaques Électrik et monte l’Atq. Spé.",
+            "sm": "Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en montant son Attaque Spéciale.",
+            "usum": "Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en montant son Attaque Spéciale.",
+            "lgpe": "Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en montant son Attaque Spéciale.",
+            "swsh": "Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en montant son Attaque Spéciale.",
+            "sv": "Le Pokémon détourne sur lui les capacités\\nde type Électrik et les neutralise, tout en\\naugmentant son Attaque Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "でんきを　よびこんで とくこうを　あげる。",
+            "oras": "でんきを　よびこんで とくこうを　あげる。",
+            "sm": "でんきタイプの　わざを　じぶんに よせつけ　ダメージを　うけずに とくこうが　あがる。",
+            "usum": "でんきタイプの　わざを　じぶんに よせつけ　ダメージを　うけずに とくこうが　あがる。",
+            "lgpe": "でんきタイプの　わざを　じぶんに よせつけ　ダメージを　うけずに とくこうが　あがる。",
+            "swsh": "でんきタイプの　わざを　じぶんに よせつけ　ダメージを　うけずに とくこうが　あがる。"
+        },
+        "korean": {
+            "xy": "전기를 끌어모아 특수공격을 올린다.",
+            "oras": "전기를 끌어모아 특수공격을 올린다.",
+            "sm": "전기타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격을 올린다.",
+            "usum": "전기타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격을 올린다.",
+            "lgpe": "전기타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격을 올린다.",
+            "swsh": "전기타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격을 올린다."
+        },
+        "german": {
+            "xy": "Absorbiert Elektro-Attacken und steigert den Spezial-Angriff.",
+            "oras": "Absorbiert Elektro-Attacken und steigert den Spezial-Angriff.",
+            "sm": "Zieht Elektro-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+            "usum": "Zieht Elektro-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+            "lgpe": "Zieht Elektro-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+            "swsh": "Zieht Elektro-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff."
+        },
+        "spanish": {
+            "xy": "Atrae y neutraliza movimientos de tipo Eléctrico y sube el At. Esp.",
+            "oras": "Atrae y neutraliza movimientos de tipo Eléctrico y sube el At. Esp.",
+            "sm": "Además de atraer y neutralizar los movimientos de tipo Eléctrico, sube el Ataque Especial.",
+            "usum": "Además de atraer y neutralizar los movimientos de tipo Eléctrico, sube el Ataque Especial.",
+            "lgpe": "Además de atraer y neutralizar los movimientos de tipo Eléctrico, sube el Ataque Especial.",
+            "swsh": "Atrae y neutraliza los movimientos de tipo Eléctrico, que además le suben el Ataque Especial."
+        },
+        "italian": {
+            "xy": "Neutralizza mosse di tipo Elettro per aumentare l’Attacco Speciale.",
+            "oras": "Neutralizza mosse di tipo Elettro per aumentare l’Attacco Speciale.",
+            "sm": "Attira e neutralizza mosse di tipo Elettro e aumenta l’Attacco Speciale.",
+            "usum": "Attira e neutralizza mosse di tipo Elettro e aumenta l’Attacco Speciale.",
+            "lgpe": "Attira e neutralizza mosse di tipo Elettro e aumenta l’Attacco Speciale.",
+            "swsh": "Il Pokémon attira e neutralizza le mosse di tipo Elettro e fa aumentare il suo Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "でんきを　呼び込んで 特攻を　あげる。",
+            "oras": "でんきを　呼び込んで 特攻を　あげる。",
+            "sm": "でんきタイプの　技を　自分に 寄せつけ　ダメージを　受けずに 特攻が　上がる。",
+            "usum": "でんきタイプの　技を　自分に 寄せつけ　ダメージを　受けずに 特攻が　上がる。",
+            "lgpe": "でんきタイプの　技を　自分に 寄せつけ　ダメージを　受けずに 特攻が　上がる。",
+            "swsh": "でんきタイプの　技を　自分に 寄せつけ　ダメージを　受けずに 特攻が　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Atrae y neutraliza movimientos de tipo Eléctrico y sube el At. Esp.",
+            "oras": "Atrae y neutraliza movimientos de tipo Eléctrico y sube el At. Esp.",
+            "sm": "Además de atraer y neutralizar los movimientos de tipo Eléctrico, sube el Ataque Especial.",
+            "usum": "Además de atraer y neutralizar los movimientos de tipo Eléctrico, sube el Ataque Especial.",
+            "lgpe": "Además de atraer y neutralizar los movimientos de tipo Eléctrico, sube el Ataque Especial.",
+            "swsh": "Atrae y neutraliza los movimientos de tipo Eléctrico, que además le suben el Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "將電屬性的招式吸引到自己身上， 不但不會受到傷害，反而會提高特攻。",
+            "usum": "將電屬性的招式吸引到自己身上， 不但不會受到傷害，反而會提高特攻。",
+            "lgpe": "將電屬性的招式吸引到自己身上， 不但不會受到傷害，反而會提高特攻。",
+            "swsh": "將電屬性的招式吸引到自己身上， 不但不會受到傷害，反而會提高特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "将电属性的招式吸引到自己身上， 不会受到伤害，而是会提高特攻。",
+            "usum": "将电属性的招式吸引到自己身上， 不会受到伤害，而是会提高特攻。",
+            "lgpe": "将电属性的招式吸引到自己身上， 不会受到伤害，而是会提高特攻。",
+            "swsh": "将电属性的招式吸引到自己身上， 不会受到伤害，而是会提高特攻。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            104,
+            105,
+            105.1,
+            111,
+            112,
+            254.1,
+            309,
+            310,
+            464,
+            522,
+            523,
+            777,
+            871
+        ],
+        "hidden": [
+            25,
+            26,
+            118,
+            119,
+            172,
+            311
+        ]
+    }
 }

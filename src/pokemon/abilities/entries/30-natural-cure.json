@@ -1,32 +1,153 @@
 {
-  "_id": 30,
-  "key": "natural-cure",
-  "name": {
-    "english": "Natural Cure"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Cures any major status ailment upon switching out.",
-    "full": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon. If this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability."
-  },
-  "description": {
-    "ruby-sapphire": "Heals upon switching out.",
-    "emerald": "Heals upon switching out.",
-    "firered-leafgreen": "Heals upon switching out.",
-    "diamond-pearl": "All status problems are healed upon switching out.",
-    "platinum": "All status problems are healed upon switching out.",
-    "heartgold-soulsilver": "All status problems heal when it switches out.",
-    "black-white": "All status problems heal when it switches out.",
-    "black-2-white-2": "All status problems heal when it switches out.",
-    "x-y": "All status conditions heal when the Pokémon switches out.",
-    "omega-ruby-alpha-sapphire": "All status conditions heal when the Pokémon switches out.",
-    "sun-moon": "All status conditions heal when the Pokémon switches out.",
-    "ultra-sun-ultra-moon": "All status conditions heal when the Pokémon switches out.",
-    "lets-go-pikachu-lets-go-eevee": "All status conditions heal when the Pokémon switches out.",
-    "sword-shield": "All status conditions heal when the Pokémon switches out."
-  },
-  "pokemonWithAbility": {
-    "normal": [113, 120, 121, 222, 242, 251, 315, 333, 334, 406, 407, 440, 492, 708, 709, 921, 922, 923],
-    "hidden": [764]
-  }
+    "_id": 30,
+    "key": "natural-cure",
+    "name": {
+        "japanese-kana": "しぜんかいふく",
+        "korean": "자연회복",
+        "traditional-chinese": "自然回復",
+        "french": "Médic Nature",
+        "german": "Innere Kraft",
+        "spanish": "Cura Natural",
+        "italian": "Alternacura",
+        "english": "Natural Cure",
+        "japanese": "しぜんかいふく",
+        "simplified-chinese": "自然回复",
+        "latin-american-spanish": "Curación Natural"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Cures any major status ailment upon switching out.",
+        "full": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon. If this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "rs": "Soigne POKéMON changeant.",
+            "em": "Soigne POKéMON changeant.",
+            "frlg": "Soigne POKéMON changeant.",
+            "dp": "Quitter le combat soigne les problèmes de statut.",
+            "pt": "Quitter le combat soigne les problèmes de statut.",
+            "hgss": "Quitter le combat soigne les problèmes de statut.",
+            "bw": "Quitter le combat soigne les problèmes de statut.",
+            "xd": "Quitter le combat soigne les problèmes de statut.",
+            "b2w2": "Quitter le combat soigne les problèmes de statut.",
+            "xy": "Quitter le combat soigne les problèmes de statut.",
+            "oras": "Quitter le combat soigne les problèmes de statut.",
+            "sm": "Le Pokémon soigne ses altérations de statut en quittant le combat.",
+            "usum": "Le Pokémon soigne ses altérations de statut en quittant le combat.",
+            "lgpe": "Le Pokémon soigne ses altérations de statut en quittant le combat.",
+            "swsh": "Le Pokémon soigne ses altérations de statut en quittant le combat.",
+            "sv": "Le Pokémon soigne ses altérations de statut en quittant le combat."
+        },
+        "english": {
+            "rs": "Heals upon switching out.",
+            "em": "Heals upon switching out.",
+            "frlg": "Heals upon switching out.",
+            "dp": "All status problems are healed upon switching out.",
+            "pt": "All status problems are healed upon switching out.",
+            "hgss": "All status problems heal when it switches out.",
+            "bw": "All status problems heal when it switches out.",
+            "b2w2": "All status problems heal when it switches out.",
+            "xy": "All status conditions heal when the Pokémon switches out.",
+            "oras": "All status conditions heal when the Pokémon switches out.",
+            "sm": "All status conditions heal when the Pokémon switches out.",
+            "usum": "All status conditions heal when the Pokémon switches out.",
+            "lgpe": "All status conditions heal when the Pokémon switches out.",
+            "swsh": "All status conditions heal when the Pokémon switches out.",
+            "sv": "The Pokémon's status conditions are cured when it switches out."
+        },
+        "japanese-kana": {
+            "xy": "じょうたい　いじょうが ひっこむと　なおる。",
+            "oras": "じょうたい　いじょうが ひっこむと　なおる。",
+            "sm": "てもちに　ひっこむと じょうたい　いじょうが　なおる。",
+            "usum": "てもちに　ひっこむと じょうたい　いじょうが　なおる。",
+            "lgpe": "てもちに　ひっこむと じょうたい　いじょうが　なおる。",
+            "swsh": "てもちに　ひっこむと じょうたい　いじょうが　なおる。"
+        },
+        "korean": {
+            "xy": "배틀에서 일단 물러나면 상태 이상이 회복된다.",
+            "oras": "배틀에서 일단 물러나면 상태 이상이 회복된다.",
+            "sm": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다.",
+            "usum": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다.",
+            "lgpe": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다.",
+            "swsh": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다."
+        },
+        "german": {
+            "xy": "Heilt bei Austausch Statusprobleme.",
+            "oras": "Heilt bei Austausch Statusprobleme.",
+            "sm": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt.",
+            "usum": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt.",
+            "lgpe": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt.",
+            "swsh": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt."
+        },
+        "spanish": {
+            "xy": "Cura problemas de estado al cambiar de Pokémon.",
+            "oras": "Cura problemas de estado al cambiar de Pokémon.",
+            "sm": "Cura problemas de estado al cambiar de Pokémon.",
+            "usum": "Cura problemas de estado al cambiar de Pokémon.",
+            "lgpe": "Cura problemas de estado al cambiar de Pokémon.",
+            "swsh": "Cura sus problemas de estado al cambiarse con otro Pokémon."
+        },
+        "italian": {
+            "xy": "Cura i problemi di stato quando il Pokémon viene sostituito.",
+            "oras": "Cura i problemi di stato quando il Pokémon viene sostituito.",
+            "sm": "Cura i problemi di stato quando il Pokémon viene sostituito.",
+            "usum": "Cura i problemi di stato quando il Pokémon viene sostituito.",
+            "lgpe": "Cura i problemi di stato quando il Pokémon viene sostituito.",
+            "swsh": "Quando il Pokémon viene sostituito, guarisce dai problemi di stato."
+        },
+        "japanese": {
+            "xy": "状態異常が ひっこむと　治る。",
+            "oras": "状態異常が ひっこむと　治る。",
+            "sm": "手持ちに　ひっこむと 状態異常が　治る。",
+            "usum": "手持ちに　ひっこむと 状態異常が　治る。",
+            "lgpe": "手持ちに　ひっこむと 状態異常が　治る。",
+            "swsh": "手持ちに　ひっこむと 状態異常が　治る。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cura problemas de estado al cambiar de Pokémon.",
+            "oras": "Cura problemas de estado al cambiar de Pokémon.",
+            "sm": "Cura problemas de estado al cambiar de Pokémon.",
+            "usum": "Cura problemas de estado al cambiar de Pokémon.",
+            "lgpe": "Cura problemas de estado al cambiar de Pokémon.",
+            "swsh": "Cura sus problemas de estado al cambiarse con otro Pokémon."
+        },
+        "traditional-chinese": {
+            "sm": "異常狀態會在 離場後治癒。",
+            "usum": "異常狀態會在 離場後治癒。",
+            "lgpe": "異常狀態會在 離場後治癒。",
+            "swsh": "異常狀態會在 離場後治癒。"
+        },
+        "simplified-chinese": {
+            "sm": "回到同行队伍后， 异常状态就会被治愈。",
+            "usum": "回到同行队伍后， 异常状态就会被治愈。",
+            "lgpe": "回到同行队伍后， 异常状态就会被治愈。",
+            "swsh": "回到同行队伍后， 异常状态就会被治愈。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            113,
+            120,
+            121,
+            222,
+            242,
+            251,
+            315,
+            333,
+            334,
+            406,
+            407,
+            440,
+            492,
+            708,
+            709,
+            921,
+            922,
+            923
+        ],
+        "hidden": [
+            764
+        ]
+    }
 }

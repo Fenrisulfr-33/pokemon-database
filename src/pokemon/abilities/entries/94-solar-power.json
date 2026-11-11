@@ -1,29 +1,136 @@
 {
-  "_id": 94,
-  "key": "solar-power",
-  "name": {
-    "english": "Solar Power"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
-    "full": "During strong sunlight, this Pokémon has 1.5× its Special Attack but takes 1/8 of its maximum HP in damage after each turn."
-  },
-  "description": {
-    "diamond-pearl": "Boosts Sp. Atk, but lowers HP in sunshine.",
-    "platinum": "Boosts Sp. Atk, but lowers HP in sunshine.",
-    "heartgold-soulsilver": "Boosts Sp. Atk, but lowers HP in sunshine.",
-    "black-white": "In sunshine, Sp. Atk is boosted but HP decreases.",
-    "black-2-white-2": "In sunshine, Sp. Atk is boosted but HP decreases.",
-    "x-y": "Boosts the Sp. Atk stat in sunny weather, but HP decreases.",
-    "omega-ruby-alpha-sapphire": "Boosts the Sp. Atk stat in sunny weather, but HP decreases.",
-    "sun-moon": "Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn.",
-    "ultra-sun-ultra-moon": "Boosts the Sp. Atk stat in harsh sunlight, but HP decreases every turn.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts the Sp. Atk stat in harsh sunlight, but HP decreases every turn.",
-    "sword-shield": "Boosts the Sp. Atk stat in harsh sunlight, but HP decreases every turn."
-  },
-  "pokemonWithAbility": {
-    "normal": [191, 192, 229.1, 357],
-    "hidden": [4, 5, 6, 694, 695]
-  }
+    "_id": 94,
+    "key": "solar-power",
+    "name": {
+        "japanese-kana": "サンパワー",
+        "korean": "선파워",
+        "traditional-chinese": "太陽之力",
+        "french": "Force Soleil",
+        "german": "Solarkraft",
+        "spanish": "Poder Solar",
+        "italian": "Solarpotere",
+        "english": "Solar Power",
+        "japanese": "サンパワー",
+        "simplified-chinese": "太阳之力",
+        "latin-american-spanish": "Poder Solar"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
+        "full": "During strong sunlight, this Pokémon has 1.5× its Special Attack but takes 1/8 of its maximum HP in damage after each turn."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "dp": "Augmente l'Atq. Spé. mais baisse les PV au soleil.",
+            "pt": "Augmente l'Atq. Spé. mais baisse les PV au soleil.",
+            "hgss": "Augmente l'Atq. Spé. mais baisse les PV au soleil.",
+            "bw": "Augmente l'Atq. Spé. mais baisse les PV au soleil.",
+            "b2w2": "Augmente l'Atq. Spé. mais baisse les PV au soleil.",
+            "xy": "Augmente l'Attaque Spéciale mais baisse les PV au soleil.",
+            "oras": "Augmente l'Attaque Spéciale mais baisse les PV au soleil.",
+            "sm": "Quand le soleil brille, l'Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour.",
+            "usum": "Quand le soleil brille, l'Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour.",
+            "lgpe": "Quand le soleil brille, l’Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour.",
+            "swsh": "Quand le soleil brille, l'Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour.",
+            "sv": "Quand le soleil brille, l'Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour."
+        },
+        "english": {
+            "dp": "Boosts Sp. Atk, but lowers HP in sunshine.",
+            "pt": "Boosts Sp. Atk, but lowers HP in sunshine.",
+            "hgss": "Boosts Sp. Atk, but lowers HP in sunshine.",
+            "bw": "In sunshine, Sp. Atk is boosted but HP decreases.",
+            "b2w2": "In sunshine, Sp. Atk is boosted but HP decreases.",
+            "xy": "Boosts the Sp. Atk stat in sunny weather, but HP decreases.",
+            "oras": "Boosts the Sp. Atk stat in sunny weather, but HP decreases.",
+            "sm": "Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn.",
+            "usum": "Boosts the Sp. Atk stat in harsh sunlight, but HP decreases every turn.",
+            "lgpe": "Boosts the Sp. Atk stat in harsh sunlight, but HP decreases every turn.",
+            "swsh": "Boosts the Sp. Atk stat in harsh sunlight, but HP decreases every turn.",
+            "sv": "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn."
+        },
+        "japanese-kana": {
+            "xy": "はれると　ＨＰが　へるが とくこうが　あがる。",
+            "oras": "はれると　ＨＰが　へるが とくこうが　あがる。",
+            "sm": "てんきが　はれると とくこうが　あがるが まいターン　ＨＰが　へる。",
+            "usum": "てんきが　はれると とくこうが　あがるが まいターン　ＨＰが　へる。",
+            "lgpe": "てんきが　はれると とくこうが　あがるが まいターン　ＨＰが　へる。",
+            "swsh": "てんきが　はれると とくこうが　あがるが まいターン　ＨＰが　へる。"
+        },
+        "korean": {
+            "xy": "맑으면 HP가 줄지만 특수공격이 올라간다.",
+            "oras": "맑으면 HP가 줄지만 특수공격이 올라간다.",
+            "sm": "날씨가 맑으면 특수공격이 올라가지만 매 턴 HP가 줄어든다.",
+            "usum": "날씨가 맑으면 특수공격이 올라가지만 매 턴 HP가 줄어든다.",
+            "lgpe": "날씨가 맑으면 특수공격이 올라가지만 매 턴 HP가 줄어든다.",
+            "swsh": "날씨가 맑으면 특수공격이 올라가지만 매 턴 HP가 줄어든다."
+        },
+        "german": {
+            "xy": "Führt bei Sonne zu KP-Verlusten, erhöht aber den Spezial-Angriff.",
+            "oras": "Führt bei Sonne zu KP-Verlusten, erhöht aber den Spezial-Angriff.",
+            "sm": "Führt bei Sonnenschein in jeder Runde zu KP-Verlusten, erhöht aber den Spezial-Angriff.",
+            "usum": "Führt bei Sonnenschein in jeder Runde zu KP-Verlusten, erhöht aber den Spezial-Angriff.",
+            "lgpe": "Führt bei Sonnenschein in jeder Runde zu KP-Verlusten, erhöht aber den Spezial-Angriff.",
+            "swsh": "Führt bei Sonnenschein in jeder Runde zu KP-Verlusten, erhöht aber den Spezial-Angriff."
+        },
+        "spanish": {
+            "xy": "Si hace sol, baja los PS, pero potencia el At. Esp.",
+            "oras": "Si hace sol, baja los PS, pero potencia el At. Esp.",
+            "sm": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
+            "usum": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
+            "lgpe": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
+            "swsh": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno."
+        },
+        "italian": {
+            "xy": "Se c’è il sole aumenta l’Attacco Speciale, ma riduce i PS.",
+            "oras": "Se c’è il sole aumenta l’Attacco Speciale, ma riduce i PS.",
+            "sm": "Se la luce del sole è intensa, l’Attacco Speciale aumenta, ma il Pokémon perde PS a ogni turno.",
+            "usum": "Se la luce del sole è intensa, l’Attacco Speciale aumenta, ma il Pokémon perde PS a ogni turno.",
+            "lgpe": "Se la luce del sole è intensa, l’Attacco Speciale aumenta, ma il Pokémon perde PS a ogni turno.",
+            "swsh": "Se la luce del sole è intensa, l’Attacco Speciale aumenta, ma il Pokémon perde PS a ogni turno."
+        },
+        "japanese": {
+            "xy": "晴れると　ＨＰが　減るが 特攻が　あがる。",
+            "oras": "晴れると　ＨＰが　減るが 特攻が　あがる。",
+            "sm": "天気が　晴れると 特攻が　上がるが 毎ターン　ＨＰが　減る。",
+            "usum": "天気が　晴れると 特攻が　上がるが 毎ターン　ＨＰが　減る。",
+            "lgpe": "天気が　晴れると 特攻が　上がるが 毎ターン　ＨＰが　減る。",
+            "swsh": "天気が　晴れると 特攻が　上がるが 毎ターン　ＨＰが　減る。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si hace sol, baja los PS, pero potencia el At. Esp.",
+            "oras": "Si hace sol, baja los PS, pero potencia el At. Esp.",
+            "sm": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
+            "usum": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
+            "lgpe": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno.",
+            "swsh": "Si hace sol, aumenta su Ataque Especial, pero pierde PS en cada turno."
+        },
+        "traditional-chinese": {
+            "sm": "晴朗天氣時特攻會提高， 但每回合ＨＰ會減少。",
+            "usum": "晴朗天氣時特攻會提高， 但每回合ＨＰ會減少。",
+            "lgpe": "晴朗天氣時特攻會提高， 但每回合HP會減少。",
+            "swsh": "天氣為晴朗時特攻會提高， 但每回合ＨＰ會減少。"
+        },
+        "simplified-chinese": {
+            "sm": "晴朗天气时， 特攻会提高， 而每回合ＨＰ会减少。",
+            "usum": "晴朗天气时， 特攻会提高， 而每回合ＨＰ会减少。",
+            "lgpe": "晴朗天气时， 特攻会提高， 而每回合HP会减少。",
+            "swsh": "晴朗天气时， 特攻会提高， 而每回合ＨＰ会减少。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            191,
+            192,
+            229.1,
+            357
+        ],
+        "hidden": [
+            4,
+            5,
+            6,
+            694,
+            695
+        ]
+    }
 }

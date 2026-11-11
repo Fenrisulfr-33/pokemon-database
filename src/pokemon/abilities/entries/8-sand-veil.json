@@ -1,32 +1,163 @@
 {
-  "_id": 8,
-  "key": "sand-veil",
-  "name": {
-    "english": "Sand Veil"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Increases evasion to 1.25× during a sandstorm. Protects against sandstorm damage.",
-    "full": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type. The evasion bonus does not count as a stat modifier. Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
-  },
-  "description": {
-    "ruby-sapphire": "Ups evasion in a sandstorm.",
-    "emerald": "Ups evasion in a sandstorm.",
-    "firered-leafgreen": "Ups evasion in a sandstorm.",
-    "diamond-pearl": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "platinum": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "heartgold-soulsilver": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "black-white": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "black-2-white-2": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "x-y": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "omega-ruby-alpha-sapphire": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "sun-moon": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "ultra-sun-ultra-moon": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts the Pokémon’s evasion in a sandstorm.",
-    "sword-shield": "Boosts the Pokémon’s evasiveness in a sandstorm."
-  },
-  "pokemonWithAbility": {
-    "normal": [27, 28, 50, 50.1, 51, 51.1, 207, 331, 332, 443, 444, 445, 472, 694, 695],
-    "hidden": [74, 75, 76, 231, 232, 246, 618, 769, 770, 843, 844, 960, 961, 968]
-  }
+    "_id": 8,
+    "key": "sand-veil",
+    "name": {
+        "japanese-kana": "すながくれ",
+        "korean": "모래숨기",
+        "traditional-chinese": "沙隱",
+        "french": "Voile Sable",
+        "german": "Sandschleier",
+        "spanish": "Velo Arena",
+        "italian": "Sabbiavelo",
+        "english": "Sand Veil",
+        "japanese": "すながくれ",
+        "simplified-chinese": "沙隐",
+        "latin-american-spanish": "Velo de Arena"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage.",
+        "full": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type. The evasion bonus does not count as a stat modifier. Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "rs": "Evasion si tempête sable.",
+            "em": "Evasion si tempête sable.",
+            "frlg": "Evasion si tempête sable.",
+            "dp": "Augmente l'esquive lors des tempêtes de sable.",
+            "pt": "Augmente l'esquive lors des tempêtes de sable.",
+            "hgss": "Augmente l'esquive lors des tempêtes de sable.",
+            "bw": "Augmente l'Esquive lors des tempêtes de sable.",
+            "xd": "Augmente l'Esquive lors des tempêtes de sable.",
+            "b2w2": "Augmente l'Esquive lors des tempêtes de sable.",
+            "xy": "Augmente l’Esquive lors des tempêtes de sable.",
+            "oras": "Augmente l'Esquive lors des tempêtes de sable.",
+            "sm": "Augmente l'Esquive du Pokémon lors des tempêtes de sable.",
+            "usum": "Augmente l'Esquive du Pokémon lors des tempêtes de sable.",
+            "lgpe": "Augmente l’Esquive du Pokémon lors des tempêtes de sable.",
+            "swsh": "Augmente l'Esquive du Pokémon lors des tempêtes de sable.",
+            "sv": "Augmente l'Esquive du Pokémon lors des tempêtes de sable."
+        },
+        "english": {
+            "rs": "Ups evasion in a sandstorm.",
+            "em": "Ups evasion in a sandstorm.",
+            "frlg": "Ups evasion in a sandstorm.",
+            "dp": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "pt": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "hgss": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "bw": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "b2w2": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "xy": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "oras": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "sm": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "usum": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "lgpe": "Boosts the Pokémon’s evasion in a sandstorm.",
+            "swsh": "Boosts the Pokémon’s evasiveness in a sandstorm.",
+            "sv": "Boosts the Pokémon's evasiveness in a sandstorm."
+        },
+        "japanese-kana": {
+            "xy": "すなあらしで かいひりつが　あがる。",
+            "oras": "すなあらしで かいひりつが　あがる。",
+            "sm": "すなあらしの　とき かいひりつが　あがる。",
+            "usum": "すなあらしの　とき かいひりつが　あがる。",
+            "lgpe": "すなあらしの　とき かいひりつが　あがる。",
+            "swsh": "すなあらしの　とき かいひりつが　あがる。"
+        },
+        "korean": {
+            "xy": "모래바람으로 회피율이 올라간다.",
+            "oras": "모래바람으로 회피율이 올라간다.",
+            "sm": "모래바람일 때 회피율이 올라간다.",
+            "usum": "모래바람일 때 회피율이 올라간다.",
+            "lgpe": "모래바람일 때 회피율이 올라간다.",
+            "swsh": "모래바람일 때 회피율이 올라간다."
+        },
+        "german": {
+            "xy": "Erhöht in Sandstürmen den Fluchtwert.",
+            "oras": "Erhöht in Sandstürmen den Fluchtwert.",
+            "sm": "Erhöht in Sandstürmen den Fluchtwert.",
+            "usum": "Erhöht in Sandstürmen den Fluchtwert.",
+            "lgpe": "Erhöht in Sandstürmen den Fluchtwert.",
+            "swsh": "Erhöht in Sandstürmen den Ausweichwert."
+        },
+        "spanish": {
+            "xy": "Aumenta la Evasión en las tormentas de arena.",
+            "oras": "Aumenta la Evasión en las tormentas de arena.",
+            "sm": "Aumenta la Evasión durante las tormentas de arena.",
+            "usum": "Aumenta la Evasión durante las tormentas de arena.",
+            "lgpe": "Aumenta la Evasión durante las tormentas de arena.",
+            "swsh": "Aumenta su Evasión durante las tormentas de arena."
+        },
+        "italian": {
+            "xy": "L’elusione aumenta durante le tempeste di sabbia.",
+            "oras": "L’elusione aumenta durante le tempeste di sabbia.",
+            "sm": "L’elusione aumenta durante le tempeste di sabbia.",
+            "usum": "L’elusione aumenta durante le tempeste di sabbia.",
+            "lgpe": "L’elusione aumenta durante le tempeste di sabbia.",
+            "swsh": "L’elusione aumenta durante le tempeste di sabbia."
+        },
+        "japanese": {
+            "xy": "砂あらしで 回避率が　あがる。",
+            "oras": "砂あらしで 回避率が　あがる。",
+            "sm": "砂あらしの　とき 回避率が　上がる。",
+            "usum": "砂あらしの　とき 回避率が　上がる。",
+            "lgpe": "砂あらしの　とき 回避率が　上がる。",
+            "swsh": "砂あらしの　とき 回避率が　上がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aumenta la Evasión en las tormentas de arena.",
+            "oras": "Aumenta la Evasión en las tormentas de arena.",
+            "sm": "Aumenta la Evasión durante las tormentas de arena.",
+            "usum": "Aumenta la Evasión durante las tormentas de arena.",
+            "lgpe": "Aumenta la Evasión durante las tormentas de arena.",
+            "swsh": "Aumenta su Evasión durante las tormentas de arena."
+        },
+        "traditional-chinese": {
+            "sm": "在沙暴中 閃避率會提高。",
+            "usum": "在沙暴中 閃避率會提高。",
+            "lgpe": "在沙暴中 閃避率會提高。",
+            "swsh": "在沙暴中 閃避率會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "在沙暴的时候， 闪避率会提高。",
+            "usum": "在沙暴的时候， 闪避率会提高。",
+            "lgpe": "在沙暴的时候， 闪避率会提高。",
+            "swsh": "在沙暴的时候， 闪避率会提高。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            27,
+            28,
+            50,
+            50.1,
+            51,
+            51.1,
+            207,
+            331,
+            332,
+            443,
+            444,
+            445,
+            472,
+            694,
+            695
+        ],
+        "hidden": [
+            74,
+            75,
+            76,
+            231,
+            232,
+            246,
+            618,
+            769,
+            770,
+            843,
+            844,
+            960,
+            961,
+            968
+        ]
+    }
 }

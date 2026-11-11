@@ -1,32 +1,135 @@
 {
-  "_id": 16,
-  "key": "color-change",
-  "name": {
-    "english": "Color Change"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Changes type to match when hit by a damaging move.",
-    "full": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden. The Pokémon must directly take damage; for example, moves blocked by a substitute will not trigger this ability, nor will moves that deal damage indirectly, such as spikes. This ability takes effect on only the last hit of a multiple-hit attack. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves."
-  },
-  "description": {
-    "ruby-sapphire": "Changes type to foe’s move.",
-    "emerald": "Changes type to foe’s move.",
-    "firered-leafgreen": "Changes type to foe’s move.",
-    "diamond-pearl": "Changes the Pokémon’s type to the foe’s move.",
-    "platinum": "Changes the Pokémon’s type to the foe’s move.",
-    "heartgold-soulsilver": "Changes the Pokémon’s type to the foe’s move.",
-    "black-white": "Changes the Pokémon’s type to the foe’s move.",
-    "black-2-white-2": "Changes the Pokémon’s type to the foe’s move.",
-    "x-y": "The Pokémon’s type becomes the type of the move used on it.",
-    "omega-ruby-alpha-sapphire": "The Pokémon’s type becomes the type of the move used on it.",
-    "sun-moon": "The Pokémon’s type becomes the type of the move used on it.",
-    "ultra-sun-ultra-moon": "The Pokémon’s type becomes the type of the move used on it.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon’s type becomes the type of the move used on it.",
-    "sword-shield": "The Pokémon’s type becomes the type of the move used on it."
-  },
-  "pokemonWithAbility": {
-    "normal": [352],
-    "hidden": []
-  }
+    "_id": 16,
+    "key": "color-change",
+    "name": {
+        "japanese-kana": "へんしょく",
+        "korean": "변색",
+        "traditional-chinese": "變色",
+        "french": "Homochromie",
+        "german": "Farbwechsel",
+        "spanish": "Cambio Color",
+        "italian": "Cambiacolore",
+        "english": "Color Change",
+        "japanese": "へんしょく",
+        "simplified-chinese": "变色",
+        "latin-american-spanish": "Cambio Color"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Changes type to match when hit by a damaging move.",
+        "full": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden.  The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes. This ability takes effect on only the last hit of a multiple-hit attack. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Se déclenche à chaque coup d'une capacité multi-coups."
+        },
+        "german": {
+            "bw": "Löst bei Attacken die mehrmals Treffen bei jedem Treffer aus."
+        },
+        "english": {
+            "bw": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden. The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Changes type to foe’s move.",
+            "em": "Changes type to foe’s move.",
+            "frlg": "Changes type to foe’s move.",
+            "dp": "Changes the Pokémon’s type to the foe’s move.",
+            "pt": "Changes the Pokémon’s type to the foe’s move.",
+            "hgss": "Changes the Pokémon’s type to the foe’s move.",
+            "bw": "Changes the Pokémon’s type to the foe’s move.",
+            "b2w2": "Changes the Pokémon’s type to the foe’s move.",
+            "xy": "The Pokémon’s type becomes the type of the move used on it.",
+            "oras": "The Pokémon’s type becomes the type of the move used on it.",
+            "sm": "The Pokémon’s type becomes the type of the move used on it.",
+            "usum": "The Pokémon’s type becomes the type of the move used on it.",
+            "lgpe": "The Pokémon’s type becomes the type of the move used on it.",
+            "swsh": "The Pokémon’s type becomes the type of the move used on it."
+        },
+        "french": {
+            "bw": "Le Pokémon adopte le type de la capacité ennemie.",
+            "xy": "Le Pokémon adopte le type de la capacité ennemie.",
+            "oras": "Le Pokémon adopte le type de la capacité ennemie.",
+            "sm": "Lorsque le Pokémon est touché par une capacité, il prend le type de celle-ci.",
+            "usum": "Lorsque le Pokémon est touché par une capacité, il prend le type de celle-ci.",
+            "lgpe": "Lorsque le Pokémon est touché par une capacité, il prend le type de celle-ci.",
+            "swsh": "Lorsque le Pokémon est touché par une capacité, il prend le type de celle-ci.",
+            "sv": "Lorsque le Pokémon est touché par une capacité,\\nil prend le type de celle-ci."
+        },
+        "japanese-kana": {
+            "xy": "うけた　わざの　タイプに へんかする。",
+            "oras": "うけた　わざの　タイプに へんかする。",
+            "sm": "あいてから　うけた　わざの　タイプに じぶんの　タイプが　へんか　する。",
+            "usum": "あいてから　うけた　わざの　タイプに じぶんの　タイプが　へんか　する。",
+            "lgpe": "あいてから　うけた　わざの　タイプに じぶんの　タイプが　へんか　する。",
+            "swsh": "あいてから　うけた　わざの　タイプに じぶんの　タイプが　へんか　する。"
+        },
+        "korean": {
+            "xy": "받은 기술의 타입으로 변화한다.",
+            "oras": "받은 기술의 타입으로 변화한다.",
+            "sm": "상대에게 받은 기술의 타입으로 자신의 타입이 변화한다.",
+            "usum": "상대에게 받은 기술의 타입으로 자신의 타입이 변화한다.",
+            "lgpe": "상대에게 받은 기술의 타입으로 자신의 타입이 변화한다.",
+            "swsh": "상대에게 받은 기술의 타입으로 자신의 타입이 변화한다."
+        },
+        "german": {
+            "xy": "Ändert seinen Typ zu dem der Attacke des Angreifers.",
+            "oras": "Ändert seinen Typ zu dem der Attacke des Angreifers.",
+            "sm": "Ändert seinen Typ zu dem der Attacke des Angreifers.",
+            "usum": "Ändert seinen Typ zu dem der Attacke des Angreifers.",
+            "lgpe": "Ändert seinen Typ zu dem der Attacke des Angreifers.",
+            "swsh": "Ändert seinen Typ zu dem der Attacke des Angreifers."
+        },
+        "spanish": {
+            "xy": "Adopta el tipo del último movimiento del que sea blanco.",
+            "oras": "Adopta el tipo del último movimiento del que se es blanco.",
+            "sm": "Adopta el tipo del último movimiento del que se es blanco.",
+            "usum": "Adopta el tipo del último movimiento del que se es blanco.",
+            "lgpe": "Adopta el tipo del último movimiento del que se es blanco.",
+            "swsh": "Adopta el tipo del último movimiento del que es blanco."
+        },
+        "italian": {
+            "xy": "Il Pokémon acquisisce il tipo della mossa subita.",
+            "oras": "Il Pokémon acquisisce il tipo della mossa subita.",
+            "sm": "Il Pokémon acquisisce il tipo della mossa subita.",
+            "usum": "Il Pokémon acquisisce il tipo della mossa subita.",
+            "lgpe": "Il Pokémon acquisisce il tipo della mossa subita.",
+            "swsh": "Il Pokémon acquisisce il tipo della mossa subita."
+        },
+        "japanese": {
+            "xy": "受けた　技の　タイプに 変化する。",
+            "oras": "受けた　技の　タイプに 変化する。",
+            "sm": "相手から　受けた　技の　タイプに 自分の　タイプが　変化　する。",
+            "usum": "相手から　受けた　技の　タイプに 自分の　タイプが　変化　する。",
+            "lgpe": "相手から　受けた　技の　タイプに 自分の　タイプが　変化　する。",
+            "swsh": "相手から　受けた　技の　タイプに 自分の　タイプが　変化　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Adopta el tipo del último movimiento del que sea blanco.",
+            "oras": "Adopta el tipo del último movimiento del que se es blanco.",
+            "sm": "Adopta el tipo del último movimiento del que se es blanco.",
+            "usum": "Adopta el tipo del último movimiento del que se es blanco.",
+            "lgpe": "Adopta el tipo del último movimiento del que se es blanco.",
+            "swsh": "Adopta el tipo del último movimiento del que es blanco."
+        },
+        "traditional-chinese": {
+            "sm": "自己的屬性會變為 從對手所受招式的屬性。",
+            "usum": "自己的屬性會變為 從對手所受招式的屬性。",
+            "lgpe": "自己的屬性會變為 從對手所受招式的屬性。",
+            "swsh": "自己的屬性會變為 擊中自己的對手招式的屬性。"
+        },
+        "simplified-chinese": {
+            "sm": "自己的属性会变为 从对手处所受招式的属性。",
+            "usum": "自己的属性会变为 从对手处所受招式的属性。",
+            "lgpe": "自己的属性会变为 从对手处所受招式的属性。",
+            "swsh": "自己的属性会变为 从对手处所受招式的属性。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            352
+        ],
+        "hidden": []
+    }
 }

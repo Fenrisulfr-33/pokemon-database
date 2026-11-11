@@ -1,32 +1,136 @@
 {
-  "_id": 64,
-  "key": "liquid-ooze",
-  "name": {
-    "english": "Liquid Ooze"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Damages opponents using leeching moves for as much as they would heal.",
-    "full": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like absorb, it instead loses as many HP as it would usually gain. dream eater is unaffected."
-  },
-  "description": {
-    "ruby-sapphire": "Draining causes injury.",
-    "emerald": "Draining causes injury.",
-    "firered-leafgreen": "Draining causes injury.",
-    "diamond-pearl": "Inflicts damage on foes using any draining move.",
-    "platinum": "Inflicts damage on foes using any draining move.",
-    "heartgold-soulsilver": "Inflicts damage on foes using any draining move.",
-    "black-white": "Damages attackers using any draining move.",
-    "black-2-white-2": "Damages attackers using any draining move.",
-    "x-y": "Damages attackers using any draining move.",
-    "omega-ruby-alpha-sapphire": "Damages attackers using any draining move.",
-    "sun-moon": "Oozed liquid has strong stench, which damages attackers using any draining move.",
-    "ultra-sun-ultra-moon": "Oozed liquid has strong stench, which damages attackers using any draining move.",
-    "lets-go-pikachu-lets-go-eevee": "The oozed liquid has a strong stench, which damages attackers using any draining move.",
-    "sword-shield": "The oozed liquid has a strong stench, which damages attackers using any draining move."
-  },
-  "pokemonWithAbility": {
-    "normal": [72, 73, 316, 317],
-    "hidden": []
-  }
+    "_id": 64,
+    "key": "liquid-ooze",
+    "name": {
+        "japanese-kana": "ヘドロえき",
+        "korean": "해감액",
+        "traditional-chinese": "污泥漿",
+        "french": "Suintement",
+        "german": "Kloakensoße",
+        "spanish": "Lodo Líquido",
+        "italian": "Melma",
+        "english": "Liquid Ooze",
+        "japanese": "ヘドロえき",
+        "simplified-chinese": "污泥浆",
+        "latin-american-spanish": "Lodo Líquido"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Damages opponents using leeching moves for as much as they would heal.",
+        "full": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like Absorb, it instead loses as many HP as it would usually gain. Dream Eater is unaffected."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "rs": "Blesse quand drainé.",
+            "em": "Blesse quand drainé.",
+            "frlg": "Blesse quand drainé.",
+            "dp": "Blesse l'ennemi qui draine l'énergie du Pokémon.",
+            "pt": "Blesse l'ennemi qui draine l'énergie du Pokémon.",
+            "hgss": "Blesse l'ennemi qui draine l'énergie du Pokémon.",
+            "bw": "Blesse l'ennemi qui draine l'énergie du Pokémon.",
+            "b2w2": "Blesse l'ennemi qui draine l'énergie du Pokémon.",
+            "xy": "Blesse l'attaquant qui draine l'énergie du Pokémon.",
+            "oras": "Blesse l'attaquant qui draine l'énergie du Pokémon.",
+            "sm": "Le Pokémon suinte un liquide toxique qui blesse tous ceux qui tentent de voler ses PV.",
+            "usum": "Le Pokémon suinte un liquide toxique qui blesse tous ceux qui tentent de voler ses PV.",
+            "lgpe": "Le Pokémon suinte un liquide toxique qui blesse tous ceux qui tentent de voler ses PV.",
+            "swsh": "Le Pokémon suinte un liquide toxique nauséabond qui blesse tous ceux qui tentent de voler ses PV.",
+            "sv": "Le Pokémon suinte un liquide toxique nauséabond qui blesse tous ceux qui tentent de voler ses PV."
+        },
+        "english": {
+            "rs": "Draining causes injury.",
+            "em": "Draining causes injury.",
+            "frlg": "Draining causes injury.",
+            "dp": "Inflicts damage on foes using any draining move.",
+            "pt": "Inflicts damage on foes using any draining move.",
+            "hgss": "Inflicts damage on foes using any draining move.",
+            "bw": "Damages attackers using any draining move.",
+            "b2w2": "Damages attackers using any draining move.",
+            "xy": "Damages attackers using any draining move.",
+            "oras": "Damages attackers using any draining move.",
+            "sm": "Oozed liquid has strong stench, which damages attackers using any draining move.",
+            "usum": "Oozed liquid has strong stench, which damages attackers using any draining move.",
+            "lgpe": "The oozed liquid has a strong stench, which damages attackers using any draining move.",
+            "swsh": "The oozed liquid has a strong stench, which damages attackers using any draining move.",
+            "sv": "The strong stench of the Pokémon's oozed liquid damages attackers that use HP-draining moves."
+        },
+        "japanese-kana": {
+            "xy": "すいとった　あいての ＨＰを　へらす。",
+            "oras": "すいとった　あいての ＨＰを　へらす。",
+            "sm": "ヘドロえきを　すいとった　あいては きょうれつな　あくしゅうで ダメージを　うけて　ＨＰを　へらす。",
+            "usum": "ヘドロえきを　すいとった　あいては きょうれつな　あくしゅうで ダメージを　うけて　ＨＰを　へらす。",
+            "lgpe": "ヘドロえきを　すいとった　あいては きょうれつな　あくしゅうで ダメージを　うけて　ＨＰを　へらす。",
+            "swsh": "ヘドロえきを　すいとった　あいては きょうれつな　あくしゅうで ダメージを　うけて　ＨＰを　へらす。"
+        },
+        "korean": {
+            "xy": "흡수한 상대의 HP를 줄인다.",
+            "oras": "흡수한 상대의 HP를 줄인다.",
+            "sm": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다.",
+            "usum": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다.",
+            "lgpe": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다.",
+            "swsh": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다."
+        },
+        "german": {
+            "xy": "Schadet Angreifern, die Saug-Attacken einsetzen.",
+            "oras": "Schadet Angreifern, die Saug-Attacken einsetzen.",
+            "sm": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden.",
+            "usum": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden.",
+            "lgpe": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden.",
+            "swsh": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden."
+        },
+        "spanish": {
+            "xy": "Hiere a los Pokémon que drenan PS.",
+            "oras": "Hiere a los Pokémon que drenan PS.",
+            "sm": "Debido a su intenso hedor, hiere a los Pokémon que intentan drenarle los PS.",
+            "usum": "Debido a su intenso hedor, hiere a los Pokémon que intentan drenarle los PS.",
+            "lgpe": "Debido a su intenso hedor, hiere a los Pokémon que intentan drenarle los PS.",
+            "swsh": "Exuda una sustancia tóxica de intenso hedor que hiere a quienes intentan drenarle PS."
+        },
+        "italian": {
+            "xy": "Danneggia i Pokémon che usano mosse ruba-PS.",
+            "oras": "Danneggia i Pokémon che usano mosse ruba-PS.",
+            "sm": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni.",
+            "usum": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni.",
+            "lgpe": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni.",
+            "swsh": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni."
+        },
+        "japanese": {
+            "xy": "吸いとった　相手の ＨＰを　減らす。",
+            "oras": "吸いとった　相手の ＨＰを　減らす。",
+            "sm": "ヘドロ液を　吸い取った　相手は 強烈な　悪臭で ダメージを　受けて　ＨＰを　減らす。",
+            "usum": "ヘドロ液を　吸い取った　相手は 強烈な　悪臭で ダメージを　受けて　ＨＰを　減らす。",
+            "lgpe": "ヘドロ液を　吸い取った　相手は 強烈な　悪臭で ダメージを　受けて　ＨＰを　減らす。",
+            "swsh": "ヘドロ液を　吸い取った　相手は 強烈な　悪臭で ダメージを　受けて　ＨＰを　減らす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Hiere a los Pokémon que drenan PS.",
+            "oras": "Hiere a los Pokémon que drenan PS.",
+            "sm": "Debido a su intenso hedor, hiere a los Pokémon que intentan drenarle los PS.",
+            "usum": "Debido a su intenso hedor, hiere a los Pokémon que intentan drenarle los PS.",
+            "lgpe": "Debido a su intenso hedor, hiere a los Pokémon que intentan drenarle los PS.",
+            "swsh": "Exuda una sustancia tóxica de intenso hedor que hiere a quienes intentan drenarle PS."
+        },
+        "traditional-chinese": {
+            "sm": "吸收了污泥漿的對手 會因為強烈的惡臭而 使得ＨＰ減少。",
+            "usum": "吸收了污泥漿的對手 會因為強烈的惡臭而 使得ＨＰ減少。",
+            "lgpe": "吸收了污泥漿的對手 會因為強烈的惡臭而 使得HP減少。",
+            "swsh": "吸收了污泥漿的對手 會因為強烈的惡臭而 使得ＨＰ減少。"
+        },
+        "simplified-chinese": {
+            "sm": "吸收了污泥浆的对手 会因强烈的恶臭 而受到伤害，减少ＨＰ。",
+            "usum": "吸收了污泥浆的对手 会因强烈的恶臭 而受到伤害，减少ＨＰ。",
+            "lgpe": "吸收了污泥浆的对手 会因强烈的恶臭 而受到伤害，减少HP。",
+            "swsh": "吸收了污泥浆的对手 会因强烈的恶臭 而受到伤害，减少ＨＰ。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            72,
+            73,
+            316,
+            317
+        ],
+        "hidden": []
+    }
 }

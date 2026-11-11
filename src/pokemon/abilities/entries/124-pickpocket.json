@@ -1,26 +1,134 @@
 {
-  "_id": 124,
-  "key": "pickpocket",
-  "name": {
-    "english": "Pickpocket"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Steals attacking Pokémon's held items on contact.",
-    "full": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item. This Pokémon cannot steal upon being knocked out. It can steal if the attacker has a substitute, but cannot steal when its own Substitute is hit. If a move hits multiple times, only the last hit triggers this ability. If this Pokémon is wild, it cannot steal from a trained Pokémon."
-  },
-  "description": {
-    "black-white": "Steals an item when hit by another Pokémon.",
-    "black-2-white-2": "Steals an item when hit by another Pokémon.",
-    "x-y": "Steals an item from an attacker that made direct contact.",
-    "omega-ruby-alpha-sapphire": "Steals an item from an attacker that made direct contact.",
-    "sun-moon": "Steals an item from an attacker that made direct contact.",
-    "ultra-sun-ultra-moon": "Steals an item from an attacker that made direct contact.",
-    "lets-go-pikachu-lets-go-eevee": "Steals an item from an attacker that made direct contact.",
-    "sword-shield": "Steals an item from an attacker that made direct contact."
-  },
-  "pokemonWithAbility": {
-    "normal": [944],
-    "hidden": [215, 273, 274, 275, 461, 688, 689, 859, 860, 861, 957, 958, 959]
-  }
+    "_id": 124,
+    "key": "pickpocket",
+    "name": {
+        "japanese-kana": "わるいてぐせ",
+        "korean": "나쁜손버릇",
+        "traditional-chinese": "順手牽羊",
+        "french": "Pickpocket",
+        "german": "Langfinger",
+        "spanish": "Hurto",
+        "italian": "Arraffalesto",
+        "english": "Pickpocket",
+        "japanese": "わるいてぐせ",
+        "simplified-chinese": "顺手牵羊",
+        "latin-american-spanish": "Hurto"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Steals attacking Pokémon's held items on contact.",
+        "full": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item. This Pokémon cannot steal upon being knocked out.  It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit.  If a move hits multiple times, only the last hit triggers this ability.  If this Pokémon is wild, it cannot steal from a trained Pokémon."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Vole l’objet de l’ennemi si son attaque touche.",
+            "xy": "Vole l’objet de l’attaquant si son attaque touche.",
+            "oras": "Vole l’objet de l’attaquant si son attaque touche.",
+            "sm": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "usum": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "lgpe": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "swsh": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "sv": "Vole l’objet que tient l’attaquant quand le Pokémon\\nsubit une attaque directe."
+        },
+        "english": {
+            "bw": "Steals an item when hit by another Pokémon.",
+            "b2w2": "Steals an item when hit by another Pokémon.",
+            "xy": "Steals an item from an attacker that made direct contact.",
+            "oras": "Steals an item from an attacker that made direct contact.",
+            "sm": "Steals an item from an attacker that made direct contact.",
+            "usum": "Steals an item from an attacker that made direct contact.",
+            "lgpe": "Steals an item from an attacker that made direct contact.",
+            "swsh": "Steals an item from an attacker that made direct contact.",
+            "sv": "The Pokémon steals the held item from attackers that made direct contact with it."
+        },
+        "japanese-kana": {
+            "xy": "さわられた　あいてから どうぐを　ぬすむ。",
+            "oras": "さわられた　あいてから どうぐを　ぬすむ。",
+            "sm": "さわられた　あいての　どうぐを ぬすんで　しまう。",
+            "usum": "さわられた　あいての　どうぐを ぬすんで　しまう。",
+            "lgpe": "さわられた　あいての　どうぐを ぬすんで　しまう。",
+            "swsh": "さわられた　あいての　どうぐを ぬすんで　しまう。"
+        },
+        "korean": {
+            "xy": "닿은 상대로부터 도구를 훔친다.",
+            "oras": "닿은 상대로부터 도구를 훔친다.",
+            "sm": "접촉한 상대의 도구를 훔친다.",
+            "usum": "접촉한 상대의 도구를 훔친다.",
+            "lgpe": "접촉한 상대의 도구를 훔친다.",
+            "swsh": "접촉한 상대의 도구를 훔친다."
+        },
+        "german": {
+            "xy": "Stiehlt Angreifern Items, wenn es von ihnen berührt wird.",
+            "oras": "Stiehlt Angreifern Items, wenn es von ihnen berührt wird.",
+            "sm": "Stiehlt das Item des Angreifers bei Berührung.",
+            "usum": "Stiehlt das Item des Angreifers bei Berührung.",
+            "lgpe": "Stiehlt das Item des Angreifers bei Berührung.",
+            "swsh": "Stiehlt das Item des Angreifers bei Berührung."
+        },
+        "spanish": {
+            "xy": "Al ser golpeado, roba el objeto del objetivo.",
+            "oras": "Al ser golpeado, roba el objeto del objetivo.",
+            "sm": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "usum": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "lgpe": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "swsh": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto."
+        },
+        "italian": {
+            "xy": "Al contatto subito, ruba lo strumento di chi lo ha attaccato.",
+            "oras": "Al contatto subito, ruba lo strumento di chi lo ha attaccato.",
+            "sm": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato.",
+            "usum": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato.",
+            "lgpe": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato.",
+            "swsh": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato."
+        },
+        "japanese": {
+            "xy": "触られた　相手から 道具を　盗む。",
+            "oras": "触られた　相手から 道具を　盗む。",
+            "sm": "触られた　相手の　道具を 盗んで　しまう。",
+            "usum": "触られた　相手の　道具を 盗んで　しまう。",
+            "lgpe": "触られた　相手の　道具を 盗んで　しまう。",
+            "swsh": "触られた　相手の　道具を 盗んで　しまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Al ser golpeado, roba el objeto del objetivo.",
+            "oras": "Al ser golpeado, roba el objeto del objetivo.",
+            "sm": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "usum": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "lgpe": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "swsh": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto."
+        },
+        "traditional-chinese": {
+            "sm": "盜取接觸到自己的 對手的道具。",
+            "usum": "盜取接觸到自己的 對手的道具。",
+            "lgpe": "盜取接觸到自己的 對手的道具。",
+            "swsh": "盜取接觸到自己的 對手的道具。"
+        },
+        "simplified-chinese": {
+            "sm": "盗取接触到自己的 对手的道具。",
+            "usum": "盗取接触到自己的 对手的道具。",
+            "lgpe": "盗取接触到自己的 对手的道具。",
+            "swsh": "盗取接触到自己的 对手的道具。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            944
+        ],
+        "hidden": [
+            215,
+            273,
+            274,
+            275,
+            461,
+            688,
+            689,
+            859,
+            860,
+            861,
+            957,
+            958,
+            959
+        ]
+    }
 }

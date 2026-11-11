@@ -1,32 +1,162 @@
 {
-  "_id": 11,
-  "key": "water-absorb",
-  "name": {
-    "english": "Water Absorb"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Absorbs water moves, healing for 1/4 max HP.",
-    "full": "Whenever a water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it. Water moves will ignore this Pokémon's substitute."
-  },
-  "description": {
-    "ruby-sapphire": "Changes water into HP.",
-    "emerald": "Changes water into HP.",
-    "firered-leafgreen": "Changes water into HP.",
-    "diamond-pearl": "Restores HP if hit by a Water-type move.",
-    "platinum": "Restores HP if hit by a Water-type move.",
-    "heartgold-soulsilver": "Restores HP if hit by a Water-type move.",
-    "black-white": "Restores HP if hit by a Water-type move.",
-    "black-2-white-2": "Restores HP if hit by a Water-type move.",
-    "x-y": "Restores HP if hit by a Water-type move.",
-    "omega-ruby-alpha-sapphire": "Restores HP if hit by a Water-type move.",
-    "sun-moon": "Restores HP if hit by a Water-type move, instead of taking damage.",
-    "ultra-sun-ultra-moon": "Restores HP if hit by a Water-type move, instead of taking damage.",
-    "lets-go-pikachu-lets-go-eevee": "Restores HP if hit by a Water-type move instead of taking damage.",
-    "sword-shield": "Restores HP if hit by a Water-type move instead of taking damage."
-  },
-  "pokemonWithAbility": {
-    "normal": [60, 61, 62, 131, 134, 186, 194, 194.1, 195, 226, 458, 556, 592, 593, 721, 882, 883, 980, 1017.1],
-    "hidden": [170, 171, 331, 332, 535, 536, 537, 751, 752]
-  }
+    "_id": 11,
+    "key": "water-absorb",
+    "name": {
+        "japanese-kana": "ちょすい",
+        "korean": "저수",
+        "traditional-chinese": "儲水",
+        "french": "Absorbe-Eau",
+        "german": "H2O-Absorber",
+        "spanish": "Absorbe Agua",
+        "italian": "Assorbacqua",
+        "english": "Water Absorb",
+        "japanese": "ちょすい",
+        "simplified-chinese": "储水",
+        "latin-american-spanish": "Absorbeagua"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Absorbs Water moves, healing for 1/4 max HP.",
+        "full": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it. Water moves will ignore this Pokémon's Substitute."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "rs": "Change l'eau en PV.",
+            "em": "Change l'eau en PV.",
+            "frlg": "Change l'eau en PV.",
+            "dp": "Récupère des PV si touché par une capacité Eau.",
+            "pt": "Récupère des PV si touché par une capacité Eau.",
+            "hgss": "Récupère des PV si touché par une capacité Eau.",
+            "bw": "Récupère des PV si touché par une capacité Eau.",
+            "xd": "Récupère des PV si touché par une capacité Eau.",
+            "b2w2": "Récupère des PV si touché par une capacité Eau.",
+            "xy": "Récupère des PV si touché par une capacité Eau.",
+            "oras": "Récupère des PV si touché par une capacité Eau.",
+            "sm": "Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place.",
+            "usum": "Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place.",
+            "lgpe": "Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place.",
+            "swsh": "Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place.",
+            "sv": "Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place."
+        },
+        "english": {
+            "rs": "Changes water into HP.",
+            "em": "Changes water into HP.",
+            "frlg": "Changes water into HP.",
+            "dp": "Restores HP if hit by a Water-type move.",
+            "pt": "Restores HP if hit by a Water-type move.",
+            "hgss": "Restores HP if hit by a Water-type move.",
+            "bw": "Restores HP if hit by a Water-type move.",
+            "b2w2": "Restores HP if hit by a Water-type move.",
+            "xy": "Restores HP if hit by a Water-type move.",
+            "oras": "Restores HP if hit by a Water-type move.",
+            "sm": "Restores HP if hit by a Water-type move, instead of taking damage.",
+            "usum": "Restores HP if hit by a Water-type move, instead of taking damage.",
+            "lgpe": "Restores HP if hit by a Water-type move instead of taking damage.",
+            "swsh": "Restores HP if hit by a Water-type move instead of taking damage.",
+            "sv": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+        },
+        "japanese-kana": {
+            "xy": "みずを　うけると かいふくする。",
+            "oras": "ずを　うけると かいふくする。",
+            "sm": "みずタイプの　わざを　うけると ダメージを　うけずに　かいふくする。",
+            "usum": "みずタイプの　わざを　うけると ダメージを　うけずに　かいふくする。",
+            "lgpe": "みずタイプの　わざを　うけると ダメージを　うけずに　かいふくする。",
+            "swsh": "みずタイプの　わざを　うけると ダメージを　うけずに　かいふくする。"
+        },
+        "korean": {
+            "xy": "물을 받으면 회복한다.",
+            "oras": "물을 받으면 회복한다.",
+            "sm": "물타입의 기술을 받으면 데미지를 받지 않고 회복한다.",
+            "usum": "물타입의 기술을 받으면 데미지를 받지 않고 회복한다.",
+            "lgpe": "물타입의 기술을 받으면 데미지를 받지 않고 회복한다.",
+            "swsh": "물타입의 기술을 받으면 데미지를 받지 않고 회복한다."
+        },
+        "german": {
+            "xy": "Treffer durch Wasser-Attacken regenerieren KP.",
+            "oras": "Treffer durch Wasser-Attacken regenerieren KP.",
+            "sm": "Treffer durch Wasser-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP.",
+            "usum": "Treffer durch Wasser-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP.",
+            "lgpe": "Treffer durch Wasser-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP.",
+            "swsh": "Treffer durch Wasser-Attacken verursachen keinen Schaden, sondern regenerieren stattdessen KP."
+        },
+        "spanish": {
+            "xy": "Recupera PS al recibir ataques de tipo Agua.",
+            "oras": "Recupera PS al recibir ataques de tipo Agua.",
+            "sm": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
+            "usum": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
+            "lgpe": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
+            "swsh": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño."
+        },
+        "italian": {
+            "xy": "Ridà PS se il Pokémon subisce una mossa di tipo Acqua.",
+            "oras": "Ridà PS se il Pokémon subisce una mossa di tipo Acqua.",
+            "sm": "Se il Pokémon subisce una mossa di tipo Acqua, recupera PS anziché subire danni.",
+            "usum": "Se il Pokémon subisce una mossa di tipo Acqua, recupera PS anziché subire danni.",
+            "lgpe": "Se il Pokémon subisce una mossa di tipo Acqua, recupera PS anziché subire danni.",
+            "swsh": "Se il Pokémon viene colpito da una mossa di tipo Acqua, recupera PS anziché subire danni."
+        },
+        "japanese": {
+            "xy": "みずを　受けると 回復する。",
+            "oras": "ずを　受けると 回復する。",
+            "sm": "みずタイプの　技を　受けると ダメージを　受けずに　回復する。",
+            "usum": "みずタイプの　技を　受けると ダメージを　受けずに　回復する。",
+            "lgpe": "みずタイプの　技を　受けると ダメージを　受けずに　回復する。",
+            "swsh": "みずタイプの　技を　受けると ダメージを　受けずに　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Recupera PS al recibir ataques de tipo Agua.",
+            "oras": "Recupera PS al recibir ataques de tipo Agua.",
+            "sm": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
+            "usum": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
+            "lgpe": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño.",
+            "swsh": "Si le alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño."
+        },
+        "traditional-chinese": {
+            "sm": "受到水屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+            "usum": "受到水屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+            "lgpe": "受到水屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+            "swsh": "受到水屬性的招式攻擊時， 不會受到傷害，而是會回復。"
+        },
+        "simplified-chinese": {
+            "sm": "受到水属性的招式攻击时， 不会受到伤害，而是会回复。",
+            "usum": "受到水属性的招式攻击时， 不会受到伤害，而是会回复。",
+            "lgpe": "受到水属性的招式攻击时， 不会受到伤害，而是会回复。",
+            "swsh": "受到水属性的招式攻击时， 不会受到伤害，而是会回复。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            60,
+            61,
+            62,
+            131,
+            134,
+            186,
+            194,
+            194.1,
+            195,
+            226,
+            458,
+            556,
+            592,
+            593,
+            721,
+            882,
+            883,
+            980,
+            1017.1
+        ],
+        "hidden": [
+            170,
+            171,
+            331,
+            332,
+            535,
+            536,
+            537,
+            751,
+            752
+        ]
+    }
 }

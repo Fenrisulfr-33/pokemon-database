@@ -1,26 +1,146 @@
 {
-  "_id": 144,
-  "key": "regenerator",
-  "name": {
-    "english": "Regenerator"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Heals for 1/3 max HP upon switching out.",
-    "full": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted. This ability does not take effect when a battle ends."
-  },
-  "description": {
-    "black-white": "Restores a little HP when withdrawn from battle.",
-    "black-2-white-2": "Restores a little HP when withdrawn from battle.",
-    "x-y": "Restores a little HP when withdrawn from battle.",
-    "omega-ruby-alpha-sapphire": "Restores a little HP when withdrawn from battle.",
-    "sun-moon": "Restores a little HP when withdrawn from battle.",
-    "ultra-sun-ultra-moon": "Restores a little HP when withdrawn from battle.",
-    "lets-go-pikachu-lets-go-eevee": "Restores a little HP when withdrawn from battle.",
-    "sword-shield": "Restores a little HP when withdrawn from battle."
-  },
-  "pokemonWithAbility": {
-    "normal": [531, 619, 620, 829, 830, 1019],
-    "hidden": [79, 79.1, 80, 80.2, 114, 199, 199.1, 222, 250, 465, 577, 578, 579, 590, 591, 594, 747, 748, 950, 967]
-  }
+    "_id": 144,
+    "key": "regenerator",
+    "name": {
+        "japanese-kana": "さいせいりょく",
+        "korean": "재생력",
+        "traditional-chinese": "再生力",
+        "french": "Régé-Force",
+        "german": "Belebekraft",
+        "spanish": "Regeneración",
+        "italian": "Rigenergia",
+        "english": "Regenerator",
+        "japanese": "さいせいりょく",
+        "simplified-chinese": "再生力",
+        "latin-american-spanish": "Regeneración"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Heals for 1/3 max HP upon switching out.",
+        "full": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted. This ability does not take effect when a battle ends."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Restaure un peu de PV si le Pokémon est retiré.",
+            "xy": "Restaure un peu de PV si le Pokémon est retiré.",
+            "oras": "Restaure un peu de PV si le Pokémon est retiré.",
+            "sm": "Restaure un peu de PV si le Pokémon est retiré du combat.",
+            "usum": "Restaure un peu de PV si le Pokémon est retiré du combat.",
+            "lgpe": "Restaure un peu de PV si le Pokémon est retiré du combat.",
+            "swsh": "Restaure un peu de PV si le Pokémon est retiré du combat.",
+            "sv": "Restaure un peu de PV si le Pokémon est retiré\\ndu combat."
+        },
+        "english": {
+            "bw": "Restores a little HP when withdrawn from battle.",
+            "b2w2": "Restores a little HP when withdrawn from battle.",
+            "xy": "Restores a little HP when withdrawn from battle.",
+            "oras": "Restores a little HP when withdrawn from battle.",
+            "sm": "Restores a little HP when withdrawn from battle.",
+            "usum": "Restores a little HP when withdrawn from battle.",
+            "lgpe": "Restores a little HP when withdrawn from battle.",
+            "swsh": "Restores a little HP when withdrawn from battle.",
+            "sv": "The Pokémon has a little of its HP restored when withdrawn from battle."
+        },
+        "japanese-kana": {
+            "xy": "ひっこめると ＨＰが すこし　かいふくする。",
+            "oras": "ひっこめると ＨＰが すこし　かいふくする。",
+            "sm": "てもちに　ひっこむと ＨＰが　すこし　かいふくする。",
+            "usum": "てもちに　ひっこむと ＨＰが　すこし　かいふくする。",
+            "lgpe": "てもちに　ひっこむと ＨＰが　すこし　かいふくする。",
+            "swsh": "てもちに　ひっこむと ＨＰが　すこし　かいふくする。"
+        },
+        "korean": {
+            "xy": "볼에 넣으면 HP가 조금 회복된다.",
+            "oras": "볼에 넣으면 HP가 조금 회복된다.",
+            "sm": "지닌 포켓몬으로 돌아오면 HP를 조금 회복한다.",
+            "usum": "지닌 포켓몬으로 돌아오면 HP를 조금 회복한다.",
+            "lgpe": "지닌 포켓몬으로 돌아오면 HP를 조금 회복한다.",
+            "swsh": "지닌 포켓몬으로 돌아오면 HP를 조금 회복한다."
+        },
+        "german": {
+            "xy": "Heilt beim Austauschen eine geringe Menge an KP.",
+            "oras": "Heilt beim Austauschen eine geringe Menge an KP.",
+            "sm": "Wird das Pokémon ausgewechselt, regeneriert es eine kleine Menge an KP.",
+            "usum": "Wird das Pokémon ausgewechselt, regeneriert es eine kleine Menge an KP.",
+            "lgpe": "Wird das Pokémon ausgewechselt, regeneriert es eine kleine Menge an KP.",
+            "swsh": "Wird das Pokémon ausgewechselt, regeneriert es eine kleine Menge an KP."
+        },
+        "spanish": {
+            "xy": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "oras": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "sm": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "usum": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "lgpe": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "swsh": "Recupera unos pocos PS al ser cambiado por otro Pokémon."
+        },
+        "italian": {
+            "xy": "Il Pokémon recupera un po’ di PS quando viene sostituito.",
+            "oras": "Il Pokémon recupera un po’ di PS quando viene sostituito.",
+            "sm": "Il Pokémon recupera un po’ di PS quando viene sostituito.",
+            "usum": "Il Pokémon recupera un po’ di PS quando viene sostituito.",
+            "lgpe": "Il Pokémon recupera un po’ di PS quando lascia il campo.",
+            "swsh": "Il Pokémon recupera un po’ di PS quando lascia il campo."
+        },
+        "japanese": {
+            "xy": "ひっこめると ＨＰが 少し　回復する。",
+            "oras": "ひっこめると ＨＰが 少し　回復する。",
+            "sm": "手持ちに　引っ込むと ＨＰが　少し　回復する。",
+            "usum": "手持ちに　引っ込むと ＨＰが　少し　回復する。",
+            "lgpe": "手持ちに　引っ込むと ＨＰが　少し　回復する。",
+            "swsh": "手持ちに　引っ込むと ＨＰが　少し　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "oras": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "sm": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "usum": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "lgpe": "Recupera unos pocos PS al cambiar de Pokémon.",
+            "swsh": "Recupera unos pocos PS al ser cambiado por otro Pokémon."
+        },
+        "traditional-chinese": {
+            "sm": "退回同行隊伍後， ＨＰ會少量回復。",
+            "usum": "退回同行隊伍後， ＨＰ會少量回復。",
+            "lgpe": "退回同行隊伍後， HP會少量回復。",
+            "swsh": "退回同行隊伍後， ＨＰ會少量回復。"
+        },
+        "simplified-chinese": {
+            "sm": "退回同行队伍后， ＨＰ会少量回复。",
+            "usum": "退回同行队伍后， ＨＰ会少量回复。",
+            "lgpe": "退回同行队伍后， HP会少量回复。",
+            "swsh": "退回同行队伍后， ＨＰ会少量回复。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            531,
+            619,
+            620,
+            829,
+            830,
+            1019
+        ],
+        "hidden": [
+            79,
+            79.1,
+            80,
+            80.2,
+            114,
+            199,
+            199.1,
+            222,
+            250,
+            465,
+            577,
+            578,
+            579,
+            590,
+            591,
+            594,
+            747,
+            748,
+            950,
+            967
+        ]
+    }
 }

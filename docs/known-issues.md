@@ -64,21 +64,20 @@ an error.
 - `pokedex/dexes/dexes.test.js`: `ULTRA_SUN_ULTRA_MOON_MELEMELE` has
   149 entries instead of 150.
 
-## `abilities` entries fail their schema
-
-41 of 307 ability files fail `abilities/schema.json`, so
-`npm run upsert:abilities` refuses to upload:
-
-- 33 are missing `effect.shortEffect`.
-- 7 have an empty `effect.full` or `effect.shortEffect`.
-- `263-dragon’s-maw.json` has `key` `dragon’s-maw`; the curly
-  apostrophe doesn't match the key pattern.
-
-There's no `abilities:validate` script to catch this earlier.
-
 ## Abilities with no pokemon
 
-Battle Bond, Power Construct, Neuroforce and both As One entries have
-empty `pokemonWithAbility` lists. The forms that have them
-(Ash-Greninja, Zygarde, Ultra Necrozma, the Calyrex riders) are in
-`forms/` but not in `pokedex/entries`.
+Battle Bond, Power Construct, Neuroforce, both As One entries and Embody
+Aspect (303) have empty `pokemonWithAbility` lists. The forms that have
+them (Ash-Greninja, Zygarde, Ultra Necrozma, the Calyrex riders, the
+Terastallized Ogerpon forms) are in `forms/` or missing, but not in
+`pokedex/entries`.
+
+308–314 (Piercing Drill, Dragonize, Mega Sol, Spicy Spray, Eelevate,
+Fire Mane, Aura Guard) have no `pokemonWithAbility` at all, and no
+pokedex entry uses them. `updatePokemonWithAbility.js` throws
+`No pokemonWithAbility key` on these files, so it can't be run until
+they have the field.
+
+`updatePokemonWithAbility.js` also writes each list on one line, while
+`pokeApi/abilities/getAbilities.js` writes one id per line, so running
+it reformats every ability file.

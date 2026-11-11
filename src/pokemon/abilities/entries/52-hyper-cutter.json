@@ -1,32 +1,157 @@
 {
-  "_id": 52,
-  "key": "hyper-cutter",
-  "name": {
-    "english": "Hyper Cutter"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Prevents Attack from being lowered by other Pokémon.",
-    "full": "This Pokémon's Attack cannot be lowered by other Pokémon. This ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn. This Pokémon can still be passed negative Attack modifiers through heart swap or power swap."
-  },
-  "description": {
-    "ruby-sapphire": "Prevents ATTACK reduction.",
-    "emerald": "Prevents ATTACK reduction.",
-    "firered-leafgreen": "Prevents ATTACK reduction.",
-    "diamond-pearl": "Prevents the Attack stat from being lowered.",
-    "platinum": "Prevents the Attack stat from being lowered.",
-    "heartgold-soulsilver": "Prevents the Attack stat from being lowered.",
-    "black-white": "Prevents other Pokémon from lowering Attack stat.",
-    "black-2-white-2": "Prevents other Pokémon from lowering Attack stat.",
-    "x-y": "Prevents other Pokémon from lowering its Attack stat.",
-    "omega-ruby-alpha-sapphire": "Prevents other Pokémon from lowering its Attack stat.",
-    "sun-moon": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
-    "ultra-sun-ultra-moon": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
-    "sword-shield": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat."
-  },
-  "pokemonWithAbility": {
-    "normal": [98, 99, 127, 207, 303, 328, 341, 342, 472, 739, 740],
-    "hidden": []
-  }
+    "_id": 52,
+    "key": "hyper-cutter",
+    "name": {
+        "japanese-kana": "かいりきバサミ",
+        "korean": "괴력집게",
+        "traditional-chinese": "怪力鉗",
+        "french": "Hyper Cutter",
+        "german": "Scherenmacht",
+        "spanish": "Corte Fuerte",
+        "italian": "Ipertaglio",
+        "english": "Hyper Cutter",
+        "japanese": "かいりきバサミ",
+        "simplified-chinese": "怪力钳",
+        "latin-american-spanish": "Corte Fuerte"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Prevents Attack from being lowered by other Pokémon.",
+        "full": "This Pokémon's Attack cannot be lowered by other Pokémon. This ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pokémon can still be passed negative Attack modifiers through Heart Swap or Power Swap."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat.",
+            "dp": "Double le rayon d'action de Coupe dans le monde extérieur si un Pokémon de l'équipe a ce talent."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt.",
+            "dp": "Verdoppelt den Radius in dem Zerschneider Gras entfernt, wenn irgendein Pokémon im Team diese Fähigkeit hat."
+        },
+        "english": {
+            "em": "This Pokémon's Attack cannot be lowered by other Pokémon. This ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.",
+            "dp": "This Pokémon's Attack cannot be lowered by other Pokémon. This ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn. Overworld: Doubles Cut's grass-cutting radius on the overworld if any party Pokémon has this ability."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Empêche réduction ATTAQUE.",
+            "em": "Empêche réduction ATTAQUE.",
+            "frlg": "Empêche réduction ATTAQUE.",
+            "dp": "Empêche la réduction de l'Attaque.",
+            "pt": "Empêche la réduction de l'Attaque.",
+            "hgss": "Empêche la réduction de l'Attaque.",
+            "bw": "Empêche la réduction de l'Attaque.",
+            "xd": "Empêche la réduction de l'Attaque.",
+            "b2w2": "Empêche la réduction de l'Attaque.",
+            "xy": "Empêche la réduction de l’Attaque.",
+            "oras": "Empêche la réduction de l'Attaque.",
+            "sm": "Le Pokémon est armé de lames tranchantes qui font sa fierté et empêchent son Attaque de baisser.",
+            "usum": "Le Pokémon est armé de lames tranchantes qui font sa fierté et empêchent son Attaque de baisser.",
+            "lgpe": "Le Pokémon est armé de lames tranchantes qui font sa fierté et empêchent son Attaque de baisser.",
+            "swsh": "Le Pokémon est armé de lames tranchantes qui font sa fierté et empêchent son Attaque de baisser.",
+            "sv": "Le Pokémon est armé de puissantes pinces qui font sa fierté et empêchent son Attaque d'être baissée par l'adversaire."
+        },
+        "english": {
+            "rs": "Prevents ATTACK reduction.",
+            "em": "Prevents ATTACK reduction.",
+            "frlg": "Prevents ATTACK reduction.",
+            "dp": "Prevents the Attack stat from being lowered.",
+            "pt": "Prevents the Attack stat from being lowered.",
+            "hgss": "Prevents the Attack stat from being lowered.",
+            "bw": "Prevents other Pokémon from lowering Attack stat.",
+            "b2w2": "Prevents other Pokémon from lowering Attack stat.",
+            "xy": "Prevents other Pokémon from lowering its Attack stat.",
+            "oras": "Prevents other Pokémon from lowering its Attack stat.",
+            "sm": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
+            "usum": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
+            "lgpe": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
+            "swsh": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
+            "sv": "The Pokémon's prized, mighty pincers prevent other Pokémon from lowering its Attack stat."
+        },
+        "japanese-kana": {
+            "xy": "あいてに　こうげきを さげられない。",
+            "oras": "あいてに　こうげきを さげられない。",
+            "sm": "ちからじまんの　ハサミを　もっているので あいてに　こうげきを　さげられない。",
+            "usum": "ちからじまんの　ハサミを　もっているので あいてに　こうげきを　さげられない。",
+            "lgpe": "ちからじまんの　ハサミを　もっているので あいてに　こうげきを　さげられない。",
+            "swsh": "ちからじまんの　ハサミを　もっているので あいてに　こうげきを　さげられない。"
+        },
+        "korean": {
+            "xy": "상대가 공격을 떨어뜨리지 못한다.",
+            "oras": "상대가 공격을 떨어뜨리지 못한다.",
+            "sm": "힘이 자랑인 집게를 가지고 있어 상대가 공격을 떨어뜨리지 못한다.",
+            "usum": "힘이 자랑인 집게를 가지고 있어 상대가 공격을 떨어뜨리지 못한다.",
+            "lgpe": "힘이 자랑인 집게를 가지고 있어 상대가 공격을 떨어뜨리지 못한다.",
+            "swsh": "힘이 자랑인 집게를 가지고 있어 상대가 공격을 떨어뜨리지 못한다."
+        },
+        "german": {
+            "xy": "Hindert Angreifer daran, den Angriffs-Wert zu senken.",
+            "oras": "Hindert Angreifer daran, den Angriffs-Wert zu senken.",
+            "sm": "Hindert Angreifer durch mächtige Scheren daran, den Angriffs-Wert zu senken.",
+            "usum": "Hindert Angreifer durch mächtige Scheren daran, den Angriffs-Wert zu senken.",
+            "lgpe": "Hindert Angreifer durch mächtige Scheren daran, den Angriffs-Wert zu senken.",
+            "swsh": "Hindert Angreifer durch mächtige Scheren daran, den Angriffs-Wert zu senken."
+        },
+        "spanish": {
+            "xy": "Evita que disminuya el Ataque.",
+            "oras": "Evita que disminuya el Ataque.",
+            "sm": "Evita que el rival le baje el Ataque.",
+            "usum": "Evita que el rival le baje el Ataque.",
+            "lgpe": "Evita que el rival le baje el Ataque.",
+            "swsh": "Evita que el rival le baje el Ataque."
+        },
+        "italian": {
+            "xy": "Evita che la statistica Attacco venga ridotta.",
+            "oras": "Evita che la statistica Attacco venga ridotta.",
+            "sm": "L’Attacco del Pokémon non può diminuire grazie alla morsa micidiale in cui è in grado di stringere i nemici.",
+            "usum": "L’Attacco del Pokémon non può diminuire grazie alla morsa micidiale in cui è in grado di stringere i nemici.",
+            "lgpe": "L’Attacco del Pokémon non può diminuire grazie alla morsa micidiale in cui è in grado di stringere i nemici.",
+            "swsh": "L’Attacco del Pokémon non può diminuire grazie alla morsa micidiale in cui è in grado di stringere i nemici."
+        },
+        "japanese": {
+            "xy": "相手に　攻撃を さげられない。",
+            "oras": "相手に　攻撃を さげられない。",
+            "sm": "力自慢の　ハサミを　持っているので 相手に　攻撃を　下げられない。",
+            "usum": "力自慢の　ハサミを　持っているので 相手に　攻撃を　下げられない。",
+            "lgpe": "力自慢の　ハサミを　持っているので 相手に　攻撃を　下げられない。",
+            "swsh": "力自慢の　ハサミを　持っているので 相手に　攻撃を　下げられない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Evita que disminuya el Ataque.",
+            "oras": "Evita que disminuya el Ataque.",
+            "sm": "Evita que el rival le baje el Ataque.",
+            "usum": "Evita que el rival le baje el Ataque.",
+            "lgpe": "Evita que el rival le baje el Ataque.",
+            "swsh": "Evita que el rival le baje el Ataque."
+        },
+        "traditional-chinese": {
+            "sm": "因為擁有以力量為傲的鉗子， 不會被對手降低攻擊。",
+            "usum": "因為擁有以力量為傲的鉗子， 不會被對手降低攻擊。",
+            "lgpe": "因為擁有以力量為傲的鉗子， 不會被對手降低攻擊。",
+            "swsh": "因為擁有以力量為傲的鉗子， 不會被對手降低攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "因为拥有以力量自豪的钳子， 不会被对手降低攻击。",
+            "usum": "因为拥有以力量自豪的钳子， 不会被对手降低攻击。",
+            "lgpe": "因为拥有以力量自豪的钳子， 不会被对手降低攻击。",
+            "swsh": "因为拥有以力量自豪的钳子， 不会被对手降低攻击。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            98,
+            99,
+            127,
+            207,
+            303,
+            328,
+            341,
+            342,
+            472,
+            739,
+            740
+        ],
+        "hidden": []
+    }
 }

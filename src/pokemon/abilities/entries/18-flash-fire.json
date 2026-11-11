@@ -1,32 +1,169 @@
 {
-  "_id": 18,
-  "key": "flash-fire",
-  "name": {
-    "english": "Flash Fire"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Protects against fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
-    "full": "This Pokémon is immune to fire-type moves. Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle. This ability has no effect while the Pokémon is frozen. The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled. Fire moves will ignore this Pokémon's substitute. This ability takes effect even on non-damaging moves, i.e. will o wisp."
-  },
-  "description": {
-    "ruby-sapphire": "Powers up if hit by fire.",
-    "emerald": "Powers up if hit by fire.",
-    "firered-leafgreen": "Powers up if hit by fire.",
-    "diamond-pearl": "Powers up Fire-type moves if hit by a fire move.",
-    "platinum": "Powers up Fire-type moves if hit by a fire move.",
-    "heartgold-soulsilver": "It powers up Fire-type moves if it’s hit by one.",
-    "black-white": "It powers up Fire-type moves if it’s hit by one.",
-    "black-2-white-2": "It powers up Fire-type moves if it’s hit by one.",
-    "x-y": "Powers up the Pokémon’s Fire- type moves if it’s hit by one.",
-    "omega-ruby-alpha-sapphire": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
-    "sun-moon": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
-    "ultra-sun-ultra-moon": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
-    "lets-go-pikachu-lets-go-eevee": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
-    "sword-shield": "Powers up the Pokémon’s Fire-type moves if it’s hit by one."
-  },
-  "pokemonWithAbility": {
-    "normal": [37, 38, 58, 59, 77, 78, 136, 228, 229, 485, 607, 608, 609, 631, 850, 851, 935, 936, 937],
-    "hidden": [155, 156, 157, 837, 838, 839]
-  }
+    "_id": 18,
+    "key": "flash-fire",
+    "name": {
+        "japanese-kana": "もらいび",
+        "korean": "타오르는불꽃",
+        "traditional-chinese": "引火",
+        "french": "Torche",
+        "german": "Feuerfänger",
+        "spanish": "Absorbe Fuego",
+        "italian": "Fuocardore",
+        "english": "Flash Fire",
+        "japanese": "もらいび",
+        "simplified-chinese": "引火",
+        "latin-american-spanish": "Absorbefuego"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Protects against Fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+        "full": "This Pokémon is immune to Fire-type moves.  Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle. This ability has no effect while the Pokémon is frozen.  The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled.  Fire moves will ignore this Pokémon's Substitute.  This ability takes effect even on non-damaging moves, i.e. Will-O-Wisp."
+    },
+    "effectChanges": {
+        "french": {
+            "dp": "Feu Follet ne déclenche pas ce talent pour un Pokémon immunisé à la brûlure."
+        },
+        "german": {
+            "dp": "Irrlicht triggert die Fähigkeit nicht bei Pokémon die immun gegen Verbrennung sind."
+        },
+        "english": {
+            "dp": "This Pokemon is immune to Fire-type moves, as long as it is not frozen. The first time it is hit by a Fire-type move, damage from its Fire-type attacks will be multiplied by 1.5 as long as it remains active and has this Ability. If this Pokemon has a non-volatile status condition, is a Fire type, or has a substitute, Will-O-Wisp will not activate this Ability."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Puissance monte si brûlé.",
+            "em": "Puissance monte si brûlé.",
+            "frlg": "Puissance monte si brûlé.",
+            "dp": "Booste capacités Feu si touché par attaques Feu.",
+            "pt": "Booste capacités Feu si touché par attaques Feu.",
+            "hgss": "Booste capacités Feu si touché par attaques Feu.",
+            "bw": "Booste capacités Feu si touché par attaques Feu.",
+            "xd": "Booste capacités Feu si touché par attaques Feu.",
+            "b2w2": "Booste capacités Feu si touché par attaques Feu.",
+            "xy": "Booste les capacités Feu si touché par attaque Feu.",
+            "oras": "Booste capacités Feu si touché par attaques Feu.",
+            "sm": "Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu.",
+            "usum": "Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu.",
+            "lgpe": "Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu.",
+            "swsh": "Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu.",
+            "sv": "Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu."
+        },
+        "english": {
+            "rs": "Powers up if hit by fire.",
+            "em": "Powers up if hit by fire.",
+            "frlg": "Powers up if hit by fire.",
+            "dp": "Powers up Fire-type moves if hit by a fire move.",
+            "pt": "Powers up Fire-type moves if hit by a fire move.",
+            "hgss": "It powers up Fire-type moves if it’s hit by one.",
+            "bw": "It powers up Fire-type moves if it’s hit by one.",
+            "b2w2": "It powers up Fire-type moves if it’s hit by one.",
+            "xy": "Powers up the Pokémon’s Fire- type moves if it’s hit by one.",
+            "oras": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
+            "sm": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
+            "usum": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
+            "lgpe": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
+            "swsh": "Powers up the Pokémon’s Fire-type moves if it’s hit by one.",
+            "sv": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        },
+        "japanese-kana": {
+            "xy": "ほのおを　うけると ほのおわざが　つよくなる。",
+            "oras": "ほのおを　うけると ほのおわざが　つよくなる。",
+            "sm": "ほのおタイプの　わざを　うけると ほのおを　もらい　じぶんが　だす ほのおタイプの　わざが　つよくなる。",
+            "usum": "ほのおタイプの　わざを　うけると ほのおを　もらい　じぶんが　だす ほのおタイプの　わざが　つよくなる。",
+            "lgpe": "ほのおタイプの　わざを　うけると ほのおを　もらい　じぶんが　だす ほのおタイプの　わざが　つよくなる。",
+            "swsh": "ほのおタイプの　わざを　うけると ほのおを　もらい　じぶんが　だす ほのおタイプの　わざが　つよくなる。"
+        },
+        "korean": {
+            "xy": "불꽃을 받으면 불꽃 기술이 강해진다.",
+            "oras": "불꽃을 받으면 불꽃 기술이 강해진다.",
+            "sm": "불꽃타입의 기술을 받으면 불꽃을 받아서 자신이 사용하는 불꽃타입의 기술이 강해진다.",
+            "usum": "불꽃타입의 기술을 받으면 불꽃을 받아서 자신이 사용하는 불꽃타입의 기술이 강해진다.",
+            "lgpe": "불꽃타입의 기술을 받으면 불꽃을 받아서 자신이 사용하는 불꽃타입의 기술이 강해진다.",
+            "swsh": "불꽃타입의 기술을 받으면 불꽃을 받아서 자신이 사용하는 불꽃타입의 기술이 강해진다."
+        },
+        "german": {
+            "xy": "Verstärkt Feuer-Attacken, wenn von Feuer-Attacken getroffen.",
+            "oras": "Verstärkt Feuer-Attacken, wenn von Feuer-Attacken getroffen.",
+            "sm": "Verstärkt Feuer-Attacken, wenn es von Feuer-Attacken getroffen wird.",
+            "usum": "Verstärkt Feuer-Attacken, wenn es von Feuer-Attacken getroffen wird.",
+            "lgpe": "Verstärkt Feuer-Attacken, wenn es von Feuer-Attacken getroffen wird.",
+            "swsh": "Verstärkt Feuer-Attacken, wenn es von Feuer-Attacken getroffen wird."
+        },
+        "spanish": {
+            "xy": "Potencia movimientos de tipo Fuego si ha sufrido antes alguno.",
+            "oras": "Potencia movimientos de tipo Fuego si ha sufrido antes alguno.",
+            "sm": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
+            "usum": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
+            "lgpe": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
+            "swsh": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo."
+        },
+        "italian": {
+            "xy": "Potenzia le proprie mosse Fuoco se se ne subisce una.",
+            "oras": "Potenzia le proprie mosse Fuoco se se ne subisce una.",
+            "sm": "Se il Pokémon subisce una mossa di tipo Fuoco, ne sfrutta il calore per potenziare le proprie mosse dello stesso tipo.",
+            "usum": "Se il Pokémon subisce una mossa di tipo Fuoco, ne sfrutta il calore per potenziare le proprie mosse dello stesso tipo.",
+            "lgpe": "Se il Pokémon subisce una mossa di tipo Fuoco, ne sfrutta il calore per potenziare le proprie mosse dello stesso tipo.",
+            "swsh": "Se il Pokémon subisce una mossa di tipo Fuoco, ne sfrutta il calore per potenziare le proprie mosse dello stesso tipo."
+        },
+        "japanese": {
+            "xy": "ほのおを　受けると ほのお技が　強くなる。",
+            "oras": "ほのおを　受けると ほのお技が　強くなる。",
+            "sm": "ほのおタイプの　技を　受けると 炎を　もらい　自分が　出す ほのおタイプの　技が　強くなる。",
+            "usum": "ほのおタイプの　技を　受けると 炎を　もらい　自分が　出す ほのおタイプの　技が　強くなる。",
+            "lgpe": "ほのおタイプの　技を　受けると 炎を　もらい　自分が　出す ほのおタイプの　技が　強くなる。",
+            "swsh": "ほのおタイプの　技を　受けると 炎を　もらい　自分が　出す ほのおタイプの　技が　強くなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potencia movimientos de tipo Fuego si ha sufrido antes alguno.",
+            "oras": "Potencia movimientos de tipo Fuego si ha sufrido antes alguno.",
+            "sm": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
+            "usum": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
+            "lgpe": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo.",
+            "swsh": "Si le alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo."
+        },
+        "traditional-chinese": {
+            "sm": "受到火屬性的招式攻擊時， 吸收火焰，讓自己使出的 火屬性招式變強。",
+            "usum": "受到火屬性的招式攻擊時， 吸收火焰，讓自己使出的 火屬性招式變強。",
+            "lgpe": "受到火屬性的招式攻擊時， 吸收火焰，讓自己使出的 火屬性招式變強。",
+            "swsh": "受到火屬性的招式攻擊時， 吸收火焰，讓自己使出的 火屬性招式變強。"
+        },
+        "simplified-chinese": {
+            "sm": "受到火属性的招式攻击时， 吸收火焰，自己使出的 火属性招式会变强。",
+            "usum": "受到火属性的招式攻击时， 吸收火焰，自己使出的 火属性招式会变强。",
+            "lgpe": "受到火属性的招式攻击时， 吸收火焰，自己使出的 火属性招式会变强。",
+            "swsh": "受到火属性的招式攻击时， 吸收火焰，自己使出的 火属性招式会变强。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            37,
+            38,
+            58,
+            59,
+            77,
+            78,
+            136,
+            228,
+            229,
+            485,
+            607,
+            608,
+            609,
+            631,
+            850,
+            851,
+            935,
+            936,
+            937
+        ],
+        "hidden": [
+            155,
+            156,
+            157,
+            837,
+            838,
+            839
+        ]
+    }
 }

@@ -1,32 +1,165 @@
 {
-  "_id": 28,
-  "key": "synchronize",
-  "name": {
-    "english": "Synchronize"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them.",
-    "full": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment. This ability passes back bad poison when this Pokémon is badly poisoned. This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from toxic spikes or the burn from a flame orb. Overworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature. This does not work on Pokémon received outside of battle or roaming legendaries."
-  },
-  "description": {
-    "ruby-sapphire": "Passes on status problems.",
-    "emerald": "Passes on status problems.",
-    "firered-leafgreen": "Passes on status problems.",
-    "diamond-pearl": "Passes on a burn, poison, or paralysis to the foe.",
-    "platinum": "Passes on a burn, poison, or paralysis to the foe.",
-    "heartgold-soulsilver": "Passes a burn, poison, or paralysis to the foe.",
-    "black-white": "Passes a burn, poison, or paralysis to the foe.",
-    "black-2-white-2": "Passes a burn, poison, or paralysis to the foe.",
-    "x-y": "Passes poison, paralyze, or burn to the Pokémon that inflicted it.",
-    "omega-ruby-alpha-sapphire": "Passes poison, paralyze, or burn to the Pokémon that inflicted it.",
-    "sun-moon": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
-    "ultra-sun-ultra-moon": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
-    "sword-shield": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon."
-  },
-  "pokemonWithAbility": {
-    "normal": [63, 64, 65, 151, 177, 178, 196, 197, 280, 281, 282, 517, 518, 605, 606, 876, 954],
-    "hidden": []
-  }
+    "_id": 28,
+    "key": "synchronize",
+    "name": {
+        "japanese-kana": "シンクロ",
+        "korean": "싱크로",
+        "traditional-chinese": "同步",
+        "french": "Synchro",
+        "german": "Synchro",
+        "spanish": "Sincronía",
+        "italian": "Sincronismo",
+        "english": "Synchronize",
+        "japanese": "シンクロ",
+        "simplified-chinese": "同步",
+        "latin-american-spanish": "Sincronía"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them.",
+        "full": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment. This ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb. Overworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat.",
+            "dp": "Ne peut pas influencer les natures des Pokémon rencontrés en interagissant avec eux dans le monde extérieur.",
+            "bw": "Ne transmet pas le poison grave comme poison régulier."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt.",
+            "dp": "Kann das Wesen von Pokémon mit denen in der Spielwelt interagiert wird nicht verändern.",
+            "bw": "Gibt schwere Vergiftung als normale Vergiftung zurück."
+        },
+        "english": {
+            "em": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment.",
+            "dp": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment. This ability passes back bad poison when this Pokémon is badly poisoned. This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb. Overworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature. This does not work on Pokémon received outside of battle, static encounters, or roaming legendaries.",
+            "bw": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment. This ability passes back badly poisoned as regular poison. This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb. Overworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature. This does not work on Pokémon received outside of battle or roaming legendaries."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Transfère statuts.",
+            "em": "Transfère statuts.",
+            "frlg": "Transfère statuts.",
+            "dp": "Transmet brûlure, poison ou paralysie à l'ennemi.",
+            "pt": "Transmet brûlure, poison ou paralysie à l'ennemi.",
+            "hgss": "Transmet brûlure, poison ou paralysie à l'ennemi.",
+            "bw": "Transmet brûlure, poison ou paralysie à l'ennemi.",
+            "b2w2": "Transmet brûlure, poison ou paralysie à l'ennemi.",
+            "xy": "Transmet brûlure, paralysie ou poison au Pokémon qui l'a infligé.",
+            "oras": "Transmet brûlure, paralysie ou poison au Pokémon qui l'a infligé.",
+            "sm": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.",
+            "usum": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.",
+            "lgpe": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.",
+            "swsh": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.",
+            "sv": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci."
+        },
+        "english": {
+            "rs": "Passes on status problems.",
+            "em": "Passes on status problems.",
+            "frlg": "Passes on status problems.",
+            "dp": "Passes on a burn, poison, or paralysis to the foe.",
+            "pt": "Passes on a burn, poison, or paralysis to the foe.",
+            "hgss": "Passes a burn, poison, or paralysis to the foe.",
+            "bw": "Passes a burn, poison, or paralysis to the foe.",
+            "b2w2": "Passes a burn, poison, or paralysis to the foe.",
+            "xy": "Passes poison, paralyze, or burn to the Pokémon that inflicted it.",
+            "oras": "Passes poison, paralyze, or burn to the Pokémon that inflicted it.",
+            "sm": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
+            "usum": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
+            "lgpe": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
+            "swsh": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
+            "sv": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition."
+        },
+        "japanese-kana": {
+            "xy": "どく　まひ　やけどを あいてに　うつす。",
+            "oras": "どく　まひ　やけどを あいてに　うつす。",
+            "sm": "じぶんが　なってしまった どくや　まひや　やけどを あいてに　うつす。",
+            "usum": "じぶんが　なってしまった どくや　まひや　やけどを あいてに　うつす。",
+            "lgpe": "じぶんが　なってしまった どくや　まひや　やけどを あいてに　うつす。",
+            "swsh": "じぶんが　なってしまった どくや　まひや　やけどを あいてに　うつす。"
+        },
+        "korean": {
+            "xy": "독, 마비, 화상을 상대에게 옮긴다.",
+            "oras": "독, 마비, 화상을 상대에게 옮긴다.",
+            "sm": "자신이 걸린 독이나 마비, 화상을 상대에게 옮긴다.",
+            "usum": "자신이 걸린 독이나 마비, 화상을 상대에게 옮긴다.",
+            "lgpe": "자신이 걸린 독이나 마비, 화상을 상대에게 옮긴다.",
+            "swsh": "자신이 걸린 독이나 마비, 화상을 상대에게 옮긴다."
+        },
+        "german": {
+            "xy": "Brand, Gift oder Paralyse ereilen auch den Verursacher.",
+            "oras": "Brand, Gift oder Paralyse ereilen auch den Verursacher.",
+            "sm": "Erleidet das Pokémon Verbrennungen, Vergiftungen oder Paralyse, ereilt das jeweilige Statusproblem auch den Verursacher.",
+            "usum": "Erleidet das Pokémon Verbrennungen, Vergiftungen oder Paralyse, ereilt das jeweilige Statusproblem auch den Verursacher.",
+            "lgpe": "Erleidet das Pokémon Verbrennungen, Vergiftungen oder Paralyse, ereilt das jeweilige Statusproblem auch den Verursacher.",
+            "swsh": "Erleidet das Pokémon Verbrennungen, Vergiftungen oder Paralyse, ereilt das jeweilige Statusproblem auch den Verursacher."
+        },
+        "spanish": {
+            "xy": "Contagia envenenamiento, parálisis o quemaduras.",
+            "oras": "Contagia envenenamiento, parálisis o quemaduras.",
+            "sm": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "usum": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "lgpe": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "swsh": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado."
+        },
+        "italian": {
+            "xy": "Avvelena, paralizza o scotta il nemico che infligge lo stato.",
+            "oras": "Avvelena, paralizza o scotta il nemico che infligge lo stato.",
+            "sm": "Se un nemico avvelena, paralizza o scotta un Pokémon con questa abilità, viene affetto dallo stesso stato.",
+            "usum": "Se un nemico avvelena, paralizza o scotta un Pokémon con questa abilità, viene affetto dallo stesso stato.",
+            "lgpe": "Se un nemico avvelena, paralizza o scotta un Pokémon con questa abilità, viene affetto dallo stesso stato.",
+            "swsh": "Se un nemico avvelena, paralizza o scotta un Pokémon con questa abilità, viene colpito dallo stesso problema di stato."
+        },
+        "japanese": {
+            "xy": "どく　まひ　やけどを 相手に　うつす。",
+            "oras": "どく　まひ　やけどを 相手に　うつす。",
+            "sm": "自分が　なってしまった どくや　まひや　やけどを 相手に　うつす。",
+            "usum": "自分が　なってしまった どくや　まひや　やけどを 相手に　うつす。",
+            "lgpe": "自分が　なってしまった どくや　まひや　やけどを 相手に　うつす。",
+            "swsh": "自分が　なってしまった どくや　まひや　やけどを 相手に　うつす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Contagia envenenamiento, parálisis o quemaduras.",
+            "oras": "Contagia envenenamiento, parálisis o quemaduras.",
+            "sm": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "usum": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "lgpe": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "swsh": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado."
+        },
+        "traditional-chinese": {
+            "sm": "將自己的中毒、麻痺或 灼傷狀態傳染給對手。",
+            "usum": "將自己的中毒、麻痺或 灼傷狀態傳染給對手。",
+            "lgpe": "將自己的中毒、麻痺或 灼傷狀態傳染給對手。",
+            "swsh": "將自己的中毒、麻痺或 灼傷狀態傳染給對手。"
+        },
+        "simplified-chinese": {
+            "sm": "将自己的中毒、麻痹 或灼伤状态传染给对手。",
+            "usum": "将自己的中毒、麻痹 或灼伤状态传染给对手。",
+            "lgpe": "将自己的中毒、麻痹 或灼伤状态传染给对手。",
+            "swsh": "将自己的中毒、麻痹 或灼伤状态传染给对手。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            63,
+            64,
+            65,
+            151,
+            177,
+            178,
+            196,
+            197,
+            280,
+            281,
+            282,
+            517,
+            518,
+            605,
+            606,
+            876,
+            954
+        ],
+        "hidden": []
+    }
 }

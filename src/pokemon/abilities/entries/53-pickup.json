@@ -1,32 +1,159 @@
 {
-  "_id": 53,
-  "key": "pickup",
-  "name": {
-    "english": "Pickup"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",
-    "full": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one. After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The air balloon and eject button cannot be picked up. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
-  },
-  "description": {
-    "ruby-sapphire": "May pick up items.",
-    "emerald": "May pick up items.",
-    "firered-leafgreen": "May pick up items.",
-    "diamond-pearl": "The Pokémon may pick up items.",
-    "platinum": "The Pokémon may pick up items.",
-    "heartgold-soulsilver": "The Pokémon may pick up items.",
-    "black-white": "The Pokémon may pick up items.",
-    "black-2-white-2": "The Pokémon may pick up items.",
-    "x-y": "The Pokémon may pick up items.",
-    "omega-ruby-alpha-sapphire": "The Pokémon may pick up items.",
-    "sun-moon": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
-    "ultra-sun-ultra-moon": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
-    "sword-shield": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too."
-  },
-  "pokemonWithAbility": {
-    "normal": [52, 52.1, 52.2, 190, 216, 231, 263, 263.1, 264, 264.1, 417, 424, 446, 506, 659, 660, 702, 710, 711, 924, 971],
-    "hidden": [731, 732]
-  }
+    "_id": 53,
+    "key": "pickup",
+    "name": {
+        "japanese-kana": "ものひろい",
+        "korean": "픽업",
+        "traditional-chinese": "撿拾",
+        "french": "Ramassage",
+        "german": "Mitnahme",
+        "spanish": "Recogida",
+        "italian": "Raccolta",
+        "english": "Pickup",
+        "japanese": "ものひろい",
+        "simplified-chinese": "捡拾",
+        "latin-american-spanish": "Recolección"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle.",
+        "full": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The Air Balloon and Eject Button cannot be picked up. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "N'a aucun effet en combat."
+        },
+        "german": {
+            "bw": "Hat im Kampf keinen Effekt."
+        },
+        "english": {
+            "bw": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "May pick up items.",
+            "em": "May pick up items.",
+            "frlg": "May pick up items.",
+            "dp": "The Pokémon may pick up items.",
+            "pt": "The Pokémon may pick up items.",
+            "hgss": "The Pokémon may pick up items.",
+            "bw": "The Pokémon may pick up items.",
+            "b2w2": "The Pokémon may pick up items.",
+            "xy": "The Pokémon may pick up items.",
+            "oras": "The Pokémon may pick up items.",
+            "sm": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
+            "usum": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
+            "lgpe": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
+            "swsh": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
+            "sv": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too."
+        },
+        "french": {
+            "bw": "Permet parfois au Pokémon de ramasser des objets.",
+            "xy": "Permet parfois au Pokémon de ramasser des objets.",
+            "oras": "Permet parfois au Pokémon de ramasser des objets.",
+            "sm": "Permet parfois au Pokémon de ramasser les objets que ses ennemis ont utilisés. Il lui arrive aussi d’en trouver hors des combats.",
+            "usum": "Permet parfois au Pokémon de ramasser les objets que ses ennemis ont utilisés. Il lui arrive aussi d’en trouver hors des combats.",
+            "lgpe": "Permet parfois au Pokémon de ramasser les objets que ses ennemis ont utilisés. Il lui arrive aussi d’en trouver hors des combats.",
+            "swsh": "Permet parfois au Pokémon de ramasser les objets que ses ennemis ont utilisés. Il lui arrive aussi d’en trouver hors des combats.",
+            "sv": "Permet parfois au Pokémon de ramasser les objets\\nque d’autres Pokémon ont utilisés. Il lui arrive aussi\\nd’en trouver hors des combats."
+        },
+        "japanese-kana": {
+            "xy": "どうぐを　ひろってくる ことが　ある。",
+            "oras": "どうぐを　ひろってくる ことが　ある。",
+            "sm": "あいての　つかった　どうぐを ひろってくることが　ある。 ぼうけんちゅうも　ひろってくる。",
+            "usum": "あいての　つかった　どうぐを ひろってくることが　ある。 ぼうけんちゅうも　ひろってくる。",
+            "lgpe": "あいての　つかった　どうぐを ひろってくることが　ある。 ぼうけんちゅうも　ひろってくる。",
+            "swsh": "あいての　つかった　どうぐを ひろってくることが　ある。 ぼうけんちゅうも　ひろってくる。"
+        },
+        "korean": {
+            "xy": "도구를 주워올 때가 있다.",
+            "oras": "도구를 주워올 때가 있다.",
+            "sm": "상대가 사용한 도구를 주워올 때가 있다. 모험 중에도 주워온다.",
+            "usum": "상대가 사용한 도구를 주워올 때가 있다. 모험 중에도 주워온다.",
+            "lgpe": "상대가 사용한 도구를 주워올 때가 있다. 모험 중에도 주워온다.",
+            "swsh": "상대가 사용한 도구를 주워올 때가 있다. 모험 중에도 주워온다."
+        },
+        "german": {
+            "xy": "Hebt gelegentlich Items auf.",
+            "oras": "Hebt gelegentlich Items auf.",
+            "sm": "Hebt gelegentlich von Gegnern benutzte Items auf. Dies geschieht nicht nur während Kämpfen, sondern auch unterwegs.",
+            "usum": "Hebt gelegentlich von Gegnern benutzte Items auf. Dies geschieht nicht nur während Kämpfen, sondern auch unterwegs.",
+            "lgpe": "Hebt gelegentlich von Gegnern benutzte Items auf. Dies geschieht nicht nur während Kämpfen, sondern auch unterwegs.",
+            "swsh": "Hebt gelegentlich von Gegnern benutzte Items auf. Dies geschieht nicht nur während Kämpfen, sondern auch unterwegs."
+        },
+        "spanish": {
+            "xy": "El Pokémon puede encontrar objetos.",
+            "oras": "El Pokémon puede encontrar objetos.",
+            "sm": "El Pokémon puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+            "usum": "El Pokémon puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+            "lgpe": "El Pokémon puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+            "swsh": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura."
+        },
+        "italian": {
+            "xy": "Aumenta la probabilità di trovare strumenti.",
+            "oras": "Aumenta la probabilità di trovare strumenti.",
+            "sm": "Il Pokémon a volte trova lo strumento usato da un nemico durante la lotta. Permette di trovare degli strumenti anche durante l’avventura.",
+            "usum": "Il Pokémon a volte trova lo strumento usato da un nemico durante la lotta. Permette di trovare degli strumenti anche durante l’avventura.",
+            "lgpe": "Il Pokémon a volte trova lo strumento usato da un nemico durante la lotta. Permette di trovare degli strumenti anche durante l’avventura.",
+            "swsh": "Il Pokémon può raccogliere lo strumento usato da un nemico durante la lotta. A volte potrebbe raccogliere strumenti anche fuori dalla lotta."
+        },
+        "japanese": {
+            "xy": "道具を　拾ってくる ことが　ある。",
+            "oras": "道具を　拾ってくる ことが　ある。",
+            "sm": "相手の　使った　道具を 拾ってくることが　ある。 冒険中も　拾ってくる。",
+            "usum": "相手の　使った　道具を 拾ってくることが　ある。 冒険中も　拾ってくる。",
+            "lgpe": "相手の　使った　道具を 拾ってくることが　ある。 冒険中も　拾ってくる。",
+            "swsh": "相手の　使った　道具を 拾ってくることが　ある。 冒険中も　拾ってくる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon puede encontrar objetos.",
+            "oras": "El Pokémon puede encontrar objetos.",
+            "sm": "El Pokémon puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+            "usum": "El Pokémon puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+            "lgpe": "El Pokémon puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+            "swsh": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura."
+        },
+        "traditional-chinese": {
+            "sm": "有時會撿來對手用過的道具。 冒險過程中也會撿來。",
+            "usum": "有時會撿來對手用過的道具。 冒險過程中也會撿來。",
+            "lgpe": "有時會撿來對手用過的道具。 冒險過程中也會撿來。",
+            "swsh": "有時會撿來對手用過的道具。 冒險過程中也會撿來。"
+        },
+        "simplified-chinese": {
+            "sm": "有时会捡来对手用过的道具， 冒险过程中也会捡到。",
+            "usum": "有时会捡来对手用过的道具， 冒险过程中也会捡到。",
+            "lgpe": "有时会捡来对手用过的道具， 冒险过程中也会捡到。",
+            "swsh": "有时会捡来对手用过的道具， 冒险过程中也会捡到。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            52,
+            52.1,
+            52.2,
+            190,
+            216,
+            231,
+            263,
+            263.1,
+            264,
+            264.1,
+            417,
+            424,
+            446,
+            506,
+            659,
+            660,
+            702,
+            710,
+            711,
+            924,
+            971
+        ],
+        "hidden": [
+            731,
+            732
+        ]
+    }
 }

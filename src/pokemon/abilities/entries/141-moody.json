@@ -1,26 +1,127 @@
 {
-  "_id": 141,
-  "key": "moody",
-  "name": {
-    "english": "Moody"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Raises a random stat two stages and lowers another one stage after each turn.",
-    "full": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage. If a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
-  },
-  "description": {
-    "black-white": "Raises one stat and lowers another.",
-    "black-2-white-2": "Raises one stat and lowers another.",
-    "x-y": "Raises one stat and lowers another.",
-    "omega-ruby-alpha-sapphire": "Raises one stat and lowers another.",
-    "sun-moon": "Raises one stat sharply and lowers another every turn.",
-    "ultra-sun-ultra-moon": "Raises one stat sharply and lowers another every turn.",
-    "lets-go-pikachu-lets-go-eevee": "Raises one stat sharply and lowers another every turn.",
-    "sword-shield": "Raises one stat sharply and lowers another every turn."
-  },
-  "pokemonWithAbility": {
-    "normal": [],
-    "hidden": [223, 224, 235, 361, 362, 399, 400, 952]
-  }
+    "_id": 141,
+    "key": "moody",
+    "name": {
+        "japanese-kana": "ムラっけ",
+        "korean": "변덕쟁이",
+        "traditional-chinese": "心情不定",
+        "french": "Lunatique",
+        "german": "Gefühlswippe",
+        "spanish": "Veleta",
+        "italian": "Altalena",
+        "english": "Moody",
+        "japanese": "ムラっけ",
+        "simplified-chinese": "心情不定",
+        "latin-american-spanish": "Temperamental"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Raises a random stat two stages and lowers another one stage after each turn.",
+        "full": "After each turn, one of this Pokémon's stats at random rises two stages, and another falls one stage. If a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Monte une stat tout en en baissant une autre.",
+            "xy": "Monte une stat tout en en baissant une autre.",
+            "oras": "Monte une stat tout en en baissant une autre.",
+            "sm": "Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour.",
+            "usum": "Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour.",
+            "lgpe": "Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour.",
+            "swsh": "Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour.",
+            "sv": "Augmente beaucoup une stat du Pokémon\\net en baisse une autre au hasard à chaque tour."
+        },
+        "english": {
+            "bw": "Raises one stat and lowers another.",
+            "b2w2": "Raises one stat and lowers another.",
+            "xy": "Raises one stat and lowers another.",
+            "oras": "Raises one stat and lowers another.",
+            "sm": "Raises one stat sharply and lowers another every turn.",
+            "usum": "Raises one stat sharply and lowers another every turn.",
+            "lgpe": "Raises one stat sharply and lowers another every turn.",
+            "swsh": "Raises one stat sharply and lowers another every turn.",
+            "sv": "Every turn, one of the Pokémon's stats will be boosted sharply but another stat will be lowered."
+        },
+        "japanese-kana": {
+            "xy": "のうりょくが　あがったり さがったりする。",
+            "oras": "のうりょくが　あがったり さがったりする。",
+            "sm": "まいターン　のうりょくの　どれかが ぐーんと　あがって　どれかが　さがる。",
+            "usum": "まいターン　のうりょくの　どれかが ぐーんと　あがって　どれかが　さがる。",
+            "lgpe": "まいターン　のうりょくの　どれかが ぐーんと　あがって　どれかが　さがる。",
+            "swsh": "まいターン　のうりょくの　どれかが ぐーんと　あがって　どれかが　さがる。"
+        },
+        "korean": {
+            "xy": "능력이 오르락내리락한다.",
+            "oras": "능력이 오르락내리락한다.",
+            "sm": "매 턴 능력 중 하나가 크게 오르고 하나가 떨어진다.",
+            "usum": "매 턴 능력 중 하나가 크게 오르고 하나가 떨어진다.",
+            "lgpe": "매 턴 능력 중 하나가 크게 오르고 하나가 떨어진다.",
+            "swsh": "매 턴 능력 중 하나가 크게 오르고 하나가 떨어진다."
+        },
+        "german": {
+            "xy": "Erhöht einen Statuswert und senkt einen anderen.",
+            "oras": "Erhöht einen Statuswert und senkt einen anderen.",
+            "sm": "Erhöht in jeder Runde aufs Neue einen Statuswert stark und senkt einen anderen.",
+            "usum": "Erhöht in jeder Runde aufs Neue einen Statuswert stark und senkt einen anderen.",
+            "lgpe": "Erhöht in jeder Runde aufs Neue einen Statuswert stark und senkt einen anderen.",
+            "swsh": "Erhöht in jeder Runde aufs Neue einen Statuswert stark und senkt einen anderen."
+        },
+        "spanish": {
+            "xy": "Sube una característica mucho, pero baja otra.",
+            "oras": "Sube una característica mucho, pero baja otra.",
+            "sm": "Cada turno sube mucho una característica, pero baja otra.",
+            "usum": "Cada turno sube mucho una característica, pero baja otra.",
+            "lgpe": "Cada turno sube mucho una característica, pero baja otra.",
+            "swsh": "Una característica le sube mucho en cada turno, pero le baja otra."
+        },
+        "italian": {
+            "xy": "Aumenta una statistica e ne riduce un’altra.",
+            "oras": "Aumenta una statistica e ne riduce un’altra.",
+            "sm": "A ogni turno, aumenta di molto una statistica e ne riduce un’altra.",
+            "usum": "A ogni turno, aumenta di molto una statistica e ne riduce un’altra.",
+            "lgpe": "A ogni turno, aumenta di molto una statistica e ne riduce un’altra.",
+            "swsh": "A ogni turno, aumenta di molto una statistica e ne riduce un’altra."
+        },
+        "japanese": {
+            "xy": "能力が　あがったり さがったりする。",
+            "oras": "能力が　あがったり さがったりする。",
+            "sm": "毎ターン　能力の　どれかが ぐーんと　上がって　どれかが　下がる。",
+            "usum": "毎ターン　能力の　どれかが ぐーんと　上がって　どれかが　下がる。",
+            "lgpe": "毎ターン　能力の　どれかが ぐーんと　上がって　どれかが　下がる。",
+            "swsh": "毎ターン　能力の　どれかが ぐーんと　上がって　どれかが　下がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Sube una característica mucho, pero baja otra.",
+            "oras": "Sube una característica mucho, pero baja otra.",
+            "sm": "Cada turno sube mucho una característica, pero baja otra.",
+            "usum": "Cada turno sube mucho una característica, pero baja otra.",
+            "lgpe": "Cada turno sube mucho una característica, pero baja otra.",
+            "swsh": "Una característica le sube mucho en cada turno, pero le baja otra."
+        },
+        "traditional-chinese": {
+            "sm": "每一回合，能力中的某項 會大幅提高，相對地某項會降低。",
+            "usum": "每一回合，能力中的某項 會大幅提高，相對地某項會降低。",
+            "lgpe": "每一回合，能力中的某項 會大幅提高，相對地某項會降低。",
+            "swsh": "每一回合，能力中的某項 會大幅提高，相對地某項會降低。"
+        },
+        "simplified-chinese": {
+            "sm": "每一回合，能力中的某项 会大幅提高，而某项会降低。",
+            "usum": "每一回合，能力中的某项 会大幅提高，而某项会降低。",
+            "lgpe": "每一回合，能力中的某项 会大幅提高，而某项会降低。",
+            "swsh": "每一回合，能力中的某项 会大幅提高，而某项会降低。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [],
+        "hidden": [
+            223,
+            224,
+            235,
+            361,
+            362,
+            399,
+            400,
+            952
+        ]
+    }
 }

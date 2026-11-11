@@ -1,26 +1,122 @@
 {
-  "_id": 161,
-  "key": "zen-mode",
-  "name": {
-    "english": "Zen Mode"
-  },
-  "generation": 5,
-  "effect": {
-    "shortEffect": "Changes darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise.",
-    "full": "This Pokémon switches between Standard Mode and Zen Mode after each turn depending on its HP. Below 50% of its maximum HP, it switches to Zen Mode, and at 50% or above, it switches to Standard Mode. This Pokémon returns to Standard Mode upon leaving battle or losing this ability. This ability has no effect if this Pokémon is not a darmanitan."
-  },
-  "description": {
-    "black-white": "Changes the Pokémon’s shape when HP is halved.",
-    "black-2-white-2": "Changes the Pokémon’s shape when HP is halved.",
-    "x-y": "Changes the Pokémon’s shape when HP is half or less.",
-    "omega-ruby-alpha-sapphire": "Changes the Pokémon’s shape when HP is half or less.",
-    "sun-moon": "Changes the Pokémon’s shape when HP is half or less.",
-    "ultra-sun-ultra-moon": "Changes the Pokémon’s shape when HP is half or less.",
-    "lets-go-pikachu-lets-go-eevee": "Changes the Pokémon’s shape when HP is half or less.",
-    "sword-shield": "Changes the Pokémon’s shape when HP is half or less."
-  },
-  "pokemonWithAbility": {
-    "normal": [],
-    "hidden": [555, 555.1, 555.2, 555.3]
-  }
+    "_id": 161,
+    "key": "zen-mode",
+    "name": {
+        "japanese-kana": "ダルマモード",
+        "korean": "달마모드",
+        "traditional-chinese": "達摩模式",
+        "french": "Mode Transe",
+        "german": "Trance-Modus",
+        "spanish": "Modo Daruma",
+        "italian": "Stato Zen",
+        "english": "Zen Mode",
+        "japanese": "ダルマモード",
+        "simplified-chinese": "达摩模式",
+        "latin-american-spanish": "Modo Daruma"
+    },
+    "generation": 5,
+    "effect": {
+        "shortEffect": "Changes Darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise.",
+        "full": "This Pokémon switches between Standard Mode and Zen Mode after each turn depending on its HP.  Below 50% of its maximum HP, it switches to Zen Mode, and at 50% or above, it switches to Standard Mode. This Pokémon returns to Standard Mode upon leaving battle or losing this ability.  This ability has no effect if this Pokémon is not a Darmanitan."
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Transforme le Pokémon dans les moments délicats.",
+            "xy": "Transforme le Pokémon dans les moments délicats.",
+            "oras": "Transforme le Pokémon dans les moments délicats.",
+            "sm": "Quand le Pokémon perd la moitié de ses PV, il se transforme.",
+            "usum": "Quand le Pokémon perd la moitié de ses PV, il se transforme.",
+            "lgpe": "Quand le Pokémon perd la moitié de ses PV, il se transforme.",
+            "swsh": "Quand le Pokémon perd la moitié de ses PV, il se transforme.",
+            "sv": "Le Pokémon change de forme quand il lui reste moins\\nde la moitié de ses PV."
+        },
+        "english": {
+            "bw": "Changes the Pokémon’s shape when HP is halved.",
+            "b2w2": "Changes the Pokémon’s shape when HP is halved.",
+            "xy": "Changes the Pokémon’s shape when HP is half or less.",
+            "oras": "Changes the Pokémon’s shape when HP is half or less.",
+            "sm": "Changes the Pokémon’s shape when HP is half or less.",
+            "usum": "Changes the Pokémon’s shape when HP is half or less.",
+            "lgpe": "Changes the Pokémon’s shape when HP is half or less.",
+            "swsh": "Changes the Pokémon’s shape when HP is half or less."
+        },
+        "japanese-kana": {
+            "xy": "ピンチに　なると すがたが　へんかする。",
+            "oras": "ピンチに　なると すがたが　へんかする。",
+            "sm": "ＨＰが　はんぶん　いかに　なると すがたが　へんかする。",
+            "usum": "ＨＰが　はんぶん　いかに　なると すがたが　へんかする。",
+            "lgpe": "ＨＰが　はんぶん　いかに　なると すがたが　へんかする。",
+            "swsh": "ＨＰが　はんぶん　いかに　なると すがたが　へんかする。"
+        },
+        "korean": {
+            "xy": "위급할 때 모습이 변화한다.",
+            "oras": "위급할 때 모습이 변화한다.",
+            "sm": "HP가 절반 이하가 되면 모습이 변화한다.",
+            "usum": "HP가 절반 이하가 되면 모습이 변화한다.",
+            "lgpe": "HP가 절반 이하가 되면 모습이 변화한다.",
+            "swsh": "HP가 절반 이하가 되면 모습이 변화한다."
+        },
+        "german": {
+            "xy": "Wechselt seine Gestalt, wenn es eng wird.",
+            "oras": "Wechselt seine Gestalt, wenn es eng wird.",
+            "sm": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, wechselt es seine Gestalt.",
+            "usum": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, wechselt es seine Gestalt.",
+            "lgpe": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, wechselt es seine Gestalt.",
+            "swsh": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, wechselt es seine Gestalt."
+        },
+        "spanish": {
+            "xy": "Cambia de forma en un apuro.",
+            "oras": "Cambia de forma en un apuro.",
+            "sm": "Cambia de forma si sus PS se ven reducidos a la mitad.",
+            "usum": "Cambia de forma si sus PS se ven reducidos a la mitad.",
+            "lgpe": "Cambia de forma si sus PS se ven reducidos a la mitad.",
+            "swsh": "Cambia de forma si sus PS se ven reducidos a la mitad."
+        },
+        "italian": {
+            "xy": "Se il Pokémon è in difficoltà, ne cambia l’aspetto.",
+            "oras": "Se il Pokémon è in difficoltà, ne cambia l’aspetto.",
+            "sm": "Cambia la forma del Pokémon se i PS scendono a metà o meno.",
+            "usum": "Cambia la forma del Pokémon se i PS scendono a metà o meno.",
+            "lgpe": "Cambia la forma del Pokémon se i PS scendono a metà o meno.",
+            "swsh": "Cambia la forma del Pokémon se i PS scendono a metà o meno."
+        },
+        "japanese": {
+            "xy": "ピンチに　なると 姿が　変化する。",
+            "oras": "ピンチに　なると 姿が　変化する。",
+            "sm": "ＨＰが　半分　以下に　なると 姿が　変化する。",
+            "usum": "ＨＰが　半分　以下に　なると 姿が　変化する。",
+            "lgpe": "ＨＰが　半分　以下に　なると 姿が　変化する。",
+            "swsh": "ＨＰが　半分　以下に　なると 姿が　変化する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cambia de forma en un apuro.",
+            "oras": "Cambia de forma en un apuro.",
+            "sm": "Cambia de forma si sus PS se ven reducidos a la mitad.",
+            "usum": "Cambia de forma si sus PS se ven reducidos a la mitad.",
+            "lgpe": "Cambia de forma si sus PS se ven reducidos a la mitad.",
+            "swsh": "Cambia de forma si sus PS se ven reducidos a la mitad."
+        },
+        "traditional-chinese": {
+            "sm": "ＨＰ變為一半以下時， 樣子會改變。",
+            "usum": "ＨＰ變為一半以下時， 樣子會改變。",
+            "lgpe": "HP變為一半以下時， 樣子會改變。",
+            "swsh": "ＨＰ變為一半以下時， 樣子會改變。"
+        },
+        "simplified-chinese": {
+            "sm": "ＨＰ变为一半以下时， 样子会改变。",
+            "usum": "ＨＰ变为一半以下时， 样子会改变。",
+            "lgpe": "HP变为一半以下时， 样子会改变。",
+            "swsh": "ＨＰ变为一半以下时， 样子会改变。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [],
+        "hidden": [
+            555,
+            555.1,
+            555.2,
+            555.3
+        ]
+    }
 }

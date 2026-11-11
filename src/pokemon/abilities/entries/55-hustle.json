@@ -1,32 +1,170 @@
 {
-  "_id": 55,
-  "key": "hustle",
-  "name": {
-    "english": "Hustle"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
-    "full": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy. Special moves are unaffected. Moves that do set damage, such as seismic toss, have their accuracy affected, but not their damage. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
-  },
-  "description": {
-    "ruby-sapphire": "Trades accuracy for power.",
-    "emerald": "Trades accuracy for power.",
-    "firered-leafgreen": "Trades accuracy for power.",
-    "diamond-pearl": "Boosts the Attack stat, but lowers accuracy.",
-    "platinum": "Boosts the Attack stat, but lowers accuracy.",
-    "heartgold-soulsilver": "Boosts the Attack stat, but lowers accuracy.",
-    "black-white": "Boosts the Attack stat, but lowers accuracy.",
-    "black-2-white-2": "Boosts the Attack stat, but lowers accuracy.",
-    "x-y": "Boosts the Attack stat, but lowers accuracy.",
-    "omega-ruby-alpha-sapphire": "Boosts the Attack stat, but lowers accuracy.",
-    "sun-moon": "Boosts the Attack stat, but lowers accuracy.",
-    "ultra-sun-ultra-moon": "Boosts the Attack stat, but lowers accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "Boosts the Attack stat, but lowers accuracy.",
-    "sword-shield": "Boosts the Attack stat, but lowers accuracy."
-  },
-  "pokemonWithAbility": {
-    "normal": [19.1, 20.1, 175, 176, 222, 223, 225, 468, 554, 554.1, 632, 633, 634, 880, 931, 931.1, 931.2, 931.3],
-    "hidden": [19, 20, 29, 30, 32, 33, 415, 627, 841]
-  }
+    "_id": 55,
+    "key": "hustle",
+    "name": {
+        "japanese-kana": "はりきり",
+        "korean": "의욕",
+        "traditional-chinese": "活力",
+        "french": "Agitation",
+        "german": "Übereifer",
+        "spanish": "Entusiasmo",
+        "italian": "Tuttafretta",
+        "english": "Hustle",
+        "japanese": "はりきり",
+        "simplified-chinese": "活力",
+        "latin-american-spanish": "Entusiasmo"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+        "full": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy. Special moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage. Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt."
+        },
+        "english": {
+            "em": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy. Special moves are unaffected. Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Substitue préc. par puiss.",
+            "em": "Substitue préc. par puiss.",
+            "dp": "Améliore l'Attaque mais diminue la Précision.",
+            "pt": "Améliore l'Attaque mais diminue la Précision.",
+            "hgss": "Améliore l'Attaque mais diminue la Précision.",
+            "bw": "Améliore l'Attaque mais diminue la Précision.",
+            "xd": "Améliore l'Attaque mais diminue la Précision.",
+            "b2w2": "Améliore l'Attaque mais diminue la Précision.",
+            "xy": "Améliore l’Attaque mais diminue la Précision.",
+            "oras": "Améliore l'Attaque mais diminue la Précision.",
+            "sm": "Améliore l'Attaque du Pokémon mais diminue la Précision.",
+            "usum": "Améliore l'Attaque du Pokémon mais diminue la Précision.",
+            "lgpe": "Améliore l’Attaque du Pokémon mais diminue la Précision.",
+            "swsh": "Améliore l'Attaque du Pokémon, mais diminue la Précision.",
+            "sv": "Améliore l'Attaque du Pokémon, mais diminue la Précision."
+        },
+        "english": {
+            "rs": "Trades accuracy for power.",
+            "em": "Trades accuracy for power.",
+            "frlg": "Trades accuracy for power.",
+            "dp": "Boosts the Attack stat, but lowers accuracy.",
+            "pt": "Boosts the Attack stat, but lowers accuracy.",
+            "hgss": "Boosts the Attack stat, but lowers accuracy.",
+            "bw": "Boosts the Attack stat, but lowers accuracy.",
+            "b2w2": "Boosts the Attack stat, but lowers accuracy.",
+            "xy": "Boosts the Attack stat, but lowers accuracy.",
+            "oras": "Boosts the Attack stat, but lowers accuracy.",
+            "sm": "Boosts the Attack stat, but lowers accuracy.",
+            "usum": "Boosts the Attack stat, but lowers accuracy.",
+            "lgpe": "Boosts the Attack stat, but lowers accuracy.",
+            "swsh": "Boosts the Attack stat, but lowers accuracy.",
+            "sv": "Boosts the Pokémon's Attack stat but lowers its accuracy."
+        },
+        "japanese-kana": {
+            "xy": "こうげきは　たかいが はずれやすい。",
+            "oras": "こうげきは　たかいが はずれやすい。",
+            "sm": "じぶんの　こうげきが　たかくなるが めいちゅうりつが　さがる。",
+            "usum": "じぶんの　こうげきが　たかくなるが めいちゅうりつが　さがる。",
+            "lgpe": "じぶんの　こうげきが　たかくなるが めいちゅうりつが　さがる。",
+            "swsh": "じぶんの　こうげきが　たかくなるが めいちゅうりつが　さがる。"
+        },
+        "korean": {
+            "xy": "공격은 높지만 빗나가기 쉽다.",
+            "oras": "공격은 높지만 빗나가기 쉽다.",
+            "sm": "자신의 공격이 높아지지만 명중률이 떨어진다.",
+            "usum": "자신의 공격이 높아지지만 명중률이 떨어진다.",
+            "lgpe": "자신의 공격이 높아지지만 명중률이 떨어진다.",
+            "swsh": "자신의 공격이 높아지지만 명중률이 떨어진다."
+        },
+        "german": {
+            "xy": "Erhöht den Angriffs-Wert, aber senkt die Genauigkeit.",
+            "oras": "Erhöht den Angriffs-Wert, aber senkt die Genauigkeit.",
+            "sm": "Erhöht den Angriffs-Wert, aber senkt die Genauigkeit.",
+            "usum": "Erhöht den Angriffs-Wert, aber senkt die Genauigkeit.",
+            "lgpe": "Erhöht den Angriffs-Wert, aber senkt die Genauigkeit.",
+            "swsh": "Erhöht den Angriffs-Wert, aber senkt die Genauigkeit."
+        },
+        "spanish": {
+            "xy": "Aumenta el Ataque, pero reduce la Precisión.",
+            "oras": "Aumenta el Ataque, pero reduce la Precisión.",
+            "sm": "Aumenta el Ataque, pero reduce la Precisión.",
+            "usum": "Aumenta el Ataque, pero reduce la Precisión.",
+            "lgpe": "Aumenta el Ataque, pero reduce la Precisión.",
+            "swsh": "Aumenta su Ataque, pero reduce su Precisión."
+        },
+        "italian": {
+            "xy": "Aumenta l’Attacco, ma riduce la precisione.",
+            "oras": "Aumenta l’Attacco, ma riduce la precisione.",
+            "sm": "Aumenta l’Attacco, ma diminuisce la precisione.",
+            "usum": "Aumenta l’Attacco, ma diminuisce la precisione.",
+            "lgpe": "Aumenta l’Attacco, ma diminuisce la precisione.",
+            "swsh": "L’Attacco aumenta, ma la precisione diminuisce."
+        },
+        "japanese": {
+            "xy": "攻撃は　たかいが はずれやすい。",
+            "oras": "攻撃は　たかいが はずれやすい。",
+            "sm": "自分の　攻撃が　高くなるが 命中率が　下がる。",
+            "usum": "自分の　攻撃が　高くなるが 命中率が　下がる。",
+            "lgpe": "自分の　攻撃が　高くなるが 命中率が　下がる。",
+            "swsh": "自分の　攻撃が　高くなるが 命中率が　下がる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aumenta el Ataque, pero reduce la Precisión.",
+            "oras": "Aumenta el Ataque, pero reduce la Precisión.",
+            "sm": "Aumenta el Ataque, pero reduce la Precisión.",
+            "usum": "Aumenta el Ataque, pero reduce la Precisión.",
+            "lgpe": "Aumenta el Ataque, pero reduce la Precisión.",
+            "swsh": "Aumenta su Ataque, pero reduce su Precisión."
+        },
+        "traditional-chinese": {
+            "sm": "自己的攻擊雖會變高， 但命中率會降低。",
+            "usum": "自己的攻擊雖會變高， 但命中率會降低。",
+            "lgpe": "自己的攻擊雖會變高， 但命中率會降低。",
+            "swsh": "自己的攻擊雖會變高， 但命中率會降低。"
+        },
+        "simplified-chinese": {
+            "sm": "自己的攻击变高， 但命中率会降低。",
+            "usum": "自己的攻击变高， 但命中率会降低。",
+            "lgpe": "自己的攻击变高， 但命中率会降低。",
+            "swsh": "自己的攻击变高， 但命中率会降低。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            19.1,
+            20.1,
+            175,
+            176,
+            222,
+            223,
+            225,
+            468,
+            554,
+            554.1,
+            632,
+            633,
+            634,
+            880,
+            931,
+            931.1,
+            931.2,
+            931.3
+        ],
+        "hidden": [
+            19,
+            20,
+            29,
+            30,
+            32,
+            33,
+            415,
+            627,
+            841
+        ]
+    }
 }

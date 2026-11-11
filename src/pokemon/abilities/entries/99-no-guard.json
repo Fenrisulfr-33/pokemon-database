@@ -1,29 +1,146 @@
 {
-  "_id": 99,
-  "key": "no-guard",
-  "name": {
-    "english": "No Guard"
-  },
-  "generation": 4,
-  "effect": {
-    "shortEffect": "Ensures all moves used by and against the Pokémon hit.",
-    "full": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected. Moves affected by this ability can hit Pokémon during the preparation turn of moves like dig or fly. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
-  },
-  "description": {
-    "diamond-pearl": "Ensures the Pokémon and its foe’s attacks land.",
-    "platinum": "Ensures the Pokémon and its foe’s attacks land.",
-    "heartgold-soulsilver": "Ensures both Pokémon’s and foe’s attacks land.",
-    "black-white": "Ensures attacks by or against the Pokémon land.",
-    "black-2-white-2": "Ensures attacks by or against the Pokémon land.",
-    "x-y": "Ensures attacks by or against the Pokémon land.",
-    "omega-ruby-alpha-sapphire": "Ensures that attacks by or against the Pokémon will land.",
-    "sun-moon": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
-    "ultra-sun-ultra-moon": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
-    "sword-shield": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
-  },
-  "pokemonWithAbility": {
-    "normal": [18.1, 66, 67, 68, 679, 680],
-    "hidden": [588, 622, 623]
-  }
+    "_id": 99,
+    "key": "no-guard",
+    "name": {
+        "japanese-kana": "ノーガード",
+        "korean": "노가드",
+        "traditional-chinese": "無防守",
+        "french": "Annule Garde",
+        "german": "Schildlos",
+        "spanish": "Indefenso",
+        "italian": "Nullodifesa",
+        "english": "No Guard",
+        "japanese": "ノーガード",
+        "simplified-chinese": "无防守",
+        "latin-american-spanish": "Indefenso"
+    },
+    "generation": 4,
+    "effect": {
+        "shortEffect": "Ensures all moves used by and against the Pokémon hit.",
+        "full": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
+    },
+    "effectChanges": {
+        "french": {
+            "pt": "À cause d'un glitch, les capacités affectées par ce talent ont (100 - accuracy)% de chance de transpercer Détection ou Abri."
+        },
+        "german": {
+            "pt": "Wegen eines Glitches haben Attacken die von dieser Fähigkeit beeinflusst sind eine (100 - Genauigkeit)% Chance durch den Scanner oder Schutzschild zu treffen."
+        },
+        "english": {
+            "pt": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected. Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly. Due to a glitch, moves affected by this ability have a (100 - accuracy)% chance to hit through Detect or Protect. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "dp": "Attaques du Pokémon et de l'ennemi réussissent.",
+            "pt": "Attaques du Pokémon et de l'ennemi réussissent.",
+            "hgss": "Attaques du Pokémon et de l'ennemi réussissent.",
+            "bw": "Attaques du Pokémon et de l'ennemi réussissent.",
+            "b2w2": "Attaques du Pokémon et de l'ennemi réussissent.",
+            "xy": "Les capacités du Pokémon et de l'ennemi touchent à coup sûr.",
+            "oras": "Les capacités du Pokémon et de l'ennemi touchent à coup sûr.",
+            "sm": "Les capacités du Pokémon touchent l'ennemi à coup sûr, et vice-versa.",
+            "usum": "Les capacités du Pokémon touchent l'ennemi à coup sûr, et vice-versa.",
+            "lgpe": "Les capacités du Pokémon touchent l’ennemi à coup sûr, et vice-versa.",
+            "swsh": "Les capacités du Pokémon touchent l'ennemi à coup sûr, mais les capacités de l'ennemi le touchent aussi à coup sûr.",
+            "sv": "Les capacités du Pokémon touchent leur cible à coup sûr, mais les capacités de l'ennemi le touchent aussi à coup sûr."
+        },
+        "english": {
+            "dp": "Ensures the Pokémon and its foe’s attacks land.",
+            "pt": "Ensures the Pokémon and its foe’s attacks land.",
+            "hgss": "Ensures both Pokémon’s and foe’s attacks land.",
+            "bw": "Ensures attacks by or against the Pokémon land.",
+            "b2w2": "Ensures attacks by or against the Pokémon land.",
+            "xy": "Ensures attacks by or against the Pokémon land.",
+            "oras": "Ensures that attacks by or against the Pokémon will land.",
+            "sm": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+            "usum": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+            "lgpe": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+            "swsh": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+            "sv": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+        },
+        "japanese-kana": {
+            "xy": "おたがいの　わざが かならず　あたる。",
+            "oras": "おたがいの　わざが かならず　あたる。",
+            "sm": "ノーガード　せんぽうに　よって おたがいの　だす　わざが かならず　あたる　ようになる。",
+            "usum": "ノーガード　せんぽうに　よって おたがいの　だす　わざが かならず　あたる　ようになる。",
+            "lgpe": "ノーガード　せんぽうに　よって おたがいの　だす　わざが かならず　あたる　ようになる。",
+            "swsh": "ノーガード　せんぽうに　よって おたがいの　だす　わざが かならず　あたる　ようになる。"
+        },
+        "korean": {
+            "xy": "서로의 기술이 반드시 맞는다.",
+            "oras": "서로의 기술이 반드시 맞는다.",
+            "sm": "노가드전법에 따라 서로가 사용하는 기술이 반드시 맞게 된다.",
+            "usum": "노가드전법에 따라 서로가 사용하는 기술이 반드시 맞게 된다.",
+            "lgpe": "노가드전법에 따라 서로가 사용하는 기술이 반드시 맞게 된다.",
+            "swsh": "노가드전법에 따라 서로가 사용하는 기술이 반드시 맞게 된다."
+        },
+        "german": {
+            "xy": "Alle Attacken des oder auf das Pokémon gelingen.",
+            "oras": "Alle Attacken des oder auf das Pokémon gelingen.",
+            "sm": "Alle Attacken des oder auf das Pokémon gelingen aufgrund seiner deckungslosen Kampftaktik.",
+            "usum": "Alle Attacken des oder auf das Pokémon gelingen aufgrund seiner deckungslosen Kampftaktik.",
+            "lgpe": "Alle Attacken des oder auf das Pokémon gelingen aufgrund seiner deckungslosen Kampftaktik.",
+            "swsh": "Alle Attacken des oder auf das Pokémon gelingen aufgrund seiner deckungslosen Kampftaktik."
+        },
+        "spanish": {
+            "xy": "El movimiento del Pokémon y el del rival acertarán.",
+            "oras": "El movimiento del Pokémon y el del rival acertarán.",
+            "sm": "Al quedar ambos expuestos, tanto los movimientos del Pokémon como los del rival acertarán siempre.",
+            "usum": "Al quedar ambos expuestos, tanto los movimientos del Pokémon como los del rival acertarán siempre.",
+            "lgpe": "Al quedar ambos expuestos, tanto los movimientos del Pokémon como los del rival acertarán siempre.",
+            "swsh": "Al quedar ambos expuestos, tanto sus movimientos como los del rival acertarán siempre."
+        },
+        "italian": {
+            "xy": "Le mosse del Pokémon e del nemico vanno sempre a segno.",
+            "oras": "Le mosse del Pokémon e del nemico vanno sempre a segno.",
+            "sm": "Il Pokémon e chiunque lo attacchi abbassano la guardia e le loro mosse vanno sempre a segno.",
+            "usum": "Il Pokémon e chiunque lo attacchi abbassano la guardia e le loro mosse vanno sempre a segno.",
+            "lgpe": "Il Pokémon e chiunque lo attacchi abbassano la guardia e le loro mosse vanno sempre a segno.",
+            "swsh": "Il Pokémon e chiunque lo attacchi abbassano la guardia e le loro mosse vanno sempre a segno."
+        },
+        "japanese": {
+            "xy": "お互いの　技が 必ず　当たる。",
+            "oras": "お互いの　技が 必ず　当たる。",
+            "sm": "ノーガード戦法に　よって お互いの　出す　技が かならず　当たる　ようになる。",
+            "usum": "ノーガード戦法に　よって お互いの　出す　技が かならず　当たる　ようになる。",
+            "lgpe": "ノーガード戦法に　よって お互いの　出す　技が かならず　当たる　ようになる。",
+            "swsh": "ノーガード戦法に　よって お互いの　出す　技が かならず　当たる　ようになる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El movimiento del Pokémon y el del rival acertarán.",
+            "oras": "El movimiento del Pokémon y el del rival acertarán.",
+            "sm": "Al quedar ambos expuestos, tanto los movimientos del Pokémon como los del rival acertarán siempre.",
+            "usum": "Al quedar ambos expuestos, tanto los movimientos del Pokémon como los del rival acertarán siempre.",
+            "lgpe": "Al quedar ambos expuestos, tanto los movimientos del Pokémon como los del rival acertarán siempre.",
+            "swsh": "Al quedar ambos expuestos, tanto sus movimientos como los del rival acertarán siempre."
+        },
+        "traditional-chinese": {
+            "sm": "由於無防守戰術， 雙方使出的招式都必定會擊中。",
+            "usum": "由於無防守戰術， 雙方使出的招式都必定會擊中。",
+            "lgpe": "由於無防守戰術， 雙方使出的招式都必定會擊中。",
+            "swsh": "由於無防守戰術， 雙方使出的招式都必定會擊中。"
+        },
+        "simplified-chinese": {
+            "sm": "由于无防守战术， 双方使出的招式都必定会击中。",
+            "usum": "由于无防守战术， 双方使出的招式都必定会击中。",
+            "lgpe": "由于无防守战术， 双方使出的招式都必定会击中。",
+            "swsh": "由于无防守战术， 双方使出的招式都必定会击中。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            18.1,
+            66,
+            67,
+            68,
+            679,
+            680
+        ],
+        "hidden": [
+            588,
+            622,
+            623
+        ]
+    }
 }

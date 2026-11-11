@@ -1,32 +1,152 @@
 {
-  "_id": 42,
-  "key": "magnet-pull",
-  "name": {
-    "english": "Magnet Pull"
-  },
-  "generation": 3,
-  "effect": {
-    "shortEffect": "Prevents steel opponents from fleeing or switching out.",
-    "full": "While this Pokémon is in battle, opposing steel-type Pokémon cannot flee or switch out. Pokémon with run away can still flee. Pokémon can still switch out with the use of a move or item. Overworld: If the lead Pokémon has this ability, Steel-type Pokémon have a higher encounter rate."
-  },
-  "description": {
-    "ruby-sapphire": "Traps STEEL-type POKéMON.",
-    "emerald": "Traps STEEL-type POKéMON.",
-    "firered-leafgreen": "Traps STEEL-type POKéMON.",
-    "diamond-pearl": "Prevents Steel-type Pokémon from escaping.",
-    "platinum": "Prevents Steel-type Pokémon from escaping.",
-    "heartgold-soulsilver": "Prevents Steel-type Pokémon from escaping.",
-    "black-white": "Prevents Steel-type Pokémon from escaping.",
-    "black-2-white-2": "Prevents Steel-type Pokémon from escaping.",
-    "x-y": "Prevents Steel-type Pokémon from escaping.",
-    "omega-ruby-alpha-sapphire": "Prevents Steel-type Pokémon from escaping.",
-    "sun-moon": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
-    "ultra-sun-ultra-moon": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
-    "lets-go-pikachu-lets-go-eevee": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
-    "sword-shield": "Prevents Steel-type Pokémon from escaping using its magnetic force."
-  },
-  "pokemonWithAbility": {
-    "normal": [74.1, 75.1, 76.1, 81, 82, 299, 462, 476, 808],
-    "hidden": []
-  }
+    "_id": 42,
+    "key": "magnet-pull",
+    "name": {
+        "japanese-kana": "じりょく",
+        "korean": "자력",
+        "traditional-chinese": "磁力",
+        "french": "Magnépiège",
+        "german": "Magnetfalle",
+        "spanish": "Imán",
+        "italian": "Magnetismo",
+        "english": "Magnet Pull",
+        "japanese": "じりょく",
+        "simplified-chinese": "磁力",
+        "latin-american-spanish": "Imán"
+    },
+    "generation": 3,
+    "effect": {
+        "shortEffect": "Prevents Steel opponents from fleeing or switching out.",
+        "full": "While this Pokémon is in battle, opposing Steel-type Pokémon cannot flee or switch out. Pokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item. Overworld: If the lead Pokémon has this ability, Steel-type Pokémon have a higher encounter rate."
+    },
+    "effectChanges": {
+        "french": {
+            "em": "N'a pas d'effet en dehors du combat."
+        },
+        "german": {
+            "em": "Hat außerhalb vom Kampf keinen Effekt."
+        },
+        "english": {
+            "em": "While this Pokémon is in battle, opposing Steel-type Pokémon cannot flee or switch out. Pokémon with Run Away can still flee. Pokémon can still switch out with the use of a move or item."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "rs": "Piège les POKéMON ACIER.",
+            "em": "Piège les POKéMON ACIER.",
+            "frlg": "Piège les POKéMON ACIER.",
+            "dp": "Empêche les Pokémon Acier de fuir.",
+            "pt": "Empêche les Pokémon Acier de fuir.",
+            "hgss": "Empêche les Pokémon Acier de fuir.",
+            "bw": "Empêche les Pokémon Acier de fuir.",
+            "xd": "Empêche les Pokémon Acier de fuir.",
+            "b2w2": "Empêche les Pokémon Acier de fuir.",
+            "xy": "Empêche les Pokémon Acier de fuir.",
+            "oras": "Empêche les Pokémon Acier de fuir.",
+            "sm": "Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de fuir.",
+            "usum": "Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de fuir.",
+            "lgpe": "Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de fuir.",
+            "swsh": "Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de fuir.",
+            "sv": "Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de quitter le terrain."
+        },
+        "english": {
+            "rs": "Traps STEEL-type POKéMON.",
+            "em": "Traps STEEL-type POKéMON.",
+            "frlg": "Traps STEEL-type POKéMON.",
+            "dp": "Prevents Steel-type Pokémon from escaping.",
+            "pt": "Prevents Steel-type Pokémon from escaping.",
+            "hgss": "Prevents Steel-type Pokémon from escaping.",
+            "bw": "Prevents Steel-type Pokémon from escaping.",
+            "b2w2": "Prevents Steel-type Pokémon from escaping.",
+            "xy": "Prevents Steel-type Pokémon from escaping.",
+            "oras": "Prevents Steel-type Pokémon from escaping.",
+            "sm": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
+            "usum": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
+            "lgpe": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
+            "swsh": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
+            "sv": "Prevents Steel-type Pokémon from fleeing by pulling them in with magnetism."
+        },
+        "japanese-kana": {
+            "xy": "はがねの　ポケモンを にげられなくする。",
+            "oras": "はがねの　ポケモンを にげられなくする。",
+            "sm": "はがねタイプの　ポケモンを じりょくで　ひきつけて にげられなくする。",
+            "usum": "はがねタイプの　ポケモンを じりょくで　ひきつけて にげられなくする。",
+            "lgpe": "はがねタイプの　ポケモンを じりょくで　ひきつけて にげられなくする。",
+            "swsh": "はがねタイプの　ポケモンを じりょくで　ひきつけて にげられなくする。"
+        },
+        "korean": {
+            "xy": "강철의 포켓몬을 도망칠 수 없게 한다.",
+            "oras": "강철의 포켓몬을 도망칠 수 없게 한다.",
+            "sm": "강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다.",
+            "usum": "강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다.",
+            "lgpe": "강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다.",
+            "swsh": "강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다."
+        },
+        "german": {
+            "xy": "Hindert Stahl-Pokémon an der Flucht.",
+            "oras": "Hindert Stahl-Pokémon an der Flucht.",
+            "sm": "Hindert Stahl-Pokémon durch Magnetismus an der Flucht.",
+            "usum": "Hindert Stahl-Pokémon durch Magnetismus an der Flucht.",
+            "lgpe": "Hindert Stahl-Pokémon durch Magnetismus an der Flucht.",
+            "swsh": "Hindert Stahl-Pokémon durch Magnetismus an der Flucht."
+        },
+        "spanish": {
+            "xy": "Impide huir a los Pokémon de tipo Acero.",
+            "oras": "Impide huir a los Pokémon de tipo Acero.",
+            "sm": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+            "usum": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+            "lgpe": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+            "swsh": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir."
+        },
+        "italian": {
+            "xy": "Impedisce la fuga ai Pokémon di tipo Acciaio.",
+            "oras": "Impedisce la fuga ai Pokémon di tipo Acciaio.",
+            "sm": "La carica magnetica attrae i Pokémon di tipo Acciaio impedendone la fuga o la sostituzione.",
+            "usum": "La carica magnetica attrae i Pokémon di tipo Acciaio impedendone la fuga o la sostituzione.",
+            "lgpe": "La carica magnetica attrae i Pokémon di tipo Acciaio impedendone la fuga o la sostituzione.",
+            "swsh": "La carica magnetica attrae i Pokémon di tipo Acciaio impedendogli la fuga o la sostituzione."
+        },
+        "japanese": {
+            "xy": "はがねの　ポケモンを 逃げられなくする。",
+            "oras": "はがねの　ポケモンを 逃げられなくする。",
+            "sm": "はがねタイプの　ポケモンを 磁力で　引きつけて 逃げられなくする。",
+            "usum": "はがねタイプの　ポケモンを 磁力で　引きつけて 逃げられなくする。",
+            "lgpe": "はがねタイプの　ポケモンを 磁力で　引きつけて 逃げられなくする。",
+            "swsh": "はがねタイプの　ポケモンを 磁力で　引きつけて 逃げられなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Impide huir a los Pokémon de tipo Acero.",
+            "oras": "Impide huir a los Pokémon de tipo Acero.",
+            "sm": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+            "usum": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+            "lgpe": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+            "swsh": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir."
+        },
+        "traditional-chinese": {
+            "sm": "用磁力吸住鋼屬性的寶可夢， 使其無法逃走。",
+            "usum": "用磁力吸住鋼屬性的寶可夢， 使其無法逃走。",
+            "lgpe": "用磁力吸住鋼屬性的寶可夢， 使其無法逃走。",
+            "swsh": "用磁力吸住鋼屬性的寶可夢， 使其無法逃走。"
+        },
+        "simplified-chinese": {
+            "sm": "用磁力吸住钢属性的宝可梦， 使其无法逃走。",
+            "usum": "用磁力吸住钢属性的宝可梦， 使其无法逃走。",
+            "lgpe": "用磁力吸住钢属性的宝可梦， 使其无法逃走。",
+            "swsh": "用磁力吸住钢属性的宝可梦， 使其无法逃走。"
+        }
+    },
+    "pokemonWithAbility": {
+        "normal": [
+            74.1,
+            75.1,
+            76.1,
+            81,
+            82,
+            299,
+            462,
+            476,
+            808
+        ],
+        "hidden": []
+    }
 }
