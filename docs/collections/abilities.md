@@ -8,11 +8,13 @@ Schema: `src/pokemon/abilities/schema.json`. `_id` is the PokeAPI id.
 
 | Field                                   | Points to          |
 | --------------------------------------- | ------------------ |
-| `pokemonWithAbility.{normal,hidden}[].id` | `national-dex._id` |
+| `pokemonWithAbility.{normal,hidden}[]`    | `national-dex._id` |
 
-The reverse link is `national-dex.abilities.{normal[],hidden}`. Both
-sides are stored, so adding an ability to a pokemon means editing both
-files. `pokemonWithAbility` lists base pokemon only, never forms.
+The reverse link is `national-dex.abilities.{normal[],hidden}`.
+`pokemonWithAbility` is built from it, so after changing a pokemon's
+abilities run `node src/pokemon/abilities/updatePokemonWithAbility.js`
+instead of editing ability files by hand. Lists include forms (decimal
+ids) and are sorted by id.
 
 ## Fields
 
@@ -24,7 +26,7 @@ files. `pokemonWithAbility` lists base pokemon only, never forms.
 | `generation`         | number | generation introduced                   |
 | `effect`             | object | `shortEffect`, `full` (missing on 34)   |
 | `description`        | object | `{versionGroup: flavor text}`           |
-| `pokemonWithAbility` | object | `normal`, `hidden`: `[{name, id}]`      |
+| `pokemonWithAbility` | object | `normal`, `hidden`: pokedex ids         |
 
 ## Example
 
@@ -40,8 +42,8 @@ files. `pokemonWithAbility` lists base pokemon only, never forms.
     },
     "description": { "ruby-sapphire": "Helps repel wild POKéMON." },
     "pokemonWithAbility": {
-        "normal": [{ "name": "Grimer", "id": 88 }],
-        "hidden": [{ "name": "Gloom", "id": 44 }]
+        "normal": [88, 89, 434, 435, 568, 569],
+        "hidden": [44, 109, 110]
     }
 }
 ```

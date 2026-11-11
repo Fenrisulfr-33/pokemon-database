@@ -46,30 +46,28 @@
         },
         "pokemonWithAbility": {
             "type": "object",
+            "description": "Pokedex ids (forms included), built from pokedex/entries by updatePokemonWithAbility.js",
+            "required": ["normal", "hidden"],
+            "additionalProperties": false,
             "properties": {
                 "normal": {
                     "type": "array",
-                    "items": {
-                        "type": "object",
-                        "required": ["name", "id"],
-                        "properties": {
-                            "name": { "type": "string" },
-                            "id": { "type": "integer", "minimum": 1 }
-                        }
-                    }
+                    "uniqueItems": true,
+                    "items": { "$ref": "#/definitions/pokemonId" }
                 },
                 "hidden": {
                     "type": "array",
-                    "items": {
-                        "type": "object",
-                        "required": ["name", "id"],
-                        "properties": {
-                            "name": { "type": "string" },
-                            "id": { "type": "integer", "minimum": 1 }
-                        }
-                    }
+                    "uniqueItems": true,
+                    "items": { "$ref": "#/definitions/pokemonId" }
                 }
             }
+        }
+    },
+    "definitions": {
+        "pokemonId": {
+            "type": "number",
+            "minimum": 1,
+            "description": "national-dex _id; forms use a decimal suffix"
         }
     },
     "additionalProperties": false

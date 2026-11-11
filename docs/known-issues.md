@@ -8,7 +8,7 @@ Results of checking every reference between the `entries/` folders
 | Reference                                    | Checked | Broken |
 | -------------------------------------------- | ------: | -----: |
 | `national-dex.abilities` ids → `abilities`   | 2,596   | 0      |
-| `abilities.pokemonWithAbility.*.id` → `national-dex` | 2,284 | 0 |
+| `abilities.pokemonWithAbility` ids → `national-dex` | 2,284 | 0 |
 | `learnsets` moveId → `moves`                 | 649,566 | 0      |
 | `learnsets._id` → `national-dex`             | 1,075   | 0      |
 
@@ -63,3 +63,22 @@ an error.
   entries instead of 232, and isn't in `dexNo` order.
 - `pokedex/dexes/dexes.test.js`: `ULTRA_SUN_ULTRA_MOON_MELEMELE` has
   149 entries instead of 150.
+
+## `abilities` entries fail their schema
+
+41 of 307 ability files fail `abilities/schema.json`, so
+`npm run upsert:abilities` refuses to upload:
+
+- 33 are missing `effect.shortEffect`.
+- 7 have an empty `effect.full` or `effect.shortEffect`.
+- `263-dragon’s-maw.json` has `key` `dragon’s-maw`; the curly
+  apostrophe doesn't match the key pattern.
+
+There's no `abilities:validate` script to catch this earlier.
+
+## Abilities with no pokemon
+
+Battle Bond, Power Construct, Neuroforce and both As One entries have
+empty `pokemonWithAbility` lists. The forms that have them
+(Ash-Greninja, Zygarde, Ultra Necrozma, the Calyrex riders) are in
+`forms/` but not in `pokedex/entries`.

@@ -45,7 +45,7 @@ erDiagram
     ABILITIES {
         number _id PK
         string key
-        object pokemonWithAbility "normal/hidden: [{name, id}]"
+        object pokemonWithAbility "normal/hidden: [pokemon id]"
     }
     MOVES {
         number _id PK
@@ -83,7 +83,7 @@ any of them. Look-ups happen on the website server.
 | From                                   | To                  | Notes                                    |
 | -------------------------------------- | ------------------- | ---------------------------------------- |
 | `national-dex.abilities.{normal[],hidden}` | `abilities._id` | ids only; names come from `abilities` |
-| `abilities.pokemonWithAbility.{normal,hidden}[].id` | `national-dex._id` | reverse of the line above; base pokemon only |
+| `abilities.pokemonWithAbility.{normal,hidden}[]` | `national-dex._id` | reverse of the line above, built by `abilities/updatePokemonWithAbility.js`; includes forms |
 | `learnsets._id`                        | `national-dex._id`  | one learnset per pokemon, 1:1            |
 | `learnsets.{game}.{method}[][last]`    | `moves._id`         | `moveId` is always the last tuple value  |
 | `national-dex.evolution`               | `evolutions._id`    | chain the pokemon belongs to (see [known issues](known-issues.md)) |
