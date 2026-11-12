@@ -92,10 +92,10 @@
             "properties": {
                 "normal": {
                     "type": "array",
-                    "minItems": 1,
+                    "minItems": 0,
                     "maxItems": 2,
                     "uniqueItems": true,
-                    "description": "Normal ability ids in slot order",
+                    "description": "Normal ability ids in slot order; empty only for forms PokeAPI has no abilities for yet",
                     "items": { "$ref": "#/definitions/abilityId" }
                 },
                 "hidden": {
@@ -127,7 +127,7 @@
             "additionalProperties": false,
             "properties": {
                 "height": { "type": "integer", "minimum": 1, "description": "Decimeters, from PokeAPI" },
-                "weight": { "type": "integer", "minimum": 1, "description": "Hectograms, from PokeAPI" }
+                "weight": { "type": "integer", "minimum": 0, "description": "Hectograms, from PokeAPI; 0 when the games show no weight (Eternamax)" }
             }
         },
         "gender": {

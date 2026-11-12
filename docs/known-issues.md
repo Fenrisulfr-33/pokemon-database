@@ -221,3 +221,28 @@ Blank gender values became `null`. These 16 aren't genderless, so the
 
 `128.3-tauros.json` (Aqua Breed) has its `pokedexEntries` under
 "Blaze Breed".
+
+## Form files (`src/pokemon/forms`)
+
+Rebuilt from PokeAPI on 2026-11-12. Problems found:
+
+- **No abilities** (`normal: []`, `hidden: null`): Mega Heatran (485.01),
+  Mega Darkrai (491.01), Mega Zygarde (718.05), Mega Magearna (801.02,
+  801.03), Mega Zeraora (807.01), Mega Tatsugiri (978.03–978.05).
+  PokeAPI has no abilities for them yet.
+- **Eternamax Eternatus** (890.01) has `weight: 0`; the games show none.
+- **English names made up**: PokeAPI has none for the Koraidon builds
+  (1007.01–1007.04) or Miraidon modes (1008.01–1008.04), so they're
+  "Limited Build Koraidon", "Drive Mode Miraidon", etc.
+- **No `baseExp`**: Mega Scovillain, Mega Glimmora, the 3 Tatsugiri Megas
+  and Mega Baxcalibur.
+- **Empty `pokedexEntries`**: 134 forms (64 Megas, 10 Totems, 2
+  Gigantamax and 58 others such as the Deoxys, Rotom, Minior and Ogerpon
+  forms). PokeAPI has no form-specific entries.
+- **Female forms** (Meowstic, Indeedee, Oinkologne, Female Mega
+  Meowstic) are `0` / `100`; Female Basculegion is `null` / `null`
+  because base 902 has no gender data.
+- **Male Meowstic is female-only**: base Meowstic (`678-meowstic.json`,
+  the male form) and Male Mega Meowstic (678.02) are `0` / `100`.
+- **Base pokemon gaps that forms copied**: Ogerpon (1017) has
+  `eggGroups: []`.
