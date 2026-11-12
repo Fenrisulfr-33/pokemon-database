@@ -21,12 +21,12 @@ forms with a decimal `_id`). Schema: `src/pokemon/pokedex/schema.json`.
 | `_id`            | number            | national dex number; decimal for forms   |
 | `key`            | string            | slug, e.g. `charizard`, `alolan-marowak` |
 | `name`           | object            | `english` plus 7 other languages         |
-| `type`           | object            | `one`, optional `two`                    |
+| `type`           | array             | 1-2 lowercase types, e.g. `["fire"]`     |
 | `abilities`      | object            | `normal`: 1-2 ids in slot order; `hidden`: id or `null` |
 | `baseStats`      | object            | `hp atk def spatk spdef spd total`       |
-| `info`           | object            | `height`, `weight` display strings       |
-| `gender`         | object            | `male`, `female` (percent strings), `genderless` |
-| `evolution`      | number \| null    | evolution chain id                       |
+| `info`           | object            | `height` (dm), `weight` (hg) from PokeAPI |
+| `gender`         | object            | `male`, `female` (number or `null`), `genderless` |
+| `evolution`      | number \| null    | chain id; forms use the base chain      |
 | `generation`     | number            |                                          |
 | `evs`            | object            | only stats that give EVs, e.g. `{spatk: 3}` |
 | `eggGroups`      | array             | strings                                  |
@@ -40,6 +40,9 @@ forms with a decimal `_id`). Schema: `src/pokemon/pokedex/schema.json`.
 | `pokedexEntries` | object            | `{formName: [{game, desc}]}`             |
 | `pokedexNumber`  | object            | **added on upload**, `{game: dexNo}`     |
 
+`info.height` and `info.weight` are PokeAPI units. Display formulas are
+in `src/pokemon/pokedex/README.md`.
+
 `pokedexNumber` is not stored in the files. `pokedex/upsert.js` runs
 `AssignPokedexNumbers.js`, which looks the pokemon up by `pokemonId` in
 each regional dex in `pokedex/dexes/dexes_objects/` and records its
@@ -52,7 +55,7 @@ each regional dex in `pokedex/dexes/dexes_objects/` and records its
     "_id": 6,
     "key": "charizard",
     "name": { "english": "Charizard", "japanese": "リザードン" },
-    "type": { "one": "Fire", "two": "Flying" },
+    "type": ["fire", "flying"],
     "abilities": { "normal": [66], "hidden": 94 },
     "baseStats": {
         "hp": 78, "atk": 84, "def": 78,

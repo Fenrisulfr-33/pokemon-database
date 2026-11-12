@@ -28,7 +28,14 @@
     "definitions": {
         "type": {
             "type": "string",
-            "enum": ["Normal", "Fire", "Water", "Electric", "Grass", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy"]
+            "enum": ["normal", "fire", "water", "electric", "grass", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel", "fairy"]
+        },
+        "genderPercent": {
+            "description": "Percent chance, e.g. 87.5; null when unknown or genderless",
+            "oneOf": [
+                { "type": "number", "minimum": 0, "maximum": 100 },
+                { "type": "null" }
+            ]
         },
         "abilityId": {
             "type": "integer",
@@ -71,13 +78,12 @@
             }
         },
         "type": {
-            "type": "object",
-            "required": ["one"],
-            "additionalProperties": false,
-            "properties": {
-                "one": { "$ref": "#/definitions/type" },
-                "two": { "$ref": "#/definitions/type" }
-            }
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "uniqueItems": true,
+            "description": "Lowercase types in slot order",
+            "items": { "$ref": "#/definitions/type" }
         },
         "abilities": {
             "type": "object",
@@ -120,8 +126,8 @@
             "required": ["height", "weight"],
             "additionalProperties": false,
             "properties": {
-                "height": { "type": "string", "description": "Empty string for a small number of recently-added entries pending data collection" },
-                "weight": { "type": "string", "description": "Empty string for a small number of recently-added entries pending data collection" }
+                "height": { "type": "integer", "minimum": 1, "description": "Decimeters, from PokeAPI" },
+                "weight": { "type": "integer", "minimum": 1, "description": "Hectograms, from PokeAPI" }
             }
         },
         "gender": {
@@ -129,14 +135,14 @@
             "required": ["male", "female", "genderless"],
             "additionalProperties": false,
             "properties": {
-                "male": { "type": "string", "pattern": "^$|^\\d{1,3}(\\.\\d+)?%$" },
-                "female": { "type": "string", "pattern": "^$|^\\d{1,3}(\\.\\d+)?%$" },
+                "male": { "$ref": "#/definitions/genderPercent" },
+                "female": { "$ref": "#/definitions/genderPercent" },
                 "genderless": { "type": "boolean" }
             }
         },
         "evolution": {
             "type": ["number", "null"],
-            "description": "References the _id of this pokemon's chain in src/pokemon/evolutions/entries; null when not yet linked"
+            "description": "References the _id of this pokemon's chain in src/pokemon/evolutions/entries; forms not in a chain use their base pokemon's chain (Math.floor(_id)); null when in no chain"
         },
         "evs": {
             "type": "object",
