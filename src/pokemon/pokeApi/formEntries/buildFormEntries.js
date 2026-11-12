@@ -12,17 +12,13 @@ import {
     buildTypes,
     folderForForm,
     formKey,
+    orderFields,
     titleCase,
 } from "./formFields.js";
+import { buildCosmeticForms } from "./cosmeticForms.js";
 import { findExistingForm } from "./formMatching.js";
 import { listFormFiles, loadSources, readJsonFile } from "./formSources.js";
-
-const FIELD_ORDER = [
-    "_id", "key", "name", "type", "abilities", "baseStats", "info",
-    "gender", "evolution", "generation", "evs", "eggGroups", "species",
-    "catchRate", "baseFriendship", "baseExp", "growthRate", "eggCycles",
-    "nameOrigin", "pokedexEntries",
-];
+import { hasBaseBattleFields, toVisualDocument } from "./visualForms.js";
 
 const SPECIES_FIELDS = [
     "eggGroups", "species", "catchRate", "baseFriendship", "growthRate",
@@ -103,13 +99,6 @@ function battleFields(found, abilityIds) {
     };
 }
 
-function orderFields(document) {
-    const present = FIELD_ORDER.filter(
-        (field) => document[field] !== undefined
-    );
-    return Object.fromEntries(present.map((field) => [field, document[field]]));
-}
-
 function buildFormDocument(details, found, identity, sources) {
     const formData = [found.existingForm?.data, found.dexForm];
     return orderFields({
@@ -136,10 +125,13 @@ function buildForm(details, sources, formCounts) {
         key: formKey(details),
     };
     const found = findFormSources(details, sources, speciesId);
+    const document = buildFormDocument(details, found, identity, sources);
     return {
         folder: folderForForm(details, found.existingForm),
         fileName: `${speciesId}.${identity.formNumber}-${identity.key}.json`,
-        document: buildFormDocument(details, found, identity, sources),
+        document: hasBaseBattleFields(document, found.baseEntry)
+            ? toVisualDocument(document, found.baseEntry)
+            : document,
         hasEnglishName: details.names.some(
             (entry) => entry.language.name === "en"
         ),
@@ -168,14 +160,16 @@ function listKeys(forms, isMissing) {
 }
 
 function printReport(forms) {
+    const fullForms = forms.filter((form) => !form.document.visual);
     const report = {
         "Forms written": forms.length,
+        "Visual forms (differences only)": forms.length - fullForms.length,
         "No English name in PokeAPI": listKeys(
             forms, (form) => !form.hasEnglishName),
         "No abilities": listKeys(
-            forms, (form) => !form.document.abilities.normal.length),
+            fullForms, (form) => !form.document.abilities.normal.length),
         "No baseExp": listKeys(
-            forms, (form) => form.document.baseExp === undefined),
+            fullForms, (form) => form.document.baseExp === undefined),
         "Empty pokedexEntries": listKeys(forms, (form) =>
             !Object.keys(form.document.pokedexEntries).length).length,
     };
@@ -185,9 +179,13 @@ function printReport(forms) {
 function buildFormEntries() {
     const sources = loadSources();
     const formCounts = new Map();
-    const forms = sources.formDetails.map(
+    const battleForms = sources.formDetails.map(
         (details) => buildForm(details, sources, formCounts)
     );
+    const forms = [
+        ...battleForms,
+        ...buildCosmeticForms(sources, formCounts),
+    ];
     writeForms(forms);
     printReport(forms);
 }

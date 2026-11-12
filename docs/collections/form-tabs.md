@@ -2,7 +2,7 @@
 
 One document per pokemon that has more than one form. It drives the form
 switcher (tab bar) on the website. Source:
-`src/pokemon/formTabs/entries/{_id}-{key}.json` (93 files). No schema.
+`src/pokemon/formTabs/entries/{_id}-{key}.json` (121 files). No schema.
 
 Uploaded with `node src/pokemon/formTabs/upsert.js`; it is not part of
 `npm run upsert:all` and has no npm script.
@@ -21,6 +21,11 @@ use this document to draw its tab bar.
 Form tabs are written by hand. Adding a form to `forms/` or
 `pokedex/entries` does not update them (a goal in
 `formTabs/README.md`).
+
+The 28 tabs added on 2026-11-12 for pokemon with cosmetic forms (Unown,
+Burmy, Shellos, Vivillon, Alcremie...) use the `forms/` ids (`412.01`);
+the other 93 still use `#.1` ids. Their labels are PokeAPI's English
+form names, e.g. `Plant Cloak`, `Sandy Cloak`, `Trash Cloak`.
 
 ## Fields
 

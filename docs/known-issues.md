@@ -247,3 +247,23 @@ Rebuilt from PokeAPI on 2026-11-12. Problems found:
   the male form) and Male Mega Meowstic (678.02) are `0` / `100`.
 - **Base pokemon gaps that forms copied**: Ogerpon (1017) has
   `eggGroups: []`.
+
+## Cosmetic and visual forms
+
+Added 2026-11-12 (`forms/cosmetic/`, 227 files). Not fixed:
+
+- **Entry keys left in base files**: Alcremie (869) has entries by cream
+  (`Vanilla Cream Flavor`...), but its forms are cream + sweet pairs, so
+  nothing matched. Wormadam's `Sandy Cloak` / `Trash Cloak` and
+  Floette's `Eternal Flower` belong to full forms (413.01, 413.02,
+  670.01) whose files have no entries yet.
+- **No English form names in PokeAPI** for Mothim, Scatterbug and
+  Spewpa, so their keys and tabs use PokeAPI's slug (`sandy-mothim`,
+  tab `Sandy`).
+- **Arceus's "???" form** isn't included; its type `unknown` isn't in
+  the schema.
+- **Super Size Pumpkaboo and Gourgeist** (710.03, 711.03) count as
+  visual because their stats equal the base entries, but in the games the
+  sizes have different stats, so 710/711 may hold the wrong numbers.
+- **Form tab ids**: the 28 new tabs use `#.01` ids, the other 93 use
+  `#.1`.

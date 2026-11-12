@@ -9,6 +9,7 @@ src/pokemon/
 |--forms/
     |--alolan/      # Alolan regional forms
     |--alternate/   # battle/species forms (Deoxys, Giratina, Ogerpon...)
+    |--cosmetic/    # looks-only forms (Burmy cloaks, Unown, Vivillon...)
     |--galarian/    # Galarian regional forms
     |--gigantamax/  # Gigantamax forms
     |--hisuian/     # Hisuian regional forms
@@ -21,8 +22,11 @@ src/pokemon/
 ```
 
 Files are named `{_id}-{form}-{pokemonName}.json`, e.g.
-`6.01-mega-x-charizard.json`. Every form PokeAPI lists (326, in
-`pokeApi/forms/`) has a file here. `key` is the file name without the id.
+`6.01-mega-x-charizard.json`. `key` is the file name without the id.
+There are 553 files: every form PokeAPI lists as its own pokemon (326, in
+`pokeApi/forms/`), plus 227 cosmetic forms PokeAPI lists under one
+pokemon (in `pokeApi/cosmeticForms/`). Arceus's "???" form is skipped,
+because `unknown` isn't a schema type.
 
 # Goals
 
@@ -50,10 +54,42 @@ Because `_id` is a number, the tenth form `25.10` is stored as `25.1`
 
 `pokedex/entries` and the other collections still use the old `#.1` ids.
 
+### Visual and full forms
+
+A form is **visual** when its `type`, `abilities`, `baseStats` and `evs`
+match its base pokemon (`Math.floor(_id)`), or when it's a cosmetic
+form. Visual files hold only `_id`, `key`, `visual: true`, the fields
+that differ from the base, and their own `pokedexEntries`:
+
+```json
+{
+    "_id": 412.01,
+    "key": "sandy-cloak-burmy",
+    "visual": true,
+    "pokedexEntries": { "Sandy Cloak": [ ... ] }
+}
+```
+
+Arceus and Silvally types are cosmetic forms but also carry `type`.
+Gigantamax forms carry `name`, `info` and `generation`. 300 forms are
+visual: the 227 cosmetic ones, plus the Gigantamax, Totem, Pikachu cap
+and costume forms and a few others.
+
+Forms that really change (Megas, Deoxys, regional forms...) are **full**
+documents with every pokedex schema key and no `visual` field.
+
+When forms are uploaded, the plan is to merge each visual form as
+`{ ...base, ...form }`, add a `changes` list of the fields that differ,
+and set `visual: false` on full forms. Mongo would then always hold
+complete documents, and the site can use `visual` and `changes` to know
+how much to update on a tab click.
+
 ### Where each field comes from
 
-Every file has the pokedex schema keys and passes
-`pokedex/schema.json`.
+Full forms have every pokedex schema key and pass `pokedex/schema.json`.
+Visual forms pass it once merged with their base. Cosmetic forms copy
+the base pokemon, except `type` (from PokeAPI's form) and
+`pokedexEntries`.
 
 | Field | Source |
 | ----- | ------ |
@@ -71,8 +107,10 @@ the languages PokeAPI has for forms.
 The scripts are in `src/pokemon/pokeApi/formEntries/`.
 
 1. `npm run forms:fetch` saves each form's names, game and base
-   experience from PokeAPI into `pokeApi/formDetails/`. It skips forms
-   that already have a file; add `-- --refresh` to fetch them all again.
+   experience from PokeAPI into `pokeApi/formDetails/`, skipping forms
+   that already have a file. It then fetches every pokemon's form list
+   again and saves the cosmetic forms into `pokeApi/cosmeticForms/`.
+   That second step makes about 1,600 requests and takes a few minutes.
 2. `npm run forms:build` rewrites every file in this folder from those
    sources and prints the forms still missing data.
 

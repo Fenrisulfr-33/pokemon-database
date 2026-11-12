@@ -29,7 +29,7 @@
     "evolutions:validate": "node src/pokemon/evolutions/validation.mjs",
     "pokedex:validate": "node src/pokemon/pokedex/validation.mjs",
     "moves:validate": "node src/pokemon/moves/validation.mjs",
-    "forms:fetch": "node src/pokemon/pokeApi/formEntries/fetchFormDetails.js",
+    "forms:fetch": "node src/pokemon/pokeApi/formEntries/fetchFormDetails.js && node src/pokemon/pokeApi/formEntries/fetchCosmeticForms.js",
     "forms:build": "node src/pokemon/pokeApi/formEntries/buildFormEntries.js"
   },
   "repository": {

@@ -27,6 +27,20 @@ const FOLDER_BY_NAME_WORD = [
 
 const FOLDER_BY_SPECIES = { pikachu: "pikachu", rotom: "rotom" };
 
+const FIELD_ORDER = [
+    "_id", "key", "visual", "name", "type", "abilities", "baseStats", "info",
+    "gender", "evolution", "generation", "evs", "eggGroups", "species",
+    "catchRate", "baseFriendship", "baseExp", "growthRate", "eggCycles",
+    "nameOrigin", "pokedexEntries",
+];
+
+function orderFields(document) {
+    const present = FIELD_ORDER.filter(
+        (field) => document[field] !== undefined
+    );
+    return Object.fromEntries(present.map((field) => [field, document[field]]));
+}
+
 function formKey(details) {
     const prefix = `${details.species}-`;
     const formWords = details.name.slice(prefix.length);
@@ -128,5 +142,6 @@ export {
     buildTypes,
     folderForForm,
     formKey,
+    orderFields,
     titleCase,
 };
