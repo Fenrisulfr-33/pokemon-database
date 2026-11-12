@@ -1,8 +1,12 @@
-import fs from "fs";
-import path from "path";
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import validateEntries from "#genericFunctions/schemaValidation.mjs";
 import { getAbilities } from "#helpers/getAbilities.js";
+import {
+    findDuplicates,
+    findMissingIds,
+    listJsonFileNames,
+    toKey,
+} from "#helpers/testHelpers.js";
 import {
     ABILITIES_ENTRIES_DIR,
     POKEDEX_ENTRIES_DIR,
@@ -12,30 +16,6 @@ import { buildPokemonWithAbility } from "./updatePokemonWithAbility.js";
 import schema from "./schema.json" with { type: "json" };
 
 const TEXT_BY_GAME_FIELDS = ["flavorText", "effectChanges"];
-
-function listJsonFileNames(directory) {
-    return fs
-        .readdirSync(directory)
-        .filter((fileName) => path.extname(fileName) === ".json");
-}
-
-function toKey(englishName) {
-    return englishName
-        .toLowerCase()
-        .replace(/[^a-z0-9 -]/g, "")
-        .trim()
-        .replace(/ +/g, "-");
-}
-
-function findDuplicates(values) {
-    const seen = new Set();
-    const duplicates = [];
-    for (const value of values) {
-        if (seen.has(value)) duplicates.push(value);
-        seen.add(value);
-    }
-    return duplicates;
-}
 
 function listGameKeys(ability) {
     const gameKeys = [];
@@ -103,13 +83,8 @@ describe("abilities", () => {
     });
 
     test("ids run from 1 to the highest id with no gaps", () => {
-        const ids = new Set(abilities.map((ability) => ability._id));
-        const highestId = Math.max(...ids);
-        const missingIds = [];
-        for (let abilityId = 1; abilityId <= highestId; abilityId++) {
-            if (!ids.has(abilityId)) missingIds.push(abilityId);
-        }
-        expect(missingIds).toEqual([]);
+        const ids = abilities.map((ability) => ability._id);
+        expect(findMissingIds(ids)).toEqual([]);
     });
 
     test("game keys in text fields are known games", () => {
