@@ -1,6 +1,7 @@
 ```text
 src/pokemon/
 ├── abilities/
+│   ├── abilities.test.js
 │   ├── entries/          # 307 individual ability JSON files (e.g. 1-stench.json)
 │   └── upsert.js
 ├── competitive/
@@ -9,6 +10,7 @@ src/pokemon/
 ├── helpers/
 │   ├── CheckNationalPokedex.js
 │   ├── fileUtils.js
+│   ├── getAbilities.js   # getAbilities(): every ability in abilities/entries
 │   ├── save.js
 │   ├── save.test.js
 │   └── upsertToMongo.js

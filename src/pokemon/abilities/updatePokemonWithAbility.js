@@ -124,4 +124,9 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     updatePokemonWithAbility();
 }
 
-export { buildPokemonWithAbility, updatePokemonWithAbility };
+export {
+    buildPokemonWithAbility,
+    emptyLists,
+    replaceBlock,
+    updatePokemonWithAbility,
+};

@@ -54,7 +54,11 @@ an error.
 
 ## Failing tests
 
-4 of 6 test suites fail (`npm test`):
+5 of 7 test suites fail (`npm test`):
+
+- `abilities/abilities.test.js`, 2 of 6 tests:
+  - english names: "As One" is used by both 266 and 267.
+  - `pokemonWithAbility`: 308–314 have no field (see below).
 
 - `_test/evolution-id-list.test.mjs` reads `_test/evolution-id-list.json`,
   which doesn't exist.
@@ -78,6 +82,6 @@ pokedex entry uses them. `updatePokemonWithAbility.js` throws
 `No pokemonWithAbility key` on these files, so it can't be run until
 they have the field.
 
-`updatePokemonWithAbility.js` also writes each list on one line, while
-`pokeApi/abilities/getAbilities.js` writes one id per line, so running
-it reformats every ability file.
+`updatePokemonWithAbility.js` and `pokeApi/abilities/getAbilities.js`
+both write each list on one line, but the current ability files have
+one id per line, so the first run of either one reformats every file.
