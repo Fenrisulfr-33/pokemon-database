@@ -23,6 +23,8 @@ One page per collection:
 - [learnsets](collections/learnsets.md): which pokemon learn which moves
 - [evolutions](collections/evolutions.md): evolution chains
 - [form-tabs](collections/form-tabs.md): form switcher for a pokemon
+- [pokedex entries](pokedex-entries.md): which files have
+  `pokedexEntries`, and which forms are missing them
 
 Also:
 

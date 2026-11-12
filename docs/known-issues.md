@@ -26,8 +26,8 @@ stale ids one or two below the right chain.
 Galarian Farfetch'd (83.1) and Galarian Corsola (222.1) have their own
 chains (298, 297), so they keep those.
 
-Still wrong: Corsola (222) is in no chain but has `296`, which is
-Grookey's line. It should probably be `null`.
+Corsola (222) is in no chain and had `296` (Grookey's line); it was set
+to `null` on 2026-11-12.
 
 ## `evolutions` ids missing from `national-dex`
 
@@ -238,7 +238,8 @@ Rebuilt from PokeAPI on 2026-11-12. Problems found:
   and Mega Baxcalibur.
 - **Empty `pokedexEntries`**: 134 forms (64 Megas, 10 Totems, 2
   Gigantamax and 58 others such as the Deoxys, Rotom, Minior and Ogerpon
-  forms). PokeAPI has no form-specific entries.
+  forms). PokeAPI has no form-specific entries. Full list in
+  `docs/pokedex-entries.md`.
 - **Female forms** (Meowstic, Indeedee, Oinkologne, Female Mega
   Meowstic) are `0` / `100`; Female Basculegion is `null` / `null`
   because base 902 has no gender data.
