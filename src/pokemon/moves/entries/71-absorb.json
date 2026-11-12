@@ -1,47 +1,158 @@
 {
-  "_id": 71,
-  "key": "absorb",
-  "name": {
-    "english": "Absorb",
-    "japanese": "すいとる",
-    "chinese": "吸收",
-    "korean": "흡수",
-    "german": "Absorber",
-    "french": "Absorber",
-    "italian": "Absorb",
-    "spanish": "Assorbimento"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 25,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Steals 1/2 of the\ndamage inflicted.",
-    "crystal": "Steals 1/2 of the\ndamage inflicted.",
-    "ruby-sapphire": "An attack that absorbs\nhalf the damage inflicted.",
-    "emerald": "An attack that absorbs\nhalf the damage inflicted.",
-    "firered-leafgreen": "An attack that\nabsorbs half the\ndamage it inflicted\nto restore HP.",
-    "diamond-pearl": "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "platinum": "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "heartgold-soulsilver": "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "black-white": "A nutrient-draining attack. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "black-2-white-2": "A nutrient-draining attack. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "x-y": "A nutrient-draining attack. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "omega-ruby-alpha-sapphire": "A nutrient-draining attack. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "sun-moon": "A nutrient-draining attack. The user’s HP is restored\nby half the damage taken by the target.",
-    "ultra-sun-ultra-moon": "A nutrient-draining attack. The user’s HP is restored\nby half the damage taken by the target.",
-    "lets-go-pikachu-lets-go-eevee": "A nutrient-draining attack. The user’s HP is restored\nby half the damage taken by the target.",
-    "sword-shield": "A nutrient-draining attack. The user’s HP is restored\nby half the damage taken by the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
-    "shortEffect": "Drains half the damage inflicted to heal the user."
-  },
-  "priority": 0
+    "_id": 71,
+    "key": "absorb",
+    "name": {
+        "japanese-kana": "すいとる",
+        "korean": "흡수",
+        "traditional-chinese": "吸取",
+        "french": "Vole-Vie",
+        "german": "Absorber",
+        "spanish": "Absorber",
+        "italian": "Assorbimento",
+        "english": "Absorb",
+        "japanese": "すいとる",
+        "simplified-chinese": "吸取",
+        "latin-american-spanish": "Absorción"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "smart",
+    "pp": 25,
+    "power": 20,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 50,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "pp": 20
+        },
+        "lgpe": {
+            "power": 20,
+            "pp": 25
+        },
+        "swsh": {
+            "power": 40,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Steals 1/2 of the damage inflicted.",
+            "cr": "Steals 1/2 of the damage inflicted.",
+            "rs": "An attack that absorbs half the damage inflicted.",
+            "em": "An attack that absorbs half the damage inflicted.",
+            "frlg": "An attack that absorbs half the damage it inflicted to restore HP.",
+            "dp": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "pt": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "hgss": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "bw": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "b2w2": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "xy": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "oras": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "sm": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "usum": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "lgpe": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "swsh": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "la": "The user attacks by draining the target’s nutrients. Some of the damage dealt to the target is absorbed by the user to restore their own HP.",
+            "sv": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target."
+        },
+        "french": {
+            "bw": "Une attaque qui convertit la moitié des dégâts infligés en PV.",
+            "xy": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "oras": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "sm": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "usum": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "lgpe": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "swsh": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "ようぶんを　すいとり　こうげきする。 あいてに　あたえた　ダメージの はんぶんの　ＨＰを　かいふくできる。",
+            "oras": "ようぶんを　すいとり　こうげきする。 あいてに　あたえた　ダメージの はんぶんの　ＨＰを　かいふくできる。",
+            "sm": "ようぶんを　すいとり　こうげきする。 あいてに　あたえた　ダメージの はんぶんの　ＨＰを　かいふくできる。",
+            "usum": "ようぶんを　すいとり　こうげきする。 あいてに　あたえた　ダメージの はんぶんの　ＨＰを　かいふくできる。",
+            "lgpe": "ようぶんを　すいとり　こうげきする。 あいてに　あたえた　ダメージの はんぶんの　ＨＰを　かいふくできる。",
+            "swsh": "ようぶんを　すいとり　こうげきする。 あいてに　あたえた　ダメージの はんぶんの　ＨＰを　かいふくできる。"
+        },
+        "korean": {
+            "xy": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "oras": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "sm": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "usum": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "lgpe": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "swsh": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다."
+        },
+        "german": {
+            "xy": "Attacke, die die Hälfte des Schadens absorbiert.",
+            "oras": "Attacke, die die Hälfte des Schadens absorbiert.",
+            "sm": "Attacke, die die Hälfte des Schadens absorbiert.",
+            "usum": "Attacke, die die Hälfte des Schadens absorbiert.",
+            "lgpe": "Attacke, die die Hälfte des Schadens absorbiert.",
+            "swsh": "Attacke, die die Hälfte des Schadens absorbiert."
+        },
+        "spanish": {
+            "xy": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "oras": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "sm": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "usum": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "lgpe": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "swsh": "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+        },
+        "italian": {
+            "xy": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "oras": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "sm": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "usum": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "lgpe": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "swsh": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto."
+        },
+        "japanese": {
+            "xy": "養分を　吸い取り　攻撃する。 相手に　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "oras": "養分を　吸い取り　攻撃する。 相手に　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "sm": "養分を　吸い取り　攻撃する。 相手に　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "usum": "養分を　吸い取り　攻撃する。 相手に　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "lgpe": "養分を　吸い取り　攻撃する。 相手に　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "swsh": "養分を　吸い取り　攻撃する。 相手に　与えた　ダメージの 半分の　ＨＰを　回復できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "oras": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "sm": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "usum": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "lgpe": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+            "swsh": "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+        },
+        "traditional-chinese": {
+            "sm": "吸取對手的養分進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。",
+            "usum": "吸取對手的養分進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。",
+            "lgpe": "吸取對手的養分進行攻擊。 可以回復給予對手 傷害的一半HP。",
+            "swsh": "吸取對手的養分進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "吸取对手的养分进行攻击。 可以回复给予对手 伤害的一半ＨＰ。",
+            "usum": "吸取对手的养分进行攻击。 可以回复给予对手 伤害的一半ＨＰ。",
+            "lgpe": "吸取对手的养分进行攻击。 可以回复给予对手 伤害的一半HP。",
+            "swsh": "吸取对手的养分进行攻击。 可以回复给予对手 伤害的一半ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+        "shortEffect": "Drains half the damage inflicted to heal the user."
+    }
 }

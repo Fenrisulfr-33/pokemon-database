@@ -1,47 +1,146 @@
 {
-  "_id": 12,
-  "key": "guillotine",
-  "name": {
-    "english": "Guillotine",
-    "japanese": "ハサミギロチン",
-    "chinese": "剪刀断头台",
-    "korean": "가위자르기",
-    "german": "Guillotina",
-    "french": "Guillotine",
-    "italian": "Guillotine",
-    "spanish": "Ghigliottina"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 5,
-  "power": null,
-  "accuracy": 30,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A one-hit KO,\npincer attack.",
-    "crystal": "A one-hit KO,\npincer attack.",
-    "ruby-sapphire": "A powerful pincer attack\nthat may cause fainting.",
-    "emerald": "A powerful pincer attack\nthat may cause fainting.",
-    "firered-leafgreen": "A vicious tearing\nattack with pincers.\nThe foe will faint\nif it hits.",
-    "diamond-pearl": "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits.",
-    "platinum": "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits.",
-    "heartgold-soulsilver": "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits.",
-    "black-white": "A vicious, tearing attack with big pincers.\nThe target will faint instantly\nif this attack hits.",
-    "black-2-white-2": "A vicious, tearing attack with big pincers.\nThe target will faint instantly\nif this attack hits.",
-    "x-y": "A vicious, tearing attack with big pincers.\nThe target faints instantly if this attack hits.",
-    "omega-ruby-alpha-sapphire": "A vicious, tearing attack with big pincers.\nThe target faints instantly if this attack hits.",
-    "sun-moon": "A vicious, tearing attack with big pincers. The target\nfaints instantly if this attack hits.",
-    "ultra-sun-ultra-moon": "A vicious, tearing attack with big pincers. The target\nfaints instantly if this attack hits.",
-    "lets-go-pikachu-lets-go-eevee": "A vicious, tearing attack with big pincers. The target\nfaints instantly if this attack hits.",
-    "sword-shield": "A vicious, tearing attack with big pincers. The target\nfaints instantly if this attack hits."
-  },
-  "effect": {
-    "full": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
-    "shortEffect": "Causes a one-hit KO."
-  },
-  "priority": 0
+    "_id": 12,
+    "key": "guillotine",
+    "name": {
+        "japanese-kana": "ハサミギロチン",
+        "korean": "가위자르기",
+        "traditional-chinese": "斷頭鉗",
+        "french": "Guillotine",
+        "german": "Guillotine",
+        "spanish": "Guillotina",
+        "italian": "Ghigliottina",
+        "english": "Guillotine",
+        "japanese": "ハサミギロチン",
+        "simplified-chinese": "断头钳",
+        "latin-american-spanish": "Guillotina"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 5,
+    "power": null,
+    "accuracy": 30,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ohko",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A one-hit KO, pincer attack.",
+            "cr": "A one-hit KO, pincer attack.",
+            "rs": "A powerful pincer attack that may cause fainting.",
+            "em": "A powerful pincer attack that may cause fainting.",
+            "frlg": "A vicious tearing attack with pincers. The foe will faint if it hits.",
+            "dp": "A vicious, tearing attack with pincers. The foe will faint instantly if this attack hits.",
+            "pt": "A vicious, tearing attack with pincers. The foe will faint instantly if this attack hits.",
+            "hgss": "A vicious, tearing attack with pincers. The foe will faint instantly if this attack hits.",
+            "bw": "A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.",
+            "b2w2": "A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.",
+            "xy": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+            "oras": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+            "sm": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+            "usum": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+            "lgpe": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+            "swsh": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+            "la": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+            "sv": "A vicious tearing attack with big pincers. The target faints instantly if this attack hits."
+        },
+        "french": {
+            "bw": "De méchantes pinces lacèrent l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "xy": "De méchantes pinces lacèrent l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "oras": "De méchantes pinces lacèrent l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "sm": "Des pinces lacèrent violemment l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "usum": "Des pinces lacèrent violemment l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "lgpe": "Des pinces lacèrent violemment l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "swsh": "Des pinces lacèrent violemment l’ennemi, le mettant K.O. sur le coup s’il est touché."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　ハサミで あいてを　きりさいて　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "oras": "おおきな　ハサミで あいてを　きりさいて　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "sm": "おおきな　ハサミで あいてを　きりさいて　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "usum": "おおきな　ハサミで あいてを　きりさいて　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "lgpe": "おおきな　ハサミで あいてを　きりさいて　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "swsh": "おおきな　ハサミで あいてを　きりさいて　こうげきする。 あたれば　いちげきで　ひんしに　する。"
+        },
+        "korean": {
+            "xy": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다.",
+            "oras": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다.",
+            "sm": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다.",
+            "usum": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다.",
+            "lgpe": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다.",
+            "swsh": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다."
+        },
+        "german": {
+            "xy": "Kräftige Scheren-Attacke. Führt beim Ziel sofort zum K.O.",
+            "oras": "Kräftige Scheren-Attacke. Führt beim Ziel sofort zum K.O.",
+            "sm": "Kräftige Scheren-Attacke. Führt beim Ziel sofort zum K.O.",
+            "usum": "Kräftige Scheren-Attacke. Führt beim Ziel sofort zum K.O.",
+            "lgpe": "Kräftige Scheren-Attacke. Führt beim Ziel sofort zum K.O.",
+            "swsh": "Ein Angriff mit einer großen Schere. Trifft die Attacke, führt sie beim Ziel sofort zum K.O."
+        },
+        "spanish": {
+            "xy": "Ataque con pinzas que debilita al oponente de un golpe si acierta.",
+            "oras": "Ataque con pinzas que debilita al oponente de un golpe si acierta.",
+            "sm": "Ataque cortante que debilita al oponente de un golpe si acierta.",
+            "usum": "Ataque cortante que debilita al oponente de un golpe si acierta.",
+            "lgpe": "Ataque cortante que debilita al oponente de un golpe si acierta.",
+            "swsh": "Ataque cortante que debilita al oponente de un golpe si acierta."
+        },
+        "italian": {
+            "xy": "Attacca il bersaglio con pericolose tenaglie. Se l’attacco va a segno, il Pokémon colpito va subito KO.",
+            "oras": "Attacca il bersaglio con pericolose tenaglie. Se l’attacco va a segno, il Pokémon colpito va subito KO.",
+            "sm": "Attacca il bersaglio con pericolose tenaglie. Se l’attacco va a segno, il Pokémon colpito va subito KO.",
+            "usum": "Attacca il bersaglio con pericolose tenaglie. Se l’attacco va a segno, il Pokémon colpito va subito KO.",
+            "lgpe": "Attacca il bersaglio con pericolose tenaglie. Se l’attacco va a segno, il Pokémon colpito va subito KO.",
+            "swsh": "Attacca il bersaglio con pericolose tenaglie. Se l’attacco va a segno, il Pokémon colpito va subito KO."
+        },
+        "japanese": {
+            "xy": "大きな　ハサミで 相手を　切り裂いて　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "oras": "大きな　ハサミで 相手を　切り裂いて　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "sm": "大きな　ハサミで 相手を　切り裂いて　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "usum": "大きな　ハサミで 相手を　切り裂いて　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "lgpe": "大きな　ハサミで 相手を　切り裂いて　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "swsh": "大きな　ハサミで 相手を　切り裂いて　攻撃する。 当たれば　一撃で　ひんしに　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque con pinzas que debilita al oponente de un golpe si acierta.",
+            "oras": "Ataque con pinzas que debilita al oponente de un golpe si acierta.",
+            "sm": "Ataque cortante que debilita al oponente de un golpe si acierta.",
+            "usum": "Ataque cortante que debilita al oponente de un golpe si acierta.",
+            "lgpe": "Ataque cortante que debilita al oponente de un golpe si acierta.",
+            "swsh": "Ataque cortante que debilita al oponente de un golpe si acierta."
+        },
+        "traditional-chinese": {
+            "sm": "用巨大的鉗子或剪刀等 撕裂對手進行攻擊。 只要命中就會一擊瀕死。",
+            "usum": "用巨大的鉗子或剪刀等 撕裂對手進行攻擊。 只要命中就會一擊瀕死。",
+            "lgpe": "用巨大的鉗子或剪刀等 撕裂對手進行攻擊。 只要命中就會一擊瀕死。",
+            "swsh": "用巨大的鉗子或剪刀等 撕裂對手進行攻擊。 只要命中就會一擊瀕死。"
+        },
+        "simplified-chinese": {
+            "sm": "用大钳子或剪刀等 夹断对手进行攻击。 只要命中就会一击濒死。",
+            "usum": "用大钳子或剪刀等 夹断对手进行攻击。 只要命中就会一击濒死。",
+            "lgpe": "用大钳子或剪刀等 夹断对手进行攻击。 只要命中就会一击濒死。",
+            "swsh": "用大钳子或剪刀等 夹断对手进行攻击。 只要命中就会一击濒死。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail. Because this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting. The effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+        "shortEffect": "Causes a one-hit KO."
+    }
 }

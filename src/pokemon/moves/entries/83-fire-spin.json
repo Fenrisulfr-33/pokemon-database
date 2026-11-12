@@ -1,47 +1,151 @@
 {
-  "_id": 83,
-  "key": "fire-spin",
-  "name": {
-    "english": "Fire Spin",
-    "japanese": "ほのおのうず",
-    "chinese": "火焰漩涡",
-    "korean": "회오리불꽃",
-    "german": "Giro Fuego",
-    "french": "Feuerwirbel",
-    "italian": "Fire Spin",
-    "spanish": "Turbofuoco"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 35,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Traps foe in fire\nfor 2-5 turns.",
-    "crystal": "Traps foe in fire\nfor 2-5 turns.",
-    "ruby-sapphire": "Traps the foe in a ring of\nfire for 2 to 5 turns.",
-    "emerald": "Traps the foe in a ring of\nfire for 2 to 5 turns.",
-    "firered-leafgreen": "The foe is trapped\nin an intense spiral\nof fire that rages\ntwo to five turns.",
-    "diamond-pearl": "The foe becomes\ntrapped within a\nfierce vortex of fire\nthat rages for two\nto five turns.",
-    "platinum": "The foe becomes\ntrapped within a\nfierce vortex of fire\nthat rages for two\nto five turns.",
-    "heartgold-soulsilver": "The foe becomes\ntrapped within a\nfierce vortex of fire\nthat rages for two\nto five turns.",
-    "black-white": "The target becomes trapped within a\nfierce vortex of fire that rages for four\nto five turns.",
-    "black-2-white-2": "The target becomes trapped within a\nfierce vortex of fire that rages for four\nto five turns.",
-    "x-y": "The target becomes trapped within a\nfierce vortex of fire that rages for four\nto five turns.",
-    "omega-ruby-alpha-sapphire": "The target becomes trapped within a\nfierce vortex of fire that rages for four\nto five turns.",
-    "sun-moon": "The target becomes trapped within a fierce vortex\nof fire that rages for four to five turns.",
-    "ultra-sun-ultra-moon": "The target becomes trapped within a fierce vortex\nof fire that rages for four to five turns.",
-    "lets-go-pikachu-lets-go-eevee": "The target becomes trapped within a fierce vortex\nof fire that rages for four to five turns.",
-    "sword-shield": "The target becomes trapped within a fierce vortex\nof fire that rages for four to five turns."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
-    "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
-  },
-  "priority": 0
+    "_id": 83,
+    "key": "fire-spin",
+    "name": {
+        "japanese-kana": "ほのおのうず",
+        "korean": "회오리불꽃",
+        "traditional-chinese": "火焰旋渦",
+        "french": "Danse Flammes",
+        "german": "Feuerwirbel",
+        "spanish": "Giro Fuego",
+        "italian": "Turbofuoco",
+        "english": "Fire Spin",
+        "japanese": "ほのおのうず",
+        "simplified-chinese": "火焰旋涡",
+        "latin-american-spanish": "Giro Fuego"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 35,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 5,
+        "maxTurns": 6,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 70,
+            "power": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Traps foe in fire for 2-5 turns.",
+            "cr": "Traps foe in fire for 2-5 turns.",
+            "rs": "Traps the foe in a ring of fire for 2 to 5 turns.",
+            "em": "Traps the foe in a ring of fire for 2 to 5 turns.",
+            "frlg": "The foe is trapped in an intense spiral of fire that rages two to five turns.",
+            "dp": "The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.",
+            "pt": "The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.",
+            "hgss": "The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.",
+            "bw": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "b2w2": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "xy": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "oras": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "sm": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "usum": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "lgpe": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "swsh": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "la": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+            "sv": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns."
+        },
+        "french": {
+            "bw": "Un tourbillon de flammes emprisonne l’ennemi pendant 4 à 5 tours.",
+            "xy": "Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours.",
+            "oras": "Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours.",
+            "sm": "Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours.",
+            "usum": "Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours.",
+            "lgpe": "Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours.",
+            "swsh": "Un tourbillon de flammes emprisonne l’ennemi pendant quatre à cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "はげしく　うずをまく　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "oras": "はげしく　うずをまく　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "sm": "はげしく　うずをまく　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "usum": "はげしく　うずをまく　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "lgpe": "はげしく　うずをまく　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "swsh": "はげしく　うずをまく　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。"
+        },
+        "korean": {
+            "xy": "세차게 소용돌이치는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "oras": "세차게 소용돌이치는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "sm": "세차게 소용돌이치는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "usum": "세차게 소용돌이치는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "lgpe": "세차게 소용돌이치는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "swsh": "세차게 소용돌이치는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다."
+        },
+        "german": {
+            "xy": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.",
+            "oras": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.",
+            "sm": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.",
+            "usum": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.",
+            "lgpe": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.",
+            "swsh": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen."
+        },
+        "spanish": {
+            "xy": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "oras": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "sm": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "usum": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "lgpe": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "swsh": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos."
+        },
+        "italian": {
+            "xy": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "oras": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "sm": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "usum": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "lgpe": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "swsh": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni."
+        },
+        "japanese": {
+            "xy": "激しく　渦をまく　炎の中に ４ー５ターンの　あいだ 相手を　閉じこめて　攻撃する。",
+            "oras": "激しく　渦をまく　炎の中に ４ー５ターンの　あいだ 相手を　閉じこめて　攻撃する。",
+            "sm": "激しく　渦をまく　炎の中に ４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+            "usum": "激しく　渦をまく　炎の中に ４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+            "lgpe": "激しく　渦をまく　炎の中に ４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+            "swsh": "激しく　渦をまく　炎の中に ４ー５ターンの　間 相手を　閉じこめて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "oras": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "sm": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "usum": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "lgpe": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.",
+            "swsh": "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos."
+        },
+        "traditional-chinese": {
+            "sm": "將對手困在 熊熊燃燒的火焰旋渦中， 在４～５回合內進行攻擊。",
+            "usum": "將對手困在 熊熊燃燒的火焰旋渦中， 在４～５回合內進行攻擊。",
+            "lgpe": "將對手困在 熊熊燃燒的火焰旋渦中， 在４～５回合內進行攻擊。",
+            "swsh": "將對手困在 熊熊燃燒的火焰旋渦中， 在４～５回合內進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "将对手困在 激烈的火焰旋涡中， 在４～５回合内进行攻击。",
+            "usum": "将对手困在 激烈的火焰旋涡中， 在４～５回合内进行攻击。",
+            "lgpe": "将对手困在 激烈的火焰旋涡中， 在４～５回合内进行攻击。",
+            "swsh": "将对手困在 激烈的火焰旋涡中， 在４～５回合内进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

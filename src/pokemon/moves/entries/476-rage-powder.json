@@ -1,39 +1,138 @@
 {
-  "_id": 476,
-  "key": "rage-powder",
-  "name": {
-    "english": "Rage Powder",
-    "japanese": "いかりのこな",
-    "chinese": "愤怒之粉",
-    "korean": "분노가루",
-    "german": "Polvo Ira",
-    "french": "Wutpulver",
-    "italian": "Rage Powder",
-    "spanish": "Polverabbia"
-  },
-  "type": "Bug",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "black-white": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
-    "black-2-white-2": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
-    "x-y": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
-    "omega-ruby-alpha-sapphire": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
-    "sun-moon": "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opponents aim only at\nthe user.",
-    "ultra-sun-ultra-moon": "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opponents aim only at\nthe user.",
-    "lets-go-pikachu-lets-go-eevee": "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opponents aim only at\nthe user.",
-    "sword-shield": "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opposing Pokémon aim only at\nthe user."
-  },
-  "effect": {
-    "full": "Until the end of this turn, any moves that opposing Pokémon target solely at the user's ally will instead target the user.  If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target.\n\nThis effect takes priority over lightning rod and storm drain.\n\nIf the user's ally switches out, opposing Pokémon may still hit it with pursuit.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Redirects the target's single-target effects to the user for this turn."
-  },
-  "priority": 2
+    "_id": 476,
+    "key": "rage-powder",
+    "name": {
+        "japanese-kana": "いかりのこな",
+        "korean": "분노가루",
+        "traditional-chinese": "憤怒粉",
+        "french": "Poudre Fureur",
+        "german": "Wutpulver",
+        "spanish": "Polvo Ira",
+        "italian": "Polverabbia",
+        "english": "Rage Powder",
+        "japanese": "いかりのこな",
+        "simplified-chinese": "愤怒粉",
+        "latin-american-spanish": "Polvo Ira"
+    },
+    "type": "bug",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 2,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies.",
+            "xy": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies.",
+            "oras": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies.",
+            "sm": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies.",
+            "usum": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies.",
+            "lgpe": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies.",
+            "swsh": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention. Il attire toutes les attaques ennemies."
+        },
+        "english": {
+            "bw": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
+            "b2w2": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
+            "xy": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
+            "oras": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
+            "sm": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
+            "usum": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
+            "lgpe": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
+            "swsh": "The user scatters a cloud of irritating powder to draw attention to itself. Opposing Pokémon aim only at the user.",
+            "la": "The user scatters a cloud of irritating powder to draw attention to itself. Opposing Pokémon aim only at the user.",
+            "sv": "The user scatters a cloud of irritating powder to draw attention to itself. Opposing Pokémon aim only at the user."
+        },
+        "japanese-kana": {
+            "xy": "イライラさせる　こなを　じぶんに ふりかけて　ちゅういを　ひく。あいての こうげきを　すべて　じぶんに　むける。",
+            "oras": "イライラさせる　こなを　じぶんに ふりかけて　ちゅういを　ひく。あいての こうげきを　すべて　じぶんに　むける。",
+            "sm": "イライラさせる　こなを　じぶんに ふりかけて　ちゅういを　ひく。　あいての こうげきを　すべて　じぶんに　むける。",
+            "usum": "イライラさせる　こなを　じぶんに ふりかけて　ちゅういを　ひく。　あいての こうげきを　すべて　じぶんに　むける。",
+            "lgpe": "イライラさせる　こなを　じぶんに ふりかけて　ちゅういを　ひく。　あいての こうげきを　すべて　じぶんに　むける。",
+            "swsh": "イライラさせる　こなを　じぶんに ふりかけて　ちゅういを　ひく。　あいての こうげきを　すべて　じぶんに　むける。"
+        },
+        "korean": {
+            "xy": "안절부절못하게 하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다.",
+            "oras": "안절부절못하게 하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다.",
+            "sm": "안절부절못하게 하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다.",
+            "usum": "안절부절못하게 하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다.",
+            "lgpe": "안절부절못하게 하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다.",
+            "swsh": "안절부절못하게 하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다."
+        },
+        "german": {
+            "xy": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.",
+            "oras": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.",
+            "sm": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.",
+            "usum": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.",
+            "lgpe": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.",
+            "swsh": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut."
+        },
+        "spanish": {
+            "xy": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "oras": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "sm": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "usum": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "lgpe": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "swsh": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales."
+        },
+        "italian": {
+            "xy": "Chi la usa attira l’attenzione dei nemici cospargendosi di una polvere irritante e diventando bersaglio di tutti gli attacchi.",
+            "oras": "Chi la usa attira l’attenzione dei nemici cospargendosi di una polvere irritante e diventando bersaglio di tutti gli attacchi.",
+            "sm": "Chi la usa attira l’attenzione dei nemici cospargendosi di una polvere irritante e diventando bersaglio di tutti gli attacchi.",
+            "usum": "Chi la usa attira l’attenzione dei nemici cospargendosi di una polvere irritante e diventando bersaglio di tutti gli attacchi.",
+            "lgpe": "Chi la usa attira l’attenzione dei nemici cospargendosi di una polvere irritante e diventando bersaglio di tutti gli attacchi.",
+            "swsh": "Chi la usa attira l’attenzione dei nemici cospargendosi di una polvere irritante e diventando bersaglio di tutti gli attacchi."
+        },
+        "japanese": {
+            "xy": "イライラさせる　粉を　自分に ふりかけて　注意を　ひく。相手の 攻撃を　すべて　自分に　むける。",
+            "oras": "イライラさせる　粉を　自分に ふりかけて　注意を　ひく。相手の 攻撃を　すべて　自分に　むける。",
+            "sm": "イライラさせる　粉を　自分に ふりかけて　注意を　ひく。　相手の 攻撃を　すべて　自分に　むける。",
+            "usum": "イライラさせる　粉を　自分に ふりかけて　注意を　ひく。　相手の 攻撃を　すべて　自分に　むける。",
+            "lgpe": "イライラさせる　粉を　自分に ふりかけて　注意を　ひく。　相手の 攻撃を　すべて　自分に　むける。",
+            "swsh": "イライラさせる　粉を　自分に ふりかけて　注意を　ひく。　相手の 攻撃を　すべて　自分に　むける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "oras": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "sm": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "usum": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "lgpe": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.",
+            "swsh": "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales."
+        },
+        "traditional-chinese": {
+            "sm": "將令人煩躁的粉末撒在自己身上， 吸引對手的注意。進而將對手的攻擊 全部轉移到自己身上。",
+            "usum": "將令人煩躁的粉末撒在自己身上， 吸引對手的注意。進而將對手的攻擊 全部轉移到自己身上。",
+            "lgpe": "將令人煩躁的粉末撒在自己身上， 吸引對手的注意。進而將對手的攻擊 全部轉移到自己身上。",
+            "swsh": "將令人煩躁的粉末撒在自己身上， 吸引對手的注意。進而將對手的攻擊 全部轉移到自己身上。"
+        },
+        "simplified-chinese": {
+            "sm": "将令人烦躁的粉末撒在自己身上， 用以吸引对手的注意。 使对手的攻击全部指向自己。",
+            "usum": "将令人烦躁的粉末撒在自己身上， 用以吸引对手的注意。 使对手的攻击全部指向自己。",
+            "lgpe": "将令人烦躁的粉末撒在自己身上， 用以吸引对手的注意。 使对手的攻击全部指向自己。",
+            "swsh": "将令人烦躁的粉末撒在自己身上， 用以吸引对手的注意。 使对手的攻击全部指向自己。"
+        }
+    },
+    "effect": {
+        "full": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user.  If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Redirects the target’s single-target effects to the user for this turn."
+    }
 }

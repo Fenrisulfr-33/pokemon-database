@@ -1,37 +1,135 @@
 {
-  "_id": 587,
-  "key": "fairy-lock",
-  "name": {
-    "english": "Fairy Lock",
-    "japanese": "フェアリーロック",
-    "chinese": "妖精之锁",
-    "korean": "페어리록",
-    "german": "Cerrojo Feérico",
-    "french": "Feenschloss",
-    "italian": "Fairy Lock",
-    "spanish": "Blocco Fatato"
-  },
-  "type": "Fairy",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "x-y": "By locking down the battlefield,\nthe user keeps all Pokémon from\nfleeing during the next turn.",
-    "omega-ruby-alpha-sapphire": "By locking down the battlefield,\nthe user keeps all Pokémon from\nfleeing during the next turn.",
-    "sun-moon": "By locking down the battlefield, the user keeps all\nPokémon from fleeing during the next turn.",
-    "ultra-sun-ultra-moon": "By locking down the battlefield, the user keeps all\nPokémon from fleeing during the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "By locking down the battlefield, the user keeps all\nPokémon from fleeing during the next turn.",
-    "sword-shield": "By locking down the battlefield, the user keeps all\nPokémon from fleeing during the next turn."
-  },
-  "effect": {
-    "full": "Prevents all Pokémon from fleeing or switching out during the next turn.",
-    "shortEffect": "Prevents all Pokémon from fleeing or switching out during the next turn."
-  },
-  "priority": 0
+    "_id": 587,
+    "key": "fairy-lock",
+    "name": {
+        "japanese-kana": "フェアリーロック",
+        "korean": "페어리록",
+        "traditional-chinese": "妖精之鎖",
+        "french": "Verrou Enchanté",
+        "german": "Feenschloss",
+        "spanish": "Cerrojo Feérico",
+        "italian": "Blocco Fatato",
+        "english": "Fairy Lock",
+        "japanese": "フェアリーロック",
+        "simplified-chinese": "妖精之锁",
+        "latin-american-spanish": "Cerrojo Feérico"
+    },
+    "type": "fairy",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ロックを　かけることによって つぎのターン　すべての ポケモンを　にげられなくする。",
+            "oras": "ロックを　かけることによって つぎのターン　すべての ポケモンを　にげられなくする。",
+            "sm": "ロックを　かけることによって つぎのターン　すべての ポケモンを　にげられなくする。",
+            "usum": "ロックを　かけることによって つぎのターン　すべての ポケモンを　にげられなくする。",
+            "lgpe": "ロックを　かけることによって つぎのターン　すべての ポケモンを　にげられなくする。",
+            "swsh": "ロックを　かけることによって つぎのターン　すべての ポケモンを　にげられなくする。"
+        },
+        "korean": {
+            "xy": "록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다.",
+            "oras": "록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다.",
+            "sm": "록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다.",
+            "usum": "록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다.",
+            "lgpe": "록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다.",
+            "swsh": "록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다."
+        },
+        "french": {
+            "xy": "Des chaînes entourent la zone de combat, empêchant tous les Pokémon de fuir au prochain tour.",
+            "oras": "Des chaînes entourent la zone de combat, empêchant tous les Pokémon de fuir au prochain tour.",
+            "sm": "Des chaînes entourent la zone de combat, empêchant tous les Pokémon de fuir au prochain tour.",
+            "usum": "Des chaînes entourent la zone de combat, empêchant tous les Pokémon de fuir au prochain tour.",
+            "lgpe": "Des chaînes entourent la zone de combat, empêchant tous les Pokémon de fuir au prochain tour.",
+            "swsh": "Des chaînes entourent la zone de combat, empêchant tous les Pokémon de fuir au prochain tour."
+        },
+        "german": {
+            "xy": "Der Anwender sperrt alle Pokémon ein und hindert sie damit in der nächsten Runde an der Flucht.",
+            "oras": "Der Anwender sperrt alle Pokémon ein und hindert sie damit in der nächsten Runde an der Flucht.",
+            "sm": "Der Anwender sperrt alle Pokémon ein und hindert sie damit in der nächsten Runde an der Flucht.",
+            "usum": "Der Anwender sperrt alle Pokémon ein und hindert sie damit in der nächsten Runde an der Flucht.",
+            "lgpe": "Der Anwender sperrt alle Pokémon ein und hindert sie damit in der nächsten Runde an der Flucht.",
+            "swsh": "Der Anwender sperrt alle Pokémon ein und hindert sie damit in der nächsten Runde an der Flucht."
+        },
+        "spanish": {
+            "xy": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "oras": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "sm": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "usum": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "lgpe": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "swsh": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo."
+        },
+        "italian": {
+            "xy": "Impone un blocco al terreno di lotta che nel turno successivo impedisce a tutti i Pokémon di fuggire.",
+            "oras": "Impone un blocco al terreno di lotta che nel turno successivo impedisce a tutti i Pokémon di fuggire.",
+            "sm": "Impone un blocco al terreno di lotta che nel turno successivo impedisce a tutti i Pokémon di fuggire.",
+            "usum": "Impone un blocco al terreno di lotta che nel turno successivo impedisce a tutti i Pokémon di fuggire.",
+            "lgpe": "Impone un blocco al terreno di lotta che nel turno successivo impedisce a tutti i Pokémon di fuggire.",
+            "swsh": "Impone un blocco al terreno di lotta che nel turno successivo impedisce a tutti i Pokémon di fuggire."
+        },
+        "english": {
+            "xy": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+            "oras": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+            "sm": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+            "usum": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+            "lgpe": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+            "swsh": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+            "la": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+            "sv": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
+        },
+        "japanese": {
+            "xy": "ロックを　かけることによって 次のターン　すべての ポケモンを　逃げられなくする。",
+            "oras": "ロックを　かけることによって 次のターン　すべての ポケモンを　逃げられなくする。",
+            "sm": "ロックを　かけることによって 次のターン　すべての ポケモンを　逃げられなくする。",
+            "usum": "ロックを　かけることによって 次のターン　すべての ポケモンを　逃げられなくする。",
+            "lgpe": "ロックを　かけることによって 次のターン　すべての ポケモンを　逃げられなくする。",
+            "swsh": "ロックを　かけることによって 次のターン　すべての ポケモンを　逃げられなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "oras": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "sm": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "usum": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "lgpe": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.",
+            "swsh": "Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo."
+        },
+        "traditional-chinese": {
+            "sm": "封鎖對戰場地， 下一回合所有的 寶可夢都無法逃走。",
+            "usum": "封鎖對戰場地， 下一回合所有的 寶可夢都無法逃走。",
+            "lgpe": "封鎖對戰場地， 下一回合所有的 寶可夢都無法逃走。",
+            "swsh": "封鎖對戰場地， 下一回合所有的 寶可夢都無法逃走。"
+        },
+        "simplified-chinese": {
+            "sm": "通过封锁， 下一回合所有的 宝可梦都无法逃走。",
+            "usum": "通过封锁， 下一回合所有的 宝可梦都无法逃走。",
+            "lgpe": "通过封锁， 下一回合所有的 宝可梦都无法逃走。",
+            "swsh": "通过封锁， 下一回合所有的 宝可梦都无法逃走。"
+        }
+    },
+    "effect": {
+        "full": "Prevents all Pokémon from fleeing or switching out during the next turn.",
+        "shortEffect": "Prevents all Pokémon from fleeing or switching out during the next turn."
+    }
 }

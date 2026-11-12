@@ -1,42 +1,141 @@
 {
-  "_id": 421,
-  "key": "shadow-claw",
-  "name": {
-    "english": "Shadow Claw",
-    "japanese": "シャドークロー",
-    "chinese": "影子钩爪",
-    "korean": "섀도크루",
-    "german": "Garra Umbría",
-    "french": "Dunkelklaue",
-    "italian": "Shadow Claw",
-    "spanish": "Ombrartigli"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 15,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio.",
-    "platinum": "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio.",
-    "heartgold-soulsilver": "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio.",
-    "black-white": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
-    "black-2-white-2": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
-    "x-y": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
-    "sun-moon": "The user slashes with a sharp claw made from\nshadows. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "The user slashes with a sharp claw made from\nshadows. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The user slashes with a sharp claw made from\nshadows. Critical hits land more easily.",
-    "sword-shield": "The user slashes with a sharp claw made from\nshadows. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 421,
+    "key": "shadow-claw",
+    "name": {
+        "japanese-kana": "シャドークロー",
+        "korean": "섀도클로",
+        "traditional-chinese": "暗影爪",
+        "french": "Griffe Ombre",
+        "german": "Dunkelklaue",
+        "spanish": "Garra Umbría",
+        "italian": "Ombrartigli",
+        "english": "Shadow Claw",
+        "japanese": "シャドークロー",
+        "simplified-chinese": "暗影爪",
+        "latin-american-spanish": "Garra de Sombra"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 15,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.",
+            "pt": "The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.",
+            "hgss": "The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.",
+            "bw": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "b2w2": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "xy": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "oras": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "sm": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "usum": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "lgpe": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "swsh": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+            "la": "The user slashes with a sharp claw made from shadows. This move has a heightened chance of landing a critical hit.",
+            "sv": "The user attacks by slashing the target with a sharp claw made from shadows. This move has a heightened chance of landing a critical hit."
+        },
+        "french": {
+            "bw": "Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé.",
+            "xy": "Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé.",
+            "oras": "Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé.",
+            "sm": "Attaque avec une griffe puissante faite d’ombres. Taux de critique élevé.",
+            "usum": "Attaque avec une griffe puissante faite d’ombres. Taux de critique élevé.",
+            "lgpe": "Attaque avec une griffe puissante faite d’ombres. Taux de critique élevé.",
+            "swsh": "Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé."
+        },
+        "japanese-kana": {
+            "xy": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。",
+            "oras": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。",
+            "sm": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。",
+            "usum": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。",
+            "lgpe": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。",
+            "swsh": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。"
+        },
+        "korean": {
+            "xy": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다.",
+            "oras": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다.",
+            "sm": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다.",
+            "usum": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다.",
+            "lgpe": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다.",
+            "swsh": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Das Ziel wird mit scharfen Klauen aus der Schattenwelt attackiert. Hohe Volltrefferquote.",
+            "oras": "Das Ziel wird mit scharfen Klauen aus der Schattenwelt attackiert. Hohe Volltrefferquote.",
+            "sm": "Das Ziel wird mit scharfen Klauen aus der Schattenwelt attackiert. Hohe Volltrefferquote.",
+            "usum": "Das Ziel wird mit scharfen Klauen aus der Schattenwelt attackiert. Hohe Volltrefferquote.",
+            "lgpe": "Greift das Ziel mit einer scharfen Klaue aus Schatten an. Hohe Volltrefferquote.",
+            "swsh": "Greift das Ziel mit einer scharfen Klaue aus Schatten an. Hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "oras": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "sm": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "usum": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "lgpe": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "swsh": "Ataca con una garra afilada hecha de sombras. Suele ser crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo.",
+            "oras": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo.",
+            "sm": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo.",
+            "usum": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo.",
+            "lgpe": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo.",
+            "swsh": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。",
+            "oras": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。",
+            "sm": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。",
+            "usum": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。",
+            "lgpe": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。",
+            "swsh": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "oras": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "sm": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "usum": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "lgpe": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+            "swsh": "Ataca con una garra afilada hecha de sombras. Suele ser crítico."
+        },
+        "traditional-chinese": {
+            "sm": "用黑影化成的銳利爪子 撕裂對手。 容易擊中要害。",
+            "usum": "用黑影化成的銳利爪子 撕裂對手。 容易擊中要害。",
+            "lgpe": "用黑影化成的銳利爪子 撕裂對手。 容易擊中要害。",
+            "swsh": "用黑影化成的銳利爪子 撕裂對手。 容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "以影子做成的锐爪， 劈开对手。 容易击中要害。",
+            "usum": "以影子做成的锐爪， 劈开对手。 容易击中要害。",
+            "lgpe": "以影子做成的锐爪， 劈开对手。 容易击中要害。",
+            "swsh": "以影子做成的锐爪， 劈开对手。 容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

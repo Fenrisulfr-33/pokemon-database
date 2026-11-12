@@ -1,39 +1,138 @@
 {
-  "_id": 495,
-  "key": "after-you",
-  "name": {
-    "english": "After You",
-    "japanese": "おさきにどうぞ",
-    "chinese": "你先请",
-    "korean": "당신먼저",
-    "german": "Cede Paso",
-    "french": "Galanterie",
-    "italian": "After You",
-    "spanish": "Cortesia"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user helps the target and makes it\nuse its move right after the user.",
-    "black-2-white-2": "The user helps the target and makes it\nuse its move right after the user.",
-    "x-y": "The user helps the target and makes it\nuse its move right after the user.",
-    "omega-ruby-alpha-sapphire": "The user helps the target and makes it\nuse its move right after the user.",
-    "sun-moon": "The user helps the target and makes it use its move\nright after the user.",
-    "ultra-sun-ultra-moon": "The user helps the target and makes it use its move\nright after the user.",
-    "lets-go-pikachu-lets-go-eevee": "The user helps the target and makes it use its move\nright after the user.",
-    "sword-shield": "The user helps the target and makes it use its move\nright after the user."
-  },
-  "effect": {
-    "full": "The target will act next this turn, regardless of Speed or move priority.\nIf the target has already acted this turn, this move will fail.",
-    "shortEffect": "Makes the target act next this turn."
-  },
-  "priority": 0
+    "_id": 495,
+    "key": "after-you",
+    "name": {
+        "japanese-kana": "おさきにどうぞ",
+        "korean": "당신먼저",
+        "traditional-chinese": "您先請",
+        "french": "Après Vous",
+        "german": "Galanterie",
+        "spanish": "Cede Paso",
+        "italian": "Cortesia",
+        "english": "After You",
+        "japanese": "おさきにどうぞ",
+        "simplified-chinese": "您先请",
+        "latin-american-spanish": "Ceda el Paso"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui.",
+            "xy": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui.",
+            "oras": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui.",
+            "sm": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui.",
+            "usum": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui.",
+            "lgpe": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui.",
+            "swsh": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui."
+        },
+        "english": {
+            "bw": "The user helps the target and makes it use its move right after the user.",
+            "b2w2": "The user helps the target and makes it use its move right after the user.",
+            "xy": "The user helps the target and makes it use its move right after the user.",
+            "oras": "The user helps the target and makes it use its move right after the user.",
+            "sm": "The user helps the target and makes it use its move right after the user.",
+            "usum": "The user helps the target and makes it use its move right after the user.",
+            "lgpe": "The user helps the target and makes it use its move right after the user.",
+            "swsh": "The user helps the target and makes it use its move right after the user.",
+            "la": "The user helps the target and makes it use its move right after the user.",
+            "sv": "The user helps the target and makes it use its move right after the user."
+        },
+        "japanese-kana": {
+            "xy": "あいての　こうどうを　サポートして じぶんの　こうどうの　あとに つづけて　うごけるように　する。",
+            "oras": "あいての　こうどうを　サポートして じぶんの　こうどうの　あとに つづけて　うごけるように　する。",
+            "sm": "あいての　こうどうを　サポートして じぶんの　こうどうの　あとに つづけて　うごけるように　する。",
+            "usum": "あいての　こうどうを　サポートして じぶんの　こうどうの　あとに つづけて　うごけるように　する。",
+            "lgpe": "あいての　こうどうを　サポートして じぶんの　こうどうの　あとに つづけて　うごけるように　する。",
+            "swsh": "あいての　こうどうを　サポートして じぶんの　こうどうの　あとに つづけて　うごけるように　する。"
+        },
+        "korean": {
+            "xy": "상대의 행동을 도와서 자신이 행동한 뒤에 바로 움직일 수 있도록 한다.",
+            "oras": "상대의 행동을 도와서 자신이 행동한 뒤에 바로 움직일 수 있도록 한다.",
+            "sm": "상대의 행동을 도와서 자신이 행동한 뒤에 바로 움직일 수 있도록 한다.",
+            "usum": "상대의 행동을 도와서 자신이 행동한 뒤에 바로 움직일 수 있도록 한다.",
+            "lgpe": "상대의 행동을 도와서 자신이 행동한 뒤에 바로 움직일 수 있도록 한다.",
+            "swsh": "상대의 행동을 도와서 자신이 행동한 뒤에 바로 움직일 수 있도록 한다."
+        },
+        "german": {
+            "xy": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt.",
+            "oras": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt.",
+            "sm": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt.",
+            "usum": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt.",
+            "lgpe": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt.",
+            "swsh": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt."
+        },
+        "spanish": {
+            "xy": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "oras": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "sm": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "usum": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "lgpe": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "swsh": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos."
+        },
+        "italian": {
+            "xy": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.",
+            "oras": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.",
+            "sm": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.",
+            "usum": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.",
+            "lgpe": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.",
+            "swsh": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo."
+        },
+        "japanese": {
+            "xy": "相手の　行動を　サポートして 自分の　行動の　あとに 続けて　動けるように　する。",
+            "oras": "相手の　行動を　サポートして 自分の　行動の　あとに 続けて　動けるように　する。",
+            "sm": "相手の　行動を　サポートして 自分の　行動の　あとに 続けて　動けるように　する。",
+            "usum": "相手の　行動を　サポートして 自分の　行動の　あとに 続けて　動けるように　する。",
+            "lgpe": "相手の　行動を　サポートして 自分の　行動の　あとに 続けて　動けるように　する。",
+            "swsh": "相手の　行動を　サポートして 自分の　行動の　あとに 続けて　動けるように　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "oras": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "sm": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "usum": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "lgpe": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+            "swsh": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos."
+        },
+        "traditional-chinese": {
+            "sm": "支援對手， 讓對手緊接在自己之後行動。",
+            "usum": "支援對手， 讓對手緊接在自己之後行動。",
+            "lgpe": "支援對手， 讓對手緊接在自己之後行動。",
+            "swsh": "支援對手， 讓對手緊接在自己之後行動。"
+        },
+        "simplified-chinese": {
+            "sm": "支援我方或对手的行动， 使其紧接着此招式之后行动。",
+            "usum": "支援我方或对手的行动， 使其紧接着此招式之后行动。",
+            "lgpe": "支援我方或对手的行动， 使其紧接着此招式之后行动。",
+            "swsh": "支援我方或对手的行动， 使其紧接着此招式之后行动。"
+        }
+    },
+    "effect": {
+        "full": "The target will act next this turn, regardless of Speed or move priority. If the target has already acted this turn, this move will fail.",
+        "shortEffect": "Makes the target act next this turn."
+    }
 }

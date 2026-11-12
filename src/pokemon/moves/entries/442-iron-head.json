@@ -1,42 +1,141 @@
 {
-  "_id": 442,
-  "key": "iron-head",
-  "name": {
-    "english": "Iron Head",
-    "japanese": "アイアンヘッド",
-    "chinese": "铁头",
-    "korean": "아이언헤드",
-    "german": "Cabeza de Hierro",
-    "french": "Eisenschädel",
-    "italian": "Iron Head",
-    "spanish": "Metaltestata"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The foe slams the\ntarget with its\nsteel-hard head.\nIt may also make the\ntarget flinch.",
-    "platinum": "The foe slams the\ntarget with its\nsteel-hard head.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The foe slams the\ntarget with its\nsteel-hard head.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user slams the target\nwith its steel-hard head.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user slams the target\nwith its steel-hard head.\nIt may also make the target flinch.",
-    "x-y": "The user slams the target\nwith its steel-hard head.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user slams the target\nwith its steel-hard head.\nThis may also make the target flinch.",
-    "sun-moon": "The user slams the target with its steel-hard head.\nThis may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The user slams the target with its steel-hard head.\nThis may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user slams the target with its steel-hard head.\nThis may also make the target flinch.",
-    "sword-shield": "The user slams the target with its steel-hard head.\nThis may also make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 442,
+    "key": "iron-head",
+    "name": {
+        "japanese-kana": "アイアンヘッド",
+        "korean": "아이언헤드",
+        "traditional-chinese": "鐵頭",
+        "french": "Tête de Fer",
+        "german": "Eisenschädel",
+        "spanish": "Cabeza de Hierro",
+        "italian": "Metaltestata",
+        "english": "Iron Head",
+        "japanese": "アイアンヘッド",
+        "simplified-chinese": "铁头",
+        "latin-american-spanish": "Cabeza de Hierro"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The foe slams the target with its steel-hard head. It may also make the target flinch.",
+            "pt": "The foe slams the target with its steel-hard head. It may also make the target flinch.",
+            "hgss": "The foe slams the target with its steel-hard head. It may also make the target flinch.",
+            "bw": "The user slams the target with its steel-hard head. It may also make the target flinch.",
+            "b2w2": "The user slams the target with its steel-hard head. It may also make the target flinch.",
+            "xy": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+            "oras": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+            "sm": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+            "usum": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+            "lgpe": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+            "swsh": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+            "la": "The user slams the target with its steel-hard head.",
+            "sv": "The user slams the target with its steel-hard head. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.",
+            "oras": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.",
+            "sm": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.",
+            "usum": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.",
+            "lgpe": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.",
+            "swsh": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "はがねの　ような かたい　あたまで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "はがねの　ような かたい　あたまで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "はがねの　ような かたい　あたまで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "はがねの　ような かたい　あたまで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "はがねの　ような かたい　あたまで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "はがねの　ような かたい　あたまで　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "강철과 같은 단단한 머리로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "강철과 같은 단단한 머리로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "강철과 같은 단단한 머리로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "강철과 같은 단단한 머리로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "강철과 같은 단단한 머리로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "강철과 같은 단단한 머리로 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Ziel wird durch stahlharten Kopf des Anwenders getroffen und schreckt eventuell zurück.",
+            "oras": "Ziel wird durch stahlharten Kopf des Anwenders getroffen und schreckt eventuell zurück.",
+            "sm": "Ziel wird durch stahlharten Kopf des Anwenders getroffen und schreckt eventuell zurück.",
+            "usum": "Ziel wird durch stahlharten Kopf des Anwenders getroffen und schreckt eventuell zurück.",
+            "lgpe": "Ziel wird durch stahlharten Kopf des Anwenders getroffen und schreckt eventuell zurück.",
+            "swsh": "Ziel wird durch stahlharten Kopf des Anwenders getroffen und schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "oras": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "sm": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "usum": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "lgpe": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "swsh": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo se amedrente."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con la sua testa dura come l’acciaio. Può anche farlo tentennare.",
+            "oras": "Chi la usa colpisce il bersaglio con la sua testa dura come l’acciaio. Può anche farlo tentennare.",
+            "sm": "Chi la usa colpisce il bersaglio con la sua testa dura come l’acciaio. Può anche farlo tentennare.",
+            "usum": "Chi la usa colpisce il bersaglio con la sua testa dura come l’acciaio. Può anche farlo tentennare.",
+            "lgpe": "Chi la usa colpisce il bersaglio con la sua testa dura come l’acciaio. Può anche farlo tentennare.",
+            "swsh": "Chi la usa colpisce il bersaglio con la sua testa dura come l’acciaio. Può anche farlo tentennare."
+        },
+        "japanese": {
+            "xy": "鋼の　ような 硬い　頭で　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "鋼の　ような 硬い　頭で　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "鋼の　ような 硬い　頭で　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "鋼の　ような 硬い　頭で　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "鋼の　ような 硬い　頭で　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "鋼の　ような 硬い　頭で　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "oras": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "sm": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "usum": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "lgpe": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+            "swsh": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo se amedrente."
+        },
+        "traditional-chinese": {
+            "sm": "用如同鋼鐵般 堅硬的頭部進行攻擊。 有時會讓對手畏縮。",
+            "usum": "用如同鋼鐵般 堅硬的頭部進行攻擊。 有時會讓對手畏縮。",
+            "lgpe": "用如同鋼鐵般 堅硬的頭部進行攻擊。 有時會讓對手畏縮。",
+            "swsh": "用如同鋼鐵般 堅硬的頭部進行攻擊。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "用钢铁般 坚硬的头部进行攻击。 有时会使对手畏缩。",
+            "usum": "用钢铁般 坚硬的头部进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用钢铁般 坚硬的头部进行攻击。 有时会使对手畏缩。",
+            "swsh": "用钢铁般 坚硬的头部进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

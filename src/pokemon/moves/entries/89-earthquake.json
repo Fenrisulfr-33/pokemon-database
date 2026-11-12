@@ -1,47 +1,153 @@
 {
-  "_id": 89,
-  "key": "earthquake",
-  "name": {
-    "english": "Earthquake",
-    "japanese": "じしん",
-    "chinese": "地震",
-    "korean": "지진",
-    "german": "Terremoto",
-    "french": "Erdbeben",
-    "italian": "Earthquake",
-    "spanish": "Terremoto"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 100,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Tough but useless\nvs. flying foes.",
-    "crystal": "Tough but useless\nvs. flying foes.",
-    "ruby-sapphire": "A powerful quake, but has\nno effect on flying foes.",
-    "emerald": "A powerful quake, but has\nno effect on flying foes.",
-    "firered-leafgreen": "An earthquake that\nstrikes all POKéMON\nin battle excluding\nthe user.",
-    "diamond-pearl": "The user sets off an\nearthquake that hits\nall the Pokémon in\nthe battle.\n",
-    "platinum": "The user sets off an\nearthquake that hits\nall the Pokémon in\nthe battle.\n",
-    "heartgold-soulsilver": "The user sets off an\nearthquake that hits\nall the Pokémon in\nthe battle.\n",
-    "black-white": "The user sets off an earthquake that\nstrikes those around it.",
-    "black-2-white-2": "The user sets off an earthquake that\nstrikes those around it.",
-    "x-y": "The user sets off an earthquake that\nstrikes every Pokémon around it.\n",
-    "omega-ruby-alpha-sapphire": "The user sets off an earthquake that\nstrikes every Pokémon around it.\n",
-    "sun-moon": "The user sets off an earthquake that strikes every\nPokémon around it.",
-    "ultra-sun-ultra-moon": "The user sets off an earthquake that strikes every\nPokémon around it.",
-    "lets-go-pikachu-lets-go-eevee": "The user sets off an earthquake that strikes every\nPokémon around it.",
-    "sword-shield": "The user sets off an earthquake that strikes every\nPokémon around it."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.\n\nIf the target is in the first turn of dig, this move will hit with double power.",
-    "shortEffect": "Inflicts regular damage and can hit Dig users."
-  },
-  "priority": 0
+    "_id": 89,
+    "key": "earthquake",
+    "name": {
+        "japanese-kana": "じしん",
+        "korean": "지진",
+        "traditional-chinese": "地震",
+        "french": "Séisme",
+        "german": "Erdbeben",
+        "spanish": "Terremoto",
+        "italian": "Terremoto",
+        "english": "Earthquake",
+        "japanese": "じしん",
+        "simplified-chinese": "地震",
+        "latin-american-spanish": "Terremoto"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Ne touche pas les Pokémon sous les effets de Tunnel."
+        },
+        "english": {
+            "gs": "Does not hit Pokémon under the effects of Dig."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Tough but useless vs. flying foes.",
+            "cr": "Tough but useless vs. flying foes.",
+            "rs": "A powerful quake, but has no effect on flying foes.",
+            "em": "A powerful quake, but has no effect on flying foes.",
+            "frlg": "An earthquake that strikes all POKéMON in battle excluding the user.",
+            "dp": "The user sets off an earthquake that hits all the Pokémon in the battle.",
+            "pt": "The user sets off an earthquake that hits all the Pokémon in the battle.",
+            "hgss": "The user sets off an earthquake that hits all the Pokémon in the battle.",
+            "bw": "The user sets off an earthquake that strikes those around it.",
+            "b2w2": "The user sets off an earthquake that strikes those around it.",
+            "xy": "The user sets off an earthquake that strikes every Pokémon around it.",
+            "oras": "The user sets off an earthquake that strikes every Pokémon around it.",
+            "sm": "The user sets off an earthquake that strikes every Pokémon around it.",
+            "usum": "The user sets off an earthquake that strikes every Pokémon around it.",
+            "lgpe": "The user sets off an earthquake that strikes every Pokémon around it.",
+            "swsh": "The user sets off an earthquake that strikes every Pokémon around it.",
+            "la": "The user sets off an earthquake that strikes every Pokémon around it.",
+            "sv": "The user sets off an earthquake that strikes every Pokémon around it."
+        },
+        "french": {
+            "bw": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.",
+            "xy": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.",
+            "oras": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.",
+            "sm": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.",
+            "usum": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.",
+            "lgpe": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.",
+            "swsh": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui."
+        },
+        "japanese-kana": {
+            "xy": "じしんの　しょうげきで　じぶんの まわりに　いるものを　こうげきする。",
+            "oras": "じしんの　しょうげきで　じぶんの まわりに　いるものを　こうげきする。",
+            "sm": "じしんの　しょうげきで　じぶんの まわりに　いるものを　こうげきする。",
+            "usum": "じしんの　しょうげきで　じぶんの まわりに　いるものを　こうげきする。",
+            "lgpe": "じしんの　しょうげきで　じぶんの まわりに　いるものを　こうげきする。",
+            "swsh": "じしんの　しょうげきで　じぶんの まわりに　いるものを　こうげきする。"
+        },
+        "korean": {
+            "xy": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.",
+            "oras": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.",
+            "sm": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.",
+            "usum": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.",
+            "lgpe": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.",
+            "swsh": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다."
+        },
+        "german": {
+            "xy": "Ein mächtiges Beben, das die anderen Pokémon in der Nähe des Anwenders trifft.",
+            "oras": "Ein mächtiges Beben, das die anderen Pokémon in der Nähe des Anwenders trifft.",
+            "sm": "Ein mächtiges Beben, das die anderen Pokémon in der Nähe des Anwenders trifft.",
+            "usum": "Ein mächtiges Beben, das die anderen Pokémon in der Nähe des Anwenders trifft.",
+            "lgpe": "Ein mächtiges Beben, das die anderen Pokémon in der Nähe des Anwenders trifft.",
+            "swsh": "Ein mächtiges Beben, das alle Pokémon im Umkreis trifft."
+        },
+        "spanish": {
+            "xy": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "oras": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "sm": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "usum": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "lgpe": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "swsh": "Un terremoto que afecta a todos los Pokémon que estén a su alrededor."
+        },
+        "italian": {
+            "xy": "Chi la usa provoca un potente sisma che colpisce i Pokémon che ha intorno.",
+            "oras": "Chi la usa provoca un potente sisma che colpisce i Pokémon che ha intorno.",
+            "sm": "Chi la usa provoca un potente sisma che colpisce i Pokémon che ha intorno.",
+            "usum": "Chi la usa provoca un potente sisma che colpisce i Pokémon che ha intorno.",
+            "lgpe": "Chi la usa provoca un potente sisma che colpisce i Pokémon che ha intorno.",
+            "swsh": "Chi la usa provoca un potente sisma che colpisce i Pokémon che ha intorno."
+        },
+        "japanese": {
+            "xy": "地震の　衝撃で　自分の 周りに　いるものを　攻撃する。",
+            "oras": "地震の　衝撃で　自分の 周りに　いるものを　攻撃する。",
+            "sm": "地震の　衝撃で　自分の 周りに　いるものを　攻撃する。",
+            "usum": "地震の　衝撃で　自分の 周りに　いるものを　攻撃する。",
+            "lgpe": "地震の　衝撃で　自分の 周りに　いるものを　攻撃する。",
+            "swsh": "地震の　衝撃で　自分の 周りに　いるものを　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "oras": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "sm": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "usum": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "lgpe": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+            "swsh": "Un terremoto que afecta a todos los Pokémon que estén a su alrededor."
+        },
+        "traditional-chinese": {
+            "sm": "用地震的衝擊， 攻擊自己周圍所有的寶可夢。",
+            "usum": "用地震的衝擊， 攻擊自己周圍所有的寶可夢。",
+            "lgpe": "用地震的衝擊， 攻擊自己周圍所有的寶可夢。",
+            "swsh": "用地震的衝擊， 攻擊自己周圍所有的寶可夢。"
+        },
+        "simplified-chinese": {
+            "sm": "利用地震的冲击， 攻击自己周围所有的宝可梦。",
+            "usum": "利用地震的冲击， 攻击自己周围所有的宝可梦。",
+            "lgpe": "利用地震的冲击， 攻击自己周围所有的宝可梦。",
+            "swsh": "利用地震的冲击， 攻击自己周围所有的宝可梦。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. If the target is in the first turn of Dig, this move will hit with double power.",
+        "shortEffect": "Inflicts regular damage and can hit Dig users."
+    }
 }

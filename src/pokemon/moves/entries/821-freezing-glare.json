@@ -1,32 +1,91 @@
 {
-  "_id": 821,
-  "key": "freezing-glare",
-  "name": {
-    "english": "Freezing Glare",
-    "japanese": "いてつくしせん",
-    "chinese": "冰冷視線",
-    "korean": "얼어붙는시선",
-    "german": "Mirada Heladora",
-    "french": "Eisiger Blick",
-    "italian": "Freezing Glare",
-    "spanish": "Sguardo Gelido"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user shoots its psychic power from its eyes\nto attack. This may also leave the target frozen."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 821,
+    "key": "freezing-glare",
+    "name": {
+        "japanese-kana": "いてつくしせん",
+        "korean": "얼어붙는시선",
+        "traditional-chinese": "冰冷視線",
+        "french": "Regard Glaçant",
+        "german": "Eisiger Blick",
+        "spanish": "Mirada Heladora",
+        "italian": "Sguardo Gelido",
+        "english": "Freezing Glare",
+        "japanese": "いてつくしせん",
+        "simplified-chinese": "冰冷视线",
+        "latin-american-spanish": "Mirada Glacial"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "freeze",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "dp": "N’interagit pas avec Grêle."
+        },
+        "english": {
+            "dp": "Does not interact with Hail."
+        }
+    },
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "りょうめから　サイコパワーを うちだして　こうげきする。 こおり　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "swsh": "두 눈에서 사이코 파워를 발사해서 공격한다. 얼음 상태로 만들 때가 있다."
+        },
+        "traditional-chinese": {
+            "swsh": "從雙眼釋放出精神力量進行攻擊。 有時會讓對手陷入冰凍狀態。"
+        },
+        "french": {
+            "swsh": "Les yeux du lanceur tirent des rayons psychiques. Peut aussi geler l’ennemi."
+        },
+        "german": {
+            "swsh": "Der Anwender greift das Ziel mit Psycho-Kräften an, die er aus seinen Augen abschießt. Das Ziel friert eventuell ein."
+        },
+        "spanish": {
+            "swsh": "A través de sus ojos emite poderes psíquicos con los que ataca al objetivo, al que puede llegar a congelar."
+        },
+        "italian": {
+            "swsh": "Il Pokémon attacca rilasciando energia psichica dagli occhi. Può congelare il bersaglio."
+        },
+        "english": {
+            "swsh": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.",
+            "la": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.",
+            "sv": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen."
+        },
+        "japanese": {
+            "swsh": "両目から　サイコパワーを 撃ちだして　攻撃する。 こおり状態に　することが　ある。"
+        },
+        "simplified-chinese": {
+            "swsh": "从双眼发射精神力量进行攻击。 有时会让对手陷入冰冻状态。"
+        },
+        "latin-american-spanish": {
+            "swsh": "A través de sus ojos emite poderes psíquicos con los que ataca al objetivo, al que puede llegar a congelar."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to freeze the target. During Hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.",
+        "shortEffect": "Has a chance to freeze the target."
+    }
 }

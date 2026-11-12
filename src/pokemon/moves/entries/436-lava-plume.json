@@ -1,42 +1,141 @@
 {
-  "_id": 436,
-  "key": "lava-plume",
-  "name": {
-    "english": "Lava Plume",
-    "japanese": "ふんえん",
-    "chinese": "喷烟",
-    "korean": "분연",
-    "german": "Humareda",
-    "french": "Flammensturm",
-    "italian": "Lava Plume",
-    "spanish": "Lavasbuffo"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "An inferno of scarlet\nflames washes over\nall Pokémon in battle.\nIt may also inflict\nburns.",
-    "platinum": "An inferno of scarlet\nflames washes over\nall Pokémon in battle.\nIt may also inflict\nburns.",
-    "heartgold-soulsilver": "An inferno of scarlet\nflames washes over\nall Pokémon in battle.\nIt may also inflict\nburns.",
-    "black-white": "An inferno of scarlet flames torches\neverything around the user. It may\nleave targets with a burn.",
-    "black-2-white-2": "An inferno of scarlet flames torches\neverything around the user. It may\nleave targets with a burn.",
-    "x-y": "The user torches everything around it\nwith an inferno of scarlet flames.\nThis may also leave those hit with a burn.",
-    "omega-ruby-alpha-sapphire": "The user torches everything around it\nwith an inferno of scarlet flames.\nThis may also leave those hit with a burn.",
-    "sun-moon": "The user torches everything around it in an inferno\nof scarlet flames. This may also leave those it hits\nwith a burn.",
-    "ultra-sun-ultra-moon": "The user torches everything around it in an inferno\nof scarlet flames. This may also leave those it hits\nwith a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user torches everything around it in an inferno\nof scarlet flames. This may also leave those it hits\nwith a burn.",
-    "sword-shield": "The user torches everything around it in an inferno\nof scarlet flames. This may also leave those it hits\nwith a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 436,
+    "key": "lava-plume",
+    "name": {
+        "japanese-kana": "ふんえん",
+        "korean": "분연",
+        "traditional-chinese": "噴煙",
+        "french": "Ébullilave",
+        "german": "Flammensturm",
+        "spanish": "Humareda",
+        "italian": "Lavasbuffo",
+        "english": "Lava Plume",
+        "japanese": "ふんえん",
+        "simplified-chinese": "喷烟",
+        "latin-american-spanish": "Bomba de Lava"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "tough",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.",
+            "pt": "An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.",
+            "hgss": "An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.",
+            "bw": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
+            "b2w2": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
+            "xy": "The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.",
+            "oras": "The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.",
+            "sm": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+            "usum": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+            "lgpe": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+            "swsh": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+            "la": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+            "sv": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn."
+        },
+        "french": {
+            "bw": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi brûler.",
+            "xy": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.",
+            "oras": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.",
+            "sm": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.",
+            "usum": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.",
+            "lgpe": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.",
+            "swsh": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler."
+        },
+        "japanese-kana": {
+            "xy": "まっかな　ほのおで　じぶんの まわりに　いるものを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "まっかな　ほのおで　じぶんの まわりに　いるものを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "まっかな　ほのおで　じぶんの まわりに　いるものを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "まっかな　ほのおで　じぶんの まわりに　いるものを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "まっかな　ほのおで　じぶんの まわりに　いるものを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "まっかな　ほのおで　じぶんの まわりに　いるものを　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "새빨간 불꽃으로 자신의 주위에 있는 포켓몬을 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "새빨간 불꽃으로 자신의 주위에 있는 포켓몬을 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "새빨간 불꽃으로 자신의 주위에 있는 포켓몬을 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "새빨간 불꽃으로 자신의 주위에 있는 포켓몬을 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "새빨간 불꽃으로 자신의 주위에 있는 포켓몬을 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "새빨간 불꽃으로 자신의 주위에 있는 포켓몬을 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.",
+            "oras": "Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.",
+            "sm": "Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.",
+            "usum": "Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.",
+            "lgpe": "Anwender greift alles in seiner Umgebung mit tiefroten Flammen an. Ziele erleiden eventuell Verbrennungen.",
+            "swsh": "Anwender greift alle Pokémon im Umkreis mit tiefroten Flammen an. Ziele erleiden eventuell Verbrennungen."
+        },
+        "spanish": {
+            "xy": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "oras": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "sm": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "usum": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "lgpe": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "swsh": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia fiamme scarlatte su tutti i Pokémon nelle vicinanze, danneggiandoli. Può anche scottarli.",
+            "oras": "Chi la usa lancia fiamme scarlatte su tutti i Pokémon nelle vicinanze, danneggiandoli. Può anche scottarli.",
+            "sm": "Chi la usa lancia fiamme scarlatte su tutti i Pokémon nelle vicinanze, danneggiandoli. Può anche scottarli.",
+            "usum": "Chi la usa lancia fiamme scarlatte su tutti i Pokémon nelle vicinanze, danneggiandoli. Può anche scottarli.",
+            "lgpe": "Chi la usa lancia fiamme scarlatte su tutti i Pokémon nelle vicinanze, danneggiandoli. Può anche scottarli.",
+            "swsh": "Chi la usa lancia fiamme scarlatte su tutti i Pokémon nelle vicinanze, danneggiandoli. Può anche scottarli."
+        },
+        "japanese": {
+            "xy": "真っ赤な　炎で　自分の 周りに　いるものを　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "真っ赤な　炎で　自分の 周りに　いるものを　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "真っ赤な　炎で　自分の 周りに　いるものを　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "真っ赤な　炎で　自分の 周りに　いるものを　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "真っ赤な　炎で　自分の 周りに　いるものを　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "真っ赤な　炎で　自分の 周りに　いるものを　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "oras": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "sm": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "usum": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "lgpe": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+            "swsh": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar."
+        },
+        "traditional-chinese": {
+            "sm": "用熊熊烈火 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入灼傷狀態。",
+            "usum": "用熊熊烈火 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "用熊熊烈火 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "用熊熊烈火 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用熊熊烈火 攻击自己周围所有的宝可梦。 有时会陷入灼伤状态。",
+            "usum": "用熊熊烈火 攻击自己周围所有的宝可梦。 有时会陷入灼伤状态。",
+            "lgpe": "用熊熊烈火 攻击自己周围所有的宝可梦。 有时会陷入灼伤状态。",
+            "swsh": "用熊熊烈火 攻击自己周围所有的宝可梦。 有时会陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

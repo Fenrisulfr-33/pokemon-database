@@ -1,42 +1,145 @@
 {
-  "_id": 412,
-  "key": "energy-ball",
-  "name": {
-    "english": "Energy Ball",
-    "japanese": "エナジーボール",
-    "chinese": "能源球",
-    "korean": "에너지볼",
-    "german": "Energibola",
-    "french": "Energieball",
-    "italian": "Energy Ball",
-    "spanish": "Energipalla"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user draws power\nfrom nature and\nfires it at the foe.\nIt may also lower the\ntarget’s Sp. Def.",
-    "platinum": "The user draws power\nfrom nature and\nfires it at the foe.\nIt may also lower the\ntarget’s Sp. Def.",
-    "heartgold-soulsilver": "The user draws power\nfrom nature and\nfires it at the foe.\nIt may also lower the\ntarget’s Sp. Def.",
-    "black-white": "The user draws power from nature and\nfires it at the target.\nIt may also lower the target’s Sp. Def.",
-    "black-2-white-2": "The user draws power from nature and\nfires it at the target.\nIt may also lower the target’s Sp. Def.",
-    "x-y": "The user draws power from nature and\nfires it at the target.\nThis may also lower the target’s Sp. Def.",
-    "omega-ruby-alpha-sapphire": "The user draws power from nature and\nfires it at the target.\nThis may also lower the target’s Sp. Def.",
-    "sun-moon": "The user draws power from nature and fires it at the\ntarget. This may also lower the target’s Sp. Def stat.",
-    "ultra-sun-ultra-moon": "The user draws power from nature and fires it at the\ntarget. This may also lower the target’s Sp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user draws power from nature and fires it at the\ntarget. This may also lower the target’s Sp. Def stat.",
-    "sword-shield": "The user draws power from nature and fires it at the\ntarget. This may also lower the target’s Sp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 412,
+    "key": "energy-ball",
+    "name": {
+        "japanese-kana": "エナジーボール",
+        "korean": "에너지볼",
+        "traditional-chinese": "能量球",
+        "french": "Éco-Sphère",
+        "german": "Energieball",
+        "spanish": "Energibola",
+        "italian": "Energipalla",
+        "english": "Energy Ball",
+        "japanese": "エナジーボール",
+        "simplified-chinese": "能量球",
+        "latin-american-spanish": "Bola de Energía"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {
+        "xy": {
+            "power": 80
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def.",
+            "pt": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def.",
+            "hgss": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def.",
+            "bw": "The user draws power from nature and fires it at the target. It may also lower the target’s Sp. Def.",
+            "b2w2": "The user draws power from nature and fires it at the target. It may also lower the target’s Sp. Def.",
+            "xy": "The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def.",
+            "oras": "The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def.",
+            "sm": "The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def stat.",
+            "usum": "The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def stat.",
+            "lgpe": "The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def stat.",
+            "swsh": "The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def stat.",
+            "la": "The user draws power from nature and fires it at the target. This may also lower the target’s defensive stats.",
+            "sv": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat."
+        },
+        "french": {
+            "bw": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "xy": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "oras": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "sm": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "usum": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "lgpe": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "swsh": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "しぜんから　あつめた いのちの　ちからを　はっしゃする。 あいての　とくぼうを　さげることがある。",
+            "oras": "しぜんから　あつめた いのちの　ちからを　はっしゃする。 あいての　とくぼうを　さげることがある。",
+            "sm": "しぜんから　あつめた いのちの　ちからを　はっしゃする。 あいての　とくぼうを　さげることがある。",
+            "usum": "しぜんから　あつめた いのちの　ちからを　はっしゃする。 あいての　とくぼうを　さげることがある。",
+            "lgpe": "しぜんから　あつめた いのちの　ちからを　はっしゃする。 あいての　とくぼうを　さげることがある。",
+            "swsh": "しぜんから　あつめた いのちの　ちからを　はっしゃする。 あいての　とくぼうを　さげることがある。"
+        },
+        "korean": {
+            "xy": "자연으로부터 모은 생명의 힘을 발사한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "자연으로부터 모은 생명의 힘을 발사한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "자연으로부터 모은 생명의 힘을 발사한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "자연으로부터 모은 생명의 힘을 발사한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "자연으로부터 모은 생명의 힘을 발사한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "자연으로부터 모은 생명의 힘을 발사한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender zieht Kraft aus der Natur und feuert sie auf das Ziel. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "oras": "Anwender zieht Kraft aus der Natur und feuert sie auf das Ziel. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "sm": "Anwender zieht Kraft aus der Natur und feuert sie auf das Ziel. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "usum": "Anwender zieht Kraft aus der Natur und feuert sie auf das Ziel. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "lgpe": "Anwender zieht Kraft aus der Natur und feuert sie auf das Ziel. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "swsh": "Anwender zieht Kraft aus der Natur und feuert sie auf das Ziel. Senkt eventuell Spezial-Verteidigung des Zieles."
+        },
+        "spanish": {
+            "xy": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "oras": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "sm": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "usum": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.",
+            "oras": "Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.",
+            "sm": "Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.",
+            "usum": "Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.",
+            "lgpe": "Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.",
+            "swsh": "Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale."
+        },
+        "japanese": {
+            "xy": "自然から　集めた 命の力を　発射する。 相手の　特防を　さげることがある。",
+            "oras": "自然から　集めた 命の力を　発射する。 相手の　特防を　さげることがある。",
+            "sm": "自然から　集めた 命の力を　発射する。 相手の　特防を　さげることがある。",
+            "usum": "自然から　集めた 命の力を　発射する。 相手の　特防を　さげることがある。",
+            "lgpe": "自然から　集めた 命の力を　発射する。 相手の　特防を　さげることがある。",
+            "swsh": "自然から　集めた 命の力を　発射する。 相手の　特防を　さげることがある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "oras": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "sm": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "usum": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "發射從大自然匯聚而來的生命力量。 有時會降低對手的特防。",
+            "usum": "發射從大自然匯聚而來的生命力量。 有時會降低對手的特防。",
+            "lgpe": "發射從大自然匯聚而來的生命力量。 有時會降低對手的特防。",
+            "swsh": "發射從大自然匯聚而來的生命力量。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "发射从自然收集的生命力量。 有时会降低对手的特防。",
+            "usum": "发射从自然收集的生命力量。 有时会降低对手的特防。",
+            "lgpe": "发射从自然收集的生命力量。 有时会降低对手的特防。",
+            "swsh": "发射从自然收集的生命力量。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

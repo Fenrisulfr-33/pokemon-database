@@ -1,45 +1,151 @@
 {
-  "_id": 280,
-  "key": "brick-break",
-  "name": {
-    "english": "Brick Break",
-    "japanese": "かわらわり",
-    "chinese": "劈瓦",
-    "korean": "깨트리다",
-    "german": "Demolición",
-    "french": "Durchbruch",
-    "italian": "Brick Break",
-    "spanish": "Breccia"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Destroys barriers such as\nREFLECT and causes damage.",
-    "emerald": "Destroys barriers such as\nREFLECT and causes damage.",
-    "firered-leafgreen": "An attack that also\nbreaks any barrier\nlike LIGHT SCREEN\nand REFLECT.",
-    "diamond-pearl": "The user attacks with\ntough fists, etc. It\ncan also break any\nbarrier such as Light\nScreen and Reflect.",
-    "platinum": "The user attacks with\ntough fists, etc. It\ncan also break any\nbarrier such as Light\nScreen and Reflect.",
-    "heartgold-soulsilver": "The user attacks with\ntough fists, etc. It\ncan also break any\nbarrier such as Light\nScreen and Reflect.",
-    "black-white": "The user attacks with a swift chop. It\ncan also break any barrier such as Light\nScreen and Reflect.",
-    "black-2-white-2": "The user attacks with a swift chop. It\ncan also break any barrier such as Light\nScreen and Reflect.",
-    "x-y": "The user attacks with a swift chop. It\ncan also break barriers, such as Light\nScreen and Reflect.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a swift chop. It\ncan also break barriers, such as Light\nScreen and Reflect.",
-    "sun-moon": "The user attacks with a swift chop. It can also break\nbarriers, such as Light Screen and Reflect.",
-    "ultra-sun-ultra-moon": "The user attacks with a swift chop. It can also break\nbarriers, such as Light Screen and Reflect.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a swift chop. It can also break\nbarriers, such as Light Screen and Reflect.",
-    "sword-shield": "The user attacks with a swift chop. It can also break\nbarriers, such as Light Screen and Reflect."
-  },
-  "effect": {
-    "full": "Destroys any light screen or reflect on the target's side of the field, then inflicts regular damage.",
-    "shortEffect": "Destroys Reflect and Light Screen."
-  },
-  "priority": 0
+    "_id": 280,
+    "key": "brick-break",
+    "name": {
+        "japanese-kana": "かわらわり",
+        "korean": "깨뜨리다",
+        "traditional-chinese": "劈瓦",
+        "french": "Casse-Brique",
+        "german": "Durchbruch",
+        "spanish": "Demolición",
+        "italian": "Breccia",
+        "english": "Brick Break",
+        "japanese": "かわらわり",
+        "simplified-chinese": "劈瓦",
+        "latin-american-spanish": "Karatazo"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "bw": "Les barrières sont détruites même si cette capacité a no effect."
+        },
+        "english": {
+            "bw": "The barriers are destroyed even if this move has no effect."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Destroys barriers such as REFLECT and causes damage.",
+            "em": "Destroys barriers such as REFLECT and causes damage.",
+            "frlg": "An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.",
+            "dp": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
+            "pt": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
+            "hgss": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
+            "bw": "The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.",
+            "b2w2": "The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.",
+            "xy": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+            "oras": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+            "sm": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+            "usum": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+            "lgpe": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+            "swsh": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+            "la": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+            "sv": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect."
+        },
+        "french": {
+            "bw": "Une attaque avec le tranchant de la main. Permet aussi de  briser les barrières comme Mur Lumière et Protection.",
+            "xy": "Une attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.",
+            "oras": "Une attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.",
+            "sm": "Une attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.",
+            "usum": "Une attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.",
+            "lgpe": "Une attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.",
+            "swsh": "Le lanceur attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection."
+        },
+        "japanese-kana": {
+            "xy": "しゅとうを　いきおいよく　ふりおろして あいてを　こうげきする。ひかりのかべや リフレクターも　はかいできる。",
+            "oras": "しゅとうを　いきおいよく　ふりおろして あいてを　こうげきする。ひかりのかべや リフレクターも　はかいできる。",
+            "sm": "しゅとうを　いきおいよく　ふりおろして あいてを　こうげきする。　ひかりのかべや リフレクター　なども　はかいできる。",
+            "usum": "しゅとうを　いきおいよく　ふりおろして あいてを　こうげきする。　ひかりのかべや リフレクター　なども　はかいできる。",
+            "lgpe": "しゅとうを　いきおいよく　ふりおろして あいてを　こうげきする。　ひかりのかべや リフレクター　なども　はかいできる。",
+            "swsh": "しゅとうを　いきおいよく　ふりおろして あいてを　こうげきする。　ひかりのかべや リフレクター　なども　はかいできる。"
+        },
+        "korean": {
+            "xy": "수도로 기세 좋게 내려쳐서 상대를 공격한다. 빛의장막이나 리플렉터도 파괴할 수 있다.",
+            "oras": "수도로 기세 좋게 내려쳐서 상대를 공격한다. 빛의장막이나 리플렉터도 파괴할 수 있다.",
+            "sm": "수도로 기세 좋게 내려쳐서 상대를 공격한다. 빛의장막이나 리플렉터 등도 파괴할 수 있다.",
+            "usum": "수도로 기세 좋게 내려쳐서 상대를 공격한다. 빛의장막이나 리플렉터 등도 파괴할 수 있다.",
+            "lgpe": "수도로 기세 좋게 내려쳐서 상대를 공격한다. 빛의장막이나 리플렉터 등도 파괴할 수 있다.",
+            "swsh": "수도로 기세 좋게 내려쳐서 상대를 공격한다. 빛의장막이나 리플렉터 등도 파괴할 수 있다."
+        },
+        "german": {
+            "xy": "Ein beherzter Handkantenschlag. Durchbricht Barrieren wie Lichtschild und Reflektor.",
+            "oras": "Ein beherzter Handkantenschlag. Durchbricht Barrieren wie Lichtschild und Reflektor.",
+            "sm": "Ein beherzter Handkantenschlag. Durchbricht Barrieren wie Lichtschild und Reflektor.",
+            "usum": "Ein beherzter Handkantenschlag. Durchbricht Barrieren wie Lichtschild und Reflektor.",
+            "lgpe": "Ein beherzter Handkantenschlag. Durchbricht Barrieren wie Lichtschild und Reflektor.",
+            "swsh": "Ein beherzter Handkantenschlag. Durchbricht Barrieren wie Lichtschild und Reflektor."
+        },
+        "spanish": {
+            "xy": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "oras": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "sm": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "usum": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "lgpe": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "swsh": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una mano e rompe barriere come Riflesso e Schermoluce.",
+            "oras": "Colpisce il bersaglio con una mano e rompe barriere come Riflesso e Schermoluce.",
+            "sm": "Colpisce il bersaglio con una mano e rompe barriere come Riflesso e Schermoluce.",
+            "usum": "Colpisce il bersaglio con una mano e rompe barriere come Riflesso e Schermoluce.",
+            "lgpe": "Colpisce il bersaglio con una mano e rompe barriere come Riflesso e Schermoluce.",
+            "swsh": "Colpisce il bersaglio con una mano e rompe barriere come Riflesso e Schermoluce."
+        },
+        "japanese": {
+            "xy": "手刀を　勢いよく　振りおろして 相手を　攻撃する。ひかりのかべや リフレクターも　破壊できる。",
+            "oras": "手刀を　勢いよく　振りおろして 相手を　攻撃する。ひかりのかべや リフレクターも　破壊できる。",
+            "sm": "手刀を　勢いよく　振りおろして 相手を　攻撃する。　ひかりのかべや リフレクター　なども　破壊できる。",
+            "usum": "手刀を　勢いよく　振りおろして 相手を　攻撃する。　ひかりのかべや リフレクター　なども　破壊できる。",
+            "lgpe": "手刀を　勢いよく　振りおろして 相手を　攻撃する。　ひかりのかべや リフレクター　なども　破壊できる。",
+            "swsh": "手刀を　勢いよく　振りおろして 相手を　攻撃する。　ひかりのかべや リフレクター　なども　破壊できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "oras": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "sm": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "usum": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "lgpe": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.",
+            "swsh": "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo."
+        },
+        "traditional-chinese": {
+            "sm": "猛烈地揮下手刀 攻擊對手。還可以破壞 光牆和反射壁等。",
+            "usum": "猛烈地揮下手刀 攻擊對手。還可以破壞 光牆和反射壁等。",
+            "lgpe": "猛烈地揮下手刀 攻擊對手。還可以破壞 光牆和反射壁等。",
+            "swsh": "猛烈地揮下手刀 攻擊對手。還可以破壞 光牆和反射壁等。"
+        },
+        "simplified-chinese": {
+            "sm": "将手刀猛烈地挥下攻击对手。 还可以破坏光墙和反射壁等。",
+            "usum": "将手刀猛烈地挥下攻击对手。 还可以破坏光墙和反射壁等。",
+            "lgpe": "将手刀猛烈地挥下攻击对手。 还可以破坏光墙和反射壁等。",
+            "swsh": "将手刀猛烈地挥下攻击对手。 还可以破坏光墙和反射壁等。"
+        }
+    },
+    "effect": {
+        "full": "Destroys any Light Screen or Reflect on the target’s side of the field, then inflicts regular damage.",
+        "shortEffect": "Destroys Reflect and Light Screen."
+    }
 }

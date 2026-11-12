@@ -1,47 +1,146 @@
 {
-  "_id": 195,
-  "key": "perish-song",
-  "name": {
-    "english": "Perish Song",
-    "japanese": "ほろびのうた",
-    "chinese": "灭亡之歌",
-    "korean": "멸망의노래",
-    "german": "Canto Mortal",
-    "french": "Abgesang",
-    "italian": "Perish Song",
-    "spanish": "Ultimocanto"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "all-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Both user and foe\nfaint in 3 turns.",
-    "crystal": "Both user and foe\nfaint in 3 turns.",
-    "ruby-sapphire": "Any POKéMON hearing this\nsong faints in 3 turns.",
-    "emerald": "Any POKéMON hearing this\nsong faints in 3 turns.",
-    "firered-leafgreen": "Any battler that\nhears this faints\nin three turns\nunless it switches.",
-    "diamond-pearl": "Any Pokémon that\nhears this song\nfaints in three turns\nunless it switches\nout of battle.",
-    "platinum": "Any Pokémon that\nhears this song\nfaints in three turns\nunless it switches\nout of battle.",
-    "heartgold-soulsilver": "Any Pokémon that\nhears this song\nfaints in three turns,\nunless it switches\nout of battle.",
-    "black-white": "Any Pokémon that hears this song\nfaints in three turns, unless it switches\nout of battle.",
-    "black-2-white-2": "Any Pokémon that hears this song\nfaints in three turns, unless it switches\nout of battle.",
-    "x-y": "Any Pokémon that hears this song\nfaints in three turns, unless it switches\nout of battle.",
-    "omega-ruby-alpha-sapphire": "Any Pokémon that hears this song\nfaints in three turns, unless it switches\nout of battle.",
-    "sun-moon": "Any Pokémon that hears this song faints in three\nturns, unless it switches out of battle.",
-    "ultra-sun-ultra-moon": "Any Pokémon that hears this song faints in three\nturns, unless it switches out of battle.",
-    "lets-go-pikachu-lets-go-eevee": "Any Pokémon that hears this song faints in three\nturns, unless it switches out of battle.",
-    "sword-shield": "Any Pokémon that hears this song faints in three\nturns, unless it switches out of battle."
-  },
-  "effect": {
-    "full": "Every Pokémon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one.  When a Pokémon's counter reaches zero, that Pokémon faints.  A Pokémon that leaves the field will lose its counter; its replacement does not inherit the effect, and other Pokémon's counters remain.\n\nThis effect is passed on by baton pass.\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "User and target both faint after three turns."
-  },
-  "priority": 0
+    "_id": 195,
+    "key": "perish-song",
+    "name": {
+        "japanese-kana": "ほろびのうた",
+        "korean": "멸망의노래",
+        "traditional-chinese": "滅亡之歌",
+        "french": "Requiem",
+        "german": "Abgesang",
+        "spanish": "Canto Mortal",
+        "italian": "Ultimocanto",
+        "english": "Perish Song",
+        "japanese": "ほろびのうた",
+        "simplified-chinese": "终焉之歌",
+        "latin-american-spanish": "Canto Mortal"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "all-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "perish-song",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 4,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Both user and foe faint in 3 turns.",
+            "cr": "Both user and foe faint in 3 turns.",
+            "rs": "Any POKéMON hearing this song faints in 3 turns.",
+            "em": "Any POKéMON hearing this song faints in 3 turns.",
+            "frlg": "Any battler that hears this faints in three turns unless it switches.",
+            "dp": "Any Pokémon that hears this song faints in three turns unless it switches out of battle.",
+            "pt": "Any Pokémon that hears this song faints in three turns unless it switches out of battle.",
+            "hgss": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "bw": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "b2w2": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "xy": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "oras": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "sm": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "usum": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "lgpe": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "swsh": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "la": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+            "sv": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle."
+        },
+        "french": {
+            "bw": "Tout Pokémon qui entend ce requiem est K.O. dans 3 tours à moins qu’il ne quitte le combat.",
+            "xy": "Tout Pokémon qui entend ce requiem est K.O. dans trois tours à moins qu’il ne quitte le combat.",
+            "oras": "Tout Pokémon qui entend ce requiem est K.O. dans trois tours à moins qu’il ne soit remplacé.",
+            "sm": "Tout Pokémon qui entend ce requiem est K.O. dans trois tours à moins qu’il ne soit remplacé.",
+            "usum": "Tout Pokémon qui entend ce requiem est K.O. dans trois tours à moins qu’il ne soit remplacé.",
+            "lgpe": "Tout Pokémon qui entend ce requiem est K.O. dans trois tours à moins qu’il ne soit remplacé.",
+            "swsh": "Tout Pokémon qui entend ce requiem est K.O. dans trois tours à moins qu’il ne soit remplacé."
+        },
+        "japanese-kana": {
+            "xy": "うたを　きいた　ポケモンは ３ターン　たつと　ひんしに　なる。 こうたいすると　こうかは　なくなる。",
+            "oras": "うたを　きいた　ポケモンは ３ターン　たつと　ひんしに　なる。 こうたいすると　こうかは　なくなる。",
+            "sm": "うたを　きいた　ポケモンは ３ターン　たつと　ひんしに　なる。 こうたいすると　こうかは　なくなる。",
+            "usum": "うたを　きいた　ポケモンは ３ターン　たつと　ひんしに　なる。 こうたいすると　こうかは　なくなる。",
+            "lgpe": "うたを　きいた　ポケモンは ３ターン　たつと　ひんしに　なる。 こうたいすると　こうかは　なくなる。",
+            "swsh": "うたを　きいた　ポケモンは ３ターン　たつと　ひんしに　なる。 こうたいすると　こうかは　なくなる。"
+        },
+        "korean": {
+            "xy": "노래를 들은 포켓몬은 3턴이 지나면 기절한다. 교체되면 효과가 없어진다.",
+            "oras": "노래를 들은 포켓몬은 3턴이 지나면 기절한다. 교체되면 효과가 없어진다.",
+            "sm": "노래를 들은 포켓몬은 3턴이 지나면 기절한다. 교체되면 효과가 없어진다.",
+            "usum": "노래를 들은 포켓몬은 3턴이 지나면 기절한다. 교체되면 효과가 없어진다.",
+            "lgpe": "노래를 들은 포켓몬은 3턴이 지나면 기절한다. 교체되면 효과가 없어진다.",
+            "swsh": "노래를 들은 포켓몬은 3턴이 지나면 기절한다. 교체되면 효과가 없어진다."
+        },
+        "german": {
+            "xy": "Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.",
+            "oras": "Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.",
+            "sm": "Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.",
+            "usum": "Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.",
+            "lgpe": "Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.",
+            "swsh": "Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich."
+        },
+        "spanish": {
+            "xy": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "oras": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "sm": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "usum": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "lgpe": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "swsh": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose."
+        },
+        "italian": {
+            "xy": "Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce.",
+            "oras": "Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce.",
+            "sm": "Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce.",
+            "usum": "Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce.",
+            "lgpe": "Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce.",
+            "swsh": "Qualunque Pokémon che senta questo canto va KO in tre turni, se non lo si sostituisce."
+        },
+        "japanese": {
+            "xy": "歌を　聴いた　ポケモンは ３ターン　たつと　ひんしに　なる。 交代すると　効果は　なくなる。",
+            "oras": "歌を　聴いた　ポケモンは ３ターン　たつと　ひんしに　なる。 交代すると　効果は　なくなる。",
+            "sm": "歌を　聴いた　ポケモンは ３ターン　たつと　ひんしに　なる。 交代すると　効果は　なくなる。",
+            "usum": "歌を　聴いた　ポケモンは ３ターン　たつと　ひんしに　なる。 交代すると　効果は　なくなる。",
+            "lgpe": "歌を　聴いた　ポケモンは ３ターン　たつと　ひんしに　なる。 交代すると　効果は　なくなる。",
+            "swsh": "歌を　聴いた　ポケモンは ３ターン　たつと　ひんしに　なる。 交代すると　効果は　なくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "oras": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "sm": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "usum": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "lgpe": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.",
+            "swsh": "Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose."
+        },
+        "traditional-chinese": {
+            "sm": "聽了歌聲的寶可夢 ３回合後將陷入瀕死。 替換寶可夢後效果就會消失。",
+            "usum": "聽了歌聲的寶可夢 ３回合後將陷入瀕死。 替換寶可夢後效果就會消失。",
+            "lgpe": "聽了歌聲的寶可夢 ３回合後將陷入瀕死。 替換寶可夢後效果就會消失。",
+            "swsh": "聽了歌聲的寶可夢 ３回合後將陷入瀕死。 替換寶可夢後效果就會消失。"
+        },
+        "simplified-chinese": {
+            "sm": "倾听歌声的宝可梦 经过３回合陷入濒死。 替换后效果消失。",
+            "usum": "倾听歌声的宝可梦 经过３回合陷入濒死。 替换后效果消失。",
+            "lgpe": "倾听歌声的宝可梦 经过３回合陷入濒死。 替换后效果消失。",
+            "swsh": "倾听歌声的宝可梦 经过３回合陷入濒死。 替换后效果消失。"
+        }
+    },
+    "effect": {
+        "full": "Every Pokémon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one.  When a Pokémon’s counter reaches zero, that Pokémon faints.  A Pokémon that leaves the field will lose its counter; its replacement does not inherit the effect, and other Pokémon’s counters remain. This effect is passed on by Baton Pass. This move cannot be copied by Mirror Move.",
+        "shortEffect": "User and target both faint after three turns."
+    }
 }

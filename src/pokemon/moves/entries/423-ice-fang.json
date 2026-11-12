@@ -1,42 +1,141 @@
 {
-  "_id": 423,
-  "key": "ice-fang",
-  "name": {
-    "english": "Ice Fang",
-    "japanese": "こおりのキバ",
-    "chinese": "冰牙",
-    "korean": "얼음엄니",
-    "german": "Colmillo Hielo",
-    "french": "Eiszahn",
-    "italian": "Ice Fang",
-    "spanish": "Gelodenti"
-  },
-  "type": "Ice",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 65,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user bites with\ncold-infused fangs.\nIt may also make the\nfoe flinch or freeze.\n",
-    "platinum": "The user bites with\ncold-infused fangs.\nIt may also make the\nfoe flinch or freeze.\n",
-    "heartgold-soulsilver": "The user bites with\ncold-infused fangs.\nIt may also make the\nfoe flinch or freeze.\n",
-    "black-white": "The user bites with cold-infused fangs.\nIt may also make the target flinch or\nleave it frozen.",
-    "black-2-white-2": "The user bites with cold-infused fangs.\nIt may also make the target flinch or\nleave it frozen.",
-    "x-y": "The user bites with cold-infused fangs.\nThis may also make the target flinch or\nleave it frozen.",
-    "omega-ruby-alpha-sapphire": "The user bites with cold-infused fangs.\nThis may also make the target flinch or\nleave it frozen.",
-    "sun-moon": "The user bites with cold-infused fangs. This may\nalso make the target flinch or leave it frozen.",
-    "ultra-sun-ultra-moon": "The user bites with cold-infused fangs. This may\nalso make the target flinch or leave it frozen.",
-    "lets-go-pikachu-lets-go-eevee": "The user bites with cold-infused fangs. This may\nalso make the target flinch or leave it frozen.",
-    "sword-shield": "The user bites with cold-infused fangs. This may\nalso make the target flinch or leave it frozen."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target and a separate $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to freeze the target and a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 423,
+    "key": "ice-fang",
+    "name": {
+        "japanese-kana": "こおりのキバ",
+        "korean": "얼음엄니",
+        "traditional-chinese": "冰凍牙",
+        "french": "Crocs Givre",
+        "german": "Eiszahn",
+        "spanish": "Colmillo Hielo",
+        "italian": "Gelodenti",
+        "english": "Ice Fang",
+        "japanese": "こおりのキバ",
+        "simplified-chinese": "冰冻牙",
+        "latin-american-spanish": "Colmillo Hielo"
+    },
+    "type": "ice",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 65,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "freeze",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 10,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user bites with cold-infused fangs. It may also make the foe flinch or freeze.",
+            "pt": "The user bites with cold-infused fangs. It may also make the foe flinch or freeze.",
+            "hgss": "The user bites with cold-infused fangs. It may also make the foe flinch or freeze.",
+            "bw": "The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.",
+            "b2w2": "The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.",
+            "xy": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+            "oras": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+            "sm": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+            "usum": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+            "lgpe": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+            "swsh": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+            "la": "The user bites the target with cold-infused fangs to deal damage. This may also leave the target with frostbite.",
+            "sv": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen."
+        },
+        "french": {
+            "bw": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+            "xy": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+            "oras": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+            "sm": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+            "usum": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+            "lgpe": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+            "swsh": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "れいきを　ひめた　キバで　かみつく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。",
+            "oras": "れいきを　ひめた　キバで　か つく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。",
+            "sm": "れいきを　ひめた　キバで　かみつく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。",
+            "usum": "れいきを　ひめた　キバで　かみつく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。",
+            "lgpe": "れいきを　ひめた　キバで　かみつく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。",
+            "swsh": "れいきを　ひめた　キバで　かみつく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다.",
+            "oras": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다.",
+            "sm": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다.",
+            "usum": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다.",
+            "lgpe": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다.",
+            "swsh": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein.",
+            "oras": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein.",
+            "sm": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein.",
+            "usum": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein.",
+            "lgpe": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein.",
+            "swsh": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein."
+        },
+        "spanish": {
+            "xy": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "oras": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "sm": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "usum": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "lgpe": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "swsh": "El usuario muerde al objetivo con colmillos helados y puede hacer que se amedrente o se congele."
+        },
+        "italian": {
+            "xy": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio.",
+            "oras": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio.",
+            "sm": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio.",
+            "usum": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio.",
+            "lgpe": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio.",
+            "swsh": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio."
+        },
+        "japanese": {
+            "xy": "冷気を　ひめた　キバで　かみつく。 相手を　ひるませたり こおり状態に　することが　ある。",
+            "oras": "冷気を　ひめた　キバで　か つく。 相手を　ひるませたり こおり状態に　することが　ある。",
+            "sm": "冷気を　ひめた　キバで　かみつく。 相手を　ひるませたり こおり状態に　することが　ある。",
+            "usum": "冷気を　ひめた　キバで　かみつく。 相手を　ひるませたり こおり状態に　することが　ある。",
+            "lgpe": "冷気を　ひめた　キバで　かみつく。 相手を　ひるませたり こおり状態に　することが　ある。",
+            "swsh": "冷気を　ひめた　キバで　かみつく。 相手を　ひるませたり こおり状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "oras": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "sm": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "usum": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "lgpe": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+            "swsh": "El usuario muerde al objetivo con colmillos helados y puede hacer que se amedrente o se congele."
+        },
+        "traditional-chinese": {
+            "sm": "用帶有寒氣的牙齒咬住對手。 有時會讓對手畏縮 或陷入冰凍狀態。",
+            "usum": "用帶有寒氣的牙齒咬住對手。 有時會讓對手畏縮 或陷入冰凍狀態。",
+            "lgpe": "用帶有寒氣的牙齒咬住對手。 有時會讓對手畏縮 或陷入冰凍狀態。",
+            "swsh": "用帶有寒氣的牙齒咬住對手。 有時會讓對手畏縮 或陷入冰凍狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用藏有冷气的牙齿咬住对手。 有时会使对手畏缩 或陷入冰冻状态。",
+            "usum": "用藏有冷气的牙齿咬住对手。 有时会使对手畏缩 或陷入冰冻状态。",
+            "lgpe": "用藏有冷气的牙齿咬住对手。 有时会使对手畏缩 或陷入冰冻状态。",
+            "swsh": "用藏有冷气的牙齿咬住对手。 有时会使对手畏缩 或陷入冰冻状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to freeze the target and a separate chance to make the target flinch.",
+        "shortEffect": "Has a chance to freeze the target and a chance to make the target flinch."
+    }
 }

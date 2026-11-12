@@ -1,45 +1,144 @@
 {
-  "_id": 342,
-  "key": "poison-tail",
-  "name": {
-    "english": "Poison Tail",
-    "japanese": "ポイズンテール",
-    "chinese": "毒尾",
-    "korean": "포이즌테일",
-    "german": "Cola Veneno",
-    "french": "Giftschweif",
-    "italian": "Poison Tail",
-    "spanish": "Velenocoda"
-  },
-  "type": "Poison",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 25,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Has a high critical-hit\nratio. May also poison.",
-    "emerald": "Has a high critical-hit\nratio. May also poison.",
-    "firered-leafgreen": "An attack with a\nhigh critical-hit\nratio. It may also\npoison the foe.",
-    "diamond-pearl": "An attack with a\nhigh critical-hit\nratio. This tail \nattack may also \npoison the foe.",
-    "platinum": "An attack with a\nhigh critical-hit\nratio. This tail \nattack may also \npoison the foe.",
-    "heartgold-soulsilver": "An attack with a\nhigh critical-hit\nratio. This tail \nattack may also \npoison the foe.",
-    "black-white": "The user hits the target with its tail.\nIt may also poison the target.\nCritical hits land more easily.",
-    "black-2-white-2": "The user hits the target with its tail.\nIt may also poison the target.\nCritical hits land more easily.",
-    "x-y": "The user hits the target with its tail.\nThis may also poison the target.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The user hits the target with its tail.\nThis may also poison the target.\nCritical hits land more easily.",
-    "sun-moon": "The user hits the target with its tail. This may also\npoison the target. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "The user hits the target with its tail. This may also\npoison the target. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The user hits the target with its tail. This may also\npoison the target. Critical hits land more easily.",
-    "sword-shield": "The user hits the target with its tail. This may also\npoison the target. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move. Has a $effect_chance% chance to poison the target.",
-    "shortEffect": "Has an increased chance for a critical hit and a $effect_chance% chance to poison the target."
-  },
-  "priority": 0
+    "_id": 342,
+    "key": "poison-tail",
+    "name": {
+        "japanese-kana": "ポイズンテール",
+        "korean": "포이즌테일",
+        "traditional-chinese": "毒尾",
+        "french": "Queue-Poison",
+        "german": "Giftschweif",
+        "spanish": "Cola Veneno",
+        "italian": "Velenocoda",
+        "english": "Poison Tail",
+        "japanese": "ポイズンテール",
+        "simplified-chinese": "毒尾",
+        "latin-american-spanish": "Cola Venenosa"
+    },
+    "type": "poison",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 25,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Has a high critical-hit ratio. May also poison.",
+            "em": "Has a high critical-hit ratio. May also poison.",
+            "frlg": "An attack with a high critical-hit ratio. It may also poison the foe.",
+            "dp": "An attack with a high critical-hit ratio. This tail attack may also poison the foe.",
+            "pt": "An attack with a high critical-hit ratio. This tail attack may also poison the foe.",
+            "hgss": "An attack with a high critical-hit ratio. This tail attack may also poison the foe.",
+            "bw": "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
+            "b2w2": "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
+            "xy": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+            "oras": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+            "sm": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+            "usum": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+            "lgpe": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+            "swsh": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+            "la": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+            "sv": "The user hits the target with its tail. This move has a heightened chance of landing a critical hit and may also poison the target."
+        },
+        "french": {
+            "bw": "Attaque à taux de critiques élevé. Peut aussi empoisonner l’ennemi.",
+            "xy": "Attaque à taux de critiques élevé. Peut aussi empoisonner l’ennemi.",
+            "oras": "Attaque à taux de critiques élevé. Peut aussi empoisonner l’ennemi.",
+            "sm": "Attaque à taux de critique élevé. Peut aussi empoisonner l’ennemi.",
+            "usum": "Attaque à taux de critique élevé. Peut aussi empoisonner l’ennemi.",
+            "lgpe": "Attaque à taux de critique élevé. Peut aussi empoisonner l’ennemi.",
+            "swsh": "Attaque à taux de critiques élevé. Peut aussi empoisonner l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "しっぽで　たたく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "oras": "しっぽで　たたく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "sm": "しっぽで　たたく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "usum": "しっぽで　たたく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "lgpe": "しっぽで　たたく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "swsh": "しっぽで　たたく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。"
+        },
+        "korean": {
+            "xy": "꼬리로 때린다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "oras": "꼬리로 때린다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "sm": "꼬리로 때린다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "usum": "꼬리로 때린다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "lgpe": "꼬리로 때린다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "swsh": "꼬리로 때린다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Angriff mit hoher Volltrefferquote. Diese Schweifattacke vergiftet das Ziel eventuell.",
+            "oras": "Angriff mit hoher Volltrefferquote. Diese Schweifattacke vergiftet das Ziel eventuell.",
+            "sm": "Angriff mit hoher Volltrefferquote. Diese Schweifattacke vergiftet das Ziel eventuell.",
+            "usum": "Angriff mit hoher Volltrefferquote. Diese Schweifattacke vergiftet das Ziel eventuell.",
+            "lgpe": "Angriff mit hoher Volltrefferquote. Diese Schweifattacke vergiftet das Ziel eventuell.",
+            "swsh": "Angriff mit hoher Volltrefferquote. Diese Schweifattacke vergiftet das Ziel eventuell."
+        },
+        "spanish": {
+            "xy": "Puede envenenar y dar un golpe crítico.",
+            "oras": "Puede envenenar y dar un golpe crítico.",
+            "sm": "Puede envenenar y dar un golpe crítico.",
+            "usum": "Puede envenenar y dar un golpe crítico.",
+            "lgpe": "Puede envenenar y dar un golpe crítico.",
+            "swsh": "Puede envenenar y dar un golpe crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.",
+            "oras": "Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.",
+            "sm": "Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.",
+            "usum": "Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.",
+            "lgpe": "Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.",
+            "swsh": "Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "しっぽで　たたく。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "oras": "しっぽで　たたく。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "sm": "しっぽで　たたく。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "usum": "しっぽで　たたく。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "lgpe": "しっぽで　たたく。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "swsh": "しっぽで　たたく。 毒状態に　することが　あり 急所にも　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puede envenenar y dar un golpe crítico.",
+            "oras": "Puede envenenar y dar un golpe crítico.",
+            "sm": "Puede envenenar y dar un golpe crítico.",
+            "usum": "Puede envenenar y dar un golpe crítico.",
+            "lgpe": "Puede envenenar y dar un golpe crítico.",
+            "swsh": "Puede envenenar y dar un golpe crítico."
+        },
+        "traditional-chinese": {
+            "sm": "將尾巴甩向對手進行攻擊。 有時會讓對手陷入中毒狀態， 且容易擊中要害。",
+            "usum": "將尾巴甩向對手進行攻擊。 有時會讓對手陷入中毒狀態， 且容易擊中要害。",
+            "lgpe": "將尾巴甩向對手進行攻擊。 有時會讓對手陷入中毒狀態， 且容易擊中要害。",
+            "swsh": "將尾巴甩向對手進行攻擊。 有時會讓對手陷入中毒狀態， 且容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "用尾巴拍打。 有时会让对手陷入中毒状态， 也容易击中要害。",
+            "usum": "用尾巴拍打。 有时会让对手陷入中毒状态， 也容易击中要害。",
+            "lgpe": "用尾巴拍打。 有时会让对手陷入中毒状态， 也容易击中要害。",
+            "swsh": "用尾巴拍打。 有时会让对手陷入中毒状态， 也容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move. Has a chance to poison the target.",
+        "shortEffect": "Has an increased chance for a critical hit and a chance to poison the target."
+    }
 }

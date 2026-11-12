@@ -1,47 +1,150 @@
 {
-  "_id": 40,
-  "key": "poison-sting",
-  "name": {
-    "english": "Poison Sting",
-    "japanese": "どくばり",
-    "chinese": "毒针",
-    "korean": "독침",
-    "german": "Picotazo Veneno",
-    "french": "Giftstachel",
-    "italian": "Poison Sting",
-    "spanish": "Velenospina"
-  },
-  "type": "Poison",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 35,
-  "power": 15,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\npoison the target.",
-    "crystal": "An attack that may\npoison the target.",
-    "ruby-sapphire": "A toxic attack with barbs,\netc., that may poison.",
-    "emerald": "A toxic attack with barbs,\netc., that may poison.",
-    "firered-leafgreen": "The foe is stabbed\nwith a toxic barb,\netc. It may poison\nthe foe.",
-    "diamond-pearl": "The foe is stabbed\nwith a poisonous\nbarb of some sort.\nIt may also poison\nthe target.",
-    "platinum": "The foe is stabbed\nwith a poisonous\nbarb of some sort.\nIt may also poison\nthe target.",
-    "heartgold-soulsilver": "The foe is stabbed\nwith a poisonous\nbarb of some sort.\nIt may also poison\nthe target.",
-    "black-white": "The user stabs the target\nwith a poisonous stinger.\nThis may also poison the target.",
-    "black-2-white-2": "The user stabs the target\nwith a poisonous stinger.\nThis may also poison the target.",
-    "x-y": "The user stabs the target\nwith a poisonous stinger.\nThis may also poison the target.",
-    "omega-ruby-alpha-sapphire": "The user stabs the target\nwith a poisonous stinger.\nThis may also poison the target.",
-    "sun-moon": "The user stabs the target with a poisonous stinger.\nThis may also poison the target.",
-    "ultra-sun-ultra-moon": "The user stabs the target with a poisonous stinger.\nThis may also poison the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user stabs the target with a poisonous stinger.\nThis may also poison the target.",
-    "sword-shield": "The user stabs the target with a poisonous stinger.\nThis may also poison the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
-    "shortEffect": "Has a $effect_chance% chance to poison the target."
-  },
-  "priority": 0
+    "_id": 40,
+    "key": "poison-sting",
+    "name": {
+        "japanese-kana": "どくばり",
+        "korean": "독침",
+        "traditional-chinese": "毒針",
+        "french": "Dard-Venin",
+        "german": "Giftstachel",
+        "spanish": "Picotazo Veneno",
+        "italian": "Velenospina",
+        "english": "Poison Sting",
+        "japanese": "どくばり",
+        "simplified-chinese": "毒针",
+        "latin-american-spanish": "Piquete Venenoso"
+    },
+    "type": "poison",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 35,
+    "power": 15,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may poison the target.",
+            "cr": "An attack that may poison the target.",
+            "rs": "A toxic attack with barbs, etc., that may poison.",
+            "em": "A toxic attack with barbs, etc., that may poison.",
+            "frlg": "The foe is stabbed with a toxic barb, etc. It may poison the foe.",
+            "dp": "The foe is stabbed with a poisonous barb of some sort. It may also poison the target.",
+            "pt": "The foe is stabbed with a poisonous barb of some sort. It may also poison the target.",
+            "hgss": "The foe is stabbed with a poisonous barb of some sort. It may also poison the target.",
+            "bw": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "b2w2": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "xy": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "oras": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "sm": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "usum": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "lgpe": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "swsh": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "la": "The user stabs the target with a poisonous stinger. This may also poison the target.",
+            "sv": "The user stabs the target with a poisonous stinger to inflict damage. This may also poison the target."
+        },
+        "french": {
+            "bw": "Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner.",
+            "xy": "Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner.",
+            "oras": "Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner.",
+            "sm": "Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner.",
+            "usum": "Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner.",
+            "lgpe": "Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner.",
+            "swsh": "Un dard toxique qui transperce l’ennemi. Peut aussi l’empoisonner."
+        },
+        "japanese-kana": {
+            "xy": "どくの　ある　ハリを あいてに　つきさして　こうげきする。 どく　じょうたいに　することが　ある。",
+            "oras": "どくの　ある　ハリを あいてに　つきさして　こうげきする。 どく　じょうたいに　することが　ある。",
+            "sm": "どくの　ある　ハリを あいてに　つきさして　こうげきする。 どく　じょうたいに　することが　ある。",
+            "usum": "どくの　ある　ハリを あいてに　つきさして　こうげきする。 どく　じょうたいに　することが　ある。",
+            "lgpe": "どくの　ある　ハリを あいてに　つきさして　こうげきする。 どく　じょうたいに　することが　ある。",
+            "swsh": "どくの　ある　ハリを あいてに　つきさして　こうげきする。 どく　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "독이 있는 침을 상대에게 꿰찔러서 공격한다. 독 상태로 만들 때가 있다.",
+            "oras": "독이 있는 침을 상대에게 꿰찔러서 공격한다. 독 상태로 만들 때가 있다.",
+            "sm": "독이 있는 침을 상대에게 꿰찔러서 공격한다. 독 상태로 만들 때가 있다.",
+            "usum": "독이 있는 침을 상대에게 꿰찔러서 공격한다. 독 상태로 만들 때가 있다.",
+            "lgpe": "독이 있는 침을 상대에게 꿰찔러서 공격한다. 독 상태로 만들 때가 있다.",
+            "swsh": "독이 있는 침을 상대에게 꿰찔러서 공격한다. 독 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit Giftstachel. Das Ziel wird eventuell vergiftet.",
+            "oras": "Angriff mit Giftstachel. Das Ziel wird eventuell vergiftet.",
+            "sm": "Angriff mit Giftstachel. Das Ziel wird eventuell vergiftet.",
+            "usum": "Angriff mit Giftstachel. Das Ziel wird eventuell vergiftet.",
+            "lgpe": "Angriff mit Giftstachel. Das Ziel wird eventuell vergiftet.",
+            "swsh": "Angriff mit Giftstachel. Das Ziel wird eventuell vergiftet."
+        },
+        "spanish": {
+            "xy": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "oras": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "sm": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "usum": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "lgpe": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "swsh": "Lanza un aguijón tóxico que puede envenenar al objetivo."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo.",
+            "oras": "Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo.",
+            "sm": "Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo.",
+            "usum": "Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo.",
+            "lgpe": "Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo.",
+            "swsh": "Colpisce il bersaglio con un aculeo tossico che può anche avvelenarlo."
+        },
+        "japanese": {
+            "xy": "毒の　ある　ハリを 相手に　突き刺して　攻撃する。 毒状態に　することが　ある。",
+            "oras": "毒の　ある　ハリを 相手に　突き刺して　攻撃する。 毒状態に　することが　ある。",
+            "sm": "毒の　ある　ハリを 相手に　突き刺して　攻撃する。 毒状態に　することが　ある。",
+            "usum": "毒の　ある　ハリを 相手に　突き刺して　攻撃する。 毒状態に　することが　ある。",
+            "lgpe": "毒の　ある　ハリを 相手に　突き刺して　攻撃する。 毒状態に　することが　ある。",
+            "swsh": "毒の　ある　ハリを 相手に　突き刺して　攻撃する。 毒状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "oras": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "sm": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "usum": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "lgpe": "Lanza un aguijón tóxico que puede envenenar al objetivo.",
+            "swsh": "Lanza un aguijón tóxico que puede envenenar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將有毒的針 刺進對手進行攻擊。 有時會讓對手陷入中毒狀態。",
+            "usum": "將有毒的針 刺進對手進行攻擊。 有時會讓對手陷入中毒狀態。",
+            "lgpe": "將有毒的針 刺進對手進行攻擊。 有時會讓對手陷入中毒狀態。",
+            "swsh": "將有毒的針 刺進對手進行攻擊。 有時會讓對手陷入中毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "将有毒的针 刺入对手进行攻击。 有时会让对手陷入中毒状态。",
+            "usum": "将有毒的针 刺入对手进行攻击。 有时会让对手陷入中毒状态。",
+            "lgpe": "将有毒的针 刺入对手进行攻击。 有时会让对手陷入中毒状态。",
+            "swsh": "将有毒的针 刺入对手进行攻击。 有时会让对手陷入中毒状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to poison the target.",
+        "shortEffect": "Has a chance to poison the target."
+    }
 }

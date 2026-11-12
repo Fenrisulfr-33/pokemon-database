@@ -1,39 +1,142 @@
 {
-  "_id": 524,
-  "key": "frost-breath",
-  "name": {
-    "english": "Frost Breath",
-    "japanese": "こおりのいぶき",
-    "chinese": "冰吸",
-    "korean": "얼음숨결",
-    "german": "Vaho Gélido",
-    "french": "Eisesodem",
-    "italian": "Frost Breath",
-    "spanish": "Alitogelido"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 60,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user blows a cold breath on the\ntarget. This attack always results in\na critical hit.",
-    "black-2-white-2": "The user blows a cold breath on the\ntarget. This attack always results in\na critical hit.",
-    "x-y": "The user blows its cold breath on the\ntarget. This attack always results in\na critical hit.",
-    "omega-ruby-alpha-sapphire": "The user blows its cold breath on the\ntarget. This attack always results in\na critical hit.",
-    "sun-moon": "The user blows its cold breath on the target. This\nattack always results in a critical hit.",
-    "ultra-sun-ultra-moon": "The user blows its cold breath on the target. This\nattack always results in a critical hit.",
-    "lets-go-pikachu-lets-go-eevee": "The user blows its cold breath on the target. This\nattack always results in a critical hit.",
-    "sword-shield": "The user blows its cold breath on the target. This\nattack always results in a critical hit."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Always scores a critical hit.",
-    "shortEffect": "Always scores a critical hit."
-  },
-  "priority": 0
+    "_id": 524,
+    "key": "frost-breath",
+    "name": {
+        "japanese-kana": "こおりのいぶき",
+        "korean": "얼음숨결",
+        "traditional-chinese": "冰息",
+        "french": "Souffle Glacé",
+        "german": "Eisesodem",
+        "spanish": "Vaho Gélido",
+        "italian": "Alitogelido",
+        "english": "Frost Breath",
+        "japanese": "こおりのいぶき",
+        "simplified-chinese": "冰息",
+        "latin-american-spanish": "Vaho Helado"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 60,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 6,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 40
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un souffle froid blesse l’ennemi. L’effet est toujours critique.",
+            "xy": "Un souffle froid blesse l’ennemi. L’effet est toujours critique.",
+            "oras": "Un souffle froid blesse l’ennemi. L’effet est toujours critique.",
+            "sm": "Un souffle froid blesse l’ennemi. L’effet est toujours critique.",
+            "usum": "Un souffle froid blesse l’ennemi. L’effet est toujours critique.",
+            "lgpe": "Un souffle froid blesse l’ennemi. L’effet est toujours critique.",
+            "swsh": "Un souffle froid blesse l’ennemi. L’effet est toujours critique."
+        },
+        "english": {
+            "bw": "The user blows a cold breath on the target. This attack always results in a critical hit.",
+            "b2w2": "The user blows a cold breath on the target. This attack always results in a critical hit.",
+            "xy": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+            "oras": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+            "sm": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+            "usum": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+            "lgpe": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+            "swsh": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+            "la": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+            "sv": "The user attacks by blowing its cold breath on the target. This move always lands a critical hit."
+        },
+        "japanese-kana": {
+            "xy": "つめたい　いきを あいてに　ふきつけて　こうげきする。 かならず　きゅうしょに　あたる。",
+            "oras": "つめたい　いきを あいてに　ふきつけて　こうげきする。 かならず　きゅうしょに　あたる。",
+            "sm": "つめたい　いきを あいてに　ふきつけて　こうげきする。 かならず　きゅうしょに　あたる。",
+            "usum": "つめたい　いきを あいてに　ふきつけて　こうげきする。 かならず　きゅうしょに　あたる。",
+            "lgpe": "つめたい　いきを あいてに　ふきつけて　こうげきする。 かならず　きゅうしょに　あたる。",
+            "swsh": "つめたい　いきを あいてに　ふきつけて　こうげきする。 かならず　きゅうしょに　あたる。"
+        },
+        "korean": {
+            "xy": "차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.",
+            "oras": "차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.",
+            "sm": "차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.",
+            "usum": "차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.",
+            "lgpe": "차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.",
+            "swsh": "차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다."
+        },
+        "german": {
+            "xy": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.",
+            "oras": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.",
+            "sm": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.",
+            "usum": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.",
+            "lgpe": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.",
+            "swsh": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie."
+        },
+        "spanish": {
+            "xy": "Quien lo usa ataca lanzando un aliento gélido. Siempre resulta en un golpe crítico.",
+            "oras": "Quien lo usa ataca lanzando un aliento gélido. Siempre resulta en un golpe crítico.",
+            "sm": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+            "usum": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+            "lgpe": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+            "swsh": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con un soffio d’aria gelida. Brutto colpo assicurato.",
+            "oras": "Chi la usa attacca il bersaglio con un soffio d’aria gelida. Brutto colpo assicurato.",
+            "sm": "Chi la usa attacca il bersaglio con un soffio d’aria gelida. Brutto colpo assicurato.",
+            "usum": "Chi la usa attacca il bersaglio con un soffio d’aria gelida. Brutto colpo assicurato.",
+            "lgpe": "Chi la usa attacca il bersaglio con un soffio d’aria gelida. Brutto colpo assicurato.",
+            "swsh": "Chi la usa attacca il bersaglio con un soffio d’aria gelida. Brutto colpo assicurato."
+        },
+        "japanese": {
+            "xy": "冷たい　息を 相手に　吹きつけて　攻撃する。 必ず　急所に　当たる。",
+            "oras": "冷たい　息を 相手に　吹きつけて　攻撃する。 必ず　急所に　当たる。",
+            "sm": "冷たい　息を 相手に　吹きつけて　攻撃する。 必ず　急所に　当たる。",
+            "usum": "冷たい　息を 相手に　吹きつけて　攻撃する。 必ず　急所に　当たる。",
+            "lgpe": "冷たい　息を 相手に　吹きつけて　攻撃する。 必ず　急所に　当たる。",
+            "swsh": "冷たい　息を 相手に　吹きつけて　攻撃する。 必ず　急所に　当たる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Quien lo usa ataca lanzando un aliento gélido. Siempre resulta en un golpe crítico.",
+            "oras": "Quien lo usa ataca lanzando un aliento gélido. Siempre resulta en un golpe crítico.",
+            "sm": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+            "usum": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+            "lgpe": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+            "swsh": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico."
+        },
+        "traditional-chinese": {
+            "sm": "將冰冷的氣息 吹向對手進行攻擊。 必定會擊中要害。",
+            "usum": "將冰冷的氣息 吹向對手進行攻擊。 必定會擊中要害。",
+            "lgpe": "將冰冷的氣息 吹向對手進行攻擊。 必定會擊中要害。",
+            "swsh": "將冰冷的氣息 吹向對手進行攻擊。 必定會擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "将冰冷的气息 吹向对手进行攻击。 必定会击中要害。",
+            "usum": "将冰冷的气息 吹向对手进行攻击。 必定会击中要害。",
+            "lgpe": "将冰冷的气息 吹向对手进行攻击。 必定会击中要害。",
+            "swsh": "将冰冷的气息 吹向对手进行攻击。 必定会击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Always scores a critical hit.",
+        "shortEffect": "Always scores a critical hit."
+    }
 }

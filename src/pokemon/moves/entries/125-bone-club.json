@@ -1,47 +1,144 @@
 {
-  "_id": 125,
-  "key": "bone-club",
-  "name": {
-    "english": "Bone Club",
-    "japanese": "ホネこんぼう",
-    "chinese": "骨棒",
-    "korean": "뼈다귀치기",
-    "german": "Hueso Palo",
-    "french": "Knochenkeule",
-    "italian": "Bone Club",
-    "spanish": "Ossoclava"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 65,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause flinching.",
-    "crystal": "An attack that may\ncause flinching.",
-    "ruby-sapphire": "Clubs the foe with a bone.\nMay cause flinching.",
-    "emerald": "Clubs the foe with a bone.\nMay cause flinching.",
-    "firered-leafgreen": "The foe is clubbed\nwith a bone held in\nhand. It may make\nthe foe flinch.",
-    "diamond-pearl": "The user clubs the\nfoe with a bone.\nIt may also make the\ntarget flinch.\n",
-    "platinum": "The user clubs the\nfoe with a bone.\nIt may also make the\ntarget flinch.\n",
-    "heartgold-soulsilver": "The user clubs the\nfoe with a bone.\nIt may also make the\ntarget flinch.\n",
-    "black-white": "The user clubs the target with a bone.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user clubs the target with a bone.\nIt may also make the target flinch.",
-    "x-y": "The user clubs the target with a bone.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user clubs the target with a bone.\nThis may also make the target flinch.",
-    "sun-moon": "The user clubs the target with a bone. This may also\nmake the target flinch.",
-    "ultra-sun-ultra-moon": "The user clubs the target with a bone. This may also\nmake the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user clubs the target with a bone. This may also\nmake the target flinch.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 125,
+    "key": "bone-club",
+    "name": {
+        "japanese-kana": "ホネこんぼう",
+        "korean": "뼈다귀치기",
+        "traditional-chinese": "骨棒",
+        "french": "Massd’Os",
+        "german": "Knochenkeule",
+        "spanish": "Hueso Palo",
+        "italian": "Ossoclava",
+        "english": "Bone Club",
+        "japanese": "ホネこんぼう",
+        "simplified-chinese": "骨棒",
+        "latin-american-spanish": "Maza de Hueso"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 10,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause flinching.",
+            "cr": "An attack that may cause flinching.",
+            "rs": "Clubs the foe with a bone. May cause flinching.",
+            "em": "Clubs the foe with a bone. May cause flinching.",
+            "frlg": "The foe is clubbed with a bone held in hand. It may make the foe flinch.",
+            "dp": "The user clubs the foe with a bone. It may also make the target flinch.",
+            "pt": "The user clubs the foe with a bone. It may also make the target flinch.",
+            "hgss": "The user clubs the foe with a bone. It may also make the target flinch.",
+            "bw": "The user clubs the target with a bone. It may also make the target flinch.",
+            "b2w2": "The user clubs the target with a bone. It may also make the target flinch.",
+            "xy": "The user clubs the target with a bone. This may also make the target flinch.",
+            "oras": "The user clubs the target with a bone. This may also make the target flinch.",
+            "sm": "The user clubs the target with a bone. This may also make the target flinch.",
+            "usum": "The user clubs the target with a bone. This may also make the target flinch.",
+            "lgpe": "The user clubs the target with a bone. This may also make the target flinch.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur frappe l’ennemi à grands coups d’os. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur frappe l’ennemi à grands coups d’os. Peut aussi l’apeurer.",
+            "oras": "Le lanceur frappe l’ennemi à grands coups d’os. Peut aussi l’apeurer.",
+            "sm": "Le lanceur frappe l’ennemi à grands coups d’os. Peut aussi l’apeurer.",
+            "usum": "Le lanceur frappe l’ennemi à grands coups d’os. Peut aussi l’apeurer.",
+            "lgpe": "Le lanceur frappe l’ennemi à grands coups d’os. Peut aussi l’apeurer.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "てに　もった　ホネで あいてを　なぐりつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "てに　もった　ホネで あいてを　なぐりつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "てに　もった　ホネで あいてを　なぐりつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "てに　もった　ホネで あいてを　なぐりつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "てに　もった　ホネで あいてを　なぐりつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "손에 들고 있는 뼈로 상대를 세게 때려서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "손에 들고 있는 뼈로 상대를 세게 때려서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "손에 들고 있는 뼈로 상대를 세게 때려서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "손에 들고 있는 뼈로 상대를 세게 때려서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "손에 들고 있는 뼈로 상대를 세게 때려서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.",
+            "oras": "Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.",
+            "sm": "Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.",
+            "usum": "Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.",
+            "lgpe": "Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "oras": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "sm": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "usum": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "lgpe": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con un osso e può farlo anche tentennare.",
+            "oras": "Chi la usa colpisce il bersaglio con un osso e può farlo anche tentennare.",
+            "sm": "Chi la usa colpisce il bersaglio con un osso e può farlo anche tentennare.",
+            "usum": "Chi la usa colpisce il bersaglio con un osso e può farlo anche tentennare.",
+            "lgpe": "Chi la usa colpisce il bersaglio con un osso e può farlo anche tentennare.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "手に　持った　ホネで 相手を　なぐりつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "手に　持った　ホネで 相手を　なぐりつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "手に　持った　ホネで 相手を　なぐりつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "手に　持った　ホネで 相手を　なぐりつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "手に　持った　ホネで 相手を　なぐりつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "oras": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "sm": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "usum": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "lgpe": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用手中的骨頭 毆打對手進行攻擊。 有時會使對手畏縮。",
+            "usum": "用手中的骨頭 毆打對手進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "用手中的骨頭 毆打對手進行攻擊。 有時會使對手畏縮。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用手中的骨头 殴打对手进行攻击。 有时会使对手畏缩。",
+            "usum": "用手中的骨头 殴打对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用手中的骨头 殴打对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

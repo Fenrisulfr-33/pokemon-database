@@ -1,32 +1,84 @@
 {
-  "_id": 748,
-  "key": "no-retreat",
-  "name": {
-    "english": "No Retreat",
-    "japanese": "はいすいのじん",
-    "chinese": "背水一戰",
-    "korean": "배수의진",
-    "german": "Bastión Final",
-    "french": "Finalformation",
-    "italian": "No Retreat",
-    "spanish": "Spalle al Muro"
-  },
-  "type": "Fighting",
-  "category": "Status",
-  "contest": null,
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 8,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "sword-shield": "This move raises all the user’s stats but prevents\nthe user from switching out or fleeing."
-  },
-  "effect": {
-    "full": " with a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Hits twice in one turn"
-  },
-  "priority": 0
+    "_id": 748,
+    "key": "no-retreat",
+    "name": {
+        "japanese-kana": "はいすいのじん",
+        "korean": "배수의진",
+        "traditional-chinese": "背水一戰",
+        "french": "Ultime Bastion",
+        "german": "Finalformation",
+        "spanish": "Bastión Final",
+        "italian": "Spalle al Muro",
+        "english": "No Retreat",
+        "japanese": "はいすいのじん",
+        "simplified-chinese": "背水一战",
+        "latin-american-spanish": "Bastión Final"
+    },
+    "type": "fighting",
+    "category": "status",
+    "contest": null,
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "じぶんの　すべての のうりょくが　あがるが　こうたい　したり にげることが　できなくなる。"
+        },
+        "korean": {
+            "swsh": "자신의 모든 능력이 올라가지만 교체하거나 도망칠 수 없게 된다."
+        },
+        "traditional-chinese": {
+            "swsh": "提高自己所有的能力， 但無法進行替換或逃走。"
+        },
+        "french": {
+            "swsh": "Le lanceur voit toutes ses stats augmenter, mais en contrepartie, il ne peut plus fuir ou se retirer du combat."
+        },
+        "german": {
+            "swsh": "Alle Statuswerte des Anwenders werden erhöht, aber dafür kann er weder ausgewechselt werden noch fliehen."
+        },
+        "spanish": {
+            "swsh": "El usuario aumenta todas sus características, pero ya no puede huir ni ser cambiado por otro."
+        },
+        "italian": {
+            "swsh": "Chi la usa aumenta tutte le sue statistiche ma non può più fuggire o essere sostituito."
+        },
+        "english": {
+            "swsh": "This move raises all the user’s stats but prevents the user from switching out or fleeing.",
+            "la": "This move raises all the user's stats but prevents the user from switching out or fleeing.",
+            "sv": "This move boosts all the user's stats but prevents the user from switching out or fleeing."
+        },
+        "japanese": {
+            "swsh": "自分の　すべての 能力が　上がるが　交代　したり 逃げることが　できなくなる。"
+        },
+        "simplified-chinese": {
+            "swsh": "提高自己的所有能力， 但无法替换或逃走。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario aumenta todas sus características, pero ya no puede huir ni ser cambiado por otro."
+        }
+    },
+    "effect": {
+        "full": "Prevents user from switching out. Raises all of the user’s stats by one stage. The user or target may switch out using, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. Fails if the user already has prevented itself from switching by this effect.",
+        "shortEffect": "Prevents user from switching out. Raises all of the user’s stats by one stage."
+    }
 }

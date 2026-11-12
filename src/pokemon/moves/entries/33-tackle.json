@@ -1,47 +1,154 @@
 {
-  "_id": 33,
-  "key": "tackle",
-  "name": {
-    "english": "Tackle",
-    "japanese": "たいあたり",
-    "chinese": "冲击",
-    "korean": "몸통박치기",
-    "german": "Placaje",
-    "french": "Tackle",
-    "italian": "Tackle",
-    "spanish": "Azione"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 35,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A full-body charge\nattack.",
-    "crystal": "A full-body charge\nattack.",
-    "ruby-sapphire": "Charges the foe with a full-\nbody tackle.",
-    "emerald": "Charges the foe with a full-\nbody tackle.",
-    "firered-leafgreen": "A physical attack\nin which the user\ncharges, full body,\ninto the foe.",
-    "diamond-pearl": "A physical attack\nin which the user\ncharges and slams\ninto the foe with\nits whole body.",
-    "platinum": "A physical attack\nin which the user\ncharges and slams\ninto the foe with\nits whole body.",
-    "heartgold-soulsilver": "A physical attack\nin which the user\ncharges and slams\ninto the foe with\nits whole body.",
-    "black-white": "A physical attack in which the user\ncharges and slams into the target\nwith its whole body.",
-    "black-2-white-2": "A physical attack in which the user\ncharges and slams into the target\nwith its whole body.",
-    "x-y": "A physical attack in which the user\ncharges and slams into the target\nwith its whole body.",
-    "omega-ruby-alpha-sapphire": "A physical attack in which the user\ncharges and slams into the target\nwith its whole body.",
-    "sun-moon": "A physical attack in which the user charges and\nslams into the target with its whole body.",
-    "ultra-sun-ultra-moon": "A physical attack in which the user charges and\nslams into the target with its whole body.",
-    "lets-go-pikachu-lets-go-eevee": "A physical attack in which the user charges and\nslams into the target with its whole body.",
-    "sword-shield": "A physical attack in which the user charges and\nslams into the target with its whole body."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 33,
+    "key": "tackle",
+    "name": {
+        "japanese-kana": "たいあたり",
+        "korean": "몸통박치기",
+        "traditional-chinese": "撞擊",
+        "french": "Charge",
+        "german": "Tackle",
+        "spanish": "Placaje",
+        "italian": "Azione",
+        "english": "Tackle",
+        "japanese": "たいあたり",
+        "simplified-chinese": "撞击",
+        "latin-american-spanish": "Tacleada"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 35,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 95,
+            "power": 35
+        },
+        "sm": {
+            "power": 50
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A full-body charge attack.",
+            "cr": "A full-body charge attack.",
+            "rs": "Charges the foe with a full- body tackle.",
+            "em": "Charges the foe with a full- body tackle.",
+            "frlg": "A physical attack in which the user charges, full body, into the foe.",
+            "dp": "A physical attack in which the user charges and slams into the foe with its whole body.",
+            "pt": "A physical attack in which the user charges and slams into the foe with its whole body.",
+            "hgss": "A physical attack in which the user charges and slams into the foe with its whole body.",
+            "bw": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "b2w2": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "xy": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "oras": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "sm": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "usum": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "lgpe": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "swsh": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "la": "A physical attack in which the user charges and slams into the target with its whole body.",
+            "sv": "A physical attack in which the user charges and slams into the target with its whole body."
+        },
+        "french": {
+            "bw": "Le lanceur charge l’ennemi et le percute de tout son corps.",
+            "xy": "Le lanceur charge l’ennemi et le percute de tout son corps.",
+            "oras": "Le lanceur charge l’ennemi et le percute de tout son corps.",
+            "sm": "Le lanceur charge l’ennemi et le percute de tout son poids.",
+            "usum": "Le lanceur charge l’ennemi et le percute de tout son poids.",
+            "lgpe": "Le lanceur charge l’ennemi et le percute de tout son poids.",
+            "swsh": "Le lanceur charge l’ennemi et le percute de tout son poids."
+        },
+        "japanese-kana": {
+            "xy": "あいてに　むかって　からだ　ぜんたいで ぶつかって　いき　こうげきする。",
+            "oras": "あいてに　むかって　からだ　ぜんたいで ぶつかって　いき　こうげきする。",
+            "sm": "あいてに　むかって　からだ　ぜんたいで ぶつかって　いき　こうげきする。",
+            "usum": "あいてに　むかって　からだ　ぜんたいで ぶつかって　いき　こうげきする。",
+            "lgpe": "あいてに　むかって　からだ　ぜんたいで ぶつかって　いき　こうげきする。",
+            "swsh": "あいてに　むかって　からだ　ぜんたいで ぶつかって　いき　こうげきする。"
+        },
+        "korean": {
+            "xy": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다.",
+            "oras": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다.",
+            "sm": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다.",
+            "usum": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다.",
+            "lgpe": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다.",
+            "swsh": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel mit vollem Körpereinsatz.",
+            "oras": "Trifft das Ziel mit vollem Körpereinsatz.",
+            "sm": "Trifft das Ziel mit vollem Körpereinsatz.",
+            "usum": "Trifft das Ziel mit vollem Körpereinsatz.",
+            "lgpe": "Trifft das Ziel mit vollem Körpereinsatz.",
+            "swsh": "Trifft das Ziel mit vollem Körpereinsatz."
+        },
+        "spanish": {
+            "xy": "Embiste con todo el cuerpo.",
+            "oras": "Embiste con todo el cuerpo.",
+            "sm": "Embiste con todo el cuerpo.",
+            "usum": "Embiste con todo el cuerpo.",
+            "lgpe": "Embiste con todo el cuerpo.",
+            "swsh": "Embestida con todo el cuerpo."
+        },
+        "italian": {
+            "xy": "Attacco fisico che colpisce il bersaglio investendolo con tutto il corpo.",
+            "oras": "Attacco fisico che colpisce il bersaglio investendolo con tutto il corpo.",
+            "sm": "Attacco fisico che colpisce il bersaglio investendolo con tutto il corpo.",
+            "usum": "Attacco fisico che colpisce il bersaglio investendolo con tutto il corpo.",
+            "lgpe": "Attacco fisico che colpisce il bersaglio investendolo con tutto il corpo.",
+            "swsh": "Attacco fisico che colpisce il bersaglio investendolo con tutto il corpo."
+        },
+        "japanese": {
+            "xy": "相手に　むかって　全身で ぶつかっていき　攻撃する。",
+            "oras": "相手に　むかって　全身で ぶつかっていき　攻撃する。",
+            "sm": "相手に　むかって　全身で ぶつかっていき　攻撃する。",
+            "usum": "相手に　むかって　全身で ぶつかっていき　攻撃する。",
+            "lgpe": "相手に　むかって　全身で ぶつかっていき　攻撃する。",
+            "swsh": "相手に　むかって　全身で ぶつかっていき　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Embiste con todo el cuerpo.",
+            "oras": "Embiste con todo el cuerpo.",
+            "sm": "Embiste con todo el cuerpo.",
+            "usum": "Embiste con todo el cuerpo.",
+            "lgpe": "Embiste con todo el cuerpo.",
+            "swsh": "Embestida con todo el cuerpo."
+        },
+        "traditional-chinese": {
+            "sm": "用整個身體 撞向對手進行攻擊。",
+            "usum": "用整個身體 撞向對手進行攻擊。",
+            "lgpe": "用整個身體 撞向對手進行攻擊。",
+            "swsh": "用整個身體 撞向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用整个身体 撞向对手进行攻击。",
+            "usum": "用整个身体 撞向对手进行攻击。",
+            "lgpe": "用整个身体 撞向对手进行攻击。",
+            "swsh": "用整个身体 撞向对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

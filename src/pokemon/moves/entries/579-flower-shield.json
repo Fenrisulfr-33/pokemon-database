@@ -1,37 +1,133 @@
 {
-  "_id": 579,
-  "key": "flower-shield",
-  "name": {
-    "english": "Flower Shield",
-    "japanese": "フラワーガード",
-    "chinese": "鲜花防御",
-    "korean": "플라워가드",
-    "german": "Defensa Floral",
-    "french": "Floraschutz",
-    "italian": "Flower Shield",
-    "spanish": "Fiordifesa"
-  },
-  "type": "Fairy",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "all-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user raises the Defense stat\nof all Grass-type Pokémon in battle\nwith a mysterious power.",
-    "omega-ruby-alpha-sapphire": "The user raises the Defense stat\nof all Grass-type Pokémon in battle\nwith a mysterious power.",
-    "sun-moon": "The user raises the Defense stat of all Grass-type\nPokémon in battle with a mysterious power.",
-    "ultra-sun-ultra-moon": "The user raises the Defense stat of all Grass-type\nPokémon in battle with a mysterious power.",
-    "lets-go-pikachu-lets-go-eevee": "The user raises the Defense stat of all Grass-type\nPokémon in battle with a mysterious power.",
-    "sword-shield": "The user raises the Defense stats of all Grass-type\nPokémon in battle with a mysterious power."
-  },
-  "effect": {
-    "full": "Raises the Defense of all grass Pokémon in battle.",
-    "shortEffect": "Raises the Defense of all grass Pokémon in battle."
-  },
-  "priority": 0
+    "_id": 579,
+    "key": "flower-shield",
+    "name": {
+        "japanese-kana": "フラワーガード",
+        "korean": "플라워가드",
+        "traditional-chinese": "鮮花防守",
+        "french": "Garde Florale",
+        "german": "Floraschutz",
+        "spanish": "Defensa Floral",
+        "italian": "Fiordifesa",
+        "english": "Flower Shield",
+        "japanese": "フラワーガード",
+        "simplified-chinese": "鲜花防守",
+        "latin-american-spanish": "Defensa Floral"
+    },
+    "type": "fairy",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ふしぎな　ちからを　つかって ばにいる　くさタイプの　ポケモン ぜんいんの　ぼうぎょを　あげる。",
+            "oras": "ふしぎな　ちからを　つかって ばにいる　くさタイプの　ポケモン ぜんいんの　ぼうぎょを　あげる。",
+            "sm": "ふしぎな　ちからを　つかって ばにいる　くさタイプの　ポケモン ぜんいんの　ぼうぎょを　あげる。",
+            "usum": "ふしぎな　ちからを　つかって ばにいる　くさタイプの　ポケモン ぜんいんの　ぼうぎょを　あげる。",
+            "lgpe": "ふしぎな　ちからを　つかって ばにいる　くさタイプの　ポケモン ぜんいんの　ぼうぎょを　あげる。",
+            "swsh": "ふしぎな　ちからを　つかって ばにいる　くさタイプの　ポケモン ぜんいんの　ぼうぎょを　あげる。"
+        },
+        "korean": {
+            "xy": "이상한 힘을 사용하여 배틀에 나와있는 모든 풀타입 포켓몬의 방어를 올린다.",
+            "oras": "이상한 힘을 사용하여 배틀에 나와 있는 모든 풀타입 포켓몬의 방어를 올린다.",
+            "sm": "이상한 힘을 사용하여 배틀에 나와 있는 모든 풀타입 포켓몬의 방어를 올린다.",
+            "usum": "이상한 힘을 사용하여 배틀에 나와 있는 모든 풀타입 포켓몬의 방어를 올린다.",
+            "lgpe": "이상한 힘을 사용하여 배틀에 나와 있는 모든 풀타입 포켓몬의 방어를 올린다.",
+            "swsh": "이상한 힘을 사용하여 배틀에 나와 있는 모든 풀타입 포켓몬의 방어를 올린다."
+        },
+        "french": {
+            "xy": "Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente.",
+            "oras": "Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente.",
+            "sm": "Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente.",
+            "usum": "Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente.",
+            "lgpe": "Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente.",
+            "swsh": "Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente."
+        },
+        "german": {
+            "xy": "Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.",
+            "oras": "Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.",
+            "sm": "Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.",
+            "usum": "Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.",
+            "lgpe": "Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.",
+            "swsh": "Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon."
+        },
+        "spanish": {
+            "xy": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "oras": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "sm": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "usum": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "lgpe": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "swsh": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes."
+        },
+        "italian": {
+            "xy": "Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo.",
+            "oras": "Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo.",
+            "sm": "Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo.",
+            "usum": "Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo.",
+            "lgpe": "Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo.",
+            "swsh": "Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo."
+        },
+        "english": {
+            "xy": "The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.",
+            "oras": "The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.",
+            "sm": "The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.",
+            "usum": "The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.",
+            "lgpe": "The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.",
+            "swsh": "The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power."
+        },
+        "japanese": {
+            "xy": "不思議な　力を　使って 場にいる　くさタイプの　ポケモン 全員の　防御を　あげる。",
+            "oras": "不思議な　力を　使って 場にいる　くさタイプの　ポケモン 全員の　防御を　あげる。",
+            "sm": "不思議な　力を　使って 場にいる　くさタイプの　ポケモン 全員の　防御を　あげる。",
+            "usum": "不思議な　力を　使って 場にいる　くさタイプの　ポケモン 全員の　防御を　あげる。",
+            "lgpe": "不思議な　力を　使って 場にいる　くさタイプの　ポケモン 全員の　防御を　あげる。",
+            "swsh": "不思議な　力を　使って 場にいる　くさタイプの　ポケモン 全員の　防御を　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "oras": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "sm": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "usum": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "lgpe": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+            "swsh": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes."
+        },
+        "traditional-chinese": {
+            "sm": "使用神奇的力量， 提高場上全體 草屬性寶可夢的防禦。",
+            "usum": "使用神奇的力量， 提高場上全體 草屬性寶可夢的防禦。",
+            "lgpe": "使用神奇的力量， 提高場上全體 草屬性寶可夢的防禦。",
+            "swsh": "使用神奇的力量， 提高場上全體 草屬性寶可夢的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "使用神奇的力量 提高在场的所有 草属性宝可梦的防御。",
+            "usum": "使用神奇的力量 提高在场的所有 草属性宝可梦的防御。",
+            "lgpe": "使用神奇的力量 提高在场的所有 草属性宝可梦的防御。",
+            "swsh": "使用神奇的力量 提高在场的所有 草属性宝可梦的防御。"
+        }
+    },
+    "effect": {
+        "full": "Raises the Defense of all Grass Pokémon in battle.",
+        "shortEffect": "Raises the Defense of all Grass Pokémon in battle."
+    }
 }

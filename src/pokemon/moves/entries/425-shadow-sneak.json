@@ -1,42 +1,141 @@
 {
-  "_id": 425,
-  "key": "shadow-sneak",
-  "name": {
-    "english": "Shadow Sneak",
-    "japanese": "かげうち",
-    "chinese": "影子偷袭",
-    "korean": "야습",
-    "german": "Sombra Vil",
-    "french": "Schattenstoß",
-    "italian": "Shadow Sneak",
-    "spanish": "Furtivombra"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user extends its\nshadow and attacks\nthe foe from behind.\nThis move always goes\nfirst.",
-    "platinum": "The user extends its\nshadow and attacks\nthe foe from behind.\nThis move always goes\nfirst.",
-    "heartgold-soulsilver": "The user extends its\nshadow and attacks\nthe foe from behind.\nThis move always goes\nfirst.",
-    "black-white": "The user extends its shadow and attacks\nthe target from behind.\nThis move always goes first.",
-    "black-2-white-2": "The user extends its shadow and attacks\nthe target from behind.\nThis move always goes first.",
-    "x-y": "The user extends its shadow and attacks\nthe target from behind.\nThis move always goes first.",
-    "omega-ruby-alpha-sapphire": "The user extends its shadow and attacks\nthe target from behind.\nThis move always goes first.",
-    "sun-moon": "The user extends its shadow and attacks the target\nfrom behind. This move always goes first.",
-    "ultra-sun-ultra-moon": "The user extends its shadow and attacks the target\nfrom behind. This move always goes first.",
-    "lets-go-pikachu-lets-go-eevee": "The user extends its shadow and attacks the target\nfrom behind. This move always goes first.",
-    "sword-shield": "The user extends its shadow and attacks the target\nfrom behind. This move always goes first."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 1
+    "_id": 425,
+    "key": "shadow-sneak",
+    "name": {
+        "japanese-kana": "かげうち",
+        "korean": "야습",
+        "traditional-chinese": "影子偷襲",
+        "french": "Ombre Portée",
+        "german": "Schattenstoß",
+        "spanish": "Sombra Vil",
+        "italian": "Furtivombra",
+        "english": "Shadow Sneak",
+        "japanese": "かげうち",
+        "simplified-chinese": "影子偷袭",
+        "latin-american-spanish": "Sombra Vil"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user extends its shadow and attacks the foe from behind. This move always goes first.",
+            "pt": "The user extends its shadow and attacks the foe from behind. This move always goes first.",
+            "hgss": "The user extends its shadow and attacks the foe from behind. This move always goes first.",
+            "bw": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "b2w2": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "xy": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "oras": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "sm": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "usum": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "lgpe": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "swsh": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+            "la": "The user extends its shadow and attacks the target from behind. This also raises the user’s action speed.",
+            "sv": "The user extends its shadow and attacks the target from behind. This move always goes first."
+        },
+        "french": {
+            "bw": "Le lanceur étend son ombre pour frapper par derrière. Frappe toujours en premier.",
+            "xy": "Le lanceur étend son ombre pour frapper par-derrière. Frappe toujours en premier.",
+            "oras": "Le lanceur étend son ombre pour frapper par-derrière. Frappe toujours en premier.",
+            "sm": "Le lanceur étend son ombre pour frapper par-derrière. Frappe en priorité.",
+            "usum": "Le lanceur étend son ombre pour frapper par-derrière. Frappe en priorité.",
+            "lgpe": "Le lanceur étend son ombre pour frapper par-derrière. Frappe en priorité.",
+            "swsh": "Le lanceur étend son ombre pour frapper par-derrière. Frappe en priorité."
+        },
+        "japanese-kana": {
+            "xy": "かげを　のばして あいての　はいごから　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "oras": "かげを　のばして あいての　はいごから　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "sm": "かげを　のばして あいての　はいごから　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "usum": "かげを　のばして あいての　はいごから　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "lgpe": "かげを　のばして あいての　はいごから　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "swsh": "かげを　のばして あいての　はいごから　こうげきする。 かならず　せんせい　こうげき　できる。"
+        },
+        "korean": {
+            "xy": "그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다.",
+            "oras": "그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다.",
+            "sm": "그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다.",
+            "usum": "그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다.",
+            "lgpe": "그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다.",
+            "swsh": "그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다."
+        },
+        "german": {
+            "xy": "Anwender erweitert Schatten und greift das Ziel von hinten an. Erstschlaggarantie.",
+            "oras": "Anwender erweitert Schatten und greift das Ziel von hinten an. Erstschlaggarantie.",
+            "sm": "Anwender erweitert Schatten und greift das Ziel von hinten an. Hohe Erstschlagquote.",
+            "usum": "Anwender erweitert Schatten und greift das Ziel von hinten an. Hohe Erstschlagquote.",
+            "lgpe": "Anwender erweitert Schatten und greift das Ziel von hinten an. Hohe Erstschlagquote.",
+            "swsh": "Bei dieser Erstschlag-Attacke erweitert der Anwender seinen Schatten und greift das Ziel von hinten an."
+        },
+        "spanish": {
+            "xy": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero.",
+            "oras": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero.",
+            "sm": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.",
+            "usum": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.",
+            "lgpe": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.",
+            "swsh": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta."
+        },
+        "italian": {
+            "xy": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Con questa mossa si colpisce per primi.",
+            "oras": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Con questa mossa si colpisce per primi.",
+            "sm": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Questa mossa ha priorità alta.",
+            "usum": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Questa mossa ha priorità alta.",
+            "lgpe": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Questa mossa ha priorità alta.",
+            "swsh": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Questa mossa ha priorità alta."
+        },
+        "japanese": {
+            "xy": "影を　のばして 相手の　背後から　攻撃する。 必ず　先制攻撃　できる。",
+            "oras": "影を　のばして 相手の　背後から　攻撃する。 必ず　先制攻撃　できる。",
+            "sm": "影を　のばして 相手の　背後から　攻撃する。 必ず　先制攻撃　できる。",
+            "usum": "影を　のばして 相手の　背後から　攻撃する。 必ず　先制攻撃　できる。",
+            "lgpe": "影を　のばして 相手の　背後から　攻撃する。 必ず　先制攻撃　できる。",
+            "swsh": "影を　のばして 相手の　背後から　攻撃する。 必ず　先制攻撃　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero.",
+            "oras": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero.",
+            "sm": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.",
+            "usum": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.",
+            "lgpe": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.",
+            "swsh": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta."
+        },
+        "traditional-chinese": {
+            "sm": "伸長自己的影子， 從對手的背後進行攻擊。 必定能夠發動先制攻擊。",
+            "usum": "伸長自己的影子， 從對手的背後進行攻擊。 必定能夠發動先制攻擊。",
+            "lgpe": "伸長自己的影子， 從對手的背後進行攻擊。 必定能夠發動先制攻擊。",
+            "swsh": "伸長自己的影子， 從對手的背後進行攻擊。 必定能夠發動先制攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "伸长影子， 从对手的背后进行攻击。 必定能够先制攻击。",
+            "usum": "伸长影子， 从对手的背后进行攻击。 必定能够先制攻击。",
+            "lgpe": "伸长影子， 从对手的背后进行攻击。 必定能够先制攻击。",
+            "swsh": "伸长影子， 从对手的背后进行攻击。 必定能够先制攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

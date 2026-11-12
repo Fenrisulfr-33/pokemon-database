@@ -1,47 +1,146 @@
 {
-  "_id": 77,
-  "key": "poison-powder",
-  "name": {
-    "english": "Poison Powder",
-    "japanese": "どくのこな",
-    "chinese": "毒粉末",
-    "korean": "독가루",
-    "german": "Polvo Veneno",
-    "french": "Giftpuder",
-    "italian": "Poison Powder",
-    "spanish": "Velenpolvere"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 35,
-  "power": null,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A move that may\npoison the foe.",
-    "crystal": "A move that may\npoison the foe.",
-    "ruby-sapphire": "Scatters a toxic powder\nthat may poison the foe.",
-    "emerald": "Scatters a toxic powder\nthat may poison the foe.",
-    "firered-leafgreen": "A cloud of toxic\ndust is scattered.\nIt may poison the\nfoe.",
-    "diamond-pearl": "A cloud of poisonous\ndust is scattered on\nthe foe.\nIt may poison the\ntarget.",
-    "platinum": "A cloud of poisonous\ndust is scattered on\nthe foe.\nIt may poison the\ntarget.",
-    "heartgold-soulsilver": "A cloud of poisonous\ndust is scattered on\nthe foe.\nIt may poison the\ntarget.",
-    "black-white": "The user scatters a cloud of poisonous\ndust on the target. It may poison\nthe target.",
-    "black-2-white-2": "The user scatters a cloud of poisonous\ndust on the target. It may poison\nthe target.",
-    "x-y": "The user scatters a cloud of poisonous\ndust on the target. This may also poison\nthe target.",
-    "omega-ruby-alpha-sapphire": "The user scatters a cloud of poisonous\ndust on the target. This may also poison\nthe target.",
-    "sun-moon": "The user scatters a cloud of poisonous dust that\npoisons the target.",
-    "ultra-sun-ultra-moon": "The user scatters a cloud of poisonous dust that\npoisons the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user scatters a cloud of poisonous dust that\npoisons the target.",
-    "sword-shield": "The user scatters a cloud of poisonous dust that\npoisons the target."
-  },
-  "effect": {
-    "full": "Poisons the target.",
-    "shortEffect": "Poisons the target."
-  },
-  "priority": 0
+    "_id": 77,
+    "key": "poison-powder",
+    "name": {
+        "japanese-kana": "どくのこな",
+        "korean": "독가루",
+        "traditional-chinese": "毒粉",
+        "french": "Poudre Toxik",
+        "german": "Giftpuder",
+        "spanish": "Polvo Veneno",
+        "italian": "Velenpolvere",
+        "english": "Poison Powder",
+        "japanese": "どくのこな",
+        "simplified-chinese": "毒粉",
+        "latin-american-spanish": "Polvo Venenoso"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": "smart",
+    "pp": 35,
+    "power": null,
+    "accuracy": 75,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move that may poison the foe.",
+            "cr": "A move that may poison the foe.",
+            "rs": "Scatters a toxic powder that may poison the foe.",
+            "em": "Scatters a toxic powder that may poison the foe.",
+            "frlg": "A cloud of toxic dust is scattered. It may poison the foe.",
+            "dp": "A cloud of poisonous dust is scattered on the foe. It may poison the target.",
+            "pt": "A cloud of poisonous dust is scattered on the foe. It may poison the target.",
+            "hgss": "A cloud of poisonous dust is scattered on the foe. It may poison the target.",
+            "bw": "The user scatters a cloud of poisonous dust on the target. It may poison the target.",
+            "b2w2": "The user scatters a cloud of poisonous dust on the target. It may poison the target.",
+            "xy": "The user scatters a cloud of poisonous dust on the target. This may also poison the target.",
+            "oras": "The user scatters a cloud of poisonous dust on the target. This may also poison the target.",
+            "sm": "The user scatters a cloud of poisonous dust that poisons the target.",
+            "usum": "The user scatters a cloud of poisonous dust that poisons the target.",
+            "lgpe": "The user scatters a cloud of poisonous dust that poisons the target.",
+            "swsh": "The user scatters a cloud of poisonous dust that poisons the target.",
+            "la": "The user scatters a cloud of toxic powder that poisons the target.",
+            "sv": "The user scatters a cloud of poisonous dust that poisons the target."
+        },
+        "french": {
+            "bw": "Une poudre toxique empoisonne l’ennemi.",
+            "xy": "Une poudre toxique empoisonne l’ennemi.",
+            "oras": "Une poudre toxique empoisonne l’ennemi.",
+            "sm": "Une poudre toxique empoisonne l’ennemi.",
+            "usum": "Une poudre toxique empoisonne l’ennemi.",
+            "lgpe": "Une poudre toxique empoisonne l’ennemi.",
+            "swsh": "Une poudre toxique empoisonne l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "どくの　ある　こなを たくさん　ふりまいて あいてを　どく　じょうたいに　する。",
+            "oras": "どくの　ある　こなを たくさん　ふりまいて あいてを　どく　じょうたいに　する。",
+            "sm": "どくの　ある　こなを たくさん　ふりまいて あいてを　どく　じょうたいに　する。",
+            "usum": "どくの　ある　こなを たくさん　ふりまいて あいてを　どく　じょうたいに　する。",
+            "lgpe": "どくの　ある　こなを たくさん　ふりまいて あいてを　どく　じょうたいに　する。",
+            "swsh": "どくの　ある　こなを たくさん　ふりまいて あいてを　どく　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다.",
+            "oras": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다.",
+            "sm": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다.",
+            "usum": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다.",
+            "lgpe": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다.",
+            "swsh": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다."
+        },
+        "german": {
+            "xy": "Verstreut giftigen Puder auf das Ziel.",
+            "oras": "Verstreut giftigen Puder auf das Ziel.",
+            "sm": "Verstreut giftigen Puder, der das Ziel eventuell vergiftet.",
+            "usum": "Verstreut giftigen Puder, der das Ziel eventuell vergiftet.",
+            "lgpe": "Verstreut giftigen Puder, der das Ziel eventuell vergiftet.",
+            "swsh": "Verstreut giftigen Puder, der das Ziel eventuell vergiftet."
+        },
+        "spanish": {
+            "xy": "Polvo tóxico que envenena al objetivo.",
+            "oras": "Polvo tóxico que envenena al objetivo.",
+            "sm": "Polvo tóxico que envenena al objetivo.",
+            "usum": "Polvo tóxico que envenena al objetivo.",
+            "lgpe": "Polvo tóxico que envenena al objetivo.",
+            "swsh": "Polvo tóxico que envenena al objetivo."
+        },
+        "italian": {
+            "xy": "Investe il bersaglio con una nuvola di polvere tossica che avvelena.",
+            "oras": "Investe il bersaglio con una nuvola di polvere tossica che avvelena.",
+            "sm": "Investe il bersaglio con una nuvola di polvere tossica che avvelena.",
+            "usum": "Investe il bersaglio con una nuvola di polvere tossica che avvelena.",
+            "lgpe": "Investe il bersaglio con una nuvola di polvere tossica che avvelena.",
+            "swsh": "Investe il bersaglio con una nuvola di polvere tossica che avvelena."
+        },
+        "japanese": {
+            "xy": "毒の　ある　粉を たくさん　ふりまいて 相手を　毒状態に　する。",
+            "oras": "毒の　ある　粉を たくさん　ふりまいて 相手を　毒状態に　する。",
+            "sm": "毒の　ある　粉を たくさん　ふりまいて 相手を　毒状態に　する。",
+            "usum": "毒の　ある　粉を たくさん　ふりまいて 相手を　毒状態に　する。",
+            "lgpe": "毒の　ある　粉を たくさん　ふりまいて 相手を　毒状態に　する。",
+            "swsh": "毒の　ある　粉を たくさん　ふりまいて 相手を　毒状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Polvo tóxico que envenena al objetivo.",
+            "oras": "Polvo tóxico que envenena al objetivo.",
+            "sm": "Polvo tóxico que envenena al objetivo.",
+            "usum": "Polvo tóxico que envenena al objetivo.",
+            "lgpe": "Polvo tóxico que envenena al objetivo.",
+            "swsh": "Polvo tóxico que envenena al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "撒出大量的有毒粉末 讓對手陷入中毒狀態。",
+            "usum": "撒出大量的有毒粉末 讓對手陷入中毒狀態。",
+            "lgpe": "撒出大量的有毒粉末 讓對手陷入中毒狀態。",
+            "swsh": "撒出大量的有毒粉末 讓對手陷入中毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "撒出毒粉， 从而让对手陷入中毒状态。",
+            "usum": "撒出毒粉， 从而让对手陷入中毒状态。",
+            "lgpe": "撒出毒粉， 从而让对手陷入中毒状态。",
+            "swsh": "撒出毒粉， 从而让对手陷入中毒状态。"
+        }
+    },
+    "effect": {
+        "full": "Poisons the target.",
+        "shortEffect": "Poisons the target."
+    }
 }

@@ -1,37 +1,133 @@
 {
-  "_id": 603,
-  "key": "happy-hour",
-  "name": {
-    "english": "Happy Hour",
-    "japanese": "ハッピータイム",
-    "chinese": "歡樂時光",
-    "korean": "해피타임",
-    "german": "Paga Extra",
-    "french": "Goldene Zeiten",
-    "italian": "Happy Hour",
-    "spanish": "Cuccagna"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 6,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "x-y": "Using Happy Hour doubles\nthe amount of prize money\nreceived after battle.",
-    "omega-ruby-alpha-sapphire": "Using Happy Hour doubles\nthe amount of prize money\nreceived after battle.",
-    "sun-moon": "Using Happy Hour doubles the amount of prize\nmoney received after battle.",
-    "ultra-sun-ultra-moon": "Using Happy Hour doubles the amount of prize\nmoney received after battle.",
-    "lets-go-pikachu-lets-go-eevee": "Using Happy Hour doubles the amount of prize\nmoney received after battle.",
-    "sword-shield": "Using Happy Hour doubles the amount of prize\nmoney received after battle."
-  },
-  "effect": {
-    "full": "Doubles prize money.\n\nStacks with a held item.  Only works once per battle.",
-    "shortEffect": "Doubles prize money."
-  },
-  "priority": 0
+    "_id": 603,
+    "key": "happy-hour",
+    "name": {
+        "japanese-kana": "ハッピータイム",
+        "korean": "해피타임",
+        "traditional-chinese": "歡樂時光",
+        "french": "Étrennes",
+        "german": "Goldene Zeiten",
+        "spanish": "Paga Extra",
+        "italian": "Cuccagna",
+        "english": "Happy Hour",
+        "japanese": "ハッピータイム",
+        "simplified-chinese": "欢乐时光",
+        "latin-american-spanish": "Paga Extra"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ハッピータイムの　わざを　つかうと せんとうの　あとで　もらえる おかねが　ばいになる。",
+            "oras": "ハッピータイムの　わざを　つかうと せんとうの　あとで　もらえる おかねが　ばいになる。",
+            "sm": "ハッピータイムの　わざを　つかうと せんとうの　あとで　もらえる おかねが　ばいになる。",
+            "usum": "ハッピータイムの　わざを　つかうと せんとうの　あとで　もらえる おかねが　ばいになる。",
+            "lgpe": "ハッピータイムの　わざを　つかうと せんとうの　あとで　もらえる おかねが　ばいになる。",
+            "swsh": "ハッピータイムの　わざを　つかうと せんとうの　あとで　もらえる おかねが　ばいになる。"
+        },
+        "korean": {
+            "xy": "해피타임 기술을 쓰면 배틀 후에 받을 수 있는 돈이 배가 된다.",
+            "oras": "해피타임 기술을 쓰면 배틀 후에 받을 수 있는 돈이 배가 된다.",
+            "sm": "해피타임 기술을 쓰면 배틀 후에 받을 수 있는 돈이 배가 된다.",
+            "usum": "해피타임 기술을 쓰면 배틀 후에 받을 수 있는 돈이 배가 된다.",
+            "lgpe": "해피타임 기술을 쓰면 배틀 후에 받을 수 있는 돈이 배가 된다.",
+            "swsh": "해피타임 기술을 쓰면 배틀 후에 받을 수 있는 돈이 배가 된다."
+        },
+        "french": {
+            "xy": "Utilisé pendant un combat, multiplie par deux l’argent gagné à la fin.",
+            "oras": "Utilisé pendant un combat, multiplie par deux l’argent gagné à la fin.",
+            "sm": "Utilisé pendant un combat, multiplie par deux l’argent gagné à la fin.",
+            "usum": "Utilisé pendant un combat, multiplie par deux l’argent gagné à la fin.",
+            "lgpe": "Utilisé pendant un combat, multiplie par deux l’argent gagné à la fin.",
+            "swsh": "Utilisée pendant un combat, multiplie par deux l’argent gagné à la fin."
+        },
+        "german": {
+            "xy": "Nach Einsatz der Attacke Goldene Zeiten verdoppelt sich das Preisgeld, das du im Falle eines Sieges erhältst.",
+            "oras": "Nach Einsatz der Attacke Goldene Zeiten verdoppelt sich das Preisgeld, das du im Falle eines Sieges erhältst.",
+            "sm": "Nach Einsatz der Attacke Goldene Zeiten verdoppelt sich das Preisgeld, das du im Falle eines Sieges erhältst.",
+            "usum": "Nach Einsatz der Attacke Goldene Zeiten verdoppelt sich das Preisgeld, das du im Falle eines Sieges erhältst.",
+            "lgpe": "Nach Einsatz der Attacke Goldene Zeiten verdoppelt sich das Preisgeld, das du im Falle eines Sieges erhältst.",
+            "swsh": "Nach Einsatz der Attacke Goldene Zeiten verdoppelt sich das Preisgeld, das du im Falle eines Sieges erhältst."
+        },
+        "spanish": {
+            "xy": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "oras": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "sm": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "usum": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "lgpe": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "swsh": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate."
+        },
+        "italian": {
+            "xy": "Questa mossa raddoppia la ricompensa ricevuta dopo aver vinto una lotta.",
+            "oras": "Questa mossa raddoppia la ricompensa ricevuta dopo aver vinto una lotta.",
+            "sm": "Questa mossa raddoppia la ricompensa ricevuta dopo aver vinto una lotta.",
+            "usum": "Questa mossa raddoppia la ricompensa ricevuta dopo aver vinto una lotta.",
+            "lgpe": "Questa mossa raddoppia la ricompensa ricevuta dopo aver vinto una lotta.",
+            "swsh": "Questa mossa raddoppia la ricompensa ricevuta dopo aver vinto una lotta."
+        },
+        "english": {
+            "xy": "Using Happy Hour doubles the amount of prize money received after battle.",
+            "oras": "Using Happy Hour doubles the amount of prize money received after battle.",
+            "sm": "Using Happy Hour doubles the amount of prize money received after battle.",
+            "usum": "Using Happy Hour doubles the amount of prize money received after battle.",
+            "lgpe": "Using Happy Hour doubles the amount of prize money received after battle.",
+            "swsh": "Using Happy Hour doubles the amount of prize money received after battle."
+        },
+        "japanese": {
+            "xy": "ハッピータイムの　技を　使うと 戦闘の　あとで　もらえる お金が　倍になる。",
+            "oras": "ハッピータイムの　技を　使うと 戦闘の　あとで　もらえる お金が　倍になる。",
+            "sm": "ハッピータイムの　技を　使うと 戦闘の　あとで　もらえる お金が　倍になる。",
+            "usum": "ハッピータイムの　技を　使うと 戦闘の　あとで　もらえる お金が　倍になる。",
+            "lgpe": "ハッピータイムの　技を　使うと 戦闘の　あとで　もらえる お金が　倍になる。",
+            "swsh": "ハッピータイムの　技を　使うと 戦闘の　あとで　もらえる お金が　倍になる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "oras": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "sm": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "usum": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "lgpe": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.",
+            "swsh": "Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate."
+        },
+        "traditional-chinese": {
+            "sm": "使用歡樂時光後， 戰鬥結束時獲得的錢會加倍。",
+            "usum": "使用歡樂時光後， 戰鬥結束時獲得的錢會加倍。",
+            "lgpe": "使用歡樂時光後， 戰鬥結束時獲得的錢會加倍。",
+            "swsh": "使用歡樂時光後， 戰鬥結束時獲得的錢會加倍。"
+        },
+        "simplified-chinese": {
+            "sm": "如果使用欢乐时光， 战斗后得到的钱会翻倍。",
+            "usum": "如果使用欢乐时光， 战斗后得到的钱会翻倍。",
+            "lgpe": "如果使用欢乐时光， 战斗后得到的钱会翻倍。",
+            "swsh": "如果使用欢乐时光， 战斗后得到的钱会翻倍。"
+        }
+    },
+    "effect": {
+        "full": "Doubles prize money. Stacks with a held item.  Only works once per battle.",
+        "shortEffect": "Doubles prize money."
+    }
 }

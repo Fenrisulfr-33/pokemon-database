@@ -1,47 +1,144 @@
 {
-  "_id": 142,
-  "key": "lovely-kiss",
-  "name": {
-    "english": "Lovely Kiss",
-    "japanese": "あくまのキッス",
-    "chinese": "恶魔之吻",
-    "korean": "악마의키스",
-    "german": "Beso Amoroso",
-    "french": "Todeskuss",
-    "italian": "Lovely Kiss",
-    "spanish": "Demonbacio"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": null,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "May cause the foe\nto fall asleep.",
-    "crystal": "May cause the foe\nto fall asleep.",
-    "ruby-sapphire": "Demands a kiss with a scary\nface that induces sleep.",
-    "emerald": "Demands a kiss with a scary\nface that induces sleep.",
-    "firered-leafgreen": "The user forces a\nkiss on the foe\nwith a scary face\nthat induces sleep.",
-    "diamond-pearl": "With a scary face,\nthe user forces a\nkiss on the foe.\nIt may make the\ntarget fall asleep.",
-    "platinum": "With a scary face,\nthe user forces a\nkiss on the foe.\nIt may make the\ntarget fall asleep.",
-    "heartgold-soulsilver": "With a scary face, the\nuser tries to force a\nkiss on the foe. If it\nsucceeds, the target\nfalls asleep.",
-    "black-white": "With a scary face, the user tries to\nforce a kiss on the target. If it\nsucceeds, the target falls asleep.",
-    "black-2-white-2": "With a scary face, the user tries to\nforce a kiss on the target. If it\nsucceeds, the target falls asleep.",
-    "x-y": "With a scary face, the user tries to\nforce a kiss on the target. If it\nsucceeds, the target falls asleep.",
-    "omega-ruby-alpha-sapphire": "With a scary face, the user tries to\nforce a kiss on the target. If it\nsucceeds, the target falls asleep.",
-    "sun-moon": "With a scary face, the user tries to force a kiss on\nthe target. If it succeeds, the target falls asleep.",
-    "ultra-sun-ultra-moon": "With a scary face, the user tries to force a kiss on\nthe target. If it succeeds, the target falls asleep.",
-    "lets-go-pikachu-lets-go-eevee": "With a scary face, the user tries to force a kiss on\nthe target. If it succeeds, the target falls asleep.",
-    "sword-shield": "With a scary face, the user tries to force a kiss on\nthe target. If it succeeds, the target falls asleep."
-  },
-  "effect": {
-    "full": "Puts the target to sleep.",
-    "shortEffect": "Puts the target to sleep."
-  },
-  "priority": 0
+    "_id": 142,
+    "key": "lovely-kiss",
+    "name": {
+        "japanese-kana": "あくまのキッス",
+        "korean": "악마의키스",
+        "traditional-chinese": "惡魔之吻",
+        "french": "Grobisou",
+        "german": "Todeskuss",
+        "spanish": "Beso Amoroso",
+        "italian": "Demonbacio",
+        "english": "Lovely Kiss",
+        "japanese": "あくまのキッス",
+        "simplified-chinese": "恶魔之吻",
+        "latin-american-spanish": "Beso Amoroso"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 10,
+    "power": null,
+    "accuracy": 75,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "sleep",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "May cause the foe to fall asleep.",
+            "cr": "May cause the foe to fall asleep.",
+            "rs": "Demands a kiss with a scary face that induces sleep.",
+            "em": "Demands a kiss with a scary face that induces sleep.",
+            "frlg": "The user forces a kiss on the foe with a scary face that induces sleep.",
+            "dp": "With a scary face, the user forces a kiss on the foe. It may make the target fall asleep.",
+            "pt": "With a scary face, the user forces a kiss on the foe. It may make the target fall asleep.",
+            "hgss": "With a scary face, the user tries to force a kiss on the foe. If it succeeds, the target falls asleep.",
+            "bw": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
+            "b2w2": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
+            "xy": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
+            "oras": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
+            "sm": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
+            "usum": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
+            "lgpe": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
+            "swsh": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep."
+        },
+        "french": {
+            "bw": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.",
+            "xy": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.",
+            "oras": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.",
+            "sm": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.",
+            "usum": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.",
+            "lgpe": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.",
+            "swsh": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "おそろしい　かおで　キスを　せまる。 あいてを　ねむり　じょうたいに　する。",
+            "oras": "おそろしい　かおで　キスを　せまる。 あいてを　ねむり　じょうたいに　する。",
+            "sm": "おそろしい　かおで　キスを　せまる。 あいてを　ねむり　じょうたいに　する。",
+            "usum": "おそろしい　かおで　キスを　せまる。 あいてを　ねむり　じょうたいに　する。",
+            "lgpe": "おそろしい　かおで　キスを　せまる。 あいてを　ねむり　じょうたいに　する。",
+            "swsh": "おそろしい　かおで　キスを　せまる。 あいてを　ねむり　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "무서운 얼굴로 키스한다. 상대를 잠듦 상태로 만든다.",
+            "oras": "무서운 얼굴로 키스한다. 상대를 잠듦 상태로 만든다.",
+            "sm": "무서운 얼굴로 키스한다. 상대를 잠듦 상태로 만든다.",
+            "usum": "무서운 얼굴로 키스한다. 상대를 잠듦 상태로 만든다.",
+            "lgpe": "무서운 얼굴로 키스한다. 상대를 잠듦 상태로 만든다.",
+            "swsh": "무서운 얼굴로 키스한다. 상대를 잠듦 상태로 만든다."
+        },
+        "german": {
+            "xy": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht.",
+            "oras": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht.",
+            "sm": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht.",
+            "usum": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht.",
+            "lgpe": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht.",
+            "swsh": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht."
+        },
+        "spanish": {
+            "xy": "Con una cara que asusta, da un beso al objetivo y lo adormece.",
+            "oras": "Con una cara que asusta, da un beso al objetivo y lo adormece.",
+            "sm": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido.",
+            "usum": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido.",
+            "lgpe": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido.",
+            "swsh": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido."
+        },
+        "italian": {
+            "xy": "Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.",
+            "oras": "Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.",
+            "sm": "Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.",
+            "usum": "Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.",
+            "lgpe": "Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.",
+            "swsh": "Chi la usa intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare."
+        },
+        "japanese": {
+            "xy": "恐ろしい　顔で　キスを　せまる。 相手を　眠り状態に　する。",
+            "oras": "恐ろしい　顔で　キスを　せまる。 相手を　眠り状態に　する。",
+            "sm": "恐ろしい　顔で　キスを　せまる。 相手を　眠り状態に　する。",
+            "usum": "恐ろしい　顔で　キスを　せまる。 相手を　眠り状態に　する。",
+            "lgpe": "恐ろしい　顔で　キスを　せまる。 相手を　眠り状態に　する。",
+            "swsh": "恐ろしい　顔で　キスを　せまる。 相手を　眠り状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Con una cara que asusta, da un beso al objetivo y lo adormece.",
+            "oras": "Con una cara que asusta, da un beso al objetivo y lo adormece.",
+            "sm": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido.",
+            "usum": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido.",
+            "lgpe": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido.",
+            "swsh": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido."
+        },
+        "traditional-chinese": {
+            "sm": "用恐怖的臉強吻對手。 能讓對手陷入睡眠狀態。",
+            "usum": "用恐怖的臉強吻對手。 能讓對手陷入睡眠狀態。",
+            "lgpe": "用恐怖的臉強吻對手。 能讓對手陷入睡眠狀態。",
+            "swsh": "用恐怖的臉強吻對手。 能讓對手陷入睡眠狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用恐怖的脸强吻对手。 让对手陷入睡眠状态。",
+            "usum": "用恐怖的脸强吻对手。 让对手陷入睡眠状态。",
+            "lgpe": "用恐怖的脸强吻对手。 让对手陷入睡眠状态。",
+            "swsh": "用恐怖的脸强吻对手。 让对手陷入睡眠状态。"
+        }
+    },
+    "effect": {
+        "full": "Puts the target to sleep.",
+        "shortEffect": "Puts the target to sleep."
+    }
 }

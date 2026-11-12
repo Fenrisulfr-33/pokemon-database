@@ -1,34 +1,104 @@
 {
-  "_id": 724,
-  "key": "searing-sunraze-smash",
-  "name": {
-    "english": "Searing Sunraze Smash",
-    "japanese": "サンシャインスマッシャー",
-    "chinese": "日光迴旋下蒼穹",
-    "korean": "선샤인스매셔",
-    "german": "Embestida Solar",
-    "french": "Schmetternde Sonnenwalze",
-    "italian": "Searing Sunraze Smash",
-    "spanish": "Supercollisione Solare"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": null,
-  "pp": 1,
-  "power": 200,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ultra-sun-ultra-moon": "After obtaining Z-Power, the user, Solgaleo,\nattacks the target with full force. This move can\nignore the effect of the target’s Ability.",
-    "lets-go-pikachu-lets-go-eevee": "After obtaining Z-Power, the user, Solgaleo,\nattacks the target with full force. This move can\nignore the effect of the target’s Ability.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Other Pokémon's abilities cannot activate in response to this move.  In particular, it hits through disguise",
-    "shortEffect": "Cannot be disrupted by abilities."
-  },
-  "priority": 0
+    "_id": 724,
+    "key": "searing-sunraze-smash",
+    "name": {
+        "japanese-kana": "サンシャインスマッシャー",
+        "korean": "선샤인스매셔",
+        "traditional-chinese": "日光迴旋下蒼穹",
+        "french": "Hélio-Choc Dévastateur",
+        "german": "Schmetternde Sonnenwalze",
+        "spanish": "Embestida Solar",
+        "italian": "Supercollisione Solare",
+        "english": "Searing Sunraze Smash",
+        "japanese": "サンシャインスマッシャー",
+        "simplified-chinese": "日光回旋下苍穹",
+        "latin-american-spanish": "Embestida Solar"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": null,
+    "pp": 1,
+    "power": 200,
+    "accuracy": null,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "usum": "Ｚパワーを　えた　ソルガレオが ぜんりょくで　こうげきする。　あいての とくせいの　こうかを　むしできる。",
+            "lgpe": "Ｚパワーを　えた　ソルガレオが ぜんりょくで　こうげきする。　あいての とくせいの　こうかを　むしできる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "usum": "Z파워를 얻은 솔가레오가 전력으로 공격한다. 상대의 특성 효과를 무시할 수 있다.",
+            "lgpe": "Z파워를 얻은 솔가레오가 전력으로 공격한다. 상대의 특성 효과를 무시할 수 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "usum": "獲得Ｚ力量的索爾迦雷歐 將會以全力進行攻擊。 可以無視對手的特性效果。",
+            "lgpe": "獲得Ｚ力量的索爾迦雷歐 將會以全力進行攻擊。 可以無視對手的特性效果。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "usum": "Baigné dans la Force Z, Solgaleo attaque en déchaînant toute sa puissance. Ignore le talent de la cible.",
+            "lgpe": "Baigné dans la Force Z, Solgaleo attaque en déchaînant toute sa puissance. Ignore le talent de la cible.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "usum": "Solgaleo greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Ignoriert die Fähigkeit des Zieles.",
+            "lgpe": "Solgaleo greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Ignoriert die Fähigkeit des Zieles.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "usum": "Solgaleo ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo.",
+            "lgpe": "Solgaleo ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "usum": "Grazie al Potere Z, Solgaleo attacca il bersaglio con tutta la sua forza. Questo attacco ignora l’abilità del bersaglio se questa ha effetto sulle mosse.",
+            "lgpe": "Grazie al Potere Z, Solgaleo attacca il bersaglio con tutta la sua forza. Questo attacco ignora l’abilità del bersaglio se questa ha effetto sulle mosse.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "usum": "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target’s Ability.",
+            "lgpe": "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target’s Ability.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "usum": "Ｚパワーを　得た　ソルガレオが 全力で　攻撃する。　相手の 特性の　効果を　無視できる。",
+            "lgpe": "Ｚパワーを　得た　ソルガレオが 全力で　攻撃する。　相手の 特性の　効果を　無視できる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "usum": "得到Ｚ力量的索尔迦雷欧 将全力进行攻击。 可以无视对手的特性效果。",
+            "lgpe": "得到Ｚ力量的索尔迦雷欧 将全力进行攻击。 可以无视对手的特性效果。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "usum": "Solgaleo ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo.",
+            "lgpe": "Solgaleo ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Other Pokémon’s abilities cannot activate in response to this move.  In particular, it hits through Disguise",
+        "shortEffect": "Cannot be disrupted by abilities."
+    }
 }

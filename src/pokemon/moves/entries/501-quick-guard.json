@@ -1,39 +1,138 @@
 {
-  "_id": 501,
-  "key": "quick-guard",
-  "name": {
-    "english": "Quick Guard",
-    "japanese": "ファストガード",
-    "chinese": "先制防御",
-    "korean": "퍼스트가드",
-    "german": "Anticipo",
-    "french": "Rapidschutz",
-    "italian": "Quick Guard",
-    "spanish": "Anticipo"
-  },
-  "type": "Fighting",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "black-white": "The user protects itself and its allies\nfrom priority moves. If used in\nsuccession, its chance of failing rises.",
-    "black-2-white-2": "The user protects itself and its allies\nfrom priority moves. If used in\nsuccession, its chance of failing rises.",
-    "x-y": "The user protects itself and its allies\nfrom priority moves.",
-    "omega-ruby-alpha-sapphire": "The user protects itself and its allies\nfrom priority moves.",
-    "sun-moon": "The user protects itself and its allies from\npriority moves.",
-    "ultra-sun-ultra-moon": "The user protects itself and its allies from\npriority moves.",
-    "lets-go-pikachu-lets-go-eevee": "The user protects itself and its allies from\npriority moves.",
-    "sword-shield": "The user protects itself and its allies from\npriority moves."
-  },
-  "effect": {
-    "full": "Moves with priority greater than 0 will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Prevents any priority moves from hitting friendly Pokémon this turn."
-  },
-  "priority": 3
+    "_id": 501,
+    "key": "quick-guard",
+    "name": {
+        "japanese-kana": "ファストガード",
+        "korean": "패스트가드",
+        "traditional-chinese": "快速防守",
+        "french": "Prévention",
+        "german": "Rapidschutz",
+        "spanish": "Anticipo",
+        "italian": "Anticipo",
+        "english": "Quick Guard",
+        "japanese": "ファストガード",
+        "simplified-chinese": "快速防守",
+        "latin-american-spanish": "Defensa Rápida"
+    },
+    "type": "fighting",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 3,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur et son équipe sont protégés contre les attaques prioritaires. Peut échouer si utilisée plusieurs fois de suite.",
+            "xy": "Le lanceur et son équipe sont protégés contre les attaques prioritaires.",
+            "oras": "Le lanceur et son équipe sont protégés contre les attaques prioritaires.",
+            "sm": "Le lanceur et son équipe sont protégés contre les attaques prioritaires.",
+            "usum": "Le lanceur et son équipe sont protégés contre les attaques prioritaires.",
+            "lgpe": "Le lanceur et son équipe sont protégés contre les attaques prioritaires.",
+            "swsh": "Le lanceur et son équipe sont protégés contre les attaques prioritaires."
+        },
+        "english": {
+            "bw": "The user protects itself and its allies from priority moves. If used in succession, its chance of failing rises.",
+            "b2w2": "The user protects itself and its allies from priority moves. If used in succession, its chance of failing rises.",
+            "xy": "The user protects itself and its allies from priority moves.",
+            "oras": "The user protects itself and its allies from priority moves.",
+            "sm": "The user protects itself and its allies from priority moves.",
+            "usum": "The user protects itself and its allies from priority moves.",
+            "lgpe": "The user protects itself and its allies from priority moves.",
+            "swsh": "The user protects itself and its allies from priority moves.",
+            "la": "The user protects itself and its allies from priority moves.",
+            "sv": "The user protects itself and its allies from priority moves."
+        },
+        "japanese-kana": {
+            "xy": "じぶんと　みかたを　あいての せんせい　こうげきから　まもる。",
+            "oras": "じぶんと　 かたを　あいての せんせい　こうげきから　まもる。",
+            "sm": "じぶんと　みかたを　あいての せんせい　こうげきから　まもる。",
+            "usum": "じぶんと　みかたを　あいての せんせい　こうげきから　まもる。",
+            "lgpe": "じぶんと　みかたを　あいての せんせい　こうげきから　まもる。",
+            "swsh": "じぶんと　みかたを　あいての せんせい　こうげきから　まもる。"
+        },
+        "korean": {
+            "xy": "자신과 같은 편을 상대의 선제공격으로부터 지킨다.",
+            "oras": "자신과 같은 편을 상대의 선제공격으로부터 지킨다.",
+            "sm": "자신과 같은 편을 상대의 선제공격으로부터 지킨다.",
+            "usum": "자신과 같은 편을 상대의 선제공격으로부터 지킨다.",
+            "lgpe": "자신과 같은 편을 상대의 선제공격으로부터 지킨다.",
+            "swsh": "자신과 같은 편을 상대의 선제공격으로부터 지킨다."
+        },
+        "german": {
+            "xy": "Schützt Anwender und Mitstreiter vor gegnerischen Erstschlag-Attacken.",
+            "oras": "Schützt Anwender und Mitstreiter vor gegnerischen Erstschlag-Attacken.",
+            "sm": "Schützt Anwender und Mitstreiter vor Erstschlag-Attacken.",
+            "usum": "Schützt Anwender und Mitstreiter vor Erstschlag-Attacken.",
+            "lgpe": "Schützt Anwender und Mitstreiter vor Erstschlag-Attacken.",
+            "swsh": "Schützt Anwender und Mitstreiter vor Erstschlag-Attacken."
+        },
+        "spanish": {
+            "xy": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "oras": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "sm": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "usum": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "lgpe": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "swsh": "Se protege a sí mismo y a sus aliados de movimientos con prioridad."
+        },
+        "italian": {
+            "xy": "Chi la usa protegge sé e gli alleati dalle mosse dei nemici che fanno colpire per primi.",
+            "oras": "Chi la usa protegge sé e gli alleati dalle mosse dei nemici che fanno colpire per primi.",
+            "sm": "Chi la usa protegge sé e gli alleati dalle mosse ad alta priorità.",
+            "usum": "Chi la usa protegge sé e gli alleati dalle mosse ad alta priorità.",
+            "lgpe": "Chi la usa protegge sé e gli alleati dalle mosse ad alta priorità.",
+            "swsh": "Chi la usa protegge sé e gli alleati dalle mosse ad alta priorità."
+        },
+        "japanese": {
+            "xy": "自分と　味方を　相手の 先制攻撃から　守る。",
+            "oras": "自分と　味方を　相手の 先制攻撃から　守る。",
+            "sm": "自分と　味方を　相手の 先制攻撃から　守る。",
+            "usum": "自分と　味方を　相手の 先制攻撃から　守る。",
+            "lgpe": "自分と　味方を　相手の 先制攻撃から　守る。",
+            "swsh": "自分と　味方を　相手の 先制攻撃から　守る。"
+        },
+        "latin-american-spanish": {
+            "xy": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "oras": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "sm": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "usum": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "lgpe": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+            "swsh": "Se protege a sí mismo y a sus aliados de movimientos con prioridad."
+        },
+        "traditional-chinese": {
+            "sm": "保護自己和同伴， 防禦來自對手的先制攻擊。",
+            "usum": "保護自己和同伴， 防禦來自對手的先制攻擊。",
+            "lgpe": "保護自己和同伴， 防禦來自對手的先制攻擊。",
+            "swsh": "保護自己和同伴， 防禦來自對手的先制攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "守护自己和同伴， 以防对手的先制攻击。",
+            "usum": "守护自己和同伴， 以防对手的先制攻击。",
+            "lgpe": "守护自己和同伴， 以防对手的先制攻击。",
+            "swsh": "守护自己和同伴， 以防对手的先制攻击。"
+        }
+    },
+    "effect": {
+        "full": "Moves with priority greater than 0 will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will fail. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Prevents any priority moves from hitting friendly Pokémon this turn."
+    }
 }

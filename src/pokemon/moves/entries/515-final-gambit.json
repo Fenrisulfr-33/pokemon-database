@@ -1,39 +1,138 @@
 {
-  "_id": 515,
-  "key": "final-gambit",
-  "name": {
-    "english": "Final Gambit",
-    "japanese": "いのちがけ",
-    "chinese": "赌命",
-    "korean": "목숨걸기",
-    "german": "Sacrificio",
-    "french": "Wagemut",
-    "italian": "Final Gambit",
-    "spanish": "Azzardo"
-  },
-  "type": "Fighting",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user risks everything to attack its\ntarget. The user faints but does damage\nequal to the user’s HP.",
-    "black-2-white-2": "The user risks everything to attack its\ntarget. The user faints but does damage\nequal to the user’s HP.",
-    "x-y": "The user risks everything to attack its\ntarget. The user faints but does damage\nequal to its HP.",
-    "omega-ruby-alpha-sapphire": "The user risks everything to attack its\ntarget. The user faints but does damage\nequal to its HP.",
-    "sun-moon": "The user risks everything to attack its target. The\nuser faints but does damage equal to its HP.",
-    "ultra-sun-ultra-moon": "The user risks everything to attack its target. The\nuser faints but does damage equal to its HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user risks everything to attack its target. The\nuser faints but does damage equal to its HP.",
-    "sword-shield": "The user risks everything to attack its target. The\nuser faints but does damage equal to its HP."
-  },
-  "effect": {
-    "full": "Inflicts damage equal to the user's remaining HP.  User faints.",
-    "shortEffect": "Inflicts damage equal to the user's remaining HP.  User faints."
-  },
-  "priority": 0
+    "_id": 515,
+    "key": "final-gambit",
+    "name": {
+        "japanese-kana": "いのちがけ",
+        "korean": "목숨걸기",
+        "traditional-chinese": "搏命",
+        "french": "Tout ou Rien",
+        "german": "Wagemut",
+        "spanish": "Sacrificio",
+        "italian": "Azzardo",
+        "english": "Final Gambit",
+        "japanese": "いのちがけ",
+        "simplified-chinese": "搏命",
+        "latin-american-spanish": "Sacrificio"
+    },
+    "type": "fighting",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi.",
+            "xy": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi.",
+            "oras": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi.",
+            "sm": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi.",
+            "usum": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi.",
+            "lgpe": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi.",
+            "swsh": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à l’ennemi."
+        },
+        "english": {
+            "bw": "The user risks everything to attack its target. The user faints but does damage equal to the user’s HP.",
+            "b2w2": "The user risks everything to attack its target. The user faints but does damage equal to the user’s HP.",
+            "xy": "The user risks everything to attack its target. The user faints but does damage equal to its HP.",
+            "oras": "The user risks everything to attack its target. The user faints but does damage equal to its HP.",
+            "sm": "The user risks everything to attack its target. The user faints but does damage equal to its HP.",
+            "usum": "The user risks everything to attack its target. The user faints but does damage equal to its HP.",
+            "lgpe": "The user risks everything to attack its target. The user faints but does damage equal to its HP.",
+            "swsh": "The user risks everything to attack its target. The user faints but does damage equal to its HP.",
+            "la": "The user risks everything to attack its target. The user faints but does damage equal to its HP.",
+            "sv": "The user risks everything to attack the target. The user faints but inflicts damage equal to its own HP."
+        },
+        "japanese-kana": {
+            "xy": "いのちがけで　あいてを　こうげきする。 じぶんは　ひんしに　なるが　あいてに ＨＰぶんの　ダメージを　あたえる。",
+            "oras": "いのちがけで　あいてを　こうげきする。 じぶんは　ひんしに　なるが　あいてに ＨＰぶんの　ダメージを　あたえる。",
+            "sm": "いのちがけで　あいてを　こうげきする。 じぶんは　ひんしに　なるが　あいてに ＨＰぶんの　ダメージを　あたえる。",
+            "usum": "いのちがけで　あいてを　こうげきする。 じぶんは　ひんしに　なるが　あいてに ＨＰぶんの　ダメージを　あたえる。",
+            "lgpe": "いのちがけで　あいてを　こうげきする。 じぶんは　ひんしに　なるが　あいてに ＨＰぶんの　ダメージを　あたえる。",
+            "swsh": "いのちがけで　あいてを　こうげきする。 じぶんは　ひんしに　なるが　あいてに ＨＰぶんの　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "목숨을 걸고 상대를 공격한다. 자신은 기절하게 되지만 상대에게 HP만큼의 데미지를 준다.",
+            "oras": "목숨을 걸고 상대를 공격한다. 자신은 기절하게 되지만 상대에게 HP만큼의 데미지를 준다.",
+            "sm": "목숨을 걸고 상대를 공격한다. 자신은 기절하게 되지만 상대에게 HP만큼의 데미지를 준다.",
+            "usum": "목숨을 걸고 상대를 공격한다. 자신은 기절하게 되지만 상대에게 HP만큼의 데미지를 준다.",
+            "lgpe": "목숨을 걸고 상대를 공격한다. 자신은 기절하게 되지만 상대에게 HP만큼의 데미지를 준다.",
+            "swsh": "목숨을 걸고 상대를 공격한다. 자신은 기절하게 되지만 상대에게 HP만큼의 데미지를 준다."
+        },
+        "german": {
+            "xy": "Ein Angriff, der dem Ziel Schaden in Höhe der aktuellen KP des Anwenders zufügt. Letzterer wird dadurch selbst besiegt.",
+            "oras": "Ein Angriff, der dem Ziel Schaden in Höhe der aktuellen KP des Anwenders zufügt. Letzterer wird dadurch selbst besiegt.",
+            "sm": "Ein Angriff, der dem Ziel Schaden in Höhe der aktuellen KP des Anwenders zufügt. Letzterer wird dadurch selbst besiegt.",
+            "usum": "Ein Angriff, der dem Ziel Schaden in Höhe der aktuellen KP des Anwenders zufügt. Letzterer wird dadurch selbst besiegt.",
+            "lgpe": "Ein Angriff, der dem Ziel Schaden in Höhe der aktuellen KP des Anwenders zufügt. Letzterer wird dadurch selbst besiegt.",
+            "swsh": "Ein Angriff, der dem Ziel Schaden in Höhe der aktuellen KP des Anwenders zufügt. Letzterer wird dadurch selbst besiegt."
+        },
+        "spanish": {
+            "xy": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "oras": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "sm": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "usum": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "lgpe": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "swsh": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con tutta la potenza di cui dispone e va KO, ma infligge al bersaglio un danno pari ai PS che ha perso.",
+            "oras": "Chi la usa attacca con tutta la potenza di cui dispone e va KO, ma infligge al bersaglio un danno pari ai PS che ha perso.",
+            "sm": "Chi la usa attacca con tutta la potenza di cui dispone e va KO, ma infligge al bersaglio un danno pari ai PS che ha perso.",
+            "usum": "Chi la usa attacca con tutta la potenza di cui dispone e va KO, ma infligge al bersaglio un danno pari ai PS che ha perso.",
+            "lgpe": "Chi la usa attacca con tutta la potenza di cui dispone e va KO, ma infligge al bersaglio un danno pari ai PS che ha perso.",
+            "swsh": "Chi la usa attacca con tutta la potenza di cui dispone e va KO, ma infligge al bersaglio un danno pari ai PS che ha perso."
+        },
+        "japanese": {
+            "xy": "命懸けで　相手を　攻撃する。 自分は　ひんしに　なるが　相手に ＨＰ分の　ダメージを　与える。",
+            "oras": "命懸けで　相手を　攻撃する。 自分は　ひんしに　なるが　相手に ＨＰ分の　ダメージを　与える。",
+            "sm": "命懸けで　相手を　攻撃する。 自分は　ひんしに　なるが　相手に ＨＰ分の　ダメージを　与える。",
+            "usum": "命懸けで　相手を　攻撃する。 自分は　ひんしに　なるが　相手に ＨＰ分の　ダメージを　与える。",
+            "lgpe": "命懸けで　相手を　攻撃する。 自分は　ひんしに　なるが　相手に ＨＰ分の　ダメージを　与える。",
+            "swsh": "命懸けで　相手を　攻撃する。 自分は　ひんしに　なるが　相手に ＨＰ分の　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "oras": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "sm": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "usum": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "lgpe": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.",
+            "swsh": "El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos."
+        },
+        "traditional-chinese": {
+            "sm": "捨身攻擊對手。 雖然自己會陷入瀕死，但能夠給予對手 和自己現有ＨＰ相同的傷害。",
+            "usum": "捨身攻擊對手。 雖然自己會陷入瀕死，但能夠給予對手 和自己現有ＨＰ相同的傷害。",
+            "lgpe": "捨身攻擊對手。 雖然自己會陷入瀕死，但能夠給予對手 和自己現有HP相同的傷害。",
+            "swsh": "捨身攻擊對手。 雖然自己會陷入瀕死，但能夠給予對手 和自己現有ＨＰ相同的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "拼命攻击对手。 虽然自己陷入濒死，但会给予对手 和自己目前ＨＰ等量的伤害。",
+            "usum": "拼命攻击对手。 虽然自己陷入濒死，但会给予对手 和自己目前ＨＰ等量的伤害。",
+            "lgpe": "拼命攻击对手。 虽然自己陷入濒死，但会给予对手 和自己目前HP等量的伤害。",
+            "swsh": "拼命攻击对手。 虽然自己陷入濒死，但会给予对手 和自己目前ＨＰ等量的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage equal to the user’s remaining HP.  User faints.",
+        "shortEffect": "Inflicts damage equal to the user’s remaining HP.  User faints."
+    }
 }

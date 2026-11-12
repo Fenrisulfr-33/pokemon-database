@@ -1,37 +1,135 @@
 {
-  "_id": 564,
-  "key": "sticky-web",
-  "name": {
-    "english": "Sticky Web",
-    "japanese": "ねばねばネット",
-    "chinese": "粘网",
-    "korean": "끈적끈적네트",
-    "german": "Red Viscosa",
-    "french": "Klebenetz",
-    "italian": "Sticky Web",
-    "spanish": "Rete Vischiosa"
-  },
-  "type": "Bug",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "opponents-field",
-  "changes": [],
-  "description": {
-    "x-y": "The user weaves a sticky net around\nthe opposing team, which lowers their\nSpeed stat upon switching into battle.",
-    "omega-ruby-alpha-sapphire": "The user weaves a sticky net around\nthe opposing team, which lowers their\nSpeed stat upon switching into battle.",
-    "sun-moon": "The user weaves a sticky net around the opposing\nteam, which lowers their Speed stat upon switching\ninto battle.",
-    "ultra-sun-ultra-moon": "The user weaves a sticky net around the opposing\nteam, which lowers their Speed stat upon switching\ninto battle.",
-    "lets-go-pikachu-lets-go-eevee": "The user weaves a sticky net around the opposing\nteam, which lowers their Speed stat upon switching\ninto battle.",
-    "sword-shield": "The user weaves a sticky net around the opposing\nteam, which lowers their Speed stats upon switching\ninto battle."
-  },
-  "effect": {
-    "full": "Shoots a web over the opponents' side of the field, which lowers the Speed of any opposing Pokémon that enters the field by one stage.\n\nPokémon in the air, such as flying-types and those with levitate, are unaffected.  rapid spin removes Sticky Web from the user's side of the field; defog removes it from both sides.",
-    "shortEffect": "Covers the opposing field, lowering opponents' Speed by one stage upon switching in."
-  },
-  "priority": 0
+    "_id": 564,
+    "key": "sticky-web",
+    "name": {
+        "japanese-kana": "ねばねばネット",
+        "korean": "끈적끈적네트",
+        "traditional-chinese": "黏黏網",
+        "french": "Toile Gluante",
+        "german": "Klebenetz",
+        "spanish": "Red Viscosa",
+        "italian": "Rete Vischiosa",
+        "english": "Sticky Web",
+        "japanese": "ねばねばネット",
+        "simplified-chinese": "黏黏网",
+        "latin-american-spanish": "Red Pegajosa"
+    },
+    "type": "bug",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "opponents-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "あいての　まわりに　ねばねばした ネットを　はりめぐらせ　こうたいで でてきた　あいての　すばやさを　さげる。",
+            "oras": "あいての　まわりに　ねばねばした ネットを　はりめぐらせ　こうたいで でてきた　あいての　すばやさを　さげる。",
+            "sm": "あいての　まわりに　ねばねばした ネットを　はりめぐらせ　こうたいで でてきた　あいての　すばやさを　さげる。",
+            "usum": "あいての　まわりに　ねばねばした ネットを　はりめぐらせ　こうたいで でてきた　あいての　すばやさを　さげる。",
+            "lgpe": "あいての　まわりに　ねばねばした ネットを　はりめぐらせ　こうたいで でてきた　あいての　すばやさを　さげる。",
+            "swsh": "あいての　まわりに　ねばねばした ネットを　はりめぐらせ　こうたいで でてきた　あいての　すばやさを　さげる。"
+        },
+        "korean": {
+            "xy": "상대의 주위에 끈적끈적한 네트를 둘러 펼쳐 교체되어 나온 상대의 스피드를 떨어뜨린다.",
+            "oras": "상대의 주위에 끈적끈적한 네트를 둘러 펼쳐 교체되어 나온 상대의 스피드를 떨어뜨린다.",
+            "sm": "상대의 주위에 끈적끈적한 네트를 둘러 펼쳐 교체되어 나온 상대의 스피드를 떨어뜨린다.",
+            "usum": "상대의 주위에 끈적끈적한 네트를 둘러 펼쳐 교체되어 나온 상대의 스피드를 떨어뜨린다.",
+            "lgpe": "상대의 주위에 끈적끈적한 네트를 둘러 펼쳐 교체되어 나온 상대의 스피드를 떨어뜨린다.",
+            "swsh": "상대의 주위에 끈적끈적한 네트를 둘러 펼쳐 교체되어 나온 상대의 스피드를 떨어뜨린다."
+        },
+        "french": {
+            "xy": "Déploie une toile visqueuse autour de l’ennemi qui ralentit la Vitesse de tout adversaire entrant au combat.",
+            "oras": "Déploie une toile visqueuse autour de l’ennemi qui ralentit la Vitesse de tout adversaire entrant au combat.",
+            "sm": "Déploie une toile visqueuse autour de l’ennemi qui ralentit la Vitesse de tout adversaire entrant au combat.",
+            "usum": "Déploie une toile visqueuse autour de l’ennemi qui ralentit la Vitesse de tout adversaire entrant au combat.",
+            "lgpe": "Déploie une toile visqueuse autour de l’ennemi qui ralentit la Vitesse de tout adversaire entrant au combat.",
+            "swsh": "Déploie une toile visqueuse autour de l’ennemi qui ralentit la Vitesse de tout adversaire entrant au combat."
+        },
+        "german": {
+            "xy": "Der Anwender spinnt in der Umgebung des gegnerischen Teams ein klebriges Netz und senkt so die Initiative neu eingewechselter Pokémon.",
+            "oras": "Der Anwender spinnt in der Umgebung des gegnerischen Teams ein klebriges Netz und senkt so die Initiative neu eingewechselter Pokémon.",
+            "sm": "Der Anwender spinnt in der Umgebung des gegnerischen Teams ein klebriges Netz und senkt so die Initiative neu eingewechselter Pokémon.",
+            "usum": "Der Anwender spinnt in der Umgebung des gegnerischen Teams ein klebriges Netz und senkt so die Initiative neu eingewechselter Pokémon.",
+            "lgpe": "Der Anwender spinnt in der Umgebung des gegnerischen Teams ein klebriges Netz und senkt so die Initiative neu eingewechselter Pokémon.",
+            "swsh": "Der Anwender spinnt in der Umgebung des gegnerischen Teams ein klebriges Netz und senkt so die Initiative neu eingewechselter Pokémon."
+        },
+        "spanish": {
+            "xy": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "oras": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "sm": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "usum": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "lgpe": "Coloca una red pegajosa alrededor del equipo rival que baja la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "swsh": "Coloca una red pegajosa alrededor del equipo rival que baja la Velocidad de cualquier adversario que entre a combatir."
+        },
+        "italian": {
+            "xy": "Chi la usa intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità dei Pokémon nemici che entreranno in campo.",
+            "oras": "Chi la usa intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità dei Pokémon nemici che entreranno in campo.",
+            "sm": "Chi la usa intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità dei Pokémon nemici che entreranno in campo.",
+            "usum": "Chi la usa intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità dei Pokémon nemici che entreranno in campo.",
+            "lgpe": "Chi la usa intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità dei Pokémon nemici che entreranno in campo.",
+            "swsh": "Chi la usa intreccia una rete appiccicosa attorno alla squadra avversaria, diminuendo la Velocità dei Pokémon nemici che entreranno in campo."
+        },
+        "english": {
+            "xy": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
+            "oras": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
+            "sm": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
+            "usum": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
+            "lgpe": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
+            "swsh": "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle.",
+            "la": "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle.",
+            "sv": "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle."
+        },
+        "japanese": {
+            "xy": "相手の　周りに　ねばねばした ネットを　はりめぐらせ　交代で でてきた　相手の　素早さを　さげる。",
+            "oras": "相手の　周りに　ねばねばした ネットを　はりめぐらせ　交代で でてきた　相手の　素早さを　さげる。",
+            "sm": "相手の　周りに　ねばねばした ネットを　はりめぐらせ　交代で でてきた　相手の　素早さを　さげる。",
+            "usum": "相手の　周りに　ねばねばした ネットを　はりめぐらせ　交代で でてきた　相手の　素早さを　さげる。",
+            "lgpe": "相手の　周りに　ねばねばした ネットを　はりめぐらせ　交代で でてきた　相手の　素早さを　さげる。",
+            "swsh": "相手の　周りに　ねばねばした ネットを　はりめぐらせ　交代で でてきた　相手の　素早さを　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "oras": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "sm": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "usum": "Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "lgpe": "Coloca una red pegajosa alrededor del equipo rival que baja la Velocidad de cualquier Pokémon adversario que entre al combate.",
+            "swsh": "Coloca una red pegajosa alrededor del equipo rival que baja la Velocidad de cualquier adversario que entre a combatir."
+        },
+        "traditional-chinese": {
+            "sm": "在對手周圍撒下黏黏的網， 降低替換出場的對手的速度。",
+            "usum": "在對手周圍撒下黏黏的網， 降低替換出場的對手的速度。",
+            "lgpe": "在對手周圍撒下黏黏的網， 降低替換出場的對手的速度。",
+            "swsh": "在對手周圍撒下黏黏的網， 降低替換出場的對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "在对手周围围上黏黏的网， 降低替换出场的对手的速度。",
+            "usum": "在对手周围围上黏黏的网， 降低替换出场的对手的速度。",
+            "lgpe": "在对手周围围上黏黏的网， 降低替换出场的对手的速度。",
+            "swsh": "在对手周围围上黏黏的网， 降低替换出场的对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Shoots a web over the opponents’ side of the field, which lowers the Speed of any opposing Pokémon that enters the field by one stage. Pokémon in the air, such as Flying-types and those with Levitate, are unaffected.  Rapid Spin removes Sticky Web from the user’s side of the field; Defog removes it from both sides.",
+        "shortEffect": "Covers the opposing field, lowering opponents’ Speed by one stage upon switching in."
+    }
 }

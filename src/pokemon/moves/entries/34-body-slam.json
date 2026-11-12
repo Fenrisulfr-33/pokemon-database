@@ -1,47 +1,146 @@
 {
-  "_id": 34,
-  "key": "body-slam",
-  "name": {
-    "english": "Body Slam",
-    "japanese": "のしかかり",
-    "chinese": "泰山压顶",
-    "korean": "누르기",
-    "german": "Golpe Cuerpo",
-    "french": "Bodyslam",
-    "italian": "Body Slam",
-    "spanish": "Corposcontro"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 85,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause paralysis.",
-    "crystal": "An attack that may\ncause paralysis.",
-    "ruby-sapphire": "A full-body slam that may\ncause paralysis.",
-    "emerald": "A full-body slam that may\ncause paralysis.",
-    "firered-leafgreen": "The user drops its\nfull body on the\nfoe. It may leave\nthe foe paralyzed.",
-    "diamond-pearl": "The user drops onto\nthe foe with its full\nbody weight.\nIt may leave the foe\nparalyzed.",
-    "platinum": "The user drops onto\nthe foe with its full\nbody weight.\nIt may leave the foe\nparalyzed.",
-    "heartgold-soulsilver": "The user drops onto\nthe foe with its full\nbody weight.\nIt may leave the foe\nparalyzed.",
-    "black-white": "The user drops onto the target\nwith its full body weight. It may also\nleave the target with paralysis.",
-    "black-2-white-2": "The user drops onto the target\nwith its full body weight. It may also\nleave the target with paralysis.",
-    "x-y": "The user drops onto the target\nwith its full body weight. This may also\nleave the target with paralysis.",
-    "omega-ruby-alpha-sapphire": "The user drops onto the target\nwith its full body weight. This may also\nleave the target with paralysis.",
-    "sun-moon": "The user drops onto the target with its full body\nweight. This may also leave the target with paralysis.",
-    "ultra-sun-ultra-moon": "The user drops onto the target with its full body\nweight. This may also leave the target with paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user drops onto the target with its full body\nweight. This may also leave the target with paralysis.",
-    "sword-shield": "The user drops onto the target with its full body\nweight. This may also leave the target with paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 34,
+    "key": "body-slam",
+    "name": {
+        "japanese-kana": "のしかかり",
+        "korean": "누르기",
+        "traditional-chinese": "泰山壓頂",
+        "french": "Plaquage",
+        "german": "Bodyslam",
+        "spanish": "Golpe Cuerpo",
+        "italian": "Corposcontro",
+        "english": "Body Slam",
+        "japanese": "のしかかり",
+        "simplified-chinese": "泰山压顶",
+        "latin-american-spanish": "Golpe de Cuerpo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 85,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause paralysis.",
+            "cr": "An attack that may cause paralysis.",
+            "rs": "A full-body slam that may cause paralysis.",
+            "em": "A full-body slam that may cause paralysis.",
+            "frlg": "The user drops its full body on the foe. It may leave the foe paralyzed.",
+            "dp": "The user drops onto the foe with its full body weight. It may leave the foe paralyzed.",
+            "pt": "The user drops onto the foe with its full body weight. It may leave the foe paralyzed.",
+            "hgss": "The user drops onto the foe with its full body weight. It may leave the foe paralyzed.",
+            "bw": "The user drops onto the target with its full body weight. It may also leave the target with paralysis.",
+            "b2w2": "The user drops onto the target with its full body weight. It may also leave the target with paralysis.",
+            "xy": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+            "oras": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+            "sm": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+            "usum": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+            "lgpe": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+            "swsh": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+            "la": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+            "sv": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis."
+        },
+        "french": {
+            "bw": "Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut le paralyser.",
+            "xy": "Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser.",
+            "oras": "Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser.",
+            "sm": "Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser.",
+            "usum": "Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser.",
+            "lgpe": "Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser.",
+            "swsh": "Le lanceur se laisse tomber sur l’ennemi de tout son poids. Peut aussi le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "からだ　ぜんたいで あいてに　のしかかり　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "からだ　ぜんたいで あいてに　のしかかり　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "からだ　ぜんたいで あいてに　のしかかり　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "からだ　ぜんたいで あいてに　のしかかり　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "からだ　ぜんたいで あいてに　のしかかり　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "からだ　ぜんたいで あいてに　のしかかり　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "몸 전체로 상대를 덮쳐 눌러 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "몸 전체로 상대를 덮쳐눌러 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "몸 전체로 상대를 덮쳐눌러 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "몸 전체로 상대를 덮쳐눌러 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "몸 전체로 상대를 덮쳐눌러 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "몸 전체로 상대를 덮쳐눌러 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel mit vollem Körpereinsatz. Bewirkt eventuell Paralyse.",
+            "oras": "Trifft das Ziel mit vollem Körpereinsatz. Bewirkt eventuell Paralyse.",
+            "sm": "Trifft das Ziel mit vollem Körpereinsatz. Bewirkt eventuell Paralyse.",
+            "usum": "Trifft das Ziel mit vollem Körpereinsatz. Bewirkt eventuell Paralyse.",
+            "lgpe": "Trifft das Ziel mit vollem Körpereinsatz. Bewirkt eventuell Paralyse.",
+            "swsh": "Trifft das Ziel mit vollem Körpereinsatz. Bewirkt eventuell Paralyse."
+        },
+        "spanish": {
+            "xy": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "oras": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "sm": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "usum": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "lgpe": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "swsh": "Salta sobre el objetivo con todo su peso y puede llegar a paralizarlo."
+        },
+        "italian": {
+            "xy": "Chi la usa carica il bersaglio con tutto il corpo. Può causarne anche la paralisi.",
+            "oras": "Chi la usa carica il bersaglio con tutto il corpo. Può causarne anche la paralisi.",
+            "sm": "Chi la usa carica il bersaglio con tutto il corpo. Può causarne anche la paralisi.",
+            "usum": "Chi la usa carica il bersaglio con tutto il corpo. Può causarne anche la paralisi.",
+            "lgpe": "Chi la usa carica il bersaglio con tutto il corpo. Può causarne anche la paralisi.",
+            "swsh": "Chi la usa carica il bersaglio con tutto il corpo. Può causarne anche la paralisi."
+        },
+        "japanese": {
+            "xy": "全身で 相手に　のしかかり　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "全身で 相手に　のしかかり　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "全身で 相手に　のしかかり　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "全身で 相手に　のしかかり　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "全身で 相手に　のしかかり　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "全身で 相手に　のしかかり　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "oras": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "sm": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "usum": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "lgpe": "Salta sobre el objetivo con todo su peso. Puede paralizar.",
+            "swsh": "Salta sobre el objetivo con todo su peso y puede llegar a paralizarlo."
+        },
+        "traditional-chinese": {
+            "sm": "用整個身體 壓住對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "usum": "用整個身體 壓住對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "用整個身體 壓住對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "用整個身體 壓住對手進行攻擊。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用整个身体 压住对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "usum": "用整个身体 压住对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "lgpe": "用整个身体 压住对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "swsh": "用整个身体 压住对手进行攻击。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

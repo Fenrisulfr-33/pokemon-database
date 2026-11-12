@@ -1,47 +1,144 @@
 {
-  "_id": 132,
-  "key": "constrict",
-  "name": {
-    "english": "Constrict",
-    "japanese": "からみつく",
-    "chinese": "纠缠",
-    "korean": "휘감기",
-    "german": "Restricción",
-    "french": "Umklammerung",
-    "italian": "Constrict",
-    "spanish": "Limitazione"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 35,
-  "power": 10,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nlower SPEED.",
-    "crystal": "An attack that may\nlower SPEED.",
-    "ruby-sapphire": "Constricts to inflict pain.\nMay lower SPEED.",
-    "emerald": "Constricts to inflict pain.\nMay lower SPEED.",
-    "firered-leafgreen": "The foe is attacked\nwith long tentacles\nor vines. It may\nlower SPEED.",
-    "diamond-pearl": "The foe is attacked\nwith long, creeping\ntentacles or vines.\nIt may also lower the\ntarget’s Speed.",
-    "platinum": "The foe is attacked\nwith long, creeping\ntentacles or vines.\nIt may also lower the\ntarget’s Speed.",
-    "heartgold-soulsilver": "The foe is attacked\nwith long, creeping\ntentacles or vines.\nIt may also lower the\ntarget’s Speed.",
-    "black-white": "The target is attacked with long, creeping\ntentacles or vines.\nIt may also lower the target’s Speed stat.",
-    "black-2-white-2": "The target is attacked with long, creeping\ntentacles or vines.\nIt may also lower the target’s Speed stat.",
-    "x-y": "The target is attacked with long, creeping\ntentacles or vines.\nThis may also lower the target’s Speed stat.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with long, creeping\ntentacles or vines.\nThis may also lower the target’s Speed stat.",
-    "sun-moon": "The target is attacked with long, creeping tentacles,\nvines, or the like. This may also lower the target’s \nSpeed stat.",
-    "ultra-sun-ultra-moon": "The target is attacked with long, creeping tentacles,\nvines, or the like. This may also lower the target’s \nSpeed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with long, creeping tentacles,\nvines, or the like. This may also lower the target’s\nSpeed stat.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 132,
+    "key": "constrict",
+    "name": {
+        "japanese-kana": "からみつく",
+        "korean": "휘감기",
+        "traditional-chinese": "纏繞",
+        "french": "Constriction",
+        "german": "Umklammerung",
+        "spanish": "Restricción",
+        "italian": "Limitazione",
+        "english": "Constrict",
+        "japanese": "からみつく",
+        "simplified-chinese": "缠绕",
+        "latin-american-spanish": "Restricción"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 35,
+    "power": 10,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may lower SPEED.",
+            "cr": "An attack that may lower SPEED.",
+            "rs": "Constricts to inflict pain. May lower SPEED.",
+            "em": "Constricts to inflict pain. May lower SPEED.",
+            "frlg": "The foe is attacked with long tentacles or vines. It may lower SPEED.",
+            "dp": "The foe is attacked with long, creeping tentacles or vines. It may also lower the target’s Speed.",
+            "pt": "The foe is attacked with long, creeping tentacles or vines. It may also lower the target’s Speed.",
+            "hgss": "The foe is attacked with long, creeping tentacles or vines. It may also lower the target’s Speed.",
+            "bw": "The target is attacked with long, creeping tentacles or vines. It may also lower the target’s Speed stat.",
+            "b2w2": "The target is attacked with long, creeping tentacles or vines. It may also lower the target’s Speed stat.",
+            "xy": "The target is attacked with long, creeping tentacles or vines. This may also lower the target’s Speed stat.",
+            "oras": "The target is attacked with long, creeping tentacles or vines. This may also lower the target’s Speed stat.",
+            "sm": "The target is attacked with long, creeping tentacles, vines, or the like. This may also lower the target’s Speed stat.",
+            "usum": "The target is attacked with long, creeping tentacles, vines, or the like. This may also lower the target’s Speed stat.",
+            "lgpe": "The target is attacked with long, creeping tentacles, vines, or the like. This may also lower the target’s Speed stat.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "De longs tentacules ou lianes attaquent l’ennemi. Peut aussi baisser sa Vitesse.",
+            "xy": "De longs tentacules ou lianes attaquent l’ennemi. Peut aussi baisser sa Vitesse.",
+            "oras": "De longs tentacules ou lianes attaquent l’ennemi. Peut aussi baisser sa Vitesse.",
+            "sm": "De longs tentacules ou lianes attaquent l’ennemi. Peut aussi baisser sa Vitesse.",
+            "usum": "De longs tentacules ou lianes attaquent l’ennemi. Peut aussi baisser sa Vitesse.",
+            "lgpe": "De longs tentacules ou lianes attaquent l’ennemi. Peut aussi baisser sa Vitesse.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "しょくしゅや　ツタ　などを　からみつけて こうげきする。あいての　すばやさを さげることが　ある。",
+            "oras": "しょくしゅや　ツタ　などを　から つけて こうげきする。あいての　すばやさを さげることが　ある。",
+            "sm": "しょくしゅや　ツタ　などを　からみつけて こうげきする。あいての　すばやさを さげることが　ある。",
+            "usum": "しょくしゅや　ツタ　などを　からみつけて こうげきする。あいての　すばやさを さげることが　ある。",
+            "lgpe": "しょくしゅや　ツタ　などを　からみつけて こうげきする。あいての　すばやさを さげることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "촉수나 덩굴 등을 휘감아서 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "oras": "촉수나 덩굴 등을 휘감아서 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "sm": "촉수나 덩굴 등을 휘감아서 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "usum": "촉수나 덩굴 등을 휘감아서 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "lgpe": "촉수나 덩굴 등을 휘감아서 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Angriff mit langen Tentakeln oder Ranken. Senkt eventuell den Initiative-Wert.",
+            "oras": "Angriff mit langen Tentakeln oder Ranken. Senkt eventuell den Initiative-Wert.",
+            "sm": "Angriff mit langen Tentakeln oder Ranken. Senkt eventuell den Initiative-Wert.",
+            "usum": "Angriff mit langen Tentakeln oder Ranken. Senkt eventuell den Initiative-Wert.",
+            "lgpe": "Angriff mit langen Tentakeln oder Ranken. Senkt eventuell den Initiative-Wert.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Constriñe para herir y puede bajar la Velocidad.",
+            "oras": "Constriñe para herir y puede bajar la Velocidad.",
+            "sm": "Ataca con largos tentáculos o zarcillos que pueden bajar la Velocidad.",
+            "usum": "Ataca con largos tentáculos o zarcillos que pueden bajar la Velocidad.",
+            "lgpe": "Ataca con largos tentáculos o zarcillos que pueden bajar la Velocidad.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.",
+            "oras": "Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.",
+            "sm": "Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.",
+            "usum": "Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.",
+            "lgpe": "Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "触手や　ツタなどを　からみつけて 攻撃する。相手の　素早さを さげることが　ある。",
+            "oras": "触手や　ツタなどを　から つけて 攻撃する。相手の　素早さを さげることが　ある。",
+            "sm": "触手や　ツタなどを　からみつけて 攻撃する。相手の　素早さを さげることが　ある。",
+            "usum": "触手や　ツタなどを　からみつけて 攻撃する。相手の　素早さを さげることが　ある。",
+            "lgpe": "触手や　ツタなどを　からみつけて 攻撃する。相手の　素早さを さげることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Constriñe para herir y puede bajar la Velocidad.",
+            "oras": "Constriñe para herir y puede bajar la Velocidad.",
+            "sm": "Ataca con largos tentáculos o zarcillos que pueden bajar la Velocidad.",
+            "usum": "Ataca con largos tentáculos o zarcillos que pueden bajar la Velocidad.",
+            "lgpe": "Ataca con largos tentáculos o zarcillos que pueden bajar la Velocidad.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用觸手或青藤等纏繞對手進行攻擊。 有時會降低對手的速度。",
+            "usum": "用觸手或青藤等纏繞對手進行攻擊。 有時會降低對手的速度。",
+            "lgpe": "用觸手或青藤等纏繞對手進行攻擊。 有時會降低對手的速度。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用触手或青藤等缠绕进行攻击。 有时会降低对手的速度。",
+            "usum": "用触手或青藤等缠绕进行攻击。 有时会降低对手的速度。",
+            "lgpe": "用触手或青藤等缠绕进行攻击。 有时会降低对手的速度。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

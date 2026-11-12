@@ -1,45 +1,151 @@
 {
-  "_id": 273,
-  "key": "wish",
-  "name": {
-    "english": "Wish",
-    "japanese": "ねがいごと",
-    "chinese": "祈求",
-    "korean": "희망사항",
-    "german": "Deseo",
-    "french": "Wunschtraum",
-    "italian": "Wish",
-    "spanish": "Desiderio"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A wish that restores HP.\nIt takes time to work.",
-    "emerald": "A wish that restores HP.\nIt takes time to work.",
-    "firered-leafgreen": "A self-healing move\nthat restores half\nthe full HP on the\nnext turn.",
-    "diamond-pearl": "A self-healing move.\nThe user restores its\nown HP by up to half\nof its maximum HP\nin the next turn.",
-    "platinum": "A self-healing move.\nThe user restores its\nown HP by up to half\nof its maximum HP\nin the next turn.",
-    "heartgold-soulsilver": "A self-healing move.\nThe user restores its\nown HP by up to half\nof its maximum HP\nin the next turn.",
-    "black-white": "One turn after this move is used,\nthe target’s HP is restored by\nhalf the user’s maximum HP.",
-    "black-2-white-2": "One turn after this move is used,\nthe target’s HP is restored by\nhalf the user’s maximum HP.",
-    "x-y": "One turn after this move is used,\nthe target’s HP is restored by\nhalf the user’s max HP.",
-    "omega-ruby-alpha-sapphire": "One turn after this move is used,\nthe target’s HP is restored by\nhalf the user’s max HP.",
-    "sun-moon": "One turn after this move is used, the user’s or its\nreplacement’s HP is restored by half the user’s\nmax HP.",
-    "ultra-sun-ultra-moon": "One turn after this move is used, the user’s or its\nreplacement’s HP is restored by half the user’s\nmax HP.",
-    "lets-go-pikachu-lets-go-eevee": "One turn after this move is used, the user’s or its\nreplacement’s HP is restored by half the user’s\nmax HP.",
-    "sword-shield": "One turn after this move is used, the user’s or its\nreplacement’s HP is restored by half the user’s\nmax HP."
-  },
-  "effect": {
-    "full": "At the end of the next turn, user will be healed for half its max HP.  If the user is switched out, its replacement will be healed instead for half of the user's max HP.  If the user faints or is forcefully switched by roar or whirlwind, this effect will not activate.",
-    "shortEffect": "User will recover half its max HP at the end of the next turn."
-  },
-  "priority": 0
+    "_id": 273,
+    "key": "wish",
+    "name": {
+        "japanese-kana": "ねがいごと",
+        "korean": "희망사항",
+        "traditional-chinese": "祈願",
+        "french": "Vœu",
+        "german": "Wunschtraum",
+        "spanish": "Deseo",
+        "italian": "Desiderio",
+        "english": "Wish",
+        "japanese": "ねがいごと",
+        "simplified-chinese": "祈愿",
+        "latin-american-spanish": "Deseo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "bw": "Soigne la moitié des PV max du Pokémon remplaçant."
+        },
+        "english": {
+            "bw": "Heals replacement Pokémon by half of their max HP."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "A wish that restores HP. It takes time to work.",
+            "em": "A wish that restores HP. It takes time to work.",
+            "frlg": "A self-healing move that restores half the full HP on the next turn.",
+            "dp": "A self-healing move. The user restores its own HP by up to half of its maximum HP in the next turn.",
+            "pt": "A self-healing move. The user restores its own HP by up to half of its maximum HP in the next turn.",
+            "hgss": "A self-healing move. The user restores its own HP by up to half of its maximum HP in the next turn.",
+            "bw": "One turn after this move is used, the target’s HP is restored by half the user’s maximum HP.",
+            "b2w2": "One turn after this move is used, the target’s HP is restored by half the user’s maximum HP.",
+            "xy": "One turn after this move is used, the target’s HP is restored by half the user’s max HP.",
+            "oras": "One turn after this move is used, the target’s HP is restored by half the user’s max HP.",
+            "sm": "One turn after this move is used, the user’s or its replacement’s HP is restored by half the user’s max HP.",
+            "usum": "One turn after this move is used, the user’s or its replacement’s HP is restored by half the user’s max HP.",
+            "lgpe": "One turn after this move is used, the user’s or its replacement’s HP is restored by half the user’s max HP.",
+            "swsh": "One turn after this move is used, the user’s or its replacement’s HP is restored by half the user’s max HP.",
+            "la": "One turn after this move is used, the user's or its replacement's HP is restored by half the user's max HP.",
+            "sv": "One turn after this move is used, the user's or its replacement's HP is restored by up to half the user's max HP."
+        },
+        "french": {
+            "bw": "Un vœu qui permet de récupérer la moitié des PV max au tour suivant.",
+            "xy": "Un vœu qui permet de récupérer la moitié des PV max au tour suivant.",
+            "oras": "Un vœu qui permet de récupérer la moitié des PV max au tour suivant.",
+            "sm": "Un vœu qui permet au lanceur ou au Pokémon entrant sur le terrain au tour suivant de récupérer la moitié des PV max du lanceur.",
+            "usum": "Un vœu qui permet au lanceur ou au Pokémon entrant sur le terrain au tour suivant de récupérer la moitié des PV max du lanceur.",
+            "lgpe": "Un vœu qui permet au lanceur ou au Pokémon entrant sur le terrain au tour suivant de récupérer la moitié des PV max du lanceur.",
+            "swsh": "Un vœu qui permet au lanceur ou au Pokémon entrant sur le terrain au tour suivant de récupérer la moitié des PV max du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "つぎの　ターンに じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+            "oras": "つぎの　ターンに じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+            "sm": "つぎの　ターンに　じぶん　もしくは いれかわった　ポケモンの　ＨＰを さいだい　ＨＰの　はんぶん　かいふくする。",
+            "usum": "つぎの　ターンに　じぶん　もしくは いれかわった　ポケモンの　ＨＰを さいだい　ＨＰの　はんぶん　かいふくする。",
+            "lgpe": "つぎの　ターンに　じぶん　もしくは いれかわった　ポケモンの　ＨＰを さいだい　ＨＰの　はんぶん　かいふくする。",
+            "swsh": "つぎの　ターンに　じぶん　もしくは いれかわった　ポケモンの　ＨＰを さいだい　ＨＰの　はんぶん　かいふくする。"
+        },
+        "korean": {
+            "xy": "다음 턴에 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+            "oras": "다음 턴에 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+            "sm": "다음 턴에 자신 또는 교체한 포켓몬의 HP를 최대 HP의 절반만큼 회복한다.",
+            "usum": "다음 턴에 자신 또는 교체한 포켓몬의 HP를 최대 HP의 절반만큼 회복한다.",
+            "lgpe": "다음 턴에 자신 또는 교체한 포켓몬의 HP를 최대 HP의 절반만큼 회복한다.",
+            "swsh": "다음 턴에 자신 또는 교체한 포켓몬의 HP를 최대 HP의 절반만큼 회복한다."
+        },
+        "german": {
+            "xy": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf.",
+            "oras": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf.",
+            "sm": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf.",
+            "usum": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf.",
+            "lgpe": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf.",
+            "swsh": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf."
+        },
+        "spanish": {
+            "xy": "Restaura la mitad de los PS máximos en el siguiente turno.",
+            "oras": "Restaura la mitad de los PS máximos en el siguiente turno.",
+            "sm": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.",
+            "usum": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.",
+            "lgpe": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.",
+            "swsh": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye."
+        },
+        "italian": {
+            "xy": "Permette di recuperare metà dei PS massimi al turno successivo.",
+            "oras": "Permette di recuperare metà dei PS massimi al turno successivo.",
+            "sm": "Quando un Pokémon la usa, al turno successivo la metà dei suoi PS massimi viene recuperata da lui stesso o dal Pokémon che lo sostituisce.",
+            "usum": "Quando un Pokémon la usa, al turno successivo la metà dei suoi PS massimi viene recuperata da lui stesso o dal Pokémon che lo sostituisce.",
+            "lgpe": "Quando un Pokémon la usa, al turno successivo la metà dei suoi PS massimi viene recuperata da lui stesso o dal Pokémon che lo sostituisce.",
+            "swsh": "Quando un Pokémon la usa, al turno successivo la metà dei suoi PS massimi viene recuperata da lui stesso o dal Pokémon che lo sostituisce."
+        },
+        "japanese": {
+            "xy": "次の　ターンに 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+            "oras": "次の　ターンに 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+            "sm": "次の　ターンに　自分　もしくは 入れ替わった　ポケモンの　ＨＰを 最大ＨＰの　半分　回復する。",
+            "usum": "次の　ターンに　自分　もしくは 入れ替わった　ポケモンの　ＨＰを 最大ＨＰの　半分　回復する。",
+            "lgpe": "次の　ターンに　自分　もしくは 入れ替わった　ポケモンの　ＨＰを 最大ＨＰの　半分　回復する。",
+            "swsh": "次の　ターンに　自分　もしくは 入れ替わった　ポケモンの　ＨＰを 最大ＨＰの　半分　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Restaura la mitad de los PS máximos en el siguiente turno.",
+            "oras": "Restaura la mitad de los PS máximos en el siguiente turno.",
+            "sm": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.",
+            "usum": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.",
+            "lgpe": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.",
+            "swsh": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye."
+        },
+        "traditional-chinese": {
+            "sm": "在下一回合回復自己或是 替換上場的寶可夢最大ＨＰ的一半。",
+            "usum": "在下一回合回復自己或是 替換上場的寶可夢最大ＨＰ的一半。",
+            "lgpe": "在下一回合回復自己或是 替換上場的寶可夢最大HP的一半。",
+            "swsh": "在下一回合回復自己或是 替換上場的寶可夢最大ＨＰ的一半。"
+        },
+        "simplified-chinese": {
+            "sm": "在下一回合回复自己或是 替换出场的宝可梦最大ＨＰ的一半。",
+            "usum": "在下一回合回复自己或是 替换出场的宝可梦最大ＨＰ的一半。",
+            "lgpe": "在下一回合回复自己或是 替换出场的宝可梦最大HP的一半。",
+            "swsh": "在下一回合回复自己或是 替换出场的宝可梦最大ＨＰ的一半。"
+        }
+    },
+    "effect": {
+        "full": "At the end of the next turn, user will be healed for half its max HP.  If the user is switched out, its replacement will be healed instead for half of the user’s max HP.  If the user faints or is forcefully switched by Roar or Whirlwind, this effect will not activate.",
+        "shortEffect": "User will recover half its max HP at the end of the next turn."
+    }
 }

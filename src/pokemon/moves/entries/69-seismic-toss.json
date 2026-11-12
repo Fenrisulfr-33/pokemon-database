@@ -1,47 +1,146 @@
 {
-  "_id": 69,
-  "key": "seismic-toss",
-  "name": {
-    "english": "Seismic Toss",
-    "japanese": "ちきゅうなげ",
-    "chinese": "地球上投",
-    "korean": "지구던지기",
-    "german": "Sísmico",
-    "french": "Geowurf",
-    "italian": "Seismic Toss",
-    "spanish": "Movim. Sismico"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "emerald": "Inflicts damage identical\nto the user’s level.",
-    "gold-silver": "The user's level\nequals damage HP.",
-    "crystal": "The user's level\nequals damage HP.",
-    "ruby-sapphire": "Inflicts damage identical\nto the user’s level.",
-    "firered-leafgreen": "A gravity-fed throw\nthat causes damage\nmatching the user’s\nlevel.",
-    "diamond-pearl": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.",
-    "platinum": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.",
-    "heartgold-soulsilver": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.",
-    "black-white": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
-    "black-2-white-2": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
-    "x-y": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
-    "omega-ruby-alpha-sapphire": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
-    "sun-moon": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level.",
-    "ultra-sun-ultra-moon": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level.",
-    "lets-go-pikachu-lets-go-eevee": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level.",
-    "sword-shield": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level."
-  },
-  "effect": {
-    "full": "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored.",
-    "shortEffect": "Inflicts damage equal to the user's level."
-  },
-  "priority": 0
+    "_id": 69,
+    "key": "seismic-toss",
+    "name": {
+        "japanese-kana": "ちきゅうなげ",
+        "korean": "지구던지기",
+        "traditional-chinese": "地球上投",
+        "french": "Frappe Atlas",
+        "german": "Geowurf",
+        "spanish": "Sísmico",
+        "italian": "Movim. Sismico",
+        "english": "Seismic Toss",
+        "japanese": "ちきゅうなげ",
+        "simplified-chinese": "地球上投",
+        "latin-american-spanish": "Sísmico"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "The user's level equals damage HP.",
+            "cr": "The user's level equals damage HP.",
+            "rs": "Inflicts damage identical to the user’s level.",
+            "em": "Inflicts damage identical to the user’s level.",
+            "frlg": "A gravity-fed throw that causes damage matching the user’s level.",
+            "dp": "The foe is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "pt": "The foe is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "hgss": "The foe is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "bw": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "b2w2": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "xy": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "oras": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "sm": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "usum": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "lgpe": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "swsh": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level.",
+            "la": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level.",
+            "sv": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level."
+        },
+        "french": {
+            "bw": "L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur.",
+            "xy": "L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur.",
+            "oras": "L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur.",
+            "sm": "L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur.",
+            "usum": "L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur.",
+            "lgpe": "L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur.",
+            "swsh": "L’ennemi est projeté grâce au pouvoir de la gravité. Inflige des dégâts équivalents au niveau du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "いんりょくを　つかい　なげとばす。 じぶんの　レベルと　おなじ　ダメージを あいてに　あたえる。",
+            "oras": "いんりょくを　つかい　なげとばす。 じぶんの　レベルと　おなじ　ダメージを あいてに　あたえる。",
+            "sm": "いんりょくを　つかい　なげとばす。 じぶんの　レベルと　おなじ　ダメージを あいてに　あたえる。",
+            "usum": "いんりょくを　つかい　なげとばす。 じぶんの　レベルと　おなじ　ダメージを あいてに　あたえる。",
+            "lgpe": "いんりょくを　つかい　なげとばす。 じぶんの　レベルと　おなじ　ダメージを あいてに　あたえる。",
+            "swsh": "いんりょくを　つかい　なげとばす。 じぶんの　レベルと　おなじ　ダメージを あいてに　あたえる。"
+        },
+        "korean": {
+            "xy": "인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다.",
+            "oras": "인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다.",
+            "sm": "인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다.",
+            "usum": "인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다.",
+            "lgpe": "인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다.",
+            "swsh": "인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다."
+        },
+        "german": {
+            "xy": "Ziel wird mit der Kraft der Gravitation umgeworfen. Richtet Schaden gemäß Level des Angreifers an.",
+            "oras": "Ziel wird mit der Kraft der Gravitation umgeworfen. Richtet Schaden gemäß Level des Angreifers an.",
+            "sm": "Ziel wird mit der Kraft der Gravitation umgeworfen. Richtet Schaden gemäß Level des Angreifers an.",
+            "usum": "Ziel wird mit der Kraft der Gravitation umgeworfen. Richtet Schaden gemäß Level des Angreifers an.",
+            "lgpe": "Ziel wird mit der Kraft der Gravitation umgeworfen. Richtet Schaden gemäß Level des Angreifers an.",
+            "swsh": "Ziel wird mit der Kraft der Gravitation umgeworfen. Richtet Schaden gemäß dem Level des Anwenders an."
+        },
+        "spanish": {
+            "xy": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "oras": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "sm": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "usum": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "lgpe": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "swsh": "Aprovecha la gravedad para derribar al objetivo. Le resta tantos PS como nivel tenga el usuario."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con la forza di gravità. Infligge un danno pari al livello di chi la usa.",
+            "oras": "Colpisce il bersaglio con la forza di gravità. Infligge un danno pari al livello di chi la usa.",
+            "sm": "Colpisce il bersaglio con la forza di gravità. Infligge un danno pari al livello di chi la usa.",
+            "usum": "Colpisce il bersaglio con la forza di gravità. Infligge un danno pari al livello di chi la usa.",
+            "lgpe": "Colpisce il bersaglio con la forza di gravità. Infligge un danno pari al livello di chi la usa.",
+            "swsh": "Colpisce il bersaglio con la forza di gravità. Infligge un danno pari al livello di chi la usa."
+        },
+        "japanese": {
+            "xy": "引力を　使い　投げとばす。 自分の　レベルと　同じ　ダメージを 相手に　与える。",
+            "oras": "引力を　使い　投げとばす。 自分の　レベルと　同じ　ダメージを 相手に　与える。",
+            "sm": "引力を　使い　投げとばす。 自分の　レベルと　同じ　ダメージを 相手に　与える。",
+            "usum": "引力を　使い　投げとばす。 自分の　レベルと　同じ　ダメージを 相手に　与える。",
+            "lgpe": "引力を　使い　投げとばす。 自分の　レベルと　同じ　ダメージを 相手に　与える。",
+            "swsh": "引力を　使い　投げとばす。 自分の　レベルと　同じ　ダメージを 相手に　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "oras": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "sm": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "usum": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "lgpe": "La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.",
+            "swsh": "Aprovecha la gravedad para derribar al objetivo. Le resta tantos PS como nivel tenga el usuario."
+        },
+        "traditional-chinese": {
+            "sm": "利用引力將對手甩飛出去。 給予對手和自己等級相同的傷害。",
+            "usum": "利用引力將對手甩飛出去。 給予對手和自己等級相同的傷害。",
+            "lgpe": "利用引力將對手甩飛出去。 給予對手和自己等級相同的傷害。",
+            "swsh": "利用引力將對手甩飛出去。 給予對手和自己等級相同的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "利用引力将对手甩飞出去。 给予对手和自己等级相同的伤害。",
+            "usum": "利用引力将对手甩飞出去。 给予对手和自己等级相同的伤害。",
+            "lgpe": "利用引力将对手甩飞出去。 给予对手和自己等级相同的伤害。",
+            "swsh": "利用引力将对手甩飞出去。 给予对手和自己等级相同的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage equal to the user’s level.  Type immunity applies, but other type effects are ignored.",
+        "shortEffect": "Inflicts damage equal to the user’s level."
+    }
 }

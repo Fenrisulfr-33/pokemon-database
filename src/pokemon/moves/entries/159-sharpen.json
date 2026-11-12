@@ -1,47 +1,144 @@
 {
-  "_id": 159,
-  "key": "sharpen",
-  "name": {
-    "english": "Sharpen",
-    "japanese": "かくばる",
-    "chinese": "棱角",
-    "korean": "각지기",
-    "german": "Afilar",
-    "french": "Schärfer",
-    "italian": "Sharpen",
-    "spanish": "Affilatore"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Reduces the polygon count\nand raises ATTACK.",
-    "emerald": "Reduces the polygon count\nand raises ATTACK.",
-    "gold-silver": "A move that raises\nthe user's ATTACK.",
-    "crystal": "A move that raises\nthe user's ATTACK.",
-    "firered-leafgreen": "The user reduces\nits polygon count\nto sharpen edges\nand raise ATTACK.",
-    "diamond-pearl": "The user reduces its\npolygon count to\nmake itself more\njagged, raising the\nAttack stat.",
-    "platinum": "The user reduces its\npolygon count to\nmake itself more\njagged, raising the\nAttack stat.",
-    "heartgold-soulsilver": "The user reduces its\npolygon count to\nmake itself more\njagged, raising the\nAttack stat.",
-    "black-white": "The user reduces its polygon count to\nmake itself more jagged, raising the\nAttack stat.",
-    "black-2-white-2": "The user reduces its polygon count to\nmake itself more jagged, raising the\nAttack stat.",
-    "x-y": "The user lowers its polygon count to\nmake itself more jagged, raising the\nAttack stat.",
-    "omega-ruby-alpha-sapphire": "The user lowers its polygon count to\nmake itself more jagged, raising the\nAttack stat.",
-    "sun-moon": "The user makes its edges more jagged, \nwhich raises its Attack stat.",
-    "ultra-sun-ultra-moon": "The user makes its edges more jagged, \nwhich raises its Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user makes its edges more jagged,\nwhich raises its Attack stat.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Raises the user's Attack by one stage.",
-    "shortEffect": "Raises the user's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 159,
+    "key": "sharpen",
+    "name": {
+        "japanese-kana": "かくばる",
+        "korean": "각지기",
+        "traditional-chinese": "稜角化",
+        "french": "Affûtage",
+        "german": "Schärfer",
+        "spanish": "Afilar",
+        "italian": "Affilatore",
+        "english": "Sharpen",
+        "japanese": "かくばる",
+        "simplified-chinese": "棱角化",
+        "latin-american-spanish": "Afilar"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move that raises the user's ATTACK.",
+            "cr": "A move that raises the user's ATTACK.",
+            "rs": "Reduces the polygon count and raises ATTACK.",
+            "em": "Reduces the polygon count and raises ATTACK.",
+            "frlg": "The user reduces its polygon count to sharpen edges and raise ATTACK.",
+            "dp": "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
+            "pt": "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
+            "hgss": "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
+            "bw": "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
+            "b2w2": "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
+            "xy": "The user lowers its polygon count to make itself more jagged, raising the Attack stat.",
+            "oras": "The user lowers its polygon count to make itself more jagged, raising the Attack stat.",
+            "sm": "The user makes its edges more jagged, which raises its Attack stat.",
+            "usum": "The user makes its edges more jagged, which raises its Attack stat.",
+            "lgpe": "The user makes its edges more jagged, which raises its Attack stat.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur réduit son nombre de polygones pour accentuer ses angles et augmenter son Attaque.",
+            "xy": "Le lanceur réduit son nombre de polygones pour accentuer ses angles et augmenter son Attaque.",
+            "oras": "Le lanceur réduit son nombre de polygones pour accentuer ses angles et augmenter son Attaque.",
+            "sm": "Le lanceur réduit son nombre de polygones pour accentuer ses angles et augmenter son Attaque.",
+            "usum": "Le lanceur réduit son nombre de polygones pour accentuer ses angles et augmenter son Attaque.",
+            "lgpe": "Le lanceur réduit son nombre de polygones pour accentuer ses angles et augmenter son Attaque.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "からだの　かどを　ふやして カクカクに　なることで じぶんの　こうげきを　あげる。",
+            "oras": "からだの　かどを　ふやして カクカクに　なることで じぶんの　こうげきを　あげる。",
+            "sm": "からだの　かどを　ふやして カクカクに　なることで じぶんの　こうげきを　あげる。",
+            "usum": "からだの　かどを　ふやして カクカクに　なることで じぶんの　こうげきを　あげる。",
+            "lgpe": "からだの　かどを　ふやして カクカクに　なることで じぶんの　こうげきを　あげる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "몸의 각을 늘려서 더욱 각지게 하여 자신의 공격을 올린다.",
+            "oras": "몸의 각을 늘려서 더욱 각지게 하여 자신의 공격을 올린다.",
+            "sm": "몸의 각을 늘려서 더욱 각지게 하여 자신의 공격을 올린다.",
+            "usum": "몸의 각을 늘려서 더욱 각지게 하여 자신의 공격을 올린다.",
+            "lgpe": "몸의 각을 늘려서 더욱 각지게 하여 자신의 공격을 올린다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender senkt die Polygonzahl, um Kanten zu erzeugen, die den Angriffs-Wert erhöhen.",
+            "oras": "Anwender senkt die Polygonzahl, um Kanten zu erzeugen, die den Angriffs-Wert erhöhen.",
+            "sm": "Anwender macht seinen Körper kantiger und erhöht so seinen Angriffs-Wert.",
+            "usum": "Anwender macht seinen Körper kantiger und erhöht so seinen Angriffs-Wert.",
+            "lgpe": "Anwender macht seinen Körper kantiger und erhöht so seinen Angriffs-Wert.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "oras": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "sm": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "usum": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "lgpe": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa riduce il numero di poligoni sul proprio corpo per accentuarne gli spigoli e aumentare l’Attacco.",
+            "oras": "Chi la usa riduce il numero di poligoni sul proprio corpo per accentuarne gli spigoli e aumentare l’Attacco.",
+            "sm": "Chi la usa riduce il numero di poligoni sul proprio corpo per accentuarne gli spigoli e aumentare l’Attacco.",
+            "usum": "Chi la usa riduce il numero di poligoni sul proprio corpo per accentuarne gli spigoli e aumentare l’Attacco.",
+            "lgpe": "Chi la usa riduce il numero di poligoni sul proprio corpo per accentuarne gli spigoli e aumentare l’Attacco.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "体の　かどを　増やして カクカクに　なることで 自分の　攻撃を　あげる。",
+            "oras": "体の　かどを　増やして カクカクに　なることで 自分の　攻撃を　あげる。",
+            "sm": "体の　かどを　増やして カクカクに　なることで 自分の　攻撃を　あげる。",
+            "usum": "体の　かどを　増やして カクカクに　なることで 自分の　攻撃を　あげる。",
+            "lgpe": "体の　かどを　増やして カクカクに　なることで 自分の　攻撃を　あげる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "oras": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "sm": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "usum": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "lgpe": "El perfil del usuario se hace más afilado y su Ataque mejora.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "增加身體的稜角， 變得方方正正， 提高自己的攻擊。",
+            "usum": "增加身體的稜角， 變得方方正正， 提高自己的攻擊。",
+            "lgpe": "增加身體的稜角， 變得方方正正， 提高自己的攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "增加身体的角， 变得棱棱角角， 从而提高自己的攻击。",
+            "usum": "增加身体的角， 变得棱棱角角， 从而提高自己的攻击。",
+            "lgpe": "增加身体的角， 变得棱棱角角， 从而提高自己的攻击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Attack by one stage.",
+        "shortEffect": "Raises the user’s Attack by one stage."
+    }
 }

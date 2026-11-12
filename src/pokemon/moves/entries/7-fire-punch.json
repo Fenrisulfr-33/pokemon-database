@@ -1,47 +1,146 @@
 {
-  "_id": 7,
-  "key": "fire-punch",
-  "name": {
-    "english": "Fire Punch",
-    "japanese": "ほのおのパンチ",
-    "chinese": "火焰拳",
-    "korean": "불꽃펀치",
-    "german": "Puño Fuego",
-    "french": "Feuerschlag",
-    "italian": "Fire Punch",
-    "spanish": "Fuocopugno"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A fiery punch. May\ncause a burn.",
-    "crystal": "A fiery punch. May\ncause a burn.",
-    "ruby-sapphire": "A fiery punch that may burn\nthe foe.",
-    "emerald": "A fiery punch that may burn\nthe foe.",
-    "firered-leafgreen": "The foe is punched\nwith a fiery fist.\nIt may leave the\nfoe with a burn.",
-    "diamond-pearl": "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n",
-    "platinum": "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n",
-    "heartgold-soulsilver": "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n",
-    "black-white": "The target is punched with a fiery fist.\nIt may also leave the target with a burn.",
-    "black-2-white-2": "The target is punched with a fiery fist.\nIt may also leave the target with a burn.",
-    "x-y": "The target is punched with a fiery fist.\nThis may also leave the target with a burn.",
-    "omega-ruby-alpha-sapphire": "The target is punched with a fiery fist.\nThis may also leave the target with a burn.",
-    "sun-moon": "The target is punched with a fiery fist. This may also\nleave the target with a burn.",
-    "ultra-sun-ultra-moon": "The target is punched with a fiery fist. This may also\nleave the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is punched with a fiery fist. This may also\nleave the target with a burn.",
-    "sword-shield": "The target is punched with a fiery fist. This may also\nleave the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 7,
+    "key": "fire-punch",
+    "name": {
+        "japanese-kana": "ほのおのパンチ",
+        "korean": "불꽃펀치",
+        "traditional-chinese": "火焰拳",
+        "french": "Poing Feu",
+        "german": "Feuerschlag",
+        "spanish": "Puño Fuego",
+        "italian": "Fuocopugno",
+        "english": "Fire Punch",
+        "japanese": "ほのおのパンチ",
+        "simplified-chinese": "火焰拳",
+        "latin-american-spanish": "Puño Fuego"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A fiery punch. May cause a burn.",
+            "cr": "A fiery punch. May cause a burn.",
+            "rs": "A fiery punch that may burn the foe.",
+            "em": "A fiery punch that may burn the foe.",
+            "frlg": "The foe is punched with a fiery fist. It may leave the foe with a burn.",
+            "dp": "The foe is punched with a fiery fist. It may leave the target with a burn.",
+            "pt": "The foe is punched with a fiery fist. It may leave the target with a burn.",
+            "hgss": "The foe is punched with a fiery fist. It may leave the target with a burn.",
+            "bw": "The target is punched with a fiery fist. It may also leave the target with a burn.",
+            "b2w2": "The target is punched with a fiery fist. It may also leave the target with a burn.",
+            "xy": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+            "oras": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+            "sm": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+            "usum": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+            "lgpe": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+            "swsh": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+            "la": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+            "sv": "The target is attacked with a fiery punch. This may also leave the target with a burn."
+        },
+        "french": {
+            "bw": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.",
+            "xy": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.",
+            "oras": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.",
+            "sm": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.",
+            "usum": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.",
+            "lgpe": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.",
+            "swsh": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler."
+        },
+        "japanese-kana": {
+            "xy": "ほのおを　こめた　パンチで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "ほのおを　こめた　パンチで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "ほのおを　こめた　パンチで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "ほのおを　こめた　パンチで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "ほのおを　こめた　パンチで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "ほのおを　こめた　パンチで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Feuriger Schlag, der dem Ziel eventuell Verbrennungen zufügt.",
+            "oras": "Feuriger Schlag, der dem Ziel eventuell Verbrennungen zufügt.",
+            "sm": "Feuriger Schlag, der dem Ziel eventuell Verbrennungen zufügt.",
+            "usum": "Feuriger Schlag, der dem Ziel eventuell Verbrennungen zufügt.",
+            "lgpe": "Feuriger Schlag, der dem Ziel eventuell Verbrennungen zufügt.",
+            "swsh": "Ein feuriger Schlag, der dem Ziel eventuell Verbrennungen zufügt."
+        },
+        "spanish": {
+            "xy": "Puñetazo ardiente. Puede quemar.",
+            "oras": "Puñetazo ardiente. Puede quemar.",
+            "sm": "Puñetazo ardiente. Puede quemar.",
+            "usum": "Puñetazo ardiente. Puede quemar.",
+            "lgpe": "Puñetazo ardiente. Puede quemar.",
+            "swsh": "Puñetazo ardiente que puede causar quemaduras."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un pugno ardente che può scottarlo.",
+            "oras": "Colpisce il bersaglio con un pugno ardente che può scottarlo.",
+            "sm": "Colpisce il bersaglio con un pugno ardente che può scottarlo.",
+            "usum": "Colpisce il bersaglio con un pugno ardente che può scottarlo.",
+            "lgpe": "Colpisce il bersaglio con un pugno ardente che può scottarlo.",
+            "swsh": "Colpisce il bersaglio con un pugno ardente che può scottarlo."
+        },
+        "japanese": {
+            "xy": "炎を　こめた　パンチで 相手を　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "炎を　こめた　パンチで 相手を　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "炎を　こめた　パンチで 相手を　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "炎を　こめた　パンチで 相手を　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "炎を　こめた　パンチで 相手を　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "炎を　こめた　パンチで 相手を　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puñetazo ardiente. Puede quemar.",
+            "oras": "Puñetazo ardiente. Puede quemar.",
+            "sm": "Puñetazo ardiente. Puede quemar.",
+            "usum": "Puñetazo ardiente. Puede quemar.",
+            "lgpe": "Puñetazo ardiente. Puede quemar.",
+            "swsh": "Puñetazo ardiente que puede causar quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "用帶有火焰的拳頭 攻擊對手。 有時會讓對手陷入灼傷狀態。",
+            "usum": "用帶有火焰的拳頭 攻擊對手。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "用帶有火焰的拳頭 攻擊對手。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "用帶有火焰的拳頭 攻擊對手。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用充满火焰的拳头攻击对手。 有时会让对手陷入灼伤状态。",
+            "usum": "用充满火焰的拳头攻击对手。 有时会让对手陷入灼伤状态。",
+            "lgpe": "用充满火焰的拳头攻击对手。 有时会让对手陷入灼伤状态。",
+            "swsh": "用充满火焰的拳头攻击对手。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

@@ -1,39 +1,142 @@
 {
-  "_id": 533,
-  "key": "sacred-sword",
-  "name": {
-    "english": "Sacred Sword",
-    "japanese": "せいなるつるぎ",
-    "chinese": "圣剑",
-    "korean": "성스러운칼",
-    "german": "Espada Santa",
-    "french": "Sanctoklinge",
-    "italian": "Sacred Sword",
-    "spanish": "Spadasolenne"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks by slicing with its long\nhorns. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "black-2-white-2": "The user attacks by slicing with its long\nhorns. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "x-y": "The user attacks by slicing with a long\nhorn. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "omega-ruby-alpha-sapphire": "The user attacks by slicing with a long\nhorn. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "sun-moon": "The user attacks by slicing with a long horn. The\ntarget’s stat changes don’t affect this\nattack’s damage.",
-    "ultra-sun-ultra-moon": "The user attacks by slicing with a long horn. The\ntarget’s stat changes don’t affect this\nattack’s damage.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by slicing with a long horn. The\ntarget’s stat changes don’t affect this\nattack’s damage.",
-    "sword-shield": "The user attacks by slicing with a long horn. The\ntarget’s stat changes don’t affect this\nattack’s damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Damage calculation ignores the target's stat modifiers, including evasion.",
-    "shortEffect": "Ignores the target's stat modifiers."
-  },
-  "priority": 0
+    "_id": 533,
+    "key": "sacred-sword",
+    "name": {
+        "japanese-kana": "せいなるつるぎ",
+        "korean": "성스러운칼",
+        "traditional-chinese": "聖劍",
+        "french": "Lame Sainte",
+        "german": "Sanctoklinge",
+        "spanish": "Espada Santa",
+        "italian": "Spadasolenne",
+        "english": "Sacred Sword",
+        "japanese": "せいなるつるぎ",
+        "simplified-chinese": "圣剑",
+        "latin-american-spanish": "Espada Sagrada"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "pp": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un coup de lame violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.",
+            "xy": "Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.",
+            "oras": "Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.",
+            "sm": "Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.",
+            "usum": "Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.",
+            "lgpe": "Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.",
+            "swsh": "Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats."
+        },
+        "english": {
+            "bw": "The user attacks by slicing with its long horns. The target’s stat changes don’t affect this attack’s damage.",
+            "b2w2": "The user attacks by slicing with its long horns. The target’s stat changes don’t affect this attack’s damage.",
+            "xy": "The user attacks by slicing with a long horn. The target’s stat changes don’t affect this attack’s damage.",
+            "oras": "The user attacks by slicing with a long horn. The target’s stat changes don’t affect this attack’s damage.",
+            "sm": "The user attacks by slicing with a long horn. The target’s stat changes don’t affect this attack’s damage.",
+            "usum": "The user attacks by slicing with a long horn. The target’s stat changes don’t affect this attack’s damage.",
+            "lgpe": "The user attacks by slicing with a long horn. The target’s stat changes don’t affect this attack’s damage.",
+            "swsh": "The user attacks by slicing with a long horn. The target’s stat changes don’t affect this attack’s damage.",
+            "la": "The user attacks by slicing with a long horn. The target's stat changes don't affect this attack's damage.",
+            "sv": "The user attacks by slicing with a sword. The target's stat changes don't affect the damage inflicted by this move."
+        },
+        "japanese-kana": {
+            "xy": "ながい　つので　きりつけ　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "oras": "ながい　つので　きりつけ　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "sm": "ながい　つので　きりつけ　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "usum": "ながい　つので　きりつけ　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "lgpe": "ながい　つので　きりつけ　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "swsh": "ながい　つので　きりつけ　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "긴 뿔로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "oras": "긴 뿔로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "sm": "긴 뿔로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "usum": "긴 뿔로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "lgpe": "긴 뿔로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "swsh": "긴 뿔로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다."
+        },
+        "german": {
+            "xy": "Schneideangriff mit langem Horn. Richtet Schaden unabhängig von Statusveränderungen des Zieles an.",
+            "oras": "Schneideangriff mit langem Horn. Richtet Schaden unabhängig von Statusveränderungen des Zieles an.",
+            "sm": "Schneideangriff mit langem Horn. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "usum": "Schneideangriff mit langem Horn. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "lgpe": "Schneideangriff mit langem Horn. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "swsh": "Schneideangriff mit langem Horn. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an."
+        },
+        "spanish": {
+            "xy": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "oras": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "sm": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "usum": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "lgpe": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "swsh": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa taglia il bersaglio con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del Pokémon colpito.",
+            "oras": "Chi la usa taglia il bersaglio con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del Pokémon colpito.",
+            "sm": "Chi la usa taglia il bersaglio con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del Pokémon colpito.",
+            "usum": "Chi la usa taglia il bersaglio con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del Pokémon colpito.",
+            "lgpe": "Chi la usa taglia il bersaglio con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del Pokémon colpito.",
+            "swsh": "Chi la usa taglia il bersaglio con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "長い　つので　切りつけ　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "oras": "長い　つので　切りつけ　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "sm": "長い　つので　切りつけ　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "usum": "長い　つので　切りつけ　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "lgpe": "長い　つので　切りつけ　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "swsh": "長い　つので　切りつけ　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "oras": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "sm": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "usum": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "lgpe": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+            "swsh": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用長角斬切對手進行攻擊。 可不顧對手的能力變化 給予傷害。",
+            "usum": "用長角斬切對手進行攻擊。 可不顧對手的能力變化 給予傷害。",
+            "lgpe": "用長角斬切對手進行攻擊。 可不顧對手的能力變化 給予傷害。",
+            "swsh": "用長角斬切對手進行攻擊。 可不顧對手的能力變化 給予傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "用长角切斩对手进行攻击。 无视对手的能力变化， 直接给予伤害。",
+            "usum": "用长角切斩对手进行攻击。 无视对手的能力变化， 直接给予伤害。",
+            "lgpe": "用长角切斩对手进行攻击。 无视对手的能力变化， 直接给予伤害。",
+            "swsh": "用长角切斩对手进行攻击。 无视对手的能力变化， 直接给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Damage calculation ignores the target’s stat modifiers, including evasion.",
+        "shortEffect": "Ignores the target’s stat modifiers."
+    }
 }

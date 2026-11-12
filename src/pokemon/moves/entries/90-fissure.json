@@ -1,47 +1,146 @@
 {
-  "_id": 90,
-  "key": "fissure",
-  "name": {
-    "english": "Fissure",
-    "japanese": "じわれ",
-    "chinese": "地裂",
-    "korean": "땅가르기",
-    "german": "Fisura",
-    "french": "Geofissur",
-    "italian": "Fissure",
-    "spanish": "Abisso"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 5,
-  "power": null,
-  "accuracy": 30,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A ground-type,\none-hit KO attack.",
-    "crystal": "A ground-type,\none-hit KO attack.",
-    "ruby-sapphire": "A one-hit KO move that\ndrops the foe in a fissure.",
-    "emerald": "A one-hit KO move that\ndrops the foe in a fissure.",
-    "firered-leafgreen": "The foe is dropped\ninto a fissure.\nThe foe faints if it\nhits.",
-    "diamond-pearl": "The user opens up a\nfissure in the ground\nand drops the foe in.\nThe target instantly\nfaints if it hits.",
-    "platinum": "The user opens up a\nfissure in the ground\nand drops the foe in.\nThe target instantly\nfaints if it hits.",
-    "heartgold-soulsilver": "The user opens up a\nfissure in the ground\nand drops the foe in.\nThe target instantly\nfaints if it hits.",
-    "black-white": "The user opens up a fissure in the ground\nand drops the target in.\nThe target instantly faints if it hits.",
-    "black-2-white-2": "The user opens up a fissure in the ground\nand drops the target in.\nThe target instantly faints if it hits.",
-    "x-y": "The user opens up a fissure in the ground\nand drops the target in.\nThe target faints instantly if this attack hits.",
-    "omega-ruby-alpha-sapphire": "The user opens up a fissure in the ground\nand drops the target in.\nThe target faints instantly if this attack hits.",
-    "sun-moon": "The user opens up a fissure in the ground and drops\nthe target in. The target faints instantly if this\nattack hits.",
-    "ultra-sun-ultra-moon": "The user opens up a fissure in the ground and drops\nthe target in. The target faints instantly if this\nattack hits.",
-    "lets-go-pikachu-lets-go-eevee": "The user opens up a fissure in the ground and drops\nthe target in. The target faints instantly if this\nattack hits.",
-    "sword-shield": "The user opens up a fissure in the ground and drops\nthe target in. The target faints instantly if this\nattack hits."
-  },
-  "effect": {
-    "full": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
-    "shortEffect": "Causes a one-hit KO."
-  },
-  "priority": 0
+    "_id": 90,
+    "key": "fissure",
+    "name": {
+        "japanese-kana": "じわれ",
+        "korean": "땅가르기",
+        "traditional-chinese": "地裂",
+        "french": "Abîme",
+        "german": "Geofissur",
+        "spanish": "Fisura",
+        "italian": "Abisso",
+        "english": "Fissure",
+        "japanese": "じわれ",
+        "simplified-chinese": "地裂",
+        "latin-american-spanish": "Fisura"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 5,
+    "power": null,
+    "accuracy": 30,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ohko",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A ground-type, one-hit KO attack.",
+            "cr": "A ground-type, one-hit KO attack.",
+            "rs": "A one-hit KO move that drops the foe in a fissure.",
+            "em": "A one-hit KO move that drops the foe in a fissure.",
+            "frlg": "The foe is dropped into a fissure. The foe faints if it hits.",
+            "dp": "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.",
+            "pt": "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.",
+            "hgss": "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.",
+            "bw": "The user opens up a fissure in the ground and drops the target in. The target instantly faints if it hits.",
+            "b2w2": "The user opens up a fissure in the ground and drops the target in. The target instantly faints if it hits.",
+            "xy": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+            "oras": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+            "sm": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+            "usum": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+            "lgpe": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+            "swsh": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+            "la": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+            "sv": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits."
+        },
+        "french": {
+            "bw": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup.",
+            "xy": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup.",
+            "oras": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup.",
+            "sm": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup.",
+            "usum": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup.",
+            "lgpe": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup.",
+            "swsh": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup."
+        },
+        "japanese-kana": {
+            "xy": "じわれの　さけめに あいてを　おとして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "oras": "じわれの　さけめに あいてを　おとして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "sm": "じわれの　さけめに あいてを　おとして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "usum": "じわれの　さけめに あいてを　おとして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "lgpe": "じわれの　さけめに あいてを　おとして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "swsh": "じわれの　さけめに あいてを　おとして　こうげきする。 あたれば　いちげきで　ひんしに　する。"
+        },
+        "korean": {
+            "xy": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다.",
+            "oras": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다.",
+            "sm": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다.",
+            "usum": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다.",
+            "lgpe": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다.",
+            "swsh": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다."
+        },
+        "german": {
+            "xy": "Das Ziel wird in eine Erdspalte geworfen. Ist die Attacke erfolgreich, führt sie zu einem K.O.",
+            "oras": "Das Ziel wird in eine Erdspalte geworfen. Ist die Attacke erfolgreich, führt sie zu einem K.O.",
+            "sm": "Das Ziel wird in eine Erdspalte geworfen. Ist die Attacke erfolgreich, führt sie zu einem K.O.",
+            "usum": "Das Ziel wird in eine Erdspalte geworfen. Ist die Attacke erfolgreich, führt sie zu einem K.O.",
+            "lgpe": "Das Ziel wird in eine Erdspalte geworfen. Ist die Attacke erfolgreich, führt sie zu einem K.O.",
+            "swsh": "Das Ziel wird in eine Erdspalte geworfen. Ist die Attacke erfolgreich, führt sie zu einem K.O."
+        },
+        "spanish": {
+            "xy": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "oras": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "sm": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "usum": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "lgpe": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "swsh": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe."
+        },
+        "italian": {
+            "xy": "Chi la usa crea una spaccatura nel terreno e cerca di gettarvici dentro il bersaglio. Se va a segno, il Pokémon colpito va KO.",
+            "oras": "Chi la usa crea una spaccatura nel terreno e cerca di gettarvici dentro il bersaglio. Se va a segno, il Pokémon colpito va KO.",
+            "sm": "Chi la usa crea una spaccatura nel terreno e cerca di gettarvici dentro il bersaglio. Se va a segno, il Pokémon colpito va KO.",
+            "usum": "Chi la usa crea una spaccatura nel terreno e cerca di gettarvici dentro il bersaglio. Se va a segno, il Pokémon colpito va KO.",
+            "lgpe": "Chi la usa crea una spaccatura nel terreno e cerca di gettarvici dentro il bersaglio. Se va a segno, il Pokémon colpito va KO.",
+            "swsh": "Chi la usa crea una spaccatura nel terreno e cerca di gettarvici dentro il bersaglio. Se va a segno, il Pokémon colpito va KO."
+        },
+        "japanese": {
+            "xy": "地割れの　裂け目に 相手を　落として　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "oras": "地割れの　裂け目に 相手を　落として　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "sm": "地割れの　裂け目に 相手を　落として　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "usum": "地割れの　裂け目に 相手を　落として　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "lgpe": "地割れの　裂け目に 相手を　落として　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "swsh": "地割れの　裂け目に 相手を　落として　攻撃する。 当たれば　一撃で　ひんしに　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "oras": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "sm": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "usum": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "lgpe": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+            "swsh": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe."
+        },
+        "traditional-chinese": {
+            "sm": "讓對手掉進地面的 裂縫中進行攻擊。 只要命中就會一擊瀕死。",
+            "usum": "讓對手掉進地面的 裂縫中進行攻擊。 只要命中就會一擊瀕死。",
+            "lgpe": "讓對手掉進地面的 裂縫中進行攻擊。 只要命中就會一擊瀕死。",
+            "swsh": "讓對手掉進地面的 裂縫中進行攻擊。 只要命中就會一擊瀕死。"
+        },
+        "simplified-chinese": {
+            "sm": "让对手掉落于地裂的 裂缝中进行攻击。 只要命中就会一击濒死。",
+            "usum": "让对手掉落于地裂的 裂缝中进行攻击。 只要命中就会一击濒死。",
+            "lgpe": "让对手掉落于地裂的 裂缝中进行攻击。 只要命中就会一击濒死。",
+            "swsh": "让对手掉落于地裂的 裂缝中进行攻击。 只要命中就会一击濒死。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail. Because this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting. The effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+        "shortEffect": "Causes a one-hit KO."
+    }
 }

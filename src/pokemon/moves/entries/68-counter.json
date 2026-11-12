@@ -1,47 +1,146 @@
 {
-  "_id": 68,
-  "key": "counter",
-  "name": {
-    "english": "Counter",
-    "japanese": "カウンター",
-    "chinese": "返拳",
-    "korean": "카운터",
-    "german": "Contraataque",
-    "french": "Konter",
-    "italian": "Counter",
-    "spanish": "Contrattacco"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "specific-move",
-  "changes": [],
-  "description": {
-    "gold-silver": "Returns a physical\nblow double.",
-    "crystal": "Returns a physical\nblow double.",
-    "ruby-sapphire": "Retaliates any physical hit\nwith double the power.",
-    "emerald": "Retaliates any physical hit\nwith double the power.",
-    "firered-leafgreen": "A retaliation move\nthat counters any\nphysical hit with\ndouble the damage.",
-    "diamond-pearl": "A retaliation move\nthat counters any\nphysical attack,\ninflicting double the\ndamage taken.",
-    "platinum": "A retaliation move\nthat counters any\nphysical attack,\ninflicting double the\ndamage taken.",
-    "heartgold-soulsilver": "A retaliation move\nthat counters any\nphysical attack,\ninflicting double the\ndamage taken.",
-    "black-white": "A retaliation move that counters any\nphysical attack, inflicting double the\ndamage taken.",
-    "black-2-white-2": "A retaliation move that counters any\nphysical attack, inflicting double the\ndamage taken.",
-    "x-y": "A retaliation move that counters any\nphysical attack, inflicting double the\ndamage taken.",
-    "omega-ruby-alpha-sapphire": "A retaliation move that counters any\nphysical attack, inflicting double the\ndamage taken.",
-    "sun-moon": "A retaliation move that counters any physical attack,\ninflicting double the damage taken.",
-    "ultra-sun-ultra-moon": "A retaliation move that counters any physical attack,\ninflicting double the damage taken.",
-    "lets-go-pikachu-lets-go-eevee": "A retaliation move that counters any physical attack,\ninflicting double the damage taken.",
-    "sword-shield": "A retaliation move that counters any physical attack,\ninflicting double the damage taken."
-  },
-  "effect": {
-    "full": "Targets the last opposing Pokémon to hit the user with a physical move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome.",
-    "shortEffect": "Inflicts twice the damage the user received from the last physical hit it took."
-  },
-  "priority": -5
+    "_id": 68,
+    "key": "counter",
+    "name": {
+        "japanese-kana": "カウンター",
+        "korean": "카운터",
+        "traditional-chinese": "雙倍奉還",
+        "french": "Riposte",
+        "german": "Konter",
+        "spanish": "Contraataque",
+        "italian": "Contrattacco",
+        "english": "Counter",
+        "japanese": "カウンター",
+        "simplified-chinese": "双倍奉还",
+        "latin-american-spanish": "Contraataque"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": -5,
+    "target": "specific-move",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Returns a physical blow double.",
+            "cr": "Returns a physical blow double.",
+            "rs": "Retaliates any physical hit with double the power.",
+            "em": "Retaliates any physical hit with double the power.",
+            "frlg": "A retaliation move that counters any physical hit with double the damage.",
+            "dp": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "pt": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "hgss": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "bw": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "b2w2": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "xy": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "oras": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "sm": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "usum": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "lgpe": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "swsh": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "la": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+            "sv": "A retaliatory attack that counters any physical move, inflicting double the damage taken."
+        },
+        "french": {
+            "bw": "Une riposte qui répond à toute attaque physique en infligeant le double de dégâts.",
+            "xy": "Une riposte qui répond à toute attaque physique en infligeant le double de dégâts.",
+            "oras": "Une riposte qui répond à toute attaque physique en infligeant le double de dégâts.",
+            "sm": "Une riposte qui répond à toute capacité physique en infligeant le double de dégâts.",
+            "usum": "Une riposte qui répond à toute capacité physique en infligeant le double de dégâts.",
+            "lgpe": "Une riposte qui répond à toute capacité physique en infligeant le double de dégâts.",
+            "swsh": "Une riposte qui répond à toute capacité physique en infligeant le double de dégâts."
+        },
+        "japanese-kana": {
+            "xy": "あいてから　うけた　ぶつり　こうげきの ダメージを　２ばいに　して おなじ　あいてに　かえす。",
+            "oras": "あいてから　うけた　ぶつり　こうげきの ダメージを　２ばいに　して おなじ　あいてに　かえす。",
+            "sm": "あいてから　うけた　ぶつり　こうげきの ダメージを　２ばいに　して おなじ　あいてに　かえす。",
+            "usum": "あいてから　うけた　ぶつり　こうげきの ダメージを　２ばいに　して おなじ　あいてに　かえす。",
+            "lgpe": "あいてから　うけた　ぶつり　こうげきの ダメージを　２ばいに　して おなじ　あいてに　かえす。",
+            "swsh": "あいてから　うけた　ぶつり　こうげきの ダメージを　２ばいに　して おなじ　あいてに　かえす。"
+        },
+        "korean": {
+            "xy": "상대로부터 받은 물리공격의 데미지를 2배로 만들어 같은 상대에게 돌려준다.",
+            "oras": "상대로부터 받은 물리공격의 데미지를 2배로 만들어 같은 상대에게 돌려준다.",
+            "sm": "상대로부터 받은 물리공격의 데미지를 2배로 만들어 같은 상대에게 돌려준다.",
+            "usum": "상대로부터 받은 물리공격의 데미지를 2배로 만들어 같은 상대에게 돌려준다.",
+            "lgpe": "상대로부터 받은 물리공격의 데미지를 2배로 만들어 같은 상대에게 돌려준다.",
+            "swsh": "상대로부터 받은 물리공격의 데미지를 2배로 만들어 같은 상대에게 돌려준다."
+        },
+        "german": {
+            "xy": "Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.",
+            "oras": "Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.",
+            "sm": "Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.",
+            "usum": "Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.",
+            "lgpe": "Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.",
+            "swsh": "Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat."
+        },
+        "spanish": {
+            "xy": "Devuelve un golpe físico por duplicado.",
+            "oras": "Devuelve un golpe físico por duplicado.",
+            "sm": "Devuelve un golpe físico por duplicado.",
+            "usum": "Devuelve un golpe físico por duplicado.",
+            "lgpe": "Devuelve un golpe físico por duplicado.",
+            "swsh": "Devuelve un golpe físico por duplicado."
+        },
+        "italian": {
+            "xy": "Mossa che contrasta ogni attacco fisico, arrecando il doppio del danno ricevuto.",
+            "oras": "Mossa che contrasta ogni attacco fisico, arrecando il doppio del danno ricevuto.",
+            "sm": "Mossa che contrasta ogni attacco fisico, arrecando il doppio del danno ricevuto.",
+            "usum": "Mossa che contrasta ogni attacco fisico, arrecando il doppio del danno ricevuto.",
+            "lgpe": "Mossa che contrasta ogni attacco fisico, arrecando il doppio del danno ricevuto.",
+            "swsh": "Mossa che contrasta ogni attacco fisico, arrecando il doppio del danno ricevuto."
+        },
+        "japanese": {
+            "xy": "相手から　受けた　物理攻撃の ダメージを　２倍に　して 同じ　相手に　返す。",
+            "oras": "相手から　受けた　物理攻撃の ダメージを　２倍に　して 同じ　相手に　返す。",
+            "sm": "相手から　受けた　物理攻撃の ダメージを　２倍に　して 同じ　相手に　返す。",
+            "usum": "相手から　受けた　物理攻撃の ダメージを　２倍に　して 同じ　相手に　返す。",
+            "lgpe": "相手から　受けた　物理攻撃の ダメージを　２倍に　して 同じ　相手に　返す。",
+            "swsh": "相手から　受けた　物理攻撃の ダメージを　２倍に　して 同じ　相手に　返す。"
+        },
+        "latin-american-spanish": {
+            "xy": "Devuelve un golpe físico por duplicado.",
+            "oras": "Devuelve un golpe físico por duplicado.",
+            "sm": "Devuelve un golpe físico por duplicado.",
+            "usum": "Devuelve un golpe físico por duplicado.",
+            "lgpe": "Devuelve un golpe físico por duplicado.",
+            "swsh": "Devuelve un golpe físico por duplicado."
+        },
+        "traditional-chinese": {
+            "sm": "將來自對手的物理攻擊傷害加倍後， 返還給該對手。",
+            "usum": "將來自對手的物理攻擊傷害加倍後， 返還給該對手。",
+            "lgpe": "將來自對手的物理攻擊傷害加倍後， 返還給該對手。",
+            "swsh": "將來自對手的物理攻擊傷害加倍後， 返還給該對手。"
+        },
+        "simplified-chinese": {
+            "sm": "从对手那里受到 物理攻击的伤害将以 ２倍返还给同一个对手。",
+            "usum": "从对手那里受到 物理攻击的伤害将以 ２倍返还给同一个对手。",
+            "lgpe": "从对手那里受到 物理攻击的伤害将以 ２倍返还给同一个对手。",
+            "swsh": "从对手那里受到 物理攻击的伤害将以 ２倍返还给同一个对手。"
+        }
+    },
+    "effect": {
+        "full": "Targets the last opposing Pokémon to hit the user with a physical move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored. This move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+        "shortEffect": "Inflicts twice the damage the user received from the last physical hit it took."
+    }
 }

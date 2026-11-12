@@ -1,47 +1,156 @@
 {
-  "_id": 67,
-  "key": "low-kick",
-  "name": {
-    "english": "Low Kick",
-    "japanese": "けたぐり",
-    "chinese": "下踢",
-    "korean": "안다리걸기",
-    "german": "Patada Baja",
-    "french": "Fußkick",
-    "italian": "Low Kick",
-    "spanish": "Colpo Basso"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause flinching.",
-    "crystal": "An attack that may\ncause flinching.",
-    "ruby-sapphire": "A kick that inflicts more\ndamage on heavier foes.",
-    "emerald": "A kick that inflicts more\ndamage on heavier foes.",
-    "firered-leafgreen": "A low, tripping kick\nthat inflicts more\ndamage on heavier\nfoes.",
-    "diamond-pearl": "A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.",
-    "platinum": "A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.",
-    "heartgold-soulsilver": "A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.",
-    "black-white": "A powerful low kick that makes the target\nfall over. It inflicts greater damage on\nheavier targets.",
-    "black-2-white-2": "A powerful low kick that makes the target\nfall over. It inflicts greater damage on\nheavier targets.",
-    "x-y": "A powerful low kick that makes the target\nfall over. The heavier the target,\nthe greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "A powerful low kick that makes the target\nfall over. The heavier the target,\nthe greater the move’s power.",
-    "sun-moon": "A powerful low kick that makes the target fall over.\nThe heavier the target, the greater the\nmove’s power.",
-    "ultra-sun-ultra-moon": "A powerful low kick that makes the target fall over.\nThe heavier the target, the greater the\nmove’s power.",
-    "lets-go-pikachu-lets-go-eevee": "A powerful low kick that makes the target fall over.\nThe heavier the target, the greater the\nmove’s power.",
-    "sword-shield": "A powerful low kick that makes the target fall over.\nThe heavier the target, the greater the move’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
-    "shortEffect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
-  },
-  "priority": 0
+    "_id": 67,
+    "key": "low-kick",
+    "name": {
+        "japanese-kana": "けたぐり",
+        "korean": "안다리걸기",
+        "traditional-chinese": "踢倒",
+        "french": "Balayage",
+        "german": "Fußkick",
+        "spanish": "Patada Baja",
+        "italian": "Colpo Basso",
+        "english": "Low Kick",
+        "japanese": "けたぐり",
+        "simplified-chinese": "踢倒",
+        "latin-american-spanish": "Patada Baja"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "rs": {
+            "accuracy": 90,
+            "power": 50,
+            "effectChance": 30,
+            "effect": {
+                "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+                "shortEffect": "Has a chance to make the target flinch."
+            }
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause flinching.",
+            "cr": "An attack that may cause flinching.",
+            "rs": "A kick that inflicts more damage on heavier foes.",
+            "em": "A kick that inflicts more damage on heavier foes.",
+            "frlg": "A low, tripping kick that inflicts more damage on heavier foes.",
+            "dp": "A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.",
+            "pt": "A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.",
+            "hgss": "A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.",
+            "bw": "A powerful low kick that makes the target fall over. It inflicts greater damage on heavier targets.",
+            "b2w2": "A powerful low kick that makes the target fall over. It inflicts greater damage on heavier targets.",
+            "xy": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.",
+            "oras": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.",
+            "sm": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.",
+            "usum": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.",
+            "lgpe": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.",
+            "swsh": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.",
+            "la": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+            "sv": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power."
+        },
+        "french": {
+            "bw": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.",
+            "xy": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.",
+            "oras": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.",
+            "sm": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.",
+            "usum": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.",
+            "lgpe": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.",
+            "swsh": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds."
+        },
+        "japanese-kana": {
+            "xy": "あしを　つよく　けり　あいてを ころばせて　こうげきする。あいてが おもいほど　いりょくが　あがる。",
+            "oras": "あしを　つよく　けり　あいてを ころばせて　こうげきする。あいてが おもいほど　いりょくが　あがる。",
+            "sm": "あしを　つよく　けり　あいてを ころばせて　こうげきする。あいてが おもいほど　いりょくが　あがる。",
+            "usum": "あしを　つよく　けり　あいてを ころばせて　こうげきする。あいてが おもいほど　いりょくが　あがる。",
+            "lgpe": "あしを　つよく　けり　あいてを ころばせて　こうげきする。あいてが おもいほど　いりょくが　あがる。",
+            "swsh": "あしを　つよく　けり　あいてを ころばせて　こうげきする。あいてが おもいほど　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.",
+            "oras": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.",
+            "sm": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.",
+            "usum": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.",
+            "lgpe": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.",
+            "swsh": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu.",
+            "oras": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu.",
+            "sm": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu.",
+            "usum": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu.",
+            "lgpe": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu.",
+            "swsh": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu."
+        },
+        "spanish": {
+            "xy": "Patada baja. Cuanto más pesa el objetivo, más daño causa.",
+            "oras": "Patada baja. Cuanto más pesa el objetivo, más daño causa.",
+            "sm": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.",
+            "usum": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.",
+            "lgpe": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.",
+            "swsh": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa."
+        },
+        "italian": {
+            "xy": "Un calcio basso e potente che fa cadere il bersaglio. Danneggia maggiormente i Pokémon più pesanti.",
+            "oras": "Un calcio basso e potente che fa cadere il bersaglio. Danneggia maggiormente i Pokémon più pesanti.",
+            "sm": "Un calcio basso e potente che fa cadere il bersaglio. Danneggia maggiormente i Pokémon più pesanti.",
+            "usum": "Un calcio basso e potente che fa cadere il bersaglio. Danneggia maggiormente i Pokémon più pesanti.",
+            "lgpe": "Un calcio basso e potente che fa cadere il bersaglio. Danneggia maggiormente i Pokémon più pesanti.",
+            "swsh": "Un calcio basso e potente che fa cadere il bersaglio. Danneggia maggiormente i Pokémon più pesanti."
+        },
+        "japanese": {
+            "xy": "足を　強く　けり 相手を　転ばせて　攻撃する。 相手が　重いほど　威力が　あがる。",
+            "oras": "足を　強く　けり 相手を　転ばせて　攻撃する。 相手が　重いほど　威力が　あがる。",
+            "sm": "足を　強く　けり 相手を　転ばせて　攻撃する。 相手が　重いほど　威力が　あがる。",
+            "usum": "足を　強く　けり 相手を　転ばせて　攻撃する。 相手が　重いほど　威力が　あがる。",
+            "lgpe": "足を　強く　けり 相手を　転ばせて　攻撃する。 相手が　重いほど　威力が　あがる。",
+            "swsh": "足を　強く　けり 相手を　転ばせて　攻撃する。 相手が　重いほど　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Patada baja. Cuanto más pesa el objetivo, más daño causa.",
+            "oras": "Patada baja. Cuanto más pesa el objetivo, más daño causa.",
+            "sm": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.",
+            "usum": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.",
+            "lgpe": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.",
+            "swsh": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa."
+        },
+        "traditional-chinese": {
+            "sm": "用力踢對手的腳， 讓對手摔倒進行攻擊。 對手越重，威力越大。",
+            "usum": "用力踢對手的腳， 讓對手摔倒進行攻擊。 對手越重，威力越大。",
+            "lgpe": "用力踢對手的腳， 讓對手摔倒進行攻擊。 對手越重，威力越大。",
+            "swsh": "用力踢對手的腳， 讓對手摔倒進行攻擊。 對手越重，威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "用力踢对手的脚， 使其摔倒进行攻击。 对手越重，威力越大。",
+            "usum": "用力踢对手的脚， 使其摔倒进行攻击。 对手越重，威力越大。",
+            "lgpe": "用力踢对手的脚， 使其摔倒进行攻击。 对手越重，威力越大。",
+            "swsh": "用力踢对手的脚， 使其摔倒进行攻击。 对手越重，威力越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg      |    20 Up to 25kg      |    40 Up to 50kg      |    60 Up to 100kg     |    80 Up to 200kg     |   100 Above 200kg     |   120",
+        "shortEffect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+    }
 }

@@ -1,47 +1,150 @@
 {
-  "_id": 174,
-  "key": "curse",
-  "name": {
-    "english": "Curse",
-    "japanese": "のろい",
-    "chinese": "咒语",
-    "korean": "저주",
-    "german": "Maldición",
-    "french": "Fluch",
-    "italian": "Curse",
-    "spanish": "Maledizione"
-  },
-  "type": "Ghost",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": null,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "specific-move",
-  "changes": [],
-  "description": {
-    "gold-silver": "Works differently\nfor ghost-types.",
-    "crystal": "Works differently\nfor ghost-types.",
-    "ruby-sapphire": "A move that functions\ndifferently for GHOSTS.",
-    "emerald": "A move that functions\ndifferently for GHOSTS.",
-    "firered-leafgreen": "A move that works\ndifferently for the\nGHOST-type and all\nthe other types.",
-    "diamond-pearl": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
-    "platinum": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
-    "heartgold-soulsilver": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
-    "black-white": "A move that works differently for the\nGhost type than for all other types.",
-    "black-2-white-2": "A move that works differently for the\nGhost type than for all other types.",
-    "x-y": "A move that works differently for the\nGhost type than for all other types.",
-    "omega-ruby-alpha-sapphire": "A move that works differently for the\nGhost type than for all other types.",
-    "sun-moon": "A move that works differently for the Ghost type\nthan for all other types.",
-    "ultra-sun-ultra-moon": "A move that works differently for the Ghost type\nthan for all other types.",
-    "lets-go-pikachu-lets-go-eevee": "A move that works differently for the Ghost type\nthan for all other types.",
-    "sword-shield": "A move that works differently for the Ghost type\nthan for all other types."
-  },
-  "effect": {
-    "full": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton pass.\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
-  },
-  "priority": 0
+    "_id": 174,
+    "key": "curse",
+    "name": {
+        "japanese-kana": "のろい",
+        "korean": "저주",
+        "traditional-chinese": "詛咒",
+        "french": "Malédiction",
+        "german": "Fluch",
+        "spanish": "Maldición",
+        "italian": "Maledizione",
+        "english": "Curse",
+        "japanese": "のろい",
+        "simplified-chinese": "诅咒",
+        "latin-american-spanish": "Maldición"
+    },
+    "type": "ghost",
+    "category": "status",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "specific-move",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "type": "unknown"
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Works differently for ghost-types.",
+            "cr": "Works differently for ghost-types.",
+            "rs": "A move that functions differently for GHOSTS.",
+            "em": "A move that functions differently for GHOSTS.",
+            "frlg": "A move that works differently for the GHOST-type and all the other types.",
+            "dp": "A move that works differently for the Ghost type than for all the other types.",
+            "pt": "A move that works differently for the Ghost type than for all the other types.",
+            "hgss": "A move that works differently for the Ghost type than for all the other types.",
+            "bw": "A move that works differently for the Ghost type than for all other types.",
+            "b2w2": "A move that works differently for the Ghost type than for all other types.",
+            "xy": "A move that works differently for the Ghost type than for all other types.",
+            "oras": "A move that works differently for the Ghost type than for all other types.",
+            "sm": "A move that works differently for the Ghost type than for all other types.",
+            "usum": "A move that works differently for the Ghost type than for all other types.",
+            "lgpe": "A move that works differently for the Ghost type than for all other types.",
+            "swsh": "A move that works differently for the Ghost type than for all other types.",
+            "la": "A move that works differently for the Ghost type than for all other types.",
+            "sv": "A move that has different effects depending on whether the user is a Ghost type or not."
+        },
+        "french": {
+            "bw": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.",
+            "xy": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.",
+            "oras": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.",
+            "sm": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.",
+            "usum": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.",
+            "lgpe": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.",
+            "swsh": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non."
+        },
+        "japanese-kana": {
+            "xy": "つかう　ポケモンが ゴーストタイプと　それいがい　とでは こうかが　かわる。",
+            "oras": "つかう　ポケモンが ゴーストタイプと　それいがい　とでは こうかが　かわる。",
+            "sm": "つかう　ポケモンが ゴーストタイプと　それいがい　とでは こうかが　かわる。",
+            "usum": "つかう　ポケモンが ゴーストタイプと　それいがい　とでは こうかが　かわる。",
+            "lgpe": "つかう　ポケモンが ゴーストタイプと　それいがい　とでは こうかが　かわる。",
+            "swsh": "つかう　ポケモンが ゴーストタイプと　それいがい　とでは こうかが　かわる。"
+        },
+        "korean": {
+            "xy": "기술을 쓰는 포켓몬이 고스트타입일 때와 그 이외의 타입일 때는 효과가 다르다.",
+            "oras": "기술을 쓰는 포켓몬이 고스트타입일 때와 그 이외의 타입일 때는 효과가 다르다.",
+            "sm": "기술을 쓰는 포켓몬이 고스트타입일 때와 그 이외의 타입일 때는 효과가 다르다.",
+            "usum": "기술을 쓰는 포켓몬이 고스트타입일 때와 그 이외의 타입일 때는 효과가 다르다.",
+            "lgpe": "기술을 쓰는 포켓몬이 고스트타입일 때와 그 이외의 타입일 때는 효과가 다르다.",
+            "swsh": "기술을 쓰는 포켓몬이 고스트타입일 때와 그 이외의 타입일 때는 효과가 다르다."
+        },
+        "german": {
+            "xy": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geist-Pokémon ist.",
+            "oras": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geister-Pokémon ist.",
+            "sm": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geister-Pokémon ist.",
+            "usum": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geister-Pokémon ist.",
+            "lgpe": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geister-Pokémon ist.",
+            "swsh": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geister-Pokémon ist."
+        },
+        "spanish": {
+            "xy": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "oras": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "sm": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "usum": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "lgpe": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "swsh": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no."
+        },
+        "italian": {
+            "xy": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro.",
+            "oras": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro.",
+            "sm": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro.",
+            "usum": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro.",
+            "lgpe": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro.",
+            "swsh": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro."
+        },
+        "japanese": {
+            "xy": "使う　ポケモンが ゴーストタイプと　それ以外　とでは 効果が　変わる。",
+            "oras": "使う　ポケモンが ゴーストタイプと　それ以外　とでは 効果が　変わる。",
+            "sm": "使う　ポケモンが ゴーストタイプと　それ以外　とでは 効果が　変わる。",
+            "usum": "使う　ポケモンが ゴーストタイプと　それ以外　とでは 効果が　変わる。",
+            "lgpe": "使う　ポケモンが ゴーストタイプと　それ以外　とでは 効果が　変わる。",
+            "swsh": "使う　ポケモンが ゴーストタイプと　それ以外　とでは 効果が　変わる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "oras": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "sm": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "usum": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "lgpe": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+            "swsh": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no."
+        },
+        "traditional-chinese": {
+            "sm": "使用詛咒時， 幽靈屬性的寶可夢和其他屬性的寶可夢， 會獲得不同的招式效果。",
+            "usum": "使用詛咒時， 幽靈屬性的寶可夢和其他屬性的寶可夢， 會獲得不同的招式效果。",
+            "lgpe": "使用詛咒時， 幽靈屬性的寶可夢和其他屬性的寶可夢， 會獲得不同的招式效果。",
+            "swsh": "使用詛咒時， 幽靈屬性的寶可夢和其他屬性的寶可夢， 會獲得不同的招式效果。"
+        },
+        "simplified-chinese": {
+            "sm": "使用该招式的宝可梦， 其属性是幽灵属性或其他属性时， 效果会不一样。",
+            "usum": "使用该招式的宝可梦， 其属性是幽灵属性或其他属性时， 效果会不一样。",
+            "lgpe": "使用该招式时， 幽灵属性和其他属性的宝可梦 会获得不同的招式效果。",
+            "swsh": "使用该招式的宝可梦， 其属性是幽灵属性或其他属性时， 效果会不一样。"
+        }
+    },
+    "effect": {
+        "full": "If the user is a Ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn. Otherwise: Lowers the user’s Speed by one stage, and raises its Attack and Defense by one stage each. The curse effect is passed on by Baton Pass. This move cannot be copied by Mirror Move.",
+        "shortEffect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
+    }
 }

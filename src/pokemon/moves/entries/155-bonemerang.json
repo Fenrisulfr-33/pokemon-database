@@ -1,47 +1,144 @@
 {
-  "_id": 155,
-  "key": "bonemerang",
-  "name": {
-    "english": "Bonemerang",
-    "japanese": "ホネブーメラン",
-    "chinese": "骨头回力镖",
-    "korean": "뼈다귀부메랑",
-    "german": "Huesomerang",
-    "french": "Knochmerang",
-    "italian": "Bonemerang",
-    "spanish": "Ossomerang"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 50,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that\nstrikes twice.",
-    "crystal": "An attack that\nstrikes twice.",
-    "ruby-sapphire": "Throws a bone boomerang\nthat strikes twice.",
-    "emerald": "Throws a bone boomerang\nthat strikes twice.",
-    "firered-leafgreen": "The user throws a\nbone that hits the\nfoe once, then once\nagain on return.",
-    "diamond-pearl": "The user throws the\nbone it holds. The\nbone loops to hit the\nfoe twice, coming and\ngoing.",
-    "platinum": "The user throws the\nbone it holds. The\nbone loops to hit the\nfoe twice, coming and\ngoing.",
-    "heartgold-soulsilver": "The user throws the\nbone it holds. The\nbone loops to hit the\nfoe twice, coming and\ngoing.",
-    "black-white": "The user throws the bone it holds. The\nbone loops to hit the target twice,\ncoming and going.",
-    "black-2-white-2": "The user throws the bone it holds. The\nbone loops to hit the target twice,\ncoming and going.",
-    "x-y": "The user throws the bone it holds. The\nbone loops to hit the target twice,\ncoming and going.",
-    "omega-ruby-alpha-sapphire": "The user throws the bone it holds. The\nbone loops to hit the target twice,\ncoming and going.",
-    "sun-moon": "The user throws the bone it holds. The bone loops\naround to hit the target twice—coming and going.",
-    "ultra-sun-ultra-moon": "The user throws the bone it holds. The bone loops\naround to hit the target twice—coming and going.",
-    "lets-go-pikachu-lets-go-eevee": "The user throws the bone it holds. The bone loops\naround to hit the target twice—coming and going.",
-    "sword-shield": "The user throws the bone it holds. The bone loops\naround to hit the target twice—coming and going."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits twice in one turn.",
-    "shortEffect": "Hits twice in one turn."
-  },
-  "priority": 0
+    "_id": 155,
+    "key": "bonemerang",
+    "name": {
+        "japanese-kana": "ホネブーメラン",
+        "korean": "뼈다귀부메랑",
+        "traditional-chinese": "骨頭回力鏢",
+        "french": "Osmerang",
+        "german": "Knochmerang",
+        "spanish": "Huesomerang",
+        "italian": "Ossomerang",
+        "english": "Bonemerang",
+        "japanese": "ホネブーメラン",
+        "simplified-chinese": "骨头回力镖",
+        "latin-american-spanish": "Huesomerang"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 50,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 2,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that strikes twice.",
+            "cr": "An attack that strikes twice.",
+            "rs": "Throws a bone boomerang that strikes twice.",
+            "em": "Throws a bone boomerang that strikes twice.",
+            "frlg": "The user throws a bone that hits the foe once, then once again on return.",
+            "dp": "The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.",
+            "pt": "The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.",
+            "hgss": "The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.",
+            "bw": "The user throws the bone it holds. The bone loops to hit the target twice, coming and going.",
+            "b2w2": "The user throws the bone it holds. The bone loops to hit the target twice, coming and going.",
+            "xy": "The user throws the bone it holds. The bone loops to hit the target twice, coming and going.",
+            "oras": "The user throws the bone it holds. The bone loops to hit the target twice, coming and going.",
+            "sm": "The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.",
+            "usum": "The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.",
+            "lgpe": "The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.",
+            "swsh": "The user throws the bone it holds. The bone loops around to hit the target twice—coming and going."
+        },
+        "french": {
+            "bw": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.",
+            "xy": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.",
+            "oras": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.",
+            "sm": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.",
+            "usum": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.",
+            "lgpe": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.",
+            "swsh": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour."
+        },
+        "japanese-kana": {
+            "xy": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりで　２かい　れんぞくで ダメージを　あたえる。",
+            "oras": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりで　２かい　れんぞくで ダメージを　あたえる。",
+            "sm": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりの　２かい　れんぞくで ダメージを　あたえる。",
+            "usum": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりの　２かい　れんぞくで ダメージを　あたえる。",
+            "lgpe": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりの　２かい　れんぞくで ダメージを　あたえる。",
+            "swsh": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりの　２かい　れんぞくで ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다.",
+            "oras": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다.",
+            "sm": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다.",
+            "usum": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다.",
+            "lgpe": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다.",
+            "swsh": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다."
+        },
+        "german": {
+            "xy": "Ein Bumerang aus Knochen, der zweimal trifft.",
+            "oras": "Ein Bumerang aus Knochen, der zweimal trifft.",
+            "sm": "Ein Bumerang aus Knochen, der zweimal trifft.",
+            "usum": "Ein Bumerang aus Knochen, der zweimal trifft.",
+            "lgpe": "Ein Bumerang aus Knochen, der zweimal trifft.",
+            "swsh": "Ein Bumerang aus Knochen, der zweimal trifft."
+        },
+        "spanish": {
+            "xy": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "oras": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "sm": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "usum": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "lgpe": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "swsh": "Lanza un hueso a modo de bumerán que golpea dos veces."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia l’osso che tiene. L’osso colpisce due volte e ritorna come un vero e proprio boomerang.",
+            "oras": "Chi la usa lancia l’osso che ha con sé. L’osso colpisce due volte e ritorna come un vero e proprio boomerang.",
+            "sm": "Chi la usa lancia l’osso che ha con sé. L’osso colpisce due volte e ritorna come un vero e proprio boomerang.",
+            "usum": "Chi la usa lancia l’osso che ha con sé. L’osso colpisce due volte e ritorna come un vero e proprio boomerang.",
+            "lgpe": "Chi la usa lancia l’osso che ha con sé. L’osso colpisce due volte e ritorna come un vero e proprio boomerang.",
+            "swsh": "Chi la usa lancia l’osso che ha con sé. L’osso colpisce due volte e ritorna come un vero e proprio boomerang."
+        },
+        "japanese": {
+            "xy": "手に　持った　ホネを　相手に　投げつけ 行きと　帰りの　２回連続で ダメージを　与える。",
+            "oras": "手に　持った　ホネを　相手に　投げつけ 行きと　帰りの　２回連続で ダメージを　与える。",
+            "sm": "手に　持った　ホネを　相手に　投げつけ 行きと　帰りの　２回連続で ダメージを　与える。",
+            "usum": "手に　持った　ホネを　相手に　投げつけ 行きと　帰りの　２回連続で ダメージを　与える。",
+            "lgpe": "手に　持った　ホネを　相手に　投げつけ 行きと　帰りの　２回連続で ダメージを　与える。",
+            "swsh": "手に　持った　ホネを　相手に　投げつけ 行きと　帰りの　２回連続で ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "oras": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "sm": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "usum": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "lgpe": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+            "swsh": "Lanza un hueso a modo de bumerán que golpea dos veces."
+        },
+        "traditional-chinese": {
+            "sm": "向對手投擲手中的骨頭， 來回連續２次給予傷害。",
+            "usum": "向對手投擲手中的骨頭， 來回連續２次給予傷害。",
+            "lgpe": "向對手投擲手中的骨頭， 來回連續２次給予傷害。",
+            "swsh": "向對手投擲手中的骨頭， 來回連續２次給予傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "用手中的骨头投掷对手， 来回连续２次给予伤害。",
+            "usum": "用手中的骨头投掷对手， 来回连续２次给予伤害。",
+            "lgpe": "用手中的骨头投掷对手， 来回连续２次给予伤害。",
+            "swsh": "用手中的骨头投掷对手， 来回连续２次给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits twice in one turn.",
+        "shortEffect": "Hits twice in one turn."
+    }
 }

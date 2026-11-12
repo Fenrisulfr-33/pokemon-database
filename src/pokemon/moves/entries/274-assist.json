@@ -1,45 +1,142 @@
 {
-  "_id": 274,
-  "key": "assist",
-  "name": {
-    "english": "Assist",
-    "japanese": "ねこのて",
-    "chinese": "协助",
-    "korean": "조수",
-    "german": "Ayuda",
-    "french": "Zuschuss",
-    "italian": "Assist",
-    "spanish": "Assistente"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks randomly with one\nof the partner’s moves.",
-    "emerald": "Attacks randomly with one\nof the partner’s moves.",
-    "firered-leafgreen": "The user randomly\npicks and uses a\nmove of an allied\nPOKéMON.",
-    "diamond-pearl": "The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPokémon in the party.",
-    "platinum": "The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPokémon in the party.",
-    "heartgold-soulsilver": "The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPokémon in the party.",
-    "black-white": "The user hurriedly and randomly uses a\nmove among those known by other\nPokémon in the party.",
-    "black-2-white-2": "The user hurriedly and randomly uses a\nmove among those known by other\nPokémon in the party.",
-    "x-y": "The user hurriedly and randomly\nuses a move among those known\nby other Pokémon in the party.",
-    "omega-ruby-alpha-sapphire": "The user hurriedly and randomly\nuses a move among those known\nby other Pokémon in the party.",
-    "sun-moon": "The user hurriedly and randomly uses a move among\nthose known by ally Pokémon.",
-    "ultra-sun-ultra-moon": "The user hurriedly and randomly uses a move among\nthose known by ally Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The user hurriedly and randomly uses a move among\nthose known by ally Pokémon.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Uses a move from another Pokémon in the user's party, both selected at random.  Moves from fainted Pokémon can be used.  If there are no eligible Pokémon or moves, this move will fail.\n\nThis move will not select assist, chatter, circle throw, copycat, counter, covet, destiny bond, detect, dig, dive, dragon tail, endure, feint, fly focus punch, follow me, helping hand, me first, metronome, mimic, mirror coat, mirror move, phantom force protect, quick guard, roar shadow force, sketch, sleep talk, snatch, struggle, switcheroo, thief, trick, whirlwind, or wide guard.\n\nThis move cannot be copied by mirror move, nor selected by metronome or sleep talk.",
-    "shortEffect": "Randomly selects and uses one of the trainer's other Pokémon's moves."
-  },
-  "priority": 0
+    "_id": 274,
+    "key": "assist",
+    "name": {
+        "japanese-kana": "ねこのて",
+        "korean": "조수",
+        "traditional-chinese": "借助",
+        "french": "Assistance",
+        "german": "Zuschuss",
+        "spanish": "Ayuda",
+        "italian": "Assistente",
+        "english": "Assist",
+        "japanese": "ねこのて",
+        "simplified-chinese": "借助",
+        "latin-american-spanish": "Ayuda"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Attacks randomly with one of the partner’s moves.",
+            "em": "Attacks randomly with one of the partner’s moves.",
+            "frlg": "The user randomly picks and uses a move of an allied POKéMON.",
+            "dp": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+            "pt": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+            "hgss": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+            "bw": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+            "b2w2": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+            "xy": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+            "oras": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+            "sm": "The user hurriedly and randomly uses a move among those known by ally Pokémon.",
+            "usum": "The user hurriedly and randomly uses a move among those known by ally Pokémon.",
+            "lgpe": "The user hurriedly and randomly uses a move among those known by ally Pokémon.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe.",
+            "xy": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe.",
+            "oras": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe.",
+            "sm": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe.",
+            "usum": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe.",
+            "lgpe": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "おおいそぎで　みかたの　たすけを　かりて ひかえの　ポケモンが　おぼえている わざを　どれか　１つ　つかう。",
+            "oras": "おおいそぎで　 かたの　たすけを　かりて ひかえの　ポケモンが　おぼえている わざを　どれか　１つ　つかう。",
+            "sm": "おおいそぎで　みかたの　たすけを　かりて みかたの　ポケモンが　おぼえている わざを　どれか　１つ　つかう。",
+            "usum": "おおいそぎで　みかたの　たすけを　かりて みかたの　ポケモンが　おぼえている わざを　どれか　１つ　つかう。",
+            "lgpe": "おおいそぎで　みかたの　たすけを　かりて みかたの　ポケモンが　おぼえている わざを　どれか　１つ　つかう。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "서둘러서 같은 편의 도움을 받아 교대 포켓몬이 기억하고 있는 기술 중 하나를 쓴다.",
+            "oras": "서둘러서 같은 편의 도움을 받아 교대 포켓몬이 기억하고 있는 기술 중 하나를 쓴다.",
+            "sm": "서둘러서 같은 편의 도움을 받아 같은 편 포켓몬이 기억하고 있는 기술 중 하나를 쓴다.",
+            "usum": "서둘러서 같은 편의 도움을 받아 같은 편 포켓몬이 기억하고 있는 기술 중 하나를 쓴다.",
+            "lgpe": "서둘러서 같은 편의 도움을 받아 같은 편 포켓몬이 기억하고 있는 기술 중 하나를 쓴다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Greift zufällig mit einer Attacke eines Teampartners an.",
+            "oras": "Greift zufällig mit einer Attacke eines Teampartners an.",
+            "sm": "Greift zufällig mit einer Attacke eines Mitstreiters an.",
+            "usum": "Greift zufällig mit einer Attacke eines Mitstreiters an.",
+            "lgpe": "Greift zufällig mit einer Attacke eines Mitstreiters an.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "oras": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "sm": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "usum": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "lgpe": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.",
+            "oras": "Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.",
+            "sm": "Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.",
+            "usum": "Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.",
+            "lgpe": "Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "大急ぎで　味方の　助けを　かりて 控えの　ポケモンが　おぼえている 技を　どれか　１つ　使う。",
+            "oras": "大急ぎで　味方の　助けを　かりて 控えの　ポケモンが　おぼえている 技を　どれか　１つ　使う。",
+            "sm": "大急ぎで　味方の　助けを　かりて 味方の　ポケモンが　おぼえている 技を　どれか　１つ　使う。",
+            "usum": "大急ぎで　味方の　助けを　かりて 味方の　ポケモンが　おぼえている 技を　どれか　１つ　使う。",
+            "lgpe": "大急ぎで　味方の　助けを　かりて 味方の　ポケモンが　おぼえている 技を　どれか　１つ　使う。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "oras": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "sm": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "usum": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "lgpe": "Usa un movimiento de un miembro del equipo elegido al azar.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "緊急向同伴求救， 從我方寶可夢已學會的招式中 隨機選出１個使用。",
+            "usum": "緊急向同伴求救， 從我方寶可夢已學會的招式中 隨機選出１個使用。",
+            "lgpe": "緊急向同伴求救， 從我方寶可夢已學會的招式中 隨機選出１個使用。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向我方紧急求助， 从我方宝可梦已学会的 招式中随机使用１个。",
+            "usum": "向我方紧急求助， 从我方宝可梦已学会的 招式中随机使用１个。",
+            "lgpe": "向同伴紧急求助， 从我方宝可梦已学会的 招式中随机使用１个。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Uses a move from another Pokémon in the user’s party, both selected at random.  Moves from fainted Pokémon can be used.  If there are no eligible Pokémon or moves, this move will fail. This move will not select Assist, Chatter, Circle Throw, Copycat, Counter, Covet, Destiny Bond, Detect, Dig, Dive, Dragon Tail, Endure, Feint, Fly Focus Punch, Follow Me, Helping Hand, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Phantom Force Protect, Quick Guard, Roar Shadow Force, Sketch, Sleep Talk, Snatch, Struggle, Switcheroo, Thief, Trick, Whirlwind, or Wide Guard. This move cannot be copied by Mirror Move, nor selected by Metronome or Sleep Talk.",
+        "shortEffect": "Randomly selects and uses one of the trainer’s other Pokémon’s moves."
+    }
 }

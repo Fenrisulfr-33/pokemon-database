@@ -1,47 +1,146 @@
 {
-  "_id": 208,
-  "key": "milk-drink",
-  "name": {
-    "english": "Milk Drink",
-    "japanese": "ミルクのみ",
-    "chinese": "饮奶",
-    "korean": "우유마시기",
-    "german": "Batido",
-    "french": "Milchgetränk",
-    "italian": "Milk Drink",
-    "spanish": "Buonlatte"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Restores HP by 1/2\nthe max HP.",
-    "crystal": "Restores HP by 1/2\nthe max HP.",
-    "ruby-sapphire": "Recovers up to half the\nuser’s maximum HP.",
-    "emerald": "Recovers up to half the\nuser’s maximum HP.",
-    "firered-leafgreen": "Heals the user by\nup to half its full\nHP. It can be used\nto heal an ally.",
-    "diamond-pearl": "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP.",
-    "platinum": "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP.",
-    "heartgold-soulsilver": "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP.",
-    "black-white": "The user restores its own HP\nby up to half of its maximum HP.\nMay also be used in the field to heal HP.",
-    "black-2-white-2": "The user restores its own HP\nby up to half of its maximum HP.\nMay also be used in the field to heal HP.",
-    "x-y": "The user restores its own HP\nby up to half of its max HP.\nMay also be used in the field to heal HP.",
-    "omega-ruby-alpha-sapphire": "The user restores its own HP\nby up to half of its max HP.\nMay also be used in the field to heal HP.",
-    "sun-moon": "The user restores its own HP by up to half of its\nmax HP.",
-    "ultra-sun-ultra-moon": "The user restores its own HP by up to half of its\nmax HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user restores its own HP by up to half of its\nmax HP.",
-    "sword-shield": "The user restores its own HP by up to half of its\nmax HP."
-  },
-  "effect": {
-    "full": "Heals the user for half its max HP.",
-    "shortEffect": "Heals the user by half its max HP."
-  },
-  "priority": 0
+    "_id": 208,
+    "key": "milk-drink",
+    "name": {
+        "japanese-kana": "ミルクのみ",
+        "korean": "우유마시기",
+        "traditional-chinese": "喝牛奶",
+        "french": "Lait à Boire",
+        "german": "Milchgetränk",
+        "spanish": "Batido",
+        "italian": "Buonlatte",
+        "english": "Milk Drink",
+        "japanese": "ミルクのみ",
+        "simplified-chinese": "喝牛奶",
+        "latin-american-spanish": "Licuado"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Restores HP by 1/2 the max HP.",
+            "cr": "Restores HP by 1/2 the max HP.",
+            "rs": "Recovers up to half the user’s maximum HP.",
+            "em": "Recovers up to half the user’s maximum HP.",
+            "frlg": "Heals the user by up to half its full HP. It can be used to heal an ally.",
+            "dp": "The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP.",
+            "pt": "The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP.",
+            "hgss": "The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP.",
+            "bw": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
+            "b2w2": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
+            "xy": "The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.",
+            "oras": "The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.",
+            "sm": "The user restores its own HP by up to half of its max HP.",
+            "usum": "The user restores its own HP by up to half of its max HP.",
+            "lgpe": "The user restores its own HP by up to half of its max HP.",
+            "swsh": "The user restores its own HP by up to half of its max HP.",
+            "la": "The user restores its own HP by up to half of its max HP.",
+            "sv": "The user restores its own HP by up to half its max HP."
+        },
+        "french": {
+            "bw": "Le lanceur récupère jusqu’à la moitié de ses PV max. En dehors des combats, permet de transférer des PV du lanceur à un allié.",
+            "xy": "Le lanceur récupère jusqu’à la moitié de ses PV max. En dehors des combats, permet de transférer des PV du lanceur à un allié.",
+            "oras": "Le lanceur récupère jusqu’à la moitié de ses PV max. En dehors des combats, permet de transférer des PV du lanceur à un allié.",
+            "sm": "Le lanceur récupère jusqu’à la moitié de ses PV max.",
+            "usum": "Le lanceur récupère jusqu’à la moitié de ses PV max.",
+            "lgpe": "Le lanceur récupère jusqu’à la moitié de ses PV max.",
+            "swsh": "Le lanceur récupère jusqu’à la moitié de ses PV max."
+        },
+        "japanese-kana": {
+            "xy": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 なかまに　ＨＰを　わけることも　できる。",
+            "oras": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 なかまに　ＨＰを　わけることも　できる。",
+            "sm": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "usum": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "lgpe": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "swsh": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "자신의 최대 HP 절반을 회복한다. 동료에게 HP를 나누어 줄 수도 있다.",
+            "oras": "자신의 최대 HP 절반을 회복한다. 동료에게 HP를 나누어 줄 수도 있다.",
+            "sm": "자신의 최대 HP 절반을 회복한다.",
+            "usum": "자신의 최대 HP 절반을 회복한다.",
+            "lgpe": "자신의 최대 HP 절반을 회복한다.",
+            "swsh": "자신의 최대 HP 절반을 회복한다."
+        },
+        "german": {
+            "xy": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung eines Verbündeten außerhalb von Kämpfen möglich.",
+            "oras": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung eines Verbündeten außerhalb von Kämpfen möglich.",
+            "sm": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "usum": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "lgpe": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "swsh": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt."
+        },
+        "spanish": {
+            "xy": "Restaura la mitad de los PS máximos del usuario. Fuera de combate se usa para transferir parte de sus PS a un aliado.",
+            "oras": "Restaura la mitad de los PS máximos del usuario. Fuera de combate se usa para transferir parte de sus PS a un aliado.",
+            "sm": "Restaura la mitad de los PS máximos del usuario.",
+            "usum": "Restaura la mitad de los PS máximos del usuario.",
+            "lgpe": "Restaura la mitad de los PS máximos del usuario.",
+            "swsh": "Restaura la mitad de los PS máximos del usuario."
+        },
+        "italian": {
+            "xy": "Chi la usa recupera metà dei propri PS massimi. Fuori dalla lotta può anche far trasferire PS agli alleati.",
+            "oras": "Chi la usa recupera metà dei propri PS massimi. Fuori dalla lotta può anche far trasferire PS agli alleati.",
+            "sm": "Chi la usa recupera metà dei propri PS massimi.",
+            "usum": "Chi la usa recupera metà dei propri PS massimi.",
+            "lgpe": "Chi la usa recupera metà dei propri PS massimi.",
+            "swsh": "Chi la usa recupera metà dei propri PS massimi."
+        },
+        "japanese": {
+            "xy": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 仲間に　ＨＰを　わけることも　できる。",
+            "oras": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 仲間に　ＨＰを　わけることも　できる。",
+            "sm": "最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "usum": "最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "lgpe": "最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "swsh": "最大ＨＰの　半分 自分の　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Restaura la mitad de los PS máximos del usuario. Fuera de combate se usa para transferir parte de sus PS a un aliado.",
+            "oras": "Restaura la mitad de los PS máximos del usuario. Fuera de combate se usa para transferir parte de sus PS a un aliado.",
+            "sm": "Restaura la mitad de los PS máximos del usuario.",
+            "usum": "Restaura la mitad de los PS máximos del usuario.",
+            "lgpe": "Restaura la mitad de los PS máximos del usuario.",
+            "swsh": "Restaura la mitad de los PS máximos del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "回復自己最大ＨＰ的一半。",
+            "usum": "回復自己最大ＨＰ的一半。",
+            "lgpe": "回復自己最大HP的一半。",
+            "swsh": "回復自己最大ＨＰ的一半。"
+        },
+        "simplified-chinese": {
+            "sm": "回复自己最大ＨＰ的一半。",
+            "usum": "回复自己最大ＨＰ的一半。",
+            "lgpe": "回复自己最大HP的一半。",
+            "swsh": "回复自己最大ＨＰ的一半。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user for half its max HP.",
+        "shortEffect": "Heals the user by half its max HP."
+    }
 }

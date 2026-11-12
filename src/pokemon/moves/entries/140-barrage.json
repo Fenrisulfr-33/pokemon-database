@@ -1,47 +1,144 @@
 {
-  "_id": 140,
-  "key": "barrage",
-  "name": {
-    "english": "Barrage",
-    "japanese": "たまなげ",
-    "chinese": "丢球",
-    "korean": "구슬던지기",
-    "german": "Bombardeo",
-    "french": "Stakkato",
-    "italian": "Barrage",
-    "spanish": "Attacco Pioggia"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 15,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Throws orbs to hit\n2-5 times.",
-    "crystal": "Throws orbs to hit\n2-5 times.",
-    "ruby-sapphire": "Hurls round objects at the\nfoe 2 to 5 times.",
-    "emerald": "Hurls round objects at the\nfoe 2 to 5 times.",
-    "firered-leafgreen": "Round objects are\nhurled at the foe\nto strike two to\nfive times.",
-    "diamond-pearl": "Round objects are\nhurled at the foe to\nstrike two to five\ntimes in a row.\n",
-    "platinum": "Round objects are\nhurled at the foe to\nstrike two to five\ntimes in a row.\n",
-    "heartgold-soulsilver": "Round objects are\nhurled at the foe to\nstrike two to five\ntimes in a row.\n",
-    "black-white": "Round objects are hurled at the target\nto strike two to five times in a row.",
-    "black-2-white-2": "Round objects are hurled at the target\nto strike two to five times in a row.",
-    "x-y": "Round objects are hurled at the target\nto strike two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "Round objects are hurled at the target\nto strike two to five times in a row.",
-    "sun-moon": "Round objects are hurled at the target to strike two\nto five times in a row.",
-    "ultra-sun-ultra-moon": "Round objects are hurled at the target to strike two\nto five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "Round objects are hurled at the target to strike two\nto five times in a row.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 140,
+    "key": "barrage",
+    "name": {
+        "japanese-kana": "たまなげ",
+        "korean": "구슬던지기",
+        "traditional-chinese": "投球",
+        "french": "Pilonnage",
+        "german": "Stakkato",
+        "spanish": "Bombardeo",
+        "italian": "Attacco Pioggia",
+        "english": "Barrage",
+        "japanese": "たまなげ",
+        "simplified-chinese": "投球",
+        "latin-american-spanish": "Bombardeo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Throws orbs to hit 2-5 times.",
+            "cr": "Throws orbs to hit 2-5 times.",
+            "rs": "Hurls round objects at the foe 2 to 5 times.",
+            "em": "Hurls round objects at the foe 2 to 5 times.",
+            "frlg": "Round objects are hurled at the foe to strike two to five times.",
+            "dp": "Round objects are hurled at the foe to strike two to five times in a row.",
+            "pt": "Round objects are hurled at the foe to strike two to five times in a row.",
+            "hgss": "Round objects are hurled at the foe to strike two to five times in a row.",
+            "bw": "Round objects are hurled at the target to strike two to five times in a row.",
+            "b2w2": "Round objects are hurled at the target to strike two to five times in a row.",
+            "xy": "Round objects are hurled at the target to strike two to five times in a row.",
+            "oras": "Round objects are hurled at the target to strike two to five times in a row.",
+            "sm": "Round objects are hurled at the target to strike two to five times in a row.",
+            "usum": "Round objects are hurled at the target to strike two to five times in a row.",
+            "lgpe": "Round objects are hurled at the target to strike two to five times in a row.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Projette de 2 à 5 grosses boules sur l’ennemi.",
+            "xy": "Projette de deux à cinq grosses boules sur l’ennemi.",
+            "oras": "Projette de deux à cinq grosses boules sur l’ennemi.",
+            "sm": "Projette de deux à cinq grosses boules sur l’ennemi.",
+            "usum": "Projette de deux à cinq grosses boules sur l’ennemi.",
+            "lgpe": "Projette de deux à cinq grosses boules sur l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "まるい　ものを あいてに　なげつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "まるい　ものを あいてに　なげつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "まるい　ものを あいてに　なげつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "まるい　ものを あいてに　なげつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "まるい　ものを あいてに　なげつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "둥근 것을 상대에게 내던져서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "둥근 것을 상대에게 내던져서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "둥근 것을 상대에게 내던져서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "둥근 것을 상대에게 내던져서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "둥근 것을 상대에게 내던져서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Wirft zwei- bis fünfmal runde Gegenstände auf das Ziel.",
+            "oras": "Wirft zwei- bis fünfmal runde Gegenstände auf das Ziel.",
+            "sm": "Wirft zwei- bis fünfmal runde Gegenstände auf das Ziel.",
+            "usum": "Wirft zwei- bis fünfmal runde Gegenstände auf das Ziel.",
+            "lgpe": "Wirft zwei- bis fünfmal runde Gegenstände auf das Ziel.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "oras": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "sm": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "usum": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "lgpe": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Piovono enormi sfere sulla testa del bersaglio da due a cinque volte di fila.",
+            "oras": "Piovono enormi sfere sulla testa del bersaglio da due a cinque volte di fila.",
+            "sm": "Piovono enormi sfere sulla testa del bersaglio da due a cinque volte di fila.",
+            "usum": "Piovono enormi sfere sulla testa del bersaglio da due a cinque volte di fila.",
+            "lgpe": "Piovono enormi sfere sulla testa del bersaglio da due a cinque volte di fila.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "まるい　ものを 相手に　投げつけて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "まるい　ものを 相手に　投げつけて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "まるい　ものを 相手に　投げつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "まるい　ものを 相手に　投げつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "まるい　ものを 相手に　投げつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "oras": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "sm": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "usum": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "lgpe": "Arroja esferas al objetivo entre dos y cinco veces seguidas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "向對手投擲 球狀物體進行攻擊。 可連續攻擊２～５次。",
+            "usum": "向對手投擲 球狀物體進行攻擊。 可連續攻擊２～５次。",
+            "lgpe": "向對手投擲 球狀物體進行攻擊。 可連續攻擊２～５次。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手投掷 圆形物体进行攻击。 连续攻击２～５次。",
+            "usum": "向对手投掷 圆形物体进行攻击。 连续攻击２～５次。",
+            "lgpe": "向对手投掷 圆形物体进行攻击。 连续攻击２～５次。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

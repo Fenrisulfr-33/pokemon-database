@@ -1,47 +1,146 @@
 {
-  "_id": 54,
-  "key": "mist",
-  "name": {
-    "english": "Mist",
-    "japanese": "しろいきり",
-    "chinese": "白雾",
-    "korean": "흰안개",
-    "german": "Neblina",
-    "french": "Weißnebel",
-    "italian": "Mist",
-    "spanish": "Nebbia"
-  },
-  "type": "Ice",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "gold-silver": "Prevents stat\nreduction.",
-    "crystal": "Prevents stat\nreduction.",
-    "ruby-sapphire": "Creates a mist that stops\nreduction of abilities.",
-    "emerald": "Creates a mist that stops\nreduction of abilities.",
-    "firered-leafgreen": "The ally party is\nprotected by a\nmist that prevents\nstat reductions.",
-    "diamond-pearl": "The user cloaks its\nbody with a white mist\nthat prevents any of\nits stats from being\ncut for five turns.",
-    "platinum": "The user cloaks its\nbody with a white mist\nthat prevents any of\nits stats from being\ncut for five turns.",
-    "heartgold-soulsilver": "The user cloaks its\nbody with a white mist\nthat prevents any of\nits stats from being\ncut for five turns.",
-    "black-white": "The user cloaks its body with a white mist\nthat prevents any of its stats from being\ncut for five turns.",
-    "black-2-white-2": "The user cloaks its body with a white mist\nthat prevents any of its stats from being\ncut for five turns.",
-    "x-y": "The user cloaks itself and its allies in a\nwhite mist that prevents any of their stats\nfrom being lowered for five turns.",
-    "omega-ruby-alpha-sapphire": "The user cloaks itself and its allies in a\nwhite mist that prevents any of their stats\nfrom being lowered for five turns.",
-    "sun-moon": "The user cloaks itself and its allies in a white mist\nthat prevents any of their stats from being lowered\nfor five turns.",
-    "ultra-sun-ultra-moon": "The user cloaks itself and its allies in a white mist\nthat prevents any of their stats from being lowered\nfor five turns.",
-    "lets-go-pikachu-lets-go-eevee": "The user cloaks itself and its allies in a white mist\nthat prevents any of their stats from being lowered\nfor five turns.",
-    "sword-shield": "The user cloaks itself and its allies in a white mist\nthat prevents any of their stats from being lowered\nfor five turns."
-  },
-  "effect": {
-    "full": "Pokémon on the user's side of the field are immune to stat-lowering effects for five turns.\n\nguard swap, heart swap, and power swap may still be used.\n\ndefog used by an opponent will end this effect.",
-    "shortEffect": "Protects the user's stats from being changed by enemy moves."
-  },
-  "priority": 0
+    "_id": 54,
+    "key": "mist",
+    "name": {
+        "japanese-kana": "しろいきり",
+        "korean": "흰안개",
+        "traditional-chinese": "白霧",
+        "french": "Brume",
+        "german": "Weißnebel",
+        "spanish": "Neblina",
+        "italian": "Nebbia",
+        "english": "Mist",
+        "japanese": "しろいきり",
+        "simplified-chinese": "白雾",
+        "latin-american-spanish": "Neblina"
+    },
+    "type": "ice",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Prevents stat reduction.",
+            "cr": "Prevents stat reduction.",
+            "rs": "Creates a mist that stops reduction of abilities.",
+            "em": "Creates a mist that stops reduction of abilities.",
+            "frlg": "The ally party is protected by a mist that prevents stat reductions.",
+            "dp": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",
+            "pt": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",
+            "hgss": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",
+            "bw": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",
+            "b2w2": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",
+            "xy": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+            "oras": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+            "sm": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+            "usum": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+            "lgpe": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+            "swsh": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+            "la": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+            "sv": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns."
+        },
+        "french": {
+            "bw": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour 5 tours.",
+            "xy": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours.",
+            "oras": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours.",
+            "sm": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours.",
+            "usum": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours.",
+            "lgpe": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours.",
+            "swsh": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "しろいきりで　からだを　おおう。 ５ターンの　あいだ　あいてに のうりょくを　さげられなく　なる。",
+            "oras": "しろいきりで　からだを　おおう。 ５ターンの　あいだ　あいてに のうりょくを　さげられなく　なる。",
+            "sm": "しろいきりで　からだを　おおう。 ５ターンの　あいだ　あいてに のうりょくを　さげられなく　なる。",
+            "usum": "しろいきりで　からだを　おおう。 ５ターンの　あいだ　あいてに のうりょくを　さげられなく　なる。",
+            "lgpe": "しろいきりで　からだを　おおう。 ５ターンの　あいだ　あいてに のうりょくを　さげられなく　なる。",
+            "swsh": "しろいきりで　からだを　おおう。 ５ターンの　あいだ　あいてに のうりょくを　さげられなく　なる。"
+        },
+        "korean": {
+            "xy": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다.",
+            "oras": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다.",
+            "sm": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다.",
+            "usum": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다.",
+            "lgpe": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다.",
+            "swsh": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다."
+        },
+        "german": {
+            "xy": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden.",
+            "oras": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden.",
+            "sm": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden.",
+            "usum": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden.",
+            "lgpe": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden.",
+            "swsh": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden."
+        },
+        "spanish": {
+            "xy": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "oras": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "sm": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "usum": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "lgpe": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "swsh": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos."
+        },
+        "italian": {
+            "xy": "Chi la usa attira una nebbia che blocca la riduzione delle statistiche per sé e gli alleati per cinque turni.",
+            "oras": "Chi la usa attira una nebbia che blocca la riduzione delle statistiche per sé e gli alleati per cinque turni.",
+            "sm": "Chi la usa attira una nebbia che blocca la riduzione delle statistiche per sé e gli alleati per cinque turni.",
+            "usum": "Chi la usa attira una nebbia che blocca la riduzione delle statistiche per sé e gli alleati per cinque turni.",
+            "lgpe": "Chi la usa attira una nebbia che blocca la riduzione delle statistiche per sé e gli alleati per cinque turni.",
+            "swsh": "Chi la usa attira una nebbia che blocca la riduzione delle statistiche per sé e gli alleati per cinque turni."
+        },
+        "japanese": {
+            "xy": "白い霧で　体を　おおう。 ５ターンの　あいだ　相手に 能力を　さげられなく　なる。",
+            "oras": "白い霧で　体を　おおう。 ５ターンの　あいだ　相手に 能力を　さげられなく　なる。",
+            "sm": "白い霧で　体を　おおう。 ５ターンの　間　相手に 能力を　さげられなく　なる。",
+            "usum": "白い霧で　体を　おおう。 ５ターンの　間　相手に 能力を　さげられなく　なる。",
+            "lgpe": "白い霧で　体を　おおう。 ５ターンの　間　相手に 能力を　さげられなく　なる。",
+            "swsh": "白い霧で　体を　おおう。 ５ターンの　間　相手に 能力を　さげられなく　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "oras": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "sm": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "usum": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "lgpe": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+            "swsh": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos."
+        },
+        "traditional-chinese": {
+            "sm": "用白霧覆蓋身體。 在５回合內不會讓對手 降低自己的能力。",
+            "usum": "用白霧覆蓋身體。 在５回合內不會讓對手 降低自己的能力。",
+            "lgpe": "用白霧覆蓋身體。 在５回合內不會讓對手 降低自己的能力。",
+            "swsh": "用白霧覆蓋身體。 在５回合內不會讓對手 降低自己的能力。"
+        },
+        "simplified-chinese": {
+            "sm": "用白雾覆盖身体。 在５回合内不会让对手 降低自己的能力。",
+            "usum": "用白雾覆盖身体。 在５回合内不会让对手 降低自己的能力。",
+            "lgpe": "用白雾覆盖身体。 在５回合内不会让对手 降低自己的能力。",
+            "swsh": "用白雾覆盖身体。 在５回合内不会让对手 降低自己的能力。"
+        }
+    },
+    "effect": {
+        "full": "Pokémon on the user’s side of the field are immune to stat-lowering effects for five turns. Guard Swap, Heart Swap, and Power Swap may still be used. Defog used by an opponent will end this effect.",
+        "shortEffect": "Protects the user’s stats from being changed by enemy moves."
+    }
 }

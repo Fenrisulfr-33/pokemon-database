@@ -1,45 +1,144 @@
 {
-  "_id": 340,
-  "key": "bounce",
-  "name": {
-    "english": "Bounce",
-    "japanese": "とびはねる",
-    "chinese": "飞跳",
-    "korean": "뛰어오르다",
-    "german": "Bote",
-    "french": "Sprungfeder",
-    "italian": "Bounce",
-    "spanish": "Rimbalzo"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 5,
-  "power": 85,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Bounces up, then down the\nnext turn. May paralyze.",
-    "emerald": "Bounces up, then down the\nnext turn. May paralyze.",
-    "firered-leafgreen": "The user bounces\non the foe on the\n2nd turn. It may\nparalyze the foe.",
-    "diamond-pearl": "The user bounces up\nhigh, then drops on\nthe foe on the second\nturn. It may also\nparalyze the foe.",
-    "platinum": "The user bounces up\nhigh, then drops on\nthe foe on the second\nturn. It may also\nparalyze the foe.",
-    "heartgold-soulsilver": "The user bounces up\nhigh, then drops on\nthe foe on the second\nturn. It may also\nparalyze the foe.",
-    "black-white": "The user bounces up high, then drops on\nthe target on the second turn. It may\nalso leave the target with paralysis.",
-    "black-2-white-2": "The user bounces up high, then drops on\nthe target on the second turn. It may\nalso leave the target with paralysis.",
-    "x-y": "The user bounces up high, then drops on\nthe target on the second turn. This may\nalso leave the target with paralysis.",
-    "omega-ruby-alpha-sapphire": "The user bounces up high, then drops on\nthe target on the second turn. This may\nalso leave the target with paralysis.",
-    "sun-moon": "The user bounces up high, then drops on the target\non the second turn. This may also leave the target\nwith paralysis.",
-    "ultra-sun-ultra-moon": "The user bounces up high, then drops on the target\non the second turn. This may also leave the target\nwith paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user bounces up high, then drops on the target\non the second turn. This may also leave the target\nwith paralysis.",
-    "sword-shield": "The user bounces up high, then drops on the target\non the second turn. This may also leave the target\nwith paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User bounces high into the air for one turn, becoming immune to attack, and hits on the second turn.  Has a $effect_chance% chance to paralyze the target.\n\nDuring the immune turn, gust, hurricane, sky uppercut, smack down, thunder, and twister still hit the user normally.  gust and twister also have double power against the user.\n\nThe damage from hail and sandstorm still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be used while gravity is in effect.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "User bounces high into the air, dodging all attacks, and hits next turn."
-  },
-  "priority": 0
+    "_id": 340,
+    "key": "bounce",
+    "name": {
+        "japanese-kana": "とびはねる",
+        "korean": "뛰어오르기",
+        "traditional-chinese": "彈跳",
+        "french": "Rebond",
+        "german": "Sprungfeder",
+        "spanish": "Bote",
+        "italian": "Rimbalzo",
+        "english": "Bounce",
+        "japanese": "とびはねる",
+        "simplified-chinese": "弹跳",
+        "latin-american-spanish": "Rebote"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 5,
+    "power": 85,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Bounces up, then down the next turn. May paralyze.",
+            "em": "Bounces up, then down the next turn. May paralyze.",
+            "frlg": "The user bounces on the foe on the 2nd turn. It may paralyze the foe.",
+            "dp": "The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.",
+            "pt": "The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.",
+            "hgss": "The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.",
+            "bw": "The user bounces up high, then drops on the target on the second turn. It may also leave the target with paralysis.",
+            "b2w2": "The user bounces up high, then drops on the target on the second turn. It may also leave the target with paralysis.",
+            "xy": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+            "oras": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+            "sm": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+            "usum": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+            "lgpe": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+            "swsh": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+            "la": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+            "sv": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis."
+        },
+        "french": {
+            "bw": "Le lanceur bondit très haut et plonge sur l’ennemi au 2è tour. Peut aussi paralyser l’ennemi.",
+            "xy": "Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "oras": "Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "sm": "Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "usum": "Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "lgpe": "Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "swsh": "Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "そらたかく　とびはねて ２ターンめに　あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "そらたかく　とびはねて ２ターンめに　あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "そらたかく　とびはねて ２ターンめに　あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "そらたかく　とびはねて ２ターンめに　あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "そらたかく　とびはねて ２ターンめに　あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "そらたかく　とびはねて ２ターンめに　あいてを　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "하늘 높이 뛰어올라 2턴째에 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "하늘 높이 뛰어올라 2턴째에 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "하늘 높이 뛰어올라 2턴째에 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "하늘 높이 뛰어올라 2턴째에 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "하늘 높이 뛰어올라 2턴째에 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "하늘 높이 뛰어올라 2턴째에 상대를 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Angreifer springt und landet in der nächsten Runde auf dem Ziel. Das Ziel wird eventuell paralysiert.",
+            "oras": "Angreifer springt und landet in der nächsten Runde auf dem Ziel. Das Ziel wird eventuell paralysiert.",
+            "sm": "Angreifer springt und landet in der nächsten Runde auf dem Ziel. Das Ziel wird eventuell paralysiert.",
+            "usum": "Angreifer springt und landet in der nächsten Runde auf dem Ziel. Das Ziel wird eventuell paralysiert.",
+            "lgpe": "Angreifer springt und landet in der nächsten Runde auf dem Ziel. Das Ziel wird eventuell paralysiert.",
+            "swsh": "Anwender springt und landet in der nächsten Runde auf dem Ziel. Das Ziel wird eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "oras": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "sm": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "usum": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "lgpe": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "swsh": "El usuario bota en el primer turno y golpea al objetivo en el segundo y puede llegar a paralizarlo."
+        },
+        "italian": {
+            "xy": "Chi la usa balza in alto e ricade sul bersaglio dopo un turno. Può anche paralizzarlo.",
+            "oras": "Chi la usa balza in alto e ricade sul bersaglio dopo un turno. Può anche paralizzarlo.",
+            "sm": "Chi la usa balza in alto e ricade sul bersaglio dopo un turno. Può anche paralizzarlo.",
+            "usum": "Chi la usa balza in alto e ricade sul bersaglio dopo un turno. Può anche paralizzarlo.",
+            "lgpe": "Chi la usa balza in alto e ricade sul bersaglio dopo un turno. Può anche paralizzarlo.",
+            "swsh": "Chi la usa balza in alto e ricade sul bersaglio dopo un turno. Può anche paralizzarlo."
+        },
+        "japanese": {
+            "xy": "空高く　飛び跳ねて ２ターン目に　相手を　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "空高く　飛び跳ねて ２ターン目に　相手を　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "空高く　飛び跳ねて ２ターン目に　相手を　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "空高く　飛び跳ねて ２ターン目に　相手を　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "空高く　飛び跳ねて ２ターン目に　相手を　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "空高く　飛び跳ねて ２ターン目に　相手を　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "oras": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "sm": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "usum": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "lgpe": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+            "swsh": "El usuario bota en el primer turno y golpea al objetivo en el segundo y puede llegar a paralizarlo."
+        },
+        "traditional-chinese": {
+            "sm": "彈跳到高空中， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "usum": "彈跳到高空中， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "彈跳到高空中， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "彈跳到高空中， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "弹跳到高高的空中， 第２回合攻击对手。 有时会让对手陷入麻痹状态。",
+            "usum": "弹跳到高高的空中， 第２回合攻击对手。 有时会让对手陷入麻痹状态。",
+            "lgpe": "弹跳到高高的空中， 第２回合攻击对手。 有时会让对手陷入麻痹状态。",
+            "swsh": "弹跳到高高的空中， 第２回合攻击对手。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User bounces high into the air for one turn, becoming immune to attack, and hits on the second turn.  Has a chance to paralyze the target. During the immune turn, Gust, Hurricane, Sky Uppercut, Smack Down, Thunder, and Twister still hit the user normally.  Gust and Twister also have double power against the user. The damage from Hail and Sandstorm still applies during the immune turn. The user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard. This move cannot be used while Gravity is in effect. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "User bounces high into the air, dodging all attacks, and hits next turn."
+    }
 }

@@ -1,45 +1,142 @@
 {
-  "_id": 277,
-  "key": "magic-coat",
-  "name": {
-    "english": "Magic Coat",
-    "japanese": "マジックコート",
-    "chinese": "魔术外衣",
-    "korean": "매직코트",
-    "german": "Capa Mágica",
-    "french": "Magiemantel",
-    "italian": "Magic Coat",
-    "spanish": "Magivelo"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Reflects special effects\nback to the attacker.",
-    "emerald": "Reflects special effects\nback to the attacker.",
-    "firered-leafgreen": "Reflects back the\nfoe’s LEECH SEED\nand any status-\ndamaging move.",
-    "diamond-pearl": "A barrier reflects\nback to the foe\nmoves like Leech\nSeed and moves\nthat damage status.",
-    "platinum": "A barrier reflects\nback to the foe\nmoves like Leech\nSeed and moves\nthat damage status.",
-    "heartgold-soulsilver": "A barrier reflects\nback to the foe\nmoves like Leech\nSeed and moves\nthat damage status.",
-    "black-white": "A barrier reflects back to the target\nmoves like Leech Seed and moves\nthat damage status.",
-    "black-2-white-2": "A barrier reflects back to the target\nmoves like Leech Seed and moves\nthat damage status.",
-    "x-y": "A barrier reflects back to the target\nmoves like Leech Seed and moves\nthat damage status.",
-    "omega-ruby-alpha-sapphire": "A barrier reflects back to the target\nmoves like Leech Seed and moves\nthat damage status.",
-    "sun-moon": "A barrier reflects back to the target moves like\nLeech Seed and moves that damage status.",
-    "ultra-sun-ultra-moon": "A barrier reflects back to the target moves like\nLeech Seed and moves that damage status.",
-    "lets-go-pikachu-lets-go-eevee": "A barrier reflects back to the target moves like\nLeech Seed and moves that damage status.",
-    "sword-shield": "Moves like Leech Seed and moves that inflict status\nconditions are blocked by a barrier and reflected back\nto the user of those moves."
-  },
-  "effect": {
-    "full": "The first non-damaging move targeting the user this turn that inflicts major status effects, stat changes, or trapping effects will be reflected at its user.\n\ndefog, memento, and teeter dance are not reflected.\n\nattract, flatter, gastro acid, leech seed, swagger, worry seed, and yawn are reflected.\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "Reflects back the first effect move used on the user this turn."
-  },
-  "priority": 4
+    "_id": 277,
+    "key": "magic-coat",
+    "name": {
+        "japanese-kana": "マジックコート",
+        "korean": "매직코트",
+        "traditional-chinese": "魔法反射",
+        "french": "Reflet Magik",
+        "german": "Magiemantel",
+        "spanish": "Capa Mágica",
+        "italian": "Magivelo",
+        "english": "Magic Coat",
+        "japanese": "マジックコート",
+        "simplified-chinese": "魔法反射",
+        "latin-american-spanish": "Capa Mágica"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Reflects special effects back to the attacker.",
+            "em": "Reflects special effects back to the attacker.",
+            "frlg": "Reflects back the foe’s LEECH SEED and any status- damaging move.",
+            "dp": "A barrier reflects back to the foe moves like Leech Seed and moves that damage status.",
+            "pt": "A barrier reflects back to the foe moves like Leech Seed and moves that damage status.",
+            "hgss": "A barrier reflects back to the foe moves like Leech Seed and moves that damage status.",
+            "bw": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+            "b2w2": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+            "xy": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+            "oras": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+            "sm": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+            "usum": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+            "lgpe": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+            "swsh": "Moves like Leech Seed and moves that inflict status conditions are blocked by a barrier and reflected back to the user of those moves."
+        },
+        "french": {
+            "bw": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.",
+            "xy": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.",
+            "oras": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.",
+            "sm": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.",
+            "usum": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.",
+            "lgpe": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.",
+            "swsh": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats."
+        },
+        "japanese-kana": {
+            "xy": "じょうたい　いじょうに　なる　ワザや やどりぎのタネ　などを だされたとき　あいてに　はねかえす。",
+            "oras": "じょうたい　いじょうに　なる　ワザや やどりぎのタネ　などを だされたとき　あいてに　はねかえす。",
+            "sm": "じょうたい　いじょうに　なる　ワザや やどりぎのタネ　などを だされたとき　あいてに　はねかえす。",
+            "usum": "じょうたい　いじょうに　なる　ワザや やどりぎのタネ　などを だされたとき　あいてに　はねかえす。",
+            "lgpe": "じょうたい　いじょうに　なる　ワザや やどりぎのタネ　などを だされたとき　あいてに　はねかえす。",
+            "swsh": "じょうたい　いじょうに　なる　ワザや やどりぎのタネ　などを だされたとき　あいてに　はねかえす。"
+        },
+        "korean": {
+            "xy": "상대가 상태 이상이 되는 기술이나 씨뿌리기 등을 썼을 때 되받아친다.",
+            "oras": "상대가 상태 이상이 되는 기술이나 씨뿌리기 등을 썼을 때 되받아친다.",
+            "sm": "상대가 상태 이상이 되는 기술이나 씨뿌리기 등을 썼을 때 되받아친다.",
+            "usum": "상대가 상태 이상이 되는 기술이나 씨뿌리기 등을 썼을 때 되받아친다.",
+            "lgpe": "상대가 상태 이상이 되는 기술이나 씨뿌리기 등을 썼을 때 되받아친다.",
+            "swsh": "상대가 상태 이상이 되는 기술이나 씨뿌리기 등을 썼을 때 되받아친다."
+        },
+        "german": {
+            "xy": "Egelsamen und alle Attacken mit Status verändernden Effekten prallen ab.",
+            "oras": "Attacken wie Egelsamen und alle Attacken mit Status verändernden Effekten prallen ab.",
+            "sm": "Alle Status-Attacken wie Egelsamen werden reflektiert.",
+            "usum": "Alle Status-Attacken wie Egelsamen werden reflektiert.",
+            "lgpe": "Alle Status-Attacken wie Egelsamen werden reflektiert.",
+            "swsh": "Alle Status-Attacken wie Egelsamen werden reflektiert."
+        },
+        "spanish": {
+            "xy": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "oras": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "sm": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "usum": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "lgpe": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "swsh": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características."
+        },
+        "italian": {
+            "xy": "Una barriera rimanda al mittente l’effetto di mosse come Parassiseme e di mosse che influenzano lo stato.",
+            "oras": "Una barriera rimanda al mittente l’effetto di mosse come Parassiseme e di mosse che influenzano lo stato.",
+            "sm": "Una barriera rimanda al mittente l’effetto di mosse come Parassiseme e di mosse che influenzano lo stato.",
+            "usum": "Una barriera rimanda al mittente l’effetto di mosse come Parassiseme e di mosse che influenzano lo stato.",
+            "lgpe": "Una barriera rimanda al mittente l’effetto di mosse come Parassiseme e di mosse che influenzano lo stato.",
+            "swsh": "Una barriera rimanda al mittente l’effetto di mosse come Parassiseme e di mosse che influenzano lo stato."
+        },
+        "japanese": {
+            "xy": "状態異常に　なる　技や やどりぎのタネ　などを だされたとき　相手に　跳ね返す。",
+            "oras": "状態異常に　なる　技や やどりぎのタネ　などを だされたとき　相手に　跳ね返す。",
+            "sm": "状態異常に　なる　技や やどりぎのタネ　などを だされたとき　相手に　跳ね返す。",
+            "usum": "状態異常に　なる　技や やどりぎのタネ　などを だされたとき　相手に　跳ね返す。",
+            "lgpe": "状態異常に　なる　技や やどりぎのタネ　などを だされたとき　相手に　跳ね返す。",
+            "swsh": "状態異常に　なる　技や やどりぎのタネ　などを だされたとき　相手に　跳ね返す。"
+        },
+        "latin-american-spanish": {
+            "xy": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "oras": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "sm": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "usum": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "lgpe": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+            "swsh": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características."
+        },
+        "traditional-chinese": {
+            "sm": "若對手使用寄生種子或 其他會讓寶可夢陷入異常狀態的招式時， 可將對手的招式反彈回去。",
+            "usum": "若對手使用寄生種子或 其他會讓寶可夢陷入異常狀態的招式時， 可將對手的招式反彈回去。",
+            "lgpe": "若對手使用寄生種子或 其他會讓寶可夢陷入異常狀態的招式時， 可將對手的招式反彈回去。",
+            "swsh": "若對手使用寄生種子或 其他會讓寶可夢陷入異常狀態的招式時， 可將對手的招式反彈回去。"
+        },
+        "simplified-chinese": {
+            "sm": "当对手使出会变成异常状态的 招式或寄生种子等时， 会将对手的招式反射回去。",
+            "usum": "当对手使出会变成异常状态的 招式或寄生种子等时， 会将对手的招式反射回去。",
+            "lgpe": "当对手使出会变成异常状态的 招式或寄生种子等时， 会将对手的招式反射回去。",
+            "swsh": "当对手使出会变成异常状态的 招式或寄生种子等时， 会将对手的招式反射回去。"
+        }
+    },
+    "effect": {
+        "full": "The first non-damaging move targeting the user this turn that inflicts major status effects, stat changes, or trapping effects will be reflected at its user. Defog, Memento, and Teeter Dance are not reflected. Attract, Flatter, Gastro Acid, Leech Seed, Swagger, Worry Seed, and Yawn are reflected. This move cannot be copied by Mirror Move.",
+        "shortEffect": "Reflects back the first effect move used on the user this turn."
+    }
 }

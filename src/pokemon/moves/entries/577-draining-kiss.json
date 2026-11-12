@@ -1,37 +1,135 @@
 {
-  "_id": 577,
-  "key": "draining-kiss",
-  "name": {
-    "english": "Draining Kiss",
-    "japanese": "ドレインキッス",
-    "chinese": "吸收之吻",
-    "korean": "드레인키스",
-    "german": "Beso Drenaje",
-    "french": "Diebeskuss",
-    "italian": "Draining Kiss",
-    "spanish": "Assorbibacio"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user steals the target’s energy with a kiss.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
-    "omega-ruby-alpha-sapphire": "The user steals the target’s energy with a kiss.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
-    "sun-moon": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
-    "ultra-sun-ultra-moon": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
-    "sword-shield": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target."
-  },
-  "effect": {
-    "full": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
-    "shortEffect": "Drains 75% of the damage inflicted to heal the user."
-  },
-  "priority": 0
+    "_id": 577,
+    "key": "draining-kiss",
+    "name": {
+        "japanese-kana": "ドレインキッス",
+        "korean": "드레인키스",
+        "traditional-chinese": "吸取之吻",
+        "french": "Vampibaiser",
+        "german": "Diebeskuss",
+        "spanish": "Beso Drenaje",
+        "italian": "Assorbibacio",
+        "english": "Draining Kiss",
+        "japanese": "ドレインキッス",
+        "simplified-chinese": "吸取之吻",
+        "latin-american-spanish": "Beso Drenador"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 75,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "キッスによって　あいてから　ＨＰを すいとる。あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "oras": "キッスによって　あいてから　ＨＰを すいとる。あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "sm": "キッスによって　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "usum": "キッスによって　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "lgpe": "キッスによって　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "swsh": "キッスによって　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。"
+        },
+        "korean": {
+            "xy": "키스로 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "oras": "키스로 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "sm": "키스로 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "usum": "키스로 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "lgpe": "키스로 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "swsh": "키스로 상대의 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다."
+        },
+        "french": {
+            "xy": "Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "oras": "Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "sm": "Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "usum": "Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "lgpe": "Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "swsh": "Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés."
+        },
+        "german": {
+            "xy": "Der Anwender stiehlt dem Ziel mit einem Kuss KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "oras": "Der Anwender stiehlt dem Ziel mit einem Kuss KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "sm": "Der Anwender stiehlt dem Ziel mit einem Kuss KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "usum": "Der Anwender stiehlt dem Ziel mit einem Kuss KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "lgpe": "Der Anwender stiehlt dem Ziel mit einem Kuss KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "swsh": "Der Anwender stiehlt dem Ziel mit einem Kuss KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens."
+        },
+        "spanish": {
+            "xy": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "oras": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "sm": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "usum": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "lgpe": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "swsh": "El usuario absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido."
+        },
+        "italian": {
+            "xy": "Chi la usa assorbe energia dal bersaglio con un bacio, recuperando così PS in quantità pari a più della metà del danno inferto.",
+            "oras": "Chi la usa assorbe energia dal bersaglio con un bacio, recuperando così PS in quantità pari a più della metà del danno inferto.",
+            "sm": "Chi la usa assorbe energia dal bersaglio con un bacio, recuperando così PS in quantità pari a più della metà del danno inferto.",
+            "usum": "Chi la usa assorbe energia dal bersaglio con un bacio, recuperando così PS in quantità pari a più della metà del danno inferto.",
+            "lgpe": "Chi la usa assorbe energia dal bersaglio con un bacio, recuperando così PS in quantità pari a più della metà del danno inferto.",
+            "swsh": "Chi la usa assorbe energia dal bersaglio con un bacio, recuperando così PS in quantità pari a più della metà del danno inferto."
+        },
+        "english": {
+            "xy": "The user steals the target’s energy with a kiss. The user’s HP is restored by over half of the damage taken by the target.",
+            "oras": "The user steals the target’s energy with a kiss. The user’s HP is restored by over half of the damage taken by the target.",
+            "sm": "The user steals the target’s HP with a kiss. The user’s HP is restored by over half of the damage taken by the target.",
+            "usum": "The user steals the target’s HP with a kiss. The user’s HP is restored by over half of the damage taken by the target.",
+            "lgpe": "The user steals the target’s HP with a kiss. The user’s HP is restored by over half of the damage taken by the target.",
+            "swsh": "The user steals the target’s HP with a kiss. The user’s HP is restored by over half of the damage taken by the target.",
+            "la": "The user attacks with an energy-draining kiss that restores the user’s HP.",
+            "sv": "The user steals the target's HP with a kiss. The user's HP is restored by over half the damage taken by the target."
+        },
+        "japanese": {
+            "xy": "キッスによって　相手から　ＨＰを 吸い取る。与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "oras": "キッスによって　相手から　ＨＰを 吸い取る。与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "sm": "キッスによって　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "usum": "キッスによって　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "lgpe": "キッスによって　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "swsh": "キッスによって　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "oras": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "sm": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "usum": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "lgpe": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+            "swsh": "El usuario absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido."
+        },
+        "traditional-chinese": {
+            "sm": "親吻對手來吸取對手的ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。",
+            "usum": "親吻對手來吸取對手的ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。",
+            "lgpe": "親吻對手來吸取對手的HP。 可以回復給予對手 傷害的一半以上的HP。",
+            "swsh": "親吻對手來吸取對手的ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "用一个吻吸取对手的ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。",
+            "usum": "用一个吻吸取对手的ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。",
+            "lgpe": "用一个吻吸取对手的HP。 回复给予对手 伤害的一半以上的HP。",
+            "swsh": "用一个吻吸取对手的ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
+        "shortEffect": "Drains 75% of the damage inflicted to heal the user."
+    }
 }

@@ -1,42 +1,143 @@
 {
-  "_id": 386,
-  "key": "punishment",
-  "name": {
-    "english": "Punishment",
-    "japanese": "おしおき",
-    "chinese": "惩罚",
-    "korean": "혼내기",
-    "german": "Castigo",
-    "french": "Strafattacke",
-    "italian": "Punishment",
-    "spanish": "Punizione"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 5,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "This attack’s power\nincreases the more\nthe foe has powered\nup with stat changes.\n",
-    "platinum": "This attack’s power\nincreases the more\nthe foe has powered\nup with stat changes.\n",
-    "heartgold-soulsilver": "This attack’s power\nincreases the more\nthe foe has powered\nup with stat changes.\n",
-    "black-white": "This attack’s power increases\nthe more the target has powered\nup with stat changes.",
-    "black-2-white-2": "This attack’s power increases\nthe more the target has powered\nup with stat changes.",
-    "x-y": "The more the target has powered\nup with stat changes, the greater\nthe move’s power.",
-    "omega-ruby-alpha-sapphire": "The more the target has powered\nup with stat changes, the greater\nthe move’s power.",
-    "sun-moon": "The more the target has powered up with stat\nchanges, the greater the move’s power.",
-    "ultra-sun-ultra-moon": "The more the target has powered up with stat\nchanges, the greater the move’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The more the target has powered up with stat\nchanges, the greater the move’s power.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power starts at 60 and is increased by 20 for every stage any of the target's stats has been raised, capping at 200.  Accuracy and evasion modifiers do not increase this move's power.",
-    "shortEffect": "Power increases against targets with more raised stats, up to a maximum of 200."
-  },
-  "priority": 0
+    "_id": 386,
+    "key": "punishment",
+    "name": {
+        "japanese-kana": "おしおき",
+        "korean": "혼내기",
+        "traditional-chinese": "懲罰",
+        "french": "Punition",
+        "german": "Strafattacke",
+        "spanish": "Castigo",
+        "italian": "Punizione",
+        "english": "Punishment",
+        "japanese": "おしおき",
+        "simplified-chinese": "惩罚",
+        "latin-american-spanish": "Castigo"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 5,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 60
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "This attack’s power increases the more the foe has powered up with stat changes.",
+            "pt": "This attack’s power increases the more the foe has powered up with stat changes.",
+            "hgss": "This attack’s power increases the more the foe has powered up with stat changes.",
+            "bw": "This attack’s power increases the more the target has powered up with stat changes.",
+            "b2w2": "This attack’s power increases the more the target has powered up with stat changes.",
+            "xy": "The more the target has powered up with stat changes, the greater the move’s power.",
+            "oras": "The more the target has powered up with stat changes, the greater the move’s power.",
+            "sm": "The more the target has powered up with stat changes, the greater the move’s power.",
+            "usum": "The more the target has powered up with stat changes, the greater the move’s power.",
+            "lgpe": "The more the target has powered up with stat changes, the greater the move’s power.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Plus l’ennemi a utilisé des augmentations de stats et plus cette capacité est puissante.",
+            "xy": "Plus l’ennemi a utilisé d’augmentations de stats et plus cette capacité est puissante.",
+            "oras": "Plus l’ennemi a utilisé d’augmentations de stats et plus cette capacité est puissante.",
+            "sm": "Plus l’ennemi a utilisé d’augmentations de stats et plus cette capacité est puissante.",
+            "usum": "Plus l’ennemi a utilisé d’augmentations de stats et plus cette capacité est puissante.",
+            "lgpe": "Plus l’ennemi a utilisé d’augmentations de stats et plus cette capacité est puissante.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "のうりょく　へんかで あいてが　パワーアップ　しているほど わざの　いりょくが　あがる。",
+            "oras": "のうりょく　へんかで あいてが　パワーアップ　しているほど わざの　いりょくが　あがる。",
+            "sm": "のうりょく　へんかで あいてが　パワーアップ　しているほど わざの　いりょくが　あがる。",
+            "usum": "のうりょく　へんかで あいてが　パワーアップ　しているほど わざの　いりょくが　あがる。",
+            "lgpe": "のうりょく　へんかで あいてが　パワーアップ　しているほど わざの　いりょくが　あがる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "능력 변화로 상대가 파워업한 만큼 기술의 위력이 올라간다.",
+            "oras": "능력 변화로 상대가 파워업한 만큼 기술의 위력이 올라간다.",
+            "sm": "능력 변화로 상대가 파워업한 만큼 기술의 위력이 올라간다.",
+            "usum": "능력 변화로 상대가 파워업한 만큼 기술의 위력이 올라간다.",
+            "lgpe": "능력 변화로 상대가 파워업한 만큼 기술의 위력이 올라간다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Je stärker das Ziel durch Statusveränderungen ist, desto stärker wirkt diese Attacke.",
+            "oras": "Je stärker das Ziel durch Statusveränderungen ist, desto stärker wirkt diese Attacke.",
+            "sm": "Je stärker das Ziel durch Statusveränderungen ist, desto stärker wirkt diese Attacke.",
+            "usum": "Je stärker das Ziel durch Statusveränderungen ist, desto stärker wirkt diese Attacke.",
+            "lgpe": "Je stärker das Ziel durch Statusveränderungen ist, desto stärker wirkt diese Attacke.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "oras": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "sm": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "usum": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "lgpe": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Questa mossa diventa più potente ogni volta che il bersaglio aumenta le proprie statistiche.",
+            "oras": "Questa mossa diventa più potente ogni volta che il bersaglio aumenta le proprie statistiche.",
+            "sm": "Questa mossa diventa più potente ogni volta che il bersaglio aumenta le proprie statistiche.",
+            "usum": "Questa mossa diventa più potente ogni volta che il bersaglio aumenta le proprie statistiche.",
+            "lgpe": "Questa mossa diventa più potente ogni volta che il bersaglio aumenta le proprie statistiche.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "能力変化で 相手が　パワーアップ　しているほど 技の　威力が　あがる。",
+            "oras": "能力変化で 相手が　パワーアップ　しているほど 技の　威力が　あがる。",
+            "sm": "能力変化で 相手が　パワーアップ　しているほど 技の　威力が　あがる。",
+            "usum": "能力変化で 相手が　パワーアップ　しているほど 技の　威力が　あがる。",
+            "lgpe": "能力変化で 相手が　パワーアップ　しているほど 技の　威力が　あがる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "oras": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "sm": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "usum": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "lgpe": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "對手的能力因為 能力變化而提高得越多， 招式的威力就越大。",
+            "usum": "對手的能力因為 能力變化而提高得越多， 招式的威力就越大。",
+            "lgpe": "對手的能力因為 能力變化而提高得越多， 招式的威力就越大。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "根据能力变化， 对手提高的力量越大， 招式的威力越大。",
+            "usum": "根据能力变化， 对手提高的力量越大， 招式的威力越大。",
+            "lgpe": "根据能力变化， 对手提高的力量越大， 招式的威力越大。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power starts at 60 and is increased by 20 for every stage any of the target’s stats has been raised, capping at 200.  Accuracy and evasion modifiers do not increase this move’s power.",
+        "shortEffect": "Power increases against targets with more raised stats, up to a maximum of 200."
+    }
 }

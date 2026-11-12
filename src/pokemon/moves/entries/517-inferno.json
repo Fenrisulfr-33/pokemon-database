@@ -1,39 +1,138 @@
 {
-  "_id": 517,
-  "key": "inferno",
-  "name": {
-    "english": "Inferno",
-    "japanese": "れんごく",
-    "chinese": "炼狱",
-    "korean": "연옥",
-    "german": "Infierno",
-    "french": "Inferno",
-    "italian": "Inferno",
-    "spanish": "Marchiatura"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 100,
-  "accuracy": 50,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks by engulfing the target\nin an intense fire. It leaves the target\nwith a burn.",
-    "black-2-white-2": "The user attacks by engulfing the target\nin an intense fire. It leaves the target\nwith a burn.",
-    "x-y": "The user attacks by engulfing the target\nin an intense fire. This leaves the target\nwith a burn.",
-    "omega-ruby-alpha-sapphire": "The user attacks by engulfing the target\nin an intense fire. This leaves the target\nwith a burn.",
-    "sun-moon": "The user attacks by engulfing the target in an\nintense fire. This leaves the target with a burn.",
-    "ultra-sun-ultra-moon": "The user attacks by engulfing the target in an\nintense fire. This leaves the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by engulfing the target in an\nintense fire. This leaves the target with a burn.",
-    "sword-shield": "The user attacks by engulfing the target in an\nintense fire. This leaves the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 517,
+    "key": "inferno",
+    "name": {
+        "japanese-kana": "れんごく",
+        "korean": "연옥",
+        "traditional-chinese": "煉獄",
+        "french": "Feu d’Enfer",
+        "german": "Inferno",
+        "spanish": "Infierno",
+        "italian": "Marchiatura",
+        "english": "Inferno",
+        "japanese": "れんごく",
+        "simplified-chinese": "炼狱",
+        "latin-american-spanish": "Infierno"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 100,
+    "accuracy": 50,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.",
+            "xy": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.",
+            "oras": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.",
+            "sm": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.",
+            "usum": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.",
+            "lgpe": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.",
+            "swsh": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent."
+        },
+        "english": {
+            "bw": "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
+            "b2w2": "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
+            "xy": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+            "oras": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+            "sm": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+            "usum": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+            "lgpe": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+            "swsh": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+            "la": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+            "sv": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn."
+        },
+        "japanese-kana": {
+            "xy": "はげしい　ほのおで あいてを　つつみこみ　こうげきする。 やけど　じょうたいに　する。",
+            "oras": "はげしい　ほのおで あいてを　つつ こ 　こうげきする。 やけど　じょうたいに　する。",
+            "sm": "はげしい　ほのおで あいてを　つつみこみ　こうげきする。 やけど　じょうたいに　する。",
+            "usum": "はげしい　ほのおで あいてを　つつみこみ　こうげきする。 やけど　じょうたいに　する。",
+            "lgpe": "はげしい　ほのおで あいてを　つつみこみ　こうげきする。 やけど　じょうたいに　する。",
+            "swsh": "はげしい　ほのおで あいてを　つつみこみ　こうげきする。 やけど　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.",
+            "oras": "격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.",
+            "sm": "격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.",
+            "usum": "격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.",
+            "lgpe": "격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.",
+            "swsh": "격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다."
+        },
+        "german": {
+            "xy": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen.",
+            "oras": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen.",
+            "sm": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen.",
+            "usum": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen.",
+            "lgpe": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen.",
+            "swsh": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen."
+        },
+        "spanish": {
+            "xy": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "oras": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "sm": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "usum": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "lgpe": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "swsh": "Ataca con una gran ráfaga de fuego que causa quemaduras."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene avvolto da intense fiammate che causano scottature.",
+            "oras": "Il bersaglio viene avvolto da intense fiammate che causano scottature.",
+            "sm": "Il bersaglio viene avvolto da intense fiammate che causano scottature.",
+            "usum": "Il bersaglio viene avvolto da intense fiammate che causano scottature.",
+            "lgpe": "Il bersaglio viene avvolto da intense fiammate che causano scottature.",
+            "swsh": "Il bersaglio viene avvolto da intense fiammate che causano scottature."
+        },
+        "japanese": {
+            "xy": "激しい　炎で 相手を　包みこみ　攻撃する。 やけど状態に　する。",
+            "oras": "激しい　炎で 相手を　包 こ 　攻撃する。 やけど状態に　する。",
+            "sm": "激しい　炎で 相手を　包みこみ　攻撃する。 やけど状態に　する。",
+            "usum": "激しい　炎で 相手を　包みこみ　攻撃する。 やけど状態に　する。",
+            "lgpe": "激しい　炎で 相手を　包みこみ　攻撃する。 やけど状態に　する。",
+            "swsh": "激しい　炎で 相手を　包みこみ　攻撃する。 やけど状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "oras": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "sm": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "usum": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "lgpe": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+            "swsh": "Ataca con una gran ráfaga de fuego que causa quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "用猛烈的火焰 包圍對手進行攻擊。 能讓對手陷入灼傷狀態。",
+            "usum": "用猛烈的火焰 包圍對手進行攻擊。 能讓對手陷入灼傷狀態。",
+            "lgpe": "用猛烈的火焰 包圍對手進行攻擊。 能讓對手陷入灼傷狀態。",
+            "swsh": "用猛烈的火焰 包圍對手進行攻擊。 能讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用烈焰包裹住对手进行攻击。 让对手陷入灼伤状态。",
+            "usum": "用烈焰包裹住对手进行攻击。 让对手陷入灼伤状态。",
+            "lgpe": "用烈焰包裹住对手进行攻击。 让对手陷入灼伤状态。",
+            "swsh": "用烈焰包裹住对手进行攻击。 让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

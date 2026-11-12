@@ -1,39 +1,136 @@
 {
-  "_id": 477,
-  "key": "telekinesis",
-  "name": {
-    "english": "Telekinesis",
-    "japanese": "テレキネシス",
-    "chinese": "心灵传动术",
-    "korean": "텔레키네시스",
-    "german": "Telequinesis",
-    "french": "Telekinese",
-    "italian": "Telekinesis",
-    "spanish": "Telecinesi"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user makes the target float with its\npsychic power. The target is easier to\nhit for three turns.",
-    "black-2-white-2": "The user makes the target float with its\npsychic power. The target is easier to\nhit for three turns.",
-    "x-y": "The user makes the target float with its\npsychic power. The target is easier to\nhit for three turns.",
-    "omega-ruby-alpha-sapphire": "The user makes the target float with its\npsychic power. The target is easier to\nhit for three turns.",
-    "sun-moon": "The user makes the target float with its psychic\npower. The target is easier to hit for three turns.",
-    "ultra-sun-ultra-moon": "The user makes the target float with its psychic\npower. The target is easier to hit for three turns.",
-    "lets-go-pikachu-lets-go-eevee": "The user makes the target float with its psychic\npower. The target is easier to hit for three turns.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "For three turns (including this one), moves used against the target have 100% accuracy, but the target is immune to ground damage.  Accuracy of one-hit KO moves is exempt from this effect.\n\nThis effect is removed by gravity.  If Gravity is already in effect, this move will fail.",
-    "shortEffect": "Moves have 100% accuracy against the target for three turns."
-  },
-  "priority": 0
+    "_id": 477,
+    "key": "telekinesis",
+    "name": {
+        "japanese-kana": "テレキネシス",
+        "korean": "텔레키네시스",
+        "traditional-chinese": "意念移物",
+        "french": "Lévikinésie",
+        "german": "Telekinese",
+        "spanish": "Telequinesis",
+        "italian": "Telecinesi",
+        "english": "Telekinesis",
+        "japanese": "テレキネシス",
+        "simplified-chinese": "意念移物",
+        "latin-american-spanish": "Telequinesis"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "unknown",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 3,
+        "maxTurns": 3,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un pouvoir qui fait flotter l’ennemi dans les airs. Pendant 3 tours, il devient plus facile à atteindre.",
+            "xy": "Un pouvoir qui fait flotter l’ennemi dans les airs. Pendant trois tours, il devient plus facile à atteindre.",
+            "oras": "Un pouvoir qui fait flotter l’ennemi dans les airs. Pendant trois tours, il devient plus facile à atteindre.",
+            "sm": "Un pouvoir qui fait flotter l’ennemi dans les airs. Pendant trois tours, il devient plus facile à atteindre.",
+            "usum": "Un pouvoir qui fait flotter l’ennemi dans les airs. Pendant trois tours, il devient plus facile à atteindre.",
+            "lgpe": "Un pouvoir qui fait flotter l’ennemi dans les airs. Pendant trois tours, il devient plus facile à atteindre.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "english": {
+            "bw": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+            "b2w2": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+            "xy": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+            "oras": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+            "sm": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+            "usum": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+            "lgpe": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese-kana": {
+            "xy": "ちょうのうりょくで　あいてを　うかせる。 ３ターンの　あいだ　こうげきが あいてに　あたりやすく　なる。",
+            "oras": "ちょうのうりょくで　あいてを　うかせる。 ３ターンの　あいだ　こうげきが あいてに　あたりやすく　なる。",
+            "sm": "ちょうのうりょくで　あいてを　うかせる。 ３ターンの　あいだ　こうげきが あいてに　あたりやすく　なる。",
+            "usum": "ちょうのうりょくで　あいてを　うかせる。 ３ターンの　あいだ　こうげきが あいてに　あたりやすく　なる。",
+            "lgpe": "ちょうのうりょくで　あいてを　うかせる。 ３ターンの　あいだ　こうげきが あいてに　あたりやすく　なる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "초능력으로 상대를 띄운다. 3턴 동안 공격이 상대에게 맞기 쉬워진다.",
+            "oras": "초능력으로 상대를 띄운다. 3턴 동안 공격이 상대에게 맞기 쉬워진다.",
+            "sm": "초능력으로 상대를 띄운다. 3턴 동안 공격이 상대에게 맞기 쉬워진다.",
+            "usum": "초능력으로 상대를 띄운다. 3턴 동안 공격이 상대에게 맞기 쉬워진다.",
+            "lgpe": "초능력으로 상대를 띄운다. 3턴 동안 공격이 상대에게 맞기 쉬워진다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Bringt das Ziel durch Psycho-Kräfte zum Schweben. Dieses lässt sich so über drei Runden hinweg besonders leicht treffen.",
+            "oras": "Bringt das Ziel durch Psycho-Kräfte zum Schweben. Dieses lässt sich so über drei Runden hinweg besonders leicht treffen.",
+            "sm": "Bringt das Ziel durch Psycho-Kräfte zum Schweben. Dieses lässt sich so über drei Runden hinweg besonders leicht treffen.",
+            "usum": "Bringt das Ziel durch Psycho-Kräfte zum Schweben. Dieses lässt sich so über drei Runden hinweg besonders leicht treffen.",
+            "lgpe": "Bringt das Ziel durch Psycho-Kräfte zum Schweben. Dieses lässt sich so über drei Runden hinweg besonders leicht treffen.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "oras": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "sm": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "usum": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "lgpe": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa fa fluttuare in aria il bersaglio, rendendolo facile da colpire per tre turni.",
+            "oras": "Chi la usa fa fluttuare in aria il bersaglio, rendendolo facile da colpire per tre turni.",
+            "sm": "Chi la usa fa fluttuare in aria il bersaglio, rendendolo facile da colpire per tre turni.",
+            "usum": "Chi la usa fa fluttuare in aria il bersaglio, rendendolo facile da colpire per tre turni.",
+            "lgpe": "Chi la usa fa fluttuare in aria il bersaglio, rendendolo facile da colpire per tre turni.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "超能力で　相手を　浮かせる。 ３ターンの　あいだ　攻撃が 相手に　当たりやすく　なる。",
+            "oras": "超能力で　相手を　浮かせる。 ３ターンの　あいだ　攻撃が 相手に　当たりやすく　なる。",
+            "sm": "超能力で　相手を　浮かせる。 ３ターンの　間　攻撃が 相手に　当たりやすく　なる。",
+            "usum": "超能力で　相手を　浮かせる。 ３ターンの　間　攻撃が 相手に　当たりやすく　なる。",
+            "lgpe": "超能力で　相手を　浮かせる。 ３ターンの　間　攻撃が 相手に　当たりやすく　なる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "oras": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "sm": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "usum": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "lgpe": "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用超能力使對手浮起來。 在３回合內 攻擊會變得容易命中對手。",
+            "usum": "用超能力使對手浮起來。 在３回合內 攻擊會變得容易命中對手。",
+            "lgpe": "用超能力使對手浮起來。 在３回合內 攻擊會變得容易命中對手。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "利用超能力使对手浮起来。 在３回合内 攻击会变得容易打中对手。",
+            "usum": "利用超能力使对手浮起来。 在３回合内 攻击会变得容易打中对手。",
+            "lgpe": "利用超能力使对手浮起来。 在３回合内 攻击会变得容易打中对手。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "For three turns (including this one), moves used against the target have 100% accuracy, but the target is immune to Ground damage.  Accuracy of one-hit KO moves is exempt from this effect. This effect is removed by Gravity.  If Gravity is already in effect, this move will fail.",
+        "shortEffect": "Moves have 100% accuracy against the target for three turns."
+    }
 }

@@ -1,47 +1,146 @@
 {
-  "_id": 84,
-  "key": "thunder-shock",
-  "name": {
-    "english": "Thunder Shock",
-    "japanese": "でんきショック",
-    "chinese": "电击",
-    "korean": "전기쇼크",
-    "german": "Impactrueno",
-    "french": "Donnerschock",
-    "italian": "Thunder Shock",
-    "spanish": "Tuonoshock"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause paralysis.",
-    "crystal": "An attack that may\ncause paralysis.",
-    "ruby-sapphire": "An electrical attack that\nmay paralyze the foe.",
-    "emerald": "An electrical attack that\nmay paralyze the foe.",
-    "firered-leafgreen": "An electric shock\nattack that may\nalso leave the foe\nparalyzed.",
-    "diamond-pearl": "A jolt of electricity\nis hurled at the foe\nto inflict damage.\nIt may also leave the\nfoe paralyzed.",
-    "platinum": "A jolt of electricity\nis hurled at the foe\nto inflict damage.\nIt may also leave the\nfoe paralyzed.",
-    "heartgold-soulsilver": "A jolt of electricity\nis hurled at the foe\nto inflict damage.\nIt may also leave the\nfoe paralyzed.",
-    "black-white": "A jolt of electricity is hurled\nat the target to inflict damage. It may\nalso leave the target with paralysis.",
-    "black-2-white-2": "A jolt of electricity is hurled\nat the target to inflict damage. It may\nalso leave the target with paralysis.",
-    "x-y": "A jolt of electricity crashes down on\nthe target to inflict damage. This may\nalso leave the target with paralysis.",
-    "omega-ruby-alpha-sapphire": "A jolt of electricity crashes down on\nthe target to inflict damage. This may\nalso leave the target with paralysis.",
-    "sun-moon": "A jolt of electricity crashes down on the target to\ninflict damage. This may also leave the target\nwith paralysis.",
-    "ultra-sun-ultra-moon": "A jolt of electricity crashes down on the target to\ninflict damage. This may also leave the target\nwith paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "A jolt of electricity crashes down on the target to\ninflict damage. This may also leave the target\nwith paralysis.",
-    "sword-shield": "A jolt of electricity crashes down on the target to\ninflict damage. This may also leave the target\nwith paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 84,
+    "key": "thunder-shock",
+    "name": {
+        "japanese-kana": "でんきショック",
+        "korean": "전기쇼크",
+        "traditional-chinese": "電擊",
+        "french": "Éclair",
+        "german": "Donnerschock",
+        "spanish": "Impactrueno",
+        "italian": "Tuonoshock",
+        "english": "Thunder Shock",
+        "japanese": "でんきショック",
+        "simplified-chinese": "电击",
+        "latin-american-spanish": "Impactrueno"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": "cool",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause paralysis.",
+            "cr": "An attack that may cause paralysis.",
+            "rs": "An electrical attack that may paralyze the foe.",
+            "em": "An electrical attack that may paralyze the foe.",
+            "frlg": "An electric shock attack that may also leave the foe paralyzed.",
+            "dp": "A jolt of electricity is hurled at the foe to inflict damage. It may also leave the foe paralyzed.",
+            "pt": "A jolt of electricity is hurled at the foe to inflict damage. It may also leave the foe paralyzed.",
+            "hgss": "A jolt of electricity is hurled at the foe to inflict damage. It may also leave the foe paralyzed.",
+            "bw": "A jolt of electricity is hurled at the target to inflict damage. It may also leave the target with paralysis.",
+            "b2w2": "A jolt of electricity is hurled at the target to inflict damage. It may also leave the target with paralysis.",
+            "xy": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.",
+            "oras": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.",
+            "sm": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.",
+            "usum": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.",
+            "lgpe": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.",
+            "swsh": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.",
+            "la": "The user attacks the target with a jolt of electricity. This may also leave the target with paralysis.",
+            "sv": "The user attacks the target with a jolt of electricity. This may also leave the target with paralysis."
+        },
+        "french": {
+            "bw": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "xy": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "oras": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "sm": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "usum": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "lgpe": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "swsh": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "でんきの　しげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "でんきの　しげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "でんきの　しげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "でんきの　しげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "でんきの　しげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "でんきの　しげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Eine Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "oras": "Eine Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "sm": "Eine Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "usum": "Eine Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "lgpe": "Eine Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "swsh": "Eine Elektro-Attacke, die das Ziel eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Ataque eléctrico que puede paralizar al objetivo.",
+            "oras": "Ataque eléctrico que puede paralizar al objetivo.",
+            "sm": "Ataque eléctrico que puede paralizar al objetivo.",
+            "usum": "Ataque eléctrico que puede paralizar al objetivo.",
+            "lgpe": "Ataque eléctrico que puede paralizar al objetivo.",
+            "swsh": "Ataque eléctrico que puede paralizar al objetivo."
+        },
+        "italian": {
+            "xy": "Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo.",
+            "oras": "Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo.",
+            "sm": "Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo.",
+            "usum": "Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo.",
+            "lgpe": "Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo.",
+            "swsh": "Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo."
+        },
+        "japanese": {
+            "xy": "電気の　刺激を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "電気の　刺激を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "電気の　刺激を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "電気の　刺激を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "電気の　刺激を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "電気の　刺激を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque eléctrico que puede paralizar al objetivo.",
+            "oras": "Ataque eléctrico que puede paralizar al objetivo.",
+            "sm": "Ataque eléctrico que puede paralizar al objetivo.",
+            "usum": "Ataque eléctrico que puede paralizar al objetivo.",
+            "lgpe": "Ataque eléctrico que puede paralizar al objetivo.",
+            "swsh": "Ataque eléctrico que puede paralizar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "發出電流刺激對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "usum": "發出電流刺激對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "發出電流刺激對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "發出電流刺激對手進行攻擊。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "发出电流刺激对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "usum": "发出电流刺激对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "lgpe": "发出电流刺激对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "swsh": "发出电流刺激对手进行攻击。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

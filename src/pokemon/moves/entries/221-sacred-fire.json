@@ -1,47 +1,146 @@
 {
-  "_id": 221,
-  "key": "sacred-fire",
-  "name": {
-    "english": "Sacred Fire",
-    "japanese": "せいなるほのお",
-    "chinese": "圣之火",
-    "korean": "성스러운불꽃",
-    "german": "Fuego Sagrado",
-    "french": "Läuterfeuer",
-    "italian": "Sacred Fire",
-    "spanish": "Magifuoco"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 100,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ninflict a burn.",
-    "crystal": "An attack that may\ninflict a burn.",
-    "ruby-sapphire": "A mystical fire attack that\nmay inflict a burn.",
-    "emerald": "A mystical fire attack that\nmay inflict a burn.",
-    "firered-leafgreen": "A mystical and\npowerful fire\nattack that may\ninflict a burn.",
-    "diamond-pearl": "The foe is razed with\na mystical fire of\ngreat intensity.\nIt may also leave the\ntarget with a burn.",
-    "platinum": "The foe is razed with\na mystical fire of\ngreat intensity.\nIt may also leave the\ntarget with a burn.",
-    "heartgold-soulsilver": "The foe is razed with\na mystical fire of\ngreat intensity.\nIt may also leave the\ntarget with a burn.",
-    "black-white": "The target is razed with a mystical fire\nof great intensity. It may also leave the\ntarget with a burn.",
-    "black-2-white-2": "The target is razed with a mystical fire\nof great intensity. It may also leave the\ntarget with a burn.",
-    "x-y": "The target is razed with a mystical fire\nof great intensity. This may also leave the\ntarget with a burn.",
-    "omega-ruby-alpha-sapphire": "The target is razed with a mystical fire\nof great intensity. This may also leave the\ntarget with a burn.",
-    "sun-moon": "The target is razed with a mystical fire of great\nintensity. This may also leave the target with a burn.",
-    "ultra-sun-ultra-moon": "The target is razed with a mystical fire of great\nintensity. This may also leave the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is razed with a mystical fire of great\nintensity. This may also leave the target with a burn.",
-    "sword-shield": "The target is razed with a mystical fire of great\nintensity. This may also leave the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.  Frozen Pokémon may use this move, in which case they will thaw.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target.  Lets frozen Pokémon thaw themselves."
-  },
-  "priority": 0
+    "_id": 221,
+    "key": "sacred-fire",
+    "name": {
+        "japanese-kana": "せいなるほのお",
+        "korean": "성스러운불꽃",
+        "traditional-chinese": "神聖之火",
+        "french": "Feu Sacré",
+        "german": "Läuterfeuer",
+        "spanish": "Fuego Sagrado",
+        "italian": "Magifuoco",
+        "english": "Sacred Fire",
+        "japanese": "せいなるほのお",
+        "simplified-chinese": "神圣之火",
+        "latin-american-spanish": "Fuego Sagrado"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 100,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 50,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may inflict a burn.",
+            "cr": "An attack that may inflict a burn.",
+            "rs": "A mystical fire attack that may inflict a burn.",
+            "em": "A mystical fire attack that may inflict a burn.",
+            "frlg": "A mystical and powerful fire attack that may inflict a burn.",
+            "dp": "The foe is razed with a mystical fire of great intensity. It may also leave the target with a burn.",
+            "pt": "The foe is razed with a mystical fire of great intensity. It may also leave the target with a burn.",
+            "hgss": "The foe is razed with a mystical fire of great intensity. It may also leave the target with a burn.",
+            "bw": "The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.",
+            "b2w2": "The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.",
+            "xy": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+            "oras": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+            "sm": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+            "usum": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+            "lgpe": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+            "swsh": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+            "la": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn.",
+            "sv": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn."
+        },
+        "french": {
+            "bw": "Un feu mystique d’une intensité redoutable attaque l’ennemi. Peut aussi le brûler.",
+            "xy": "Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer l’ennemi. Peut aussi le brûler.",
+            "oras": "Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer l’ennemi. Peut aussi le brûler.",
+            "sm": "Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer l’ennemi. Peut aussi le brûler.",
+            "usum": "Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer l’ennemi. Peut aussi le brûler.",
+            "lgpe": "Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer l’ennemi. Peut aussi le brûler.",
+            "swsh": "Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer l’ennemi. Peut aussi le brûler."
+        },
+        "japanese-kana": {
+            "xy": "しんぴの　ほのおで あいてを　やきつくして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "しんぴの　ほのおで あいてを　やきつくして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "しんぴの　ほのおで あいてを　やきつくして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "しんぴの　ほのおで あいてを　やきつくして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "しんぴの　ほのおで あいてを　やきつくして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "しんぴの　ほのおで あいてを　やきつくして　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "신비한 불꽃으로 상대를 태워서 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "신비한 불꽃으로 상대를 태워서 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "신비한 불꽃으로 상대를 태워서 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "신비한 불꽃으로 상대를 태워서 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "신비한 불꽃으로 상대를 태워서 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "신비한 불꽃으로 상대를 태워서 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Mystische Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "oras": "Mystische Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "sm": "Mystische Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "usum": "Mystische Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "lgpe": "Mystische Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "swsh": "Mystische Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet."
+        },
+        "spanish": {
+            "xy": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "oras": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "sm": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "usum": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "lgpe": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "swsh": "Fuego místico de gran intensidad que puede causar quemaduras."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un fuoco mistico di enorme intensità che può anche causargli una scottatura.",
+            "oras": "Colpisce il bersaglio con un fuoco mistico di enorme intensità che può anche causargli una scottatura.",
+            "sm": "Colpisce il bersaglio con un fuoco mistico di enorme intensità che può anche causargli una scottatura.",
+            "usum": "Colpisce il bersaglio con un fuoco mistico di enorme intensità che può anche causargli una scottatura.",
+            "lgpe": "Colpisce il bersaglio con un fuoco mistico di enorme intensità che può anche causargli una scottatura.",
+            "swsh": "Colpisce il bersaglio con un fuoco mistico di enorme intensità che può anche causargli una scottatura."
+        },
+        "japanese": {
+            "xy": "神秘の　炎で 相手を　焼きつくして　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "神秘の　炎で 相手を　焼きつくして　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "神秘の　炎で 相手を　焼きつくして　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "神秘の　炎で 相手を　焼きつくして　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "神秘の　炎で 相手を　焼きつくして　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "神秘の　炎で 相手を　焼きつくして　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "oras": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "sm": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "usum": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "lgpe": "Fuego místico de gran intensidad que puede causar quemaduras.",
+            "swsh": "Fuego místico de gran intensidad que puede causar quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "用神秘的火焰 燒盡對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "usum": "用神秘的火焰 燒盡對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "用神秘的火焰 燒盡對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "用神秘的火焰 燒盡對手進行攻擊。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用神秘的火焰 烧尽对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "usum": "用神秘的火焰 烧尽对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "lgpe": "用神秘的火焰 烧尽对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "swsh": "用神秘的火焰 烧尽对手进行攻击。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.  Frozen Pokémon may use this move, in which case they will thaw.",
+        "shortEffect": "Has a chance to burn the target.  Lets frozen Pokémon thaw themselves."
+    }
 }

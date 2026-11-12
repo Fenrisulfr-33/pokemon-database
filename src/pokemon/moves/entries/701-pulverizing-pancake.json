@@ -1,35 +1,115 @@
 {
-  "_id": 701,
-  "key": "pulverizing-pancake",
-  "name": {
-    "english": "Pulverizing Pancake",
-    "japanese": "ほんきをだす　こうげき",
-    "chinese": "認真起來大爆擊",
-    "korean": "진심의공격",
-    "german": "Arrojo Intempestivo",
-    "french": "Schluss mit lustig",
-    "italian": "Pulverizing Pancake",
-    "spanish": "Adesso Faccio sul Serio"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": null,
-  "pp": 1,
-  "power": 210,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "Z-Power brings out the true capabilities of the user,\nSnorlax. The Pokémon moves its enormous body\nenergetically and attacks the target with full force.",
-    "ultra-sun-ultra-moon": "Z-Power brings out the true capabilities of the user,\nSnorlax. The Pokémon moves its enormous body\nenergetically and attacks the target with full force.",
-    "lets-go-pikachu-lets-go-eevee": "Z-Power brings out the true capabilities of the user,\nSnorlax. The Pokémon moves its enormous body\nenergetically and attacks the target with full force.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 701,
+    "key": "pulverizing-pancake",
+    "name": {
+        "japanese-kana": "ほんきをだす　こうげき",
+        "korean": "진심의공격",
+        "traditional-chinese": "認真起來大爆擊",
+        "french": "Gare au Ronflex",
+        "german": "Schluss mit lustig",
+        "spanish": "Arrojo Intempestivo",
+        "italian": "Adesso Faccio sul Serio",
+        "english": "Pulverizing Pancake",
+        "japanese": "ほんきをだす　こうげき",
+        "simplified-chinese": "认真起来大爆击",
+        "latin-american-spanish": "Arrojo Intempestivo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": null,
+    "pp": 1,
+    "power": 210,
+    "accuracy": null,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "Ｚパワーで　ほんきを　だした　カビゴンが きょたいを　やくどうさせて ぜんりょくで　あいてに　おそいかかる。",
+            "usum": "Ｚパワーで　ほんきを　だした　カビゴンが きょたいを　やくどうさせて ぜんりょくで　あいてに　おそいかかる。",
+            "lgpe": "Ｚパワーで　ほんきを　だした　カビゴンが きょたいを　やくどうさせて ぜんりょくで　あいてに　おそいかかる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "sm": "Z파워로 진심을 낸 잠만보가 거대한 몸을 움직여서 전력으로 상대를 공격한다.",
+            "usum": "Z파워로 진심을 낸 잠만보가 거대한 몸을 움직여서 전력으로 상대를 공격한다.",
+            "lgpe": "Z파워로 진심을 낸 잠만보가 거대한 몸을 움직여서 전력으로 상대를 공격한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "sm": "透過Ｚ力量使認真起來的 卡比獸躍動其巨大身軀， 全力向對手發動襲擊。",
+            "usum": "透過Ｚ力量使認真起來的 卡比獸躍動其巨大身軀， 全力向對手發動襲擊。",
+            "lgpe": "透過Ｚ力量使認真起來的 卡比獸躍動其巨大身軀， 全力向對手發動襲擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "sm": "Ronflex utilise la Force Z pour montrer ce qu’il a dans le ventre et écraser la cible de tout son poids.",
+            "usum": "Ronflex utilise la Force Z pour montrer ce qu’il a dans le ventre et écraser la cible de tout son poids.",
+            "lgpe": "Ronflex utilise la Force Z pour montrer ce qu’il a dans le ventre et écraser la cible de tout son poids.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "sm": "Relaxo wird von Z-Kraft erfüllt und macht Ernst. Es bringt seinen riesigen Körper in Schwung und stürzt sich mit ganzer Kraft auf das Ziel.",
+            "usum": "Relaxo wird von Z-Kraft erfüllt und macht Ernst. Es bringt seinen riesigen Körper in Schwung und stürzt sich mit ganzer Kraft auf das Ziel.",
+            "lgpe": "Relaxo wird von Z-Kraft erfüllt und macht Ernst. Es bringt seinen riesigen Körper in Schwung und stürzt sich mit ganzer Kraft auf das Ziel.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "sm": "Gracias al Poder Z, Snorlax puede mover su enorme cuerpo con gran agilidad y determinación, cargando sobre el oponente con todas sus fuerzas.",
+            "usum": "Gracias al Poder Z, Snorlax puede mover su enorme cuerpo con gran agilidad y determinación, cargando sobre el oponente con todas sus fuerzas.",
+            "lgpe": "Gracias al Poder Z, Snorlax puede mover su enorme cuerpo con gran agilidad y determinación, cargando sobre el oponente con todas sus fuerzas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "sm": "Grazie al Potere Z, Snorlax tira fuori la grinta e, muovendo energicamente il suo enorme corpo, attacca il bersaglio con tutta la sua forza.",
+            "usum": "Grazie al Potere Z, Snorlax tira fuori la grinta e, muovendo energicamente il suo enorme corpo, attacca il bersaglio con tutta la sua forza.",
+            "lgpe": "Grazie al Potere Z, Snorlax tira fuori la grinta e, muovendo energicamente il suo enorme corpo, attacca il bersaglio con tutta la sua forza.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "sm": "Z-Power brings out the true capabilities of the user, Snorlax. The Pokémon moves its enormous body energetically and attacks the target with full force.",
+            "usum": "Z-Power brings out the true capabilities of the user, Snorlax. The Pokémon moves its enormous body energetically and attacks the target with full force.",
+            "lgpe": "Z-Power brings out the true capabilities of the user, Snorlax. The Pokémon moves its enormous body energetically and attacks the target with full force.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "sm": "Ｚパワーで　本気を　出した　カビゴンが 巨体を　躍動させて 全力で　相手に　襲いかかる。",
+            "usum": "Ｚパワーで　本気を　出した　カビゴンが 巨体を　躍動させて 全力で　相手に　襲いかかる。",
+            "lgpe": "Ｚパワーで　本気を　出した　カビゴンが 巨体を　躍動させて 全力で　相手に　襲いかかる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "sm": "通过Ｚ力量使得认真起来的 卡比兽跃动巨大身躯， 全力向对手发动袭击。",
+            "usum": "通过Ｚ力量使得认真起来的 卡比兽跃动巨大身躯， 全力向对手发动袭击。",
+            "lgpe": "通过Ｚ力量使得认真起来的 卡比兽跃动巨大身躯， 全力向对手发动袭击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "sm": "Gracias al Poder Z, Snorlax puede mover su enorme cuerpo con gran agilidad y determinación, cargando sobre el oponente con todas sus fuerzas.",
+            "usum": "Gracias al Poder Z, Snorlax puede mover su enorme cuerpo con gran agilidad y determinación, cargando sobre el oponente con todas sus fuerzas.",
+            "lgpe": "Gracias al Poder Z, Snorlax puede mover su enorme cuerpo con gran agilidad y determinación, cargando sobre el oponente con todas sus fuerzas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

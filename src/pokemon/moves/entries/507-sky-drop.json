@@ -1,39 +1,136 @@
 {
-  "_id": 507,
-  "key": "sky-drop",
-  "name": {
-    "english": "Sky Drop",
-    "japanese": "フリーフォール",
-    "chinese": "自由落体",
-    "korean": "프리폴",
-    "german": "Caída Libre",
-    "french": "Freier Fall",
-    "italian": "Sky Drop",
-    "spanish": "Cadutalibera"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
-    "black-2-white-2": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
-    "x-y": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
-    "omega-ruby-alpha-sapphire": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
-    "sun-moon": "The user takes the target into the sky, then drops it\nduring the next turn. The target cannot attack while\nin the sky.",
-    "ultra-sun-ultra-moon": "The user takes the target into the sky, then drops it\nduring the next turn. The target cannot attack while\nin the sky.",
-    "lets-go-pikachu-lets-go-eevee": "The user takes the target into the sky, then drops it\nduring the next turn. The target cannot attack while\nin the sky.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User carries the target high into the air for one turn, during which no moves will hit either Pokémon and neither can act.  On the following turn, the user drops the target, inflicting damage and ending the effect.\n\nIf the target is flying-type, this move will function as normal but inflict no damage.\n\ngust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind can hit both the user and the target during this effect.  gust and twister will additionally have double power.\n\nThe damage from hail and sandstorm still applies during this effect.\n\nEither Pokémon may be hit during this effect if also under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be used while gravity is in effect.\n\nThis move cannot be selected by sleep talk.\n\n*Bug*: If gravity is used during a double or triple battle while this move is in effect, this move is not correctly canceled on the target, and it remains high in the air indefinitely.  As this move prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
-    "shortEffect": "Carries the target high into the air, dodging all attacks against either, and drops it next turn."
-  },
-  "priority": 0
+    "_id": 507,
+    "key": "sky-drop",
+    "name": {
+        "japanese-kana": "フリーフォール",
+        "korean": "프리폴",
+        "traditional-chinese": "自由落體",
+        "french": "Chute Libre",
+        "german": "Freier Fall",
+        "spanish": "Caída Libre",
+        "italian": "Cadutalibera",
+        "english": "Sky Drop",
+        "japanese": "フリーフォール",
+        "simplified-chinese": "自由落体",
+        "latin-american-spanish": "Caída Libre"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur emmène l’ennemi dans les airs au 1er tour et le lâche dans le vide au 2è. L’ennemi saisi ne peut pas attaquer.",
+            "xy": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer.",
+            "oras": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer.",
+            "sm": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer.",
+            "usum": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer.",
+            "lgpe": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "english": {
+            "bw": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+            "b2w2": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+            "xy": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+            "oras": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+            "sm": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+            "usum": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+            "lgpe": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese-kana": {
+            "xy": "１ターンめで　あいてを　そらへ　つれさり ２ターンめに　おとして　こうげきする。 つれさられた　あいては　うごけない。",
+            "oras": "１ターンめで　あいてを　そらへ　つれさり ２ターンめに　おとして　こうげきする。 つれさられた　あいては　うごけない。",
+            "sm": "１ターンめで　あいてを　そらへ　つれさり ２ターンめに　おとして　こうげきする。 つれさられた　あいては　うごけない。",
+            "usum": "１ターンめで　あいてを　そらへ　つれさり ２ターンめに　おとして　こうげきする。 つれさられた　あいては　うごけない。",
+            "lgpe": "１ターンめで　あいてを　そらへ　つれさり ２ターンめに　おとして　こうげきする。 つれさられた　あいては　うごけない。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "1턴째에 상대를 하늘로 끌고 가서 2턴째에 떨어뜨려 공격한다. 끌려간 상대는 움직일 수 없다.",
+            "oras": "1턴째에 상대를 하늘로 끌고 가서 2턴째에 떨어뜨려 공격한다. 끌려간 상대는 움직일 수 없다.",
+            "sm": "1턴째에 상대를 하늘로 끌고 가서 2턴째에 떨어뜨려 공격한다. 끌려간 상대는 움직일 수 없다.",
+            "usum": "1턴째에 상대를 하늘로 끌고 가서 2턴째에 떨어뜨려 공격한다. 끌려간 상대는 움직일 수 없다.",
+            "lgpe": "1턴째에 상대를 하늘로 끌고 가서 2턴째에 떨어뜨려 공격한다. 끌려간 상대는 움직일 수 없다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.",
+            "oras": "Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.",
+            "sm": "Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.",
+            "usum": "Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.",
+            "lgpe": "Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "oras": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "sm": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "usum": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "lgpe": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.",
+            "oras": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.",
+            "sm": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.",
+            "usum": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.",
+            "lgpe": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "１ターン目で　相手を　空へ　連れさり ２ターン目に　落として　攻撃する。 連れさられた　相手は　動けない。",
+            "oras": "１ターン目で　相手を　空へ　連れさり ２ターン目に　落として　攻撃する。 連れさられた　相手は　動けない。",
+            "sm": "１ターン目で　相手を　空へ　連れさり ２ターン目に　落として　攻撃する。 連れさられた　相手は　動けない。",
+            "usum": "１ターン目で　相手を　空へ　連れさり ２ターン目に　落として　攻撃する。 連れさられた　相手は　動けない。",
+            "lgpe": "１ターン目で　相手を　空へ　連れさり ２ターン目に　落として　攻撃する。 連れさられた　相手は　動けない。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "oras": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "sm": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "usum": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "lgpe": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "使用後的第１回合將對手帶到空中， 並於第２回合摔下對手進行攻擊。 被帶到空中的對手將無法行動。",
+            "usum": "使用後的第１回合將對手帶到空中， 並於第２回合摔下對手進行攻擊。 被帶到空中的對手將無法行動。",
+            "lgpe": "使用後的第１回合將對手帶到空中， 並於第２回合摔下對手進行攻擊。 被帶到空中的對手將無法行動。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合将对手带到空中， 第２回合将其摔下进行攻击。 被带到空中的对手不能动弹。",
+            "usum": "第１回合将对手带到空中， 第２回合将其摔下进行攻击。 被带到空中的对手不能动弹。",
+            "lgpe": "第１回合将对手带到空中， 第２回合将其摔下进行攻击。 被带到空中的对手不能动弹。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User carries the target high into the air for one turn, during which no moves will hit either Pokémon and neither can act.  On the following turn, the user drops the target, inflicting damage and ending the effect. If the target is Flying-type, this move will function as normal but inflict no damage. Gust, Hurricane, Sky Uppercut, Smack Down, Thunder, Twister, and Whirlwind can hit both the user and the target during this effect.  Gust and Twister will additionally have double power. The damage from Hail and Sandstorm still applies during this effect. Either Pokémon may be hit during this effect if also under the effect of Lock-On, Mind Reader, or No Guard. This move cannot be used while Gravity is in effect. This move cannot be selected by Sleep Talk. *Bug*: If Gravity is used during a double or triple battle while this move is in effect, this move is not correctly canceled on the target, and it remains high in the air indefinitely.  As this move prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
+        "shortEffect": "Carries the target high into the air, dodging all attacks against either, and drops it next turn."
+    }
 }

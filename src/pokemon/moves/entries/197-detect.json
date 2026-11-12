@@ -1,47 +1,146 @@
 {
-  "_id": 197,
-  "key": "detect",
-  "name": {
-    "english": "Detect",
-    "japanese": "みきり",
-    "chinese": "先决",
-    "korean": "판별",
-    "german": "Detección",
-    "french": "Scanner",
-    "italian": "Detect",
-    "spanish": "Individua"
-  },
-  "type": "Fighting",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Evades attack that\nturn. It may fail.",
-    "crystal": "Evades attack that\nturn. It may fail.",
-    "ruby-sapphire": "Evades attack, but may fail\nif used in succession.",
-    "emerald": "Evades attack, but may fail\nif used in succession.",
-    "firered-leafgreen": "Enables the user to\nevade all attacks.\nIt may fail if used\nin succession.",
-    "diamond-pearl": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
-    "platinum": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
-    "heartgold-soulsilver": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
-    "black-white": "It enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-    "black-2-white-2": "It enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-    "x-y": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-    "omega-ruby-alpha-sapphire": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-    "sun-moon": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
-    "ultra-sun-ultra-moon": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
-    "lets-go-pikachu-lets-go-eevee": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
-    "sword-shield": "This move enables the user to protect itself from\nall attacks. Its chance of failing rises if it is used\nin succession."
-  },
-  "effect": {
-    "full": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nlock on, mind reader, and no guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move.\n\nthunder during rain dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish song\n* shadow force\n* Moves that merely copy the user, such as transform or psych up\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Prevents any moves from hitting the user this turn."
-  },
-  "priority": 4
+    "_id": 197,
+    "key": "detect",
+    "name": {
+        "japanese-kana": "みきり",
+        "korean": "판별",
+        "traditional-chinese": "看穿",
+        "french": "Détection",
+        "german": "Scanner",
+        "spanish": "Detección",
+        "italian": "Individua",
+        "english": "Detect",
+        "japanese": "みきり",
+        "simplified-chinese": "看穿",
+        "latin-american-spanish": "Detección"
+    },
+    "type": "fighting",
+    "category": "status",
+    "contest": "cool",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "protect",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Evades attack that turn. It may fail.",
+            "cr": "Evades attack that turn. It may fail.",
+            "rs": "Evades attack, but may fail if used in succession.",
+            "em": "Evades attack, but may fail if used in succession.",
+            "frlg": "Enables the user to evade all attacks. It may fail if used in succession.",
+            "dp": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "pt": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "hgss": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "bw": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "b2w2": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "xy": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "oras": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "sm": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "usum": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "lgpe": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+            "swsh": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+            "la": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+            "sv": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
+        },
+        "french": {
+            "bw": "Le lanceur esquive toutes les attaques. Plus la capacité est utilisée de fois à la suite, plus elle risque d’échouer.",
+            "xy": "Le lanceur esquive toutes les attaques. Le risque d’échec augmente lorsque la capacité est utilisée plusieurs fois de suite.",
+            "oras": "Le lanceur esquive toutes les attaques. Le risque d’échec augmente lorsque la capacité est utilisée plusieurs fois de suite.",
+            "sm": "Le lanceur esquive toutes les attaques. Le risque d’échec augmente lorsque la capacité est utilisée plusieurs fois de suite.",
+            "usum": "Le lanceur esquive toutes les attaques. Le risque d’échec augmente lorsque la capacité est utilisée plusieurs fois de suite.",
+            "lgpe": "Le lanceur esquive toutes les attaques. Le risque d’échec augmente lorsque la capacité est utilisée plusieurs fois de suite.",
+            "swsh": "Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite."
+        },
+        "japanese-kana": {
+            "xy": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。",
+            "oras": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。",
+            "sm": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。",
+            "usum": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。",
+            "lgpe": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。",
+            "swsh": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。"
+        },
+        "korean": {
+            "xy": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다.",
+            "oras": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다.",
+            "sm": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다.",
+            "usum": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다.",
+            "lgpe": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다.",
+            "swsh": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다."
+        },
+        "german": {
+            "xy": "Anwender weicht jeder Attacke aus. Scheitert eventuell bei Wiederholung.",
+            "oras": "Anwender weicht jeder Attacke aus. Scheitert eventuell bei Wiederholung.",
+            "sm": "Anwender weicht jeder Attacke aus. Scheitert eventuell bei Wiederholung.",
+            "usum": "Anwender weicht jeder Attacke aus. Scheitert eventuell bei Wiederholung.",
+            "lgpe": "Anwender wehrt jede Attacke ab. Scheitert eventuell bei Wiederholung.",
+            "swsh": "Anwender wehrt jede Attacke ab. Scheitert eventuell bei Wiederholung."
+        },
+        "spanish": {
+            "xy": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "oras": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "sm": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "usum": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "lgpe": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "swsh": "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+        },
+        "italian": {
+            "xy": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire.",
+            "oras": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire.",
+            "sm": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire.",
+            "usum": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire.",
+            "lgpe": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire.",
+            "swsh": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire."
+        },
+        "japanese": {
+            "xy": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。",
+            "oras": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。",
+            "sm": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。",
+            "usum": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。",
+            "lgpe": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。",
+            "swsh": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "oras": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "sm": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "usum": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "lgpe": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+            "swsh": "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+        },
+        "traditional-chinese": {
+            "sm": "完全防住對手的所有攻擊。 連續使用時容易失敗。",
+            "usum": "完全防住對手的所有攻擊。 連續使用時容易失敗。",
+            "lgpe": "完全防住對手的所有攻擊。 連續使用時容易失敗。",
+            "swsh": "完全防住對手的所有攻擊。 連續使用時容易失敗。"
+        },
+        "simplified-chinese": {
+            "sm": "完全抵挡 对手的攻击。 连续使出则容易失败。",
+            "usum": "完全抵挡 对手的攻击。 连续使出则容易失败。",
+            "lgpe": "完全抵挡 对手的攻击。 连续使出则容易失败。",
+            "swsh": "完全抵挡 对手的攻击。 连续使出则容易失败。"
+        }
+    },
+    "effect": {
+        "full": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail. If the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail. Lock-On, Mind Reader, and No Guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold); those are always blocked by this move. Thunder during Rain Dance and Blizzard during Hail have a 30% chance to break through this move. The following effects are not prevented by this move: * Acupressure from an ally * Curse’s curse effect * Delayed damage from Doom Desire and Future Sight; however, these moves will be prevented if they are used this turn * Feint, which will also end this move’s protection after it hits * Imprison * Perish Song * Shadow Force * Moves that merely copy the user, such as Transform or Psych Up This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Prevents any moves from hitting the user this turn."
+    }
 }

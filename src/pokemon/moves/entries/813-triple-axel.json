@@ -1,32 +1,84 @@
 {
-  "_id": 813,
-  "key": "triple-axel",
-  "name": {
-    "english": "Triple Axel",
-    "japanese": "トリプルアクセル",
-    "chinese": "三旋擊",
-    "korean": "트리플악셀",
-    "german": "Triple Axel",
-    "french": "Dreifach-Axel",
-    "italian": "Triple Axel",
-    "spanish": "Triplo Axel"
-  },
-  "type": "Ice",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 20,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "A consecutive three-kick attack that becomes more\npowerful with each successful hit."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 813,
+    "key": "triple-axel",
+    "name": {
+        "japanese-kana": "トリプルアクセル",
+        "korean": "트리플악셀",
+        "traditional-chinese": "三旋擊",
+        "french": "Triple Axel",
+        "german": "Dreifach-Axel",
+        "spanish": "Triple Axel",
+        "italian": "Triplo Axel",
+        "english": "Triple Axel",
+        "japanese": "トリプルアクセル",
+        "simplified-chinese": "三旋击",
+        "latin-american-spanish": "Triple Axel"
+    },
+    "type": "ice",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 20,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 3,
+        "maxHits": 3,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "３かい　れんぞくで　キックを　くりだして こうげきする。　わざが　あたる　たびに いりょくは　あがる。"
+        },
+        "korean": {
+            "swsh": "3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다."
+        },
+        "traditional-chinese": {
+            "swsh": "連續踢對手３次進行攻擊。 每踢中一次，威力就會提高。"
+        },
+        "french": {
+            "swsh": "Une salve composée de un à trois coups de pied dont la puissance augmente à chaque coup porté."
+        },
+        "german": {
+            "swsh": "Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu."
+        },
+        "spanish": {
+            "swsh": "Patea hasta tres veces seguidas y cada vez más fuerte."
+        },
+        "italian": {
+            "swsh": "Chi la usa sferra fino a tre calci consecutivi la cui potenza aumenta a ogni colpo."
+        },
+        "english": {
+            "swsh": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+            "la": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+            "sv": "A consecutive three-kick attack that becomes more powerful with each successful hit."
+        },
+        "japanese": {
+            "swsh": "３回連続で　キックを　くりだして 攻撃する。　技が　当たるたびに 威力は　あがる。"
+        },
+        "simplified-chinese": {
+            "swsh": "连续３次踢对手进行攻击。 每踢中一次，威力就会提高。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Patea hasta tres veces seguidas y cada vez más fuerte."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits three times in the same turn.  The second hit has double power, and the third hit has triple power.  Each hit has a separate accuracy check, and this move stops if a hit misses. Skill Link does not apply.",
+        "shortEffect": "Hits three times, increasing power by 100% with each successful hit."
+    }
 }

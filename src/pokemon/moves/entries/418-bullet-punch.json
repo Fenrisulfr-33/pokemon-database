@@ -1,42 +1,141 @@
 {
-  "_id": 418,
-  "key": "bullet-punch",
-  "name": {
-    "english": "Bullet Punch",
-    "japanese": "バレットパンチ",
-    "chinese": "飞弹拳",
-    "korean": "불릿펀치",
-    "german": "Puño Bala",
-    "french": "Patronenhieb",
-    "italian": "Bullet Punch",
-    "spanish": "Pugnoscarica"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst.",
-    "platinum": "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst.",
-    "heartgold-soulsilver": "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst.",
-    "black-white": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
-    "black-2-white-2": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
-    "x-y": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
-    "omega-ruby-alpha-sapphire": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
-    "sun-moon": "The user strikes the target with tough punches as\nfast as bullets. This move always goes first.",
-    "ultra-sun-ultra-moon": "The user strikes the target with tough punches as\nfast as bullets. This move always goes first.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes the target with tough punches as\nfast as bullets. This move always goes first.",
-    "sword-shield": "The user strikes the target with tough punches as\nfast as bullets. This move always goes first."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 1
+    "_id": 418,
+    "key": "bullet-punch",
+    "name": {
+        "japanese-kana": "バレットパンチ",
+        "korean": "불릿펀치",
+        "traditional-chinese": "子彈拳",
+        "french": "Pisto-Poing",
+        "german": "Patronenhieb",
+        "spanish": "Puño Bala",
+        "italian": "Pugnoscarica",
+        "english": "Bullet Punch",
+        "japanese": "バレットパンチ",
+        "simplified-chinese": "子弹拳",
+        "latin-american-spanish": "Puño Bala"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user strikes with a tough punch as fast as a bullet. This move always goes first.",
+            "pt": "The user strikes with a tough punch as fast as a bullet. This move always goes first.",
+            "hgss": "The user strikes with a tough punch as fast as a bullet. This move always goes first.",
+            "bw": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "b2w2": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "xy": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "oras": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "sm": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "usum": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "lgpe": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "swsh": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+            "la": "The user strikes the target with tough punches as fast as bullets. This also raises the user’s action speed.",
+            "sv": "The user strikes the target with tough punches as fast as bullets. This move always goes first."
+        },
+        "french": {
+            "bw": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe toujours en premier.",
+            "xy": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe toujours en premier.",
+            "oras": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe toujours en premier.",
+            "sm": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe en priorité.",
+            "usum": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe en priorité.",
+            "lgpe": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe en priorité.",
+            "swsh": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe en priorité."
+        },
+        "japanese-kana": {
+            "xy": "だんがんの　ような　はやくて　かたい パンチを　あいてに　くりだす。 かならず　せんせい　こうげき　できる。",
+            "oras": "だんがんの　ような　はやくて　かたい パンチを　あいてに　くりだす。 かならず　せんせい　こうげき　できる。",
+            "sm": "だんがんの　ような　はやくて　かたい パンチを　あいてに　くりだす。 かならず　せんせい　こうげき　できる。",
+            "usum": "だんがんの　ような　はやくて　かたい パンチを　あいてに　くりだす。 かならず　せんせい　こうげき　できる。",
+            "lgpe": "だんがんの　ような　はやくて　かたい パンチを　あいてに　くりだす。 かならず　せんせい　こうげき　できる。",
+            "swsh": "だんがんの　ような　はやくて　かたい パンチを　あいてに　くりだす。 かならず　せんせい　こうげき　できる。"
+        },
+        "korean": {
+            "xy": "탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다.",
+            "oras": "탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다.",
+            "sm": "탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다.",
+            "usum": "탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다.",
+            "lgpe": "탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다.",
+            "swsh": "탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다."
+        },
+        "german": {
+            "xy": "Das Ziel wird von ultraschnellen Hieben getroffen. Erstschlaggarantie.",
+            "oras": "Das Ziel wird von ultraschnellen Hieben getroffen. Erstschlaggarantie.",
+            "sm": "Das Ziel wird von ultraschnellen Hieben getroffen. Hohe Erstschlagquote.",
+            "usum": "Das Ziel wird von ultraschnellen Hieben getroffen. Hohe Erstschlagquote.",
+            "lgpe": "Das Ziel wird von ultraschnellen Hieben getroffen. Hohe Erstschlagquote.",
+            "swsh": "Erstschlag-Attacke, bei der das Ziel von ultraschnellen Hieben getroffen wird."
+        },
+        "spanish": {
+            "xy": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento siempre va primero.",
+            "oras": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento siempre va primero.",
+            "sm": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta.",
+            "usum": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta.",
+            "lgpe": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta.",
+            "swsh": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con una scarica di pugni veloci come proiettili. Con questa mossa si colpisce per primi.",
+            "oras": "Chi la usa attacca con una scarica di pugni veloci come proiettili. Con questa mossa si colpisce per primi.",
+            "sm": "Chi la usa attacca con una scarica di pugni veloci come proiettili. Questa mossa ha priorità alta.",
+            "usum": "Chi la usa attacca con una scarica di pugni veloci come proiettili. Questa mossa ha priorità alta.",
+            "lgpe": "Chi la usa attacca con una scarica di pugni veloci come proiettili. Questa mossa ha priorità alta.",
+            "swsh": "Chi la usa attacca con una scarica di pugni veloci come proiettili. Questa mossa ha priorità alta."
+        },
+        "japanese": {
+            "xy": "弾丸の　ような　速くて　硬い パンチを　相手に　くりだす。 必ず　先制攻撃　できる。",
+            "oras": "弾丸の　ような　速くて　硬い パンチを　相手に　くりだす。 必ず　先制攻撃　できる。",
+            "sm": "弾丸の　ような　速くて　硬い パンチを　相手に　くりだす。 必ず　先制攻撃　できる。",
+            "usum": "弾丸の　ような　速くて　硬い パンチを　相手に　くりだす。 必ず　先制攻撃　できる。",
+            "lgpe": "弾丸の　ような　速くて　硬い パンチを　相手に　くりだす。 必ず　先制攻撃　できる。",
+            "swsh": "弾丸の　ような　速くて　硬い パンチを　相手に　くりだす。 必ず　先制攻撃　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento siempre va primero.",
+            "oras": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento siempre va primero.",
+            "sm": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta.",
+            "usum": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta.",
+            "lgpe": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta.",
+            "swsh": "Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta."
+        },
+        "traditional-chinese": {
+            "sm": "向對手連續揮出如子彈般 快速且堅硬的拳頭。 必定能夠發動先制攻擊。",
+            "usum": "向對手連續揮出如子彈般 快速且堅硬的拳頭。 必定能夠發動先制攻擊。",
+            "lgpe": "向對手連續揮出如子彈般 快速且堅硬的拳頭。 必定能夠發動先制攻擊。",
+            "swsh": "向對手連續揮出如子彈般 快速且堅硬的拳頭。 必定能夠發動先制攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手使出如子弹般 快速而坚硬的拳头。 必定能够先制攻击。",
+            "usum": "向对手使出如子弹般 快速而坚硬的拳头。 必定能够先制攻击。",
+            "lgpe": "向对手使出如子弹般 快速而坚硬的拳头。 必定能够先制攻击。",
+            "swsh": "向对手使出如子弹般 快速而坚硬的拳头。 必定能够先制攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

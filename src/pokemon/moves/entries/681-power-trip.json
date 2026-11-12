@@ -1,35 +1,117 @@
 {
-  "_id": 681,
-  "key": "power-trip",
-  "name": {
-    "english": "Power Trip",
-    "japanese": "つけあがる",
-    "chinese": "囂張",
-    "korean": "기어오르기",
-    "german": "Chulería",
-    "french": "Überheblichkeit",
-    "italian": "Power Trip",
-    "spanish": "Tracotanza"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user boasts its strength and attacks the target.\nThe more the user’s stats are raised, the greater the\nmove’s power.",
-    "ultra-sun-ultra-moon": "The user boasts its strength and attacks the target.\nThe more the user’s stats are raised, the greater the\nmove’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user boasts its strength and attacks the target.\nThe more the user’s stats are raised, the greater the\nmove’s power.",
-    "sword-shield": "The user boasts its strength and attacks the target.\nThe more the user’s stats are raised, the greater the\nmove’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user's stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move's power.  For a Pokémon with all five stats modified to +6, this move's power is 31×.",
-    "shortEffect": "Power is higher the more the user's stats have been raised, to a maximum of 31×."
-  },
-  "priority": 0
+    "_id": 681,
+    "key": "power-trip",
+    "name": {
+        "japanese-kana": "つけあがる",
+        "korean": "기어오르기",
+        "traditional-chinese": "囂張",
+        "french": "Arrogance",
+        "german": "Überheblichkeit",
+        "spanish": "Chulería",
+        "italian": "Tracotanza",
+        "english": "Power Trip",
+        "japanese": "つけあがる",
+        "simplified-chinese": "嚣张",
+        "latin-american-spanish": "Arrogancia"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 20,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "じぶんの　つよさを　はなたかだかに こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "usum": "じぶんの　つよさを　はなたかだかに こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "lgpe": "じぶんの　つよさを　はなたかだかに こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "swsh": "じぶんの　つよさを　はなたかだかに こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。"
+        },
+        "korean": {
+            "sm": "자신의 강함을 뻐기고 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "usum": "자신의 강함을 뻐기고 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "lgpe": "자신의 강함을 뻐기고 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "swsh": "자신의 강함을 뻐기고 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다."
+        },
+        "traditional-chinese": {
+            "sm": "耀武揚威地攻擊對手， 自己的能力提高得越多， 威力就越大。",
+            "usum": "耀武揚威地攻擊對手， 自己的能力提高得越多， 威力就越大。",
+            "lgpe": "耀武揚威地攻擊對手， 自己的能力提高得越多， 威力就越大。",
+            "swsh": "耀武揚威地攻擊對手， 自己的能力提高得越多， 威力就越大。"
+        },
+        "french": {
+            "sm": "Ivre de puissance, le lanceur attaque de toutes ses forces. Plus ses stats ont été augmentées, plus la puissance de l’attaque est élevée.",
+            "usum": "Ivre de puissance, le lanceur attaque de toutes ses forces. Plus ses stats ont été augmentées, plus la puissance de l’attaque est élevée.",
+            "lgpe": "Ivre de puissance, le lanceur attaque de toutes ses forces. Plus ses stats ont été augmentées, plus la puissance de l’attaque est élevée.",
+            "swsh": "Ivre de puissance, le lanceur attaque de toutes ses forces. Plus ses stats ont été augmentées, plus la puissance de l’attaque est élevée."
+        },
+        "german": {
+            "sm": "Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind.",
+            "usum": "Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind.",
+            "lgpe": "Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind.",
+            "swsh": "Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind."
+        },
+        "spanish": {
+            "sm": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño.",
+            "usum": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño.",
+            "lgpe": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño.",
+            "swsh": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca il bersaglio sfoggiando la propria forza. Più le sue statistiche sono state aumentate, più la mossa è potente.",
+            "usum": "Chi la usa attacca il bersaglio sfoggiando la propria forza. Più le sue statistiche sono state aumentate, più la mossa è potente.",
+            "lgpe": "Chi la usa attacca il bersaglio sfoggiando la propria forza. Più le sue statistiche sono state aumentate, più la mossa è potente.",
+            "swsh": "Chi la usa attacca il bersaglio sfoggiando la propria forza. Più le sue statistiche sono state aumentate, più la mossa è potente."
+        },
+        "english": {
+            "sm": "The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.",
+            "usum": "The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.",
+            "lgpe": "The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.",
+            "swsh": "The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.",
+            "la": "The user boasts its strength and attacks the target. The more the user's stats are raised, the greater the move's power.",
+            "sv": "The user boasts its strength and attacks the target. The more the user's stats are boosted, the greater the move's power."
+        },
+        "japanese": {
+            "sm": "自分の　強さを　鼻高々に 攻撃する。自分の　能力が あがって　いるほど　威力が　あがる。",
+            "usum": "自分の　強さを　鼻高々に 攻撃する。自分の　能力が あがって　いるほど　威力が　あがる。",
+            "lgpe": "自分の　強さを　鼻高々に 攻撃する。自分の　能力が あがって　いるほど　威力が　あがる。",
+            "swsh": "自分の　強さを　鼻高々に 攻撃する。自分の　能力が あがって　いるほど　威力が　あがる。"
+        },
+        "simplified-chinese": {
+            "sm": "耀武扬威地攻击对手， 自己的能力提高得越多， 威力就越大。",
+            "usum": "耀武扬威地攻击对手， 自己的能力提高得越多， 威力就越大。",
+            "lgpe": "耀武扬威地攻击对手， 自己的能力提高得越多， 威力就越大。",
+            "swsh": "耀武扬威地攻击对手， 自己的能力提高得越多， 威力就越大。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño.",
+            "usum": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño.",
+            "lgpe": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño.",
+            "swsh": "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user’s stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move’s power.  For a Pokémon with all five stats modified to +6, this move’s power is 31×.",
+        "shortEffect": "Power is higher the more the user’s stats have been raised, to a maximum of 31×."
+    }
 }

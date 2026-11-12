@@ -1,32 +1,84 @@
 {
-  "_id": 790,
-  "key": "strange-steam",
-  "name": {
-    "english": "Strange Steam",
-    "japanese": "ワンダースチーム",
-    "chinese": "神奇蒸汽",
-    "korean": "원더스팀",
-    "german": "Cautivapor",
-    "french": "Wunderdampf",
-    "italian": "Strange Steam",
-    "spanish": "Vapore Incantato"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user attacks the target by emitting steam.\nThis may also confuse the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 790,
+    "key": "strange-steam",
+    "name": {
+        "japanese-kana": "ワンダースチーム",
+        "korean": "원더스팀",
+        "traditional-chinese": "神奇蒸汽",
+        "french": "Vapeur Féérique",
+        "german": "Wunderdampf",
+        "spanish": "Cautivapor",
+        "italian": "Vapore Incantato",
+        "english": "Strange Steam",
+        "japanese": "ワンダースチーム",
+        "simplified-chinese": "神奇蒸汽",
+        "latin-american-spanish": "Cautivapor"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 20,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "けむりを　ふんしゅつして あいてを　こうげき。 こんらん　させることが　ある。"
+        },
+        "korean": {
+            "swsh": "연기를 분출해서 상대를 공격한다. 혼란시킬 때가 있다."
+        },
+        "traditional-chinese": {
+            "swsh": "噴出煙霧攻擊對手。 有時會使對手混亂。"
+        },
+        "french": {
+            "swsh": "Le lanceur émet de la vapeur pour attaquer sa cible. Peut aussi la rendre confuse."
+        },
+        "german": {
+            "swsh": "Der Anwender stößt Dampf aus, mit dem er das Ziel angreift. Dieses wird eventuell verwirrt."
+        },
+        "spanish": {
+            "swsh": "Desprende un humo con el que ataca al objetivo, que puede acabar confundido."
+        },
+        "italian": {
+            "swsh": "Chi la usa attacca il bersaglio con getti di vapore che possono anche confonderlo."
+        },
+        "english": {
+            "swsh": "The user attacks the target by emitting steam. This may also confuse the target.",
+            "la": "The user attacks the target by emitting steam. This may also confuse the target.",
+            "sv": "The user attacks the target by emitting steam. This may also confuse the target."
+        },
+        "japanese": {
+            "swsh": "煙を　噴出して 相手を　攻撃。 混乱　させることが　ある。"
+        },
+        "simplified-chinese": {
+            "swsh": "喷出烟雾攻击对手。 有时会使对手混乱。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Desprende un humo con el que ataca al objetivo, que puede acabar confundido."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

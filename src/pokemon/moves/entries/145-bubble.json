@@ -1,47 +1,148 @@
 {
-  "_id": 145,
-  "key": "bubble",
-  "name": {
-    "english": "Bubble",
-    "japanese": "あわ",
-    "chinese": "泡泡",
-    "korean": "거품",
-    "german": "Burbuja",
-    "french": "Blubber",
-    "italian": "Bubble",
-    "spanish": "Bolla"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nreduce SPEED.",
-    "crystal": "An attack that may\nreduce SPEED.",
-    "ruby-sapphire": "An attack using bubbles.\nMay lower the foe’s SPEED.",
-    "emerald": "An attack using bubbles.\nMay lower the foe’s SPEED.",
-    "firered-leafgreen": "A spray of bubbles\nhits the foe.\nIt may lower the\nfoe’s SPEED stat.",
-    "diamond-pearl": "A spray of countless\nbubbles is jetted at\nthe foe.\nIt may also lower the\ntarget’s Speed stat.",
-    "platinum": "A spray of countless\nbubbles is jetted at\nthe foe.\nIt may also lower the\ntarget’s Speed stat.",
-    "heartgold-soulsilver": "A spray of countless\nbubbles is jetted at\nthe foe.\nIt may also lower the\ntarget’s Speed stat.",
-    "black-white": "A spray of countless bubbles is jetted at\nthe opposing team. It may also lower the\ntargets’ Speed stats.",
-    "black-2-white-2": "A spray of countless bubbles is jetted at\nthe opposing team. It may also lower the\ntargets’ Speed stats.",
-    "x-y": "A spray of countless bubbles is jetted at\nthe opposing Pokémon.\nThis may also lower their Speed stats.",
-    "omega-ruby-alpha-sapphire": "A spray of countless bubbles is jetted at\nthe opposing Pokémon.\nThis may also lower their Speed stats.",
-    "sun-moon": "A spray of countless bubbles is jetted at the\nopposing Pokémon. This may also lower their\nSpeed stat.",
-    "ultra-sun-ultra-moon": "A spray of countless bubbles is jetted at the\nopposing Pokémon. This may also lower their\nSpeed stat.",
-    "lets-go-pikachu-lets-go-eevee": "A spray of countless bubbles is jetted at the\nopposing Pokémon. This may also lower their\nSpeed stat.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 145,
+    "key": "bubble",
+    "name": {
+        "japanese-kana": "あわ",
+        "korean": "거품",
+        "traditional-chinese": "泡沫",
+        "french": "Écume",
+        "german": "Blubber",
+        "spanish": "Burbuja",
+        "italian": "Bolla",
+        "english": "Bubble",
+        "japanese": "あわ",
+        "simplified-chinese": "泡沫",
+        "latin-american-spanish": "Burbuja"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "cute",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {
+        "xy": {
+            "power": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may reduce SPEED.",
+            "cr": "An attack that may reduce SPEED.",
+            "rs": "An attack using bubbles. May lower the foe’s SPEED.",
+            "em": "An attack using bubbles. May lower the foe’s SPEED.",
+            "frlg": "A spray of bubbles hits the foe. It may lower the foe’s SPEED stat.",
+            "dp": "A spray of countless bubbles is jetted at the foe. It may also lower the target’s Speed stat.",
+            "pt": "A spray of countless bubbles is jetted at the foe. It may also lower the target’s Speed stat.",
+            "hgss": "A spray of countless bubbles is jetted at the foe. It may also lower the target’s Speed stat.",
+            "bw": "A spray of countless bubbles is jetted at the opposing team. It may also lower the targets’ Speed stats.",
+            "b2w2": "A spray of countless bubbles is jetted at the opposing team. It may also lower the targets’ Speed stats.",
+            "xy": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stats.",
+            "oras": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stats.",
+            "sm": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat.",
+            "usum": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat.",
+            "lgpe": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse.",
+            "xy": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse.",
+            "oras": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse.",
+            "sm": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse.",
+            "usum": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse.",
+            "lgpe": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "むすうの　あわを　あいてに　ふきかけて こうげきする。あいての　すばやさを さげることが　ある。",
+            "oras": "むすうの　あわを　あいてに　ふきかけて こうげきする。あいての　すばやさを さげることが　ある。",
+            "sm": "むすうの　あわを　あいてに　ふきかけて こうげきする。　あいての　すばやさを さげることが　ある。",
+            "usum": "むすうの　あわを　あいてに　ふきかけて こうげきする。　あいての　すばやさを さげることが　ある。",
+            "lgpe": "むすうの　あわを　あいてに　ふきかけて こうげきする。　あいての　すばやさを さげることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "매우 많은 거품을 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "oras": "매우 많은 거품을 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "sm": "매우 많은 거품을 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "usum": "매우 많은 거품을 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "lgpe": "매우 많은 거품을 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Angriff mit Blasen. Initiative-Wert des Zieles wird eventuell gesenkt.",
+            "oras": "Angriff mit Blasen. Initiative-Wert des Zieles wird eventuell gesenkt.",
+            "sm": "Angriff mit Blasen. Initiative-Wert des Zieles wird eventuell gesenkt.",
+            "usum": "Angriff mit Blasen. Initiative-Wert des Zieles wird eventuell gesenkt.",
+            "lgpe": "Angriff mit Blasen. Initiative-Wert des Zieles wird eventuell gesenkt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "oras": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "sm": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "usum": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "lgpe": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.",
+            "oras": "Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.",
+            "sm": "Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.",
+            "usum": "Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.",
+            "lgpe": "Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "無数の　泡を　相手に　吹きかけて 攻撃する。相手の　素早さを さげることが　ある。",
+            "oras": "無数の　泡を　相手に　吹きかけて 攻撃する。相手の　素早さを さげることが　ある。",
+            "sm": "無数の　泡を　相手に　吹きかけて 攻撃する。　相手の　素早さを さげることが　ある。",
+            "usum": "無数の　泡を　相手に　吹きかけて 攻撃する。　相手の　素早さを さげることが　ある。",
+            "lgpe": "無数の　泡を　相手に　吹きかけて 攻撃する。　相手の　素早さを さげることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "oras": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "sm": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "usum": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "lgpe": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "將無數的泡泡吹向對手進行攻擊。 有時會降低對手的速度。",
+            "usum": "將無數的泡泡吹向對手進行攻擊。 有時會降低對手的速度。",
+            "lgpe": "將無數的泡泡吹向對手進行攻擊。 有時會降低對手的速度。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手用力吹起无数泡泡进行攻击。 有时会降低对手的速度。",
+            "usum": "向对手用力吹起无数泡泡进行攻击。 有时会降低对手的速度。",
+            "lgpe": "向对手用力吹起无数泡泡进行攻击。 有时会降低对手的速度。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

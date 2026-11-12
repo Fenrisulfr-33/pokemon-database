@@ -1,33 +1,93 @@
 {
-  "_id": 742,
-  "key": "double-iron-bash",
-  "name": {
-    "english": "Double Iron Bash",
-    "japanese": "ダブルパンツァー",
-    "chinese": "鋼拳雙擊",
-    "korean": "더블펀처",
-    "german": "Ferropuño Doble",
-    "french": "Panzerfäuste",
-    "italian": "Double Iron Bash",
-    "spanish": "Pugni Corazzati"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user rotates, centering the hex nut in its chest,\nand then strikes with its arms twice in a row. This may\nalso make the target flinch.",
-    "sword-shield": "The user rotates, centering the hex nut in its chest,\nand then strikes with its arms twice in a row. This may\nalso make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits twice in one turn.",
-    "shortEffect": "Hits twice in one turn."
-  },
-  "priority": 0
+    "_id": 742,
+    "key": "double-iron-bash",
+    "name": {
+        "japanese-kana": "ダブルパンツァー",
+        "korean": "더블펀처",
+        "traditional-chinese": "鋼拳雙擊",
+        "french": "Écrous d’Poing",
+        "german": "Panzerfäuste",
+        "spanish": "Ferropuño Doble",
+        "italian": "Pugni Corazzati",
+        "english": "Double Iron Bash",
+        "japanese": "ダブルパンツァー",
+        "simplified-chinese": "钢拳双击",
+        "latin-american-spanish": "Ferropuño Doble"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 2,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "むねの　ナットを　じくに　かいてんして ２かい　つづけて　うでを　たたきつける。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "むねの　ナットを　じくに　かいてんして ２かい　つづけて　うでを　たたきつける。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "lgpe": "가슴의 너트를 축으로 회전시켜 2번 연속 팔로 힘껏 친다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "가슴의 너트를 축으로 회전시켜 2번 연속 팔로 힘껏 친다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "traditional-chinese": {
+            "lgpe": "以胸口的螺帽為軸心旋轉， 連續２次揮動手臂痛擊對手。 有時會使對手畏縮。",
+            "swsh": "以胸口的螺帽為軸心旋轉， 連續２次揮動手臂痛擊對手。 有時會使對手畏縮。"
+        },
+        "french": {
+            "lgpe": "Le lanceur fait pivoter l’écrou de sa poitrine deux fois d’affilée pour frapper l’adversaire avec ses bras. Peut apeurer l’ennemi.",
+            "swsh": "Le lanceur fait pivoter l’écrou de sa poitrine deux fois d’affilée pour frapper l’adversaire avec ses bras. Peut apeurer l’ennemi."
+        },
+        "german": {
+            "lgpe": "Der Anwender rotiert um die Schraubenmutter in seinem Brustkorb und schlägt zweimal hintereinander mit den Armen zu. Das Ziel schreckt eventuell zurück.",
+            "swsh": "Der Anwender rotiert um die Schraubenmutter in seinem Brustkorb und schlägt zweimal hintereinander mit den Armen zu. Das Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "lgpe": "Usando la tuerca del pecho como eje, el usuario gira sobre sí mismo y golpea con los brazos dos veces seguidas. Puede hacer retroceder al rival.",
+            "swsh": "Usando la tuerca del pecho como eje, gira sobre sí mismo y golpea con los brazos dos veces seguidas. Puede amedrentar al rival."
+        },
+        "italian": {
+            "lgpe": "Chi la usa attacca il bersaglio due volte ruotando su se stesso e colpendolo con le braccia. Può anche farlo tentennare.",
+            "swsh": "Chi la usa attacca il bersaglio due volte ruotando su se stesso e colpendolo con le braccia. Può anche farlo tentennare."
+        },
+        "english": {
+            "lgpe": "The user rotates, centering the hex nut in its chest, and then strikes with its arms twice in a row. This may also make the target flinch.",
+            "swsh": "The user rotates, centering the hex nut in its chest, and then strikes with its arms twice in a row. This may also make the target flinch."
+        },
+        "japanese": {
+            "lgpe": "胸の　ナットを　軸に　回転して ２回　続けて　うでを　たたきつける。 相手を　ひるませる　ことが　ある。",
+            "swsh": "胸の　ナットを　軸に　回転して ２回　続けて　うでを　たたきつける。 相手を　ひるませる　ことが　ある。"
+        },
+        "simplified-chinese": {
+            "lgpe": "以胸口的螺帽为中心旋转， 并连续２次挥动手臂打击对手。 有时会使对手畏缩。",
+            "swsh": "以胸口的螺帽为中心旋转， 并连续２次挥动手臂打击对手。 有时会使对手畏缩。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Usando la tuerca del pecho como eje, el usuario gira sobre sí mismo y golpea con los brazos dos veces seguidas. Puede hacer retroceder al rival.",
+            "swsh": "Usando la tuerca del pecho como eje, gira sobre sí mismo y golpea con los brazos dos veces seguidas. Puede amedrentar al rival."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits twice in one turn.",
+        "shortEffect": "Hits twice in one turn."
+    }
 }

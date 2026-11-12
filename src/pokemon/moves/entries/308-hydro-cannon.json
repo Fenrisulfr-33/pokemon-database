@@ -1,45 +1,143 @@
 {
-  "_id": 308,
-  "key": "hydro-cannon",
-  "name": {
-    "english": "Hydro Cannon",
-    "japanese": "ハイドロカノン",
-    "chinese": "水电炮",
-    "korean": "하이드로캐논",
-    "german": "Hidrocañón",
-    "french": "Aquahaubitze",
-    "italian": "Hydro Cannon",
-    "spanish": "Idrocannone"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Powerful, but leaves the\nuser immobile the next turn.",
-    "emerald": "Powerful, but leaves the\nuser immobile the next turn.",
-    "firered-leafgreen": "The foe is hit with\na watery cannon.\nThe user can’t move\non the next turn.",
-    "diamond-pearl": "The foe is hit with\na watery blast.\nThe user must rest\non the next turn,\nhowever.",
-    "platinum": "The foe is hit with\na watery blast.\nThe user must rest\non the next turn,\nhowever.",
-    "heartgold-soulsilver": "The foe is hit with\na watery blast.\nThe user must rest\non the next turn,\nhowever.",
-    "black-white": "The target is hit with a watery blast.\nThe user must rest on the\nnext turn, however.",
-    "black-2-white-2": "The target is hit with a watery blast.\nThe user must rest on the\nnext turn, however.",
-    "x-y": "The target is hit with a watery blast.\nThe user can’t move on the next turn.",
-    "omega-ruby-alpha-sapphire": "The target is hit with a watery blast.\nThe user can’t move on the next turn.",
-    "sun-moon": "The target is hit with a watery blast. The user can’t\nmove on the next turn.",
-    "ultra-sun-ultra-moon": "The target is hit with a watery blast. The user can’t\nmove on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit with a watery blast. The user can’t\nmove on the next turn.",
-    "sword-shield": "The target is hit with a watery blast. The user can’t\nmove on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-    "shortEffect": "User foregoes its next turn to recharge."
-  },
-  "priority": 0
+    "_id": 308,
+    "key": "hydro-cannon",
+    "name": {
+        "japanese-kana": "ハイドロカノン",
+        "korean": "하이드로캐논",
+        "traditional-chinese": "加農水炮",
+        "french": "Hydroblast",
+        "german": "Aquahaubitze",
+        "spanish": "Hidrocañón",
+        "italian": "Idrocannone",
+        "english": "Hydro Cannon",
+        "japanese": "ハイドロカノン",
+        "simplified-chinese": "加农水炮",
+        "latin-american-spanish": "Hidrocañón"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Powerful, but leaves the user immobile the next turn.",
+            "em": "Powerful, but leaves the user immobile the next turn.",
+            "frlg": "The foe is hit with a watery cannon. The user can’t move on the next turn.",
+            "dp": "The foe is hit with a watery blast. The user must rest on the next turn, however.",
+            "pt": "The foe is hit with a watery blast. The user must rest on the next turn, however.",
+            "hgss": "The foe is hit with a watery blast. The user must rest on the next turn, however.",
+            "bw": "The target is hit with a watery blast. The user must rest on the next turn, however.",
+            "b2w2": "The target is hit with a watery blast. The user must rest on the next turn, however.",
+            "xy": "The target is hit with a watery blast. The user can’t move on the next turn.",
+            "oras": "The target is hit with a watery blast. The user can’t move on the next turn.",
+            "sm": "The target is hit with a watery blast. The user can’t move on the next turn.",
+            "usum": "The target is hit with a watery blast. The user can’t move on the next turn.",
+            "lgpe": "The target is hit with a watery blast. The user can’t move on the next turn.",
+            "swsh": "The target is hit with a watery blast. The user can’t move on the next turn.",
+            "sv": "The target is hit with a watery blast. The user can't move on the next turn."
+        },
+        "french": {
+            "bw": "Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "xy": "Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "oras": "Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "sm": "Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "usum": "Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "lgpe": "Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "swsh": "Une trombe d’eau heurte l’ennemi. Le lanceur doit se reposer au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "みずの　たいほうを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "oras": "ずの　たいほうを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "sm": "みずの　たいほうを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "usum": "みずの　たいほうを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "lgpe": "みずの　たいほうを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "swsh": "みずの　たいほうを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。"
+        },
+        "korean": {
+            "xy": "물의 대포를 상대에게 발사해서 공격한다. 다음 턴은 움직일 수 없다.",
+            "oras": "물의 대포를 상대에게 발사해서 공격한다. 다음 턴은 움직일 수 없다.",
+            "sm": "물의 대포를 상대에게 발사해서 공격한다. 다음 턴은 움직일 수 없다.",
+            "usum": "물의 대포를 상대에게 발사해서 공격한다. 다음 턴은 움직일 수 없다.",
+            "lgpe": "물의 대포를 상대에게 발사해서 공격한다. 다음 턴은 움직일 수 없다.",
+            "swsh": "물의 대포를 상대에게 발사해서 공격한다. 다음 턴은 움직일 수 없다."
+        },
+        "german": {
+            "xy": "Das Ziel wird von Wasserkanone getroffen. Angreifer setzt eine Runde aus.",
+            "oras": "Das Ziel wird von Wasserkanone getroffen. Angreifer setzt eine Runde aus.",
+            "sm": "Das Ziel wird von einer Wasserkanone getroffen. Angreifer setzt eine Runde aus.",
+            "usum": "Das Ziel wird von einer Wasserkanone getroffen. Angreifer setzt eine Runde aus.",
+            "lgpe": "Das Ziel wird von einer Wasserkanone getroffen. Angreifer setzt eine Runde aus.",
+            "swsh": "Das Ziel wird von einer Wasserkanone getroffen. Anwender setzt eine Runde aus."
+        },
+        "spanish": {
+            "xy": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "oras": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "sm": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "usum": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "lgpe": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "swsh": "Disparo de agua. El atacante debe descansar el siguiente turno."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un potente getto d’acqua. Chi la usa salta il turno successivo.",
+            "oras": "Colpisce il bersaglio con un potente getto d’acqua. Chi la usa salta il turno successivo.",
+            "sm": "Colpisce il bersaglio con un potente getto d’acqua. Chi la usa salta il turno successivo.",
+            "usum": "Colpisce il bersaglio con un potente getto d’acqua. Chi la usa salta il turno successivo.",
+            "lgpe": "Colpisce il bersaglio con un potente getto d’acqua. Chi la usa salta il turno successivo.",
+            "swsh": "Colpisce il bersaglio con un potente getto d’acqua. Chi la usa salta il turno successivo."
+        },
+        "japanese": {
+            "xy": "水の　大砲を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "oras": "水の　大砲を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "sm": "水の　大砲を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "usum": "水の　大砲を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "lgpe": "水の　大砲を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "swsh": "水の　大砲を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "oras": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "sm": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "usum": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "lgpe": "Disparo de agua. El atacante debe descansar el siguiente turno.",
+            "swsh": "Disparo de agua. El atacante debe descansar el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射水炮進行攻擊。 下一回合自己將無法動彈。",
+            "usum": "向對手發射水炮進行攻擊。 下一回合自己將無法動彈。",
+            "lgpe": "向對手發射水炮進行攻擊。 下一回合自己將無法動彈。",
+            "swsh": "向對手發射水炮進行攻擊。 下一回合自己將無法動彈。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手喷射水炮进行攻击。 下一回合自己将无法动弹。",
+            "usum": "向对手喷射水炮进行攻击。 下一回合自己将无法动弹。",
+            "lgpe": "向对手喷射水炮进行攻击。 下一回合自己将无法动弹。",
+            "swsh": "向对手喷射水炮进行攻击。 下一回合自己将无法动弹。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+        "shortEffect": "User foregoes its next turn to recharge."
+    }
 }

@@ -1,45 +1,144 @@
 {
-  "_id": 304,
-  "key": "hyper-voice",
-  "name": {
-    "english": "Hyper Voice",
-    "japanese": "ハイパーボイス",
-    "chinese": "高音",
-    "korean": "하이퍼보이스",
-    "german": "Vozarrón",
-    "french": "Schallwelle",
-    "italian": "Hyper Voice",
-    "spanish": "Granvoce"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A loud attack that uses\nsound waves to injure.",
-    "emerald": "A loud attack that uses\nsound waves to injure.",
-    "firered-leafgreen": "The user lets loose\na horribly loud\nshout with the\npower to damage.",
-    "diamond-pearl": "The user lets loose\na horribly echoing\nshout with the\npower to inflict\ndamage.",
-    "platinum": "The user lets loose\na horribly echoing\nshout with the\npower to inflict\ndamage.",
-    "heartgold-soulsilver": "The user lets loose\na horribly echoing\nshout with the\npower to inflict\ndamage.",
-    "black-white": "The user lets loose a horribly echoing\nshout with the power to inflict damage.",
-    "black-2-white-2": "The user lets loose a horribly echoing\nshout with the power to inflict damage.",
-    "x-y": "The user lets loose a horribly echoing\nshout with the power to inflict damage.",
-    "omega-ruby-alpha-sapphire": "The user lets loose a horribly echoing\nshout with the power to inflict damage.",
-    "sun-moon": "The user lets loose a horribly echoing shout with\nthe power to inflict damage.",
-    "ultra-sun-ultra-moon": "The user lets loose a horribly echoing shout with\nthe power to inflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets loose a horribly echoing shout with\nthe power to inflict damage.",
-    "sword-shield": "The user lets loose a horribly echoing shout with\nthe power to inflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 304,
+    "key": "hyper-voice",
+    "name": {
+        "japanese-kana": "ハイパーボイス",
+        "korean": "하이퍼보이스",
+        "traditional-chinese": "巨聲",
+        "french": "Mégaphone",
+        "german": "Schallwelle",
+        "spanish": "Vozarrón",
+        "italian": "Granvoce",
+        "english": "Hyper Voice",
+        "japanese": "ハイパーボイス",
+        "simplified-chinese": "巨声",
+        "latin-american-spanish": "Hipervoz"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cool",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A loud attack that uses sound waves to injure.",
+            "em": "A loud attack that uses sound waves to injure.",
+            "frlg": "The user lets loose a horribly loud shout with the power to damage.",
+            "dp": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "pt": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "hgss": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "bw": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "b2w2": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "xy": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "oras": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "sm": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "usum": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "lgpe": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "swsh": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "la": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+            "sv": "The user attacks by letting loose a horribly loud, resounding cry."
+        },
+        "french": {
+            "bw": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts.",
+            "xy": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts.",
+            "oras": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts.",
+            "sm": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts à l’ennemi.",
+            "usum": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts à l’ennemi.",
+            "lgpe": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts à l’ennemi.",
+            "swsh": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts à l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "うるさく　ひびく　おおきな　しんどうを あいてに　あたえて　こうげきする。",
+            "oras": "うるさく　ひびく　おおきな　しんどうを あいてに　あたえて　こうげきする。",
+            "sm": "うるさく　ひびく　おおきな　しんどうを あいてに　あたえて　こうげきする。",
+            "usum": "うるさく　ひびく　おおきな　しんどうを あいてに　あたえて　こうげきする。",
+            "lgpe": "うるさく　ひびく　おおきな　しんどうを あいてに　あたえて　こうげきする。",
+            "swsh": "うるさく　ひびく　おおきな　しんどうを あいてに　あたえて　こうげきする。"
+        },
+        "korean": {
+            "xy": "시끄럽게 울려서 큰 진동을 상대에게 전달하여 공격한다.",
+            "oras": "시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다.",
+            "sm": "시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다.",
+            "usum": "시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다.",
+            "lgpe": "시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다.",
+            "swsh": "시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다."
+        },
+        "german": {
+            "xy": "Laute Attacke mit Schallwellen.",
+            "oras": "Laute Attacke mit Schallwellen.",
+            "sm": "Laute Attacke mit Schallwellen.",
+            "usum": "Laute Attacke mit Schallwellen.",
+            "lgpe": "Laute Attacke mit Schallwellen.",
+            "swsh": "Eine laute Attacke, bei der gegnerische Pokémon mit Schallwellen angegriffen werden."
+        },
+        "spanish": {
+            "xy": "Grito desgarrador que inflige daño al objetivo.",
+            "oras": "Grito desgarrador que inflige daño al objetivo.",
+            "sm": "Grito desgarrador que inflige daño al objetivo.",
+            "usum": "Grito desgarrador que inflige daño al objetivo.",
+            "lgpe": "Grito desgarrador que inflige daño al objetivo.",
+            "swsh": "Grito desgarrador que inflige daño al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia un urlo straziante che danneggia i nemici intorno a sé.",
+            "oras": "Chi la usa lancia un urlo straziante che danneggia i nemici intorno a sé.",
+            "sm": "Chi la usa lancia un urlo straziante che danneggia i nemici intorno a sé.",
+            "usum": "Chi la usa lancia un urlo straziante che danneggia i nemici intorno a sé.",
+            "lgpe": "Chi la usa lancia un urlo straziante che danneggia i nemici intorno a sé.",
+            "swsh": "Chi la usa lancia un urlo straziante che danneggia i nemici intorno a sé."
+        },
+        "japanese": {
+            "xy": "うるさく　響く　大きな　振動を 相手に　与えて　攻撃する。",
+            "oras": "うるさく　響く　大きな　振動を 相手に　与えて　攻撃する。",
+            "sm": "うるさく　響く　大きな　振動を 相手に　与えて　攻撃する。",
+            "usum": "うるさく　響く　大きな　振動を 相手に　与えて　攻撃する。",
+            "lgpe": "うるさく　響く　大きな　振動を 相手に　与えて　攻撃する。",
+            "swsh": "うるさく　響く　大きな　振動を 相手に　与えて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Grito desgarrador que inflige daño al objetivo.",
+            "oras": "Grito desgarrador que inflige daño al objetivo.",
+            "sm": "Grito desgarrador que inflige daño al objetivo.",
+            "usum": "Grito desgarrador que inflige daño al objetivo.",
+            "lgpe": "Grito desgarrador que inflige daño al objetivo.",
+            "swsh": "Grito desgarrador que inflige daño al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "製造出震耳欲聾的 巨大聲波攻擊對手。",
+            "usum": "製造出震耳欲聾的 巨大聲波攻擊對手。",
+            "lgpe": "製造出震耳欲聾的 巨大聲波攻擊對手。",
+            "swsh": "製造出震耳欲聾的 巨大聲波攻擊對手。"
+        },
+        "simplified-chinese": {
+            "sm": "给予对手又吵又响的 巨大震动进行攻击。",
+            "usum": "给予对手又吵又响的 巨大震动进行攻击。",
+            "lgpe": "给予对手又吵又响的 巨大震动进行攻击。",
+            "swsh": "给予对手又吵又响的 巨大震动进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

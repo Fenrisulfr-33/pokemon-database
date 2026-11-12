@@ -1,47 +1,156 @@
 {
-  "_id": 143,
-  "key": "sky-attack",
-  "name": {
-    "english": "Sky Attack",
-    "japanese": "ゴッドバード",
-    "chinese": "高空攻击",
-    "korean": "불새",
-    "german": "Ataque Aéreo",
-    "french": "Himmelsfeger",
-    "italian": "Sky Attack",
-    "spanish": "Aeroattacco"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 140,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "1st turn: Prepare\n2nd turn: Attack",
-    "crystal": "1st turn: Prepare\n2nd turn: Attack",
-    "ruby-sapphire": "Searches out weak spots,\nthen strikes the next turn.",
-    "emerald": "Searches out weak spots,\nthen strikes the next turn.",
-    "firered-leafgreen": "A 2nd-turn attack\nmove with a high\ncritical-hit ratio.\nThe foe may flinch.",
-    "diamond-pearl": "A second-turn attack\nmove with a high\ncritical-hit ratio.\nIt may also make the\ntarget flinch.",
-    "platinum": "A second-turn attack\nmove with a high\ncritical-hit ratio.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "A second-turn attack\nmove with a high\ncritical-hit ratio.\nIt may also make the\ntarget flinch.",
-    "black-white": "A second-turn attack move where\ncritical hits land more easily.\nIt may also make the target flinch.",
-    "black-2-white-2": "A second-turn attack move where\ncritical hits land more easily.\nIt may also make the target flinch.",
-    "x-y": "A second-turn attack move where\ncritical hits land more easily.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "A second-turn attack move where\ncritical hits land more easily.\nThis may also make the target flinch.",
-    "sun-moon": "A second-turn attack move where critical hits land\nmore easily. This may also make the target flinch.",
-    "ultra-sun-ultra-moon": "A second-turn attack move where critical hits land\nmore easily. This may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "A second-turn attack move where critical hits land\nmore easily. This may also make the target flinch.",
-    "sword-shield": "A second-turn attack move where critical hits land\nmore easily. This may also make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User charges for one turn before attacking.  Critical hit chance is one level higher than normal.  Has a $effect_chance% chance to make the target flinch.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "User charges for one turn before attacking.  Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 143,
+    "key": "sky-attack",
+    "name": {
+        "japanese-kana": "ゴッドバード",
+        "korean": "불새",
+        "traditional-chinese": "神鳥猛擊",
+        "french": "Piqué",
+        "german": "Himmelsfeger",
+        "spanish": "Ataque Aéreo",
+        "italian": "Aeroattacco",
+        "english": "Sky Attack",
+        "japanese": "ゴッドバード",
+        "simplified-chinese": "神鸟猛击",
+        "latin-american-spanish": "Ataque Celestial"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 5,
+    "power": 140,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 10
+        },
+        "lgpe": {
+            "power": 140
+        },
+        "swsh": {
+            "power": 200
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "1st turn: Prepare 2nd turn: Attack",
+            "cr": "1st turn: Prepare 2nd turn: Attack",
+            "rs": "Searches out weak spots, then strikes the next turn.",
+            "em": "Searches out weak spots, then strikes the next turn.",
+            "frlg": "A 2nd-turn attack move with a high critical-hit ratio. The foe may flinch.",
+            "dp": "A second-turn attack move with a high critical-hit ratio. It may also make the target flinch.",
+            "pt": "A second-turn attack move with a high critical-hit ratio. It may also make the target flinch.",
+            "hgss": "A second-turn attack move with a high critical-hit ratio. It may also make the target flinch.",
+            "bw": "A second-turn attack move where critical hits land more easily. It may also make the target flinch.",
+            "b2w2": "A second-turn attack move where critical hits land more easily. It may also make the target flinch.",
+            "xy": "A second-turn attack move where critical hits land more easily. This may also make the target flinch.",
+            "oras": "A second-turn attack move where critical hits land more easily. This may also make the target flinch.",
+            "sm": "A second-turn attack move where critical hits land more easily. This may also make the target flinch.",
+            "usum": "A second-turn attack move where critical hits land more easily. This may also make the target flinch.",
+            "lgpe": "A second-turn attack move where critical hits land more easily. This may also make the target flinch.",
+            "swsh": "A second-turn attack move where critical hits land more easily. This may also make the target flinch.",
+            "la": "A second-turn attack move where critical hits land more easily. This may also make the target flinch.",
+            "sv": "The user attacks the turn after using this move. This move has a heightened chance of landing a critical hit and may also make the target flinch."
+        },
+        "french": {
+            "bw": "Une attaque en 2 tours au taux de critiques élevé. Peut aussi apeurer l’ennemi.",
+            "xy": "Une attaque en deux tours au taux de critiques élevé. Peut aussi apeurer l’ennemi.",
+            "oras": "Une attaque en deux tours au taux de critiques élevé. Peut aussi apeurer l’ennemi.",
+            "sm": "Une attaque en deux tours au taux de critique élevé. Peut aussi apeurer l’ennemi.",
+            "usum": "Une attaque en deux tours au taux de critique élevé. Peut aussi apeurer l’ennemi.",
+            "lgpe": "Une attaque en deux tours au taux de critique élevé. Peut aussi apeurer l’ennemi.",
+            "swsh": "Une attaque en deux tours au taux de critiques élevé. Peut aussi apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "２ターンめに　あいてを　こうげきする。 たまに　ひるませる。 きゅうしょにも　あたりやすい。",
+            "oras": "２ターンめに　あいてを　こうげきする。 たまに　ひるませる。 きゅうしょにも　あたりやすい。",
+            "sm": "２ターンめに　あいてを　こうげきする。 たまに　ひるませる。 きゅうしょにも　あたりやすい。",
+            "usum": "２ターンめに　あいてを　こうげきする。 たまに　ひるませる。 きゅうしょにも　あたりやすい。",
+            "lgpe": "２ターンめに　あいてを　こうげきする。 たまに　ひるませる。 きゅうしょにも　あたりやすい。",
+            "swsh": "２ターンめに　あいてを　こうげきする。 たまに　ひるませる。 きゅうしょにも　あたりやすい。"
+        },
+        "korean": {
+            "xy": "2턴째에 상대를 공격한다. 가끔 풀죽게 만든다. 급소에도 맞기 쉽다.",
+            "oras": "2턴째에 상대를 공격한다. 가끔 풀죽게 만든다. 급소에도 맞기 쉽다.",
+            "sm": "2턴째에 상대를 공격한다. 가끔 풀죽게 만든다. 급소에도 맞기 쉽다.",
+            "usum": "2턴째에 상대를 공격한다. 가끔 풀죽게 만든다. 급소에도 맞기 쉽다.",
+            "lgpe": "2턴째에 상대를 공격한다. 가끔 풀죽게 만든다. 급소에도 맞기 쉽다.",
+            "swsh": "2턴째에 상대를 공격한다. 가끔 풀죽게 만든다. 급소에도 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Anwender greift in der zweiten Runde mit hoher Volltrefferquote an. Ziel schreckt eventuell zurück.",
+            "oras": "Anwender greift in der zweiten Runde mit hoher Volltrefferquote an. Ziel schreckt eventuell zurück.",
+            "sm": "Anwender greift in der zweiten Runde mit hoher Volltrefferquote an. Ziel schreckt eventuell zurück.",
+            "usum": "Anwender greift in der zweiten Runde mit hoher Volltrefferquote an. Ziel schreckt eventuell zurück.",
+            "lgpe": "Anwender greift in der zweiten Runde mit hoher Volltrefferquote an. Ziel schreckt eventuell zurück.",
+            "swsh": "Anwender greift in der zweiten Runde mit hoher Volltrefferquote an. Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "oras": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "sm": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "usum": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "lgpe": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "swsh": "Ataca durante dos turnos y suele asestar un golpe crítico. También puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Attacco in due turni e probabile brutto colpo. Può anche far tentennare il bersaglio.",
+            "oras": "Attacco in due turni e probabile brutto colpo. Può anche far tentennare il bersaglio.",
+            "sm": "Attacco in due turni e probabile brutto colpo. Può anche far tentennare il bersaglio.",
+            "usum": "Attacco in due turni e probabile brutto colpo. Può anche far tentennare il bersaglio.",
+            "lgpe": "Attacco in due turni e probabile brutto colpo. Può anche far tentennare il bersaglio.",
+            "swsh": "Attacco in due turni e probabile brutto colpo. Può anche far tentennare il bersaglio."
+        },
+        "japanese": {
+            "xy": "２ターン目に　相手を　攻撃する。 たまに　ひるませる。 急所にも　当たりやすい。",
+            "oras": "２ターン目に　相手を　攻撃する。 たまに　ひるませる。 急所にも　当たりやすい。",
+            "sm": "２ターン目に　相手を　攻撃する。 たまに　ひるませる。 急所にも　当たりやすい。",
+            "usum": "２ターン目に　相手を　攻撃する。 たまに　ひるませる。 急所にも　当たりやすい。",
+            "lgpe": "２ターン目に　相手を　攻撃する。 たまに　ひるませる。 急所にも　当たりやすい。",
+            "swsh": "２ターン目に　相手を　攻撃する。 たまに　ひるませる。 急所にも　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "oras": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "sm": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "usum": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "lgpe": "Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.",
+            "swsh": "Ataca durante dos turnos y suele asestar un golpe crítico. También puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "在使用後的下一回合進行攻擊。 有時會使對手畏縮。 且容易擊中要害。",
+            "usum": "在使用後的下一回合進行攻擊。 有時會使對手畏縮。 且容易擊中要害。",
+            "lgpe": "在使用後的下一回合進行攻擊。 有時會使對手畏縮。 且容易擊中要害。",
+            "swsh": "在使用後的下一回合進行攻擊。 有時會使對手畏縮。 且容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "第２回合攻击对手。 偶尔使对手畏缩。 也容易击中要害。",
+            "usum": "第２回合攻击对手。 偶尔使对手畏缩。 也容易击中要害。",
+            "lgpe": "第２回合攻击对手。 偶尔使对手畏缩。 也容易击中要害。",
+            "swsh": "第２回合攻击对手。 偶尔使对手畏缩。 也容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User charges for one turn before attacking.  Critical hit chance is one level higher than normal.  Has a chance to make the target flinch. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "User charges for one turn before attacking.  Has a chance to make the target flinch."
+    }
 }

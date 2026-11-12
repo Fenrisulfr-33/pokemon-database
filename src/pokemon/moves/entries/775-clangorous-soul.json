@@ -1,29 +1,84 @@
 {
-  "_id": 775,
-  "key": "clangorous-soul",
-  "name": {
-    "english": "Clangorous Soul",
-    "japanese": "ソウルビート",
-    "chinese": "魂舞烈音爆",
-    "korean": "소울비트",
-    "german": "Estruendo Escama",
-    "french": "Seelentanz",
-    "italian": "Clangorous Soul",
-    "spanish": "Dracofonia"
-  },
-  "type": "Dragon",
-  "category": "Status",
-  "contest": null,
-  "pp": 5,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 8,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user raises all its stats by using some of its HP."
-  },
-  "effect": {},
-  "priority": 0
+    "_id": 775,
+    "key": "clangorous-soul",
+    "name": {
+        "japanese-kana": "ソウルビート",
+        "korean": "소울비트",
+        "traditional-chinese": "魂舞烈音爆",
+        "french": "Dracacophonie",
+        "german": "Seelentanz",
+        "spanish": "Estruendo Escama",
+        "italian": "Dracofonia",
+        "english": "Clangorous Soul",
+        "japanese": "ソウルビート",
+        "simplified-chinese": "魂舞烈音爆",
+        "latin-american-spanish": "Estruendo Escama"
+    },
+    "type": "dragon",
+    "category": "status",
+    "contest": null,
+    "pp": 5,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": -33,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "じぶんの　ＨＰを　すこし　けずって すべての　のうりょくを　あげる。"
+        },
+        "korean": {
+            "swsh": "자신의 HP를 조금 깎아서 모든 능력을 올린다."
+        },
+        "traditional-chinese": {
+            "swsh": "消耗一些自己的ＨＰ， 提高自己的所有能力。"
+        },
+        "french": {
+            "swsh": "Le lanceur sacrifie une partie de ses PV pour augmenter toutes ses stats."
+        },
+        "german": {
+            "swsh": "Der Anwender setzt eine kleine Menge an KP ein, um alle seine Statuswerte zu erhöhen."
+        },
+        "spanish": {
+            "swsh": "Utiliza parte de los PS propios para subir sus características."
+        },
+        "italian": {
+            "swsh": "Chi la usa sacrifica un po’ dei suoi PS per aumentare tutte le sue statistiche."
+        },
+        "english": {
+            "swsh": "The user raises all its stats by using some of its HP.",
+            "la": "The user raises all its stats by using some of its HP.",
+            "sv": "The user boosts all its stats by using some of its own HP."
+        },
+        "japanese": {
+            "swsh": "自分の　ＨＰを　少し　削って すべての　能力を　上げる。"
+        },
+        "simplified-chinese": {
+            "swsh": "削减少许自己的ＨＰ， 使所有能力都提高。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Utiliza parte de los PS propios para subir sus características."
+        }
+    },
+    "effect": {
+        "full": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "shortEffect": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage."
+    }
 }

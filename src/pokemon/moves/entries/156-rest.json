@@ -1,47 +1,153 @@
 {
-  "_id": 156,
-  "key": "rest",
-  "name": {
-    "english": "Rest",
-    "japanese": "ねむる",
-    "chinese": "睡觉",
-    "korean": "잠자기",
-    "german": "Descanso",
-    "french": "Erholung",
-    "italian": "Rest",
-    "spanish": "Riposo"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Sleep for 2 turns\nto fully recover.",
-    "crystal": "Sleep for 2 turns\nto fully recover.",
-    "ruby-sapphire": "The user sleeps for 2 turns,\nrestoring HP and status.",
-    "emerald": "The user sleeps for 2 turns,\nrestoring HP and status.",
-    "firered-leafgreen": "The user sleeps for\ntwo turns to fully\nrestore HP and heal\nany status problem.",
-    "diamond-pearl": "The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem.",
-    "platinum": "The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem.",
-    "heartgold-soulsilver": "The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem.",
-    "black-white": "The user goes to sleep for two turns.\nIt fully restores the user’s HP and heals\nany status problem.",
-    "black-2-white-2": "The user goes to sleep for two turns.\nIt fully restores the user’s HP and heals\nany status problem.",
-    "x-y": "The user goes to sleep for two turns.\nThis fully restores the user’s HP and\nheals any status conditions.",
-    "omega-ruby-alpha-sapphire": "The user goes to sleep for two turns.\nThis fully restores the user’s HP and\nheals any status conditions.",
-    "sun-moon": "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions.",
-    "ultra-sun-ultra-moon": "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions.",
-    "lets-go-pikachu-lets-go-eevee": "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions.",
-    "sword-shield": "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions."
-  },
-  "effect": {
-    "full": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early bird.\n\nThis move fails if the Pokémon cannot fall asleep due to uproar, insomnia, or vital spirit.  It also fails if the Pokémon is at full health or is already asleep.",
-    "shortEffect": "User sleeps for two turns, completely healing itself."
-  },
-  "priority": 0
+    "_id": 156,
+    "key": "rest",
+    "name": {
+        "japanese-kana": "ねむる",
+        "korean": "잠자기",
+        "traditional-chinese": "睡覺",
+        "french": "Repos",
+        "german": "Erholung",
+        "spanish": "Descanso",
+        "italian": "Riposo",
+        "english": "Rest",
+        "japanese": "ねむる",
+        "simplified-chinese": "睡觉",
+        "latin-american-spanish": "Descanso"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cute",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "dp": "Fonctionne pendant le sommeil grâce à Blabla Dodo si les PV ne sont pas au maximum."
+        },
+        "english": {
+            "dp": "Works while asleep through Sleep Talk if not at full health."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Sleep for 2 turns to fully recover.",
+            "cr": "Sleep for 2 turns to fully recover.",
+            "rs": "The user sleeps for 2 turns, restoring HP and status.",
+            "em": "The user sleeps for 2 turns, restoring HP and status.",
+            "frlg": "The user sleeps for two turns to fully restore HP and heal any status problem.",
+            "dp": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",
+            "pt": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",
+            "hgss": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",
+            "bw": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",
+            "b2w2": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",
+            "xy": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.",
+            "oras": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.",
+            "sm": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.",
+            "usum": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.",
+            "lgpe": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.",
+            "swsh": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.",
+            "la": "The user restores its own HP but also becomes drowsy.",
+            "sv": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions."
+        },
+        "french": {
+            "bw": "Le lanceur dort pendant 2 tours. Il regagne tous ses PV et n’a plus de problèmes de statut.",
+            "xy": "Le lanceur regagne tous ses PV et soigne ses problèmes de statut, puis il dort pendant deux tours.",
+            "oras": "Le lanceur regagne tous ses PV et soigne ses problèmes de statut, puis il dort pendant deux tours.",
+            "sm": "Le lanceur regagne tous ses PV et soigne ses problèmes de statut, puis il dort pendant deux tours.",
+            "usum": "Le lanceur regagne tous ses PV et soigne ses problèmes de statut, puis il dort pendant deux tours.",
+            "lgpe": "Le lanceur regagne tous ses PV et soigne ses altérations de statut, puis il dort pendant deux tours.",
+            "swsh": "Le lanceur regagne tous ses PV et soigne ses altérations de statut, puis il dort pendant deux tours."
+        },
+        "japanese-kana": {
+            "xy": "２ターンの　あいだ　ねむり　つづける。 じぶんの　ＨＰと　じょうたいいじょうを すべて　かいふく　する。",
+            "oras": "２ターンの　あいだ　ねむり　つづける。 じぶんの　ＨＰと　じょうたいいじょうを すべて　かいふく　する。",
+            "sm": "２ターンの　あいだ　ねむり　つづける。 じぶんの　ＨＰと　じょうたいいじょうを すべて　かいふく　する。",
+            "usum": "２ターンの　あいだ　ねむり　つづける。 じぶんの　ＨＰと　じょうたいいじょうを すべて　かいふく　する。",
+            "lgpe": "２ターンの　あいだ　ねむり　つづける。 じぶんの　ＨＰと　じょうたいいじょうを すべて　かいふく　する。",
+            "swsh": "２ターンの　あいだ　ねむり　つづける。 じぶんの　ＨＰと　じょうたいいじょうを すべて　かいふく　する。"
+        },
+        "korean": {
+            "xy": "2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다.",
+            "oras": "2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다.",
+            "sm": "2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다.",
+            "usum": "2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다.",
+            "lgpe": "2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다.",
+            "swsh": "2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다."
+        },
+        "german": {
+            "xy": "Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.",
+            "oras": "Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.",
+            "sm": "Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden.",
+            "usum": "Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden.",
+            "lgpe": "Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden.",
+            "swsh": "Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden."
+        },
+        "spanish": {
+            "xy": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "oras": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "sm": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "usum": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "lgpe": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "swsh": "Restaura todos los PS y cura todos los problemas de estado del usuario, que se duerme los dos turnos siguientes."
+        },
+        "italian": {
+            "xy": "Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni.",
+            "oras": "Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni.",
+            "sm": "Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni.",
+            "usum": "Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni.",
+            "lgpe": "Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni.",
+            "swsh": "Chi la usa recupera tutti i PS e guarisce da tutti i suoi problemi di stato, ma dorme per due turni."
+        },
+        "japanese": {
+            "xy": "２ターンの　あいだ　眠り続ける。 自分の　ＨＰと　状態異常を すべて　回復する。",
+            "oras": "２ターンの　あいだ　眠り続ける。 自分の　ＨＰと　状態異常を すべて　回復する。",
+            "sm": "２ターンの　間　眠り続ける。 自分の　ＨＰと　状態異常を すべて　回復する。",
+            "usum": "２ターンの　間　眠り続ける。 自分の　ＨＰと　状態異常を すべて　回復する。",
+            "lgpe": "２ターンの　間　眠り続ける。 自分の　ＨＰと　状態異常を すべて　回復する。",
+            "swsh": "２ターンの　間　眠り続ける。 自分の　ＨＰと　状態異常を すべて　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "oras": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "sm": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "usum": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "lgpe": "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.",
+            "swsh": "Restaura todos los PS y cura todos los problemas de estado del usuario, que se duerme los dos turnos siguientes."
+        },
+        "traditional-chinese": {
+            "sm": "連續睡２回合。 回復自己的全部ＨＰ 以及治癒所有異常狀態。",
+            "usum": "連續睡２回合。 回復自己的全部ＨＰ 以及治癒所有異常狀態。",
+            "lgpe": "連續睡２回合。 回復自己的全部HP 以及治癒所有異常狀態。",
+            "swsh": "連續睡２回合。 回復自己的全部ＨＰ 以及治癒所有異常狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "连续睡上２回合。 回复自己的全部ＨＰ 以及治愈所有异常状态。",
+            "usum": "连续睡上２回合。 回复自己的全部ＨＰ 以及治愈所有异常状态。",
+            "lgpe": "连续睡上２回合。 回复自己的全部HP 以及治愈所有异常状态。",
+            "swsh": "连续睡上２回合。 回复自己的全部ＨＰ 以及治愈所有异常状态。"
+        }
+    },
+    "effect": {
+        "full": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with Early Bird. This move fails if the Pokémon cannot fall asleep due to Uproar, Insomnia, or Vital Spirit.  It also fails if the Pokémon is at full health or is already asleep.",
+        "shortEffect": "User sleeps for two turns, completely healing itself."
+    }
 }

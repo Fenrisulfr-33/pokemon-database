@@ -1,42 +1,141 @@
 {
-  "_id": 454,
-  "key": "attack-order",
-  "name": {
-    "english": "Attack Order",
-    "japanese": "こうげきしれい",
-    "chinese": "攻击指令",
-    "korean": "공격지령",
-    "german": "Al Ataque",
-    "french": "Schlagbefehl",
-    "italian": "Attack Order",
-    "spanish": "Comandourto"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.",
-    "platinum": "The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.",
-    "heartgold-soulsilver": "The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.",
-    "black-white": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
-    "black-2-white-2": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
-    "x-y": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
-    "sun-moon": "The user calls out its underlings to pummel the\ntarget. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "The user calls out its underlings to pummel the\ntarget. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The user calls out its underlings to pummel the\ntarget. Critical hits land more easily.",
-    "sword-shield": "The user calls out its underlings to pummel the\ntarget. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 454,
+    "key": "attack-order",
+    "name": {
+        "japanese-kana": "こうげきしれい",
+        "korean": "공격지령",
+        "traditional-chinese": "攻擊指令",
+        "french": "Appel Attaque",
+        "german": "Schlagbefehl",
+        "spanish": "Al Ataque",
+        "italian": "Comandourto",
+        "english": "Attack Order",
+        "japanese": "こうげきしれい",
+        "simplified-chinese": "攻击指令",
+        "latin-american-spanish": "Al Ataque"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user calls out its underlings to pummel the foe. It has a high critical-hit ratio.",
+            "pt": "The user calls out its underlings to pummel the foe. It has a high critical-hit ratio.",
+            "hgss": "The user calls out its underlings to pummel the foe. It has a high critical-hit ratio.",
+            "bw": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "b2w2": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "xy": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "oras": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "sm": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "usum": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "lgpe": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "swsh": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "la": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+            "sv": "The user calls out its underlings to pummel the target. This move has a heightened chance of landing a critical hit."
+        },
+        "french": {
+            "bw": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critiques élevé.",
+            "xy": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critiques élevé.",
+            "oras": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critiques élevé.",
+            "sm": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critique élevé.",
+            "usum": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critique élevé.",
+            "lgpe": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critique élevé.",
+            "swsh": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critiques élevé."
+        },
+        "japanese-kana": {
+            "xy": "しもべを　よびだして あいてに　むかって　こうげき　させる。 きゅうしょに　あたりやすい。",
+            "oras": "しもべを　よびだして あいてに　むかって　こうげき　させる。 きゅうしょに　あたりやすい。",
+            "sm": "しもべを　よびだして あいてに　むかって　こうげき　させる。 きゅうしょに　あたりやすい。",
+            "usum": "しもべを　よびだして あいてに　むかって　こうげき　させる。 きゅうしょに　あたりやすい。",
+            "lgpe": "しもべを　よびだして あいてに　むかって　こうげき　させる。 きゅうしょに　あたりやすい。",
+            "swsh": "しもべを　よびだして あいてに　むかって　こうげき　させる。 きゅうしょに　あたりやすい。"
+        },
+        "korean": {
+            "xy": "부하를 불러내어 상대를 향해서 공격시킨다. 급소에 맞기 쉽다.",
+            "oras": "부하를 불러내어 상대를 향해서 공격시킨다. 급소에 맞기 쉽다.",
+            "sm": "부하를 불러내어 상대를 향해서 공격시킨다. 급소에 맞기 쉽다.",
+            "usum": "부하를 불러내어 상대를 향해서 공격시킨다. 급소에 맞기 쉽다.",
+            "lgpe": "부하를 불러내어 상대를 향해서 공격시킨다. 급소에 맞기 쉽다.",
+            "swsh": "부하를 불러내어 상대를 향해서 공격시킨다. 급소에 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Anwender ruft seine Untergebenen zum Angriff. Hat eine hohe Volltrefferquote.",
+            "oras": "Anwender ruft seine Untergebenen zum Angriff. Hat eine hohe Volltrefferquote.",
+            "sm": "Anwender ruft seine Untergebenen zum Angriff. Hat eine hohe Volltrefferquote.",
+            "usum": "Anwender ruft seine Untergebenen zum Angriff. Hat eine hohe Volltrefferquote.",
+            "lgpe": "Anwender ruft seine Untergebenen zum Angriff. Hat eine hohe Volltrefferquote.",
+            "swsh": "Anwender ruft seine Untergebenen zum Angriff. Hat eine hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "oras": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "sm": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "usum": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "lgpe": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "swsh": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa raduna i suoi sgherri per colpire il bersaglio. Probabile brutto colpo.",
+            "oras": "Chi la usa raduna i suoi sgherri per colpire il bersaglio. Probabile brutto colpo.",
+            "sm": "Chi la usa raduna i suoi sgherri per colpire il bersaglio. Probabile brutto colpo.",
+            "usum": "Chi la usa raduna i suoi sgherri per colpire il bersaglio. Probabile brutto colpo.",
+            "lgpe": "Chi la usa raduna i suoi sgherri per colpire il bersaglio. Probabile brutto colpo.",
+            "swsh": "Chi la usa raduna i suoi sgherri per colpire il bersaglio. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "しもべを　呼びだして 相手に　むかって　攻撃させる。 急所に　当たりやすい。",
+            "oras": "しもべを　呼びだして 相手に　むかって　攻撃させる。 急所に　当たりやすい。",
+            "sm": "しもべを　呼びだして 相手に　むかって　攻撃させる。 急所に　当たりやすい。",
+            "usum": "しもべを　呼びだして 相手に　むかって　攻撃させる。 急所に　当たりやすい。",
+            "lgpe": "しもべを　呼びだして 相手に　むかって　攻撃させる。 急所に　当たりやすい。",
+            "swsh": "しもべを　呼びだして 相手に　むかって　攻撃させる。 急所に　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "oras": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "sm": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "usum": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "lgpe": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+            "swsh": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico."
+        },
+        "traditional-chinese": {
+            "sm": "呼喚手下， 向對手發動攻擊。 容易擊中要害。",
+            "usum": "呼喚手下， 向對手發動攻擊。 容易擊中要害。",
+            "lgpe": "呼喚手下， 向對手發動攻擊。 容易擊中要害。",
+            "swsh": "呼喚手下， 向對手發動攻擊。 容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "召唤手下， 让其朝对手发起攻击。 容易击中要害。",
+            "usum": "召唤手下， 让其朝对手发起攻击。 容易击中要害。",
+            "lgpe": "召唤手下， 让其朝对手发起攻击。 容易击中要害。",
+            "swsh": "召唤手下， 让其朝对手发起攻击。 容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

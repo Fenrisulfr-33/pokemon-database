@@ -1,42 +1,145 @@
 {
-  "_id": 434,
-  "key": "draco-meteor",
-  "name": {
-    "english": "Draco Meteor",
-    "japanese": "りゅうせいぐん",
-    "chinese": "天龙流星",
-    "korean": "용성군",
-    "german": "Cometa Draco",
-    "french": "Draco Meteor",
-    "italian": "Draco Meteor",
-    "spanish": "Dragobolide"
-  },
-  "type": "Dragon",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 5,
-  "power": 130,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "Comets are summoned\ndown from the sky.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "platinum": "Comets are summoned\ndown from the sky.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "heartgold-soulsilver": "Comets are summoned\ndown from the sky.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "black-white": "Comets are summoned down from the sky\nonto the target. The attack’s recoil\nharshly reduces the user’s Sp. Atk stat.",
-    "black-2-white-2": "Comets are summoned down from the sky\nonto the target. The attack’s recoil\nharshly reduces the user’s Sp. Atk stat.",
-    "x-y": "Comets are summoned down from the sky\nonto the target. The attack’s recoil\nharshly lowers the user’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "Comets are summoned down from the sky\nonto the target. The attack’s recoil\nharshly lowers the user’s Sp. Atk stat.",
-    "sun-moon": "Comets are summoned down from the sky onto the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
-    "ultra-sun-ultra-moon": "Comets are summoned down from the sky onto the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "Comets are summoned down from the sky onto the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
-    "sword-shield": "Comets are summoned down from the sky onto the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Special Attack by two stages.",
-    "shortEffect": "Lowers the user's Special Attack by two stages after inflicting damage."
-  },
-  "priority": 0
+    "_id": 434,
+    "key": "draco-meteor",
+    "name": {
+        "japanese-kana": "りゅうせいぐん",
+        "korean": "용성군",
+        "traditional-chinese": "流星群",
+        "french": "Draco-Météore",
+        "german": "Draco Meteor",
+        "spanish": "Cometa Draco",
+        "italian": "Dragobolide",
+        "english": "Draco Meteor",
+        "japanese": "りゅうせいぐん",
+        "simplified-chinese": "流星群",
+        "latin-american-spanish": "Meteoro Dragón"
+    },
+    "type": "dragon",
+    "category": "special",
+    "contest": "smart",
+    "pp": 5,
+    "power": 130,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "xy": {
+            "power": 140
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "pt": "Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "hgss": "Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "bw": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.",
+            "b2w2": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.",
+            "xy": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "oras": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "sm": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "usum": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "lgpe": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "swsh": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "la": "Comets are summoned down from the sky onto the target. The recoil from this move lowers the user’s offensive stats.",
+            "sv": "Comets are summoned down from the sky onto the target. The recoil from this move harshly lowers the user’s Sp. Atk stat."
+        },
+        "french": {
+            "bw": "Le lanceur invoque des comètes. Le contrecoup réduit fortement son Attaque Spéciale.",
+            "xy": "Le lanceur invoque des comètes. Le contrecoup réduit fortement son Attaque Spéciale.",
+            "oras": "Le lanceur invoque des comètes. Le contrecoup réduit fortement son Attaque Spéciale.",
+            "sm": "Le lanceur invoque des comètes. Le contrecoup réduit beaucoup son Attaque Spéciale.",
+            "usum": "Le lanceur invoque des comètes. Le contrecoup réduit beaucoup son Attaque Spéciale.",
+            "lgpe": "Le lanceur invoque des comètes. Le contrecoup réduit beaucoup son Attaque Spéciale.",
+            "swsh": "Le lanceur invoque des comètes. Le contrecoup réduit beaucoup son Attaque Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "てんくうから　いんせきを あいてに　おとす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "oras": "てんくうから　いんせきを あいてに　おとす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "sm": "てんくうから　いんせきを あいてに　おとす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "usum": "てんくうから　いんせきを あいてに　おとす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "lgpe": "てんくうから　いんせきを あいてに　おとす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "swsh": "てんくうから　いんせきを あいてに　おとす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。"
+        },
+        "korean": {
+            "xy": "천공에서 운석을 상대에게 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "oras": "천공에서 운석을 상대에게 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "sm": "천공에서 운석을 상대에게 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "usum": "천공에서 운석을 상대에게 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "lgpe": "천공에서 운석을 상대에게 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "swsh": "천공에서 운석을 상대에게 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다."
+        },
+        "german": {
+            "xy": "Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.",
+            "oras": "Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.",
+            "sm": "Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.",
+            "usum": "Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.",
+            "lgpe": "Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.",
+            "swsh": "Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark."
+        },
+        "spanish": {
+            "xy": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "oras": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "sm": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "usum": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "lgpe": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "swsh": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa."
+        },
+        "italian": {
+            "xy": "Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l’Attacco Speciale di chi la usa.",
+            "oras": "Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l’Attacco Speciale di chi la usa.",
+            "sm": "Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l’Attacco Speciale di chi la usa.",
+            "usum": "Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l’Attacco Speciale di chi la usa.",
+            "lgpe": "Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l’Attacco Speciale di chi la usa.",
+            "swsh": "Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l’Attacco Speciale di chi la usa."
+        },
+        "japanese": {
+            "xy": "天空から　隕石を 相手に　落とす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "oras": "天空から　隕石を 相手に　落とす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "sm": "天空から　隕石を 相手に　落とす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "usum": "天空から　隕石を 相手に　落とす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "lgpe": "天空から　隕石を 相手に　落とす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "swsh": "天空から　隕石を 相手に　落とす。使うと　反動で 自分の　特攻が　がくっと　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "oras": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "sm": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "usum": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "lgpe": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+            "swsh": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa."
+        },
+        "traditional-chinese": {
+            "sm": "讓隕石從空中落下以攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "usum": "讓隕石從空中落下以攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "lgpe": "讓隕石從空中落下以攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "swsh": "讓隕石從空中落下以攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。"
+        },
+        "simplified-chinese": {
+            "sm": "从天空中向对手落下陨石。 使用之后因为反作用力， 自己的特攻会大幅降低。",
+            "usum": "从天空中向对手落下陨石。 使用之后因为反作用力， 自己的特攻会大幅降低。",
+            "lgpe": "从天空中向对手落下陨石。 使用之后因为反作用力， 自己的特攻会大幅降低。",
+            "swsh": "从天空中向对手落下陨石。 使用之后因为反作用力， 自己的特攻会大幅降低。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+        "shortEffect": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    }
 }

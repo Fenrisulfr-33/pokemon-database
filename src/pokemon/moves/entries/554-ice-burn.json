@@ -1,39 +1,138 @@
 {
-  "_id": 554,
-  "key": "ice-burn",
-  "name": {
-    "english": "Ice Burn",
-    "japanese": "コールドフレア",
-    "chinese": "寒冷闪光",
-    "korean": "콜드플레어",
-    "german": "Llama Gélida",
-    "french": "Frosthauch",
-    "italian": "Ice Burn",
-    "spanish": "Vampagelida"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 140,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
-    "black-2-white-2": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
-    "x-y": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
-    "omega-ruby-alpha-sapphire": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
-    "sun-moon": "On the second turn, an ultracold, freezing wind\nsurrounds the target. This may leave the target with\na burn.",
-    "ultra-sun-ultra-moon": "On the second turn, an ultracold, freezing wind\nsurrounds the target. This may leave the target with\na burn.",
-    "lets-go-pikachu-lets-go-eevee": "On the second turn, an ultracold, freezing wind\nsurrounds the target. This may leave the target with\na burn.",
-    "sword-shield": "On the second turn, an ultracold, freezing wind\nsurrounds the target. This may leave the target with\na burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.  User charges for one turn before attacking.",
-    "shortEffect": "Requires a turn to charge before attacking.  Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 554,
+    "key": "ice-burn",
+    "name": {
+        "japanese-kana": "コールドフレア",
+        "korean": "콜드플레어",
+        "traditional-chinese": "極寒冷焰",
+        "french": "Feu Glacé",
+        "german": "Frosthauch",
+        "spanish": "Llama Gélida",
+        "italian": "Vampagelida",
+        "english": "Ice Burn",
+        "japanese": "コールドフレア",
+        "simplified-chinese": "极寒冷焰",
+        "latin-american-spanish": "Llama Gélida"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 140,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut le brûler.",
+            "xy": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler.",
+            "oras": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler.",
+            "sm": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler.",
+            "usum": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler.",
+            "lgpe": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler.",
+            "swsh": "Au second tour, le lanceur projette un souffle de vent glacial dévastateur sur l’ennemi. Peut aussi le brûler."
+        },
+        "english": {
+            "bw": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "b2w2": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "xy": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "oras": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "sm": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "usum": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "lgpe": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "swsh": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "la": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+            "sv": "The turn after using this move, the user surrounds the target with an ultracold, freezing wind to inflict damage. This may also leave the target with a burn."
+        },
+        "japanese-kana": {
+            "xy": "すべてを　こおらせる　はげしい　れいきで ２ターンめに　あいてを　つつみこむ。 やけど　じょうたいに　することが　ある。",
+            "oras": "すべてを　こおらせる　はげしい　れいきで ２ターンめに　あいてを　つつ こむ。 やけど　じょうたいに　することが　ある。",
+            "sm": "すべてを　こおらせる　はげしい　れいきで ２ターンめに　あいてを　つつみこむ。 やけど　じょうたいに　することが　ある。",
+            "usum": "すべてを　こおらせる　はげしい　れいきで ２ターンめに　あいてを　つつみこむ。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "すべてを　こおらせる　はげしい　れいきで ２ターンめに　あいてを　つつみこむ。 やけど　じょうたいに　することが　ある。",
+            "swsh": "すべてを　こおらせる　はげしい　れいきで ２ターンめに　あいてを　つつみこむ。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "모든 것을 얼려버리는 격렬한 냉기로 2턴째에 상대를 둘러싼다. 화상 상태로 만들 때가 있다.",
+            "oras": "모든 것을 얼려버리는 격렬한 냉기로 2턴째에 상대를 둘러싼다. 화상 상태로 만들 때가 있다.",
+            "sm": "모든 것을 얼려버리는 격렬한 냉기로 2턴째에 상대를 둘러싼다. 화상 상태로 만들 때가 있다.",
+            "usum": "모든 것을 얼려버리는 격렬한 냉기로 2턴째에 상대를 둘러싼다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "모든 것을 얼려버리는 격렬한 냉기로 2턴째에 상대를 둘러싼다. 화상 상태로 만들 때가 있다.",
+            "swsh": "모든 것을 얼려버리는 격렬한 냉기로 2턴째에 상대를 둘러싼다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.",
+            "oras": "Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.",
+            "sm": "Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.",
+            "usum": "Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.",
+            "lgpe": "Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.",
+            "swsh": "Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu."
+        },
+        "spanish": {
+            "xy": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "oras": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "sm": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "usum": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "lgpe": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "swsh": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio al turno successivo e lo avvolge in un soffio d’aria gelida. Può anche scottarlo.",
+            "oras": "Chi la usa attacca il bersaglio al turno successivo e lo avvolge in un soffio d’aria gelida. Può anche scottarlo.",
+            "sm": "Chi la usa attacca il bersaglio al turno successivo e lo avvolge in un soffio d’aria gelida. Può anche scottarlo.",
+            "usum": "Chi la usa attacca il bersaglio al turno successivo e lo avvolge in un soffio d’aria gelida. Può anche scottarlo.",
+            "lgpe": "Chi la usa attacca il bersaglio al turno successivo e lo avvolge in un soffio d’aria gelida. Può anche scottarlo.",
+            "swsh": "Chi la usa attacca il bersaglio al turno successivo e lo avvolge in un soffio d’aria gelida. Può anche scottarlo."
+        },
+        "japanese": {
+            "xy": "すべてを　凍らせる　激しい　冷気で ２ターン目に　相手を　包みこむ。 やけど状態に　することが　ある。",
+            "oras": "すべてを　凍らせる　激しい　冷気で ２ターン目に　相手を　包 こむ。 やけど状態に　することが　ある。",
+            "sm": "すべてを　凍らせる　激しい　冷気で ２ターン目に　相手を　包みこむ。 やけど状態に　することが　ある。",
+            "usum": "すべてを　凍らせる　激しい　冷気で ２ターン目に　相手を　包みこむ。 やけど状態に　することが　ある。",
+            "lgpe": "すべてを　凍らせる　激しい　冷気で ２ターン目に　相手を　包みこむ。 やけど状態に　することが　ある。",
+            "swsh": "すべてを　凍らせる　激しい　冷気で ２ターン目に　相手を　包みこむ。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "oras": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "sm": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "usum": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "lgpe": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.",
+            "swsh": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "在使用後的下一回合， 用能夠凍結一切的強烈寒氣包圍對手。 有時會讓對手陷入灼傷狀態。",
+            "usum": "在使用後的下一回合， 用能夠凍結一切的強烈寒氣包圍對手。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "在使用後的下一回合， 用能夠凍結一切的強烈寒氣包圍對手。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "在使用後的下一回合， 用能夠凍結一切的強烈寒氣包圍對手。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用能够冻结一切的强烈冷气， 在第２回合包裹住对手。 有时会让对手陷入灼伤状态。",
+            "usum": "用能够冻结一切的强烈冷气， 在第２回合包裹住对手。 有时会让对手陷入灼伤状态。",
+            "lgpe": "用能够冻结一切的强烈冷气， 在第２回合包裹住对手。 有时会让对手陷入灼伤状态。",
+            "swsh": "用能够冻结一切的强烈冷气， 在第２回合包裹住对手。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.  User charges for one turn before attacking.",
+        "shortEffect": "Requires a turn to charge before attacking.  Has a chance to burn the target."
+    }
 }

@@ -1,47 +1,152 @@
 {
-  "_id": 146,
-  "key": "dizzy-punch",
-  "name": {
-    "english": "Dizzy Punch",
-    "japanese": "ピヨピヨパンチ",
-    "chinese": "迷昏拳",
-    "korean": "잼잼펀치",
-    "german": "Puño Mareo",
-    "french": "Irrschlag",
-    "italian": "Dizzy Punch",
-    "spanish": "Stordipugno"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause confusion.",
-    "crystal": "An attack that may\ncause confusion.",
-    "ruby-sapphire": "A rhythmic punch that may\nconfuse the foe.",
-    "emerald": "A rhythmic punch that may\nconfuse the foe.",
-    "firered-leafgreen": "The foe is hit with\na rhythmic punch\nthat may leave it\nconfused.",
-    "diamond-pearl": "The foe is hit with a\nrhythmically launched\npunch that may also\nleave it confused.\n",
-    "platinum": "The foe is hit with\nrhythmically launched\npunches that may also\nleave it confused.\n",
-    "heartgold-soulsilver": "The foe is hit with\nrhythmically launched\npunches that may also\nleave it confused.\n",
-    "black-white": "The target is hit with rhythmically\nlaunched punches that may also\nleave it confused.",
-    "black-2-white-2": "The target is hit with rhythmically\nlaunched punches that may also\nleave it confused.",
-    "x-y": "The target is hit with rhythmically\nlaunched punches. This may also\nleave the target confused.",
-    "omega-ruby-alpha-sapphire": "The target is hit with rhythmically\nlaunched punches. This may also\nleave the target confused.",
-    "sun-moon": "The target is hit with rhythmically launched\npunches. This may also leave the target confused.",
-    "ultra-sun-ultra-moon": "The target is hit with rhythmically launched\npunches. This may also leave the target confused.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit with rhythmically launched\npunches. This may also leave the target confused.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 146,
+    "key": "dizzy-punch",
+    "name": {
+        "japanese-kana": "ピヨピヨパンチ",
+        "korean": "잼잼펀치",
+        "traditional-chinese": "迷昏拳",
+        "french": "Uppercut",
+        "german": "Irrschlag",
+        "spanish": "Puño Mareo",
+        "italian": "Stordipugno",
+        "english": "Dizzy Punch",
+        "japanese": "ピヨピヨパンチ",
+        "simplified-chinese": "迷昏拳",
+        "latin-american-spanish": "Puño Mareador"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 20,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 0,
+            "effect": {
+                "full": "Inflicts regular damage.",
+                "shortEffect": "Inflicts regular damage with no additional effect."
+            }
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause confusion.",
+            "cr": "An attack that may cause confusion.",
+            "rs": "A rhythmic punch that may confuse the foe.",
+            "em": "A rhythmic punch that may confuse the foe.",
+            "frlg": "The foe is hit with a rhythmic punch that may leave it confused.",
+            "dp": "The foe is hit with a rhythmically launched punch that may also leave it confused.",
+            "pt": "The foe is hit with rhythmically launched punches that may also leave it confused.",
+            "hgss": "The foe is hit with rhythmically launched punches that may also leave it confused.",
+            "bw": "The target is hit with rhythmically launched punches that may also leave it confused.",
+            "b2w2": "The target is hit with rhythmically launched punches that may also leave it confused.",
+            "xy": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
+            "oras": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
+            "sm": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
+            "usum": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
+            "lgpe": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Un enchaînement de coups de poing cadencés. Peut aussi rendre confus.",
+            "xy": "Un enchaînement de coups de poing cadencés frappe l’ennemi. Peut aussi le rendre confus.",
+            "oras": "Un enchaînement de coups de poing cadencés frappe l’ennemi. Peut aussi le rendre confus.",
+            "sm": "Un enchaînement de coups de poing cadencés frappe l’ennemi. Peut aussi le rendre confus.",
+            "usum": "Un enchaînement de coups de poing cadencés frappe l’ennemi. Peut aussi le rendre confus.",
+            "lgpe": "Un enchaînement de coups de poing cadencés frappe l’ennemi. Peut aussi le rendre confus.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "リズミカルに　パンチを　くりだして あいてを　こうげきする。 こんらん　させることが　ある。",
+            "oras": "リズミカルに　パンチを　くりだして あいてを　こうげきする。 こんらん　させることが　ある。",
+            "sm": "リズミカルに　パンチを　くりだして あいてを　こうげきする。 こんらん　させることが　ある。",
+            "usum": "リズミカルに　パンチを　くりだして あいてを　こうげきする。 こんらん　させることが　ある。",
+            "lgpe": "リズミカルに　パンチを　くりだして あいてを　こうげきする。 こんらん　させることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "리드미컬한 펀치를 날려 상대를 공격한다. 혼란시킬 때가 있다.",
+            "oras": "리드미컬한 펀치를 날려 상대를 공격한다. 혼란시킬 때가 있다.",
+            "sm": "리드미컬한 펀치를 날려 상대를 공격한다. 혼란시킬 때가 있다.",
+            "usum": "리드미컬한 펀치를 날려 상대를 공격한다. 혼란시킬 때가 있다.",
+            "lgpe": "리드미컬한 펀치를 날려 상대를 공격한다. 혼란시킬 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Rhythmische Schläge, die das Ziel verwirren können.",
+            "oras": "Rhythmische Schläge, die das Ziel verwirren können.",
+            "sm": "Rhythmische Schläge, die das Ziel verwirren können.",
+            "usum": "Rhythmische Schläge, die das Ziel verwirren können.",
+            "lgpe": "Rhythmische Schläge, die das Ziel verwirren können.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Rítmicos puñetazos que pueden causar confusión.",
+            "oras": "Rítmicos puñetazos que pueden causar confusión.",
+            "sm": "Rítmicos puñetazos que pueden causar confusión.",
+            "usum": "Rítmicos puñetazos que pueden causar confusión.",
+            "lgpe": "Rítmicos puñetazos que pueden causar confusión.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una sequenza di pugni che può anche confonderlo.",
+            "oras": "Colpisce il bersaglio con una sequenza di pugni che può anche confonderlo.",
+            "sm": "Colpisce il bersaglio con una sequenza di pugni che può anche confonderlo.",
+            "usum": "Colpisce il bersaglio con una sequenza di pugni che può anche confonderlo.",
+            "lgpe": "Colpisce il bersaglio con una sequenza di pugni che può anche confonderlo.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "リズミカルに　パンチを　くりだして 相手を　攻撃する。 混乱させることが　ある。",
+            "oras": "リズミカルに　パンチを　くりだして 相手を　攻撃する。 混乱させることが　ある。",
+            "sm": "リズミカルに　パンチを　くりだして 相手を　攻撃する。 混乱させることが　ある。",
+            "usum": "リズミカルに　パンチを　くりだして 相手を　攻撃する。 混乱させることが　ある。",
+            "lgpe": "リズミカルに　パンチを　くりだして 相手を　攻撃する。 混乱させることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Rítmicos puñetazos que pueden causar confusión.",
+            "oras": "Rítmicos puñetazos que pueden causar confusión.",
+            "sm": "Rítmicos puñetazos que pueden causar confusión.",
+            "usum": "Rítmicos puñetazos que pueden causar confusión.",
+            "lgpe": "Rítmicos puñetazos que pueden causar confusión.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "有節奏地出拳攻擊對手。 有時會使對手混亂。",
+            "usum": "有節奏地出拳攻擊對手。 有時會使對手混亂。",
+            "lgpe": "有節奏地出拳攻擊對手。 有時會使對手混亂。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "有节奏地出拳攻击对手。 有时会使对手混乱。",
+            "usum": "有节奏地出拳攻击对手。 有时会使对手混乱。",
+            "lgpe": "有节奏地出拳攻击对手。 有时会使对手混乱。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

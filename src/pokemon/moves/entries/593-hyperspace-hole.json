@@ -1,37 +1,135 @@
 {
-  "_id": 593,
-  "key": "hyperspace-hole",
-  "name": {
-    "english": "Hyperspace Hole",
-    "japanese": "いじげんホール",
-    "chinese": "異次元洞",
-    "korean": "다른차원홀",
-    "german": "Paso Dimensional",
-    "french": "Dimensionsloch",
-    "italian": "Hyperspace Hole",
-    "spanish": "Forodimensionale"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 80,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "Using a hyperspace hole, the user appears\nright next to the target and strikes. This\nalso hits a target using Protect or Detect.",
-    "omega-ruby-alpha-sapphire": "Using a hyperspace hole, the user appears\nright next to the target and strikes. This\nalso hits a target using Protect or Detect.",
-    "sun-moon": "Using a hyperspace hole, the user appears right\nnext to the target and strikes. This also hits a target\nusing a move such as Protect or Detect.",
-    "ultra-sun-ultra-moon": "Using a hyperspace hole, the user appears right\nnext to the target and strikes. This also hits a target\nusing a move such as Protect or Detect.",
-    "lets-go-pikachu-lets-go-eevee": "Using a hyperspace hole, the user appears right\nnext to the target and strikes. This also hits a target\nusing a move such as Protect or Detect.",
-    "sword-shield": "Using a hyperspace hole, the user appears right\nnext to the target and strikes. This also hits a target\nusing a move such as Protect or Detect."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Bypasses and removes any protection effect on the target.",
-    "shortEffect": "Ignores and destroys protection effects."
-  },
-  "priority": 0
+    "_id": 593,
+    "key": "hyperspace-hole",
+    "name": {
+        "japanese-kana": "いじげんホール",
+        "korean": "이차원홀",
+        "traditional-chinese": "異次元洞",
+        "french": "TrouDimensionnel",
+        "german": "Dimensionsloch",
+        "spanish": "Paso Dimensional",
+        "italian": "Forodimensionale",
+        "english": "Hyperspace Hole",
+        "japanese": "いじげんホール",
+        "simplified-chinese": "异次元洞",
+        "latin-american-spanish": "Paso Dimensional"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 80,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　みきりも　むし　できる。",
+            "oras": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　 きりも　むし　できる。",
+            "sm": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　みきり　なども　むし　できる。",
+            "usum": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　みきり　なども　むし　できる。",
+            "lgpe": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　みきり　なども　むし　できる。",
+            "swsh": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　みきり　なども　むし　できる。"
+        },
+        "korean": {
+            "xy": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별도 무시할 수 있다.",
+            "oras": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별도 무시할 수 있다.",
+            "sm": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별 등도 무시할 수 있다.",
+            "usum": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별 등도 무시할 수 있다.",
+            "lgpe": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별 등도 무시할 수 있다.",
+            "swsh": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별 등도 무시할 수 있다."
+        },
+        "french": {
+            "xy": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même Abri ou Détection.",
+            "oras": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même Abri ou Détection.",
+            "sm": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même les capacités comme Abri ou Détection.",
+            "usum": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même les capacités comme Abri ou Détection.",
+            "lgpe": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même les capacités comme Abri ou Détection.",
+            "swsh": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même les capacités comme Abri ou Détection."
+        },
+        "german": {
+            "xy": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild und Scanner.",
+            "oras": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild und Scanner.",
+            "sm": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.",
+            "usum": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.",
+            "lgpe": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.",
+            "swsh": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc."
+        },
+        "spanish": {
+            "xy": "El usuario aparece junto a su objetivo usando un agujero interdimensional y le asesta un golpe que no puede esquivarse con Protección ni Detección.",
+            "oras": "El usuario aparece junto a su objetivo usando un agujero interdimensional y le asesta un golpe que no puede esquivarse con Protección ni Detección.",
+            "sm": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.",
+            "usum": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.",
+            "lgpe": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.",
+            "swsh": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar."
+        },
+        "italian": {
+            "xy": "Chi la usa, sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.",
+            "oras": "Chi la usa, sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.",
+            "sm": "Chi la usa sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.",
+            "usum": "Chi la usa sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.",
+            "lgpe": "Chi la usa sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.",
+            "swsh": "Chi la usa sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua."
+        },
+        "english": {
+            "xy": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.",
+            "oras": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.",
+            "sm": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.",
+            "usum": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.",
+            "lgpe": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.",
+            "swsh": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.",
+            "la": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.",
+            "sv": "Using a hyperspace hole, the user appears right next to the target and strikes. This attack can hit a target using a move such as Protect or Detect."
+        },
+        "japanese": {
+            "xy": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　みきりも　無視　できる。",
+            "oras": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　 きりも　無視　できる。",
+            "sm": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　みきり　なども　無視　できる。",
+            "usum": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　みきり　なども　無視　できる。",
+            "lgpe": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　みきり　なども　無視　できる。",
+            "swsh": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　みきり　なども　無視　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario aparece junto a su objetivo usando un agujero interdimensional y le asesta un golpe que no puede esquivarse con Protección ni Detección.",
+            "oras": "El usuario aparece junto a su objetivo usando un agujero interdimensional y le asesta un golpe que no puede esquivarse con Protección ni Detección.",
+            "sm": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.",
+            "usum": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.",
+            "lgpe": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.",
+            "swsh": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar."
+        },
+        "traditional-chinese": {
+            "sm": "利用異次元洞， 突然出現在對手的側面進行攻擊。 可避開對手的守住和看穿等招式。",
+            "usum": "利用異次元洞， 突然出現在對手的側面進行攻擊。 可避開對手的守住和看穿等招式。",
+            "lgpe": "利用異次元洞， 突然出現在對手的側面進行攻擊。 可避開對手的守住和看穿等招式。",
+            "swsh": "利用異次元洞， 突然出現在對手的側面進行攻擊。 可避開對手的守住和看穿等招式。"
+        },
+        "simplified-chinese": {
+            "sm": "通过异次元洞， 突然出现在对手的侧面进行攻击。 还可以无视守住和看穿等招式。",
+            "usum": "通过异次元洞， 突然出现在对手的侧面进行攻击。 还可以无视守住和看穿等招式。",
+            "lgpe": "通过异次元洞， 突然出现在对手的侧面进行攻击。 还可以无视守住和看穿等招式。",
+            "swsh": "通过异次元洞， 突然出现在对手的侧面进行攻击。 还可以无视守住和看穿等招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Bypasses and removes any protection effect on the target.",
+        "shortEffect": "Ignores and destroys protection effects."
+    }
 }

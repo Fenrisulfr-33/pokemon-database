@@ -1,47 +1,157 @@
 {
-  "_id": 46,
-  "key": "roar",
-  "name": {
-    "english": "Roar",
-    "japanese": "ほえる",
-    "chinese": "吼叫",
-    "korean": "울부짖기",
-    "german": "Rugido",
-    "french": "Brüller",
-    "italian": "Roar",
-    "spanish": "Boato"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Scares wild foes\nto end battle.",
-    "crystal": "Scares wild foes\nto end battle.",
-    "ruby-sapphire": "Makes the foe flee to end\nthe battle.",
-    "emerald": "Makes the foe flee to end\nthe battle.",
-    "firered-leafgreen": "The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends.",
-    "diamond-pearl": "The foe is scared off,\nto be replaced by\nanother Pokémon in\nits party. In the\nwild, the battle ends.",
-    "platinum": "The foe is scared off,\nto be replaced by\nanother Pokémon in\nits party. In the\nwild, the battle ends.",
-    "heartgold-soulsilver": "The foe is scared off,\nto be replaced by\nanother Pokémon in\nits party. In the\nwild, the battle ends.",
-    "black-white": "The target is scared off and replaced by\nanother Pokémon in its party. In the\nwild, the battle ends.",
-    "black-2-white-2": "The target is scared off and switched.\nIn the wild, a battle against a single\nPokémon ends.",
-    "x-y": "The target is scared off, and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.",
-    "omega-ruby-alpha-sapphire": "The target is scared off, and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.",
-    "sun-moon": "The target is scared off, and a different Pokémon is\ndragged out. In the wild, this ends a battle against a\nsingle Pokémon.",
-    "ultra-sun-ultra-moon": "The target is scared off, and a different Pokémon is\ndragged out. In the wild, this ends a battle against a\nsingle Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The target is scared off, and a different Pokémon is\ndragged out.",
-    "sword-shield": "The target is scared off, and a different Pokémon is\ndragged out. In the wild, this ends a battle against a\nsingle Pokémon."
-  },
-  "effect": {
-    "full": "Switches the target out for another of its trainer's Pokémon selected at random.  Wild battles end immediately.\n\nDoesn't affect Pokémon with suction cups or under the effect of ingrain.",
-    "shortEffect": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
-  },
-  "priority": -6
+    "_id": 46,
+    "key": "roar",
+    "name": {
+        "japanese-kana": "ほえる",
+        "korean": "울부짖기",
+        "traditional-chinese": "吼叫",
+        "french": "Hurlement",
+        "german": "Brüller",
+        "spanish": "Rugido",
+        "italian": "Boato",
+        "english": "Roar",
+        "japanese": "ほえる",
+        "simplified-chinese": "吼叫",
+        "latin-american-spanish": "Rugido"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cool",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": -6,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "force-switch",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "accuracy": 100
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "Sans effet en combat de dresseurs."
+        },
+        "english": {
+            "gs": "Does nothing in trainer battles."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Scares wild foes to end battle.",
+            "cr": "Scares wild foes to end battle.",
+            "rs": "Makes the foe flee to end the battle.",
+            "em": "Makes the foe flee to end the battle.",
+            "frlg": "The foe is made to switch out with an ally. In the wild, the battle ends.",
+            "dp": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends.",
+            "pt": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends.",
+            "hgss": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends.",
+            "bw": "The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.",
+            "b2w2": "The target is scared off and switched. In the wild, a battle against a single Pokémon ends.",
+            "xy": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "oras": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "sm": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "usum": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "lgpe": "The target is scared off, and a different Pokémon is dragged out.",
+            "swsh": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "la": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "sv": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+        },
+        "french": {
+            "bw": "Effraie le Pokémon ennemi et le remplace par un autre. Dans la nature, met fin au combat.",
+            "xy": "Effraie le Pokémon ennemi et le remplace par un autre. Dans la nature, met fin au combat.",
+            "oras": "Effraie le Pokémon ennemi et le remplace par un autre. Dans la nature, met fin au combat.",
+            "sm": "Effraie le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat.",
+            "usum": "Effraie le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat.",
+            "lgpe": "Effraie le Pokémon ennemi et le remplace par un autre.",
+            "swsh": "Effraie le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　にがして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "oras": "あいてを　にがして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "sm": "あいてを　にがして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "usum": "あいてを　にがして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "lgpe": "あいてを　にがして ひかえの　ポケモンを　ひきずりだす。",
+            "swsh": "あいてを　にがして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。"
+        },
+        "korean": {
+            "xy": "상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "oras": "상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "sm": "상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "usum": "상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "lgpe": "상대를 도망가게 해서 교대할 포켓몬을 끌어낸다.",
+            "swsh": "상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다."
+        },
+        "german": {
+            "xy": "Verjagt das Ziel und ersetzt es durch ein anderes Pokémon. Beendet den Kampf in der Wildnis.",
+            "oras": "Verjagt das Ziel und ersetzt es durch ein anderes Pokémon. Beendet den Kampf in der Wildnis.",
+            "sm": "Verjagt das Ziel und ersetzt es durch ein anderes Pokémon. Beendet den Kampf in der Wildnis.",
+            "usum": "Verjagt das Ziel und ersetzt es durch ein anderes Pokémon. Beendet den Kampf in der Wildnis.",
+            "lgpe": "Verjagt das Ziel und ersetzt es durch ein anderes Pokémon.",
+            "swsh": "Verjagt das Ziel und ersetzt es durch ein anderes Pokémon. Beendet den Kampf in der Wildnis."
+        },
+        "spanish": {
+            "xy": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "oras": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "sm": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "usum": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "lgpe": "Se lleva al objetivo, que es sustituido por otro Pokémon.",
+            "swsh": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate."
+        },
+        "italian": {
+            "xy": "Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "oras": "Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "sm": "Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "usum": "Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "lgpe": "Il bersaglio lascia il campo e viene sostituito.",
+            "swsh": "Il bersaglio lascia il campo e viene sostituito. Mette fine alle lotte contro singoli Pokémon selvatici."
+        },
+        "japanese": {
+            "xy": "相手を　逃がして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "oras": "相手を　逃がして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "sm": "相手を　逃がして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "usum": "相手を　逃がして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "lgpe": "相手を　逃がして 控えの　ポケモンを　ひきずりだす。",
+            "swsh": "相手を　逃がして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "oras": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "sm": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "usum": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+            "lgpe": "Se lleva al objetivo, que es sustituido por otro Pokémon.",
+            "swsh": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate."
+        },
+        "traditional-chinese": {
+            "sm": "趕走對手，強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。",
+            "usum": "趕走對手，強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。",
+            "lgpe": "放走對手， 強制讓後備寶可夢上場。",
+            "swsh": "趕走對手， 強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。"
+        },
+        "simplified-chinese": {
+            "sm": "放走对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。",
+            "usum": "放走对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。",
+            "lgpe": "放走对手， 强制拉后备宝可梦上场。",
+            "swsh": "放走对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。"
+        }
+    },
+    "effect": {
+        "full": "Switches the target out for another of its trainer’s Pokémon selected at random.  Wild battles end immediately. Doesn’t affect Pokémon with Suction Cups or under the effect of Ingrain.",
+        "shortEffect": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
+    }
 }

@@ -1,32 +1,84 @@
 {
-  "_id": 798,
-  "key": "steel-roller",
-  "name": {
-    "english": "Steel Roller",
-    "japanese": "アイアンローラー",
-    "chinese": "鐵滾輪",
-    "korean": "아이언롤러",
-    "german": "Allanador Férreo",
-    "french": "Eisenwalze",
-    "italian": "Steel Roller",
-    "spanish": "Ferrorullo"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 130,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user attacks while destroying the terrain. This move\nfails when the ground hasn’t turned into a terrain."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 798,
+    "key": "steel-roller",
+    "name": {
+        "japanese-kana": "アイアンローラー",
+        "korean": "아이언롤러",
+        "traditional-chinese": "鐵滾輪",
+        "french": "Métalliroue",
+        "german": "Eisenwalze",
+        "spanish": "Allanador Férreo",
+        "italian": "Ferrorullo",
+        "english": "Steel Roller",
+        "japanese": "アイアンローラー",
+        "simplified-chinese": "铁滚轮",
+        "latin-american-spanish": "Ferroaplanadora"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 130,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "フィールドを　はかい　しながら　こうげき。 なんらかの　フィールドじょうたいに かわって　いないと　わざは　しっぱいする。"
+        },
+        "korean": {
+            "swsh": "필드를 파괴하면서 공격한다. 필드가 어떤 상태로든 변해 있지 않은 경우 기술은 실패한다."
+        },
+        "traditional-chinese": {
+            "swsh": "一邊破壞場地，一邊進行攻擊。 在不是特殊狀態的場地上使用， 招式就會失敗。"
+        },
+        "french": {
+            "swsh": "Une attaque qui inflige des dégâts et fait disparaître le champ actif, mais qui échoue s’il n’y en a pas à ce moment."
+        },
+        "german": {
+            "swsh": "Der Anwender greift an und zerstört dabei etwaige Felder. Ist kein Feld aktiv, schlägt die Attacke fehl."
+        },
+        "spanish": {
+            "swsh": "El usuario lanza su ataque y destruye el campo activo en el terreno de combate, y falla si no hay ninguno en ese momento."
+        },
+        "italian": {
+            "swsh": "Chi la usa attacca eliminando lo stato del terreno di lotta. La mossa fallisce se nel terreno non è attivo alcuno stato."
+        },
+        "english": {
+            "swsh": "The user attacks while destroying the terrain. This move fails when the ground hasn’t turned into a terrain.",
+            "la": "The user attacks while destroying the terrain. This move fails when the ground hasn't turned into a terrain.",
+            "sv": "The user attacks while destroying the terrain. This move fails if the ground hasn't turned into a terrain."
+        },
+        "japanese": {
+            "swsh": "フィールドを　破壊しながら　攻撃。 なんらかの　フィールド状態に 変わっていないと　技は　失敗する。"
+        },
+        "simplified-chinese": {
+            "swsh": "在破坏场地的同时攻击对手。 如果脚下没有任何场地状态存在， 使出此招式时便会失败。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario lanza su ataque y destruye el campo activo en el terreno de combate, y falla si no hay ninguno en ese momento."
+        }
+    },
+    "effect": {
+        "full": "Ends the effect of Electric, Grassy, Misty, or Psychic Terrains. Fails if no Terrain is active.",
+        "shortEffect": "Ends the effect of Electric, Grassy, Misty, or Psychic Terrains. Fails if no Terrain is active."
+    }
 }

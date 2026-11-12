@@ -1,39 +1,138 @@
 {
-  "_id": 552,
-  "key": "fiery-dance",
-  "name": {
-    "english": "Fiery Dance",
-    "japanese": "ほのおのまい",
-    "chinese": "炎之舞",
-    "korean": "불꽃춤",
-    "german": "Danza Llama",
-    "french": "Feuerreigen",
-    "italian": "Fiery Dance",
-    "spanish": "Voldifuoco"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "Cloaked in flames, the user dances\nand flaps its wings. It may also\nraise the user’s Sp. Atk stat.",
-    "black-2-white-2": "Cloaked in flames, the user dances\nand flaps its wings. It may also\nraise the user’s Sp. Atk stat.",
-    "x-y": "Cloaked in flames, the user dances\nand flaps its wings. This may also\nraise the user’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "Cloaked in flames, the user dances\nand flaps its wings. This may also\nraise the user’s Sp. Atk stat.",
-    "sun-moon": "Cloaked in flames, the user dances and flaps its\nwings. This may also raise the user’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "Cloaked in flames, the user dances and flaps its\nwings. This may also raise the user’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "Cloaked in flames, the user dances and flaps its\nwings. This may also raise the user’s Sp. Atk stat.",
-    "sword-shield": "Cloaked in flames, the user attacks the target by\ndancing and flapping its wings. This may also raise the\nuser’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to raise the user's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to raise the user's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 552,
+    "key": "fiery-dance",
+    "name": {
+        "japanese-kana": "ほのおのまい",
+        "korean": "불꽃춤",
+        "traditional-chinese": "火之舞",
+        "french": "Danse du Feu",
+        "german": "Feuerreigen",
+        "spanish": "Danza Llama",
+        "italian": "Voldifuoco",
+        "english": "Fiery Dance",
+        "japanese": "ほのおのまい",
+        "simplified-chinese": "火之舞",
+        "latin-american-spanish": "Danza de Llamas"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 50
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.",
+            "xy": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.",
+            "oras": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.",
+            "sm": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.",
+            "usum": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.",
+            "lgpe": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.",
+            "swsh": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur."
+        },
+        "english": {
+            "bw": "Cloaked in flames, the user dances and flaps its wings. It may also raise the user’s Sp. Atk stat.",
+            "b2w2": "Cloaked in flames, the user dances and flaps its wings. It may also raise the user’s Sp. Atk stat.",
+            "xy": "Cloaked in flames, the user dances and flaps its wings. This may also raise the user’s Sp. Atk stat.",
+            "oras": "Cloaked in flames, the user dances and flaps its wings. This may also raise the user’s Sp. Atk stat.",
+            "sm": "Cloaked in flames, the user dances and flaps its wings. This may also raise the user’s Sp. Atk stat.",
+            "usum": "Cloaked in flames, the user dances and flaps its wings. This may also raise the user’s Sp. Atk stat.",
+            "lgpe": "Cloaked in flames, the user dances and flaps its wings. This may also raise the user’s Sp. Atk stat.",
+            "swsh": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also raise the user’s Sp. Atk stat.",
+            "la": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also raise the user's Sp. Atk stat.",
+            "sv": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also boost the user's Sp. Atk stat."
+        },
+        "japanese-kana": {
+            "xy": "ほのおを　まとい　はばたいて　あいてを こうげきする。じぶんの　とくこうが あがることが　ある。",
+            "oras": "ほのおを　まとい　はばたいて　あいてを こうげきする。じぶんの　とくこうが あがることが　ある。",
+            "sm": "ほのおを　まとい　はばたいて　あいてを こうげきする。じぶんの　とくこうが あがることが　ある。",
+            "usum": "ほのおを　まとい　はばたいて　あいてを こうげきする。じぶんの　とくこうが あがることが　ある。",
+            "lgpe": "ほのおを　まとい　はばたいて　あいてを こうげきする。じぶんの　とくこうが あがることが　ある。",
+            "swsh": "ほのおを　まとい　はばたいて　あいてを こうげきする。じぶんの　とくこうが あがることが　ある。"
+        },
+        "korean": {
+            "xy": "불꽃을 둘러 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다.",
+            "oras": "불꽃을 두른 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다.",
+            "sm": "불꽃을 두른 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다.",
+            "usum": "불꽃을 두른 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다.",
+            "lgpe": "불꽃을 두른 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다.",
+            "swsh": "불꽃을 두른 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다."
+        },
+        "german": {
+            "xy": "Hüllt das Ziel mit einer Feuerhose in Flammen. Kann den Spezial-Angriff des Anwenders erhöhen.",
+            "oras": "Hüllt das Ziel mit einer Feuerhose in Flammen. Kann den Spezial-Angriff des Anwenders erhöhen.",
+            "sm": "Hüllt das Ziel mit einer Feuerhose in Flammen. Kann den Spezial-Angriff des Anwenders erhöhen.",
+            "usum": "Hüllt das Ziel mit einer Feuerhose in Flammen. Kann den Spezial-Angriff des Anwenders erhöhen.",
+            "lgpe": "Hüllt das Ziel mit einer Feuerhose in Flammen. Kann den Spezial-Angriff des Anwenders erhöhen.",
+            "swsh": "Hüllt das Ziel mit einer Feuerhose in Flammen. Kann den Spezial-Angriff des Anwenders erhöhen."
+        },
+        "spanish": {
+            "xy": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "oras": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "sm": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "usum": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "lgpe": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "swsh": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa."
+        },
+        "italian": {
+            "xy": "Chi la usa viene avvolto da fiamme che scaglia contro il bersaglio, sbattendo le ali. Può anche aumentare l’Attacco Speciale.",
+            "oras": "Chi la usa viene avvolto da fiamme che scaglia contro il bersaglio, sbattendo le ali. Può anche aumentare l’Attacco Speciale.",
+            "sm": "Chi la usa viene avvolto da fiamme che scaglia contro il bersaglio, sbattendo le ali. Può anche aumentare l’Attacco Speciale.",
+            "usum": "Chi la usa viene avvolto da fiamme che scaglia contro il bersaglio, sbattendo le ali. Può anche aumentare l’Attacco Speciale.",
+            "lgpe": "Chi la usa viene avvolto da fiamme che scaglia contro il bersaglio, sbattendo le ali. Può anche aumentare l’Attacco Speciale.",
+            "swsh": "Chi la usa viene avvolto da fiamme che scaglia contro il bersaglio, sbattendo le ali. Può anche aumentare l’Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "炎を　まとい　はばたいて　相手を 攻撃する。自分の　特攻が あがることが　ある。",
+            "oras": "炎を　まとい　はばたいて　相手を 攻撃する。自分の　特攻が あがることが　ある。",
+            "sm": "炎を　まとい　はばたいて　相手を 攻撃する。自分の　特攻が あがることが　ある。",
+            "usum": "炎を　まとい　はばたいて　相手を 攻撃する。自分の　特攻が あがることが　ある。",
+            "lgpe": "炎を　まとい　はばたいて　相手を 攻撃する。自分の　特攻が あがることが　ある。",
+            "swsh": "炎を　まとい　はばたいて　相手を 攻撃する。自分の　特攻が あがることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "oras": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "sm": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "usum": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "lgpe": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+            "swsh": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa."
+        },
+        "traditional-chinese": {
+            "sm": "讓火焰圍繞全身後， 振翅攻擊對手。 有時會提高自己的特攻。",
+            "usum": "讓火焰圍繞全身後， 振翅攻擊對手。 有時會提高自己的特攻。",
+            "lgpe": "讓火焰圍繞全身後， 振翅攻擊對手。 有時會提高自己的特攻。",
+            "swsh": "讓火焰圍繞全身後， 振翅攻擊對手。 有時會提高自己的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "让火焰覆盖全身， 振翅攻击对手。 有时会提高自己的特攻。",
+            "usum": "让火焰覆盖全身， 振翅攻击对手。 有时会提高自己的特攻。",
+            "lgpe": "让火焰覆盖全身， 振翅攻击对手。 有时会提高自己的特攻。",
+            "swsh": "让火焰覆盖全身， 振翅攻击对手。 有时会提高自己的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to raise the user’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to raise the user’s Special Attack by one stage."
+    }
 }

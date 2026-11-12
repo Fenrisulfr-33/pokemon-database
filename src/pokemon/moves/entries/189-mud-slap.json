@@ -1,47 +1,146 @@
 {
-  "_id": 189,
-  "key": "mud-slap",
-  "name": {
-    "english": "Mud-Slap",
-    "japanese": "どろかけ",
-    "chinese": "泥汤",
-    "korean": "진흙뿌리기",
-    "german": "Bofetón Lodo",
-    "french": "Lehmschelle",
-    "italian": "Mud-Slap",
-    "spanish": "Fangosberla"
-  },
-  "type": "Ground",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 10,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Reduces the foe's\naccuracy.",
-    "crystal": "Reduces the foe's\naccuracy.",
-    "ruby-sapphire": "Hurls mud in the foe’s face\nto reduce its accuracy.",
-    "emerald": "Hurls mud in the foe’s face\nto reduce its accuracy.",
-    "firered-leafgreen": "Mud is hurled in\nthe foe’s face to\ninflict damage and\nlower its accuracy.",
-    "diamond-pearl": "The user hurls mud in\nthe foe’s face to\ninflict damage and\nlower its accuracy.\n",
-    "platinum": "The user hurls mud in\nthe foe’s face to\ninflict damage and\nlower its accuracy.\n",
-    "heartgold-soulsilver": "The user hurls mud in\nthe foe’s face to\ninflict damage and\nlower its accuracy.\n",
-    "black-white": "The user hurls mud in the target’s face to\ninflict damage and lower its accuracy.",
-    "black-2-white-2": "The user hurls mud in the target’s face to\ninflict damage and lower its accuracy.",
-    "x-y": "The user hurls mud in the target’s face to\ninflict damage and lower its accuracy.",
-    "omega-ruby-alpha-sapphire": "The user hurls mud in the target’s face to\ninflict damage and lower its accuracy.",
-    "sun-moon": "The user hurls mud in the target’s face to inflict\ndamage and lower its accuracy.",
-    "ultra-sun-ultra-moon": "The user hurls mud in the target’s face to inflict\ndamage and lower its accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "The user hurls mud in the target’s face to inflict\ndamage and lower its accuracy.",
-    "sword-shield": "The user hurls mud in the target’s face to inflict\ndamage and lower its accuracy."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 189,
+    "key": "mud-slap",
+    "name": {
+        "japanese-kana": "どろかけ",
+        "korean": "진흙뿌리기",
+        "traditional-chinese": "擲泥",
+        "french": "Coud’Boue",
+        "german": "Lehmschelle",
+        "spanish": "Bofetón Lodo",
+        "italian": "Fangosberla",
+        "english": "Mud-Slap",
+        "japanese": "どろかけ",
+        "simplified-chinese": "掷泥",
+        "latin-american-spanish": "Bofetón Lodo"
+    },
+    "type": "ground",
+    "category": "special",
+    "contest": "cute",
+    "pp": 10,
+    "power": 20,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Reduces the foe's accuracy.",
+            "cr": "Reduces the foe's accuracy.",
+            "rs": "Hurls mud in the foe’s face to reduce its accuracy.",
+            "em": "Hurls mud in the foe’s face to reduce its accuracy.",
+            "frlg": "Mud is hurled in the foe’s face to inflict damage and lower its accuracy.",
+            "dp": "The user hurls mud in the foe’s face to inflict damage and lower its accuracy.",
+            "pt": "The user hurls mud in the foe’s face to inflict damage and lower its accuracy.",
+            "hgss": "The user hurls mud in the foe’s face to inflict damage and lower its accuracy.",
+            "bw": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "b2w2": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "xy": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "oras": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "sm": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "usum": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "lgpe": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "swsh": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+            "la": "The user hurls mud in the target's face to inflict damage. Incoming moves also become more likely to miss.",
+            "sv": "The user hurls mud in the target's face to inflict damage and lower its accuracy."
+        },
+        "french": {
+            "bw": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.",
+            "xy": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.",
+            "oras": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.",
+            "sm": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.",
+            "usum": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.",
+            "lgpe": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.",
+            "swsh": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision."
+        },
+        "japanese-kana": {
+            "xy": "あいての　かおなどに ドロを　なげつけて　こうげきする。 めいちゅうりつを　さげる。",
+            "oras": "あいての　かおなどに ドロを　なげつけて　こうげきする。 めいちゅうりつを　さげる。",
+            "sm": "あいての　かおなどに ドロを　なげつけて　こうげきする。 めいちゅうりつを　さげる。",
+            "usum": "あいての　かおなどに ドロを　なげつけて　こうげきする。 めいちゅうりつを　さげる。",
+            "lgpe": "あいての　かおなどに ドロを　なげつけて　こうげきする。 めいちゅうりつを　さげる。",
+            "swsh": "あいての　かおなどに ドロを　なげつけて　こうげきする。 めいちゅうりつを　さげる。"
+        },
+        "korean": {
+            "xy": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다.",
+            "oras": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다.",
+            "sm": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다.",
+            "usum": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다.",
+            "lgpe": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다.",
+            "swsh": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Schadet dem Ziel durch Matsch. Dessen Genauigkeit sinkt.",
+            "oras": "Schadet dem Ziel durch Matsch. Dessen Genauigkeit sinkt.",
+            "sm": "Schadet dem Ziel durch Matsch. Dessen Genauigkeit sinkt.",
+            "usum": "Schadet dem Ziel durch Matsch. Dessen Genauigkeit sinkt.",
+            "lgpe": "Schadet dem Ziel durch Matsch. Dessen Genauigkeit sinkt.",
+            "swsh": "Schadet dem Ziel durch Matsch. Dessen Genauigkeit sinkt."
+        },
+        "spanish": {
+            "xy": "Echa lodo en la cara para bajar la Precisión.",
+            "oras": "Echa lodo en la cara para bajar la Precisión.",
+            "sm": "Echa lodo en la cara para bajar la Precisión.",
+            "usum": "Echa lodo en la cara para bajar la Precisión.",
+            "lgpe": "Echa lodo en la cara para bajar la Precisión.",
+            "swsh": "Echa lodo en la cara para bajar la Precisión."
+        },
+        "italian": {
+            "xy": "Chi la usa butta fango in faccia al bersaglio per arrecargli danni e ridurne la precisione.",
+            "oras": "Chi la usa butta fango in faccia al bersaglio per arrecargli danni e ridurne la precisione.",
+            "sm": "Chi la usa butta fango in faccia al bersaglio per arrecargli danni e ridurne la precisione.",
+            "usum": "Chi la usa butta fango in faccia al bersaglio per arrecargli danni e ridurne la precisione.",
+            "lgpe": "Chi la usa butta fango in faccia al bersaglio per arrecargli danni e ridurne la precisione.",
+            "swsh": "Chi la usa butta fango in faccia al bersaglio per arrecargli danni e ridurne la precisione."
+        },
+        "japanese": {
+            "xy": "相手の　顔などに 泥を　投げつけて　攻撃する。 命中率を　さげる。",
+            "oras": "相手の　顔などに 泥を　投げつけて　攻撃する。 命中率を　さげる。",
+            "sm": "相手の　顔などに 泥を　投げつけて　攻撃する。 命中率を　さげる。",
+            "usum": "相手の　顔などに 泥を　投げつけて　攻撃する。 命中率を　さげる。",
+            "lgpe": "相手の　顔などに 泥を　投げつけて　攻撃する。 命中率を　さげる。",
+            "swsh": "相手の　顔などに 泥を　投げつけて　攻撃する。 命中率を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Echa lodo en la cara para bajar la Precisión.",
+            "oras": "Echa lodo en la cara para bajar la Precisión.",
+            "sm": "Echa lodo en la cara para bajar la Precisión.",
+            "usum": "Echa lodo en la cara para bajar la Precisión.",
+            "lgpe": "Echa lodo en la cara para bajar la Precisión.",
+            "swsh": "Echa lodo en la cara para bajar la Precisión."
+        },
+        "traditional-chinese": {
+            "sm": "向對手的臉等處 投擲泥巴進行攻擊。 可降低對手的命中率。",
+            "usum": "向對手的臉等處 投擲泥巴進行攻擊。 可降低對手的命中率。",
+            "lgpe": "向對手的臉等處 投擲泥巴進行攻擊。 可降低對手的命中率。",
+            "swsh": "向對手的臉等處 投擲泥巴進行攻擊。 可降低對手的命中率。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手的脸等 投掷泥块进行攻击。 会降低对手的命中率。",
+            "usum": "向对手的脸等 投掷泥块进行攻击。 会降低对手的命中率。",
+            "lgpe": "向对手的脸等 投掷泥块进行攻击。 会降低对手的命中率。",
+            "swsh": "向对手的脸等 投掷泥块进行攻击。 会降低对手的命中率。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s accuracy by one stage.",
+        "shortEffect": "Has a chance to lower the target’s accuracy by one stage."
+    }
 }

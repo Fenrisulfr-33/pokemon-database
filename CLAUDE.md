@@ -28,7 +28,8 @@ website lives in a separate repo).
 
 ## Commands
 - Test: `npm test`
-- Validate: `npm run pokedex:validate`, `npm run evolutions:validate`
+- Validate: `npm run pokedex:validate`, `npm run evolutions:validate`,
+  `npm run moves:validate`
 - Upload: `npm run upsert:<abilities|moves|pokemon|evolutions|all>`
 
 ## Verification

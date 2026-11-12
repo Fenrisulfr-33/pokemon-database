@@ -1,45 +1,148 @@
 {
-  "_id": 330,
-  "key": "muddy-water",
-  "name": {
-    "english": "Muddy Water",
-    "japanese": "だくりゅう",
-    "chinese": "浊流",
-    "korean": "탁류",
-    "german": "Agua Lodosa",
-    "french": "Lehmbrühe",
-    "italian": "Muddy Water",
-    "spanish": "Fanghiglia"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 3,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks with muddy water.\nMay lower accuracy.",
-    "emerald": "Attacks with muddy water.\nMay lower accuracy.",
-    "firered-leafgreen": "The user attacks\nwith muddy water.\nIt may also lower\nthe foe’s accuracy.",
-    "diamond-pearl": "The user attacks by\nshooting out muddy\nwater.\nIt may also lower the\nfoe’s accuracy.",
-    "platinum": "The user attacks by\nshooting out muddy\nwater.\nIt may also lower the\nfoe’s accuracy.",
-    "heartgold-soulsilver": "The user attacks by\nshooting out muddy\nwater.\nIt may also lower the\nfoe’s accuracy.",
-    "black-white": "The user attacks by shooting muddy water\nat the opposing team.\nIt may also lower the targets’ accuracy.",
-    "black-2-white-2": "The user attacks by shooting muddy water\nat the opposing team.\nIt may also lower the targets’ accuracy.",
-    "x-y": "The user attacks by shooting muddy water\nat the opposing Pokémon.\nThis may also lower their accuracy.",
-    "omega-ruby-alpha-sapphire": "The user attacks by shooting muddy water\nat the opposing Pokémon.\nThis may also lower their accuracy.",
-    "sun-moon": "The user attacks by shooting muddy water at the\nopposing Pokémon. This may also lower\ntheir accuracy.",
-    "ultra-sun-ultra-moon": "The user attacks by shooting muddy water at the\nopposing Pokémon. This may also lower\ntheir accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by shooting muddy water at the\nopposing Pokémon. This may also lower\ntheir accuracy.",
-    "sword-shield": "The user attacks by shooting muddy water at opposing\nPokémon. This may also lower their accuracy."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 330,
+    "key": "muddy-water",
+    "name": {
+        "japanese-kana": "だくりゅう",
+        "korean": "탁류",
+        "traditional-chinese": "濁流",
+        "french": "Ocroupi",
+        "german": "Lehmbrühe",
+        "spanish": "Agua Lodosa",
+        "italian": "Fanghiglia",
+        "english": "Muddy Water",
+        "japanese": "だくりゅう",
+        "simplified-chinese": "浊流",
+        "latin-american-spanish": "Agua Lodosa"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "tough",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 30
+    },
+    "changes": {
+        "xy": {
+            "power": 95
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Attacks with muddy water. May lower accuracy.",
+            "em": "Attacks with muddy water. May lower accuracy.",
+            "frlg": "The user attacks with muddy water. It may also lower the foe’s accuracy.",
+            "dp": "The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.",
+            "pt": "The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.",
+            "hgss": "The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.",
+            "bw": "The user attacks by shooting muddy water at the opposing team. It may also lower the targets’ accuracy.",
+            "b2w2": "The user attacks by shooting muddy water at the opposing team. It may also lower the targets’ accuracy.",
+            "xy": "The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.",
+            "oras": "The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.",
+            "sm": "The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.",
+            "usum": "The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.",
+            "lgpe": "The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.",
+            "swsh": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",
+            "la": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",
+            "sv": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy."
+        },
+        "french": {
+            "bw": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.",
+            "xy": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.",
+            "oras": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.",
+            "sm": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.",
+            "usum": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.",
+            "lgpe": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.",
+            "swsh": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "にごった　みずを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "oras": "にごった　 ずを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "sm": "にごった　みずを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "usum": "にごった　みずを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "lgpe": "にごった　みずを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "swsh": "にごった　みずを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。"
+        },
+        "korean": {
+            "xy": "탁해진 물을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "oras": "탁해진 물을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "sm": "탁해진 물을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "usum": "탁해진 물을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "lgpe": "탁해진 물을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "swsh": "탁해진 물을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.",
+            "oras": "Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.",
+            "sm": "Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.",
+            "usum": "Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.",
+            "lgpe": "Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.",
+            "swsh": "Greift mit Matsch an und senkt eventuell die Genauigkeit der gegnerischen Pokémon."
+        },
+        "spanish": {
+            "xy": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "oras": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "sm": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "usum": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "lgpe": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "swsh": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.",
+            "oras": "Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.",
+            "sm": "Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.",
+            "usum": "Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.",
+            "lgpe": "Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.",
+            "swsh": "Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione."
+        },
+        "japanese": {
+            "xy": "濁った　水を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "oras": "濁った　水を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "sm": "濁った　水を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "usum": "濁った　水を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "lgpe": "濁った　水を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "swsh": "濁った　水を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "oras": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "sm": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "usum": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "lgpe": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+            "swsh": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival."
+        },
+        "traditional-chinese": {
+            "sm": "用渾濁的污水攻擊對手。 有時會降低對手的命中率。",
+            "usum": "用渾濁的污水攻擊對手。 有時會降低對手的命中率。",
+            "lgpe": "用渾濁的污水攻擊對手。 有時會降低對手的命中率。",
+            "swsh": "用渾濁的污水攻擊對手。 有時會降低對手的命中率。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手喷射 浑浊的水进行攻击。 有时会降低对手的命中率。",
+            "usum": "向对手喷射 浑浊的水进行攻击。 有时会降低对手的命中率。",
+            "lgpe": "向对手喷射 浑浊的水进行攻击。 有时会降低对手的命中率。",
+            "swsh": "向对手喷射 浑浊的水进行攻击。 有时会降低对手的命中率。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s accuracy by one stage.",
+        "shortEffect": "Has a chance to lower the target’s accuracy by one stage."
+    }
 }

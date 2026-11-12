@@ -1,47 +1,146 @@
 {
-  "_id": 219,
-  "key": "safeguard",
-  "name": {
-    "english": "Safeguard",
-    "japanese": "しんぴのまもり",
-    "chinese": "神秘护身",
-    "korean": "신비의부적",
-    "german": "Velo Sagrado",
-    "french": "Bodyguard",
-    "italian": "Safeguard",
-    "spanish": "Salvaguardia"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 25,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "gold-silver": "Prevents all\nstatus problems.",
-    "crystal": "Prevents all\nstatus problems.",
-    "ruby-sapphire": "A mystical force prevents\nall status problems.",
-    "emerald": "A mystical force prevents\nall status problems.",
-    "firered-leafgreen": "It protects the\nuser’s party from\nall status problems\nfor five turns.",
-    "diamond-pearl": "The user creates a\nprotective field that\nprevents status\nproblems for five\nturns.",
-    "platinum": "The user creates a\nprotective field that\nprevents status\nproblems for five\nturns.",
-    "heartgold-soulsilver": "The user creates a\nprotective field that\nprevents status\nproblems for five\nturns.",
-    "black-white": "The user creates a protective field that\nprevents status problems for five turns.",
-    "black-2-white-2": "The user creates a protective field that\nprevents status problems for five turns.",
-    "x-y": "The user creates a protective field\nthat prevents status conditions\nfor five turns.",
-    "omega-ruby-alpha-sapphire": "The user creates a protective field\nthat prevents status conditions\nfor five turns.",
-    "sun-moon": "The user creates a protective field that prevents\nstatus conditions for five turns.",
-    "ultra-sun-ultra-moon": "The user creates a protective field that prevents\nstatus conditions for five turns.",
-    "lets-go-pikachu-lets-go-eevee": "The user creates a protective field that prevents\nstatus conditions for five turns.",
-    "sword-shield": "The user creates a protective field that prevents\nstatus conditions for five turns."
-  },
-  "effect": {
-    "full": "Protects Pokémon on the user's side of the field from major status effects and confusion for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the field.\n\nIf yawn is used while this move is in effect, it will immediately fail.\n\ndefog used by an opponent will end this effect.\n\nThis effect does not prevent the confusion caused by outrage, petal dance, or thrash.",
-    "shortEffect": "Protects the user's field from major status ailments and confusion for five turns."
-  },
-  "priority": 0
+    "_id": 219,
+    "key": "safeguard",
+    "name": {
+        "japanese-kana": "しんぴのまもり",
+        "korean": "신비의부적",
+        "traditional-chinese": "神秘守護",
+        "french": "Rune Protect",
+        "german": "Bodyguard",
+        "spanish": "Velo Sagrado",
+        "italian": "Salvaguardia",
+        "english": "Safeguard",
+        "japanese": "しんぴのまもり",
+        "simplified-chinese": "神秘守护",
+        "latin-american-spanish": "Velo Sagrado"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 25,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Prevents all status problems.",
+            "cr": "Prevents all status problems.",
+            "rs": "A mystical force prevents all status problems.",
+            "em": "A mystical force prevents all status problems.",
+            "frlg": "It protects the user’s party from all status problems for five turns.",
+            "dp": "The user creates a protective field that prevents status problems for five turns.",
+            "pt": "The user creates a protective field that prevents status problems for five turns.",
+            "hgss": "The user creates a protective field that prevents status problems for five turns.",
+            "bw": "The user creates a protective field that prevents status problems for five turns.",
+            "b2w2": "The user creates a protective field that prevents status problems for five turns.",
+            "xy": "The user creates a protective field that prevents status conditions for five turns.",
+            "oras": "The user creates a protective field that prevents status conditions for five turns.",
+            "sm": "The user creates a protective field that prevents status conditions for five turns.",
+            "usum": "The user creates a protective field that prevents status conditions for five turns.",
+            "lgpe": "The user creates a protective field that prevents status conditions for five turns.",
+            "swsh": "The user creates a protective field that prevents status conditions for five turns.",
+            "la": "The user creates a protective field that prevents status conditions for five turns.",
+            "sv": "The user creates a protective field that prevents status conditions for five turns."
+        },
+        "french": {
+            "bw": "Champ protecteur empêchant tous les problèmes de statut pendant 5 tours.",
+            "xy": "Crée un champ protecteur qui empêche tous les problèmes de statut pendant cinq tours.",
+            "oras": "Crée un champ protecteur qui empêche tous les problèmes de statut pendant cinq tours.",
+            "sm": "Crée un champ protecteur qui empêche tous les problèmes de statut pendant cinq tours.",
+            "usum": "Crée un champ protecteur qui empêche tous les problèmes de statut pendant cinq tours.",
+            "lgpe": "Crée un champ protecteur qui empêche tous les problèmes de statut pendant cinq tours.",
+            "swsh": "Crée un champ protecteur qui empêche toutes les altérations de statut pendant cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ ふしぎな　ちからに　まもられて じょうたい　いじょうに　ならなくなる。",
+            "oras": "５ターンの　あいだ ふしぎな　ちからに　まもられて じょうたい　いじょうに　ならなくなる。",
+            "sm": "５ターンの　あいだ ふしぎな　ちからに　まもられて じょうたい　いじょうに　ならなくなる。",
+            "usum": "５ターンの　あいだ ふしぎな　ちからに　まもられて じょうたい　いじょうに　ならなくなる。",
+            "lgpe": "５ターンの　あいだ ふしぎな　ちからに　まもられて じょうたい　いじょうに　ならなくなる。",
+            "swsh": "５ターンの　あいだ ふしぎな　ちからに　まもられて じょうたい　いじょうに　ならなくなる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 이상한 힘으로 보호받아 상태 이상이 되지 않는다.",
+            "oras": "5턴 동안 이상한 힘으로 보호받아 상태 이상이 되지 않는다.",
+            "sm": "5턴 동안 이상한 힘으로 보호받아 상태 이상이 되지 않는다.",
+            "usum": "5턴 동안 이상한 힘으로 보호받아 상태 이상이 되지 않는다.",
+            "lgpe": "5턴 동안 이상한 힘으로 보호받아 상태 이상이 되지 않는다.",
+            "swsh": "5턴 동안 이상한 힘의 보호를 받아 상태 이상이 되지 않는다."
+        },
+        "german": {
+            "xy": "Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.",
+            "oras": "Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.",
+            "sm": "Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.",
+            "usum": "Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.",
+            "lgpe": "Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.",
+            "swsh": "Team des Anwenders ist fünf Runden lang vor Statusproblemen geschützt."
+        },
+        "spanish": {
+            "xy": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "oras": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "sm": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "usum": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "lgpe": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "swsh": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos."
+        },
+        "italian": {
+            "xy": "Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.",
+            "oras": "Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.",
+            "sm": "Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.",
+            "usum": "Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.",
+            "lgpe": "Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.",
+            "swsh": "Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ 不思議な　力に　守られて 状態異常に　ならなくなる。",
+            "oras": "５ターンの　あいだ 不思議な　力に　守られて 状態異常に　ならなくなる。",
+            "sm": "５ターンの　間 不思議な　力に　守られて 状態異常に　ならなくなる。",
+            "usum": "５ターンの　間 不思議な　力に　守られて 状態異常に　ならなくなる。",
+            "lgpe": "５ターンの　間 不思議な　力に　守られて 状態異常に　ならなくなる。",
+            "swsh": "５ターンの　間 不思議な　力に　守られて 状態異常に　ならなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "oras": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "sm": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "usum": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "lgpe": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+            "swsh": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內 被神奇的力量守護， 不會陷入異常狀態。",
+            "usum": "在５回合內 被神奇的力量守護， 不會陷入異常狀態。",
+            "lgpe": "在５回合內 被神奇的力量守護， 不會陷入異常狀態。",
+            "swsh": "在５回合內 被神奇的力量守護， 不會陷入異常狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内 被神奇的力量守护， 从而不会陷入异常状态。",
+            "usum": "在５回合内 被神奇的力量守护， 从而不会陷入异常状态。",
+            "lgpe": "在５回合内 被神奇的力量守护， 从而不会陷入异常状态。",
+            "swsh": "在５回合内 被神奇的力量守护， 从而不会陷入异常状态。"
+        }
+    },
+    "effect": {
+        "full": "Protects Pokémon on the user’s side of the field from major status effects and confusion for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the field. If Yawn is used while this move is in effect, it will immediately fail. Defog used by an opponent will end this effect. This effect does not prevent the confusion caused by Outrage, Petal Dance, or Thrash.",
+        "shortEffect": "Protects the user’s field from major status ailments and confusion for five turns."
+    }
 }

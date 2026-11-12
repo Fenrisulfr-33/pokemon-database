@@ -1,47 +1,161 @@
 {
-  "_id": 26,
-  "key": "jump-kick",
-  "name": {
-    "english": "Jump Kick",
-    "japanese": "とびげり",
-    "chinese": "飞踢",
-    "korean": "점프킥",
-    "german": "Patada Salto",
-    "french": "Sprungkick",
-    "italian": "Jump Kick",
-    "spanish": "Calciosalto"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 130,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A strong jumping kick. May\nmiss and hurt the kicker.",
-    "gold-silver": "May miss, damaging\nthe user.",
-    "crystal": "May miss, damaging\nthe user.",
-    "emerald": "A strong jumping kick. May\nmiss and hurt the kicker.",
-    "firered-leafgreen": "The user jumps up\nhigh, then kicks.\nIf it misses, the\nuser hurts itself.",
-    "diamond-pearl": "The user jumps up\nhigh, then strikes\nwith a kick. If the\nkick misses, the\nuser hurts itself.",
-    "platinum": "The user jumps up\nhigh, then strikes\nwith a kick. If the\nkick misses, the\nuser hurts itself.",
-    "heartgold-soulsilver": "The user jumps up\nhigh, then strikes\nwith a kick. If the\nkick misses, the\nuser hurts itself.",
-    "black-white": "The user jumps up high, then strikes\nwith a kick. If the kick misses, the\nuser hurts itself.",
-    "black-2-white-2": "The user jumps up high, then strikes\nwith a kick. If the kick misses, the\nuser hurts itself.",
-    "x-y": "The user jumps up high, then strikes\nwith a kick. If the kick misses, the\nuser hurts itself.",
-    "omega-ruby-alpha-sapphire": "The user jumps up high, then strikes\nwith a kick. If the kick misses, the\nuser hurts itself.",
-    "sun-moon": "The user jumps up high, then strikes with a kick.\nIf the kick misses, the user hurts itself.",
-    "ultra-sun-ultra-moon": "The user jumps up high, then strikes with a kick.\nIf the kick misses, the user hurts itself.",
-    "lets-go-pikachu-lets-go-eevee": "The user jumps up high, then strikes with a kick.\nIf the kick misses, the user hurts itself.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.\n\nThis move cannot be used while gravity is in effect.",
-    "shortEffect": "If the user misses, it takes half the damage it would have inflicted in recoil."
-  },
-  "priority": 0
+    "_id": 26,
+    "key": "jump-kick",
+    "name": {
+        "japanese-kana": "とびげり",
+        "korean": "점프킥",
+        "traditional-chinese": "飛踢",
+        "french": "Pied Sauté",
+        "german": "Sprungkick",
+        "spanish": "Patada Salto",
+        "italian": "Calciosalto",
+        "english": "Jump Kick",
+        "japanese": "とびげり",
+        "simplified-chinese": "飞踢",
+        "latin-american-spanish": "Patada Salto"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "power": 70
+        },
+        "bw": {
+            "power": 85,
+            "pp": 25
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "Si cette capacité échoue, le lanceur reçoit 1 point de dommage de recul.",
+            "bw": "Si cette capacité échoue, le lanceur reçoit des dommages égaux à la moitié de ses PV max arrondis à l’inférieur."
+        },
+        "english": {
+            "gs": "If this move misses, the user takes 1 point of damage in recoil.",
+            "bw": "If this move misses, the user takes damage equal to half of its max HP rounded down."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "May miss, damaging the user.",
+            "cr": "May miss, damaging the user.",
+            "rs": "A strong jumping kick. May miss and hurt the kicker.",
+            "em": "A strong jumping kick. May miss and hurt the kicker.",
+            "frlg": "The user jumps up high, then kicks. If it misses, the user hurts itself.",
+            "dp": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "pt": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "hgss": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "bw": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "b2w2": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "xy": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "oras": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "sm": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "usum": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "lgpe": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse.",
+            "xy": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse.",
+            "oras": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse.",
+            "sm": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse.",
+            "usum": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse.",
+            "lgpe": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "たかい　ジャンプからの　キックで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "oras": "たかい　ジャンプからの　キックで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "sm": "たかい　ジャンプからの　キックで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "usum": "たかい　ジャンプからの　キックで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "lgpe": "たかい　ジャンプからの　キックで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "높이 점프해서 킥으로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "oras": "높이 점프해서 킥으로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "sm": "높이 점프해서 킥으로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "usum": "높이 점프해서 킥으로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "lgpe": "높이 점프해서 킥으로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Der Angreifer hüpft hoch und tritt zu. Bei Misserfolg schadet er sich selbst.",
+            "oras": "Der Angreifer hüpft hoch und tritt zu. Bei Misserfolg schadet er sich selbst.",
+            "sm": "Der Angreifer hüpft hoch und tritt zu. Bei Misserfolg schadet er sich selbst.",
+            "usum": "Der Angreifer hüpft hoch und tritt zu. Bei Misserfolg schadet er sich selbst.",
+            "lgpe": "Der Angreifer hüpft hoch und tritt zu. Bei Misserfolg schadet er sich selbst.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "oras": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "sm": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "usum": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "lgpe": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Permette di saltare in alto per attaccare con un calcio. Se non va a buon fine, chi la usa si ferisce.",
+            "oras": "Permette di saltare in alto per attaccare con un calcio. Se non va a buon fine, chi la usa si ferisce.",
+            "sm": "Permette di saltare in alto per attaccare con un calcio. Se non va a buon fine, chi la usa si ferisce.",
+            "usum": "Permette di saltare in alto per attaccare con un calcio. Se non va a buon fine, chi la usa si ferisce.",
+            "lgpe": "Permette di saltare in alto per attaccare con un calcio. Se non va a buon fine, chi la usa si ferisce.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "高い　ジャンプからの　キックで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "oras": "高い　ジャンプからの　キックで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "sm": "高い　ジャンプからの　キックで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "usum": "高い　ジャンプからの　キックで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "lgpe": "高い　ジャンプからの　キックで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "oras": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "sm": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "usum": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "lgpe": "Da un salto y pega una patada. Si falla, se lesiona.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "高高跳起之後使出飛踢攻擊對手。 沒踢中對手時自己會受到傷害。",
+            "usum": "高高跳起之後使出飛踢攻擊對手。 沒踢中對手時自己會受到傷害。",
+            "lgpe": "高高跳起之後使出飛踢攻擊對手。 沒踢中對手時自己會受到傷害。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "使出高高的腾空踢攻击对手。 如果踢偏则自己会受到伤害。",
+            "usum": "使出高高的腾空踢攻击对手。 如果踢偏则自己会受到伤害。",
+            "lgpe": "使出高高的腾空踢攻击对手。 如果踢偏则自己会受到伤害。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. If this move misses, is blocked by Protect or Detect, or has no effect, the user takes damage equal to half of its max HP rounded down. This move cannot be used while Gravity is in effect.",
+        "shortEffect": "If the user misses, it takes half the damage it would have inflicted in recoil."
+    }
 }

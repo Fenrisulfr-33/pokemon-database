@@ -1,45 +1,144 @@
 {
-  "_id": 276,
-  "key": "superpower",
-  "name": {
-    "english": "Superpower",
-    "japanese": "ばかぢから",
-    "chinese": "蛮力",
-    "korean": "엄청난힘",
-    "german": "Fuerza Bruta",
-    "french": "Kraftkoloss",
-    "italian": "Superpower",
-    "spanish": "Troppoforte"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 5,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Boosts strength sharply,\nbut lowers abilities.",
-    "emerald": "Boosts strength sharply,\nbut lowers abilities.",
-    "firered-leafgreen": "A powerful attack,\nbut it also lowers\nthe user’s ATTACK\nand DEFENSE stats.",
-    "diamond-pearl": "The user attacks the\nfoe with great power.\nHowever, it also\nlowers the user’s\nAttack and Defense.",
-    "platinum": "The user attacks the\nfoe with great power.\nHowever, it also\nlowers the user’s\nAttack and Defense.",
-    "heartgold-soulsilver": "The user attacks the\nfoe with great power.\nHowever, it also\nlowers the user’s\nAttack and Defense.",
-    "black-white": "The user attacks the target with great\npower. However, it also lowers the\nuser’s Attack and Defense.",
-    "black-2-white-2": "The user attacks the target with great\npower. However, it also lowers the\nuser’s Attack and Defense.",
-    "x-y": "The user attacks the target with great\npower. However, this also lowers the\nuser’s Attack and Defense stats.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with great\npower. However, this also lowers the\nuser’s Attack and Defense stats.",
-    "sun-moon": "The user attacks the target with great power.\nHowever, this also lowers the user’s Attack and\nDefense stats.",
-    "ultra-sun-ultra-moon": "The user attacks the target with great power.\nHowever, this also lowers the user’s Attack and\nDefense stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with great power.\nHowever, this also lowers the user’s Attack and\nDefense stats.",
-    "sword-shield": "The user attacks the target with great power.\nHowever, this also lowers the user’s Attack and\nDefense stats."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Attack and Defense by one stage each.",
-    "shortEffect": "Lowers the user's Attack and Defense by one stage after inflicting damage."
-  },
-  "priority": 0
+    "_id": 276,
+    "key": "superpower",
+    "name": {
+        "japanese-kana": "ばかぢから",
+        "korean": "엄청난힘",
+        "traditional-chinese": "蠻力",
+        "french": "Surpuissance",
+        "german": "Kraftkoloss",
+        "spanish": "Fuerza Bruta",
+        "italian": "Troppoforte",
+        "english": "Superpower",
+        "japanese": "ばかぢから",
+        "simplified-chinese": "蛮力",
+        "latin-american-spanish": "Fuerza Bruta"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 5,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Boosts strength sharply, but lowers abilities.",
+            "em": "Boosts strength sharply, but lowers abilities.",
+            "frlg": "A powerful attack, but it also lowers the user’s ATTACK and DEFENSE stats.",
+            "dp": "The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.",
+            "pt": "The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.",
+            "hgss": "The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.",
+            "bw": "The user attacks the target with great power. However, it also lowers the user’s Attack and Defense.",
+            "b2w2": "The user attacks the target with great power. However, it also lowers the user’s Attack and Defense.",
+            "xy": "The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.",
+            "oras": "The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.",
+            "sm": "The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.",
+            "usum": "The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.",
+            "lgpe": "The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.",
+            "swsh": "The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.",
+            "la": "The user attacks the target with great power. However, this also lowers the user's Attack and Defense stats.",
+            "sv": "The user attacks the target with great power. This also lowers the user's Attack and Defense stats."
+        },
+        "french": {
+            "bw": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur.",
+            "xy": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur.",
+            "oras": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur.",
+            "sm": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur.",
+            "usum": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur.",
+            "lgpe": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur.",
+            "swsh": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "すごい　ちからを　はっきして あいてを　こうげきする。じぶんの こうげきと　ぼうぎょが　さがる。",
+            "oras": "すごい　ちからを　はっきして あいてを　こうげきする。じぶんの こうげきと　ぼうぎょが　さがる。",
+            "sm": "すごい　ちからを　はっきして あいてを　こうげきする。じぶんの こうげきと　ぼうぎょが　さがる。",
+            "usum": "すごい　ちからを　はっきして あいてを　こうげきする。じぶんの こうげきと　ぼうぎょが　さがる。",
+            "lgpe": "すごい　ちからを　はっきして あいてを　こうげきする。じぶんの こうげきと　ぼうぎょが　さがる。",
+            "swsh": "すごい　ちからを　はっきして あいてを　こうげきする。じぶんの こうげきと　ぼうぎょが　さがる。"
+        },
+        "korean": {
+            "xy": "엄청난 힘을 발휘하여 상대를 공격한다. 자신의 공격과 방어가 떨어진다.",
+            "oras": "엄청난 힘을 발휘하여 상대를 공격한다. 자신의 공격과 방어가 떨어진다.",
+            "sm": "엄청난 힘을 발휘하여 상대를 공격한다. 자신의 공격과 방어가 떨어진다.",
+            "usum": "엄청난 힘을 발휘하여 상대를 공격한다. 자신의 공격과 방어가 떨어진다.",
+            "lgpe": "엄청난 힘을 발휘하여 상대를 공격한다. 자신의 공격과 방어가 떨어진다.",
+            "swsh": "엄청난 힘을 발휘하여 상대를 공격한다. 자신의 공격과 방어가 떨어진다."
+        },
+        "german": {
+            "xy": "Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.",
+            "oras": "Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.",
+            "sm": "Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.",
+            "usum": "Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.",
+            "lgpe": "Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.",
+            "swsh": "Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt."
+        },
+        "spanish": {
+            "xy": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "oras": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "sm": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "usum": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "lgpe": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "swsh": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con grande forza, ma il suo Attacco e la sua Difesa diminuiscono.",
+            "oras": "Chi la usa attacca il bersaglio con grande forza, ma il suo Attacco e la sua Difesa diminuiscono.",
+            "sm": "Chi la usa attacca il bersaglio con grande forza, ma il suo Attacco e la sua Difesa diminuiscono.",
+            "usum": "Chi la usa attacca il bersaglio con grande forza, ma il suo Attacco e la sua Difesa diminuiscono.",
+            "lgpe": "Chi la usa attacca il bersaglio con grande forza, ma il suo Attacco e la sua Difesa diminuiscono.",
+            "swsh": "Chi la usa attacca il bersaglio con grande forza, ma il suo Attacco e la sua Difesa diminuiscono."
+        },
+        "japanese": {
+            "xy": "すごい　力を　発揮して 相手を　攻撃する。自分の 攻撃と　防御が　さがる。",
+            "oras": "すごい　力を　発揮して 相手を　攻撃する。自分の 攻撃と　防御が　さがる。",
+            "sm": "すごい　力を　発揮して 相手を　攻撃する。自分の 攻撃と　防御が　さがる。",
+            "usum": "すごい　力を　発揮して 相手を　攻撃する。自分の 攻撃と　防御が　さがる。",
+            "lgpe": "すごい　力を　発揮して 相手を　攻撃する。自分の 攻撃と　防御が　さがる。",
+            "swsh": "すごい　力を　発揮して 相手を　攻撃する。自分の 攻撃と　防御が　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "oras": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "sm": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "usum": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "lgpe": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.",
+            "swsh": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor."
+        },
+        "traditional-chinese": {
+            "sm": "發揮驚人的力量攻擊對手。 自己的攻擊和防禦會降低。",
+            "usum": "發揮驚人的力量攻擊對手。 自己的攻擊和防禦會降低。",
+            "lgpe": "發揮驚人的力量攻擊對手。 自己的攻擊和防禦會降低。",
+            "swsh": "發揮驚人的力量攻擊對手。 自己的攻擊和防禦會降低。"
+        },
+        "simplified-chinese": {
+            "sm": "发挥惊人的力量攻击对手。 自己的攻击和防御会降低。",
+            "usum": "发挥惊人的力量攻击对手。 自己的攻击和防御会降低。",
+            "lgpe": "发挥惊人的力量攻击对手。 自己的攻击和防御会降低。",
+            "swsh": "发挥惊人的力量攻击对手。 自己的攻击和防御会降低。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Attack and Defense by one stage each.",
+        "shortEffect": "Lowers the user’s Attack and Defense by one stage after inflicting damage."
+    }
 }

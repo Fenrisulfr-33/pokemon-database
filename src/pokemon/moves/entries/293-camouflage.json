@@ -1,45 +1,142 @@
 {
-  "_id": 293,
-  "key": "camouflage",
-  "name": {
-    "english": "Camouflage",
-    "japanese": "ほごしょく",
-    "chinese": "保护色",
-    "korean": "보호색",
-    "german": "Camuflaje",
-    "french": "Tarnung",
-    "italian": "Camouflage",
-    "spanish": "Camuffamento"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Alters the POKéMON’s type\ndepending on the location.",
-    "emerald": "Alters the POKéMON’s type\ndepending on the location.",
-    "firered-leafgreen": "Alters the user’s\ntype depending on\nthe location’s\nterrain.",
-    "diamond-pearl": "The user’s type is\nchanged depending on\nits environment, such\nas at water’s edge, in\ngrass, or in a cave.",
-    "platinum": "The user’s type is\nchanged depending on\nits environment, such\nas at water’s edge, in\ngrass, or in a cave.",
-    "heartgold-soulsilver": "The user’s type is\nchanged depending on\nits environment, such\nas at water’s edge, in\ngrass, or in a cave.",
-    "black-white": "The user’s type is changed depending on\nits environment, such as at water’s edge,\nin grass, or in a cave.",
-    "black-2-white-2": "The user’s type is changed depending on\nits environment, such as at water’s edge,\nin grass, or in a cave.",
-    "x-y": "The user’s type is changed depending on\nits environment, such as at water’s edge,\nin grass, or in a cave.",
-    "omega-ruby-alpha-sapphire": "The user’s type is changed depending on\nits environment, such as at water’s edge,\nin grass, or in a cave.",
-    "sun-moon": "The user’s type is changed depending on its\nenvironment, such as at water’s edge, in grass, or in\na cave.",
-    "ultra-sun-ultra-moon": "The user’s type is changed depending on its\nenvironment, such as at water’s edge, in grass, or in\na cave.",
-    "lets-go-pikachu-lets-go-eevee": "The user’s type is changed depending on its\nenvironment, such as at water’s edge, in grass, or in\na cave.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "User's type changes according to the terrain.\n\nTerrain        | New type\n-------------- | --------------\nBuilding       | normal\nCave           | rock\nDesert         | ground\nGrass          | grass\nMountain       | rock\nOcean          | water\nPond           | water\nRoad           | ground\nSnow           | ice\nTall grass     | grass\n\nIn Pokémon Battle Revolution:\n\nTerrain        | New type\n-------------- | --------------\nCourtyard      | normal\nCrystal        | rock\nGateway        | water\nMagma          | rock\nMain Street    | normal\nNeon           | normal\nStargazer      | rock\nSunny Park     | grass\nSunset         | ground\nWaterfall      | grass\n",
-    "shortEffect": "User's type changes to match the terrain."
-  },
-  "priority": 0
+    "_id": 293,
+    "key": "camouflage",
+    "name": {
+        "japanese-kana": "ほごしょく",
+        "korean": "보호색",
+        "traditional-chinese": "保護色",
+        "french": "Camouflage",
+        "german": "Tarnung",
+        "spanish": "Camuflaje",
+        "italian": "Camuffamento",
+        "english": "Camouflage",
+        "japanese": "ほごしょく",
+        "simplified-chinese": "保护色",
+        "latin-american-spanish": "Camuflaje"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Alters the POKéMON’s type depending on the location.",
+            "em": "Alters the POKéMON’s type depending on the location.",
+            "frlg": "Alters the user’s type depending on the location’s terrain.",
+            "dp": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "pt": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "hgss": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "bw": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "b2w2": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "xy": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "oras": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "sm": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "usum": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "lgpe": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc.",
+            "xy": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc.",
+            "oras": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc.",
+            "sm": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc.",
+            "usum": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc.",
+            "lgpe": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "みずべや　くさむら　どうくつなど いる　ばしょに　あわせて じぶんの　タイプを　かえる。",
+            "oras": "ずべや　くさむら　どうくつなど いる　ばしょに　あわせて じぶんの　タイプを　かえる。",
+            "sm": "みずべや　くさむら　どうくつなど いる　ばしょに　あわせて じぶんの　タイプを　かえる。",
+            "usum": "みずべや　くさむら　どうくつなど いる　ばしょに　あわせて じぶんの　タイプを　かえる。",
+            "lgpe": "みずべや　くさむら　どうくつなど いる　ばしょに　あわせて じぶんの　タイプを　かえる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "물가나 풀밭, 동굴 등 있는 장소에 맞춰서 자신의 타입을 바꾼다.",
+            "oras": "물가나 풀밭, 동굴 등 있는 장소에 맞춰서 자신의 타입을 바꾼다.",
+            "sm": "물가나 풀밭, 동굴 등 있는 장소에 맞춰서 자신의 타입을 바꾼다.",
+            "usum": "물가나 풀밭, 동굴 등 있는 장소에 맞춰서 자신의 타입을 바꾼다.",
+            "lgpe": "물가나 풀밭, 동굴 등 있는 장소에 맞춰서 자신의 타입을 바꾼다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Der Typ des Anwenders passt sich der Umgebung an, sei es im Wasser, im Gras oder in einer Höhle.",
+            "oras": "Der Typ des Anwenders passt sich der Umgebung an, sei es im Wasser, im Gras oder in einer Höhle.",
+            "sm": "Der Typ des Anwenders passt sich der Umgebung an, sei es im Wasser, im Gras oder in einer Höhle.",
+            "usum": "Der Typ des Anwenders passt sich der Umgebung an, sei es im Wasser, im Gras oder in einer Höhle.",
+            "lgpe": "Der Typ des Anwenders passt sich der Umgebung an, sei es im Wasser, im Gras oder in einer Höhle.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "oras": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "sm": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "usum": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "lgpe": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull’acqua, nell’erba o in una grotta.",
+            "oras": "Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull’acqua, nell’erba o in una grotta.",
+            "sm": "Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull’acqua, nell’erba o in una grotta.",
+            "usum": "Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull’acqua, nell’erba o in una grotta.",
+            "lgpe": "Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull’acqua, nell’erba o in una grotta.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "水辺や　草むら　どうくつなど いる　場所に　あわせて 自分の　タイプを　変える。",
+            "oras": "水辺や　草むら　どうくつなど いる　場所に　あわせて 自分の　タイプを　変える。",
+            "sm": "水辺や　草むら　どうくつなど いる　場所に　あわせて 自分の　タイプを　変える。",
+            "usum": "水辺や　草むら　どうくつなど いる　場所に　あわせて 自分の　タイプを　変える。",
+            "lgpe": "水辺や　草むら　どうくつなど いる　場所に　あわせて 自分の　タイプを　変える。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "oras": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "sm": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "usum": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "lgpe": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "可以因應所在的地點如 水邊、草叢和洞窟等， 改變自己的屬性。",
+            "usum": "可以因應所在的地點如 水邊、草叢和洞窟等， 改變自己的屬性。",
+            "lgpe": "可以因應所在的地點如 水邊、草叢和洞窟等， 改變自己的屬性。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "根据所在场所不同， 如水边、草丛和洞窟等， 可以改变自己的属性。",
+            "usum": "根据所在场所不同， 如水边、草丛和洞窟等， 可以改变自己的属性。",
+            "lgpe": "根据所在场所不同， 如水边、草丛和洞窟等， 可以改变自己的属性。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "User’s type changes according to the terrain. Terrain        | New type -------------- | -------------- Building       | Normal Cave           | Rock Desert         | Ground Grass          | Grass Mountain       | Rock Ocean          | Water Pond           | Water Road           | Ground Snow           | Ice Tall grass     | Grass In Pokémon Battle Revolution: Terrain        | New type -------------- | -------------- Courtyard      | Normal Crystal        | Rock Gateway        | Water Magma          | Rock Main Street    | Normal Neon           | Normal Stargazer      | Rock Sunny Park     | Grass Sunset         | Ground Waterfall      | Grass",
+        "shortEffect": "User’s type changes to match the terrain."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 416,
-  "key": "giga-impact",
-  "name": {
-    "english": "Giga Impact",
-    "japanese": "ギガインパクト",
-    "chinese": "超极冲击",
-    "korean": "기가임팩트",
-    "german": "Gigaimpacto",
-    "french": "Gigastoß",
-    "italian": "Giga Impact",
-    "spanish": "Gigaimpatto"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn.",
-    "platinum": "The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn.",
-    "heartgold-soulsilver": "The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn.",
-    "black-white": "The user charges at the target using\nevery bit of its power.\nThe user must rest on the next turn.",
-    "black-2-white-2": "The user charges at the target using\nevery bit of its power.\nThe user must rest on the next turn.",
-    "x-y": "The user charges at the target using\nevery bit of its power.\nThe user can’t move on the next turn.",
-    "omega-ruby-alpha-sapphire": "The user charges at the target using\nevery bit of its power.\nThe user can’t move on the next turn.",
-    "sun-moon": "The user charges at the target using every bit of its\npower. The user can’t move on the next turn.",
-    "ultra-sun-ultra-moon": "The user charges at the target using every bit of its\npower. The user can’t move on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user charges at the target using every bit of its\npower. The user can’t move on the next turn.",
-    "sword-shield": "The user charges at the target using every bit of its\npower. The user can’t move on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-    "shortEffect": "User foregoes its next turn to recharge."
-  },
-  "priority": 0
+    "_id": 416,
+    "key": "giga-impact",
+    "name": {
+        "japanese-kana": "ギガインパクト",
+        "korean": "기가임팩트",
+        "traditional-chinese": "終極衝擊",
+        "french": "Giga Impact",
+        "german": "Gigastoß",
+        "spanish": "Gigaimpacto",
+        "italian": "Gigaimpatto",
+        "english": "Giga Impact",
+        "japanese": "ギガインパクト",
+        "simplified-chinese": "终极冲击",
+        "latin-american-spanish": "Gigaimpacto"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user charges at the foe using every bit of its power. The user must rest on the next turn.",
+            "pt": "The user charges at the foe using every bit of its power. The user must rest on the next turn.",
+            "hgss": "The user charges at the foe using every bit of its power. The user must rest on the next turn.",
+            "bw": "The user charges at the target using every bit of its power. The user must rest on the next turn.",
+            "b2w2": "The user charges at the target using every bit of its power. The user must rest on the next turn.",
+            "xy": "The user charges at the target using every bit of its power. The user can’t move on the next turn.",
+            "oras": "The user charges at the target using every bit of its power. The user can’t move on the next turn.",
+            "sm": "The user charges at the target using every bit of its power. The user can’t move on the next turn.",
+            "usum": "The user charges at the target using every bit of its power. The user can’t move on the next turn.",
+            "lgpe": "The user charges at the target using every bit of its power. The user can’t move on the next turn.",
+            "swsh": "The user charges at the target using every bit of its power. The user can’t move on the next turn.",
+            "la": "The user charges at the target using every bit of its power.",
+            "sv": "The user charges at the target using every bit of its power. The user can't move on the next turn."
+        },
+        "french": {
+            "bw": "Le lanceur charge l’ennemi de toute sa puissance. Il doit ensuite se reposer au tour suivant.",
+            "xy": "Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.",
+            "oras": "Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.",
+            "sm": "Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.",
+            "usum": "Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.",
+            "lgpe": "Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.",
+            "swsh": "Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "もてる　ちからを　すべて　つかって あいてに　とつげきする。 つぎの　ターンは　うごけなく　なる。",
+            "oras": "もてる　ちからを　すべて　つかって あいてに　とつげきする。 つぎの　ターンは　うごけなく　なる。",
+            "sm": "もてる　ちからを　すべて　つかって あいてに　とつげきする。 つぎの　ターンは　うごけなく　なる。",
+            "usum": "もてる　ちからを　すべて　つかって あいてに　とつげきする。 つぎの　ターンは　うごけなく　なる。",
+            "lgpe": "もてる　ちからを　すべて　つかって あいてに　とつげきする。 つぎの　ターンは　うごけなく　なる。",
+            "swsh": "もてる　ちからを　すべて　つかって あいてに　とつげきする。 つぎの　ターンは　うごけなく　なる。"
+        },
+        "korean": {
+            "xy": "가진 힘을 모두 사용해서 상대에게 돌격한다. 다음 턴은 움직일 수 없다.",
+            "oras": "가진 힘을 모두 사용해서 상대에게 돌격한다. 다음 턴은 움직일 수 없다.",
+            "sm": "가진 힘을 모두 사용해서 상대에게 돌격한다. 다음 턴은 움직일 수 없다.",
+            "usum": "가진 힘을 모두 사용해서 상대에게 돌격한다. 다음 턴은 움직일 수 없다.",
+            "lgpe": "가진 힘을 모두 사용해서 상대에게 돌격한다. 다음 턴은 움직일 수 없다.",
+            "swsh": "가진 힘을 모두 사용해서 상대에게 돌격한다. 다음 턴은 움직일 수 없다."
+        },
+        "german": {
+            "xy": "Anwender rennt mit seiner ganzen Kraft gegen das Ziel an und muss dann eine Runde ruhen.",
+            "oras": "Anwender rennt mit seiner ganzen Kraft gegen das Ziel an und muss dann eine Runde ruhen.",
+            "sm": "Anwender rennt mit seiner ganzen Kraft gegen das Ziel an und muss dann eine Runde ruhen.",
+            "usum": "Anwender rennt mit seiner ganzen Kraft gegen das Ziel an und muss dann eine Runde ruhen.",
+            "lgpe": "Anwender rennt mit seiner ganzen Kraft gegen das Ziel an und muss dann eine Runde ruhen.",
+            "swsh": "Anwender rennt mit seiner ganzen Kraft gegen das Ziel an und muss dann eine Runde ruhen."
+        },
+        "spanish": {
+            "xy": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "oras": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "sm": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "usum": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "lgpe": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "swsh": "El usuario carga contra el objetivo con toda la fuerza que tiene y descansa durante el siguiente turno."
+        },
+        "italian": {
+            "xy": "Chi la usa carica il bersaglio usando tutta la sua forza, ma al turno successivo deve riposarsi.",
+            "oras": "Chi la usa carica il bersaglio usando tutta la sua forza, ma al turno successivo deve riposarsi.",
+            "sm": "Chi la usa carica il bersaglio usando tutta la sua forza, ma al turno successivo deve riposarsi.",
+            "usum": "Chi la usa carica il bersaglio usando tutta la sua forza, ma al turno successivo deve riposarsi.",
+            "lgpe": "Chi la usa carica il bersaglio usando tutta la sua forza, ma al turno successivo deve riposarsi.",
+            "swsh": "Chi la usa carica il bersaglio usando tutta la sua forza, ma al turno successivo deve riposarsi."
+        },
+        "japanese": {
+            "xy": "持てる　力を　すべて　使って 相手に　突撃する。 次の　ターンは　動けなくなる。",
+            "oras": "持てる　力を　すべて　使って 相手に　突撃する。 次の　ターンは　動けなくなる。",
+            "sm": "持てる　力を　すべて　使って 相手に　突撃する。 次の　ターンは　動けなくなる。",
+            "usum": "持てる　力を　すべて　使って 相手に　突撃する。 次の　ターンは　動けなくなる。",
+            "lgpe": "持てる　力を　すべて　使って 相手に　突撃する。 次の　ターンは　動けなくなる。",
+            "swsh": "持てる　力を　すべて　使って 相手に　突撃する。 次の　ターンは　動けなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "oras": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "sm": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "usum": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "lgpe": "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.",
+            "swsh": "El usuario carga contra el objetivo con toda la fuerza que tiene y descansa durante el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "使出全身上下所有力量突擊對手。 下一回合自己將無法動彈。",
+            "usum": "使出全身上下所有力量突擊對手。 下一回合自己將無法動彈。",
+            "lgpe": "使出全身上下所有力量突擊對手。 下一回合自己將無法動彈。",
+            "swsh": "使出全身上下所有力量突擊對手。 下一回合自己將無法動彈。"
+        },
+        "simplified-chinese": {
+            "sm": "使出自己浑身力量突击对手。 下一回合自己将无法动弹。",
+            "usum": "使出自己浑身力量突击对手。 下一回合自己将无法动弹。",
+            "lgpe": "使出自己浑身力量突击对手。 下一回合自己将无法动弹。",
+            "swsh": "使出自己浑身力量突击对手。 下一回合自己将无法动弹。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+        "shortEffect": "User foregoes its next turn to recharge."
+    }
 }

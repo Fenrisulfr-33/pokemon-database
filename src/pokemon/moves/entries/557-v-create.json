@@ -1,39 +1,136 @@
 {
-  "_id": 557,
-  "key": "v-create",
-  "name": {
-    "english": "V-create",
-    "japanese": "Ｖジェネレート",
-    "chinese": "胜利V热炎",
-    "korean": "V제너레이트",
-    "german": "V de Fuego",
-    "french": "V-Generator",
-    "italian": "V-create",
-    "spanish": "Generatore V"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 180,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "With a hot flame on its forehead, the user\nhurls itself at its target. It lowers the\nuser’s Defense, Sp. Def, and Speed stats.",
-    "black-2-white-2": "With a hot flame on its forehead, the user\nhurls itself at its target. It lowers the\nuser’s Defense, Sp. Def, and Speed stats.",
-    "x-y": "With a hot flame on its forehead, the user\nhurls itself at its target. This lowers the\nuser’s Defense, Sp. Def, and Speed stats.",
-    "omega-ruby-alpha-sapphire": "With a hot flame on its forehead, the user\nhurls itself at its target. This lowers the\nuser’s Defense, Sp. Def, and Speed stats.",
-    "sun-moon": "With a hot flame on its forehead, the user hurls itself\nat its target. This lowers the user’s Defense, Sp. Def,\nand Speed stats.",
-    "ultra-sun-ultra-moon": "With a hot flame on its forehead, the user hurls itself\nat its target. This lowers the user’s Defense, Sp. Def,\nand Speed stats.",
-    "lets-go-pikachu-lets-go-eevee": "With a hot flame on its forehead, the user hurls itself\nat its target. This lowers the user’s Defense, Sp. Def,\nand Speed stats.",
-    "sword-shield": "With a hot flame on its forehead, the user hurls itself\nat its target. This lowers the user’s Defense, Sp. Def,\nand Speed stats."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Lowers the user's Defense, Special Defense, and Speed by one stage each.",
-    "shortEffect": "Lowers the user's Defense, Special Defense, and Speed by one stage each."
-  },
-  "priority": 0
+    "_id": 557,
+    "key": "v-create",
+    "name": {
+        "japanese-kana": "Ｖジェネレート",
+        "korean": "V제너레이트",
+        "traditional-chinese": "Ｖ熱焰",
+        "french": "Coup Victoire",
+        "german": "V-Generator",
+        "spanish": "V de Fuego",
+        "italian": "Generatore V",
+        "english": "V-create",
+        "japanese": "Ｖジェネレート",
+        "simplified-chinese": "Ｖ热焰",
+        "latin-american-spanish": "V de Fuego"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 180,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Déf. Spé. et la Vitesse.",
+            "xy": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse.",
+            "oras": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse.",
+            "sm": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse.",
+            "usum": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse.",
+            "lgpe": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse.",
+            "swsh": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse."
+        },
+        "english": {
+            "bw": "With a hot flame on its forehead, the user hurls itself at its target. It lowers the user’s Defense, Sp. Def, and Speed stats.",
+            "b2w2": "With a hot flame on its forehead, the user hurls itself at its target. It lowers the user’s Defense, Sp. Def, and Speed stats.",
+            "xy": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.",
+            "oras": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.",
+            "sm": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.",
+            "usum": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.",
+            "lgpe": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.",
+            "swsh": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats."
+        },
+        "japanese-kana": {
+            "xy": "しゃくねつの　ほのおを　ひたいから はっせいさせて　すてみの　たいあたり。 ぼうぎょ　とくぼう　すばやさが　さがる。",
+            "oras": "しゃくねつの　ほのおを　ひたいから はっせいさせて　すて の　たいあたり。 ぼうぎょ　とくぼう　すばやさが　さがる。",
+            "sm": "しゃくねつの　ほのおを　ひたいから はっせいさせて　すてみの　たいあたり。 ぼうぎょ　とくぼう　すばやさが　さがる。",
+            "usum": "しゃくねつの　ほのおを　ひたいから はっせいさせて　すてみの　たいあたり。 ぼうぎょ　とくぼう　すばやさが　さがる。",
+            "lgpe": "しゃくねつの　ほのおを　ひたいから はっせいさせて　すてみの　たいあたり。 ぼうぎょ　とくぼう　すばやさが　さがる。",
+            "swsh": "しゃくねつの　ほのおを　ひたいから はっせいさせて　すてみの　たいあたり。 ぼうぎょ　とくぼう　すばやさが　さがる。"
+        },
+        "korean": {
+            "xy": "작열하는 불꽃을 이마에서 발생시켜 이판사판으로 몸통박치기한다. 방어, 특수방어, 스피드가 떨어진다.",
+            "oras": "작열하는 불꽃을 이마에서 발생시켜 이판사판으로 몸통박치기한다. 방어, 특수방어, 스피드가 떨어진다.",
+            "sm": "작열하는 불꽃을 이마에서 발생시켜 이판사판으로 몸통박치기한다. 방어, 특수방어, 스피드가 떨어진다.",
+            "usum": "작열하는 불꽃을 이마에서 발생시켜 이판사판으로 몸통박치기한다. 방어, 특수방어, 스피드가 떨어진다.",
+            "lgpe": "작열하는 불꽃을 이마에서 발생시켜 이판사판으로 몸통박치기한다. 방어, 특수방어, 스피드가 떨어진다.",
+            "swsh": "작열하는 불꽃을 이마에서 발생시켜 이판사판으로 몸통박치기한다. 방어, 특수방어, 스피드가 떨어진다."
+        },
+        "german": {
+            "xy": "Eine Verzweiflungsattacke. Anwender entfacht glühend heißes Feuer. Senkt dessen Verteidigung, Spezial-Verteidigung und Initiative.",
+            "oras": "Eine Verzweiflungsattacke. Anwender entfacht glühend heißes Feuer. Senkt dessen Verteidigung, Spezial-Verteidigung und Initiative.",
+            "sm": "Eine Verzweiflungsattacke. Anwender entfacht glühend heißes Feuer. Senkt dessen Verteidigung, Spezial-Verteidigung und Initiative.",
+            "usum": "Eine Verzweiflungsattacke. Anwender entfacht glühend heißes Feuer. Senkt dessen Verteidigung, Spezial-Verteidigung und Initiative.",
+            "lgpe": "Eine Verzweiflungsattacke. Anwender entfacht glühend heißes Feuer. Senkt dessen Verteidigung, Spezial-Verteidigung und Initiative.",
+            "swsh": "Eine Verzweiflungsattacke. Anwender entfacht glühend heißes Feuer. Senkt dessen Verteidigung, Spezial-Verteidigung und Initiative."
+        },
+        "spanish": {
+            "xy": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "oras": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "sm": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "usum": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "lgpe": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "swsh": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa."
+        },
+        "italian": {
+            "xy": "Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità.",
+            "oras": "Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità.",
+            "sm": "Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità.",
+            "usum": "Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità.",
+            "lgpe": "Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità.",
+            "swsh": "Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità."
+        },
+        "japanese": {
+            "xy": "灼熱の　炎を　額から 発生させて　捨て身の　体当たり。 防御　特防　素早さが　さがる。",
+            "oras": "灼熱の　炎を　額から 発生させて　捨て身の　体当たり。 防御　特防　素早さが　さがる。",
+            "sm": "灼熱の　炎を　額から 発生させて　捨て身の　体当たり。 防御　特防　素早さが　さがる。",
+            "usum": "灼熱の　炎を　額から 発生させて　捨て身の　体当たり。 防御　特防　素早さが　さがる。",
+            "lgpe": "灼熱の　炎を　額から 発生させて　捨て身の　体当たり。 防御　特防　素早さが　さがる。",
+            "swsh": "灼熱の　炎を　額から 発生させて　捨て身の　体当たり。 防御　特防　素早さが　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "oras": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "sm": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "usum": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "lgpe": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+            "swsh": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa."
+        },
+        "traditional-chinese": {
+            "sm": "在前額產生灼熱的火焰， 然後捨身撞擊對手。 自己的防禦、特防和速度會降低。",
+            "usum": "在前額產生灼熱的火焰， 然後捨身撞擊對手。 自己的防禦、特防和速度會降低。",
+            "lgpe": "在前額產生灼熱的火焰， 然後捨身撞擊對手。 自己的防禦、特防和速度會降低。",
+            "swsh": "在前額產生灼熱的火焰， 然後捨身撞擊對手。 自己的防禦、特防和速度會降低。"
+        },
+        "simplified-chinese": {
+            "sm": "从前额产生灼热的火焰， 舍身撞击对手。 防御、特防和速度会降低。",
+            "usum": "从前额产生灼热的火焰， 舍身撞击对手。 防御、特防和速度会降低。",
+            "lgpe": "从前额产生灼热的火焰， 舍身撞击对手。 防御、特防和速度会降低。",
+            "swsh": "从前额产生灼热的火焰， 舍身撞击对手。 防御、特防和速度会降低。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Lowers the user’s Defense, Special Defense, and Speed by one stage each.",
+        "shortEffect": "Lowers the user’s Defense, Special Defense, and Speed by one stage each."
+    }
 }

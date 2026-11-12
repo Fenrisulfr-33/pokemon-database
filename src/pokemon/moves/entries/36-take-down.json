@@ -1,47 +1,146 @@
 {
-  "_id": 36,
-  "key": "take-down",
-  "name": {
-    "english": "Take Down",
-    "japanese": "とっしん",
-    "chinese": "猛撞",
-    "korean": "돌진",
-    "german": "Derribo",
-    "french": "Bodycheck",
-    "italian": "Take Down",
-    "spanish": "Riduttore"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 90,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A tackle that also\nhurts the user.",
-    "crystal": "A tackle that also\nhurts the user.",
-    "ruby-sapphire": "A reckless charge attack\nthat also hurts the user.",
-    "emerald": "A reckless charge attack\nthat also hurts the user.",
-    "firered-leafgreen": "A reckless, full-\nbody charge attack\nthat also hurts the\nuser a little.",
-    "diamond-pearl": "A reckless, full-body\ncharge attack for\nslamming into the foe.\nIt also damages the\nuser a little.",
-    "platinum": "A reckless, full-body\ncharge attack for\nslamming into the foe.\nIt also damages the\nuser a little.",
-    "heartgold-soulsilver": "A reckless, full-body\ncharge attack for\nslamming into the foe.\nIt also damages the\nuser a little.",
-    "black-white": "A reckless, full-body charge attack for\nslamming into the target.\nIt also damages the user a little.",
-    "black-2-white-2": "A reckless, full-body charge attack for\nslamming into the target.\nIt also damages the user a little.",
-    "x-y": "A reckless, full-body charge attack for\nslamming into the target.\nThis also damages the user a little.",
-    "omega-ruby-alpha-sapphire": "A reckless, full-body charge attack for\nslamming into the target.\nThis also damages the user a little.",
-    "sun-moon": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little.",
-    "ultra-sun-ultra-moon": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little.",
-    "lets-go-pikachu-lets-go-eevee": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little.",
-    "sword-shield": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
-    "shortEffect": "User receives 1/4 the damage it inflicts in recoil."
-  },
-  "priority": 0
+    "_id": 36,
+    "key": "take-down",
+    "name": {
+        "japanese-kana": "とっしん",
+        "korean": "돌진",
+        "traditional-chinese": "猛撞",
+        "french": "Bélier",
+        "german": "Bodycheck",
+        "spanish": "Derribo",
+        "italian": "Riduttore",
+        "english": "Take Down",
+        "japanese": "とっしん",
+        "simplified-chinese": "猛撞",
+        "latin-american-spanish": "Derribo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 90,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -25,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A tackle that also hurts the user.",
+            "cr": "A tackle that also hurts the user.",
+            "rs": "A reckless charge attack that also hurts the user.",
+            "em": "A reckless charge attack that also hurts the user.",
+            "frlg": "A reckless, full- body charge attack that also hurts the user a little.",
+            "dp": "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.",
+            "pt": "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.",
+            "hgss": "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.",
+            "bw": "A reckless, full-body charge attack for slamming into the target. It also damages the user a little.",
+            "b2w2": "A reckless, full-body charge attack for slamming into the target. It also damages the user a little.",
+            "xy": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+            "oras": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+            "sm": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+            "usum": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+            "lgpe": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+            "swsh": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+            "la": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+            "sv": "A reckless full-body charge attack for slamming into the target. This also damages the user a little."
+        },
+        "french": {
+            "bw": "Une charge violente qui blesse aussi légèrement le lanceur.",
+            "xy": "Une charge violente qui blesse aussi légèrement le lanceur.",
+            "oras": "Une charge violente qui blesse aussi légèrement le lanceur.",
+            "sm": "Une charge violente qui blesse aussi légèrement le lanceur.",
+            "usum": "Une charge violente qui blesse aussi légèrement le lanceur.",
+            "lgpe": "Une charge violente qui blesse aussi légèrement le lanceur.",
+            "swsh": "Une charge violente qui blesse aussi légèrement le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "すごい　いきおいで あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "oras": "すごい　いきおいで あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "sm": "すごい　いきおいで あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "usum": "すごい　いきおいで あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "lgpe": "すごい　いきおいで あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "swsh": "すごい　いきおいで あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "굉장한 기세로 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "oras": "굉장한 기세로 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "sm": "굉장한 기세로 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "usum": "굉장한 기세로 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "lgpe": "굉장한 기세로 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "swsh": "굉장한 기세로 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.",
+            "oras": "Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.",
+            "sm": "Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.",
+            "usum": "Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.",
+            "lgpe": "Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.",
+            "swsh": "Rücksichtslose Attacke, bei der sich der Anwender selbst leicht verletzt."
+        },
+        "spanish": {
+            "xy": "Carga desmedida que también hiere al agresor.",
+            "oras": "Carga desmedida que también hiere al agresor.",
+            "sm": "Carga desmedida que también hiere al agresor.",
+            "usum": "Carga desmedida que también hiere al agresor.",
+            "lgpe": "Carga desmedida que también hiere al agresor.",
+            "swsh": "Carga desmedida que también hiere al agresor."
+        },
+        "italian": {
+            "xy": "Carica spericolata con tutto il corpo contro il bersaglio. Danneggia un po’ anche chi la usa.",
+            "oras": "Carica spericolata con tutto il corpo contro il bersaglio. Danneggia un po’ anche chi la usa.",
+            "sm": "Carica spericolata con tutto il corpo contro il bersaglio. Danneggia un po’ anche chi la usa.",
+            "usum": "Carica spericolata con tutto il corpo contro il bersaglio. Danneggia un po’ anche chi la usa.",
+            "lgpe": "Carica spericolata con tutto il corpo contro il bersaglio. Danneggia un po’ anche chi la usa.",
+            "swsh": "Carica spericolata con tutto il corpo contro il bersaglio. Danneggia un po’ anche chi la usa."
+        },
+        "japanese": {
+            "xy": "すごい　勢いで 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "oras": "すごい　勢いで 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "sm": "すごい　勢いで 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "usum": "すごい　勢いで 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "lgpe": "すごい　勢いで 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "swsh": "すごい　勢いで 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Carga desmedida que también hiere al agresor.",
+            "oras": "Carga desmedida que también hiere al agresor.",
+            "sm": "Carga desmedida que también hiere al agresor.",
+            "usum": "Carga desmedida que también hiere al agresor.",
+            "lgpe": "Carga desmedida que también hiere al agresor.",
+            "swsh": "Carga desmedida que también hiere al agresor."
+        },
+        "traditional-chinese": {
+            "sm": "以驚人的氣勢 撞向對手進行攻擊。 自己也會受到少許傷害。",
+            "usum": "以驚人的氣勢 撞向對手進行攻擊。 自己也會受到少許傷害。",
+            "lgpe": "以驚人的氣勢 撞向對手進行攻擊。 自己也會受到少許傷害。",
+            "swsh": "以驚人的氣勢 撞向對手進行攻擊。 自己也會受到少許傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "以惊人的气势 撞向对手进行攻击。 自己也会受到少许伤害。",
+            "usum": "以惊人的气势 撞向对手进行攻击。 自己也会受到少许伤害。",
+            "lgpe": "以惊人的气势 撞向对手进行攻击。 自己也会受到少许伤害。",
+            "swsh": "以惊人的气势 撞向对手进行攻击。 自己也会受到少许伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+        "shortEffect": "User receives 1/4 the damage it inflicts in recoil."
+    }
 }

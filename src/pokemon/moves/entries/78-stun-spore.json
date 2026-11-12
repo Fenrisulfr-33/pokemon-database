@@ -1,47 +1,146 @@
 {
-  "_id": 78,
-  "key": "stun-spore",
-  "name": {
-    "english": "Stun Spore",
-    "japanese": "しびれごな",
-    "chinese": "麻痹粉",
-    "korean": "저리가루",
-    "german": "Paralizador",
-    "french": "Stachelspore",
-    "italian": "Stun Spore",
-    "spanish": "Paralizzante"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 30,
-  "power": null,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A move that may\nparalyze the foe.",
-    "crystal": "A move that may\nparalyze the foe.",
-    "ruby-sapphire": "Scatters a powder that may\nparalyze the foe.",
-    "emerald": "Scatters a powder that may\nparalyze the foe.",
-    "firered-leafgreen": "Paralyzing dust is\nscattered wildly.\nIt may paralyze\nthe foe.",
-    "diamond-pearl": "The user scatters a\ncloud of paralyzing\npowder.\nIt may paralyze the\ntarget.",
-    "platinum": "The user scatters a\ncloud of paralyzing\npowder.\nIt may paralyze the\ntarget.",
-    "heartgold-soulsilver": "The user scatters a\ncloud of paralyzing\npowder.\nIt may paralyze the\ntarget.",
-    "black-white": "The user scatters a cloud of paralyzing\npowder. It may leave the target\nwith paralysis.",
-    "black-2-white-2": "The user scatters a cloud of paralyzing\npowder. It may leave the target\nwith paralysis.",
-    "x-y": "The user scatters a cloud of numbing\npowder that paralyzes the target.",
-    "omega-ruby-alpha-sapphire": "The user scatters a cloud of numbing\npowder that paralyzes the target.",
-    "sun-moon": "The user scatters a cloud of numbing powder that\nparalyzes the target.",
-    "ultra-sun-ultra-moon": "The user scatters a cloud of numbing powder that\nparalyzes the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user scatters a cloud of numbing powder that\nparalyzes the target.",
-    "sword-shield": "The user scatters a cloud of numbing powder that\nparalyzes the target."
-  },
-  "effect": {
-    "full": "Paralyzes the target.",
-    "shortEffect": "Paralyzes the target."
-  },
-  "priority": 0
+    "_id": 78,
+    "key": "stun-spore",
+    "name": {
+        "japanese-kana": "しびれごな",
+        "korean": "저리가루",
+        "traditional-chinese": "麻痺粉",
+        "french": "Para-Spore",
+        "german": "Stachelspore",
+        "spanish": "Paralizador",
+        "italian": "Paralizzante",
+        "english": "Stun Spore",
+        "japanese": "しびれごな",
+        "simplified-chinese": "麻痹粉",
+        "latin-american-spanish": "Paralizador"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": "smart",
+    "pp": 30,
+    "power": null,
+    "accuracy": 75,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move that may paralyze the foe.",
+            "cr": "A move that may paralyze the foe.",
+            "rs": "Scatters a powder that may paralyze the foe.",
+            "em": "Scatters a powder that may paralyze the foe.",
+            "frlg": "Paralyzing dust is scattered wildly. It may paralyze the foe.",
+            "dp": "The user scatters a cloud of paralyzing powder. It may paralyze the target.",
+            "pt": "The user scatters a cloud of paralyzing powder. It may paralyze the target.",
+            "hgss": "The user scatters a cloud of paralyzing powder. It may paralyze the target.",
+            "bw": "The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.",
+            "b2w2": "The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.",
+            "xy": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "oras": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "sm": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "usum": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "lgpe": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "swsh": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "la": "The user scatters a cloud of numbing powder that paralyzes the target.",
+            "sv": "The user scatters a cloud of numbing powder that paralyzes the target."
+        },
+        "french": {
+            "bw": "Le lanceur répand sur l’ennemi une poudre qui le paralyse.",
+            "xy": "Le lanceur répand sur l’ennemi une poudre qui le paralyse.",
+            "oras": "Le lanceur répand sur l’ennemi une poudre qui le paralyse.",
+            "sm": "Le lanceur répand sur l’ennemi une poudre qui le paralyse.",
+            "usum": "Le lanceur répand sur l’ennemi une poudre qui le paralyse.",
+            "lgpe": "Le lanceur répand sur l’ennemi une poudre qui le paralyse.",
+            "swsh": "Le lanceur répand sur l’ennemi une poudre qui le paralyse."
+        },
+        "japanese-kana": {
+            "xy": "しびれる　こなを たくさん　ふりまいて あいてを　まひ　じょうたいに　する。",
+            "oras": "しびれる　こなを たくさん　ふりまいて あいてを　まひ　じょうたいに　する。",
+            "sm": "しびれる　こなを たくさん　ふりまいて あいてを　まひ　じょうたいに　する。",
+            "usum": "しびれる　こなを たくさん　ふりまいて あいてを　まひ　じょうたいに　する。",
+            "lgpe": "しびれる　こなを たくさん　ふりまいて あいてを　まひ　じょうたいに　する。",
+            "swsh": "しびれる　こなを たくさん　ふりまいて あいてを　まひ　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "저리 가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.",
+            "oras": "저리 가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.",
+            "sm": "저리가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.",
+            "usum": "저리가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.",
+            "lgpe": "저리가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.",
+            "swsh": "저리가루를 많이 흩뿌려서 상대를 마비 상태로 만든다."
+        },
+        "german": {
+            "xy": "Verstreut lähmenden Puder.",
+            "oras": "Verstreut lähmenden Puder.",
+            "sm": "Verstreut lähmenden Puder, der das Ziel eventuell paralysiert.",
+            "usum": "Verstreut lähmenden Puder, der das Ziel eventuell paralysiert.",
+            "lgpe": "Verstreut lähmenden Puder, der das Ziel eventuell paralysiert.",
+            "swsh": "Verstreut lähmenden Puder, der das Ziel eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Esparce polvo que paraliza al objetivo.",
+            "oras": "Esparce polvo que paraliza al objetivo.",
+            "sm": "Esparce polvo que paraliza al objetivo.",
+            "usum": "Esparce polvo que paraliza al objetivo.",
+            "lgpe": "Esparce polvo que paraliza al objetivo.",
+            "swsh": "Esparce polvo que paraliza al objetivo."
+        },
+        "italian": {
+            "xy": "Investe il bersaglio con una nuvola di polvere che paralizza.",
+            "oras": "Investe il bersaglio con una nuvola di polvere che paralizza.",
+            "sm": "Investe il bersaglio con una nuvola di polvere che paralizza.",
+            "usum": "Investe il bersaglio con una nuvola di polvere che paralizza.",
+            "lgpe": "Investe il bersaglio con una nuvola di polvere che paralizza.",
+            "swsh": "Investe il bersaglio con una nuvola di polvere che paralizza."
+        },
+        "japanese": {
+            "xy": "しびれる　粉を たくさん　ふりまいて 相手を　まひ状態に　する。",
+            "oras": "しびれる　粉を たくさん　ふりまいて 相手を　まひ状態に　する。",
+            "sm": "しびれる　粉を たくさん　ふりまいて 相手を　まひ状態に　する。",
+            "usum": "しびれる　粉を たくさん　ふりまいて 相手を　まひ状態に　する。",
+            "lgpe": "しびれる　粉を たくさん　ふりまいて 相手を　まひ状態に　する。",
+            "swsh": "しびれる　粉を たくさん　ふりまいて 相手を　まひ状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Esparce polvo que paraliza al objetivo.",
+            "oras": "Esparce polvo que paraliza al objetivo.",
+            "sm": "Esparce polvo que paraliza al objetivo.",
+            "usum": "Esparce polvo que paraliza al objetivo.",
+            "lgpe": "Esparce polvo que paraliza al objetivo.",
+            "swsh": "Esparce polvo que paraliza al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "撒出大量令人麻痺的粉末， 讓對手陷入麻痺狀態。",
+            "usum": "撒出大量令人麻痺的粉末， 讓對手陷入麻痺狀態。",
+            "lgpe": "撒出大量令人麻痺的粉末， 讓對手陷入麻痺狀態。",
+            "swsh": "撒出大量令人麻痺的粉末， 讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "撒出麻痹粉， 从而让对手陷入麻痹状态。",
+            "usum": "撒出麻痹粉， 从而让对手陷入麻痹状态。",
+            "lgpe": "撒出麻痹粉， 从而让对手陷入麻痹状态。",
+            "swsh": "撒出麻痹粉， 从而让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Paralyzes the target.",
+        "shortEffect": "Paralyzes the target."
+    }
 }

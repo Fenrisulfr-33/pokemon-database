@@ -1,29 +1,82 @@
 {
-  "_id": 753,
-  "key": "octolock",
-  "name": {
-    "english": "Octolock",
-    "japanese": "たこがため",
-    "chinese": "蛸固",
-    "korean": "문어굳히기",
-    "german": "Octopresa",
-    "french": "Octoklammer",
-    "italian": "Octolock",
-    "spanish": "Tentacolock"
-  },
-  "type": "Fighting",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user locks the target in and prevents it from\nfleeing. This move also lowers the target’s Defense\nand Sp. Def every turn."
-  },
-  "effect": {},
-  "priority": 0
+    "_id": 753,
+    "key": "octolock",
+    "name": {
+        "japanese-kana": "たこがため",
+        "korean": "문어굳히기",
+        "traditional-chinese": "蛸固",
+        "french": "Octoprise",
+        "german": "Octoklammer",
+        "spanish": "Octopresa",
+        "italian": "Tentacolock",
+        "english": "Octolock",
+        "japanese": "たこがため",
+        "simplified-chinese": "蛸固",
+        "latin-american-spanish": "Octopresa"
+    },
+    "type": "fighting",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "あいてを　にげられなくする。 かためられた　あいては　まいターン ぼうぎょと　とくぼうが　さがる。"
+        },
+        "korean": {
+            "swsh": "상대를 도망칠 수 없게 한다. 굳히기에 당한 상대는 매 턴 방어와 특수방어가 떨어진다."
+        },
+        "traditional-chinese": {
+            "swsh": "讓對手無法逃走。 對手被纏住後， 防禦和特防每回合都會降低。"
+        },
+        "french": {
+            "swsh": "Le lanceur empêche l’adversaire de fuir. À chaque tour qui passe, cette capacité baisse la Défense et la Défense Spéciale de la cible."
+        },
+        "german": {
+            "swsh": "Das Ziel wird an der Flucht gehindert und seine Verteidigung und Spezial-Verteidigung sinken jede Runde."
+        },
+        "spanish": {
+            "swsh": "Retiene al objetivo para impedir su huida, a la vez que reduce su Defensa y Defensa Especial cada turno."
+        },
+        "italian": {
+            "swsh": "Chi la usa immobilizza il bersaglio impedendogli di fuggire e ne diminuisce la Difesa e la Difesa Speciale a ogni turno."
+        },
+        "english": {
+            "swsh": "The user locks the target in and prevents it from fleeing. This move also lowers the target’s Defense and Sp. Def every turn."
+        },
+        "japanese": {
+            "swsh": "相手を　逃げられなくする。 かためられた　相手は　毎ターン 防御と　特防が　下がる。"
+        },
+        "simplified-chinese": {
+            "swsh": "让对手无法逃走。 对手被固定后， 每回合都会降低防御和特防。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Retiene al objetivo para impedir su huida, a la vez que reduce su Defensa y Defensa Especial cada turno."
+        }
+    },
+    "effect": {
+        "full": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "shortEffect": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage."
+    }
 }

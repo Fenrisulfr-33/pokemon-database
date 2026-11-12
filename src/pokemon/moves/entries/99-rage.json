@@ -1,47 +1,151 @@
 {
-  "_id": 99,
-  "key": "rage",
-  "name": {
-    "english": "Rage",
-    "japanese": "いかり",
-    "chinese": "愤怒",
-    "korean": "분노",
-    "german": "Furia",
-    "french": "Raserei",
-    "italian": "Rage",
-    "spanish": "Ira"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Raises ATTACK if\nthe user is hit.",
-    "crystal": "Raises ATTACK if\nthe user is hit.",
-    "ruby-sapphire": "Raises the user’s ATTACK\nevery time it is hit.",
-    "emerald": "Raises the user’s ATTACK\nevery time it is hit.",
-    "firered-leafgreen": "An attack that\nbecomes stronger\neach time the user\nis hit in battle.",
-    "diamond-pearl": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
-    "platinum": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
-    "heartgold-soulsilver": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
-    "black-white": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-    "black-2-white-2": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-    "x-y": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-    "omega-ruby-alpha-sapphire": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-    "sun-moon": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
-    "ultra-sun-ultra-moon": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
-    "lets-go-pikachu-lets-go-eevee": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
-    "shortEffect": "If the user is hit after using this move, its Attack rises by one stage."
-  },
-  "priority": 0
+    "_id": 99,
+    "key": "rage",
+    "name": {
+        "japanese-kana": "いかり",
+        "korean": "분노",
+        "traditional-chinese": "憤怒",
+        "french": "Frénésie",
+        "german": "Raserei",
+        "spanish": "Furia",
+        "italian": "Ira",
+        "english": "Rage",
+        "japanese": "いかり",
+        "simplified-chinese": "愤怒",
+        "latin-american-spanish": "Furia"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 20,
+    "power": 20,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Si cette capacité échoue, le lanceur reçoit des dommages égaux à la moitié de ses PV max arrondis à l’inférieur."
+        },
+        "english": {
+            "gs": "Locks the user into this move.  Due to a bug, if this move misses, its accuracy drops to 1/256 as long as the user is still locked in."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Raises ATTACK if the user is hit.",
+            "cr": "Raises ATTACK if the user is hit.",
+            "rs": "Raises the user’s ATTACK every time it is hit.",
+            "em": "Raises the user’s ATTACK every time it is hit.",
+            "frlg": "An attack that becomes stronger each time the user is hit in battle.",
+            "dp": "While this move is in use, it gains attack power each time the user is hit in battle.",
+            "pt": "While this move is in use, it gains attack power each time the user is hit in battle.",
+            "hgss": "While this move is in use, it gains attack power each time the user is hit in battle.",
+            "bw": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+            "b2w2": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+            "xy": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+            "oras": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+            "sm": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+            "usum": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+            "lgpe": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques.",
+            "xy": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques.",
+            "oras": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques.",
+            "sm": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques.",
+            "usum": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques.",
+            "lgpe": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "わざを　だしたときに　こうげきを うけると　いかりの　ちからで こうげきが　あがる。",
+            "oras": "わざを　だしたときに　こうげきを うけると　いかりの　ちからで こうげきが　あがる。",
+            "sm": "わざを　だしたときに　こうげきを うけると　いかりの　ちからで こうげきが　あがる。",
+            "usum": "わざを　だしたときに　こうげきを うけると　いかりの　ちからで こうげきが　あがる。",
+            "lgpe": "わざを　だしたときに　こうげきを うけると　いかりの　ちからで こうげきが　あがる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "기술을 썼을 때 공격을 받으면 분노의 힘으로 공격이 올라간다.",
+            "oras": "기술을 썼을 때 공격을 받으면 분노의 힘으로 공격이 올라간다.",
+            "sm": "기술을 썼을 때 공격을 받으면 분노의 힘으로 공격이 올라간다.",
+            "usum": "기술을 썼을 때 공격을 받으면 분노의 힘으로 공격이 올라간다.",
+            "lgpe": "기술을 썼을 때 공격을 받으면 분노의 힘으로 공격이 올라간다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Erhöht Angriff des Anwenders, wenn dieser getroffen wird, solange die Attacke aktiviert ist.",
+            "oras": "Erhöht Angriff des Anwenders, wenn dieser getroffen wird, solange die Attacke aktiviert ist.",
+            "sm": "Erhöht Angriff des Anwenders, wenn dieser getroffen wird, solange die Attacke aktiviert ist.",
+            "usum": "Erhöht Angriff des Anwenders, wenn dieser getroffen wird, solange die Attacke aktiviert ist.",
+            "lgpe": "Erhöht Angriff des Anwenders, wenn dieser getroffen wird, solange die Attacke aktiviert ist.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "oras": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "sm": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "usum": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "lgpe": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Questa mossa ha il potere di aumentare la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.",
+            "oras": "Questa mossa ha il potere di aumentare la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.",
+            "sm": "Questa mossa ha il potere di aumentare la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.",
+            "usum": "Questa mossa ha il potere di aumentare la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.",
+            "lgpe": "Questa mossa ha il potere di aumentare la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "技を　だしたときに　攻撃を 受けると　怒りの　力で 攻撃が　あがる。",
+            "oras": "技を　だしたときに　攻撃を 受けると　怒りの　力で 攻撃が　あがる。",
+            "sm": "技を　だしたときに　攻撃を 受けると　怒りの　力で 攻撃が　あがる。",
+            "usum": "技を　だしたときに　攻撃を 受けると　怒りの　力で 攻撃が　あがる。",
+            "lgpe": "技を　だしたときに　攻撃を 受けると　怒りの　力で 攻撃が　あがる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "oras": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "sm": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "usum": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "lgpe": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "在使用招式後受到攻擊時， 會因憤怒的力量而 提高自己的攻擊。",
+            "usum": "在使用招式後受到攻擊時， 會因憤怒的力量而 提高自己的攻擊。",
+            "lgpe": "在使用招式後受到攻擊時， 會因憤怒的力量而 提高自己的攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "如果在使出招式后 受到攻击的话， 会因愤怒的力量而提高攻击。",
+            "usum": "如果在使出招式后 受到攻击的话， 会因愤怒的力量而提高攻击。",
+            "lgpe": "如果在使出招式后 受到攻击的话， 会因愤怒的力量而提高攻击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
+        "shortEffect": "If the user is hit after using this move, its Attack rises by one stage."
+    }
 }

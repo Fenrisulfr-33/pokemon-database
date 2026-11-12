@@ -1,47 +1,146 @@
 {
-  "_id": 232,
-  "key": "metal-claw",
-  "name": {
-    "english": "Metal Claw",
-    "japanese": "メタルクロー",
-    "chinese": "合金爪",
-    "korean": "메탈크로우",
-    "german": "Garra Metal",
-    "french": "Metallklaue",
-    "italian": "Metal Claw",
-    "spanish": "Ferrartigli"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 35,
-  "power": 50,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nup user's ATTACK.",
-    "crystal": "An attack that may\nup user's ATTACK.",
-    "ruby-sapphire": "A claw attack that may\nraise the user’s ATTACK.",
-    "emerald": "A claw attack that may\nraise the user’s ATTACK.",
-    "firered-leafgreen": "The foe is attacked\nwith steel claws.\nIt may also raise\nthe user’s ATTACK.",
-    "diamond-pearl": "The foe is raked\nwith steel claws.\nIt may also raise the\nuser’s Attack stat.\n",
-    "platinum": "The foe is raked\nwith steel claws.\nIt may also raise the\nuser’s Attack stat.\n",
-    "heartgold-soulsilver": "The foe is raked\nwith steel claws.\nIt may also raise the\nuser’s Attack stat.\n",
-    "black-white": "The target is raked with steel claws.\nIt may also raise the user’s Attack stat.",
-    "black-2-white-2": "The target is raked with steel claws.\nIt may also raise the user’s Attack stat.",
-    "x-y": "The target is raked with steel claws.\nThis may also raise the user’s Attack stat.",
-    "omega-ruby-alpha-sapphire": "The target is raked with steel claws.\nThis may also raise the user’s Attack stat.",
-    "sun-moon": "The target is raked with steel claws. This may also\nraise the user’s Attack stat.",
-    "ultra-sun-ultra-moon": "The target is raked with steel claws. This may also\nraise the user’s Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The target is raked with steel claws. This may also\nraise the user’s Attack stat.",
-    "sword-shield": "The target is raked with steel claws. This may also\nraise the user’s Attack stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage. Has a $effect_chance% chance to raise the user's Attack one stage.",
-    "shortEffect": "Has a $effect_chance% chance to raise the user's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 232,
+    "key": "metal-claw",
+    "name": {
+        "japanese-kana": "メタルクロー",
+        "korean": "메탈클로",
+        "traditional-chinese": "金屬爪",
+        "french": "Griffe Acier",
+        "german": "Metallklaue",
+        "spanish": "Garra Metal",
+        "italian": "Ferrartigli",
+        "english": "Metal Claw",
+        "japanese": "メタルクロー",
+        "simplified-chinese": "金属爪",
+        "latin-american-spanish": "Garra de Metal"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 35,
+    "power": 50,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may up user's ATTACK.",
+            "cr": "An attack that may up user's ATTACK.",
+            "rs": "A claw attack that may raise the user’s ATTACK.",
+            "em": "A claw attack that may raise the user’s ATTACK.",
+            "frlg": "The foe is attacked with steel claws. It may also raise the user’s ATTACK.",
+            "dp": "The foe is raked with steel claws. It may also raise the user’s Attack stat.",
+            "pt": "The foe is raked with steel claws. It may also raise the user’s Attack stat.",
+            "hgss": "The foe is raked with steel claws. It may also raise the user’s Attack stat.",
+            "bw": "The target is raked with steel claws. It may also raise the user’s Attack stat.",
+            "b2w2": "The target is raked with steel claws. It may also raise the user’s Attack stat.",
+            "xy": "The target is raked with steel claws. This may also raise the user’s Attack stat.",
+            "oras": "The target is raked with steel claws. This may also raise the user’s Attack stat.",
+            "sm": "The target is raked with steel claws. This may also raise the user’s Attack stat.",
+            "usum": "The target is raked with steel claws. This may also raise the user’s Attack stat.",
+            "lgpe": "The target is raked with steel claws. This may also raise the user’s Attack stat.",
+            "swsh": "The target is raked with steel claws. This may also raise the user’s Attack stat.",
+            "la": "The target is raked with steel claws. This may also raise the user's Attack stat.",
+            "sv": "The target is raked with steel claws. This may also boost the user's Attack stat."
+        },
+        "french": {
+            "bw": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.",
+            "xy": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.",
+            "oras": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.",
+            "sm": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.",
+            "usum": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.",
+            "lgpe": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.",
+            "swsh": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "こうてつの　ツメで　あいてを　きりさいて こうげきする。じぶんの　こうげきが あがることが　ある。",
+            "oras": "こうてつの　ツメで　あいてを　きりさいて こうげきする。じぶんの　こうげきが あがることが　ある。",
+            "sm": "こうてつの　ツメで　あいてを　きりさいて こうげきする。　じぶんの　こうげきが あがることが　ある。",
+            "usum": "こうてつの　ツメで　あいてを　きりさいて こうげきする。　じぶんの　こうげきが あがることが　ある。",
+            "lgpe": "こうてつの　ツメで　あいてを　きりさいて こうげきする。　じぶんの　こうげきが あがることが　ある。",
+            "swsh": "こうてつの　ツメで　あいてを　きりさいて こうげきする。　じぶんの　こうげきが あがることが　ある。"
+        },
+        "korean": {
+            "xy": "강철의 발톱으로 상대를 베어 갈라 공격한다. 자신의 공격이 올라갈 때도 있다.",
+            "oras": "강철의 발톱으로 상대를 베어 갈라 공격한다. 자신의 공격이 올라갈 때도 있다.",
+            "sm": "강철의 발톱으로 상대를 베어 갈라 공격한다. 자신의 공격이 올라갈 때도 있다.",
+            "usum": "강철의 발톱으로 상대를 베어 갈라 공격한다. 자신의 공격이 올라갈 때도 있다.",
+            "lgpe": "강철의 발톱으로 상대를 베어 갈라 공격한다. 자신의 공격이 올라갈 때도 있다.",
+            "swsh": "강철의 발톱으로 상대를 베어 갈라 공격한다. 자신의 공격이 올라갈 때도 있다."
+        },
+        "german": {
+            "xy": "Klauen-Attacke, die eventuell den Angriffs-Wert des Anwenders erhöht.",
+            "oras": "Klauen-Attacke, die eventuell den Angriffs-Wert des Anwenders erhöht.",
+            "sm": "Klauen-Attacke, die eventuell den Angriffs-Wert des Anwenders erhöht.",
+            "usum": "Klauen-Attacke, die eventuell den Angriffs-Wert des Anwenders erhöht.",
+            "lgpe": "Klauen-Attacke, die eventuell den Angriffs-Wert des Anwenders erhöht.",
+            "swsh": "Klauen-Attacke, die eventuell den Angriffs-Wert des Anwenders erhöht."
+        },
+        "spanish": {
+            "xy": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "oras": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "sm": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "usum": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "lgpe": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "swsh": "Ataque con garras de acero que puede aumentar el Ataque del usuario."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con artigli d’acciaio. Può anche aumentare l’Attacco di chi la usa.",
+            "oras": "Colpisce il bersaglio con artigli d’acciaio. Può anche aumentare l’Attacco di chi la usa.",
+            "sm": "Colpisce il bersaglio con artigli d’acciaio. Può anche aumentare l’Attacco di chi la usa.",
+            "usum": "Colpisce il bersaglio con artigli d’acciaio. Può anche aumentare l’Attacco di chi la usa.",
+            "lgpe": "Colpisce il bersaglio con artigli d’acciaio. Può anche aumentare l’Attacco di chi la usa.",
+            "swsh": "Colpisce il bersaglio con artigli d’acciaio. Può anche aumentare l’Attacco di chi la usa."
+        },
+        "japanese": {
+            "xy": "鋼鉄の　ツメで 相手を　切り裂いて　攻撃する。 自分の　攻撃が　あがることが　ある。",
+            "oras": "鋼鉄の　ツメで 相手を　切り裂いて　攻撃する。 自分の　攻撃が　あがることが　ある。",
+            "sm": "鋼鉄の　ツメで 相手を　切り裂いて　攻撃する。 自分の　攻撃が　あがることが　ある。",
+            "usum": "鋼鉄の　ツメで 相手を　切り裂いて　攻撃する。 自分の　攻撃が　あがることが　ある。",
+            "lgpe": "鋼鉄の　ツメで 相手を　切り裂いて　攻撃する。 自分の　攻撃が　あがることが　ある。",
+            "swsh": "鋼鉄の　ツメで 相手を　切り裂いて　攻撃する。 自分の　攻撃が　あがることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "oras": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "sm": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "usum": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "lgpe": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+            "swsh": "Ataque con garras de acero que puede aumentar el Ataque del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "用鋼鐵之爪 撕裂對手進行攻擊。 有時會提高自己的攻擊。",
+            "usum": "用鋼鐵之爪 撕裂對手進行攻擊。 有時會提高自己的攻擊。",
+            "lgpe": "用鋼鐵之爪 撕裂對手進行攻擊。 有時會提高自己的攻擊。",
+            "swsh": "用鋼鐵之爪 撕裂對手進行攻擊。 有時會提高自己的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用钢铁之爪 劈开对手进行攻击。 有时会提高自己的攻击。",
+            "usum": "用钢铁之爪 劈开对手进行攻击。 有时会提高自己的攻击。",
+            "lgpe": "用钢铁之爪 劈开对手进行攻击。 有时会提高自己的攻击。",
+            "swsh": "用钢铁之爪 劈开对手进行攻击。 有时会提高自己的攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. Has a chance to raise the user’s Attack one stage.",
+        "shortEffect": "Has a chance to raise the user’s Attack by one stage."
+    }
 }

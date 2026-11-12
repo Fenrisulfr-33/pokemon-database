@@ -1,39 +1,138 @@
 {
-  "_id": 491,
-  "key": "acid-spray",
-  "name": {
-    "english": "Acid Spray",
-    "japanese": "アシッドボム",
-    "chinese": "酸液炸弹",
-    "korean": "애시드봄",
-    "german": "Bomba Ácida",
-    "french": "Säurespeier",
-    "italian": "Acid Spray",
-    "spanish": "Acidobomba"
-  },
-  "type": "Poison",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user spits fluid that works to melt\nthe target. This harshly reduces\nthe target’s Sp. Def stat.",
-    "black-2-white-2": "The user spits fluid that works to melt\nthe target. This harshly reduces\nthe target’s Sp. Def stat.",
-    "x-y": "The user spits fluid that works to melt\nthe target. This harshly lowers\nthe target’s Sp. Def stat.",
-    "omega-ruby-alpha-sapphire": "The user spits fluid that works to melt\nthe target. This harshly lowers\nthe target’s Sp. Def stat.",
-    "sun-moon": "The user spits fluid that works to melt the target.\nThis harshly lowers the target’s Sp. Def stat.",
-    "ultra-sun-ultra-moon": "The user spits fluid that works to melt the target.\nThis harshly lowers the target’s Sp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user spits fluid that works to melt the target.\nThis harshly lowers the target’s Sp. Def stat.",
-    "sword-shield": "The user spits fluid that works to melt the target.\nThis harshly lowers the target’s Sp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Lowers the target's Special Defense by two stages.",
-    "shortEffect": "Lowers the target's Special Defense by two stages."
-  },
-  "priority": 0
+    "_id": 491,
+    "key": "acid-spray",
+    "name": {
+        "japanese-kana": "アシッドボム",
+        "korean": "애시드봄",
+        "traditional-chinese": "酸液炸彈",
+        "french": "Bombe Acide",
+        "german": "Säurespeier",
+        "spanish": "Bomba Ácida",
+        "italian": "Acidobomba",
+        "english": "Acid Spray",
+        "japanese": "アシッドボム",
+        "simplified-chinese": "酸液炸弹",
+        "latin-american-spanish": "Bomba Ácida"
+    },
+    "type": "poison",
+    "category": "special",
+    "contest": null,
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.",
+            "xy": "Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.",
+            "oras": "Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.",
+            "sm": "Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.",
+            "usum": "Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.",
+            "lgpe": "Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.",
+            "swsh": "Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup."
+        },
+        "english": {
+            "bw": "The user spits fluid that works to melt the target. This harshly reduces the target’s Sp. Def stat.",
+            "b2w2": "The user spits fluid that works to melt the target. This harshly reduces the target’s Sp. Def stat.",
+            "xy": "The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.",
+            "oras": "The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.",
+            "sm": "The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.",
+            "usum": "The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.",
+            "lgpe": "The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.",
+            "swsh": "The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.",
+            "la": "The user spits fluid that works to melt the target. This may also lower the target’s defensive stats.",
+            "sv": "The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　とかす　えきたいを はきだして　こうげきする。 あいての　とくぼうを　がくっと　さげる。",
+            "oras": "あいてを　とかす　えきたいを はきだして　こうげきする。 あいての　とくぼうを　がくっと　さげる。",
+            "sm": "あいてを　とかす　えきたいを はきだして　こうげきする。 あいての　とくぼうを　がくっと　さげる。",
+            "usum": "あいてを　とかす　えきたいを はきだして　こうげきする。 あいての　とくぼうを　がくっと　さげる。",
+            "lgpe": "あいてを　とかす　えきたいを はきだして　こうげきする。 あいての　とくぼうを　がくっと　さげる。",
+            "swsh": "あいてを　とかす　えきたいを はきだして　こうげきする。 あいての　とくぼうを　がくっと　さげる。"
+        },
+        "korean": {
+            "xy": "상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 크게 떨어뜨린다.",
+            "oras": "상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 크게 떨어뜨린다.",
+            "sm": "상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 크게 떨어뜨린다.",
+            "usum": "상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 크게 떨어뜨린다.",
+            "lgpe": "상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 크게 떨어뜨린다.",
+            "swsh": "상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 크게 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Anwender greift an, indem er eine ätzende Flüssigkeit auf das Ziel speit. Senkt dessen Spezial-Verteidigung stark.",
+            "oras": "Anwender greift an, indem er eine ätzende Flüssigkeit auf das Ziel speit. Senkt dessen Spezial-Verteidigung stark.",
+            "sm": "Anwender greift an, indem er eine ätzende Flüssigkeit auf das Ziel speit. Senkt dessen Spezial-Verteidigung stark.",
+            "usum": "Anwender greift an, indem er eine ätzende Flüssigkeit auf das Ziel speit. Senkt dessen Spezial-Verteidigung stark.",
+            "lgpe": "Anwender greift an, indem er eine ätzende Flüssigkeit auf das Ziel speit. Senkt dessen Spezial-Verteidigung stark.",
+            "swsh": "Anwender greift an, indem er eine ätzende Flüssigkeit auf das Ziel speit. Senkt dessen Spezial-Verteidigung stark."
+        },
+        "spanish": {
+            "xy": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "oras": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "sm": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "usum": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "lgpe": "Ataca con un líquido corrosivo que reduce mucho la Defensa Especial del objetivo.",
+            "swsh": "Ataca con un líquido corrosivo que reduce mucho la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.",
+            "oras": "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.",
+            "sm": "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.",
+            "usum": "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.",
+            "lgpe": "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.",
+            "swsh": "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio."
+        },
+        "japanese": {
+            "xy": "相手を　とかす　液体を 吐きだして　攻撃する。 相手の　特防を　がくっと　さげる。",
+            "oras": "相手を　とかす　液体を 吐きだして　攻撃する。 相手の　特防を　がくっと　さげる。",
+            "sm": "相手を　とかす　液体を 吐きだして　攻撃する。 相手の　特防を　がくっと　さげる。",
+            "usum": "相手を　とかす　液体を 吐きだして　攻撃する。 相手の　特防を　がくっと　さげる。",
+            "lgpe": "相手を　とかす　液体を 吐きだして　攻撃する。 相手の　特防を　がくっと　さげる。",
+            "swsh": "相手を　とかす　液体を 吐きだして　攻撃する。 相手の　特防を　がくっと　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "oras": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "sm": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "usum": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+            "lgpe": "Ataca con un líquido corrosivo que reduce mucho la Defensa Especial del objetivo.",
+            "swsh": "Ataca con un líquido corrosivo que reduce mucho la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "噴出能溶化對手的液體進行攻擊。 可大幅降低對手的特防。",
+            "usum": "噴出能溶化對手的液體進行攻擊。 可大幅降低對手的特防。",
+            "lgpe": "噴出能溶化對手的液體進行攻擊。 可大幅降低對手的特防。",
+            "swsh": "噴出能溶化對手的液體進行攻擊。 可大幅降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "喷出能溶化对手的液体进行攻击。 大幅降低对手的特防。",
+            "usum": "喷出能溶化对手的液体进行攻击。 大幅降低对手的特防。",
+            "lgpe": "喷出能溶化对手的液体进行攻击。 大幅降低对手的特防。",
+            "swsh": "喷出能溶化对手的液体进行攻击。 大幅降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Lowers the target’s Special Defense by two stages.",
+        "shortEffect": "Lowers the target’s Special Defense by two stages."
+    }
 }

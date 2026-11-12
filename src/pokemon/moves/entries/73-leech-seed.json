@@ -1,47 +1,146 @@
 {
-  "_id": 73,
-  "key": "leech-seed",
-  "name": {
-    "english": "Leech Seed",
-    "japanese": "やどりぎのタネ",
-    "chinese": "寄生种子",
-    "korean": "씨뿌리기",
-    "german": "Drenadoras",
-    "french": "Egelsamen",
-    "italian": "Leech Seed",
-    "spanish": "Parassiseme"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Steals HP from the\nfoe on every turn.",
-    "crystal": "Steals HP from the\nfoe on every turn.",
-    "ruby-sapphire": "Plants a seed on the foe to\nsteal HP on every turn.",
-    "emerald": "Plants a seed on the foe to\nsteal HP on every turn.",
-    "firered-leafgreen": "A seed is planted\non the foe to steal\nsome HP for the \nuser on every turn.",
-    "diamond-pearl": "A seed is planted on\nthe foe. It steals\nsome HP from the foe\nto heal the user on\nevery turn.",
-    "platinum": "A seed is planted on\nthe foe. It steals\nsome HP from the foe\nto heal the user on\nevery turn.",
-    "heartgold-soulsilver": "A seed is planted on\nthe foe. It steals\nsome HP from the foe\nto heal the user on\nevery turn.",
-    "black-white": "A seed is planted on the target. It steals\nsome HP from the target every turn.",
-    "black-2-white-2": "A seed is planted on the target. It steals\nsome HP from the target every turn.",
-    "x-y": "A seed is planted on the target. It steals\nsome HP from the target every turn.",
-    "omega-ruby-alpha-sapphire": "A seed is planted on the target. It steals\nsome HP from the target every turn.",
-    "sun-moon": "A seed is planted on the target. It steals some HP\nfrom the target every turn.",
-    "ultra-sun-ultra-moon": "A seed is planted on the target. It steals some HP\nfrom the target every turn.",
-    "lets-go-pikachu-lets-go-eevee": "A seed is planted on the target. It steals some HP\nfrom the target every turn.",
-    "sword-shield": "A seed is planted on the target. It steals some HP\nfrom the target every turn."
-  },
-  "effect": {
-    "full": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken.  Has no effect on grass Pokémon.  The seed remains until the target leaves the field.\n\nThe user takes damage instead of being healed if the target has liquid ooze.\n\nrapid spin will remove this effect.\n\nThis effect is passed on by baton pass.",
-    "shortEffect": "Seeds the target, stealing HP from it every turn."
-  },
-  "priority": 0
+    "_id": 73,
+    "key": "leech-seed",
+    "name": {
+        "japanese-kana": "やどりぎのタネ",
+        "korean": "씨뿌리기",
+        "traditional-chinese": "寄生種子",
+        "french": "Vampigraine",
+        "german": "Egelsamen",
+        "spanish": "Drenadoras",
+        "italian": "Parassiseme",
+        "english": "Leech Seed",
+        "japanese": "やどりぎのタネ",
+        "simplified-chinese": "寄生种子",
+        "latin-american-spanish": "Drenadoras"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "leech-seed",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Steals HP from the foe on every turn.",
+            "cr": "Steals HP from the foe on every turn.",
+            "rs": "Plants a seed on the foe to steal HP on every turn.",
+            "em": "Plants a seed on the foe to steal HP on every turn.",
+            "frlg": "A seed is planted on the foe to steal some HP for the user on every turn.",
+            "dp": "A seed is planted on the foe. It steals some HP from the foe to heal the user on every turn.",
+            "pt": "A seed is planted on the foe. It steals some HP from the foe to heal the user on every turn.",
+            "hgss": "A seed is planted on the foe. It steals some HP from the foe to heal the user on every turn.",
+            "bw": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "b2w2": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "xy": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "oras": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "sm": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "usum": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "lgpe": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "swsh": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "la": "A seed is planted on the target. It steals some HP from the target every turn.",
+            "sv": "A seed is planted on the target. It steals some HP from the target every turn."
+        },
+        "french": {
+            "bw": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère.",
+            "xy": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère.",
+            "oras": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère.",
+            "sm": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère.",
+            "usum": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère.",
+            "lgpe": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère.",
+            "swsh": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère."
+        },
+        "japanese-kana": {
+            "xy": "うえつけた　あいての　ＨＰを まいターン　すこしだけ　すいとり じぶんの　ＨＰを　かいふく　する。",
+            "oras": "うえつけた　あいての　ＨＰを まいターン　すこしだけ　すいとり じぶんの　ＨＰを　かいふく　する。",
+            "sm": "うえつけた　あいての　ＨＰを まいターン　すこしだけ　すいとり じぶんの　ＨＰを　かいふく　する。",
+            "usum": "うえつけた　あいての　ＨＰを まいターン　すこしだけ　すいとり じぶんの　ＨＰを　かいふく　する。",
+            "lgpe": "うえつけた　あいての　ＨＰを まいターン　すこしだけ　すいとり じぶんの　ＨＰを　かいふく　する。",
+            "swsh": "うえつけた　あいての　ＨＰを まいターン　すこしだけ　すいとり じぶんの　ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다.",
+            "oras": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다.",
+            "sm": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다.",
+            "usum": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다.",
+            "lgpe": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다.",
+            "swsh": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다."
+        },
+        "german": {
+            "xy": "Ziel wird bepflanzt und verliert jede Runde KP, die ein Pokémon aus dem Team des Anwenders heilen.",
+            "oras": "Ziel wird bepflanzt und verliert jede Runde KP, die ein Pokémon aus dem Team des Anwenders heilen.",
+            "sm": "Ziel wird bepflanzt und verliert jede Runde KP, die ein Pokémon aus dem Team des Anwenders heilen.",
+            "usum": "Ziel wird bepflanzt und verliert jede Runde KP, die ein Pokémon aus dem Team des Anwenders heilen.",
+            "lgpe": "Ziel wird bepflanzt und verliert jede Runde KP, die ein Pokémon aus dem Team des Anwenders heilen.",
+            "swsh": "Ziel wird bepflanzt und verliert jede Runde KP, die ein Pokémon aus dem Team des Anwenders heilen."
+        },
+        "spanish": {
+            "xy": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "oras": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "sm": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "usum": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "lgpe": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "swsh": "Planta semillas que absorben PS del objetivo en cada turno y que le sirven para recuperarse."
+        },
+        "italian": {
+            "xy": "Vengono piantati semi sul bersaglio. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi.",
+            "oras": "Vengono piantati semi sul bersaglio. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi.",
+            "sm": "Vengono piantati semi sul bersaglio. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi.",
+            "usum": "Vengono piantati semi sul bersaglio. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi.",
+            "lgpe": "Vengono piantati semi sul bersaglio. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi.",
+            "swsh": "Vengono piantati semi sul bersaglio. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi."
+        },
+        "japanese": {
+            "xy": "植えつけた　相手の　ＨＰを 毎ターン　少しだけ　吸い取り 自分の　ＨＰを　回復する。",
+            "oras": "植えつけた　相手の　ＨＰを 毎ターン　少しだけ　吸い取り 自分の　ＨＰを　回復する。",
+            "sm": "植えつけた　相手の　ＨＰを 毎ターン　少しだけ　吸い取り 自分の　ＨＰを　回復する。",
+            "usum": "植えつけた　相手の　ＨＰを 毎ターン　少しだけ　吸い取り 自分の　ＨＰを　回復する。",
+            "lgpe": "植えつけた　相手の　ＨＰを 毎ターン　少しだけ　吸い取り 自分の　ＨＰを　回復する。",
+            "swsh": "植えつけた　相手の　ＨＰを 毎ターン　少しだけ　吸い取り 自分の　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "oras": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "sm": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "usum": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "lgpe": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+            "swsh": "Planta semillas que absorben PS del objetivo en cada turno y que le sirven para recuperarse."
+        },
+        "traditional-chinese": {
+            "sm": "在對手身上植入種子， 每回合吸取對手少許的ＨＰ， 用來回復自己的ＨＰ。",
+            "usum": "在對手身上植入種子， 每回合吸取對手少許的ＨＰ， 用來回復自己的ＨＰ。",
+            "lgpe": "在對手身上植入種子， 每回合吸取對手少許的HP， 用來回復自己的HP。",
+            "swsh": "在對手身上植入種子， 每回合吸取對手少許的ＨＰ， 用來回復自己的ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "植入寄生种子后，将在每回合 一点一点吸取对手的ＨＰ， 从而用来回复自己的ＨＰ。",
+            "usum": "植入寄生种子后，将在每回合 一点一点吸取对手的ＨＰ， 从而用来回复自己的ＨＰ。",
+            "lgpe": "植入寄生种子后，将在每回合 一点一点吸取对手的HP， 从而用来回复自己的HP。",
+            "swsh": "植入寄生种子后，将在每回合 一点一点吸取对手的ＨＰ， 从而用来回复自己的ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken.  Has no effect on Grass Pokémon.  The seed remains until the target leaves the field. The user takes damage instead of being healed if the target has Liquid Ooze. Rapid Spin will remove this effect. This effect is passed on by Baton Pass.",
+        "shortEffect": "Seeds the target, stealing HP from it every turn."
+    }
 }

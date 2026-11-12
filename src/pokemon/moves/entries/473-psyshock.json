@@ -1,39 +1,138 @@
 {
-  "_id": 473,
-  "key": "psyshock",
-  "name": {
-    "english": "Psyshock",
-    "japanese": "サイコショック",
-    "chinese": "幻象攻击",
-    "korean": "사이코쇼크",
-    "german": "Psicocarga",
-    "french": "Psychoschock",
-    "italian": "Psyshock",
-    "spanish": "Psicoshock"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user materializes an odd\npsychic wave to attack the target.\nThis attack does physical damage.",
-    "black-2-white-2": "The user materializes an odd\npsychic wave to attack the target.\nThis attack does physical damage.",
-    "x-y": "The user materializes an odd\npsychic wave to attack the target.\nThis attack does physical damage.",
-    "omega-ruby-alpha-sapphire": "The user materializes an odd\npsychic wave to attack the target.\nThis attack does physical damage.",
-    "sun-moon": "The user materializes an odd psychic wave to attack\nthe target. This attack does physical damage.",
-    "ultra-sun-ultra-moon": "The user materializes an odd psychic wave to attack\nthe target. This attack does physical damage.",
-    "lets-go-pikachu-lets-go-eevee": "The user materializes an odd psychic wave to attack\nthe target. This attack does physical damage.",
-    "sword-shield": "The user materializes an odd psychic wave to attack\nthe target. This attack does physical damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Damage calculation always uses the target's Defense, regardless of this move's damage class.",
-    "shortEffect": "Inflicts damage based on the target's Defense, not Special Defense."
-  },
-  "priority": 0
+    "_id": 473,
+    "key": "psyshock",
+    "name": {
+        "japanese-kana": "サイコショック",
+        "korean": "사이코쇼크",
+        "traditional-chinese": "精神衝擊",
+        "french": "Choc Psy",
+        "german": "Psychoschock",
+        "spanish": "Psicocarga",
+        "italian": "Psicoshock",
+        "english": "Psyshock",
+        "japanese": "サイコショック",
+        "simplified-chinese": "精神冲击",
+        "latin-american-spanish": "Choque Psíquico"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.",
+            "xy": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.",
+            "oras": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.",
+            "sm": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.",
+            "usum": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.",
+            "lgpe": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.",
+            "swsh": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques."
+        },
+        "english": {
+            "bw": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "b2w2": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "xy": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "oras": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "sm": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "usum": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "lgpe": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "swsh": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "la": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+            "sv": "The user materializes an odd psychic wave to attack the target. This move deals physical damage."
+        },
+        "japanese-kana": {
+            "xy": "ふしぎな　ねんぱを　じったいかして あいてを　こうげきする。 ぶつりてきな　ダメージを　あたえる。",
+            "oras": "ふしぎな　ねんぱを　じったいかして あいてを　こうげきする。 ぶつりてきな　ダメージを　あたえる。",
+            "sm": "ふしぎな　ねんぱを　じったいかして あいてを　こうげきする。 ぶつりてきな　ダメージを　あたえる。",
+            "usum": "ふしぎな　ねんぱを　じったいかして あいてを　こうげきする。 ぶつりてきな　ダメージを　あたえる。",
+            "lgpe": "ふしぎな　ねんぱを　じったいかして あいてを　こうげきする。 ぶつりてきな　ダメージを　あたえる。",
+            "swsh": "ふしぎな　ねんぱを　じったいかして あいてを　こうげきする。 ぶつりてきな　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.",
+            "oras": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.",
+            "sm": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.",
+            "usum": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.",
+            "lgpe": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.",
+            "swsh": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다."
+        },
+        "german": {
+            "xy": "Anwender erzeugt eine seltsame Energiewelle, die dem Ziel physischen Schaden zufügt.",
+            "oras": "Anwender erzeugt eine seltsame Energiewelle, die dem Ziel physischen Schaden zufügt.",
+            "sm": "Anwender erzeugt eine seltsame Energiewelle, die dem Ziel physischen Schaden zufügt.",
+            "usum": "Anwender erzeugt eine seltsame Energiewelle, die dem Ziel physischen Schaden zufügt.",
+            "lgpe": "Anwender erzeugt eine seltsame Energiewelle, die dem Ziel physischen Schaden zufügt.",
+            "swsh": "Anwender erzeugt eine seltsame Energiewelle, die dem Ziel physischen Schaden zufügt."
+        },
+        "spanish": {
+            "xy": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "oras": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "sm": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "usum": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "lgpe": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "swsh": "Crea una onda psíquica que causa daño físico al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.",
+            "oras": "Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.",
+            "sm": "Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.",
+            "usum": "Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.",
+            "lgpe": "Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.",
+            "swsh": "Chi la usa attacca il bersaglio facendo materializzare misteriose onde psichiche che provocano danni fisici."
+        },
+        "japanese": {
+            "xy": "不思議な　念波を　実体化して 相手を　攻撃する。 物理的な　ダメージを　与える。",
+            "oras": "不思議な　念波を　実体化して 相手を　攻撃する。 物理的な　ダメージを　与える。",
+            "sm": "不思議な　念波を　実体化して 相手を　攻撃する。 物理的な　ダメージを　与える。",
+            "usum": "不思議な　念波を　実体化して 相手を　攻撃する。 物理的な　ダメージを　与える。",
+            "lgpe": "不思議な　念波を　実体化して 相手を　攻撃する。 物理的な　ダメージを　与える。",
+            "swsh": "不思議な　念波を　実体化して 相手を　攻撃する。 物理的な　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "oras": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "sm": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "usum": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "lgpe": "Crea una onda psíquica que causa daño físico al objetivo.",
+            "swsh": "Crea una onda psíquica que causa daño físico al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將神奇的念力波實體化後攻擊對手。 給予對手物理傷害。",
+            "usum": "將神奇的念力波實體化後攻擊對手。 給予對手物理傷害。",
+            "lgpe": "將神奇的念力波實體化後攻擊對手。 給予對手物理傷害。",
+            "swsh": "將神奇的念力波實體化後攻擊對手。 給予對手物理傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "将神奇的念波实体化攻击对手。 给予物理伤害。",
+            "usum": "将神奇的念波实体化攻击对手。 给予物理伤害。",
+            "lgpe": "将神奇的念波实体化攻击对手。 给予物理伤害。",
+            "swsh": "将神奇的念波实体化攻击对手。 给予物理伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Damage calculation always uses the target’s Defense, regardless of this move’s damage class.",
+        "shortEffect": "Inflicts damage based on the target’s Defense, not Special Defense."
+    }
 }

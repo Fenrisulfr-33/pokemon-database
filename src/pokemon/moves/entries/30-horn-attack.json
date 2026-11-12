@@ -1,47 +1,146 @@
 {
-  "_id": 30,
-  "key": "horn-attack",
-  "name": {
-    "english": "Horn Attack",
-    "japanese": "つのでつく",
-    "chinese": "角撞",
-    "korean": "뿔찌르기",
-    "german": "Cornada",
-    "french": "Hornattacke",
-    "italian": "Horn Attack",
-    "spanish": "Incornata"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 25,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack using a\nhorn to jab.",
-    "crystal": "An attack using a\nhorn to jab.",
-    "ruby-sapphire": "Jabs the foe with sharp\nhorns.",
-    "emerald": "Jabs the foe with sharp\nhorns.",
-    "firered-leafgreen": "The foe is jabbed\nwith a sharply\npointed horn to\ninflict damage.",
-    "diamond-pearl": "The foe is jabbed\nwith a sharply\npointed horn to\ninflict damage.\n",
-    "platinum": "The foe is jabbed\nwith a sharply\npointed horn to\ninflict damage.\n",
-    "heartgold-soulsilver": "The foe is jabbed\nwith a sharply\npointed horn to\ninflict damage.\n",
-    "black-white": "The target is jabbed with a sharply\npointed horn to inflict damage.",
-    "black-2-white-2": "The target is jabbed with a sharply\npointed horn to inflict damage.",
-    "x-y": "The target is jabbed with a sharply\npointed horn to inflict damage.",
-    "omega-ruby-alpha-sapphire": "The target is jabbed with a sharply\npointed horn to inflict damage.",
-    "sun-moon": "The target is jabbed with a sharply pointed horn to\ninflict damage.",
-    "ultra-sun-ultra-moon": "The target is jabbed with a sharply pointed horn to\ninflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "The target is jabbed with a sharply pointed horn to\ninflict damage.",
-    "sword-shield": "The target is jabbed with a sharply pointed horn to\ninflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 30,
+    "key": "horn-attack",
+    "name": {
+        "japanese-kana": "つのでつく",
+        "korean": "뿔찌르기",
+        "traditional-chinese": "角撞",
+        "french": "Koud’Korne",
+        "german": "Hornattacke",
+        "spanish": "Cornada",
+        "italian": "Incornata",
+        "english": "Horn Attack",
+        "japanese": "つのでつく",
+        "simplified-chinese": "角撞",
+        "latin-american-spanish": "Ataque Cuerno"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 25,
+    "power": 65,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack using a horn to jab.",
+            "cr": "An attack using a horn to jab.",
+            "rs": "Jabs the foe with sharp horns.",
+            "em": "Jabs the foe with sharp horns.",
+            "frlg": "The foe is jabbed with a sharply pointed horn to inflict damage.",
+            "dp": "The foe is jabbed with a sharply pointed horn to inflict damage.",
+            "pt": "The foe is jabbed with a sharply pointed horn to inflict damage.",
+            "hgss": "The foe is jabbed with a sharply pointed horn to inflict damage.",
+            "bw": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "b2w2": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "xy": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "oras": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "sm": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "usum": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "lgpe": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "swsh": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "la": "The target is jabbed with a sharply pointed horn to inflict damage.",
+            "sv": "The target is jabbed with a sharply pointed horn to inflict damage."
+        },
+        "french": {
+            "bw": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.",
+            "xy": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.",
+            "oras": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.",
+            "sm": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.",
+            "usum": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.",
+            "lgpe": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.",
+            "swsh": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts."
+        },
+        "japanese-kana": {
+            "xy": "するどく　とがった　つので あいてを　こうげきする。",
+            "oras": "するどく　とがった　つので あいてを　こうげきする。",
+            "sm": "するどく　とがった　つので あいてを　こうげきする。",
+            "usum": "するどく　とがった　つので あいてを　こうげきする。",
+            "lgpe": "するどく　とがった　つので あいてを　こうげきする。",
+            "swsh": "するどく　とがった　つので あいてを　こうげきする。"
+        },
+        "korean": {
+            "xy": "날카롭고 뾰족한 뿔로 상대를 공격한다.",
+            "oras": "날카롭고 뾰족한 뿔로 상대를 공격한다.",
+            "sm": "날카롭고 뾰족한 뿔로 상대를 공격한다.",
+            "usum": "날카롭고 뾰족한 뿔로 상대를 공격한다.",
+            "lgpe": "날카롭고 뾰족한 뿔로 상대를 공격한다.",
+            "swsh": "날카롭고 뾰족한 뿔로 상대를 공격한다."
+        },
+        "german": {
+            "xy": "Spießt das Ziel mit einem spitzen Horn auf.",
+            "oras": "Spießt das Ziel mit einem spitzen Horn auf.",
+            "sm": "Spießt das Ziel mit einem spitzen Horn auf.",
+            "usum": "Spießt das Ziel mit einem spitzen Horn auf.",
+            "lgpe": "Spießt das Ziel mit einem spitzen Horn auf.",
+            "swsh": "Spießt das Ziel mit einem spitzen Horn auf."
+        },
+        "spanish": {
+            "xy": "Ataca al objetivo con una cornada.",
+            "oras": "Ataca al objetivo con una cornada.",
+            "sm": "Ataca al objetivo con una cornada.",
+            "usum": "Ataca al objetivo con una cornada.",
+            "lgpe": "Ataca al objetivo con una cornada.",
+            "swsh": "Ataca al objetivo con una cornada."
+        },
+        "italian": {
+            "xy": "Danneggia il bersaglio infilzandolo con un corno affilato.",
+            "oras": "Danneggia il bersaglio infilzandolo con un corno affilato.",
+            "sm": "Danneggia il bersaglio infilzandolo con un corno affilato.",
+            "usum": "Danneggia il bersaglio infilzandolo con un corno affilato.",
+            "lgpe": "Danneggia il bersaglio infilzandolo con un corno affilato.",
+            "swsh": "Danneggia il bersaglio infilzandolo con un corno affilato."
+        },
+        "japanese": {
+            "xy": "鋭く　とがった　つので 相手を　攻撃する。",
+            "oras": "鋭く　とがった　つので 相手を　攻撃する。",
+            "sm": "鋭く　とがった　つので 相手を　攻撃する。",
+            "usum": "鋭く　とがった　つので 相手を　攻撃する。",
+            "lgpe": "鋭く　とがった　つので 相手を　攻撃する。",
+            "swsh": "鋭く　とがった　つので 相手を　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca al objetivo con una cornada.",
+            "oras": "Ataca al objetivo con una cornada.",
+            "sm": "Ataca al objetivo con una cornada.",
+            "usum": "Ataca al objetivo con una cornada.",
+            "lgpe": "Ataca al objetivo con una cornada.",
+            "swsh": "Ataca al objetivo con una cornada."
+        },
+        "traditional-chinese": {
+            "sm": "用尖銳的角攻擊對手。",
+            "usum": "用尖銳的角攻擊對手。",
+            "lgpe": "用尖銳的角攻擊對手。",
+            "swsh": "用尖銳的角攻擊對手。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖锐的角攻击对手。",
+            "usum": "用尖锐的角攻击对手。",
+            "lgpe": "用尖锐的角攻击对手。",
+            "swsh": "用尖锐的角攻击对手。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

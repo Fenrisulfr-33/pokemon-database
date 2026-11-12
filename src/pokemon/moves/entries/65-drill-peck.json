@@ -1,47 +1,146 @@
 {
-  "_id": 65,
-  "key": "drill-peck",
-  "name": {
-    "english": "Drill Peck",
-    "japanese": "ドリルくちばし",
-    "chinese": "冲钻",
-    "korean": "회전부리",
-    "german": "Pico Taladro",
-    "french": "Bohrschnabel",
-    "italian": "Drill Peck",
-    "spanish": "Perforbecco"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A strong, spin­\nning-peck attack.",
-    "crystal": "A strong, spin­\nning-peck attack.",
-    "ruby-sapphire": "A corkscrewing attack with\nthe beak acting as a drill.",
-    "emerald": "A corkscrewing attack with\nthe beak acting as a drill.",
-    "firered-leafgreen": "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.",
-    "diamond-pearl": "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n",
-    "platinum": "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n",
-    "heartgold-soulsilver": "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n",
-    "black-white": "A corkscrewing attack with the\nsharp beak acting as a drill.",
-    "black-2-white-2": "A corkscrewing attack with the\nsharp beak acting as a drill.",
-    "x-y": "A corkscrewing attack with a\nsharp beak acting as a drill.",
-    "omega-ruby-alpha-sapphire": "A corkscrewing attack with a\nsharp beak acting as a drill.",
-    "sun-moon": "A corkscrewing attack with a sharp beak acting as\na drill.",
-    "ultra-sun-ultra-moon": "A corkscrewing attack with a sharp beak acting as\na drill.",
-    "lets-go-pikachu-lets-go-eevee": "A corkscrewing attack with a sharp beak acting as\na drill.",
-    "sword-shield": "A corkscrewing attack that strikes the target with a\nsharp beak acting as a drill."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 65,
+    "key": "drill-peck",
+    "name": {
+        "japanese-kana": "ドリルくちばし",
+        "korean": "회전부리",
+        "traditional-chinese": "啄鑽",
+        "french": "Bec Vrille",
+        "german": "Bohrschnabel",
+        "spanish": "Pico Taladro",
+        "italian": "Perforbecco",
+        "english": "Drill Peck",
+        "japanese": "ドリルくちばし",
+        "simplified-chinese": "啄钻",
+        "latin-american-spanish": "Pico Taladro"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A strong, spinning-peck attack.",
+            "cr": "A strong, spinning-peck attack.",
+            "rs": "A corkscrewing attack with the beak acting as a drill.",
+            "em": "A corkscrewing attack with the beak acting as a drill.",
+            "frlg": "A corkscrewing attack with the sharp beak acting as a drill.",
+            "dp": "A corkscrewing attack with the sharp beak acting as a drill.",
+            "pt": "A corkscrewing attack with the sharp beak acting as a drill.",
+            "hgss": "A corkscrewing attack with the sharp beak acting as a drill.",
+            "bw": "A corkscrewing attack with the sharp beak acting as a drill.",
+            "b2w2": "A corkscrewing attack with the sharp beak acting as a drill.",
+            "xy": "A corkscrewing attack with a sharp beak acting as a drill.",
+            "oras": "A corkscrewing attack with a sharp beak acting as a drill.",
+            "sm": "A corkscrewing attack with a sharp beak acting as a drill.",
+            "usum": "A corkscrewing attack with a sharp beak acting as a drill.",
+            "lgpe": "A corkscrewing attack with a sharp beak acting as a drill.",
+            "swsh": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill.",
+            "la": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill.",
+            "sv": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill."
+        },
+        "french": {
+            "bw": "Une attaque utilisant le bec comme une perceuse.",
+            "xy": "Une attaque utilisant le bec comme une perceuse.",
+            "oras": "Une attaque utilisant le bec comme une perceuse.",
+            "sm": "Une attaque utilisant le bec comme une perceuse.",
+            "usum": "Une attaque utilisant le bec comme une perceuse.",
+            "lgpe": "Une attaque utilisant le bec comme une perceuse.",
+            "swsh": "Une attaque utilisant le bec comme une perceuse."
+        },
+        "japanese-kana": {
+            "xy": "かいてん　しながら　とがった　くちばしを あいてに　つきさして　こうげきする。",
+            "oras": "かいてん　しながら　とがった　くちばしを あいてに　つきさして　こうげきする。",
+            "sm": "かいてん　しながら　とがった　くちばしを あいてに　つきさして　こうげきする。",
+            "usum": "かいてん　しながら　とがった　くちばしを あいてに　つきさして　こうげきする。",
+            "lgpe": "かいてん　しながら　とがった　くちばしを あいてに　つきさして　こうげきする。",
+            "swsh": "かいてん　しながら　とがった　くちばしを あいてに　つきさして　こうげきする。"
+        },
+        "korean": {
+            "xy": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.",
+            "oras": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.",
+            "sm": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.",
+            "usum": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.",
+            "lgpe": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.",
+            "swsh": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다."
+        },
+        "german": {
+            "xy": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.",
+            "oras": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.",
+            "sm": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.",
+            "usum": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.",
+            "lgpe": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.",
+            "swsh": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient."
+        },
+        "spanish": {
+            "xy": "Picotazo giratorio y perforador muy potente.",
+            "oras": "Picotazo giratorio y perforador muy potente.",
+            "sm": "Picotazo giratorio y perforador muy potente.",
+            "usum": "Picotazo giratorio y perforador muy potente.",
+            "lgpe": "Picotazo giratorio y perforador muy potente.",
+            "swsh": "Picotazo giratorio y perforador muy potente."
+        },
+        "italian": {
+            "xy": "Attacco a spirale con un becco aguzzo che fa da trapano.",
+            "oras": "Attacco a spirale con un becco aguzzo che fa da trapano.",
+            "sm": "Attacco a spirale con un becco aguzzo che fa da trapano.",
+            "usum": "Attacco a spirale con un becco aguzzo che fa da trapano.",
+            "lgpe": "Attacco a spirale con un becco aguzzo che fa da trapano.",
+            "swsh": "Attacco a spirale con un becco aguzzo che fa da trapano."
+        },
+        "japanese": {
+            "xy": "回転しながら　とがった　くちばしを 相手に　突き刺して　攻撃する。",
+            "oras": "回転しながら　とがった　くちばしを 相手に　突き刺して　攻撃する。",
+            "sm": "回転しながら　とがった　くちばしを 相手に　突き刺して　攻撃する。",
+            "usum": "回転しながら　とがった　くちばしを 相手に　突き刺して　攻撃する。",
+            "lgpe": "回転しながら　とがった　くちばしを 相手に　突き刺して　攻撃する。",
+            "swsh": "回転しながら　とがった　くちばしを 相手に　突き刺して　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Picotazo giratorio y perforador muy potente.",
+            "oras": "Picotazo giratorio y perforador muy potente.",
+            "sm": "Picotazo giratorio y perforador muy potente.",
+            "usum": "Picotazo giratorio y perforador muy potente.",
+            "lgpe": "Picotazo giratorio y perforador muy potente.",
+            "swsh": "Picotazo giratorio y perforador muy potente."
+        },
+        "traditional-chinese": {
+            "sm": "一邊旋轉，一邊將尖喙 刺進對手進行攻擊。",
+            "usum": "一邊旋轉，一邊將尖喙 刺進對手進行攻擊。",
+            "lgpe": "一邊旋轉，一邊將尖喙 刺進對手進行攻擊。",
+            "swsh": "一邊旋轉，一邊將尖喙 刺進對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "一边旋转，一边将尖喙 刺入对手进行攻击。",
+            "usum": "一边旋转，一边将尖喙 刺入对手进行攻击。",
+            "lgpe": "一边旋转，一边将尖喙 刺入对手进行攻击。",
+            "swsh": "一边旋转，一边将尖喙 刺入对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

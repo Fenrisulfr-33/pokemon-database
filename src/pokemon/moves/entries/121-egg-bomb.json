@@ -1,47 +1,144 @@
 {
-  "_id": 121,
-  "key": "egg-bomb",
-  "name": {
-    "english": "Egg Bomb",
-    "japanese": "タマゴばくだん",
-    "chinese": "炸蛋",
-    "korean": "알폭탄",
-    "german": "Bomba Huevo",
-    "french": "Eierbombe",
-    "italian": "Egg Bomb",
-    "spanish": "Uovobomba"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 100,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Eggs are hurled at\nthe foe.",
-    "crystal": "Eggs are hurled at\nthe foe.",
-    "ruby-sapphire": "An egg is forcibly hurled at\nthe foe.",
-    "emerald": "An egg is forcibly hurled at\nthe foe.",
-    "firered-leafgreen": "A large egg is\nhurled with great\nforce at the foe to\ninflict damage.",
-    "diamond-pearl": "A large egg is hurled\nwith maximum force at\nthe foe to inflict\ndamage.\n",
-    "platinum": "A large egg is hurled\nwith maximum force at\nthe foe to inflict\ndamage.\n",
-    "heartgold-soulsilver": "A large egg is hurled\nwith maximum force at\nthe foe to inflict\ndamage.\n",
-    "black-white": "A large egg is hurled at the target\nwith maximum force to inflict damage.",
-    "black-2-white-2": "A large egg is hurled at the target\nwith maximum force to inflict damage.",
-    "x-y": "A large egg is hurled at the target\nwith maximum force to inflict damage.",
-    "omega-ruby-alpha-sapphire": "A large egg is hurled at the target\nwith maximum force to inflict damage.",
-    "sun-moon": "A large egg is hurled at the target with maximum\nforce to inflict damage.",
-    "ultra-sun-ultra-moon": "A large egg is hurled at the target with maximum\nforce to inflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "A large egg is hurled at the target with maximum\nforce to inflict damage.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 121,
+    "key": "egg-bomb",
+    "name": {
+        "japanese-kana": "タマゴばくだん",
+        "korean": "알폭탄",
+        "traditional-chinese": "炸蛋",
+        "french": "Bombe Œuf",
+        "german": "Eierbombe",
+        "spanish": "Bomba Huevo",
+        "italian": "Uovobomba",
+        "english": "Egg Bomb",
+        "japanese": "タマゴばくだん",
+        "simplified-chinese": "炸蛋",
+        "latin-american-spanish": "Bomba Huevo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 75,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Eggs are hurled at the foe.",
+            "cr": "Eggs are hurled at the foe.",
+            "rs": "An egg is forcibly hurled at the foe.",
+            "em": "An egg is forcibly hurled at the foe.",
+            "frlg": "A large egg is hurled with great force at the foe to inflict damage.",
+            "dp": "A large egg is hurled with maximum force at the foe to inflict damage.",
+            "pt": "A large egg is hurled with maximum force at the foe to inflict damage.",
+            "hgss": "A large egg is hurled with maximum force at the foe to inflict damage.",
+            "bw": "A large egg is hurled at the target with maximum force to inflict damage.",
+            "b2w2": "A large egg is hurled at the target with maximum force to inflict damage.",
+            "xy": "A large egg is hurled at the target with maximum force to inflict damage.",
+            "oras": "A large egg is hurled at the target with maximum force to inflict damage.",
+            "sm": "A large egg is hurled at the target with maximum force to inflict damage.",
+            "usum": "A large egg is hurled at the target with maximum force to inflict damage.",
+            "lgpe": "A large egg is hurled at the target with maximum force to inflict damage.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts.",
+            "xy": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts.",
+            "oras": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts.",
+            "sm": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts.",
+            "usum": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts.",
+            "lgpe": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　タマゴを　ちから　いっぱい あいてに　なげつけて　こうげきする。",
+            "oras": "おおきな　タマゴを　ちから　いっぱい あいてに　なげつけて　こうげきする。",
+            "sm": "おおきな　タマゴを　ちから　いっぱい あいてに　なげつけて　こうげきする。",
+            "usum": "おおきな　タマゴを　ちから　いっぱい あいてに　なげつけて　こうげきする。",
+            "lgpe": "おおきな　タマゴを　ちから　いっぱい あいてに　なげつけて　こうげきする。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "큰 알을 온 힘을 다해 상대에게 내던져서 공격한다.",
+            "oras": "큰 알을 온 힘을 다해 상대에게 내던져서 공격한다.",
+            "sm": "큰 알을 온 힘을 다해 상대에게 내던져서 공격한다.",
+            "usum": "큰 알을 온 힘을 다해 상대에게 내던져서 공격한다.",
+            "lgpe": "큰 알을 온 힘을 다해 상대에게 내던져서 공격한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.",
+            "oras": "Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.",
+            "sm": "Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.",
+            "usum": "Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.",
+            "lgpe": "Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Arroja un huevo al objetivo con gran fuerza.",
+            "oras": "Arroja un huevo al objetivo con gran fuerza.",
+            "sm": "Arroja un huevo enorme al objetivo con gran fuerza.",
+            "usum": "Arroja un huevo enorme al objetivo con gran fuerza.",
+            "lgpe": "Arroja un huevo enorme al objetivo con gran fuerza.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un grande uovo scaraventato con enorme forza.",
+            "oras": "Colpisce il bersaglio con un grande uovo scaraventato con enorme forza.",
+            "sm": "Colpisce il bersaglio con un grande uovo scaraventato con enorme forza.",
+            "usum": "Colpisce il bersaglio con un grande uovo scaraventato con enorme forza.",
+            "lgpe": "Colpisce il bersaglio con un grande uovo scaraventato con enorme forza.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "大きな　タマゴを　力いっぱい 相手に　投げつけて　攻撃する。",
+            "oras": "大きな　タマゴを　力いっぱい 相手に　投げつけて　攻撃する。",
+            "sm": "大きな　タマゴを　力いっぱい 相手に　投げつけて　攻撃する。",
+            "usum": "大きな　タマゴを　力いっぱい 相手に　投げつけて　攻撃する。",
+            "lgpe": "大きな　タマゴを　力いっぱい 相手に　投げつけて　攻撃する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Arroja un huevo al objetivo con gran fuerza.",
+            "oras": "Arroja un huevo al objetivo con gran fuerza.",
+            "sm": "Arroja un huevo enorme al objetivo con gran fuerza.",
+            "usum": "Arroja un huevo enorme al objetivo con gran fuerza.",
+            "lgpe": "Arroja un huevo enorme al objetivo con gran fuerza.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "向對手用力投擲 大大的蛋進行攻擊。",
+            "usum": "向對手用力投擲 大大的蛋進行攻擊。",
+            "lgpe": "向對手用力投擲 大大的蛋進行攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手用力投掷 大大的蛋进行攻击。",
+            "usum": "向对手用力投掷 大大的蛋进行攻击。",
+            "lgpe": "向对手用力投掷 大大的蛋进行攻击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

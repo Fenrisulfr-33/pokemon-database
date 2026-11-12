@@ -1,35 +1,117 @@
 {
-  "_id": 710,
-  "key": "liquidation",
-  "name": {
-    "english": "Liquidation",
-    "japanese": "アクアブレイク",
-    "chinese": "水流裂破",
-    "korean": "아쿠아브레이크",
-    "german": "Hidroariete",
-    "french": "Aquadurchstoß",
-    "italian": "Liquidation",
-    "spanish": "Idrobreccia"
-  },
-  "type": "Water",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 85,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user slams into the target using a full-force\nblast of water. This may also lower the target’s\nDefense stat.",
-    "ultra-sun-ultra-moon": "The user slams into the target using a full-force\nblast of water. This may also lower the target’s\nDefense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user slams into the target using a full-force\nblast of water. This may also lower the target’s\nDefense stat.",
-    "sword-shield": "The user slams into the target using a full-force\nblast of water. This may also lower the target’s\nDefense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 710,
+    "key": "liquidation",
+    "name": {
+        "japanese-kana": "アクアブレイク",
+        "korean": "아쿠아브레이크",
+        "traditional-chinese": "水流裂破",
+        "french": "Aqua-Brèche",
+        "german": "Aquadurchstoß",
+        "spanish": "Hidroariete",
+        "italian": "Idrobreccia",
+        "english": "Liquidation",
+        "japanese": "アクアブレイク",
+        "simplified-chinese": "水流裂破",
+        "latin-american-spanish": "Hidroariete"
+    },
+    "type": "water",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 85,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 20
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "みずの　ちからで　あいてに ぶつかって　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+            "usum": "みずの　ちからで　あいてに ぶつかって　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+            "lgpe": "みずの　ちからで　あいてに ぶつかって　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+            "swsh": "みずの　ちからで　あいてに ぶつかって　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。"
+        },
+        "korean": {
+            "sm": "물의 힘으로 상대에게 부딪쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "usum": "물의 힘으로 상대에게 부딪쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "물의 힘으로 상대에게 부딪쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "swsh": "물의 힘으로 상대에게 부딪쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+        },
+        "traditional-chinese": {
+            "sm": "用水之力量撞向對手進行攻擊。 有時會降低對手的防禦。",
+            "usum": "用水之力量撞向對手進行攻擊。 有時會降低對手的防禦。",
+            "lgpe": "用水之力量撞向對手進行攻擊。 有時會降低對手的防禦。",
+            "swsh": "用水之力量撞向對手進行攻擊。 有時會降低對手的防禦。"
+        },
+        "french": {
+            "sm": "Le lanceur utilise la force de l’eau pour attaquer. Peut aussi baisser la Défense de la cible.",
+            "usum": "Le lanceur utilise la force de l’eau pour attaquer. Peut aussi baisser la Défense de la cible.",
+            "lgpe": "Le lanceur utilise la force de l’eau pour attaquer. Peut aussi baisser la Défense de la cible.",
+            "swsh": "Le lanceur utilise la force de l’eau pour attaquer. Peut aussi baisser la Défense de la cible."
+        },
+        "german": {
+            "sm": "Der Anwender greift das Ziel mit der Kraft des Wassers an. Senkt eventuell die Verteidigung des Zieles.",
+            "usum": "Der Anwender greift das Ziel mit der Kraft des Wassers an. Senkt eventuell die Verteidigung des Zieles.",
+            "lgpe": "Der Anwender greift das Ziel mit der Kraft des Wassers an. Senkt eventuell die Verteidigung des Zieles.",
+            "swsh": "Der Anwender greift das Ziel mit der Kraft des Wassers an. Senkt eventuell die Verteidigung des Zieles."
+        },
+        "spanish": {
+            "sm": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+            "usum": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+            "lgpe": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+            "swsh": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo."
+        },
+        "italian": {
+            "sm": "Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.",
+            "usum": "Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.",
+            "lgpe": "Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.",
+            "swsh": "Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa."
+        },
+        "english": {
+            "sm": "The user slams into the target using a full-force blast of water. This may also lower the target’s Defense stat.",
+            "usum": "The user slams into the target using a full-force blast of water. This may also lower the target’s Defense stat.",
+            "lgpe": "The user slams into the target using a full-force blast of water. This may also lower the target’s Defense stat.",
+            "swsh": "The user slams into the target using a full-force blast of water. This may also lower the target’s Defense stat.",
+            "la": "The user slams into the target using a full-force blast of water. This may also lower the target’s defensive stats.",
+            "sv": "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat."
+        },
+        "japanese": {
+            "sm": "水の　力で　相手に ぶつかって　攻撃する。 相手の　防御を　さげる　ことがある。",
+            "usum": "水の　力で　相手に ぶつかって　攻撃する。 相手の　防御を　さげる　ことがある。",
+            "lgpe": "水の　力で　相手に ぶつかって　攻撃する。 相手の　防御を　さげる　ことがある。",
+            "swsh": "水の　力で　相手に ぶつかって　攻撃する。 相手の　防御を　さげる　ことがある。"
+        },
+        "simplified-chinese": {
+            "sm": "用水之力量撞向对手进行攻击。 有时会降低对手的防御。",
+            "usum": "用水之力量撞向对手进行攻击。 有时会降低对手的防御。",
+            "lgpe": "用水之力量撞向对手进行攻击。 有时会降低对手的防御。",
+            "swsh": "用水之力量撞向对手进行攻击。 有时会降低对手的防御。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+            "usum": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+            "lgpe": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+            "swsh": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Defense by one stage."
+    }
 }

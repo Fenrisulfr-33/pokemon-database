@@ -1,45 +1,144 @@
 {
-  "_id": 286,
-  "key": "imprison",
-  "name": {
-    "english": "Imprison",
-    "japanese": "ふういん",
-    "chinese": "封印",
-    "korean": "봉인",
-    "german": "Sellar",
-    "french": "Begrenzer",
-    "italian": "Imprison",
-    "spanish": "Esclusiva"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Prevents foes from using\nmoves known by the user.",
-    "emerald": "Prevents foes from using\nmoves known by the user.",
-    "firered-leafgreen": "Prevents foes from\nusing any move\nthat is also known\nby the user.",
-    "diamond-pearl": "If the foe knows any\nmove also known by\nthe user, the foe\nis prevented\nfrom using it.",
-    "platinum": "If the foe knows any\nmove also known by\nthe user, the foe\nis prevented\nfrom using it.",
-    "heartgold-soulsilver": "If the foe knows any\nmove also known by\nthe user, the foe\nis prevented\nfrom using it.",
-    "black-white": "If the opponents know any move also known\nby the user, the opponents are prevented\nfrom using it.",
-    "black-2-white-2": "If the opponents know any move also known\nby the user, the opponents are prevented\nfrom using it.",
-    "x-y": "If opposing Pokémon know any move\nalso known by the user,\nthey are prevented from using it.",
-    "omega-ruby-alpha-sapphire": "If opposing Pokémon know any move\nalso known by the user,\nthey are prevented from using it.",
-    "sun-moon": "If opposing Pokémon know any move also known by\nthe user, they are prevented from using it.",
-    "ultra-sun-ultra-moon": "If opposing Pokémon know any move also known by\nthe user, they are prevented from using it.",
-    "lets-go-pikachu-lets-go-eevee": "If opposing Pokémon know any move also known by\nthe user, they are prevented from using it.",
-    "sword-shield": "If opposing Pokémon know any move also known by\nthe user, they are prevented from using it."
-  },
-  "effect": {
-    "full": "Prevents any Pokémon on the opposing side of the field from using any move the user knows until the user leaves the field.  This effect is live; if the user obtains new moves while on the field, these moves become restricted.  If no opposing Pokémon knows any of the user's moves when this move is used, this move will fail.",
-    "shortEffect": "Prevents the target from using any moves that the user also knows."
-  },
-  "priority": 0
+    "_id": 286,
+    "key": "imprison",
+    "name": {
+        "japanese-kana": "ふういん",
+        "korean": "봉인",
+        "traditional-chinese": "封印",
+        "french": "Possessif",
+        "german": "Begrenzer",
+        "spanish": "Sellar",
+        "italian": "Esclusiva",
+        "english": "Imprison",
+        "japanese": "ふういん",
+        "simplified-chinese": "封印",
+        "latin-american-spanish": "Sellar"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Prevents foes from using moves known by the user.",
+            "em": "Prevents foes from using moves known by the user.",
+            "frlg": "Prevents foes from using any move that is also known by the user.",
+            "dp": "If the foe knows any move also known by the user, the foe is prevented from using it.",
+            "pt": "If the foe knows any move also known by the user, the foe is prevented from using it.",
+            "hgss": "If the foe knows any move also known by the user, the foe is prevented from using it.",
+            "bw": "If the opponents know any move also known by the user, the opponents are prevented from using it.",
+            "b2w2": "If the opponents know any move also known by the user, the opponents are prevented from using it.",
+            "xy": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+            "oras": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+            "sm": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+            "usum": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+            "lgpe": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+            "swsh": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+            "la": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+            "sv": "If opposing Pokémon know any move also known by the user, they are prevented from using it."
+        },
+        "french": {
+            "bw": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.",
+            "xy": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.",
+            "oras": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.",
+            "sm": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.",
+            "usum": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.",
+            "lgpe": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.",
+            "swsh": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser."
+        },
+        "japanese-kana": {
+            "xy": "あいてが　じぶんと　おなじ　わざを おぼえていたら　あいてだけ そのわざを　つかえなく　する。",
+            "oras": "あいてが　じぶんと　おなじ　わざを おぼえていたら　あいてだけ そのわざを　つかえなく　する。",
+            "sm": "あいてが　じぶんと　おなじ　わざを おぼえていたら　あいてだけ そのわざを　つかえなく　する。",
+            "usum": "あいてが　じぶんと　おなじ　わざを おぼえていたら　あいてだけ そのわざを　つかえなく　する。",
+            "lgpe": "あいてが　じぶんと　おなじ　わざを おぼえていたら　あいてだけ そのわざを　つかえなく　する。",
+            "swsh": "あいてが　じぶんと　おなじ　わざを おぼえていたら　あいてだけ そのわざを　つかえなく　する。"
+        },
+        "korean": {
+            "xy": "상대가 자신과 같은 기술을 기억하고 있으면 상대만 그 기술을 사용할 수 없게 한다.",
+            "oras": "상대가 자신과 같은 기술을 기억하고 있으면 상대만 그 기술을 사용할 수 없게 한다.",
+            "sm": "상대가 자신과 같은 기술을 기억하고 있으면 상대만 그 기술을 사용할 수 없게 한다.",
+            "usum": "상대가 자신과 같은 기술을 기억하고 있으면 상대만 그 기술을 사용할 수 없게 한다.",
+            "lgpe": "상대가 자신과 같은 기술을 기억하고 있으면 상대만 그 기술을 사용할 수 없게 한다.",
+            "swsh": "상대가 자신과 같은 기술을 배웠다면 상대만 그 기술을 사용할 수 없게 한다."
+        },
+        "german": {
+            "xy": "Hindert Gegner am Einsatz von Attacken, die der Anwender selbst auch kennt.",
+            "oras": "Hindert Gegner am Einsatz von Attacken, die der Anwender selbst auch kennt.",
+            "sm": "Hindert Gegner am Einsatz von Attacken, die der Anwender selbst auch kennt.",
+            "usum": "Hindert Gegner am Einsatz von Attacken, die der Anwender selbst auch kennt.",
+            "lgpe": "Hindert Gegner am Einsatz von Attacken, die der Anwender selbst auch kennt.",
+            "swsh": "Hindert Gegner am Einsatz von Attacken, die der Anwender selbst auch kennt."
+        },
+        "spanish": {
+            "xy": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "oras": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "sm": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "usum": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "lgpe": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "swsh": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate."
+        },
+        "italian": {
+            "xy": "Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.",
+            "oras": "Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.",
+            "sm": "Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.",
+            "usum": "Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.",
+            "lgpe": "Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.",
+            "swsh": "Chi la usa impedisce al nemico di usare mosse che conoscono entrambi."
+        },
+        "japanese": {
+            "xy": "相手が　自分と　同じ　技を おぼえていたら　相手だけ その技を　使えなくする。",
+            "oras": "相手が　自分と　同じ　技を おぼえていたら　相手だけ その技を　使えなくする。",
+            "sm": "相手が　自分と　同じ　技を おぼえていたら　相手だけ その技を　使えなくする。",
+            "usum": "相手が　自分と　同じ　技を おぼえていたら　相手だけ その技を　使えなくする。",
+            "lgpe": "相手が　自分と　同じ　技を おぼえていたら　相手だけ その技を　使えなくする。",
+            "swsh": "相手が　自分と　同じ　技を おぼえていたら　相手だけ その技を　使えなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "oras": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "sm": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "usum": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "lgpe": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+            "swsh": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate."
+        },
+        "traditional-chinese": {
+            "sm": "如果對手也學會了和自己 相同的招式，則對手將 不能使用該招式。",
+            "usum": "如果對手也學會了和自己 相同的招式，則對手將 不能使用該招式。",
+            "lgpe": "如果對手也學會了和自己 相同的招式，則對手將 不能使用該招式。",
+            "swsh": "如果對手也學會了和自己 相同的招式，則對手將 不能使用該招式。"
+        },
+        "simplified-chinese": {
+            "sm": "如果对手有和自己相同的招式， 那么只有对手无法使用该招式。",
+            "usum": "如果对手有和自己相同的招式， 那么只有对手无法使用该招式。",
+            "lgpe": "如果对手有和自己相同的招式， 那么只有对手无法使用该招式。",
+            "swsh": "如果对手有和自己相同的招式， 那么只有对手无法使用该招式。"
+        }
+    },
+    "effect": {
+        "full": "Prevents any Pokémon on the opposing side of the field from using any move the user knows until the user leaves the field.  This effect is live; if the user obtains new moves while on the field, these moves become restricted.  If no opposing Pokémon knows any of the user’s moves when this move is used, this move will fail.",
+        "shortEffect": "Prevents the target from using any moves that the user also knows."
+    }
 }

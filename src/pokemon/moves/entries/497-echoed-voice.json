@@ -1,39 +1,138 @@
 {
-  "_id": 497,
-  "key": "echoed-voice",
-  "name": {
-    "english": "Echoed Voice",
-    "japanese": "エコーボイス",
-    "chinese": "回音",
-    "korean": "에코보이스",
-    "german": "Eco Voz",
-    "french": "Widerhall",
-    "italian": "Echoed Voice",
-    "spanish": "Echeggiavoce"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
-    "black-2-white-2": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
-    "x-y": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
-    "sun-moon": "The user attacks the target with an echoing voice.\nIf this move is used every turn, its power\nis increased.",
-    "ultra-sun-ultra-moon": "The user attacks the target with an echoing voice.\nIf this move is used every turn, its power\nis increased.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with an echoing voice.\nIf this move is used every turn, its power\nis increased.",
-    "sword-shield": "The user attacks the target with an echoing voice.\nIf this move is used every turn, its power\nis increased."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If any friendly Pokémon used this move earlier this turn or on the previous turn, that use's power is added to this move's power, to a maximum of 200.",
-    "shortEffect": "Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200."
-  },
-  "priority": 0
+    "_id": 497,
+    "key": "echoed-voice",
+    "name": {
+        "japanese-kana": "エコーボイス",
+        "korean": "에코보이스",
+        "traditional-chinese": "回聲",
+        "french": "Écho",
+        "german": "Widerhall",
+        "spanish": "Eco Voz",
+        "italian": "Echeggiavoce",
+        "english": "Echoed Voice",
+        "japanese": "エコーボイス",
+        "simplified-chinese": "回声",
+        "latin-american-spanish": "Eco Voz"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente.",
+            "xy": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente.",
+            "oras": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente.",
+            "sm": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente.",
+            "usum": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente.",
+            "lgpe": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente.",
+            "swsh": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente."
+        },
+        "english": {
+            "bw": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
+            "b2w2": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
+            "xy": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
+            "oras": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
+            "sm": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+            "usum": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+            "lgpe": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+            "swsh": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+            "la": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+            "sv": "The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted."
+        },
+        "japanese-kana": {
+            "xy": "ひびく　こえで　あいてを　こうげきする。 まいターン　だれかが　わざを つかい　つづけると　いりょくが　あがる。",
+            "oras": "ひびく　こえで　あいてを　こうげきする。 まいターン　だれかが　わざを つかい　つづけると　いりょくが　あがる。",
+            "sm": "ひびく　こえで　あいてを　こうげきする。 まいターン　だれかが　わざを つかい　つづけると　いりょくが　あがる。",
+            "usum": "ひびく　こえで　あいてを　こうげきする。 まいターン　だれかが　わざを つかい　つづけると　いりょくが　あがる。",
+            "lgpe": "ひびく　こえで　あいてを　こうげきする。 まいターン　だれかが　わざを つかい　つづけると　いりょくが　あがる。",
+            "swsh": "ひびく　こえで　あいてを　こうげきする。 まいターン　だれかが　わざを つかい　つづけると　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "울리는 목소리로 상대를 공격한다. 매 턴 누군가 기술을 계속해서 쓰면 위력이 올라간다.",
+            "oras": "울리는 목소리로 상대를 공격한다. 매 턴 누군가 이 기술을 계속해서 쓰면 위력이 올라간다.",
+            "sm": "울리는 목소리로 상대를 공격한다. 매 턴 누군가 이 기술을 계속해서 쓰면 위력이 올라간다.",
+            "usum": "울리는 목소리로 상대를 공격한다. 매 턴 누군가 이 기술을 계속해서 쓰면 위력이 올라간다.",
+            "lgpe": "울리는 목소리로 상대를 공격한다. 매 턴 누군가 이 기술을 계속해서 쓰면 위력이 올라간다.",
+            "swsh": "울리는 목소리로 상대를 공격한다. 매 턴 누군가 이 기술을 계속해서 쓰면 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Angriff mit widerhallender Stimme. Wenn in jeder Runde ein Teilnehmer wiederholt die Attacke einsetzt, steigt die Stärke.",
+            "oras": "Angriff mit widerhallender Stimme. Wenn in jeder Runde ein Teilnehmer wiederholt die Attacke einsetzt, steigt die Stärke.",
+            "sm": "Angriff mit widerhallender Stimme. Wenn in jeder Runde ein Teilnehmer wiederholt die Attacke einsetzt, steigt die Stärke.",
+            "usum": "Angriff mit widerhallender Stimme. Wenn in jeder Runde ein Teilnehmer wiederholt die Attacke einsetzt, steigt die Stärke.",
+            "lgpe": "Angriff mit widerhallender Stimme. Wenn in jeder Runde ein Teilnehmer wiederholt die Attacke einsetzt, steigt die Stärke.",
+            "swsh": "Angriff mit widerhallender Stimme. Wenn in jeder Runde ein Teilnehmer wiederholt die Attacke einsetzt, steigt die Stärke."
+        },
+        "spanish": {
+            "xy": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "oras": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "sm": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "usum": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "lgpe": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "swsh": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando."
+        },
+        "italian": {
+            "xy": "Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.",
+            "oras": "Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.",
+            "sm": "Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.",
+            "usum": "Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.",
+            "lgpe": "Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.",
+            "swsh": "Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta."
+        },
+        "japanese": {
+            "xy": "響く　声で　相手を　攻撃する。 毎ターン　だれかが　技を 使い続けると　威力が　あがる。",
+            "oras": "響く　声で　相手を　攻撃する。 毎ターン　だれかが　技を 使い続けると　威力が　あがる。",
+            "sm": "響く　声で　相手を　攻撃する。 毎ターン　だれかが　技を 使い続けると　威力が　あがる。",
+            "usum": "響く　声で　相手を　攻撃する。 毎ターン　だれかが　技を 使い続けると　威力が　あがる。",
+            "lgpe": "響く　声で　相手を　攻撃する。 毎ターン　だれかが　技を 使い続けると　威力が　あがる。",
+            "swsh": "響く　声で　相手を　攻撃する。 毎ターン　だれかが　技を 使い続けると　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "oras": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "sm": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "usum": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "lgpe": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.",
+            "swsh": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando."
+        },
+        "traditional-chinese": {
+            "sm": "用回聲攻擊對手。 每回合有寶可夢持續使用回聲時， 招式的威力會提高。",
+            "usum": "用回聲攻擊對手。 每回合有寶可夢持續使用回聲時， 招式的威力會提高。",
+            "lgpe": "用回聲攻擊對手。 每回合有寶可夢持續使用回聲時， 招式的威力會提高。",
+            "swsh": "用回聲攻擊對手。 每回合有寶可夢持續使用回聲時， 招式的威力會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "用回声攻击对手。 如果每回合都有宝可梦接着 使用该招式，威力就会提高。",
+            "usum": "用回声攻击对手。 如果每回合都有宝可梦接着 使用该招式，威力就会提高。",
+            "lgpe": "用回声攻击对手。 如果每回合都有宝可梦接着 使用该招式，威力就会提高。",
+            "swsh": "用回声攻击对手。 如果每回合都有宝可梦接着 使用该招式，威力就会提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If any friendly Pokémon used this move earlier this turn or on the previous turn, that use’s power is added to this move’s power, to a maximum of 200.",
+        "shortEffect": "Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200."
+    }
 }

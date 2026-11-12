@@ -1,39 +1,136 @@
 {
-  "_id": 531,
-  "key": "heart-stamp",
-  "name": {
-    "english": "Heart Stamp",
-    "japanese": "ハートスタンプ",
-    "chinese": "爱心捣击",
-    "korean": "하트스탬프",
-    "german": "Arrumaco",
-    "french": "Herzstempel",
-    "italian": "Heart Stamp",
-    "spanish": "Cuorestampo"
-  },
-  "type": "Psychic",
-  "category": "Physical",
-  "contest": null,
-  "pp": 25,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user unleashes a vicious blow after\nits cute act makes the target less wary.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user unleashes a vicious blow after\nits cute act makes the target less wary.\nIt may also make the target flinch.",
-    "x-y": "The user unleashes a vicious blow after\nits cute act makes the target less wary.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user unleashes a vicious blow after\nits cute act makes the target less wary.\nThis may also make the target flinch.",
-    "sun-moon": "The user unleashes a vicious blow after its cute act\nmakes the target less wary. This may also make the\ntarget flinch.",
-    "ultra-sun-ultra-moon": "The user unleashes a vicious blow after its cute act\nmakes the target less wary. This may also make the\ntarget flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user unleashes a vicious blow after its cute act\nmakes the target less wary. This may also make the\ntarget flinch.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 531,
+    "key": "heart-stamp",
+    "name": {
+        "japanese-kana": "ハートスタンプ",
+        "korean": "하트스탬프",
+        "traditional-chinese": "愛心印章",
+        "french": "Crève-Cœur",
+        "german": "Herzstempel",
+        "spanish": "Arrumaco",
+        "italian": "Cuorestampo",
+        "english": "Heart Stamp",
+        "japanese": "ハートスタンプ",
+        "simplified-chinese": "爱心印章",
+        "latin-american-spanish": "Sello de Corazón"
+    },
+    "type": "psychic",
+    "category": "physical",
+    "contest": null,
+    "pp": 25,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Déconcentre l’ennemi avec des mouvements mignons avant de le frapper violemment. Peut apeurer l’ennemi.",
+            "xy": "Déconcentre l’ennemi avec des mouvements mignons avant de le frapper violemment. Peut aussi l’apeurer.",
+            "oras": "Déconcentre l’ennemi avec des mouvements mignons avant de le frapper violemment. Peut aussi l’apeurer.",
+            "sm": "Déconcentre l’ennemi avec des mouvements mignons avant de le frapper violemment. Peut aussi l’apeurer.",
+            "usum": "Déconcentre l’ennemi avec des mouvements mignons avant de le frapper violemment. Peut aussi l’apeurer.",
+            "lgpe": "Déconcentre l’ennemi avec des mouvements mignons avant de le frapper violemment. Peut aussi l’apeurer.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "english": {
+            "bw": "The user unleashes a vicious blow after its cute act makes the target less wary. It may also make the target flinch.",
+            "b2w2": "The user unleashes a vicious blow after its cute act makes the target less wary. It may also make the target flinch.",
+            "xy": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
+            "oras": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
+            "sm": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
+            "usum": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
+            "lgpe": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese-kana": {
+            "xy": "かわいい　しぐさで　ゆだん　させて きょうれつな　いちげきを　あびせる。 あいてを　ひるませる　ことが　ある。",
+            "oras": "かわいい　しぐさで　ゆだん　させて きょうれつな　いちげきを　あびせる。 あいてを　ひるませる　ことが　ある。",
+            "sm": "かわいい　しぐさで　ゆだん　させて きょうれつな　いちげきを　あびせる。 あいてを　ひるませる　ことが　ある。",
+            "usum": "かわいい　しぐさで　ゆだん　させて きょうれつな　いちげきを　あびせる。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "かわいい　しぐさで　ゆだん　させて きょうれつな　いちげきを　あびせる。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "귀여운 모습으로 방심시켜서 강렬한 일격을 날린다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "귀여운 모습으로 방심시켜서 강렬한 일격을 날린다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "귀여운 모습으로 방심시켜서 강렬한 일격을 날린다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "귀여운 모습으로 방심시켜서 강렬한 일격을 날린다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "귀여운 모습으로 방심시켜서 강렬한 일격을 날린다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Verleitet Ziel durch Kokettieren zu Unachtsamkeit und verpasst ihm dann einen harten Schlag. Ziel schreckt eventuell zurück.",
+            "oras": "Verleitet Ziel durch Kokettieren zu Unachtsamkeit und verpasst ihm dann einen harten Schlag. Ziel schreckt eventuell zurück.",
+            "sm": "Verleitet Ziel durch Kokettieren zu Unachtsamkeit und verpasst ihm dann einen harten Schlag. Ziel schreckt eventuell zurück.",
+            "usum": "Verleitet Ziel durch Kokettieren zu Unachtsamkeit und verpasst ihm dann einen harten Schlag. Ziel schreckt eventuell zurück.",
+            "lgpe": "Verleitet Ziel durch Kokettieren zu Unachtsamkeit und verpasst ihm dann einen harten Schlag. Ziel schreckt eventuell zurück.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Grácil gesto que asesta un golpe tremendo al objetivo y puede hacerlo retroceder.",
+            "oras": "Grácil gesto que asesta un golpe tremendo al objetivo y puede hacerlo retroceder.",
+            "sm": "El usuario despista al objetivo con gestos adorables y aprovecha la ocasión para asestarle un golpe tremendo que puede hacerlo retroceder.",
+            "usum": "El usuario despista al objetivo con gestos adorables y aprovecha la ocasión para asestarle un golpe tremendo que puede hacerlo retroceder.",
+            "lgpe": "El usuario despista al objetivo con gestos adorables y aprovecha la ocasión para asestarle un golpe tremendo que puede hacerlo retroceder.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.",
+            "oras": "Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.",
+            "sm": "Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.",
+            "usum": "Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.",
+            "lgpe": "Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "かわいい　しぐさで　油断させて 強烈な　一撃を　浴びせる。 相手を　ひるませることが　ある。",
+            "oras": "かわいい　しぐさで　油断させて 強烈な　一撃を　浴びせる。 相手を　ひるませることが　ある。",
+            "sm": "かわいい　しぐさで　油断させて 強烈な　一撃を　浴びせる。 相手を　ひるませることが　ある。",
+            "usum": "かわいい　しぐさで　油断させて 強烈な　一撃を　浴びせる。 相手を　ひるませることが　ある。",
+            "lgpe": "かわいい　しぐさで　油断させて 強烈な　一撃を　浴びせる。 相手を　ひるませることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Grácil gesto que asesta un golpe tremendo al objetivo y puede hacerlo retroceder.",
+            "oras": "Grácil gesto que asesta un golpe tremendo al objetivo y puede hacerlo retroceder.",
+            "sm": "El usuario despista al objetivo con gestos adorables y aprovecha la ocasión para asestarle un golpe tremendo que puede hacerlo retroceder.",
+            "usum": "El usuario despista al objetivo con gestos adorables y aprovecha la ocasión para asestarle un golpe tremendo que puede hacerlo retroceder.",
+            "lgpe": "El usuario despista al objetivo con gestos adorables y aprovecha la ocasión para asestarle un golpe tremendo que puede hacerlo retroceder.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用可愛的動作讓對手疏忽， 趁機發出強烈的一擊。 有時會使對手畏縮。",
+            "usum": "用可愛的動作讓對手疏忽， 趁機發出強烈的一擊。 有時會使對手畏縮。",
+            "lgpe": "用可愛的動作讓對手疏忽， 趁機發出強烈的一擊。 有時會使對手畏縮。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "以可爱的动作使对手疏忽， 乘机给出强烈的一击。 有时会使对手畏缩。",
+            "usum": "以可爱的动作使对手疏忽， 乘机给出强烈的一击。 有时会使对手畏缩。",
+            "lgpe": "以可爱的动作使对手疏忽， 乘机给出强烈的一击。 有时会使对手畏缩。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

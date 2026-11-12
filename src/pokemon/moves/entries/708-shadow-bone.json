@@ -1,35 +1,115 @@
 {
-  "_id": 708,
-  "key": "shadow-bone",
-  "name": {
-    "english": "Shadow Bone",
-    "japanese": "シャドーボーン",
-    "chinese": "暗影之骨",
-    "korean": "섀도본",
-    "german": "Hueso Sombrío",
-    "french": "Schattenknochen",
-    "italian": "Shadow Bone",
-    "spanish": "Ossotetro"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 85,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user attacks by beating the target with a\nbone that contains a spirit. This may also lower\nthe target’s Defense stat.",
-    "ultra-sun-ultra-moon": "The user attacks by beating the target with a\nbone that contains a spirit. This may also lower\nthe target’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by beating the target with a\nbone that contains a spirit. This may also lower\nthe target’s Defense stat.",
-    "sword-shield": "The user attacks by beating the target with a\nbone that contains a spirit. This may also lower\nthe target’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 708,
+    "key": "shadow-bone",
+    "name": {
+        "japanese-kana": "シャドーボーン",
+        "korean": "섀도본",
+        "traditional-chinese": "暗影之骨",
+        "french": "Os Ombre",
+        "german": "Schattenknochen",
+        "spanish": "Hueso Sombrío",
+        "italian": "Ossotetro",
+        "english": "Shadow Bone",
+        "japanese": "シャドーボーン",
+        "simplified-chinese": "暗影之骨",
+        "latin-american-spanish": "Hueso Sombrío"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 85,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 20
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "たましいの　やどった　ホネで あいてを　なぐりつけて　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+            "usum": "たましいの　やどった　ホネで あいてを　なぐりつけて　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+            "lgpe": "たましいの　やどった　ホネで あいてを　なぐりつけて　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+            "swsh": "たましいの　やどった　ホネで あいてを　なぐりつけて　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。"
+        },
+        "korean": {
+            "sm": "영혼이 머물고 있는 뼈로 상대를 세게 때려서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "usum": "영혼이 머물고 있는 뼈로 상대를 세게 때려서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "영혼이 머물고 있는 뼈로 상대를 세게 때려서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "swsh": "영혼이 머물고 있는 뼈로 상대를 세게 때려서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+        },
+        "traditional-chinese": {
+            "sm": "用寄宿了靈魂的骨頭 毆打對手進行攻擊。 有時會降低對手的防禦。",
+            "usum": "用寄宿了靈魂的骨頭 毆打對手進行攻擊。 有時會降低對手的防禦。",
+            "lgpe": "用寄宿了靈魂的骨頭 毆打對手進行攻擊。 有時會降低對手的防禦。",
+            "swsh": "用寄宿了靈魂的骨頭 毆打對手進行攻擊。 有時會降低對手的防禦。"
+        },
+        "french": {
+            "sm": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. Peut aussi baisser la Défense de la cible.",
+            "usum": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. Peut aussi baisser la Défense de la cible.",
+            "lgpe": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. Peut aussi baisser la Défense de la cible.",
+            "swsh": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. Peut aussi baisser la Défense de la cible."
+        },
+        "german": {
+            "sm": "Der Anwender greift das Ziel mit einem Knochen an, in dem eine Seele haust. Senkt eventuell die Verteidigung des Zieles.",
+            "usum": "Der Anwender greift das Ziel mit einem Knochen an, in dem eine Seele haust. Senkt eventuell die Verteidigung des Zieles.",
+            "lgpe": "Der Anwender greift das Ziel mit einem Knochen an, in dem eine Seele haust. Senkt eventuell die Verteidigung des Zieles.",
+            "swsh": "Der Anwender greift das Ziel mit einem Knochen an, in dem eine Seele haust. Senkt eventuell die Verteidigung des Zieles."
+        },
+        "spanish": {
+            "sm": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.",
+            "usum": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.",
+            "lgpe": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.",
+            "swsh": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo."
+        },
+        "italian": {
+            "sm": "Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.",
+            "usum": "Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.",
+            "lgpe": "Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.",
+            "swsh": "Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa."
+        },
+        "english": {
+            "sm": "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target’s Defense stat.",
+            "usum": "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target’s Defense stat.",
+            "lgpe": "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target’s Defense stat.",
+            "swsh": "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target’s Defense stat."
+        },
+        "japanese": {
+            "sm": "魂の　宿った　ホネで 相手を　なぐりつけて　攻撃する。 相手の　防御を　さげる　ことがある。",
+            "usum": "魂の　宿った　ホネで 相手を　なぐりつけて　攻撃する。 相手の　防御を　さげる　ことがある。",
+            "lgpe": "魂の　宿った　ホネで 相手を　なぐりつけて　攻撃する。 相手の　防御を　さげる　ことがある。",
+            "swsh": "魂の　宿った　ホネで 相手を　なぐりつけて　攻撃する。 相手の　防御を　さげる　ことがある。"
+        },
+        "simplified-chinese": {
+            "sm": "用附有灵魂的骨头 殴打对手进行攻击。 有时会降低对手的防御。",
+            "usum": "用附有灵魂的骨头 殴打对手进行攻击。 有时会降低对手的防御。",
+            "lgpe": "用附有灵魂的骨头 殴打对手进行攻击。 有时会降低对手的防御。",
+            "swsh": "用附有灵魂的骨头 殴打对手进行攻击。 有时会降低对手的防御。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.",
+            "usum": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.",
+            "lgpe": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.",
+            "swsh": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Defense by one stage."
+    }
 }

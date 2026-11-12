@@ -1,47 +1,146 @@
 {
-  "_id": 226,
-  "key": "baton-pass",
-  "name": {
-    "english": "Baton Pass",
-    "japanese": "バトンタッチ",
-    "chinese": "接棒",
-    "korean": "바톤터치",
-    "german": "Relevo",
-    "french": "Stafette",
-    "italian": "Baton Pass",
-    "spanish": "Staffetta"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 40,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Switches while\nkeeping effects.",
-    "crystal": "Switches while\nkeeping effects.",
-    "ruby-sapphire": "Switches out the user while\nkeeping effects in play.",
-    "emerald": "Switches out the user while\nkeeping effects in play.",
-    "firered-leafgreen": "The user switches\nout, passing along\nany stat changes\nto the new battler.",
-    "diamond-pearl": "The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\nstat changes.",
-    "platinum": "The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\nstat changes.",
-    "heartgold-soulsilver": "The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\nstat changes.",
-    "black-white": "The user switches places with a party\nPokémon in waiting, passing along any\nstat changes.",
-    "black-2-white-2": "The user switches places with a party\nPokémon in waiting, passing along any\nstat changes.",
-    "x-y": "The user switches places with a party\nPokémon in waiting and passes along\nany stat changes.",
-    "omega-ruby-alpha-sapphire": "The user switches places with a party\nPokémon in waiting and passes along\nany stat changes.",
-    "sun-moon": "The user switches places with a party Pokémon in\nwaiting and passes along any stat changes.",
-    "ultra-sun-ultra-moon": "The user switches places with a party Pokémon in\nwaiting and passes along any stat changes.",
-    "lets-go-pikachu-lets-go-eevee": "The user switches places with a party Pokémon in\nwaiting and passes along any stat changes.",
-    "sword-shield": "The user switches places with a party Pokémon in\nwaiting and passes along any stat changes."
-  },
-  "effect": {
-    "full": "User switches out, and the trainer selects a replacement Pokémon from the party.  Stat changes, confusion, and persistent move effects are passed along to the replacement Pokémon.\n\nThe following move effects are passed:\n\n* aqua ring\n* both the user's and target's effect of block, mean look, and spider web\n* the curse effect of curse\n* embargo\n* focus energy or an activated lansat berry\n* gastro acid\n* ingrain\n* being sapped by leech seed\n* being targeted by lock on or mind reader\n* magnet rise\n* perish song's counter\n* power trick\n* substitute; the doll's HP is unchanged\n\nThe replacement Pokémon does not trigger effects that respond to Pokémon switching in.",
-    "shortEffect": "Allows the trainer to switch out the user and pass effects along to its replacement."
-  },
-  "priority": 0
+    "_id": 226,
+    "key": "baton-pass",
+    "name": {
+        "japanese-kana": "バトンタッチ",
+        "korean": "배턴터치",
+        "traditional-chinese": "接棒",
+        "french": "Relais",
+        "german": "Stafette",
+        "spanish": "Relevo",
+        "italian": "Staffetta",
+        "english": "Baton Pass",
+        "japanese": "バトンタッチ",
+        "simplified-chinese": "接棒",
+        "latin-american-spanish": "Relevo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 40,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Switches while keeping effects.",
+            "cr": "Switches while keeping effects.",
+            "rs": "Switches out the user while keeping effects in play.",
+            "em": "Switches out the user while keeping effects in play.",
+            "frlg": "The user switches out, passing along any stat changes to the new battler.",
+            "dp": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
+            "pt": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
+            "hgss": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
+            "bw": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
+            "b2w2": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
+            "xy": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+            "oras": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+            "sm": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+            "usum": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+            "lgpe": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+            "swsh": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+            "la": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+            "sv": "The user switches places with a party Pokémon in waiting and passes along any stat changes."
+        },
+        "french": {
+            "bw": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.",
+            "xy": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.",
+            "oras": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.",
+            "sm": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.",
+            "usum": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.",
+            "lgpe": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.",
+            "swsh": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe."
+        },
+        "japanese-kana": {
+            "xy": "ひかえの　ポケモンと　いれかわる。 のうりょく　へんかは　かわった ポケモンが　そのまま　うけつぐ。",
+            "oras": "ひかえの　ポケモンと　いれかわる。 のうりょく　へんかは　かわった ポケモンが　そのまま　うけつぐ。",
+            "sm": "ひかえの　ポケモンと　いれかわる。 のうりょく　へんかは　かわった ポケモンが　そのまま　うけつぐ。",
+            "usum": "ひかえの　ポケモンと　いれかわる。 のうりょく　へんかは　かわった ポケモンが　そのまま　うけつぐ。",
+            "lgpe": "ひかえの　ポケモンと　いれかわる。 のうりょく　へんかは　かわった ポケモンが　そのまま　うけつぐ。",
+            "swsh": "ひかえの　ポケモンと　いれかわる。 のうりょく　へんかは　かわった ポケモンが　そのまま　うけつぐ。"
+        },
+        "korean": {
+            "xy": "교대 포켓몬과 바뀐다. 능력 변화는 바뀐 포켓몬이 그대로 이어받는다.",
+            "oras": "교대 포켓몬과 바뀐다. 능력 변화는 바뀐 포켓몬이 그대로 이어받는다.",
+            "sm": "교대 포켓몬과 바뀐다. 능력 변화는 바뀐 포켓몬이 그대로 이어받는다.",
+            "usum": "교대 포켓몬과 바뀐다. 능력 변화는 바뀐 포켓몬이 그대로 이어받는다.",
+            "lgpe": "교대 포켓몬과 바뀐다. 능력 변화는 바뀐 포켓몬이 그대로 이어받는다.",
+            "swsh": "교대 포켓몬과 바뀐다. 능력 변화는 바뀐 포켓몬이 그대로 이어받는다."
+        },
+        "german": {
+            "xy": "Tauscht das eigene Pokémon aus. Alle Statusveränderungen bleiben bestehen.",
+            "oras": "Tauscht das eigene Pokémon aus. Alle Statusveränderungen bleiben bestehen.",
+            "sm": "Tauscht den Anwender aus und überträgt alle Statusveränderungen auf das eingewechselte Pokémon.",
+            "usum": "Tauscht den Anwender aus und überträgt alle Statusveränderungen auf das eingewechselte Pokémon.",
+            "lgpe": "Tauscht den Anwender aus und überträgt alle Statusveränderungen auf das eingewechselte Pokémon.",
+            "swsh": "Tauscht den Anwender aus und überträgt alle Statusveränderungen auf das eingewechselte Pokémon."
+        },
+        "spanish": {
+            "xy": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "oras": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "sm": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "usum": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "lgpe": "Cambia el puesto con otro miembro del equipo y le pasa los cambios de características.",
+            "swsh": "Cambia el puesto con otro miembro del equipo y le pasa los cambios de características."
+        },
+        "italian": {
+            "xy": "Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.",
+            "oras": "Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.",
+            "sm": "Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.",
+            "usum": "Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.",
+            "lgpe": "Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.",
+            "swsh": "Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche."
+        },
+        "japanese": {
+            "xy": "控えの　ポケモンと　入れ替わる。 能力変化は　替わった ポケモンが　そのまま　受けつぐ。",
+            "oras": "控えの　ポケモンと　入れ替わる。 能力変化は　替わった ポケモンが　そのまま　受けつぐ。",
+            "sm": "控えの　ポケモンと　入れ替わる。 能力変化は　替わった ポケモンが　そのまま　受けつぐ。",
+            "usum": "控えの　ポケモンと　入れ替わる。 能力変化は　替わった ポケモンが　そのまま　受けつぐ。",
+            "lgpe": "控えの　ポケモンと　入れ替わる。 能力変化は　替わった ポケモンが　そのまま　受けつぐ。",
+            "swsh": "控えの　ポケモンと　入れ替わる。 能力変化は　替わった ポケモンが　そのまま　受けつぐ。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "oras": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "sm": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "usum": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+            "lgpe": "Cambia el puesto con otro miembro del equipo y le pasa los cambios de características.",
+            "swsh": "Cambia el puesto con otro miembro del equipo y le pasa los cambios de características."
+        },
+        "traditional-chinese": {
+            "sm": "與後備寶可夢進行替換。 替換上場的寶可夢， 將承接目前寶可夢的能力變化。",
+            "usum": "與後備寶可夢進行替換。 替換上場的寶可夢， 將承接目前寶可夢的能力變化。",
+            "lgpe": "與後備寶可夢進行替換。 替換上場的寶可夢， 將承接目前寶可夢的能力變化。",
+            "swsh": "與後備寶可夢進行替換。 替換上場的寶可夢， 將承接目前寶可夢的能力變化。"
+        },
+        "simplified-chinese": {
+            "sm": "和后备宝可梦进行替换。 换上的宝可梦能直接继承 其能力的变化。",
+            "usum": "和后备宝可梦进行替换。 换上的宝可梦能直接继承 其能力的变化。",
+            "lgpe": "和后备宝可梦进行替换。 换上的宝可梦能直接继承 其能力的变化。",
+            "swsh": "和后备宝可梦进行替换。 换上的宝可梦能直接继承 其能力的变化。"
+        }
+    },
+    "effect": {
+        "full": "User switches out, and the trainer selects a replacement Pokémon from the party.  Stat changes, confusion, and persistent move effects are passed along to the replacement Pokémon. The following move effects are passed: * Aqua Ring * both the user’s and target’s effect of Block, Mean Look, and Spider Web * the curse effect of Curse * Embargo * Focus Energy or an activated Lansat Berry * Gastro Acid * Ingrain * being sapped by Leech Seed * being targeted by Lock-On or Mind Reader * Magnet Rise * Perish Song’s counter * Power Trick * Substitute; the doll’s HP is unchanged The replacement Pokémon does not trigger effects that respond to Pokémon switching in.",
+        "shortEffect": "Allows the trainer to switch out the user and pass effects along to its replacement."
+    }
 }

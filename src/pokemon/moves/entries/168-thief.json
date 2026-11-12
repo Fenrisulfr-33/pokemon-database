@@ -1,47 +1,151 @@
 {
-  "_id": 168,
-  "key": "thief",
-  "name": {
-    "english": "Thief",
-    "japanese": "どろぼう",
-    "chinese": "小偷",
-    "korean": "도둑질",
-    "german": "Ladrón",
-    "french": "Raub",
-    "italian": "Thief",
-    "spanish": "Furto"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nsteal a held item.",
-    "crystal": "An attack that may\nsteal a held item.",
-    "ruby-sapphire": "While attacking, it may\nsteal the foe’s held item.",
-    "emerald": "While attacking, it may\nsteal the foe’s held item.",
-    "firered-leafgreen": "An attack that may\ntake the foe’s held\nitem if the user\nisn’t holding one.",
-    "diamond-pearl": "The user attacks and\nsteals the foe’s held\nitem simultaneously.\nIt can’t steal if the\nuser holds an item.",
-    "platinum": "The user attacks and\nsteals the foe’s held\nitem simultaneously.\nIt can’t steal if the\nuser holds an item.",
-    "heartgold-soulsilver": "The user attacks and\nsteals the foe’s held\nitem simultaneously.\nIt can’t steal if the\nuser holds an item.",
-    "black-white": "The user attacks and steals the target’s\nheld item simultaneously.\nIt can’t steal if the user holds an item.",
-    "black-2-white-2": "The user attacks and steals the target’s\nheld item simultaneously.\nIt can’t steal if the user holds an item.",
-    "x-y": "The user attacks and steals the target’s\nheld item simultaneously. The user can’t\nsteal anything if it already holds an item.",
-    "omega-ruby-alpha-sapphire": "The user attacks and steals the target’s\nheld item simultaneously. The user can’t\nsteal anything if it already holds an item.",
-    "sun-moon": "The user attacks and steals the target’s held item\nsimultaneously. The user can’t steal anything if it\nalready holds an item.",
-    "ultra-sun-ultra-moon": "The user attacks and steals the target’s held item\nsimultaneously. The user can’t steal anything if it\nalready holds an item.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks and steals the target’s held item\nsimultaneously. The user can’t steal anything if it\nalready holds an item.",
-    "sword-shield": "The user attacks and steals the target’s held item\nsimultaneously. The user can’t steal anything if it\nalready holds an item."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with sticky hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Takes the target's item."
-  },
-  "priority": 0
+    "_id": 168,
+    "key": "thief",
+    "name": {
+        "japanese-kana": "どろぼう",
+        "korean": "도둑질",
+        "traditional-chinese": "小偷",
+        "french": "Larcin",
+        "german": "Raub",
+        "spanish": "Ladrón",
+        "italian": "Furto",
+        "english": "Thief",
+        "japanese": "どろぼう",
+        "simplified-chinese": "小偷",
+        "latin-american-spanish": "Ladrón"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 25,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 40,
+            "pp": 10
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may steal a held item.",
+            "cr": "An attack that may steal a held item.",
+            "rs": "While attacking, it may steal the foe’s held item.",
+            "em": "While attacking, it may steal the foe’s held item.",
+            "frlg": "An attack that may take the foe’s held item if the user isn’t holding one.",
+            "dp": "The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.",
+            "pt": "The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.",
+            "hgss": "The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.",
+            "bw": "The user attacks and steals the target’s held item simultaneously. It can’t steal if the user holds an item.",
+            "b2w2": "The user attacks and steals the target’s held item simultaneously. It can’t steal if the user holds an item.",
+            "xy": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+            "oras": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+            "sm": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+            "usum": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+            "lgpe": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+            "swsh": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+            "la": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+            "sv": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item."
+        },
+        "french": {
+            "bw": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+            "xy": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+            "oras": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+            "sm": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+            "usum": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+            "lgpe": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+            "swsh": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet."
+        },
+        "japanese-kana": {
+            "xy": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。",
+            "oras": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。",
+            "sm": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。",
+            "usum": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。",
+            "lgpe": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。",
+            "swsh": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。"
+        },
+        "korean": {
+            "xy": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다.",
+            "oras": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다.",
+            "sm": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다.",
+            "usum": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다.",
+            "lgpe": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다.",
+            "swsh": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다."
+        },
+        "german": {
+            "xy": "Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.",
+            "oras": "Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.",
+            "sm": "Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.",
+            "usum": "Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.",
+            "lgpe": "Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.",
+            "swsh": "Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt."
+        },
+        "spanish": {
+            "xy": "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo.",
+            "oras": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "sm": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "usum": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "lgpe": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "swsh": "El agresor ataca y le quita el objeto al objetivo siempre y cuando no lleve ninguno."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.",
+            "oras": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.",
+            "sm": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.",
+            "usum": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.",
+            "lgpe": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.",
+            "swsh": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno."
+        },
+        "japanese": {
+            "xy": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。",
+            "oras": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。",
+            "sm": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。",
+            "usum": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。",
+            "lgpe": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。",
+            "swsh": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo.",
+            "oras": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "sm": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "usum": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "lgpe": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+            "swsh": "El agresor ataca y le quita el objeto al objetivo siempre y cuando no lleve ninguno."
+        },
+        "traditional-chinese": {
+            "sm": "在攻擊的同時偷取道具。 當寶可夢自己有攜帶道具時， 則無法偷取。",
+            "usum": "在攻擊的同時偷取道具。 當寶可夢自己有攜帶道具時， 則無法偷取。",
+            "lgpe": "在攻擊的同時偷取道具。 當寶可夢自己有攜帶道具時， 則無法偷取。",
+            "swsh": "在攻擊的同時偷取道具。 當寶可夢自己有攜帶道具時， 則無法偷取。"
+        },
+        "simplified-chinese": {
+            "sm": "攻击的同时盗取道具。 当自己携带道具时， 不会去盗取。",
+            "usum": "攻击的同时盗取道具。 当自己携带道具时， 不会去盗取。",
+            "lgpe": "攻击的同时盗取道具。 当自己携带道具时， 不会去盗取。",
+            "swsh": "攻击的同时盗取道具。 当自己携带道具时， 不会去盗取。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken. Pokémon with Sticky Hold or Multitype are immune to the item theft effect. The target cannot recover its item with Recycle. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Takes the target’s item."
+    }
 }

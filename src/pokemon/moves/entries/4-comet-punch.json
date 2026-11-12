@@ -1,47 +1,144 @@
 {
-  "_id": 4,
-  "key": "comet-punch",
-  "name": {
-    "english": "Comet Punch",
-    "japanese": "れんぞくパンチ",
-    "chinese": "连续拳",
-    "korean": "연속펀치",
-    "german": "Puño Cometa",
-    "french": "Kometenhieb",
-    "italian": "Comet Punch",
-    "spanish": "Cometapugno"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 18,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Repeatedly punches\n2-5 times.",
-    "crystal": "Repeatedly punches\n2-5 times.",
-    "ruby-sapphire": "Repeatedly punches the foe\n2 to 5 times.",
-    "emerald": "Repeatedly punches the foe\n2 to 5 times.",
-    "firered-leafgreen": "The foe is hit with\na flurry of punches\nthat strike two to\nfive times.",
-    "diamond-pearl": "The foe is hit with\na flurry of punches\nthat strike two to\nfive times in a row.\n",
-    "platinum": "The foe is hit with\na flurry of punches\nthat strike two to\nfive times in a row.\n",
-    "heartgold-soulsilver": "The foe is hit with\na flurry of punches\nthat strike two to\nfive times in a row.\n",
-    "black-white": "The target is hit with a flurry of punches\nthat strike two to five times in a row.",
-    "black-2-white-2": "The target is hit with a flurry of punches\nthat strike two to five times in a row.",
-    "x-y": "The target is hit with a flurry of punches\nthat strike two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "The target is hit with a flurry of punches\nthat strike two to five times in a row.",
-    "sun-moon": "The target is hit with a flurry of punches that strike\ntwo to five times in a row.",
-    "ultra-sun-ultra-moon": "The target is hit with a flurry of punches that strike\ntwo to five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit with a flurry of punches that strike\ntwo to five times in a row.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 4,
+    "key": "comet-punch",
+    "name": {
+        "japanese-kana": "れんぞくパンチ",
+        "korean": "연속펀치",
+        "traditional-chinese": "連續拳",
+        "french": "Poing Comète",
+        "german": "Kometenhieb",
+        "spanish": "Puño Cometa",
+        "italian": "Cometapugno",
+        "english": "Comet Punch",
+        "japanese": "れんぞくパンチ",
+        "simplified-chinese": "连续拳",
+        "latin-american-spanish": "Puño Cometa"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 18,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Repeatedly punches 2-5 times.",
+            "cr": "Repeatedly punches 2-5 times.",
+            "rs": "Repeatedly punches the foe 2 to 5 times.",
+            "em": "Repeatedly punches the foe 2 to 5 times.",
+            "frlg": "The foe is hit with a flurry of punches that strike two to five times.",
+            "dp": "The foe is hit with a flurry of punches that strike two to five times in a row.",
+            "pt": "The foe is hit with a flurry of punches that strike two to five times in a row.",
+            "hgss": "The foe is hit with a flurry of punches that strike two to five times in a row.",
+            "bw": "The target is hit with a flurry of punches that strike two to five times in a row.",
+            "b2w2": "The target is hit with a flurry of punches that strike two to five times in a row.",
+            "xy": "The target is hit with a flurry of punches that strike two to five times in a row.",
+            "oras": "The target is hit with a flurry of punches that strike two to five times in a row.",
+            "sm": "The target is hit with a flurry of punches that strike two to five times in a row.",
+            "usum": "The target is hit with a flurry of punches that strike two to five times in a row.",
+            "lgpe": "The target is hit with a flurry of punches that strike two to five times in a row.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Une tornade de coups de poing qui frappe de 2 à 5 fois d’affilée.",
+            "xy": "Une tornade de coups de poing qui frappe de deux à cinq fois d’affilée.",
+            "oras": "Une tornade de coups de poing qui frappe de deux à cinq fois d’affilée.",
+            "sm": "Une tornade de coups de poing qui frappe de deux à cinq fois d’affilée.",
+            "usum": "Une tornade de coups de poing qui frappe de deux à cinq fois d’affilée.",
+            "lgpe": "Une tornade de coups de poing qui frappe de deux à cinq fois d’affilée.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "どとうの　パンチで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "どとうの　パンチで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "どとうの　パンチで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "どとうの　パンチで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "どとうの　パンチで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "노도 같은 펀치로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "노도 같은 펀치로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "노도 같은 펀치로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "노도 같은 펀치로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "노도 같은 펀치로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel zwei- bis fünfmal hintereinander mit kräftigen Hieben.",
+            "oras": "Trifft das Ziel zwei- bis fünfmal hintereinander mit kräftigen Hieben.",
+            "sm": "Trifft das Ziel zwei- bis fünfmal hintereinander mit kräftigen Hieben.",
+            "usum": "Trifft das Ziel zwei- bis fünfmal hintereinander mit kräftigen Hieben.",
+            "lgpe": "Trifft das Ziel zwei- bis fünfmal hintereinander mit kräftigen Hieben.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Pega de dos a cinco veces seguidas.",
+            "oras": "Pega de dos a cinco veces seguidas.",
+            "sm": "Pega de dos a cinco veces seguidas.",
+            "usum": "Pega de dos a cinco veces seguidas.",
+            "lgpe": "Pega de dos a cinco veces seguidas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una scarica di pugni da due a cinque volte di fila.",
+            "oras": "Colpisce il bersaglio con una scarica di pugni da due a cinque volte di fila.",
+            "sm": "Colpisce il bersaglio con una scarica di pugni da due a cinque volte di fila.",
+            "usum": "Colpisce il bersaglio con una scarica di pugni da due a cinque volte di fila.",
+            "lgpe": "Colpisce il bersaglio con una scarica di pugni da due a cinque volte di fila.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "どとうの　パンチで 相手を　なぐりつけて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "どとうの　パンチで 相手を　なぐりつけて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "どとうの　パンチで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "どとうの　パンチで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "どとうの　パンチで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Pega de dos a cinco veces seguidas.",
+            "oras": "Pega de dos a cinco veces seguidas.",
+            "sm": "Pega de dos a cinco veces seguidas.",
+            "usum": "Pega de dos a cinco veces seguidas.",
+            "lgpe": "Pega de dos a cinco veces seguidas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用怒濤般的拳頭 毆打對手進行攻擊。 連續攻擊２～５次。",
+            "usum": "用怒濤般的拳頭 毆打對手進行攻擊。 連續攻擊２～５次。",
+            "lgpe": "用怒濤般的拳頭 毆打對手進行攻擊。 連續攻擊２～５次。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用拳头怒涛般的 殴打对手进行攻击。 连续攻击２～５次。",
+            "usum": "用拳头怒涛般的 殴打对手进行攻击。 连续攻击２～５次。",
+            "lgpe": "用拳头怒涛般的 殴打对手进行攻击。 连续攻击２～５次。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

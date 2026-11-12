@@ -1,47 +1,151 @@
 {
-  "_id": 37,
-  "key": "thrash",
-  "name": {
-    "english": "Thrash",
-    "japanese": "あばれる",
-    "chinese": "横冲直撞",
-    "korean": "난동부리기",
-    "german": "Golpe",
-    "french": "Fuchtler",
-    "italian": "Thrash",
-    "spanish": "Colpo"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "random-opponent",
-  "changes": [],
-  "description": {
-    "gold-silver": "Works 2-3 turns\nand confuses user.",
-    "crystal": "Works 2-3 turns\nand confuses user.",
-    "ruby-sapphire": "A rampage of 2 to 3 turns\nthat confuses the user.",
-    "emerald": "A rampage of 2 to 3 turns\nthat confuses the user.",
-    "firered-leafgreen": "The user rampages\nabout for two to\nthree turns, then\nbecomes confused.",
-    "diamond-pearl": "The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however.",
-    "platinum": "The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however.",
-    "heartgold-soulsilver": "The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however.",
-    "black-white": "The user rampages and attacks for two\nto three turns. It then becomes\nconfused, however.",
-    "black-2-white-2": "The user rampages and attacks for two\nto three turns. It then becomes\nconfused, however.",
-    "x-y": "The user rampages and attacks\nfor two to three turns.\nThe user then becomes confused.",
-    "omega-ruby-alpha-sapphire": "The user rampages and attacks\nfor two to three turns.\nThe user then becomes confused.",
-    "sun-moon": "The user rampages and attacks for two to three\nturns. The user then becomes confused.",
-    "ultra-sun-ultra-moon": "The user rampages and attacks for two to three\nturns. The user then becomes confused.",
-    "lets-go-pikachu-lets-go-eevee": "The user rampages and attacks for two to three\nturns. The user then becomes confused.",
-    "sword-shield": "The user rampages and attacks for two to three\nturns. The user then becomes confused."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
-    "shortEffect": "Hits every turn for 2-3 turns, then confuses the user."
-  },
-  "priority": 0
+    "_id": 37,
+    "key": "thrash",
+    "name": {
+        "japanese-kana": "あばれる",
+        "korean": "난동부리기",
+        "traditional-chinese": "大鬧一番",
+        "french": "Mania",
+        "german": "Fuchtler",
+        "spanish": "Saña",
+        "italian": "Colpo",
+        "english": "Thrash",
+        "japanese": "あばれる",
+        "simplified-chinese": "大闹一番",
+        "latin-american-spanish": "Golpiza"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "random-opponent",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 90,
+            "pp": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Works 2-3 turns and confuses user.",
+            "cr": "Works 2-3 turns and confuses user.",
+            "rs": "A rampage of 2 to 3 turns that confuses the user.",
+            "em": "A rampage of 2 to 3 turns that confuses the user.",
+            "frlg": "The user rampages about for two to three turns, then becomes confused.",
+            "dp": "The user rampages and attacks for two to three turns. It then becomes confused, however.",
+            "pt": "The user rampages and attacks for two to three turns. It then becomes confused, however.",
+            "hgss": "The user rampages and attacks for two to three turns. It then becomes confused, however.",
+            "bw": "The user rampages and attacks for two to three turns. It then becomes confused, however.",
+            "b2w2": "The user rampages and attacks for two to three turns. It then becomes confused, however.",
+            "xy": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+            "oras": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+            "sm": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+            "usum": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+            "lgpe": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+            "swsh": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+            "la": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+            "sv": "The user rampages and attacks for two to three turns. The user then becomes confused."
+        },
+        "french": {
+            "bw": "Une attaque furieuse qui dure de 2 à 3 tours. Le lanceur devient confus.",
+            "xy": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus.",
+            "oras": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus.",
+            "sm": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus.",
+            "usum": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus.",
+            "lgpe": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus.",
+            "swsh": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus."
+        },
+        "japanese-kana": {
+            "xy": "２ー３ターンの　あいだ あばれまくって　あいてを　こうげきする。 あばれた　あとは　こんらん　する。",
+            "oras": "２ー３ターンの　あいだ あばれまくって　あいてを　こうげきする。 あばれた　あとは　こんらん　する。",
+            "sm": "２ー３ターンの　あいだ あばれまくって　あいてを　こうげきする。 あばれた　あとは　こんらん　する。",
+            "usum": "２ー３ターンの　あいだ あばれまくって　あいてを　こうげきする。 あばれた　あとは　こんらん　する。",
+            "lgpe": "２ー３ターンの　あいだ あばれまくって　あいてを　こうげきする。 あばれた　あとは　こんらん　する。",
+            "swsh": "２ー３ターンの　あいだ あばれまくって　あいてを　こうげきする。 あばれた　あとは　こんらん　する。"
+        },
+        "korean": {
+            "xy": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다.",
+            "oras": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다.",
+            "sm": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다.",
+            "usum": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다.",
+            "lgpe": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다.",
+            "swsh": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다."
+        },
+        "german": {
+            "xy": "Attacke über zwei bis drei Runden, die den Angreifer verwirrt.",
+            "oras": "Attacke über zwei bis drei Runden, die den Angreifer verwirrt.",
+            "sm": "Attacke über zwei bis drei Runden, die den Angreifer verwirrt.",
+            "usum": "Attacke über zwei bis drei Runden, die den Angreifer verwirrt.",
+            "lgpe": "Attacke über zwei bis drei Runden, die den Angreifer verwirrt.",
+            "swsh": "Attacke über zwei bis drei Runden, die den Anwender danach verwirrt."
+        },
+        "spanish": {
+            "xy": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "oras": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "sm": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "usum": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "lgpe": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "swsh": "Ataque de dos a tres turnos que acaba confundiendo al agresor."
+        },
+        "italian": {
+            "xy": "Assale e attacca il nemico per due o tre turni, ma confonde chi la usa.",
+            "oras": "Assale e attacca il nemico per due o tre turni, ma confonde chi la usa.",
+            "sm": "Assale e attacca il nemico per due o tre turni, ma confonde chi la usa.",
+            "usum": "Assale e attacca il nemico per due o tre turni, ma confonde chi la usa.",
+            "lgpe": "Assale e attacca il nemico per due o tre turni, ma confonde chi la usa.",
+            "swsh": "Assale e attacca il nemico per due o tre turni, ma confonde chi la usa."
+        },
+        "japanese": {
+            "xy": "２ー３ターンの　あいだ 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。",
+            "oras": "２ー３ターンの　あいだ 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。",
+            "sm": "２ー３ターンの　間 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。",
+            "usum": "２ー３ターンの　間 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。",
+            "lgpe": "２ー３ターンの　間 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。",
+            "swsh": "２ー３ターンの　間 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "oras": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "sm": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "usum": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "lgpe": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+            "swsh": "Ataque de dos a tres turnos que acaba confundiendo al agresor."
+        },
+        "traditional-chinese": {
+            "sm": "在２～３回合內 瘋狂亂打對手進行攻擊。 大鬧一番後自己會陷入混亂。",
+            "usum": "在２～３回合內 瘋狂亂打對手進行攻擊。 大鬧一番後自己會陷入混亂。",
+            "lgpe": "在２～３回合內 瘋狂亂打對手進行攻擊。 大鬧一番後自己會陷入混亂。",
+            "swsh": "在２～３回合內 瘋狂亂打對手進行攻擊。 大鬧一番後自己會陷入混亂。"
+        },
+        "simplified-chinese": {
+            "sm": "在２～３回合内， 乱打一气地攻击对手。 大闹一番后自己会陷入混乱。",
+            "usum": "在２～３回合内， 乱打一气地攻击对手。 大闹一番后自己会陷入混乱。",
+            "lgpe": "在２～３回合内， 乱打一气地攻击对手。 大闹一番后自己会陷入混乱。",
+            "swsh": "在２～３回合内， 乱打一气地攻击对手。 大闹一番后自己会陷入混乱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused. Safeguard does not protect against the confusion from this move.",
+        "shortEffect": "Hits every turn for 2-3 turns, then confuses the user."
+    }
 }

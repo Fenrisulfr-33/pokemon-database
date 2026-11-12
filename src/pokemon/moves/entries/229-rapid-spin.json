@@ -1,47 +1,150 @@
 {
-  "_id": 229,
-  "key": "rapid-spin",
-  "name": {
-    "english": "Rapid Spin",
-    "japanese": "こうそくスピン",
-    "chinese": "高速回转",
-    "korean": "고속스핀",
-    "german": "Giro Rápido",
-    "french": "Turbodreher",
-    "italian": "Rapid Spin",
-    "spanish": "Rapigiro"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 40,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A high-speed\nspinning attack.",
-    "crystal": "A high-speed\nspinning attack.",
-    "ruby-sapphire": "Spins the body at high\nspeed to strike the foe.",
-    "emerald": "Spins the body at high\nspeed to strike the foe.",
-    "firered-leafgreen": "An attack that\nfrees the user from\nBIND, WRAP, LEECH\nSEED, and SPIKES.",
-    "diamond-pearl": "A spin attack that\ncan also eliminate\nsuch moves as Bind,\nWrap, Leech Seed,\nand Spikes.",
-    "platinum": "A spin attack that\ncan also eliminate\nsuch moves as Bind,\nWrap, Leech Seed,\nand Spikes.",
-    "heartgold-soulsilver": "A spin attack that\ncan also eliminate\nsuch moves as Bind,\nWrap, Leech Seed,\nand Spikes.",
-    "black-white": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
-    "black-2-white-2": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
-    "x-y": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
-    "omega-ruby-alpha-sapphire": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
-    "sun-moon": "A spin attack that can also eliminate such moves as\nBind, Wrap, Leech Seed, and Spikes.",
-    "ultra-sun-ultra-moon": "A spin attack that can also eliminate such moves as\nBind, Wrap, Leech Seed, and Spikes.",
-    "lets-go-pikachu-lets-go-eevee": "A spin attack that can also eliminate such moves as\nBind, Wrap, Leech Seed, and Spikes.",
-    "sword-shield": "A spin attack that can also eliminate such moves as\nBind, Wrap, and Leech Seed. This also raises the user’s\nSpeed stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Removes leech seed from the user, frees the user from bind, clamp, fire spin, magma storm, sand tomb, whirlpool, and wrap, and clears spikes, stealth rock, and toxic spikes from the user's side of the field.  If this move misses or has no effect, its effect doesn't activate.",
-    "shortEffect": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
-  },
-  "priority": 0
+    "_id": 229,
+    "key": "rapid-spin",
+    "name": {
+        "japanese-kana": "こうそくスピン",
+        "korean": "고속스핀",
+        "traditional-chinese": "高速旋轉",
+        "french": "Tour Rapide",
+        "german": "Turbodreher",
+        "spanish": "Giro Rápido",
+        "italian": "Rapigiro",
+        "english": "Rapid Spin",
+        "japanese": "こうそくスピン",
+        "simplified-chinese": "高速旋转",
+        "latin-american-spanish": "Giro Rápido"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 40,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "swsh": {
+            "power": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A high-speed spinning attack.",
+            "cr": "A high-speed spinning attack.",
+            "rs": "Spins the body at high speed to strike the foe.",
+            "em": "Spins the body at high speed to strike the foe.",
+            "frlg": "An attack that frees the user from BIND, WRAP, LEECH SEED, and SPIKES.",
+            "dp": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "pt": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "hgss": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "bw": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "b2w2": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "xy": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "oras": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "sm": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "usum": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "lgpe": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+            "swsh": "A spin attack that can also eliminate such moves as Bind, Wrap, and Leech Seed. This also raises the user’s Speed stat.",
+            "la": "A spin attack that can also eliminate such moves as Bind, Wrap, and Leech Seed. This also raises the user's Speed stat.",
+            "sv": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also boosts the user's Speed stat."
+        },
+        "french": {
+            "bw": "Une attaque tournoyante pouvant aussi annuler par ex. Étreinte, Ligotage, Vampigraine ou Picots.",
+            "xy": "Une attaque tournoyante pouvant aussi annuler par exemple Étreinte, Ligotage, Vampigraine ou Picots.",
+            "oras": "Une attaque tournoyante pouvant aussi annuler par exemple Étreinte, Ligotage, Vampigraine ou Picots.",
+            "sm": "Une attaque tournoyante pouvant aussi annuler par exemple Étreinte, Ligotage, Vampigraine ou Picots.",
+            "usum": "Une attaque tournoyante pouvant aussi annuler par exemple Étreinte, Ligotage, Vampigraine ou Picots.",
+            "lgpe": "Une attaque tournoyante pouvant aussi annuler par exemple Étreinte, Ligotage, Vampigraine ou Picots.",
+            "swsh": "Une attaque tournoyante pouvant aussi annuler, par exemple, Étreinte, Ligotage ou Vampigraine. Augmente également la Vitesse du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "かいてんして　あいてを　こうげきする。 しめつける　まきつく　やどりぎのタネ まきびし　なども　ふきとばせる。",
+            "oras": "かいてんして　あいてを　こうげきする。 しめつける　まきつく　やどりぎのタネ まきびし　なども　ふきとばせる。",
+            "sm": "かいてんして　あいてを　こうげきする。 しめつける　まきつく　やどりぎのタネ まきびし　なども　ふきとばせる。",
+            "usum": "かいてんして　あいてを　こうげきする。 しめつける　まきつく　やどりぎのタネ まきびし　なども　ふきとばせる。",
+            "lgpe": "かいてんして　あいてを　こうげきする。 しめつける　まきつく　やどりぎのタネ まきびし　なども　ふきとばせる。",
+            "swsh": "かいてんして　あいてを　こうげきする。 しめつける　まきつく　やどりぎのタネ　など ふきとばす。じぶんの　すばやさも　あがる。"
+        },
+        "korean": {
+            "xy": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기, 압정뿌리기 등도 날려버린다.",
+            "oras": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기, 압정뿌리기 등도 날려버린다.",
+            "sm": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기, 압정뿌리기 등도 날려버린다.",
+            "usum": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기, 압정뿌리기 등도 날려버린다.",
+            "lgpe": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기, 압정뿌리기 등도 날려버린다.",
+            "swsh": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기 등을 날려버린다. 자신의 스피드도 오른다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel mit einer Dreh-Attacke. Befreit sich unter anderem von Wickel, Klammergriff, Egelsamen und Stachler.",
+            "oras": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den Anwender unter anderem von Wickel, Klammergriff, Egelsamen und Stachler.",
+            "sm": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den Anwender unter anderem von Wickel, Klammergriff, Egelsamen und Stachler.",
+            "usum": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den Anwender unter anderem von Wickel, Klammergriff, Egelsamen und Stachler.",
+            "lgpe": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den Anwender unter anderem von Wickel, Klammergriff, Egelsamen und Stachler.",
+            "swsh": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den Anwender unter anderem von Wickel, Klammergriff und Egelsamen. Erhöht die Initiative des Anwenders."
+        },
+        "spanish": {
+            "xy": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "oras": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "sm": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "usum": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "lgpe": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "swsh": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción y Drenadoras. También aumenta la Velocidad del usuario."
+        },
+        "italian": {
+            "xy": "Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta, Punte e Parassiseme.",
+            "oras": "Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta, Punte e Parassiseme.",
+            "sm": "Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta, Punte e Parassiseme.",
+            "usum": "Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta, Punte e Parassiseme.",
+            "lgpe": "Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta, Punte e Parassiseme.",
+            "swsh": "Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta e Parassiseme. Aumenta anche la Velocità di chi la usa."
+        },
+        "japanese": {
+            "xy": "回転して　相手を　攻撃する。 しめつける　まきつく　やどりぎのタネ まきびし　なども　吹きとばせる。",
+            "oras": "回転して　相手を　攻撃する。 しめつける　まきつく　やどりぎのタネ まきびし　なども　吹きとばせる。",
+            "sm": "回転して　相手を　攻撃する。 しめつける　まきつく　やどりぎのタネ まきびし　なども　吹きとばせる。",
+            "usum": "回転して　相手を　攻撃する。 しめつける　まきつく　やどりぎのタネ まきびし　なども　吹きとばせる。",
+            "lgpe": "回転して　相手を　攻撃する。 しめつける　まきつく　やどりぎのタネ まきびし　なども　吹きとばせる。",
+            "swsh": "回転して　相手を　攻撃する。 しめつける　まきつく　やどりぎのタネ　など 吹きとばす。自分の　素早さも　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "oras": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "sm": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "usum": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "lgpe": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+            "swsh": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción y Drenadoras. También aumenta la Velocidad del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "利用旋轉來攻擊對手。 也可以擺脫綁緊、緊束， 以及解除寄生種子和撒菱等招式。",
+            "usum": "利用旋轉來攻擊對手。 也可以擺脫綁緊、緊束， 以及解除寄生種子和撒菱等招式。",
+            "lgpe": "利用旋轉來攻擊對手。 也可以擺脫綁緊、緊束， 以及解除寄生種子和撒菱等招式。",
+            "swsh": "藉由旋轉來攻擊對手。 也可以擺脫綁緊、緊束、寄生種子等招式。 自己的速度也會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "通过旋转来攻击对手。 还可以摆脱绑紧、紧束、 寄生种子和撒菱等招式。",
+            "usum": "通过旋转来攻击对手。 还可以摆脱绑紧、紧束、 寄生种子和撒菱等招式。",
+            "lgpe": "通过旋转来攻击对手。 还可以摆脱绑紧、紧束、 寄生种子和撒菱等招式。",
+            "swsh": "通过旋转来攻击对手。 可以摆脱绑紧、紧束、寄生种子 等招式。还能提高自己的速度。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Removes Leech Seed from the user, frees the user from Bind, Clamp, Fire Spin, Magma Storm, Sand Tomb, Whirlpool, and Wrap, and clears Spikes, Stealth Rock, and Toxic Spikes from the user’s side of the field.  If this move misses or has no effect, its effect doesn’t activate.",
+        "shortEffect": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
+    }
 }

@@ -1,37 +1,135 @@
 {
-  "_id": 602,
-  "key": "magnetic-flux",
-  "name": {
-    "english": "Magnetic Flux",
-    "japanese": "じばそうさ",
-    "chinese": "磁場操控",
-    "korean": "자기장조작",
-    "german": "Aura Magnética",
-    "french": "Magnetregler",
-    "italian": "Magnetic Flux",
-    "spanish": "Controllo Polare"
-  },
-  "type": "Electric",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 6,
-  "target": "user-and-allies",
-  "changes": [],
-  "description": {
-    "x-y": "The user manipulates magnetic fields,\nwhich raises the Defense and Sp. Def stats\nof ally Pokémon with the Plus or Minus Ability.",
-    "omega-ruby-alpha-sapphire": "The user manipulates magnetic fields,\nwhich raises the Defense and Sp. Def stats\nof ally Pokémon with the Plus or Minus Ability.",
-    "sun-moon": "The user manipulates magnetic fields, which raises\nthe Defense and Sp. Def stats of ally Pokémon with\nthe Plus or Minus Ability.",
-    "ultra-sun-ultra-moon": "The user manipulates magnetic fields, which raises\nthe Defense and Sp. Def stats of ally Pokémon with\nthe Plus or Minus Ability.",
-    "lets-go-pikachu-lets-go-eevee": "The user manipulates magnetic fields, which raises\nthe Defense and Sp. Def stats of ally Pokémon with\nthe Plus or Minus Ability.",
-    "sword-shield": "The user manipulates magnetic fields, which raises\nthe Defense and Sp. Def stats of ally Pokémon with\nthe Plus or Minus Ability."
-  },
-  "effect": {
-    "full": "Raises the Defense and Special Defense of all friendly Pokémon with plus or minus by one stage.",
-    "shortEffect": "Raises the Defense and Special Defense of all friendly Pokémon with plus or minus by one stage."
-  },
-  "priority": 0
+    "_id": 602,
+    "key": "magnetic-flux",
+    "name": {
+        "japanese-kana": "じばそうさ",
+        "korean": "자기장조작",
+        "traditional-chinese": "磁場操控",
+        "french": "Magné-Contrôle",
+        "german": "Magnetregler",
+        "spanish": "Aura Magnética",
+        "italian": "Controllo Polare",
+        "english": "Magnetic Flux",
+        "japanese": "じばそうさ",
+        "simplified-chinese": "磁场操控",
+        "latin-american-spanish": "Aura Magnética"
+    },
+    "type": "electric",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "user-and-allies",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "じばを　そうさ　することによって とくせい　プラスと　マイナスの ぼうぎょ　とくぼうが　あがる。",
+            "oras": "じばを　そうさ　することによって とくせい　プラスと　マイナスの ぼうぎょ　とくぼうが　あがる。",
+            "sm": "じばを　そうさ　することによって とくせい　プラスと　マイナスの ぼうぎょ　とくぼうが　あがる。",
+            "usum": "じばを　そうさ　することによって とくせい　プラスと　マイナスの ぼうぎょ　とくぼうが　あがる。",
+            "lgpe": "じばを　そうさ　することによって とくせい　プラスと　マイナスの ぼうぎょ　とくぼうが　あがる。",
+            "swsh": "じばを　そうさ　することによって とくせい　プラスと　マイナスの ぼうぎょ　とくぼうが　あがる。"
+        },
+        "korean": {
+            "xy": "자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 오른다.",
+            "oras": "자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 오른다.",
+            "sm": "자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 오른다.",
+            "usum": "자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 오른다.",
+            "lgpe": "자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 오른다.",
+            "swsh": "자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 오른다."
+        },
+        "french": {
+            "xy": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Minus.",
+            "oras": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Minus.",
+            "sm": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Minus.",
+            "usum": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Minus.",
+            "lgpe": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Minus.",
+            "swsh": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Moins."
+        },
+        "german": {
+            "xy": "Das Magnetfeld wird so manipuliert, dass Spezial- Verteidigung und Verteidigung von Team-Pokémon mit der Fähigkeit Plus oder Minus steigen.",
+            "oras": "Das Magnetfeld wird so manipuliert, dass Spezial- Verteidigung und Verteidigung von Team-Pokémon mit der Fähigkeit Plus oder Minus steigen.",
+            "sm": "Das Magnetfeld wird so manipuliert, dass Spezial- Verteidigung und Verteidigung von Team-Pokémon mit der Fähigkeit Plus oder Minus steigen.",
+            "usum": "Das Magnetfeld wird so manipuliert, dass Spezial- Verteidigung und Verteidigung von Team-Pokémon mit der Fähigkeit Plus oder Minus steigen.",
+            "lgpe": "Das Magnetfeld wird so manipuliert, dass Spezial- Verteidigung und Verteidigung von Team-Pokémon mit der Fähigkeit Plus oder Minus steigen.",
+            "swsh": "Das Magnetfeld wird so manipuliert, dass Spezial- Verteidigung und Verteidigung von Team-Pokémon mit der Fähigkeit Plus oder Minus steigen."
+        },
+        "spanish": {
+            "xy": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "oras": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "sm": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "usum": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "lgpe": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "swsh": "Manipula el campo magnético y logra aumentar la Defensa y la Defensa Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos."
+        },
+        "italian": {
+            "xy": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati dell’abilità Più o Meno.",
+            "oras": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati dell’abilità Più o Meno.",
+            "sm": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati delle abilità Più o Meno.",
+            "usum": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati delle abilità Più o Meno.",
+            "lgpe": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati delle abilità Più o Meno.",
+            "swsh": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati delle abilità Più o Meno."
+        },
+        "english": {
+            "xy": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+            "oras": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+            "sm": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+            "usum": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+            "lgpe": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+            "swsh": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+            "la": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+            "sv": "The user manipulates magnetic fields, which boosts the Defense and Sp. Def stats of ally Pokémon with the Plus Ability or the Minus Ability."
+        },
+        "japanese": {
+            "xy": "磁場を　操作　することによって 特性　プラスと　マイナスの 防御　特防が　あがる。",
+            "oras": "磁場を　操作　することによって 特性　プラスと　マイナスの 防御　特防が　あがる。",
+            "sm": "磁場を　操作　することによって 特性　プラスと　マイナスの 防御　特防が　あがる。",
+            "usum": "磁場を　操作　することによって 特性　プラスと　マイナスの 防御　特防が　あがる。",
+            "lgpe": "磁場を　操作　することによって 特性　プラスと　マイナスの 防御　特防が　あがる。",
+            "swsh": "磁場を　操作　することによって 特性　プラスと　マイナスの 防御　特防が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "oras": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "sm": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "usum": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "lgpe": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "swsh": "Manipula el campo magnético y logra aumentar la Defensa y la Defensa Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos."
+        },
+        "traditional-chinese": {
+            "sm": "操控磁場， 提高特性是正電和負電的 寶可夢的防禦和特防。",
+            "usum": "操控磁場， 提高特性是正電和負電的 寶可夢的防禦和特防。",
+            "lgpe": "操控磁場， 提高特性是正電和負電的 寶可夢的防禦和特防。",
+            "swsh": "操控磁場， 提高特性是正電和負電的 寶可夢的防禦和特防。"
+        },
+        "simplified-chinese": {
+            "sm": "通过操控磁场， 会提高特性为正电和负电的 宝可梦的防御和特防。",
+            "usum": "通过操控磁场， 会提高特性为正电和负电的 宝可梦的防御和特防。",
+            "lgpe": "通过操控磁场， 会提高特性为正电和负电的 宝可梦的防御和特防。",
+            "swsh": "通过操控磁场， 会提高特性为正电和负电的 宝可梦的防御和特防。"
+        }
+    },
+    "effect": {
+        "full": "Raises the Defense and Special Defense of all friendly Pokémon with Plus or Minus by one stage.",
+        "shortEffect": "Raises the Defense and Special Defense of all friendly Pokémon with Plus or Minus by one stage."
+    }
 }

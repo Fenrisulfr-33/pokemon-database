@@ -1,39 +1,138 @@
 {
-  "_id": 532,
-  "key": "horn-leech",
-  "name": {
-    "english": "Horn Leech",
-    "japanese": "ウッドホーン",
-    "chinese": "木角",
-    "korean": "우드호른",
-    "german": "Asta Drenaje",
-    "french": "Holzgeweih",
-    "italian": "Horn Leech",
-    "spanish": "Legnicorno"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user drains the target’s energy with\nits horns. The user’s HP is restored\nby half the damage taken by the target.",
-    "black-2-white-2": "The user drains the target’s energy with\nits horns. The user’s HP is restored\nby half the damage taken by the target.",
-    "x-y": "The user drains the target’s energy with\nits horns. The user’s HP is restored\nby half the damage taken by the target.",
-    "omega-ruby-alpha-sapphire": "The user drains the target’s energy with\nits horns. The user’s HP is restored\nby half the damage taken by the target.",
-    "sun-moon": "The user drains the target’s energy with its horns.\nThe user’s HP is restored by half the damage taken\nby the target.",
-    "ultra-sun-ultra-moon": "The user drains the target’s energy with its horns.\nThe user’s HP is restored by half the damage taken\nby the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user drains the target’s energy with its horns.\nThe user’s HP is restored by half the damage taken\nby the target.",
-    "sword-shield": "The user drains the target’s energy with its horns.\nThe user’s HP is restored by half the damage taken\nby the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
-    "shortEffect": "Drains half the damage inflicted to heal the user."
-  },
-  "priority": 0
+    "_id": 532,
+    "key": "horn-leech",
+    "name": {
+        "japanese-kana": "ウッドホーン",
+        "korean": "우드혼",
+        "traditional-chinese": "木角",
+        "french": "Encornebois",
+        "german": "Holzgeweih",
+        "spanish": "Asta Drenaje",
+        "italian": "Legnicorno",
+        "english": "Horn Leech",
+        "japanese": "ウッドホーン",
+        "simplified-chinese": "木角",
+        "latin-american-spanish": "Drenacuerno"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 50,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "xy": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "oras": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "sm": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "usum": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "lgpe": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "swsh": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur."
+        },
+        "english": {
+            "bw": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "b2w2": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "xy": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "oras": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "sm": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "usum": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "lgpe": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "swsh": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+            "la": "The user drains the target's energy with its horns. The user's HP is restored by half the damage taken by the target.",
+            "sv": "The user drains the target's energy with its horns. The user's HP is restored by up to half the damage taken by the target."
+        },
+        "japanese-kana": {
+            "xy": "つのを　つきさして　あいての　ようぶんを すいとる。あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "oras": "つのを　つきさして　あいての　ようぶんを すいとる。あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "sm": "つのを　つきさして　あいての　ようぶんを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "usum": "つのを　つきさして　あいての　ようぶんを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "lgpe": "つのを　つきさして　あいての　ようぶんを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "swsh": "つのを　つきさして　あいての　ようぶんを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。"
+        },
+        "korean": {
+            "xy": "뿔을 꿰찔러서 상대의 양분을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "oras": "뿔을 꿰찔러서 상대의 양분을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "sm": "뿔을 꿰찔러서 상대의 양분을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "usum": "뿔을 꿰찔러서 상대의 양분을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "lgpe": "뿔을 꿰찔러서 상대의 양분을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "swsh": "뿔을 꿰찔러서 상대의 양분을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다."
+        },
+        "german": {
+            "xy": "Greift Ziel mit Astgeweih an und zapft diesem Nährstoffe ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt.",
+            "oras": "Greift Ziel mit Astgeweih an und zapft diesem Nährstoffe ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt.",
+            "sm": "Greift Ziel mit einem Astgeweih an und zapft diesem Energie ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt.",
+            "usum": "Greift Ziel mit einem Astgeweih an und zapft diesem Energie ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt.",
+            "lgpe": "Greift Ziel mit einem Astgeweih an und zapft diesem Energie ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt.",
+            "swsh": "Greift Ziel mit einem Astgeweih an und zapft diesem Energie ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt."
+        },
+        "spanish": {
+            "xy": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "oras": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "sm": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "usum": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "lgpe": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "swsh": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto.",
+            "oras": "Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto.",
+            "sm": "Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto.",
+            "usum": "Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto.",
+            "lgpe": "Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto.",
+            "swsh": "Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto."
+        },
+        "japanese": {
+            "xy": "つのを　突き刺して　相手の　養分を 吸い取る。与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "oras": "つのを　突き刺して　相手の　養分を 吸い取る。与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "sm": "つのを　突き刺して　相手の　養分を 吸い取る。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "usum": "つのを　突き刺して　相手の　養分を 吸い取る。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "lgpe": "つのを　突き刺して　相手の　養分を 吸い取る。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "swsh": "つのを　突き刺して　相手の　養分を 吸い取る。　与えた　ダメージの 半分の　ＨＰを　回復できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "oras": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "sm": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "usum": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "lgpe": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "swsh": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將角刺進對手，吸取養分。 可以回復給予對手 傷害的一半ＨＰ。",
+            "usum": "將角刺進對手，吸取養分。 可以回復給予對手 傷害的一半ＨＰ。",
+            "lgpe": "將角刺進對手，吸取養分。 可以回復給予對手 傷害的一半HP。",
+            "swsh": "將角刺進對手，吸取養分。 可以回復給予對手 傷害的一半ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "将角刺入，吸取对手的养分。 可以回复给予对手 伤害的一半ＨＰ。",
+            "usum": "将角刺入，吸取对手的养分。 可以回复给予对手 伤害的一半ＨＰ。",
+            "lgpe": "将角刺入，吸取对手的养分。 可以回复给予对手 伤害的一半HP。",
+            "swsh": "将角刺入，吸取对手的养分。 可以回复给予对手 伤害的一半ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+        "shortEffect": "Drains half the damage inflicted to heal the user."
+    }
 }

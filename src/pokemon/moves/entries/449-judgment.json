@@ -1,42 +1,141 @@
 {
-  "_id": 449,
-  "key": "judgment",
-  "name": {
-    "english": "Judgment",
-    "japanese": "さばきのつぶて",
-    "chinese": "制裁石砾",
-    "korean": "심판의뭉치",
-    "german": "Sentencia",
-    "french": "Urteilskraft",
-    "italian": "Judgment",
-    "spanish": "Giudizio"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 100,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.",
-    "platinum": "The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.",
-    "heartgold-soulsilver": "The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.",
-    "black-white": "The user releases countless shots of\nlight at the target. Its type varies with\nthe kind of Plate the user is holding.",
-    "black-2-white-2": "The user releases countless shots of\nlight at the target. Its type varies with\nthe kind of Plate the user is holding.",
-    "x-y": "The user releases countless shots of\nlight at the target. This move’s type varies\ndepending on the kind of Plate the user is holding.",
-    "omega-ruby-alpha-sapphire": "The user releases countless shots of\nlight at the target. This move’s type varies\ndepending on the kind of Plate the user is holding.",
-    "sun-moon": "The user releases countless shots of light at the\ntarget. This move’s type varies depending on the\nkind of Plate the user is holding.",
-    "ultra-sun-ultra-moon": "The user releases countless shots of light at the\ntarget. This move’s type varies depending on the\nkind of Plate the user is holding.",
-    "lets-go-pikachu-lets-go-eevee": "The user releases countless shots of light at the\ntarget. This move’s type varies depending on the\nkind of Plate the user is holding.",
-    "sword-shield": "The user releases countless shots of light at the\ntarget. This move’s type varies depending on the\nkind of Plate the user is holding."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the user is holding a plate or a drive, this move's type is the type corresponding to that item.\n\nNote: This effect is technically shared by both techno blast and judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
-    "shortEffect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
-  },
-  "priority": 0
+    "_id": 449,
+    "key": "judgment",
+    "name": {
+        "japanese-kana": "さばきのつぶて",
+        "korean": "심판의뭉치",
+        "traditional-chinese": "制裁光礫",
+        "french": "Jugement",
+        "german": "Urteilskraft",
+        "spanish": "Sentencia",
+        "italian": "Giudizio",
+        "english": "Judgment",
+        "japanese": "さばきのつぶて",
+        "simplified-chinese": "制裁光砾",
+        "latin-american-spanish": "Juicio Final"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "smart",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.",
+            "pt": "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.",
+            "hgss": "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.",
+            "bw": "The user releases countless shots of light at the target. Its type varies with the kind of Plate the user is holding.",
+            "b2w2": "The user releases countless shots of light at the target. Its type varies with the kind of Plate the user is holding.",
+            "xy": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding.",
+            "oras": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding.",
+            "sm": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding.",
+            "usum": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding.",
+            "lgpe": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding.",
+            "swsh": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding.",
+            "la": "The user releases countless shots of light at the target. This move's type varies depending on the kind of Plate the user last interacted with.",
+            "sv": "The user releases countless shots of light at the target. This move's type changes depending on the kind of plate held by the user."
+        },
+        "french": {
+            "bw": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur.",
+            "xy": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur.",
+            "oras": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur.",
+            "sm": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur.",
+            "usum": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur.",
+            "lgpe": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur.",
+            "swsh": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la Plaque que tient le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "むすうの　こうだんを　あいてに ほうしゅつする。じぶんの　もつ プレートに　より　タイプが　かわる。",
+            "oras": "むすうの　こうだんを　あいてに ほうしゅつする。じぶんの　もつ プレートに　より　タイプが　かわる。",
+            "sm": "むすうの　こうだんを　あいてに ほうしゅつする。じぶんの　もつ プレートに　より　タイプが　かわる。",
+            "usum": "むすうの　こうだんを　あいてに ほうしゅつする。じぶんの　もつ プレートに　より　タイプが　かわる。",
+            "lgpe": "むすうの　こうだんを　あいてに ほうしゅつする。じぶんの　もつ プレートに　より　タイプが　かわる。",
+            "swsh": "むすうの　こうだんを　あいてに ほうしゅつする。じぶんの　もつ プレートに　より　タイプが　かわる。"
+        },
+        "korean": {
+            "xy": "무수한 광탄을 상대에게 방출한다. 자신이 가지고 있는 플레이트에 따라 타입이 바뀐다.",
+            "oras": "무수한 광탄을 상대에게 방출한다. 자신이 가지고 있는 플레이트에 따라 타입이 바뀐다.",
+            "sm": "무수한 광탄을 상대에게 방출한다. 자신이 가지고 있는 플레이트에 따라 타입이 바뀐다.",
+            "usum": "무수한 광탄을 상대에게 방출한다. 자신이 가지고 있는 플레이트에 따라 타입이 바뀐다.",
+            "lgpe": "무수한 광탄을 상대에게 방출한다. 자신이 가지고 있는 플레이트에 따라 타입이 바뀐다.",
+            "swsh": "무수한 광탄을 상대에게 방출한다. 자신이 가지고 있는 플레이트에 따라 타입이 바뀐다."
+        },
+        "german": {
+            "xy": "Anwender feuert unzählige Lichtstrahlen ab. Deren Typ hängt von der gehaltenen Tafel ab.",
+            "oras": "Anwender feuert unzählige Lichtstrahlen ab. Deren Typ hängt von der gehaltenen Tafel ab.",
+            "sm": "Anwender feuert unzählige Lichtstrahlen ab. Deren Typ hängt von der gehaltenen Tafel ab.",
+            "usum": "Anwender feuert unzählige Lichtstrahlen ab. Deren Typ hängt von der gehaltenen Tafel ab.",
+            "lgpe": "Anwender feuert unzählige Lichtstrahlen ab. Deren Typ hängt von der gehaltenen Tafel ab.",
+            "swsh": "Anwender feuert unzählige Lichtstrahlen ab. Deren Typ hängt von der gehaltenen Tafel ab."
+        },
+        "spanish": {
+            "xy": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "oras": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "sm": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "usum": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "lgpe": "Emite incontables haces de luz. El tipo del movimiento varía según la tabla que lleve el usuario.",
+            "swsh": "Emite incontables haces de luz. El tipo del movimiento varía según la tabla que lleve el usuario."
+        },
+        "italian": {
+            "xy": "Chi la usa rilascia numerosi colpi di luce. Il tipo varia a seconda della lastra che ha.",
+            "oras": "Chi la usa rilascia numerosi colpi di luce. Il tipo varia a seconda della lastra che ha.",
+            "sm": "Chi la usa rilascia numerosi colpi di luce. Il tipo varia a seconda della lastra che ha.",
+            "usum": "Chi la usa rilascia numerosi colpi di luce. Il tipo varia a seconda della lastra che ha.",
+            "lgpe": "Chi la usa rilascia numerosi colpi di luce. Il tipo varia a seconda della lastra che ha.",
+            "swsh": "Chi la usa rilascia numerosi colpi di luce. Il tipo varia a seconda della lastra che ha."
+        },
+        "japanese": {
+            "xy": "無数の　光弾を　相手に　放出する。 自分の　持つ　プレートに　より タイプが　変わる。",
+            "oras": "無数の　光弾を　相手に　放出する。 自分の　持つ　プレートに　より タイプが　変わる。",
+            "sm": "無数の　光弾を　相手に　放出する。 自分の　持つ　プレートに　より タイプが　変わる。",
+            "usum": "無数の　光弾を　相手に　放出する。 自分の　持つ　プレートに　より タイプが　変わる。",
+            "lgpe": "無数の　光弾を　相手に　放出する。 自分の　持つ　プレートに　より タイプが　変わる。",
+            "swsh": "無数の　光弾を　相手に　放出する。 自分の　持つ　プレートに　より タイプが　変わる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "oras": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "sm": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "usum": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+            "lgpe": "Emite incontables haces de luz. El tipo del movimiento varía según la tabla que lleve el usuario.",
+            "swsh": "Emite incontables haces de luz. El tipo del movimiento varía según la tabla que lleve el usuario."
+        },
+        "traditional-chinese": {
+            "sm": "向對手放出無數的光彈。 招式的屬性會隨著自己 攜帶的石板不同而改變。",
+            "usum": "向對手放出無數的光彈。 招式的屬性會隨著自己 攜帶的石板不同而改變。",
+            "lgpe": "向對手放出無數的光彈。 招式的屬性會隨著自己 攜帶的石板不同而改變。",
+            "swsh": "向對手放出無數的光彈。 招式的屬性會隨著自己 攜帶的石板不同而改變。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手放出无数的光弹。 属性会根据自己 携带的石板不同而改变。",
+            "usum": "向对手放出无数的光弹。 属性会根据自己 携带的石板不同而改变。",
+            "lgpe": "向对手放出无数的光弹。 属性会根据自己 携带的石板不同而改变。",
+            "swsh": "向对手放出无数的光弹。 属性会根据自己 携带的石板不同而改变。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the user is holding a plate or a drive, this move’s type is the type corresponding to that item. Note: This effect is technically shared by both Techno Blast and Judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+        "shortEffect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+    }
 }

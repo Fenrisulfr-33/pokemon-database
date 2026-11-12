@@ -1,45 +1,148 @@
 {
-  "_id": 257,
-  "key": "heat-wave",
-  "name": {
-    "english": "Heat Wave",
-    "japanese": "ねっぷう",
-    "chinese": "热风",
-    "korean": "열풍",
-    "german": "Onda Ígnea",
-    "french": "Hitzewelle",
-    "italian": "Heat Wave",
-    "spanish": "Ondacalda"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 95,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 3,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Exhales a hot breath on the\nfoe. May inflict a burn.",
-    "emerald": "Exhales a hot breath on the\nfoe. May inflict a burn.",
-    "firered-leafgreen": "The user exhales a\nheated breath to\nattack. It may also\ninflict a burn.",
-    "diamond-pearl": "The user exhales a\nheated breath on the\nfoe to attack. It may\nalso leave the target\nwith a burn.",
-    "platinum": "The user exhales a\nheated breath on the\nfoe to attack. It may\nalso leave the target\nwith a burn.",
-    "heartgold-soulsilver": "The user exhales a\nheated breath on the\nfoe to attack. It may\nalso leave the target\nwith a burn.",
-    "black-white": "The user attacks by exhaling hot breath\non the opposing team. It may also leave\ntargets with a burn.",
-    "black-2-white-2": "The user attacks by exhaling hot breath\non the opposing team. It may also leave\ntargets with a burn.",
-    "x-y": "The user attacks by exhaling hot breath\non the opposing Pokémon. This may also leave\nthose Pokémon with a burn.",
-    "omega-ruby-alpha-sapphire": "The user attacks by exhaling hot breath\non the opposing Pokémon. This may also leave\nthose Pokémon with a burn.",
-    "sun-moon": "The user attacks by exhaling hot breath on the\nopposing Pokémon. This may also leave those\nPokémon with a burn.",
-    "ultra-sun-ultra-moon": "The user attacks by exhaling hot breath on the\nopposing Pokémon. This may also leave those\nPokémon with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by exhaling hot breath on the\nopposing Pokémon. This may also leave those\nPokémon with a burn.",
-    "sword-shield": "The user attacks by exhaling hot breath on opposing\nPokémon. This may also leave those Pokémon with\na burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 257,
+    "key": "heat-wave",
+    "name": {
+        "japanese-kana": "ねっぷう",
+        "korean": "열풍",
+        "traditional-chinese": "熱風",
+        "french": "Canicule",
+        "german": "Hitzewelle",
+        "spanish": "Onda Ígnea",
+        "italian": "Ondacalda",
+        "english": "Heat Wave",
+        "japanese": "ねっぷう",
+        "simplified-chinese": "热风",
+        "latin-american-spanish": "Onda Ígnea"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 95,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 100
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Exhales a hot breath on the foe. May inflict a burn.",
+            "em": "Exhales a hot breath on the foe. May inflict a burn.",
+            "frlg": "The user exhales a heated breath to attack. It may also inflict a burn.",
+            "dp": "The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.",
+            "pt": "The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.",
+            "hgss": "The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.",
+            "bw": "The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.",
+            "b2w2": "The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.",
+            "xy": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.",
+            "oras": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.",
+            "sm": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.",
+            "usum": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.",
+            "lgpe": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.",
+            "swsh": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave those Pokémon with a burn.",
+            "la": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave those Pokémon with a burn.",
+            "sv": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn."
+        },
+        "french": {
+            "bw": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.",
+            "xy": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.",
+            "oras": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.",
+            "sm": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.",
+            "usum": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.",
+            "lgpe": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.",
+            "swsh": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "あつい　いきを あいてに　ふきつけて　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "あつい　いきを あいてに　ふきつけて　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "あつい　いきを あいてに　ふきつけて　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "あつい　いきを あいてに　ふきつけて　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "あつい　いきを あいてに　ふきつけて　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "あつい　いきを あいてに　ふきつけて　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "뜨거운 숨결을 상대에게 내뿜어 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "뜨거운 숨결을 상대에게 내뿜어 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "뜨거운 숨결을 상대에게 내뿜어 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "뜨거운 숨결을 상대에게 내뿜어 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "뜨거운 숨결을 상대에게 내뿜어 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "뜨거운 숨결을 상대에게 내뿜어 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.",
+            "oras": "Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.",
+            "sm": "Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.",
+            "usum": "Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.",
+            "lgpe": "Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.",
+            "swsh": "Gegnerische Pokémon werden von einem Sturm aus heißer Luft getroffen und erleiden eventuell Verbrennungen."
+        },
+        "spanish": {
+            "xy": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "oras": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "sm": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "usum": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "lgpe": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "swsh": "Provoca un viento abrasador que puede quemar al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa investe i nemici che ha intorno con una folata di vento caldo. Può anche scottarli.",
+            "oras": "Chi la usa investe i nemici che ha intorno con una folata di vento caldo. Può anche scottarli.",
+            "sm": "Chi la usa investe i nemici che ha intorno con una folata di vento caldo. Può anche scottarli.",
+            "usum": "Chi la usa investe i nemici che ha intorno con una folata di vento caldo. Può anche scottarli.",
+            "lgpe": "Chi la usa investe i nemici che ha intorno con una folata di vento caldo. Può anche scottarli.",
+            "swsh": "Chi la usa investe i nemici che ha intorno con una folata di vento caldo. Può anche scottarli."
+        },
+        "japanese": {
+            "xy": "熱い　息を 相手に　吹きつけて　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "熱い　息を 相手に　吹きつけて　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "熱い　息を 相手に　吹きつけて　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "熱い　息を 相手に　吹きつけて　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "熱い　息を 相手に　吹きつけて　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "熱い　息を 相手に　吹きつけて　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "oras": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "sm": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "usum": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "lgpe": "Provoca un viento abrasador que puede quemar al objetivo.",
+            "swsh": "Provoca un viento abrasador que puede quemar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將炎熱的氣息 吹向對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "usum": "將炎熱的氣息 吹向對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "將炎熱的氣息 吹向對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "將炎熱的氣息 吹向對手進行攻擊。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "将炎热的气息 吹向对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "usum": "将炎热的气息 吹向对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "lgpe": "将炎热的气息 吹向对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "swsh": "将炎热的气息 吹向对手进行攻击。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

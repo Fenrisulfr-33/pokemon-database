@@ -1,47 +1,146 @@
 {
-  "_id": 70,
-  "key": "strength",
-  "name": {
-    "english": "Strength",
-    "japanese": "かいりき",
-    "chinese": "劲力",
-    "korean": "괴력",
-    "german": "Fuerza",
-    "french": "Stärke",
-    "italian": "Strength",
-    "spanish": "Forza"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A powerful physi­\ncal attack.",
-    "crystal": "A powerful physi­\ncal attack.",
-    "ruby-sapphire": "Builds enormous power,\nthen slams the foe.",
-    "emerald": "Builds enormous power,\nthen slams the foe.",
-    "firered-leafgreen": "The foe is slugged\nat maximum power.\nCan also be used\nto move boulders.",
-    "diamond-pearl": "The foe is slugged\nwith a punch thrown\nat maximum power.\nIt can also be used\nto move boulders.",
-    "platinum": "The foe is slugged\nwith a punch thrown\nat maximum power.\nIt can also be used\nto move boulders.",
-    "heartgold-soulsilver": "The foe is slugged\nwith a punch thrown\nat maximum power.\nIt can also be used\nto move boulders.",
-    "black-white": "The target is slugged with a punch thrown\nat maximum power. It can also be used\nto move heavy boulders.",
-    "black-2-white-2": "The target is slugged with a punch thrown\nat maximum power. It can also be used\nto move heavy boulders.",
-    "x-y": "The target is slugged with a punch thrown\nat maximum power. This can also be used\nto move heavy boulders.",
-    "omega-ruby-alpha-sapphire": "The target is slugged with a punch thrown\nat maximum power. This can also be used\nto move heavy boulders.",
-    "sun-moon": "The target is slugged with a punch thrown at\nmaximum power.",
-    "ultra-sun-ultra-moon": "The target is slugged with a punch thrown at\nmaximum power.",
-    "lets-go-pikachu-lets-go-eevee": "The target is slugged with a punch thrown at\nmaximum power.",
-    "sword-shield": "The target is slugged with a punch thrown at\nmaximum power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 70,
+    "key": "strength",
+    "name": {
+        "japanese-kana": "かいりき",
+        "korean": "괴력",
+        "traditional-chinese": "怪力",
+        "french": "Force",
+        "german": "Stärke",
+        "spanish": "Fuerza",
+        "italian": "Forza",
+        "english": "Strength",
+        "japanese": "かいりき",
+        "simplified-chinese": "怪力",
+        "latin-american-spanish": "Fuerza"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A powerful physical attack.",
+            "cr": "A powerful physical attack.",
+            "rs": "Builds enormous power, then slams the foe.",
+            "em": "Builds enormous power, then slams the foe.",
+            "frlg": "The foe is slugged at maximum power. Can also be used to move boulders.",
+            "dp": "The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.",
+            "pt": "The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.",
+            "hgss": "The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.",
+            "bw": "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.",
+            "b2w2": "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.",
+            "xy": "The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.",
+            "oras": "The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.",
+            "sm": "The target is slugged with a punch thrown at maximum power.",
+            "usum": "The target is slugged with a punch thrown at maximum power.",
+            "lgpe": "The target is slugged with a punch thrown at maximum power.",
+            "swsh": "The target is slugged with a punch thrown at maximum power.",
+            "la": "The target is slugged with a punch thrown at maximum power.",
+            "sv": "The target is slugged with a punch thrown at maximum power."
+        },
+        "french": {
+            "bw": "Le lanceur cogne l’ennemi de toutes ses forces. Permet aussi de déplacer des rochers.",
+            "xy": "Le lanceur cogne l’ennemi de toutes ses forces. Permet aussi de déplacer des rochers.",
+            "oras": "Le lanceur cogne l’ennemi de toutes ses forces. Permet aussi de déplacer des rochers.",
+            "sm": "Le lanceur cogne l’ennemi de toutes ses forces.",
+            "usum": "Le lanceur cogne l’ennemi de toutes ses forces.",
+            "lgpe": "Le lanceur cogne l’ennemi de toutes ses forces.",
+            "swsh": "Le lanceur cogne l’ennemi de toutes ses forces."
+        },
+        "japanese-kana": {
+            "xy": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。 おもたい　いわを　おすことも　できる。",
+            "oras": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。 おもたい　いわを　おすことも　できる。",
+            "sm": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。",
+            "usum": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。",
+            "lgpe": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。",
+            "swsh": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "혼신의 힘으로 상대를 세게 때려서 공격한다. 무거운 돌을 밀 수도 있다.",
+            "oras": "혼신의 힘으로 상대를 세게 때려서 공격한다. 무거운 돌을 밀 수도 있다.",
+            "sm": "혼신의 힘으로 상대를 세게 때려서 공격한다.",
+            "usum": "혼신의 힘으로 상대를 세게 때려서 공격한다.",
+            "lgpe": "혼신의 힘으로 상대를 세게 때려서 공격한다.",
+            "swsh": "혼신의 힘으로 상대를 세게 때려서 공격한다."
+        },
+        "german": {
+            "xy": "Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.",
+            "oras": "Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.",
+            "sm": "Das Ziel wird extrem stark getroffen.",
+            "usum": "Das Ziel wird extrem stark getroffen.",
+            "lgpe": "Das Ziel wird extrem stark getroffen.",
+            "swsh": "Das Ziel wird extrem stark getroffen."
+        },
+        "spanish": {
+            "xy": "Potente puñetazo. Fuera de combate sirve para mover rocas.",
+            "oras": "Potente puñetazo. Fuera de combate sirve para mover rocas.",
+            "sm": "Propina un potente puñetazo con todas sus fuerzas.",
+            "usum": "Propina un potente puñetazo con todas sus fuerzas.",
+            "lgpe": "Propina un potente puñetazo con todas sus fuerzas.",
+            "swsh": "Propina un potente puñetazo con todas sus fuerzas."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un’enorme energia. Fuori dalla lotta si usa per spostare i massi.",
+            "oras": "Colpisce il bersaglio con un’enorme energia. Fuori dalla lotta si usa per spostare i massi.",
+            "sm": "Colpisce il bersaglio con un’enorme energia.",
+            "usum": "Colpisce il bersaglio con un’enorme energia.",
+            "lgpe": "Colpisce il bersaglio con un’enorme energia.",
+            "swsh": "Colpisce il bersaglio con un’enorme energia."
+        },
+        "japanese": {
+            "xy": "こん身の　力で 相手を　なぐりつけて　攻撃する。 重たい　岩を　押すことも　できる。",
+            "oras": "こん身の　力で 相手を　なぐりつけて　攻撃する。 重たい　岩を　押すことも　できる。",
+            "sm": "こん身の　力で 相手を　なぐりつけて　攻撃する。",
+            "usum": "こん身の　力で 相手を　なぐりつけて　攻撃する。",
+            "lgpe": "こん身の　力で 相手を　なぐりつけて　攻撃する。",
+            "swsh": "こん身の　力で 相手を　なぐりつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potente puñetazo. Fuera de combate sirve para mover rocas.",
+            "oras": "Potente puñetazo. Fuera de combate sirve para mover rocas.",
+            "sm": "Propina un potente puñetazo con todas sus fuerzas.",
+            "usum": "Propina un potente puñetazo con todas sus fuerzas.",
+            "lgpe": "Propina un potente puñetazo con todas sus fuerzas.",
+            "swsh": "Propina un potente puñetazo con todas sus fuerzas."
+        },
+        "traditional-chinese": {
+            "sm": "使出渾身力量 毆打對手進行攻擊。",
+            "usum": "使出渾身力量 毆打對手進行攻擊。",
+            "lgpe": "使出渾身力量 毆打對手進行攻擊。",
+            "swsh": "使出渾身力量 毆打對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "使出浑身力气 殴打对手进行攻击。",
+            "usum": "使出浑身力气 殴打对手进行攻击。",
+            "lgpe": "使出浑身力气 殴打对手进行攻击。",
+            "swsh": "使出浑身力气 殴打对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

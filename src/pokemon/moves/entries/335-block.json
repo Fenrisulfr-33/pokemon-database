@@ -1,45 +1,144 @@
 {
-  "_id": 335,
-  "key": "block",
-  "name": {
-    "english": "Block",
-    "japanese": "とおせんぼう",
-    "chinese": "挡路",
-    "korean": "블록",
-    "german": "Bloqueo",
-    "french": "Rückentzug",
-    "italian": "Block",
-    "spanish": "Blocco"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Blocks the foe’s way to\nprevent escape.",
-    "emerald": "Blocks the foe’s way to\nprevent escape.",
-    "firered-leafgreen": "The user blocks the\nfoe’s way with arms\nspread wide to\nprevent escape.",
-    "diamond-pearl": "The user blocks the\nfoe’s way with arms\nspread wide to\nprevent escape.\n",
-    "platinum": "The user blocks the\nfoe’s way with arms\nspread wide to\nprevent escape.\n",
-    "heartgold-soulsilver": "The user blocks the\nfoe’s way with arms\nspread wide to\nprevent escape.\n",
-    "black-white": "The user blocks the target’s way with arms\nspread wide to prevent escape.",
-    "black-2-white-2": "The user blocks the target’s way with arms\nspread wide to prevent escape.",
-    "x-y": "The user blocks the target’s way with arms\nspread wide to prevent escape.",
-    "omega-ruby-alpha-sapphire": "The user blocks the target’s way with arms\nspread wide to prevent escape.",
-    "sun-moon": "The user blocks the target’s way with arms spread\nwide to prevent escape.",
-    "ultra-sun-ultra-moon": "The user blocks the target’s way with arms spread\nwide to prevent escape.",
-    "lets-go-pikachu-lets-go-eevee": "The user blocks the target’s way with arms spread\nwide to prevent escape.",
-    "sword-shield": "The user blocks the target’s way with arms spread\nwide to prevent escape."
-  },
-  "effect": {
-    "full": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.\n\nThe target may still escape by using baton pass, u turn, or a shed shell.\n\nBoth the user and the target pass on this effect with baton pass.",
-    "shortEffect": "Prevents the target from leaving battle."
-  },
-  "priority": 0
+    "_id": 335,
+    "key": "block",
+    "name": {
+        "japanese-kana": "とおせんぼう",
+        "korean": "블록",
+        "traditional-chinese": "擋路",
+        "french": "Barrage",
+        "german": "Rückentzug",
+        "spanish": "Bloqueo",
+        "italian": "Blocco",
+        "english": "Block",
+        "japanese": "とおせんぼう",
+        "simplified-chinese": "挡路",
+        "latin-american-spanish": "Bloqueo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Blocks the foe’s way to prevent escape.",
+            "em": "Blocks the foe’s way to prevent escape.",
+            "frlg": "The user blocks the foe’s way with arms spread wide to prevent escape.",
+            "dp": "The user blocks the foe’s way with arms spread wide to prevent escape.",
+            "pt": "The user blocks the foe’s way with arms spread wide to prevent escape.",
+            "hgss": "The user blocks the foe’s way with arms spread wide to prevent escape.",
+            "bw": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "b2w2": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "xy": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "oras": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "sm": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "usum": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "lgpe": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "swsh": "The user blocks the target’s way with arms spread wide to prevent escape.",
+            "la": "The user blocks the target's way with arms spread wide to prevent escape.",
+            "sv": "The user blocks the target's way with arms spread wide to prevent the target from fleeing."
+        },
+        "french": {
+            "bw": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.",
+            "xy": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.",
+            "oras": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.",
+            "sm": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.",
+            "usum": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.",
+            "lgpe": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.",
+            "swsh": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite."
+        },
+        "japanese-kana": {
+            "xy": "りょうてを　ひろげて　たちはだかり あいての　にげみちを　ふさいで にげられなく　する。",
+            "oras": "りょうてを　ひろげて　たちはだかり あいての　にげ ちを　ふさいで にげられなく　する。",
+            "sm": "りょうてを　ひろげて　たちはだかり あいての　にげみちを　ふさいで にげられなく　する。",
+            "usum": "りょうてを　ひろげて　たちはだかり あいての　にげみちを　ふさいで にげられなく　する。",
+            "lgpe": "りょうてを　ひろげて　たちはだかり あいての　にげみちを　ふさいで にげられなく　する。",
+            "swsh": "りょうてを　ひろげて　たちはだかり あいての　にげみちを　ふさいで にげられなく　する。"
+        },
+        "korean": {
+            "xy": "양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.",
+            "oras": "양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.",
+            "sm": "양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.",
+            "usum": "양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.",
+            "lgpe": "양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.",
+            "swsh": "양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다."
+        },
+        "german": {
+            "xy": "Anwender versperrt den Fluchtweg des Zieles.",
+            "oras": "Anwender versperrt den Fluchtweg des Zieles.",
+            "sm": "Anwender versperrt den Fluchtweg des Zieles.",
+            "usum": "Anwender versperrt den Fluchtweg des Zieles.",
+            "lgpe": "Anwender versperrt den Fluchtweg des Zieles.",
+            "swsh": "Anwender versperrt den Fluchtweg des Zieles."
+        },
+        "spanish": {
+            "xy": "Le corta el paso al objetivo para que no pueda escapar.",
+            "oras": "Le corta el paso al objetivo para que no pueda escapar.",
+            "sm": "Le corta el paso al objetivo para que no pueda escapar.",
+            "usum": "Le corta el paso al objetivo para que no pueda escapar.",
+            "lgpe": "Le corta el paso al objetivo para que no pueda escapar.",
+            "swsh": "Le corta el paso al objetivo para que no pueda escapar."
+        },
+        "italian": {
+            "xy": "Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.",
+            "oras": "Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.",
+            "sm": "Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.",
+            "usum": "Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.",
+            "lgpe": "Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.",
+            "swsh": "Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione."
+        },
+        "japanese": {
+            "xy": "両手を　ひろげて　たちはだかり 相手の　逃げ道を　ふさいで 逃げられなくする。",
+            "oras": "両手を　ひろげて　たちはだかり 相手の　逃げ道を　ふさいで 逃げられなくする。",
+            "sm": "両手を　ひろげて　たちはだかり 相手の　逃げ道を　ふさいで 逃げられなくする。",
+            "usum": "両手を　ひろげて　たちはだかり 相手の　逃げ道を　ふさいで 逃げられなくする。",
+            "lgpe": "両手を　ひろげて　たちはだかり 相手の　逃げ道を　ふさいで 逃げられなくする。",
+            "swsh": "両手を　ひろげて　たちはだかり 相手の　逃げ道を　ふさいで 逃げられなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Le corta el paso al objetivo para que no pueda escapar.",
+            "oras": "Le corta el paso al objetivo para que no pueda escapar.",
+            "sm": "Le corta el paso al objetivo para que no pueda escapar.",
+            "usum": "Le corta el paso al objetivo para que no pueda escapar.",
+            "lgpe": "Le corta el paso al objetivo para que no pueda escapar.",
+            "swsh": "Le corta el paso al objetivo para que no pueda escapar."
+        },
+        "traditional-chinese": {
+            "sm": "張開雙手進行阻擋， 封住對手的退路， 讓對手無法逃走。",
+            "usum": "張開雙手進行阻擋， 封住對手的退路， 讓對手無法逃走。",
+            "lgpe": "張開雙手進行阻擋， 封住對手的退路， 讓對手無法逃走。",
+            "swsh": "張開雙手進行阻擋， 封住對手的退路， 讓對手無法逃走。"
+        },
+        "simplified-chinese": {
+            "sm": "张开双手进行阻挡， 封住对手的退路， 使其不能逃走。",
+            "usum": "张开双手进行阻挡， 封住对手的退路， 使其不能逃走。",
+            "lgpe": "张开双手进行阻挡， 封住对手的退路， 使其不能逃走。",
+            "swsh": "张开双手进行阻挡， 封住对手的退路， 使其不能逃走。"
+        }
+    },
+    "effect": {
+        "full": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field. The target may still escape by using Baton Pass, U-turn, or a Shed Shell. Both the user and the target pass on this effect with Baton Pass.",
+        "shortEffect": "Prevents the target from leaving battle."
+    }
 }

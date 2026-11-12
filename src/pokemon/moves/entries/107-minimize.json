@@ -1,47 +1,159 @@
 {
-  "_id": 107,
-  "key": "minimize",
-  "name": {
-    "english": "Minimize",
-    "japanese": "ちいさくなる",
-    "chinese": "缩小",
-    "korean": "작아지기",
-    "german": "Reducción",
-    "french": "Komprimator",
-    "italian": "Minimize",
-    "spanish": "Minimizzato"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Heightens evasive­\nness.",
-    "crystal": "Heightens evasive­\nness.",
-    "ruby-sapphire": "Minimizes the user’s size\nto raise evasiveness.",
-    "emerald": "Minimizes the user’s size\nto raise evasiveness.",
-    "firered-leafgreen": "The user compresses\nall the cells in its\nbody to raise its\nevasiveness.",
-    "diamond-pearl": "The user compresses\nits body to make\nitself look smaller.\nThe user’s evasion\nstat is boosted.",
-    "platinum": "The user compresses\nits body to make\nitself look smaller.\nThe user’s evasion\nstat is boosted.",
-    "heartgold-soulsilver": "The user compresses\nits body to make\nitself look smaller.\nThe user’s evasion\nstat is boosted.",
-    "black-white": "The user compresses its body\nto make itself look smaller,\nwhich sharply raises its evasiveness.",
-    "black-2-white-2": "The user compresses its body\nto make itself look smaller,\nwhich sharply raises its evasiveness.",
-    "x-y": "The user compresses its body\nto make itself look smaller,\nwhich sharply raises its evasiveness.",
-    "omega-ruby-alpha-sapphire": "The user compresses its body\nto make itself look smaller,\nwhich sharply raises its evasiveness.",
-    "sun-moon": "The user compresses its body to make itself look\nsmaller, which sharply raises its evasiveness.",
-    "ultra-sun-ultra-moon": "The user compresses its body to make itself look\nsmaller, which sharply raises its evasiveness.",
-    "lets-go-pikachu-lets-go-eevee": "The user compresses its body to make itself look\nsmaller, which sharply raises its evasiveness.",
-    "sword-shield": "The user compresses its body to make itself look\nsmaller, which sharply raises its evasiveness."
-  },
-  "effect": {
-    "full": "Raises the user's evasion by two stages.\n\nstomp and steamroller have double power against Pokémon that have used this move since entering the field.",
-    "shortEffect": "Raises the user's evasion by two stages."
-  },
-  "priority": 0
+    "_id": 107,
+    "key": "minimize",
+    "name": {
+        "japanese-kana": "ちいさくなる",
+        "korean": "작아지기",
+        "traditional-chinese": "變小",
+        "french": "Lilliput",
+        "german": "Komprimator",
+        "spanish": "Reducción",
+        "italian": "Minimizzato",
+        "english": "Minimize",
+        "japanese": "ちいさくなる",
+        "simplified-chinese": "变小",
+        "latin-american-spanish": "Reducción"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "pp": 20
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "N’interagit pas avec Écrasement.",
+            "bw": "Augmente l'evasion de 1."
+        },
+        "english": {
+            "gs": "Does not interact with Stomp.",
+            "bw": "Raises evasion by one stage."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Heightens evasiveness.",
+            "cr": "Heightens evasiveness.",
+            "rs": "Minimizes the user’s size to raise evasiveness.",
+            "em": "Minimizes the user’s size to raise evasiveness.",
+            "frlg": "The user compresses all the cells in its body to raise its evasiveness.",
+            "dp": "The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.",
+            "pt": "The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.",
+            "hgss": "The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.",
+            "bw": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "b2w2": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "xy": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "oras": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "sm": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "usum": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "lgpe": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "swsh": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "la": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+            "sv": "The user compresses its body to make itself look smaller, which sharply boosts its evasiveness."
+        },
+        "french": {
+            "bw": "Le lanceur comprime son corps pour se faire tout petit et augmenter fortement son Esquive.",
+            "xy": "Le lanceur comprime son corps pour se faire tout petit et augmenter fortement son Esquive.",
+            "oras": "Le lanceur comprime son corps pour se faire tout petit et augmenter fortement son Esquive.",
+            "sm": "Le lanceur comprime son corps pour se faire tout petit et beaucoup augmenter son Esquive.",
+            "usum": "Le lanceur comprime son corps pour se faire tout petit et beaucoup augmenter son Esquive.",
+            "lgpe": "Le lanceur comprime son corps pour se faire tout petit et beaucoup augmenter son Esquive.",
+            "swsh": "Le lanceur comprime son corps pour se faire tout petit et beaucoup augmenter son Esquive."
+        },
+        "japanese-kana": {
+            "xy": "からだを　ちぢめて　ちいさく　みせて じぶんの　かいひりつを ぐーんと　あげる。",
+            "oras": "からだを　ちぢめて　ちいさく　 せて じぶんの　かいひりつを ぐーんと　あげる。",
+            "sm": "からだを　ちぢめて　ちいさく　みせて じぶんの　かいひりつを ぐーんと　あげる。",
+            "usum": "からだを　ちぢめて　ちいさく　みせて じぶんの　かいひりつを ぐーんと　あげる。",
+            "lgpe": "からだを　ちぢめて　ちいさく　みせて じぶんの　かいひりつを ぐーんと　あげる。",
+            "swsh": "からだを　ちぢめて　ちいさく　みせて じぶんの　かいひりつを ぐーんと　あげる。"
+        },
+        "korean": {
+            "xy": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다.",
+            "oras": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다.",
+            "sm": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다.",
+            "usum": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다.",
+            "lgpe": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다.",
+            "swsh": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다."
+        },
+        "german": {
+            "xy": "Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.",
+            "oras": "Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.",
+            "sm": "Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.",
+            "usum": "Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.",
+            "lgpe": "Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.",
+            "swsh": "Anwender schrumpft, um seinen Ausweichwert stark zu erhöhen."
+        },
+        "spanish": {
+            "xy": "El usuario mengua para aumentar mucho la Evasión.",
+            "oras": "El usuario mengua para aumentar mucho la Evasión.",
+            "sm": "El usuario mengua para aumentar mucho la Evasión.",
+            "usum": "El usuario mengua para aumentar mucho la Evasión.",
+            "lgpe": "El usuario mengua para aumentar mucho la Evasión.",
+            "swsh": "El usuario mengua para aumentar mucho la Evasión."
+        },
+        "italian": {
+            "xy": "Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.",
+            "oras": "Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.",
+            "sm": "Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.",
+            "usum": "Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.",
+            "lgpe": "Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.",
+            "swsh": "Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto."
+        },
+        "japanese": {
+            "xy": "体を　ちぢめて　小さく　みせて 自分の　回避率を ぐーんと　あげる。",
+            "oras": "体を　ちぢめて　小さく　 せて 自分の　回避率を ぐーんと　あげる。",
+            "sm": "体を　ちぢめて　小さく　みせて 自分の　回避率を ぐーんと　あげる。",
+            "usum": "体を　ちぢめて　小さく　みせて 自分の　回避率を ぐーんと　あげる。",
+            "lgpe": "体を　ちぢめて　小さく　みせて 自分の　回避率を ぐーんと　あげる。",
+            "swsh": "体を　ちぢめて　小さく　みせて 自分の　回避率を ぐーんと　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario mengua para aumentar mucho la Evasión.",
+            "oras": "El usuario mengua para aumentar mucho la Evasión.",
+            "sm": "El usuario mengua para aumentar mucho la Evasión.",
+            "usum": "El usuario mengua para aumentar mucho la Evasión.",
+            "lgpe": "El usuario mengua para aumentar mucho la Evasión.",
+            "swsh": "El usuario mengua para aumentar mucho la Evasión."
+        },
+        "traditional-chinese": {
+            "sm": "蜷縮身體使自己顯得很小， 大幅提高 自己的閃避率。",
+            "usum": "蜷縮身體使自己顯得很小， 大幅提高 自己的閃避率。",
+            "lgpe": "蜷縮身體使自己顯得很小， 大幅提高 自己的閃避率。",
+            "swsh": "蜷縮身體使自己顯得很小， 大幅提高 自己的閃避率。"
+        },
+        "simplified-chinese": {
+            "sm": "蜷缩身体显得很小， 从而大幅提高 自己的闪避率。",
+            "usum": "蜷缩身体显得很小， 从而大幅提高 自己的闪避率。",
+            "lgpe": "蜷缩身体显得很小， 从而大幅提高 自己的闪避率。",
+            "swsh": "蜷缩身体显得很小， 从而大幅提高 自己的闪避率。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s evasion by two stages. Stomp and Steamroller have double power against Pokémon that have used this move since entering the field.",
+        "shortEffect": "Raises the user’s evasion by two stages."
+    }
 }

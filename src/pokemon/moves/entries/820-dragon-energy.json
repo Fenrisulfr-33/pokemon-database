@@ -1,32 +1,84 @@
 {
-  "_id": 820,
-  "key": "dragon-energy",
-  "name": {
-    "english": "Dragon Energy",
-    "japanese": "ドラゴンエナジー",
-    "chinese": "巨龍威能",
-    "korean": "드래곤에너지",
-    "german": "Dracoenergía",
-    "french": "Drachenkräfte",
-    "italian": "Dragon Energy",
-    "spanish": "Dragoenergia"
-  },
-  "type": "Dragon",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 150,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "sword-shield": "Converting its life-force into power, the user attacks\nopposing Pokémon. The lower the user’s HP, the lower\nthe move’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 820,
+    "key": "dragon-energy",
+    "name": {
+        "japanese-kana": "ドラゴンエナジー",
+        "korean": "드래곤에너지",
+        "traditional-chinese": "巨龍威能",
+        "french": "Draco-Énergie",
+        "german": "Drachenkräfte",
+        "spanish": "Dracoenergía",
+        "italian": "Dragoenergia",
+        "english": "Dragon Energy",
+        "japanese": "ドラゴンエナジー",
+        "simplified-chinese": "巨龙威能",
+        "latin-american-spanish": "Dracoenergía"
+    },
+    "type": "dragon",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 150,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "せいめいりょくを　パワーに　かえ　あいてを こうげきする。　じぶんの　ＨＰが　すくないほど わざの　いりょくは　さがる。"
+        },
+        "korean": {
+            "swsh": "생명력을 파워로 바꿔서 상대를 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다."
+        },
+        "traditional-chinese": {
+            "swsh": "將生命力化為力量攻擊對手。 自己的ＨＰ越少，招式的威力越小。"
+        },
+        "french": {
+            "swsh": "Le lanceur utilise son énergie vitale pour attaquer l’ennemi. Moins il a de PV, moins l’attaque est puissante."
+        },
+        "german": {
+            "swsh": "Der Anwender wandelt seine Lebenskraft in Energie um und greift gegnerische Pokémon an. Je höher seine KP sind, desto mehr Schaden wird angerichtet."
+        },
+        "spanish": {
+            "swsh": "El usuario convierte su fuerza vital en una energía con la que ataca al objetivo. Cuantos menos PS tenga el usuario, menor será la potencia del movimiento."
+        },
+        "italian": {
+            "swsh": "Il Pokémon attacca i nemici convertendo la propria forza vitale in energia. La potenza della mossa cala man mano che i PS diminuiscono."
+        },
+        "english": {
+            "swsh": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+            "la": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user's HP, the lower the move's power.",
+            "sv": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user's HP, the lower the move's power."
+        },
+        "japanese": {
+            "swsh": "生命力を　パワーに　変え　相手を 攻撃する。　自分の　ＨＰが　少ないほど 技の　威力は　さがる。"
+        },
+        "simplified-chinese": {
+            "swsh": "把生命力转换为力量攻击对手。 自己的ＨＰ越少，招式的威力越小。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario convierte su fuerza vital en una energía con la que ataca al objetivo. Cuantos menos PS tenga el usuario, menor será la potencia del movimiento."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "shortEffect": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+    }
 }

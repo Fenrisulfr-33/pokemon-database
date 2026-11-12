@@ -1,35 +1,117 @@
 {
-  "_id": 668,
-  "key": "strength-sap",
-  "name": {
-    "english": "Strength Sap",
-    "japanese": "ちからをすいとる",
-    "chinese": "吸取力量",
-    "korean": "힘흡수",
-    "german": "Absorbefuerza",
-    "french": "Kraftabsorber",
-    "italian": "Strength Sap",
-    "spanish": "Assorbiforza"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user restores its HP by the same amount as the\ntarget’s Attack stat. It also lowers the target’s\nAttack stat.",
-    "ultra-sun-ultra-moon": "The user restores its HP by the same amount as the\ntarget’s Attack stat. It also lowers the target’s\nAttack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user restores its HP by the same amount as the\ntarget’s Attack stat. It also lowers the target’s\nAttack stat.",
-    "sword-shield": "The user restores its HP by the same amount as the\ntarget’s Attack stat. It also lowers the target’s\nAttack stat."
-  },
-  "effect": {
-    "full": "Lowers the target's Attack by one stage.  Heals the user by the target's current Attack, including modifiers, but not including this move's Attack-lowering effect.\n\nIf the target's Attack is already at -6, this move will fail.  In any other situation that would prevent a stat modification, the healing will still succeed.",
-    "shortEffect": "Heals the user by the target's current Attack stat and lowers the target's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 668,
+    "key": "strength-sap",
+    "name": {
+        "japanese-kana": "ちからをすいとる",
+        "korean": "힘흡수",
+        "traditional-chinese": "吸取力量",
+        "french": "Vole-Force",
+        "german": "Kraftabsorber",
+        "spanish": "Absorbefuerza",
+        "italian": "Assorbiforza",
+        "english": "Strength Sap",
+        "japanese": "ちからをすいとる",
+        "simplified-chinese": "吸取力量",
+        "latin-american-spanish": "Absorbefuerza"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "あいての　こうげきりょくと　おなじだけ じぶんの　ＨＰを　かいふくする。 そして　あいての　こうげきを　さげる。",
+            "usum": "あいての　こうげきりょくと　おなじだけ じぶんの　ＨＰを　かいふくする。 そして　あいての　こうげきを　さげる。",
+            "lgpe": "あいての　こうげきりょくと　おなじだけ じぶんの　ＨＰを　かいふくする。 そして　あいての　こうげきを　さげる。",
+            "swsh": "あいての　こうげきりょくと　おなじだけ じぶんの　ＨＰを　かいふくする。 そして　あいての　こうげきを　さげる。"
+        },
+        "korean": {
+            "sm": "상대 공격력과 동일하게 자신의 HP를 회복한다. 그리고 상대의 공격을 떨어뜨린다.",
+            "usum": "상대 공격력과 동일하게 자신의 HP를 회복한다. 그리고 상대의 공격을 떨어뜨린다.",
+            "lgpe": "상대 공격력과 동일하게 자신의 HP를 회복한다. 그리고 상대의 공격을 떨어뜨린다.",
+            "swsh": "상대 공격력과 동일하게 자신의 HP를 회복한다. 그리고 상대의 공격을 떨어뜨린다."
+        },
+        "traditional-chinese": {
+            "sm": "將自己的ＨＰ回復到和 對手的攻擊力相同。 然後降低對手的攻擊。",
+            "usum": "將自己的ＨＰ回復到和 對手的攻擊力相同。 然後降低對手的攻擊。",
+            "lgpe": "將自己的HP回復到和 對手的攻擊力相同。 然後降低對手的攻擊。",
+            "swsh": "將自己的ＨＰ回復到和 對手的攻擊力相同。 然後降低對手的攻擊。"
+        },
+        "french": {
+            "sm": "Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci.",
+            "usum": "Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci.",
+            "lgpe": "Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci.",
+            "swsh": "Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci."
+        },
+        "german": {
+            "sm": "Ein Angriff, der die KP des Anwenders um die Höhe des Angriffs-Werts des Zieles heilt. Anschließend wird der Angriff des Zieles gesenkt.",
+            "usum": "Ein Angriff, der die KP des Anwenders um die Höhe des Angriffs-Werts des Zieles heilt. Anschließend wird der Angriff des Zieles gesenkt.",
+            "lgpe": "Ein Angriff, der die KP des Anwenders um die Höhe des Angriffs-Werts des Zieles heilt. Anschließend wird der Angriff des Zieles gesenkt.",
+            "swsh": "Ein Angriff, der die KP des Anwenders um die Höhe des Angriffs-Werts des Zieles heilt. Anschließend wird der Angriff des Zieles gesenkt."
+        },
+        "spanish": {
+            "sm": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica.",
+            "usum": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica.",
+            "lgpe": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica.",
+            "swsh": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica."
+        },
+        "italian": {
+            "sm": "Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica.",
+            "usum": "Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica.",
+            "lgpe": "Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica.",
+            "swsh": "Fa recuperare una quantità di PS pari all’Attacco del bersaglio, che vedrà diminuire questa statistica."
+        },
+        "english": {
+            "sm": "The user restores its HP by the same amount as the target’s Attack stat. It also lowers the target’s Attack stat.",
+            "usum": "The user restores its HP by the same amount as the target’s Attack stat. It also lowers the target’s Attack stat.",
+            "lgpe": "The user restores its HP by the same amount as the target’s Attack stat. It also lowers the target’s Attack stat.",
+            "swsh": "The user restores its HP by the same amount as the target’s Attack stat. It also lowers the target’s Attack stat.",
+            "la": "The user restores its HP by the same amount as the target's Attack stat. It also lowers the target's Attack stat.",
+            "sv": "The user restores its own HP by the same amount as the target's Attack stat. It then lowers the target's Attack stat."
+        },
+        "japanese": {
+            "sm": "相手の　攻撃力と　同じだけ 自分の　ＨＰを　回復する。 そして　相手の　攻撃を　さげる。",
+            "usum": "相手の　攻撃力と　同じだけ 自分の　ＨＰを　回復する。 そして　相手の　攻撃を　さげる。",
+            "lgpe": "相手の　攻撃力と　同じだけ 自分の　ＨＰを　回復する。 そして　相手の　攻撃を　さげる。",
+            "swsh": "相手の　攻撃力と　同じだけ 自分の　ＨＰを　回復する。 そして　相手の　攻撃を　さげる。"
+        },
+        "simplified-chinese": {
+            "sm": "给自己回复和对手攻击力 相同数值的ＨＰ， 然后降低对手的攻击。",
+            "usum": "给自己回复和对手攻击力 相同数值的ＨＰ， 然后降低对手的攻击。",
+            "lgpe": "给自己回复和对手攻击力 相同数值的HP， 然后降低对手的攻击。",
+            "swsh": "给自己回复和对手攻击力 相同数值的ＨＰ， 然后降低对手的攻击。"
+        },
+        "latin-american-spanish": {
+            "sm": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica.",
+            "usum": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica.",
+            "lgpe": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica.",
+            "swsh": "Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica."
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Attack by one stage.  Heals the user by the target’s current Attack, including modifiers, but not including this move’s Attack-lowering effect. If the target’s Attack is already at -6, this move will fail.  In any other situation that would prevent a stat modification, the healing will still succeed.",
+        "shortEffect": "Heals the user by the target’s current Attack stat and lowers the target’s Attack by one stage."
+    }
 }

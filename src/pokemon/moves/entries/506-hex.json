@@ -1,39 +1,142 @@
 {
-  "_id": 506,
-  "key": "hex",
-  "name": {
-    "english": "Hex",
-    "japanese": "たたりめ",
-    "chinese": "厄运临头",
-    "korean": "병상첨병",
-    "german": "Infortunio",
-    "french": "Bürde",
-    "italian": "Hex",
-    "spanish": "Sciagura"
-  },
-  "type": "Ghost",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "This relentless attack does massive\ndamage to a target affected\nby status problems.",
-    "black-2-white-2": "This relentless attack does massive\ndamage to a target affected\nby status problems.",
-    "x-y": "This relentless attack does massive\ndamage to a target affected\nby status conditions.",
-    "omega-ruby-alpha-sapphire": "This relentless attack does massive\ndamage to a target affected\nby status conditions.",
-    "sun-moon": "This relentless attack does massive damage to a\ntarget affected by status conditions.",
-    "ultra-sun-ultra-moon": "This relentless attack does massive damage to a\ntarget affected by status conditions.",
-    "lets-go-pikachu-lets-go-eevee": "This relentless attack does massive damage to a\ntarget affected by status conditions.",
-    "sword-shield": "This relentless attack does massive damage to a\ntarget affected by status conditions."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target has a major status ailment, this move has double power.",
-    "shortEffect": "Has double power if the target has a major status ailment."
-  },
-  "priority": 0
+    "_id": 506,
+    "key": "hex",
+    "name": {
+        "japanese-kana": "たたりめ",
+        "korean": "병상첨병",
+        "traditional-chinese": "禍不單行",
+        "french": "Châtiment",
+        "german": "Bürde",
+        "spanish": "Infortunio",
+        "italian": "Sciagura",
+        "english": "Hex",
+        "japanese": "たたりめ",
+        "simplified-chinese": "祸不单行",
+        "latin-american-spanish": "Infortunio"
+    },
+    "type": "ghost",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 50
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.",
+            "xy": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.",
+            "oras": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.",
+            "sm": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.",
+            "usum": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.",
+            "lgpe": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.",
+            "swsh": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut."
+        },
+        "english": {
+            "bw": "This relentless attack does massive damage to a target affected by status problems.",
+            "b2w2": "This relentless attack does massive damage to a target affected by status problems.",
+            "xy": "This relentless attack does massive damage to a target affected by status conditions.",
+            "oras": "This relentless attack does massive damage to a target affected by status conditions.",
+            "sm": "This relentless attack does massive damage to a target affected by status conditions.",
+            "usum": "This relentless attack does massive damage to a target affected by status conditions.",
+            "lgpe": "This relentless attack does massive damage to a target affected by status conditions.",
+            "swsh": "This relentless attack does massive damage to a target affected by status conditions.",
+            "la": "The user attacks with relentless intensity. This move's power is doubled if the target has a status condition.",
+            "sv": "This relentless attack does massive damage to a target affected by status conditions."
+        },
+        "japanese-kana": {
+            "xy": "たたみかける　ように　こうげきする。 じょうたい　いじょうの　あいてに おおきな　ダメージを　あたえる。",
+            "oras": "たた かける　ように　こうげきする。 じょうたい　いじょうの　あいてに おおきな　ダメージを　あたえる。",
+            "sm": "たたみかける　ように　こうげきする。 じょうたい　いじょうの　あいてに おおきな　ダメージを　あたえる。",
+            "usum": "たたみかける　ように　こうげきする。 じょうたい　いじょうの　あいてに おおきな　ダメージを　あたえる。",
+            "lgpe": "たたみかける　ように　こうげきする。 じょうたい　いじょうの　あいてに おおきな　ダメージを　あたえる。",
+            "swsh": "たたみかける　ように　こうげきする。 じょうたい　いじょうの　あいてに おおきな　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.",
+            "oras": "엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.",
+            "sm": "엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.",
+            "usum": "엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.",
+            "lgpe": "엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.",
+            "swsh": "엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다."
+        },
+        "german": {
+            "xy": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu.",
+            "oras": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu.",
+            "sm": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu.",
+            "usum": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu.",
+            "lgpe": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu.",
+            "swsh": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu."
+        },
+        "spanish": {
+            "xy": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "oras": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "sm": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "usum": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "lgpe": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "swsh": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado."
+        },
+        "italian": {
+            "xy": "Attacco che causa un danno enorme se il bersaglio ha problemi di stato.",
+            "oras": "Attacco che causa un danno enorme se il bersaglio ha problemi di stato.",
+            "sm": "Attacco che causa un danno enorme se il bersaglio ha problemi di stato.",
+            "usum": "Attacco che causa un danno enorme se il bersaglio ha problemi di stato.",
+            "lgpe": "Attacco che causa un danno enorme se il bersaglio ha problemi di stato.",
+            "swsh": "Attacco che causa un danno enorme se il bersaglio ha problemi di stato."
+        },
+        "japanese": {
+            "xy": "たたみかける　ように　攻撃する。 状態異常の　相手に 大きな　ダメージを　与える。",
+            "oras": "たた かける　ように　攻撃する。 状態異常の　相手に 大きな　ダメージを　与える。",
+            "sm": "たたみかける　ように　攻撃する。 状態異常の　相手に 大きな　ダメージを　与える。",
+            "usum": "たたみかける　ように　攻撃する。 状態異常の　相手に 大きな　ダメージを　与える。",
+            "lgpe": "たたみかける　ように　攻撃する。 状態異常の　相手に 大きな　ダメージを　与える。",
+            "swsh": "たたみかける　ように　攻撃する。 状態異常の　相手に 大きな　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "oras": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "sm": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "usum": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "lgpe": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+            "swsh": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado."
+        },
+        "traditional-chinese": {
+            "sm": "接二連三地向對手進行攻擊。 攻擊陷入異常狀態的對手時， 能給予較大的傷害。",
+            "usum": "接二連三地向對手進行攻擊。 攻擊陷入異常狀態的對手時， 能給予較大的傷害。",
+            "lgpe": "接二連三地向對手進行攻擊。 攻擊陷入異常狀態的對手時， 能給予較大的傷害。",
+            "swsh": "接二連三地向對手進行攻擊。 攻擊陷入異常狀態的對手時， 能給予較大的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "接二连三地进行攻击。 对处于异常状态的对手 给予较大的伤害。",
+            "usum": "接二连三地进行攻击。 对处于异常状态的对手 给予较大的伤害。",
+            "lgpe": "接二连三地进行攻击。 对处于异常状态的对手 给予较大的伤害。",
+            "swsh": "接二连三地进行攻击。 对处于异常状态的对手 给予较大的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target has a major status ailment, this move has double power.",
+        "shortEffect": "Has double power if the target has a major status ailment."
+    }
 }

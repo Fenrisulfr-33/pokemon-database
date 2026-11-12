@@ -1,37 +1,135 @@
 {
-  "_id": 562,
-  "key": "belch",
-  "name": {
-    "english": "Belch",
-    "japanese": "ゲップ",
-    "chinese": "打嗝",
-    "korean": "트림",
-    "german": "Eructo",
-    "french": "Rülpser",
-    "italian": "Belch",
-    "spanish": "Rutto"
-  },
-  "type": "Poison",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 120,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user lets out a damaging belch\nat the target. The user must eat a held\nBerry to use this move.",
-    "omega-ruby-alpha-sapphire": "The user lets out a damaging belch\nat the target. The user must eat a held\nBerry to use this move.",
-    "sun-moon": "The user lets out a damaging belch at the target.\nThe user must eat a held Berry to use this move.",
-    "ultra-sun-ultra-moon": "The user lets out a damaging belch at the target.\nThe user must eat a held Berry to use this move.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets out a damaging belch at the target.\nThe user must eat a held Berry to use this move.",
-    "sword-shield": "The user lets out a damaging belch at the target.\nThe user must eat a held Berry to use this move."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Can only be used if the user has eaten a berry since the beginning of the battle.\n\nAfter the user eats a berry, it may use this move any number of times until the end of the battle, even if it switches out.  Eating a held berry, eating a berry via bug bite or pluck, or being the target of a Flung berry will enable this move.  Feeding a Pokémon a berry from the bag or using natural gift will not.\n\nIf the trainer chooses this move when it cannot be used, the choice is rejected outright and the trainer must choose another move.",
-    "shortEffect": "Can only be used after the user has eaten a berry."
-  },
-  "priority": 0
+    "_id": 562,
+    "key": "belch",
+    "name": {
+        "japanese-kana": "ゲップ",
+        "korean": "트림",
+        "traditional-chinese": "打嗝",
+        "french": "Éructation",
+        "german": "Rülpser",
+        "spanish": "Eructo",
+        "italian": "Rutto",
+        "english": "Belch",
+        "japanese": "ゲップ",
+        "simplified-chinese": "打嗝",
+        "latin-american-spanish": "Eructo"
+    },
+    "type": "poison",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 120,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "あいてに　むかって　ゲップを あびせて　ダメージを　あたえる。 きのみを　たべないと　だせない。",
+            "oras": "あいてに　むかって　ゲップを あびせて　ダメージを　あたえる。 きの を　たべないと　だせない。",
+            "sm": "あいてに　むかって　ゲップを あびせて　ダメージを　あたえる。 きのみを　たべないと　だせない。",
+            "usum": "あいてに　むかって　ゲップを あびせて　ダメージを　あたえる。 きのみを　たべないと　だせない。",
+            "lgpe": "あいてに　むかって　ゲップを あびせて　ダメージを　あたえる。 きのみを　たべないと　だせない。",
+            "swsh": "あいてに　むかって　ゲップを あびせて　ダメージを　あたえる。 きのみを　たべないと　だせない。"
+        },
+        "korean": {
+            "xy": "상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다.",
+            "oras": "상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다.",
+            "sm": "상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다.",
+            "usum": "상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다.",
+            "lgpe": "상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다.",
+            "swsh": "상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다."
+        },
+        "french": {
+            "xy": "Le lanceur se tourne vers l’ennemi et lui éructe dessus, infligeant des dégâts. Ne fonctionne que si le lanceur consomme la Baie qu’il tient.",
+            "oras": "Le lanceur se tourne vers l’ennemi et lui éructe dessus, infligeant des dégâts. Ne fonctionne que si le lanceur consomme la Baie qu’il tient.",
+            "sm": "Le lanceur se tourne vers l’ennemi et lui éructe dessus, infligeant des dégâts. Ne fonctionne que si le lanceur consomme la Baie qu’il tient.",
+            "usum": "Le lanceur se tourne vers l’ennemi et lui éructe dessus, infligeant des dégâts. Ne fonctionne que si le lanceur consomme la Baie qu’il tient.",
+            "lgpe": "Le lanceur se tourne vers l’ennemi et lui éructe dessus, infligeant des dégâts. Ne fonctionne que si le lanceur consomme la Baie qu’il tient.",
+            "swsh": "Le lanceur se tourne vers l’ennemi et lui éructe dessus, infligeant des dégâts. Ne fonctionne que si le lanceur consomme la Baie qu’il tient."
+        },
+        "german": {
+            "xy": "Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.",
+            "oras": "Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.",
+            "sm": "Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.",
+            "usum": "Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.",
+            "lgpe": "Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.",
+            "swsh": "Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere."
+        },
+        "spanish": {
+            "xy": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "oras": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "sm": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "usum": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "lgpe": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "swsh": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede.",
+            "oras": "Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede.",
+            "sm": "Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede.",
+            "usum": "Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede.",
+            "lgpe": "Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede.",
+            "swsh": "Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede."
+        },
+        "english": {
+            "xy": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+            "oras": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+            "sm": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+            "usum": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+            "lgpe": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+            "swsh": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+            "la": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+            "sv": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
+        },
+        "japanese": {
+            "xy": "相手に　向かって　ゲップを 浴びせて　ダメージを　与える。 きのみを　食べないと　だせない。",
+            "oras": "相手に　向かって　ゲップを 浴びせて　ダメージを　与える。 きの を　食べないと　だせない。",
+            "sm": "相手に　向かって　ゲップを 浴びせて　ダメージを　与える。 きのみを　食べないと　だせない。",
+            "usum": "相手に　向かって　ゲップを 浴びせて　ダメージを　与える。 きのみを　食べないと　だせない。",
+            "lgpe": "相手に　向かって　ゲップを 浴びせて　ダメージを　与える。 きのみを　食べないと　だせない。",
+            "swsh": "相手に　向かって　ゲップを 浴びせて　ダメージを　与える。 きのみを　食べないと　だせない。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "oras": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "sm": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "usum": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "lgpe": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.",
+            "swsh": "El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela."
+        },
+        "traditional-chinese": {
+            "sm": "朝著對手打嗝進行攻擊。 沒吃下樹果時無法使用。",
+            "usum": "朝著對手打嗝進行攻擊。 沒吃下樹果時無法使用。",
+            "lgpe": "朝著對手打嗝進行攻擊。 沒吃下樹果時無法使用。",
+            "swsh": "朝著對手打嗝進行攻擊。 沒吃下樹果時無法使用。"
+        },
+        "simplified-chinese": {
+            "sm": "朝着对手打嗝， 并给予伤害。 如果不吃树果则无法使出。",
+            "usum": "朝着对手打嗝， 并给予伤害。 如果不吃树果则无法使出。",
+            "lgpe": "朝着对手打嗝， 并给予伤害。 如果不吃树果则无法使出。",
+            "swsh": "朝着对手打嗝， 并给予伤害。 如果不吃树果则无法使出。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Can only be used if the user has eaten a berry since the beginning of the battle. After the user eats a berry, it may use this move any number of times until the end of the battle, even if it switches out.  Eating a held berry, eating a berry via Bug Bite or Pluck, or being the target of a Flung berry will enable this move.  Feeding a Pokémon a berry from the bag or using Natural Gift will not. If the trainer chooses this move when it cannot be used, the choice is rejected outright and the trainer must choose another move.",
+        "shortEffect": "Can only be used after the user has eaten a berry."
+    }
 }

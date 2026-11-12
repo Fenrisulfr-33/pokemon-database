@@ -1,42 +1,139 @@
 {
-  "_id": 376,
-  "key": "trump-card",
-  "name": {
-    "english": "Trump Card",
-    "japanese": "きりふだ",
-    "chinese": "王牌",
-    "korean": "마지막수단",
-    "german": "As Oculto",
-    "french": "Trumpfkarte",
-    "italian": "Trump Card",
-    "spanish": "Asso"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-2-white-2": "The fewer PP this move has, the greater\nits attack power.",
-    "diamond-pearl": "The fewer PP this\nmove has, the more\npower it has for\nattack.\n",
-    "platinum": "The fewer PP this\nmove has, the more\npower it has for\nattack.\n",
-    "heartgold-soulsilver": "The fewer PP this\nmove has, the more\npower it has for\nattack.\n",
-    "black-white": "The fewer PP this move has, the greater\nits attack power.",
-    "x-y": "The fewer PP this move has,\nthe greater its power.",
-    "omega-ruby-alpha-sapphire": "The fewer PP this move has,\nthe greater its power.",
-    "sun-moon": "The fewer PP this move has, the greater its power.",
-    "ultra-sun-ultra-moon": "The fewer PP this move has, the greater its power.",
-    "lets-go-pikachu-lets-go-eevee": "The fewer PP this move has, the greater its power.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power is determined by the PP remaining for this move, after its PP cost is deducted.  Ignores accuracy and evasion modifiers.\n\nPP remaining | Power\n------------ | ----:\n4 or more    |    40\n3            |    50\n2            |    60\n1            |    80\n0            |   200\n\nIf this move is activated by another move, the activating move's PP is used to calculate power.",
-    "shortEffect": "Power increases when this move has less PP, up to a maximum of 200."
-  },
-  "priority": 0
+    "_id": 376,
+    "key": "trump-card",
+    "name": {
+        "japanese-kana": "きりふだ",
+        "korean": "마지막수단",
+        "traditional-chinese": "王牌",
+        "french": "Atout",
+        "german": "Trumpfkarte",
+        "spanish": "As Oculto",
+        "italian": "Asso",
+        "english": "Trump Card",
+        "japanese": "きりふだ",
+        "simplified-chinese": "王牌",
+        "latin-american-spanish": "As Oculto"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The fewer PP this move has, the more power it has for attack.",
+            "pt": "The fewer PP this move has, the more power it has for attack.",
+            "hgss": "The fewer PP this move has, the more power it has for attack.",
+            "bw": "The fewer PP this move has, the greater its attack power.",
+            "b2w2": "The fewer PP this move has, the greater its attack power.",
+            "xy": "The fewer PP this move has, the greater its power.",
+            "oras": "The fewer PP this move has, the greater its power.",
+            "sm": "The fewer PP this move has, the greater its power.",
+            "usum": "The fewer PP this move has, the greater its power.",
+            "lgpe": "The fewer PP this move has, the greater its power.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Moins cette capacité possède de PP, plus elle est puissante.",
+            "xy": "Moins cette capacité possède de PP, plus elle est puissante.",
+            "oras": "Moins cette capacité possède de PP, plus elle est puissante.",
+            "sm": "Moins cette capacité possède de PP, plus elle est puissante.",
+            "usum": "Moins cette capacité possède de PP, plus elle est puissante.",
+            "lgpe": "Moins cette capacité possède de PP, plus elle est puissante.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "きりふだの　のこり　ＰＰが すくなければ　すくないほど わざの　いりょくが　あがる。",
+            "oras": "きりふだの　のこり　ＰＰが すくなければ　すくないほど わざの　いりょくが　あがる。",
+            "sm": "きりふだの　のこり　ＰＰが すくなければ　すくないほど わざの　いりょくが　あがる。",
+            "usum": "きりふだの　のこり　ＰＰが すくなければ　すくないほど わざの　いりょくが　あがる。",
+            "lgpe": "きりふだの　のこり　ＰＰが すくなければ　すくないほど わざの　いりょくが　あがる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "마지막수단의 남은 PP가 적으면 적을수록 기술의 위력이 올라간다.",
+            "oras": "마지막수단의 남은 PP가 적으면 적을수록 기술의 위력이 올라간다.",
+            "sm": "마지막수단의 남은 PP가 적으면 적을수록 기술의 위력이 올라간다.",
+            "usum": "마지막수단의 남은 PP가 적으면 적을수록 기술의 위력이 올라간다.",
+            "lgpe": "마지막수단의 남은 PP가 적으면 적을수록 기술의 위력이 올라간다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.",
+            "oras": "Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.",
+            "sm": "Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.",
+            "usum": "Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.",
+            "lgpe": "Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "oras": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "sm": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "usum": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "lgpe": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.",
+            "oras": "La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.",
+            "sm": "La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.",
+            "usum": "La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.",
+            "lgpe": "La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "きりふだの　残り　ＰＰが 少なければ　少ないほど 技の　威力が　あがる。",
+            "oras": "きりふだの　残り　ＰＰが 少なければ　少ないほど 技の　威力が　あがる。",
+            "sm": "きりふだの　残り　ＰＰが 少なければ　少ないほど 技の　威力が　あがる。",
+            "usum": "きりふだの　残り　ＰＰが 少なければ　少ないほど 技の　威力が　あがる。",
+            "lgpe": "きりふだの　残り　ＰＰが 少なければ　少ないほど 技の　威力が　あがる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "oras": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "sm": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "usum": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "lgpe": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "這個招式的 剩餘ＰＰ越少， 威力越大。",
+            "usum": "這個招式的 剩餘ＰＰ越少， 威力越大。",
+            "lgpe": "這個招式的 剩餘PP越少， 威力越大。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "王牌招式的 剩余ＰＰ越少， 招式的威力越大。",
+            "usum": "王牌招式的 剩余ＰＰ越少， 招式的威力越大。",
+            "lgpe": "王牌招式的 剩余PP越少， 招式的威力越大。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power is determined by the PP remaining for this move, after its PP cost is deducted.  Ignores accuracy and evasion modifiers. PP remaining | Power ------------ | ----: 4 or more    |    40 3            |    50 2            |    60 1            |    80 0            |   200 If this move is activated by another move, the activating move’s PP is used to calculate power.",
+        "shortEffect": "Power increases when this move has less PP, up to a maximum of 200."
+    }
 }

@@ -1,47 +1,144 @@
 {
-  "_id": 222,
-  "key": "magnitude",
-  "name": {
-    "english": "Magnitude",
-    "japanese": "マグニチュード",
-    "chinese": "震级",
-    "korean": "매그니튜드",
-    "german": "Magnitud",
-    "french": "Intensität",
-    "italian": "Magnitude",
-    "spanish": "Magnitudo"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 30,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A ground attack\nwith random power.",
-    "crystal": "A ground attack\nwith random power.",
-    "ruby-sapphire": "A ground-shaking attack\nof random intensity.",
-    "emerald": "A ground-shaking attack\nof random intensity.",
-    "firered-leafgreen": "A ground-shaking\nattack against all\nstanding POKéMON.\nIts power varies.",
-    "diamond-pearl": "The user looses a\nground-shaking quake\naffecting everyone in\nbattle. Its power\nvaries.",
-    "platinum": "The user looses a\nground-shaking quake\naffecting everyone in\nbattle. Its power\nvaries.",
-    "heartgold-soulsilver": "The user looses a\nground-shaking quake\naffecting everyone in\nbattle. Its power\nvaries.",
-    "black-white": "The user looses a ground-shaking quake\naffecting everyone around the user.\nIts power varies.",
-    "black-2-white-2": "The user looses a ground-shaking quake\naffecting everyone around the user.\nIts power varies.",
-    "x-y": "The user attacks everything around it\nwith a ground-shaking quake.\nIts power varies.",
-    "omega-ruby-alpha-sapphire": "The user attacks everything around it\nwith a ground-shaking quake.\nIts power varies.",
-    "sun-moon": "The user attacks everything around it with a\nground-shaking quake. Its power varies.",
-    "ultra-sun-ultra-moon": "The user attacks everything around it with a\nground-shaking quake. Its power varies.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks everything around it with a\nground-shaking quake. Its power varies.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power is selected at random between 10 and 150, with an average of 71:\n\nMagnitude | Power | Chance\n--------: | ----: | -----:\n        4 |    10 |     5%\n        5 |    30 |    10%\n        6 |    50 |    20%\n        7 |    70 |    30%\n        8 |    90 |    20%\n        9 |   110 |    10%\n       10 |   150 |     5%\n\nThis move has double power against Pokémon currently underground due to dig.",
-    "shortEffect": "Power varies randomly from 10 to 150."
-  },
-  "priority": 0
+    "_id": 222,
+    "key": "magnitude",
+    "name": {
+        "japanese-kana": "マグニチュード",
+        "korean": "매그니튜드",
+        "traditional-chinese": "震級",
+        "french": "Ampleur",
+        "german": "Intensität",
+        "spanish": "Magnitud",
+        "italian": "Magnitudo",
+        "english": "Magnitude",
+        "japanese": "マグニチュード",
+        "simplified-chinese": "震级",
+        "latin-american-spanish": "Magnitud"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 30,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A ground attack with random power.",
+            "cr": "A ground attack with random power.",
+            "rs": "A ground-shaking attack of random intensity.",
+            "em": "A ground-shaking attack of random intensity.",
+            "frlg": "A ground-shaking attack against all standing POKéMON. Its power varies.",
+            "dp": "The user looses a ground-shaking quake affecting everyone in battle. Its power varies.",
+            "pt": "The user looses a ground-shaking quake affecting everyone in battle. Its power varies.",
+            "hgss": "The user looses a ground-shaking quake affecting everyone in battle. Its power varies.",
+            "bw": "The user looses a ground-shaking quake affecting everyone around the user. Its power varies.",
+            "b2w2": "The user looses a ground-shaking quake affecting everyone around the user. Its power varies.",
+            "xy": "The user attacks everything around it with a ground-shaking quake. Its power varies.",
+            "oras": "The user attacks everything around it with a ground-shaking quake. Its power varies.",
+            "sm": "The user attacks everything around it with a ground-shaking quake. Its power varies.",
+            "usum": "The user attacks everything around it with a ground-shaking quake. Its power varies.",
+            "lgpe": "The user attacks everything around it with a ground-shaking quake. Its power varies.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. L’efficacité varie.",
+            "xy": "Provoque un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. L’efficacité varie.",
+            "oras": "Provoque un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. L’efficacité varie.",
+            "sm": "Provoque un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. L’efficacité varie.",
+            "usum": "Provoque un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. L’efficacité varie.",
+            "lgpe": "Provoque un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. L’efficacité varie.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "じめんを　ゆらして　じぶんの まわりに　いるものを　こうげきする。 わざの　いりょくは　いろいろ　かわる。",
+            "oras": "じめんを　ゆらして　じぶんの まわりに　いるものを　こうげきする。 わざの　いりょくは　いろいろ　かわる。",
+            "sm": "じめんを　ゆらして　じぶんの まわりに　いるものを　こうげきする。 わざの　いりょくは　いろいろ　かわる。",
+            "usum": "じめんを　ゆらして　じぶんの まわりに　いるものを　こうげきする。 わざの　いりょくは　いろいろ　かわる。",
+            "lgpe": "じめんを　ゆらして　じぶんの まわりに　いるものを　こうげきする。 わざの　いりょくは　いろいろ　かわる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "땅을 흔들어서 자신의 주위에 있는 포켓몬을 공격한다. 기술의 위력이 여러모로 바뀐다.",
+            "oras": "땅을 흔들어서 자신의 주위에 있는 포켓몬을 공격한다. 기술의 위력이 여러모로 바뀐다.",
+            "sm": "땅을 흔들어서 자신의 주위에 있는 포켓몬을 공격한다. 기술의 위력이 여러모로 바뀐다.",
+            "usum": "땅을 흔들어서 자신의 주위에 있는 포켓몬을 공격한다. 기술의 위력이 여러모로 바뀐다.",
+            "lgpe": "땅을 흔들어서 자신의 주위에 있는 포켓몬을 공격한다. 기술의 위력이 여러모로 바뀐다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Erdbebenartiger Angriff von zufälliger Stärke gegen andere Pokémon in der Umgebung des Anwenders.",
+            "oras": "Erdbebenartiger Angriff von zufälliger Stärke gegen andere Pokémon in der Umgebung des Anwenders.",
+            "sm": "Erdbebenartiger Angriff von zufälliger Stärke gegen andere Pokémon in der Umgebung des Anwenders.",
+            "usum": "Erdbebenartiger Angriff von zufälliger Stärke gegen andere Pokémon in der Umgebung des Anwenders.",
+            "lgpe": "Erdbebenartiger Angriff von zufälliger Stärke gegen andere Pokémon in der Umgebung des Anwenders.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "oras": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "sm": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "usum": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "lgpe": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa scatena un terremoto d’intensità variabile che danneggia i Pokémon che ha intorno.",
+            "oras": "Chi la usa scatena un terremoto d’intensità variabile che danneggia i Pokémon che ha intorno.",
+            "sm": "Chi la usa scatena un terremoto d’intensità variabile che danneggia i Pokémon che ha intorno.",
+            "usum": "Chi la usa scatena un terremoto d’intensità variabile che danneggia i Pokémon che ha intorno.",
+            "lgpe": "Chi la usa scatena un terremoto d’intensità variabile che danneggia i Pokémon che ha intorno.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "地面を　揺らして　自分の 周りに　いるものを　攻撃する。 技の　威力は　いろいろ　変わる。",
+            "oras": "地面を　揺らして　自分の 周りに　いるものを　攻撃する。 技の　威力は　いろいろ　変わる。",
+            "sm": "地面を　揺らして　自分の 周りに　いるものを　攻撃する。 技の　威力は　いろいろ　変わる。",
+            "usum": "地面を　揺らして　自分の 周りに　いるものを　攻撃する。 技の　威力は　いろいろ　変わる。",
+            "lgpe": "地面を　揺らして　自分の 周りに　いるものを　攻撃する。 技の　威力は　いろいろ　変わる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "oras": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "sm": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "usum": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "lgpe": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "晃動地面，攻擊自己 周圍所有的寶可夢。 招式的威力有多種變化。",
+            "usum": "晃動地面，攻擊自己 周圍所有的寶可夢。 招式的威力有多種變化。",
+            "lgpe": "晃動地面，攻擊自己 周圍所有的寶可夢。 招式的威力有多種變化。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "晃动地面，攻击自己 周围所有的宝可梦。 招式的威力会有各种变化。",
+            "usum": "晃动地面，攻击自己 周围所有的宝可梦。 招式的威力会有各种变化。",
+            "lgpe": "晃动地面，攻击自己 周围所有的宝可梦。 招式的威力会有各种变化。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power is selected at random between 10 and 150, with an average of 71: Magnitude | Power | Chance --------: | ----: | -----:         4 |    10 |     5%         5 |    30 |    10%         6 |    50 |    20%         7 |    70 |    30%         8 |    90 |    20%         9 |   110 |    10%        10 |   150 |     5% This move has double power against Pokémon currently underground due to Dig.",
+        "shortEffect": "Power varies randomly from 10 to 150."
+    }
 }

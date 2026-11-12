@@ -1,47 +1,150 @@
 {
-  "_id": 58,
-  "key": "ice-beam",
-  "name": {
-    "english": "Ice Beam",
-    "japanese": "れいとうビーム",
-    "chinese": "急冻光线",
-    "korean": "냉동빔",
-    "german": "Rayo Hielo",
-    "french": "Eisstrahl",
-    "italian": "Ice Beam",
-    "spanish": "Geloraggio"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nfreeze the foe.",
-    "crystal": "An attack that may\nfreeze the foe.",
-    "ruby-sapphire": "Blasts the foe with an icy\nbeam that may freeze it.",
-    "emerald": "Blasts the foe with an icy\nbeam that may freeze it.",
-    "firered-leafgreen": "The foe is struck\nwith an icy beam.\nIt may freeze the\nfoe solid.",
-    "diamond-pearl": "The foe is struck\nwith an icy-cold\nbeam of energy.\nIt may also freeze\nthe target solid.",
-    "platinum": "The foe is struck\nwith an icy-cold\nbeam of energy.\nIt may also freeze\nthe target solid.",
-    "heartgold-soulsilver": "The foe is struck\nwith an icy-cold\nbeam of energy.\nIt may also freeze\nthe target solid.",
-    "black-white": "The target is struck with an icy-cold\nbeam of energy.\nIt may also freeze the target solid.",
-    "black-2-white-2": "The target is struck with an icy-cold\nbeam of energy.\nIt may also freeze the target solid.",
-    "x-y": "The target is struck with an icy-cold\nbeam of energy.\nThis may also leave the target frozen.",
-    "omega-ruby-alpha-sapphire": "The target is struck with an icy-cold\nbeam of energy.\nThis may also leave the target frozen.",
-    "sun-moon": "The target is struck with an icy-cold beam of energy.\nThis may also leave the target frozen.",
-    "ultra-sun-ultra-moon": "The target is struck with an icy-cold beam of energy.\nThis may also leave the target frozen.",
-    "lets-go-pikachu-lets-go-eevee": "The target is struck with an icy-cold beam of energy.\nThis may also leave the target frozen.",
-    "sword-shield": "The target is struck with an icy-cold beam of energy.\nThis may also leave the target frozen."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.",
-    "shortEffect": "Has a $effect_chance% chance to freeze the target."
-  },
-  "priority": 0
+    "_id": 58,
+    "key": "ice-beam",
+    "name": {
+        "japanese-kana": "れいとうビーム",
+        "korean": "냉동빔",
+        "traditional-chinese": "冰凍光束",
+        "french": "Laser Glace",
+        "german": "Eisstrahl",
+        "spanish": "Rayo Hielo",
+        "italian": "Geloraggio",
+        "english": "Ice Beam",
+        "japanese": "れいとうビーム",
+        "simplified-chinese": "冰冻光束",
+        "latin-american-spanish": "Rayo de Hielo"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "freeze",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 95
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may freeze the foe.",
+            "cr": "An attack that may freeze the foe.",
+            "rs": "Blasts the foe with an icy beam that may freeze it.",
+            "em": "Blasts the foe with an icy beam that may freeze it.",
+            "frlg": "The foe is struck with an icy beam. It may freeze the foe solid.",
+            "dp": "The foe is struck with an icy-cold beam of energy. It may also freeze the target solid.",
+            "pt": "The foe is struck with an icy-cold beam of energy. It may also freeze the target solid.",
+            "hgss": "The foe is struck with an icy-cold beam of energy. It may also freeze the target solid.",
+            "bw": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
+            "b2w2": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
+            "xy": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+            "oras": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+            "sm": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+            "usum": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+            "lgpe": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+            "swsh": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+            "la": "The target is struck with an icy-cold beam of energy. This may also leave the target with frostbite.",
+            "sv": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
+        },
+        "french": {
+            "bw": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+            "xy": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+            "oras": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+            "sm": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+            "usum": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+            "lgpe": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+            "swsh": "Un rayon de glace frappe l’ennemi. Peut aussi le geler."
+        },
+        "japanese-kana": {
+            "xy": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "oras": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "sm": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "usum": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "lgpe": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "swsh": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다.",
+            "oras": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다.",
+            "sm": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다.",
+            "usum": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다.",
+            "lgpe": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다.",
+            "swsh": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Das Ziel wird von einem Eisstrahl getroffen und friert eventuell ein.",
+            "oras": "Das Ziel wird von einem Eisstrahl getroffen und friert eventuell ein.",
+            "sm": "Das Ziel wird von einem Eisstrahl getroffen und friert eventuell ein.",
+            "usum": "Das Ziel wird von einem Eisstrahl getroffen und friert eventuell ein.",
+            "lgpe": "Das Ziel wird von einem Eisstrahl getroffen und friert eventuell ein.",
+            "swsh": "Das Ziel wird von einem Eisstrahl getroffen und friert eventuell ein."
+        },
+        "spanish": {
+            "xy": "Rayo de hielo que puede llegar a congelar.",
+            "oras": "Rayo de hielo que puede llegar a congelar.",
+            "sm": "Rayo de hielo que puede llegar a congelar.",
+            "usum": "Rayo de hielo que puede llegar a congelar.",
+            "lgpe": "Rayo de hielo que puede llegar a congelar.",
+            "swsh": "Rayo de hielo que puede llegar a congelar."
+        },
+        "italian": {
+            "xy": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo.",
+            "oras": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo.",
+            "sm": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo.",
+            "usum": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo.",
+            "lgpe": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo.",
+            "swsh": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo."
+        },
+        "japanese": {
+            "xy": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。",
+            "oras": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。",
+            "sm": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。",
+            "usum": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。",
+            "lgpe": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。",
+            "swsh": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Rayo de hielo que puede llegar a congelar.",
+            "oras": "Rayo de hielo que puede llegar a congelar.",
+            "sm": "Rayo de hielo que puede llegar a congelar.",
+            "usum": "Rayo de hielo que puede llegar a congelar.",
+            "lgpe": "Rayo de hielo que puede llegar a congelar.",
+            "swsh": "Rayo de hielo que puede llegar a congelar."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 冰凍光束進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "usum": "向對手發射 冰凍光束進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "lgpe": "向對手發射 冰凍光束進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "swsh": "向對手發射 冰凍光束進行攻擊。 有時會讓對手陷入冰凍狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 冰冻光束进行攻击。 有时会让对手陷入冰冻状态。",
+            "usum": "向对手发射 冰冻光束进行攻击。 有时会让对手陷入冰冻状态。",
+            "lgpe": "向对手发射 冰冻光束进行攻击。 有时会让对手陷入冰冻状态。",
+            "swsh": "向对手发射 冰冻光束进行攻击。 有时会让对手陷入冰冻状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to freeze the target.",
+        "shortEffect": "Has a chance to freeze the target."
+    }
 }

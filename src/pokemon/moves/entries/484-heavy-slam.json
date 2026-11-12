@@ -1,39 +1,138 @@
 {
-  "_id": 484,
-  "key": "heavy-slam",
-  "name": {
-    "english": "Heavy Slam",
-    "japanese": "ヘビーボンバー",
-    "chinese": "沉重轰炸",
-    "korean": "헤비봄버",
-    "german": "Cuerpo Pesado",
-    "french": "Rammboss",
-    "italian": "Heavy Slam",
-    "spanish": "Pesobomba"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater its damage.",
-    "black-2-white-2": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater its damage.",
-    "x-y": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater the move’s power.",
-    "sun-moon": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power.",
-    "ultra-sun-ultra-moon": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power.",
-    "sword-shield": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  The greater the user's weight compared to the target's, the higher power this move has, to a maximum of 120.\n\nUser's weight                    | Power\n-------------------------------- | ----:\nUp to 2× the target's weight     |    40\nUp to 3× the target's weight     |    60\nUp to 4× the target's weight     |    80\nUp to 5× the target's weight     |   100\nMore than 5× the target's weight |   120\n",
-    "shortEffect": "Power is higher when the user weighs more than the target, up to a maximum of 120."
-  },
-  "priority": 0
+    "_id": 484,
+    "key": "heavy-slam",
+    "name": {
+        "japanese-kana": "ヘビーボンバー",
+        "korean": "헤비봄버",
+        "traditional-chinese": "重磅衝撞",
+        "french": "Tacle Lourd",
+        "german": "Rammboss",
+        "spanish": "Cuerpo Pesado",
+        "italian": "Pesobomba",
+        "english": "Heavy Slam",
+        "japanese": "ヘビーボンバー",
+        "simplified-chinese": "重磅冲撞",
+        "latin-american-spanish": "Golpe Pesado"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+            "xy": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+            "oras": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+            "sm": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+            "usum": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+            "lgpe": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+            "swsh": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence."
+        },
+        "english": {
+            "bw": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater its damage.",
+            "b2w2": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater its damage.",
+            "xy": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.",
+            "oras": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.",
+            "sm": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.",
+            "usum": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.",
+            "lgpe": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.",
+            "swsh": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.",
+            "la": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power.",
+            "sv": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power."
+        },
+        "japanese-kana": {
+            "xy": "おもたい　からだで　あいてに　ぶつかって こうげきする。じぶんが　あいてより おもいほど　いりょくが　あがる。",
+            "oras": "おもたい　からだで　あいてに　ぶつかって こうげきする。じぶんが　あいてより おもいほど　いりょくが　あがる。",
+            "sm": "おもたい　からだで　あいてに　ぶつかって こうげきする。　じぶんが　あいてより おもいほど　いりょくが　あがる。",
+            "usum": "おもたい　からだで　あいてに　ぶつかって こうげきする。　じぶんが　あいてより おもいほど　いりょくが　あがる。",
+            "lgpe": "おもたい　からだで　あいてに　ぶつかって こうげきする。　じぶんが　あいてより おもいほど　いりょくが　あがる。",
+            "swsh": "おもたい　からだで　あいてに　ぶつかって こうげきする。　じぶんが　あいてより おもいほど　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.",
+            "oras": "무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.",
+            "sm": "무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.",
+            "usum": "무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.",
+            "lgpe": "무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.",
+            "swsh": "무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Anwender rammt das Ziel mit massivem Körper. Je schwerer er im Vergleich zum Ziel ist, desto stärker die Attacke.",
+            "oras": "Anwender rammt das Ziel mit massivem Körper. Je schwerer er im Vergleich zum Ziel ist, desto stärker die Attacke.",
+            "sm": "Anwender rammt das Ziel mit massivem Körper. Je schwerer er im Vergleich zum Ziel ist, desto stärker die Attacke.",
+            "usum": "Anwender rammt das Ziel mit massivem Körper. Je schwerer er im Vergleich zum Ziel ist, desto stärker die Attacke.",
+            "lgpe": "Anwender rammt das Ziel mit massivem Körper. Je schwerer er im Vergleich zum Ziel ist, desto stärker die Attacke.",
+            "swsh": "Anwender rammt das Ziel mit massivem Körper. Je schwerer er im Vergleich zum Ziel ist, desto stärker die Attacke."
+        },
+        "spanish": {
+            "xy": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "oras": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "sm": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "usum": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "lgpe": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "swsh": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará."
+        },
+        "italian": {
+            "xy": "Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.",
+            "oras": "Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.",
+            "sm": "Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.",
+            "usum": "Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.",
+            "lgpe": "Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.",
+            "swsh": "Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa."
+        },
+        "japanese": {
+            "xy": "重たい　体で　相手に　ぶつかって 攻撃する。自分が　相手より 重いほど　威力が　あがる。",
+            "oras": "重たい　体で　相手に　ぶつかって 攻撃する。自分が　相手より 重いほど　威力が　あがる。",
+            "sm": "重たい　体で　相手に　ぶつかって 攻撃する。　自分が　相手より 重いほど　威力が　あがる。",
+            "usum": "重たい　体で　相手に　ぶつかって 攻撃する。　自分が　相手より 重いほど　威力が　あがる。",
+            "lgpe": "重たい　体で　相手に　ぶつかって 攻撃する。　自分が　相手より 重いほど　威力が　あがる。",
+            "swsh": "重たい　体で　相手に　ぶつかって 攻撃する。　自分が　相手より 重いほど　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "oras": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "sm": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "usum": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "lgpe": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+            "swsh": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará."
+        },
+        "traditional-chinese": {
+            "sm": "用沉重的身體衝撞對手進行攻擊。 體重比對手重越多，威力越大。",
+            "usum": "用沉重的身體衝撞對手進行攻擊。 體重比對手重越多，威力越大。",
+            "lgpe": "用沉重的身體衝撞對手進行攻擊。 體重比對手重越多，威力越大。",
+            "swsh": "用沉重的身體衝撞對手進行攻擊。 體重比對手重越多，威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "用沉重的身体撞向对手进行攻击。 自己比对手越重，威力越大。",
+            "usum": "用沉重的身体撞向对手进行攻击。 自己比对手越重，威力越大。",
+            "lgpe": "用沉重的身体撞向对手进行攻击。 自己比对手越重，威力越大。",
+            "swsh": "用沉重的身体撞向对手进行攻击。 自己比对手越重，威力越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  The greater the user’s weight compared to the target’s, the higher power this move has, to a maximum of 120. User’s weight                    | Power -------------------------------- | ----: Up to 2× the target’s weight     |    40 Up to 3× the target’s weight     |    60 Up to 4× the target’s weight     |    80 Up to 5× the target’s weight     |   100 More than 5× the target’s weight |   120",
+        "shortEffect": "Power is higher when the user weighs more than the target, up to a maximum of 120."
+    }
 }

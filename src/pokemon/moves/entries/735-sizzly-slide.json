@@ -1,33 +1,98 @@
 {
-  "_id": 735,
-  "key": "sizzly-slide",
-  "name": {
-    "english": "Sizzly Slide",
-    "japanese": "めらめらバーン",
-    "chinese": "熊熊火爆",
-    "korean": "이글이글번",
-    "german": "Flarembestida",
-    "french": "Flackerbrand",
-    "italian": "Sizzly Slide",
-    "spanish": "Fiammabam"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user cloaks itself in fire and charges at the target.\nThis also leaves the target with a burn.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 735,
+    "key": "sizzly-slide",
+    "name": {
+        "japanese-kana": "めらめらバーン",
+        "korean": "이글이글번",
+        "traditional-chinese": "熊熊火爆",
+        "french": "Évo-Flambo",
+        "german": "Flackerbrand",
+        "spanish": "Flarembestida",
+        "italian": "Fiammabam",
+        "english": "Sizzly Slide",
+        "japanese": "めらめらバーン",
+        "simplified-chinese": "熊熊火爆",
+        "latin-american-spanish": "Flarembestida"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "swsh": {
+            "power": 90,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "ほのおを　まとった　からだで いきおいよく　あいてに　ぶつかる。 あいてを　やけど　じょうたいに　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "불꽃을 두른 몸으로 기세 좋게 상대에게 부딪친다. 상대를 화상 상태로 만든다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "用纏繞著火焰的身體 猛烈地衝撞對手， 讓對手陷入灼傷狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Évoli s’embrase et percute violemment l’adversaire. Brûle aussi l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Evoli hüllt sich in Flammen und stürzt sich beherzt auf das Ziel, welches dadurch Verbrennungen erleidet.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Tras envolver su cuerpo en llamas, el usuario arrolla con fuerza al rival y le provoca quemaduras.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Chi la usa viene avvolto dalle fiamme e colpisce il bersaglio con forza, scottandolo.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user cloaks itself in fire and charges at the target. This also leaves the target with a burn.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "炎を　まとった　体で 勢いよく　相手に　ぶつかる。 相手を　やけど状態に　する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "用燃起大火的身体 猛烈地冲撞对手。 让对手陷入灼伤状态。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Tras envolver su cuerpo en llamas, el usuario arrolla con fuerza al rival y le provoca quemaduras.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

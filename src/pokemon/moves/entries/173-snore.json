@@ -1,47 +1,150 @@
 {
-  "_id": 173,
-  "key": "snore",
-  "name": {
-    "english": "Snore",
-    "japanese": "いびき",
-    "chinese": "打鼾",
-    "korean": "코골기",
-    "german": "Ronquido",
-    "french": "Schnarcher",
-    "italian": "Snore",
-    "spanish": "Russare"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 15,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack useable\nonly while asleep.",
-    "crystal": "An attack useable\nonly while asleep.",
-    "ruby-sapphire": "A loud attack that can be\nused only while asleep.",
-    "emerald": "A loud attack that can be\nused only while asleep.",
-    "firered-leafgreen": "An attack that can\nbe used only while\nasleep. It may\ncause flinching.",
-    "diamond-pearl": "An attack that can\nbe used only if the\nuser is asleep. The\nharsh noise may also\nmake the foe flinch.",
-    "platinum": "An attack that can\nbe used only if the\nuser is asleep. The\nharsh noise may also\nmake the foe flinch.",
-    "heartgold-soulsilver": "An attack that can\nbe used only if the\nuser is asleep. The\nharsh noise may also\nmake the foe flinch.",
-    "black-white": "An attack that can be used only if the\nuser is asleep. The harsh noise may also\nmake the target flinch.",
-    "black-2-white-2": "An attack that can be used only if the\nuser is asleep. The harsh noise may also\nmake the target flinch.",
-    "x-y": "An attack that can be used only if the\nuser is asleep. The harsh noise may also\nmake the target flinch.",
-    "omega-ruby-alpha-sapphire": "An attack that can be used only if the\nuser is asleep. The harsh noise may also\nmake the target flinch.",
-    "sun-moon": "This attack can be used only if the user is asleep.\nThe harsh noise may also make the target flinch.",
-    "ultra-sun-ultra-moon": "This attack can be used only if the user is asleep.\nThe harsh noise may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "This attack can be used only if the user is asleep.\nThe harsh noise may also make the target flinch.",
-    "sword-shield": "This attack can be used only if the user is asleep.\nThe harsh noise may also make the target flinch."
-  },
-  "effect": {
-    "full": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping."
-  },
-  "priority": 0
+    "_id": 173,
+    "key": "snore",
+    "name": {
+        "japanese-kana": "いびき",
+        "korean": "코골기",
+        "traditional-chinese": "打鼾",
+        "french": "Ronflement",
+        "german": "Schnarcher",
+        "spanish": "Ronquido",
+        "italian": "Russare",
+        "english": "Snore",
+        "japanese": "いびき",
+        "simplified-chinese": "打鼾",
+        "latin-american-spanish": "Ronquido"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cute",
+    "pp": 15,
+    "power": 50,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 40
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack useable only while asleep.",
+            "cr": "An attack useable only while asleep.",
+            "rs": "A loud attack that can be used only while asleep.",
+            "em": "A loud attack that can be used only while asleep.",
+            "frlg": "An attack that can be used only while asleep. It may cause flinching.",
+            "dp": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch.",
+            "pt": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch.",
+            "hgss": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch.",
+            "bw": "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "b2w2": "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "xy": "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "oras": "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "sm": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "usum": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "lgpe": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "swsh": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "la": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+            "sv": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch."
+        },
+        "french": {
+            "bw": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.",
+            "xy": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.",
+            "oras": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.",
+            "sm": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.",
+            "usum": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.",
+            "lgpe": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.",
+            "swsh": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "じぶんが　ねている　ときに ざつおんを　だして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "じぶんが　ねている　ときに ざつおんを　だして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "じぶんが　ねている　ときに ざつおんを　だして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "じぶんが　ねている　ときに ざつおんを　だして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "じぶんが　ねている　ときに ざつおんを　だして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "じぶんが　ねている　ときに ざつおんを　だして　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "자신이 잠들어있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "자신이 잠들어 있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "자신이 잠들어 있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "자신이 잠들어 있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "자신이 잠들어 있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "자신이 잠들어 있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Attacke nur im Schlaf möglich. Ziel schreckt eventuell zurück.",
+            "oras": "Attacke nur im Schlaf möglich. Ziel schreckt eventuell zurück.",
+            "sm": "Attacke nur im Schlaf möglich. Ziel schreckt eventuell zurück.",
+            "usum": "Attacke nur im Schlaf möglich. Ziel schreckt eventuell zurück.",
+            "lgpe": "Attacke nur im Schlaf möglich. Ziel schreckt eventuell zurück.",
+            "swsh": "Attacke nur im Schlaf möglich. Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "oras": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "sm": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "usum": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "lgpe": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "swsh": "Fuerte ronquido que solo puede usarse dormido. Puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Mossa da usare solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.",
+            "oras": "Mossa da usare solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.",
+            "sm": "Mossa da usare solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.",
+            "usum": "Mossa da usare solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.",
+            "lgpe": "Mossa da usare solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.",
+            "swsh": "Mossa che può essere usata solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio."
+        },
+        "japanese": {
+            "xy": "自分が　寝ているときに 雑音を　だして　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "自分が　寝ているときに 雑音を　だして　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "自分が　寝ているときに 雑音を　だして　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "自分が　寝ているときに 雑音を　だして　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "自分が　寝ているときに 雑音を　だして　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "自分が　寝ているときに 雑音を　だして　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "oras": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "sm": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "usum": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "lgpe": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+            "swsh": "Fuerte ronquido que solo puede usarse dormido. Puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "在自己睡著時， 發出噪音進行攻擊。 有時會讓對手畏縮。",
+            "usum": "在自己睡著時， 發出噪音進行攻擊。 有時會讓對手畏縮。",
+            "lgpe": "在自己睡著時， 發出噪音進行攻擊。 有時會讓對手畏縮。",
+            "swsh": "在自己睡著時， 發出噪音進行攻擊。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "在自己睡觉时， 发出噪音进行攻击。 有时会使对手畏缩。",
+            "usum": "在自己睡觉时， 发出噪音进行攻击。 有时会使对手畏缩。",
+            "lgpe": "在自己睡觉时， 发出噪音进行攻击。 有时会使对手畏缩。",
+            "swsh": "在自己睡觉时， 发出噪音进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch.  Only works if the user is sleeping."
+    }
 }

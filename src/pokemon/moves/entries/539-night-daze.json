@@ -1,39 +1,138 @@
 {
-  "_id": 539,
-  "key": "night-daze",
-  "name": {
-    "english": "Night Daze",
-    "japanese": "ナイトバースト",
-    "chinese": "黑夜爆裂",
-    "korean": "나이트버스트",
-    "german": "Pulso Noche",
-    "french": "Nachtflut",
-    "italian": "Night Daze",
-    "spanish": "Urtoscuro"
-  },
-  "type": "Dark",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 85,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user lets loose a pitch-black shock\nwave at its target. It may also lower the\ntarget’s accuracy.",
-    "black-2-white-2": "The user lets loose a pitch-black shock\nwave at its target. It may also lower the\ntarget’s accuracy.",
-    "x-y": "The user lets loose a pitch-black shock\nwave at its target. This may also lower the\ntarget’s accuracy.",
-    "omega-ruby-alpha-sapphire": "The user lets loose a pitch-black shock\nwave at its target. This may also lower the\ntarget’s accuracy.",
-    "sun-moon": "The user lets loose a pitch-black shock wave at its\ntarget. This may also lower the target’s accuracy.",
-    "ultra-sun-ultra-moon": "The user lets loose a pitch-black shock wave at its\ntarget. This may also lower the target’s accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets loose a pitch-black shock wave at its\ntarget. This may also lower the target’s accuracy.",
-    "sword-shield": "The user lets loose a pitch-black shock wave at its\ntarget. This may also lower the target’s accuracy."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 539,
+    "key": "night-daze",
+    "name": {
+        "japanese-kana": "ナイトバースト",
+        "korean": "나이트버스트",
+        "traditional-chinese": "暗黑爆破",
+        "french": "Explonuit",
+        "german": "Nachtflut",
+        "spanish": "Pulso Noche",
+        "italian": "Urtoscuro",
+        "english": "Night Daze",
+        "japanese": "ナイトバースト",
+        "simplified-chinese": "暗黑爆破",
+        "latin-american-spanish": "Pulso Nocturno"
+    },
+    "type": "dark",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 85,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 40
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser la Précision de l’ennemi.",
+            "xy": "Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser sa Précision.",
+            "oras": "Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser sa Précision.",
+            "sm": "Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser sa Précision.",
+            "usum": "Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser sa Précision.",
+            "lgpe": "Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser sa Précision.",
+            "swsh": "Le lanceur attaque l’ennemi avec une onde de choc ténébreuse. Peut aussi baisser sa Précision."
+        },
+        "english": {
+            "bw": "The user lets loose a pitch-black shock wave at its target. It may also lower the target’s accuracy.",
+            "b2w2": "The user lets loose a pitch-black shock wave at its target. It may also lower the target’s accuracy.",
+            "xy": "The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.",
+            "oras": "The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.",
+            "sm": "The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.",
+            "usum": "The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.",
+            "lgpe": "The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.",
+            "swsh": "The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.",
+            "la": "The user lets loose a pitch-black shock wave at its target. This may also lower the target's accuracy.",
+            "sv": "The user looses a pitch-black shock wave at the target to inflict damage. This may also lower the target's accuracy."
+        },
+        "japanese-kana": {
+            "xy": "あんこくの　しょうげきはを とばして　あいてを　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "oras": "あんこくの　しょうげきはを とばして　あいてを　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "sm": "あんこくの　しょうげきはを とばして　あいてを　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "usum": "あんこくの　しょうげきはを とばして　あいてを　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "lgpe": "あんこくの　しょうげきはを とばして　あいてを　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "swsh": "あんこくの　しょうげきはを とばして　あいてを　こうげきする。 めいちゅうりつを　さげることが　ある。"
+        },
+        "korean": {
+            "xy": "암흑의 충격파를 날려서 상대를 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "oras": "암흑의 충격파를 날려서 상대를 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "sm": "암흑의 충격파를 날려서 상대를 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "usum": "암흑의 충격파를 날려서 상대를 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "lgpe": "암흑의 충격파를 날려서 상대를 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "swsh": "암흑의 충격파를 날려서 상대를 공격한다. 명중률을 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.",
+            "oras": "Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.",
+            "sm": "Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.",
+            "usum": "Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.",
+            "lgpe": "Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.",
+            "swsh": "Anwender greift das Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit des Zieles."
+        },
+        "spanish": {
+            "xy": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "oras": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "sm": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "usum": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "lgpe": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "swsh": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con un’onda d’urto oscura che può ridurne la precisione.",
+            "oras": "Chi la usa attacca il bersaglio con un’onda d’urto oscura che può ridurne la precisione.",
+            "sm": "Chi la usa attacca il bersaglio con un’onda d’urto oscura che può ridurne la precisione.",
+            "usum": "Chi la usa attacca il bersaglio con un’onda d’urto oscura che può ridurne la precisione.",
+            "lgpe": "Chi la usa attacca il bersaglio con un’onda d’urto oscura che può ridurne la precisione.",
+            "swsh": "Chi la usa attacca il bersaglio con un’onda d’urto oscura che può anche ridurne la precisione."
+        },
+        "japanese": {
+            "xy": "暗黒の　衝撃波を とばして　相手を　攻撃する。 命中率を　さげることが　ある。",
+            "oras": "暗黒の　衝撃波を とばして　相手を　攻撃する。 命中率を　さげることが　ある。",
+            "sm": "暗黒の　衝撃波を とばして　相手を　攻撃する。 命中率を　さげることが　ある。",
+            "usum": "暗黒の　衝撃波を とばして　相手を　攻撃する。 命中率を　さげることが　ある。",
+            "lgpe": "暗黒の　衝撃波を とばして　相手を　攻撃する。 命中率を　さげることが　ある。",
+            "swsh": "暗黒の　衝撃波を とばして　相手を　攻撃する。 命中率を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "oras": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "sm": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "usum": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "lgpe": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.",
+            "swsh": "Ataca al objetivo con una onda siniestra. Puede bajar su Precisión."
+        },
+        "traditional-chinese": {
+            "sm": "放出黑暗的衝擊波攻擊對手。 有時會降低對手的命中率。",
+            "usum": "放出黑暗的衝擊波攻擊對手。 有時會降低對手的命中率。",
+            "lgpe": "放出黑暗的衝擊波攻擊對手。 有時會降低對手的命中率。",
+            "swsh": "放出黑暗的衝擊波攻擊對手。 有時會降低對手的命中率。"
+        },
+        "simplified-chinese": {
+            "sm": "放出黑暗的冲击波攻击对手。 有时会降低对手的命中率。",
+            "usum": "放出黑暗的冲击波攻击对手。 有时会降低对手的命中率。",
+            "lgpe": "放出黑暗的冲击波攻击对手。 有时会降低对手的命中率。",
+            "swsh": "放出黑暗的冲击波攻击对手。 有时会降低对手的命中率。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s accuracy by one stage.",
+        "shortEffect": "Has a chance to lower the target’s accuracy by one stage."
+    }
 }

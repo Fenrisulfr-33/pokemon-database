@@ -1,45 +1,144 @@
 {
-  "_id": 349,
-  "key": "dragon-dance",
-  "name": {
-    "english": "Dragon Dance",
-    "japanese": "りゅうのまい",
-    "chinese": "龙之舞",
-    "korean": "용의춤",
-    "german": "Danza Dragón",
-    "french": "Drachentanz",
-    "italian": "Dragon Dance",
-    "spanish": "Dragodanza"
-  },
-  "type": "Dragon",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A mystical dance that ups\nATTACK and SPEED.",
-    "emerald": "A mystical dance that ups\nATTACK and SPEED.",
-    "firered-leafgreen": "A mystic, powerful\ndance that boosts\nthe user’s ATTACK\nand SPEED stats.",
-    "diamond-pearl": "The user vigorously\nperforms a mystic,\npowerful dance that\nboosts its Attack and\nSpeed stats.",
-    "platinum": "The user vigorously\nperforms a mystic,\npowerful dance that\nboosts its Attack and\nSpeed stats.",
-    "heartgold-soulsilver": "The user vigorously\nperforms a mystic,\npowerful dance that\nboosts its Attack and\nSpeed stats.",
-    "black-white": "The user vigorously performs a mystic,\npowerful dance that boosts its Attack and\nSpeed stats.",
-    "black-2-white-2": "The user vigorously performs a mystic,\npowerful dance that boosts its Attack and\nSpeed stats.",
-    "x-y": "The user vigorously performs a mystic,\npowerful dance that raises its Attack and\nSpeed stats.",
-    "omega-ruby-alpha-sapphire": "The user vigorously performs a mystic,\npowerful dance that raises its Attack and\nSpeed stats.",
-    "sun-moon": "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats.",
-    "ultra-sun-ultra-moon": "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats.",
-    "sword-shield": "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats."
-  },
-  "effect": {
-    "full": "Raises the user's Attack and Speed by one stage each.",
-    "shortEffect": "Raises the user's Attack and Speed by one stage."
-  },
-  "priority": 0
+    "_id": 349,
+    "key": "dragon-dance",
+    "name": {
+        "japanese-kana": "りゅうのまい",
+        "korean": "용의춤",
+        "traditional-chinese": "龍之舞",
+        "french": "Danse Draco",
+        "german": "Drachentanz",
+        "spanish": "Danza Dragón",
+        "italian": "Dragodanza",
+        "english": "Dragon Dance",
+        "japanese": "りゅうのまい",
+        "simplified-chinese": "龙之舞",
+        "latin-american-spanish": "Danza de Dragón"
+    },
+    "type": "dragon",
+    "category": "status",
+    "contest": "cool",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A mystical dance that ups ATTACK and SPEED.",
+            "em": "A mystical dance that ups ATTACK and SPEED.",
+            "frlg": "A mystic, powerful dance that boosts the user’s ATTACK and SPEED stats.",
+            "dp": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+            "pt": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+            "hgss": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+            "bw": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+            "b2w2": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+            "xy": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+            "oras": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+            "sm": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+            "usum": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+            "lgpe": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+            "swsh": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+            "la": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+            "sv": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats."
+        },
+        "french": {
+            "bw": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.",
+            "xy": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.",
+            "oras": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.",
+            "sm": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.",
+            "usum": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.",
+            "lgpe": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.",
+            "swsh": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "しんぴてきで　ちからづよい　まいを はげしく　おどる。じぶんの こうげきと　すばやさを　あげる。",
+            "oras": "しんぴてきで　ちからづよい　まいを はげしく　おどる。じぶんの こうげきと　すばやさを　あげる。",
+            "sm": "しんぴてきで　ちからづよい　まいを はげしく　おどる。　じぶんの こうげきと　すばやさを　あげる。",
+            "usum": "しんぴてきで　ちからづよい　まいを はげしく　おどる。　じぶんの こうげきと　すばやさを　あげる。",
+            "lgpe": "しんぴてきで　ちからづよい　まいを はげしく　おどる。　じぶんの こうげきと　すばやさを　あげる。",
+            "swsh": "しんぴてきで　ちからづよい　まいを はげしく　おどる。　じぶんの こうげきと　すばやさを　あげる。"
+        },
+        "korean": {
+            "xy": "신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 올린다.",
+            "oras": "신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 올린다.",
+            "sm": "신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 올린다.",
+            "usum": "신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 올린다.",
+            "lgpe": "신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 올린다.",
+            "swsh": "신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 올린다."
+        },
+        "german": {
+            "xy": "Ein mystischer Tanz, der den Angriffs- und Initiative-Wert erhöht.",
+            "oras": "Ein mystischer Tanz, der den Angriffs- und Initiative-Wert erhöht.",
+            "sm": "Ein mystischer Tanz, der den Angriffs- und Initiative-Wert erhöht.",
+            "usum": "Ein mystischer Tanz, der den Angriffs- und Initiative-Wert erhöht.",
+            "lgpe": "Ein mystischer Tanz, der den Angriffs- und Initiative-Wert erhöht.",
+            "swsh": "Ein mystischer Tanz, der den Angriffs- und Initiative-Wert erhöht."
+        },
+        "spanish": {
+            "xy": "Danza mística que sube el Ataque y la Velocidad.",
+            "oras": "Danza mística que sube el Ataque y la Velocidad.",
+            "sm": "Danza mística que sube el Ataque y la Velocidad.",
+            "usum": "Danza mística que sube el Ataque y la Velocidad.",
+            "lgpe": "Danza mística que sube el Ataque y la Velocidad.",
+            "swsh": "Danza mística que sube el Ataque y la Velocidad."
+        },
+        "italian": {
+            "xy": "Danza mistica e vigorosa che aumenta l’Attacco e la Velocità di chi la usa.",
+            "oras": "Danza mistica e vigorosa che aumenta l’Attacco e la Velocità di chi la usa.",
+            "sm": "Danza mistica e vigorosa che aumenta l’Attacco e la Velocità di chi la usa.",
+            "usum": "Danza mistica e vigorosa che aumenta l’Attacco e la Velocità di chi la usa.",
+            "lgpe": "Danza mistica e vigorosa che aumenta l’Attacco e la Velocità di chi la usa.",
+            "swsh": "Danza mistica e vigorosa che aumenta l’Attacco e la Velocità di chi la usa."
+        },
+        "japanese": {
+            "xy": "神秘的で　力強い　舞を 激しく　おどる。自分の 攻撃と　素早さを　あげる。",
+            "oras": "神秘的で　力強い　舞を 激しく　おどる。自分の 攻撃と　素早さを　あげる。",
+            "sm": "神秘的で　力強い　舞を 激しく　おどる。　自分の 攻撃と　素早さを　あげる。",
+            "usum": "神秘的で　力強い　舞を 激しく　おどる。　自分の 攻撃と　素早さを　あげる。",
+            "lgpe": "神秘的で　力強い　舞を 激しく　おどる。　自分の 攻撃と　素早さを　あげる。",
+            "swsh": "神秘的で　力強い　舞を 激しく　おどる。　自分の 攻撃と　素早さを　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Danza mística que sube el Ataque y la Velocidad.",
+            "oras": "Danza mística que sube el Ataque y la Velocidad.",
+            "sm": "Danza mística que sube el Ataque y la Velocidad.",
+            "usum": "Danza mística que sube el Ataque y la Velocidad.",
+            "lgpe": "Danza mística que sube el Ataque y la Velocidad.",
+            "swsh": "Danza mística que sube el Ataque y la Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "激烈地跳起神秘又強而有力的舞蹈。 提高自己的攻擊和速度。",
+            "usum": "激烈地跳起神秘又強而有力的舞蹈。 提高自己的攻擊和速度。",
+            "lgpe": "激烈地跳起神秘又強而有力的舞蹈。 提高自己的攻擊和速度。",
+            "swsh": "激烈地跳起神秘又強而有力的舞蹈。 提高自己的攻擊和速度。"
+        },
+        "simplified-chinese": {
+            "sm": "激烈地跳起神秘 且强有力的舞蹈。 从而提高自己的攻击和速度。",
+            "usum": "激烈地跳起神秘 且强有力的舞蹈。 从而提高自己的攻击和速度。",
+            "lgpe": "激烈地跳起神秘 且强有力的舞蹈。 从而提高自己的攻击和速度。",
+            "swsh": "激烈地跳起神秘 且强有力的舞蹈。 从而提高自己的攻击和速度。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Attack and Speed by one stage each.",
+        "shortEffect": "Raises the user’s Attack and Speed by one stage."
+    }
 }

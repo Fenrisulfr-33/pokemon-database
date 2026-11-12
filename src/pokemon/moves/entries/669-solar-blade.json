@@ -1,35 +1,117 @@
 {
-  "_id": 669,
-  "key": "solar-blade",
-  "name": {
-    "english": "Solar Blade",
-    "japanese": "ソーラーブレード",
-    "chinese": "日光刃",
-    "korean": "솔라블레이드",
-    "german": "Cuchilla Solar",
-    "french": "Solarklinge",
-    "italian": "Solar Blade",
-    "spanish": "Lama Solare"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 125,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "In this two-turn attack, the user gathers light and\nfills a blade with the light’s energy, attacking the\ntarget on the next turn.",
-    "ultra-sun-ultra-moon": "In this two-turn attack, the user gathers light and\nfills a blade with the light’s energy, attacking the\ntarget on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "In this two-turn attack, the user gathers light and\nfills a blade with the light’s energy, attacking the\ntarget on the next turn.",
-    "sword-shield": "In this two-turn attack, the user gathers light and fills a\nblade with the light’s energy, attacking the target on the\nnext turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring sunny day, the charge turn is skipped.\n\nDuring hail, rain dance, or sandstorm, power is halved.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "Requires a turn to charge before attacking."
-  },
-  "priority": 0
+    "_id": 669,
+    "key": "solar-blade",
+    "name": {
+        "japanese-kana": "ソーラーブレード",
+        "korean": "솔라블레이드",
+        "traditional-chinese": "日光刃",
+        "french": "Lame Solaire",
+        "german": "Solarklinge",
+        "spanish": "Cuchilla Solar",
+        "italian": "Lama Solare",
+        "english": "Solar Blade",
+        "japanese": "ソーラーブレード",
+        "simplified-chinese": "日光刃",
+        "latin-american-spanish": "Cuchillada Solar"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 125,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　そのちからを けんに　こめて　こうげきする。",
+            "usum": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　そのちからを けんに　こめて　こうげきする。",
+            "lgpe": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　そのちからを けんに　こめて　こうげきする。",
+            "swsh": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　そのちからを けんに　こめて　こうげきする。"
+        },
+        "korean": {
+            "sm": "1턴째 빛을 가득하게 모으고 2턴째 그 힘을 검에 담아 공격한다.",
+            "usum": "1턴째 빛을 가득하게 모으고 2턴째 그 힘을 검에 담아 공격한다.",
+            "lgpe": "1턴째 빛을 가득하게 모으고 2턴째 그 힘을 검에 담아 공격한다.",
+            "swsh": "1턴째에 빛을 가득 모아 2턴째에 그 힘을 검에 담아 공격한다."
+        },
+        "traditional-chinese": {
+            "sm": "第１回合收集滿滿的日光， 第２回合將此力量 集中在劍上並進行攻擊。",
+            "usum": "第１回合收集滿滿的日光， 第２回合將此力量 集中在劍上並進行攻擊。",
+            "lgpe": "第１回合收集滿滿的日光， 第２回合將此力量 集中在劍上並進行攻擊。",
+            "swsh": "使用後的第１回合吸收大量日光， 並於第２回合把力量 注入劍裡進行攻擊。"
+        },
+        "french": {
+            "sm": "Le lanceur absorbe la lumière au premier tour et attaque au second tour en libérant cette énergie sous forme de lames.",
+            "usum": "Le lanceur absorbe la lumière au premier tour et attaque au second tour en libérant cette énergie sous forme de lames.",
+            "lgpe": "Le lanceur absorbe la lumière au premier tour et attaque au second tour en libérant cette énergie sous forme de lames.",
+            "swsh": "Le lanceur absorbe la lumière au premier tour et attaque au second tour en libérant cette énergie sous forme de lames."
+        },
+        "german": {
+            "sm": "Der Anwender absorbiert in der 1. Runde Licht, das er in der 2. Runde zu einem Schwert formt, mit dem er angreift.",
+            "usum": "Der Anwender absorbiert in der 1. Runde Licht, das er in der 2. Runde zu einem Schwert formt, mit dem er angreift.",
+            "lgpe": "Der Anwender absorbiert in der 1. Runde Licht, das er in der 2. Runde zu einem Schwert formt, mit dem er angreift.",
+            "swsh": "In Runde 1 absorbiert der Anwender Licht, das er in Runde 2 zu einem Schwert formt, mit dem er dann angreift."
+        },
+        "spanish": {
+            "sm": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.",
+            "usum": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.",
+            "lgpe": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.",
+            "swsh": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival en el siguiente turno."
+        },
+        "italian": {
+            "sm": "Chi la usa assorbe la luce condensandola in una lama al primo turno per poi attaccare al turno successivo.",
+            "usum": "Chi la usa assorbe la luce condensandola in una lama al primo turno per poi attaccare al turno successivo.",
+            "lgpe": "Chi la usa assorbe la luce condensandola in una lama al primo turno per poi attaccare al turno successivo.",
+            "swsh": "Chi la usa assorbe la luce condensandola in una lama al primo turno per poi attaccare al turno successivo."
+        },
+        "english": {
+            "sm": "In this two-turn attack, the user gathers light and fills a blade with the light’s energy, attacking the target on the next turn.",
+            "usum": "In this two-turn attack, the user gathers light and fills a blade with the light’s energy, attacking the target on the next turn.",
+            "lgpe": "In this two-turn attack, the user gathers light and fills a blade with the light’s energy, attacking the target on the next turn.",
+            "swsh": "In this two-turn attack, the user gathers light and fills a blade with the light’s energy, attacking the target on the next turn.",
+            "la": "In this two-turn attack, the user gathers light and fills a blade with the light's energy, attacking the target on the next turn.",
+            "sv": "The user gathers light on the first turn, then fills a blade with the light's energy and attacks on the next turn."
+        },
+        "japanese": {
+            "sm": "１ターン目に　光を　いっぱいに　集め ２ターン目に　その　力を 剣に　込めて　攻撃する。",
+            "usum": "１ターン目に　光を　いっぱいに　集め ２ターン目に　その　力を 剣に　込めて　攻撃する。",
+            "lgpe": "１ターン目に　光を　いっぱいに　集め ２ターン目に　その　力を 剣に　込めて　攻撃する。",
+            "swsh": "１ターン目に　光を　いっぱいに　集め ２ターン目に　その　力を 剣に　込めて　攻撃する。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合收集满满的日光， 第２回合将此力量 集中在剑上进行攻击。",
+            "usum": "第１回合收集满满的日光， 第２回合将此力量 集中在剑上进行攻击。",
+            "lgpe": "第１回合收集满满的日光， 第２回合将此力量 集中在剑上进行攻击。",
+            "swsh": "第１回合收集满满的日光， 第２回合将此力量 集中在剑上进行攻击。"
+        },
+        "latin-american-spanish": {
+            "sm": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.",
+            "usum": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.",
+            "lgpe": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.",
+            "swsh": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival en el siguiente turno."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User charges for one turn before attacking. During Sunny Day, the charge turn is skipped. During Hail, Rain Dance, or Sandstorm, power is halved. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "Requires a turn to charge before attacking."
+    }
 }

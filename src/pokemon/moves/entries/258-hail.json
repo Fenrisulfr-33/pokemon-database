@@ -1,45 +1,142 @@
 {
-  "_id": 258,
-  "key": "hail",
-  "name": {
-    "english": "Hail",
-    "japanese": "あられ",
-    "chinese": "冰雹",
-    "korean": "싸라기눈",
-    "german": "Granizo",
-    "french": "Hagelsturm",
-    "italian": "Hail",
-    "spanish": "Grandine"
-  },
-  "type": "Ice",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Summons a hailstorm that\nstrikes every turn.",
-    "emerald": "Summons a hailstorm that\nstrikes every turn.",
-    "firered-leafgreen": "A hailstorm lasting\nfive turns damages\nall POKéMON except\nthe ICE-type.",
-    "diamond-pearl": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPokémon except the\nIce type.",
-    "platinum": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPokémon except the\nIce type.",
-    "heartgold-soulsilver": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPokémon except the\nIce type.",
-    "black-white": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
-    "black-2-white-2": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
-    "x-y": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
-    "omega-ruby-alpha-sapphire": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
-    "sun-moon": "The user summons a hailstorm lasting five turns.\nIt damages all Pokémon except the Ice type.",
-    "ultra-sun-ultra-moon": "The user summons a hailstorm lasting five turns.\nIt damages all Pokémon except the Ice type.",
-    "lets-go-pikachu-lets-go-eevee": "The user summons a hailstorm lasting five turns.\nIt damages all Pokémon except the Ice type.",
-    "sword-shield": "The user summons a hailstorm lasting five turns.\nIt damages all Pokémon except Ice types."
-  },
-  "effect": {
-    "full": "Changes the weather to hail for five turns, during which non-ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with snow cloak are exempt from this effect's damage.",
-    "shortEffect": "Changes the weather to a hailstorm for five turns."
-  },
-  "priority": 0
+    "_id": 258,
+    "key": "hail",
+    "name": {
+        "japanese-kana": "あられ",
+        "korean": "싸라기눈",
+        "traditional-chinese": "冰雹",
+        "french": "Grêle",
+        "german": "Hagelsturm",
+        "spanish": "Granizo",
+        "italian": "Grandine",
+        "english": "Hail",
+        "japanese": "あられ",
+        "simplified-chinese": "冰雹",
+        "latin-american-spanish": "Granizo"
+    },
+    "type": "ice",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Summons a hailstorm that strikes every turn.",
+            "em": "Summons a hailstorm that strikes every turn.",
+            "frlg": "A hailstorm lasting five turns damages all POKéMON except the ICE-type.",
+            "dp": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "pt": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "hgss": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "bw": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "b2w2": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "xy": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "oras": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "sm": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "usum": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "lgpe": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+            "swsh": "The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types."
+        },
+        "french": {
+            "bw": "Invoque une tempête de grêle qui dure 5 tours. Ne blesse pas les Pokémon de type Glace.",
+            "xy": "Invoque une tempête de grêle qui dure cinq tours. Ne blesse pas les Pokémon de type Glace.",
+            "oras": "Invoque une tempête de grêle qui dure cinq tours. Ne blesse pas les Pokémon de type Glace.",
+            "sm": "Invoque une tempête de grêle qui dure cinq tours. Ne blesse pas les Pokémon de type Glace.",
+            "usum": "Invoque une tempête de grêle qui dure cinq tours. Ne blesse pas les Pokémon de type Glace.",
+            "lgpe": "Invoque une tempête de grêle qui dure cinq tours. Ne blesse pas les Pokémon de type Glace.",
+            "swsh": "Invoque une tempête de grêle qui dure cinq tours. Blesse tous les Pokémon, sauf ceux de type Glace."
+        },
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　あられを　ふらして こおりタイプで　ない　ポケモン ぜんいんに　ダメージを　あたえる。",
+            "oras": "５ターンの　あいだ　あられを　ふらして こおりタイプで　ない　ポケモン ぜんいんに　ダメージを　あたえる。",
+            "sm": "５ターンの　あいだ　あられを　ふらして こおりタイプで　ない　ポケモン ぜんいんに　ダメージを　あたえる。",
+            "usum": "５ターンの　あいだ　あられを　ふらして こおりタイプで　ない　ポケモン ぜんいんに　ダメージを　あたえる。",
+            "lgpe": "５ターンの　あいだ　あられを　ふらして こおりタイプで　ない　ポケモン ぜんいんに　ダメージを　あたえる。",
+            "swsh": "５ターンの　あいだ　あられを　ふらして こおりタイプで　ない　ポケモン ぜんいんに　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 싸라기눈을 내리게 해 얼음타입이 아닌 포켓몬 모두에게 데미지를 준다.",
+            "oras": "5턴 동안 싸라기눈을 내리게 해 얼음타입이 아닌 포켓몬 모두에게 데미지를 준다.",
+            "sm": "5턴 동안 싸라기눈을 내리게 해 얼음타입이 아닌 포켓몬 모두에게 데미지를 준다.",
+            "usum": "5턴 동안 싸라기눈을 내리게 해 얼음타입이 아닌 포켓몬 모두에게 데미지를 준다.",
+            "lgpe": "5턴 동안 싸라기눈을 내리게 해 얼음타입이 아닌 포켓몬 모두에게 데미지를 준다.",
+            "swsh": "5턴 동안 싸라기눈을 내리게 해서 얼음타입이 아닌 포켓몬 모두에게 데미지를 준다."
+        },
+        "german": {
+            "xy": "Hagelsturm für fünf Runden. Schadet allen, außer Eis-Pokémon.",
+            "oras": "Hagelsturm für fünf Runden. Schadet allen, außer Eis-Pokémon.",
+            "sm": "Hagelsturm für fünf Runden. Schadet allen außer Eis-Pokémon.",
+            "usum": "Hagelsturm für fünf Runden. Schadet allen außer Eis-Pokémon.",
+            "lgpe": "Hagelsturm für fünf Runden. Schadet allen außer Eis-Pokémon.",
+            "swsh": "Hagelsturm für fünf Runden. Schadet allen außer Eis-Pokémon."
+        },
+        "spanish": {
+            "xy": "Tormenta de granizo que dura cinco turnos. Hiere a todos, excepto a los de tipo Hielo.",
+            "oras": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "sm": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "usum": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "lgpe": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "swsh": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo."
+        },
+        "italian": {
+            "xy": "Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio.",
+            "oras": "Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio.",
+            "sm": "Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio.",
+            "usum": "Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio.",
+            "lgpe": "Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio.",
+            "swsh": "Chi la usa causa una grandinata che dura cinque turni. Danneggia tutti i Pokémon tranne quelli di tipo Ghiaccio."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　あられを　降らして こおりタイプで　ない　ポケモン 全員に　ダメージを　与える。",
+            "oras": "５ターンの　あいだ　あられを　降らして こおりタイプで　ない　ポケモン 全員に　ダメージを　与える。",
+            "sm": "５ターンの　間　あられを　降らして こおりタイプで　ない　ポケモン 全員に　ダメージを　与える。",
+            "usum": "５ターンの　間　あられを　降らして こおりタイプで　ない　ポケモン 全員に　ダメージを　与える。",
+            "lgpe": "５ターンの　間　あられを　降らして こおりタイプで　ない　ポケモン 全員に　ダメージを　与える。",
+            "swsh": "５ターンの　間　あられを　降らして こおりタイプで　ない　ポケモン 全員に　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tormenta de granizo que dura cinco turnos. Hiere a todos, excepto a los de tipo Hielo.",
+            "oras": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "sm": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "usum": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "lgpe": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.",
+            "swsh": "Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo."
+        },
+        "traditional-chinese": {
+            "sm": "降下冰雹，在５回合內 場上除了冰屬性以外的寶可夢 都會受到傷害。",
+            "usum": "降下冰雹，在５回合內 場上除了冰屬性以外的寶可夢 都會受到傷害。",
+            "lgpe": "降下冰雹，在５回合內 場上除了冰屬性以外的寶可夢 都會受到傷害。",
+            "swsh": "降下冰雹，在５回合內 場上除了冰屬性以外的寶可夢 都會受到傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内一直降冰雹， 除冰属性的宝可梦以外， 给予全体宝可梦伤害。",
+            "usum": "在５回合内一直降冰雹， 除冰属性的宝可梦以外， 给予全体宝可梦伤害。",
+            "lgpe": "在５回合内一直降冰雹， 除冰属性的宝可梦以外， 给予全体宝可梦伤害。",
+            "swsh": "在５回合内一直降冰雹， 除冰属性的宝可梦以外， 给予全体宝可梦伤害。"
+        }
+    },
+    "effect": {
+        "full": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn. If the user is holding Icy Rock, this effect lasts for eight turns. Blizzard has 100% accuracy.  If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Snow Cloak are exempt from this effect’s damage.",
+        "shortEffect": "Changes the weather to a hailstorm for five turns."
+    }
 }

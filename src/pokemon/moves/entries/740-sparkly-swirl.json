@@ -1,33 +1,99 @@
 {
-  "_id": 740,
-  "key": "sparkly-swirl",
-  "name": {
-    "english": "Sparkly Swirl",
-    "japanese": "きらきらストーム",
-    "chinese": "亮亮風暴",
-    "korean": "반짝반짝스톰",
-    "german": "Sylveotornado",
-    "french": "Glitzersturm",
-    "italian": "Sparkly Swirl",
-    "spanish": "Sbrilluccibufera"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 120,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target by wrapping it with\na whirlwind of an overpowering scent. This also\nheals all status conditions of the user’s party.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 740,
+    "key": "sparkly-swirl",
+    "name": {
+        "japanese-kana": "きらきらストーム",
+        "korean": "반짝반짝스톰",
+        "traditional-chinese": "亮亮風暴",
+        "french": "Évo-Fabulo",
+        "german": "Glitzersturm",
+        "spanish": "Sylveotornado",
+        "italian": "Sbrilluccibufera",
+        "english": "Sparkly Swirl",
+        "japanese": "きらきらストーム",
+        "simplified-chinese": "亮亮风暴",
+        "latin-american-spanish": "Sylveotornado"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 120,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "swsh": {
+            "accuracy": 100,
+            "power": 90,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "むせかえる　ような　かおりの　たつまきで あいてを　つつんで　こうげき。　みかたの じょうたい　いじょうを　かいふくする。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "숨 막힐 듯 진한 향기의 회오리로 상대를 휘감아 공격한다. 같은 편의 상태 이상을 회복한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "用帶著嗆鼻香氣的龍捲風 包圍對手，進行攻擊， 並治癒我方寶可夢的異常狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Une attaque qui enserre l’adversaire dans un tourbillon de senteurs oppressantes. Guérit toutes les altérations de statut de l’équipe.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Evoli greift an, indem es das Ziel in einen nahezu erstickend wohlriechenden Wirbelwind hüllt. Das Team des Anwenders wird von Statusproblemen geheilt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Ataca al rival envolviéndolo en un remolino de aroma asfixiante. Cura a los aliados de cualquier problema de estado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Chi la usa attacca il bersaglio avvolgendolo in un turbine di profumi soffocanti e cura i problemi di stato propri e degli alleati.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user’s party.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "むせかえる　ような　香りの　竜巻で 相手を　つつんで　攻撃。　味方の 状態異常を　回復する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "利用芬芳刺鼻的龙卷风吞噬对方。 能治愈我方宝可梦的异常状态。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Ataca al rival envolviéndolo en un remolino de aroma asfixiante. Cura a los aliados de cualquier problema de estado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

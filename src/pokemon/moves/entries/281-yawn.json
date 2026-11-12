@@ -1,45 +1,144 @@
 {
-  "_id": 281,
-  "key": "yawn",
-  "name": {
-    "english": "Yawn",
-    "japanese": "あくび",
-    "chinese": "哈欠",
-    "korean": "하품",
-    "german": "Bostezo",
-    "french": "Gähner",
-    "italian": "Yawn",
-    "spanish": "Sbadiglio"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Lulls the foe into yawning,\nthen sleeping next turn.",
-    "emerald": "Lulls the foe into yawning,\nthen sleeping next turn.",
-    "firered-leafgreen": "A huge yawn lulls\nthe foe into falling\nasleep on the next\nturn.",
-    "diamond-pearl": "The user lets loose a\nhuge yawn that lulls\nthe foe into falling\nasleep on the next\nturn.",
-    "platinum": "The user lets loose a\nhuge yawn that lulls\nthe foe into falling\nasleep on the next\nturn.",
-    "heartgold-soulsilver": "The user lets loose a\nhuge yawn that lulls\nthe foe into falling\nasleep on the next\nturn.",
-    "black-white": "The user lets loose a huge yawn that\nlulls the target into falling asleep\non the next turn.",
-    "black-2-white-2": "The user lets loose a huge yawn that\nlulls the target into falling asleep\non the next turn.",
-    "x-y": "The user lets loose a huge yawn that\nlulls the target into falling asleep\non the next turn.",
-    "omega-ruby-alpha-sapphire": "The user lets loose a huge yawn that\nlulls the target into falling asleep\non the next turn.",
-    "sun-moon": "The user lets loose a huge yawn that lulls the target\ninto falling asleep on the next turn.",
-    "ultra-sun-ultra-moon": "The user lets loose a huge yawn that lulls the target\ninto falling asleep on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets loose a huge yawn that lulls the target\ninto falling asleep on the next turn.",
-    "sword-shield": "The user lets loose a huge yawn that lulls the target\ninto falling asleep on the next turn."
-  },
-  "effect": {
-    "full": "Puts the target to sleep at the end of the next turn.  Ignores accuracy and evasion modifiers.  If the target leaves the field, this effect is canceled.  If the target has a status effect when this move is used, this move will fail.\n\nIf the target is protected by safeguard when this move is used, this move will fail.\n\ninsomnia and vital spirit prevent the sleep if the target has either at the end of the next turn, but will not cause this move to fail on use.",
-    "shortEffect": "Target sleeps at the end of the next turn."
-  },
-  "priority": 0
+    "_id": 281,
+    "key": "yawn",
+    "name": {
+        "japanese-kana": "あくび",
+        "korean": "하품",
+        "traditional-chinese": "哈欠",
+        "french": "Bâillement",
+        "german": "Gähner",
+        "spanish": "Bostezo",
+        "italian": "Sbadiglio",
+        "english": "Yawn",
+        "japanese": "あくび",
+        "simplified-chinese": "哈欠",
+        "latin-american-spanish": "Bostezo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "yawn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 2,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Lulls the foe into yawning, then sleeping next turn.",
+            "em": "Lulls the foe into yawning, then sleeping next turn.",
+            "frlg": "A huge yawn lulls the foe into falling asleep on the next turn.",
+            "dp": "The user lets loose a huge yawn that lulls the foe into falling asleep on the next turn.",
+            "pt": "The user lets loose a huge yawn that lulls the foe into falling asleep on the next turn.",
+            "hgss": "The user lets loose a huge yawn that lulls the foe into falling asleep on the next turn.",
+            "bw": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "b2w2": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "xy": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "oras": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "sm": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "usum": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "lgpe": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "swsh": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "la": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+            "sv": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn."
+        },
+        "french": {
+            "bw": "Fait bâiller l’ennemi qui s’endort au tour suivant.",
+            "xy": "Fait bâiller l’ennemi qui s’endort au tour suivant.",
+            "oras": "Fait bâiller l’ennemi qui s’endort au tour suivant.",
+            "sm": "Fait bâiller l’ennemi qui s’endort au tour suivant.",
+            "usum": "Fait bâiller l’ennemi qui s’endort au tour suivant.",
+            "lgpe": "Fait bâiller l’ennemi qui s’endort au tour suivant.",
+            "swsh": "Fait bâiller l’ennemi qui s’endort au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　あくびで　ねむけを　さそう。 つぎの　ターンに あいてを　ねむり　じょうたいに　する。",
+            "oras": "おおきな　あくびで　ねむけを　さそう。 つぎの　ターンに あいてを　ねむり　じょうたいに　する。",
+            "sm": "おおきな　あくびで　ねむけを　さそう。 つぎの　ターンに あいてを　ねむり　じょうたいに　する。",
+            "usum": "おおきな　あくびで　ねむけを　さそう。 つぎの　ターンに あいてを　ねむり　じょうたいに　する。",
+            "lgpe": "おおきな　あくびで　ねむけを　さそう。 つぎの　ターンに あいてを　ねむり　じょうたいに　する。",
+            "swsh": "おおきな　あくびで　ねむけを　さそう。 つぎの　ターンに あいてを　ねむり　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.",
+            "oras": "큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.",
+            "sm": "큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.",
+            "usum": "큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.",
+            "lgpe": "큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.",
+            "swsh": "큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다."
+        },
+        "german": {
+            "xy": "Angreifer gähnt und das Ziel schläft in der nächsten Runde ein.",
+            "oras": "Angreifer gähnt und das Ziel schläft in der nächsten Runde ein.",
+            "sm": "Angreifer gähnt und das Ziel schläft in der nächsten Runde ein.",
+            "usum": "Angreifer gähnt und das Ziel schläft in der nächsten Runde ein.",
+            "lgpe": "Angreifer gähnt und das Ziel schläft in der nächsten Runde ein.",
+            "swsh": "Anwender gähnt und das Ziel schläft in der nächsten Runde ein."
+        },
+        "spanish": {
+            "xy": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "oras": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "sm": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "usum": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "lgpe": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "swsh": "Gran bostezo que induce al sueño al objetivo en el siguiente turno."
+        },
+        "italian": {
+            "xy": "Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.",
+            "oras": "Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.",
+            "sm": "Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.",
+            "usum": "Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.",
+            "lgpe": "Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.",
+            "swsh": "Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente."
+        },
+        "japanese": {
+            "xy": "大きな　あくびで　眠気を　誘う。 次の　ターンに 相手を　眠り状態に　する。",
+            "oras": "大きな　あくびで　眠気を　誘う。 次の　ターンに 相手を　眠り状態に　する。",
+            "sm": "大きな　あくびで　眠気を　誘う。 次の　ターンに 相手を　眠り状態に　する。",
+            "usum": "大きな　あくびで　眠気を　誘う。 次の　ターンに 相手を　眠り状態に　する。",
+            "lgpe": "大きな　あくびで　眠気を　誘う。 次の　ターンに 相手を　眠り状態に　する。",
+            "swsh": "大きな　あくびで　眠気を　誘う。 次の　ターンに 相手を　眠り状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "oras": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "sm": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "usum": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "lgpe": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+            "swsh": "Gran bostezo que induce al sueño al objetivo en el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "打個大哈欠引起睡意。 在下一回合 讓對手陷入睡眠狀態。",
+            "usum": "打個大哈欠引起睡意。 在下一回合 讓對手陷入睡眠狀態。",
+            "lgpe": "打個大哈欠引起睡意。 在下一回合 讓對手陷入睡眠狀態。",
+            "swsh": "打個大哈欠引起睡意。 在下一回合 讓對手陷入睡眠狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "打个大哈欠引起睡意。 在下一回合让对手陷入睡眠状态。",
+            "usum": "打个大哈欠引起睡意。 在下一回合让对手陷入睡眠状态。",
+            "lgpe": "打个大哈欠引起睡意。 在下一回合让对手陷入睡眠状态。",
+            "swsh": "打个大哈欠引起睡意。 在下一回合让对手陷入睡眠状态。"
+        }
+    },
+    "effect": {
+        "full": "Puts the target to sleep at the end of the next turn.  Ignores accuracy and evasion modifiers.  If the target leaves the field, this effect is canceled.  If the target has a status effect when this move is used, this move will fail. If the target is protected by Safeguard when this move is used, this move will fail. Insomnia and Vital Spirit prevent the sleep if the target has either at the end of the next turn, but will not cause this move to fail on use.",
+        "shortEffect": "Target sleeps at the end of the next turn."
+    }
 }

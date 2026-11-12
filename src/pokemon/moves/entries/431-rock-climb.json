@@ -1,42 +1,139 @@
 {
-  "_id": 431,
-  "key": "rock-climb",
-  "name": {
-    "english": "Rock Climb",
-    "japanese": "ロッククライム",
-    "chinese": "攀登岩石",
-    "korean": "락클라임",
-    "german": "Treparrocas",
-    "french": "Kraxler",
-    "italian": "Rock Climb",
-    "spanish": "Scalaroccia"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 90,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "A charging attack\nthat may also leave\nthe foe confused.\nIt can also be used\nto scale rocky walls.",
-    "platinum": "A charging attack\nthat may also leave\nthe foe confused.\nIt can also be used\nto scale rocky walls.",
-    "heartgold-soulsilver": "A charging attack\nthat may also leave\nthe foe confused.\nIt can also be used\nto scale rocky walls.",
-    "black-white": "The user attacks the target by smashing\ninto it with incredible force.\nIt may also confuse the target.",
-    "black-2-white-2": "The user attacks the target by smashing\ninto it with incredible force.\nIt may also confuse the target.",
-    "x-y": "The user attacks the target by smashing\ninto it with incredible force.\nThis may also confuse the target.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target by smashing\ninto it with incredible force.\nThis may also confuse the target.",
-    "sun-moon": "The user attacks the target by smashing into it with\nincredible force. This may also confuse the target.",
-    "ultra-sun-ultra-moon": "The user attacks the target by smashing into it with\nincredible force. This may also confuse the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target by smashing into it with\nincredible force. This may also confuse the target.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 431,
+    "key": "rock-climb",
+    "name": {
+        "japanese-kana": "ロッククライム",
+        "korean": "록클라임",
+        "traditional-chinese": "攀岩",
+        "french": "Escalade",
+        "german": "Kraxler",
+        "spanish": "Treparrocas",
+        "italian": "Scalaroccia",
+        "english": "Rock Climb",
+        "japanese": "ロッククライム",
+        "simplified-chinese": "攀岩",
+        "latin-american-spanish": "Treparrocas"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 20,
+    "power": 90,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 20,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.",
+            "pt": "A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.",
+            "hgss": "A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.",
+            "bw": "The user attacks the target by smashing into it with incredible force. It may also confuse the target.",
+            "b2w2": "The user attacks the target by smashing into it with incredible force. It may also confuse the target.",
+            "xy": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+            "oras": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+            "sm": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+            "usum": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+            "lgpe": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur se jette violemment sur l’ennemi. Peut aussi le rendre confus.",
+            "xy": "Le lanceur se jette violemment sur l’ennemi. Peut aussi le rendre confus.",
+            "oras": "Le lanceur se jette violemment sur l’ennemi. Peut aussi le rendre confus.",
+            "sm": "Le lanceur se jette violemment sur l’ennemi. Peut aussi le rendre confus.",
+            "usum": "Le lanceur se jette violemment sur l’ennemi. Peut aussi le rendre confus.",
+            "lgpe": "Le lanceur se jette violemment sur l’ennemi. Peut aussi le rendre confus.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "すごい　いきおいで　あいてに つっこみ　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "oras": "すごい　いきおいで　あいてに つっこ 　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "sm": "すごい　いきおいで　あいてに つっこみ　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "usum": "すごい　いきおいで　あいてに つっこみ　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "lgpe": "すごい　いきおいで　あいてに つっこみ　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "굉장한 기세로 상대에게 돌진하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "oras": "굉장한 기세로 상대에게 돌진하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "sm": "굉장한 기세로 상대에게 돌진하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "usum": "굉장한 기세로 상대에게 돌진하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "lgpe": "굉장한 기세로 상대에게 돌진하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Eine stürmische Attacke, die das Ziel eventuell verwirrt.",
+            "oras": "Eine stürmische Attacke, die das Ziel eventuell verwirrt.",
+            "sm": "Eine stürmische Attacke, die das Ziel eventuell verwirrt.",
+            "usum": "Eine stürmische Attacke, die das Ziel eventuell verwirrt.",
+            "lgpe": "Eine stürmische Attacke, die das Ziel eventuell verwirrt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "oras": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "sm": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "usum": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "lgpe": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa carica con impeto incredibile. Il colpo può confondere il bersaglio.",
+            "oras": "Chi la usa carica con impeto incredibile. Il colpo può confondere il bersaglio.",
+            "sm": "Chi la usa carica con impeto incredibile. Il colpo può confondere il bersaglio.",
+            "usum": "Chi la usa carica con impeto incredibile. Il colpo può confondere il bersaglio.",
+            "lgpe": "Chi la usa carica con impeto incredibile. Il colpo può confondere il bersaglio.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "すごい　勢いで　相手に つっこみ　攻撃する。 相手を　混乱させることが　ある。",
+            "oras": "すごい　勢いで　相手に つっこ 　攻撃する。 相手を　混乱させることが　ある。",
+            "sm": "すごい　勢いで　相手に つっこみ　攻撃する。 相手を　混乱させることが　ある。",
+            "usum": "すごい　勢いで　相手に つっこみ　攻撃する。 相手を　混乱させることが　ある。",
+            "lgpe": "すごい　勢いで　相手に つっこみ　攻撃する。 相手を　混乱させることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "oras": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "sm": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "usum": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "lgpe": "Ataca con una gran embestida. Puede confundir al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用盡全力撲向對手進行攻擊。 有時會使對手混亂。",
+            "usum": "用盡全力撲向對手進行攻擊。 有時會使對手混亂。",
+            "lgpe": "用盡全力撲向對手進行攻擊。 有時會使對手混亂。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用尽全力扑向对手进行攻击。 有时会使对手混乱。",
+            "usum": "用尽全力扑向对手进行攻击。 有时会使对手混乱。",
+            "lgpe": "用尽全力扑向对手进行攻击。 有时会使对手混乱。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

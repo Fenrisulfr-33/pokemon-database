@@ -1,35 +1,124 @@
 {
-  "_id": 684,
-  "key": "smart-strike",
-  "name": {
-    "english": "Smart Strike",
-    "japanese": "スマートホーン",
-    "chinese": "修長之角",
-    "korean": "스마트호른",
-    "german": "Cuerno Certero",
-    "french": "Schmalhorn",
-    "italian": "Smart Strike",
-    "spanish": "Sottilcorno"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 70,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user stabs the target with a sharp horn. This\nattack never misses.",
-    "ultra-sun-ultra-moon": "The user stabs the target with a sharp horn. This\nattack never misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user stabs the target with a sharp horn. This\nattack never misses.",
-    "sword-shield": "The user stabs the target with a sharp horn. This\nattack never misses."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 684,
+    "key": "smart-strike",
+    "name": {
+        "japanese-kana": "スマートホーン",
+        "korean": "스마트혼",
+        "traditional-chinese": "修長之角",
+        "french": "Estocorne",
+        "german": "Schmalhorn",
+        "spanish": "Cuerno Certero",
+        "italian": "Sottilcorno",
+        "english": "Smart Strike",
+        "japanese": "スマートホーン",
+        "simplified-chinese": "修长之角",
+        "latin-american-spanish": "Cuerno Certero"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 70,
+    "accuracy": null,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "とがった　つので　あいてを つきさして　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "とがった　つので　あいてを つきさして　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "とがった　つので　あいてを つきさして　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "とがった　つので　あいてを つきさして　こうげきする。 こうげきは　かならず　めいちゅう　する。"
+        },
+        "korean": {
+            "sm": "뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다.",
+            "usum": "뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다.",
+            "lgpe": "뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다.",
+            "swsh": "뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다."
+        },
+        "traditional-chinese": {
+            "sm": "用尖尖的角刺進對手進行攻擊。 攻擊必定會命中。",
+            "usum": "用尖尖的角刺進對手進行攻擊。 攻擊必定會命中。",
+            "lgpe": "用尖尖的角刺進對手進行攻擊。 攻擊必定會命中。",
+            "swsh": "用尖尖的角刺進對手進行攻擊。 攻擊必定會命中。"
+        },
+        "french": {
+            "sm": "Le lanceur transperce la cible avec sa corne effilée. Touche toujours l’ennemi.",
+            "usum": "Le lanceur transperce la cible avec sa corne effilée. Touche toujours l’ennemi.",
+            "lgpe": "Le lanceur transperce la cible avec sa corne effilée. Touche toujours l’ennemi.",
+            "swsh": "Le lanceur transperce la cible avec sa corne effilée. Touche toujours l’ennemi."
+        },
+        "german": {
+            "sm": "Der Anwender durchbohrt das Ziel mit seinem spitzen Horn. Diese Attacke trifft immer.",
+            "usum": "Der Anwender durchbohrt das Ziel mit seinem spitzen Horn. Diese Attacke trifft immer.",
+            "lgpe": "Der Anwender durchbohrt das Ziel mit seinem spitzen Horn. Diese Attacke trifft immer.",
+            "swsh": "Der Anwender durchbohrt das Ziel mit seinem spitzen Horn. Diese Attacke trifft immer."
+        },
+        "spanish": {
+            "sm": "Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.",
+            "usum": "Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.",
+            "lgpe": "Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.",
+            "swsh": "El usuario ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre."
+        },
+        "italian": {
+            "sm": "Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.",
+            "usum": "Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.",
+            "lgpe": "Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.",
+            "swsh": "Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno."
+        },
+        "english": {
+            "sm": "The user stabs the target with a sharp horn. This attack never misses.",
+            "usum": "The user stabs the target with a sharp horn. This attack never misses.",
+            "lgpe": "The user stabs the target with a sharp horn. This attack never misses.",
+            "swsh": "The user stabs the target with a sharp horn. This attack never misses.",
+            "la": "The user stabs the target with a sharp horn. This attack never misses.",
+            "sv": "The user stabs the target with a sharp horn. This attack never misses."
+        },
+        "japanese": {
+            "sm": "とがった　つので　相手を 突き刺して　攻撃する。 攻撃は　必ず　命中する。",
+            "usum": "とがった　つので　相手を 突き刺して　攻撃する。 攻撃は　必ず　命中する。",
+            "lgpe": "とがった　つので　相手を 突き刺して　攻撃する。 攻撃は　必ず　命中する。",
+            "swsh": "とがった　つので　相手を 突き刺して　攻撃する。 攻撃は　必ず　命中する。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖尖的角刺入对手进行攻击。 攻击必定会命中。",
+            "usum": "用尖尖的角刺入对手进行攻击。 攻击必定会命中。",
+            "lgpe": "用尖尖的角刺入对手进行攻击。 攻击必定会命中。",
+            "swsh": "用尖尖的角刺入对手进行攻击。 攻击必定会命中。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.",
+            "usum": "Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.",
+            "lgpe": "Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.",
+            "swsh": "El usuario ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

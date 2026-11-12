@@ -1,47 +1,144 @@
 {
-  "_id": 228,
-  "key": "pursuit",
-  "name": {
-    "english": "Pursuit",
-    "japanese": "おいうち",
-    "chinese": "追打",
-    "korean": "따라가때리기",
-    "german": "Persecución",
-    "french": "Verfolgung",
-    "italian": "Pursuit",
-    "spanish": "Inseguimento"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 20,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Heavily strikes\nswitching POKéMON.",
-    "crystal": "Heavily strikes\nswitching POKéMON.",
-    "ruby-sapphire": "Inflicts bad damage if used\non a foe switching out.",
-    "emerald": "Inflicts bad damage if used\non a foe switching out.",
-    "firered-leafgreen": "An attack move that\nworks especially\nwell on a foe that\nis switching out.",
-    "diamond-pearl": "An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle.",
-    "platinum": "An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle.",
-    "heartgold-soulsilver": "An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle.",
-    "black-white": "An attack move that inflicts double damage\nif used on a target that is switching out\nof battle.",
-    "black-2-white-2": "An attack move that inflicts double damage\nif used on a target that is switching out\nof battle.",
-    "x-y": "An attack move that inflicts double damage\nif used on a target that is switching out\nof battle.",
-    "omega-ruby-alpha-sapphire": "An attack move that inflicts double damage\nif used on a target that is switching out\nof battle.",
-    "sun-moon": "The power of this attack move is doubled if it’s used\non a target that’s switching out of battle.",
-    "ultra-sun-ultra-moon": "The power of this attack move is doubled if it’s used\non a target that’s switching out of battle.",
-    "lets-go-pikachu-lets-go-eevee": "The power of this attack move is doubled if it’s used\non a target that’s switching out of battle.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target attempts to switch out this turn before the user acts, this move hits the target before it leaves and has double power.\n\nThis effect can still hit a Pokémon that switches out when it has a substitute up or when an ally has used follow me.",
-    "shortEffect": "Has double power against, and can hit, Pokémon attempting to switch out."
-  },
-  "priority": 0
+    "_id": 228,
+    "key": "pursuit",
+    "name": {
+        "japanese-kana": "おいうち",
+        "korean": "따라가때리기",
+        "traditional-chinese": "追打",
+        "french": "Poursuite",
+        "german": "Verfolgung",
+        "spanish": "Persecución",
+        "italian": "Inseguimento",
+        "english": "Pursuit",
+        "japanese": "おいうち",
+        "simplified-chinese": "追打",
+        "latin-american-spanish": "Persecución"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Heavily strikes switching POKéMON.",
+            "cr": "Heavily strikes switching POKéMON.",
+            "rs": "Inflicts bad damage if used on a foe switching out.",
+            "em": "Inflicts bad damage if used on a foe switching out.",
+            "frlg": "An attack move that works especially well on a foe that is switching out.",
+            "dp": "An attack move that inflicts double damage if used on a foe that is switching out of battle.",
+            "pt": "An attack move that inflicts double damage if used on a foe that is switching out of battle.",
+            "hgss": "An attack move that inflicts double damage if used on a foe that is switching out of battle.",
+            "bw": "An attack move that inflicts double damage if used on a target that is switching out of battle.",
+            "b2w2": "An attack move that inflicts double damage if used on a target that is switching out of battle.",
+            "xy": "An attack move that inflicts double damage if used on a target that is switching out of battle.",
+            "oras": "An attack move that inflicts double damage if used on a target that is switching out of battle.",
+            "sm": "The power of this attack move is doubled if it’s used on a target that’s switching out of battle.",
+            "usum": "The power of this attack move is doubled if it’s used on a target that’s switching out of battle.",
+            "lgpe": "The power of this attack move is doubled if it’s used on a target that’s switching out of battle.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui quitte le combat.",
+            "xy": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui quitte le combat.",
+            "oras": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui s’apprête à être remplacé.",
+            "sm": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui s’apprête à être remplacé.",
+            "usum": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui s’apprête à être remplacé.",
+            "lgpe": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui s’apprête à être remplacé.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "あいて　ポケモンが　いれかわる　ときに わざを　だしていると ばいの　いりょくで　こうげき　できる。",
+            "oras": "あいて　ポケモンが　いれかわる　ときに わざを　だしていると ばいの　いりょくで　こうげき　できる。",
+            "sm": "あいて　ポケモンが　いれかわる　ときに わざを　だしていると ばいの　いりょくで　こうげき　できる。",
+            "usum": "あいて　ポケモンが　いれかわる　ときに わざを　だしていると ばいの　いりょくで　こうげき　できる。",
+            "lgpe": "あいて　ポケモンが　いれかわる　ときに わざを　だしていると ばいの　いりょくで　こうげき　できる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "상대 포켓몬이 교체될 때 기술을 쓰면 2배의 위력으로 공격할 수 있다.",
+            "oras": "상대 포켓몬이 교체될 때 기술을 쓰면 2배의 위력으로 공격할 수 있다.",
+            "sm": "상대 포켓몬이 교체될 때 기술을 쓰면 2배의 위력으로 공격할 수 있다.",
+            "usum": "상대 포켓몬이 교체될 때 기술을 쓰면 2배의 위력으로 공격할 수 있다.",
+            "lgpe": "상대 포켓몬이 교체될 때 기술을 쓰면 2배의 위력으로 공격할 수 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Die Attacke richtet beim Ziel doppelten Schaden an, falls es ausgetauscht wird.",
+            "oras": "Die Attacke richtet beim Ziel doppelten Schaden an, falls es ausgetauscht wird.",
+            "sm": "Die Attacke richtet beim Ziel doppelten Schaden an, falls es ausgetauscht wird.",
+            "usum": "Die Attacke richtet beim Ziel doppelten Schaden an, falls es ausgetauscht wird.",
+            "lgpe": "Die Attacke richtet beim Ziel doppelten Schaden an, falls es ausgetauscht wird.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Hace el doble de daño al objetivo que pide el relevo.",
+            "oras": "Hace el doble de daño al objetivo que pide el relevo.",
+            "sm": "Hace el doble de daño al objetivo que pide el relevo.",
+            "usum": "Hace el doble de daño al objetivo que pide el relevo.",
+            "lgpe": "Hace el doble de daño al objetivo que pide el relevo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Una mossa d’attacco che infligge un danno doppio se il bersaglio è in fase di sostituzione.",
+            "oras": "Una mossa d’attacco che infligge un danno doppio se il bersaglio è in fase di sostituzione.",
+            "sm": "Una mossa d’attacco che infligge un danno doppio se il bersaglio è in fase di sostituzione.",
+            "usum": "Una mossa d’attacco che infligge un danno doppio se il bersaglio è in fase di sostituzione.",
+            "lgpe": "Una mossa d’attacco che infligge un danno doppio se il bersaglio è in fase di sostituzione.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "相手　ポケモンが　入れ替わるときに 技を　だしていると 倍の　威力で　攻撃できる。",
+            "oras": "相手　ポケモンが　入れ替わるときに 技を　だしていると 倍の　威力で　攻撃できる。",
+            "sm": "相手　ポケモンが　入れ替わるときに 技を　だしていると 倍の　威力で　攻撃できる。",
+            "usum": "相手　ポケモンが　入れ替わるときに 技を　だしていると 倍の　威力で　攻撃できる。",
+            "lgpe": "相手　ポケモンが　入れ替わるときに 技を　だしていると 倍の　威力で　攻撃できる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Hace el doble de daño al objetivo que pide el relevo.",
+            "oras": "Hace el doble de daño al objetivo que pide el relevo.",
+            "sm": "Hace el doble de daño al objetivo que pide el relevo.",
+            "usum": "Hace el doble de daño al objetivo que pide el relevo.",
+            "lgpe": "Hace el doble de daño al objetivo que pide el relevo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "在對手替換寶可夢時 使用此招式的話， 便能以２倍的威力進行攻擊。",
+            "usum": "在對手替換寶可夢時 使用此招式的話， 便能以２倍的威力進行攻擊。",
+            "lgpe": "在對手替換寶可夢時 使用此招式的話， 便能以２倍的威力進行攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "当对手替换宝可梦上场时 使出此招式的话， 能够以２倍的威力进行攻击。",
+            "usum": "当对手替换宝可梦上场时 使出此招式的话， 能够以２倍的威力进行攻击。",
+            "lgpe": "当对手替换宝可梦上场时 使出此招式的话， 能够以２倍的威力进行攻击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target attempts to switch out this turn before the user acts, this move hits the target before it leaves and has double power. This effect can still hit a Pokémon that switches out when it has a Substitute up or when an ally has used Follow Me.",
+        "shortEffect": "Has double power against, and can hit, Pokémon attempting to switch out."
+    }
 }

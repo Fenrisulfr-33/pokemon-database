@@ -1,42 +1,141 @@
 {
-  "_id": 447,
-  "key": "grass-knot",
-  "name": {
-    "english": "Grass Knot",
-    "japanese": "くさむすび",
-    "chinese": "打草结",
-    "korean": "풀묶기",
-    "german": "Hierba Lazo",
-    "french": "Strauchler",
-    "italian": "Grass Knot",
-    "spanish": "Laccioerboso"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage.",
-    "platinum": "The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage.",
-    "heartgold-soulsilver": "The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage.",
-    "black-white": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the damage.",
-    "black-2-white-2": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the damage.",
-    "x-y": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the move’s power.",
-    "sun-moon": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove’s power.",
-    "ultra-sun-ultra-moon": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove’s power.",
-    "sword-shield": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
-    "shortEffect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
-  },
-  "priority": 0
+    "_id": 447,
+    "key": "grass-knot",
+    "name": {
+        "japanese-kana": "くさむすび",
+        "korean": "풀묶기",
+        "traditional-chinese": "打草結",
+        "french": "Nœud Herbe",
+        "german": "Strauchler",
+        "spanish": "Hierba Lazo",
+        "italian": "Laccioerboso",
+        "english": "Grass Knot",
+        "japanese": "くさむすび",
+        "simplified-chinese": "打草结",
+        "latin-american-spanish": "Nudo de Pasto"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user snares the foe with grass and trips it. The heavier the foe, the greater the damage.",
+            "pt": "The user snares the foe with grass and trips it. The heavier the foe, the greater the damage.",
+            "hgss": "The user snares the foe with grass and trips it. The heavier the foe, the greater the damage.",
+            "bw": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
+            "b2w2": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
+            "xy": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+            "oras": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+            "sm": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+            "usum": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+            "lgpe": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+            "swsh": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+            "la": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",
+            "sv": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power."
+        },
+        "french": {
+            "bw": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.",
+            "xy": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.",
+            "oras": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.",
+            "sm": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.",
+            "usum": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.",
+            "lgpe": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.",
+            "swsh": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts."
+        },
+        "japanese-kana": {
+            "xy": "くさを　からませて　あいてを ころばせる。あいてが　おもいほど いりょくが　あがる。",
+            "oras": "くさを　からませて　あいてを ころばせる。あいてが　おもいほど いりょくが　あがる。",
+            "sm": "くさを　からませて　あいてを ころばせる。あいてが　おもいほど いりょくが　あがる。",
+            "usum": "くさを　からませて　あいてを ころばせる。あいてが　おもいほど いりょくが　あがる。",
+            "lgpe": "くさを　からませて　あいてを ころばせる。あいてが　おもいほど いりょくが　あがる。",
+            "swsh": "くさを　からませて　あいてを ころばせる。あいてが　おもいほど いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.",
+            "oras": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.",
+            "sm": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.",
+            "usum": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.",
+            "lgpe": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.",
+            "swsh": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Ziel wird durch Gras ins Straucheln gebracht. Je schwerer das Ziel, desto mehr Schaden.",
+            "oras": "Ziel wird durch Gras ins Straucheln gebracht. Je schwerer das Ziel, desto mehr Schaden.",
+            "sm": "Ziel wird durch Gras ins Straucheln gebracht. Je schwerer das Ziel, desto mehr Schaden.",
+            "usum": "Ziel wird durch Gras ins Straucheln gebracht. Je schwerer das Ziel, desto mehr Schaden.",
+            "lgpe": "Ziel wird durch Gras ins Straucheln gebracht. Je schwerer das Ziel, desto mehr Schaden.",
+            "swsh": "Ziel wird durch Gras ins Straucheln gebracht. Je schwerer das Ziel, desto mehr Schaden."
+        },
+        "spanish": {
+            "xy": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "oras": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "sm": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "usum": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "lgpe": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "swsh": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+        },
+        "italian": {
+            "xy": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.",
+            "oras": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.",
+            "sm": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.",
+            "usum": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.",
+            "lgpe": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.",
+            "swsh": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti."
+        },
+        "japanese": {
+            "xy": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。",
+            "oras": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。",
+            "sm": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。",
+            "usum": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。",
+            "lgpe": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。",
+            "swsh": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "oras": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "sm": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "usum": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "lgpe": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+            "swsh": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+        },
+        "traditional-chinese": {
+            "sm": "用打結的草絆倒對手。 對手越重，威力越大。",
+            "usum": "用打結的草絆倒對手。 對手越重，威力越大。",
+            "lgpe": "用打結的草絆倒對手。 對手越重，威力越大。",
+            "swsh": "用打結的草絆倒對手。 對手越重，威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "用草缠住并绊倒对手。 对手越重，威力越大。",
+            "usum": "用草缠住并绊倒对手。 对手越重，威力越大。",
+            "lgpe": "用草缠住并绊倒对手。 对手越重，威力越大。",
+            "swsh": "用草缠住并绊倒对手。 对手越重，威力越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg      |    20 Up to 25kg      |    40 Up to 50kg      |    60 Up to 100kg     |    80 Up to 200kg     |   100 Above 200kg     |   120",
+        "shortEffect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+    }
 }

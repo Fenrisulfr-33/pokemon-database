@@ -1,39 +1,138 @@
 {
-  "_id": 514,
-  "key": "retaliate",
-  "name": {
-    "english": "Retaliate",
-    "japanese": "かたきうち",
-    "chinese": "讨敌",
-    "korean": "원수갚기",
-    "german": "Represalia",
-    "french": "Heimzahlung",
-    "italian": "Retaliate",
-    "spanish": "Nemesi"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user gets revenge for a fainted ally.\nIf an ally fainted in the previous turn,\nthis attack’s damage increases.",
-    "black-2-white-2": "The user gets revenge for a fainted ally.\nIf an ally fainted in the previous turn,\nthis attack’s damage increases.",
-    "x-y": "The user gets revenge for a fainted ally.\nIf an ally fainted in the previous turn,\nthis move becomes more powerful.",
-    "omega-ruby-alpha-sapphire": "The user gets revenge for a fainted ally.\nIf an ally fainted in the previous turn,\nthis move becomes more powerful.",
-    "sun-moon": "The user gets revenge for a fainted ally. If an ally\nfainted in the previous turn, this move’s power\nis increased.",
-    "ultra-sun-ultra-moon": "The user gets revenge for a fainted ally. If an ally\nfainted in the previous turn, this move’s power\nis increased.",
-    "lets-go-pikachu-lets-go-eevee": "The user gets revenge for a fainted ally. If an ally\nfainted in the previous turn, this move’s power\nis increased.",
-    "sword-shield": "The user gets revenge for a fainted ally. If an ally\nfainted in the previous turn, this move’s power\nis increased."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If a friendly Pokémon fainted on the previous turn, this move has double power.",
-    "shortEffect": "Has double power if a friendly Pokémon fainted last turn."
-  },
-  "priority": 0
+    "_id": 514,
+    "key": "retaliate",
+    "name": {
+        "japanese-kana": "かたきうち",
+        "korean": "원수갚기",
+        "traditional-chinese": "報仇",
+        "french": "Vengeance",
+        "german": "Heimzahlung",
+        "spanish": "Represalia",
+        "italian": "Nemesi",
+        "english": "Retaliate",
+        "japanese": "かたきうち",
+        "simplified-chinese": "报仇",
+        "latin-american-spanish": "Represalia"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente.",
+            "xy": "Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente.",
+            "oras": "Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente.",
+            "sm": "Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente.",
+            "usum": "Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente.",
+            "lgpe": "Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente.",
+            "swsh": "Venge un Pokémon de l’équipe mis K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, l’effet augmente."
+        },
+        "english": {
+            "bw": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this attack’s damage increases.",
+            "b2w2": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this attack’s damage increases.",
+            "xy": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move becomes more powerful.",
+            "oras": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move becomes more powerful.",
+            "sm": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move’s power is increased.",
+            "usum": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move’s power is increased.",
+            "lgpe": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move’s power is increased.",
+            "swsh": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move’s power is increased.",
+            "la": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move's power is increased.",
+            "sv": "The user takes revenge for a fainted ally. This move's power is boosted if an ally fainted in the previous turn."
+        },
+        "japanese-kana": {
+            "xy": "たおれた　みかたの　かたきを　うつ。 まえの　ターンに　みかたが　たおされて いると　いりょくが　あがる。",
+            "oras": "たおれた　 かたの　かたきを　うつ。 まえの　ターンに　 かたが　たおされて いると　いりょくが　あがる。",
+            "sm": "たおれた　みかたの　かたきを　うつ。 まえの　ターンに　みかたが　たおされて いると　いりょくが　あがる。",
+            "usum": "たおれた　みかたの　かたきを　うつ。 まえの　ターンに　みかたが　たおされて いると　いりょくが　あがる。",
+            "lgpe": "たおれた　みかたの　かたきを　うつ。 まえの　ターンに　みかたが　たおされて いると　いりょくが　あがる。",
+            "swsh": "たおれた　みかたの　かたきを　うつ。 まえの　ターンに　みかたが　たおされて いると　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "쓰러진 같은 편의 원수를 갚는다. 앞 턴에서 같은 편이 쓰러졌다면 위력이 올라간다.",
+            "oras": "쓰러진 같은 편의 원수를 갚는다. 앞 턴에서 같은 편이 쓰러졌다면 위력이 올라간다.",
+            "sm": "쓰러진 같은 편의 원수를 갚는다. 앞 턴에서 같은 편이 쓰러졌다면 위력이 올라간다.",
+            "usum": "쓰러진 같은 편의 원수를 갚는다. 앞 턴에서 같은 편이 쓰러졌다면 위력이 올라간다.",
+            "lgpe": "쓰러진 같은 편의 원수를 갚는다. 앞 턴에서 같은 편이 쓰러졌다면 위력이 올라간다.",
+            "swsh": "쓰러진 같은 편의 원수를 갚는다. 앞 턴에서 같은 편이 쓰러지면 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Anwender nimmt Rache für einen besiegten Mitstreiter. Wurde in der vorigen Runde ein Mitstreiter besiegt, steigt die Kraft.",
+            "oras": "Anwender nimmt Rache für einen besiegten Mitstreiter. Wurde in der vorigen Runde ein Mitstreiter besiegt, steigt die Kraft.",
+            "sm": "Anwender nimmt Rache für einen besiegten Mitstreiter. Wurde in der vorigen Runde ein Mitstreiter besiegt, steigt die Stärke.",
+            "usum": "Anwender nimmt Rache für einen besiegten Mitstreiter. Wurde in der vorigen Runde ein Mitstreiter besiegt, steigt die Stärke.",
+            "lgpe": "Anwender nimmt Rache für einen besiegten Mitstreiter. Wurde in der vorigen Runde ein Mitstreiter besiegt, steigt die Stärke.",
+            "swsh": "Anwender nimmt Rache für einen besiegten Mitstreiter. Wurde in der vorigen Runde ein Mitstreiter besiegt, steigt die Stärke."
+        },
+        "spanish": {
+            "xy": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "oras": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "sm": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "usum": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "lgpe": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "swsh": "Venga a los amigos caídos. Si en el turno anterior han derrotado a alguno, la potencia del ataque aumentará."
+        },
+        "italian": {
+            "xy": "Vendica un alleato messo KO. Se ciò è accaduto al turno precedente, il danno è maggiore.",
+            "oras": "Vendica un alleato messo KO. Se ciò è accaduto al turno precedente, il danno è maggiore.",
+            "sm": "Vendica un alleato messo KO. Se ciò è accaduto al turno precedente, il danno è maggiore.",
+            "usum": "Vendica un alleato messo KO. Se ciò è accaduto al turno precedente, il danno è maggiore.",
+            "lgpe": "Vendica un alleato messo KO. Se ciò è accaduto al turno precedente, il danno è maggiore.",
+            "swsh": "Vendica un alleato messo KO. Se ciò è accaduto al turno precedente, il danno è maggiore."
+        },
+        "japanese": {
+            "xy": "倒れた　味方の　かたきを　討つ。 前の　ターンに　味方が 倒されていると　威力が　あがる。",
+            "oras": "倒れた　味方の　かたきを　討つ。 前の　ターンに　味方が 倒されていると　威力が　あがる。",
+            "sm": "倒れた　味方の　かたきを　討つ。 前の　ターンに　味方が 倒されていると　威力が　あがる。",
+            "usum": "倒れた　味方の　かたきを　討つ。 前の　ターンに　味方が 倒されていると　威力が　あがる。",
+            "lgpe": "倒れた　味方の　かたきを　討つ。 前の　ターンに　味方が 倒されていると　威力が　あがる。",
+            "swsh": "倒れた　味方の　かたきを　討つ。 前の　ターンに　味方が 倒されていると　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "oras": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "sm": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "usum": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "lgpe": "Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.",
+            "swsh": "Venga a los amigos caídos. Si en el turno anterior han derrotado a alguno, la potencia del ataque aumentará."
+        },
+        "traditional-chinese": {
+            "sm": "為倒下的同伴報仇。 前一回合有同伴被打倒時， 招式的威力會提高。",
+            "usum": "為倒下的同伴報仇。 前一回合有同伴被打倒時， 招式的威力會提高。",
+            "lgpe": "為倒下的同伴報仇。 前一回合有同伴被打倒時， 招式的威力會提高。",
+            "swsh": "為倒下的同伴報仇。 前一回合有同伴被打倒時， 招式的威力會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "为倒下的同伴报仇。 如果上一回合有同伴倒下， 威力就会提高。",
+            "usum": "为倒下的同伴报仇。 如果上一回合有同伴倒下， 威力就会提高。",
+            "lgpe": "为倒下的同伴报仇。 如果上一回合有同伴倒下， 威力就会提高。",
+            "swsh": "为倒下的同伴报仇。 如果上一回合有同伴倒下， 威力就会提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If a friendly Pokémon fainted on the previous turn, this move has double power.",
+        "shortEffect": "Has double power if a friendly Pokémon fainted last turn."
+    }
 }

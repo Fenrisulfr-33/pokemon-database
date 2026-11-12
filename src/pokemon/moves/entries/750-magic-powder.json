@@ -1,29 +1,84 @@
 {
-  "_id": 750,
-  "key": "magic-powder",
-  "name": {
-    "english": "Magic Powder",
-    "japanese": "まほうのこな",
-    "chinese": "魔法粉",
-    "korean": "마법가루",
-    "german": "Polvo Mágico",
-    "french": "Magiepuder",
-    "italian": "Magic Powder",
-    "spanish": "Magipolvere"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user scatters a cloud of magic powder that\nchanges the target to Psychic type."
-  },
-  "effect": {},
-  "priority": 0
+    "_id": 750,
+    "key": "magic-powder",
+    "name": {
+        "japanese-kana": "まほうのこな",
+        "korean": "마법가루",
+        "traditional-chinese": "魔法粉",
+        "french": "Poudre Magique",
+        "german": "Magiepuder",
+        "spanish": "Polvo Mágico",
+        "italian": "Magipolvere",
+        "english": "Magic Powder",
+        "japanese": "まほうのこな",
+        "simplified-chinese": "魔法粉",
+        "latin-american-spanish": "Polvo Magia"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "まほうのこなを　あびせて あいてを　エスパータイプに　へんかさせる。"
+        },
+        "korean": {
+            "swsh": "마법가루를 날려서 상대를 에스퍼타입으로 바꾼다."
+        },
+        "traditional-chinese": {
+            "swsh": "撒出魔法粉末， 使對手變為超能力屬性。"
+        },
+        "french": {
+            "swsh": "Le lanceur recouvre sa cible d’une poudre magique qui change son type en Psy."
+        },
+        "german": {
+            "swsh": "Das Ziel wird mit magischem Puder bestreut und nimmt den Typ Psycho an."
+        },
+        "spanish": {
+            "swsh": "Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico."
+        },
+        "italian": {
+            "swsh": "Chi la usa getta addosso al bersaglio una polvere magica che lo rende di tipo Psico."
+        },
+        "english": {
+            "swsh": "The user scatters a cloud of magic powder that changes the target to Psychic type.",
+            "la": "The user scatters a cloud of magic powder that changes the target to Psychic type.",
+            "sv": "The user scatters a cloud of magic powder that changes the target's type to Psychic."
+        },
+        "japanese": {
+            "swsh": "まほうのこなを　浴びせて 相手を　エスパータイプに　変化させる。"
+        },
+        "simplified-chinese": {
+            "swsh": "向对手喷洒魔法粉， 使对手变为超能力属性。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico."
+        }
+    },
+    "effect": {
+        "full": "Causes the target to become a Psychic type. Fails if the target is Arceus, Silvally, or is already only a Psychic type.",
+        "shortEffect": "Causes the target to become a Psychic type."
+    }
 }

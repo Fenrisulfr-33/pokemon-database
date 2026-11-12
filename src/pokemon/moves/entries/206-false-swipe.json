@@ -1,47 +1,146 @@
 {
-  "_id": 206,
-  "key": "false-swipe",
-  "name": {
-    "english": "False Swipe",
-    "japanese": "みねうち",
-    "chinese": "刀背击打",
-    "korean": "칼등치기",
-    "german": "Falso Tortazo",
-    "french": "Trugschlag",
-    "italian": "False Swipe",
-    "spanish": "Falsofinale"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 40,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Leaves the foe\nwith at least 1HP.",
-    "crystal": "Leaves the foe\nwith at least 1HP.",
-    "ruby-sapphire": "An attack that leaves the\nfoe with at least 1 HP.",
-    "emerald": "An attack that leaves the\nfoe with at least 1 HP.",
-    "firered-leafgreen": "A restrained attack\nthat always leaves\nthe foe with at\nleast 1 HP.",
-    "diamond-pearl": "A restrained attack\nthat prevents the\nfoe from fainting.\nThe target is left\nwith at least 1 HP.",
-    "platinum": "A restrained attack\nthat prevents the\nfoe from fainting.\nThe target is left\nwith at least 1 HP.",
-    "heartgold-soulsilver": "A restrained attack\nthat prevents the\nfoe from fainting.\nThe target is left\nwith at least 1 HP.",
-    "black-white": "A restrained attack that prevents the\ntarget from fainting.\nThe target is left with at least 1 HP.",
-    "black-2-white-2": "A restrained attack that prevents the\ntarget from fainting.\nThe target is left with at least 1 HP.",
-    "x-y": "A restrained attack that prevents the\ntarget from fainting.\nThe target is left with at least 1 HP.",
-    "omega-ruby-alpha-sapphire": "A restrained attack that prevents the\ntarget from fainting.\nThe target is left with at least 1 HP.",
-    "sun-moon": "A restrained attack that prevents the target from\nfainting. The target is left with at least 1 HP.",
-    "ultra-sun-ultra-moon": "A restrained attack that prevents the target from\nfainting. The target is left with at least 1 HP.",
-    "lets-go-pikachu-lets-go-eevee": "A restrained attack that prevents the target from\nfainting. The target is left with at least 1 HP.",
-    "sword-shield": "A restrained attack that prevents the target from\nfainting. The target is left with at least 1 HP."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Will not reduce the target's HP below 1.",
-    "shortEffect": "Cannot lower the target's HP below 1."
-  },
-  "priority": 0
+    "_id": 206,
+    "key": "false-swipe",
+    "name": {
+        "japanese-kana": "みねうち",
+        "korean": "칼등치기",
+        "traditional-chinese": "點到為止",
+        "french": "Faux-Chage",
+        "german": "Trugschlag",
+        "spanish": "Falso Tortazo",
+        "italian": "Falsofinale",
+        "english": "False Swipe",
+        "japanese": "みねうち",
+        "simplified-chinese": "点到为止",
+        "latin-american-spanish": "Falsa Bofetada"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 40,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Leaves the foe with at least 1HP.",
+            "cr": "Leaves the foe with at least 1HP.",
+            "rs": "An attack that leaves the foe with at least 1 HP.",
+            "em": "An attack that leaves the foe with at least 1 HP.",
+            "frlg": "A restrained attack that always leaves the foe with at least 1 HP.",
+            "dp": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.",
+            "pt": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.",
+            "hgss": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.",
+            "bw": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "b2w2": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "xy": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "oras": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "sm": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "usum": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "lgpe": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "swsh": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "la": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+            "sv": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
+        },
+        "french": {
+            "bw": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+            "xy": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+            "oras": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+            "sm": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+            "usum": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+            "lgpe": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+            "swsh": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O."
+        },
+        "japanese-kana": {
+            "xy": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。",
+            "oras": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。",
+            "sm": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。",
+            "usum": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。",
+            "lgpe": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。",
+            "swsh": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。"
+        },
+        "korean": {
+            "xy": "상대의 HP가 반드시 1만큼 남도록 조절하여 공격한다.",
+            "oras": "상대의 HP가 반드시 1만큼 남도록 조절하여 공격한다.",
+            "sm": "상대의 HP가 반드시 1만큼 남도록 조절하여 공격한다.",
+            "usum": "상대의 HP가 반드시 1만큼 남도록 조절하여 공격한다.",
+            "lgpe": "상대의 HP가 반드시 1만큼 남도록 조절하여 공격한다.",
+            "swsh": "상대의 HP가 반드시 1만 남도록 조절하여 공격한다."
+        },
+        "german": {
+            "xy": "Ein Angriff, der dem Ziel zumindest 1 KP lässt.",
+            "oras": "Ein Angriff, der dem Ziel zumindest 1 KP lässt.",
+            "sm": "Ein Angriff, der dem Ziel zumindest 1 KP lässt.",
+            "usum": "Ein Angriff, der dem Ziel zumindest 1 KP lässt.",
+            "lgpe": "Ein Angriff, der dem Ziel zumindest 1 KP lässt.",
+            "swsh": "Ein Angriff, der dem Ziel zumindest 1 KP lässt."
+        },
+        "spanish": {
+            "xy": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "oras": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "sm": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "usum": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "lgpe": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "swsh": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS."
+        },
+        "italian": {
+            "xy": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.",
+            "oras": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.",
+            "sm": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.",
+            "usum": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.",
+            "lgpe": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.",
+            "swsh": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS."
+        },
+        "japanese": {
+            "xy": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。",
+            "oras": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。",
+            "sm": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。",
+            "usum": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。",
+            "lgpe": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。",
+            "swsh": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "oras": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "sm": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "usum": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "lgpe": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+            "swsh": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS."
+        },
+        "traditional-chinese": {
+            "sm": "手下留情地攻擊對手， 一定會讓對手剩下１ＨＰ。",
+            "usum": "手下留情地攻擊對手， 一定會讓對手剩下１ＨＰ。",
+            "lgpe": "手下留情地攻擊對手， 一定會讓對手剩下１HP。",
+            "swsh": "手下留情地攻擊對手， 一定會讓對手剩下１ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "对手的ＨＰ 至少会留下１ＨＰ， 如此般手下留情地攻击。",
+            "usum": "对手的ＨＰ 至少会留下１ＨＰ， 如此般手下留情地攻击。",
+            "lgpe": "对手的HP 至少会留下１HP， 如此般手下留情地攻击。",
+            "swsh": "对手的ＨＰ 至少会留下１ＨＰ， 如此般手下留情地攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Will not reduce the target’s HP below 1.",
+        "shortEffect": "Cannot lower the target’s HP below 1."
+    }
 }

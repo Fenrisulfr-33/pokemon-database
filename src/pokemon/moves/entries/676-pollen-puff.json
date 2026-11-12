@@ -1,35 +1,117 @@
 {
-  "_id": 676,
-  "key": "pollen-puff",
-  "name": {
-    "english": "Pollen Puff",
-    "japanese": "かふんだんご",
-    "chinese": "花粉團",
-    "korean": "꽃가루경단",
-    "german": "Bola de Polen",
-    "french": "Pollenknödel",
-    "italian": "Pollen Puff",
-    "spanish": "Sferapolline"
-  },
-  "type": "Bug",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user attacks the enemy with a pollen puff that\nexplodes. If the target is an ally, it gives the ally a\npollen puff that restores its HP instead.",
-    "ultra-sun-ultra-moon": "The user attacks the enemy with a pollen puff that\nexplodes. If the target is an ally, it gives the ally a\npollen puff that restores its HP instead.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the enemy with a pollen puff that\nexplodes. If the target is an ally, it gives the ally a\npollen puff that restores its HP instead.",
-    "sword-shield": "The user attacks the enemy with a pollen puff that\nexplodes. If the target is an ally, it gives the ally a\npollen puff that restores its HP instead."
-  },
-  "effect": {
-    "full": "If the target is an opponent, inflicts regular damage.  If the target is an ally, heals the target for 50% of its max HP.",
-    "shortEffect": "Damages opponents, but heals allies for 50% of their max HP."
-  },
-  "priority": 0
+    "_id": 676,
+    "key": "pollen-puff",
+    "name": {
+        "japanese-kana": "かふんだんご",
+        "korean": "꽃가루경단",
+        "traditional-chinese": "花粉團",
+        "french": "Boule Pollen",
+        "german": "Pollenknödel",
+        "spanish": "Bola de Polen",
+        "italian": "Sferapolline",
+        "english": "Pollen Puff",
+        "japanese": "かふんだんご",
+        "simplified-chinese": "花粉团",
+        "latin-american-spanish": "Bola de Polen"
+    },
+    "type": "bug",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "てきには　ばくはつする　だんごを つかって　こうげき。　みかたには かいふくする　だんごを　あたえる。",
+            "usum": "てきには　ばくはつする　だんごを つかって　こうげき。　みかたには かいふくする　だんごを　あたえる。",
+            "lgpe": "てきには　ばくはつする　だんごを つかって　こうげき。　みかたには かいふくする　だんごを　あたえる。",
+            "swsh": "てきには　ばくはつする　だんごを つかって　こうげき。　みかたには かいふくする　だんごを　あたえる。"
+        },
+        "korean": {
+            "sm": "상대에게는 폭발하는 경단을 사용하여 공격한다. 같은 편에게는 회복하는 경단을 준다.",
+            "usum": "상대에게는 폭발하는 경단을 사용하여 공격한다. 같은 편에게는 회복하는 경단을 준다.",
+            "lgpe": "상대에게는 폭발하는 경단을 사용하여 공격한다. 같은 편에게는 회복하는 경단을 준다.",
+            "swsh": "상대에게는 폭발하는 경단을 사용하여 공격한다. 같은 편에게는 회복하는 경단을 준다."
+        },
+        "traditional-chinese": {
+            "sm": "對敵人使用時，用會爆炸的花粉團來攻擊。 對我方同伴使用時， 則給予有回復效果的花粉團。",
+            "usum": "對敵人使用時，用會爆炸的花粉團來攻擊。 對我方同伴使用時， 則給予有回復效果的花粉團。",
+            "lgpe": "對敵人使用時，用會爆炸的花粉團來攻擊。 對我方同伴使用時， 則給予有回復效果的花粉團。",
+            "swsh": "對敵人使用時，用會爆炸的花粉團來攻擊。 對我方同伴使用時， 則給予有回復效果的花粉團。"
+        },
+        "french": {
+            "sm": "Utilisé sur l’ennemi, envoie une boule explosive qui fait des dégâts ; sur un allié, donne du bon pollen nutritif qui fait récupérer des PV.",
+            "usum": "Utilisé sur l’ennemi, envoie une boule explosive qui fait des dégâts ; sur un allié, donne du bon pollen nutritif qui fait récupérer des PV.",
+            "lgpe": "Utilisé sur l’ennemi, envoie une boule explosive qui fait des dégâts ; sur un allié, donne du bon pollen nutritif qui fait récupérer des PV.",
+            "swsh": "Utilisée sur l’ennemi, envoie une boule explosive qui fait des dégâts ; sur un allié, donne du bon pollen nutritif qui fait récupérer des PV."
+        },
+        "german": {
+            "sm": "Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt.",
+            "usum": "Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt.",
+            "lgpe": "Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt.",
+            "swsh": "Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt."
+        },
+        "spanish": {
+            "sm": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+            "usum": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+            "lgpe": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+            "swsh": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca il nemico con una sfera esplosiva. Se colpisce degli alleati, fa recuperare loro dei PS.",
+            "usum": "Chi la usa attacca il nemico con una sfera esplosiva. Se colpisce degli alleati, fa recuperare loro dei PS.",
+            "lgpe": "Chi la usa attacca il nemico con una sfera esplosiva. Se colpisce degli alleati, fa recuperare loro dei PS.",
+            "swsh": "Chi la usa attacca il nemico con una sfera esplosiva. Se colpisce degli alleati, fa recuperare loro dei PS."
+        },
+        "english": {
+            "sm": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.",
+            "usum": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.",
+            "lgpe": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.",
+            "swsh": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.",
+            "la": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.",
+            "sv": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead."
+        },
+        "japanese": {
+            "sm": "敵には　爆発する　だんごを 使って　攻撃。　味方には 回復する　だんごを　与える。",
+            "usum": "敵には　爆発する　だんごを 使って　攻撃。　味方には 回復する　だんごを　与える。",
+            "lgpe": "敵には　爆発する　だんごを 使って　攻撃。　味方には 回復する　だんごを　与える。",
+            "swsh": "敵には　爆発する　だんごを 使って　攻撃。　味方には 回復する　だんごを　与える。"
+        },
+        "simplified-chinese": {
+            "sm": "对敌人使用是会爆炸的团子。 对我方使用则是给予回复的团子。",
+            "usum": "对敌人使用是会爆炸的团子。 对我方使用则是给予回复的团子。",
+            "lgpe": "对敌人使用是会爆炸的团子。 对我方使用则是给予回复的团子。",
+            "swsh": "对敌人使用是会爆炸的团子。 对我方使用则是给予回复的团子。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+            "usum": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+            "lgpe": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.",
+            "swsh": "Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS."
+        }
+    },
+    "effect": {
+        "full": "If the target is an opponent, inflicts regular damage.  If the target is an ally, heals the target for 50% of its max HP.",
+        "shortEffect": "Damages opponents, but heals allies for 50% of their max HP."
+    }
 }

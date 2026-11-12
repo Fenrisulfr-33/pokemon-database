@@ -1,47 +1,146 @@
 {
-  "_id": 183,
-  "key": "mach-punch",
-  "name": {
-    "english": "Mach Punch",
-    "japanese": "マッハパンチ",
-    "chinese": "音速拳",
-    "korean": "마하펀치",
-    "german": "Ultrapuño",
-    "french": "Tempohieb",
-    "italian": "Mach Punch",
-    "spanish": "Pugnorapido"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A fast punch that\nlands first.",
-    "crystal": "A fast punch that\nlands first.",
-    "ruby-sapphire": "A punch is thrown at wicked\nspeed to strike first.",
-    "emerald": "A punch is thrown at wicked\nspeed to strike first.",
-    "firered-leafgreen": "A punch thrown at\nblinding speed.\nIt is certain to\nstrike first.",
-    "diamond-pearl": "The user throws a\npunch at blinding\nspeed.\nIt is certain to\nstrike first.",
-    "platinum": "The user throws a\npunch at blinding\nspeed.\nIt is certain to\nstrike first.",
-    "heartgold-soulsilver": "The user throws a\npunch at blinding\nspeed.\nIt is certain to\nstrike first.",
-    "black-white": "The user throws a punch at blinding\nspeed. It is certain to strike first.",
-    "black-2-white-2": "The user throws a punch at blinding\nspeed. It is certain to strike first.",
-    "x-y": "The user throws a punch at blinding\nspeed. This move always goes first.",
-    "omega-ruby-alpha-sapphire": "The user throws a punch at blinding\nspeed. This move always goes first.",
-    "sun-moon": "The user throws a punch at blinding speed. This\nmove always goes first.",
-    "ultra-sun-ultra-moon": "The user throws a punch at blinding speed. This\nmove always goes first.",
-    "lets-go-pikachu-lets-go-eevee": "The user throws a punch at blinding speed. This\nmove always goes first.",
-    "sword-shield": "The user throws a punch at blinding speed. This\nmove always goes first."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 1
+    "_id": 183,
+    "key": "mach-punch",
+    "name": {
+        "japanese-kana": "マッハパンチ",
+        "korean": "마하펀치",
+        "traditional-chinese": "音速拳",
+        "french": "Mach Punch",
+        "german": "Tempohieb",
+        "spanish": "Ultrapuño",
+        "italian": "Pugnorapido",
+        "english": "Mach Punch",
+        "japanese": "マッハパンチ",
+        "simplified-chinese": "音速拳",
+        "latin-american-spanish": "Superpuño"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A fast punch that lands first.",
+            "cr": "A fast punch that lands first.",
+            "rs": "A punch is thrown at wicked speed to strike first.",
+            "em": "A punch is thrown at wicked speed to strike first.",
+            "frlg": "A punch thrown at blinding speed. It is certain to strike first.",
+            "dp": "The user throws a punch at blinding speed. It is certain to strike first.",
+            "pt": "The user throws a punch at blinding speed. It is certain to strike first.",
+            "hgss": "The user throws a punch at blinding speed. It is certain to strike first.",
+            "bw": "The user throws a punch at blinding speed. It is certain to strike first.",
+            "b2w2": "The user throws a punch at blinding speed. It is certain to strike first.",
+            "xy": "The user throws a punch at blinding speed. This move always goes first.",
+            "oras": "The user throws a punch at blinding speed. This move always goes first.",
+            "sm": "The user throws a punch at blinding speed. This move always goes first.",
+            "usum": "The user throws a punch at blinding speed. This move always goes first.",
+            "lgpe": "The user throws a punch at blinding speed. This move always goes first.",
+            "swsh": "The user throws a punch at blinding speed. This move always goes first.",
+            "la": "The user throws a punch at blinding speed. This also raises the user's action speed.",
+            "sv": "The user throws a punch at blinding speed. This move always goes first."
+        },
+        "french": {
+            "bw": "Coup de poing fulgurant. Frappe en premier.",
+            "xy": "Coup de poing fulgurant. Frappe toujours en premier.",
+            "oras": "Coup de poing fulgurant. Frappe toujours en premier.",
+            "sm": "Coup de poing fulgurant. Frappe en priorité.",
+            "usum": "Coup de poing fulgurant. Frappe en priorité.",
+            "lgpe": "Coup de poing fulgurant. Frappe en priorité.",
+            "swsh": "Coup de poing fulgurant. Frappe en priorité."
+        },
+        "japanese-kana": {
+            "xy": "めにも　とまらぬ　ものすごい　はやさで パンチを　くりだす。 かならず　せんせい　こうげき　できる。",
+            "oras": "めにも　とまらぬ　ものすごい　はやさで パンチを　くりだす。 かならず　せんせい　こうげき　できる。",
+            "sm": "めにも　とまらぬ　ものすごい　はやさで パンチを　くりだす。 かならず　せんせい　こうげき　できる。",
+            "usum": "めにも　とまらぬ　ものすごい　はやさで パンチを　くりだす。 かならず　せんせい　こうげき　できる。",
+            "lgpe": "めにも　とまらぬ　ものすごい　はやさで パンチを　くりだす。 かならず　せんせい　こうげき　できる。",
+            "swsh": "めにも　とまらぬ　ものすごい　はやさで パンチを　くりだす。 かならず　せんせい　こうげき　できる。"
+        },
+        "korean": {
+            "xy": "눈에 보이지 않는 굉장한 속도로 펀치를 날린다. 반드시 선제공격을 할 수 있다.",
+            "oras": "눈에 보이지 않는 굉장한 속도로 펀치를 날린다. 반드시 선제공격을 할 수 있다.",
+            "sm": "눈에 보이지 않는 굉장한 속도로 펀치를 날린다. 반드시 선제공격을 할 수 있다.",
+            "usum": "눈에 보이지 않는 굉장한 속도로 펀치를 날린다. 반드시 선제공격을 할 수 있다.",
+            "lgpe": "눈에 보이지 않는 굉장한 속도로 펀치를 날린다. 반드시 선제공격을 할 수 있다.",
+            "swsh": "눈에 보이지 않는 굉장한 속도로 펀치를 날린다. 반드시 선제공격을 할 수 있다."
+        },
+        "german": {
+            "xy": "Extrem schneller Hieb, der stets zuerst trifft.",
+            "oras": "Extrem schneller Hieb, der stets zuerst trifft.",
+            "sm": "Extrem schneller Hieb mit hoher Erstschlagquote.",
+            "usum": "Extrem schneller Hieb mit hoher Erstschlagquote.",
+            "lgpe": "Extrem schneller Hieb mit hoher Erstschlagquote.",
+            "swsh": "Bei dieser Erstschlag-Attacke greift der Anwender mit einem extrem schnellen Hieb an."
+        },
+        "spanish": {
+            "xy": "Puñetazo que se da rápido para golpear primero.",
+            "oras": "Puñetazo que se da rápido para golpear primero.",
+            "sm": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.",
+            "usum": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.",
+            "lgpe": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.",
+            "swsh": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta."
+        },
+        "italian": {
+            "xy": "Chi la usa tira un pugno a una velocità impressionante e colpisce sempre per primo.",
+            "oras": "Chi la usa tira un pugno a una velocità impressionante e colpisce sempre per primo.",
+            "sm": "Chi la usa tira un pugno a una velocità impressionante. Questa mossa ha priorità alta.",
+            "usum": "Chi la usa tira un pugno a una velocità impressionante. Questa mossa ha priorità alta.",
+            "lgpe": "Chi la usa tira un pugno a una velocità impressionante. Questa mossa ha priorità alta.",
+            "swsh": "Chi la usa tira un pugno a una velocità impressionante. Questa mossa ha priorità alta."
+        },
+        "japanese": {
+            "xy": "目にも　留まらぬ　ものすごい　速さで パンチを　くりだす。 必ず　先制攻撃　できる。",
+            "oras": "目にも　留まらぬ　ものすごい　速さで パンチを　くりだす。 必ず　先制攻撃　できる。",
+            "sm": "目にも　留まらぬ　ものすごい　速さで パンチを　くりだす。 必ず　先制攻撃　できる。",
+            "usum": "目にも　留まらぬ　ものすごい　速さで パンチを　くりだす。 必ず　先制攻撃　できる。",
+            "lgpe": "目にも　留まらぬ　ものすごい　速さで パンチを　くりだす。 必ず　先制攻撃　できる。",
+            "swsh": "目にも　留まらぬ　ものすごい　速さで パンチを　くりだす。 必ず　先制攻撃　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puñetazo que se da rápido para golpear primero.",
+            "oras": "Puñetazo que se da rápido para golpear primero.",
+            "sm": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.",
+            "usum": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.",
+            "lgpe": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.",
+            "swsh": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta."
+        },
+        "traditional-chinese": {
+            "sm": "以迅雷不及掩耳之勢出拳。 必定能夠發動先制攻擊。",
+            "usum": "以迅雷不及掩耳之勢出拳。 必定能夠發動先制攻擊。",
+            "lgpe": "以迅雷不及掩耳之勢出拳。 必定能夠發動先制攻擊。",
+            "swsh": "以迅雷不及掩耳之勢出拳。 必定能夠發動先制攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "以迅雷不及掩耳之势出拳。 必定能够先制攻击。",
+            "usum": "以迅雷不及掩耳之势出拳。 必定能够先制攻击。",
+            "lgpe": "以迅雷不及掩耳之势出拳。 必定能够先制攻击。",
+            "swsh": "以迅雷不及掩耳之势出拳。 必定能够先制攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

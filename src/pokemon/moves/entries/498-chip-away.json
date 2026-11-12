@@ -1,39 +1,136 @@
 {
-  "_id": 498,
-  "key": "chip-away",
-  "name": {
-    "english": "Chip Away",
-    "japanese": "なしくずし",
-    "chinese": "循序渐进",
-    "korean": "야금야금",
-    "german": "Guardia Baja",
-    "french": "Zermürben",
-    "italian": "Chip Away",
-    "spanish": "Insidia"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "Looking for an opening, the user strikes\ncontinually. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "black-2-white-2": "Looking for an opening, the user strikes\ncontinually. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "x-y": "Looking for an opening, the user strikes\nconsistently. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "omega-ruby-alpha-sapphire": "Looking for an opening, the user strikes\nconsistently. The target’s stat changes\ndon’t affect this attack’s damage.",
-    "sun-moon": "Looking for an opening, the user strikes consistently.\nThe target’s stat changes don’t affect this\nattack’s damage.",
-    "ultra-sun-ultra-moon": "Looking for an opening, the user strikes consistently.\nThe target’s stat changes don’t affect this\nattack’s damage.",
-    "lets-go-pikachu-lets-go-eevee": "Looking for an opening, the user strikes consistently.\nThe target’s stat changes don’t affect this\nattack’s damage.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Damage calculation ignores the target's stat modifiers, including evasion.",
-    "shortEffect": "Ignores the target's stat modifiers."
-  },
-  "priority": 0
+    "_id": 498,
+    "key": "chip-away",
+    "name": {
+        "japanese-kana": "なしくずし",
+        "korean": "야금야금",
+        "traditional-chinese": "逐步擊破",
+        "french": "Attrition",
+        "german": "Zermürben",
+        "spanish": "Guardia Baja",
+        "italian": "Insidia",
+        "english": "Chip Away",
+        "japanese": "なしくずし",
+        "simplified-chinese": "逐步击破",
+        "latin-american-spanish": "Guardia Baja"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Une attaque puissante quand l’ennemi baisse sa garde. Inflige des dégâts sans tenir compte des changements de stats.",
+            "xy": "Une attaque puissante quand l’ennemi baisse sa garde. Inflige des dégâts sans tenir compte des changements de stats.",
+            "oras": "Une attaque puissante quand l’ennemi baisse sa garde. Inflige des dégâts sans tenir compte des changements de stats.",
+            "sm": "Une attaque puissante quand l’ennemi baisse sa garde. Inflige des dégâts sans tenir compte des changements de stats.",
+            "usum": "Une attaque puissante quand l’ennemi baisse sa garde. Inflige des dégâts sans tenir compte des changements de stats.",
+            "lgpe": "Une attaque puissante quand l’ennemi baisse sa garde. Inflige des dégâts sans tenir compte des changements de stats.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "english": {
+            "bw": "Looking for an opening, the user strikes continually. The target’s stat changes don’t affect this attack’s damage.",
+            "b2w2": "Looking for an opening, the user strikes continually. The target’s stat changes don’t affect this attack’s damage.",
+            "xy": "Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage.",
+            "oras": "Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage.",
+            "sm": "Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage.",
+            "usum": "Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage.",
+            "lgpe": "Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese-kana": {
+            "xy": "すきを　みて　けんじつに　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "oras": "すきを　 て　けんじつに　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "sm": "すきを　みて　けんじつに　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "usum": "すきを　みて　けんじつに　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "lgpe": "すきを　みて　けんじつに　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "틈을 보며 착실하게 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "oras": "틈을 보며 착실하게 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "sm": "틈을 보며 착실하게 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "usum": "틈을 보며 착실하게 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "lgpe": "틈을 보며 착실하게 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Eine durchdachte Attacke zu rechter Zeit. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "oras": "Eine durchdachte Attacke zu rechter Zeit. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "sm": "Eine durchdachte Attacke zur rechten Zeit. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "usum": "Eine durchdachte Attacke zur rechten Zeit. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "lgpe": "Eine durchdachte Attacke zur rechten Zeit. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "oras": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "sm": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "usum": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "lgpe": "Un ataque que busca los puntos débiles del objetivo. El daño infligido no se ve afectado por los cambios en sus características.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca non appena il bersaglio abbassa la guardia. Il danno inflitto prescinde dalle modifiche alle statistiche del bersaglio.",
+            "oras": "Chi la usa attacca non appena il bersaglio abbassa la guardia. Il danno inflitto prescinde dalle modifiche alle statistiche del bersaglio.",
+            "sm": "Chi la usa attacca non appena il bersaglio abbassa la guardia. Il danno inflitto prescinde dalle modifiche alle statistiche del bersaglio.",
+            "usum": "Chi la usa attacca non appena il bersaglio abbassa la guardia. Il danno inflitto prescinde dalle modifiche alle statistiche del bersaglio.",
+            "lgpe": "Chi la usa attacca non appena il bersaglio abbassa la guardia. Il danno inflitto prescinde dalle modifiche alle statistiche del bersaglio.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "すきを　みて　堅実に　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "oras": "すきを　 て　堅実に　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "sm": "すきを　みて　堅実に　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "usum": "すきを　みて　堅実に　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "lgpe": "すきを　みて　堅実に　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "oras": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "sm": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "usum": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+            "lgpe": "Un ataque que busca los puntos débiles del objetivo. El daño infligido no se ve afectado por los cambios en sus características.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "看準時機，確實地攻擊對手。 可不顧對手的能力變化 給予傷害。",
+            "usum": "看準時機，確實地攻擊對手。 可不顧對手的能力變化 給予傷害。",
+            "lgpe": "看準時機，確實地攻擊對手。 可不顧對手的能力變化 給予傷害。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "看准机会稳步攻击。 无视对手的能力变化， 直接给予伤害。",
+            "usum": "看准机会稳步攻击。 无视对手的能力变化， 直接给予伤害。",
+            "lgpe": "看准机会稳步攻击。 无视对手的能力变化， 直接给予伤害。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Damage calculation ignores the target’s stat modifiers, including evasion.",
+        "shortEffect": "Ignores the target’s stat modifiers."
+    }
 }

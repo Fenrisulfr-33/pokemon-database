@@ -1,37 +1,135 @@
 {
-  "_id": 583,
-  "key": "play-rough",
-  "name": {
-    "english": "Play Rough",
-    "japanese": "じゃれつく",
-    "chinese": "嬉戏",
-    "korean": "치근거리기",
-    "german": "Carantoña",
-    "french": "Knuddler",
-    "italian": "Play Rough",
-    "spanish": "Carineria"
-  },
-  "type": "Fairy",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 90,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user plays rough with the target\nand attacks it. This may also lower\nthe target’s Attack stat.",
-    "omega-ruby-alpha-sapphire": "The user plays rough with the target\nand attacks it. This may also lower\nthe target’s Attack stat.",
-    "sun-moon": "The user plays rough with the target and attacks it.\nThis may also lower the target’s Attack stat.",
-    "ultra-sun-ultra-moon": "The user plays rough with the target and attacks it.\nThis may also lower the target’s Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user plays rough with the target and attacks it.\nThis may also lower the target’s Attack stat.",
-    "sword-shield": "The user plays rough with the target and attacks it.\nThis may also lower the target’s Attack stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 583,
+    "key": "play-rough",
+    "name": {
+        "japanese-kana": "じゃれつく",
+        "korean": "치근거리기",
+        "traditional-chinese": "嬉鬧",
+        "french": "Câlinerie",
+        "german": "Knuddler",
+        "spanish": "Carantoña",
+        "italian": "Carineria",
+        "english": "Play Rough",
+        "japanese": "じゃれつく",
+        "simplified-chinese": "嬉闹",
+        "latin-american-spanish": "Juego Rudo"
+    },
+    "type": "fairy",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "あいてに　じゃれついて こうげきする。　あいての こうげきを　さげる　ことがある。",
+            "oras": "あいてに　じゃれついて こうげきする。　あいての こうげきを　さげる　ことがある。",
+            "sm": "あいてに　じゃれついて こうげきする。　あいての こうげきを　さげる　ことがある。",
+            "usum": "あいてに　じゃれついて こうげきする。　あいての こうげきを　さげる　ことがある。",
+            "lgpe": "あいてに　じゃれついて こうげきする。　あいての こうげきを　さげる　ことがある。",
+            "swsh": "あいてに　じゃれついて こうげきする。　あいての こうげきを　さげる　ことがある。"
+        },
+        "korean": {
+            "xy": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다.",
+            "oras": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다.",
+            "sm": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다.",
+            "usum": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다.",
+            "lgpe": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다.",
+            "swsh": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다."
+        },
+        "french": {
+            "xy": "Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.",
+            "oras": "Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.",
+            "sm": "Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.",
+            "usum": "Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.",
+            "lgpe": "Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.",
+            "swsh": "Attaque l’ennemi avec un câlin. Peut diminuer son Attaque."
+        },
+        "german": {
+            "xy": "Der Anwender knuddelt das Ziel und greift es an. Gelegentlich sinkt dabei auch dessen Angriffs-Wert.",
+            "oras": "Der Anwender knuddelt das Ziel und greift es an. Gelegentlich sinkt dabei auch dessen Angriffs-Wert.",
+            "sm": "Der Anwender knuddelt das Ziel und greift es an. Gelegentlich sinkt dabei auch dessen Angriffs-Wert.",
+            "usum": "Der Anwender knuddelt das Ziel und greift es an. Gelegentlich sinkt dabei auch dessen Angriffs-Wert.",
+            "lgpe": "Der Anwender knuddelt das Ziel und greift es an. Gelegentlich sinkt dabei auch dessen Angriffs-Wert.",
+            "swsh": "Der Anwender knuddelt das Ziel und greift es an. Senkt eventuell den Angriffs-Wert des Zieles."
+        },
+        "spanish": {
+            "xy": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "oras": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "sm": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "usum": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "lgpe": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "swsh": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l’Attacco.",
+            "oras": "Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l’Attacco.",
+            "sm": "Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l’Attacco.",
+            "usum": "Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l’Attacco.",
+            "lgpe": "Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l’Attacco.",
+            "swsh": "Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l’Attacco."
+        },
+        "english": {
+            "xy": "The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.",
+            "oras": "The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.",
+            "sm": "The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.",
+            "usum": "The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.",
+            "lgpe": "The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.",
+            "swsh": "The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.",
+            "la": "The user plays rough with the target and attacks it. This may also lower the target’s offensive stats.",
+            "sv": "The user attacks by playing rough with the target. This may also lower the target's Attack stat."
+        },
+        "japanese": {
+            "xy": "相手に　じゃれついて 攻撃する。　相手の 攻撃を　さげる　ことがある。",
+            "oras": "相手に　じゃれついて 攻撃する。　相手の 攻撃を　さげる　ことがある。",
+            "sm": "相手に　じゃれついて 攻撃する。　相手の 攻撃を　さげる　ことがある。",
+            "usum": "相手に　じゃれついて 攻撃する。　相手の 攻撃を　さげる　ことがある。",
+            "lgpe": "相手に　じゃれついて 攻撃する。　相手の 攻撃を　さげる　ことがある。",
+            "swsh": "相手に　じゃれついて 攻撃する。　相手の 攻撃を　さげる　ことがある。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "oras": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "sm": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "usum": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "lgpe": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+            "swsh": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "在和對手嬉鬧的同時進行攻擊。 有時會降低對手的攻擊。",
+            "usum": "在和對手嬉鬧的同時進行攻擊。 有時會降低對手的攻擊。",
+            "lgpe": "在和對手嬉鬧的同時進行攻擊。 有時會降低對手的攻擊。",
+            "swsh": "在和對手嬉鬧的同時進行攻擊。 有時會降低對手的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "与对手嬉闹并攻击。 有时会降低对手的攻击。",
+            "usum": "与对手嬉闹并攻击。 有时会降低对手的攻击。",
+            "lgpe": "与对手嬉闹并攻击。 有时会降低对手的攻击。",
+            "swsh": "与对手嬉闹并攻击。 有时会降低对手的攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Attack by one stage."
+    }
 }

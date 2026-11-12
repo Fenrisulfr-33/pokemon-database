@@ -1,42 +1,145 @@
 {
-  "_id": 408,
-  "key": "power-gem",
-  "name": {
-    "english": "Power Gem",
-    "japanese": "パワージェム",
-    "chinese": "力量宝石",
-    "korean": "파워젬",
-    "german": "Joya de Luz",
-    "french": "Juwelenkraft",
-    "italian": "Power Gem",
-    "spanish": "Gemmoforza"
-  },
-  "type": "Rock",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user attacks with\na ray of light that\nsparkles as if it were\nmade of gemstones.\n",
-    "platinum": "The user attacks with\na ray of light that\nsparkles as if it were\nmade of gemstones.\n",
-    "heartgold-soulsilver": "The user attacks with\na ray of light that\nsparkles as if it were\nmade of gemstones.\n",
-    "black-white": "The user attacks with a ray of light that\nsparkles as if it were made of gemstones.",
-    "black-2-white-2": "The user attacks with a ray of light that\nsparkles as if it were made of gemstones.",
-    "x-y": "The user attacks with a ray of light that\nsparkles as if it were made of gemstones.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a ray of light that\nsparkles as if it were made of gemstones.",
-    "sun-moon": "The user attacks with a ray of light that sparkles as\nif it were made of gemstones.",
-    "ultra-sun-ultra-moon": "The user attacks with a ray of light that sparkles as\nif it were made of gemstones.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a ray of light that sparkles as\nif it were made of gemstones.",
-    "sword-shield": "The user attacks with a ray of light that sparkles as\nif it were made of gemstones."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 408,
+    "key": "power-gem",
+    "name": {
+        "japanese-kana": "パワージェム",
+        "korean": "파워젬",
+        "traditional-chinese": "力量寶石",
+        "french": "Rayon Gemme",
+        "german": "Juwelenkraft",
+        "spanish": "Joya de Luz",
+        "italian": "Gemmoforza",
+        "english": "Power Gem",
+        "japanese": "パワージェム",
+        "simplified-chinese": "力量宝石",
+        "latin-american-spanish": "Joya de Luz"
+    },
+    "type": "rock",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 70
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "pt": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "hgss": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "bw": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "b2w2": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "xy": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "oras": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "sm": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "usum": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "lgpe": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "swsh": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "la": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+            "sv": "The user attacks with a ray of light that sparkles as if it were made of gemstones."
+        },
+        "french": {
+            "bw": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.",
+            "xy": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.",
+            "oras": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.",
+            "sm": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.",
+            "usum": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.",
+            "lgpe": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes.",
+            "swsh": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes."
+        },
+        "japanese-kana": {
+            "xy": "ほうせきの　ように　きらめく　ひかりを はっしゃして　あいてを　こうげきする。",
+            "oras": "ほうせきの　ように　きらめく　ひかりを はっしゃして　あいてを　こうげきする。",
+            "sm": "ほうせきの　ように　きらめく　ひかりを はっしゃして　あいてを　こうげきする。",
+            "usum": "ほうせきの　ように　きらめく　ひかりを はっしゃして　あいてを　こうげきする。",
+            "lgpe": "ほうせきの　ように　きらめく　ひかりを はっしゃして　あいてを　こうげきする。",
+            "swsh": "ほうせきの　ように　きらめく　ひかりを はっしゃして　あいてを　こうげきする。"
+        },
+        "korean": {
+            "xy": "보석처럼 반짝이는 빛을 발사하여 상대를 공격한다.",
+            "oras": "보석처럼 반짝이는 빛을 발사하여 상대를 공격한다.",
+            "sm": "보석처럼 반짝이는 빛을 발사하여 상대를 공격한다.",
+            "usum": "보석처럼 반짝이는 빛을 발사하여 상대를 공격한다.",
+            "lgpe": "보석처럼 반짝이는 빛을 발사하여 상대를 공격한다.",
+            "swsh": "보석처럼 반짝이는 빛을 발사하여 상대를 공격한다."
+        },
+        "german": {
+            "xy": "Anwender attackiert mit einem Lichtstrahl, der funkelt, als sei er aus Juwelen.",
+            "oras": "Anwender attackiert mit einem Lichtstrahl, der funkelt, als sei er aus Juwelen.",
+            "sm": "Anwender attackiert mit einem Lichtstrahl, der funkelt, als sei er aus Juwelen.",
+            "usum": "Anwender attackiert mit einem Lichtstrahl, der funkelt, als sei er aus Juwelen.",
+            "lgpe": "Anwender attackiert mit einem Lichtstrahl, der funkelt, als sei er aus Juwelen.",
+            "swsh": "Anwender attackiert mit einem Lichtstrahl, der funkelt, als sei er aus Juwelen."
+        },
+        "spanish": {
+            "xy": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "oras": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "sm": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "usum": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "lgpe": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "swsh": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.",
+            "oras": "Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.",
+            "sm": "Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.",
+            "usum": "Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.",
+            "lgpe": "Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.",
+            "swsh": "Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose."
+        },
+        "japanese": {
+            "xy": "宝石のように　きらめく　光を 発射して　相手を　攻撃する。",
+            "oras": "宝石のように　きらめく　光を 発射して　相手を　攻撃する。",
+            "sm": "宝石のように　きらめく　光を 発射して　相手を　攻撃する。",
+            "usum": "宝石のように　きらめく　光を 発射して　相手を　攻撃する。",
+            "lgpe": "宝石のように　きらめく　光を 発射して　相手を　攻撃する。",
+            "swsh": "宝石のように　きらめく　光を 発射して　相手を　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "oras": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "sm": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "usum": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "lgpe": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.",
+            "swsh": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas."
+        },
+        "traditional-chinese": {
+            "sm": "發射如寶石般 閃耀的光芒攻擊對手。",
+            "usum": "發射如寶石般 閃耀的光芒攻擊對手。",
+            "lgpe": "發射如寶石般 閃耀的光芒攻擊對手。",
+            "swsh": "發射如寶石般 閃耀的光芒攻擊對手。"
+        },
+        "simplified-chinese": {
+            "sm": "发射如宝石般 闪耀的光芒攻击对手。",
+            "usum": "发射如宝石般 闪耀的光芒攻击对手。",
+            "lgpe": "发射如宝石般 闪耀的光芒攻击对手。",
+            "swsh": "发射如宝石般 闪耀的光芒攻击对手。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

@@ -42,10 +42,48 @@ These forms now have files in `forms/hisuian/`, but they are not in
 
 57 `national-dex` documents (mostly forms) have no `learnsets` document.
 
-## `moves.contact` mixes types
+## Moves with no effect text
 
-Values found: `null` (844), `"No"` (56), `false` (14), `true` (6).
-It should probably be a boolean.
+Moves 827–919 (generation 8 Legends Arceus and generation 9) have empty
+`effect.full` and `effect.shortEffect`. PokeAPI has no English effect
+text for them yet. The schema allows empty strings here.
+
+## Move changes PokeAPI can't describe
+
+For 12 moves (Teleport, Struggle, Perish Song, Nature Power, Howl, ...)
+PokeAPI lists a past value for a game with every field `null`. Whatever
+changed (probably the target) isn't in PokeAPI. These empty entries
+were removed from `changes`, and `getMoves.js` skips them.
+
+## Move data from PokeAPI
+
+These came from PokeAPI and were not fixed:
+
+- `power: 0` instead of `null` on 16 status moves (829 Power Shift,
+  837 Victory Dance, 842 Shelter, 849, 850, 852, 858, 863, 867, 868,
+  880–883, 908, 913) and on Hard Press (912), whose power varies.
+- `effectChanges` for games from before the move existed. Most are an
+  English `gs` change ("Hits Pokémon under the effects of Dig and
+  Fly.") on Shadow Punch (325), Aerial Ace (332), Magical Leaf (345),
+  Shock Wave (351), Aura Sphere (396), Magnet Bomb (443), Smart Strike
+  (684) and False Surrender (793). The others are Steamroller (537,
+  `gs`), Psychic Fangs (706, `bw`) and Freezing Glare (821, `dp`).
+- `CONTACT.md` writes "Let's Snuggle Forever" with `'`; PokeAPI uses
+  `’`. The tests treat them as the same.
+
+## Moves with no `meta`
+
+PokeAPI returns `meta: null` for 92 moves: 24 from generation 8 (mostly
+Legends Arceus, such as `dire-claw` and `stone-axe`) and 68 from
+generation 9 (such as `upper-hand` and `malignant-chain`).
+`pokeApi/moves/getMoves.js` writes `meta: null` for them.
+
+## Hyphen line breaks in flavor text
+
+Older PokeAPI flavor text splits hyphenated words across lines
+(`full-\nbody`). Turning line breaks into spaces leaves `full- body` in
+the move and ability entries. It isn't removed automatically because
+some line-ending hyphens may belong to the text.
 
 ## Missing schema checks
 
@@ -54,9 +92,18 @@ an error.
 
 ## Failing tests
 
-5 of 7 test suites fail (`npm test`):
+6 of 8 test suites fail (`npm test`):
 
-- `abilities/abilities.test.js`, 2 of 6 tests:
+- `moves/moves.test.js`, 3 of 20 tests (see "Move data from PokeAPI"
+  below):
+  - status moves have no power: 16 generation 9 status moves have
+    `power: 0` instead of `null`.
+  - damaging moves use null for variable power: Hard Press (912) has
+    `power: 0`.
+  - no game key before the move's generation: 11 moves have
+    `effectChanges` for games from before they existed.
+
+- `abilities/abilities.test.js`, 2 of 11 tests:
   - english names: "As One" is used by both 266 and 267.
   - `pokemonWithAbility`: 308–314 have no field (see below).
 

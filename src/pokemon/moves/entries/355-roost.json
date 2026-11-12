@@ -1,42 +1,141 @@
 {
-  "_id": 355,
-  "key": "roost",
-  "name": {
-    "english": "Roost",
-    "japanese": "はねやすめ",
-    "chinese": "歇息",
-    "korean": "날개쉬기",
-    "german": "Respiro",
-    "french": "Ruheort",
-    "italian": "Roost",
-    "spanish": "Trespolo"
-  },
-  "type": "Flying",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user lands and\nrests its body.\nIt restores the\nuser’s HP by up to\nhalf of its max HP.",
-    "platinum": "The user lands and\nrests its body.\nIt restores the\nuser’s HP by up to\nhalf of its max HP.",
-    "heartgold-soulsilver": "The user lands and\nrests its body.\nIt restores the\nuser’s HP by up to\nhalf of its max HP.",
-    "black-white": "The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.",
-    "black-2-white-2": "The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.",
-    "x-y": "The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.",
-    "omega-ruby-alpha-sapphire": "The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.",
-    "sun-moon": "The user lands and rests its body. It restores the\nuser’s HP by up to half of its max HP.",
-    "ultra-sun-ultra-moon": "The user lands and rests its body. It restores the\nuser’s HP by up to half of its max HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user lands and rests its body. This move restores\nthe user’s HP by up to half of its max HP.",
-    "sword-shield": "The user lands and rests its body. This move restores\nthe user’s HP by up to half of its max HP."
-  },
-  "effect": {
-    "full": "Heals the user for half its max HP.  If the user is flying, its flying type is ignored until the end of this turn.",
-    "shortEffect": "Heals the user by half its max HP."
-  },
-  "priority": 0
+    "_id": 355,
+    "key": "roost",
+    "name": {
+        "japanese-kana": "はねやすめ",
+        "korean": "날개쉬기",
+        "traditional-chinese": "羽棲",
+        "french": "Atterrissage",
+        "german": "Ruheort",
+        "spanish": "Respiro",
+        "italian": "Trespolo",
+        "english": "Roost",
+        "japanese": "はねやすめ",
+        "simplified-chinese": "羽栖",
+        "latin-american-spanish": "Respiro"
+    },
+    "type": "flying",
+    "category": "status",
+    "contest": "cool",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "pt": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "hgss": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "bw": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "b2w2": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "xy": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "oras": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "sm": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "usum": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "lgpe": "The user lands and rests its body. This move restores the user’s HP by up to half of its max HP.",
+            "swsh": "The user lands and rests its body. This move restores the user’s HP by up to half of its max HP.",
+            "la": "The user lands and rests its body. This move restores the user's HP.",
+            "sv": "The user lands and rests its body. This move restores the user's HP by up to half its max HP."
+        },
+        "french": {
+            "bw": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max.",
+            "xy": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max.",
+            "oras": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max.",
+            "sm": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max.",
+            "usum": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max.",
+            "lgpe": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max.",
+            "swsh": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max."
+        },
+        "japanese-kana": {
+            "xy": "じめんに　おりて　からだを　やすめる。 さいだい　ＨＰの　はんぶんの ＨＰを　かいふく　する。",
+            "oras": "じめんに　おりて　からだを　やすめる。 さいだい　ＨＰの　はんぶんの ＨＰを　かいふく　する。",
+            "sm": "じめんに　おりて　からだを　やすめる。 さいだい　ＨＰの　はんぶんの ＨＰを　かいふく　する。",
+            "usum": "じめんに　おりて　からだを　やすめる。 さいだい　ＨＰの　はんぶんの ＨＰを　かいふく　する。",
+            "lgpe": "じめんに　おりて　からだを　やすめる。 さいだい　ＨＰの　はんぶんの ＨＰを　かいふく　する。",
+            "swsh": "じめんに　おりて　からだを　やすめる。 さいだい　ＨＰの　はんぶんの ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "땅에 내려와 몸을 쉬게 한다. 최대 HP의 절반만큼 HP를 회복한다.",
+            "oras": "땅에 내려와 몸을 쉬게 한다. 최대 HP의 절반만큼 HP를 회복한다.",
+            "sm": "땅에 내려와 몸을 쉬게 한다. 최대 HP의 절반만큼 HP를 회복한다.",
+            "usum": "땅에 내려와 몸을 쉬게 한다. 최대 HP의 절반만큼 HP를 회복한다.",
+            "lgpe": "땅에 내려와 몸을 쉬게 한다. 최대 HP의 절반만큼 HP를 회복한다.",
+            "swsh": "땅에 내려와 몸을 쉬게 한다. 최대 HP의 절반만큼 HP를 회복한다."
+        },
+        "german": {
+            "xy": "Anwender landet und ruht sich aus. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "oras": "Anwender landet und ruht sich aus. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "sm": "Anwender landet und ruht sich aus. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "usum": "Anwender landet und ruht sich aus. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "lgpe": "Anwender landet und ruht sich aus. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "swsh": "Anwender landet und ruht sich aus. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt."
+        },
+        "spanish": {
+            "xy": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "oras": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "sm": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "usum": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "lgpe": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "swsh": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS."
+        },
+        "italian": {
+            "xy": "Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi.",
+            "oras": "Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi.",
+            "sm": "Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi.",
+            "usum": "Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi.",
+            "lgpe": "Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi.",
+            "swsh": "Chi la usa sta fermo e riposa, recuperando metà dei propri PS massimi."
+        },
+        "japanese": {
+            "xy": "地面に　降りて　体を　やすめる。 最大ＨＰの　半分の ＨＰを　回復する。",
+            "oras": "地面に　降りて　体を　やすめる。 最大ＨＰの　半分の ＨＰを　回復する。",
+            "sm": "地面に　降りて　体を　やすめる。 最大ＨＰの　半分の ＨＰを　回復する。",
+            "usum": "地面に　降りて　体を　やすめる。 最大ＨＰの　半分の ＨＰを　回復する。",
+            "lgpe": "地面に　降りて　体を　やすめる。 最大ＨＰの　半分の ＨＰを　回復する。",
+            "swsh": "地面に　降りて　体を　やすめる。 最大ＨＰの　半分の ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "oras": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "sm": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "usum": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "lgpe": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.",
+            "swsh": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS."
+        },
+        "traditional-chinese": {
+            "sm": "降落到地面，讓身體休息。 回復自己最大ＨＰ的一半。",
+            "usum": "降落到地面，讓身體休息。 回復自己最大ＨＰ的一半。",
+            "lgpe": "降落到地面，讓身體休息。 回復自己最大HP的一半。",
+            "swsh": "降落到地面，讓身體休息。 回復自己最大ＨＰ的一半。"
+        },
+        "simplified-chinese": {
+            "sm": "降到地面，使身体休息。 回复自己最大ＨＰ的一半。",
+            "usum": "降到地面，使身体休息。 回复自己最大ＨＰ的一半。",
+            "lgpe": "降到地面，使身体休息。 回复自己最大HP的一半。",
+            "swsh": "降到地面，使身体休息。 回复自己最大ＨＰ的一半。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user for half its max HP.  If the user is Flying, its Flying type is ignored until the end of this turn.",
+        "shortEffect": "Heals the user by half its max HP."
+    }
 }

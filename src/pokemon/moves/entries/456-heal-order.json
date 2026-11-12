@@ -1,42 +1,139 @@
 {
-  "_id": 456,
-  "key": "heal-order",
-  "name": {
-    "english": "Heal Order",
-    "japanese": "かいふくしれい",
-    "chinese": "回复指令",
-    "korean": "회복지령",
-    "german": "Auxilio",
-    "french": "Heilbefehl",
-    "italian": "Heal Order",
-    "spanish": "Comandocura"
-  },
-  "type": "Bug",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP.",
-    "platinum": "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP.",
-    "heartgold-soulsilver": "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP.",
-    "black-white": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
-    "black-2-white-2": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
-    "x-y": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
-    "omega-ruby-alpha-sapphire": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
-    "sun-moon": "The user calls out its underlings to heal it. The user\nregains up to half of its max HP.",
-    "ultra-sun-ultra-moon": "The user calls out its underlings to heal it. The user\nregains up to half of its max HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user calls out its underlings to heal it. The user\nregains up to half of its max HP.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Heals the user for half its max HP.",
-    "shortEffect": "Heals the user by half its max HP."
-  },
-  "priority": 0
+    "_id": 456,
+    "key": "heal-order",
+    "name": {
+        "japanese-kana": "かいふくしれい",
+        "korean": "회복지령",
+        "traditional-chinese": "回復指令",
+        "french": "Appel Soins",
+        "german": "Heilbefehl",
+        "spanish": "Auxilio",
+        "italian": "Comandocura",
+        "english": "Heal Order",
+        "japanese": "かいふくしれい",
+        "simplified-chinese": "回复指令",
+        "latin-american-spanish": "Auxilio"
+    },
+    "type": "bug",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "pt": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "hgss": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "bw": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "b2w2": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "xy": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "oras": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "sm": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "usum": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "lgpe": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max.",
+            "xy": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max.",
+            "oras": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max.",
+            "sm": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max.",
+            "usum": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max.",
+            "lgpe": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "しもべを　よびだして　きずを　なおす。 さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "oras": "しもべを　よびだして　きずを　なおす。 さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "sm": "しもべを　よびだして　きずを　なおす。 さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "usum": "しもべを　よびだして　きずを　なおす。 さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "lgpe": "しもべを　よびだして　きずを　なおす。 さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "부하를 불러내어 상처를 회복한다. 최대 HP의 절반만큼 자신의 HP를 회복한다.",
+            "oras": "부하를 불러내어 상처를 회복한다. 최대 HP의 절반만큼 자신의 HP를 회복한다.",
+            "sm": "부하를 불러내어 상처를 회복한다. 최대 HP의 절반만큼 자신의 HP를 회복한다.",
+            "usum": "부하를 불러내어 상처를 회복한다. 최대 HP의 절반만큼 자신의 HP를 회복한다.",
+            "lgpe": "부하를 불러내어 상처를 회복한다. 최대 HP의 절반만큼 자신의 HP를 회복한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Untergebene heilen den Anwender. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "oras": "Untergebene heilen den Anwender. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "sm": "Untergebene heilen den Anwender. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "usum": "Untergebene heilen den Anwender. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "lgpe": "Untergebene heilen den Anwender. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "oras": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "sm": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "usum": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "lgpe": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa raduna i suoi sgherri per farsi curare. Recupera metà dei PS massimi.",
+            "oras": "Chi la usa raduna i suoi sgherri per farsi curare. Recupera metà dei PS massimi.",
+            "sm": "Chi la usa raduna i suoi sgherri per farsi curare. Recupera metà dei PS massimi.",
+            "usum": "Chi la usa raduna i suoi sgherri per farsi curare. Recupera metà dei PS massimi.",
+            "lgpe": "Chi la usa raduna i suoi sgherri per farsi curare. Recupera metà dei PS massimi.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "しもべを　呼びだして　きずを　治す。 最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "oras": "しもべを　呼びだして　きずを　治す。 最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "sm": "しもべを　呼びだして　きずを　治す。 最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "usum": "しもべを　呼びだして　きずを　治す。 最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "lgpe": "しもべを　呼びだして　きずを　治す。 最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "oras": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "sm": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "usum": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "lgpe": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "呼喚手下，治療自己的傷勢。 回復自己最大ＨＰ的一半。",
+            "usum": "呼喚手下，治療自己的傷勢。 回復自己最大ＨＰ的一半。",
+            "lgpe": "呼喚手下，治療自己的傷勢。 回復自己最大HP的一半。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "召唤手下疗伤。 回复自己最大ＨＰ的一半。",
+            "usum": "召唤手下疗伤。 回复自己最大ＨＰ的一半。",
+            "lgpe": "召唤手下疗伤。 回复自己最大HP的一半。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user for half its max HP.",
+        "shortEffect": "Heals the user by half its max HP."
+    }
 }

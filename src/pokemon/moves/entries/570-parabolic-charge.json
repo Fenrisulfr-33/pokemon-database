@@ -1,37 +1,139 @@
 {
-  "_id": 570,
-  "key": "parabolic-charge",
-  "name": {
-    "english": "Parabolic Charge",
-    "japanese": "パラボラチャージ",
-    "chinese": "抛物线充电",
-    "korean": "파라볼라차지",
-    "german": "Carga Parábola",
-    "french": "Parabolladung",
-    "italian": "Parabolic Charge",
-    "spanish": "Caricaparabola"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user attacks everything around it.\nThe user’s HP is restored by half\nthe damage taken by those hit.",
-    "omega-ruby-alpha-sapphire": "The user attacks everything around it.\nThe user’s HP is restored by half\nthe damage taken by those hit.",
-    "sun-moon": "The user attacks everything around it. The user’s HP\nis restored by half the damage taken by those hit.",
-    "ultra-sun-ultra-moon": "The user attacks everything around it. The user’s HP\nis restored by half the damage taken by those hit.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks everything around it. The user’s HP\nis restored by half the damage taken by those hit.",
-    "sword-shield": "The user attacks everything around it. The user’s HP\nis restored by half the damage taken by those hit."
-  },
-  "effect": {
-    "full": "Heals the user for half the total damage dealt to all targets.",
-    "shortEffect": "Heals the user for half the total damage dealt to all targets."
-  },
-  "priority": 0
+    "_id": 570,
+    "key": "parabolic-charge",
+    "name": {
+        "japanese-kana": "パラボラチャージ",
+        "korean": "파라볼라차지",
+        "traditional-chinese": "拋物面充電",
+        "french": "Parabocharge",
+        "german": "Parabolladung",
+        "spanish": "Carga Parábola",
+        "italian": "Caricaparabola",
+        "english": "Parabolic Charge",
+        "japanese": "パラボラチャージ",
+        "simplified-chinese": "抛物面充电",
+        "latin-american-spanish": "Carga Parabólica"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": null,
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 50,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "power": 50
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "まわりにいる　ポケモン　ぜんいんに ダメージ。　あたえた　ダメージの はんぶんを　じぶんが　かいふくする。",
+            "oras": "まわりにいる　ポケモン　ぜんいんに ダメージ。　あたえた　ダメージの はんぶんを　じぶんが　かいふくする。",
+            "sm": "まわりにいる　ポケモン　ぜんいんに ダメージ。　あたえた　ダメージの はんぶんを　じぶんが　かいふくする。",
+            "usum": "まわりにいる　ポケモン　ぜんいんに ダメージ。　あたえた　ダメージの はんぶんを　じぶんが　かいふくする。",
+            "lgpe": "まわりにいる　ポケモン　ぜんいんに ダメージ。　あたえた　ダメージの はんぶんを　じぶんが　かいふくする。",
+            "swsh": "まわりにいる　ポケモン　ぜんいんに ダメージ。　あたえた　ダメージの はんぶんを　じぶんが　かいふくする。"
+        },
+        "korean": {
+            "xy": "주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다.",
+            "oras": "주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다.",
+            "sm": "주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다.",
+            "usum": "주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다.",
+            "lgpe": "주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다.",
+            "swsh": "주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다."
+        },
+        "french": {
+            "xy": "Inflige des dégâts à tous les Pokémon autour du lanceur. Il récupère en PV la moitié des dégâts infligés.",
+            "oras": "Inflige des dégâts à tous les Pokémon autour du lanceur. Il récupère en PV la moitié des dégâts infligés.",
+            "sm": "Inflige des dégâts à tous les Pokémon autour du lanceur. Il récupère en PV la moitié des dégâts infligés.",
+            "usum": "Inflige des dégâts à tous les Pokémon autour du lanceur. Il récupère en PV la moitié des dégâts infligés.",
+            "lgpe": "Inflige des dégâts à tous les Pokémon autour du lanceur. Il récupère en PV la moitié des dégâts infligés.",
+            "swsh": "Inflige des dégâts à tous les Pokémon autour du lanceur. Il récupère en PV la moitié des dégâts infligés."
+        },
+        "german": {
+            "xy": "Fügt allen Pokémon in der Umgebung Schaden zu. Der Anwender wird um die Hälfte des insgesamt angerichteten Schadens geheilt.",
+            "oras": "Fügt allen Pokémon in der Umgebung Schaden zu. Der Anwender wird um die Hälfte des insgesamt angerichteten Schadens geheilt.",
+            "sm": "Fügt allen Pokémon in der Umgebung Schaden zu. Der Anwender wird um die Hälfte des insgesamt angerichteten Schadens geheilt.",
+            "usum": "Fügt allen Pokémon in der Umgebung Schaden zu. Der Anwender wird um die Hälfte des insgesamt angerichteten Schadens geheilt.",
+            "lgpe": "Fügt allen Pokémon in der Umgebung Schaden zu. Der Anwender wird um die Hälfte des insgesamt angerichteten Schadens geheilt.",
+            "swsh": "Fügt allen Pokémon im Umkreis Schaden zu. Der Anwender wird um die Hälfte des insgesamt angerichteten Schadens geheilt."
+        },
+        "spanish": {
+            "xy": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "oras": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "sm": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "usum": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "lgpe": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "swsh": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS."
+        },
+        "italian": {
+            "xy": "Infligge danni a tutti i Pokémon vicini. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "oras": "Infligge danni a tutti i Pokémon vicini. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "sm": "Infligge danni a tutti i Pokémon vicini. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "usum": "Infligge danni a tutti i Pokémon vicini. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "lgpe": "Infligge danni a tutti i Pokémon vicini. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "swsh": "Infligge danni a tutti i Pokémon vicini. Chi la usa recupera una quantità di PS pari alla metà del danno inferto."
+        },
+        "english": {
+            "xy": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit.",
+            "oras": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit.",
+            "sm": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit.",
+            "usum": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit.",
+            "lgpe": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit.",
+            "swsh": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit.",
+            "la": "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit.",
+            "sv": "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit."
+        },
+        "japanese": {
+            "xy": "周りにいる　ポケモン　全員に ダメージ。与えた　ダメージの 半分を　自分が　回復する。",
+            "oras": "周りにいる　ポケモン　全員に ダメージ。与えた　ダメージの 半分を　自分が　回復する。",
+            "sm": "周りにいる　ポケモン　全員に ダメージ。　与えた　ダメージの 半分を　自分が　回復する。",
+            "usum": "周りにいる　ポケモン　全員に ダメージ。　与えた　ダメージの 半分を　自分が　回復する。",
+            "lgpe": "周りにいる　ポケモン　全員に ダメージ。　与えた　ダメージの 半分を　自分が　回復する。",
+            "swsh": "周りにいる　ポケモン　全員に ダメージ。　与えた　ダメージの 半分を　自分が　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "oras": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "sm": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "usum": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "lgpe": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.",
+            "swsh": "Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS."
+        },
+        "traditional-chinese": {
+            "sm": "攻擊自己周圍所有的寶可夢。 可以回復給予傷害的一半ＨＰ。",
+            "usum": "攻擊自己周圍所有的寶可夢。 可以回復給予傷害的一半ＨＰ。",
+            "lgpe": "攻擊自己周圍所有的寶可夢。 可以回復給予傷害的一半HP。",
+            "swsh": "攻擊自己周圍所有的寶可夢。 可以回復給予傷害的一半ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "给周围全体宝可梦造成伤害。 可以回复给予伤害的一半ＨＰ。",
+            "usum": "给周围全体宝可梦造成伤害。 可以回复给予伤害的一半ＨＰ。",
+            "lgpe": "给周围全体宝可梦造成伤害。 可以回复给予伤害的一半HP。",
+            "swsh": "给周围全体宝可梦造成伤害。 可以回复给予伤害的一半HP。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user for half the total damage dealt to all targets.",
+        "shortEffect": "Heals the user for half the total damage dealt to all targets."
+    }
 }

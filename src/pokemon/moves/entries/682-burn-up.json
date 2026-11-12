@@ -1,35 +1,115 @@
 {
-  "_id": 682,
-  "key": "burn-up",
-  "name": {
-    "english": "Burn Up",
-    "japanese": "もえつきる",
-    "chinese": "燃盡",
-    "korean": "불사르기",
-    "german": "Llama Final",
-    "french": "Ausbrennen",
-    "italian": "Burn Up",
-    "spanish": "Ultima Fiamma"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 130,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "To inflict massive damage, the user burns itself out.\nAfter using this move, the user will no longer be\nFire type.",
-    "ultra-sun-ultra-moon": "To inflict massive damage, the user burns itself out.\nAfter using this move, the user will no longer be\nFire type.",
-    "lets-go-pikachu-lets-go-eevee": "To inflict massive damage, the user burns itself out.\nAfter using this move, the user will no longer be\nFire type.",
-    "sword-shield": "To inflict massive damage, the user burns itself out.\nAfter using this move, the user will no longer be\nFire type."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Removes the user's fire type after damage calculation.  If the user is not fire-type, this move will fail.",
-    "shortEffect": "Removes the user's fire type after inflicting damage."
-  },
-  "priority": 0
+    "_id": 682,
+    "key": "burn-up",
+    "name": {
+        "japanese-kana": "もえつきる",
+        "korean": "불사르기",
+        "traditional-chinese": "燃盡",
+        "french": "Flamme Ultime",
+        "german": "Ausbrennen",
+        "spanish": "Llama Final",
+        "italian": "Ultima Fiamma",
+        "english": "Burn Up",
+        "japanese": "もえつきる",
+        "simplified-chinese": "燃尽",
+        "latin-american-spanish": "Llama Final"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 130,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "ぜんしんの　ほのおを　すべて もやして　だいダメージを　あたえる。 じぶんの　ほのおタイプが　なくなる。",
+            "usum": "ぜんしんの　ほのおを　すべて もやして　だいダメージを　あたえる。 じぶんの　ほのおタイプが　なくなる。",
+            "lgpe": "ぜんしんの　ほのおを　すべて もやして　だいダメージを　あたえる。 じぶんの　ほのおタイプが　なくなる。",
+            "swsh": "ぜんしんの　ほのおを　すべて もやして　だいダメージを　あたえる。 じぶんの　ほのおタイプが　なくなる。"
+        },
+        "korean": {
+            "sm": "전신의 불꽃을 모두 태워서 큰 데미지를 준다. 자신의 불꽃타입이 없어진다.",
+            "usum": "전신의 불꽃을 모두 태워서 큰 데미지를 준다. 자신의 불꽃타입이 없어진다.",
+            "lgpe": "전신의 불꽃을 모두 태워서 큰 데미지를 준다. 자신의 불꽃타입이 없어진다.",
+            "swsh": "전신의 불꽃을 모두 태워서 큰 데미지를 준다. 자신의 불꽃타입이 없어진다."
+        },
+        "traditional-chinese": {
+            "sm": "燃盡全身的火焰， 給予對手巨大的傷害。 自己的火屬性將會消失。",
+            "usum": "燃盡全身的火焰， 給予對手巨大的傷害。 自己的火屬性將會消失。",
+            "lgpe": "燃盡全身的火焰， 給予對手巨大的傷害。 自己的火屬性將會消失。",
+            "swsh": "燃盡全身的火焰， 給予對手巨大的傷害。 自己的火屬性將會消失。"
+        },
+        "french": {
+            "sm": "Le Pokémon se consume et les flammes de son corps infligent des dégâts élevés à la cible. Le lanceur perd le type Feu.",
+            "usum": "Le Pokémon se consume et les flammes de son corps infligent des dégâts élevés à la cible. Le lanceur perd le type Feu.",
+            "lgpe": "Le Pokémon se consume et les flammes de son corps infligent des dégâts élevés à la cible. Le lanceur perd le type Feu.",
+            "swsh": "Le Pokémon se consume et les flammes de son corps infligent des dégâts élevés à la cible. Le lanceur perd le type Feu."
+        },
+        "german": {
+            "sm": "Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.",
+            "usum": "Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.",
+            "lgpe": "Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.",
+            "swsh": "Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an."
+        },
+        "spanish": {
+            "sm": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.",
+            "usum": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.",
+            "lgpe": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.",
+            "swsh": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca sfruttando tutta la sua potenza incendiaria per infliggere gravi danni al bersaglio, ma come conseguenza perde il tipo Fuoco.",
+            "usum": "Chi la usa attacca sfruttando tutta la sua potenza incendiaria per infliggere gravi danni al bersaglio, ma come conseguenza perde il tipo Fuoco.",
+            "lgpe": "Chi la usa attacca sfruttando tutta la sua potenza incendiaria per infliggere gravi danni al bersaglio, ma come conseguenza perde il tipo Fuoco.",
+            "swsh": "Chi la usa attacca sfruttando tutta la sua potenza incendiaria per infliggere gravi danni al bersaglio, ma come conseguenza perde il tipo Fuoco."
+        },
+        "english": {
+            "sm": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.",
+            "usum": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.",
+            "lgpe": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.",
+            "swsh": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type."
+        },
+        "japanese": {
+            "sm": "全身の　ほのおを　すべて 燃やして　大ダメージを　与える。 自分の　ほのおタイプが　なくなる。",
+            "usum": "全身の　ほのおを　すべて 燃やして　大ダメージを　与える。 自分の　ほのおタイプが　なくなる。",
+            "lgpe": "全身の　ほのおを　すべて 燃やして　大ダメージを　与える。 自分の　ほのおタイプが　なくなる。",
+            "swsh": "全身の　ほのおを　すべて 燃やして　大ダメージを　与える。 自分の　ほのおタイプが　なくなる。"
+        },
+        "simplified-chinese": {
+            "sm": "将自己全身燃烧起火焰来， 给予对手大大的伤害。 自己的火属性将会消失。",
+            "usum": "将自己全身燃烧起火焰来， 给予对手大大的伤害。 自己的火属性将会消失。",
+            "lgpe": "将自己全身燃烧起火焰来， 给予对手大大的伤害。 自己的火属性将会消失。",
+            "swsh": "将自己全身燃烧起火焰来， 给予对手大大的伤害。 自己的火属性将会消失。"
+        },
+        "latin-american-spanish": {
+            "sm": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.",
+            "usum": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.",
+            "lgpe": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.",
+            "swsh": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Removes the user’s Fire type after damage calculation.  If the user is not Fire-type, this move will fail.",
+        "shortEffect": "Removes the user’s Fire type after inflicting damage."
+    }
 }

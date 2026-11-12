@@ -1,37 +1,139 @@
 {
-  "_id": 595,
-  "key": "mystical-fire",
-  "name": {
-    "english": "Mystical Fire",
-    "japanese": "マジカルフレイム",
-    "chinese": "魔法火焰",
-    "korean": "매지컬플레임",
-    "german": "Llama Embrujada",
-    "french": "Magieflamme",
-    "italian": "Mystical Fire",
-    "spanish": "Magifiamma"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user attacks by breathing\na special, hot fire. This also\nlowers the target’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "The user attacks by breathing\na special, hot fire. This also\nlowers the target’s Sp. Atk stat.",
-    "sun-moon": "The user attacks by breathing a special, hot fire.\nThis also lowers the target’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user attacks by breathing a special, hot fire.\nThis also lowers the target’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by breathing a special, hot fire.\nThis also lowers the target’s Sp. Atk stat.",
-    "sword-shield": "The user attacks by breathing a special, hot fire.\nThis also lowers the target’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 595,
+    "key": "mystical-fire",
+    "name": {
+        "japanese-kana": "マジカルフレイム",
+        "korean": "매지컬플레임",
+        "traditional-chinese": "魔法火焰",
+        "french": "Feu Ensorcelé",
+        "german": "Magieflamme",
+        "spanish": "Llama Embrujada",
+        "italian": "Magifiamma",
+        "english": "Mystical Fire",
+        "japanese": "マジカルフレイム",
+        "simplified-chinese": "魔法火焰",
+        "latin-american-spanish": "Fuego Místico"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 75,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "sm": {
+            "power": 65
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "くちから　はきだす　とくべつ あつい　ほのおで　こうげきする。 あいての　とくこうを　さげる。",
+            "oras": "くちから　はきだす　とくべつ あつい　ほのおで　こうげきする。 あいての　とくこうを　さげる。",
+            "sm": "くちから　はきだす　とくべつ あつい　ほのおで　こうげきする。 あいての　とくこうを　さげる。",
+            "usum": "くちから　はきだす　とくべつ あつい　ほのおで　こうげきする。 あいての　とくこうを　さげる。",
+            "lgpe": "くちから　はきだす　とくべつ あつい　ほのおで　こうげきする。 あいての　とくこうを　さげる。",
+            "swsh": "くちから　はきだす　とくべつ あつい　ほのおで　こうげきする。 あいての　とくこうを　さげる。"
+        },
+        "korean": {
+            "xy": "입에서 내뱉는 아주 뜨거운 불꽃으로 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "oras": "입에서 내뱉는 아주 뜨거운 불꽃으로 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "sm": "입에서 내뱉는 아주 뜨거운 불꽃으로 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "usum": "입에서 내뱉는 아주 뜨거운 불꽃으로 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "lgpe": "입에서 내뱉는 아주 뜨거운 불꽃으로 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "swsh": "입에서 내뱉는 아주 뜨거운 불꽃으로 공격한다. 상대의 특수공격을 떨어뜨린다."
+        },
+        "french": {
+            "xy": "Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.",
+            "oras": "Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.",
+            "sm": "Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.",
+            "usum": "Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.",
+            "lgpe": "Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.",
+            "swsh": "Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi."
+        },
+        "german": {
+            "xy": "Der Anwender greift das Ziel an, indem er ihm eine besondere, heiße Flamme entgegenbläst. Der Spezial-Angriff des Zieles sinkt.",
+            "oras": "Der Anwender greift das Ziel an, indem er ihm eine besondere, heiße Flamme entgegenbläst. Der Spezial-Angriff des Zieles sinkt.",
+            "sm": "Der Anwender greift das Ziel an, indem er ihm eine besondere, heiße Flamme entgegenbläst. Der Spezial-Angriff des Zieles sinkt.",
+            "usum": "Der Anwender greift das Ziel an, indem er ihm eine besondere, heiße Flamme entgegenbläst. Der Spezial-Angriff des Zieles sinkt.",
+            "lgpe": "Der Anwender greift das Ziel an, indem er ihm eine besondere, heiße Flamme entgegenbläst. Der Spezial-Angriff des Zieles sinkt.",
+            "swsh": "Der Anwender greift das Ziel an, indem er ihm eine besondere, heiße Flamme entgegenbläst. Der Spezial-Angriff des Zieles sinkt."
+        },
+        "spanish": {
+            "xy": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "oras": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "sm": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "usum": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "lgpe": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "swsh": "El usuario lanza por la boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l’Attacco Speciale.",
+            "oras": "Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l’Attacco Speciale.",
+            "sm": "Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l’Attacco Speciale.",
+            "usum": "Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l’Attacco Speciale.",
+            "lgpe": "Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l’Attacco Speciale.",
+            "swsh": "Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l’Attacco Speciale."
+        },
+        "english": {
+            "xy": "The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.",
+            "oras": "The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.",
+            "sm": "The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.",
+            "usum": "The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.",
+            "lgpe": "The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.",
+            "swsh": "The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.",
+            "la": "The user attacks by breathing a special, hot fire. This also lowers the target's offensive stats.",
+            "sv": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat."
+        },
+        "japanese": {
+            "xy": "口から　吐きだす　特別 熱い　炎で　攻撃する。 相手の　特攻を　さげる。",
+            "oras": "口から　吐きだす　特別 熱い　炎で　攻撃する。 相手の　特攻を　さげる。",
+            "sm": "口から　吐きだす　特別 熱い　炎で　攻撃する。 相手の　特攻を　さげる。",
+            "usum": "口から　吐きだす　特別 熱い　炎で　攻撃する。 相手の　特攻を　さげる。",
+            "lgpe": "口から　吐きだす　特別 熱い　炎で　攻撃する。 相手の　特攻を　さげる。",
+            "swsh": "口から　吐きだす　特別 熱い　炎で　攻撃する。 相手の　特攻を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "oras": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "sm": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "usum": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "lgpe": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+            "swsh": "El usuario lanza por la boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "從口中吐出特別灼熱的 火焰進行攻擊。 可降低對手的特攻。",
+            "usum": "從口中吐出特別灼熱的 火焰進行攻擊。 可降低對手的特攻。",
+            "lgpe": "從口中吐出特別灼熱的 火焰進行攻擊。 可降低對手的特攻。",
+            "swsh": "從口中吐出特別灼熱的 火焰進行攻擊。 可降低對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "从口中喷出特别灼热的 火焰进行攻击。 降低对手的特攻。",
+            "usum": "从口中喷出特别灼热的 火焰进行攻击。 降低对手的特攻。",
+            "lgpe": "从口中喷出特别灼热的 火焰进行攻击。 降低对手的特攻。",
+            "swsh": "从口中喷出特别灼热的 火焰进行攻击。 降低对手的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Attack by one stage."
+    }
 }

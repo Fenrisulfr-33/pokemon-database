@@ -1,45 +1,144 @@
 {
-  "_id": 339,
-  "key": "bulk-up",
-  "name": {
-    "english": "Bulk Up",
-    "japanese": "ビルドアップ",
-    "chinese": "健美",
-    "korean": "벌크업",
-    "german": "Corpulencia",
-    "french": "Protzer",
-    "italian": "Bulk Up",
-    "spanish": "Granfisico"
-  },
-  "type": "Fighting",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "emerald": "Bulks up the body to boost\nboth ATTACK and DEFENSE.",
-    "ruby-sapphire": "Bulks up the body to boost\nboth ATTACK and DEFENSE.",
-    "firered-leafgreen": "The user bulks up\nits body to boost\nboth its ATTACK and\nDEFENSE stats.",
-    "diamond-pearl": "The user tenses its\nmuscles to bulk up\nits body, boosting\nboth its Attack and\nDefense stats.",
-    "platinum": "The user tenses its\nmuscles to bulk up\nits body, boosting\nboth its Attack and\nDefense stats.",
-    "heartgold-soulsilver": "The user tenses its\nmuscles to bulk up\nits body, boosting\nboth its Attack and\nDefense stats.",
-    "black-white": "The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.",
-    "black-2-white-2": "The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.",
-    "x-y": "The user tenses its muscles to bulk up\nits body, raising both its Attack and\nDefense stats.",
-    "omega-ruby-alpha-sapphire": "The user tenses its muscles to bulk up\nits body, raising both its Attack and\nDefense stats.",
-    "sun-moon": "The user tenses its muscles to bulk up its body,\nraising both its Attack and Defense stats.",
-    "ultra-sun-ultra-moon": "The user tenses its muscles to bulk up its body,\nraising both its Attack and Defense stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user tenses its muscles to bulk up its body,\nraising both its Attack and Defense stats.",
-    "sword-shield": "The user tenses its muscles to bulk up its body,\nraising both its Attack and Defense stats."
-  },
-  "effect": {
-    "full": "Raises the user's Attack and Defense by one stage each.",
-    "shortEffect": "Raises the user's Attack and Defense by one stage."
-  },
-  "priority": 0
+    "_id": 339,
+    "key": "bulk-up",
+    "name": {
+        "japanese-kana": "ビルドアップ",
+        "korean": "벌크업",
+        "traditional-chinese": "健美",
+        "french": "Gonflette",
+        "german": "Protzer",
+        "spanish": "Corpulencia",
+        "italian": "Granfisico",
+        "english": "Bulk Up",
+        "japanese": "ビルドアップ",
+        "simplified-chinese": "健美",
+        "latin-american-spanish": "Corpulencia"
+    },
+    "type": "fighting",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Bulks up the body to boost both ATTACK and DEFENSE.",
+            "em": "Bulks up the body to boost both ATTACK and DEFENSE.",
+            "frlg": "The user bulks up its body to boost both its ATTACK and DEFENSE stats.",
+            "dp": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
+            "pt": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
+            "hgss": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
+            "bw": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
+            "b2w2": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
+            "xy": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+            "oras": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+            "sm": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+            "usum": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+            "lgpe": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+            "swsh": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+            "la": "The user tenses its muscles to bulk up its body, raising its offensive and defensive stats.",
+            "sv": "The user tenses its muscles to bulk up its body, boosting its Attack and Defense stats."
+        },
+        "french": {
+            "bw": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+            "xy": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+            "oras": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+            "sm": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+            "usum": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+            "lgpe": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+            "swsh": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense."
+        },
+        "japanese-kana": {
+            "xy": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。",
+            "oras": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。",
+            "sm": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。",
+            "usum": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。",
+            "lgpe": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。",
+            "swsh": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。"
+        },
+        "korean": {
+            "xy": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다.",
+            "oras": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다.",
+            "sm": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다.",
+            "usum": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다.",
+            "lgpe": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다.",
+            "swsh": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다."
+        },
+        "german": {
+            "xy": "Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.",
+            "oras": "Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.",
+            "sm": "Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.",
+            "usum": "Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.",
+            "lgpe": "Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.",
+            "swsh": "Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen."
+        },
+        "spanish": {
+            "xy": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "oras": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "sm": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "usum": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "lgpe": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "swsh": "Robustece el cuerpo para subir el Ataque y la Defensa."
+        },
+        "italian": {
+            "xy": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.",
+            "oras": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.",
+            "sm": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.",
+            "usum": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.",
+            "lgpe": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.",
+            "swsh": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco."
+        },
+        "japanese": {
+            "xy": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。",
+            "oras": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。",
+            "sm": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。",
+            "usum": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。",
+            "lgpe": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。",
+            "swsh": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "oras": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "sm": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "usum": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "lgpe": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+            "swsh": "Robustece el cuerpo para subir el Ataque y la Defensa."
+        },
+        "traditional-chinese": {
+            "sm": "將力量集中於體內，增厚肌肉， 提高自己的攻擊和防禦。",
+            "usum": "將力量集中於體內，增厚肌肉， 提高自己的攻擊和防禦。",
+            "lgpe": "將力量集中於體內，增厚肌肉， 提高自己的攻擊和防禦。",
+            "swsh": "將力量集中於體內，增厚肌肉， 提高自己的攻擊和防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "使出全身力气绷紧肌肉， 从而提高自己的攻击和防御。",
+            "usum": "使出全身力气绷紧肌肉， 从而提高自己的攻击和防御。",
+            "lgpe": "使出全身力气绷紧肌肉， 从而提高自己的攻击和防御。",
+            "swsh": "使出全身力气绷紧肌肉， 从而提高自己的攻击和防御。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Attack and Defense by one stage each.",
+        "shortEffect": "Raises the user’s Attack and Defense by one stage."
+    }
 }

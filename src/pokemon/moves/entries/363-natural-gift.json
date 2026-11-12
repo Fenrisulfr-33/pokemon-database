@@ -1,42 +1,139 @@
 {
-  "_id": 363,
-  "key": "natural-gift",
-  "name": {
-    "english": "Natural Gift",
-    "japanese": "しぜんのめぐみ",
-    "chinese": "自然之恩",
-    "korean": "자연의은혜",
-    "german": "Don Natural",
-    "french": "Beerenkräfte",
-    "italian": "Natural Gift",
-    "spanish": "Dononaturale"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user draws power\nto attack by using\nits held Berry.\nThe Berry determines\nits type and power.",
-    "platinum": "The user draws power\nto attack by using\nits held Berry.\nThe Berry determines\nits type and power.",
-    "heartgold-soulsilver": "The user draws power\nto attack by using\nits held Berry.\nThe Berry determines\nits type and power.",
-    "black-white": "The user draws power to attack by using\nits held Berry.\nThe Berry determines its type and power.",
-    "black-2-white-2": "The user draws power to attack by using\nits held Berry.\nThe Berry determines its type and power.",
-    "x-y": "The user draws power to attack by using\nits held Berry.\nThe Berry determines the move’s type and power.",
-    "omega-ruby-alpha-sapphire": "The user draws power to attack by using\nits held Berry.\nThe Berry determines the move’s type and power.",
-    "sun-moon": "The user draws power to attack by using its held\nBerry. The Berry determines the move’s type\nand power.",
-    "ultra-sun-ultra-moon": "The user draws power to attack by using its held\nBerry. The Berry determines the move’s type\nand power.",
-    "lets-go-pikachu-lets-go-eevee": "The user draws power to attack by using its held\nBerry. The Berry determines the move’s type\nand power.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail.",
-    "shortEffect": "Power and type depend on the held berry."
-  },
-  "priority": 0
+    "_id": 363,
+    "key": "natural-gift",
+    "name": {
+        "japanese-kana": "しぜんのめぐみ",
+        "korean": "자연의은혜",
+        "traditional-chinese": "自然之恩",
+        "french": "Don Naturel",
+        "german": "Beerenkräfte",
+        "spanish": "Don Natural",
+        "italian": "Dononaturale",
+        "english": "Natural Gift",
+        "japanese": "しぜんのめぐみ",
+        "simplified-chinese": "自然之恩",
+        "latin-american-spanish": "Don Natural"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
+            "pt": "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
+            "hgss": "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
+            "bw": "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
+            "b2w2": "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
+            "xy": "The user draws power to attack by using its held Berry. The Berry determines the move’s type and power.",
+            "oras": "The user draws power to attack by using its held Berry. The Berry determines the move’s type and power.",
+            "sm": "The user draws power to attack by using its held Berry. The Berry determines the move’s type and power.",
+            "usum": "The user draws power to attack by using its held Berry. The Berry determines the move’s type and power.",
+            "lgpe": "The user draws power to attack by using its held Berry. The Berry determines the move’s type and power.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance.",
+            "xy": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance de l’attaque.",
+            "oras": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance de l’attaque.",
+            "sm": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance de l’attaque.",
+            "usum": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance de l’attaque.",
+            "lgpe": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance de l’attaque.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "きのみから　ちからを　もらい こうげきする。もたせた　きのみで わざの　タイプと　いりょくが　かわる。",
+            "oras": "きの から　ちからを　もらい こうげきする。もたせた　きの で わざの　タイプと　いりょくが　かわる。",
+            "sm": "きのみから　ちからを　もらい こうげきする。もたせた　きのみで わざの　タイプと　いりょくが　かわる。",
+            "usum": "きのみから　ちからを　もらい こうげきする。もたせた　きのみで わざの　タイプと　いりょくが　かわる。",
+            "lgpe": "きのみから　ちからを　もらい こうげきする。もたせた　きのみで わざの　タイプと　いりょくが　かわる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "나무열매에서 힘을 얻어 공격한다. 지니게 한 나무열매에 따라 기술의 타입과 위력이 바뀐다.",
+            "oras": "나무열매에서 힘을 얻어 공격한다. 지니게 한 나무열매에 따라 기술의 타입과 위력이 바뀐다.",
+            "sm": "나무열매에서 힘을 얻어 공격한다. 지니게 한 나무열매에 따라 기술의 타입과 위력이 바뀐다.",
+            "usum": "나무열매에서 힘을 얻어 공격한다. 지니게 한 나무열매에 따라 기술의 타입과 위력이 바뀐다.",
+            "lgpe": "나무열매에서 힘을 얻어 공격한다. 지니게 한 나무열매에 따라 기술의 타입과 위력이 바뀐다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender zieht aus seiner derzeitigen Beere Kraft. Sie bestimmt Typ und Stärke der Attacke.",
+            "oras": "Anwender zieht aus seiner derzeitigen Beere Kraft. Sie bestimmt Typ und Stärke der Attacke.",
+            "sm": "Anwender zieht aus seiner derzeitigen Beere Kraft. Sie bestimmt Typ und Stärke der Attacke.",
+            "usum": "Anwender zieht aus seiner derzeitigen Beere Kraft. Sie bestimmt Typ und Stärke der Attacke.",
+            "lgpe": "Anwender zieht aus seiner derzeitigen Beere Kraft. Sie bestimmt Typ und Stärke der Attacke.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "oras": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "sm": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "usum": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "lgpe": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa trae forza dalla bacca che ha. Da questa dipendono il tipo e la potenza dell’attacco.",
+            "oras": "Chi la usa trae forza dalla bacca che ha. Da questa dipendono il tipo e la potenza dell’attacco.",
+            "sm": "Chi la usa trae forza dalla bacca che ha. Da questa dipendono il tipo e la potenza dell’attacco.",
+            "usum": "Chi la usa trae forza dalla bacca che ha. Da questa dipendono il tipo e la potenza dell’attacco.",
+            "lgpe": "Chi la usa trae forza dalla bacca che ha. Da questa dipendono il tipo e la potenza dell’attacco.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "きのみから　力を　もらい 攻撃する。持たせた　きのみで 技の　タイプと　威力が　変わる。",
+            "oras": "きの から　力を　もらい 攻撃する。持たせた　きの で 技の　タイプと　威力が　変わる。",
+            "sm": "きのみから　力を　もらい 攻撃する。持たせた　きのみで 技の　タイプと　威力が　変わる。",
+            "usum": "きのみから　力を　もらい 攻撃する。持たせた　きのみで 技の　タイプと　威力が　変わる。",
+            "lgpe": "きのみから　力を　もらい 攻撃する。持たせた　きのみで 技の　タイプと　威力が　変わる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "oras": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "sm": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "usum": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "lgpe": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "從樹果上獲得力量進行攻擊。 招式屬性和威力會隨著 攜帶的樹果不同而改變。",
+            "usum": "從樹果上獲得力量進行攻擊。 招式屬性和威力會隨著 攜帶的樹果不同而改變。",
+            "lgpe": "從樹果上獲得力量進行攻擊。 招式屬性和威力會隨著 攜帶的樹果不同而改變。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "从树果上获得力量进行攻击。 根据携带的树果， 招式属性和威力会改变。",
+            "usum": "从树果上获得力量进行攻击。 根据携带的树果， 招式属性和威力会改变。",
+            "lgpe": "从树果上获得力量进行攻击。 根据携带的树果， 招式属性和威力会改变。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power and type are determined by the user’s held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail.",
+        "shortEffect": "Power and type depend on the held berry."
+    }
 }

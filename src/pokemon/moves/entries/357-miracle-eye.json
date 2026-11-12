@@ -1,42 +1,139 @@
 {
-  "_id": 357,
-  "key": "miracle-eye",
-  "name": {
-    "english": "Miracle Eye",
-    "japanese": "ミラクルアイ",
-    "chinese": "奇迹眼",
-    "korean": "미라클아이",
-    "german": "Gran Ojo",
-    "french": "Wunderauge",
-    "italian": "Miracle Eye",
-    "spanish": "Miracolvista"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 40,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "Enables the user to\nhit a Ghost type with\nany type of move. It\nalso enables the user\nto hit an evasive foe.",
-    "platinum": "Enables the user to\nhit a Dark type with\nany type of move. It\nalso enables the user\nto hit an evasive foe.",
-    "heartgold-soulsilver": "Enables the user to\nhit a Dark type with\nany type of move. It\nalso enables the user\nto hit an evasive foe.",
-    "black-white": "Enables a Dark-type target to be hit by\nPsychic-type attacks. It also enables\nan evasive target to be hit.",
-    "black-2-white-2": "Enables a Dark-type target to be hit by\nPsychic-type attacks. It also enables\nan evasive target to be hit.",
-    "x-y": "Enables a Dark-type target to be hit by\nPsychic-type attacks. This also enables\nan evasive target to be hit.",
-    "omega-ruby-alpha-sapphire": "Enables a Dark-type target to be hit by\nPsychic-type attacks. This also enables\nan evasive target to be hit.",
-    "sun-moon": "Enables a Dark-type target to be hit by\nPsychic-type attacks. This also enables an evasive\ntarget to be hit.",
-    "ultra-sun-ultra-moon": "Enables a Dark-type target to be hit by\nPsychic-type attacks. This also enables an evasive\ntarget to be hit.",
-    "lets-go-pikachu-lets-go-eevee": "Enables a Dark-type target to be hit by\nPsychic-type attacks. This also enables an evasive\ntarget to be hit.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Resets the target's evasion to normal and prevents any further boosting until the target leaves the field.  A dark Pokémon under this effect takes normal damage from psychic moves.  This move itself ignores accuracy and evasion modifiers.",
-    "shortEffect": "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark."
-  },
-  "priority": 0
+    "_id": 357,
+    "key": "miracle-eye",
+    "name": {
+        "japanese-kana": "ミラクルアイ",
+        "korean": "미라클아이",
+        "traditional-chinese": "奇跡之眼",
+        "french": "Œil Miracle",
+        "german": "Wunderauge",
+        "spanish": "Gran Ojo",
+        "italian": "Miracolvista",
+        "english": "Miracle Eye",
+        "japanese": "ミラクルアイ",
+        "simplified-chinese": "奇迹之眼",
+        "latin-american-spanish": "Gran Ojo"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cute",
+    "pp": 40,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "no-type-immunity",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",
+            "pt": "Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe.",
+            "hgss": "Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe.",
+            "bw": "Enables a Dark-type target to be hit by Psychic-type attacks. It also enables an evasive target to be hit.",
+            "b2w2": "Enables a Dark-type target to be hit by Psychic-type attacks. It also enables an evasive target to be hit.",
+            "xy": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+            "oras": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+            "sm": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+            "usum": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+            "lgpe": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Permet de toucher un Pokémon Ténèbres avec toute capacité et de toucher un ennemi insaisissable.",
+            "xy": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi insaisissable.",
+            "oras": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi ayant beaucoup d’esquive.",
+            "sm": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi ayant beaucoup d’esquive.",
+            "usum": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi ayant beaucoup d’esquive.",
+            "lgpe": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi ayant beaucoup d’esquive.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "あくタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "oras": "あくタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "sm": "あくタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "usum": "あくタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "lgpe": "あくタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "악타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "oras": "악타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "sm": "악타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "usum": "악타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "lgpe": "악타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Erlaubt es, Unlicht-Pokémon mit Psycho-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "oras": "Erlaubt es, Unlicht-Pokémon mit Psycho-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "sm": "Ermöglicht es, Unlicht-Pokémon mit Psycho-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "usum": "Ermöglicht es, Unlicht-Pokémon mit Psycho-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "lgpe": "Ermöglicht es, Unlicht-Pokémon mit Psycho-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "oras": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "sm": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "usum": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "lgpe": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.",
+            "oras": "Rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e, inoltre, permette di colpire i nemici indipendentemente dall’elusione.",
+            "sm": "Rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e, inoltre, permette di colpire i nemici indipendentemente dall’elusione.",
+            "usum": "Rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e, inoltre, permette di colpire i nemici indipendentemente dall’elusione.",
+            "lgpe": "Rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e, inoltre, permette di colpire i nemici indipendentemente dall’elusione.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "あくタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "oras": "あくタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "sm": "あくタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "usum": "あくタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "lgpe": "あくタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "oras": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "sm": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "usum": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "lgpe": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "讓對惡屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。",
+            "usum": "讓對惡屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。",
+            "lgpe": "讓對惡屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "对恶属性宝可梦没有效果的招式 以及闪避率高的对手， 使用后变得能够打中。",
+            "usum": "使出后对恶属性宝可梦没有 效果的招式以及闪避率高的对手， 变得能够打中。",
+            "lgpe": "使出后对恶属性宝可梦没有 效果的招式以及闪避率高的对手， 变得能够打中。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Resets the target’s evasion to normal and prevents any further boosting until the target leaves the field.  A Dark Pokémon under this effect takes normal damage from Psychic moves.  This move itself ignores accuracy and evasion modifiers.",
+        "shortEffect": "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it’s Dark."
+    }
 }

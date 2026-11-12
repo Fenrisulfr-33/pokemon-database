@@ -1,47 +1,146 @@
 {
-  "_id": 203,
-  "key": "endure",
-  "name": {
-    "english": "Endure",
-    "japanese": "こらえる",
-    "chinese": "忍耐",
-    "korean": "버티기",
-    "german": "Aguante",
-    "french": "Ausdauer",
-    "italian": "Endure",
-    "spanish": "Resistenza"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Always leaves at\nleast 1HP.",
-    "crystal": "Always leaves at\nleast 1HP.",
-    "ruby-sapphire": "Endures any attack for\n1 turn, leaving at least 1HP.",
-    "emerald": "Endures any attack for\n1 turn, leaving at least 1HP.",
-    "firered-leafgreen": "The user endures\nany hit with 1 HP\nleft. It may fail if\nused in succession.",
-    "diamond-pearl": "The user endures any\nattack, leaving 1 HP.\nIts chance of failing\nrises if it is used in\nsuccession.",
-    "platinum": "The user endures any\nattack, leaving 1 HP.\nIts chance of failing\nrises if it is used in\nsuccession.",
-    "heartgold-soulsilver": "The user endures any\nattack with at least\n1 HP. Its chance of\nfailing rises if it is\nused in succession.",
-    "black-white": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
-    "black-2-white-2": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
-    "x-y": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
-    "omega-ruby-alpha-sapphire": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
-    "sun-moon": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.",
-    "ultra-sun-ultra-moon": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.",
-    "lets-go-pikachu-lets-go-eevee": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.",
-    "sword-shield": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession."
-  },
-  "effect": {
-    "full": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Prevents the user's HP from lowering below 1 this turn."
-  },
-  "priority": 4
+    "_id": 203,
+    "key": "endure",
+    "name": {
+        "japanese-kana": "こらえる",
+        "korean": "버티기",
+        "traditional-chinese": "挺住",
+        "french": "Ténacité",
+        "german": "Ausdauer",
+        "spanish": "Aguante",
+        "italian": "Resistenza",
+        "english": "Endure",
+        "japanese": "こらえる",
+        "simplified-chinese": "挺住",
+        "latin-american-spanish": "Aguante"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Always leaves at least 1HP.",
+            "cr": "Always leaves at least 1HP.",
+            "rs": "Endures any attack for 1 turn, leaving at least 1HP.",
+            "em": "Endures any attack for 1 turn, leaving at least 1HP.",
+            "frlg": "The user endures any hit with 1 HP left. It may fail if used in succession.",
+            "dp": "The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.",
+            "pt": "The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.",
+            "hgss": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "bw": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "b2w2": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "xy": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "oras": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "sm": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "usum": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "lgpe": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "swsh": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "la": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+            "sv": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession."
+        },
+        "french": {
+            "bw": "Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.",
+            "xy": "Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.",
+            "oras": "Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.",
+            "sm": "Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.",
+            "usum": "Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.",
+            "lgpe": "Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite.",
+            "swsh": "Le lanceur résiste aux attaques avec 1 PV. Peut échouer si utilisée plusieurs fois de suite."
+        },
+        "japanese-kana": {
+            "xy": "こうげきを　うけても ＨＰを　かならず　１だけ　のこせる。 れんぞくで　だすと　しっぱい　しやすい。",
+            "oras": "こうげきを　うけても ＨＰを　かならず　１だけ　のこせる。 れんぞくで　だすと　しっぱい　しやすい。",
+            "sm": "こうげきを　うけても ＨＰを　かならず　１だけ　のこせる。 れんぞくで　だすと　しっぱい　しやすい。",
+            "usum": "こうげきを　うけても ＨＰを　かならず　１だけ　のこせる。 れんぞくで　だすと　しっぱい　しやすい。",
+            "lgpe": "こうげきを　うけても ＨＰを　かならず　１だけ　のこせる。 れんぞくで　だすと　しっぱい　しやすい。",
+            "swsh": "こうげきを　うけても ＨＰを　かならず　１だけ　のこせる。 れんぞくで　だすと　しっぱい　しやすい。"
+        },
+        "korean": {
+            "xy": "공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다.",
+            "oras": "공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다.",
+            "sm": "공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다.",
+            "usum": "공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다.",
+            "lgpe": "공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다.",
+            "swsh": "공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다."
+        },
+        "german": {
+            "xy": "Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.",
+            "oras": "Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.",
+            "sm": "Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.",
+            "usum": "Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.",
+            "lgpe": "Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.",
+            "swsh": "Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich."
+        },
+        "spanish": {
+            "xy": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "oras": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "sm": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "usum": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "lgpe": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "swsh": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+        },
+        "italian": {
+            "xy": "Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire.",
+            "oras": "Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire.",
+            "sm": "Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire.",
+            "usum": "Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire.",
+            "lgpe": "Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire.",
+            "swsh": "Chi la usa resta con un PS anche se subisce un colpo da KO in quel turno. Usata in successione può fallire."
+        },
+        "japanese": {
+            "xy": "攻撃を　受けても ＨＰを　必ず　１だけ　残せる。 連続で　だすと　失敗しやすい。",
+            "oras": "攻撃を　受けても ＨＰを　必ず　１だけ　残せる。 連続で　だすと　失敗しやすい。",
+            "sm": "攻撃を　受けても ＨＰを　必ず　１だけ　残せる。 連続で　だすと　失敗しやすい。",
+            "usum": "攻撃を　受けても ＨＰを　必ず　１だけ　残せる。 連続で　だすと　失敗しやすい。",
+            "lgpe": "攻撃を　受けても ＨＰを　必ず　１だけ　残せる。 連続で　だすと　失敗しやすい。",
+            "swsh": "攻撃を　受けても ＨＰを　必ず　１だけ　残せる。 連続で　だすと　失敗しやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "oras": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "sm": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "usum": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "lgpe": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.",
+            "swsh": "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+        },
+        "traditional-chinese": {
+            "sm": "即使受到再強烈的攻擊， 也一定會剩下１ＨＰ。 連續使用時容易失敗。",
+            "usum": "即使受到再強烈的攻擊， 也一定會剩下１ＨＰ。 連續使用時容易失敗。",
+            "lgpe": "即使受到再強烈的攻擊， 也一定會剩下１HP。 連續使用時容易失敗。",
+            "swsh": "即使受到再強烈的攻擊， 也一定會剩下１ＨＰ。 連續使用時容易失敗。"
+        },
+        "simplified-chinese": {
+            "sm": "即使受到攻击， 也至少会留下１ＨＰ。 连续使出则容易失败。",
+            "usum": "即使受到攻击， 也至少会留下１ＨＰ。 连续使出则容易失败。",
+            "lgpe": "即使受到攻击， 也至少会留下１HP。 连续使出则容易失败。",
+            "swsh": "即使受到攻击， 也至少会留下１ＨＰ。 连续使出则容易失败。"
+        }
+    },
+    "effect": {
+        "full": "The user’s HP cannot be lowered below 1 by any means for the remainder of this turn. If the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Prevents the user’s HP from lowering below 1 this turn."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 417,
-  "key": "nasty-plot",
-  "name": {
-    "english": "Nasty Plot",
-    "japanese": "わるだくみ",
-    "chinese": "诡计",
-    "korean": "나쁜음모",
-    "german": "Maquinación",
-    "french": "Ränkeschmied",
-    "italian": "Nasty Plot",
-    "spanish": "Congiura"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user stimulates\nits brain by thinking\nbad thoughts.\nIt sharply raises the\nuser’s Sp. Atk.",
-    "platinum": "The user stimulates\nits brain by thinking\nbad thoughts.\nIt sharply raises the\nuser’s Sp. Atk.",
-    "heartgold-soulsilver": "The user stimulates\nits brain by thinking\nbad thoughts.\nIt sharply raises the\nuser’s Sp. Atk.",
-    "black-white": "The user stimulates its brain by thinking\nbad thoughts.\nIt sharply raises the user’s Sp. Atk.",
-    "black-2-white-2": "The user stimulates its brain by thinking\nbad thoughts.\nIt sharply raises the user’s Sp. Atk.",
-    "x-y": "The user stimulates its brain by thinking\nbad thoughts.\nThis sharply raises the user’s Sp. Atk.",
-    "omega-ruby-alpha-sapphire": "The user stimulates its brain by thinking\nbad thoughts.\nThis sharply raises the user’s Sp. Atk.",
-    "sun-moon": "The user stimulates its brain by thinking bad\nthoughts. This sharply raises the user’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user stimulates its brain by thinking bad\nthoughts. This sharply raises the user’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user stimulates its brain by thinking bad\nthoughts. This sharply raises the user’s Sp. Atk stat.",
-    "sword-shield": "The user stimulates its brain by thinking bad\nthoughts. This sharply raises the user’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Raises the user's Special Attack by two stages.",
-    "shortEffect": "Raises the user's Special Attack by two stages."
-  },
-  "priority": 0
+    "_id": 417,
+    "key": "nasty-plot",
+    "name": {
+        "japanese-kana": "わるだくみ",
+        "korean": "나쁜음모",
+        "traditional-chinese": "詭計",
+        "french": "Machination",
+        "german": "Ränkeschmied",
+        "spanish": "Maquinación",
+        "italian": "Congiura",
+        "english": "Nasty Plot",
+        "japanese": "わるだくみ",
+        "simplified-chinese": "诡计",
+        "latin-american-spanish": "Maquinación"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.",
+            "pt": "The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.",
+            "hgss": "The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.",
+            "bw": "The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.",
+            "b2w2": "The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.",
+            "xy": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk.",
+            "oras": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk.",
+            "sm": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.",
+            "usum": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.",
+            "lgpe": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.",
+            "swsh": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.",
+            "la": "The user stimulates its brain by thinking bad thoughts, raising the user's offensive stats.",
+            "sv": "The user stimulates its brain by thinking bad thoughts. This sharply boosts the user's Sp. Atk stat."
+        },
+        "french": {
+            "bw": "Stimule l’esprit par de mauvaises pensées. Augmente fortement l’Attaque Spéciale du lanceur.",
+            "xy": "Stimule l’esprit par de mauvaises pensées. Augmente fortement l’Attaque Spéciale du lanceur.",
+            "oras": "Stimule l’esprit par de mauvaises pensées. Augmente fortement l’Attaque Spéciale du lanceur.",
+            "sm": "Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur.",
+            "usum": "Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur.",
+            "lgpe": "Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur.",
+            "swsh": "Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "わるいことを　かんがえて あたまを　かっせいか　させる。 じぶんの　とくこうを　ぐーんと　あげる。",
+            "oras": "わるいことを　かんがえて あたまを　かっせいか　させる。 じぶんの　とくこうを　ぐーんと　あげる。",
+            "sm": "わるいことを　かんがえて あたまを　かっせいか　させる。 じぶんの　とくこうを　ぐーんと　あげる。",
+            "usum": "わるいことを　かんがえて あたまを　かっせいか　させる。 じぶんの　とくこうを　ぐーんと　あげる。",
+            "lgpe": "わるいことを　かんがえて あたまを　かっせいか　させる。 じぶんの　とくこうを　ぐーんと　あげる。",
+            "swsh": "わるいことを　かんがえて あたまを　かっせいか　させる。 じぶんの　とくこうを　ぐーんと　あげる。"
+        },
+        "korean": {
+            "xy": "나쁜 일을 생각해서 머리를 활성화시킨다. 자신의 특수공격을 크게 올린다.",
+            "oras": "나쁜 일을 생각해서 머리를 활성화시킨다. 자신의 특수공격을 크게 올린다.",
+            "sm": "나쁜 일을 생각해서 머리를 활성화시킨다. 자신의 특수공격을 크게 올린다.",
+            "usum": "나쁜 일을 생각해서 머리를 활성화시킨다. 자신의 특수공격을 크게 올린다.",
+            "lgpe": "나쁜 일을 생각해서 머리를 활성화시킨다. 자신의 특수공격을 크게 올린다.",
+            "swsh": "나쁜 일을 생각해서 머리를 활성화시킨다. 자신의 특수공격을 크게 올린다."
+        },
+        "german": {
+            "xy": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.",
+            "oras": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.",
+            "sm": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.",
+            "usum": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.",
+            "lgpe": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.",
+            "swsh": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark."
+        },
+        "spanish": {
+            "xy": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "oras": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "sm": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "usum": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "lgpe": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "swsh": "Estimula su cerebro pensando en cosas malas. Aumenta mucho el Ataque Especial."
+        },
+        "italian": {
+            "xy": "Chi la usa stimola il cervello pensando a cose cattive. Aumenta di molto l’Attacco Speciale.",
+            "oras": "Chi la usa stimola il cervello pensando a cose cattive. Aumenta di molto l’Attacco Speciale.",
+            "sm": "Chi la usa stimola il cervello pensando a cose cattive. Aumenta di molto l’Attacco Speciale.",
+            "usum": "Chi la usa stimola il cervello pensando a cose cattive. Aumenta di molto l’Attacco Speciale.",
+            "lgpe": "Chi la usa stimola il cervello pensando a cose cattive. Aumenta di molto l’Attacco Speciale.",
+            "swsh": "Chi la usa stimola il cervello pensando a cose cattive. Aumenta di molto l’Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "悪いことを　考えて 頭を　活性化させる。 自分の　特攻を　ぐーんと　あげる。",
+            "oras": "悪いことを　考えて 頭を　活性化させる。 自分の　特攻を　ぐーんと　あげる。",
+            "sm": "悪いことを　考えて 頭を　活性化させる。 自分の　特攻を　ぐーんと　あげる。",
+            "usum": "悪いことを　考えて 頭を　活性化させる。 自分の　特攻を　ぐーんと　あげる。",
+            "lgpe": "悪いことを　考えて 頭を　活性化させる。 自分の　特攻を　ぐーんと　あげる。",
+            "swsh": "悪いことを　考えて 頭を　活性化させる。 自分の　特攻を　ぐーんと　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "oras": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "sm": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "usum": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "lgpe": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+            "swsh": "Estimula su cerebro pensando en cosas malas. Aumenta mucho el Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "動歪腦筋，活化大腦。 大幅提高自己的特攻。",
+            "usum": "動歪腦筋，活化大腦。 大幅提高自己的特攻。",
+            "lgpe": "動歪腦筋，活化大腦。 大幅提高自己的特攻。",
+            "swsh": "動歪腦筋，活化大腦。 大幅提高自己的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "谋划诡计，激活头脑。 大幅提高自己的特攻。",
+            "usum": "谋划诡计，激活头脑。 大幅提高自己的特攻。",
+            "lgpe": "谋划诡计，激活头脑。 大幅提高自己的特攻。",
+            "swsh": "谋划诡计，激活头脑。 大幅提高自己的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Special Attack by two stages.",
+        "shortEffect": "Raises the user’s Special Attack by two stages."
+    }
 }

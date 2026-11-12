@@ -1,47 +1,146 @@
 {
-  "_id": 24,
-  "key": "double-kick",
-  "name": {
-    "english": "Double Kick",
-    "japanese": "にどげり",
-    "chinese": "连环腿",
-    "korean": "두번치기",
-    "german": "Doble Patada",
-    "french": "Doppelkick",
-    "italian": "Double Kick",
-    "spanish": "Doppiocalcio"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 30,
-  "power": 30,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A double kicking\nattack.",
-    "crystal": "A double kicking\nattack.",
-    "ruby-sapphire": "A double-kicking attack\nthat strikes the foe twice.",
-    "emerald": "A double-kicking attack\nthat strikes the foe twice.",
-    "firered-leafgreen": "Two legs are used\nto quickly kick the\nfoe twice in one\nturn.",
-    "diamond-pearl": "The foe is quickly\nkicked twice in\nsuccession using both\nfeet.\n",
-    "platinum": "The foe is quickly\nkicked twice in\nsuccession using both\nfeet.\n",
-    "heartgold-soulsilver": "The foe is quickly\nkicked twice in\nsuccession using both\nfeet.\n",
-    "black-white": "The target is quickly kicked twice in\nsuccession using both feet.",
-    "black-2-white-2": "The target is quickly kicked twice in\nsuccession using both feet.",
-    "x-y": "The target is quickly kicked twice in\nsuccession using both feet.",
-    "omega-ruby-alpha-sapphire": "The target is quickly kicked twice in\nsuccession using both feet.",
-    "sun-moon": "The target is quickly kicked twice in succession\nusing both feet.",
-    "ultra-sun-ultra-moon": "The target is quickly kicked twice in succession\nusing both feet.",
-    "lets-go-pikachu-lets-go-eevee": "The target is quickly kicked twice in succession\nusing both feet.",
-    "sword-shield": "The target is quickly kicked twice in succession\nusing both feet."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits twice in one turn.",
-    "shortEffect": "Hits twice in one turn."
-  },
-  "priority": 0
+    "_id": 24,
+    "key": "double-kick",
+    "name": {
+        "japanese-kana": "にどげり",
+        "korean": "두번차기",
+        "traditional-chinese": "二連踢",
+        "french": "Double Pied",
+        "german": "Doppelkick",
+        "spanish": "Doble Patada",
+        "italian": "Doppiocalcio",
+        "english": "Double Kick",
+        "japanese": "にどげり",
+        "simplified-chinese": "二连踢",
+        "latin-american-spanish": "Doble Patada"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 30,
+    "power": 30,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 2,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A double kicking attack.",
+            "cr": "A double kicking attack.",
+            "rs": "A double-kicking attack that strikes the foe twice.",
+            "em": "A double-kicking attack that strikes the foe twice.",
+            "frlg": "Two legs are used to quickly kick the foe twice in one turn.",
+            "dp": "The foe is quickly kicked twice in succession using both feet.",
+            "pt": "The foe is quickly kicked twice in succession using both feet.",
+            "hgss": "The foe is quickly kicked twice in succession using both feet.",
+            "bw": "The target is quickly kicked twice in succession using both feet.",
+            "b2w2": "The target is quickly kicked twice in succession using both feet.",
+            "xy": "The target is quickly kicked twice in succession using both feet.",
+            "oras": "The target is quickly kicked twice in succession using both feet.",
+            "sm": "The target is quickly kicked twice in succession using both feet.",
+            "usum": "The target is quickly kicked twice in succession using both feet.",
+            "lgpe": "The target is quickly kicked twice in succession using both feet.",
+            "swsh": "The target is quickly kicked twice in succession using both feet.",
+            "la": "The target is quickly kicked twice in succession using both feet.",
+            "sv": "The user attacks by kicking the target twice in a row using two feet."
+        },
+        "french": {
+            "bw": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée.",
+            "xy": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée.",
+            "oras": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée.",
+            "sm": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée.",
+            "usum": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée.",
+            "lgpe": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée.",
+            "swsh": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée."
+        },
+        "japanese-kana": {
+            "xy": "２ほんの　あしで　あいてを　けとばして こうげきする。２かい　れんぞくで ダメージを　あたえる。",
+            "oras": "２ほんの　あしで　あいてを　けとばして こうげきする。２かい　れんぞくで ダメージを　あたえる。",
+            "sm": "２ほんの　あしで　あいてを　けとばして こうげきする。　２かい　れんぞくで ダメージを　あたえる。",
+            "usum": "２ほんの　あしで　あいてを　けとばして こうげきする。　２かい　れんぞくで ダメージを　あたえる。",
+            "lgpe": "２ほんの　あしで　あいてを　けとばして こうげきする。　２かい　れんぞくで ダメージを　あたえる。",
+            "swsh": "２ほんの　あしで　あいてを　けとばして こうげきする。　２かい　れんぞくで ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다.",
+            "oras": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다.",
+            "sm": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다.",
+            "usum": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다.",
+            "lgpe": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다.",
+            "swsh": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다."
+        },
+        "german": {
+            "xy": "Der Anwender tritt in einer Runde zweimal schnell zu.",
+            "oras": "Der Anwender tritt in einer Runde zweimal schnell zu.",
+            "sm": "Der Anwender tritt in einer Runde zweimal schnell zu.",
+            "usum": "Der Anwender tritt in einer Runde zweimal schnell zu.",
+            "lgpe": "Der Anwender tritt in einer Runde zweimal schnell zu.",
+            "swsh": "Der Anwender tritt in einer Runde zweimal schnell zu."
+        },
+        "spanish": {
+            "xy": "Una patada doble. Golpea dos veces.",
+            "oras": "Una patada doble. Golpea dos veces.",
+            "sm": "Una patada doble. Golpea dos veces.",
+            "usum": "Una patada doble. Golpea dos veces.",
+            "lgpe": "Una patada doble. Golpea dos veces.",
+            "swsh": "Una patada doble. Golpea dos veces."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio due volte con una raffica di calci inferti con entrambi i piedi.",
+            "oras": "Colpisce il bersaglio due volte con una raffica di calci inferti con entrambi i piedi.",
+            "sm": "Colpisce il bersaglio due volte con una raffica di calci inferti con entrambi i piedi.",
+            "usum": "Colpisce il bersaglio due volte con una raffica di calci inferti con entrambi i piedi.",
+            "lgpe": "Colpisce il bersaglio due volte con una raffica di calci inferti con entrambi i piedi.",
+            "swsh": "Colpisce il bersaglio due volte con una raffica di calci inferti con entrambi i piedi."
+        },
+        "japanese": {
+            "xy": "２本の　足で　相手を　けとばして 攻撃する。２回連続で ダメージを　与える。",
+            "oras": "２本の　足で　相手を　けとばして 攻撃する。２回連続で ダメージを　与える。",
+            "sm": "２本の　足で　相手を　けとばして 攻撃する。　２回連続で ダメージを　与える。",
+            "usum": "２本の　足で　相手を　けとばして 攻撃する。　２回連続で ダメージを　与える。",
+            "lgpe": "２本の　足で　相手を　けとばして 攻撃する。　２回連続で ダメージを　与える。",
+            "swsh": "２本の　足で　相手を　けとばして 攻撃する。　２回連続で ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una patada doble. Golpea dos veces.",
+            "oras": "Una patada doble. Golpea dos veces.",
+            "sm": "Una patada doble. Golpea dos veces.",
+            "usum": "Una patada doble. Golpea dos veces.",
+            "lgpe": "Una patada doble. Golpea dos veces.",
+            "swsh": "Una patada doble. Golpea dos veces."
+        },
+        "traditional-chinese": {
+            "sm": "用２隻腳踢飛對手進行攻擊。 連續２次給予傷害。",
+            "usum": "用２隻腳踢飛對手進行攻擊。 連續２次給予傷害。",
+            "lgpe": "用２隻腳踢飛對手進行攻擊。 連續２次給予傷害。",
+            "swsh": "用２隻腳踢飛對手進行攻擊。 連續２次給予傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "用２只脚踢飞对手进行攻击。 连续２次给予伤害。",
+            "usum": "用２只脚踢飞对手进行攻击。 连续２次给予伤害。",
+            "lgpe": "用２只脚踢飞对手进行攻击。 连续２次给予伤害。",
+            "swsh": "用２只脚踢飞对手进行攻击。 连续２次给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits twice in one turn.",
+        "shortEffect": "Hits twice in one turn."
+    }
 }

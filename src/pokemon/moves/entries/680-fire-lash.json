@@ -1,35 +1,117 @@
 {
-  "_id": 680,
-  "key": "fire-lash",
-  "name": {
-    "english": "Fire Lash",
-    "japanese": "ほのおのムチ",
-    "chinese": "火焰鞭",
-    "korean": "불꽃채찍",
-    "german": "Látigo Ígneo",
-    "french": "Feuerpeitsche",
-    "italian": "Fire Lash",
-    "spanish": "Frusta di Fuoco"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user strikes the target with a burning lash. This\nalso lowers the target’s Defense stat.",
-    "ultra-sun-ultra-moon": "The user strikes the target with a burning lash. This\nalso lowers the target’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes the target with a burning lash. This\nalso lowers the target’s Defense stat.",
-    "sword-shield": "The user strikes the target with a burning lash. This\nalso lowers the target’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Lowers the target's Defense by one stage.",
-    "shortEffect": "Lowers the target's Defense by one stage after inflicting damage."
-  },
-  "priority": 0
+    "_id": 680,
+    "key": "fire-lash",
+    "name": {
+        "japanese-kana": "ほのおのムチ",
+        "korean": "불꽃채찍",
+        "traditional-chinese": "火焰鞭",
+        "french": "Fouet de Feu",
+        "german": "Feuerpeitsche",
+        "spanish": "Látigo Ígneo",
+        "italian": "Frusta di Fuoco",
+        "english": "Fire Lash",
+        "japanese": "ほのおのムチ",
+        "simplified-chinese": "火焰鞭",
+        "latin-american-spanish": "Látigo Ígneo"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "やけたムチで　あいてを　うちつける。 こうげきを　うけた　あいては ぼうぎょが　さがる。",
+            "usum": "やけたムチで　あいてを　うちつける。 こうげきを　うけた　あいては ぼうぎょが　さがる。",
+            "lgpe": "やけたムチで　あいてを　うちつける。 こうげきを　うけた　あいては ぼうぎょが　さがる。",
+            "swsh": "やけたムチで　あいてを　うちつける。 こうげきを　うけた　あいては ぼうぎょが　さがる。"
+        },
+        "korean": {
+            "sm": "불타는 채찍으로 상대를 친다. 공격을 받은 상대는 방어가 떨어진다.",
+            "usum": "불타는 채찍으로 상대를 친다. 공격을 받은 상대는 방어가 떨어진다.",
+            "lgpe": "불타는 채찍으로 상대를 친다. 공격을 받은 상대는 방어가 떨어진다.",
+            "swsh": "불타는 채찍으로 상대를 친다. 공격을 받은 상대는 방어가 떨어진다."
+        },
+        "traditional-chinese": {
+            "sm": "用燃燒的鞭子抽打對手。 受到攻擊的對手防禦會降低。",
+            "usum": "用燃燒的鞭子抽打對手。 受到攻擊的對手防禦會降低。",
+            "lgpe": "用燃燒的鞭子抽打對手。 受到攻擊的對手防禦會降低。",
+            "swsh": "用燃燒的鞭子抽打對手。 受到攻擊的對手防禦會降低。"
+        },
+        "french": {
+            "sm": "Frappe la cible avec un fouet incandescent et baisse sa Défense.",
+            "usum": "Frappe la cible avec un fouet incandescent et baisse sa Défense.",
+            "lgpe": "Frappe la cible avec un fouet incandescent et baisse sa Défense.",
+            "swsh": "Frappe la cible avec un fouet incandescent et baisse sa Défense."
+        },
+        "german": {
+            "sm": "Der Anwender greift das Ziel mit einer brennenden Peitsche an und senkt dabei zusätzlich dessen Verteidigungs-Wert.",
+            "usum": "Der Anwender greift das Ziel mit einer brennenden Peitsche an und senkt dabei zusätzlich dessen Verteidigungs-Wert.",
+            "lgpe": "Der Anwender greift das Ziel mit einer brennenden Peitsche an und senkt dabei zusätzlich dessen Verteidigungs-Wert.",
+            "swsh": "Der Anwender greift das Ziel mit einer brennenden Peitsche an und senkt dabei zusätzlich dessen Verteidigungs-Wert."
+        },
+        "spanish": {
+            "sm": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+            "usum": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+            "lgpe": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+            "swsh": "Golpea al oponente con un látigo incandescente y reduce su Defensa."
+        },
+        "italian": {
+            "sm": "Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa.",
+            "usum": "Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa.",
+            "lgpe": "Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa.",
+            "swsh": "Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa."
+        },
+        "english": {
+            "sm": "The user strikes the target with a burning lash. This also lowers the target’s Defense stat.",
+            "usum": "The user strikes the target with a burning lash. This also lowers the target’s Defense stat.",
+            "lgpe": "The user strikes the target with a burning lash. This also lowers the target’s Defense stat.",
+            "swsh": "The user strikes the target with a burning lash. This also lowers the target’s Defense stat.",
+            "la": "The user strikes the target with a burning lash. This also lowers the target's Defense stat.",
+            "sv": "The user strikes the target with a burning lash. This also lowers the target's Defense stat."
+        },
+        "japanese": {
+            "sm": "焼けたムチで　相手を　打ちつける。 攻撃を　受けた　相手は 防御が　さがる。",
+            "usum": "焼けたムチで　相手を　打ちつける。 攻撃を　受けた　相手は 防御が　さがる。",
+            "lgpe": "焼けたムチで　相手を　打ちつける。 攻撃を　受けた　相手は 防御が　さがる。",
+            "swsh": "焼けたムチで　相手を　打ちつける。 攻撃を　受けた　相手は 防御が　さがる。"
+        },
+        "simplified-chinese": {
+            "sm": "用燃烧的鞭子抽打对手。 受到攻击的对手防御会降低。",
+            "usum": "用燃烧的鞭子抽打对手。 受到攻击的对手防御会降低。",
+            "lgpe": "用燃烧的鞭子抽打对手。 受到攻击的对手防御会降低。",
+            "swsh": "用燃烧的鞭子抽打对手。 受到攻击的对手防御会降低。"
+        },
+        "latin-american-spanish": {
+            "sm": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+            "usum": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+            "lgpe": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+            "swsh": "Golpea al oponente con un látigo incandescente y reduce su Defensa."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Lowers the target’s Defense by one stage.",
+        "shortEffect": "Lowers the target’s Defense by one stage after inflicting damage."
+    }
 }

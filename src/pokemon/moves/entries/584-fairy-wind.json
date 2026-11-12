@@ -1,37 +1,135 @@
 {
-  "_id": 584,
-  "key": "fairy-wind",
-  "name": {
-    "english": "Fairy Wind",
-    "japanese": "ようせいのかぜ",
-    "chinese": "妖精之风",
-    "korean": "요정의바람",
-    "german": "Viento Feérico",
-    "french": "Feenbrise",
-    "italian": "Fairy Wind",
-    "spanish": "Vento di Fata"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user stirs up a fairy wind\nand strikes the target with it.",
-    "omega-ruby-alpha-sapphire": "The user stirs up a fairy wind\nand strikes the target with it.",
-    "sun-moon": "The user stirs up a fairy wind and strikes the target\nwith it.",
-    "ultra-sun-ultra-moon": "The user stirs up a fairy wind and strikes the target\nwith it.",
-    "lets-go-pikachu-lets-go-eevee": "The user stirs up a fairy wind and strikes the target\nwith it.",
-    "sword-shield": "The user stirs up a fairy wind and strikes the target\nwith it."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 584,
+    "key": "fairy-wind",
+    "name": {
+        "japanese-kana": "ようせいのかぜ",
+        "korean": "요정의바람",
+        "traditional-chinese": "妖精之風",
+        "french": "Vent Féérique",
+        "german": "Feenbrise",
+        "spanish": "Viento Feérico",
+        "italian": "Vento di Fata",
+        "english": "Fairy Wind",
+        "japanese": "ようせいのかぜ",
+        "simplified-chinese": "妖精之风",
+        "latin-american-spanish": "Viento Feérico"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ようせいのかぜを　おこし あいてに　ふきつけて　こうげきする。",
+            "oras": "ようせいのかぜを　おこし あいてに　ふきつけて　こうげきする。",
+            "sm": "ようせいのかぜを　おこし あいてに　ふきつけて　こうげきする。",
+            "usum": "ようせいのかぜを　おこし あいてに　ふきつけて　こうげきする。",
+            "lgpe": "ようせいのかぜを　おこし あいてに　ふきつけて　こうげきする。",
+            "swsh": "ようせいのかぜを　おこし あいてに　ふきつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "요정의 바람을 일으켜 상대에게 몰아쳐서 공격한다.",
+            "oras": "요정의 바람을 일으켜 상대에게 몰아쳐서 공격한다.",
+            "sm": "요정의 바람을 일으켜 상대에게 몰아쳐서 공격한다.",
+            "usum": "요정의 바람을 일으켜 상대에게 몰아쳐서 공격한다.",
+            "lgpe": "요정의 바람을 일으켜 상대에게 몰아쳐서 공격한다.",
+            "swsh": "요정의 바람을 일으켜 상대에게 몰아쳐서 공격한다."
+        },
+        "french": {
+            "xy": "Déchaîne un vent magique qui cingle l’ennemi.",
+            "oras": "Déchaîne un vent magique qui cingle l’ennemi.",
+            "sm": "Déchaîne un vent magique qui cingle l’ennemi.",
+            "usum": "Déchaîne un vent magique qui cingle l’ennemi.",
+            "lgpe": "Déchaîne un vent magique qui cingle l’ennemi.",
+            "swsh": "Déchaîne un vent magique qui cingle l’ennemi."
+        },
+        "german": {
+            "xy": "Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.",
+            "oras": "Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.",
+            "sm": "Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.",
+            "usum": "Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.",
+            "lgpe": "Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.",
+            "swsh": "Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt."
+        },
+        "spanish": {
+            "xy": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "oras": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "sm": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "usum": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "lgpe": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "swsh": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa solleva un vento fatato che investe il bersaglio.",
+            "oras": "Chi la usa solleva un vento fatato che investe il bersaglio.",
+            "sm": "Chi la usa solleva un vento fatato che investe il bersaglio.",
+            "usum": "Chi la usa solleva un vento fatato che investe il bersaglio.",
+            "lgpe": "Chi la usa solleva un vento fatato che investe il bersaglio.",
+            "swsh": "Chi la usa solleva un vento fatato che investe il bersaglio."
+        },
+        "english": {
+            "xy": "The user stirs up a fairy wind and strikes the target with it.",
+            "oras": "The user stirs up a fairy wind and strikes the target with it.",
+            "sm": "The user stirs up a fairy wind and strikes the target with it.",
+            "usum": "The user stirs up a fairy wind and strikes the target with it.",
+            "lgpe": "The user stirs up a fairy wind and strikes the target with it.",
+            "swsh": "The user stirs up a fairy wind and strikes the target with it.",
+            "la": "The user stirs up a fairy wind and strikes the target with it.",
+            "sv": "The user attacks by stirring up a fairy wind to strike the target."
+        },
+        "japanese": {
+            "xy": "ようせいのかぜを　起こし 相手に　吹きつけて　攻撃する。",
+            "oras": "ようせいのかぜを　起こし 相手に　吹きつけて　攻撃する。",
+            "sm": "ようせいのかぜを　起こし 相手に　吹きつけて　攻撃する。",
+            "usum": "ようせいのかぜを　起こし 相手に　吹きつけて　攻撃する。",
+            "lgpe": "ようせいのかぜを　起こし 相手に　吹きつけて　攻撃する。",
+            "swsh": "ようせいのかぜを　起こし 相手に　吹きつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "oras": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "sm": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "usum": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "lgpe": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.",
+            "swsh": "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "刮起妖精之風， 吹向對手進行攻擊。",
+            "usum": "刮起妖精之風， 吹向對手進行攻擊。",
+            "lgpe": "刮起妖精之風， 吹向對手進行攻擊。",
+            "swsh": "刮起妖精之風， 吹向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "刮起妖精之风， 吹向对手进行攻击。",
+            "usum": "刮起妖精之风， 吹向对手进行攻击。",
+            "lgpe": "刮起妖精之风， 吹向对手进行攻击。",
+            "swsh": "刮起妖精之风， 吹向对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

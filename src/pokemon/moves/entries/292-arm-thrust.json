@@ -1,45 +1,144 @@
 {
-  "_id": 292,
-  "key": "arm-thrust",
-  "name": {
-    "english": "Arm Thrust",
-    "japanese": "つっぱり",
-    "chinese": "猛推",
-    "korean": "손바닥치기",
-    "german": "Empujón",
-    "french": "Armstoß",
-    "italian": "Arm Thrust",
-    "spanish": "Sberletese"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 15,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Straight-arm punches that\nstrike the foe 2 to 5 times.",
-    "emerald": "Straight-arm punches that\nstrike the foe 2 to 5 times.",
-    "firered-leafgreen": "A quick flurry of\nstraight-arm\npunches that hit\ntwo to five times.",
-    "diamond-pearl": "The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow.",
-    "platinum": "The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow.",
-    "heartgold-soulsilver": "The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow.",
-    "black-white": "The user looses a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
-    "black-2-white-2": "The user looses a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
-    "x-y": "The user lets loose a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
-    "omega-ruby-alpha-sapphire": "The user lets loose a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
-    "sun-moon": "The user lets loose a flurry of open-palmed arm\nthrusts that hit two to five times in a row.",
-    "ultra-sun-ultra-moon": "The user lets loose a flurry of open-palmed arm\nthrusts that hit two to five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets loose a flurry of open-palmed arm\nthrusts that hit two to five times in a row.",
-    "sword-shield": "The user lets loose a flurry of open-palmed arm\nthrusts that hit two to five times in a row."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 292,
+    "key": "arm-thrust",
+    "name": {
+        "japanese-kana": "つっぱり",
+        "korean": "손바닥치기",
+        "traditional-chinese": "猛推",
+        "french": "Cogne",
+        "german": "Armstoß",
+        "spanish": "Empujón",
+        "italian": "Sberletese",
+        "english": "Arm Thrust",
+        "japanese": "つっぱり",
+        "simplified-chinese": "猛推",
+        "latin-american-spanish": "Empujón"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Straight-arm punches that strike the foe 2 to 5 times.",
+            "em": "Straight-arm punches that strike the foe 2 to 5 times.",
+            "frlg": "A quick flurry of straight-arm punches that hit two to five times.",
+            "dp": "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "pt": "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "hgss": "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "bw": "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "b2w2": "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "xy": "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "oras": "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "sm": "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "usum": "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "lgpe": "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "swsh": "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "la": "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+            "sv": "The user attacks the target with open-palmed arm thrusts. This move hits two to five times in a row."
+        },
+        "french": {
+            "bw": "Un déluge de coups adressés avec la paume qui frappe de 2 à 5 fois d’affilée.",
+            "xy": "Un déluge de coups adressés avec la paume qui frappe de deux à cinq fois d’affilée.",
+            "oras": "Un déluge de coups adressés avec la paume qui frappe de deux à cinq fois d’affilée.",
+            "sm": "Un déluge de coups adressés avec la paume qui frappe de deux à cinq fois d’affilée.",
+            "usum": "Un déluge de coups adressés avec la paume qui frappe de deux à cinq fois d’affilée.",
+            "lgpe": "Un déluge de coups adressés avec la paume qui frappe de deux à cinq fois d’affilée.",
+            "swsh": "Un déluge de coups adressés avec la paume qui frappe de deux à cinq fois d’affilée."
+        },
+        "japanese-kana": {
+            "xy": "ひらいた　りょうてで あいてを　つっぱって　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "ひらいた　りょうてで あいてを　つっぱって　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "ひらいた　りょうてで あいてを　つっぱって　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "ひらいた　りょうてで あいてを　つっぱって　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "ひらいた　りょうてで あいてを　つっぱって　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "ひらいた　りょうてで あいてを　つっぱって　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。"
+        },
+        "korean": {
+            "xy": "펼친 양손으로 상대를 번갈아 쳐서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "펼친 양손으로 상대를 번갈아 쳐서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "펼친 양손으로 상대를 번갈아 쳐서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "펼친 양손으로 상대를 번갈아 쳐서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "펼친 양손으로 상대를 번갈아 쳐서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "펼친 양손으로 상대를 번갈아 쳐서 공격한다. 2-5회 동안 연속으로 쓴다."
+        },
+        "german": {
+            "xy": "Schläge mit geradem Arm, die das Ziel zwei- bis fünfmal treffen.",
+            "oras": "Schläge mit geradem Arm, die das Ziel zwei- bis fünfmal treffen.",
+            "sm": "Schläge mit geradem Arm, die das Ziel zwei- bis fünfmal treffen.",
+            "usum": "Schläge mit geradem Arm, die das Ziel zwei- bis fünfmal treffen.",
+            "lgpe": "Schläge mit geradem Arm, die das Ziel zwei- bis fünfmal treffen.",
+            "swsh": "Schläge mit geradem Arm, die das Ziel zwei- bis fünfmal treffen."
+        },
+        "spanish": {
+            "xy": "Empujones directos que golpean de dos a cinco veces seguidas.",
+            "oras": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "sm": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "usum": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "lgpe": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "swsh": "Fuertes empujones que golpean de dos a cinco veces seguidas."
+        },
+        "italian": {
+            "xy": "Raffica di ceffoni che colpisce da due a cinque volte di fila.",
+            "oras": "Raffica di ceffoni che colpisce da due a cinque volte di fila.",
+            "sm": "Raffica di ceffoni che colpisce da due a cinque volte di fila.",
+            "usum": "Raffica di ceffoni che colpisce da due a cinque volte di fila.",
+            "lgpe": "Raffica di ceffoni che colpisce da due a cinque volte di fila.",
+            "swsh": "Raffica di ceffoni che colpisce da due a cinque volte di fila."
+        },
+        "japanese": {
+            "xy": "ひらいた　両手で 相手を　つっぱって　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "ひらいた　両手で 相手を　つっぱって　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "ひらいた　両手で 相手を　つっぱって　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "ひらいた　両手で 相手を　つっぱって　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "ひらいた　両手で 相手を　つっぱって　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "ひらいた　両手で 相手を　つっぱって　攻撃する。 ２ー５回の　間　連続で　だす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Empujones directos que golpean de dos a cinco veces seguidas.",
+            "oras": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "sm": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "usum": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "lgpe": "Fuertes empujones que golpean de dos a cinco veces seguidas.",
+            "swsh": "Fuertes empujones que golpean de dos a cinco veces seguidas."
+        },
+        "traditional-chinese": {
+            "sm": "用張開的雙手 猛推對手進行攻擊。 連續攻擊２～５次。",
+            "usum": "用張開的雙手 猛推對手進行攻擊。 連續攻擊２～５次。",
+            "lgpe": "用張開的雙手 猛推對手進行攻擊。 連續攻擊２～５次。",
+            "swsh": "用張開的雙手 猛推對手進行攻擊。 連續攻擊２～５次。"
+        },
+        "simplified-chinese": {
+            "sm": "用张开着的双手 猛推对手进行攻击。 连续攻击２～５次。",
+            "usum": "用张开着的双手 猛推对手进行攻击。 连续攻击２～５次。",
+            "lgpe": "用张开着的双手 猛推对手进行攻击。 连续攻击２～５次。",
+            "swsh": "用张开着的双手 猛推对手进行攻击。 连续攻击２～５次。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

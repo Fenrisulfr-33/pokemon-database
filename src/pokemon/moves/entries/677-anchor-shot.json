@@ -1,35 +1,115 @@
 {
-  "_id": 677,
-  "key": "anchor-shot",
-  "name": {
-    "english": "Anchor Shot",
-    "japanese": "アンカーショット",
-    "chinese": "擲錨",
-    "korean": "앵커숏",
-    "german": "Anclaje",
-    "french": "Ankerschuss",
-    "italian": "Anchor Shot",
-    "spanish": "Colpo d’Ancora"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user entangles the target with its anchor chain\nwhile attacking. The target becomes unable to flee.",
-    "ultra-sun-ultra-moon": "The user entangles the target with its anchor chain\nwhile attacking. The target becomes unable to flee.",
-    "lets-go-pikachu-lets-go-eevee": "The user entangles the target with its anchor chain\nwhile attacking. The target becomes unable to flee.",
-    "sword-shield": "The user entangles the target with its anchor chain\nwhile attacking. The target becomes unable to flee."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Traps the target.",
-    "shortEffect": "Traps the target."
-  },
-  "priority": 0
+    "_id": 677,
+    "key": "anchor-shot",
+    "name": {
+        "japanese-kana": "アンカーショット",
+        "korean": "앵커샷",
+        "traditional-chinese": "擲錨",
+        "french": "Ancrage",
+        "german": "Ankerschuss",
+        "spanish": "Anclaje",
+        "italian": "Colpo d’Ancora",
+        "english": "Anchor Shot",
+        "japanese": "アンカーショット",
+        "simplified-chinese": "掷锚",
+        "latin-american-spanish": "Anclaje"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "アンカーを　あいてに　からませて こうげきする。　あいては にげることが　できなくなる。",
+            "usum": "アンカーを　あいてに　からませて こうげきする。　あいては にげることが　できなくなる。",
+            "lgpe": "アンカーを　あいてに　からませて こうげきする。　あいては にげることが　できなくなる。",
+            "swsh": "アンカーを　あいてに　からませて こうげきする。　あいては にげることが　できなくなる。"
+        },
+        "korean": {
+            "sm": "앵커를 상대에게 휘감아서 공격한다. 상대는 도망칠 수 없게 된다.",
+            "usum": "앵커를 상대에게 휘감아서 공격한다. 상대는 도망칠 수 없게 된다.",
+            "lgpe": "앵커를 상대에게 휘감아서 공격한다. 상대는 도망칠 수 없게 된다.",
+            "swsh": "앵커를 상대에게 휘감아서 공격한다. 상대는 도망칠 수 없게 된다."
+        },
+        "traditional-chinese": {
+            "sm": "將錨纏住對手進行攻擊。 使對手無法逃走。",
+            "usum": "將錨纏住對手進行攻擊。 使對手無法逃走。",
+            "lgpe": "將錨纏住對手進行攻擊。 使對手無法逃走。",
+            "swsh": "將錨纏住對手進行攻擊。 使對手無法逃走。"
+        },
+        "french": {
+            "sm": "Le lanceur jette son ancre sur la cible pour l’attaquer. Une fois accrochée, elle l’empêche de s’enfuir.",
+            "usum": "Le lanceur jette son ancre sur la cible pour l’attaquer. Une fois accrochée, elle l’empêche de s’enfuir.",
+            "lgpe": "Le lanceur jette son ancre sur la cible pour l’attaquer. Une fois accrochée, elle l’empêche de s’enfuir.",
+            "swsh": "Le lanceur jette son ancre sur la cible pour l’attaquer. Une fois accrochée, elle l’empêche de s’enfuir."
+        },
+        "german": {
+            "sm": "Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.",
+            "usum": "Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.",
+            "lgpe": "Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.",
+            "swsh": "Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert."
+        },
+        "spanish": {
+            "sm": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+            "usum": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+            "lgpe": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+            "swsh": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca il nemico con un’ancora e lo intrappola nella catena impedendogli di fuggire.",
+            "usum": "Chi la usa attacca il nemico con un’ancora e lo intrappola nella catena impedendogli di fuggire.",
+            "lgpe": "Chi la usa attacca il nemico con un’ancora e lo intrappola nella catena impedendogli di fuggire.",
+            "swsh": "Chi la usa attacca il nemico con un’ancora e lo intrappola nella catena impedendogli di fuggire."
+        },
+        "english": {
+            "sm": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
+            "usum": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
+            "lgpe": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
+            "swsh": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee."
+        },
+        "japanese": {
+            "sm": "アンカーを　相手に　からませて 攻撃する。　相手は 逃げることが　できなくなる。",
+            "usum": "アンカーを　相手に　からませて 攻撃する。　相手は 逃げることが　できなくなる。",
+            "lgpe": "アンカーを　相手に　からませて 攻撃する。　相手は 逃げることが　できなくなる。",
+            "swsh": "アンカーを　相手に　からませて 攻撃する。　相手は 逃げることが　できなくなる。"
+        },
+        "simplified-chinese": {
+            "sm": "将锚缠住对手进行攻击。 使对手无法逃走。",
+            "usum": "将锚缠住对手进行攻击。 使对手无法逃走。",
+            "lgpe": "将锚缠住对手进行攻击。 使对手无法逃走。",
+            "swsh": "将锚缠住对手进行攻击。 使对手无法逃走。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+            "usum": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+            "lgpe": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+            "swsh": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Traps the target.",
+        "shortEffect": "Traps the target."
+    }
 }

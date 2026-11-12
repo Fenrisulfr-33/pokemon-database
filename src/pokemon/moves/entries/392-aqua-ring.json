@@ -1,42 +1,141 @@
 {
-  "_id": 392,
-  "key": "aqua-ring",
-  "name": {
-    "english": "Aqua Ring",
-    "japanese": "アクアリング",
-    "chinese": "水柱圈",
-    "korean": "아쿠아링",
-    "german": "Acua Aro",
-    "french": "Wasserring",
-    "italian": "Aqua Ring",
-    "spanish": "Acquanello"
-  },
-  "type": "Water",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user envelops\nitself in a veil made\nof water. It regains\nsome HP on every\nturn.",
-    "platinum": "The user envelops\nitself in a veil made\nof water. It regains\nsome HP on every\nturn.",
-    "heartgold-soulsilver": "The user envelops\nitself in a veil made\nof water. It regains\nsome HP on every\nturn.",
-    "black-white": "The user envelops itself in a veil made\nof water. It regains some HP on\nevery turn.",
-    "black-2-white-2": "The user envelops itself in a veil made\nof water. It regains some HP on\nevery turn.",
-    "x-y": "The user envelops itself in a veil made\nof water. It regains some HP every turn.",
-    "omega-ruby-alpha-sapphire": "The user envelops itself in a veil made\nof water. It regains some HP every turn.",
-    "sun-moon": "The user envelops itself in a veil made of water.\nIt regains some HP every turn.",
-    "ultra-sun-ultra-moon": "The user envelops itself in a veil made of water.\nIt regains some HP every turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user envelops itself in a veil made of water.\nIt regains some HP every turn.",
-    "sword-shield": "The user envelops itself in a veil made of water.\nIt regains some HP every turn."
-  },
-  "effect": {
-    "full": "Restores 1/16 of the user's max HP at the end of each turn.  If the user leaves the field, this effect ends.\n\nThis effect is passed on by baton pass.",
-    "shortEffect": "Restores 1/16 of the user's max HP each turn."
-  },
-  "priority": 0
+    "_id": 392,
+    "key": "aqua-ring",
+    "name": {
+        "japanese-kana": "アクアリング",
+        "korean": "아쿠아링",
+        "traditional-chinese": "水流環",
+        "french": "Anneau Hydro",
+        "german": "Wasserring",
+        "spanish": "Acua Aro",
+        "italian": "Acquanello",
+        "english": "Aqua Ring",
+        "japanese": "アクアリング",
+        "simplified-chinese": "水流环",
+        "latin-american-spanish": "Acuaanillo"
+    },
+    "type": "water",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user envelops itself in a veil made of water. It regains some HP on every turn.",
+            "pt": "The user envelops itself in a veil made of water. It regains some HP on every turn.",
+            "hgss": "The user envelops itself in a veil made of water. It regains some HP on every turn.",
+            "bw": "The user envelops itself in a veil made of water. It regains some HP on every turn.",
+            "b2w2": "The user envelops itself in a veil made of water. It regains some HP on every turn.",
+            "xy": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "oras": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "sm": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "usum": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "lgpe": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "swsh": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "la": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+            "sv": "The user envelops itself in a veil made of water. It regains some HP every turn."
+        },
+        "french": {
+            "bw": "Un voile liquide enveloppe le lanceur. Il récupère des PV à chaque tour.",
+            "xy": "Un voile liquide enveloppe le lanceur. Il récupère des PV à chaque tour.",
+            "oras": "Un voile liquide enveloppe le lanceur. Il récupère des PV à chaque tour.",
+            "sm": "Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour.",
+            "usum": "Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour.",
+            "lgpe": "Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour.",
+            "swsh": "Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour."
+        },
+        "japanese-kana": {
+            "xy": "じぶんの　からだの　まわりを みずで　つくった　ベールで　おおう。 まいターン　ＨＰを　かいふく　する。",
+            "oras": "じぶんの　からだの　まわりを  ずで　つくった　ベールで　おおう。 まいターン　ＨＰを　かいふく　する。",
+            "sm": "じぶんの　からだの　まわりを みずで　つくった　ベールで　おおう。 まいターン　ＨＰを　かいふく　する。",
+            "usum": "じぶんの　からだの　まわりを みずで　つくった　ベールで　おおう。 まいターン　ＨＰを　かいふく　する。",
+            "lgpe": "じぶんの　からだの　まわりを みずで　つくった　ベールで　おおう。 まいターン　ＨＰを　かいふく　する。",
+            "swsh": "じぶんの　からだの　まわりを みずで　つくった　ベールで　おおう。 まいターン　ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "자신의 몸 주변을 물로 만든 베일로 덮는다. 매 턴 HP를 회복한다.",
+            "oras": "자신의 몸 주변을 물로 만든 베일로 덮는다. 매 턴 HP를 회복한다.",
+            "sm": "자신의 몸 주변을 물로 만든 베일로 덮는다. 매 턴 HP를 회복한다.",
+            "usum": "자신의 몸 주변을 물로 만든 베일로 덮는다. 매 턴 HP를 회복한다.",
+            "lgpe": "자신의 몸 주변을 물로 만든 베일로 덮는다. 매 턴 HP를 회복한다.",
+            "swsh": "자신의 몸 주변을 물로 만든 베일로 덮는다. 매 턴 HP를 회복한다."
+        },
+        "german": {
+            "xy": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.",
+            "oras": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.",
+            "sm": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.",
+            "usum": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.",
+            "lgpe": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.",
+            "swsh": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde."
+        },
+        "spanish": {
+            "xy": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "oras": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "sm": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "usum": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "lgpe": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "swsh": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno."
+        },
+        "italian": {
+            "xy": "Chi la usa si avvolge in un velo d’acqua. Recupera alcuni PS a ogni turno.",
+            "oras": "Chi la usa si avvolge in un velo d’acqua. Recupera alcuni PS a ogni turno.",
+            "sm": "Chi la usa si avvolge in un velo d’acqua. Recupera alcuni PS a ogni turno.",
+            "usum": "Chi la usa si avvolge in un velo d’acqua. Recupera alcuni PS a ogni turno.",
+            "lgpe": "Chi la usa si avvolge in un velo d’acqua. Recupera alcuni PS a ogni turno.",
+            "swsh": "Chi la usa si avvolge in un velo d’acqua. Recupera alcuni PS a ogni turno."
+        },
+        "japanese": {
+            "xy": "自分の　体の　周りを 水で　つくった　ベールで　おおう。 毎ターン　ＨＰを　回復する。",
+            "oras": "自分の　体の　周りを 水で　つくった　ベールで　おおう。 毎ターン　ＨＰを　回復する。",
+            "sm": "自分の　体の　周りを 水で　つくった　ベールで　おおう。 毎ターン　ＨＰを　回復する。",
+            "usum": "自分の　体の　周りを 水で　つくった　ベールで　おおう。 毎ターン　ＨＰを　回復する。",
+            "lgpe": "自分の　体の　周りを 水で　つくった　ベールで　おおう。 毎ターン　ＨＰを　回復する。",
+            "swsh": "自分の　体の　周りを 水で　つくった　ベールで　おおう。 毎ターン　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "oras": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "sm": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "usum": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "lgpe": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+            "swsh": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno."
+        },
+        "traditional-chinese": {
+            "sm": "在自己的身邊套上水流環。 每回合會回復自己的ＨＰ。",
+            "usum": "在自己的身邊套上水流環。 每回合會回復自己的ＨＰ。",
+            "lgpe": "在自己的身邊套上水流環。 每回合會回復自己的HP。",
+            "swsh": "在自己的身邊套上水流環。 每回合會回復自己的ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "在自己身体的周围 覆盖用水制造的幕。 每回合回复ＨＰ。",
+            "usum": "在自己身体的周围 覆盖用水制造的幕。 每回合回复ＨＰ。",
+            "lgpe": "在自己身体的周围 覆盖用水制造的幕。 每回合回复HP。",
+            "swsh": "在自己身体的周围 覆盖用水制造的幕。 每回合回复ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Restores 1/16 of the user’s max HP at the end of each turn.  If the user leaves the field, this effect ends. This effect is passed on by Baton Pass.",
+        "shortEffect": "Restores 1/16 of the user’s max HP each turn."
+    }
 }

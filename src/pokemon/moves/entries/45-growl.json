@@ -1,47 +1,146 @@
 {
-  "_id": 45,
-  "key": "growl",
-  "name": {
-    "english": "Growl",
-    "japanese": "なきごえ",
-    "chinese": "嚎叫",
-    "korean": "울음소리",
-    "german": "Gruñido",
-    "french": "Heuler",
-    "italian": "Growl",
-    "spanish": "Ruggito"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 40,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "Reduces the foe's\nATTACK.",
-    "crystal": "Reduces the foe's\nATTACK.",
-    "ruby-sapphire": "Growls cutely to reduce the\nfoe’s ATTACK.",
-    "emerald": "Growls cutely to reduce the\nfoe’s ATTACK.",
-    "firered-leafgreen": "The user growls in\na cute way, making\nthe foe lower its\nATTACK stat.",
-    "diamond-pearl": "The user growls in an\nendearing way, making\nthe foe less wary.\nThe target’s Attack\nstat is lowered.",
-    "platinum": "The user growls in an\nendearing way, making\nthe foe less wary.\nThe target’s Attack\nstat is lowered.",
-    "heartgold-soulsilver": "The user growls in an\nendearing way, making\nthe foe less wary.\nThe target’s Attack\nstat is lowered.",
-    "black-white": "The user growls in an endearing way,\nmaking the opposing team less wary.\nThe foes’ Attack stats are lowered.",
-    "black-2-white-2": "The user growls in an endearing way,\nmaking the opposing team less wary.\nThe foes’ Attack stats are lowered.",
-    "x-y": "The user growls in an endearing way,\nmaking opposing Pokémon less wary.\nThis lowers their Attack stats.",
-    "omega-ruby-alpha-sapphire": "The user growls in an endearing way,\nmaking opposing Pokémon less wary.\nThis lowers their Attack stats.",
-    "sun-moon": "The user growls in an endearing way, making\nopposing Pokémon less wary. This lowers their\nAttack stat.",
-    "ultra-sun-ultra-moon": "The user growls in an endearing way, making\nopposing Pokémon less wary. This lowers their\nAttack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user growls in an endearing way, making\nopposing Pokémon less wary. This lowers their\nAttack stat.",
-    "sword-shield": "The user growls in an endearing way, making\nopposing Pokémon less wary. This lowers their\nAttack stats."
-  },
-  "effect": {
-    "full": "Lowers the target's Attack by one stage.",
-    "shortEffect": "Lowers the target's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 45,
+    "key": "growl",
+    "name": {
+        "japanese-kana": "なきごえ",
+        "korean": "울음소리",
+        "traditional-chinese": "叫聲",
+        "french": "Rugissement",
+        "german": "Heuler",
+        "spanish": "Gruñido",
+        "italian": "Ruggito",
+        "english": "Growl",
+        "japanese": "なきごえ",
+        "simplified-chinese": "叫声",
+        "latin-american-spanish": "Gruñido"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 40,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Reduces the foe's ATTACK.",
+            "cr": "Reduces the foe's ATTACK.",
+            "rs": "Growls cutely to reduce the foe’s ATTACK.",
+            "em": "Growls cutely to reduce the foe’s ATTACK.",
+            "frlg": "The user growls in a cute way, making the foe lower its ATTACK stat.",
+            "dp": "The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.",
+            "pt": "The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.",
+            "hgss": "The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.",
+            "bw": "The user growls in an endearing way, making the opposing team less wary. The foes’ Attack stats are lowered.",
+            "b2w2": "The user growls in an endearing way, making the opposing team less wary. The foes’ Attack stats are lowered.",
+            "xy": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+            "oras": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+            "sm": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.",
+            "usum": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.",
+            "lgpe": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.",
+            "swsh": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+            "la": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+            "sv": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats."
+        },
+        "french": {
+            "bw": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.",
+            "xy": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.",
+            "oras": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.",
+            "sm": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.",
+            "usum": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.",
+            "lgpe": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.",
+            "swsh": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque."
+        },
+        "japanese-kana": {
+            "xy": "かわいい　なきごえを　きかせて きを　ひき　ゆだんを　させて あいての　こうげきを　さげる。",
+            "oras": "かわいい　なきごえを　きかせて きを　ひき　ゆだんを　させて あいての　こうげきを　さげる。",
+            "sm": "かわいい　なきごえを　きかせて きを　ひき　ゆだんを　させて あいての　こうげきを　さげる。",
+            "usum": "かわいい　なきごえを　きかせて きを　ひき　ゆだんを　させて あいての　こうげきを　さげる。",
+            "lgpe": "かわいい　なきごえを　きかせて きを　ひき　ゆだんを　させて あいての　こうげきを　さげる。",
+            "swsh": "かわいい　なきごえを　きかせて きを　ひき　ゆだんを　させて あいての　こうげきを　さげる。"
+        },
+        "korean": {
+            "xy": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다.",
+            "oras": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다.",
+            "sm": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다.",
+            "usum": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다.",
+            "lgpe": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다.",
+            "swsh": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.",
+            "oras": "Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.",
+            "sm": "Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.",
+            "usum": "Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.",
+            "lgpe": "Der Anwender heult herzzerreißend, um sein Ziel nachlässig werden zu lassen und dessen Angriffs-Wert zu senken.",
+            "swsh": "Der Anwender heult herzzerreißend, um gegnerische Pokémon nachlässig werden zu lassen und deren Angriffs-Wert zu senken."
+        },
+        "spanish": {
+            "xy": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "oras": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "sm": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "usum": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "lgpe": "Dulce gruñido que reduce el Ataque del equipo rival.",
+            "swsh": "Dulce gruñido que reduce el Ataque del equipo rival."
+        },
+        "italian": {
+            "xy": "Distrae i nemici intorno con un ruggito potente e ne riduce l’Attacco.",
+            "oras": "Distrae i nemici intorno con un ruggito potente e ne riduce l’Attacco.",
+            "sm": "Distrae i nemici intorno con un ruggito potente e ne riduce l’Attacco.",
+            "usum": "Distrae i nemici intorno con un ruggito potente e ne riduce l’Attacco.",
+            "lgpe": "Distrae i nemici intorno con un tenero ruggito e ne riduce l’Attacco.",
+            "swsh": "Distrae i nemici intorno con un tenero ruggito e ne riduce l’Attacco."
+        },
+        "japanese": {
+            "xy": "かわいい　なきごえを　聞かせて 気を　ひき　油断を　させて 相手の　攻撃を　さげる。",
+            "oras": "かわいい　なきごえを　聞かせて 気を　ひき　油断を　させて 相手の　攻撃を　さげる。",
+            "sm": "かわいい　なきごえを　聞かせて 気を　ひき　油断を　させて 相手の　攻撃を　さげる。",
+            "usum": "かわいい　なきごえを　聞かせて 気を　ひき　油断を　させて 相手の　攻撃を　さげる。",
+            "lgpe": "かわいい　なきごえを　聞かせて 気を　ひき　油断を　させて 相手の　攻撃を　さげる。",
+            "swsh": "かわいい　なきごえを　聞かせて 気を　ひき　油断を　させて 相手の　攻撃を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "oras": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "sm": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "usum": "Dulce gruñido que reduce el Ataque del contrincante.",
+            "lgpe": "Dulce gruñido que reduce el Ataque del equipo rival.",
+            "swsh": "Dulce gruñido que reduce el Ataque del equipo rival."
+        },
+        "traditional-chinese": {
+            "sm": "發出可愛的叫聲， 誘使對手疏忽大意， 降低對手的攻擊。",
+            "usum": "發出可愛的叫聲， 誘使對手疏忽大意， 降低對手的攻擊。",
+            "lgpe": "發出可愛的叫聲， 誘使對手疏忽大意， 降低對手的攻擊。",
+            "swsh": "發出可愛的叫聲， 誘使對手疏忽大意， 降低對手的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "让对手听可爱的叫声， 引开注意力使其疏忽， 从而降低对手的攻击。",
+            "usum": "让对手听可爱的叫声， 引开注意力使其疏忽， 从而降低对手的攻击。",
+            "lgpe": "让对手听可爱的叫声， 引开注意力使其疏忽， 从而降低对手的攻击。",
+            "swsh": "让对手听可爱的叫声， 引开注意力使其疏忽， 从而降低对手的攻击。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Attack by one stage.",
+        "shortEffect": "Lowers the target’s Attack by one stage."
+    }
 }

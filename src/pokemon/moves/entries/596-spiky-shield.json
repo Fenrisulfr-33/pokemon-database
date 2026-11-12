@@ -1,37 +1,135 @@
 {
-  "_id": 596,
-  "key": "spiky-shield",
-  "name": {
-    "english": "Spiky Shield",
-    "japanese": "ニードルガード",
-    "chinese": "尖刺防守",
-    "korean": "니들가드",
-    "german": "Barrera Espinosa",
-    "french": "Schutzstacheln",
-    "italian": "Spiky Shield",
-    "spanish": "Agodifesa"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 6,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "x-y": "In addition to protecting the user from attacks,\nthis move also damages any attacker who\nmakes direct contact.",
-    "omega-ruby-alpha-sapphire": "In addition to protecting the user from attacks,\nthis move also damages any attacker who\nmakes direct contact.",
-    "sun-moon": "In addition to protecting the user from attacks, this\nmove also damages any attacker who makes\ndirect contact.",
-    "ultra-sun-ultra-moon": "In addition to protecting the user from attacks, this\nmove also damages any attacker who makes\ndirect contact.",
-    "lets-go-pikachu-lets-go-eevee": "In addition to protecting the user from attacks, this\nmove also damages any attacker who makes\ndirect contact.",
-    "sword-shield": "In addition to protecting the user from attacks, this\nmove also damages any attacker that makes\ndirect contact."
-  },
-  "effect": {
-    "full": "Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.",
-    "shortEffect": "Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP."
-  },
-  "priority": 4
+    "_id": 596,
+    "key": "spiky-shield",
+    "name": {
+        "japanese-kana": "ニードルガード",
+        "korean": "니들가드",
+        "traditional-chinese": "尖刺防守",
+        "french": "Pico-Défense",
+        "german": "Schutzstacheln",
+        "spanish": "Barrera Espinosa",
+        "italian": "Agodifesa",
+        "english": "Spiky Shield",
+        "japanese": "ニードルガード",
+        "simplified-chinese": "尖刺防守",
+        "latin-american-spanish": "Barrera Espinosa"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいての たいりょくを　けずって　しまう。",
+            "oras": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいての たいりょくを　けずって　しまう。",
+            "sm": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいての たいりょくを　けずって　しまう。",
+            "usum": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいての たいりょくを　けずって　しまう。",
+            "lgpe": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいての たいりょくを　けずって　しまう。",
+            "swsh": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいての たいりょくを　けずって　しまう。"
+        },
+        "korean": {
+            "xy": "상대의 공격을 막음과 동시에 접촉한 상대의 체력을 떨어뜨린다.",
+            "oras": "상대의 공격을 막음과 동시에 접촉한 상대의 체력을 떨어뜨린다.",
+            "sm": "상대의 공격을 막음과 동시에 접촉한 상대의 체력을 떨어뜨린다.",
+            "usum": "상대의 공격을 막음과 동시에 접촉한 상대의 체력을 떨어뜨린다.",
+            "lgpe": "상대의 공격을 막음과 동시에 접촉한 상대의 체력을 떨어뜨린다.",
+            "swsh": "상대의 공격을 막음과 동시에 접촉한 상대의 체력을 떨어뜨린다."
+        },
+        "french": {
+            "xy": "Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur.",
+            "oras": "Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur.",
+            "sm": "Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur.",
+            "usum": "Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur.",
+            "lgpe": "Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur.",
+            "swsh": "Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur."
+        },
+        "german": {
+            "xy": "Der Anwender weicht gegnerischen Angriffen aus. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden.",
+            "oras": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden.",
+            "sm": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden.",
+            "usum": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden.",
+            "lgpe": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden.",
+            "swsh": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden."
+        },
+        "spanish": {
+            "xy": "Evita el ataque de su oponente y, al mismo tiempo, le inflige daño si ha entrado en contacto con él.",
+            "oras": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "sm": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "usum": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "lgpe": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "swsh": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él."
+        },
+        "italian": {
+            "xy": "Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.",
+            "oras": "Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.",
+            "sm": "Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.",
+            "usum": "Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.",
+            "lgpe": "Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.",
+            "swsh": "Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa."
+        },
+        "english": {
+            "xy": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+            "oras": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+            "sm": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+            "usum": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+            "lgpe": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+            "swsh": "In addition to protecting the user from attacks, this move also damages any attacker that makes direct contact.",
+            "la": "In addition to protecting the user from attacks, this move also damages any attacker that makes direct contact.",
+            "sv": "In addition to protecting the user from attacks, this move also damages any attacker that makes direct contact."
+        },
+        "japanese": {
+            "xy": "相手の　攻撃を　防ぐと 同時に　触れた　相手の 体力を　削って　しまう。",
+            "oras": "相手の　攻撃を　防ぐと 同時に　触れた　相手の 体力を　削って　しまう。",
+            "sm": "相手の　攻撃を　防ぐと 同時に　触れた　相手の 体力を　削って　しまう。",
+            "usum": "相手の　攻撃を　防ぐと 同時に　触れた　相手の 体力を　削って　しまう。",
+            "lgpe": "相手の　攻撃を　防ぐと 同時に　触れた　相手の 体力を　削って　しまう。",
+            "swsh": "相手の　攻撃を　防ぐと 同時に　触れた　相手の 体力を　削って　しまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Evita el ataque de su oponente y, al mismo tiempo, le inflige daño si ha entrado en contacto con él.",
+            "oras": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "sm": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "usum": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "lgpe": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+            "swsh": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él."
+        },
+        "traditional-chinese": {
+            "sm": "防禦來自對手的攻擊， 同時削減接觸到自己的 對手的ＨＰ。",
+            "usum": "防禦來自對手的攻擊， 同時削減接觸到自己的 對手的ＨＰ。",
+            "lgpe": "防禦來自對手的攻擊， 同時削減接觸到自己的 對手的HP。",
+            "swsh": "防禦來自對手的攻擊， 同時削減接觸到自己的 對手的ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "防住对手攻击的同时， 削减接触到自己的对手的体力。",
+            "usum": "防住对手攻击的同时， 削减接触到自己的对手的体力。",
+            "lgpe": "防住对手攻击的同时， 削减接触到自己的对手的体力。",
+            "swsh": "防住对手攻击的同时， 削减接触到自己的对手的体力。"
+        }
+    },
+    "effect": {
+        "full": "Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.",
+        "shortEffect": "Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP."
+    }
 }

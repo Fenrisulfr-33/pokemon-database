@@ -1,33 +1,98 @@
 {
-  "_id": 734,
-  "key": "buzzy-buzz",
-  "name": {
-    "english": "Buzzy Buzz",
-    "japanese": "びりびりエレキ",
-    "chinese": "麻麻電擊",
-    "korean": "찌릿찌릿일렉",
-    "german": "Joltioparálisis",
-    "french": "Knisterladung",
-    "italian": "Buzzy Buzz",
-    "spanish": "Elettrozap"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user shoots a jolt of electricity to attack the target.\nThis also leaves the target with paralysis.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 734,
+    "key": "buzzy-buzz",
+    "name": {
+        "japanese-kana": "びりびりエレキ",
+        "korean": "찌릿찌릿일렉",
+        "traditional-chinese": "麻麻電擊",
+        "french": "Évo-Dynamo",
+        "german": "Knisterladung",
+        "spanish": "Joltioparálisis",
+        "italian": "Elettrozap",
+        "english": "Buzzy Buzz",
+        "japanese": "びりびりエレキ",
+        "simplified-chinese": "麻麻电击",
+        "latin-american-spanish": "Joltioparálisis"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": null,
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "swsh": {
+            "power": 90,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "でんきを　とばし　あいてに あびせて　こうげきする。　 あいてを　まひ　じょうたいに　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "전기를 상대에게 날려서 공격한다. 상대를 마비 상태로 만든다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "發出電擊攻擊對手。 讓對手陷入麻痺狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Une attaque qui foudroie et paralyse l’adversaire.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Evoli greift das Ziel mit Elektrizität an, wodurch dieses paralysiert wird.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Lanza una potente descarga eléctrica sobre el rival y lo deja paralizado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Colpisce il bersaglio con una scarica elettrica che lo paralizza.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user shoots a jolt of electricity to attack the target. This also leaves the target with paralysis.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "電気を　飛ばし　相手に あびせて　攻撃する。　 相手を　まひ状態に　する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "放出电击攻击对手。 让对手陷入麻痹状态。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Lanza una potente descarga eléctrica sobre el rival y lo deja paralizado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

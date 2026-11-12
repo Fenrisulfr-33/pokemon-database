@@ -1,37 +1,133 @@
 {
-  "_id": 614,
-  "key": "thousand-arrows",
-  "name": {
-    "english": "Thousand Arrows",
-    "japanese": "サウザンアロー",
-    "chinese": "千箭齊發",
-    "korean": "사우전드애로",
-    "german": "Mil Flechas",
-    "french": "Tausend Pfeile",
-    "italian": "Thousand Arrows",
-    "spanish": "Mille Frecce"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "x-y": "This move also hits opposing Pokémon\nthat are in the air. Those Pokémon are\nknocked down to the ground.",
-    "omega-ruby-alpha-sapphire": "This move also hits opposing Pokémon\nthat are in the air. Those Pokémon are\nknocked down to the ground.",
-    "sun-moon": "This move also hits opposing Pokémon that are in\nthe air. Those Pokémon are knocked down to\nthe ground.",
-    "ultra-sun-ultra-moon": "This move also hits opposing Pokémon that are in\nthe air. Those Pokémon are knocked down to\nthe ground.",
-    "lets-go-pikachu-lets-go-eevee": "This move also hits opposing Pokémon that are in\nthe air. Those Pokémon are knocked down to\nthe ground.",
-    "sword-shield": "This move also hits opposing Pokémon that are in\nthe air. Those Pokémon are knocked down to\nthe ground."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Grounds the target until it leaves battle.  Ignores levitation effects and the immunity of flying-type Pokémon.",
-    "shortEffect": "Grounds the target, and hits even Flying-type or levitating Pokémon."
-  },
-  "priority": 0
+    "_id": 614,
+    "key": "thousand-arrows",
+    "name": {
+        "japanese-kana": "サウザンアロー",
+        "korean": "사우전드애로",
+        "traditional-chinese": "千箭齊發",
+        "french": "Myria-Flèches",
+        "german": "Tausend Pfeile",
+        "spanish": "Mil Flechas",
+        "italian": "Mille Frecce",
+        "english": "Thousand Arrows",
+        "japanese": "サウザンアロー",
+        "simplified-chinese": "千箭齐发",
+        "latin-american-spanish": "Mil Flechas"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "unknown",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ういている　ポケモンにも　あたる。 ういていた　あいては うちおとされて　じめんに　おちる。",
+            "oras": "ういている　ポケモンにも　あたる。 ういていた　あいては うちおとされて　じめんに　おちる。",
+            "sm": "ういている　ポケモンにも　あたる。 ういていた　あいては うちおとされて　じめんに　おちる。",
+            "usum": "ういている　ポケモンにも　あたる。 ういていた　あいては うちおとされて　じめんに　おちる。",
+            "lgpe": "ういている　ポケモンにも　あたる。 ういていた　あいては うちおとされて　じめんに　おちる。",
+            "swsh": "ういている　ポケモンにも　あたる。 ういていた　あいては うちおとされて　じめんに　おちる。"
+        },
+        "korean": {
+            "xy": "떠 있는 포켓몬도 맞힐 수 있다. 떠 있던 상대는 맞아서 땅에 떨어진다.",
+            "oras": "떠 있는 포켓몬도 맞힐 수 있다. 떠 있던 상대는 맞아서 땅에 떨어진다.",
+            "sm": "떠 있는 포켓몬도 맞힐 수 있다. 떠 있던 상대는 맞아서 땅에 떨어진다.",
+            "usum": "떠 있는 포켓몬도 맞힐 수 있다. 떠 있던 상대는 맞아서 땅에 떨어진다.",
+            "lgpe": "떠 있는 포켓몬도 맞힐 수 있다. 떠 있던 상대는 맞아서 땅에 떨어진다.",
+            "swsh": "떠 있는 포켓몬도 맞힐 수 있다. 떠 있던 상대는 맞아서 땅에 떨어진다."
+        },
+        "french": {
+            "xy": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol.",
+            "oras": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol.",
+            "sm": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol.",
+            "usum": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol.",
+            "lgpe": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol.",
+            "swsh": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol."
+        },
+        "german": {
+            "xy": "Die Attacke erfasst auch schwebende Pokémon. Erfasst sie ein Pokémon im Schwebe-Zustand, fällt es zu Boden.",
+            "oras": "Die Attacke erfasst auch schwebende Pokémon. Erfasst sie ein Pokémon im Schwebe-Zustand, fällt es zu Boden.",
+            "sm": "Die Attacke erfasst auch fliegende und schwebende Pokémon. Werden sie getroffen, fallen sie zu Boden.",
+            "usum": "Die Attacke erfasst auch fliegende und schwebende Pokémon. Werden sie getroffen, fallen sie zu Boden.",
+            "lgpe": "Die Attacke erfasst auch fliegende und schwebende Pokémon. Werden sie getroffen, fallen sie zu Boden.",
+            "swsh": "Die Attacke erfasst auch fliegende und schwebende Pokémon. Werden sie getroffen, fallen sie zu Boden."
+        },
+        "spanish": {
+            "xy": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "oras": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "sm": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "usum": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "lgpe": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "swsh": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo."
+        },
+        "italian": {
+            "xy": "Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.",
+            "oras": "Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.",
+            "sm": "Colpisce i nemici intorno scaraventando a terra quelli che si trovano in aria.",
+            "usum": "Colpisce i nemici intorno scaraventando a terra quelli che si trovano in aria.",
+            "lgpe": "Colpisce i nemici intorno scaraventando a terra quelli che si trovano in aria.",
+            "swsh": "Colpisce i nemici intorno scaraventando a terra quelli che si trovano in aria."
+        },
+        "english": {
+            "xy": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+            "oras": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+            "sm": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+            "usum": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+            "lgpe": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+            "swsh": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground."
+        },
+        "japanese": {
+            "xy": "浮いている　ポケモンにも　当たる。 浮いていた　相手は 撃ち落とされて　地面に　落ちる。",
+            "oras": "浮いている　ポケモンにも　当たる。 浮いていた　相手は 撃ち落とされて　地面に　落ちる。",
+            "sm": "浮いている　ポケモンにも　当たる。 浮いていた　相手は 撃ち落とされて　地面に　落ちる。",
+            "usum": "浮いている　ポケモンにも　当たる。 浮いていた　相手は 撃ち落とされて　地面に　落ちる。",
+            "lgpe": "浮いている　ポケモンにも　当たる。 浮いていた　相手は 撃ち落とされて　地面に　落ちる。",
+            "swsh": "浮いている　ポケモンにも　当たる。 浮いていた　相手は 撃ち落とされて　地面に　落ちる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "oras": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "sm": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "usum": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "lgpe": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+            "swsh": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo."
+        },
+        "traditional-chinese": {
+            "sm": "能夠命中飄浮在空中的寶可夢。 飄浮在空中的對手 會被擊落掉到地面。",
+            "usum": "能夠命中飄浮在空中的寶可夢。 飄浮在空中的對手 會被擊落掉到地面。",
+            "lgpe": "能夠命中飄浮在空中的寶可夢。 飄浮在空中的對手 會被擊落掉到地面。",
+            "swsh": "能夠命中飄浮在空中的寶可夢。 飄浮在空中的對手 會被擊落掉到地面。"
+        },
+        "simplified-chinese": {
+            "sm": "可以击中浮在空中的宝可梦。 空中的对手被击落后， 会掉到地面。",
+            "usum": "可以击中浮在空中的宝可梦。 空中的对手被击落后， 会掉到地面。",
+            "lgpe": "可以击中浮在空中的宝可梦。 空中的对手被击落后， 会掉到地面。",
+            "swsh": "可以击中浮在空中的宝可梦。 空中的对手被击落后， 会掉到地面。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Grounds the target until it leaves battle.  Ignores levitation effects and the immunity of Flying-type Pokémon.",
+        "shortEffect": "Grounds the target, and hits even Flying-type or levitating Pokémon."
+    }
 }

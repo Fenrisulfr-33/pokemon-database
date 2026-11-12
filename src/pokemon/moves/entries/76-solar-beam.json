@@ -1,47 +1,153 @@
 {
-  "_id": 76,
-  "key": "solar-beam",
-  "name": {
-    "english": "Solar Beam",
-    "japanese": "ソーラービーム",
-    "chinese": "阳光烈焰",
-    "korean": "솔라빔",
-    "german": "Rayo Solar",
-    "french": "Solarstrahl",
-    "italian": "Solar Beam",
-    "spanish": "Solarraggio"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "1st turn: Prepare\n2nd turn: Attack",
-    "crystal": "1st turn: Prepare\n2nd turn: Attack",
-    "ruby-sapphire": "Absorbs light in one turn,\nthen attacks next turn.",
-    "emerald": "Absorbs light in one turn,\nthen attacks next turn.",
-    "firered-leafgreen": "A 2-turn move that\nblasts the foe with\nabsorbed energy in\nthe 2nd turn.",
-    "diamond-pearl": "A two-turn attack.\nThe user gathers\nlight, then blasts a\nbundled beam on the\nsecond turn.",
-    "platinum": "A two-turn attack.\nThe user gathers\nlight, then blasts a\nbundled beam on the\nsecond turn.",
-    "heartgold-soulsilver": "A two-turn attack.\nThe user gathers\nlight, then blasts a\nbundled beam on the\nsecond turn.",
-    "black-white": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam on the\nsecond turn.",
-    "black-2-white-2": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam on the\nsecond turn.",
-    "x-y": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam on the\nnext turn.",
-    "omega-ruby-alpha-sapphire": "A two-turn attack. The user gathers\nlight, then blasts a bundled beam on the\nnext turn.",
-    "sun-moon": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.",
-    "ultra-sun-ultra-moon": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.",
-    "sword-shield": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring sunny day, the charge turn is skipped.\n\nDuring hail, rain dance, or sandstorm, power is halved.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "Requires a turn to charge before attacking."
-  },
-  "priority": 0
+    "_id": 76,
+    "key": "solar-beam",
+    "name": {
+        "japanese-kana": "ソーラービーム",
+        "korean": "솔라빔",
+        "traditional-chinese": "日光束",
+        "french": "Lance-Soleil",
+        "german": "Solarstrahl",
+        "spanish": "Rayo Solar",
+        "italian": "Solarraggio",
+        "english": "Solar Beam",
+        "japanese": "ソーラービーム",
+        "simplified-chinese": "日光束",
+        "latin-american-spanish": "Rayo Solar"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "cool",
+    "pp": 10,
+    "power": 120,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "lgpe": {
+            "power": 120
+        },
+        "swsh": {
+            "power": 200
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "1st turn: Prepare 2nd turn: Attack",
+            "cr": "1st turn: Prepare 2nd turn: Attack",
+            "rs": "Absorbs light in one turn, then attacks next turn.",
+            "em": "Absorbs light in one turn, then attacks next turn.",
+            "frlg": "A 2-turn move that blasts the foe with absorbed energy in the 2nd turn.",
+            "dp": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
+            "pt": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
+            "hgss": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
+            "bw": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
+            "b2w2": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
+            "xy": "A two-turn attack. The user gathers light, then blasts a bundled beam on the next turn.",
+            "oras": "A two-turn attack. The user gathers light, then blasts a bundled beam on the next turn.",
+            "sm": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+            "usum": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+            "lgpe": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+            "swsh": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+            "la": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+            "sv": "The user gathers light on the first turn, then blasts a bundled beam on the next turn."
+        },
+        "french": {
+            "bw": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+            "xy": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+            "oras": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+            "sm": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+            "usum": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+            "lgpe": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+            "swsh": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。",
+            "oras": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。",
+            "sm": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。",
+            "usum": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。",
+            "lgpe": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。",
+            "swsh": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。"
+        },
+        "korean": {
+            "xy": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.",
+            "oras": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.",
+            "sm": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.",
+            "usum": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.",
+            "lgpe": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.",
+            "swsh": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다."
+        },
+        "german": {
+            "xy": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff.",
+            "oras": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff.",
+            "sm": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff.",
+            "usum": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff.",
+            "lgpe": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff.",
+            "swsh": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff."
+        },
+        "spanish": {
+            "xy": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "oras": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "sm": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "usum": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "lgpe": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "swsh": "El usuario absorbe luz en el primer turno y en el segundo lanza un potente rayo de energía."
+        },
+        "italian": {
+            "xy": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.",
+            "oras": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.",
+            "sm": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.",
+            "usum": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.",
+            "lgpe": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.",
+            "swsh": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo."
+        },
+        "japanese": {
+            "xy": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。",
+            "oras": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。",
+            "sm": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。",
+            "usum": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。",
+            "lgpe": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。",
+            "swsh": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "oras": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "sm": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "usum": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "lgpe": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+            "swsh": "El usuario absorbe luz en el primer turno y en el segundo lanza un potente rayo de energía."
+        },
+        "traditional-chinese": {
+            "sm": "使用後的第１回合吸收大量日光， 並於第２回合發射光束進行攻擊。",
+            "usum": "使用後的第１回合吸收大量日光， 並於第２回合發射光束進行攻擊。",
+            "lgpe": "使用後的第１回合吸收大量日光， 並於第２回合發射光束進行攻擊。",
+            "swsh": "使用後的第１回合吸收大量日光， 並於第２回合發射光束進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合收集满满的日光， 第２回合发射光束进行攻击。",
+            "usum": "第１回合收集满满的日光， 第２回合发射光束进行攻击。",
+            "lgpe": "第１回合收集满满的日光， 第２回合发射光束进行攻击。",
+            "swsh": "第１回合收集满满的日光， 第２回合发射光束进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User charges for one turn before attacking. During Sunny Day, the charge turn is skipped. During Hail, Rain Dance, or Sandstorm, power is halved. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "Requires a turn to charge before attacking."
+    }
 }

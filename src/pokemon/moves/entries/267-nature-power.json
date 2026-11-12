@@ -1,45 +1,142 @@
 {
-  "_id": 267,
-  "key": "nature-power",
-  "name": {
-    "english": "Nature Power",
-    "japanese": "しぜんのちから",
-    "chinese": "自然能力",
-    "korean": "자연의힘",
-    "german": "Adaptación",
-    "french": "Natur-Kraft",
-    "italian": "Nature Power",
-    "spanish": "Naturforza"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "The type of attack varies\ndepending on the location.",
-    "emerald": "The type of attack varies\ndepending on the location.",
-    "firered-leafgreen": "An attack that\nchanges type\ndepending on the\nuser’s location.",
-    "diamond-pearl": "An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.",
-    "platinum": "An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.",
-    "heartgold-soulsilver": "An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.",
-    "black-white": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
-    "black-2-white-2": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
-    "x-y": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
-    "omega-ruby-alpha-sapphire": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
-    "sun-moon": "This attack makes use of nature’s power. Its\neffects vary depending on the user’s environment.",
-    "ultra-sun-ultra-moon": "This attack makes use of nature’s power. Its\neffects vary depending on the user’s environment.",
-    "lets-go-pikachu-lets-go-eevee": "This attack makes use of nature’s power. Its\neffects vary depending on the user’s environment.",
-    "sword-shield": "This attack makes use of nature’s power. Its\neffects vary depending on the user’s environment."
-  },
-  "effect": {
-    "full": "Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | tri attack\nCave                      | rock slide\nDeep water                | hydro pump\nDesert                    | earthquake\nGrass                     | seed bomb\nMountain                  | rock slide\nRoad                      | earthquake\nShallow water             | hydro pump\nSnow                      | blizzard\nTall grass                | seed bomb\nelectric terrain | thunderbolt\ngrassy terrain   | energy ball\nmisty terrain    | moonblast\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | tri attack\nCrystal        | rock slide\nGateway        | hydro pump\nMagma          | rock slide\nMain Street    | tri attack\nNeon           | tri attack\nStargazer      | rock slide\nSunny Park     | seed bomb\nSunset         | earthquake\nWaterfall      | seed bomb\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "Uses a move which depends upon the terrain."
-  },
-  "priority": 0
+    "_id": 267,
+    "key": "nature-power",
+    "name": {
+        "japanese-kana": "しぜんのちから",
+        "korean": "자연의힘",
+        "traditional-chinese": "自然之力",
+        "french": "Force Nature",
+        "german": "Natur-Kraft",
+        "spanish": "Adaptación",
+        "italian": "Naturforza",
+        "english": "Nature Power",
+        "japanese": "しぜんのちから",
+        "simplified-chinese": "自然之力",
+        "latin-american-spanish": "Adaptación"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "The type of attack varies depending on the location.",
+            "em": "The type of attack varies depending on the location.",
+            "frlg": "An attack that changes type depending on the user’s location.",
+            "dp": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "pt": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "hgss": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "bw": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "b2w2": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "xy": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "oras": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "sm": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "usum": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "lgpe": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
+            "swsh": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment."
+        },
+        "french": {
+            "bw": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+            "xy": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+            "oras": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+            "sm": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+            "usum": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+            "lgpe": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+            "swsh": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain."
+        },
+        "japanese-kana": {
+            "xy": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。",
+            "oras": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。",
+            "sm": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。",
+            "usum": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。",
+            "lgpe": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。",
+            "swsh": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。"
+        },
+        "korean": {
+            "xy": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다.",
+            "oras": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다.",
+            "sm": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다.",
+            "usum": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다.",
+            "lgpe": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다.",
+            "swsh": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다."
+        },
+        "german": {
+            "xy": "Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird.",
+            "oras": "Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.",
+            "sm": "Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.",
+            "usum": "Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.",
+            "lgpe": "Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.",
+            "swsh": "Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig."
+        },
+        "spanish": {
+            "xy": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "oras": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "sm": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "usum": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "lgpe": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "swsh": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate."
+        },
+        "italian": {
+            "xy": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente.",
+            "oras": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente.",
+            "sm": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente.",
+            "usum": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente.",
+            "lgpe": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente.",
+            "swsh": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente."
+        },
+        "japanese": {
+            "xy": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。",
+            "oras": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。",
+            "sm": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。",
+            "usum": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。",
+            "lgpe": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。",
+            "swsh": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "oras": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "sm": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "usum": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "lgpe": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+            "swsh": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate."
+        },
+        "traditional-chinese": {
+            "sm": "用自然之力進行攻擊。 隨著使用地點的不同， 使出的招式也會改變。",
+            "usum": "用自然之力進行攻擊。 隨著使用地點的不同， 使出的招式也會改變。",
+            "lgpe": "用自然之力進行攻擊。 隨著使用地點的不同， 使出的招式也會改變。",
+            "swsh": "用自然之力進行攻擊。 隨著使用地點的不同， 使出的招式也會改變。"
+        },
+        "simplified-chinese": {
+            "sm": "用自然之力进行攻击。 根据所使用场所的不同， 使出的招式也会有所变化。",
+            "usum": "用自然之力进行攻击。 根据所使用场所的不同， 使出的招式也会有所变化。",
+            "lgpe": "用自然之力进行攻击。 根据所使用场所的不同， 使出的招式也会有所变化。",
+            "swsh": "用自然之力进行攻击。 根据所使用场所的不同， 使出的招式也会有所变化。"
+        }
+    },
+    "effect": {
+        "full": "Uses another move chosen according to the terrain. Terrain                   | Selected move ------------------------- | ------------------ Building                  | Tri Attack Cave                      | Rock Slide Deep water                | Hydro Pump Desert                    | Earthquake Grass                     | Seed Bomb Mountain                  | Rock Slide Road                      | Earthquake Shallow water             | Hydro Pump Snow                      | Blizzard Tall grass                | Seed Bomb Electric Terrain | Thunderbolt Grassy Terrain   | Energy Ball Misty Terrain    | Moonblast In Pokémon Battle Revolution: Terrain        | Selected move -------------- | ------------------ Courtyard      | Tri Attack Crystal        | Rock Slide Gateway        | Hydro Pump Magma          | Rock Slide Main Street    | Tri Attack Neon           | Tri Attack Stargazer      | Rock Slide Sunny Park     | Seed Bomb Sunset         | Earthquake Waterfall      | Seed Bomb This move cannot be copied by Mirror Move.",
+        "shortEffect": "Uses a move which depends upon the terrain."
+    }
 }

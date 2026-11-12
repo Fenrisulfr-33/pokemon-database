@@ -1,42 +1,141 @@
 {
-  "_id": 361,
-  "key": "healing-wish",
-  "name": {
-    "english": "Healing Wish",
-    "japanese": "いやしのねがい",
-    "chinese": "治愈愿望",
-    "korean": "치유소원",
-    "german": "Deseo Cura",
-    "french": "Heilopfer",
-    "italian": "Healing Wish",
-    "spanish": "Curardore"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its HP restored\nand status cured.",
-    "platinum": "The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its HP restored\nand status cured.",
-    "heartgold-soulsilver": "The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its HP restored\nand status cured.",
-    "black-white": "The user faints. In return, the Pokémon\ntaking its place will have its HP restored\nand status cured.",
-    "black-2-white-2": "The user faints. In return, the Pokémon\ntaking its place will have its HP restored\nand status cured.",
-    "x-y": "The user faints. In return, the Pokémon\ntaking its place will have its HP restored\nand status conditions cured.",
-    "omega-ruby-alpha-sapphire": "The user faints. In return, the Pokémon\ntaking its place will have its HP restored\nand status conditions cured.",
-    "sun-moon": "The user faints. In return, the Pokémon taking its\nplace will have its HP restored and status\nconditions cured.",
-    "ultra-sun-ultra-moon": "The user faints. In return, the Pokémon taking its\nplace will have its HP restored and status\nconditions cured.",
-    "lets-go-pikachu-lets-go-eevee": "The user faints. In return, the Pokémon taking its\nplace will have its HP restored and status\nconditions cured.",
-    "sword-shield": "The user faints. In return, the Pokémon taking its\nplace will have its HP restored and status\nconditions cured."
-  },
-  "effect": {
-    "full": "User faints.  Its replacement's HP is fully restored, and any major status effect is removed.  If the replacement Pokémon is immediately fainted by a switch-in effect, the next replacement is healed by this move instead.",
-    "shortEffect": "User faints.  Its replacement has its HP fully restored and any major status effect removed."
-  },
-  "priority": 0
+    "_id": 361,
+    "key": "healing-wish",
+    "name": {
+        "japanese-kana": "いやしのねがい",
+        "korean": "치유소원",
+        "traditional-chinese": "治癒之願",
+        "french": "Vœu Soin",
+        "german": "Heilopfer",
+        "spanish": "Deseo Cura",
+        "italian": "Curardore",
+        "english": "Healing Wish",
+        "japanese": "いやしのねがい",
+        "simplified-chinese": "治愈之愿",
+        "latin-american-spanish": "Deseo Sanador"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",
+            "pt": "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",
+            "hgss": "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",
+            "bw": "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",
+            "b2w2": "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",
+            "xy": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+            "oras": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+            "sm": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+            "usum": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+            "lgpe": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+            "swsh": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+            "la": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+            "sv": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured."
+        },
+        "french": {
+            "bw": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.",
+            "xy": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.",
+            "oras": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.",
+            "sm": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.",
+            "usum": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.",
+            "lgpe": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.",
+            "swsh": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui."
+        },
+        "japanese-kana": {
+            "xy": "じぶんは　ひんしに　なるが　ひかえから でてくる　ポケモンの　じょうたい いじょうと　ＨＰを　かいふく　する。",
+            "oras": "じぶんは　ひんしに　なるが　ひかえから でてくる　ポケモンの　じょうたい いじょうと　ＨＰを　かいふく　する。",
+            "sm": "じぶんは　ひんしに　なるが　ひかえから でてくる　ポケモンの　じょうたい いじょうと　ＨＰを　かいふく　する。",
+            "usum": "じぶんは　ひんしに　なるが　ひかえから でてくる　ポケモンの　じょうたい いじょうと　ＨＰを　かいふく　する。",
+            "lgpe": "じぶんは　ひんしに　なるが　ひかえから でてくる　ポケモンの　じょうたい いじょうと　ＨＰを　かいふく　する。",
+            "swsh": "じぶんは　ひんしに　なるが　ひかえから でてくる　ポケモンの　じょうたい いじょうと　ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.",
+            "oras": "자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.",
+            "sm": "자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.",
+            "usum": "자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.",
+            "lgpe": "자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.",
+            "swsh": "자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다."
+        },
+        "german": {
+            "xy": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Statusprobleme werden geheilt.",
+            "oras": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Statusprobleme werden geheilt.",
+            "sm": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Statusprobleme werden geheilt.",
+            "usum": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Statusprobleme werden geheilt.",
+            "lgpe": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Statusprobleme werden geheilt.",
+            "swsh": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Statusprobleme werden geheilt."
+        },
+        "spanish": {
+            "xy": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "oras": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "sm": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "usum": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "lgpe": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "swsh": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS."
+        },
+        "italian": {
+            "xy": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.",
+            "oras": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.",
+            "sm": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.",
+            "usum": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.",
+            "lgpe": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.",
+            "swsh": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato."
+        },
+        "japanese": {
+            "xy": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの 状態異常と　ＨＰを　回復する。",
+            "oras": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの 状態異常と　ＨＰを　回復する。",
+            "sm": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの 状態異常と　ＨＰを　回復する。",
+            "usum": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの 状態異常と　ＨＰを　回復する。",
+            "lgpe": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの 状態異常と　ＨＰを　回復する。",
+            "swsh": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの 状態異常と　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "oras": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "sm": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "usum": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "lgpe": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+            "swsh": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS."
+        },
+        "traditional-chinese": {
+            "sm": "雖然自己會陷入瀕死， 但可以治癒接替上場的 寶可夢的異常狀態並回復ＨＰ。",
+            "usum": "雖然自己會陷入瀕死， 但可以治癒接替上場的 寶可夢的異常狀態並回復ＨＰ。",
+            "lgpe": "雖然自己會陷入瀕死， 但可以治癒接替上場的 寶可夢的異常狀態並回復HP。",
+            "swsh": "雖然自己會陷入瀕死， 但可以治癒接替上場的 寶可夢的異常狀態並回復ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "虽然自己陷入濒死， 但可以治愈后备上场的 宝可梦的异常状态以及回复ＨＰ。",
+            "usum": "虽然自己陷入濒死， 但可以治愈后备上场的 宝可梦的异常状态以及回复ＨＰ。",
+            "lgpe": "虽然自己陷入濒死， 但可以治愈后备上场的 宝可梦的异常状态以及回复HP。",
+            "swsh": "虽然自己陷入濒死， 但可以治愈后备上场的 宝可梦的异常状态以及回复ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "User faints.  Its replacement’s HP is fully restored, and any major status effect is removed.  If the replacement Pokémon is immediately fainted by a switch-in effect, the next replacement is healed by this move instead.",
+        "shortEffect": "User faints.  Its replacement has its HP fully restored and any major status effect removed."
+    }
 }

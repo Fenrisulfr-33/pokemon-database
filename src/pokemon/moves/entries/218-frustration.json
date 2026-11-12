@@ -1,47 +1,144 @@
 {
-  "_id": 218,
-  "key": "frustration",
-  "name": {
-    "english": "Frustration",
-    "japanese": "やつあたり",
-    "chinese": "牵连",
-    "korean": "화풀이",
-    "german": "Frustración",
-    "french": "Frustration",
-    "italian": "Frustration",
-    "spanish": "Frustrazione"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack based on\nlack of loyalty.",
-    "crystal": "An attack based on\nlack of loyalty.",
-    "ruby-sapphire": "An attack that is stronger\nif the TRAINER is disliked.",
-    "emerald": "An attack that is stronger\nif the TRAINER is disliked.",
-    "firered-leafgreen": "This attack move\ngrows more powerful\nthe less the user\nlikes its TRAINER.",
-    "diamond-pearl": "A full-power attack\nthat grows more\npowerful the less\nthe user likes its\nTrainer.",
-    "platinum": "A full-power attack\nthat grows more\npowerful the less\nthe user likes its\nTrainer.",
-    "heartgold-soulsilver": "A full-power attack\nthat grows more\npowerful the less\nthe user likes its\nTrainer.",
-    "black-white": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
-    "black-2-white-2": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
-    "x-y": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
-    "omega-ruby-alpha-sapphire": "A full-power attack that grows more\npowerful the less the user likes\nits Trainer.",
-    "sun-moon": "This full-power attack grows more powerful the\nless the user likes its Trainer.",
-    "ultra-sun-ultra-moon": "This full-power attack grows more powerful the\nless the user likes its Trainer.",
-    "lets-go-pikachu-lets-go-eevee": "This full-power attack grows more powerful the\nless the user likes its Trainer.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
-    "shortEffect": "Power increases as happiness decreases, up to a maximum of 102."
-  },
-  "priority": 0
+    "_id": 218,
+    "key": "frustration",
+    "name": {
+        "japanese-kana": "やつあたり",
+        "korean": "화풀이",
+        "traditional-chinese": "遷怒",
+        "french": "Frustration",
+        "german": "Frustration",
+        "spanish": "Frustración",
+        "italian": "Frustrazione",
+        "english": "Frustration",
+        "japanese": "やつあたり",
+        "simplified-chinese": "迁怒",
+        "latin-american-spanish": "Frustración"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack based on lack of loyalty.",
+            "cr": "An attack based on lack of loyalty.",
+            "rs": "An attack that is stronger if the TRAINER is disliked.",
+            "em": "An attack that is stronger if the TRAINER is disliked.",
+            "frlg": "This attack move grows more powerful the less the user likes its TRAINER.",
+            "dp": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+            "pt": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+            "hgss": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+            "bw": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+            "b2w2": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+            "xy": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+            "oras": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+            "sm": "This full-power attack grows more powerful the less the user likes its Trainer.",
+            "usum": "This full-power attack grows more powerful the less the user likes its Trainer.",
+            "lgpe": "This full-power attack grows more powerful the less the user likes its Trainer.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+            "xy": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+            "oras": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+            "sm": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+            "usum": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+            "lgpe": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ふまんを　はらすため　ぜんりょくで あいてを　こうげきする。なついて いないほど　いりょくは　あがる。",
+            "oras": "ふまんを　はらすため　ぜんりょくで あいてを　こうげきする。なついて いないほど　いりょくは　あがる。",
+            "sm": "ふまんを　はらすため　ぜんりょくで あいてを　こうげきする。なついて いないほど　いりょくは　あがる。",
+            "usum": "ふまんを　はらすため　ぜんりょくで あいてを　こうげきする。なついて いないほど　いりょくは　あがる。",
+            "lgpe": "ふまんを　はらすため　ぜんりょくで あいてを　こうげきする。なついて いないほど　いりょくは　あがる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "불만을 풀기 위해 전력으로 상대를 공격한다. 친밀하지 않을수록 위력이 올라간다.",
+            "oras": "불만을 풀기 위해 전력으로 상대를 공격한다. 친밀하지 않을수록 위력이 올라간다.",
+            "sm": "불만을 풀기 위해 전력으로 상대를 공격한다. 친밀하지 않을수록 위력이 올라간다.",
+            "usum": "불만을 풀기 위해 전력으로 상대를 공격한다. 친밀하지 않을수록 위력이 올라간다.",
+            "lgpe": "불만을 풀기 위해 전력으로 상대를 공격한다. 친밀하지 않을수록 위력이 올라간다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.",
+            "oras": "Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.",
+            "sm": "Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.",
+            "usum": "Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.",
+            "lgpe": "Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "oras": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "sm": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "usum": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "lgpe": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "oras": "Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "sm": "Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "usum": "Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "lgpe": "Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "不満を　はらすため　全力で 相手を　攻撃する。 なついていないほど　威力は　あがる。",
+            "oras": "不満を　はらすため　全力で 相手を　攻撃する。 なついていないほど　威力は　あがる。",
+            "sm": "不満を　はらすため　全力で 相手を　攻撃する。 なついていないほど　威力は　あがる。",
+            "usum": "不満を　はらすため　全力で 相手を　攻撃する。 なついていないほど　威力は　あがる。",
+            "lgpe": "不満を　はらすため　全力で 相手を　攻撃する。 なついていないほど　威力は　あがる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "oras": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "sm": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "usum": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "lgpe": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "為了發洩不滿而 全力攻擊對手。 親密度越低，威力越大。",
+            "usum": "為了發洩不滿而 全力攻擊對手。 親密度越低，威力越大。",
+            "lgpe": "為了發洩不滿而 全力攻擊對手。 親密度越低，威力越大。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "为了发泄不满而 全力攻击对手。 亲密度越低，威力越大。",
+            "usum": "为了发泄不满而 全力攻击对手。 亲密度越低，威力越大。",
+            "lgpe": "为了发泄不满而 全力攻击对手。 亲密度越低，威力越大。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
+        "shortEffect": "Power increases as happiness decreases, up to a maximum of 102."
+    }
 }

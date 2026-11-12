@@ -1,42 +1,143 @@
 {
-  "_id": 375,
-  "key": "psycho-shift",
-  "name": {
-    "english": "Psycho Shift",
-    "japanese": "サイコシフト",
-    "chinese": "幻象转移",
-    "korean": "사이코시프트",
-    "german": "Psicocambio",
-    "french": "Psybann",
-    "italian": "Psycho Shift",
-    "spanish": "Psicotransfer"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "Using its psychic\npower of suggestion,\nthe user transfers\nits status problems\nto the target.",
-    "platinum": "Using its psychic\npower of suggestion,\nthe user transfers\nits status problems\nto the target.",
-    "heartgold-soulsilver": "Using its psychic\npower of suggestion,\nthe user transfers\nits status problems\nto the target.",
-    "black-white": "Using its psychic power of suggestion,\nthe user transfers its status problems\nto the target.",
-    "black-2-white-2": "Using its psychic power of suggestion,\nthe user transfers its status problems\nto the target.",
-    "x-y": "Using its psychic power of suggestion,\nthe user transfers its status conditions\nto the target.",
-    "omega-ruby-alpha-sapphire": "Using its psychic power of suggestion,\nthe user transfers its status conditions\nto the target.",
-    "sun-moon": "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target.",
-    "ultra-sun-ultra-moon": "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target.",
-    "lets-go-pikachu-lets-go-eevee": "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target.",
-    "sword-shield": "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target."
-  },
-  "effect": {
-    "full": "If the user has a major status effect and the target does not, the user's status is transferred to the target.",
-    "shortEffect": "Transfers the user's major status effect to the target."
-  },
-  "priority": 0
+    "_id": 375,
+    "key": "psycho-shift",
+    "name": {
+        "japanese-kana": "サイコシフト",
+        "korean": "사이코시프트",
+        "traditional-chinese": "精神轉移",
+        "french": "Échange Psy",
+        "german": "Psybann",
+        "spanish": "Psicocambio",
+        "italian": "Psicotransfer",
+        "english": "Psycho Shift",
+        "japanese": "サイコシフト",
+        "simplified-chinese": "精神转移",
+        "latin-american-spanish": "Psicocambio"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cool",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "accuracy": 90
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "Using its psychic power of suggestion, the user transfers its status problems to the target.",
+            "pt": "Using its psychic power of suggestion, the user transfers its status problems to the target.",
+            "hgss": "Using its psychic power of suggestion, the user transfers its status problems to the target.",
+            "bw": "Using its psychic power of suggestion, the user transfers its status problems to the target.",
+            "b2w2": "Using its psychic power of suggestion, the user transfers its status problems to the target.",
+            "xy": "Using its psychic power of suggestion, the user transfers its status conditions to the target.",
+            "oras": "Using its psychic power of suggestion, the user transfers its status conditions to the target.",
+            "sm": "Using its psychic power of suggestion, the user transfers its status conditions to the target.",
+            "usum": "Using its psychic power of suggestion, the user transfers its status conditions to the target.",
+            "lgpe": "Using its psychic power of suggestion, the user transfers its status conditions to the target.",
+            "swsh": "Using its psychic power of suggestion, the user transfers its status conditions to the target."
+        },
+        "french": {
+            "bw": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.",
+            "xy": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.",
+            "oras": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.",
+            "sm": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.",
+            "usum": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.",
+            "lgpe": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.",
+            "swsh": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion."
+        },
+        "japanese-kana": {
+            "xy": "ちょうのうりょくで　あんじを　かけて じぶんの　うけている　じょうたい いじょうを　あいてに　うつす。",
+            "oras": "ちょうのうりょくで　あんじを　かけて じぶんの　うけている　じょうたい いじょうを　あいてに　うつす。",
+            "sm": "ちょうのうりょくで　あんじを　かけて じぶんの　うけている　じょうたい いじょうを　あいてに　うつす。",
+            "usum": "ちょうのうりょくで　あんじを　かけて じぶんの　うけている　じょうたい いじょうを　あいてに　うつす。",
+            "lgpe": "ちょうのうりょくで　あんじを　かけて じぶんの　うけている　じょうたい いじょうを　あいてに　うつす。",
+            "swsh": "ちょうのうりょくで　あんじを　かけて じぶんの　うけている　じょうたい いじょうを　あいてに　うつす。"
+        },
+        "korean": {
+            "xy": "초능력으로 암시를 걸어서 자신에게 걸려 있는 상태 이상을 상대에게 옮긴다.",
+            "oras": "초능력으로 암시를 걸어서 자신에게 걸려 있는 상태 이상을 상대에게 옮긴다.",
+            "sm": "초능력으로 암시를 걸어서 자신에게 걸려 있는 상태 이상을 상대에게 옮긴다.",
+            "usum": "초능력으로 암시를 걸어서 자신에게 걸려 있는 상태 이상을 상대에게 옮긴다.",
+            "lgpe": "초능력으로 암시를 걸어서 자신에게 걸려 있는 상태 이상을 상대에게 옮긴다.",
+            "swsh": "초능력으로 암시를 걸어서 자신에게 걸려 있는 상태 이상을 상대에게 옮긴다."
+        },
+        "german": {
+            "xy": "Anwender nutzt seine Suggestivkräfte, um eigene Statusprobleme auf das Ziel zu transferieren.",
+            "oras": "Anwender nutzt seine Suggestivkräfte, um eigene Statusprobleme auf das Ziel zu transferieren.",
+            "sm": "Anwender nutzt seine Suggestivkräfte, um eigene Statusprobleme auf das Ziel zu transferieren.",
+            "usum": "Anwender nutzt seine Suggestivkräfte, um eigene Statusprobleme auf das Ziel zu transferieren.",
+            "lgpe": "Anwender nutzt seine Suggestivkräfte, um eigene Statusprobleme auf das Ziel zu transferieren.",
+            "swsh": "Anwender nutzt seine Suggestivkräfte, um eigene Statusprobleme auf das Ziel zu transferieren."
+        },
+        "spanish": {
+            "xy": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "oras": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "sm": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "usum": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "lgpe": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "swsh": "Usa su poder mental para transferir al objetivo sus problemas de estado."
+        },
+        "italian": {
+            "xy": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.",
+            "oras": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.",
+            "sm": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.",
+            "usum": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.",
+            "lgpe": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.",
+            "swsh": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "超能力で　暗示を　かけて 自分の　受けている　状態異常を 相手に　うつす。",
+            "oras": "超能力で　暗示を　かけて 自分の　受けている　状態異常を 相手に　うつす。",
+            "sm": "超能力で　暗示を　かけて 自分の　受けている　状態異常を 相手に　うつす。",
+            "usum": "超能力で　暗示を　かけて 自分の　受けている　状態異常を 相手に　うつす。",
+            "lgpe": "超能力で　暗示を　かけて 自分の　受けている　状態異常を 相手に　うつす。",
+            "swsh": "超能力で　暗示を　かけて 自分の　受けている　状態異常を 相手に　うつす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "oras": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "sm": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "usum": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "lgpe": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+            "swsh": "Usa su poder mental para transferir al objetivo sus problemas de estado."
+        },
+        "traditional-chinese": {
+            "sm": "用超能力施加暗示， 將自己的異常狀態 轉移給對手。",
+            "usum": "用超能力施加暗示， 將自己的異常狀態 轉移給對手。",
+            "lgpe": "用超能力施加暗示， 將自己的異常狀態 轉移給對手。",
+            "swsh": "用超能力施加暗示， 將自己的異常狀態 轉移給對手。"
+        },
+        "simplified-chinese": {
+            "sm": "利用超能力施以暗示， 从而将自己受到的异常状态 转移给对手。",
+            "usum": "利用超能力施以暗示， 从而将自己受到的异常状态 转移给对手。",
+            "lgpe": "利用超能力施以暗示， 从而将自己受到的异常状态 转移给对手。",
+            "swsh": "利用超能力施以暗示， 从而将自己受到的异常状态 转移给对手。"
+        }
+    },
+    "effect": {
+        "full": "If the user has a major status effect and the target does not, the user’s status is transferred to the target.",
+        "shortEffect": "Transfers the user’s major status effect to the target."
+    }
 }

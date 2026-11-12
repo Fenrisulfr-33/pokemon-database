@@ -1,47 +1,146 @@
 {
-  "_id": 55,
-  "key": "water-gun",
-  "name": {
-    "english": "Water Gun",
-    "japanese": "みずでっぽう",
-    "chinese": "水枪",
-    "korean": "물대포",
-    "german": "Pistola Agua",
-    "french": "Aquaknarre",
-    "italian": "Water Gun",
-    "spanish": "Pistolacqua"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 25,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Squirts water to\nattack.",
-    "crystal": "Squirts water to\nattack.",
-    "ruby-sapphire": "Squirts water to attack\nthe foe.",
-    "emerald": "Squirts water to attack\nthe foe.",
-    "firered-leafgreen": "The foe is struck\nwith a lot of water\nexpelled forcibly\nfrom the mouth.",
-    "diamond-pearl": "The foe is blasted\nwith a forceful shot\nof water.\n\n",
-    "platinum": "The foe is blasted\nwith a forceful shot\nof water.\n\n",
-    "heartgold-soulsilver": "The foe is blasted\nwith a forceful shot\nof water.\n\n",
-    "black-white": "The target is blasted with a\nforceful shot of water.",
-    "black-2-white-2": "The target is blasted with a\nforceful shot of water.",
-    "x-y": "The target is blasted with a\nforceful shot of water.",
-    "omega-ruby-alpha-sapphire": "The target is blasted with a\nforceful shot of water.",
-    "sun-moon": "The target is blasted with a forceful shot of water.",
-    "ultra-sun-ultra-moon": "The target is blasted with a forceful shot of water.",
-    "lets-go-pikachu-lets-go-eevee": "The target is blasted with a forceful shot of water.",
-    "sword-shield": "The target is blasted with a forceful shot of water."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 55,
+    "key": "water-gun",
+    "name": {
+        "japanese-kana": "みずでっぽう",
+        "korean": "물대포",
+        "traditional-chinese": "水槍",
+        "french": "Pistolet à O",
+        "german": "Aquaknarre",
+        "spanish": "Pistola Agua",
+        "italian": "Pistolacqua",
+        "english": "Water Gun",
+        "japanese": "みずでっぽう",
+        "simplified-chinese": "水枪",
+        "latin-american-spanish": "Chorro de Agua"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "cute",
+    "pp": 25,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Squirts water to attack.",
+            "cr": "Squirts water to attack.",
+            "rs": "Squirts water to attack the foe.",
+            "em": "Squirts water to attack the foe.",
+            "frlg": "The foe is struck with a lot of water expelled forcibly from the mouth.",
+            "dp": "The foe is blasted with a forceful shot of water.",
+            "pt": "The foe is blasted with a forceful shot of water.",
+            "hgss": "The foe is blasted with a forceful shot of water.",
+            "bw": "The target is blasted with a forceful shot of water.",
+            "b2w2": "The target is blasted with a forceful shot of water.",
+            "xy": "The target is blasted with a forceful shot of water.",
+            "oras": "The target is blasted with a forceful shot of water.",
+            "sm": "The target is blasted with a forceful shot of water.",
+            "usum": "The target is blasted with a forceful shot of water.",
+            "lgpe": "The target is blasted with a forceful shot of water.",
+            "swsh": "The target is blasted with a forceful shot of water.",
+            "la": "The target is blasted with a forceful shot of water.",
+            "sv": "The target is blasted with a forceful shot of water."
+        },
+        "french": {
+            "bw": "De l’eau est projetée sur l’ennemi en arc de cercle.",
+            "xy": "De l’eau est projetée en arc de cercle sur l’ennemi.",
+            "oras": "De l’eau est projetée avec force sur l’ennemi.",
+            "sm": "De l’eau est projetée avec force sur l’ennemi.",
+            "usum": "De l’eau est projetée avec force sur l’ennemi.",
+            "lgpe": "De l’eau est projetée avec force sur l’ennemi.",
+            "swsh": "De l’eau est projetée avec force sur l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "みずを　いきおいよく あいてに　はっしゃして　こうげきする。",
+            "oras": "ずを　いきおいよく あいてに　はっしゃして　こうげきする。",
+            "sm": "みずを　いきおいよく あいてに　はっしゃして　こうげきする。",
+            "usum": "みずを　いきおいよく あいてに　はっしゃして　こうげきする。",
+            "lgpe": "みずを　いきおいよく あいてに　はっしゃして　こうげきする。",
+            "swsh": "みずを　いきおいよく あいてに　はっしゃして　こうげきする。"
+        },
+        "korean": {
+            "xy": "물을 기세 좋게 상대에게 발사하여 공격한다.",
+            "oras": "물을 기세 좋게 상대에게 발사하여 공격한다.",
+            "sm": "물을 기세 좋게 상대에게 발사하여 공격한다.",
+            "usum": "물을 기세 좋게 상대에게 발사하여 공격한다.",
+            "lgpe": "물을 기세 좋게 상대에게 발사하여 공격한다.",
+            "swsh": "물을 기세 좋게 상대에게 발사하여 공격한다."
+        },
+        "german": {
+            "xy": "Das Ziel wird mit Wasser bespritzt.",
+            "oras": "Das Ziel wird mit Wasser bespritzt.",
+            "sm": "Das Ziel wird mit Wasser bespritzt.",
+            "usum": "Das Ziel wird mit Wasser bespritzt.",
+            "lgpe": "Das Ziel wird mit Wasser bespritzt.",
+            "swsh": "Das Ziel wird mit Wasser bespritzt."
+        },
+        "spanish": {
+            "xy": "Ataca disparando agua con gran potencia.",
+            "oras": "Ataca disparando agua con gran potencia.",
+            "sm": "Ataca disparando agua con gran potencia.",
+            "usum": "Ataca disparando agua con gran potencia.",
+            "lgpe": "Ataca disparando agua con gran potencia.",
+            "swsh": "Ataca disparando agua con gran potencia."
+        },
+        "italian": {
+            "xy": "Il bersaglio è colpito da un potente getto d’acqua.",
+            "oras": "Il bersaglio è colpito da un potente getto d’acqua.",
+            "sm": "Il bersaglio è colpito da un potente getto d’acqua.",
+            "usum": "Il bersaglio è colpito da un potente getto d’acqua.",
+            "lgpe": "Il bersaglio è colpito da un potente getto d’acqua.",
+            "swsh": "Il bersaglio è colpito da un potente getto d’acqua."
+        },
+        "japanese": {
+            "xy": "水を　勢いよく 相手に　発射して　攻撃する。",
+            "oras": "水を　勢いよく 相手に　発射して　攻撃する。",
+            "sm": "水を　勢いよく 相手に　発射して　攻撃する。",
+            "usum": "水を　勢いよく 相手に　発射して　攻撃する。",
+            "lgpe": "水を　勢いよく 相手に　発射して　攻撃する。",
+            "swsh": "水を　勢いよく 相手に　発射して　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca disparando agua con gran potencia.",
+            "oras": "Ataca disparando agua con gran potencia.",
+            "sm": "Ataca disparando agua con gran potencia.",
+            "usum": "Ataca disparando agua con gran potencia.",
+            "lgpe": "Ataca disparando agua con gran potencia.",
+            "swsh": "Ataca disparando agua con gran potencia."
+        },
+        "traditional-chinese": {
+            "sm": "向對手噴射 強烈水流進行攻擊。",
+            "usum": "向對手噴射 強烈水流進行攻擊。",
+            "lgpe": "向對手噴射 強烈水流進行攻擊。",
+            "swsh": "向對手噴射 強烈水流進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手猛烈地喷射 水流进行攻击。",
+            "usum": "向对手猛烈地喷射 水流进行攻击。",
+            "lgpe": "向对手猛烈地喷射 水流进行攻击。",
+            "swsh": "向对手猛烈地喷射 水流进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

@@ -1,45 +1,144 @@
 {
-  "_id": 310,
-  "key": "astonish",
-  "name": {
-    "english": "Astonish",
-    "japanese": "おどろかす",
-    "chinese": "惊吓",
-    "korean": "놀래키기",
-    "german": "Impresionar",
-    "french": "Erstauner",
-    "italian": "Astonish",
-    "spanish": "Sgomento"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 30,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "An attack that may shock\nthe foe into flinching.",
-    "emerald": "An attack that may shock\nthe foe into flinching.",
-    "firered-leafgreen": "An attack using a\nstartling shout.\nIt also may make\nthe foe flinch.",
-    "diamond-pearl": "The user attacks the\nfoe while shouting in\na startling fashion.\nIt may also make the\ntarget flinch.",
-    "platinum": "The user attacks the\nfoe while shouting in\na startling fashion.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The user attacks the\nfoe while shouting in\na startling fashion.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user attacks the target while shouting\nin a startling fashion.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user attacks the target while shouting\nin a startling fashion.\nIt may also make the target flinch.",
-    "x-y": "The user attacks the target while shouting\nin a startling fashion.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target while shouting\nin a startling fashion.\nThis may also make the target flinch.",
-    "sun-moon": "The user attacks the target while shouting in a\nstartling fashion. This may also make the\ntarget flinch.",
-    "ultra-sun-ultra-moon": "The user attacks the target while shouting in a\nstartling fashion. This may also make the\ntarget flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target while shouting in a\nstartling fashion. This may also make the\ntarget flinch.",
-    "sword-shield": "The user attacks the target while shouting in a\nstartling fashion. This may also make the\ntarget flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 310,
+    "key": "astonish",
+    "name": {
+        "japanese-kana": "おどろかす",
+        "korean": "놀래키기",
+        "traditional-chinese": "驚嚇",
+        "french": "Étonnement",
+        "german": "Erstauner",
+        "spanish": "Impresionar",
+        "italian": "Sgomento",
+        "english": "Astonish",
+        "japanese": "おどろかす",
+        "simplified-chinese": "惊吓",
+        "latin-american-spanish": "Impresión"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 15,
+    "power": 30,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "An attack that may shock the foe into flinching.",
+            "em": "An attack that may shock the foe into flinching.",
+            "frlg": "An attack using a startling shout. It also may make the foe flinch.",
+            "dp": "The user attacks the foe while shouting in a startling fashion. It may also make the target flinch.",
+            "pt": "The user attacks the foe while shouting in a startling fashion. It may also make the target flinch.",
+            "hgss": "The user attacks the foe while shouting in a startling fashion. It may also make the target flinch.",
+            "bw": "The user attacks the target while shouting in a startling fashion. It may also make the target flinch.",
+            "b2w2": "The user attacks the target while shouting in a startling fashion. It may also make the target flinch.",
+            "xy": "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
+            "oras": "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
+            "sm": "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
+            "usum": "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
+            "lgpe": "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
+            "swsh": "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
+            "la": "The user attacks the target while crying out in a startling fashion.",
+            "sv": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.",
+            "xy": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.",
+            "oras": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.",
+            "sm": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.",
+            "usum": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.",
+            "lgpe": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.",
+            "swsh": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　こえなどで ふいに　おどろかして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "おおきな　こえなどで ふいに　おどろかして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "おおきな　こえなどで ふいに　おどろかして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "おおきな　こえなどで ふいに　おどろかして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "おおきな　こえなどで ふいに　おどろかして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "おおきな　こえなどで ふいに　おどろかして　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "큰 소리 등으로 불시에 놀래켜서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "큰 소리 등으로 불시에 놀래켜서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "큰 소리 등으로 불시에 놀래켜서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "큰 소리 등으로 불시에 놀래켜서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "큰 소리 등으로 불시에 놀래켜서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "큰 소리 등으로 불시에 놀래켜서 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender greift mit einem Schrei an. Ein Angriff, der das Ziel eventuell zurückschrecken lässt.",
+            "oras": "Anwender greift mit einem Schrei an. Ein Angriff, der das Ziel eventuell zurückschrecken lässt.",
+            "sm": "Anwender greift mit einem Schrei an. Ein Angriff, der das Ziel eventuell zurückschrecken lässt.",
+            "usum": "Anwender greift mit einem Schrei an. Ein Angriff, der das Ziel eventuell zurückschrecken lässt.",
+            "lgpe": "Anwender greift mit einem Schrei an. Ein Angriff, der das Ziel eventuell zurückschrecken lässt.",
+            "swsh": "Anwender greift mit einem Schrei an. Ein Angriff, der das Ziel eventuell zurückschrecken lässt."
+        },
+        "spanish": {
+            "xy": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "oras": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "sm": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "usum": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "lgpe": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "swsh": "Lanza un grito tan tremendo que impresiona y puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare.",
+            "oras": "Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare.",
+            "sm": "Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare.",
+            "usum": "Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare.",
+            "lgpe": "Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare.",
+            "swsh": "Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare."
+        },
+        "japanese": {
+            "xy": "大きな　声などで 不意に　驚かして　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "大きな　声などで 不意に　驚かして　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "大きな　声などで 不意に　驚かして　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "大きな　声などで 不意に　驚かして　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "大きな　声などで 不意に　驚かして　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "大きな　声などで 不意に　驚かして　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "oras": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "sm": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "usum": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "lgpe": "Impresiona tanto que puede hacer retroceder al objetivo.",
+            "swsh": "Lanza un grito tan tremendo que impresiona y puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用巨大的聲響等 突然驚嚇對手進行攻擊。 有時會讓對手畏縮。",
+            "usum": "用巨大的聲響等 突然驚嚇對手進行攻擊。 有時會讓對手畏縮。",
+            "lgpe": "用巨大的聲響等 突然驚嚇對手進行攻擊。 有時會讓對手畏縮。",
+            "swsh": "用巨大的聲響等 突然驚嚇對手進行攻擊。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖叫声等 突然惊吓对手进行攻击。 有时会使对手畏缩。",
+            "usum": "用尖叫声等 突然惊吓对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用尖叫声等 突然惊吓对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "用尖叫声等 突然惊吓对手进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

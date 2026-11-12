@@ -1,47 +1,144 @@
 {
-  "_id": 216,
-  "key": "return",
-  "name": {
-    "english": "Return",
-    "japanese": "おんがえし",
-    "chinese": "报恩",
-    "korean": "은혜갚기",
-    "german": "Retribución",
-    "french": "Rückkehr",
-    "italian": "Return",
-    "spanish": "Ritorno"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "An attack that increases\nin power with friendship.",
-    "emerald": "An attack that increases\nin power with friendship.",
-    "gold-silver": "An attack that is\nbased on loyalty.",
-    "crystal": "An attack that is\nbased on loyalty.",
-    "firered-leafgreen": "This attack move\ngrows more powerful\nthe more the user\nlikes its TRAINER.",
-    "diamond-pearl": "A full-power attack\nthat grows more\npowerful the more\nthe user likes its\nTrainer.",
-    "platinum": "A full-power attack\nthat grows more\npowerful the more\nthe user likes its\nTrainer.",
-    "heartgold-soulsilver": "A full-power attack\nthat grows more\npowerful the more\nthe user likes its\nTrainer.",
-    "black-white": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
-    "black-2-white-2": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
-    "x-y": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
-    "omega-ruby-alpha-sapphire": "A full-power attack that grows more\npowerful the more the user likes\nits Trainer.",
-    "sun-moon": "This full-power attack grows more powerful the\nmore the user likes its Trainer.",
-    "ultra-sun-ultra-moon": "This full-power attack grows more powerful the\nmore the user likes its Trainer.",
-    "lets-go-pikachu-lets-go-eevee": "This full-power attack grows more powerful the\nmore the user likes its Trainer.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
-    "shortEffect": "Power increases with happiness, up to a maximum of 102."
-  },
-  "priority": 0
+    "_id": 216,
+    "key": "return",
+    "name": {
+        "japanese-kana": "おんがえし",
+        "korean": "은혜갚기",
+        "traditional-chinese": "報恩",
+        "french": "Retour",
+        "german": "Rückkehr",
+        "spanish": "Retribución",
+        "italian": "Ritorno",
+        "english": "Return",
+        "japanese": "おんがえし",
+        "simplified-chinese": "报恩",
+        "latin-american-spanish": "Retribución"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that is based on loyalty.",
+            "cr": "An attack that is based on loyalty.",
+            "rs": "An attack that increases in power with friendship.",
+            "em": "An attack that increases in power with friendship.",
+            "frlg": "This attack move grows more powerful the more the user likes its TRAINER.",
+            "dp": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+            "pt": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+            "hgss": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+            "bw": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+            "b2w2": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+            "xy": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+            "oras": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+            "sm": "This full-power attack grows more powerful the more the user likes its Trainer.",
+            "usum": "This full-power attack grows more powerful the more the user likes its Trainer.",
+            "lgpe": "This full-power attack grows more powerful the more the user likes its Trainer.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Une attaque furieuse dont la puissance augmente quand le Pokémon apprécie son Dresseur.",
+            "xy": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente.",
+            "oras": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente.",
+            "sm": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente.",
+            "usum": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente.",
+            "lgpe": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "トレーナーの　ために　ぜんりょくで あいてを　こうげきする。 なついて　いるほど　いりょくは　あがる。",
+            "oras": "トレーナーの　ために　ぜんりょくで あいてを　こうげきする。 なついて　いるほど　いりょくは　あがる。",
+            "sm": "トレーナーの　ために　ぜんりょくで あいてを　こうげきする。 なついて　いるほど　いりょくは　あがる。",
+            "usum": "トレーナーの　ために　ぜんりょくで あいてを　こうげきする。 なついて　いるほど　いりょくは　あがる。",
+            "lgpe": "トレーナーの　ために　ぜんりょくで あいてを　こうげきする。 なついて　いるほど　いりょくは　あがる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "트레이너를 위해 전력으로 상대를 공격한다. 친밀할수록 위력이 올라간다.",
+            "oras": "트레이너를 위해 전력으로 상대를 공격한다. 친밀할수록 위력이 올라간다.",
+            "sm": "트레이너를 위해 전력으로 상대를 공격한다. 친밀할수록 위력이 올라간다.",
+            "usum": "트레이너를 위해 전력으로 상대를 공격한다. 친밀할수록 위력이 올라간다.",
+            "lgpe": "트레이너를 위해 전력으로 상대를 공격한다. 친밀할수록 위력이 올라간다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Angriff, dessen Kraft bei Freundschaft zum Trainer größer wird.",
+            "oras": "Angriff, dessen Kraft bei Freundschaft zum Trainer größer wird.",
+            "sm": "Die Attacke wird stärker, je mehr der Anwender seinen Trainer mag.",
+            "usum": "Die Attacke wird stärker, je mehr der Anwender seinen Trainer mag.",
+            "lgpe": "Die Attacke wird stärker, je mehr der Anwender seinen Trainer mag.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "oras": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "sm": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "usum": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "lgpe": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "oras": "Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "sm": "Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "usum": "Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "lgpe": "Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "トレーナーの　ために　全力で 相手を　攻撃する。 なついているほど　威力は　あがる。",
+            "oras": "トレーナーの　ために　全力で 相手を　攻撃する。 なついているほど　威力は　あがる。",
+            "sm": "トレーナーの　ために　全力で 相手を　攻撃する。 なついているほど　威力は　あがる。",
+            "usum": "トレーナーの　ために　全力で 相手を　攻撃する。 なついているほど　威力は　あがる。",
+            "lgpe": "トレーナーの　ために　全力で 相手を　攻撃する。 なついているほど　威力は　あがる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "oras": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "sm": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "usum": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "lgpe": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "為了訓練家而 全力攻擊對手。 親密度越高，威力越大。",
+            "usum": "為了訓練家而 全力攻擊對手。 親密度越高，威力越大。",
+            "lgpe": "為了訓練家而 全力攻擊對手。 親密度越高，威力越大。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "为了训练家而 全力攻击对手。 亲密度越高，威力越大。",
+            "usum": "为了训练家而 全力攻击对手。 亲密度越高，威力越大。",
+            "lgpe": "为了训练家而 全力攻击对手。 亲密度越高，威力越大。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
+        "shortEffect": "Power increases with happiness, up to a maximum of 102."
+    }
 }

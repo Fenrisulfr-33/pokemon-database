@@ -1,39 +1,143 @@
 {
-  "_id": 537,
-  "key": "steamroller",
-  "name": {
-    "english": "Steamroller",
-    "japanese": "ハードローラー",
-    "chinese": "疯狂滚动",
-    "korean": "하드롤러",
-    "german": "Rodillo de Púas",
-    "french": "Quetschwalze",
-    "italian": "Steamroller",
-    "spanish": "Rulloduro"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis attack may make the target flinch.",
-    "black-2-white-2": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis attack may make the target flinch.",
-    "x-y": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis may also make the target flinch.",
-    "sun-moon": "The user crushes its target by rolling over the target\nwith its rolled-up body. This may also make the\ntarget flinch.",
-    "ultra-sun-ultra-moon": "The user crushes its target by rolling over the target\nwith its rolled-up body. This may also make the\ntarget flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user crushes its target by rolling over the target\nwith its rolled-up body. This may also make the\ntarget flinch.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.\n\nPower is doubled against Pokémon that have used minimize since entering the field.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 537,
+    "key": "steamroller",
+    "name": {
+        "japanese-kana": "ハードローラー",
+        "korean": "하드롤러",
+        "traditional-chinese": "瘋狂滾壓",
+        "french": "Bulldoboule",
+        "german": "Quetschwalze",
+        "spanish": "Rodillo de Púas",
+        "italian": "Rulloduro",
+        "english": "Steamroller",
+        "japanese": "ハードローラー",
+        "simplified-chinese": "疯狂滚压",
+        "latin-american-spanish": "Aplanadora"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "N’interagit pas avec Lilliput."
+        },
+        "english": {
+            "gs": "Does not interact with Minimize."
+        }
+    },
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur se roule en boule et écrase son ennemi. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur se roule en boule et écrase son ennemi. Peut aussi l’apeurer.",
+            "oras": "Le lanceur se roule en boule et écrase son ennemi. Peut aussi l’apeurer.",
+            "sm": "Le lanceur se roule en boule et écrase son ennemi. Peut aussi l’apeurer.",
+            "usum": "Le lanceur se roule en boule et écrase son ennemi. Peut aussi l’apeurer.",
+            "lgpe": "Le lanceur se roule en boule et écrase son ennemi. Peut aussi l’apeurer.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "english": {
+            "bw": "The user crushes its targets by rolling over them with its rolled-up body. This attack may make the target flinch.",
+            "b2w2": "The user crushes its targets by rolling over them with its rolled-up body. This attack may make the target flinch.",
+            "xy": "The user crushes its targets by rolling over them with its rolled-up body. This may also make the target flinch.",
+            "oras": "The user crushes its targets by rolling over them with its rolled-up body. This may also make the target flinch.",
+            "sm": "The user crushes its target by rolling over the target with its rolled-up body. This may also make the target flinch.",
+            "usum": "The user crushes its target by rolling over the target with its rolled-up body. This may also make the target flinch.",
+            "lgpe": "The user crushes its target by rolling over the target with its rolled-up body. This may also make the target flinch.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese-kana": {
+            "xy": "まるめた　からだで　かいてんして あいてを　おしつぶす。 あいてを　ひるませる　ことが　ある。",
+            "oras": "まるめた　からだで　かいてんして あいてを　おしつぶす。 あいてを　ひるませる　ことが　ある。",
+            "sm": "まるめた　からだで　かいてんして あいてを　おしつぶす。 あいてを　ひるませる　ことが　ある。",
+            "usum": "まるめた　からだで　かいてんして あいてを　おしつぶす。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "まるめた　からだで　かいてんして あいてを　おしつぶす。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "둥글게 뭉친 몸을 회전하여 상대를 뭉개 버린다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "둥글게 뭉친 몸을 회전하여 상대를 뭉개 버린다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "둥글게 뭉친 몸을 회전하여 상대를 뭉개 버린다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "둥글게 뭉친 몸을 회전하여 상대를 뭉개 버린다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "둥글게 뭉친 몸을 회전하여 상대를 뭉개 버린다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender rollt mit rundlichem Körper über das Ziel und drückt es platt. Ziel schreckt eventuell zurück.",
+            "oras": "Anwender rollt mit rundlichem Körper über das Ziel und drückt es platt. Ziel schreckt eventuell zurück.",
+            "sm": "Anwender rollt mit rundlichem Körper über das Ziel und drückt es platt. Ziel schreckt eventuell zurück.",
+            "usum": "Anwender rollt mit rundlichem Körper über das Ziel und drückt es platt. Ziel schreckt eventuell zurück.",
+            "lgpe": "Anwender rollt mit rundlichem Körper über das Ziel und drückt es platt. Ziel schreckt eventuell zurück.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "oras": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "sm": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "usum": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "lgpe": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa ruota su se stesso ad alta velocità e schiaccia il bersaglio. Può anche farlo tentennare.",
+            "oras": "Chi la usa ruota su se stesso ad alta velocità e schiaccia il bersaglio. Può anche farlo tentennare.",
+            "sm": "Chi la usa ruota su se stesso e schiaccia il bersaglio. Può anche farlo tentennare.",
+            "usum": "Chi la usa ruota su se stesso e schiaccia il bersaglio. Può anche farlo tentennare.",
+            "lgpe": "Chi la usa ruota su se stesso e schiaccia il bersaglio. Può anche farlo tentennare.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "まるめた　体で　回転して 相手を　おしつぶす。 相手を　ひるませることが　ある。",
+            "oras": "まるめた　体で　回転して 相手を　おしつぶす。 相手を　ひるませることが　ある。",
+            "sm": "まるめた　体で　回転して 相手を　おしつぶす。 相手を　ひるませることが　ある。",
+            "usum": "まるめた　体で　回転して 相手を　おしつぶす。 相手を　ひるませることが　ある。",
+            "lgpe": "まるめた　体で　回転して 相手を　おしつぶす。 相手を　ひるませることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "oras": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "sm": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "usum": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "lgpe": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "旋轉蜷縮成圓形的身體， 壓扁對手。 有時會使對手畏縮。",
+            "usum": "旋轉蜷縮成圓形的身體， 壓扁對手。 有時會使對手畏縮。",
+            "lgpe": "旋轉蜷縮成圓形的身體， 壓扁對手。 有時會使對手畏縮。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "旋转揉成团的身体 压扁对手。 有时会使对手畏缩。",
+            "usum": "旋转揉成团的身体 压扁对手。 有时会使对手畏缩。",
+            "lgpe": "旋转揉成团的身体 压扁对手。 有时会使对手畏缩。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch. Power is doubled against Pokémon that have used Minimize since entering the field.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

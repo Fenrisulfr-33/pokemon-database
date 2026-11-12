@@ -1,42 +1,141 @@
 {
-  "_id": 379,
-  "key": "power-trick",
-  "name": {
-    "english": "Power Trick",
-    "japanese": "パワートリック",
-    "chinese": "能量骗术",
-    "korean": "파워트릭",
-    "german": "Truco Fuerza",
-    "french": "Krafttrick",
-    "italian": "Power Trick",
-    "spanish": "Ingannoforza"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user employs its\npsychic power to\nswitch its Attack\nwith its Defense\nstat.",
-    "platinum": "The user employs its\npsychic power to\nswitch its Attack\nwith its Defense\nstat.",
-    "heartgold-soulsilver": "The user employs its\npsychic power to\nswitch its Attack\nwith its Defense\nstat.",
-    "black-white": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
-    "black-2-white-2": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
-    "x-y": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
-    "omega-ruby-alpha-sapphire": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
-    "sun-moon": "The user employs its psychic power to switch its\nAttack stat with its Defense stat.",
-    "ultra-sun-ultra-moon": "The user employs its psychic power to switch its\nAttack stat with its Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user employs its psychic power to switch its\nAttack stat with its Defense stat.",
-    "sword-shield": "The user employs its psychic power to switch its\nAttack stat with its Defense stat."
-  },
-  "effect": {
-    "full": "The user's original Attack and Defense are swapped.\n\nThis effect is passed on by baton pass.",
-    "shortEffect": "User swaps Attack and Defense."
-  },
-  "priority": 0
+    "_id": 379,
+    "key": "power-trick",
+    "name": {
+        "japanese-kana": "パワートリック",
+        "korean": "파워트릭",
+        "traditional-chinese": "力量戲法",
+        "french": "Astuce Force",
+        "german": "Krafttrick",
+        "spanish": "Truco Fuerza",
+        "italian": "Ingannoforza",
+        "english": "Power Trick",
+        "japanese": "パワートリック",
+        "simplified-chinese": "力量戏法",
+        "latin-american-spanish": "Truco Fuerza"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cool",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user employs its psychic power to switch its Attack with its Defense stat.",
+            "pt": "The user employs its psychic power to switch its Attack with its Defense stat.",
+            "hgss": "The user employs its psychic power to switch its Attack with its Defense stat.",
+            "bw": "The user employs its psychic power to switch its Attack with its Defense stat.",
+            "b2w2": "The user employs its psychic power to switch its Attack with its Defense stat.",
+            "xy": "The user employs its psychic power to switch its Attack with its Defense stat.",
+            "oras": "The user employs its psychic power to switch its Attack with its Defense stat.",
+            "sm": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
+            "usum": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
+            "lgpe": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
+            "swsh": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
+            "la": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
+            "sv": "The user employs its psychic power to switch its Attack stat with its Defense stat."
+        },
+        "french": {
+            "bw": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa stat Défense et sa stat Attaque.",
+            "xy": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque.",
+            "oras": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque.",
+            "sm": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque.",
+            "usum": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque.",
+            "lgpe": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque.",
+            "swsh": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque."
+        },
+        "japanese-kana": {
+            "xy": "ちょうのうりょくで じぶんの　こうげきと　ぼうぎょの ちからを　こうかん　する。",
+            "oras": "ちょうのうりょくで じぶんの　こうげきと　ぼうぎょの ちからを　こうかん　する。",
+            "sm": "ちょうのうりょくで じぶんの　こうげきと　ぼうぎょの ちからを　こうかん　する。",
+            "usum": "ちょうのうりょくで じぶんの　こうげきと　ぼうぎょの ちからを　こうかん　する。",
+            "lgpe": "ちょうのうりょくで じぶんの　こうげきと　ぼうぎょの ちからを　こうかん　する。",
+            "swsh": "ちょうのうりょくで じぶんの　こうげきと　ぼうぎょの ちからを　こうかん　する。"
+        },
+        "korean": {
+            "xy": "초능력으로 자신의 공격과 방어의 힘을 교환한다.",
+            "oras": "초능력으로 자신의 공격과 방어의 힘을 교환한다.",
+            "sm": "초능력으로 자신의 공격과 방어의 힘을 교환한다.",
+            "usum": "초능력으로 자신의 공격과 방어의 힘을 교환한다.",
+            "lgpe": "초능력으로 자신의 공격과 방어의 힘을 교환한다.",
+            "swsh": "초능력으로 자신의 공격과 방어의 힘을 교환한다."
+        },
+        "german": {
+            "xy": "Anwender setzt Psycho-Kräfte ein, um eigenen Angriffs- mit Verteidigungs-Wert auszutauschen.",
+            "oras": "Anwender setzt Psycho-Kräfte ein, um eigenen Angriffs- mit Verteidigungs-Wert auszutauschen.",
+            "sm": "Anwender setzt Psycho-Kräfte ein, um eigenen Angriffs- mit Verteidigungs-Wert auszutauschen.",
+            "usum": "Anwender setzt Psycho-Kräfte ein, um eigenen Angriffs- mit Verteidigungs-Wert auszutauschen.",
+            "lgpe": "Anwender setzt Psycho-Kräfte ein, um eigenen Angriffs- mit Verteidigungs-Wert auszutauschen.",
+            "swsh": "Anwender setzt Psycho-Kräfte ein, um eigenen Angriffs- mit Verteidigungs-Wert auszutauschen."
+        },
+        "spanish": {
+            "xy": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "oras": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "sm": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "usum": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "lgpe": "Usa sus poderes mentales para intercambiar sus características de Ataque y Defensa.",
+            "swsh": "Usa sus poderes mentales para intercambiar sus características de Ataque y Defensa."
+        },
+        "italian": {
+            "xy": "Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.",
+            "oras": "Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.",
+            "sm": "Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.",
+            "usum": "Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.",
+            "lgpe": "Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.",
+            "swsh": "Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa."
+        },
+        "japanese": {
+            "xy": "超能力で 自分の　攻撃と　防御の 力を　交換する。",
+            "oras": "超能力で 自分の　攻撃と　防御の 力を　交換する。",
+            "sm": "超能力で 自分の　攻撃と　防御の 力を　交換する。",
+            "usum": "超能力で 自分の　攻撃と　防御の 力を　交換する。",
+            "lgpe": "超能力で 自分の　攻撃と　防御の 力を　交換する。",
+            "swsh": "超能力で 自分の　攻撃と　防御の 力を　交換する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "oras": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "sm": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "usum": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+            "lgpe": "Usa sus poderes mentales para intercambiar sus características de Ataque y Defensa.",
+            "swsh": "Usa sus poderes mentales para intercambiar sus características de Ataque y Defensa."
+        },
+        "traditional-chinese": {
+            "sm": "利用超能力， 將自己的攻擊和 防禦互相交換。",
+            "usum": "利用超能力， 將自己的攻擊和 防禦互相交換。",
+            "lgpe": "利用超能力， 將自己的攻擊和 防禦互相交換。",
+            "swsh": "利用超能力， 將自己的攻擊和 防禦互相交換。"
+        },
+        "simplified-chinese": {
+            "sm": "利用超能力交换 自己的攻击和 防御的力量。",
+            "usum": "利用超能力交换 自己的攻击和 防御的力量。",
+            "lgpe": "利用超能力交换 自己的攻击和 防御的力量。",
+            "swsh": "利用超能力交换 自己的攻击和 防御的力量。"
+        }
+    },
+    "effect": {
+        "full": "The user’s original Attack and Defense are swapped. This effect is passed on by Baton Pass.",
+        "shortEffect": "User swaps Attack and Defense."
+    }
 }

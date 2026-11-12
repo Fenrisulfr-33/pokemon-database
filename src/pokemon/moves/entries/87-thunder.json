@@ -1,47 +1,160 @@
 {
-  "_id": 87,
-  "key": "thunder",
-  "name": {
-    "english": "Thunder",
-    "japanese": "かみなり",
-    "chinese": "打雷",
-    "korean": "번개",
-    "german": "Trueno",
-    "french": "Donner",
-    "italian": "Thunder",
-    "spanish": "Tuono"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 110,
-  "accuracy": 70,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause paralysis.",
-    "crystal": "An attack that may\ncause paralysis.",
-    "ruby-sapphire": "A lightning attack that may\ncause paralysis.",
-    "emerald": "A lightning attack that may\ncause paralysis.",
-    "firered-leafgreen": "A brutal lightning\nattack that may\nalso leave the foe\nparalyzed.",
-    "diamond-pearl": "A wicked thunderbolt\nis dropped on the foe\nto inflict damage.\nIt may also leave the\ntarget paralyzed.",
-    "platinum": "A wicked thunderbolt\nis dropped on the foe\nto inflict damage.\nIt may also leave the\ntarget paralyzed.",
-    "heartgold-soulsilver": "A wicked thunderbolt\nis dropped on the foe\nto inflict damage.\nIt may also leave the\ntarget paralyzed.",
-    "black-white": "A wicked thunderbolt is dropped\non the target to inflict damage. It may\nalso leave the target with paralysis.",
-    "black-2-white-2": "A wicked thunderbolt is dropped\non the target to inflict damage. It may\nalso leave the target with paralysis.",
-    "x-y": "A wicked thunderbolt is dropped\non the target to inflict damage.\nThis may also leave the target with paralysis.",
-    "omega-ruby-alpha-sapphire": "A wicked thunderbolt is dropped\non the target to inflict damage.\nThis may also leave the target with paralysis.",
-    "sun-moon": "A wicked thunderbolt is dropped on the target to\ninflict damage. This may also leave the target\nwith paralysis.",
-    "ultra-sun-ultra-moon": "A wicked thunderbolt is dropped on the target to\ninflict damage. This may also leave the target\nwith paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "A wicked thunderbolt is dropped on the target to\ninflict damage. This may also leave the target\nwith paralysis.",
-    "sword-shield": "A wicked thunderbolt is dropped on the target to\ninflict damage. This may also leave the target\nwith paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.\n\nDuring rain dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.\n\nDuring sunny day, this move has 50% accuracy.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 87,
+    "key": "thunder",
+    "name": {
+        "japanese-kana": "かみなり",
+        "korean": "번개",
+        "traditional-chinese": "打雷",
+        "french": "Fatal-Foudre",
+        "german": "Donner",
+        "spanish": "Trueno",
+        "italian": "Tuono",
+        "english": "Thunder",
+        "japanese": "かみなり",
+        "simplified-chinese": "打雷",
+        "latin-american-spanish": "Trueno"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": "cool",
+    "pp": 10,
+    "power": 110,
+    "accuracy": 70,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 10
+        },
+        "xy": {
+            "power": 120
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "Ne touche pas les Pokémon sous les effets de Vol."
+        },
+        "english": {
+            "gs": "Does not hit Pokémon under the effects of Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause paralysis.",
+            "cr": "An attack that may cause paralysis.",
+            "rs": "A lightning attack that may cause paralysis.",
+            "em": "A lightning attack that may cause paralysis.",
+            "frlg": "A brutal lightning attack that may also leave the foe paralyzed.",
+            "dp": "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.",
+            "pt": "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.",
+            "hgss": "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.",
+            "bw": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.",
+            "b2w2": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.",
+            "xy": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+            "oras": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+            "sm": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+            "usum": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+            "lgpe": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+            "swsh": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+            "la": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+            "sv": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
+        },
+        "french": {
+            "bw": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.",
+            "xy": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.",
+            "oras": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.",
+            "sm": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.",
+            "usum": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.",
+            "lgpe": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.",
+            "swsh": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "はげしい　かみなりを あいてに　おとして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "はげしい　か なりを あいてに　おとして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "はげしい　かみなりを あいてに　おとして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "はげしい　かみなりを あいてに　おとして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "はげしい　かみなりを あいてに　おとして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "はげしい　かみなりを あいてに　おとして　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Eine verheerende Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "oras": "Eine verheerende Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "sm": "Eine verheerende Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "usum": "Eine verheerende Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "lgpe": "Eine verheerende Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "swsh": "Eine verheerende Elektro-Attacke, die das Ziel eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "oras": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "sm": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "usum": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "lgpe": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "swsh": "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+        },
+        "italian": {
+            "xy": "Il bersaglio è colpito da un lampo molto violento che può anche paralizzarlo.",
+            "oras": "Il bersaglio è colpito da un lampo molto violento che può anche paralizzarlo.",
+            "sm": "Il bersaglio è colpito da un lampo molto violento che può anche paralizzarlo.",
+            "usum": "Il bersaglio è colpito da un lampo molto violento che può anche paralizzarlo.",
+            "lgpe": "Il bersaglio è colpito da un lampo molto violento che può anche paralizzarlo.",
+            "swsh": "Il bersaglio è colpito da un fulmine molto violento che può anche paralizzarlo."
+        },
+        "japanese": {
+            "xy": "激しい　雷を 相手に　落として　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "激しい　雷を 相手に　落として　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "激しい　雷を 相手に　落として　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "激しい　雷を 相手に　落として　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "激しい　雷を 相手に　落として　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "激しい　雷を 相手に　落として　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "oras": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "sm": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "usum": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "lgpe": "Un poderoso rayo que daña al objetivo y puede paralizarlo.",
+            "swsh": "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+        },
+        "traditional-chinese": {
+            "sm": "向對手劈下暴雷進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "usum": "向對手劈下暴雷進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "向對手劈下暴雷進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "向對手劈下暴雷進行攻擊。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手劈下暴雷进行攻击。 有时会让对手陷入麻痹状态。",
+            "usum": "向对手劈下暴雷进行攻击。 有时会让对手陷入麻痹状态。",
+            "lgpe": "向对手劈下暴雷进行攻击。 有时会让对手陷入麻痹状态。",
+            "swsh": "向对手劈下暴雷进行攻击。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target. During Rain Dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect. During Sunny Day, this move has 50% accuracy.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 398,
-  "key": "poison-jab",
-  "name": {
-    "english": "Poison Jab",
-    "japanese": "どくづき",
-    "chinese": "毒刺",
-    "korean": "독찌르기",
-    "german": "Puya Nociva",
-    "french": "Gifthieb",
-    "italian": "Poison Jab",
-    "spanish": "Velenpuntura"
-  },
-  "type": "Poison",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 20,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The foe is stabbed\nwith a tentacle or\narm steeped in\npoison. It may also\npoison the foe.",
-    "platinum": "The foe is stabbed\nwith a tentacle or\narm steeped in\npoison. It may also\npoison the foe.",
-    "heartgold-soulsilver": "The foe is stabbed\nwith a tentacle or\narm steeped in\npoison. It may also\npoison the foe.",
-    "black-white": "The target is stabbed with a tentacle or\narm steeped in poison. It may also\npoison the target.",
-    "black-2-white-2": "The target is stabbed with a tentacle or\narm steeped in poison. It may also\npoison the target.",
-    "x-y": "The target is stabbed with a tentacle or\narm steeped in poison. This may also\npoison the target.",
-    "omega-ruby-alpha-sapphire": "The target is stabbed with a tentacle or\narm steeped in poison. This may also\npoison the target.",
-    "sun-moon": "The target is stabbed with a tentacle or arm steeped\nin poison. This may also poison the target.",
-    "ultra-sun-ultra-moon": "The target is stabbed with a tentacle or arm steeped\nin poison. This may also poison the target.",
-    "lets-go-pikachu-lets-go-eevee": "The target is stabbed with a tentacle, arm, or the like\nsteeped in poison. This may also poison the target.",
-    "sword-shield": "The target is stabbed with a tentacle, arm, or the like\nsteeped in poison. This may also poison the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
-    "shortEffect": "Has a $effect_chance% chance to poison the target."
-  },
-  "priority": 0
+    "_id": 398,
+    "key": "poison-jab",
+    "name": {
+        "japanese-kana": "どくづき",
+        "korean": "독찌르기",
+        "traditional-chinese": "毒擊",
+        "french": "Direct Toxik",
+        "german": "Gifthieb",
+        "spanish": "Puya Nociva",
+        "italian": "Velenpuntura",
+        "english": "Poison Jab",
+        "japanese": "どくづき",
+        "simplified-chinese": "毒击",
+        "latin-american-spanish": "Golpe Venenoso"
+    },
+    "type": "poison",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The foe is stabbed with a tentacle or arm steeped in poison. It may also poison the foe.",
+            "pt": "The foe is stabbed with a tentacle or arm steeped in poison. It may also poison the foe.",
+            "hgss": "The foe is stabbed with a tentacle or arm steeped in poison. It may also poison the foe.",
+            "bw": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.",
+            "b2w2": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.",
+            "xy": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.",
+            "oras": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.",
+            "sm": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.",
+            "usum": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.",
+            "lgpe": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target.",
+            "swsh": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target.",
+            "la": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target.",
+            "sv": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target."
+        },
+        "french": {
+            "bw": "Attaque l’ennemi avec un tentacule ou un bras plein de poison. Peut aussi l’empoisonner.",
+            "xy": "Attaque l’ennemi avec un tentacule ou un bras plein de poison. Peut aussi l’empoisonner.",
+            "oras": "Attaque l’ennemi avec un tentacule ou un bras plein de poison. Peut aussi l’empoisonner.",
+            "sm": "Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner.",
+            "usum": "Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner.",
+            "lgpe": "Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner.",
+            "swsh": "Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner."
+        },
+        "japanese-kana": {
+            "xy": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。",
+            "oras": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。",
+            "sm": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。",
+            "usum": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。",
+            "lgpe": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。",
+            "swsh": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다.",
+            "oras": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다.",
+            "sm": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다.",
+            "usum": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다.",
+            "lgpe": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다.",
+            "swsh": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Ziel wird mit vergiftetem Arm oder Tentakel verletzt. Es wird dabei eventuell vergiftet.",
+            "oras": "Ziel wird mit vergiftetem Arm oder Tentakel verletzt. Es wird dabei eventuell vergiftet.",
+            "sm": "Ziel wird mit vergiftetem Arm oder Tentakel verletzt. Es wird dabei eventuell vergiftet.",
+            "usum": "Ziel wird mit vergiftetem Arm oder Tentakel verletzt. Es wird dabei eventuell vergiftet.",
+            "lgpe": "Der Anwender greift mit giftigen Gliedmaßen wie Tentakeln oder Armen an. Das Ziel wird dabei eventuell vergiftet.",
+            "swsh": "Der Anwender greift mit giftigen Gliedmaßen wie Tentakeln oder Armen an. Das Ziel wird dabei eventuell vergiftet."
+        },
+        "spanish": {
+            "xy": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "oras": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "sm": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "usum": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "lgpe": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "swsh": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo."
+        },
+        "italian": {
+            "xy": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.",
+            "oras": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.",
+            "sm": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.",
+            "usum": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.",
+            "lgpe": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.",
+            "swsh": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo."
+        },
+        "japanese": {
+            "xy": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。",
+            "oras": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。",
+            "sm": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。",
+            "usum": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。",
+            "lgpe": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。",
+            "swsh": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "oras": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "sm": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "usum": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "lgpe": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+            "swsh": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "以帶有毒性的觸手或手臂刺進對手。 有時會讓對手陷入中毒狀態。",
+            "usum": "以帶有毒性的觸手或手臂刺進對手。 有時會讓對手陷入中毒狀態。",
+            "lgpe": "以帶有毒性的觸手或手臂刺進對手。 有時會讓對手陷入中毒狀態。",
+            "swsh": "以帶有毒性的觸手或手臂刺進對手。 有時會讓對手陷入中毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用带毒的触手或手臂刺入对手。 有时会让对手陷入中毒状态。",
+            "usum": "用带毒的触手或手臂刺入对手。 有时会让对手陷入中毒状态。",
+            "lgpe": "用带毒的触手或手臂刺入对手。 有时会让对手陷入中毒状态。",
+            "swsh": "用带毒的触手或手臂刺入对手。 有时会让对手陷入中毒状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to poison the target.",
+        "shortEffect": "Has a chance to poison the target."
+    }
 }

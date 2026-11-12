@@ -1,39 +1,138 @@
 {
-  "_id": 550,
-  "key": "bolt-strike",
-  "name": {
-    "english": "Bolt Strike",
-    "japanese": "らいげき",
-    "chinese": "雷击",
-    "korean": "뇌격",
-    "german": "Ataque Fulgor",
-    "french": "Blitzschlag",
-    "italian": "Bolt Strike",
-    "spanish": "Lucesiluro"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 130,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user charges its target, surrounding\nitself with a great amount of electricity.\nIt may leave the target with paralysis.",
-    "black-2-white-2": "The user charges its target, surrounding\nitself with a great amount of electricity.\nIt may leave the target with paralysis.",
-    "x-y": "The user surrounds itself with a great amount\nof electricity and charges its target.\nThis may also leave the target with paralysis.",
-    "omega-ruby-alpha-sapphire": "The user surrounds itself with a great amount\nof electricity and charges its target.\nThis may also leave the target with paralysis.",
-    "sun-moon": "The user surrounds itself with a great amount of\nelectricity and charges its target. This may also\nleave the target with paralysis.",
-    "ultra-sun-ultra-moon": "The user surrounds itself with a great amount of\nelectricity and charges its target. This may also\nleave the target with paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user surrounds itself with a great amount of\nelectricity and charges its target. This may also\nleave the target with paralysis.",
-    "sword-shield": "The user surrounds itself with a great amount of\nelectricity and charges its target. This may also\nleave the target with paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 550,
+    "key": "bolt-strike",
+    "name": {
+        "japanese-kana": "らいげき",
+        "korean": "뇌격",
+        "traditional-chinese": "雷擊",
+        "french": "Charge Foudre",
+        "german": "Blitzschlag",
+        "spanish": "Ataque Fulgor",
+        "italian": "Lucesiluro",
+        "english": "Bolt Strike",
+        "japanese": "らいげき",
+        "simplified-chinese": "雷击",
+        "latin-american-spanish": "Ataque Fulgor"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 130,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 20,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "S’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.",
+            "xy": "Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.",
+            "oras": "Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.",
+            "sm": "Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.",
+            "usum": "Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.",
+            "lgpe": "Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.",
+            "swsh": "Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser."
+        },
+        "english": {
+            "bw": "The user charges its target, surrounding itself with a great amount of electricity. It may leave the target with paralysis.",
+            "b2w2": "The user charges its target, surrounding itself with a great amount of electricity. It may leave the target with paralysis.",
+            "xy": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+            "oras": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+            "sm": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+            "usum": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+            "lgpe": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+            "swsh": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+            "la": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+            "sv": "The user surrounds itself with a great amount of electricity and charges the target. This may also leave the target with paralysis."
+        },
+        "japanese-kana": {
+            "xy": "ぼうだいな　でんきを　みに　まとって あいてに　とっしんして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "ぼうだいな　でんきを　 に　まとって あいてに　とっしんして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "ぼうだいな　でんきを　みに　まとって あいてに　とっしんして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "ぼうだいな　でんきを　みに　まとって あいてに　とっしんして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "ぼうだいな　でんきを　みに　まとって あいてに　とっしんして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "ぼうだいな　でんきを　みに　まとって あいてに　とっしんして　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "방대한 전기를 몸에 둘러 상대에게 돌진해서 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "방대한 전기를 몸에 둘러 상대에게 돌진해서 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "방대한 전기를 몸에 둘러 상대에게 돌진해서 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "방대한 전기를 몸에 둘러 상대에게 돌진해서 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "방대한 전기를 몸에 둘러 상대에게 돌진해서 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "방대한 전기를 몸에 둘러 상대에게 돌진해서 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Lädt seinen Körper mit einer gewaltigen Menge an Elektrizität auf und rammt damit das Ziel. Ziel wird eventuell paralysiert.",
+            "oras": "Lädt seinen Körper mit einer gewaltigen Menge an Elektrizität auf und rammt damit das Ziel. Ziel wird eventuell paralysiert.",
+            "sm": "Lädt seinen Körper mit einer gewaltigen Menge an Elektrizität auf und rammt damit das Ziel. Ziel wird eventuell paralysiert.",
+            "usum": "Lädt seinen Körper mit einer gewaltigen Menge an Elektrizität auf und rammt damit das Ziel. Ziel wird eventuell paralysiert.",
+            "lgpe": "Lädt seinen Körper mit einer gewaltigen Menge an Elektrizität auf und rammt damit das Ziel. Ziel wird eventuell paralysiert.",
+            "swsh": "Lädt seinen Körper mit einer gewaltigen Menge an Elektrizität auf und rammt damit das Ziel. Ziel wird eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "oras": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "sm": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "usum": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "lgpe": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "swsh": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo.",
+            "oras": "Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo.",
+            "sm": "Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo.",
+            "usum": "Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo.",
+            "lgpe": "Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo.",
+            "swsh": "Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo."
+        },
+        "japanese": {
+            "xy": "ぼうだいな　電気を　身に　まとって 相手に　突進して　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "ぼうだいな　電気を　身に　まとって 相手に　突進して　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "ぼうだいな　電気を　身に　まとって 相手に　突進して　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "ぼうだいな　電気を　身に　まとって 相手に　突進して　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "ぼうだいな　電気を　身に　まとって 相手に　突進して　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "ぼうだいな　電気を　身に　まとって 相手に　突進して　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "oras": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "sm": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "usum": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "lgpe": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+            "swsh": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar."
+        },
+        "traditional-chinese": {
+            "sm": "用強大的電流圍繞身體， 猛撞對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "usum": "用強大的電流圍繞身體， 猛撞對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "用強大的電流圍繞身體， 猛撞對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "用強大的電流圍繞身體， 猛撞對手進行攻擊。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "让强大的电流覆盖全身， 猛撞向对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "usum": "让强大的电流覆盖全身， 猛撞向对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "lgpe": "让强大的电流覆盖全身， 猛撞向对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "swsh": "让强大的电流覆盖全身， 猛撞向对手进行攻击。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

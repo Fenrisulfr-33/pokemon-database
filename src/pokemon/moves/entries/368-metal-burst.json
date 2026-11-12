@@ -1,42 +1,141 @@
 {
-  "_id": 368,
-  "key": "metal-burst",
-  "name": {
-    "english": "Metal Burst",
-    "japanese": "メタルバースト",
-    "chinese": "合金爆裂",
-    "korean": "메탈버스트",
-    "german": "Represión Metal",
-    "french": "Metallstoß",
-    "italian": "Metal Burst",
-    "spanish": "Metalscoppio"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "specific-move",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power.",
-    "platinum": "The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power.",
-    "heartgold-soulsilver": "The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power.",
-    "black-white": "The user retaliates with much greater\npower against the target\nthat last inflicted damage on it.",
-    "black-2-white-2": "The user retaliates with much greater\npower against the target\nthat last inflicted damage on it.",
-    "x-y": "The user retaliates with much greater\npower against the target\nthat last inflicted damage on it.",
-    "omega-ruby-alpha-sapphire": "The user retaliates with much greater\npower against the opponent\nthat last inflicted damage on it.",
-    "sun-moon": "The user retaliates with much greater force against\nthe opponent that last inflicted damage on it.",
-    "ultra-sun-ultra-moon": "The user retaliates with much greater force against\nthe opponent that last inflicted damage on it.",
-    "lets-go-pikachu-lets-go-eevee": "The user retaliates with much greater force against\nthe opponent that last inflicted damage on it.",
-    "sword-shield": "The user retaliates with much greater force against\nthe opponent that last inflicted damage on it."
-  },
-  "effect": {
-    "full": "Targets the last opposing Pokémon to hit the user with a damaging move this turn.  Inflicts 1.5× the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored.",
-    "shortEffect": "Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage."
-  },
-  "priority": 0
+    "_id": 368,
+    "key": "metal-burst",
+    "name": {
+        "japanese-kana": "メタルバースト",
+        "korean": "메탈버스트",
+        "traditional-chinese": "金屬爆炸",
+        "french": "Fulmifer",
+        "german": "Metallstoß",
+        "spanish": "Represión Metal",
+        "italian": "Metalscoppio",
+        "english": "Metal Burst",
+        "japanese": "メタルバースト",
+        "simplified-chinese": "金属爆炸",
+        "latin-american-spanish": "Expl. Metálica"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "specific-move",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user retaliates against the foe that last inflicted damage on it with much greater power.",
+            "pt": "The user retaliates against the foe that last inflicted damage on it with much greater power.",
+            "hgss": "The user retaliates against the foe that last inflicted damage on it with much greater power.",
+            "bw": "The user retaliates with much greater power against the target that last inflicted damage on it.",
+            "b2w2": "The user retaliates with much greater power against the target that last inflicted damage on it.",
+            "xy": "The user retaliates with much greater power against the target that last inflicted damage on it.",
+            "oras": "The user retaliates with much greater power against the opponent that last inflicted damage on it.",
+            "sm": "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+            "usum": "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+            "lgpe": "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+            "swsh": "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+            "la": "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+            "sv": "The user retaliates with much greater force against the opponent that last inflicted damage on it."
+        },
+        "french": {
+            "bw": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort.",
+            "xy": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort.",
+            "oras": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort.",
+            "sm": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort.",
+            "usum": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort.",
+            "lgpe": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort.",
+            "swsh": "Le lanceur attaque le dernier ennemi l’ayant blessé durant le même tour en frappant plus fort."
+        },
+        "japanese-kana": {
+            "xy": "わざを　だすまえに さいごに　うけた　わざの　ダメージを おおきくして　だした　あいてに　かえす。",
+            "oras": "わざを　だすまえに さいごに　うけた　わざの　ダメージを おおきくして　だした　あいてに　かえす。",
+            "sm": "わざを　だすまえに さいごに　うけた　わざの　ダメージを おおきくして　だした　あいてに　かえす。",
+            "usum": "わざを　だすまえに さいごに　うけた　わざの　ダメージを おおきくして　だした　あいてに　かえす。",
+            "lgpe": "わざを　だすまえに さいごに　うけた　わざの　ダメージを おおきくして　だした　あいてに　かえす。",
+            "swsh": "わざを　だすまえに さいごに　うけた　わざの　ダメージを おおきくして　だした　あいてに　かえす。"
+        },
+        "korean": {
+            "xy": "기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 늘려서 기술을 쓴 상대에게 돌려준다.",
+            "oras": "기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 늘려서 기술을 쓴 상대에게 돌려준다.",
+            "sm": "기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 늘려서 기술을 쓴 상대에게 돌려준다.",
+            "usum": "기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 늘려서 기술을 쓴 상대에게 돌려준다.",
+            "lgpe": "기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 늘려서 기술을 쓴 상대에게 돌려준다.",
+            "swsh": "기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 늘려서 기술을 쓴 상대에게 돌려준다."
+        },
+        "german": {
+            "xy": "Attacke mit großer Kraft gegen das Ziel, das dem Anwender in derselben Runde zuletzt Schaden zufügte.",
+            "oras": "Attacke mit großer Kraft gegen den Gegner, der dem Anwender in derselben Runde zuletzt Schaden zufügte.",
+            "sm": "Attacke mit großer Kraft gegen den Gegner, der dem Anwender in derselben Runde zuletzt Schaden zufügte.",
+            "usum": "Attacke mit großer Kraft gegen den Gegner, der dem Anwender in derselben Runde zuletzt Schaden zufügte.",
+            "lgpe": "Attacke mit großer Kraft gegen den Gegner, der dem Anwender in derselben Runde zuletzt Schaden zufügte.",
+            "swsh": "Attacke mit großer Kraft gegen den Gegner, der dem Anwender in derselben Runde zuletzt Schaden zufügte."
+        },
+        "spanish": {
+            "xy": "Devuelve al objetivo el último ataque recibido, pero con mucha más fuerza.",
+            "oras": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "sm": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "usum": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "lgpe": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "swsh": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza."
+        },
+        "italian": {
+            "xy": "Chi la usa si vendica sul nemico che l’ha appena ferito con una mossa anche più potente.",
+            "oras": "Chi la usa si vendica sul nemico che l’ha appena ferito con una mossa anche più potente.",
+            "sm": "Chi la usa si vendica sul nemico che l’ha appena ferito con una mossa anche più potente.",
+            "usum": "Chi la usa si vendica sul nemico che l’ha appena ferito con una mossa anche più potente.",
+            "lgpe": "Chi la usa si vendica sul nemico che l’ha appena ferito con una mossa anche più potente.",
+            "swsh": "Chi la usa si vendica sul nemico che l’ha appena ferito con una mossa anche più potente."
+        },
+        "japanese": {
+            "xy": "技を　だす前に 最後に　受けた　技の　ダメージを 大きくして　だした　相手に　返す。",
+            "oras": "技を　だす前に 最後に　受けた　技の　ダメージを 大きくして　だした　相手に　返す。",
+            "sm": "技を　だす前に 最後に　受けた　技の　ダメージを 大きくして　だした　相手に　返す。",
+            "usum": "技を　だす前に 最後に　受けた　技の　ダメージを 大きくして　だした　相手に　返す。",
+            "lgpe": "技を　だす前に 最後に　受けた　技の　ダメージを 大きくして　だした　相手に　返す。",
+            "swsh": "技を　だす前に 最後に　受けた　技の　ダメージを 大きくして　だした　相手に　返す。"
+        },
+        "latin-american-spanish": {
+            "xy": "Devuelve al objetivo el último ataque recibido, pero con mucha más fuerza.",
+            "oras": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "sm": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "usum": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "lgpe": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza.",
+            "swsh": "Devuelve al rival el último ataque recibido, pero con mucha más fuerza."
+        },
+        "traditional-chinese": {
+            "sm": "將發動攻擊前 最後受到的招式傷害放大， 向對手進行反擊。",
+            "usum": "將發動攻擊前 最後受到的招式傷害放大， 向對手進行反擊。",
+            "lgpe": "將發動攻擊前 最後受到的招式傷害放大， 向對手進行反擊。",
+            "swsh": "將發動攻擊前 最後受到的招式傷害放大， 向對手進行反擊。"
+        },
+        "simplified-chinese": {
+            "sm": "使出招式前， 将最后受到的招式的伤害 大力返还给对手。",
+            "usum": "使出招式前， 将最后受到的招式的伤害 大力返还给对手。",
+            "lgpe": "使出招式前， 将最后受到的招式的伤害 大力返还给对手。",
+            "swsh": "使出招式前， 将最后受到的招式的伤害 大力返还给对手。"
+        }
+    },
+    "effect": {
+        "full": "Targets the last opposing Pokémon to hit the user with a damaging move this turn.  Inflicts 1.5× the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored.",
+        "shortEffect": "Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage."
+    }
 }

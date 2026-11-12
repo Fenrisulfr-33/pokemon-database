@@ -1,47 +1,150 @@
 {
-  "_id": 122,
-  "key": "lick",
-  "name": {
-    "english": "Lick",
-    "japanese": "したでなめる",
-    "chinese": "舔舌头",
-    "korean": "핥기",
-    "german": "Lengüetazo",
-    "french": "Schlecker",
-    "italian": "Lick",
-    "spanish": "Leccata"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 30,
-  "power": 30,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause paralysis.",
-    "crystal": "An attack that may\ncause paralysis.",
-    "ruby-sapphire": "Licks with a long tongue to\ninjure. May also paralyze.",
-    "emerald": "Licks with a long tongue to\ninjure. May also paralyze.",
-    "firered-leafgreen": "The foe is licked\nand hit with a long\ntongue. It may\nalso paralyze.",
-    "diamond-pearl": "The foe is licked with\na long tongue, causing\ndamage.\nIt may also paralyze\nthe target.",
-    "platinum": "The foe is licked with\na long tongue, causing\ndamage.\nIt may also paralyze\nthe target.",
-    "heartgold-soulsilver": "The foe is licked with\na long tongue, causing\ndamage.\nIt may also paralyze\nthe target.",
-    "black-white": "The target is licked with a long tongue,\ncausing damage. It may also leave\nthe target with paralysis.",
-    "black-2-white-2": "The target is licked with a long tongue,\ncausing damage. It may also leave\nthe target with paralysis.",
-    "x-y": "The target is licked with a long tongue,\ncausing damage. This may also leave\nthe target with paralysis.",
-    "omega-ruby-alpha-sapphire": "The target is licked with a long tongue,\ncausing damage. This may also leave\nthe target with paralysis.",
-    "sun-moon": "The target is licked with a long tongue, causing\ndamage. This may also leave the target\nwith paralysis.",
-    "ultra-sun-ultra-moon": "The target is licked with a long tongue, causing\ndamage. This may also leave the target\nwith paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The target is licked with a long tongue, causing\ndamage. This may also leave the target\nwith paralysis.",
-    "sword-shield": "The target is licked with a long tongue, causing\ndamage. This may also leave the target\nwith paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 122,
+    "key": "lick",
+    "name": {
+        "japanese-kana": "したでなめる",
+        "korean": "핥기",
+        "traditional-chinese": "舌舔",
+        "french": "Léchouille",
+        "german": "Schlecker",
+        "spanish": "Lengüetazo",
+        "italian": "Leccata",
+        "english": "Lick",
+        "japanese": "したでなめる",
+        "simplified-chinese": "舌舔",
+        "latin-american-spanish": "Lengüetazo"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 30,
+    "power": 30,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause paralysis.",
+            "cr": "An attack that may cause paralysis.",
+            "rs": "Licks with a long tongue to injure. May also paralyze.",
+            "em": "Licks with a long tongue to injure. May also paralyze.",
+            "frlg": "The foe is licked and hit with a long tongue. It may also paralyze.",
+            "dp": "The foe is licked with a long tongue, causing damage. It may also paralyze the target.",
+            "pt": "The foe is licked with a long tongue, causing damage. It may also paralyze the target.",
+            "hgss": "The foe is licked with a long tongue, causing damage. It may also paralyze the target.",
+            "bw": "The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.",
+            "b2w2": "The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.",
+            "xy": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+            "oras": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+            "sm": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+            "usum": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+            "lgpe": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+            "swsh": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+            "la": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+            "sv": "The user licks the target with a long tongue to inflict damage. This may also leave the target with paralysis."
+        },
+        "french": {
+            "bw": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.",
+            "xy": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.",
+            "oras": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.",
+            "sm": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.",
+            "usum": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.",
+            "lgpe": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.",
+            "swsh": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "ながい　したで あいてを　なめまわして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "ながい　したで あいてを　なめまわして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "ながい　したで あいてを　なめまわして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "ながい　したで あいてを　なめまわして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "ながい　したで あいてを　なめまわして　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "ながい　したで あいてを　なめまわして　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Leck-Attacke mit langer Zunge. Das Ziel wird eventuell paralysiert.",
+            "oras": "Leck-Attacke mit langer Zunge. Das Ziel wird eventuell paralysiert.",
+            "sm": "Leck-Attacke mit langer Zunge. Das Ziel wird eventuell paralysiert.",
+            "usum": "Leck-Attacke mit langer Zunge. Das Ziel wird eventuell paralysiert.",
+            "lgpe": "Leck-Attacke mit langer Zunge. Das Ziel wird eventuell paralysiert.",
+            "swsh": "Leck-Attacke mit langer Zunge. Das Ziel wird eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "oras": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "sm": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "usum": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "lgpe": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "swsh": "Una lengua ataca al objetivo. Puede causar parálisis."
+        },
+        "italian": {
+            "xy": "Una lingua lunga infligge danni al bersaglio e può anche paralizzarlo.",
+            "oras": "Una lingua lunga infligge danni al bersaglio e può anche paralizzarlo.",
+            "sm": "Una lingua lunga infligge danni al bersaglio e può anche paralizzarlo.",
+            "usum": "Una lingua lunga infligge danni al bersaglio e può anche paralizzarlo.",
+            "lgpe": "Una lingua lunga infligge danni al bersaglio e può anche paralizzarlo.",
+            "swsh": "Una lingua lunga infligge danni al bersaglio e può anche paralizzarlo."
+        },
+        "japanese": {
+            "xy": "長い　舌で 相手を　なめまわして　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "長い　舌で 相手を　なめまわして　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "長い　舌で 相手を　なめまわして　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "長い　舌で 相手を　なめまわして　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "長い　舌で 相手を　なめまわして　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "長い　舌で 相手を　なめまわして　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "oras": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "sm": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "usum": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "lgpe": "Una lengua ataca al objetivo. Puede causar parálisis.",
+            "swsh": "Una lengua ataca al objetivo. Puede causar parálisis."
+        },
+        "traditional-chinese": {
+            "sm": "用長長的舌頭， 舔遍對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "usum": "用長長的舌頭， 舔遍對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "用長長的舌頭， 舔遍對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "用長長的舌頭， 舔遍對手進行攻擊。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用长长的舌头， 舔遍对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "usum": "用长长的舌头， 舔遍对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "lgpe": "用长长的舌头， 舔遍对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "swsh": "用长长的舌头， 舔遍对手进行攻击。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

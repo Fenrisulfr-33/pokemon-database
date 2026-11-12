@@ -1,37 +1,133 @@
 {
-  "_id": 582,
-  "key": "electrify",
-  "name": {
-    "english": "Electrify",
-    "japanese": "そうでん",
-    "chinese": "送电",
-    "korean": "송전",
-    "german": "Electrificación",
-    "french": "Elektrifizierung",
-    "italian": "Electrify",
-    "spanish": "Elettrocontagio"
-  },
-  "type": "Electric",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "If the target is electrified before it uses\na move during that turn, the target’s\nmove becomes Electric type.",
-    "omega-ruby-alpha-sapphire": "If the target is electrified before it uses\na move during that turn, the target’s\nmove becomes Electric type.",
-    "sun-moon": "If the target is electrified before it uses a move\nduring that turn, the target’s move becomes\nElectric type.",
-    "ultra-sun-ultra-moon": "If the target is electrified before it uses a move\nduring that turn, the target’s move becomes\nElectric type.",
-    "lets-go-pikachu-lets-go-eevee": "If the target is electrified before it uses a move\nduring that turn, the target’s move becomes\nElectric type.",
-    "sword-shield": "If the target is electrified before it uses a move\nduring that turn, the target’s move becomes\nElectric type."
-  },
-  "effect": {
-    "full": "Changes the target's move's type to electric if it hasn't moved yet this turn.",
-    "shortEffect": "Changes the target's move's type to electric if it hasn't moved yet this turn."
-  },
-  "priority": 0
+    "_id": 582,
+    "key": "electrify",
+    "name": {
+        "japanese-kana": "そうでん",
+        "korean": "송전",
+        "traditional-chinese": "輸電",
+        "french": "Électrisation",
+        "german": "Elektrifizierung",
+        "spanish": "Electrificación",
+        "italian": "Elettrocontagio",
+        "english": "Electrify",
+        "japanese": "そうでん",
+        "simplified-chinese": "输电",
+        "latin-american-spanish": "Electrificación"
+    },
+    "type": "electric",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "あいてが　わざを　だすまえに そうでん　すると　そのターン あいての　わざは　でんきタイプになる。",
+            "oras": "あいてが　わざを　だすまえに そうでん　すると　そのターン あいての　わざは　でんきタイプになる。",
+            "sm": "あいてが　わざを　だすまえに そうでん　すると　そのターン あいての　わざは　でんきタイプになる。",
+            "usum": "あいてが　わざを　だすまえに そうでん　すると　そのターン あいての　わざは　でんきタイプになる。",
+            "lgpe": "あいてが　わざを　だすまえに そうでん　すると　そのターン あいての　わざは　でんきタイプになる。",
+            "swsh": "あいてが　わざを　だすまえに そうでん　すると　そのターン あいての　わざは　でんきタイプになる。"
+        },
+        "korean": {
+            "xy": "상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.",
+            "oras": "상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.",
+            "sm": "상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.",
+            "usum": "상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.",
+            "lgpe": "상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.",
+            "swsh": "상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다."
+        },
+        "french": {
+            "xy": "Si le lanceur attaque avant l’ennemi, les capacités de ce dernier seront de type Électrik jusqu’à la fin du tour.",
+            "oras": "Si le lanceur attaque avant la cible, les capacités de celle-ci seront de type Électrik jusqu’à la fin du tour.",
+            "sm": "Si le lanceur attaque avant la cible, les capacités de celle-ci seront de type Électrik jusqu’à la fin du tour.",
+            "usum": "Si le lanceur attaque avant la cible, les capacités de celle-ci seront de type Électrik jusqu’à la fin du tour.",
+            "lgpe": "Si le lanceur attaque avant la cible, les capacités de celle-ci seront de type Électrik jusqu’à la fin du tour.",
+            "swsh": "Si le lanceur attaque avant la cible, les capacités de celle-ci seront de type Électrik jusqu’à la fin du tour."
+        },
+        "german": {
+            "xy": "Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.",
+            "oras": "Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.",
+            "sm": "Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.",
+            "usum": "Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.",
+            "lgpe": "Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.",
+            "swsh": "Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an."
+        },
+        "spanish": {
+            "xy": "Si el Pokémon objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "oras": "Si el Pokémon objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "sm": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "usum": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "lgpe": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "swsh": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico."
+        },
+        "italian": {
+            "xy": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno le sue mosse saranno di tipo Elettro.",
+            "oras": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno le sue mosse saranno di tipo Elettro.",
+            "sm": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno questa sarà di tipo Elettro.",
+            "usum": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno questa sarà di tipo Elettro.",
+            "lgpe": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno questa sarà di tipo Elettro.",
+            "swsh": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno questa sarà di tipo Elettro."
+        },
+        "english": {
+            "xy": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.",
+            "oras": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.",
+            "sm": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.",
+            "usum": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.",
+            "lgpe": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.",
+            "swsh": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type."
+        },
+        "japanese": {
+            "xy": "相手が　技を　だす前に そうでん　すると　そのターン 相手の　技は　でんきタイプになる。",
+            "oras": "相手が　技を　だす前に そうでん　すると　そのターン 相手の　技は　でんきタイプになる。",
+            "sm": "相手が　技を　だす前に そうでん　すると　そのターン 相手の　技は　でんきタイプになる。",
+            "usum": "相手が　技を　だす前に そうでん　すると　そのターン 相手の　技は　でんきタイプになる。",
+            "lgpe": "相手が　技を　だす前に そうでん　すると　そのターン 相手の　技は　でんきタイプになる。",
+            "swsh": "相手が　技を　だす前に そうでん　すると　そのターン 相手の　技は　でんきタイプになる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si el Pokémon objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "oras": "Si el Pokémon objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "sm": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "usum": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "lgpe": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+            "swsh": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico."
+        },
+        "traditional-chinese": {
+            "sm": "如果在對手使用招式前輸電， 該回合對手的招式會變成電屬性。",
+            "usum": "如果在對手使用招式前輸電， 該回合對手的招式會變成電屬性。",
+            "lgpe": "如果在對手使用招式前輸電， 該回合對手的招式會變成電屬性。",
+            "swsh": "如果在對手使用招式前輸電， 該回合對手的招式會變成電屬性。"
+        },
+        "simplified-chinese": {
+            "sm": "对手使出招式前， 如果输电，则该回合 对手的招式变成电属性。",
+            "usum": "对手使出招式前， 如果输电，则该回合 对手的招式变成电属性。",
+            "lgpe": "对手使出招式前， 如果输电，则该回合 对手的招式变成电属性。",
+            "swsh": "对手使出招式前， 如果输电，则该回合 对手的招式变成电属性。"
+        }
+    },
+    "effect": {
+        "full": "Changes the target’s move’s type to Electric if it hasn’t moved yet this turn.",
+        "shortEffect": "Changes the target’s move’s type to Electric if it hasn’t moved yet this turn."
+    }
 }

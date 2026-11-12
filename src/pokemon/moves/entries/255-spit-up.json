@@ -1,45 +1,144 @@
 {
-  "_id": 255,
-  "key": "spit-up",
-  "name": {
-    "english": "Spit Up",
-    "japanese": "はきだす",
-    "chinese": "喷出",
-    "korean": "토해내기",
-    "german": "Escupir",
-    "french": "Entfessler",
-    "italian": "Spit Up",
-    "spanish": "Sfoghenergia"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Releases stockpiled power\n(the more the better).",
-    "emerald": "Releases stockpiled power\n(the more the better).",
-    "firered-leafgreen": "The power built\nusing STOCKPILE is\nreleased at once\nfor attack.",
-    "diamond-pearl": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
-    "platinum": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
-    "heartgold-soulsilver": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
-    "black-white": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the damage.",
-    "black-2-white-2": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the damage.",
-    "x-y": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the move’s power.",
-    "sun-moon": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power.",
-    "ultra-sun-ultra-moon": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power.",
-    "sword-shield": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power is equal to 100 times the amount of energy stored by stockpile.  Ignores the random factor in the damage formula.  Stored energy is consumed, and the user's Defense and Special Defense are reset to what they would be if stockpile had not been used.  If the user has no energy stored, this move will fail.\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "Power is 100 times the amount of energy Stockpiled."
-  },
-  "priority": 0
+    "_id": 255,
+    "key": "spit-up",
+    "name": {
+        "japanese-kana": "はきだす",
+        "korean": "토해내기",
+        "traditional-chinese": "噴出",
+        "french": "Relâche",
+        "german": "Entfessler",
+        "spanish": "Escupir",
+        "italian": "Sfoghenergia",
+        "english": "Spit Up",
+        "japanese": "はきだす",
+        "simplified-chinese": "喷出",
+        "latin-american-spanish": "Escupida"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Releases stockpiled power (the more the better).",
+            "em": "Releases stockpiled power (the more the better).",
+            "frlg": "The power built using STOCKPILE is released at once for attack.",
+            "dp": "The power stored using the move Stockpile is released at once in an attack.",
+            "pt": "The power stored using the move Stockpile is released at once in an attack.",
+            "hgss": "The power stored using the move Stockpile is released at once in an attack.",
+            "bw": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage.",
+            "b2w2": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage.",
+            "xy": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.",
+            "oras": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.",
+            "sm": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.",
+            "usum": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.",
+            "lgpe": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.",
+            "swsh": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.",
+            "la": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power.",
+            "sv": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power."
+        },
+        "french": {
+            "bw": "Libère dans une attaque la puissance précédemment accumulée avec Stockage.",
+            "xy": "Libère dans une attaque la puissance précédemment accumulée avec Stockage.",
+            "oras": "Libère dans une attaque la puissance précédemment accumulée avec Stockage.",
+            "sm": "Libère dans une attaque la puissance précédemment accumulée avec Stockage.",
+            "usum": "Libère dans une attaque la puissance précédemment accumulée avec Stockage.",
+            "lgpe": "Libère dans une attaque la puissance précédemment accumulée avec Stockage.",
+            "swsh": "Libère dans une attaque la puissance précédemment accumulée avec Stockage."
+        },
+        "japanese-kana": {
+            "xy": "たくわえた　ちからを　あいてに　ぶつけて こうげきする。たくわえて　いるほど いりょくが　あがる。",
+            "oras": "たくわえた　ちからを　あいてに　ぶつけて こうげきする。たくわえて　いるほど いりょくが　あがる。",
+            "sm": "たくわえた　ちからを　あいてに　ぶつけて こうげきする。たくわえて　いるほど いりょくが　あがる。",
+            "usum": "たくわえた　ちからを　あいてに　ぶつけて こうげきする。たくわえて　いるほど いりょくが　あがる。",
+            "lgpe": "たくわえた　ちからを　あいてに　ぶつけて こうげきする。たくわえて　いるほど いりょくが　あがる。",
+            "swsh": "たくわえた　ちからを　あいてに　ぶつけて こうげきする。たくわえて　いるほど いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다.",
+            "oras": "비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다.",
+            "sm": "비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다.",
+            "usum": "비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다.",
+            "lgpe": "비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다.",
+            "swsh": "비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.",
+            "oras": "Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.",
+            "sm": "Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff.",
+            "usum": "Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff.",
+            "lgpe": "Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff.",
+            "swsh": "Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff."
+        },
+        "spanish": {
+            "xy": "Libera de una vez la energía acumulada con Reserva.",
+            "oras": "Libera de una vez la energía acumulada con Reserva.",
+            "sm": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada.",
+            "usum": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada.",
+            "lgpe": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada.",
+            "swsh": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada."
+        },
+        "italian": {
+            "xy": "Tutta l’energia accumulata in precedenza con Accumulo è rilasciata nell’attacco. Maggiore è l’energia, più danni si arrecano.",
+            "oras": "Tutta l’energia accumulata in precedenza con Accumulo è rilasciata nell’attacco. Maggiore è l’energia, più danni si arrecano.",
+            "sm": "Tutta l’energia accumulata in precedenza con Accumulo è rilasciata nell’attacco. Maggiore è l’energia, più danni si arrecano.",
+            "usum": "Tutta l’energia accumulata in precedenza con Accumulo è rilasciata nell’attacco. Maggiore è l’energia, più danni si arrecano.",
+            "lgpe": "Tutta l’energia accumulata in precedenza con Accumulo è rilasciata nell’attacco. Maggiore è l’energia, più danni si arrecano.",
+            "swsh": "Tutta l’energia accumulata in precedenza con Accumulo è rilasciata nell’attacco. Maggiore è l’energia, più danni si arrecano."
+        },
+        "japanese": {
+            "xy": "蓄えた　力を 相手に　ぶつけて　攻撃する。 蓄えているほど　威力が　あがる。",
+            "oras": "蓄えた　力を 相手に　ぶつけて　攻撃する。 蓄えているほど　威力が　あがる。",
+            "sm": "蓄えた　力を 相手に　ぶつけて　攻撃する。 蓄えているほど　威力が　あがる。",
+            "usum": "蓄えた　力を 相手に　ぶつけて　攻撃する。 蓄えているほど　威力が　あがる。",
+            "lgpe": "蓄えた　力を 相手に　ぶつけて　攻撃する。 蓄えているほど　威力が　あがる。",
+            "swsh": "蓄えた　力を 相手に　ぶつけて　攻撃する。 蓄えているほど　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Libera de una vez la energía acumulada con Reserva.",
+            "oras": "Libera de una vez la energía acumulada con Reserva.",
+            "sm": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada.",
+            "usum": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada.",
+            "lgpe": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada.",
+            "swsh": "Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada."
+        },
+        "traditional-chinese": {
+            "sm": "將蓄積的力量 撞向對手進行攻擊。 蓄積得越多，威力越大。",
+            "usum": "將蓄積的力量 撞向對手進行攻擊。 蓄積得越多，威力越大。",
+            "lgpe": "將蓄積的力量 撞向對手進行攻擊。 蓄積得越多，威力越大。",
+            "swsh": "將蓄積的力量 撞向對手進行攻擊。 蓄積得越多，威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "将积蓄的力量 撞向对手进行攻击。 积蓄得越多，威力越大。",
+            "usum": "将积蓄的力量 撞向对手进行攻击。 积蓄得越多，威力越大。",
+            "lgpe": "将积蓄的力量 撞向对手进行攻击。 积蓄得越多，威力越大。",
+            "swsh": "将积蓄的力量 撞向对手进行攻击。 积蓄得越多，威力越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power is equal to 100 times the amount of energy stored by Stockpile.  Ignores the random factor in the damage formula.  Stored energy is consumed, and the user’s Defense and Special Defense are reset to what they would be if Stockpile had not been used.  If the user has no energy stored, this move will fail. This move cannot be copied by Mirror Move.",
+        "shortEffect": "Power is 100 times the amount of energy Stockpiled."
+    }
 }

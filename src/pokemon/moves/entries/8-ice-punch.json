@@ -1,47 +1,146 @@
 {
-  "_id": 8,
-  "key": "ice-punch",
-  "name": {
-    "english": "Ice Punch",
-    "japanese": "れいとうパンチ",
-    "chinese": "急冻拳",
-    "korean": "냉동펀치",
-    "german": "Puño Hielo",
-    "french": "Eishieb",
-    "italian": "Ice Punch",
-    "spanish": "Gelopugno"
-  },
-  "type": "Ice",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An icy punch. May\ncause freezing.",
-    "crystal": "An icy punch. May\ncause freezing.",
-    "ruby-sapphire": "An icy punch that may\nfreeze the foe.",
-    "emerald": "An icy punch that may\nfreeze the foe.",
-    "firered-leafgreen": "The foe is punched\nwith an icy fist.\nIt may leave the\nfoe frozen.",
-    "diamond-pearl": "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n",
-    "platinum": "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n",
-    "heartgold-soulsilver": "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n",
-    "black-white": "The target is punched with an icy fist.\nIt may also leave the target frozen.",
-    "black-2-white-2": "The target is punched with an icy fist.\nIt may also leave the target frozen.",
-    "x-y": "The target is punched with an icy fist.\nThis may also leave the target frozen.",
-    "omega-ruby-alpha-sapphire": "The target is punched with an icy fist.\nThis may also leave the target frozen.",
-    "sun-moon": "The target is punched with an icy fist. This may also\nleave the target frozen.",
-    "ultra-sun-ultra-moon": "The target is punched with an icy fist. This may also\nleave the target frozen.",
-    "lets-go-pikachu-lets-go-eevee": "The target is punched with an icy fist. This may also\nleave the target frozen.",
-    "sword-shield": "The target is punched with an icy fist. This may also\nleave the target frozen."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.",
-    "shortEffect": "Has a $effect_chance% chance to freeze the target."
-  },
-  "priority": 0
+    "_id": 8,
+    "key": "ice-punch",
+    "name": {
+        "japanese-kana": "れいとうパンチ",
+        "korean": "냉동펀치",
+        "traditional-chinese": "冰凍拳",
+        "french": "Poing Glace",
+        "german": "Eishieb",
+        "spanish": "Puño Hielo",
+        "italian": "Gelopugno",
+        "english": "Ice Punch",
+        "japanese": "れいとうパンチ",
+        "simplified-chinese": "冰冻拳",
+        "latin-american-spanish": "Puño Hielo"
+    },
+    "type": "ice",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "freeze",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An icy punch. May cause freezing.",
+            "cr": "An icy punch. May cause freezing.",
+            "rs": "An icy punch that may freeze the foe.",
+            "em": "An icy punch that may freeze the foe.",
+            "frlg": "The foe is punched with an icy fist. It may leave the foe frozen.",
+            "dp": "The foe is punched with an icy fist. It may leave the target frozen.",
+            "pt": "The foe is punched with an icy fist. It may leave the target frozen.",
+            "hgss": "The foe is punched with an icy fist. It may leave the target frozen.",
+            "bw": "The target is punched with an icy fist. It may also leave the target frozen.",
+            "b2w2": "The target is punched with an icy fist. It may also leave the target frozen.",
+            "xy": "The target is punched with an icy fist. This may also leave the target frozen.",
+            "oras": "The target is punched with an icy fist. This may also leave the target frozen.",
+            "sm": "The target is punched with an icy fist. This may also leave the target frozen.",
+            "usum": "The target is punched with an icy fist. This may also leave the target frozen.",
+            "lgpe": "The target is punched with an icy fist. This may also leave the target frozen.",
+            "swsh": "The target is punched with an icy fist. This may also leave the target frozen.",
+            "la": "The target is punched with an icy fist. This may also leave the target with frostbite.",
+            "sv": "The target is attacked with an icy punch. This may also leave the target frozen."
+        },
+        "french": {
+            "bw": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+            "xy": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+            "oras": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+            "sm": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+            "usum": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+            "lgpe": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+            "swsh": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler."
+        },
+        "japanese-kana": {
+            "xy": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "oras": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "sm": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "usum": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "lgpe": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "swsh": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다.",
+            "oras": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다.",
+            "sm": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다.",
+            "usum": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다.",
+            "lgpe": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다.",
+            "swsh": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Ein eisiger Schlag, der das Ziel eventuell einfriert.",
+            "oras": "Ein eisiger Schlag, der das Ziel eventuell einfriert.",
+            "sm": "Ein eisiger Schlag, der das Ziel eventuell einfriert.",
+            "usum": "Ein eisiger Schlag, der das Ziel eventuell einfriert.",
+            "lgpe": "Ein eisiger Schlag, der das Ziel eventuell einfriert.",
+            "swsh": "Ein eisiger Schlag, der das Ziel eventuell einfriert."
+        },
+        "spanish": {
+            "xy": "Puñetazo helado. Puede congelar.",
+            "oras": "Puñetazo helado. Puede congelar.",
+            "sm": "Puñetazo helado. Puede congelar.",
+            "usum": "Puñetazo helado. Puede congelar.",
+            "lgpe": "Puñetazo helado. Puede congelar.",
+            "swsh": "Puñetazo helado que puede llegar a congelar."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un pugno di ghiaccio che può congelarlo.",
+            "oras": "Colpisce il bersaglio con un pugno di ghiaccio che può congelarlo.",
+            "sm": "Colpisce il bersaglio con un pugno di ghiaccio che può congelarlo.",
+            "usum": "Colpisce il bersaglio con un pugno di ghiaccio che può congelarlo.",
+            "lgpe": "Colpisce il bersaglio con un pugno di ghiaccio che può congelarlo.",
+            "swsh": "Colpisce il bersaglio con un pugno di ghiaccio che può congelarlo."
+        },
+        "japanese": {
+            "xy": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。",
+            "oras": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。",
+            "sm": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。",
+            "usum": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。",
+            "lgpe": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。",
+            "swsh": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puñetazo helado. Puede congelar.",
+            "oras": "Puñetazo helado. Puede congelar.",
+            "sm": "Puñetazo helado. Puede congelar.",
+            "usum": "Puñetazo helado. Puede congelar.",
+            "lgpe": "Puñetazo helado. Puede congelar.",
+            "swsh": "Puñetazo helado que puede llegar a congelar."
+        },
+        "traditional-chinese": {
+            "sm": "用帶有寒氣的拳頭 攻擊對手。 有時會讓對手陷入冰凍狀態。",
+            "usum": "用帶有寒氣的拳頭 攻擊對手。 有時會讓對手陷入冰凍狀態。",
+            "lgpe": "用帶有寒氣的拳頭 攻擊對手。 有時會讓對手陷入冰凍狀態。",
+            "swsh": "用帶有寒氣的拳頭 攻擊對手。 有時會讓對手陷入冰凍狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用充满寒气的拳头攻击对手。 有时会让对手陷入冰冻状态。",
+            "usum": "用充满寒气的拳头攻击对手。 有时会让对手陷入冰冻状态。",
+            "lgpe": "用充满寒气的拳头攻击对手。 有时会让对手陷入冰冻状态。",
+            "swsh": "用充满寒气的拳头攻击对手。 有时会让对手陷入冰冻状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to freeze the target.",
+        "shortEffect": "Has a chance to freeze the target."
+    }
 }

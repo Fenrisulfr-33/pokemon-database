@@ -1,47 +1,153 @@
 {
-  "_id": 23,
-  "key": "stomp",
-  "name": {
-    "english": "Stomp",
-    "japanese": "ふみつけ",
-    "chinese": "践踏",
-    "korean": "짓밟기",
-    "german": "Pisotón",
-    "french": "Stampfer",
-    "italian": "Stomp",
-    "spanish": "Pestone"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause flinching.",
-    "crystal": "An attack that may\ncause flinching.",
-    "ruby-sapphire": "Stomps the enemy with a big\nfoot. May cause flinching.",
-    "emerald": "Stomps the enemy with a big\nfoot. May cause flinching.",
-    "firered-leafgreen": "The foe is stomped\nwith a big foot.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "The foe is stomped\nwith a big foot.\nIt may also make the\ntarget flinch.\n",
-    "platinum": "The foe is stomped\nwith a big foot.\nIt may also make the\ntarget flinch.\n",
-    "heartgold-soulsilver": "The foe is stomped\nwith a big foot.\nIt may also make the\ntarget flinch.\n",
-    "black-white": "The target is stomped with a big foot.\nIt may also make the target flinch.",
-    "black-2-white-2": "The target is stomped with a big foot.\nIt may also make the target flinch.",
-    "x-y": "The target is stomped with a big foot.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The target is stomped with a big foot.\nThis may also make the target flinch.",
-    "sun-moon": "The target is stomped with a big foot. This may also\nmake the target flinch.",
-    "ultra-sun-ultra-moon": "The target is stomped with a big foot. This may also\nmake the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The target is stomped with a big foot. This may also\nmake the target flinch.",
-    "sword-shield": "The target is stomped with a big foot. This may also\nmake the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.\n\nPower is doubled against Pokémon that have used minimize since entering the field.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 23,
+    "key": "stomp",
+    "name": {
+        "japanese-kana": "ふみつけ",
+        "korean": "짓밟기",
+        "traditional-chinese": "踩踏",
+        "french": "Écrasement",
+        "german": "Stampfer",
+        "spanish": "Pisotón",
+        "italian": "Pestone",
+        "english": "Stomp",
+        "japanese": "ふみつけ",
+        "simplified-chinese": "踩踏",
+        "latin-american-spanish": "Pisotón"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "N’interagit pas avec Lilliput."
+        },
+        "english": {
+            "gs": "Does not interact with Minimize."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause flinching.",
+            "cr": "An attack that may cause flinching.",
+            "rs": "Stomps the enemy with a big foot. May cause flinching.",
+            "em": "Stomps the enemy with a big foot. May cause flinching.",
+            "frlg": "The foe is stomped with a big foot. It may make the foe flinch.",
+            "dp": "The foe is stomped with a big foot. It may also make the target flinch.",
+            "pt": "The foe is stomped with a big foot. It may also make the target flinch.",
+            "hgss": "The foe is stomped with a big foot. It may also make the target flinch.",
+            "bw": "The target is stomped with a big foot. It may also make the target flinch.",
+            "b2w2": "The target is stomped with a big foot. It may also make the target flinch.",
+            "xy": "The target is stomped with a big foot. This may also make the target flinch.",
+            "oras": "The target is stomped with a big foot. This may also make the target flinch.",
+            "sm": "The target is stomped with a big foot. This may also make the target flinch.",
+            "usum": "The target is stomped with a big foot. This may also make the target flinch.",
+            "lgpe": "The target is stomped with a big foot. This may also make the target flinch.",
+            "swsh": "The target is stomped with a big foot. This may also make the target flinch.",
+            "la": "The target is stomped with a big foot. This may also make the target flinch.",
+            "sv": "The user attacks by stomping on the target with a big foot. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.",
+            "xy": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.",
+            "oras": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.",
+            "sm": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.",
+            "usum": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.",
+            "lgpe": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.",
+            "swsh": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　あしで あいてを　ふみつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "おおきな　あしで あいてを　ふ つけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "おおきな　あしで あいてを　ふみつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "おおきな　あしで あいてを　ふみつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "おおきな　あしで あいてを　ふみつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "おおきな　あしで あいてを　ふみつけて　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Stampfen mit dem Fuß. Das Ziel schreckt eventuell zurück.",
+            "oras": "Stampfen mit dem Fuß. Das Ziel schreckt eventuell zurück.",
+            "sm": "Stampfen mit dem Fuß. Das Ziel schreckt eventuell zurück.",
+            "usum": "Stampfen mit dem Fuß. Das Ziel schreckt eventuell zurück.",
+            "lgpe": "Stampfen mit dem Fuß. Das Ziel schreckt eventuell zurück.",
+            "swsh": "Stampfen mit dem Fuß. Das Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "oras": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "sm": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "usum": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "lgpe": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "swsh": "Tremendo pisotón que puede hacer que el objetivo se amedrente."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un grosso piede e può anche farlo tentennare.",
+            "oras": "Colpisce il bersaglio con un grosso piede e può anche farlo tentennare.",
+            "sm": "Colpisce il bersaglio con un grosso piede e può anche farlo tentennare.",
+            "usum": "Colpisce il bersaglio con un grosso piede e può anche farlo tentennare.",
+            "lgpe": "Colpisce il bersaglio con un grosso piede e può anche farlo tentennare.",
+            "swsh": "Colpisce il bersaglio con un grosso piede e può anche farlo tentennare."
+        },
+        "japanese": {
+            "xy": "大きな　足で 相手を　踏みつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "大きな　足で 相手を　踏 つけて　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "大きな　足で 相手を　踏みつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "大きな　足で 相手を　踏みつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "大きな　足で 相手を　踏みつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "大きな　足で 相手を　踏みつけて　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "oras": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "sm": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "usum": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "lgpe": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+            "swsh": "Tremendo pisotón que puede hacer que el objetivo se amedrente."
+        },
+        "traditional-chinese": {
+            "sm": "用大腳踩踏對手進行攻擊。 有時會讓對手畏縮。",
+            "usum": "用大腳踩踏對手進行攻擊。 有時會讓對手畏縮。",
+            "lgpe": "用大腳踩踏對手進行攻擊。 有時會讓對手畏縮。",
+            "swsh": "用大腳踩踏對手進行攻擊。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "用大脚踩踏对手进行攻击。 有时会使对手畏缩。",
+            "usum": "用大脚踩踏对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用大脚踩踏对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "用大脚踩踏对手进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch. Power is doubled against Pokémon that have used Minimize since entering the field.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

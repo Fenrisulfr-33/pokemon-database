@@ -1,37 +1,133 @@
 {
-  "_id": 601,
-  "key": "geomancy",
-  "name": {
-    "english": "Geomancy",
-    "japanese": "ジオコントロール",
-    "chinese": "大地掌控",
-    "korean": "지오컨트롤",
-    "german": "Geocontrol",
-    "french": "Geokontrolle",
-    "italian": "Geomancy",
-    "spanish": "Geocontrollo"
-  },
-  "type": "Fairy",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 6,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "x-y": "The user absorbs energy and sharply raises\nits Sp. Atk, Sp. Def, and Speed stats\non the next turn.",
-    "omega-ruby-alpha-sapphire": "The user absorbs energy and sharply raises\nits Sp. Atk, Sp. Def, and Speed stats\non the next turn.",
-    "sun-moon": "The user absorbs energy and sharply raises its\nSp. Atk, Sp. Def, and Speed stats on the next turn.",
-    "ultra-sun-ultra-moon": "The user absorbs energy and sharply raises its\nSp. Atk, Sp. Def, and Speed stats on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user absorbs energy and sharply raises its\nSp. Atk, Sp. Def, and Speed stats on the next turn.",
-    "sword-shield": "The user absorbs energy and sharply raises its\nSp. Atk, Sp. Def, and Speed stats on the next turn."
-  },
-  "effect": {
-    "full": "Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages.",
-    "shortEffect": "Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages."
-  },
-  "priority": 0
+    "_id": 601,
+    "key": "geomancy",
+    "name": {
+        "japanese-kana": "ジオコントロール",
+        "korean": "지오컨트롤",
+        "traditional-chinese": "大地掌控",
+        "french": "Géo-Contrôle",
+        "german": "Geokontrolle",
+        "spanish": "Geocontrol",
+        "italian": "Geocontrollo",
+        "english": "Geomancy",
+        "japanese": "ジオコントロール",
+        "simplified-chinese": "大地掌控",
+        "latin-american-spanish": "Geocontrol"
+    },
+    "type": "fairy",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "１ターンめで　エネルギーを きゅうしゅうし　２ターンめに　とくこう とくぼう　すばやさを　ぐーんと　あげる。",
+            "oras": "１ターンめで　エネルギーを きゅうしゅうし　２ターンめに　とくこう とくぼう　すばやさを　ぐーんと　あげる。",
+            "sm": "１ターンめで　エネルギーを きゅうしゅうし　２ターンめに　とくこう とくぼう　すばやさを　ぐーんと　あげる。",
+            "usum": "１ターンめで　エネルギーを きゅうしゅうし　２ターンめに　とくこう とくぼう　すばやさを　ぐーんと　あげる。",
+            "lgpe": "１ターンめで　エネルギーを きゅうしゅうし　２ターンめに　とくこう とくぼう　すばやさを　ぐーんと　あげる。",
+            "swsh": "１ターンめで　エネルギーを きゅうしゅうし　２ターンめに　とくこう とくぼう　すばやさを　ぐーんと　あげる。"
+        },
+        "korean": {
+            "xy": "1턴째에 에너지를 흡수하여 2턴째에 특수공격, 특수방어, 스피드를 크게 올린다.",
+            "oras": "1턴째에 에너지를 흡수하여 2턴째에 특수공격, 특수방어, 스피드를 크게 올린다.",
+            "sm": "1턴째에 에너지를 흡수하여 2턴째에 특수공격, 특수방어, 스피드를 크게 올린다.",
+            "usum": "1턴째에 에너지를 흡수하여 2턴째에 특수공격, 특수방어, 스피드를 크게 올린다.",
+            "lgpe": "1턴째에 에너지를 흡수하여 2턴째에 특수공격, 특수방어, 스피드를 크게 올린다.",
+            "swsh": "1턴째에 에너지를 흡수하여 2턴째에 특수공격, 특수방어, 스피드를 크게 올린다."
+        },
+        "french": {
+            "xy": "Le lanceur absorbe de l’énergie au premier tour et augmente fortement son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second.",
+            "oras": "Le lanceur absorbe de l’énergie au premier tour et augmente fortement son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second.",
+            "sm": "Le lanceur absorbe de l’énergie au premier tour et augmente beaucoup son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second.",
+            "usum": "Le lanceur absorbe de l’énergie au premier tour et augmente beaucoup son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second.",
+            "lgpe": "Le lanceur absorbe de l’énergie au premier tour et augmente beaucoup son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second.",
+            "swsh": "Le lanceur absorbe de l’énergie au premier tour et augmente beaucoup son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second."
+        },
+        "german": {
+            "xy": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen folgende Statuswerte stark: Spezial-Angriff, Spezial-Verteidigung und Initiative.",
+            "oras": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen folgende Statuswerte stark: Spezial-Angriff, Spezial-Verteidigung und Initiative.",
+            "sm": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen der Spezial-Angriff, die Spezial-Verteidigung und die Initiative stark.",
+            "usum": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen der Spezial-Angriff, die Spezial-Verteidigung und die Initiative stark.",
+            "lgpe": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen der Spezial-Angriff, die Spezial-Verteidigung und die Initiative stark.",
+            "swsh": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen der Spezial-Angriff, die Spezial-Verteidigung und die Initiative stark."
+        },
+        "spanish": {
+            "xy": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "oras": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "sm": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "usum": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "lgpe": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "swsh": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo."
+        },
+        "italian": {
+            "xy": "Chi la usa assorbe energia nel primo turno per aumentare poi notevolmente l’Attacco Speciale, la Difesa Speciale e la Velocità in quello seguente.",
+            "oras": "Chi la usa assorbe energia nel primo turno per aumentare poi notevolmente l’Attacco Speciale, la Difesa Speciale e la Velocità in quello seguente.",
+            "sm": "Chi la usa assorbe energia nel primo turno per aumentare poi notevolmente l’Attacco Speciale, la Difesa Speciale e la Velocità in quello seguente.",
+            "usum": "Chi la usa assorbe energia nel primo turno per aumentare poi notevolmente l’Attacco Speciale, la Difesa Speciale e la Velocità in quello seguente.",
+            "lgpe": "Chi la usa assorbe energia nel primo turno per aumentare poi notevolmente l’Attacco Speciale, la Difesa Speciale e la Velocità in quello seguente.",
+            "swsh": "Chi la usa assorbe energia nel primo turno per aumentare poi notevolmente l’Attacco Speciale, la Difesa Speciale e la Velocità in quello seguente."
+        },
+        "english": {
+            "xy": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+            "oras": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+            "sm": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+            "usum": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+            "lgpe": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+            "swsh": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn."
+        },
+        "japanese": {
+            "xy": "１ターン目で　エネルギーを 吸収し　２ターン目に　特攻 特防　素早さを　ぐーんと　あげる。",
+            "oras": "１ターン目で　エネルギーを 吸収し　２ターン目に　特攻 特防　素早さを　ぐーんと　あげる。",
+            "sm": "１ターン目で　エネルギーを 吸収し　２ターン目に　特攻 特防　素早さを　ぐーんと　あげる。",
+            "usum": "１ターン目で　エネルギーを 吸収し　２ターン目に　特攻 特防　素早さを　ぐーんと　あげる。",
+            "lgpe": "１ターン目で　エネルギーを 吸収し　２ターン目に　特攻 特防　素早さを　ぐーんと　あげる。",
+            "swsh": "１ターン目で　エネルギーを 吸収し　２ターン目に　特攻 特防　素早さを　ぐーんと　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "oras": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "sm": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "usum": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "lgpe": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+            "swsh": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo."
+        },
+        "traditional-chinese": {
+            "sm": "使用後的第１回合吸收能量， 並於第２回合大幅提高 自己的特攻、特防和速度。",
+            "usum": "使用後的第１回合吸收能量， 並於第２回合大幅提高 自己的特攻、特防和速度。",
+            "lgpe": "使用後的第１回合吸收能量， 並於第２回合大幅提高 自己的特攻、特防和速度。",
+            "swsh": "使用後的第１回合吸收能量， 並於第２回合大幅提高 自己的特攻、特防和速度。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合吸收能量， 第２回合大幅提高 特攻、特防和速度。",
+            "usum": "第１回合吸收能量， 第２回合大幅提高 特攻、特防和速度。",
+            "lgpe": "第１回合吸收能量， 第２回合大幅提高 特攻、特防和速度。",
+            "swsh": "第１回合吸收能量， 第２回合大幅提高 特攻、特防和速度。"
+        }
+    },
+    "effect": {
+        "full": "Takes one turn to charge, then raises the user’s Special Attack, Special Defense, and Speed by two stages.",
+        "shortEffect": "Takes one turn to charge, then raises the user’s Special Attack, Special Defense, and Speed by two stages."
+    }
 }

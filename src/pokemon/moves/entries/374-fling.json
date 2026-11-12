@@ -1,42 +1,141 @@
 {
-  "_id": 374,
-  "key": "fling",
-  "name": {
-    "english": "Fling",
-    "japanese": "なげつける",
-    "chinese": "投掷",
-    "korean": "내던지기",
-    "german": "Lanzamiento",
-    "french": "Schleuder",
-    "italian": "Fling",
-    "spanish": "Lancio"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user flings its\nheld item at the foe\nto attack. Its power\nand effects depend\non the item.",
-    "platinum": "The user flings its\nheld item at the foe\nto attack. Its power\nand effects depend\non the item.",
-    "heartgold-soulsilver": "The user flings its\nheld item at the foe\nto attack. Its power\nand effects depend\non the item.",
-    "black-white": "The user flings its held item at the target\nto attack. Its power and effects depend\non the item.",
-    "black-2-white-2": "The user flings its held item at the target\nto attack. Its power and effects depend\non the item.",
-    "x-y": "The user flings its held item at the target\nto attack. This move’s power and effects\ndepend on the item.",
-    "omega-ruby-alpha-sapphire": "The user flings its held item at the target\nto attack. This move’s power and effects\ndepend on the item.",
-    "sun-moon": "The user flings its held item at the target to attack.\nThis move’s power and effects depend on the item.",
-    "ultra-sun-ultra-moon": "The user flings its held item at the target to attack.\nThis move’s power and effects depend on the item.",
-    "lets-go-pikachu-lets-go-eevee": "The user flings its held item at the target to attack.\nThis move’s power and effects depend on the item.",
-    "sword-shield": "The user flings its held item at the target to attack.\nThis move’s power and effects depend on the item."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power and type are determined by the user's held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail.\n\nThis move ignores sticky hold.\n\nIf the user is under the effect of embargo, this move will fail.",
-    "shortEffect": "Throws held item at the target; power depends on the item."
-  },
-  "priority": 0
+    "_id": 374,
+    "key": "fling",
+    "name": {
+        "japanese-kana": "なげつける",
+        "korean": "내던지기",
+        "traditional-chinese": "投擲",
+        "french": "Dégommage",
+        "german": "Schleuder",
+        "spanish": "Lanzamiento",
+        "italian": "Lancio",
+        "english": "Fling",
+        "japanese": "なげつける",
+        "simplified-chinese": "投掷",
+        "latin-american-spanish": "Lanzamiento"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user flings its held item at the foe to attack. Its power and effects depend on the item.",
+            "pt": "The user flings its held item at the foe to attack. Its power and effects depend on the item.",
+            "hgss": "The user flings its held item at the foe to attack. Its power and effects depend on the item.",
+            "bw": "The user flings its held item at the target to attack. Its power and effects depend on the item.",
+            "b2w2": "The user flings its held item at the target to attack. Its power and effects depend on the item.",
+            "xy": "The user flings its held item at the target to attack. This move’s power and effects depend on the item.",
+            "oras": "The user flings its held item at the target to attack. This move’s power and effects depend on the item.",
+            "sm": "The user flings its held item at the target to attack. This move’s power and effects depend on the item.",
+            "usum": "The user flings its held item at the target to attack. This move’s power and effects depend on the item.",
+            "lgpe": "The user flings its held item at the target to attack. This move’s power and effects depend on the item.",
+            "swsh": "The user flings its held item at the target to attack. This move’s power and effects depend on the item.",
+            "la": "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+            "sv": "The user flings its held item at the target to attack. This move's power and effects depend on the item."
+        },
+        "french": {
+            "bw": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.",
+            "xy": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.",
+            "oras": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.",
+            "sm": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.",
+            "usum": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.",
+            "lgpe": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.",
+            "swsh": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet."
+        },
+        "japanese-kana": {
+            "xy": "もたせた　どうぐを すばやく　なげつけて　こうげきする。 どうぐで　いりょくと　こうかが　かわる。",
+            "oras": "もたせた　どうぐを すばやく　なげつけて　こうげきする。 どうぐで　いりょくと　こうかが　かわる。",
+            "sm": "もたせた　どうぐを すばやく　なげつけて　こうげきする。 どうぐで　いりょくと　こうかが　かわる。",
+            "usum": "もたせた　どうぐを すばやく　なげつけて　こうげきする。 どうぐで　いりょくと　こうかが　かわる。",
+            "lgpe": "もたせた　どうぐを すばやく　なげつけて　こうげきする。 どうぐで　いりょくと　こうかが　かわる。",
+            "swsh": "もたせた　どうぐを すばやく　なげつけて　こうげきする。 どうぐで　いりょくと　こうかが　かわる。"
+        },
+        "korean": {
+            "xy": "지니게 한 도구를 재빠르게 내던져서 공격한다. 도구에 따라 위력과 효과가 바뀐다.",
+            "oras": "지니게 한 도구를 재빠르게 내던져서 공격한다. 도구에 따라 위력과 효과가 바뀐다.",
+            "sm": "지니게 한 도구를 재빠르게 내던져서 공격한다. 도구에 따라 위력과 효과가 바뀐다.",
+            "usum": "지니게 한 도구를 재빠르게 내던져서 공격한다. 도구에 따라 위력과 효과가 바뀐다.",
+            "lgpe": "지니게 한 도구를 재빠르게 내던져서 공격한다. 도구에 따라 위력과 효과가 바뀐다.",
+            "swsh": "지니게 한 도구를 재빠르게 내던져서 공격한다. 도구에 따라 위력과 효과가 바뀐다."
+        },
+        "german": {
+            "xy": "Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.",
+            "oras": "Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.",
+            "sm": "Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab.",
+            "usum": "Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab.",
+            "lgpe": "Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab.",
+            "swsh": "Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab."
+        },
+        "spanish": {
+            "xy": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "oras": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "sm": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "usum": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "lgpe": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "swsh": "El usuario lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia il suo strumento addosso al bersaglio. La forza e l’effetto dipendono dallo strumento.",
+            "oras": "Chi la usa lancia il suo strumento addosso al bersaglio. La forza e l’effetto dipendono dallo strumento.",
+            "sm": "Chi la usa lancia il suo strumento addosso al bersaglio. La forza e l’effetto dipendono dallo strumento.",
+            "usum": "Chi la usa lancia il suo strumento addosso al bersaglio. La forza e l’effetto dipendono dallo strumento.",
+            "lgpe": "Chi la usa lancia il suo strumento addosso al bersaglio. La forza e l’effetto dipendono dallo strumento.",
+            "swsh": "Chi la usa lancia il suo strumento addosso al bersaglio. La forza e l’effetto dipendono dallo strumento."
+        },
+        "japanese": {
+            "xy": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　変わる。",
+            "oras": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　変わる。",
+            "sm": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　変わる。",
+            "usum": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　変わる。",
+            "lgpe": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　変わる。",
+            "swsh": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　変わる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "oras": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "sm": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "usum": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "lgpe": "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.",
+            "swsh": "El usuario lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+        },
+        "traditional-chinese": {
+            "sm": "快速投擲攜帶的道具進行攻擊。 招式威力和效果會隨著 道具不同而改變。",
+            "usum": "快速投擲攜帶的道具進行攻擊。 招式威力和效果會隨著 道具不同而改變。",
+            "lgpe": "快速投擲攜帶的道具進行攻擊。 招式威力和效果會隨著 道具不同而改變。",
+            "swsh": "快速投擲攜帶的道具進行攻擊。 招式威力和效果會隨著 道具不同而改變。"
+        },
+        "simplified-chinese": {
+            "sm": "快速投掷携带的道具进行攻击。 根据道具不同， 威力和效果会改变。",
+            "usum": "快速投掷携带的道具进行攻击。 根据道具不同， 威力和效果会改变。",
+            "lgpe": "快速投掷携带的道具进行攻击。 根据道具不同， 威力和效果会改变。",
+            "swsh": "快速投掷携带的道具进行攻击。 根据道具不同， 威力和效果会改变。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power and type are determined by the user’s held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail. This move ignores Sticky Hold. If the user is under the effect of Embargo, this move will fail.",
+        "shortEffect": "Throws held item at the target; power depends on the item."
+    }
 }

@@ -1,33 +1,93 @@
 {
-  "_id": 730,
-  "key": "splishy-splash",
-  "name": {
-    "english": "Splishy Splash",
-    "japanese": "ざぶざぶサーフ",
-    "chinese": "滔滔衝浪",
-    "korean": "참방참방서핑",
-    "german": "Salpikasurf",
-    "french": "Plätschersurfer",
-    "italian": "Splishy Splash",
-    "spanish": "Surfasplash"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user charges a huge wave with electricity and\nhits the opposing Pokémon with the wave. This may\nalso leave the opposing Pokémon with paralysis.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 730,
+    "key": "splishy-splash",
+    "name": {
+        "japanese-kana": "ざぶざぶサーフ",
+        "korean": "참방참방서핑",
+        "traditional-chinese": "滔滔衝浪",
+        "french": "Pika-Splash",
+        "german": "Plätschersurfer",
+        "spanish": "Salpikasurf",
+        "italian": "Surfasplash",
+        "english": "Splishy Splash",
+        "japanese": "ざぶざぶサーフ",
+        "simplified-chinese": "滔滔冲浪",
+        "latin-american-spanish": "Salpikasurf"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "おおきな　なみに　でんきを　あびせ あいてに　ぶつけて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "커다란 파도에 전기를 날리고 상대에게 부딪쳐서 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "在巨浪中注入電力， 撞向對手進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Pikachu frappe l’adversaire avec une vague géante chargée d’électricité. Peut aussi paralyser l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Pikachu greift das Ziel mit einer großen, elektrisch aufgeladenen Welle an. Das Ziel wird eventuell paralysiert.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Golpea al adversario con una ola gigante electrificada, que también puede paralizarlo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Colpisce il bersaglio con un’enorme onda caricata di elettricità che può anche paralizzarlo.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user charges a huge wave with electricity and hits the opposing Pokémon with the wave. This may also leave the opposing Pokémon with paralysis.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "大きな　波に　電気を　あびせ 相手に　ぶつけて　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "往巨浪中注入电能后 冲撞对手进行攻击。 有时会让对手陷入麻痹状态。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Golpea al adversario con una ola gigante electrificada, que también puede paralizarlo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

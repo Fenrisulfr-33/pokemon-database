@@ -1,37 +1,135 @@
 {
-  "_id": 591,
-  "key": "diamond-storm",
-  "name": {
-    "english": "Diamond Storm",
-    "japanese": "ダイヤストーム",
-    "chinese": "鑽石風暴",
-    "korean": "다이아스톰",
-    "german": "Torm. Diamantes",
-    "french": "Diamantsturm",
-    "italian": "Diamond Storm",
-    "spanish": "Diamantempesta"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 100,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 6,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "x-y": "The user whips up a storm of diamonds\nto damage opposing Pokémon. This may\nalso raise the user’s Defense stat.",
-    "omega-ruby-alpha-sapphire": "The user whips up a storm of diamonds\nto damage opposing Pokémon. This may\nalso raise the user’s Defense stat.",
-    "sun-moon": "The user whips up a storm of diamonds to damage\nopposing Pokémon. This may also sharply raise the\nuser’s Defense stat.",
-    "ultra-sun-ultra-moon": "The user whips up a storm of diamonds to damage\nopposing Pokémon. This may also sharply raise the\nuser’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user whips up a storm of diamonds to damage\nopposing Pokémon. This may also sharply raise the\nuser’s Defense stat.",
-    "sword-shield": "The user whips up a storm of diamonds to damage\nopposing Pokémon. This may also sharply raise the\nuser’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to raise the user's Defense by two stages for each target hit.",
-    "shortEffect": "Has a $effect_chance% chance to raise the user's Defense by two stages for each target hit."
-  },
-  "priority": 0
+    "_id": 591,
+    "key": "diamond-storm",
+    "name": {
+        "japanese-kana": "ダイヤストーム",
+        "korean": "다이아스톰",
+        "traditional-chinese": "鑽石風暴",
+        "french": "Orage Adamantin",
+        "german": "Diamantsturm",
+        "spanish": "Tormenta de Diamantes",
+        "italian": "Diamantempesta",
+        "english": "Diamond Storm",
+        "japanese": "ダイヤストーム",
+        "simplified-chinese": "钻石风暴",
+        "latin-american-spanish": "Tormenta de Diamantes"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 100,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 50
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　あげることが　ある。",
+            "oras": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　あげることが　ある。",
+            "sm": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　ぐーんと　あげることが　ある。",
+            "usum": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　ぐーんと　あげることが　ある。",
+            "lgpe": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　ぐーんと　あげることが　ある。",
+            "swsh": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　ぐーんと　あげることが　ある。"
+        },
+        "korean": {
+            "xy": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 올릴 때가 있다.",
+            "oras": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 올릴 때가 있다.",
+            "sm": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 크게 올릴 때가 있다.",
+            "usum": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 크게 올릴 때가 있다.",
+            "lgpe": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 크게 올릴 때가 있다.",
+            "swsh": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 크게 올릴 때가 있다."
+        },
+        "french": {
+            "xy": "Provoque une tempête de diamants qui inflige des dégâts. Peut augmenter la Défense du lanceur.",
+            "oras": "Provoque une tempête de diamants qui inflige des dégâts. Peut augmenter la Défense du lanceur.",
+            "sm": "Provoque une tempête de diamants qui inflige des dégâts. Peut beaucoup augmenter la Défense du lanceur.",
+            "usum": "Provoque une tempête de diamants qui inflige des dégâts. Peut beaucoup augmenter la Défense du lanceur.",
+            "lgpe": "Provoque une tempête de diamants qui inflige des dégâts. Peut beaucoup augmenter la Défense du lanceur.",
+            "swsh": "Provoque une tempête de diamants qui inflige des dégâts. Peut beaucoup augmenter la Défense du lanceur."
+        },
+        "german": {
+            "xy": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders erhöhen.",
+            "oras": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders erhöhen.",
+            "sm": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders stark erhöhen.",
+            "usum": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders stark erhöhen.",
+            "lgpe": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders stark erhöhen.",
+            "swsh": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders stark erhöhen."
+        },
+        "spanish": {
+            "xy": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar la Defensa del usuario.",
+            "oras": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar la Defensa del usuario.",
+            "sm": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.",
+            "usum": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.",
+            "lgpe": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.",
+            "swsh": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario."
+        },
+        "italian": {
+            "xy": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare la Difesa di chi la usa.",
+            "oras": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare la Difesa di chi la usa.",
+            "sm": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare di molto la Difesa di chi la usa.",
+            "usum": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare di molto la Difesa di chi la usa.",
+            "lgpe": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare di molto la Difesa di chi la usa.",
+            "swsh": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare di molto la Difesa di chi la usa."
+        },
+        "english": {
+            "xy": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also raise the user’s Defense stat.",
+            "oras": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also raise the user’s Defense stat.",
+            "sm": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply raise the user’s Defense stat.",
+            "usum": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply raise the user’s Defense stat.",
+            "lgpe": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply raise the user’s Defense stat.",
+            "swsh": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply raise the user’s Defense stat.",
+            "la": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply raise the user's Defense stat.",
+            "sv": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply boost the user's Defense stat."
+        },
+        "japanese": {
+            "xy": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　あげることが　ある。",
+            "oras": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　あげることが　ある。",
+            "sm": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　ぐーんと　あげることが　ある。",
+            "usum": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　ぐーんと　あげることが　ある。",
+            "lgpe": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　ぐーんと　あげることが　ある。",
+            "swsh": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　ぐーんと　あげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar la Defensa del usuario.",
+            "oras": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar la Defensa del usuario.",
+            "sm": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.",
+            "usum": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.",
+            "lgpe": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.",
+            "swsh": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "吹起鑽石風暴給予對手傷害。 有時會大幅提高自己的防禦。",
+            "usum": "吹起鑽石風暴給予對手傷害。 有時會大幅提高自己的防禦。",
+            "lgpe": "吹起鑽石風暴給予對手傷害。 有時會大幅提高自己的防禦。",
+            "swsh": "吹起鑽石風暴給予對手傷害。 有時會大幅提高自己的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "掀起钻石风暴给予伤害。 有时会大幅提高自己的防御。",
+            "usum": "掀起钻石风暴给予伤害。 有时会大幅提高自己的防御。",
+            "lgpe": "掀起钻石风暴给予伤害。 有时会大幅提高自己的防御。",
+            "swsh": "掀起钻石风暴给予伤害。 有时会大幅提高自己的防御。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to raise the user’s Defense by two stages for each target hit.",
+        "shortEffect": "Has a chance to raise the user’s Defense by two stages for each target hit."
+    }
 }

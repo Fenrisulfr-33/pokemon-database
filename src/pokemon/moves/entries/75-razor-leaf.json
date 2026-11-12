@@ -1,47 +1,146 @@
 {
-  "_id": 75,
-  "key": "razor-leaf",
-  "name": {
-    "english": "Razor Leaf",
-    "japanese": "はっぱカッター",
-    "chinese": "飞叶快刀",
-    "korean": "잎날가르기",
-    "german": "Hoja Afilada",
-    "french": "Rasierblatt",
-    "italian": "Razor Leaf",
-    "spanish": "Foglielama"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 25,
-  "power": 55,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "Has a high criti­\ncal hit ratio.",
-    "crystal": "Has a high criti­\ncal hit ratio.",
-    "ruby-sapphire": "Cuts the enemy with leaves.\nHigh critical-hit ratio.",
-    "emerald": "Cuts the enemy with leaves.\nHigh critical-hit ratio.",
-    "firered-leafgreen": "The foe is hit with\na cutting leaf.\nIt has a high\ncritical-hit ratio.",
-    "diamond-pearl": "A sharp-edged leaf is\nlaunched to slash at\nthe foe. It has a\nhigh critical-hit\nratio.",
-    "platinum": "Sharp-edged leaves\nare launched to slash\nat the foe. It has a\nhigh critical-hit\nratio.",
-    "heartgold-soulsilver": "Sharp-edged leaves\nare launched to slash\nat the foe. It has a\nhigh critical-hit\nratio.",
-    "black-white": "Sharp-edged leaves are launched\nto slash at the opposing team.\nCritical hits land more easily.",
-    "black-2-white-2": "Sharp-edged leaves are launched\nto slash at the opposing team.\nCritical hits land more easily.",
-    "x-y": "Sharp-edged leaves are launched\nto slash at the opposing Pokémon.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "Sharp-edged leaves are launched\nto slash at the opposing Pokémon.\nCritical hits land more easily.",
-    "sun-moon": "Sharp-edged leaves are launched to slash at the\nopposing Pokémon. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "Sharp-edged leaves are launched to slash at the\nopposing Pokémon. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "Sharp-edged leaves are launched to slash at the\nopposing Pokémon. Critical hits land more easily.",
-    "sword-shield": "Sharp-edged leaves are launched to slash at opposing\nPokémon. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 75,
+    "key": "razor-leaf",
+    "name": {
+        "japanese-kana": "はっぱカッター",
+        "korean": "잎날가르기",
+        "traditional-chinese": "飛葉快刀",
+        "french": "Tranch’Herbe",
+        "german": "Rasierblatt",
+        "spanish": "Hoja Afilada",
+        "italian": "Foglielama",
+        "english": "Razor Leaf",
+        "japanese": "はっぱカッター",
+        "simplified-chinese": "飞叶快刀",
+        "latin-american-spanish": "Hojas Navaja"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 25,
+    "power": 55,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Has a high critical hit ratio.",
+            "cr": "Has a high critical hit ratio.",
+            "rs": "Cuts the enemy with leaves. High critical-hit ratio.",
+            "em": "Cuts the enemy with leaves. High critical-hit ratio.",
+            "frlg": "The foe is hit with a cutting leaf. It has a high critical-hit ratio.",
+            "dp": "A sharp-edged leaf is launched to slash at the foe. It has a high critical-hit ratio.",
+            "pt": "Sharp-edged leaves are launched to slash at the foe. It has a high critical-hit ratio.",
+            "hgss": "Sharp-edged leaves are launched to slash at the foe. It has a high critical-hit ratio.",
+            "bw": "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
+            "b2w2": "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
+            "xy": "Sharp-edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily.",
+            "oras": "Sharp-edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily.",
+            "sm": "Sharp-edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily.",
+            "usum": "Sharp-edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily.",
+            "lgpe": "Sharp-edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily.",
+            "swsh": "Sharp-edged leaves are launched to slash at opposing Pokémon. Critical hits land more easily.",
+            "la": "Sharp-edged leaves are launched to slash at opposing Pokémon. Critical hits land more easily.",
+            "sv": "Sharp-edged leaves are launched to slash at opposing Pokémon. This move has a heightened chance of landing a critical hit."
+        },
+        "french": {
+            "bw": "Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critiques élevé.",
+            "xy": "Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critiques élevé.",
+            "oras": "Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critiques élevé.",
+            "sm": "Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critique élevé.",
+            "usum": "Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critique élevé.",
+            "lgpe": "Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critique élevé.",
+            "swsh": "Des feuilles aiguisées comme des rasoirs entaillent l’ennemi. Taux de critiques élevé."
+        },
+        "japanese-kana": {
+            "xy": "はっぱを　とばして あいてを　きりつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "oras": "はっぱを　とばして あいてを　きりつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "sm": "はっぱを　とばして あいてを　きりつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "usum": "はっぱを　とばして あいてを　きりつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "lgpe": "はっぱを　とばして あいてを　きりつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "swsh": "はっぱを　とばして あいてを　きりつけて　こうげきする。 きゅうしょに　あたりやすい。"
+        },
+        "korean": {
+            "xy": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞기 쉽다.",
+            "oras": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞기 쉽다.",
+            "sm": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞기 쉽다.",
+            "usum": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞기 쉽다.",
+            "lgpe": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞기 쉽다.",
+            "swsh": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel mit Blättern. Hohe Volltrefferquote.",
+            "oras": "Trifft das Ziel mit Blättern. Hohe Volltrefferquote.",
+            "sm": "Trifft das Ziel mit Blättern. Hohe Volltrefferquote.",
+            "usum": "Trifft das Ziel mit Blättern. Hohe Volltrefferquote.",
+            "lgpe": "Trifft das Ziel mit Blättern. Hohe Volltrefferquote.",
+            "swsh": "Greift gegnerische Pokémon mithilfe von Blättern an. Hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "Corta con hojas afiladas. Suele ser crítico.",
+            "oras": "Corta con hojas afiladas. Suele ser crítico.",
+            "sm": "Corta con hojas afiladas. Suele ser crítico.",
+            "usum": "Corta con hojas afiladas. Suele ser crítico.",
+            "lgpe": "Corta con hojas afiladas. Suele ser crítico.",
+            "swsh": "Corta con hojas afiladas. Un ataque que suele ser crítico."
+        },
+        "italian": {
+            "xy": "Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.",
+            "oras": "Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.",
+            "sm": "Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.",
+            "usum": "Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.",
+            "lgpe": "Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.",
+            "swsh": "Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "はっぱを　とばして 相手を　切りつけて　攻撃する。 急所に　当たりやすい。",
+            "oras": "はっぱを　とばして 相手を　切りつけて　攻撃する。 急所に　当たりやすい。",
+            "sm": "はっぱを　とばして 相手を　切りつけて　攻撃する。 急所に　当たりやすい。",
+            "usum": "はっぱを　とばして 相手を　切りつけて　攻撃する。 急所に　当たりやすい。",
+            "lgpe": "はっぱを　とばして 相手を　切りつけて　攻撃する。 急所に　当たりやすい。",
+            "swsh": "はっぱを　とばして 相手を　切りつけて　攻撃する。 急所に　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Corta con hojas afiladas. Suele ser crítico.",
+            "oras": "Corta con hojas afiladas. Suele ser crítico.",
+            "sm": "Corta con hojas afiladas. Suele ser crítico.",
+            "usum": "Corta con hojas afiladas. Suele ser crítico.",
+            "lgpe": "Corta con hojas afiladas. Suele ser crítico.",
+            "swsh": "Corta con hojas afiladas. Un ataque que suele ser crítico."
+        },
+        "traditional-chinese": {
+            "sm": "飛射葉子， 切斬對手進行攻擊。 容易擊中要害。",
+            "usum": "飛射葉子， 切斬對手進行攻擊。 容易擊中要害。",
+            "lgpe": "飛射葉子， 切斬對手進行攻擊。 容易擊中要害。",
+            "swsh": "飛射葉子， 切斬對手進行攻擊。 容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "飞出叶片， 切斩对手进行攻击。 容易击中要害。",
+            "usum": "飞出叶片， 切斩对手进行攻击。 容易击中要害。",
+            "lgpe": "飞出叶片， 切斩对手进行攻击。 容易击中要害。",
+            "swsh": "飞出叶片， 切斩对手进行攻击。 容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

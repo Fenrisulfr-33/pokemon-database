@@ -1,47 +1,150 @@
 {
-  "_id": 94,
-  "key": "psychic",
-  "name": {
-    "english": "Psychic",
-    "japanese": "サイコキネシス",
-    "chinese": "幻象术",
-    "korean": "사이코키네시스",
-    "german": "Psíquico",
-    "french": "Psychokinese",
-    "italian": "Psychic",
-    "spanish": "Psichico"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nlower SPCL.DEF.",
-    "crystal": "An attack that may\nlower SPCL.DEF.",
-    "ruby-sapphire": "A powerful psychic attack\nthat may lower SP. DEF.",
-    "emerald": "A powerful psychic attack\nthat may lower SP. DEF.",
-    "firered-leafgreen": "A strong telekinetic\nattack. It may also\nlower the foe’s\nSP. DEF stat.",
-    "diamond-pearl": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.",
-    "platinum": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.",
-    "heartgold-soulsilver": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.",
-    "black-white": "The target is hit by a strong telekinetic\nforce. It may also reduce the target’s\nSp. Def stat.",
-    "black-2-white-2": "The target is hit by a strong telekinetic\nforce. It may also reduce the target’s\nSp. Def stat.",
-    "x-y": "The target is hit by a strong telekinetic\nforce. This may also lower the target’s\nSp. Def stat.",
-    "omega-ruby-alpha-sapphire": "The target is hit by a strong telekinetic\nforce. This may also lower the target’s\nSp. Def stat.",
-    "sun-moon": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat.",
-    "ultra-sun-ultra-moon": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat.",
-    "sword-shield": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 94,
+    "key": "psychic",
+    "name": {
+        "japanese-kana": "サイコキネシス",
+        "korean": "사이코키네시스",
+        "traditional-chinese": "精神強念",
+        "french": "Psyko",
+        "german": "Psychokinese",
+        "spanish": "Psíquico",
+        "italian": "Psichico",
+        "english": "Psychic",
+        "japanese": "サイコキネシス",
+        "simplified-chinese": "精神强念",
+        "latin-american-spanish": "Fuerza Psíquica"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "smart",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 30
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may lower SPCL.DEF.",
+            "cr": "An attack that may lower SPCL.DEF.",
+            "rs": "A powerful psychic attack that may lower SP. DEF.",
+            "em": "A powerful psychic attack that may lower SP. DEF.",
+            "frlg": "A strong telekinetic attack. It may also lower the foe’s SP. DEF stat.",
+            "dp": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat.",
+            "pt": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat.",
+            "hgss": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat.",
+            "bw": "The target is hit by a strong telekinetic force. It may also reduce the target’s Sp. Def stat.",
+            "b2w2": "The target is hit by a strong telekinetic force. It may also reduce the target’s Sp. Def stat.",
+            "xy": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+            "oras": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+            "sm": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+            "usum": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+            "lgpe": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+            "swsh": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+            "la": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s defensive stats.",
+            "sv": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat."
+        },
+        "french": {
+            "bw": "Une puissante force télékinésique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "xy": "Une puissante force télékinésique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "oras": "Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "sm": "Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "usum": "Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "lgpe": "Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "swsh": "Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "つよい　ねんりきを　あいてに　おくって こうげきする。あいての　とくぼうを さげることが　ある。",
+            "oras": "つよい　ねんりきを　あいてに　おくって こうげきする。あいての　とくぼうを さげることが　ある。",
+            "sm": "つよい　ねんりきを　あいてに　おくって こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "usum": "つよい　ねんりきを　あいてに　おくって こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "lgpe": "つよい　ねんりきを　あいてに　おくって こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "swsh": "つよい　ねんりきを　あいてに　おくって こうげきする。　あいての　とくぼうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Starke Psycho-Attacke, die eventuell die Spezial-Verteidigung des Zieles senkt.",
+            "oras": "Starke Psycho-Attacke, die eventuell die Spezial-Verteidigung des Zieles senkt.",
+            "sm": "Starke Psycho-Attacke, die eventuell die Spezial-Verteidigung des Zieles senkt.",
+            "usum": "Starke Psycho-Attacke, die eventuell die Spezial-Verteidigung des Zieles senkt.",
+            "lgpe": "Starke Psycho-Attacke, die eventuell die Spezial-Verteidigung des Zieles senkt.",
+            "swsh": "Starke Psycho-Attacke, die eventuell die Spezial-Verteidigung des Zieles senkt."
+        },
+        "spanish": {
+            "xy": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "oras": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "sm": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "usum": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "lgpe": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "swsh": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.",
+            "oras": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.",
+            "sm": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.",
+            "usum": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.",
+            "lgpe": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.",
+            "swsh": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale."
+        },
+        "japanese": {
+            "xy": "強い　念力を　相手に　送って 攻撃する。相手の　特防を さげることが　ある。",
+            "oras": "強い　念力を　相手に　送って 攻撃する。相手の　特防を さげることが　ある。",
+            "sm": "強い　念力を　相手に　送って 攻撃する。　相手の　特防を さげることが　ある。",
+            "usum": "強い　念力を　相手に　送って 攻撃する。　相手の　特防を さげることが　ある。",
+            "lgpe": "強い　念力を　相手に　送って 攻撃する。　相手の　特防を さげることが　ある。",
+            "swsh": "強い　念力を　相手に　送って 攻撃する。　相手の　特防を さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "oras": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "sm": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "usum": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "lgpe": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+            "swsh": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發送 強大的念力進行攻擊。 有時會降低對手的特防。",
+            "usum": "向對手發送 強大的念力進行攻擊。 有時會降低對手的特防。",
+            "lgpe": "向對手發送 強大的念力進行攻擊。 有時會降低對手的特防。",
+            "swsh": "向對手發送 強大的念力進行攻擊。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发送 强大的念力进行攻击。 有时会降低对手的特防。",
+            "usum": "向对手发送 强大的念力进行攻击。 有时会降低对手的特防。",
+            "lgpe": "向对手发送 强大的念力进行攻击。 有时会降低对手的特防。",
+            "swsh": "向对手发送 强大的念力进行攻击。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

@@ -1,33 +1,98 @@
 {
-  "_id": 736,
-  "key": "glitzy-glow",
-  "name": {
-    "english": "Glitzy Glow",
-    "japanese": "どばどばオーラ",
-    "chinese": "嘩嘩氣場",
-    "korean": "콸콸오라",
-    "german": "Espeaura",
-    "french": "Pulsieraura",
-    "italian": "Glitzy Glow",
-    "spanish": "Auraswoosh"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 80,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user bombards the target with telekinetic force.\nA wondrous wall of light is put up to weaken the power\nof the opposing Pokémon’s special moves.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 736,
+    "key": "glitzy-glow",
+    "name": {
+        "japanese-kana": "どばどばオーラ",
+        "korean": "콸콸오라",
+        "traditional-chinese": "嘩嘩氣場",
+        "french": "Évo-Psycho",
+        "german": "Pulsieraura",
+        "spanish": "Espeaura",
+        "italian": "Auraswoosh",
+        "english": "Glitzy Glow",
+        "japanese": "どばどばオーラ",
+        "simplified-chinese": "哗哗气场",
+        "latin-american-spanish": "Espeaura"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 80,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "swsh": {
+            "accuracy": 100,
+            "power": 90
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "ねんりきを　これでもかと　あびせる。 あいての　とくしゅこうげきを　よわめる ふしぎな　かべを　つくりだす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "염동력을 한가득 날린다. 상대의 특수공격을 약하게 만드는 이상한 장막을 만든다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "用極大量的念力攻擊對手， 造出一道能夠減弱對手 特殊攻擊的神奇牆壁。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Évoli submerge l’adversaire sous un flot d’ondes psychiques et crée un mur fabuleux qui réduit les dégâts causés par les attaques spéciales de l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Evoli greift das Ziel gnadenlos mit telekinetischer Energie an. Dabei wird eine geheimnisvolle Wand erzeugt, die Spezial-Attacken des Ziels abschwächt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Envuelve al rival con ondas psíquicas y alza un extraño muro que debilita los ataques especiales del adversario.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Colpisce il bersaglio ripetutamente con onde di forza psicocinetica e innalza una barriera fantastica che riduce i danni degli attacchi speciali nemici.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon’s special moves.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "念力を　これでもかと　あびせる。 相手の　特殊攻撃を　弱める 不思議な　かべを　つくりだす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "利用念力强攻，粉碎对方信心。 制造一道能减弱对手 特殊攻击的神奇墙壁。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Envuelve al rival con ondas psíquicas y alza un extraño muro que debilita los ataques especiales del adversario.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 380,
-  "key": "gastro-acid",
-  "name": {
-    "english": "Gastro Acid",
-    "japanese": "いえき",
-    "chinese": "胃液",
-    "korean": "위액",
-    "german": "Bilis",
-    "french": "Magensäfte",
-    "italian": "Gastro Acid",
-    "spanish": "Gastroacido"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user hurls up its\nstomach acids on\nthe foe. The fluid\neliminates the effect\nof the foe’s ability.",
-    "platinum": "The user hurls up its\nstomach acids on\nthe foe. The fluid\neliminates the effect\nof the foe’s ability.",
-    "heartgold-soulsilver": "The user hurls up its\nstomach acids on\nthe foe. The fluid\neliminates the effect\nof the foe’s ability.",
-    "black-white": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target’s Ability.",
-    "black-2-white-2": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target’s Ability.",
-    "x-y": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target’s Ability.",
-    "omega-ruby-alpha-sapphire": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target’s Ability.",
-    "sun-moon": "The user hurls up its stomach acids on the target.\nThe fluid eliminates the effect of the target’s Ability.",
-    "ultra-sun-ultra-moon": "The user hurls up its stomach acids on the target.\nThe fluid eliminates the effect of the target’s Ability.",
-    "lets-go-pikachu-lets-go-eevee": "The user hurls up its stomach acids on the target.\nThe fluid eliminates the effect of the target’s Ability.",
-    "sword-shield": "The user hurls up its stomach acids on the target.\nThe fluid eliminates the effect of the target’s Ability."
-  },
-  "effect": {
-    "full": "The target's ability is disabled as long as it remains on the field.\n\nThis effect is passed on by baton pass.",
-    "shortEffect": "Nullifies target's ability until it leaves battle."
-  },
-  "priority": 0
+    "_id": 380,
+    "key": "gastro-acid",
+    "name": {
+        "japanese-kana": "いえき",
+        "korean": "위액",
+        "traditional-chinese": "胃液",
+        "french": "Suc Digestif",
+        "german": "Magensäfte",
+        "spanish": "Bilis",
+        "italian": "Gastroacido",
+        "english": "Gastro Acid",
+        "japanese": "いえき",
+        "simplified-chinese": "胃液",
+        "latin-american-spanish": "Ácido Gástrico"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user hurls up its stomach acids on the foe. The fluid eliminates the effect of the foe’s ability.",
+            "pt": "The user hurls up its stomach acids on the foe. The fluid eliminates the effect of the foe’s ability.",
+            "hgss": "The user hurls up its stomach acids on the foe. The fluid eliminates the effect of the foe’s ability.",
+            "bw": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "b2w2": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "xy": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "oras": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "sm": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "usum": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "lgpe": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "swsh": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+            "la": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability.",
+            "sv": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability."
+        },
+        "french": {
+            "bw": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise la capacité spéciale de l’ennemi.",
+            "xy": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi.",
+            "oras": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi.",
+            "sm": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi.",
+            "usum": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi.",
+            "lgpe": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi.",
+            "swsh": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "いえきを　あいての からだに　はきつける。ついた　いえきは あいての　とくせいの　こうかを　けす。",
+            "oras": "いえきを　あいての からだに　はきつける。ついた　いえきは あいての　とくせいの　こうかを　けす。",
+            "sm": "いえきを　あいての からだに　はきつける。　ついた　いえきは あいての　とくせいの　こうかを　けす。",
+            "usum": "いえきを　あいての からだに　はきつける。　ついた　いえきは あいての　とくせいの　こうかを　けす。",
+            "lgpe": "いえきを　あいての からだに　はきつける。　ついた　いえきは あいての　とくせいの　こうかを　けす。",
+            "swsh": "いえきを　あいての からだに　はきつける。　ついた　いえきは あいての　とくせいの　こうかを　けす。"
+        },
+        "korean": {
+            "xy": "상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.",
+            "oras": "상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.",
+            "sm": "상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.",
+            "usum": "상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.",
+            "lgpe": "상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.",
+            "swsh": "상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다."
+        },
+        "german": {
+            "xy": "Anwender greift das Ziel mit eigenen Magensäften an. Entfernt Effekte von dessen Fähigkeit.",
+            "oras": "Anwender greift das Ziel mit eigenen Magensäften an. Entfernt Effekte von dessen Fähigkeit.",
+            "sm": "Anwender greift das Ziel mit eigenen Magensäften an. Entfernt Effekte von dessen Fähigkeit.",
+            "usum": "Anwender greift das Ziel mit eigenen Magensäften an. Entfernt Effekte von dessen Fähigkeit.",
+            "lgpe": "Anwender greift das Ziel mit eigenen Magensäften an. Entfernt Effekte von dessen Fähigkeit.",
+            "swsh": "Anwender greift das Ziel mit eigenen Magensäften an. Entfernt Effekte von dessen Fähigkeit."
+        },
+        "spanish": {
+            "xy": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "oras": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "sm": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "usum": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "lgpe": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "swsh": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia acidi gastrici sul bersaglio. Il fluido annulla l’abilità del Pokémon colpito.",
+            "oras": "Chi la usa lancia acidi gastrici sul bersaglio. Il fluido annulla l’abilità del Pokémon colpito.",
+            "sm": "Chi la usa lancia acidi gastrici sul bersaglio. Il fluido annulla l’abilità del Pokémon colpito.",
+            "usum": "Chi la usa lancia acidi gastrici sul bersaglio. Il fluido annulla l’abilità del Pokémon colpito.",
+            "lgpe": "Chi la usa lancia acidi gastrici sul bersaglio. Il fluido annulla l’abilità del Pokémon colpito.",
+            "swsh": "Chi la usa lancia acidi gastrici sul bersaglio. Il fluido annulla l’abilità del Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "胃液を　相手の 体に　吐きつける。ついた　胃液は 相手の　特性の　効果を　消す。",
+            "oras": "胃液を　相手の 体に　吐きつける。ついた　胃液は 相手の　特性の　効果を　消す。",
+            "sm": "胃液を　相手の 体に　吐きつける。　ついた　胃液は 相手の　特性の　効果を　消す。",
+            "usum": "胃液を　相手の 体に　吐きつける。　ついた　胃液は 相手の　特性の　効果を　消す。",
+            "lgpe": "胃液を　相手の 体に　吐きつける。　ついた　胃液は 相手の　特性の　効果を　消す。",
+            "swsh": "胃液を　相手の 体に　吐きつける。　ついた　胃液は 相手の　特性の　効果を　消す。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "oras": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "sm": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "usum": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "lgpe": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+            "swsh": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso."
+        },
+        "traditional-chinese": {
+            "sm": "將胃液吐向對手的身體。 沾到的胃液會消除 對手的特性效果。",
+            "usum": "將胃液吐向對手的身體。 沾到的胃液會消除 對手的特性效果。",
+            "lgpe": "將胃液吐向對手的身體。 沾到的胃液會消除 對手的特性效果。",
+            "swsh": "將胃液吐向對手的身體。 沾到的胃液會消除 對手的特性效果。"
+        },
+        "simplified-chinese": {
+            "sm": "将胃液吐向对手的身体。 沾上的胃液会消除 对手的特性效果。",
+            "usum": "将胃液吐向对手的身体。 沾上的胃液会消除 对手的特性效果。",
+            "lgpe": "将胃液吐向对手的身体。 沾上的胃液会消除 对手的特性效果。",
+            "swsh": "将胃液吐向对手的身体。 沾上的胃液会消除 对手的特性效果。"
+        }
+    },
+    "effect": {
+        "full": "The target’s ability is disabled as long as it remains on the field. This effect is passed on by Baton Pass.",
+        "shortEffect": "Nullifies target’s ability until it leaves battle."
+    }
 }

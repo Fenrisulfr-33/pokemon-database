@@ -1,47 +1,146 @@
 {
-  "_id": 5,
-  "key": "mega-punch",
-  "name": {
-    "english": "Mega Punch",
-    "japanese": "メガトンパンチ",
-    "chinese": "百万吨拳击",
-    "korean": "메가톤펀치",
-    "german": "Megapuño",
-    "french": "Megahieb",
-    "italian": "Mega Punch",
-    "spanish": "Megapugno"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 80,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A powerful punch\nthrown very hard.",
-    "crystal": "A powerful punch\nthrown very hard.",
-    "ruby-sapphire": "A strong punch thrown with\nincredible power.",
-    "emerald": "A strong punch thrown with\nincredible power.",
-    "firered-leafgreen": "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.",
-    "diamond-pearl": "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n",
-    "platinum": "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n",
-    "heartgold-soulsilver": "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n",
-    "black-white": "The target is slugged by a punch thrown\nwith muscle-packed power.",
-    "black-2-white-2": "The target is slugged by a punch thrown\nwith muscle-packed power.",
-    "x-y": "The target is slugged by a punch thrown\nwith muscle-packed power.",
-    "omega-ruby-alpha-sapphire": "The target is slugged by a punch thrown\nwith muscle-packed power.",
-    "sun-moon": "The target is slugged by a punch thrown with\nmuscle-packed power.",
-    "ultra-sun-ultra-moon": "The target is slugged by a punch thrown with\nmuscle-packed power.",
-    "lets-go-pikachu-lets-go-eevee": "The target is slugged by a punch thrown with\nmuscle-packed power.",
-    "sword-shield": "The target is slugged by a punch thrown with\nmuscle-packed power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 5,
+    "key": "mega-punch",
+    "name": {
+        "japanese-kana": "メガトンパンチ",
+        "korean": "메가톤펀치",
+        "traditional-chinese": "百萬噸重拳",
+        "french": "Ultimapoing",
+        "german": "Megahieb",
+        "spanish": "Megapuño",
+        "italian": "Megapugno",
+        "english": "Mega Punch",
+        "japanese": "メガトンパンチ",
+        "simplified-chinese": "百万吨重拳",
+        "latin-american-spanish": "Megapuño"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A powerful punch thrown very hard.",
+            "cr": "A powerful punch thrown very hard.",
+            "rs": "A strong punch thrown with incredible power.",
+            "em": "A strong punch thrown with incredible power.",
+            "frlg": "The foe is slugged by a punch thrown with muscle-packed power.",
+            "dp": "The foe is slugged by a punch thrown with muscle-packed power.",
+            "pt": "The foe is slugged by a punch thrown with muscle-packed power.",
+            "hgss": "The foe is slugged by a punch thrown with muscle-packed power.",
+            "bw": "The target is slugged by a punch thrown with muscle-packed power.",
+            "b2w2": "The target is slugged by a punch thrown with muscle-packed power.",
+            "xy": "The target is slugged by a punch thrown with muscle-packed power.",
+            "oras": "The target is slugged by a punch thrown with muscle-packed power.",
+            "sm": "The target is slugged by a punch thrown with muscle-packed power.",
+            "usum": "The target is slugged by a punch thrown with muscle-packed power.",
+            "lgpe": "The target is slugged by a punch thrown with muscle-packed power.",
+            "swsh": "The target is slugged by a punch thrown with muscle-packed power.",
+            "la": "The target is slugged by a punch thrown with muscle-packed power.",
+            "sv": "The target is slugged by a punch thrown with muscle-packed power."
+        },
+        "french": {
+            "bw": "L’ennemi reçoit un coup de poing d’une puissance incroyable.",
+            "xy": "L’ennemi reçoit un coup de poing d’une puissance incroyable.",
+            "oras": "L’ennemi reçoit un coup de poing d’une puissance incroyable.",
+            "sm": "L’ennemi reçoit un coup de poing d’une puissance incroyable.",
+            "usum": "L’ennemi reçoit un coup de poing d’une puissance incroyable.",
+            "lgpe": "L’ennemi reçoit un coup de poing d’une puissance incroyable.",
+            "swsh": "L’ennemi reçoit un coup de poing d’une puissance incroyable."
+        },
+        "japanese-kana": {
+            "xy": "ちからを　こめた　パンチで あいてを　こうげきする。",
+            "oras": "ちからを　こめた　パンチで あいてを　こうげきする。",
+            "sm": "ちからを　こめた　パンチで あいてを　こうげきする。",
+            "usum": "ちからを　こめた　パンチで あいてを　こうげきする。",
+            "lgpe": "ちからを　こめた　パンチで あいてを　こうげきする。",
+            "swsh": "ちからを　こめた　パンチで あいてを　こうげきする。"
+        },
+        "korean": {
+            "xy": "힘을 담은 펀치로 상대를 공격한다.",
+            "oras": "힘을 담은 펀치로 상대를 공격한다.",
+            "sm": "힘을 담은 펀치로 상대를 공격한다.",
+            "usum": "힘을 담은 펀치로 상대를 공격한다.",
+            "lgpe": "힘을 담은 펀치로 상대를 공격한다.",
+            "swsh": "힘을 담은 펀치로 상대를 공격한다."
+        },
+        "german": {
+            "xy": "Ein unglaublich kräftiger Hieb.",
+            "oras": "Ein unglaublich kräftiger Hieb.",
+            "sm": "Ein unglaublich kräftiger Hieb.",
+            "usum": "Ein unglaublich kräftiger Hieb.",
+            "lgpe": "Ein unglaublich kräftiger Hieb.",
+            "swsh": "Ein unglaublich kräftiger Hieb."
+        },
+        "spanish": {
+            "xy": "Un puñetazo de gran potencia.",
+            "oras": "Un puñetazo de gran potencia.",
+            "sm": "Un puñetazo de gran potencia.",
+            "usum": "Un puñetazo de gran potencia.",
+            "lgpe": "Un puñetazo de gran potencia.",
+            "swsh": "Un puñetazo de gran potencia."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un pugno poderoso.",
+            "oras": "Colpisce il bersaglio con un pugno poderoso.",
+            "sm": "Colpisce il bersaglio con un pugno poderoso.",
+            "usum": "Colpisce il bersaglio con un pugno poderoso.",
+            "lgpe": "Colpisce il bersaglio con un pugno poderoso.",
+            "swsh": "Colpisce il bersaglio con un pugno poderoso."
+        },
+        "japanese": {
+            "xy": "力を　こめた　パンチで 相手を　攻撃する。",
+            "oras": "力を　こめた　パンチで 相手を　攻撃する。",
+            "sm": "力を　こめた　パンチで 相手を　攻撃する。",
+            "usum": "力を　こめた　パンチで 相手を　攻撃する。",
+            "lgpe": "力を　こめた　パンチで 相手を　攻撃する。",
+            "swsh": "力を　こめた　パンチで 相手を　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un puñetazo de gran potencia.",
+            "oras": "Un puñetazo de gran potencia.",
+            "sm": "Un puñetazo de gran potencia.",
+            "usum": "Un puñetazo de gran potencia.",
+            "lgpe": "Un puñetazo de gran potencia.",
+            "swsh": "Un puñetazo de gran potencia."
+        },
+        "traditional-chinese": {
+            "sm": "用帶有強大力量的拳頭 攻擊對手。",
+            "usum": "用帶有強大力量的拳頭 攻擊對手。",
+            "lgpe": "用帶有強大力量的拳頭 攻擊對手。",
+            "swsh": "用帶有強大力量的拳頭 攻擊對手。"
+        },
+        "simplified-chinese": {
+            "sm": "用充满力量的拳头攻击对手。",
+            "usum": "用充满力量的拳头攻击对手。",
+            "lgpe": "用充满力量的拳头攻击对手。",
+            "swsh": "用充满力量的拳头攻击对手。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 360,
-  "key": "gyro-ball",
-  "name": {
-    "english": "Gyro Ball",
-    "japanese": "ジャイロボール",
-    "chinese": "回转球",
-    "korean": "자이로볼",
-    "german": "Giro Bola",
-    "french": "Gyroball",
-    "italian": "Gyro Ball",
-    "spanish": "Vortexpalla"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
-    "platinum": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
-    "heartgold-soulsilver": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
-    "black-white": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
-    "black-2-white-2": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
-    "x-y": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move’s power.",
-    "sun-moon": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power.",
-    "ultra-sun-ultra-moon": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power.",
-    "sword-shield": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power increases with the target's current Speed compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150.",
-    "shortEffect": "Power raises when the user has lower Speed, up to a maximum of 150."
-  },
-  "priority": 0
+    "_id": 360,
+    "key": "gyro-ball",
+    "name": {
+        "japanese-kana": "ジャイロボール",
+        "korean": "자이로볼",
+        "traditional-chinese": "陀螺球",
+        "french": "Gyroballe",
+        "german": "Gyroball",
+        "spanish": "Giro Bola",
+        "italian": "Vortexpalla",
+        "english": "Gyro Ball",
+        "japanese": "ジャイロボール",
+        "simplified-chinese": "陀螺球",
+        "latin-american-spanish": "Giro Bola"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 5,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user tackles the foe with a high-speed spin. The slower the user, the greater the damage.",
+            "pt": "The user tackles the foe with a high-speed spin. The slower the user, the greater the damage.",
+            "hgss": "The user tackles the foe with a high-speed spin. The slower the user, the greater the damage.",
+            "bw": "The user tackles the target with a high-speed spin. The slower the user, the greater the damage.",
+            "b2w2": "The user tackles the target with a high-speed spin. The slower the user, the greater the damage.",
+            "xy": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+            "oras": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+            "sm": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+            "usum": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+            "lgpe": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+            "swsh": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+            "la": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move's power.",
+            "sv": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move's power."
+        },
+        "french": {
+            "bw": "Le lanceur effectue une rotation et frappe l’ennemi. Plus le lanceur est lent, plus il fait de dégâts.",
+            "xy": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+            "oras": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+            "sm": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+            "usum": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+            "lgpe": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+            "swsh": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il inflige de dégâts."
+        },
+        "japanese-kana": {
+            "xy": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。",
+            "oras": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。",
+            "sm": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。",
+            "usum": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。",
+            "lgpe": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。",
+            "swsh": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。"
+        },
+        "korean": {
+            "xy": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.",
+            "oras": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.",
+            "sm": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.",
+            "usum": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.",
+            "lgpe": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.",
+            "swsh": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다."
+        },
+        "german": {
+            "xy": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders, desto höher der Schaden.",
+            "oras": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders, desto höher der Schaden.",
+            "sm": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders im Vergleich zum Ziel ist, desto höher der Schaden.",
+            "usum": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders im Vergleich zum Ziel ist, desto höher der Schaden.",
+            "lgpe": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders im Vergleich zum Ziel ist, desto höher der Schaden.",
+            "swsh": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders im Vergleich zum Ziel ist, desto höher der Schaden."
+        },
+        "spanish": {
+            "xy": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "oras": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "sm": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "usum": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "lgpe": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "swsh": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+            "oras": "Chi la usa colpisce il bersaglio con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+            "sm": "Chi la usa colpisce il bersaglio con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+            "usum": "Chi la usa colpisce il bersaglio con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+            "lgpe": "Chi la usa colpisce il bersaglio con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+            "swsh": "Chi la usa si scaglia sul bersaglio facendo ruotare vorticosamente il proprio corpo. Più lento è chi la usa, maggiore è il danno."
+        },
+        "japanese": {
+            "xy": "体を　高速に　回転させて 体当たりする。相手より　素早さが 低いほど　強い。",
+            "oras": "体を　高速に　回転させて 体当たりする。相手より　素早さが 低いほど　強い。",
+            "sm": "体を　高速に　回転させて 体当たりする。相手より　素早さが 低いほど　強い。",
+            "usum": "体を　高速に　回転させて 体当たりする。相手より　素早さが 低いほど　強い。",
+            "lgpe": "体を　高速に　回転させて 体当たりする。相手より　素早さが 低いほど　強い。",
+            "swsh": "体を　高速に　回転させて 体当たりする。相手より　素早さが 低いほど　強い。"
+        },
+        "latin-american-spanish": {
+            "xy": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "oras": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "sm": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "usum": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "lgpe": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+            "swsh": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa."
+        },
+        "traditional-chinese": {
+            "sm": "高速旋轉身體，撞擊對手。 速度比對手越慢，威力越大。",
+            "usum": "高速旋轉身體，撞擊對手。 速度比對手越慢，威力越大。",
+            "lgpe": "高速旋轉身體，撞擊對手。 速度比對手越慢，威力越大。",
+            "swsh": "高速旋轉身體，撞擊對手。 速度比對手越慢，威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "让身体高速旋转并撞击对手。 速度比对手越慢，威力越大。",
+            "usum": "让身体高速旋转并撞击对手。 速度比对手越慢，威力越大。",
+            "lgpe": "让身体高速旋转并撞击对手。 速度比对手越慢，威力越大。",
+            "swsh": "让身体高速旋转并撞击对手。 速度比对手越慢，威力越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases with the target’s current Speed compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150.",
+        "shortEffect": "Power raises when the user has lower Speed, up to a maximum of 150."
+    }
 }

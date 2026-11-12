@@ -1,47 +1,150 @@
 {
-  "_id": 207,
-  "key": "swagger",
-  "name": {
-    "english": "Swagger",
-    "japanese": "いばる",
-    "chinese": "装腔作势",
-    "korean": "뽐내기",
-    "german": "Contoneo",
-    "french": "Angeberei",
-    "italian": "Swagger",
-    "spanish": "Bullo"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 15,
-  "power": null,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Causes confusion\nand raises ATTACK.",
-    "crystal": "Causes confusion\nand raises ATTACK.",
-    "ruby-sapphire": "Confuses the foe, but also\nsharply raises ATTACK.",
-    "emerald": "Confuses the foe, but also\nsharply raises ATTACK.",
-    "firered-leafgreen": "A move that makes\nthe foe confused,\nbut also sharply\nraises its ATTACK.",
-    "diamond-pearl": "The user enrages the\nfoe into confusion.\nHowever, it also\nsharply raises the\nfoe’s Attack stat.",
-    "platinum": "The user enrages the\nfoe into confusion.\nHowever, it also\nsharply raises the\nfoe’s Attack stat.",
-    "heartgold-soulsilver": "The user enrages the\nfoe into confusion.\nHowever, it also\nsharply raises the\nfoe’s Attack stat.",
-    "black-white": "The user enrages and confuses the target.\nHowever, it also sharply raises the\ntarget’s Attack stat.",
-    "black-2-white-2": "The user enrages and confuses the target.\nHowever, it also sharply raises the\ntarget’s Attack stat.",
-    "x-y": "The user enrages and confuses the target.\nHowever, this also sharply raises the\ntarget’s Attack stat.",
-    "omega-ruby-alpha-sapphire": "The user enrages and confuses the target.\nHowever, this also sharply raises the\ntarget’s Attack stat.",
-    "sun-moon": "The user enrages and confuses the target. However,\nthis also sharply raises the target’s Attack stat.",
-    "ultra-sun-ultra-moon": "The user enrages and confuses the target. However,\nthis also sharply raises the target’s Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user enrages and confuses the target. However,\nthis also sharply raises the target’s Attack stat.",
-    "sword-shield": "The user enrages and confuses the target. However,\nthis also sharply raises the target’s Attack stat."
-  },
-  "effect": {
-    "full": "Raises the target's Attack by two stages, then confuses it.  If the target's Attack cannot be raised by two stages, the confusion is not applied.",
-    "shortEffect": "Raises the target's Attack by two stages and confuses the target."
-  },
-  "priority": 0
+    "_id": 207,
+    "key": "swagger",
+    "name": {
+        "japanese-kana": "いばる",
+        "korean": "뽐내기",
+        "traditional-chinese": "虛張聲勢",
+        "french": "Vantardise",
+        "german": "Angeberei",
+        "spanish": "Fanfarronear",
+        "italian": "Bullo",
+        "english": "Swagger",
+        "japanese": "いばる",
+        "simplified-chinese": "虚张声势",
+        "latin-american-spanish": "Fanfarronear"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 15,
+    "power": null,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "swagger",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "accuracy": 90
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Causes confusion and raises ATTACK.",
+            "cr": "Causes confusion and raises ATTACK.",
+            "rs": "Confuses the foe, but also sharply raises ATTACK.",
+            "em": "Confuses the foe, but also sharply raises ATTACK.",
+            "frlg": "A move that makes the foe confused, but also sharply raises its ATTACK.",
+            "dp": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat.",
+            "pt": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat.",
+            "hgss": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat.",
+            "bw": "The user enrages and confuses the target. However, it also sharply raises the target’s Attack stat.",
+            "b2w2": "The user enrages and confuses the target. However, it also sharply raises the target’s Attack stat.",
+            "xy": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+            "oras": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+            "sm": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+            "usum": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+            "lgpe": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+            "swsh": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+            "la": "The user enrages and confuses the target. However, this also sharply raises the target's Attack stat.",
+            "sv": "The user enrages and confuses the target. However, this also sharply boosts the target's Attack stat."
+        },
+        "french": {
+            "bw": "Fait enrager la cible et la plonge dans la confusion, mais augmente fortement son Attaque.",
+            "xy": "Fait enrager la cible et la plonge dans la confusion, mais augmente fortement son Attaque.",
+            "oras": "Fait enrager la cible et la plonge dans la confusion, mais augmente fortement son Attaque.",
+            "sm": "Fait enrager la cible et la plonge dans la confusion, mais augmente beaucoup son Attaque.",
+            "usum": "Fait enrager la cible et la plonge dans la confusion, mais augmente beaucoup son Attaque.",
+            "lgpe": "Fait enrager la cible et la plonge dans la confusion, mais augmente beaucoup son Attaque.",
+            "swsh": "Fait enrager la cible et la plonge dans la confusion, mais augmente beaucoup son Attaque."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　おこらせて　こんらん　させる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+            "oras": "あいてを　おこらせて　こんらん　させる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+            "sm": "あいてを　おこらせて　こんらん　させる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+            "usum": "あいてを　おこらせて　こんらん　させる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+            "lgpe": "あいてを　おこらせて　こんらん　させる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+            "swsh": "あいてを　おこらせて　こんらん　させる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。"
+        },
+        "korean": {
+            "xy": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다.",
+            "oras": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다.",
+            "sm": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다.",
+            "usum": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다.",
+            "lgpe": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다.",
+            "swsh": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다."
+        },
+        "german": {
+            "xy": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark.",
+            "oras": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark.",
+            "sm": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark.",
+            "usum": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark.",
+            "lgpe": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark.",
+            "swsh": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark."
+        },
+        "spanish": {
+            "xy": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "oras": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "sm": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "usum": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "lgpe": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "swsh": "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+        },
+        "italian": {
+            "xy": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.",
+            "oras": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.",
+            "sm": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.",
+            "usum": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.",
+            "lgpe": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.",
+            "swsh": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco."
+        },
+        "japanese": {
+            "xy": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。",
+            "oras": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。",
+            "sm": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。",
+            "usum": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。",
+            "lgpe": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。",
+            "swsh": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "oras": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "sm": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "usum": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "lgpe": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+            "swsh": "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+        },
+        "traditional-chinese": {
+            "sm": "讓對手火大並陷入混亂。 但對手的攻擊會因憤怒 而大幅提高。",
+            "usum": "讓對手火大並陷入混亂。 但對手的攻擊會因憤怒 而大幅提高。",
+            "lgpe": "讓對手火大並陷入混亂。 但對手的攻擊會因憤怒 而大幅提高。",
+            "swsh": "讓對手火大並陷入混亂。 但對手的攻擊會因憤怒 而大幅提高。"
+        },
+        "simplified-chinese": {
+            "sm": "激怒对手，使其混乱。 因为愤怒，对手的攻击 会大幅提高。",
+            "usum": "激怒对手，使其混乱。 因为愤怒，对手的攻击 会大幅提高。",
+            "lgpe": "激怒对手，使其混乱。 因为愤怒，对手的攻击 会大幅提高。",
+            "swsh": "激怒对手，使其混乱。 因为愤怒，对手的攻击 会大幅提高。"
+        }
+    },
+    "effect": {
+        "full": "Raises the target’s Attack by two stages, then confuses it.  If the target’s Attack cannot be raised by two stages, the confusion is not applied.",
+        "shortEffect": "Raises the target’s Attack by two stages and confuses the target."
+    }
 }

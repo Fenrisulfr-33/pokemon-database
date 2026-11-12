@@ -1,47 +1,146 @@
 {
-  "_id": 191,
-  "key": "spikes",
-  "name": {
-    "english": "Spikes",
-    "japanese": "まきびし",
-    "chinese": "满地星",
-    "korean": "압정뿌리기",
-    "german": "Púas",
-    "french": "Stachler",
-    "italian": "Spikes",
-    "spanish": "Punte"
-  },
-  "type": "Ground",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "opponents-field",
-  "changes": [],
-  "description": {
-    "gold-silver": "Hurts foes when\nthey switch out.",
-    "crystal": "Hurts foes when\nthey switch out.",
-    "ruby-sapphire": "Sets spikes that hurt a \nfoe switching out.",
-    "emerald": "Sets spikes that hurt a \nfoe switching in.",
-    "firered-leafgreen": "A trap of spikes is\nlaid around the\nfoe’s party to hurt\nfoes switching in.",
-    "diamond-pearl": "The user lays a trap\nof spikes at the\nfoe’s feet. The trap\nhurts foes that\nswitch into battle.",
-    "platinum": "The user lays a trap\nof spikes at the\nfoe’s feet. The trap\nhurts foes that\nswitch into battle.",
-    "heartgold-soulsilver": "The user lays a trap\nof spikes at the\nfoe’s feet. The trap\nhurts foes that\nswitch into battle.",
-    "black-white": "The user lays a trap of spikes at the\nopposing team’s feet. The trap hurts\nPokémon that switch into battle.",
-    "black-2-white-2": "The user lays a trap of spikes at the\nopposing team’s feet. The trap hurts\nPokémon that switch into battle.",
-    "x-y": "The user lays a trap of spikes at the\nopposing team’s feet. The trap hurts\nPokémon that switch into battle.",
-    "omega-ruby-alpha-sapphire": "The user lays a trap of spikes at the\nopposing team’s feet. The trap hurts\nPokémon that switch into battle.",
-    "sun-moon": "The user lays a trap of spikes at the opposing\nteam’s feet. The trap hurts Pokémon that switch\ninto battle.",
-    "ultra-sun-ultra-moon": "The user lays a trap of spikes at the opposing\nteam’s feet. The trap hurts Pokémon that switch\ninto battle.",
-    "lets-go-pikachu-lets-go-eevee": "The user lays a trap of spikes at the opposing\nteam’s feet. The trap hurts Pokémon that switch\ninto battle.",
-    "sword-shield": "The user lays a trap of spikes at the opposing\nteam’s feet. The trap hurts Pokémon that switch\ninto battle."
-  },
-  "effect": {
-    "full": "Scatters spikes around the opposing field, which damage opposing Pokémon that enter the field for 1/8 of their max HP.  Pokémon immune to ground moves are immune to this damage, except during gravity.  Up to three layers of spikes may be laid down, adding 1/16 to the damage done: two layers of spikes damage for 3/16 max HP, and three layers damage for 1/4 max HP.\n\nwonder guard does not block damage from this effect.\n\nrapid spin removes this effect from its user's side of the field.  defog removes this effect from its target's side of the field.",
-    "shortEffect": "Scatters Spikes, hurting opposing Pokémon that switch in."
-  },
-  "priority": 0
+    "_id": 191,
+    "key": "spikes",
+    "name": {
+        "japanese-kana": "まきびし",
+        "korean": "압정뿌리기",
+        "traditional-chinese": "撒菱",
+        "french": "Picots",
+        "german": "Stachler",
+        "spanish": "Púas",
+        "italian": "Punte",
+        "english": "Spikes",
+        "japanese": "まきびし",
+        "simplified-chinese": "撒菱",
+        "latin-american-spanish": "Púas"
+    },
+    "type": "ground",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "opponents-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Hurts foes when they switch out.",
+            "cr": "Hurts foes when they switch out.",
+            "rs": "Sets spikes that hurt a foe switching out.",
+            "em": "Sets spikes that hurt a foe switching in.",
+            "frlg": "A trap of spikes is laid around the foe’s party to hurt foes switching in.",
+            "dp": "The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.",
+            "pt": "The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.",
+            "hgss": "The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.",
+            "bw": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "b2w2": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "xy": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "oras": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "sm": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "usum": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "lgpe": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "swsh": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
+            "la": "The user lays a trap of spikes at the target's feet. The spikes left behind by this attack continue to damage the target for several turns.",
+            "sv": "The user lays a trap of spikes at the feet of the opposing team. The spikes will damage opposing Pokémon that switch into battle."
+        },
+        "french": {
+            "bw": "Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.",
+            "xy": "Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.",
+            "oras": "Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.",
+            "sm": "Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.",
+            "usum": "Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.",
+            "lgpe": "Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat.",
+            "swsh": "Le lanceur disperse des piquants sur le sol pour blesser tout ennemi qui entre au combat."
+        },
+        "japanese-kana": {
+            "xy": "あいての　あしもとに　まきびしを しかける。こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "oras": "あいての　あしもとに　まきびしを しかける。こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "sm": "あいての　あしもとに　まきびしを しかける。こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "usum": "あいての　あしもとに　まきびしを しかける。こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "lgpe": "あいての　あしもとに　まきびしを しかける。こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "swsh": "あいての　あしもとに　まきびしを しかける。こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다.",
+            "oras": "상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다.",
+            "sm": "상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다.",
+            "usum": "상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다.",
+            "lgpe": "상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다.",
+            "swsh": "상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다."
+        },
+        "german": {
+            "xy": "Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.",
+            "oras": "Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.",
+            "sm": "Der Anwender legt Stacheln aus, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.",
+            "usum": "Der Anwender legt Stacheln aus, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.",
+            "lgpe": "Der Anwender legt Stacheln aus, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.",
+            "swsh": "Der Anwender legt Stacheln aus, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden."
+        },
+        "spanish": {
+            "xy": "Esparce púas en el equipo rival. Las púas hieren a los Pokémon rivales que entran en combate.",
+            "oras": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "sm": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "usum": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "lgpe": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "swsh": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate."
+        },
+        "italian": {
+            "xy": "Chi la usa piazza sul terreno una trappola di punte che danneggia i nemici quando scendono in campo.",
+            "oras": "Chi la usa piazza sul terreno una trappola di punte che danneggia i nemici quando scendono in campo.",
+            "sm": "Chi la usa piazza sul terreno una trappola di punte che danneggia i nemici quando scendono in campo.",
+            "usum": "Chi la usa piazza sul terreno una trappola di punte che danneggia i nemici quando scendono in campo.",
+            "lgpe": "Chi la usa piazza sul terreno una trappola di punte che danneggia i nemici quando scendono in campo.",
+            "swsh": "Chi la usa piazza sul terreno una trappola di punte che danneggia i nemici quando scendono in campo."
+        },
+        "japanese": {
+            "xy": "相手の　足下に　まきびしを しかける。交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "oras": "相手の　足下に　まきびしを しかける。交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "sm": "相手の　足下に　まきびしを しかける。交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "usum": "相手の　足下に　まきびしを しかける。交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "lgpe": "相手の　足下に　まきびしを しかける。交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "swsh": "相手の　足下に　まきびしを しかける。交代で　でてきた　相手の ポケモンに　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Esparce púas en el equipo rival. Las púas hieren a los Pokémon rivales que entran en combate.",
+            "oras": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "sm": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "usum": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "lgpe": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.",
+            "swsh": "Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate."
+        },
+        "traditional-chinese": {
+            "sm": "將撒菱散布在對手的腳下。 讓對手替換出場的寶可夢 受到傷害。",
+            "usum": "將撒菱散布在對手的腳下。 讓對手替換出場的寶可夢 受到傷害。",
+            "lgpe": "將撒菱散布在對手的腳下。 讓對手替換出場的寶可夢 受到傷害。",
+            "swsh": "將撒菱散布在對手的腳下。 讓對手替換出場的寶可夢 受到傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "在对手的脚下扔撒菱。 对替换出场的对手的宝可梦 给予伤害。",
+            "usum": "在对手的脚下扔撒菱。 对替换出场的对手的宝可梦 给予伤害。",
+            "lgpe": "在对手的脚下扔撒菱。 对替换出场的对手的宝可梦 给予伤害。",
+            "swsh": "在对手的脚下扔撒菱。 对替换出场的对手的宝可梦 给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Scatters spikes around the opposing field, which damage opposing Pokémon that enter the field for 1/8 of their max HP.  Pokémon immune to Ground moves are immune to this damage, except during Gravity.  Up to three layers of spikes may be laid down, adding 1/16 to the damage done: two layers of spikes damage for 3/16 max HP, and three layers damage for 1/4 max HP. Wonder Guard does not block damage from this effect. Rapid Spin removes this effect from its user’s side of the field.  Defog removes this effect from its target’s side of the field.",
+        "shortEffect": "Scatters Spikes, hurting opposing Pokémon that switch in."
+    }
 }

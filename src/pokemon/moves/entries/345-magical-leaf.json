@@ -1,45 +1,151 @@
 {
-  "_id": 345,
-  "key": "magical-leaf",
-  "name": {
-    "english": "Magical Leaf",
-    "japanese": "マジカルリーフ",
-    "chinese": "魔法叶",
-    "korean": "메지컬리프",
-    "german": "Hoja Mágica",
-    "french": "Zauberblatt",
-    "italian": "Magical Leaf",
-    "spanish": "Fogliamagica"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": 60,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks with a strange leaf\nthat cannot be evaded.",
-    "emerald": "Attacks with a strange leaf\nthat cannot be evaded.",
-    "firered-leafgreen": "The foe is attacked\nwith a strange leaf\nthat cannot be\nevaded.",
-    "diamond-pearl": "The user scatters\ncurious leaves that\nchase the foe.\nThis attack will not\nmiss.",
-    "platinum": "The user scatters\ncurious leaves that\nchase the foe.\nThis attack will not\nmiss.",
-    "heartgold-soulsilver": "The user scatters\ncurious leaves that\nchase the foe.\nThis attack will not\nmiss.",
-    "black-white": "The user scatters curious leaves\nthat chase the target.\nThis attack will not miss.",
-    "black-2-white-2": "The user scatters curious leaves\nthat chase the target.\nThis attack will not miss.",
-    "x-y": "The user scatters curious leaves\nthat chase the target.\nThis attack never misses.",
-    "omega-ruby-alpha-sapphire": "The user scatters curious leaves\nthat chase the target.\nThis attack never misses.",
-    "sun-moon": "The user scatters curious leaves that chase the\ntarget. This attack never misses.",
-    "ultra-sun-ultra-moon": "The user scatters curious leaves that chase the\ntarget. This attack never misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user scatters curious leaves that chase the\ntarget. This attack never misses.",
-    "sword-shield": "The user scatters curious leaves that chase the\ntarget. This attack never misses."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 345,
+    "key": "magical-leaf",
+    "name": {
+        "japanese-kana": "マジカルリーフ",
+        "korean": "매지컬리프",
+        "traditional-chinese": "魔法葉",
+        "french": "Feuille Magik",
+        "german": "Zauberblatt",
+        "spanish": "Hoja Mágica",
+        "italian": "Fogliamagica",
+        "english": "Magical Leaf",
+        "japanese": "マジカルリーフ",
+        "simplified-chinese": "魔法叶",
+        "latin-american-spanish": "Hojas Mágicas"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Attacks with a strange leaf that cannot be evaded.",
+            "em": "Attacks with a strange leaf that cannot be evaded.",
+            "frlg": "The foe is attacked with a strange leaf that cannot be evaded.",
+            "dp": "The user scatters curious leaves that chase the foe. This attack will not miss.",
+            "pt": "The user scatters curious leaves that chase the foe. This attack will not miss.",
+            "hgss": "The user scatters curious leaves that chase the foe. This attack will not miss.",
+            "bw": "The user scatters curious leaves that chase the target. This attack will not miss.",
+            "b2w2": "The user scatters curious leaves that chase the target. This attack will not miss.",
+            "xy": "The user scatters curious leaves that chase the target. This attack never misses.",
+            "oras": "The user scatters curious leaves that chase the target. This attack never misses.",
+            "sm": "The user scatters curious leaves that chase the target. This attack never misses.",
+            "usum": "The user scatters curious leaves that chase the target. This attack never misses.",
+            "lgpe": "The user scatters curious leaves that chase the target. This attack never misses.",
+            "swsh": "The user scatters curious leaves that chase the target. This attack never misses.",
+            "la": "The user scatters curious leaves that chase the target. This attack never misses.",
+            "sv": "The user scatters curious leaves that chase the target. This attack never misses."
+        },
+        "french": {
+            "bw": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.",
+            "xy": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.",
+            "oras": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.",
+            "sm": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.",
+            "usum": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.",
+            "lgpe": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.",
+            "swsh": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　ついせきする ふしぎな　はっぱを まきちらす。 こうげきは　かならず　めいちゅう　する。",
+            "oras": "あいてを　ついせきする ふしぎな　はっぱを まきちらす。 こうげきは　かならず　めいちゅう　する。",
+            "sm": "あいてを　ついせきする ふしぎな　はっぱを　まきちらす。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "あいてを　ついせきする ふしぎな　はっぱを　まきちらす。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "あいてを　ついせきする ふしぎな　はっぱを　まきちらす。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "あいてを　ついせきする ふしぎな　はっぱを　まきちらす。 こうげきは　かならず　めいちゅう　する。"
+        },
+        "korean": {
+            "xy": "상대를 추적하는 이상한 잎사귀를 흩뿌린다. 공격은 반드시 명중한다.",
+            "oras": "상대를 추적하는 이상한 잎사귀를 흩뿌린다. 공격은 반드시 명중한다.",
+            "sm": "상대를 추적하는 이상한 잎사귀를 흩뿌린다. 공격은 반드시 명중한다.",
+            "usum": "상대를 추적하는 이상한 잎사귀를 흩뿌린다. 공격은 반드시 명중한다.",
+            "lgpe": "상대를 추적하는 이상한 잎사귀를 흩뿌린다. 공격은 반드시 명중한다.",
+            "swsh": "상대를 추적하는 이상한 잎사귀를 흩뿌린다. 공격은 반드시 명중한다."
+        },
+        "german": {
+            "xy": "Magischer Blattangriff, dem nicht auszuweichen ist.",
+            "oras": "Magischer Blattangriff, dem nicht auszuweichen ist.",
+            "sm": "Magischer Blattangriff, dem nicht auszuweichen ist.",
+            "usum": "Magischer Blattangriff, dem nicht auszuweichen ist.",
+            "lgpe": "Magischer Blattangriff, dem nicht auszuweichen ist.",
+            "swsh": "Magischer Blattangriff, dem nicht auszuweichen ist."
+        },
+        "spanish": {
+            "xy": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "oras": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "sm": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "usum": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "lgpe": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "swsh": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar."
+        },
+        "italian": {
+            "xy": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile.",
+            "oras": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile.",
+            "sm": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile.",
+            "usum": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile.",
+            "lgpe": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile.",
+            "swsh": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile."
+        },
+        "japanese": {
+            "xy": "相手を　追跡する 不思議な　はっぱを まきちらす。 攻撃は　必ず　命中する。",
+            "oras": "相手を　追跡する 不思議な　はっぱを まきちらす。 攻撃は　必ず　命中する。",
+            "sm": "相手を　追跡する 不思議な　はっぱを　まきちらす。 攻撃は　必ず　命中する。",
+            "usum": "相手を　追跡する 不思議な　はっぱを　まきちらす。 攻撃は　必ず　命中する。",
+            "lgpe": "相手を　追跡する 不思議な　はっぱを　まきちらす。 攻撃は　必ず　命中する。",
+            "swsh": "相手を　追跡する 不思議な　はっぱを　まきちらす。 攻撃は　必ず　命中する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "oras": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "sm": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "usum": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "lgpe": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+            "swsh": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar."
+        },
+        "traditional-chinese": {
+            "sm": "散落可以追蹤 對手的神奇葉子。 攻擊必定會命中。",
+            "usum": "散落可以追蹤 對手的神奇葉子。 攻擊必定會命中。",
+            "lgpe": "散落可以追蹤 對手的神奇葉子。 攻擊必定會命中。",
+            "swsh": "散落可以追蹤 對手的神奇葉子。 攻擊必定會命中。"
+        },
+        "simplified-chinese": {
+            "sm": "散落可以追踪 对手的神奇叶片。 攻击必定会命中。",
+            "usum": "散落可以追踪 对手的神奇叶片。 攻击必定会命中。",
+            "lgpe": "散落可以追踪 对手的神奇叶片。 攻击必定会命中。",
+            "swsh": "散落可以追踪 对手的神奇叶片。 攻击必定会命中。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

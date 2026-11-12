@@ -1,45 +1,144 @@
 {
-  "_id": 285,
-  "key": "skill-swap",
-  "name": {
-    "english": "Skill Swap",
-    "japanese": "スキルスワップ",
-    "chinese": "交换绝招",
-    "korean": "스킬스웹",
-    "german": "Intercambio",
-    "french": "Fähigkeitstausch",
-    "italian": "Skill Swap",
-    "spanish": "Baratto"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "The user swaps special\nabilities with the target.",
-    "emerald": "The user swaps special\nabilities with the target.",
-    "firered-leafgreen": "The user employs\nits psychic power\nto swap abilities\nwith the foe.",
-    "diamond-pearl": "The user employs its\npsychic power to\nexchange abilities\nwith the foe.\n",
-    "platinum": "The user employs its\npsychic power to\nexchange abilities\nwith the foe.\n",
-    "heartgold-soulsilver": "The user employs its\npsychic power to\nexchange abilities\nwith the foe.\n",
-    "black-white": "The user employs its psychic power to\nexchange Abilities with the target.",
-    "black-2-white-2": "The user employs its psychic power to\nexchange Abilities with the target.",
-    "x-y": "The user employs its psychic power to\nexchange Abilities with the target.",
-    "omega-ruby-alpha-sapphire": "The user employs its psychic power to\nexchange Abilities with the target.",
-    "sun-moon": "The user employs its psychic power to exchange\nAbilities with the target.",
-    "ultra-sun-ultra-moon": "The user employs its psychic power to exchange\nAbilities with the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user employs its psychic power to exchange\nAbilities with the target.",
-    "sword-shield": "The user employs its psychic power to exchange\nAbilities with the target."
-  },
-  "effect": {
-    "full": "User and target switch abilities.  Ignores accuracy and evasion modifiers.\n\nIf either Pokémon has multitype or wonder guard, this move will fail.",
-    "shortEffect": "User and target swap abilities."
-  },
-  "priority": 0
+    "_id": 285,
+    "key": "skill-swap",
+    "name": {
+        "japanese-kana": "スキルスワップ",
+        "korean": "스킬스왑",
+        "traditional-chinese": "特性互換",
+        "french": "Échange",
+        "german": "Fähigkeitstausch",
+        "spanish": "Intercambio",
+        "italian": "Baratto",
+        "english": "Skill Swap",
+        "japanese": "スキルスワップ",
+        "simplified-chinese": "特性互换",
+        "latin-american-spanish": "Intercambio"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "The user swaps special abilities with the target.",
+            "em": "The user swaps special abilities with the target.",
+            "frlg": "The user employs its psychic power to swap abilities with the foe.",
+            "dp": "The user employs its psychic power to exchange abilities with the foe.",
+            "pt": "The user employs its psychic power to exchange abilities with the foe.",
+            "hgss": "The user employs its psychic power to exchange abilities with the foe.",
+            "bw": "The user employs its psychic power to exchange Abilities with the target.",
+            "b2w2": "The user employs its psychic power to exchange Abilities with the target.",
+            "xy": "The user employs its psychic power to exchange Abilities with the target.",
+            "oras": "The user employs its psychic power to exchange Abilities with the target.",
+            "sm": "The user employs its psychic power to exchange Abilities with the target.",
+            "usum": "The user employs its psychic power to exchange Abilities with the target.",
+            "lgpe": "The user employs its psychic power to exchange Abilities with the target.",
+            "swsh": "The user employs its psychic power to exchange Abilities with the target.",
+            "la": "The user employs its psychic power to exchange Abilities with the target.",
+            "sv": "The user employs its psychic power to exchange Abilities with the target."
+        },
+        "french": {
+            "bw": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa capacité spéciale avec la cible.",
+            "xy": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.",
+            "oras": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.",
+            "sm": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.",
+            "usum": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.",
+            "lgpe": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.",
+            "swsh": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible."
+        },
+        "japanese-kana": {
+            "xy": "ちょうのうりょくで　じぶんの　とくせいと あいての　とくせいを　いれかえる。",
+            "oras": "ちょうのうりょくで　じぶんの　とくせいと あいての　とくせいを　いれかえる。",
+            "sm": "ちょうのうりょくで　じぶんの　とくせいと あいての　とくせいを　いれかえる。",
+            "usum": "ちょうのうりょくで　じぶんの　とくせいと あいての　とくせいを　いれかえる。",
+            "lgpe": "ちょうのうりょくで　じぶんの　とくせいと あいての　とくせいを　いれかえる。",
+            "swsh": "ちょうのうりょくで　じぶんの　とくせいと あいての　とくせいを　いれかえる。"
+        },
+        "korean": {
+            "xy": "초능력으로 자신의 특성과 상대의 특성을 바꾼다.",
+            "oras": "초능력으로 자신의 특성과 상대의 특성을 바꾼다.",
+            "sm": "초능력으로 자신의 특성과 상대의 특성을 바꾼다.",
+            "usum": "초능력으로 자신의 특성과 상대의 특성을 바꾼다.",
+            "lgpe": "초능력으로 자신의 특성과 상대의 특성을 바꾼다.",
+            "swsh": "초능력으로 자신의 특성과 상대의 특성을 바꾼다."
+        },
+        "german": {
+            "xy": "Anwender tauscht Fähigkeit mit dem Ziel.",
+            "oras": "Anwender tauscht Fähigkeit mit dem Ziel.",
+            "sm": "Anwender tauscht Fähigkeit mit dem Ziel.",
+            "usum": "Anwender tauscht Fähigkeit mit dem Ziel.",
+            "lgpe": "Anwender tauscht Fähigkeit mit dem Ziel.",
+            "swsh": "Anwender tauscht seine Fähigkeit mit der des Zieles."
+        },
+        "spanish": {
+            "xy": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "oras": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "sm": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "usum": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "lgpe": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "swsh": "Usa el poder psíquico para intercambiar habilidades con el objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa sfrutta le sue facoltà mentali per scambiare l’abilità con il bersaglio.",
+            "oras": "Chi la usa sfrutta le sue facoltà mentali per scambiare l’abilità con il bersaglio.",
+            "sm": "Chi la usa sfrutta le sue facoltà mentali per scambiare l’abilità con il bersaglio.",
+            "usum": "Chi la usa sfrutta le sue facoltà mentali per scambiare l’abilità con il bersaglio.",
+            "lgpe": "Chi la usa sfrutta le sue facoltà mentali per scambiare l’abilità con il bersaglio.",
+            "swsh": "Chi la usa sfrutta i suoi poteri psichici per scambiare l’abilità con il bersaglio."
+        },
+        "japanese": {
+            "xy": "超能力で　自分の　特性と 相手の　特性を　入れ替える。",
+            "oras": "超能力で　自分の　特性と 相手の　特性を　入れ替える。",
+            "sm": "超能力で　自分の　特性と 相手の　特性を　入れ替える。",
+            "usum": "超能力で　自分の　特性と 相手の　特性を　入れ替える。",
+            "lgpe": "超能力で　自分の　特性と 相手の　特性を　入れ替える。",
+            "swsh": "超能力で　自分の　特性と 相手の　特性を　入れ替える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "oras": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "sm": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "usum": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "lgpe": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+            "swsh": "Usa el poder psíquico para intercambiar habilidades con el objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用超能力將自己和 對手的特性互相交換。",
+            "usum": "用超能力將自己和 對手的特性互相交換。",
+            "lgpe": "用超能力將自己和 對手的特性互相交換。",
+            "swsh": "用超能力將自己和 對手的特性互相交換。"
+        },
+        "simplified-chinese": {
+            "sm": "利用超能力互换 自己和对手的特性。",
+            "usum": "利用超能力互换 自己和对手的特性。",
+            "lgpe": "利用超能力互换 自己和对手的特性。",
+            "swsh": "利用超能力互换 自己和对手的特性。"
+        }
+    },
+    "effect": {
+        "full": "User and target switch abilities.  Ignores accuracy and evasion modifiers. If either Pokémon has Multitype or Wonder Guard, this move will fail.",
+        "shortEffect": "User and target swap abilities."
+    }
 }

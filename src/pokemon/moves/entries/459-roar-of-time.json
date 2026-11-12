@@ -1,42 +1,141 @@
 {
-  "_id": 459,
-  "key": "roar-of-time",
-  "name": {
-    "english": "Roar of Time",
-    "japanese": "ときのほうこう",
-    "chinese": "时间咆哮",
-    "korean": "시간의포효",
-    "german": "Distorsión",
-    "french": "Zeitenlärm",
-    "italian": "Roar of Time",
-    "spanish": "Fragortempo"
-  },
-  "type": "Dragon",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user blasts the\nfoe with power that\ndistorts even time.\nThe user must rest\non the next turn.",
-    "platinum": "The user blasts the\nfoe with power that\ndistorts even time.\nThe user must rest\non the next turn.",
-    "heartgold-soulsilver": "The user blasts the\nfoe with power that\ndistorts even time.\nThe user must rest\non the next turn.",
-    "black-white": "The user blasts the target with power\nthat distorts even time.\nThe user must rest on the next turn.",
-    "black-2-white-2": "The user blasts the target with power\nthat distorts even time.\nThe user must rest on the next turn.",
-    "x-y": "The user blasts the target with power\nthat distorts even time.\nThe user can’t move on the next turn.",
-    "omega-ruby-alpha-sapphire": "The user blasts the target with power\nthat distorts even time.\nThe user can’t move on the next turn.",
-    "sun-moon": "The user blasts the target with power that distorts\neven time. The user can’t move on the next turn.",
-    "ultra-sun-ultra-moon": "The user blasts the target with power that distorts\neven time. The user can’t move on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user blasts the target with power that distorts\neven time. The user can’t move on the next turn.",
-    "sword-shield": "The user blasts the target with power that distorts\neven time. The user can’t move on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-    "shortEffect": "User foregoes its next turn to recharge."
-  },
-  "priority": 0
+    "_id": 459,
+    "key": "roar-of-time",
+    "name": {
+        "japanese-kana": "ときのほうこう",
+        "korean": "시간의포효",
+        "traditional-chinese": "時光咆哮",
+        "french": "Hurle-Temps",
+        "german": "Zeitenlärm",
+        "spanish": "Distorsión",
+        "italian": "Fragortempo",
+        "english": "Roar of Time",
+        "japanese": "ときのほうこう",
+        "simplified-chinese": "时光咆哮",
+        "latin-american-spanish": "Rugido Temporal"
+    },
+    "type": "dragon",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user blasts the foe with power that distorts even time. The user must rest on the next turn.",
+            "pt": "The user blasts the foe with power that distorts even time. The user must rest on the next turn.",
+            "hgss": "The user blasts the foe with power that distorts even time. The user must rest on the next turn.",
+            "bw": "The user blasts the target with power that distorts even time. The user must rest on the next turn.",
+            "b2w2": "The user blasts the target with power that distorts even time. The user must rest on the next turn.",
+            "xy": "The user blasts the target with power that distorts even time. The user can’t move on the next turn.",
+            "oras": "The user blasts the target with power that distorts even time. The user can’t move on the next turn.",
+            "sm": "The user blasts the target with power that distorts even time. The user can’t move on the next turn.",
+            "usum": "The user blasts the target with power that distorts even time. The user can’t move on the next turn.",
+            "lgpe": "The user blasts the target with power that distorts even time. The user can’t move on the next turn.",
+            "swsh": "The user blasts the target with power that distorts even time. The user can’t move on the next turn.",
+            "la": "The user blasts the target with power that distorts even time.",
+            "sv": "The user blasts the target with power that distorts even time. The user can't move on the next turn."
+        },
+        "french": {
+            "bw": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant.",
+            "xy": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant.",
+            "oras": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant.",
+            "sm": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant.",
+            "usum": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant.",
+            "lgpe": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant.",
+            "swsh": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "じかんが　ゆがむほどの　ちからを うちだして　あいてを　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "oras": "じかんが　ゆがむほどの　ちからを うちだして　あいてを　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "sm": "じかんが　ゆがむほどの　ちからを うちだして　あいてを　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "usum": "じかんが　ゆがむほどの　ちからを うちだして　あいてを　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "lgpe": "じかんが　ゆがむほどの　ちからを うちだして　あいてを　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "swsh": "じかんが　ゆがむほどの　ちからを うちだして　あいてを　こうげきする。 つぎの　ターンは　うごけなく　なる。"
+        },
+        "korean": {
+            "xy": "시간이 뒤틀릴 정도의 힘을 사용해서 상대를 공격한다. 다음 턴은 움직일 수 없다.",
+            "oras": "시간이 뒤틀릴 정도의 힘을 사용해서 상대를 공격한다. 다음 턴은 움직일 수 없다.",
+            "sm": "시간이 뒤틀릴 정도의 힘을 사용해서 상대를 공격한다. 다음 턴은 움직일 수 없다.",
+            "usum": "시간이 뒤틀릴 정도의 힘을 사용해서 상대를 공격한다. 다음 턴은 움직일 수 없다.",
+            "lgpe": "시간이 뒤틀릴 정도의 힘을 사용해서 상대를 공격한다. 다음 턴은 움직일 수 없다.",
+            "swsh": "시간이 뒤틀릴 정도의 힘을 사용해서 상대를 공격한다. 다음 턴은 움직일 수 없다."
+        },
+        "german": {
+            "xy": "Anwender attackiert mit einer Kraft, die selbst die Zeit verzerrt. In der nächsten Runde muss er ruhen.",
+            "oras": "Anwender attackiert mit einer Kraft, die selbst die Zeit verzerrt. In der nächsten Runde muss er ruhen.",
+            "sm": "Anwender attackiert mit einer Kraft, die selbst die Zeit verzerrt. In der nächsten Runde muss er ruhen.",
+            "usum": "Anwender attackiert mit einer Kraft, die selbst die Zeit verzerrt. In der nächsten Runde muss er ruhen.",
+            "lgpe": "Anwender attackiert mit einer Kraft, die selbst die Zeit verzerrt. In der nächsten Runde muss er ruhen.",
+            "swsh": "Anwender attackiert mit einer Kraft, die selbst die Zeit verzerrt. In der nächsten Runde muss er ruhen."
+        },
+        "spanish": {
+            "xy": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "oras": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "sm": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "usum": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "lgpe": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "swsh": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con una forza capace di alterare il tempo, ma deve stare fermo al turno successivo.",
+            "oras": "Chi la usa colpisce il bersaglio con una forza capace di alterare il tempo, ma deve stare fermo al turno successivo.",
+            "sm": "Chi la usa colpisce il bersaglio con una forza capace di alterare il tempo, ma deve stare fermo al turno successivo.",
+            "usum": "Chi la usa colpisce il bersaglio con una forza capace di alterare il tempo, ma deve stare fermo al turno successivo.",
+            "lgpe": "Chi la usa colpisce il bersaglio con una forza capace di alterare il tempo, ma deve stare fermo al turno successivo.",
+            "swsh": "Chi la usa colpisce il bersaglio con una forza capace di alterare il tempo, ma deve stare fermo al turno successivo."
+        },
+        "japanese": {
+            "xy": "時間が　ゆがむほどの　力を うちだして　相手を　攻撃する。 次の　ターンは　動けなくなる。",
+            "oras": "時間が　ゆがむほどの　力を うちだして　相手を　攻撃する。 次の　ターンは　動けなくなる。",
+            "sm": "時間が　ゆがむほどの　力を うちだして　相手を　攻撃する。 次の　ターンは　動けなくなる。",
+            "usum": "時間が　ゆがむほどの　力を うちだして　相手を　攻撃する。 次の　ターンは　動けなくなる。",
+            "lgpe": "時間が　ゆがむほどの　力を うちだして　相手を　攻撃する。 次の　ターンは　動けなくなる。",
+            "swsh": "時間が　ゆがむほどの　力を うちだして　相手を　攻撃する。 次の　ターンは　動けなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "oras": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "sm": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "usum": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "lgpe": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.",
+            "swsh": "Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "釋放出足以扭曲時間的 強大力量攻擊對手。 下一回合自己將無法動彈。",
+            "usum": "釋放出足以扭曲時間的 強大力量攻擊對手。 下一回合自己將無法動彈。",
+            "lgpe": "釋放出足以扭曲時間的 強大力量攻擊對手。 下一回合自己將無法動彈。",
+            "swsh": "釋放出足以扭曲時間的 強大力量攻擊對手。 下一回合自己將無法動彈。"
+        },
+        "simplified-chinese": {
+            "sm": "释放出扭曲时间般的 强大力量攻击对手。 下一回合自己将无法动弹。",
+            "usum": "释放出扭曲时间般的 强大力量攻击对手。 下一回合自己将无法动弹。",
+            "lgpe": "释放出扭曲时间般的 强大力量攻击对手。 下一回合自己将无法动弹。",
+            "swsh": "释放出扭曲时间般的 强大力量攻击对手。 下一回合自己将无法动弹。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+        "shortEffect": "User foregoes its next turn to recharge."
+    }
 }

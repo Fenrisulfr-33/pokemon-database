@@ -1,37 +1,133 @@
 {
-  "_id": 599,
-  "key": "venom-drench",
-  "name": {
-    "english": "Venom Drench",
-    "japanese": "ベノムトラップ",
-    "chinese": "毒液陷阱",
-    "korean": "베놈트랩",
-    "german": "Trampa Venenosa",
-    "french": "Giftfalle",
-    "italian": "Venom Drench",
-    "spanish": "Velenotrappola"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 6,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "x-y": "Opposing Pokémon are drenched in an odd\npoisonous liquid. This lowers the Attack,\nSp. Atk, and Speed stats of a poisoned target.",
-    "omega-ruby-alpha-sapphire": "Opposing Pokémon are drenched in an odd\npoisonous liquid. This lowers the Attack,\nSp. Atk, and Speed stats of a poisoned target.",
-    "sun-moon": "Opposing Pokémon are drenched in an odd\npoisonous liquid. This lowers the Attack, Sp. Atk, and\nSpeed stats of a poisoned target.",
-    "ultra-sun-ultra-moon": "Opposing Pokémon are drenched in an odd\npoisonous liquid. This lowers the Attack, Sp. Atk, and\nSpeed stats of a poisoned target.",
-    "lets-go-pikachu-lets-go-eevee": "Opposing Pokémon are drenched in an odd\npoisonous liquid. This lowers the Attack, Sp. Atk, and\nSpeed stats of a poisoned target.",
-    "sword-shield": "Opposing Pokémon are drenched in an odd\npoisonous liquid. This lowers the Attack, Sp. Atk, and\nSpeed stats of a poisoned target."
-  },
-  "effect": {
-    "full": "Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned.",
-    "shortEffect": "Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned."
-  },
-  "priority": 0
+    "_id": 599,
+    "key": "venom-drench",
+    "name": {
+        "japanese-kana": "ベノムトラップ",
+        "korean": "베놈트랩",
+        "traditional-chinese": "毒液陷阱",
+        "french": "Piège de Venin",
+        "german": "Giftfalle",
+        "spanish": "Trampa Venenosa",
+        "italian": "Velenotrappola",
+        "english": "Venom Drench",
+        "japanese": "ベノムトラップ",
+        "simplified-chinese": "毒液陷阱",
+        "latin-american-spanish": "Trampa Venenosa"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいては こうげき　とくこう　すばやさが　さがる。",
+            "oras": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいては こうげき　とくこう　すばやさが　さがる。",
+            "sm": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいては こうげき　とくこう　すばやさが　さがる。",
+            "usum": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいては こうげき　とくこう　すばやさが　さがる。",
+            "lgpe": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいては こうげき　とくこう　すばやさが　さがる。",
+            "swsh": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいては こうげき　とくこう　すばやさが　さがる。"
+        },
+        "korean": {
+            "xy": "특수한 독액을 끼얹는다. 독 상태인 상대는 공격, 특수공격, 스피드가 떨어진다.",
+            "oras": "특수한 독액을 끼얹는다. 독 상태인 상대는 공격, 특수공격, 스피드가 떨어진다.",
+            "sm": "특수한 독액을 끼얹는다. 독 상태인 상대는 공격, 특수공격, 스피드가 떨어진다.",
+            "usum": "특수한 독액을 끼얹는다. 독 상태인 상대는 공격, 특수공격, 스피드가 떨어진다.",
+            "lgpe": "특수한 독액을 끼얹는다. 독 상태인 상대는 공격, 특수공격, 스피드가 떨어진다.",
+            "swsh": "특수한 독액을 끼얹는다. 독 상태인 상대는 공격, 특수공격, 스피드가 떨어진다."
+        },
+        "french": {
+            "xy": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné.",
+            "oras": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné.",
+            "sm": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné.",
+            "usum": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné.",
+            "lgpe": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné.",
+            "swsh": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné."
+        },
+        "german": {
+            "xy": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial- Angriff und die Initiative von vergifteten Zielen.",
+            "oras": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial- Angriff und die Initiative von vergifteten Zielen.",
+            "sm": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial-Angriff und die Initiative von vergifteten Zielen.",
+            "usum": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial-Angriff und die Initiative von vergifteten Zielen.",
+            "lgpe": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial-Angriff und die Initiative von vergifteten Zielen.",
+            "swsh": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial-Angriff und die Initiative von vergifteten Zielen."
+        },
+        "spanish": {
+            "xy": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "oras": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "sm": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "usum": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "lgpe": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "swsh": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el Ataque Especial y la Velocidad. Solo afecta a Pokémon ya envenenados."
+        },
+        "italian": {
+            "xy": "Emette un liquido particolare che riduce l’Attacco, l’Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.",
+            "oras": "Emette un liquido particolare che riduce l’Attacco, l’Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.",
+            "sm": "Emette un liquido particolare che riduce l’Attacco, l’Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.",
+            "usum": "Emette un liquido particolare che riduce l’Attacco, l’Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.",
+            "lgpe": "Emette un liquido particolare che riduce l’Attacco, l’Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.",
+            "swsh": "Emette un liquido particolare che riduce l’Attacco, l’Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa."
+        },
+        "english": {
+            "xy": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+            "oras": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+            "sm": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+            "usum": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+            "lgpe": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+            "swsh": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target."
+        },
+        "japanese": {
+            "xy": "特殊な　毒液を　浴びせかける。 毒状態の　相手は 攻撃　特攻　素早さが　さがる。",
+            "oras": "特殊な　毒液を　浴びせかける。 毒状態の　相手は 攻撃　特攻　素早さが　さがる。",
+            "sm": "特殊な　毒液を　浴びせかける。 毒状態の　相手は 攻撃　特攻　素早さが　さがる。",
+            "usum": "特殊な　毒液を　浴びせかける。 毒状態の　相手は 攻撃　特攻　素早さが　さがる。",
+            "lgpe": "特殊な　毒液を　浴びせかける。 毒状態の　相手は 攻撃　特攻　素早さが　さがる。",
+            "swsh": "特殊な　毒液を　浴びせかける。 毒状態の　相手は 攻撃　特攻　素早さが　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "oras": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "sm": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "usum": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "lgpe": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+            "swsh": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el Ataque Especial y la Velocidad. Solo afecta a Pokémon ya envenenados."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射特殊的毒液。 陷入中毒狀態的對手 攻擊、特攻和速度會降低。",
+            "usum": "向對手發射特殊的毒液。 陷入中毒狀態的對手 攻擊、特攻和速度會降低。",
+            "lgpe": "向對手發射特殊的毒液。 陷入中毒狀態的對手 攻擊、特攻和速度會降低。",
+            "swsh": "向對手發射特殊的毒液。 陷入中毒狀態的對手 攻擊、特攻和速度會降低。"
+        },
+        "simplified-chinese": {
+            "sm": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 其攻击、特攻和速度都会降低。",
+            "usum": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 其攻击、特攻和速度都会降低。",
+            "lgpe": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 其攻击、特攻和速度都会降低。",
+            "swsh": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 其攻击、特攻和速度都会降低。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Attack, Special Attack, and Speed by one stage if it is poisoned.",
+        "shortEffect": "Lowers the target’s Attack, Special Attack, and Speed by one stage if it is poisoned."
+    }
 }

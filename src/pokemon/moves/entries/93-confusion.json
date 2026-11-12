@@ -1,47 +1,146 @@
 {
-  "_id": 93,
-  "key": "confusion",
-  "name": {
-    "english": "Confusion",
-    "japanese": "ねんりき",
-    "chinese": "念力",
-    "korean": "염동력",
-    "german": "Confusión",
-    "french": "Konfusion",
-    "italian": "Confusion",
-    "spanish": "Confusione"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 25,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause confusion.",
-    "crystal": "An attack that may\ncause confusion.",
-    "ruby-sapphire": "A psychic attack that may\ncause confusion.",
-    "emerald": "A psychic attack that may\ncause confusion.",
-    "firered-leafgreen": "A weak telekinetic\nattack that may\nalso leave the foe\nconfused.",
-    "diamond-pearl": "The foe is hit by a\nweak telekinetic\nforce. It may also\nleave the foe\nconfused.",
-    "platinum": "The foe is hit by a\nweak telekinetic\nforce. It may also\nleave the foe\nconfused.",
-    "heartgold-soulsilver": "The foe is hit by a\nweak telekinetic\nforce. It may also\nleave the foe\nconfused.",
-    "black-white": "The target is hit by a weak telekinetic\nforce. It may also leave the\ntarget confused.",
-    "black-2-white-2": "The target is hit by a weak telekinetic\nforce. It may also leave the\ntarget confused.",
-    "x-y": "The target is hit by a weak telekinetic\nforce. This may also confuse the target.",
-    "omega-ruby-alpha-sapphire": "The target is hit by a weak telekinetic\nforce. This may also confuse the target.",
-    "sun-moon": "The target is hit by a weak telekinetic force.\nThis may also confuse the target.",
-    "ultra-sun-ultra-moon": "The target is hit by a weak telekinetic force.\nThis may also confuse the target.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit by a weak telekinetic force.\nThis may also confuse the target.",
-    "sword-shield": "The target is hit by a weak telekinetic force.\nThis may also confuse the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 93,
+    "key": "confusion",
+    "name": {
+        "japanese-kana": "ねんりき",
+        "korean": "염동력",
+        "traditional-chinese": "念力",
+        "french": "Choc Mental",
+        "german": "Konfusion",
+        "spanish": "Confusión",
+        "italian": "Confusione",
+        "english": "Confusion",
+        "japanese": "ねんりき",
+        "simplified-chinese": "念力",
+        "latin-american-spanish": "Confusión"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "smart",
+    "pp": 25,
+    "power": 50,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause confusion.",
+            "cr": "An attack that may cause confusion.",
+            "rs": "A psychic attack that may cause confusion.",
+            "em": "A psychic attack that may cause confusion.",
+            "frlg": "A weak telekinetic attack that may also leave the foe confused.",
+            "dp": "The foe is hit by a weak telekinetic force. It may also leave the foe confused.",
+            "pt": "The foe is hit by a weak telekinetic force. It may also leave the foe confused.",
+            "hgss": "The foe is hit by a weak telekinetic force. It may also leave the foe confused.",
+            "bw": "The target is hit by a weak telekinetic force. It may also leave the target confused.",
+            "b2w2": "The target is hit by a weak telekinetic force. It may also leave the target confused.",
+            "xy": "The target is hit by a weak telekinetic force. This may also confuse the target.",
+            "oras": "The target is hit by a weak telekinetic force. This may also confuse the target.",
+            "sm": "The target is hit by a weak telekinetic force. This may also confuse the target.",
+            "usum": "The target is hit by a weak telekinetic force. This may also confuse the target.",
+            "lgpe": "The target is hit by a weak telekinetic force. This may also confuse the target.",
+            "swsh": "The target is hit by a weak telekinetic force. This may also confuse the target.",
+            "la": "The target is hit with a weak telekinetic force to inflict damage.",
+            "sv": "The target is hit with a weak telekinetic force to inflict damage. This may also confuse the target."
+        },
+        "french": {
+            "bw": "Une faible vague télékinésique frappe l’ennemi. Peut aussi le plonger dans la confusion.",
+            "xy": "Une faible vague télékinésique frappe l’ennemi. Peut aussi le plonger dans la confusion.",
+            "oras": "Une faible vague télékinétique frappe l’ennemi. Peut aussi le plonger dans la confusion.",
+            "sm": "Une faible vague télékinétique frappe l’ennemi. Peut aussi le plonger dans la confusion.",
+            "usum": "Une faible vague télékinétique frappe l’ennemi. Peut aussi le plonger dans la confusion.",
+            "lgpe": "Une faible vague télékinétique frappe l’ennemi. Peut aussi le plonger dans la confusion.",
+            "swsh": "Une faible vague télékinétique frappe l’ennemi. Peut aussi le plonger dans la confusion."
+        },
+        "japanese-kana": {
+            "xy": "よわい　ねんりきを あいてに　おくって　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "oras": "よわい　ねんりきを あいてに　おくって　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "sm": "よわい　ねんりきを あいてに　おくって　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "usum": "よわい　ねんりきを あいてに　おくって　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "lgpe": "よわい　ねんりきを あいてに　おくって　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "swsh": "よわい　ねんりきを あいてに　おくって　こうげきする。 あいてを　こんらん　させることが　ある。"
+        },
+        "korean": {
+            "xy": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다.",
+            "oras": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다.",
+            "sm": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다.",
+            "usum": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다.",
+            "lgpe": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다.",
+            "swsh": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다."
+        },
+        "german": {
+            "xy": "Das Ziel wird von schwacher telekinetischer Energie getroffen und eventuell verwirrt.",
+            "oras": "Das Ziel wird von schwacher telekinetischer Energie getroffen und eventuell verwirrt.",
+            "sm": "Das Ziel wird von schwacher telekinetischer Energie getroffen und eventuell verwirrt.",
+            "usum": "Das Ziel wird von schwacher telekinetischer Energie getroffen und eventuell verwirrt.",
+            "lgpe": "Das Ziel wird von schwacher telekinetischer Energie getroffen und eventuell verwirrt.",
+            "swsh": "Das Ziel wird von schwacher telekinetischer Energie getroffen und eventuell verwirrt."
+        },
+        "spanish": {
+            "xy": "Débil ataque telequinético que puede causar confusión.",
+            "oras": "Débil ataque telequinético que puede causar confusión.",
+            "sm": "Débil ataque telequinético que puede causar confusión.",
+            "usum": "Débil ataque telequinético que puede causar confusión.",
+            "lgpe": "Débil ataque telequinético que puede causar confusión.",
+            "swsh": "Débil ataque telequinético que puede causar confusión."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.",
+            "oras": "Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.",
+            "sm": "Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.",
+            "usum": "Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.",
+            "lgpe": "Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.",
+            "swsh": "Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo."
+        },
+        "japanese": {
+            "xy": "弱い　念力を 相手に　送って　攻撃する。 相手を　混乱させることが　ある。",
+            "oras": "弱い　念力を 相手に　送って　攻撃する。 相手を　混乱させることが　ある。",
+            "sm": "弱い　念力を 相手に　送って　攻撃する。 相手を　混乱させることが　ある。",
+            "usum": "弱い　念力を 相手に　送って　攻撃する。 相手を　混乱させることが　ある。",
+            "lgpe": "弱い　念力を 相手に　送って　攻撃する。 相手を　混乱させることが　ある。",
+            "swsh": "弱い　念力を 相手に　送って　攻撃する。 相手を　混乱させることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Débil ataque telequinético que puede causar confusión.",
+            "oras": "Débil ataque telequinético que puede causar confusión.",
+            "sm": "Débil ataque telequinético que puede causar confusión.",
+            "usum": "Débil ataque telequinético que puede causar confusión.",
+            "lgpe": "Débil ataque telequinético que puede causar confusión.",
+            "swsh": "Débil ataque telequinético que puede causar confusión."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發送 微弱的念力進行攻擊。 有時會使對手混亂。",
+            "usum": "向對手發送 微弱的念力進行攻擊。 有時會使對手混亂。",
+            "lgpe": "向對手發送 微弱的念力進行攻擊。 有時會使對手混亂。",
+            "swsh": "向對手發送 微弱的念力進行攻擊。 有時會使對手混亂。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发送 微弱的念力进行攻击。 有时会使对手混乱。",
+            "usum": "向对手发送 微弱的念力进行攻击。 有时会使对手混乱。",
+            "lgpe": "向对手发送 微弱的念力进行攻击。 有时会使对手混乱。",
+            "swsh": "向对手发送 微弱的念力进行攻击。 有时会使对手混乱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

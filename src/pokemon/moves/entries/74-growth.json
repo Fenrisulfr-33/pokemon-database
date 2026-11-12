@@ -1,47 +1,156 @@
 {
-  "_id": 74,
-  "key": "growth",
-  "name": {
-    "english": "Growth",
-    "japanese": "せいちょう",
-    "chinese": "生长",
-    "korean": "성장",
-    "german": "Desarrollo",
-    "french": "Wachstum",
-    "italian": "Growth",
-    "spanish": "Crescita"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 40,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Raises the SPCL.\nATK rating.",
-    "crystal": "Raises the SPCL.\nATK rating.",
-    "ruby-sapphire": "Forces the body to grow\nand heightens SP. ATK.",
-    "emerald": "Forces the body to grow\nand heightens SP. ATK.",
-    "firered-leafgreen": "The user’s body is\nforced to grow,\nraising the SP.\nATK stat.",
-    "diamond-pearl": "The user’s body is\nforced to grow all at\nonce. It raises the\nSp. Atk stat.\n",
-    "platinum": "The user’s body is\nforced to grow all at\nonce. It raises the\nSp. Atk stat.\n",
-    "heartgold-soulsilver": "The user’s body is\nforced to grow all at\nonce. It raises the\nSp. Atk stat.\n",
-    "black-white": "The user’s body grows all at once,\nraising the Attack and Sp. Atk stats.",
-    "black-2-white-2": "The user’s body grows all at once,\nraising the Attack and Sp. Atk stats.",
-    "x-y": "The user’s body grows all at once,\nraising the Attack and Sp. Atk stats.",
-    "omega-ruby-alpha-sapphire": "The user’s body grows all at once,\nraising the Attack and Sp. Atk stats.",
-    "sun-moon": "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats.",
-    "ultra-sun-ultra-moon": "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats.",
-    "sword-shield": "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats."
-  },
-  "effect": {
-    "full": "Raises the user's Attack and Special Attack by one stage each.  During sunny day, raises both stats by two stages.",
-    "shortEffect": "Raises the user's Attack and Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 74,
+    "key": "growth",
+    "name": {
+        "japanese-kana": "せいちょう",
+        "korean": "성장",
+        "traditional-chinese": "生長",
+        "french": "Croissance",
+        "german": "Wachstum",
+        "spanish": "Desarrollo",
+        "italian": "Crescita",
+        "english": "Growth",
+        "japanese": "せいちょう",
+        "simplified-chinese": "生长",
+        "latin-american-spanish": "Crecimiento"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "effect": {
+                "full": "Raises the user’s Special Attack by one stage.",
+                "shortEffect": "Raises the user’s Special Attack by one stage."
+            }
+        },
+        "xy": {
+            "pp": 40
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Raises the SPCL. ATK rating.",
+            "cr": "Raises the SPCL. ATK rating.",
+            "rs": "Forces the body to grow and heightens SP. ATK.",
+            "em": "Forces the body to grow and heightens SP. ATK.",
+            "frlg": "The user’s body is forced to grow, raising the SP. ATK stat.",
+            "dp": "The user’s body is forced to grow all at once. It raises the Sp. Atk stat.",
+            "pt": "The user’s body is forced to grow all at once. It raises the Sp. Atk stat.",
+            "hgss": "The user’s body is forced to grow all at once. It raises the Sp. Atk stat.",
+            "bw": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "b2w2": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "xy": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "oras": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "sm": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "usum": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "lgpe": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "swsh": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+            "la": "The user's body grows all at once, raising the Attack and Sp. Atk stats.",
+            "sv": "The user's body grows all at once, boosting the Attack and Sp. Atk stats."
+        },
+        "french": {
+            "bw": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.",
+            "xy": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.",
+            "oras": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.",
+            "sm": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.",
+            "usum": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.",
+            "lgpe": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.",
+            "swsh": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "からだを　いっきに おおきく　せいちょう　させて こうげきと　とくこうを　あげる。",
+            "oras": "からだを　いっきに おおきく　せいちょう　させて こうげきと　とくこうを　あげる。",
+            "sm": "からだを　いっきに おおきく　せいちょう　させて こうげきと　とくこうを　あげる。",
+            "usum": "からだを　いっきに おおきく　せいちょう　させて こうげきと　とくこうを　あげる。",
+            "lgpe": "からだを　いっきに おおきく　せいちょう　させて こうげきと　とくこうを　あげる。",
+            "swsh": "からだを　いっきに おおきく　せいちょう　させて こうげきと　とくこうを　あげる。"
+        },
+        "korean": {
+            "xy": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다.",
+            "oras": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다.",
+            "sm": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다.",
+            "usum": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다.",
+            "lgpe": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다.",
+            "swsh": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다."
+        },
+        "german": {
+            "xy": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff.",
+            "oras": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff.",
+            "sm": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff.",
+            "usum": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff.",
+            "lgpe": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff.",
+            "swsh": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff."
+        },
+        "spanish": {
+            "xy": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "oras": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "sm": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "usum": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "lgpe": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "swsh": "Hace que su cuerpo crezca a marchas forzadas con lo que aumenta su Ataque y Ataque Especial."
+        },
+        "italian": {
+            "xy": "Provoca la crescita immediata del corpo e l’aumento dell’Attacco e dell’Attacco Speciale di chi la usa.",
+            "oras": "Provoca la crescita immediata del corpo e l’aumento dell’Attacco e dell’Attacco Speciale di chi la usa.",
+            "sm": "Provoca la crescita immediata del corpo e l’aumento dell’Attacco e dell’Attacco Speciale di chi la usa.",
+            "usum": "Provoca la crescita immediata del corpo e l’aumento dell’Attacco e dell’Attacco Speciale di chi la usa.",
+            "lgpe": "Provoca la crescita immediata del corpo e l’aumento dell’Attacco e dell’Attacco Speciale di chi la usa.",
+            "swsh": "Provoca la crescita immediata del corpo e l’aumento dell’Attacco e dell’Attacco Speciale di chi la usa."
+        },
+        "japanese": {
+            "xy": "体を　一気に 大きく　生長させて 攻撃と　特攻を　あげる。",
+            "oras": "体を　一気に 大きく　生長させて 攻撃と　特攻を　あげる。",
+            "sm": "体を　一気に 大きく　生長させて 攻撃と　特攻を　あげる。",
+            "usum": "体を　一気に 大きく　生長させて 攻撃と　特攻を　あげる。",
+            "lgpe": "体を　一気に 大きく　生長させて 攻撃と　特攻を　あげる。",
+            "swsh": "体を　一気に 大きく　生長させて 攻撃と　特攻を　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "oras": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "sm": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "usum": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "lgpe": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+            "swsh": "Hace que su cuerpo crezca a marchas forzadas con lo que aumenta su Ataque y Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "讓身體瞬間長大， 提高自己的攻擊和特攻。",
+            "usum": "讓身體瞬間長大， 提高自己的攻擊和特攻。",
+            "lgpe": "讓身體瞬間長大， 提高自己的攻擊和特攻。",
+            "swsh": "讓身體瞬間長大， 提高自己的攻擊和特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "让身体一下子长大， 从而提高攻击和特攻。",
+            "usum": "让身体一下子长大， 从而提高攻击和特攻。",
+            "lgpe": "让身体一下子长大， 从而提高攻击和特攻。",
+            "swsh": "让身体一下子长大， 从而提高攻击和特攻。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Attack and Special Attack by one stage each.  During Sunny Day, raises both stats by two stages.",
+        "shortEffect": "Raises the user’s Attack and Special Attack by one stage."
+    }
 }

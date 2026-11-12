@@ -1,47 +1,146 @@
 {
-  "_id": 52,
-  "key": "ember",
-  "name": {
-    "english": "Ember",
-    "japanese": "ひのこ",
-    "chinese": "火花",
-    "korean": "불꽃세례",
-    "german": "Ascuas",
-    "french": "Glut",
-    "italian": "Ember",
-    "spanish": "Braciere"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 25,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ninflict a burn.",
-    "crystal": "An attack that may\ninflict a burn.",
-    "ruby-sapphire": "A weak fire attack that may\ninflict a burn.",
-    "emerald": "A weak fire attack that may\ninflict a burn.",
-    "firered-leafgreen": "The foe is attacked\nwith small flames.\nThe foe may suffer\na burn.",
-    "diamond-pearl": "The foe is attacked\nwith small flames.\nThe target may also\nbe left with a burn.\n",
-    "platinum": "The foe is attacked\nwith small flames.\nThe target may also\nbe left with a burn.\n",
-    "heartgold-soulsilver": "The foe is attacked\nwith small flames.\nThe target may also\nbe left with a burn.\n",
-    "black-white": "The target is attacked with small flames.\nIt may also leave the target with a burn.",
-    "black-2-white-2": "The target is attacked with small flames.\nIt may also leave the target with a burn.",
-    "x-y": "The target is attacked with small flames.\nThis may also leave the target with a burn.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with small flames.\nThis may also leave the target with a burn.",
-    "sun-moon": "The target is attacked with small flames. This may\nalso leave the target with a burn.",
-    "ultra-sun-ultra-moon": "The target is attacked with small flames. This may\nalso leave the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with small flames. This may\nalso leave the target with a burn.",
-    "sword-shield": "The target is attacked with small flames. This may\nalso leave the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 52,
+    "key": "ember",
+    "name": {
+        "japanese-kana": "ひのこ",
+        "korean": "불꽃세례",
+        "traditional-chinese": "火花",
+        "french": "Flammèche",
+        "german": "Glut",
+        "spanish": "Ascuas",
+        "italian": "Braciere",
+        "english": "Ember",
+        "japanese": "ひのこ",
+        "simplified-chinese": "火花",
+        "latin-american-spanish": "Brasas"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 25,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may inflict a burn.",
+            "cr": "An attack that may inflict a burn.",
+            "rs": "A weak fire attack that may inflict a burn.",
+            "em": "A weak fire attack that may inflict a burn.",
+            "frlg": "The foe is attacked with small flames. The foe may suffer a burn.",
+            "dp": "The foe is attacked with small flames. The target may also be left with a burn.",
+            "pt": "The foe is attacked with small flames. The target may also be left with a burn.",
+            "hgss": "The foe is attacked with small flames. The target may also be left with a burn.",
+            "bw": "The target is attacked with small flames. It may also leave the target with a burn.",
+            "b2w2": "The target is attacked with small flames. It may also leave the target with a burn.",
+            "xy": "The target is attacked with small flames. This may also leave the target with a burn.",
+            "oras": "The target is attacked with small flames. This may also leave the target with a burn.",
+            "sm": "The target is attacked with small flames. This may also leave the target with a burn.",
+            "usum": "The target is attacked with small flames. This may also leave the target with a burn.",
+            "lgpe": "The target is attacked with small flames. This may also leave the target with a burn.",
+            "swsh": "The target is attacked with small flames. This may also leave the target with a burn.",
+            "la": "The target is attacked with small flames. This may also leave the target with a burn.",
+            "sv": "The target is attacked with small flames. This may also leave the target with a burn."
+        },
+        "french": {
+            "bw": "L’ennemi est attaqué par de faibles flammes. Peut aussi le brûler.",
+            "xy": "L’ennemi est attaqué par de faibles flammes. Peut aussi le brûler.",
+            "oras": "L’ennemi est attaqué par une faible flamme. Peut aussi le brûler.",
+            "sm": "L’ennemi est attaqué par une faible flamme. Peut aussi le brûler.",
+            "usum": "L’ennemi est attaqué par une faible flamme. Peut aussi le brûler.",
+            "lgpe": "L’ennemi est attaqué par une faible flamme. Peut aussi le brûler.",
+            "swsh": "L’ennemi est attaqué par une faible flamme. Peut aussi le brûler."
+        },
+        "japanese-kana": {
+            "xy": "ちいさな　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "ちいさな　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "ちいさな　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "ちいさな　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "ちいさな　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "ちいさな　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Schwache Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "oras": "Schwache Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "sm": "Schwache Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "usum": "Schwache Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "lgpe": "Schwache Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "swsh": "Schwache Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet."
+        },
+        "spanish": {
+            "xy": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "oras": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "sm": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "usum": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "lgpe": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "swsh": "Ataca con llamas pequeñas que pueden causar quemaduras."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da fiammelle che possono anche scottarlo.",
+            "oras": "Il bersaglio viene colpito da fiammelle che possono anche scottarlo.",
+            "sm": "Il bersaglio viene colpito da fiammelle che possono anche scottarlo.",
+            "usum": "Il bersaglio viene colpito da fiammelle che possono anche scottarlo.",
+            "lgpe": "Il bersaglio viene colpito da fiammelle che possono anche scottarlo.",
+            "swsh": "Il bersaglio viene colpito da fiammelle che possono anche scottarlo."
+        },
+        "japanese": {
+            "xy": "小さな　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "小さな　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "小さな　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "小さな　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "小さな　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "小さな　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "oras": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "sm": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "usum": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "lgpe": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+            "swsh": "Ataca con llamas pequeñas que pueden causar quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 小火焰進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "usum": "向對手發射 小火焰進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "向對手發射 小火焰進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "向對手發射 小火焰進行攻擊。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 小型火焰进行攻击。 有时会让对手陷入灼伤状态。",
+            "usum": "向对手发射 小型火焰进行攻击。 有时会让对手陷入灼伤状态。",
+            "lgpe": "向对手发射 小型火焰进行攻击。 有时会让对手陷入灼伤状态。",
+            "swsh": "向对手发射 小型火焰进行攻击。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

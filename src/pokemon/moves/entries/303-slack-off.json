@@ -1,45 +1,144 @@
 {
-  "_id": 303,
-  "key": "slack-off",
-  "name": {
-    "english": "Slack Off",
-    "japanese": "なまける",
-    "chinese": "懒惰",
-    "korean": "태만함",
-    "german": "Relajo",
-    "french": "Tagedieb",
-    "italian": "Slack Off",
-    "spanish": "Pigro"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Slacks off and restores\nhalf the maximum HP.",
-    "emerald": "Slacks off and restores\nhalf the maximum HP.",
-    "firered-leafgreen": "The user slacks off\nand restores its HP\nby half its full\nHP.",
-    "diamond-pearl": "The user slacks off,\nrestoring its own HP\nby up to half of its\nmaximum HP.\n",
-    "platinum": "The user slacks off,\nrestoring its own HP\nby up to half of its\nmaximum HP.\n",
-    "heartgold-soulsilver": "The user slacks off,\nrestoring its own HP\nby up to half of its\nmaximum HP.\n",
-    "black-white": "The user slacks off, restoring its own HP\nby up to half of its maximum HP.",
-    "black-2-white-2": "The user slacks off, restoring its own HP\nby up to half of its maximum HP.",
-    "x-y": "The user slacks off, restoring its own HP\nby up to half of its max HP.",
-    "omega-ruby-alpha-sapphire": "The user slacks off, restoring its own HP\nby up to half of its max HP.",
-    "sun-moon": "The user slacks off, restoring its own HP by up to\nhalf of its max HP.",
-    "ultra-sun-ultra-moon": "The user slacks off, restoring its own HP by up to\nhalf of its max HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user slacks off, restoring its own HP by up to\nhalf of its max HP.",
-    "sword-shield": "The user slacks off, restoring its own HP by up to\nhalf of its max HP."
-  },
-  "effect": {
-    "full": "Heals the user for half its max HP.",
-    "shortEffect": "Heals the user by half its max HP."
-  },
-  "priority": 0
+    "_id": 303,
+    "key": "slack-off",
+    "name": {
+        "japanese-kana": "なまける",
+        "korean": "게으름피우기",
+        "traditional-chinese": "偷懶",
+        "french": "Paresse",
+        "german": "Tagedieb",
+        "spanish": "Relajo",
+        "italian": "Pigro",
+        "english": "Slack Off",
+        "japanese": "なまける",
+        "simplified-chinese": "偷懒",
+        "latin-american-spanish": "Relajar"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Slacks off and restores half the maximum HP.",
+            "em": "Slacks off and restores half the maximum HP.",
+            "frlg": "The user slacks off and restores its HP by half its full HP.",
+            "dp": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
+            "pt": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
+            "hgss": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
+            "bw": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
+            "b2w2": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
+            "xy": "The user slacks off, restoring its own HP by up to half of its max HP.",
+            "oras": "The user slacks off, restoring its own HP by up to half of its max HP.",
+            "sm": "The user slacks off, restoring its own HP by up to half of its max HP.",
+            "usum": "The user slacks off, restoring its own HP by up to half of its max HP.",
+            "lgpe": "The user slacks off, restoring its own HP by up to half of its max HP.",
+            "swsh": "The user slacks off, restoring its own HP by up to half of its max HP.",
+            "la": "The user slacks off, restoring its own HP by up to half of its max HP.",
+            "sv": "The user slacks off, restoring its own HP by up to half its max HP."
+        },
+        "french": {
+            "bw": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.",
+            "xy": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.",
+            "oras": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.",
+            "sm": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.",
+            "usum": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.",
+            "lgpe": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.",
+            "swsh": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max."
+        },
+        "japanese-kana": {
+            "xy": "なまけて　やすむ。 じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+            "oras": "なまけて　やすむ。 じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+            "sm": "なまけて　やすむ。 じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+            "usum": "なまけて　やすむ。 じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+            "lgpe": "なまけて　やすむ。 じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+            "swsh": "なまけて　やすむ。 じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。"
+        },
+        "korean": {
+            "xy": "게으름 피우며 쉰다. 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+            "oras": "게으름 피우며 쉰다. 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+            "sm": "게으름 피우며 쉰다. 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+            "usum": "게으름 피우며 쉰다. 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+            "lgpe": "게으름 피우며 쉰다. 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+            "swsh": "게으름 피우며 쉰다. 자신의 HP를 최대 HP의 절반만큼 회복한다."
+        },
+        "german": {
+            "xy": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt.",
+            "oras": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt.",
+            "sm": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt.",
+            "usum": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt.",
+            "lgpe": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt.",
+            "swsh": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt."
+        },
+        "spanish": {
+            "xy": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "oras": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "sm": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "usum": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "lgpe": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "swsh": "El usuario se relaja y restaura la mitad de sus PS máximos."
+        },
+        "italian": {
+            "xy": "Chi la usa si rilassa recuperando metà dei propri PS massimi.",
+            "oras": "Chi la usa si rilassa recuperando metà dei propri PS massimi.",
+            "sm": "Chi la usa si rilassa recuperando metà dei propri PS massimi.",
+            "usum": "Chi la usa si rilassa recuperando metà dei propri PS massimi.",
+            "lgpe": "Chi la usa si rilassa recuperando metà dei propri PS massimi.",
+            "swsh": "Chi la usa si rilassa recuperando metà dei propri PS massimi."
+        },
+        "japanese": {
+            "xy": "怠けて　やすむ。 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+            "oras": "怠けて　やすむ。 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+            "sm": "怠けて　やすむ。 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+            "usum": "怠けて　やすむ。 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+            "lgpe": "怠けて　やすむ。 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+            "swsh": "怠けて　やすむ。 自分の　ＨＰを　最大ＨＰの 半分　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "oras": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "sm": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "usum": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "lgpe": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+            "swsh": "El usuario se relaja y restaura la mitad de sus PS máximos."
+        },
+        "traditional-chinese": {
+            "sm": "偷懶休息。 回復自己最大ＨＰ的一半。",
+            "usum": "偷懶休息。 回復自己最大ＨＰ的一半。",
+            "lgpe": "偷懶休息。 回復自己最大HP的一半。",
+            "swsh": "偷懶休息。 回復自己最大ＨＰ的一半。"
+        },
+        "simplified-chinese": {
+            "sm": "偷懒休息。 回复自己最大ＨＰ的一半。",
+            "usum": "偷懒休息。 回复自己最大ＨＰ的一半。",
+            "lgpe": "偷懒休息。 回复自己最大HP的一半。",
+            "swsh": "偷懒休息。 回复自己最大ＨＰ的一半。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user for half its max HP.",
+        "shortEffect": "Heals the user by half its max HP."
+    }
 }

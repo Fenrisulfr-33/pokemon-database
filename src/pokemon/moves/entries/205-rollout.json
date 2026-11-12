@@ -1,47 +1,146 @@
 {
-  "_id": 205,
-  "key": "rollout",
-  "name": {
-    "english": "Rollout",
-    "japanese": "ころがる",
-    "chinese": "滚动",
-    "korean": "구르기",
-    "german": "Rodar",
-    "french": "Walzer",
-    "italian": "Rollout",
-    "spanish": "Rotolamento"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 30,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Attacks 5 turns\nwith rising power.",
-    "crystal": "Attacks 5 turns\nwith rising power.",
-    "ruby-sapphire": "An attack lasting 5 turns\nwith rising intensity.",
-    "emerald": "An attack lasting 5 turns\nwith rising intensity.",
-    "firered-leafgreen": "A 5-turn rolling\nattack that becomes\nstronger each time\nit hits.",
-    "diamond-pearl": "The user continually\nrolls into the foe\nover five turns. It\nbecomes stronger\neach time it hits.",
-    "platinum": "The user continually\nrolls into the foe\nover five turns. It\nbecomes stronger\neach time it hits.",
-    "heartgold-soulsilver": "The user continually\nrolls into the foe\nover five turns. It\nbecomes stronger\neach time it hits.",
-    "black-white": "The user continually rolls into the target\nover five turns. It becomes stronger\neach time it hits.",
-    "black-2-white-2": "The user continually rolls into the target\nover five turns. It becomes stronger\neach time it hits.",
-    "x-y": "The user continually rolls into the target\nover five turns. It becomes more powerful\neach time it hits.",
-    "omega-ruby-alpha-sapphire": "The user continually rolls into the target\nover five turns. It becomes more powerful\neach time it hits.",
-    "sun-moon": "The user continually rolls into the target over five\nturns. It becomes more powerful each time it hits.",
-    "ultra-sun-ultra-moon": "The user continually rolls into the target over five\nturns. It becomes more powerful each time it hits.",
-    "lets-go-pikachu-lets-go-eevee": "The user continually rolls into the target over five\nturns. It becomes more powerful each time it hits.",
-    "sword-shield": "The user continually rolls into the target over five\nturns. It becomes more powerful each time it hits."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.\n\nIf the user has used defense curl since entering the field, this move has double power.",
-    "shortEffect": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
-  },
-  "priority": 0
+    "_id": 205,
+    "key": "rollout",
+    "name": {
+        "japanese-kana": "ころがる",
+        "korean": "구르기",
+        "traditional-chinese": "滾動",
+        "french": "Roulade",
+        "german": "Walzer",
+        "spanish": "Rodar",
+        "italian": "Rotolamento",
+        "english": "Rollout",
+        "japanese": "ころがる",
+        "simplified-chinese": "滚动",
+        "latin-american-spanish": "Rodada"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 30,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Attacks 5 turns with rising power.",
+            "cr": "Attacks 5 turns with rising power.",
+            "rs": "An attack lasting 5 turns with rising intensity.",
+            "em": "An attack lasting 5 turns with rising intensity.",
+            "frlg": "A 5-turn rolling attack that becomes stronger each time it hits.",
+            "dp": "The user continually rolls into the foe over five turns. It becomes stronger each time it hits.",
+            "pt": "The user continually rolls into the foe over five turns. It becomes stronger each time it hits.",
+            "hgss": "The user continually rolls into the foe over five turns. It becomes stronger each time it hits.",
+            "bw": "The user continually rolls into the target over five turns. It becomes stronger each time it hits.",
+            "b2w2": "The user continually rolls into the target over five turns. It becomes stronger each time it hits.",
+            "xy": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+            "oras": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+            "sm": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+            "usum": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+            "lgpe": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+            "swsh": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+            "la": "The user rolls into the target to deal damage, then becomes fixated on using this move.",
+            "sv": "The user continually rolls into the target over five turns. This attack becomes more powerful each time it hits."
+        },
+        "french": {
+            "bw": "Un rocher roule sur l’ennemi pendant 5 tours. L’attaque gagne en puissance à chaque coup.",
+            "xy": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup.",
+            "oras": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup.",
+            "sm": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup.",
+            "usum": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup.",
+            "lgpe": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup.",
+            "swsh": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup."
+        },
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　ころがりつづけて こうげきする。わざが　あたる　たびに いりょくが　あがる。",
+            "oras": "５ターンの　あいだ　ころがりつづけて こうげきする。わざが　あたる　たびに いりょくが　あがる。",
+            "sm": "５ターンの　あいだ　ころがりつづけて こうげきする。　わざが　あたる　たびに いりょくが　あがる。",
+            "usum": "５ターンの　あいだ　ころがりつづけて こうげきする。　わざが　あたる　たびに いりょくが　あがる。",
+            "lgpe": "５ターンの　あいだ　ころがりつづけて こうげきする。　わざが　あたる　たびに いりょくが　あがる。",
+            "swsh": "５ターンの　あいだ　ころがりつづけて こうげきする。　わざが　あたる　たびに いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 구르기를 반복하여 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "oras": "5턴 동안 구르기를 반복하여 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "sm": "5턴 동안 구르기를 반복하여 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "usum": "5턴 동안 구르기를 반복하여 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "lgpe": "5턴 동안 구르기를 반복하여 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "swsh": "5턴 동안 구르기를 반복하여 공격한다. 기술이 맞을 때마다 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.",
+            "oras": "Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.",
+            "sm": "Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.",
+            "usum": "Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.",
+            "lgpe": "Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.",
+            "swsh": "Attacke, die fünf Runden dauert. Mit jedem Treffer steigt die Stärke."
+        },
+        "spanish": {
+            "xy": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "oras": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "sm": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "usum": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "lgpe": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "swsh": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.",
+            "oras": "Chi la usa colpisce il bersaglio rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.",
+            "sm": "Chi la usa colpisce il bersaglio rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.",
+            "usum": "Chi la usa colpisce il bersaglio rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.",
+            "lgpe": "Chi la usa colpisce il bersaglio rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.",
+            "swsh": "Chi la usa colpisce il bersaglio rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　転がり続けて 攻撃する。技が　当たるたびに 威力が　あがる。",
+            "oras": "５ターンの　あいだ　転がり続けて 攻撃する。技が　当たるたびに 威力が　あがる。",
+            "sm": "５ターンの　間　転がり続けて 攻撃する。　技が　当たるたびに 威力が　あがる。",
+            "usum": "５ターンの　間　転がり続けて 攻撃する。　技が　当たるたびに 威力が　あがる。",
+            "lgpe": "５ターンの　間　転がり続けて 攻撃する。　技が　当たるたびに 威力が　あがる。",
+            "swsh": "５ターンの　間　転がり続けて 攻撃する。　技が　当たるたびに 威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "oras": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "sm": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "usum": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "lgpe": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+            "swsh": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內連續滾動攻擊對手。 每擊中一次，威力就會提高。",
+            "usum": "在５回合內連續滾動攻擊對手。 每擊中一次，威力就會提高。",
+            "lgpe": "在５回合內連續滾動攻擊對手。 每擊中一次，威力就會提高。",
+            "swsh": "在５回合內連續滾動攻擊對手。 每擊中一次，威力就會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内连续滚动攻击对手。 招式每次击中，威力就会提高。",
+            "usum": "在５回合内连续滚动攻击对手。 招式每次击中，威力就会提高。",
+            "lgpe": "在５回合内连续滚动攻击对手。 招式每次击中，威力就会提高。",
+            "swsh": "在５回合内连续滚动攻击对手。 招式每次击中，威力就会提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends. If the user has used Defense Curl since entering the field, this move has double power.",
+        "shortEffect": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
+    }
 }

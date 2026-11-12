@@ -1,42 +1,141 @@
 {
-  "_id": 439,
-  "key": "rock-wrecker",
-  "name": {
-    "english": "Rock Wrecker",
-    "japanese": "がんせきほう",
-    "chinese": "岩石炮",
-    "korean": "암석포",
-    "german": "Romperrocas",
-    "french": "Felswerfer",
-    "italian": "Rock Wrecker",
-    "spanish": "Devastomasso"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user launches a\nhuge boulder at the\nfoe to attack.\nIt must rest on the\nnext turn, however.",
-    "platinum": "The user launches a\nhuge boulder at the\nfoe to attack.\nIt must rest on the\nnext turn, however.",
-    "heartgold-soulsilver": "The user launches a\nhuge boulder at the\nfoe to attack.\nIt must rest on the\nnext turn, however.",
-    "black-white": "The user launches a huge boulder at the\ntarget to attack. It must rest on the\nnext turn, however.",
-    "black-2-white-2": "The user launches a huge boulder at the\ntarget to attack. It must rest on the\nnext turn, however.",
-    "x-y": "The user launches a huge boulder at the\ntarget to attack.\nThe user can’t move on the next turn.",
-    "omega-ruby-alpha-sapphire": "The user launches a huge boulder at the\ntarget to attack.\nThe user can’t move on the next turn.",
-    "sun-moon": "The user launches a huge boulder at the target to\nattack. The user can’t move on the next turn.",
-    "ultra-sun-ultra-moon": "The user launches a huge boulder at the target to\nattack. The user can’t move on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user launches a huge boulder at the target to\nattack. The user can’t move on the next turn.",
-    "sword-shield": "The user launches a huge boulder at the target to\nattack. The user can’t move on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-    "shortEffect": "User foregoes its next turn to recharge."
-  },
-  "priority": 0
+    "_id": 439,
+    "key": "rock-wrecker",
+    "name": {
+        "japanese-kana": "がんせきほう",
+        "korean": "암석포",
+        "traditional-chinese": "岩石炮",
+        "french": "Roc-Boulet",
+        "german": "Felswerfer",
+        "spanish": "Romperrocas",
+        "italian": "Devastomasso",
+        "english": "Rock Wrecker",
+        "japanese": "がんせきほう",
+        "simplified-chinese": "岩石炮",
+        "latin-american-spanish": "Romperrocas"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user launches a huge boulder at the foe to attack. It must rest on the next turn, however.",
+            "pt": "The user launches a huge boulder at the foe to attack. It must rest on the next turn, however.",
+            "hgss": "The user launches a huge boulder at the foe to attack. It must rest on the next turn, however.",
+            "bw": "The user launches a huge boulder at the target to attack. It must rest on the next turn, however.",
+            "b2w2": "The user launches a huge boulder at the target to attack. It must rest on the next turn, however.",
+            "xy": "The user launches a huge boulder at the target to attack. The user can’t move on the next turn.",
+            "oras": "The user launches a huge boulder at the target to attack. The user can’t move on the next turn.",
+            "sm": "The user launches a huge boulder at the target to attack. The user can’t move on the next turn.",
+            "usum": "The user launches a huge boulder at the target to attack. The user can’t move on the next turn.",
+            "lgpe": "The user launches a huge boulder at the target to attack. The user can’t move on the next turn.",
+            "swsh": "The user launches a huge boulder at the target to attack. The user can’t move on the next turn.",
+            "la": "The user launches a huge boulder at the target to attack. The user can't move on the next turn.",
+            "sv": "The user launches a huge boulder at the target to attack. The user can't move on the next turn."
+        },
+        "french": {
+            "bw": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant.",
+            "xy": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant.",
+            "oras": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant.",
+            "sm": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant.",
+            "usum": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant.",
+            "lgpe": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant.",
+            "swsh": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "きょだいな　いわを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "oras": "きょだいな　いわを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "sm": "きょだいな　いわを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "usum": "きょだいな　いわを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "lgpe": "きょだいな　いわを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "swsh": "きょだいな　いわを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。"
+        },
+        "korean": {
+            "xy": "거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "oras": "거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "sm": "거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "usum": "거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "lgpe": "거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "swsh": "거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다."
+        },
+        "german": {
+            "xy": "Anwender wirft einen riesigen Felsen auf das Ziel. In der nächsten Runde muss der Anwender ruhen.",
+            "oras": "Anwender wirft einen riesigen Felsen auf das Ziel. In der nächsten Runde muss der Anwender ruhen.",
+            "sm": "Anwender wirft einen riesigen Felsen auf das Ziel. In der nächsten Runde muss der Anwender ruhen.",
+            "usum": "Anwender wirft einen riesigen Felsen auf das Ziel. In der nächsten Runde muss der Anwender ruhen.",
+            "lgpe": "Anwender wirft einen riesigen Felsen auf das Ziel. In der nächsten Runde muss der Anwender ruhen.",
+            "swsh": "Anwender wirft einen riesigen Felsen auf das Ziel. In der nächsten Runde muss der Anwender ruhen."
+        },
+        "spanish": {
+            "xy": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "oras": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "sm": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "usum": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "lgpe": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "swsh": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo.",
+            "oras": "Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo.",
+            "sm": "Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo.",
+            "usum": "Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo.",
+            "lgpe": "Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo.",
+            "swsh": "Chi la usa attacca il bersaglio con un enorme masso, ma si deve riposare al turno successivo."
+        },
+        "japanese": {
+            "xy": "巨大な　岩を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "oras": "巨大な　岩を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "sm": "巨大な　岩を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "usum": "巨大な　岩を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "lgpe": "巨大な　岩を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "swsh": "巨大な　岩を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "oras": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "sm": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "usum": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "lgpe": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.",
+            "swsh": "Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 巨大的岩石進行攻擊。 下一回合自己將無法動彈。",
+            "usum": "向對手發射 巨大的岩石進行攻擊。 下一回合自己將無法動彈。",
+            "lgpe": "向對手發射 巨大的岩石進行攻擊。 下一回合自己將無法動彈。",
+            "swsh": "向對手發射 巨大的岩石進行攻擊。 下一回合自己將無法動彈。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 巨大的岩石进行攻击。 下一回合自己将无法动弹。",
+            "usum": "向对手发射 巨大的岩石进行攻击。 下一回合自己将无法动弹。",
+            "lgpe": "向对手发射 巨大的岩石进行攻击。 下一回合自己将无法动弹。",
+            "swsh": "向对手发射 巨大的岩石进行攻击。 下一回合自己将无法动弹。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+        "shortEffect": "User foregoes its next turn to recharge."
+    }
 }

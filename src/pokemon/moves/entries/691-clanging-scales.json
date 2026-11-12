@@ -1,35 +1,117 @@
 {
-  "_id": 691,
-  "key": "clanging-scales",
-  "name": {
-    "english": "Clanging Scales",
-    "japanese": "スケイルノイズ",
-    "chinese": "鱗片噪音",
-    "korean": "스케일노이즈",
-    "german": "Fragor Escamas",
-    "french": "Schuppenrasseln",
-    "italian": "Clanging Scales",
-    "spanish": "Clamorsquame"
-  },
-  "type": "Dragon",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 110,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user rubs the scales on its entire body and\nmakes a huge noise to attack the opposing Pokémon.\nThe user’s Defense stat goes down after the attack.",
-    "ultra-sun-ultra-moon": "The user rubs the scales on its entire body and\nmakes a huge noise to attack the opposing Pokémon.\nThe user’s Defense stat goes down after the attack.",
-    "lets-go-pikachu-lets-go-eevee": "The user rubs the scales on its entire body and\nmakes a huge noise to attack the opposing Pokémon.\nThe user’s Defense stat goes down after the attack.",
-    "sword-shield": "The user rubs the scales on its entire body and makes\na huge noise to attack opposing Pokémon.\nThe user’s Defense stat goes down after the attack."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Lowers the user's Defense by one stage.",
-    "shortEffect": "Lowers the user's Defense by one stage after inflicting damage."
-  },
-  "priority": 0
+    "_id": 691,
+    "key": "clanging-scales",
+    "name": {
+        "japanese-kana": "スケイルノイズ",
+        "korean": "스케일노이즈",
+        "traditional-chinese": "鱗片噪音",
+        "french": "Vibrécaille",
+        "german": "Schuppenrasseln",
+        "spanish": "Fragor Escamas",
+        "italian": "Clamorsquame",
+        "english": "Clanging Scales",
+        "japanese": "スケイルノイズ",
+        "simplified-chinese": "鳞片噪音",
+        "latin-american-spanish": "Fragor Escamas"
+    },
+    "type": "dragon",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 110,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "ぜんしんの　うろこを　こすり おおきな　おとを　だして　こうげきする。 こうげきご　じぶんの　ぼうぎょが　さがる。",
+            "usum": "ぜんしんの　うろこを　こすり おおきな　おとを　だして　こうげきする。 こうげきご　じぶんの　ぼうぎょが　さがる。",
+            "lgpe": "ぜんしんの　うろこを　こすり おおきな　おとを　だして　こうげきする。 こうげきご　じぶんの　ぼうぎょが　さがる。",
+            "swsh": "ぜんしんの　うろこを　こすり おおきな　おとを　だして　こうげきする。 こうげきご　じぶんの　ぼうぎょが　さがる。"
+        },
+        "korean": {
+            "sm": "전신의 비늘을 비벼서 큰 소리를 내 공격한다. 공격 후 자신의 방어가 떨어진다.",
+            "usum": "전신의 비늘을 비벼서 큰 소리를 내 공격한다. 공격 후 자신의 방어가 떨어진다.",
+            "lgpe": "전신의 비늘을 비벼서 큰 소리를 내 공격한다. 공격 후 자신의 방어가 떨어진다.",
+            "swsh": "전신의 비늘을 비벼서 큰 소리를 내 공격한다. 공격 후 자신의 방어가 떨어진다."
+        },
+        "traditional-chinese": {
+            "sm": "摩擦全身鱗片， 發出響亮的聲音並進行攻擊。 攻擊後自己的防禦會降低。",
+            "usum": "摩擦全身鱗片， 發出響亮的聲音並進行攻擊。 攻擊後自己的防禦會降低。",
+            "lgpe": "摩擦全身鱗片， 發出響亮的聲音並進行攻擊。 攻擊後自己的防禦會降低。",
+            "swsh": "摩擦全身鱗片， 發出響亮的聲音並進行攻擊。 攻擊後自己的防禦會降低。"
+        },
+        "french": {
+            "sm": "Le lanceur déclenche un vacarme en frottant ses écailles les unes contre les autres pour attaquer. Baisse la Défense du lanceur.",
+            "usum": "Le lanceur déclenche un vacarme en frottant ses écailles les unes contre les autres pour attaquer. Baisse la Défense du lanceur.",
+            "lgpe": "Le lanceur déclenche un vacarme en frottant ses écailles les unes contre les autres pour attaquer. Baisse la Défense du lanceur.",
+            "swsh": "Le lanceur déclenche un vacarme en frottant ses écailles les unes contre les autres pour attaquer. Baisse la Défense du lanceur."
+        },
+        "german": {
+            "sm": "Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.",
+            "usum": "Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.",
+            "lgpe": "Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.",
+            "swsh": "Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift gegnerische Pokémon an. Anschließend sinkt seine Verteidigung."
+        },
+        "spanish": {
+            "sm": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.",
+            "usum": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.",
+            "lgpe": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.",
+            "swsh": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce.",
+            "usum": "Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce.",
+            "lgpe": "Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce.",
+            "swsh": "Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce."
+        },
+        "english": {
+            "sm": "The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.",
+            "usum": "The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.",
+            "lgpe": "The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.",
+            "swsh": "The user rubs the scales on its entire body and makes a huge noise to attack opposing Pokémon. The user’s Defense stat goes down after the attack.",
+            "la": "The user rubs the scales on its entire body and makes a huge noise to attack opposing Pokémon. The user's Defense stat goes down after the attack.",
+            "sv": "The user rubs the scales on its entire body and makes a huge noise to attack opposing Pokémon. The user's Defense stat is lowered after the attack."
+        },
+        "japanese": {
+            "sm": "全身の　うろこを　こすり 大きな　音を　出して　攻撃する。 攻撃後　自分の　防御が　さがる。",
+            "usum": "全身の　うろこを　こすり 大きな　音を　出して　攻撃する。 攻撃後　自分の　防御が　さがる。",
+            "lgpe": "全身の　うろこを　こすり 大きな　音を　出して　攻撃する。 攻撃後　自分の　防御が　さがる。",
+            "swsh": "全身の　うろこを　こすり 大きな　音を　出して　攻撃する。 攻撃後　自分の　防御が　さがる。"
+        },
+        "simplified-chinese": {
+            "sm": "摩擦全身鳞片， 发出响亮的声音进行攻击。 攻击后自己的防御会降低。",
+            "usum": "摩擦全身鳞片， 发出响亮的声音进行攻击。 攻击后自己的防御会降低。",
+            "lgpe": "摩擦全身鳞片， 发出响亮的声音进行攻击。 攻击后自己的防御会降低。",
+            "swsh": "摩擦全身鳞片， 发出响亮的声音进行攻击。 攻击后自己的防御会降低。"
+        },
+        "latin-american-spanish": {
+            "sm": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.",
+            "usum": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.",
+            "lgpe": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.",
+            "swsh": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Lowers the user’s Defense by one stage.",
+        "shortEffect": "Lowers the user’s Defense by one stage after inflicting damage."
+    }
 }

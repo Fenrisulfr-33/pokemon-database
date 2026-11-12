@@ -1,47 +1,150 @@
 {
-  "_id": 204,
-  "key": "charm",
-  "name": {
-    "english": "Charm",
-    "japanese": "あまえる",
-    "chinese": "撒娇",
-    "korean": "애교부리기",
-    "german": "Encanto",
-    "french": "Charme",
-    "italian": "Charm",
-    "spanish": "Fascino"
-  },
-  "type": "Fairy",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Sharply lowers the\nfoe's ATTACK.",
-    "crystal": "Sharply lowers the\nfoe's ATTACK.",
-    "ruby-sapphire": "Charms the foe and sharply\nreduces its ATTACK.",
-    "emerald": "Charms the foe and sharply\nreduces its ATTACK.",
-    "firered-leafgreen": "The foe is charmed\nby the user’s cute\nappeals, sharply\ncutting its ATTACK.",
-    "diamond-pearl": "The user charmingly\nstares at the foe,\nmaking it less wary.\nThe target’s Attack\nis sharply lowered.",
-    "platinum": "The user charmingly\nstares at the foe,\nmaking it less wary.\nThe target’s Attack\nis sharply lowered.",
-    "heartgold-soulsilver": "The user charmingly\nstares at the foe,\nmaking it less wary.\nThe target’s Attack\nis sharply lowered.",
-    "black-white": "The user gazes at the target rather\ncharmingly, making it less wary.\nThe target’s Attack is harshly lowered.",
-    "black-2-white-2": "The user gazes at the target rather\ncharmingly, making it less wary.\nThe target’s Attack is harshly lowered.",
-    "x-y": "The user gazes at the target rather\ncharmingly, making it less wary.\nThis harshly lowers its Attack stat.",
-    "omega-ruby-alpha-sapphire": "The user gazes at the target rather\ncharmingly, making it less wary.\nThis harshly lowers its Attack stat.",
-    "sun-moon": "The user gazes at the target rather charmingly,\nmaking it less wary. This harshly lowers its\nAttack stat.",
-    "ultra-sun-ultra-moon": "The user gazes at the target rather charmingly,\nmaking it less wary. This harshly lowers its\nAttack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user gazes at the target rather charmingly,\nmaking it less wary. This harshly lowers its\nAttack stat.",
-    "sword-shield": "The user gazes at the target rather charmingly,\nmaking it less wary. This harshly lowers the target’s\nAttack stat."
-  },
-  "effect": {
-    "full": "Lowers the target's Attack by two stages.",
-    "shortEffect": "Lowers the target's Attack by two stages."
-  },
-  "priority": 0
+    "_id": 204,
+    "key": "charm",
+    "name": {
+        "japanese-kana": "あまえる",
+        "korean": "애교부리기",
+        "traditional-chinese": "撒嬌",
+        "french": "Charme",
+        "german": "Charme",
+        "spanish": "Encanto",
+        "italian": "Fascino",
+        "english": "Charm",
+        "japanese": "あまえる",
+        "simplified-chinese": "撒娇",
+        "latin-american-spanish": "Encanto"
+    },
+    "type": "fairy",
+    "category": "status",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "type": "normal"
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Sharply lowers the foe's ATTACK.",
+            "cr": "Sharply lowers the foe's ATTACK.",
+            "rs": "Charms the foe and sharply reduces its ATTACK.",
+            "em": "Charms the foe and sharply reduces its ATTACK.",
+            "frlg": "The foe is charmed by the user’s cute appeals, sharply cutting its ATTACK.",
+            "dp": "The user charmingly stares at the foe, making it less wary. The target’s Attack is sharply lowered.",
+            "pt": "The user charmingly stares at the foe, making it less wary. The target’s Attack is sharply lowered.",
+            "hgss": "The user charmingly stares at the foe, making it less wary. The target’s Attack is sharply lowered.",
+            "bw": "The user gazes at the target rather charmingly, making it less wary. The target’s Attack is harshly lowered.",
+            "b2w2": "The user gazes at the target rather charmingly, making it less wary. The target’s Attack is harshly lowered.",
+            "xy": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat.",
+            "oras": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat.",
+            "sm": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat.",
+            "usum": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat.",
+            "lgpe": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat.",
+            "swsh": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target’s Attack stat.",
+            "la": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+            "sv": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat."
+        },
+        "french": {
+            "bw": "Le lanceur fait les yeux doux pour berner l’ennemi et réduire considérablement son Attaque.",
+            "xy": "Le lanceur fait les yeux doux pour berner l’ennemi et réduire considérablement son Attaque.",
+            "oras": "Le lanceur fait les yeux doux pour berner l’ennemi et réduire considérablement son Attaque.",
+            "sm": "Le lanceur fait les yeux doux pour berner l’ennemi et beaucoup réduire son Attaque.",
+            "usum": "Le lanceur fait les yeux doux pour berner l’ennemi et beaucoup réduire son Attaque.",
+            "lgpe": "Le lanceur fait les yeux doux pour berner l’ennemi et beaucoup réduire son Attaque.",
+            "swsh": "Le lanceur fait les yeux doux pour berner l’ennemi et beaucoup réduire son Attaque."
+        },
+        "japanese-kana": {
+            "xy": "かわいく　みつめて　ゆだんを　さそい あいての　こうげきを　がくっと　さげる。",
+            "oras": "かわいく　 つめて　ゆだんを　さそい あいての　こうげきを　がくっと　さげる。",
+            "sm": "かわいく　みつめて　ゆだんを　さそい あいての　こうげきを　がくっと　さげる。",
+            "usum": "かわいく　みつめて　ゆだんを　さそい あいての　こうげきを　がくっと　さげる。",
+            "lgpe": "かわいく　みつめて　ゆだんを　さそい あいての　こうげきを　がくっと　さげる。",
+            "swsh": "かわいく　みつめて　ゆだんを　さそい あいての　こうげきを　がくっと　さげる。"
+        },
+        "korean": {
+            "xy": "귀엽게 바라보고 방심을 유도하여 상대의 공격을 크게 떨어뜨린다.",
+            "oras": "귀엽게 바라보고 방심을 유도하여 상대의 공격을 크게 떨어뜨린다.",
+            "sm": "귀엽게 바라보고 방심을 유도하여 상대의 공격을 크게 떨어뜨린다.",
+            "usum": "귀엽게 바라보고 방심을 유도하여 상대의 공격을 크게 떨어뜨린다.",
+            "lgpe": "귀엽게 바라보고 방심을 유도하여 상대의 공격을 크게 떨어뜨린다.",
+            "swsh": "귀엽게 바라보고 방심을 유도하여 상대의 공격을 크게 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Betört das Ziel und reduziert dessen Angriffs-Wert stark.",
+            "oras": "Betört das Ziel und reduziert dessen Angriffs-Wert stark.",
+            "sm": "Betört das Ziel und reduziert dessen Angriffs-Wert stark.",
+            "usum": "Betört das Ziel und reduziert dessen Angriffs-Wert stark.",
+            "lgpe": "Betört das Ziel und reduziert dessen Angriffs-Wert stark.",
+            "swsh": "Betört das Ziel und reduziert dessen Angriffs-Wert stark."
+        },
+        "spanish": {
+            "xy": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "oras": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "sm": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "usum": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "lgpe": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "swsh": "Engatusa al objetivo y reduce mucho su Ataque."
+        },
+        "italian": {
+            "xy": "Ammalia il bersaglio con lo sguardo per renderlo meno cauto. Ne riduce molto l’Attacco.",
+            "oras": "Ammalia il bersaglio con lo sguardo per renderlo meno cauto. Ne riduce molto l’Attacco.",
+            "sm": "Ammalia il bersaglio con lo sguardo per renderlo meno cauto. Ne riduce molto l’Attacco.",
+            "usum": "Ammalia il bersaglio con lo sguardo per renderlo meno cauto. Ne riduce molto l’Attacco.",
+            "lgpe": "Ammalia il bersaglio con lo sguardo per renderlo meno cauto. Ne riduce molto l’Attacco.",
+            "swsh": "Ammalia il bersaglio con lo sguardo per renderlo meno cauto. Ne riduce molto l’Attacco."
+        },
+        "japanese": {
+            "xy": "かわいく　みつめて　油断を　誘い 相手の　攻撃を　がくっと　さげる。",
+            "oras": "かわいく　 つめて　油断を　誘い 相手の　攻撃を　がくっと　さげる。",
+            "sm": "かわいく　みつめて　油断を　誘い 相手の　攻撃を　がくっと　さげる。",
+            "usum": "かわいく　みつめて　油断を　誘い 相手の　攻撃を　がくっと　さげる。",
+            "lgpe": "かわいく　みつめて　油断を　誘い 相手の　攻撃を　がくっと　さげる。",
+            "swsh": "かわいく　みつめて　油断を　誘い 相手の　攻撃を　がくっと　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "oras": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "sm": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "usum": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "lgpe": "Engatusa al objetivo y reduce bastante su Ataque.",
+            "swsh": "Engatusa al objetivo y reduce mucho su Ataque."
+        },
+        "traditional-chinese": {
+            "sm": "用撒嬌的眼神 誘使對手疏忽大意， 大幅降低對手的攻擊。",
+            "usum": "用撒嬌的眼神 誘使對手疏忽大意， 大幅降低對手的攻擊。",
+            "lgpe": "用撒嬌的眼神 誘使對手疏忽大意， 大幅降低對手的攻擊。",
+            "swsh": "用撒嬌的眼神 誘使對手疏忽大意， 大幅降低對手的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "可爱地凝视， 诱使对手疏忽大意， 从而大幅降低对手的攻击。",
+            "usum": "可爱地凝视， 诱使对手疏忽大意， 从而大幅降低对手的攻击。",
+            "lgpe": "可爱地凝视， 诱使对手疏忽大意， 从而大幅降低对手的攻击。",
+            "swsh": "可爱地凝视， 诱使对手疏忽大意， 从而大幅降低对手的攻击。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Attack by two stages.",
+        "shortEffect": "Lowers the target’s Attack by two stages."
+    }
 }

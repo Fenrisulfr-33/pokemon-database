@@ -1,47 +1,146 @@
 {
-  "_id": 10,
-  "key": "scratch",
-  "name": {
-    "english": "Scratch",
-    "japanese": "ひっかく",
-    "chinese": "利爪",
-    "korean": "할퀴기",
-    "german": "Arañazo",
-    "french": "Kratzer",
-    "italian": "Scratch",
-    "spanish": "Graffio"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 35,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Scratches with\nsharp claws.",
-    "crystal": "Scratches with\nsharp claws.",
-    "ruby-sapphire": "Scratches the foe with\nsharp claws.",
-    "emerald": "Scratches the foe with\nsharp claws.",
-    "firered-leafgreen": "Hard, pointed, and\nsharp claws rake\nthe foe.",
-    "diamond-pearl": "Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n",
-    "platinum": "Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n",
-    "heartgold-soulsilver": "Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n",
-    "black-white": "Hard, pointed, and sharp claws rake\nthe target to inflict damage.",
-    "black-2-white-2": "Hard, pointed, and sharp claws rake\nthe target to inflict damage.",
-    "x-y": "Hard, pointed, sharp claws rake\nthe target to inflict damage.",
-    "omega-ruby-alpha-sapphire": "Hard, pointed, sharp claws rake\nthe target to inflict damage.",
-    "sun-moon": "Hard, pointed, sharp claws rake the target to\ninflict damage.",
-    "ultra-sun-ultra-moon": "Hard, pointed, sharp claws rake the target to\ninflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "Hard, pointed, sharp claws rake the target to\ninflict damage.",
-    "sword-shield": "Hard, pointed, sharp claws rake the target to\ninflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 10,
+    "key": "scratch",
+    "name": {
+        "japanese-kana": "ひっかく",
+        "korean": "할퀴기",
+        "traditional-chinese": "抓",
+        "french": "Griffe",
+        "german": "Kratzer",
+        "spanish": "Arañazo",
+        "italian": "Graffio",
+        "english": "Scratch",
+        "japanese": "ひっかく",
+        "simplified-chinese": "抓",
+        "latin-american-spanish": "Arañazo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 35,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Scratches with sharp claws.",
+            "cr": "Scratches with sharp claws.",
+            "rs": "Scratches the foe with sharp claws.",
+            "em": "Scratches the foe with sharp claws.",
+            "frlg": "Hard, pointed, and sharp claws rake the foe.",
+            "dp": "Hard, pointed, and sharp claws rake the foe to inflict damage.",
+            "pt": "Hard, pointed, and sharp claws rake the foe to inflict damage.",
+            "hgss": "Hard, pointed, and sharp claws rake the foe to inflict damage.",
+            "bw": "Hard, pointed, and sharp claws rake the target to inflict damage.",
+            "b2w2": "Hard, pointed, and sharp claws rake the target to inflict damage.",
+            "xy": "Hard, pointed, sharp claws rake the target to inflict damage.",
+            "oras": "Hard, pointed, sharp claws rake the target to inflict damage.",
+            "sm": "Hard, pointed, sharp claws rake the target to inflict damage.",
+            "usum": "Hard, pointed, sharp claws rake the target to inflict damage.",
+            "lgpe": "Hard, pointed, sharp claws rake the target to inflict damage.",
+            "swsh": "Hard, pointed, sharp claws rake the target to inflict damage.",
+            "la": "Hard, pointed, sharp claws rake the target to inflict damage.",
+            "sv": "Hard, pointed, sharp claws rake the target to inflict damage."
+        },
+        "french": {
+            "bw": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.",
+            "xy": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.",
+            "oras": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.",
+            "sm": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.",
+            "usum": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.",
+            "lgpe": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.",
+            "swsh": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts."
+        },
+        "japanese-kana": {
+            "xy": "かたく　とがった　するどい　ツメで あいてを　ひっかいて　こうげきする。",
+            "oras": "かたく　とがった　するどい　ツメで あいてを　ひっかいて　こうげきする。",
+            "sm": "かたく　とがった　するどい　ツメで あいてを　ひっかいて　こうげきする。",
+            "usum": "かたく　とがった　するどい　ツメで あいてを　ひっかいて　こうげきする。",
+            "lgpe": "かたく　とがった　するどい　ツメで あいてを　ひっかいて　こうげきする。",
+            "swsh": "かたく　とがった　するどい　ツメで あいてを　ひっかいて　こうげきする。"
+        },
+        "korean": {
+            "xy": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다.",
+            "oras": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다.",
+            "sm": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다.",
+            "usum": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다.",
+            "lgpe": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다.",
+            "swsh": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다."
+        },
+        "german": {
+            "xy": "Das Ziel wird mit scharfen Klauen zerkratzt.",
+            "oras": "Das Ziel wird mit scharfen Klauen zerkratzt.",
+            "sm": "Das Ziel wird mit scharfen Klauen zerkratzt.",
+            "usum": "Das Ziel wird mit scharfen Klauen zerkratzt.",
+            "lgpe": "Das Ziel wird mit scharfen Klauen zerkratzt.",
+            "swsh": "Das Ziel wird mit scharfen Klauen zerkratzt."
+        },
+        "spanish": {
+            "xy": "Araña con afiladas garras.",
+            "oras": "Araña con afiladas garras.",
+            "sm": "Araña con afiladas garras.",
+            "usum": "Araña con afiladas garras.",
+            "lgpe": "Araña con afiladas garras.",
+            "swsh": "Araña con afiladas garras."
+        },
+        "italian": {
+            "xy": "Infligge danni al bersaglio con artigli acuminati, duri e affilati.",
+            "oras": "Infligge danni al bersaglio con artigli acuminati, duri e affilati.",
+            "sm": "Infligge danni al bersaglio con artigli acuminati, duri e affilati.",
+            "usum": "Infligge danni al bersaglio con artigli acuminati, duri e affilati.",
+            "lgpe": "Infligge danni al bersaglio con artigli acuminati, duri e affilati.",
+            "swsh": "Infligge danni al bersaglio con artigli acuminati, duri e affilati."
+        },
+        "japanese": {
+            "xy": "硬く　とがった　鋭い　ツメで 相手を　ひっかいて　攻撃する。",
+            "oras": "硬く　とがった　鋭い　ツメで 相手を　ひっかいて　攻撃する。",
+            "sm": "硬く　とがった　鋭い　ツメで 相手を　ひっかいて　攻撃する。",
+            "usum": "硬く　とがった　鋭い　ツメで 相手を　ひっかいて　攻撃する。",
+            "lgpe": "硬く　とがった　鋭い　ツメで 相手を　ひっかいて　攻撃する。",
+            "swsh": "硬く　とがった　鋭い　ツメで 相手を　ひっかいて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Araña con afiladas garras.",
+            "oras": "Araña con afiladas garras.",
+            "sm": "Araña con afiladas garras.",
+            "usum": "Araña con afiladas garras.",
+            "lgpe": "Araña con afiladas garras.",
+            "swsh": "Araña con afiladas garras."
+        },
+        "traditional-chinese": {
+            "sm": "用堅硬且無比鋒利的爪子 抓對手進行攻擊。",
+            "usum": "用堅硬且無比鋒利的爪子 抓對手進行攻擊。",
+            "lgpe": "用堅硬且無比鋒利的爪子 抓對手進行攻擊。",
+            "swsh": "用堅硬且無比鋒利的爪子 抓對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用坚硬且无比锋利的爪子 抓对手进行攻击。",
+            "usum": "用坚硬且无比锋利的爪子 抓对手进行攻击。",
+            "lgpe": "用坚硬且无比锋利的爪子 抓对手进行攻击。",
+            "swsh": "用坚硬且无比锋利的爪子 抓对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

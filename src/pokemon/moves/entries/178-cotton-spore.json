@@ -1,47 +1,150 @@
 {
-  "_id": 178,
-  "key": "cotton-spore",
-  "name": {
-    "english": "Cotton Spore",
-    "japanese": "わたほうし",
-    "chinese": "棉孢子",
-    "korean": "목화포자",
-    "german": "Esporagodón",
-    "french": "Baumwollsaat",
-    "italian": "Cotton Spore",
-    "spanish": "Cottonspora"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 40,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "Sharply reduces\nthe foe's SPEED.",
-    "crystal": "Sharply reduces\nthe foe's SPEED.",
-    "ruby-sapphire": "Spores cling to the foe,\nsharply reducing SPEED.",
-    "emerald": "Spores cling to the foe,\nsharply reducing SPEED.",
-    "firered-leafgreen": "Cotton-like spores\ncling to the foe,\nsharply reducing\nits SPEED stat.",
-    "diamond-pearl": "The user releases\ncottonlike spores\nthat cling to the\nfoe, sharply reducing\nits Speed stat.",
-    "platinum": "The user releases\ncottonlike spores\nthat cling to the\nfoe, sharply reducing\nits Speed stat.",
-    "heartgold-soulsilver": "The user releases\ncottonlike spores\nthat cling to the\nfoe, sharply reducing\nits Speed stat.",
-    "black-white": "The user releases cotton-like spores\nthat cling to the target,\nharshly reducing its Speed stat.",
-    "black-2-white-2": "The user releases cotton-like spores\nthat cling to the target,\nharshly reducing its Speed stat.",
-    "x-y": "The user releases cotton-like spores\nthat cling to the opposing Pokémon,\nwhich harshly lowers their Speed stats.",
-    "omega-ruby-alpha-sapphire": "The user releases cotton-like spores\nthat cling to the opposing Pokémon,\nwhich harshly lowers their Speed stats.",
-    "sun-moon": "The user releases cotton-like spores that cling to\nthe opposing Pokémon, which harshly lowers their\nSpeed stat.",
-    "ultra-sun-ultra-moon": "The user releases cotton-like spores that cling to\nthe opposing Pokémon, which harshly lowers their\nSpeed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user releases cotton-like spores that cling to\nthe opposing Pokémon, which harshly lowers their\nSpeed stat.",
-    "sword-shield": "The user releases cotton-like spores that cling to\nopposing Pokémon, which harshly lowers their\nSpeed stats."
-  },
-  "effect": {
-    "full": "Lowers the target's Speed by two stages.",
-    "shortEffect": "Lowers the target's Speed by two stages."
-  },
-  "priority": 0
+    "_id": 178,
+    "key": "cotton-spore",
+    "name": {
+        "japanese-kana": "わたほうし",
+        "korean": "목화포자",
+        "traditional-chinese": "棉孢子",
+        "french": "Spore Coton",
+        "german": "Baumwollsaat",
+        "spanish": "Esporagodón",
+        "italian": "Cottonspora",
+        "english": "Cotton Spore",
+        "japanese": "わたほうし",
+        "simplified-chinese": "棉孢子",
+        "latin-american-spanish": "Esporagodón"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 40,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 85
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Sharply reduces the foe's SPEED.",
+            "cr": "Sharply reduces the foe's SPEED.",
+            "rs": "Spores cling to the foe, sharply reducing SPEED.",
+            "em": "Spores cling to the foe, sharply reducing SPEED.",
+            "frlg": "Cotton-like spores cling to the foe, sharply reducing its SPEED stat.",
+            "dp": "The user releases cottonlike spores that cling to the foe, sharply reducing its Speed stat.",
+            "pt": "The user releases cottonlike spores that cling to the foe, sharply reducing its Speed stat.",
+            "hgss": "The user releases cottonlike spores that cling to the foe, sharply reducing its Speed stat.",
+            "bw": "The user releases cotton-like spores that cling to the target, harshly reducing its Speed stat.",
+            "b2w2": "The user releases cotton-like spores that cling to the target, harshly reducing its Speed stat.",
+            "xy": "The user releases cotton-like spores that cling to the opposing Pokémon, which harshly lowers their Speed stats.",
+            "oras": "The user releases cotton-like spores that cling to the opposing Pokémon, which harshly lowers their Speed stats.",
+            "sm": "The user releases cotton-like spores that cling to the opposing Pokémon, which harshly lowers their Speed stat.",
+            "usum": "The user releases cotton-like spores that cling to the opposing Pokémon, which harshly lowers their Speed stat.",
+            "lgpe": "The user releases cotton-like spores that cling to the opposing Pokémon, which harshly lowers their Speed stat.",
+            "swsh": "The user releases cotton-like spores that cling to opposing Pokémon, which harshly lowers their Speed stats.",
+            "la": "The user releases cotton-like spores that cling to opposing Pokémon, which harshly lowers their Speed stats.",
+            "sv": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats."
+        },
+        "french": {
+            "bw": "Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent fortement sa Vitesse.",
+            "xy": "Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent fortement sa Vitesse.",
+            "oras": "Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent fortement sa Vitesse.",
+            "sm": "Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent beaucoup sa Vitesse.",
+            "usum": "Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent beaucoup sa Vitesse.",
+            "lgpe": "Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent beaucoup sa Vitesse.",
+            "swsh": "Le lanceur libère des spores cotonneuses qui collent à l’ennemi et baissent beaucoup sa Vitesse."
+        },
+        "japanese-kana": {
+            "xy": "わたのような　フワフワの　ほうしを まとわり　つかせて あいての　すばやさを　がくっと　さげる。",
+            "oras": "わたのような　フワフワの　ほうしを まとわり　つかせて あいての　すばやさを　がくっと　さげる。",
+            "sm": "わたのような　フワフワの　ほうしを まとわり　つかせて あいての　すばやさを　がくっと　さげる。",
+            "usum": "わたのような　フワフワの　ほうしを まとわり　つかせて あいての　すばやさを　がくっと　さげる。",
+            "lgpe": "わたのような　フワフワの　ほうしを まとわり　つかせて あいての　すばやさを　がくっと　さげる。",
+            "swsh": "わたのような　フワフワの　ほうしを まとわり　つかせて あいての　すばやさを　がくっと　さげる。"
+        },
+        "korean": {
+            "xy": "솜처럼 폭신폭신한 포자를 착 달라붙게 해서 상대의 스피드를 크게 떨어뜨린다.",
+            "oras": "솜처럼 폭신폭신한 포자를 착 달라붙게 해서 상대의 스피드를 크게 떨어뜨린다.",
+            "sm": "솜처럼 폭신폭신한 포자를 착 달라붙게 해서 상대의 스피드를 크게 떨어뜨린다.",
+            "usum": "솜처럼 폭신폭신한 포자를 착 달라붙게 해서 상대의 스피드를 크게 떨어뜨린다.",
+            "lgpe": "솜처럼 폭신폭신한 포자를 착 달라붙게 해서 상대의 스피드를 크게 떨어뜨린다.",
+            "swsh": "솜처럼 폭신폭신한 포자를 착 달라붙게 해서 상대의 스피드를 크게 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Wattebäusche heften sich an das Ziel. Der Initiative-Wert sinkt stark.",
+            "oras": "Wattebäusche heften sich an das Ziel. Der Initiative-Wert sinkt stark.",
+            "sm": "Wattebäusche heften sich an das Ziel. Der Initiative-Wert sinkt stark.",
+            "usum": "Wattebäusche heften sich an das Ziel. Der Initiative-Wert sinkt stark.",
+            "lgpe": "Wattebäusche heften sich an das Ziel. Der Initiative-Wert sinkt stark.",
+            "swsh": "Wattebäusche heften sich an gegnerische Pokémon, deren Initiative-Wert dadurch stark sinkt."
+        },
+        "spanish": {
+            "xy": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "oras": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "sm": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "usum": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "lgpe": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "swsh": "Adhiere esporas a los rivales para reducir mucho su Velocidad."
+        },
+        "italian": {
+            "xy": "Rilascia spore simili al cotone che si attaccano ai nemici nei paraggi e ne riducono di molto la Velocità.",
+            "oras": "Rilascia spore simili al cotone che si attaccano ai nemici nei paraggi e ne riducono di molto la Velocità.",
+            "sm": "Rilascia spore simili al cotone che si attaccano ai nemici nei paraggi e ne riducono di molto la Velocità.",
+            "usum": "Rilascia spore simili al cotone che si attaccano ai nemici nei paraggi e ne riducono di molto la Velocità.",
+            "lgpe": "Rilascia spore simili al cotone che si attaccano ai nemici nei paraggi e ne riducono di molto la Velocità.",
+            "swsh": "Rilascia spore simili al cotone che si attaccano ai nemici nei paraggi e ne riducono di molto la Velocità."
+        },
+        "japanese": {
+            "xy": "綿のような　フワフワの　胞子を まとわり　つかせて 相手の　素早さを　がくっと　さげる。",
+            "oras": "綿のような　フワフワの　胞子を まとわり　つかせて 相手の　素早さを　がくっと　さげる。",
+            "sm": "綿のような　フワフワの　胞子を まとわり　つかせて 相手の　素早さを　がくっと　さげる。",
+            "usum": "綿のような　フワフワの　胞子を まとわり　つかせて 相手の　素早さを　がくっと　さげる。",
+            "lgpe": "綿のような　フワフワの　胞子を まとわり　つかせて 相手の　素早さを　がくっと　さげる。",
+            "swsh": "綿のような　フワフワの　胞子を まとわり　つかせて 相手の　素早さを　がくっと　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "oras": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "sm": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "usum": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "lgpe": "Adhiere esporas a los rivales para reducir mucho su Velocidad.",
+            "swsh": "Adhiere esporas a los rivales para reducir mucho su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "將棉花般柔軟的孢子 纏繞對手， 大幅降低對手的速度。",
+            "usum": "將棉花般柔軟的孢子 纏繞對手， 大幅降低對手的速度。",
+            "lgpe": "將棉花般柔軟的孢子 纏繞對手， 大幅降低對手的速度。",
+            "swsh": "將棉花般柔軟的孢子 纏繞對手， 大幅降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "将棉花般柔软的孢子 紧贴对手， 从而大幅降低对手的速度。",
+            "usum": "将棉花般柔软的孢子 紧贴对手， 从而大幅降低对手的速度。",
+            "lgpe": "将棉花般柔软的孢子 紧贴对手， 从而大幅降低对手的速度。",
+            "swsh": "将棉花般柔软的孢子 紧贴对手， 从而大幅降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Speed by two stages.",
+        "shortEffect": "Lowers the target’s Speed by two stages."
+    }
 }

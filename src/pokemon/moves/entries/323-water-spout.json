@@ -1,45 +1,144 @@
 {
-  "_id": 323,
-  "key": "water-spout",
-  "name": {
-    "english": "Water Spout",
-    "japanese": "しおふき",
-    "chinese": "喷水",
-    "korean": "해수스파우팅",
-    "german": "Salpicar",
-    "french": "Fontränen",
-    "italian": "Water Spout",
-    "spanish": "Zampillo"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Inflicts more damage if the\nuser’s HP is high.",
-    "emerald": "Inflicts more damage if the\nuser’s HP is high.",
-    "firered-leafgreen": "The higher the\nuser’s HP, the more\npowerful this\nattack becomes.",
-    "diamond-pearl": "The user spouts\nwater to damage the\nfoe. The lower the\nuser’s HP, the less\npowerful it becomes.",
-    "platinum": "The user spouts\nwater to damage the\nfoe. The lower the\nuser’s HP, the less\npowerful it becomes.",
-    "heartgold-soulsilver": "The user spouts\nwater to damage the\nfoe. The lower the\nuser’s HP, the less\npowerful it becomes.",
-    "black-white": "The user spouts water to damage the\nopposing team. The lower the user’s HP,\nthe less powerful it becomes.",
-    "black-2-white-2": "The user spouts water to damage the\nopposing team. The lower the user’s HP,\nthe less powerful it becomes.",
-    "x-y": "The user spouts water to damage opposing\nPokémon. The lower the user’s HP,\nthe lower the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user spouts water to damage opposing\nPokémon. The lower the user’s HP,\nthe lower the move’s power.",
-    "sun-moon": "The user spouts water to damage opposing\nPokémon. The lower the user’s HP, the lower the\nmove’s power.",
-    "ultra-sun-ultra-moon": "The user spouts water to damage opposing\nPokémon. The lower the user’s HP, the lower the\nmove’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user spouts water to damage opposing\nPokémon. The lower the user’s HP, the lower the\nmove’s power.",
-    "sword-shield": "The user spouts water to damage opposing\nPokémon. The lower the user’s HP, the lower the\nmove’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power increases with the user's remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
-    "shortEffect": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
-  },
-  "priority": 0
+    "_id": 323,
+    "key": "water-spout",
+    "name": {
+        "japanese-kana": "しおふき",
+        "korean": "해수스파우팅",
+        "traditional-chinese": "噴水",
+        "french": "Giclédo",
+        "german": "Fontränen",
+        "spanish": "Salpicar",
+        "italian": "Zampillo",
+        "english": "Water Spout",
+        "japanese": "しおふき",
+        "simplified-chinese": "喷水",
+        "latin-american-spanish": "Columna de Agua"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Inflicts more damage if the user’s HP is high.",
+            "em": "Inflicts more damage if the user’s HP is high.",
+            "frlg": "The higher the user’s HP, the more powerful this attack becomes.",
+            "dp": "The user spouts water to damage the foe. The lower the user’s HP, the less powerful it becomes.",
+            "pt": "The user spouts water to damage the foe. The lower the user’s HP, the less powerful it becomes.",
+            "hgss": "The user spouts water to damage the foe. The lower the user’s HP, the less powerful it becomes.",
+            "bw": "The user spouts water to damage the opposing team. The lower the user’s HP, the less powerful it becomes.",
+            "b2w2": "The user spouts water to damage the opposing team. The lower the user’s HP, the less powerful it becomes.",
+            "xy": "The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+            "oras": "The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+            "sm": "The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+            "usum": "The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+            "lgpe": "The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+            "swsh": "The user spouts water to damage opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+            "la": "The user spouts water to damage opposing Pokémon. The lower the user's HP, the lower the move's power.",
+            "sv": "The user spouts water to damage opposing Pokémon. The lower the user's HP, the lower the move's power."
+        },
+        "french": {
+            "bw": "Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante.",
+            "xy": "Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante.",
+            "oras": "Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante.",
+            "sm": "Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante.",
+            "usum": "Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante.",
+            "lgpe": "Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante.",
+            "swsh": "Le lanceur attaque avec un jet d’eau. Moins il a de PV et moins l’attaque est puissante."
+        },
+        "japanese-kana": {
+            "xy": "しおを　ふきつけて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　さがる。",
+            "oras": "しおを　ふきつけて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　さがる。",
+            "sm": "しおを　ふきつけて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　さがる。",
+            "usum": "しおを　ふきつけて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　さがる。",
+            "lgpe": "しおを　ふきつけて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　さがる。",
+            "swsh": "しおを　ふきつけて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　さがる。"
+        },
+        "korean": {
+            "xy": "바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "oras": "바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "sm": "바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "usum": "바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "lgpe": "바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "swsh": "바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다."
+        },
+        "german": {
+            "xy": "Wasser-Attacke, die wirkungsvoller ist, wenn KP des Anwenders hoch sind.",
+            "oras": "Wasser-Attacke, die wirkungsvoller ist, wenn KP des Anwenders hoch sind.",
+            "sm": "Wasser-Attacke, die wirkungsvoller ist, wenn KP des Anwenders hoch sind.",
+            "usum": "Wasser-Attacke, die wirkungsvoller ist, wenn KP des Anwenders hoch sind.",
+            "lgpe": "Wasser-Attacke, die wirkungsvoller ist, wenn KP des Anwenders hoch sind.",
+            "swsh": "Eine Wasser-Attacke gegen gegnerische Pokémon. Je höher die KP des Anwenders sind, desto mehr Schaden richtet sie an."
+        },
+        "spanish": {
+            "xy": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "oras": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "sm": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "usum": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "lgpe": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "swsh": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será."
+        },
+        "italian": {
+            "xy": "Lancia un getto d’acqua contro il nemico che ha davanti e quelli adiacenti. La potenza è proporzionale al numero di PS di chi la usa.",
+            "oras": "Lancia un getto d’acqua contro il nemico che ha davanti e quelli adiacenti. La potenza è proporzionale al numero di PS di chi la usa.",
+            "sm": "Lancia un getto d’acqua contro il nemico che ha davanti e quelli adiacenti. La potenza è proporzionale al numero di PS di chi la usa.",
+            "usum": "Lancia un getto d’acqua contro il nemico che ha davanti e quelli adiacenti. La potenza è proporzionale al numero di PS di chi la usa.",
+            "lgpe": "Lancia un getto d’acqua contro il nemico che ha davanti e quelli adiacenti. La potenza è proporzionale al numero di PS di chi la usa.",
+            "swsh": "Lancia un getto d’acqua contro il nemico che ha davanti e quelli adiacenti. La potenza è proporzionale al numero di PS di chi la usa."
+        },
+        "japanese": {
+            "xy": "潮を　吹きつけて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　さがる。",
+            "oras": "潮を　吹きつけて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　さがる。",
+            "sm": "潮を　吹きつけて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　さがる。",
+            "usum": "潮を　吹きつけて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　さがる。",
+            "lgpe": "潮を　吹きつけて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　さがる。",
+            "swsh": "潮を　吹きつけて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "oras": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "sm": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "usum": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "lgpe": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.",
+            "swsh": "Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será."
+        },
+        "traditional-chinese": {
+            "sm": "噴起潮水進行攻擊。 自己的ＨＰ越少， 招式的威力越小。",
+            "usum": "噴起潮水進行攻擊。 自己的ＨＰ越少， 招式的威力越小。",
+            "lgpe": "噴起潮水進行攻擊。 自己的HP越少， 招式的威力越小。",
+            "swsh": "噴起潮水進行攻擊。 自己的ＨＰ越少， 招式的威力越小。"
+        },
+        "simplified-chinese": {
+            "sm": "掀起潮水进行攻击。 自己的ＨＰ越少， 招式的威力越小。",
+            "usum": "掀起潮水进行攻击。 自己的ＨＰ越少， 招式的威力越小。",
+            "lgpe": "掀起潮水进行攻击。 自己的HP越少， 招式的威力越小。",
+            "swsh": "掀起潮水进行攻击。 自己的ＨＰ越少， 招式的威力越小。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "shortEffect": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+    }
 }

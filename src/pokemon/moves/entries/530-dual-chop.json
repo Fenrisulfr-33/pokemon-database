@@ -1,39 +1,136 @@
 {
-  "_id": 530,
-  "key": "dual-chop",
-  "name": {
-    "english": "Dual Chop",
-    "japanese": "ダブルチョップ",
-    "chinese": "双重劈",
-    "korean": "더블촙",
-    "german": "Golpe Bis",
-    "french": "Doppelhieb",
-    "italian": "Dual Chop",
-    "spanish": "Doppiocolpo"
-  },
-  "type": "Dragon",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 40,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks its target by hitting\nit with brutal strikes.\nThe target is hit twice in a row.",
-    "black-2-white-2": "The user attacks its target by hitting\nit with brutal strikes.\nThe target is hit twice in a row.",
-    "x-y": "The user attacks its target by hitting\nit with brutal strikes.\nThe target is hit twice in a row.",
-    "omega-ruby-alpha-sapphire": "The user attacks its target by hitting\nit with brutal strikes.\nThe target is hit twice in a row.",
-    "sun-moon": "The user attacks its target by hitting it with brutal\nstrikes. The target is hit twice in a row.",
-    "ultra-sun-ultra-moon": "The user attacks its target by hitting it with brutal\nstrikes. The target is hit twice in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks its target by hitting it with brutal\nstrikes. The target is hit twice in a row.",
-    "sword-shield": "The user attacks its target by hitting it with brutal\nstrikes. The target is hit twice in a row."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits twice in one turn.",
-    "shortEffect": "Hits twice in one turn."
-  },
-  "priority": 0
+    "_id": 530,
+    "key": "dual-chop",
+    "name": {
+        "japanese-kana": "ダブルチョップ",
+        "korean": "더블촙",
+        "traditional-chinese": "二連劈",
+        "french": "Double Baffe",
+        "german": "Doppelhieb",
+        "spanish": "Golpe Bis",
+        "italian": "Doppiocolpo",
+        "english": "Dual Chop",
+        "japanese": "ダブルチョップ",
+        "simplified-chinese": "二连劈",
+        "latin-american-spanish": "Golpe Dual"
+    },
+    "type": "dragon",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 40,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 2,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps.",
+            "xy": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps.",
+            "oras": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps.",
+            "sm": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps.",
+            "usum": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps.",
+            "lgpe": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps.",
+            "swsh": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps."
+        },
+        "english": {
+            "bw": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+            "b2w2": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+            "xy": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+            "oras": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+            "sm": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+            "usum": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+            "lgpe": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+            "swsh": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row."
+        },
+        "japanese-kana": {
+            "xy": "からだの　かたいぶぶんで　あいてを たたいて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "oras": "からだの　かたいぶぶんで　あいてを たたいて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "sm": "からだの　かたいぶぶんで　あいてを たたいて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "usum": "からだの　かたいぶぶんで　あいてを たたいて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "lgpe": "からだの　かたいぶぶんで　あいてを たたいて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "swsh": "からだの　かたいぶぶんで　あいてを たたいて　こうげきする。２かい れんぞくで　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "몸의 단단한 부분으로 상대를 때려 공격한다. 2회 연속으로 데미지를 준다.",
+            "oras": "몸의 단단한 부분으로 상대를 때려 공격한다. 2회 연속으로 데미지를 준다.",
+            "sm": "몸의 단단한 부분으로 상대를 때려 공격한다. 2회 연속으로 데미지를 준다.",
+            "usum": "몸의 단단한 부분으로 상대를 때려 공격한다. 2회 연속으로 데미지를 준다.",
+            "lgpe": "몸의 단단한 부분으로 상대를 때려 공격한다. 2회 연속으로 데미지를 준다.",
+            "swsh": "몸의 단단한 부분으로 상대를 때려 공격한다. 2회 연속으로 데미지를 준다."
+        },
+        "german": {
+            "xy": "Versetzt dem Ziel mit massiven Extremitäten Hiebe. Angriff erfolgt zweimal hintereinander.",
+            "oras": "Versetzt dem Ziel mit massiven Extremitäten Hiebe. Angriff erfolgt zweimal hintereinander.",
+            "sm": "Versetzt dem Ziel mit massiven Extremitäten Hiebe. Angriff erfolgt zweimal hintereinander.",
+            "usum": "Versetzt dem Ziel mit massiven Extremitäten Hiebe. Angriff erfolgt zweimal hintereinander.",
+            "lgpe": "Versetzt dem Ziel mit massiven Extremitäten Hiebe. Angriff erfolgt zweimal hintereinander.",
+            "swsh": "Versetzt dem Ziel mit massiven Extremitäten Hiebe. Angriff erfolgt zweimal hintereinander."
+        },
+        "spanish": {
+            "xy": "Golpea dos veces seguidas con la cola u otras partes de su cuerpo.",
+            "oras": "Golpea dos veces seguidas con la cola u otras partes de su cuerpo.",
+            "sm": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
+            "usum": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
+            "lgpe": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
+            "swsh": "Golpea dos veces seguidas con las partes más recias de su cuerpo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti.",
+            "oras": "Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti.",
+            "sm": "Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti.",
+            "usum": "Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti.",
+            "lgpe": "Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti.",
+            "swsh": "Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti."
+        },
+        "japanese": {
+            "xy": "体の　硬い部分で　相手を たたいて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "oras": "体の　硬い部分で　相手を たたいて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "sm": "体の　硬い部分で　相手を たたいて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "usum": "体の　硬い部分で　相手を たたいて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "lgpe": "体の　硬い部分で　相手を たたいて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "swsh": "体の　硬い部分で　相手を たたいて　攻撃する。 ２回連続で　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea dos veces seguidas con la cola u otras partes de su cuerpo.",
+            "oras": "Golpea dos veces seguidas con la cola u otras partes de su cuerpo.",
+            "sm": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
+            "usum": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
+            "lgpe": "Golpea dos veces seguidas con las partes más recias de su cuerpo.",
+            "swsh": "Golpea dos veces seguidas con las partes más recias de su cuerpo."
+        },
+        "traditional-chinese": {
+            "sm": "用身體的堅硬部分攻擊對手。 連續２次給予傷害。",
+            "usum": "用身體的堅硬部分攻擊對手。 連續２次給予傷害。",
+            "lgpe": "用身體的堅硬部分攻擊對手。 連續２次給予傷害。",
+            "swsh": "用身體的堅硬部分攻擊對手。 連續２次給予傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "用身体坚硬的部分 拍打对手进行攻击。 连续２次给予伤害。",
+            "usum": "用身体坚硬的部分 拍打对手进行攻击。 连续２次给予伤害。",
+            "lgpe": "用身体坚硬的部分 拍打对手进行攻击。 连续２次给予伤害。",
+            "swsh": "用身体坚硬的部分 拍打对手进行攻击。 连续２次给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits twice in one turn.",
+        "shortEffect": "Hits twice in one turn."
+    }
 }

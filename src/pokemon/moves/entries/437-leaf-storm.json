@@ -1,42 +1,145 @@
 {
-  "_id": 437,
-  "key": "leaf-storm",
-  "name": {
-    "english": "Leaf Storm",
-    "japanese": "リーフストーム",
-    "chinese": "叶暴风",
-    "korean": "리프스톰",
-    "german": "Lluevehojas",
-    "french": "Blättersturm",
-    "italian": "Leaf Storm",
-    "spanish": "Verdebufera"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 5,
-  "power": 130,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "A storm of sharp\nleaves is whipped up.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "platinum": "A storm of sharp\nleaves is whipped up.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "heartgold-soulsilver": "A storm of sharp\nleaves is whipped up.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "black-white": "The user whips up a storm of leaves around\nthe target. The attack’s recoil harshly\nreduces the user’s Sp. Atk stat.",
-    "black-2-white-2": "The user whips up a storm of leaves around\nthe target. The attack’s recoil harshly\nreduces the user’s Sp. Atk stat.",
-    "x-y": "The user whips up a storm of leaves around\nthe target. The attack’s recoil harshly\nlowers the user’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "The user whips up a storm of leaves around\nthe target. The attack’s recoil harshly\nlowers the user’s Sp. Atk stat.",
-    "sun-moon": "The user whips up a storm of leaves around the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user whips up a storm of leaves around the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user whips up a storm of leaves around the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
-    "sword-shield": "The user whips up a storm of leaves around the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Special Attack by two stages.",
-    "shortEffect": "Lowers the user's Special Attack by two stages after inflicting damage."
-  },
-  "priority": 0
+    "_id": 437,
+    "key": "leaf-storm",
+    "name": {
+        "japanese-kana": "リーフストーム",
+        "korean": "리프스톰",
+        "traditional-chinese": "飛葉風暴",
+        "french": "Tempête Verte",
+        "german": "Blättersturm",
+        "spanish": "Lluevehojas",
+        "italian": "Verdebufera",
+        "english": "Leaf Storm",
+        "japanese": "リーフストーム",
+        "simplified-chinese": "飞叶风暴",
+        "latin-american-spanish": "Tormenta de Hojas"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "cute",
+    "pp": 5,
+    "power": 130,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "xy": {
+            "power": 140
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "A storm of sharp leaves is whipped up. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "pt": "A storm of sharp leaves is whipped up. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "hgss": "A storm of sharp leaves is whipped up. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "bw": "The user whips up a storm of leaves around the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.",
+            "b2w2": "The user whips up a storm of leaves around the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.",
+            "xy": "The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "oras": "The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "sm": "The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "usum": "The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "lgpe": "The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "swsh": "The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "la": "The user whips up a storm of leaves around the target. The recoil from this move lowers the user’s offensive stats.",
+            "sv": "The user whips up a storm of leaves around the target. The recoil from this move harshly lowers the user's Sp. Atk stat."
+        },
+        "french": {
+            "bw": "Invoque une tempête de feuilles acérées. Le contrecoup réduit fortement l’Attaque Spéciale du lanceur.",
+            "xy": "Invoque une tempête de feuilles acérées. Le contrecoup réduit fortement l’Attaque Spéciale du lanceur.",
+            "oras": "Invoque une tempête de feuilles acérées. Le contrecoup réduit fortement l’Attaque Spéciale du lanceur.",
+            "sm": "Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur.",
+            "usum": "Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur.",
+            "lgpe": "Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur.",
+            "swsh": "Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "とがった　はっぱで　あいてに　あらしを おこす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "oras": "とがった　はっぱで　あいてに　あらしを おこす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "sm": "とがった　はっぱで　あいてに　あらしを おこす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "usum": "とがった　はっぱで　あいてに　あらしを おこす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "lgpe": "とがった　はっぱで　あいてに　あらしを おこす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "swsh": "とがった　はっぱで　あいてに　あらしを おこす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。"
+        },
+        "korean": {
+            "xy": "뾰족한 잎사귀로 상대에게 바람을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "oras": "뾰족한 잎사귀로 상대에게 바람을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "sm": "뾰족한 잎사귀로 상대에게 바람을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "usum": "뾰족한 잎사귀로 상대에게 바람을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "lgpe": "뾰족한 잎사귀로 상대에게 바람을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "swsh": "뾰족한 잎사귀로 상대에게 돌풍을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다."
+        },
+        "german": {
+            "xy": "Anwender erzeugt einen Sturm aus scharfen Blättern. Rückstoß senkt Spezial-Angriff des Anwenders stark.",
+            "oras": "Anwender erzeugt einen Sturm aus scharfen Blättern. Rückstoß senkt Spezial-Angriff des Anwenders stark.",
+            "sm": "Anwender erzeugt einen Sturm aus scharfen Blättern. Rückstoß senkt Spezial-Angriff des Anwenders stark.",
+            "usum": "Anwender erzeugt einen Sturm aus scharfen Blättern. Rückstoß senkt Spezial-Angriff des Anwenders stark.",
+            "lgpe": "Anwender erzeugt einen Sturm aus scharfen Blättern. Rückstoß senkt Spezial-Angriff des Anwenders stark.",
+            "swsh": "Anwender erzeugt einen Sturm aus scharfen Blättern. Rückstoß senkt Spezial-Angriff des Anwenders stark."
+        },
+        "spanish": {
+            "xy": "Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa.",
+            "oras": "Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa.",
+            "sm": "Una lluvia de hojas afiladas envuelve al objetivo. El retroceso baja mucho el Ataque Especial de quien lo usa.",
+            "usum": "Una lluvia de hojas afiladas envuelve al objetivo. El retroceso baja mucho el Ataque Especial de quien lo usa.",
+            "lgpe": "Una lluvia de hojas afiladas envuelve al objetivo. El retroceso baja mucho el Ataque Especial de quien lo usa.",
+            "swsh": "Envuelve al objetivo con una lluvia de hojas afiladas, pero reduce mucho su Ataque Especial."
+        },
+        "italian": {
+            "xy": "Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l’Attacco Speciale di chi la usa.",
+            "oras": "Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l’Attacco Speciale di chi la usa.",
+            "sm": "Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l’Attacco Speciale di chi la usa.",
+            "usum": "Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l’Attacco Speciale di chi la usa.",
+            "lgpe": "Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l’Attacco Speciale di chi la usa.",
+            "swsh": "Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l’Attacco Speciale di chi la usa."
+        },
+        "japanese": {
+            "xy": "とがった　はっぱで　相手に　あらしを おこす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "oras": "とがった　はっぱで　相手に　あらしを おこす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "sm": "とがった　はっぱで　相手に　あらしを おこす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "usum": "とがった　はっぱで　相手に　あらしを おこす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "lgpe": "とがった　はっぱで　相手に　あらしを おこす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "swsh": "とがった　はっぱで　相手に　あらしを おこす。使うと　反動で 自分の　特攻が　がくっと　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa.",
+            "oras": "Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa.",
+            "sm": "Una lluvia de hojas afiladas envuelve al objetivo. El retroceso baja mucho el Ataque Especial de quien lo usa.",
+            "usum": "Una lluvia de hojas afiladas envuelve al objetivo. El retroceso baja mucho el Ataque Especial de quien lo usa.",
+            "lgpe": "Una lluvia de hojas afiladas envuelve al objetivo. El retroceso baja mucho el Ataque Especial de quien lo usa.",
+            "swsh": "Envuelve al objetivo con una lluvia de hojas afiladas, pero reduce mucho su Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "用尖銳的葉子捲起風暴向對手進行攻擊。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "usum": "用尖銳的葉子捲起風暴向對手進行攻擊。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "lgpe": "用尖銳的葉子捲起風暴向對手進行攻擊。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "swsh": "用尖銳的葉子捲起風暴向對手進行攻擊。 使用後因為反作用力， 自己的特攻會大幅降低。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖尖的叶片向对手卷起风暴。 使用之后因为反作用力 自己的特攻会大幅降低。",
+            "usum": "用尖尖的叶片向对手卷起风暴。 使用之后因为反作用力 自己的特攻会大幅降低。",
+            "lgpe": "用尖尖的叶片向对手卷起风暴。 使用之后因为反作用力 自己的特攻会大幅降低。",
+            "swsh": "用尖尖的叶片向对手卷起风暴。 使用之后因为反作用力 自己的特攻会大幅降低。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+        "shortEffect": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    }
 }

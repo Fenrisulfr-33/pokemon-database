@@ -1,47 +1,146 @@
 {
-  "_id": 167,
-  "key": "triple-kick",
-  "name": {
-    "english": "Triple Kick",
-    "japanese": "トリプルキック",
-    "chinese": "三倍足攻",
-    "korean": "트리플킥",
-    "german": "Triple Patada",
-    "french": "Dreifachkick",
-    "italian": "Triple Kick",
-    "spanish": "Triplocalcio"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 10,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Hits three times\nwith rising power.",
-    "crystal": "Hits three times\nwith rising power.",
-    "ruby-sapphire": "Kicks the foe 3 times in a\nrow with rising intensity.",
-    "emerald": "Kicks the foe 3 times in a\nrow with rising intensity.",
-    "firered-leafgreen": "A 3-kick attack\nthat becomes more\npowerful with each\nsuccessive hit.",
-    "diamond-pearl": "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit.",
-    "platinum": "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit.",
-    "heartgold-soulsilver": "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit.",
-    "black-white": "A consecutive three-kick attack that\nbecomes more powerful with each \nsuccessive hit.",
-    "black-2-white-2": "A consecutive three-kick attack that\nbecomes more powerful with each\nsuccessive hit.",
-    "x-y": "A consecutive three-kick attack that\nbecomes more powerful with each\nsuccessive hit.",
-    "omega-ruby-alpha-sapphire": "A consecutive three-kick attack that\nbecomes more powerful with each\nsuccessive hit.",
-    "sun-moon": "A consecutive three-kick attack that becomes more\npowerful with each successive hit.",
-    "ultra-sun-ultra-moon": "A consecutive three-kick attack that becomes more\npowerful with each successful hit.",
-    "lets-go-pikachu-lets-go-eevee": "A consecutive three-kick attack that becomes more\npowerful with each successful hit.",
-    "sword-shield": "A consecutive three-kick attack that becomes more\npowerful with each successful hit."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits three times in the same turn.  The second hit has double power, and the third hit has triple power.  Each hit has a separate accuracy check, and this move stops if a hit misses.\n\nskill link does not apply.",
-    "shortEffect": "Hits three times, increasing power by 100% with each successful hit."
-  },
-  "priority": 0
+    "_id": 167,
+    "key": "triple-kick",
+    "name": {
+        "japanese-kana": "トリプルキック",
+        "korean": "트리플킥",
+        "traditional-chinese": "三連踢",
+        "french": "Triple Pied",
+        "german": "Dreifachkick",
+        "spanish": "Triple Patada",
+        "italian": "Triplocalcio",
+        "english": "Triple Kick",
+        "japanese": "トリプルキック",
+        "simplified-chinese": "三连踢",
+        "latin-american-spanish": "Triple Patada"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 10,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 3,
+        "maxHits": 3,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Hits three times with rising power.",
+            "cr": "Hits three times with rising power.",
+            "rs": "Kicks the foe 3 times in a row with rising intensity.",
+            "em": "Kicks the foe 3 times in a row with rising intensity.",
+            "frlg": "A 3-kick attack that becomes more powerful with each successive hit.",
+            "dp": "A consecutive three- kick attack that becomes more powerful with each successive hit.",
+            "pt": "A consecutive three- kick attack that becomes more powerful with each successive hit.",
+            "hgss": "A consecutive three- kick attack that becomes more powerful with each successive hit.",
+            "bw": "A consecutive three-kick attack that becomes more powerful with each successive hit.",
+            "b2w2": "A consecutive three-kick attack that becomes more powerful with each successive hit.",
+            "xy": "A consecutive three-kick attack that becomes more powerful with each successive hit.",
+            "oras": "A consecutive three-kick attack that becomes more powerful with each successive hit.",
+            "sm": "A consecutive three-kick attack that becomes more powerful with each successive hit.",
+            "usum": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+            "lgpe": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+            "swsh": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+            "la": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+            "sv": "A consecutive three-kick attack that becomes more powerful with each successful hit."
+        },
+        "french": {
+            "bw": "Une salve de 1 à 3 coups de pied dont la puissance augmente à chaque coup porté.",
+            "xy": "Une salve de un à trois coups de pied dont la puissance augmente à chaque coup porté.",
+            "oras": "Une salve de un à trois coups de pied dont la puissance augmente à chaque coup porté.",
+            "sm": "Une salve de un à trois coups de pied dont la puissance augmente à chaque coup porté.",
+            "usum": "Une salve de un à trois coups de pied dont la puissance augmente à chaque coup porté.",
+            "lgpe": "Une salve de un à trois coups de pied dont la puissance augmente à chaque coup porté.",
+            "swsh": "Une salve de un à trois coups de pied dont la puissance augmente à chaque coup porté."
+        },
+        "japanese-kana": {
+            "xy": "３かい　れんぞくで　キックを　くりだして こうげきする。わざが　あたる　たびに いりょくは　あがる。",
+            "oras": "３かい　れんぞくで　キックを　くりだして こうげきする。わざが　あたる　たびに いりょくは　あがる。",
+            "sm": "３かい　れんぞくで　キックを　くりだして こうげきする。　わざが　あたる　たびに いりょくは　あがる。",
+            "usum": "３かい　れんぞくで　キックを　くりだして こうげきする。　わざが　あたる　たびに いりょくは　あがる。",
+            "lgpe": "３かい　れんぞくで　キックを　くりだして こうげきする。　わざが　あたる　たびに いりょくは　あがる。",
+            "swsh": "３かい　れんぞくで　キックを　くりだして こうげきする。　わざが　あたる　たびに いりょくは　あがる。"
+        },
+        "korean": {
+            "xy": "3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "oras": "3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "sm": "3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "usum": "3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "lgpe": "3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+            "swsh": "3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.",
+            "oras": "Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.",
+            "sm": "Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.",
+            "usum": "Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.",
+            "lgpe": "Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.",
+            "swsh": "Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu."
+        },
+        "spanish": {
+            "xy": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "oras": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "sm": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "usum": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "lgpe": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "swsh": "Patea hasta tres veces seguidas y cada vez más fuerte."
+        },
+        "italian": {
+            "xy": "Chi la usa sferra fino a tre calci consecutivi la cui potenza aumenta a ogni colpo.",
+            "oras": "Chi la usa sferra fino a tre calci consecutivi la cui potenza aumenta a ogni colpo.",
+            "sm": "Chi la usa sferra fino a tre calci consecutivi la cui potenza aumenta a ogni colpo.",
+            "usum": "Chi la usa sferra fino a tre calci consecutivi la cui potenza aumenta a ogni colpo.",
+            "lgpe": "Chi la usa sferra fino a tre calci consecutivi la cui potenza aumenta a ogni colpo.",
+            "swsh": "Chi la usa sferra fino a tre calci consecutivi la cui potenza aumenta a ogni colpo."
+        },
+        "japanese": {
+            "xy": "３回連続で　キックを　くりだして 攻撃する。技が　当たるたびに 威力は　あがる。",
+            "oras": "３回連続で　キックを　くりだして 攻撃する。技が　当たるたびに 威力は　あがる。",
+            "sm": "３回連続で　キックを　くりだして 攻撃する。　技が　当たるたびに 威力は　あがる。",
+            "usum": "３回連続で　キックを　くりだして 攻撃する。　技が　当たるたびに 威力は　あがる。",
+            "lgpe": "３回連続で　キックを　くりだして 攻撃する。　技が　当たるたびに 威力は　あがる。",
+            "swsh": "３回連続で　キックを　くりだして 攻撃する。　技が　当たるたびに 威力は　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "oras": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "sm": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "usum": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "lgpe": "Patea hasta tres veces seguidas y cada vez más fuerte.",
+            "swsh": "Patea hasta tres veces seguidas y cada vez más fuerte."
+        },
+        "traditional-chinese": {
+            "sm": "連續踢對手３次進行攻擊。 每踢中一次，威力就會提高。",
+            "usum": "連續踢對手３次進行攻擊。 每踢中一次，威力就會提高。",
+            "lgpe": "連續踢對手３次進行攻擊。 每踢中一次，威力就會提高。",
+            "swsh": "連續踢對手３次進行攻擊。 每踢中一次，威力就會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "连续３次踢对手进行攻击。 每踢中一次，威力就会提高。",
+            "usum": "连续３次踢对手进行攻击。 每踢中一次，威力就会提高。",
+            "lgpe": "连续３次踢对手进行攻击。 每踢中一次，威力就会提高。",
+            "swsh": "连续３次踢对手进行攻击。 每踢中一次，威力就会提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits three times in the same turn.  The second hit has double power, and the third hit has triple power.  Each hit has a separate accuracy check, and this move stops if a hit misses. Skill Link does not apply.",
+        "shortEffect": "Hits three times, increasing power by 100% with each successful hit."
+    }
 }

@@ -1,39 +1,142 @@
 {
-  "_id": 522,
-  "key": "struggle-bug",
-  "name": {
-    "english": "Struggle Bug",
-    "japanese": "むしのていこう",
-    "chinese": "虫的抵抗",
-    "korean": "벌레의저항",
-    "german": "Estoicismo",
-    "french": "Käfertrutz",
-    "italian": "Struggle Bug",
-    "spanish": "Entomoblocco"
-  },
-  "type": "Bug",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "black-white": "While resisting, the user attacks the\nopposing Pokémon. The targets’\nSp. Atk stat is reduced.",
-    "black-2-white-2": "While resisting, the user attacks the\nopposing Pokémon. The targets’\nSp. Atk stat is reduced.",
-    "x-y": "While resisting, the user attacks the\nopposing Pokémon. This lowers the\nSp. Atk stat of those hit.",
-    "omega-ruby-alpha-sapphire": "While resisting, the user attacks the\nopposing Pokémon. This lowers the\nSp. Atk stat of those hit.",
-    "sun-moon": "While resisting, the user attacks the opposing\nPokémon. This lowers the Sp. Atk stat of those hit.",
-    "ultra-sun-ultra-moon": "While resisting, the user attacks the opposing\nPokémon. This lowers the Sp. Atk stat of those hit.",
-    "lets-go-pikachu-lets-go-eevee": "While resisting, the user attacks the opposing\nPokémon. This lowers the Sp. Atk stat of those hit.",
-    "sword-shield": "While resisting, the user attacks opposing Pokémon.\nThis lowers the Sp. Atk stats of those hit."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 522,
+    "key": "struggle-bug",
+    "name": {
+        "japanese-kana": "むしのていこう",
+        "korean": "벌레의저항",
+        "traditional-chinese": "蟲之抵抗",
+        "french": "Survinsecte",
+        "german": "Käfertrutz",
+        "spanish": "Estoicismo",
+        "italian": "Entomoblocco",
+        "english": "Struggle Bug",
+        "japanese": "むしのていこう",
+        "simplified-chinese": "虫之抵抗",
+        "latin-american-spanish": "Lucha Insecto"
+    },
+    "type": "bug",
+    "category": "special",
+    "contest": null,
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "xy": {
+            "power": 30
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi.",
+            "xy": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi.",
+            "oras": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi.",
+            "sm": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi.",
+            "usum": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi.",
+            "lgpe": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi.",
+            "swsh": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi."
+        },
+        "english": {
+            "bw": "While resisting, the user attacks the opposing Pokémon. The targets’ Sp. Atk stat is reduced.",
+            "b2w2": "While resisting, the user attacks the opposing Pokémon. The targets’ Sp. Atk stat is reduced.",
+            "xy": "While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.",
+            "oras": "While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.",
+            "sm": "While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.",
+            "usum": "While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.",
+            "lgpe": "While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.",
+            "swsh": "While resisting, the user attacks opposing Pokémon. This lowers the Sp. Atk stats of those hit.",
+            "la": "The user struggles against the target, dealing damage. This also lowers the target's offensive stats.",
+            "sv": "The user attacks by struggling against opposing Pokémon. This also lowers their Sp. Atk stats."
+        },
+        "japanese-kana": {
+            "xy": "ていこう　して　あいてを　こうげきする。 あいての　とくこうを　さげる。",
+            "oras": "ていこう　して　あいてを　こうげきする。 あいての　とくこうを　さげる。",
+            "sm": "ていこう　して　あいてを　こうげきする。 あいての　とくこうを　さげる。",
+            "usum": "ていこう　して　あいてを　こうげきする。 あいての　とくこうを　さげる。",
+            "lgpe": "ていこう　して　あいてを　こうげきする。 あいての　とくこうを　さげる。",
+            "swsh": "ていこう　して　あいてを　こうげきする。 あいての　とくこうを　さげる。"
+        },
+        "korean": {
+            "xy": "저항해서 상대를 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "oras": "저항해서 상대를 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "sm": "저항해서 상대를 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "usum": "저항해서 상대를 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "lgpe": "저항해서 상대를 공격한다. 상대의 특수공격을 떨어뜨린다.",
+            "swsh": "저항해서 상대를 공격한다. 상대의 특수공격을 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.",
+            "oras": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.",
+            "sm": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.",
+            "usum": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.",
+            "lgpe": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.",
+            "swsh": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der gegnerischen Pokémon sinkt."
+        },
+        "spanish": {
+            "xy": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "oras": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "sm": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "usum": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "lgpe": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "swsh": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial."
+        },
+        "italian": {
+            "xy": "Colpisce i nemici intorno opponendo resistenza e riducendo il loro Attacco Speciale.",
+            "oras": "Colpisce i nemici intorno opponendo resistenza e riducendo il loro Attacco Speciale.",
+            "sm": "Colpisce i nemici intorno opponendo resistenza e riducendo il loro Attacco Speciale.",
+            "usum": "Colpisce i nemici intorno opponendo resistenza e riducendo il loro Attacco Speciale.",
+            "lgpe": "Colpisce i nemici intorno opponendo resistenza e riducendo il loro Attacco Speciale.",
+            "swsh": "Colpisce i nemici intorno opponendo resistenza e riducendo il loro Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "抵抗して　相手を　攻撃する。 相手の　特攻を　さげる。",
+            "oras": "抵抗して　相手を　攻撃する。 相手の　特攻を　さげる。",
+            "sm": "抵抗して　相手を　攻撃する。 相手の　特攻を　さげる。",
+            "usum": "抵抗して　相手を　攻撃する。 相手の　特攻を　さげる。",
+            "lgpe": "抵抗して　相手を　攻撃する。 相手の　特攻を　さげる。",
+            "swsh": "抵抗して　相手を　攻撃する。 相手の　特攻を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "oras": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "sm": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "usum": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "lgpe": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+            "swsh": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "抵抗對手進行攻擊。 可降低對手的特攻。",
+            "usum": "抵抗對手進行攻擊。 可降低對手的特攻。",
+            "lgpe": "抵抗對手進行攻擊。 可降低對手的特攻。",
+            "swsh": "抵抗對手進行攻擊。 可降低對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "抵抗并攻击对手。 降低对手的特攻。",
+            "usum": "抵抗并攻击对手。 降低对手的特攻。",
+            "lgpe": "抵抗并攻击对手。 降低对手的特攻。",
+            "swsh": "抵抗并攻击对手。 降低对手的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Attack by one stage."
+    }
 }

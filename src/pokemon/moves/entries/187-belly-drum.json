@@ -1,47 +1,146 @@
 {
-  "_id": 187,
-  "key": "belly-drum",
-  "name": {
-    "english": "Belly Drum",
-    "japanese": "はらだいこ",
-    "chinese": "肚子大鼓",
-    "korean": "배북",
-    "german": "Tambor",
-    "french": "Bauchtrommel",
-    "italian": "Belly Drum",
-    "spanish": "Panciamburo"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Reduces own HP to\nmaximize ATTACK.",
-    "crystal": "Reduces own HP to\nmaximize ATTACK.",
-    "ruby-sapphire": "Maximizes ATTACK while\nsacrificing HP.",
-    "emerald": "Maximizes ATTACK while\nsacrificing HP.",
-    "firered-leafgreen": "The user maximizes\nits ATTACK stat at\nthe cost of half\nits full HP.",
-    "diamond-pearl": "The user maximizes\nits Attack stat in\nexchange for HP\nequal to half its max\nHP.",
-    "platinum": "The user maximizes\nits Attack stat in\nexchange for HP\nequal to half its max\nHP.",
-    "heartgold-soulsilver": "The user maximizes\nits Attack stat in\nexchange for HP\nequal to half its max\nHP.",
-    "black-white": "The user maximizes its Attack stat in\nexchange for HP equal to half its max HP.",
-    "black-2-white-2": "The user maximizes its Attack stat in\nexchange for HP equal to half its max HP.",
-    "x-y": "The user maximizes its Attack stat in\nexchange for HP equal to half its max HP.",
-    "omega-ruby-alpha-sapphire": "The user maximizes its Attack stat in\nexchange for HP equal to half its max HP.",
-    "sun-moon": "The user maximizes its Attack stat in exchange for\nHP equal to half its max HP.",
-    "ultra-sun-ultra-moon": "The user maximizes its Attack stat in exchange for\nHP equal to half its max HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user maximizes its Attack stat in exchange for\nHP equal to half its max HP.",
-    "sword-shield": "The user maximizes its Attack stat in exchange for\nHP equal to half its max HP."
-  },
-  "effect": {
-    "full": "User pays half its max HP to raise its Attack to +6 stages.  If the user cannot pay the HP cost, this move will fail.",
-    "shortEffect": "User pays half its max HP to max out its Attack."
-  },
-  "priority": 0
+    "_id": 187,
+    "key": "belly-drum",
+    "name": {
+        "japanese-kana": "はらだいこ",
+        "korean": "배북",
+        "traditional-chinese": "腹鼓",
+        "french": "Cognobidon",
+        "german": "Bauchtrommel",
+        "spanish": "Tambor",
+        "italian": "Panciamburo",
+        "english": "Belly Drum",
+        "japanese": "はらだいこ",
+        "simplified-chinese": "腹鼓",
+        "latin-american-spanish": "Tambor"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Reduces own HP to maximize ATTACK.",
+            "cr": "Reduces own HP to maximize ATTACK.",
+            "rs": "Maximizes ATTACK while sacrificing HP.",
+            "em": "Maximizes ATTACK while sacrificing HP.",
+            "frlg": "The user maximizes its ATTACK stat at the cost of half its full HP.",
+            "dp": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "pt": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "hgss": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "bw": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "b2w2": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "xy": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "oras": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "sm": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "usum": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "lgpe": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "swsh": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "la": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+            "sv": "The user maximizes its Attack stat but loses HP equal to half its max HP."
+        },
+        "french": {
+            "bw": "Améliore l’Attaque au maximum en sacrifiant la moitié des PV max.",
+            "xy": "Améliore l’Attaque au maximum en sacrifiant la moitié des PV max.",
+            "oras": "Améliore l’Attaque au maximum en sacrifiant la moitié des PV max.",
+            "sm": "Améliore l’Attaque au maximum en sacrifiant la moitié des PV max.",
+            "usum": "Améliore l’Attaque au maximum en sacrifiant la moitié des PV max.",
+            "lgpe": "Améliore l’Attaque au maximum en sacrifiant la moitié des PV max.",
+            "swsh": "Améliore l’Attaque au maximum en sacrifiant la moitié des PV max."
+        },
+        "japanese-kana": {
+            "xy": "じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　へらして　じぶんの　こうげきを さいだいに　あげる。",
+            "oras": "じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　へらして　じぶんの　こうげきを さいだいに　あげる。",
+            "sm": "じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　へらして　じぶんの　こうげきを さいだいに　あげる。",
+            "usum": "じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　へらして　じぶんの　こうげきを さいだいに　あげる。",
+            "lgpe": "じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　へらして　じぶんの　こうげきを さいだいに　あげる。",
+            "swsh": "じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　へらして　じぶんの　こうげきを さいだいに　あげる。"
+        },
+        "korean": {
+            "xy": "자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다.",
+            "oras": "자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다.",
+            "sm": "자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다.",
+            "usum": "자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다.",
+            "lgpe": "자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다.",
+            "swsh": "자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다."
+        },
+        "german": {
+            "xy": "Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.",
+            "oras": "Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.",
+            "sm": "Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.",
+            "usum": "Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.",
+            "lgpe": "Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.",
+            "swsh": "Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP."
+        },
+        "spanish": {
+            "xy": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "oras": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "sm": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "usum": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "lgpe": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "swsh": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque."
+        },
+        "italian": {
+            "xy": "Chi la usa massimizza l’Attacco in cambio di metà dei PS massimi.",
+            "oras": "Chi la usa massimizza l’Attacco in cambio di metà dei PS massimi.",
+            "sm": "Chi la usa massimizza l’Attacco in cambio di metà dei PS massimi.",
+            "usum": "Chi la usa massimizza l’Attacco in cambio di metà dei PS massimi.",
+            "lgpe": "Chi la usa massimizza l’Attacco in cambio di metà dei PS massimi.",
+            "swsh": "Chi la usa massimizza l’Attacco in cambio di metà dei PS massimi."
+        },
+        "japanese": {
+            "xy": "自分の　ＨＰを　最大ＨＰの 半分　減らして　自分の　攻撃を 最大に　あげる。",
+            "oras": "自分の　ＨＰを　最大ＨＰの 半分　減らして　自分の　攻撃を 最大に　あげる。",
+            "sm": "自分の　ＨＰを　最大ＨＰの 半分　減らして　自分の　攻撃を 最大に　あげる。",
+            "usum": "自分の　ＨＰを　最大ＨＰの 半分　減らして　自分の　攻撃を 最大に　あげる。",
+            "lgpe": "自分の　ＨＰを　最大ＨＰの 半分　減らして　自分の　攻撃を 最大に　あげる。",
+            "swsh": "自分の　ＨＰを　最大ＨＰの 半分　減らして　自分の　攻撃を 最大に　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "oras": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "sm": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "usum": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "lgpe": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.",
+            "swsh": "Reduce la mitad de los PS máximos para mejorar al máximo el Ataque."
+        },
+        "traditional-chinese": {
+            "sm": "將現有的ＨＰ 減去最大ＨＰ的一半， 讓自己的攻擊提高至最大值。",
+            "usum": "將現有的ＨＰ 減去最大ＨＰ的一半， 讓自己的攻擊提高至最大值。",
+            "lgpe": "將現有的HP 減去最大HP的一半， 讓自己的攻擊提高至最大值。",
+            "swsh": "將現有的ＨＰ 減去最大ＨＰ的一半， 讓自己的攻擊提高至最大值。"
+        },
+        "simplified-chinese": {
+            "sm": "将自己的ＨＰ减少到 最大ＨＰ的一半， 从而最大限度提高自己的攻击。",
+            "usum": "将自己的ＨＰ减少到 最大ＨＰ的一半， 从而最大限度提高自己的攻击。",
+            "lgpe": "将自己的HP减少到 最大HP的一半， 从而最大限度提高自己的攻击。",
+            "swsh": "将自己的ＨＰ减少到 最大ＨＰ的一半， 从而最大限度提高自己的攻击。"
+        }
+    },
+    "effect": {
+        "full": "User pays half its max HP to raise its Attack to +6 stages.  If the user cannot pay the HP cost, this move will fail.",
+        "shortEffect": "User pays half its max HP to max out its Attack."
+    }
 }

@@ -1,47 +1,150 @@
 {
-  "_id": 53,
-  "key": "flamethrower",
-  "name": {
-    "english": "Flamethrower",
-    "japanese": "かえんほうしゃ",
-    "chinese": "喷射火焰",
-    "korean": "화염방사",
-    "german": "Lanzallamas",
-    "french": "Flammenwurf",
-    "italian": "Flamethrower",
-    "spanish": "Lanciafiamme"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ninflict a burn.",
-    "crystal": "An attack that may\ninflict a burn.",
-    "ruby-sapphire": "A powerful fire attack that\nmay inflict a burn.",
-    "emerald": "A powerful fire attack that\nmay inflict a burn.",
-    "firered-leafgreen": "The foe is scorched\nwith intense flames.\nThe foe may suffer\na burn.",
-    "diamond-pearl": "The foe is scorched\nwith an intense blast\nof fire. The target\nmay also be left with\na burn.",
-    "platinum": "The foe is scorched\nwith an intense blast\nof fire. The target\nmay also be left with\na burn.",
-    "heartgold-soulsilver": "The foe is scorched\nwith an intense blast\nof fire. The target\nmay also be left with\na burn.",
-    "black-white": "The target is scorched with an intense\nblast of fire. It may also leave the target\nwith a burn.",
-    "black-2-white-2": "The target is scorched with an intense\nblast of fire. It may also leave the target\nwith a burn.",
-    "x-y": "The target is scorched with an intense\nblast of fire. This may also leave the target\nwith a burn.",
-    "omega-ruby-alpha-sapphire": "The target is scorched with an intense\nblast of fire. This may also leave the target\nwith a burn.",
-    "sun-moon": "The target is scorched with an intense blast of fire.\nThis may also leave the target with a burn.",
-    "ultra-sun-ultra-moon": "The target is scorched with an intense blast of fire.\nThis may also leave the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is scorched with an intense blast of fire.\nThis may also leave the target with a burn.",
-    "sword-shield": "The target is scorched with an intense blast of fire.\nThis may also leave the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 53,
+    "key": "flamethrower",
+    "name": {
+        "japanese-kana": "かえんほうしゃ",
+        "korean": "화염방사",
+        "traditional-chinese": "噴射火焰",
+        "french": "Lance-Flammes",
+        "german": "Flammenwurf",
+        "spanish": "Lanzallamas",
+        "italian": "Lanciafiamme",
+        "english": "Flamethrower",
+        "japanese": "かえんほうしゃ",
+        "simplified-chinese": "喷射火焰",
+        "latin-american-spanish": "Lanzallamas"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 95
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may inflict a burn.",
+            "cr": "An attack that may inflict a burn.",
+            "rs": "A powerful fire attack that may inflict a burn.",
+            "em": "A powerful fire attack that may inflict a burn.",
+            "frlg": "The foe is scorched with intense flames. The foe may suffer a burn.",
+            "dp": "The foe is scorched with an intense blast of fire. The target may also be left with a burn.",
+            "pt": "The foe is scorched with an intense blast of fire. The target may also be left with a burn.",
+            "hgss": "The foe is scorched with an intense blast of fire. The target may also be left with a burn.",
+            "bw": "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
+            "b2w2": "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
+            "xy": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+            "oras": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+            "sm": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+            "usum": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+            "lgpe": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+            "swsh": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+            "la": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+            "sv": "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
+        },
+        "french": {
+            "bw": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.",
+            "xy": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.",
+            "oras": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.",
+            "sm": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.",
+            "usum": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.",
+            "lgpe": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.",
+            "swsh": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler."
+        },
+        "japanese-kana": {
+            "xy": "はげしい　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "はげしい　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "はげしい　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "はげしい　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "はげしい　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "はげしい　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Starke Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "oras": "Starke Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "sm": "Starke Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "usum": "Starke Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "lgpe": "Starke Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+            "swsh": "Starke Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet."
+        },
+        "spanish": {
+            "xy": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "oras": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "sm": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "usum": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "lgpe": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "swsh": "Ataca con una gran ráfaga de fuego que puede causar quemaduras."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da intense fiammate che possono anche scottarlo.",
+            "oras": "Il bersaglio viene colpito da intense fiammate che possono anche scottarlo.",
+            "sm": "Il bersaglio viene colpito da intense fiammate che possono anche scottarlo.",
+            "usum": "Il bersaglio viene colpito da intense fiammate che possono anche scottarlo.",
+            "lgpe": "Il bersaglio viene colpito da intense fiammate che possono anche scottarlo.",
+            "swsh": "Il bersaglio viene colpito da intense fiammate che possono anche scottarlo."
+        },
+        "japanese": {
+            "xy": "激しい　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "激しい　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "激しい　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "激しい　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "激しい　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "激しい　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "oras": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "sm": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "usum": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "lgpe": "Ataca con una gran ráfaga de fuego que puede causar quemaduras.",
+            "swsh": "Ataca con una gran ráfaga de fuego que puede causar quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 強烈火焰進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "usum": "向對手發射 強烈火焰進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "向對手發射 強烈火焰進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "向對手發射 強烈火焰進行攻擊。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 烈焰进行攻击。 有时会让对手陷入灼伤状态。",
+            "usum": "向对手发射 烈焰进行攻击。 有时会让对手陷入灼伤状态。",
+            "lgpe": "向对手发射 烈焰进行攻击。 有时会让对手陷入灼伤状态。",
+            "swsh": "向对手发射 烈焰进行攻击。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

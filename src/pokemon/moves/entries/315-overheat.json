@@ -1,45 +1,148 @@
 {
-  "_id": 315,
-  "key": "overheat",
-  "name": {
-    "english": "Overheat",
-    "japanese": "オーバーヒート",
-    "chinese": "过热",
-    "korean": "오버히트",
-    "german": "Sofoco",
-    "french": "Hitzekoller",
-    "italian": "Overheat",
-    "spanish": "Vampata"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 130,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Allows a full-power attack,\nbut sharply lowers SP. ATK.",
-    "emerald": "Allows a full-power attack,\nbut sharply lowers SP. ATK.",
-    "firered-leafgreen": "An intense attack\nthat also sharply\nreduces the user’s\nSP. ATK stat.",
-    "diamond-pearl": "The user attacks the\nfoe at full power.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "platinum": "The user attacks the\nfoe at full power.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "heartgold-soulsilver": "The user attacks the\nfoe at full power.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat.",
-    "black-white": "The user attacks the target at full power.\nThe attack’s recoil harshly reduces the\nuser’s Sp. Atk stat.",
-    "black-2-white-2": "The user attacks the target at full power.\nThe attack’s recoil harshly reduces the\nuser’s Sp. Atk stat.",
-    "x-y": "The user attacks the target at full power.\nThe attack’s recoil harshly lowers the\nuser’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target at full power.\nThe attack’s recoil harshly lowers the\nuser’s Sp. Atk stat.",
-    "sun-moon": "The user attacks the target at full power. The\nattack’s recoil harshly lowers the user’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user attacks the target at full power. The\nattack’s recoil harshly lowers the user’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target at full power. The\nattack’s recoil harshly lowers the user’s Sp. Atk stat.",
-    "sword-shield": "The user attacks the target at full power. The attack’s\nrecoil harshly lowers the user’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Special Attack by two stages.",
-    "shortEffect": "Lowers the user's Special Attack by two stages after inflicting damage."
-  },
-  "priority": 0
+    "_id": 315,
+    "key": "overheat",
+    "name": {
+        "japanese-kana": "オーバーヒート",
+        "korean": "오버히트",
+        "traditional-chinese": "過熱",
+        "french": "Surchauffe",
+        "german": "Hitzekoller",
+        "spanish": "Sofoco",
+        "italian": "Vampata",
+        "english": "Overheat",
+        "japanese": "オーバーヒート",
+        "simplified-chinese": "过热",
+        "latin-american-spanish": "Supercalor"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 130,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "xy": {
+            "power": 140
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Allows a full-power attack, but sharply lowers SP. ATK.",
+            "em": "Allows a full-power attack, but sharply lowers SP. ATK.",
+            "frlg": "An intense attack that also sharply reduces the user’s SP. ATK stat.",
+            "dp": "The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "pt": "The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "hgss": "The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",
+            "bw": "The user attacks the target at full power. The attack’s recoil harshly reduces the user’s Sp. Atk stat.",
+            "b2w2": "The user attacks the target at full power. The attack’s recoil harshly reduces the user’s Sp. Atk stat.",
+            "xy": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "oras": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "sm": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "usum": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "lgpe": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "swsh": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "la": "The user attacks the target at full power. The recoil from this move lowers the user’s offensive stats.",
+            "sv": "The user attacks the target with all its might. The recoil from this move harshly lowers the user's Sp. Atk stat."
+        },
+        "french": {
+            "bw": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse énormément l’Attaque Spéciale du lanceur.",
+            "xy": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse énormément l’Attaque Spéciale du lanceur.",
+            "oras": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse fortement l’Attaque Spéciale du lanceur.",
+            "sm": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur.",
+            "usum": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur.",
+            "lgpe": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur.",
+            "swsh": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "oras": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "sm": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "usum": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "lgpe": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+            "swsh": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。"
+        },
+        "korean": {
+            "xy": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "oras": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "sm": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "usum": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "lgpe": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다.",
+            "swsh": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다."
+        },
+        "german": {
+            "xy": "Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.",
+            "oras": "Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.",
+            "sm": "Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.",
+            "usum": "Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.",
+            "lgpe": "Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.",
+            "swsh": "Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt."
+        },
+        "spanish": {
+            "xy": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "oras": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "sm": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "usum": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "lgpe": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "swsh": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa."
+        },
+        "italian": {
+            "xy": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.",
+            "oras": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.",
+            "sm": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.",
+            "usum": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.",
+            "lgpe": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.",
+            "swsh": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "oras": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "sm": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "usum": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "lgpe": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。",
+            "swsh": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "oras": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "sm": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "usum": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "lgpe": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+            "swsh": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa."
+        },
+        "traditional-chinese": {
+            "sm": "釋放全部能量攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "usum": "釋放全部能量攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "lgpe": "釋放全部能量攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。",
+            "swsh": "釋放全部能量攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。"
+        },
+        "simplified-chinese": {
+            "sm": "使出全部力量攻击对手。 使用之后会因为反作用力， 自己的特攻大幅降低。",
+            "usum": "使出全部力量攻击对手。 使用之后会因为反作用力， 自己的特攻大幅降低。",
+            "lgpe": "使出全部力量攻击对手。 使用之后会因为反作用力， 自己的特攻大幅降低。",
+            "swsh": "使出全部力量攻击对手。 使用之后会因为反作用力， 自己的特攻大幅降低。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+        "shortEffect": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    }
 }

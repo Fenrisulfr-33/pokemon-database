@@ -1,47 +1,146 @@
 {
-  "_id": 6,
-  "key": "pay-day",
-  "name": {
-    "english": "Pay Day",
-    "japanese": "ネコにこばん",
-    "chinese": "聚宝功",
-    "korean": "고양이돈받기",
-    "german": "Día de Pago",
-    "french": "Zahltag",
-    "italian": "Pay Day",
-    "spanish": "Giornopaga"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 20,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Throws coins. Gets\nthem back later.",
-    "crystal": "Throws coins. Gets\nthem back later.",
-    "ruby-sapphire": "Throws coins at the foe.\nMoney is recovered after.",
-    "emerald": "Throws coins at the foe.\nMoney is recovered after.",
-    "firered-leafgreen": "Numerous coins are\nhurled at the foe.\nMoney is earned\nafter battle.",
-    "diamond-pearl": "Numerous coins are\nhurled at the foe to\ninflict damage.\nMoney is earned\nafter battle.",
-    "platinum": "Numerous coins are\nhurled at the foe to\ninflict damage.\nMoney is earned\nafter battle.",
-    "heartgold-soulsilver": "Numerous coins are\nhurled at the foe to\ninflict damage.\nMoney is earned\nafter battle.",
-    "black-white": "Numerous coins are hurled at the\ntarget to inflict damage.\nMoney is earned after the battle.",
-    "black-2-white-2": "Numerous coins are hurled at the\ntarget to inflict damage.\nMoney is earned after the battle.",
-    "x-y": "Numerous coins are hurled at the\ntarget to inflict damage.\nMoney is earned after the battle.",
-    "omega-ruby-alpha-sapphire": "Numerous coins are hurled at the\ntarget to inflict damage.\nMoney is earned after the battle.",
-    "sun-moon": "Numerous coins are hurled at the target to inflict\ndamage. Money is earned after the battle.",
-    "ultra-sun-ultra-moon": "Numerous coins are hurled at the target to inflict\ndamage. Money is earned after the battle.",
-    "lets-go-pikachu-lets-go-eevee": "Numerous coins are hurled at the target to inflict\ndamage. Money is earned after the battle.",
-    "sword-shield": "Numerous coins are hurled at the target to inflict\ndamage. Money is earned after the battle."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",
-    "shortEffect": "Scatters money on the ground worth five times the user's level."
-  },
-  "priority": 0
+    "_id": 6,
+    "key": "pay-day",
+    "name": {
+        "japanese-kana": "ネコにこばん",
+        "korean": "고양이돈받기",
+        "traditional-chinese": "聚寶功",
+        "french": "Jackpot",
+        "german": "Zahltag",
+        "spanish": "Día de Pago",
+        "italian": "Giornopaga",
+        "english": "Pay Day",
+        "japanese": "ネコにこばん",
+        "simplified-chinese": "聚宝功",
+        "latin-american-spanish": "Día de Pago"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Throws coins. Gets them back later.",
+            "cr": "Throws coins. Gets them back later.",
+            "rs": "Throws coins at the foe. Money is recovered after.",
+            "em": "Throws coins at the foe. Money is recovered after.",
+            "frlg": "Numerous coins are hurled at the foe. Money is earned after battle.",
+            "dp": "Numerous coins are hurled at the foe to inflict damage. Money is earned after battle.",
+            "pt": "Numerous coins are hurled at the foe to inflict damage. Money is earned after battle.",
+            "hgss": "Numerous coins are hurled at the foe to inflict damage. Money is earned after battle.",
+            "bw": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "b2w2": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "xy": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "oras": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "sm": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "usum": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "lgpe": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "swsh": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "la": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+            "sv": "Coins are hurled at the target to inflict damage. Money is earned after the battle."
+        },
+        "french": {
+            "bw": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.",
+            "xy": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.",
+            "oras": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.",
+            "sm": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.",
+            "usum": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.",
+            "lgpe": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.",
+            "swsh": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat."
+        },
+        "japanese-kana": {
+            "xy": "あいての　からだに こばんを　なげつけて　こうげきする。 せんとうの　あとで　おかねが　もらえる。",
+            "oras": "あいての　からだに こばんを　なげつけて　こうげきする。 せんとうの　あとで　おかねが　もらえる。",
+            "sm": "あいての　からだに こばんを　なげつけて　こうげきする。 せんとうの　あとで　おかねが　もらえる。",
+            "usum": "あいての　からだに こばんを　なげつけて　こうげきする。 せんとうの　あとで　おかねが　もらえる。",
+            "lgpe": "あいての　からだに こばんを　なげつけて　こうげきする。 せんとうの　あとで　おかねが　もらえる。",
+            "swsh": "あいての　からだに こばんを　なげつけて　こうげきする。 せんとうの　あとで　おかねが　もらえる。"
+        },
+        "korean": {
+            "xy": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다.",
+            "oras": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다.",
+            "sm": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다.",
+            "usum": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다.",
+            "lgpe": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다.",
+            "swsh": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다."
+        },
+        "german": {
+            "xy": "Das Ziel wird mit Münzen beworfen. Das Geld wird nach dem Kampf aufgesammelt.",
+            "oras": "Das Ziel wird mit Münzen beworfen. Das Geld wird nach dem Kampf aufgesammelt.",
+            "sm": "Das Ziel wird mit Münzen beworfen. Das Geld wird nach dem Kampf aufgesammelt.",
+            "usum": "Das Ziel wird mit Münzen beworfen. Das Geld wird nach dem Kampf aufgesammelt.",
+            "lgpe": "Das Ziel wird mit Münzen beworfen. Das Geld wird nach dem Kampf aufgesammelt.",
+            "swsh": "Das Ziel wird mit Münzen beworfen. Das Geld wird nach dem Kampf aufgesammelt."
+        },
+        "spanish": {
+            "xy": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "oras": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "sm": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "usum": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "lgpe": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "swsh": "Arroja monedas al objetivo y las recupera al final del combate."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.",
+            "oras": "Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.",
+            "sm": "Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.",
+            "usum": "Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.",
+            "lgpe": "Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.",
+            "swsh": "Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta."
+        },
+        "japanese": {
+            "xy": "相手の　体に 小判を　投げつけて　攻撃する。 戦闘の　あとで　お金が　もらえる。",
+            "oras": "相手の　体に 小判を　投げつけて　攻撃する。 戦闘の　あとで　お金が　もらえる。",
+            "sm": "相手の　体に 小判を　投げつけて　攻撃する。 戦闘の　あとで　お金が　もらえる。",
+            "usum": "相手の　体に 小判を　投げつけて　攻撃する。 戦闘の　あとで　お金が　もらえる。",
+            "lgpe": "相手の　体に 小判を　投げつけて　攻撃する。 戦闘の　あとで　お金が　もらえる。",
+            "swsh": "相手の　体に 小判を　投げつけて　攻撃する。 戦闘の　あとで　お金が　もらえる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "oras": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "sm": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "usum": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "lgpe": "Arroja monedas al objetivo. Las recupera al final del combate.",
+            "swsh": "Arroja monedas al objetivo y las recupera al final del combate."
+        },
+        "traditional-chinese": {
+            "sm": "往對手身上 投擲金幣進行攻擊。 戰鬥後可以得到錢。",
+            "usum": "往對手身上 投擲金幣進行攻擊。 戰鬥後可以得到錢。",
+            "lgpe": "往對手身上 投擲金幣進行攻擊。 戰鬥後可以得到錢。",
+            "swsh": "往對手身上 投擲金幣進行攻擊。 戰鬥後可以得到錢。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手的身体 投掷小金币进行攻击。 战斗后可以拿到钱。",
+            "usum": "向对手的身体 投掷小金币进行攻击。 战斗后可以拿到钱。",
+            "lgpe": "向对手的身体 投掷小金币进行攻击。 战斗后可以拿到钱。",
+            "swsh": "向对手的身体 投掷小金币进行攻击。 战斗后可以拿到钱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  After the battle ends, the winner receives five times the user’s level in extra money for each time this move was used.",
+        "shortEffect": "Scatters money on the ground worth five times the user’s level."
+    }
 }

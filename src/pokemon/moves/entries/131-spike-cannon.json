@@ -1,47 +1,144 @@
 {
-  "_id": 131,
-  "key": "spike-cannon",
-  "name": {
-    "english": "Spike Cannon",
-    "japanese": "とげキャノン",
-    "chinese": "尖刺加农炮",
-    "korean": "가시대포",
-    "german": "Clavo Cañón",
-    "french": "Dornkanone",
-    "italian": "Spike Cannon",
-    "spanish": "Sparalance"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Fires spikes to\nhit 2-5 times.",
-    "crystal": "Fires spikes to\nhit 2-5 times.",
-    "ruby-sapphire": "Launches sharp spikes that\nstrike 2 to 5 times.",
-    "emerald": "Launches sharp spikes that\nstrike 2 to 5 times.",
-    "firered-leafgreen": "Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes.",
-    "diamond-pearl": "Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes in rapid\nsuccession.",
-    "platinum": "Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes in rapid\nsuccession.",
-    "heartgold-soulsilver": "Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes in rapid\nsuccession.",
-    "black-white": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "black-2-white-2": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "x-y": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "sun-moon": "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
-    "ultra-sun-ultra-moon": "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 131,
+    "key": "spike-cannon",
+    "name": {
+        "japanese-kana": "とげキャノン",
+        "korean": "가시대포",
+        "traditional-chinese": "尖刺加農炮",
+        "french": "Picanon",
+        "german": "Dornkanone",
+        "spanish": "Clavo Cañón",
+        "italian": "Sparalance",
+        "english": "Spike Cannon",
+        "japanese": "とげキャノン",
+        "simplified-chinese": "尖刺加农炮",
+        "latin-american-spanish": "Cañón de Púas"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 20,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Fires spikes to hit 2-5 times.",
+            "cr": "Fires spikes to hit 2-5 times.",
+            "rs": "Launches sharp spikes that strike 2 to 5 times.",
+            "em": "Launches sharp spikes that strike 2 to 5 times.",
+            "frlg": "Sharp spikes are fired at the foe to strike two to five times.",
+            "dp": "Sharp spikes are fired at the foe to strike two to five times in rapid succession.",
+            "pt": "Sharp spikes are fired at the foe to strike two to five times in rapid succession.",
+            "hgss": "Sharp spikes are fired at the foe to strike two to five times in rapid succession.",
+            "bw": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "b2w2": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "xy": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "oras": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "sm": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "usum": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "lgpe": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Envoie une rafale de dards. Peut toucher de 2 à 5 fois.",
+            "xy": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "oras": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "sm": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "usum": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "lgpe": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "oras": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "sm": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "usum": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "lgpe": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Lanza finas púas que hieren de dos a cinco veces.",
+            "oras": "Lanza finas púas que hieren de dos a cinco veces.",
+            "sm": "Lanza finas púas que hieren de dos a cinco veces.",
+            "usum": "Lanza finas púas que hieren de dos a cinco veces.",
+            "lgpe": "Lanza finas púas que hieren de dos a cinco veces.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da due a cinque volte con spilli appuntiti in rapida successione.",
+            "oras": "Il bersaglio viene colpito da due a cinque volte con spilli appuntiti in rapida successione.",
+            "sm": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.",
+            "usum": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.",
+            "lgpe": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza finas púas que hieren de dos a cinco veces.",
+            "oras": "Lanza finas púas que hieren de dos a cinco veces.",
+            "sm": "Lanza finas púas que hieren de dos a cinco veces.",
+            "usum": "Lanza finas púas que hieren de dos a cinco veces.",
+            "lgpe": "Lanza finas púas que hieren de dos a cinco veces.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。",
+            "usum": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。",
+            "lgpe": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 锐针进行攻击。 连续攻击２～５次。",
+            "usum": "向对手发射 锐针进行攻击。 连续攻击２～５次。",
+            "lgpe": "向对手发射 锐针进行攻击。 连续攻击２～５次。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

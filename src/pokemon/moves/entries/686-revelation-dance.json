@@ -1,35 +1,117 @@
 {
-  "_id": 686,
-  "key": "revelation-dance",
-  "name": {
-    "english": "Revelation Dance",
-    "japanese": "めざめるダンス",
-    "chinese": "覺醒之舞",
-    "korean": "잠재댄스",
-    "german": "Danza Despertar",
-    "french": "Wecktanz",
-    "italian": "Revelation Dance",
-    "spanish": "Mutadanza"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user attacks the target by dancing very hard.\nThe user’s type determines the type of this move.",
-    "ultra-sun-ultra-moon": "The user attacks the target by dancing very hard.\nThe user’s type determines the type of this move.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target by dancing very hard.\nThe user’s type determines the type of this move.",
-    "sword-shield": "The user attacks the target by dancing very hard.\nThe user’s type determines the type of this move."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  This move's type matches the user's first type, if any; otherwise, it's typeless.",
-    "shortEffect": "Has the same type as the user."
-  },
-  "priority": 0
+    "_id": 686,
+    "key": "revelation-dance",
+    "name": {
+        "japanese-kana": "めざめるダンス",
+        "korean": "잠재댄스",
+        "traditional-chinese": "覺醒之舞",
+        "french": "Danse Éveil",
+        "german": "Wecktanz",
+        "spanish": "Danza Despertar",
+        "italian": "Mutadanza",
+        "english": "Revelation Dance",
+        "japanese": "めざめるダンス",
+        "simplified-chinese": "觉醒之舞",
+        "latin-american-spanish": "Danza Revelación"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "ぜんりょくで　おどって　こうげきする。 この　わざの　タイプは じぶんの　タイプと　おなじに　なる。",
+            "usum": "ぜんりょくで　おどって　こうげきする。 この　わざの　タイプは じぶんの　タイプと　おなじに　なる。",
+            "lgpe": "ぜんりょくで　おどって　こうげきする。 この　わざの　タイプは じぶんの　タイプと　おなじに　なる。",
+            "swsh": "ぜんりょくで　おどって　こうげきする。 この　わざの　タイプは じぶんの　タイプと　おなじに　なる。"
+        },
+        "korean": {
+            "sm": "전력으로 춤추며 공격한다. 이 기술의 타입은 자신의 타입과 같아진다.",
+            "usum": "전력으로 춤추며 공격한다. 이 기술의 타입은 자신의 타입과 같아진다.",
+            "lgpe": "전력으로 춤추며 공격한다. 이 기술의 타입은 자신의 타입과 같아진다.",
+            "swsh": "전력으로 춤추며 공격한다. 이 기술의 타입은 자신의 타입과 같아진다."
+        },
+        "traditional-chinese": {
+            "sm": "全力跳舞進行攻擊。 此招式的屬性將 變得和自己的屬性相同。",
+            "usum": "全力跳舞進行攻擊。 此招式的屬性將 變得和自己的屬性相同。",
+            "lgpe": "全力跳舞進行攻擊。 此招式的屬性將 變得和自己的屬性相同。",
+            "swsh": "全力跳舞進行攻擊。 此招式的屬性將 變得和自己的屬性相同。"
+        },
+        "french": {
+            "sm": "Le lanceur attaque en dansant avec enthousiasme. Le type de la capacité est le même que celui du lanceur.",
+            "usum": "Le lanceur attaque en dansant avec enthousiasme. Le type de la capacité est le même que celui du lanceur.",
+            "lgpe": "Le lanceur attaque en dansant avec enthousiasme. Le type de la capacité est le même que celui du lanceur.",
+            "swsh": "Le lanceur attaque en dansant avec enthousiasme. Le type de la capacité est le même que celui du lanceur."
+        },
+        "german": {
+            "sm": "Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.",
+            "usum": "Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.",
+            "lgpe": "Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.",
+            "swsh": "Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt."
+        },
+        "spanish": {
+            "sm": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.",
+            "usum": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.",
+            "lgpe": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.",
+            "swsh": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta."
+        },
+        "italian": {
+            "sm": "Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il tipo della mossa corrisponde al tipo del Pokémon che la usa.",
+            "usum": "Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il tipo della mossa corrisponde al tipo del Pokémon che la usa.",
+            "lgpe": "Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il tipo della mossa corrisponde al tipo del Pokémon che la usa.",
+            "swsh": "Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il tipo della mossa corrisponde al tipo del Pokémon che la usa."
+        },
+        "english": {
+            "sm": "The user attacks the target by dancing very hard. The user’s type determines the type of this move.",
+            "usum": "The user attacks the target by dancing very hard. The user’s type determines the type of this move.",
+            "lgpe": "The user attacks the target by dancing very hard. The user’s type determines the type of this move.",
+            "swsh": "The user attacks the target by dancing very hard. The user’s type determines the type of this move.",
+            "la": "The user attacks the target by dancing very hard. The user's type determines the type of this move.",
+            "sv": "The user attacks the target by dancing with all its might. This move becomes the same type as the user's type."
+        },
+        "japanese": {
+            "sm": "全力で　踊って　攻撃する。 この　技の　タイプは 自分の　タイプと　同じになる。",
+            "usum": "全力で　踊って　攻撃する。 この　技の　タイプは 自分の　タイプと　同じになる。",
+            "lgpe": "全力で　踊って　攻撃する。 この　技の　タイプは 自分の　タイプと　同じになる。",
+            "swsh": "全力で　踊って　攻撃する。 この　技の　タイプは 自分の　タイプと　同じになる。"
+        },
+        "simplified-chinese": {
+            "sm": "全力跳舞进行攻击。 此招式的属性将 变得和自己的属性相同。",
+            "usum": "全力跳舞进行攻击。 此招式的属性将 变得和自己的属性相同。",
+            "lgpe": "全力跳舞进行攻击。 此招式的属性将 变得和自己的属性相同。",
+            "swsh": "全力跳舞进行攻击。 此招式的属性将 变得和自己的属性相同。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.",
+            "usum": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.",
+            "lgpe": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.",
+            "swsh": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  This move’s type matches the user’s first type, if any; otherwise, it’s typeless.",
+        "shortEffect": "Has the same type as the user."
+    }
 }

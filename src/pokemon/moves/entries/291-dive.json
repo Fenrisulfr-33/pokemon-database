@@ -1,45 +1,148 @@
 {
-  "_id": 291,
-  "key": "dive",
-  "name": {
-    "english": "Dive",
-    "japanese": "ダイビング",
-    "chinese": "潜水",
-    "korean": "다이빙",
-    "german": "Buceo",
-    "french": "Taucher",
-    "italian": "Dive",
-    "spanish": "Sub"
-  },
-  "type": "Water",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Dives underwater the first\nturn and strikes next turn.",
-    "emerald": "Dives underwater the first\nturn and strikes next turn.",
-    "firered-leafgreen": "The user dives\nunderwater on the\nfirst turn and\nstrikes next turn.",
-    "diamond-pearl": "A two-turn attack.\nThe user dives\nunderwater on the\nfirst turn, then hits\non the next turn.",
-    "platinum": "A two-turn attack.\nThe user dives\nunderwater on the\nfirst turn, then hits\non the next turn.",
-    "heartgold-soulsilver": "A two-turn attack.\nThe user dives\nunderwater on the\nfirst turn, then hits\non the next turn.",
-    "black-white": "Diving on the first turn, the user floats\nup and attacks on the second turn.\nIt can be used to dive deep in the ocean.",
-    "black-2-white-2": "Diving on the first turn, the user floats\nup and attacks on the second turn.\nIt can be used to dive deep in the ocean.",
-    "x-y": "Diving on the first turn, the user floats\nup and attacks on the next turn.",
-    "omega-ruby-alpha-sapphire": "Diving on the first turn, the user floats up\nand attacks on the next turn.\nIt can be used to dive deep in the ocean.",
-    "sun-moon": "Diving on the first turn, the user floats up and\nattacks on the next turn.",
-    "ultra-sun-ultra-moon": "Diving on the first turn, the user floats up and\nattacks on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "Diving on the first turn, the user floats up and\nattacks on the next turn.",
-    "sword-shield": "Diving on the first turn, the user floats up and\nattacks on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, surf, and whirlpool still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "User dives underwater, dodging all attacks, and hits next turn."
-  },
-  "priority": 0
+    "_id": 291,
+    "key": "dive",
+    "name": {
+        "japanese-kana": "ダイビング",
+        "korean": "다이빙",
+        "traditional-chinese": "潛水",
+        "french": "Plongée",
+        "german": "Taucher",
+        "spanish": "Buceo",
+        "italian": "Sub",
+        "english": "Dive",
+        "japanese": "ダイビング",
+        "simplified-chinese": "潜水",
+        "latin-american-spanish": "Buceo"
+    },
+    "type": "water",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "power": 60
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Dives underwater the first turn and strikes next turn.",
+            "em": "Dives underwater the first turn and strikes next turn.",
+            "frlg": "The user dives underwater on the first turn and strikes next turn.",
+            "dp": "A two-turn attack. The user dives underwater on the first turn, then hits on the next turn.",
+            "pt": "A two-turn attack. The user dives underwater on the first turn, then hits on the next turn.",
+            "hgss": "A two-turn attack. The user dives underwater on the first turn, then hits on the next turn.",
+            "bw": "Diving on the first turn, the user floats up and attacks on the second turn. It can be used to dive deep in the ocean.",
+            "b2w2": "Diving on the first turn, the user floats up and attacks on the second turn. It can be used to dive deep in the ocean.",
+            "xy": "Diving on the first turn, the user floats up and attacks on the next turn.",
+            "oras": "Diving on the first turn, the user floats up and attacks on the next turn. It can be used to dive deep in the ocean.",
+            "sm": "Diving on the first turn, the user floats up and attacks on the next turn.",
+            "usum": "Diving on the first turn, the user floats up and attacks on the next turn.",
+            "lgpe": "Diving on the first turn, the user floats up and attacks on the next turn.",
+            "swsh": "Diving on the first turn, the user floats up and attacks on the next turn.",
+            "la": "Diving on the first turn, the user floats up and attacks on the next turn.",
+            "sv": "The user dives on the first turn, then floats up and attacks on the next turn."
+        },
+        "french": {
+            "bw": "Le lanceur plonge sous l’eau au 1er tour et frappe au 2è. Permet aussi de plonger au fond de l’eau.",
+            "xy": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+            "oras": "Le lanceur plonge sous l’eau au premier tour et frappe au second. Permet aussi de plonger dans l’eau profonde.",
+            "sm": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+            "usum": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+            "lgpe": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+            "swsh": "Le lanceur plonge sous l’eau au premier tour et frappe au second."
+        },
+        "japanese-kana": {
+            "xy": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。",
+            "oras": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。 ふかいう に　もぐる　ことも　できる。",
+            "sm": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。",
+            "usum": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。",
+            "lgpe": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。",
+            "swsh": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。"
+        },
+        "korean": {
+            "xy": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다.",
+            "oras": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다. 깊은 바다에서 잠수도 할 수 있다.",
+            "sm": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다.",
+            "usum": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다.",
+            "lgpe": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다.",
+            "swsh": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다."
+        },
+        "german": {
+            "xy": "Taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an.",
+            "oras": "Anwender taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an. Ermöglicht Tauchgänge zum Meeresgrund.",
+            "sm": "Anwender taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an.",
+            "usum": "Anwender taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an.",
+            "lgpe": "Anwender taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an.",
+            "swsh": "Anwender taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an."
+        },
+        "spanish": {
+            "xy": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "oras": "El usuario se sumerge en el primer turno y ataca en el segundo. Permite sumergirse hasta aguas profundas.",
+            "sm": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "usum": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "lgpe": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "swsh": "El usuario se sumerge en el primer turno y ataca en el segundo."
+        },
+        "italian": {
+            "xy": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente.",
+            "oras": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Serve anche per immergersi sott’acqua.",
+            "sm": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente.",
+            "usum": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente.",
+            "lgpe": "Chi la usa si tuffa in acqua per emergere e attaccare al turno successivo.",
+            "swsh": "Chi la usa si tuffa in acqua per emergere e attaccare al turno successivo."
+        },
+        "japanese": {
+            "xy": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。",
+            "oras": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。 深い海に　潜ることも　できる。",
+            "sm": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。",
+            "usum": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。",
+            "lgpe": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。",
+            "swsh": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "oras": "El usuario se sumerge en el primer turno y ataca en el segundo. Permite sumergirse hasta aguas profundas.",
+            "sm": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "usum": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "lgpe": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+            "swsh": "El usuario se sumerge en el primer turno y ataca en el segundo."
+        },
+        "traditional-chinese": {
+            "sm": "使用後的第１回合潛入水中， 並於第２回合浮上來進行攻擊。",
+            "usum": "使用後的第１回合潛入水中， 並於第２回合浮上來進行攻擊。",
+            "lgpe": "使用後的第１回合潛入水中， 並於第２回合浮上來進行攻擊。",
+            "swsh": "使用後的第１回合潛入水中， 並於第２回合浮上來進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合潜入， 第２回合浮上来进行攻击。",
+            "usum": "第１回合潜入， 第２回合浮上来进行攻击。",
+            "lgpe": "第１回合潜入， 第２回合浮上来进行攻击。",
+            "swsh": "第１回合潜入， 第２回合浮上来进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn. During the immune turn, Surf, and Whirlpool still hit the user normally, and their power is doubled if appropriate. The user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "User dives underwater, dodging all attacks, and hits next turn."
+    }
 }

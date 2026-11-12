@@ -1,47 +1,153 @@
 {
-  "_id": 137,
-  "key": "glare",
-  "name": {
-    "english": "Glare",
-    "japanese": "へびにらみ",
-    "chinese": "大蛇瞪眼",
-    "korean": "뱀눈초리",
-    "german": "Deslumbrar",
-    "french": "Schlangenblick",
-    "italian": "Glare",
-    "spanish": "Sguardo Feroce"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 30,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A move that may\ncause paralysis.",
-    "crystal": "A move that may\ncause paralysis.",
-    "ruby-sapphire": "Intimidates and frightens\nthe foe into paralysis.",
-    "emerald": "Intimidates and frightens\nthe foe into paralysis.",
-    "firered-leafgreen": "The user intimidates\nthe foe with the\ndesign on its belly\nto cause paralysis.",
-    "diamond-pearl": "The user intimidates\nthe foe with the\npattern on its belly\nto cause paralysis.\n",
-    "platinum": "The user intimidates\nthe foe with the\npattern on its belly\nto cause paralysis.\n",
-    "heartgold-soulsilver": "The user intimidates\nthe foe with the\npattern on its belly\nto cause paralysis.\n",
-    "black-white": "The user intimidates the target with the\npattern on its belly to cause paralysis.",
-    "black-2-white-2": "The user intimidates the target with the\npattern on its belly to cause paralysis.",
-    "x-y": "The user intimidates the target with the\npattern on its belly to cause paralysis.",
-    "omega-ruby-alpha-sapphire": "The user intimidates the target with the\npattern on its belly to cause paralysis.",
-    "sun-moon": "The user intimidates the target with the pattern on\nits belly to cause paralysis.",
-    "ultra-sun-ultra-moon": "The user intimidates the target with the pattern on\nits belly to cause paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user intimidates the target with the pattern on\nits belly to cause paralysis.",
-    "sword-shield": "The user intimidates the target with the pattern on\nits belly to cause paralysis."
-  },
-  "effect": {
-    "full": "Paralyzes the target.",
-    "shortEffect": "Paralyzes the target."
-  },
-  "priority": 0
+    "_id": 137,
+    "key": "glare",
+    "name": {
+        "japanese-kana": "へびにらみ",
+        "korean": "뱀눈초리",
+        "traditional-chinese": "大蛇瞪眼",
+        "french": "Regard Médusant",
+        "german": "Schlangenblick",
+        "spanish": "Deslumbrar",
+        "italian": "Sguardo Feroce",
+        "english": "Glare",
+        "japanese": "へびにらみ",
+        "simplified-chinese": "大蛇瞪眼",
+        "latin-american-spanish": "Fulmirada"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "tough",
+    "pp": 30,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 75
+        },
+        "xy": {
+            "accuracy": 90
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move that may cause paralysis.",
+            "cr": "A move that may cause paralysis.",
+            "rs": "Intimidates and frightens the foe into paralysis.",
+            "em": "Intimidates and frightens the foe into paralysis.",
+            "frlg": "The user intimidates the foe with the design on its belly to cause paralysis.",
+            "dp": "The user intimidates the foe with the pattern on its belly to cause paralysis.",
+            "pt": "The user intimidates the foe with the pattern on its belly to cause paralysis.",
+            "hgss": "The user intimidates the foe with the pattern on its belly to cause paralysis.",
+            "bw": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "b2w2": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "xy": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "oras": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "sm": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "usum": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "lgpe": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "swsh": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "la": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+            "sv": "The user intimidates the target with the pattern on its belly to cause paralysis."
+        },
+        "french": {
+            "bw": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.",
+            "xy": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.",
+            "oras": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.",
+            "sm": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.",
+            "usum": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.",
+            "lgpe": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.",
+            "swsh": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "おなかの　もようで　おびえさせて あいてを　まひの　じょうたいに　する。",
+            "oras": "おなかの　もようで　おびえさせて あいてを　まひの　じょうたいに　する。",
+            "sm": "おなかの　もようで　おびえさせて あいてを　まひの　じょうたいに　する。",
+            "usum": "おなかの　もようで　おびえさせて あいてを　まひの　じょうたいに　する。",
+            "lgpe": "おなかの　もようで　おびえさせて あいてを　まひの　じょうたいに　する。",
+            "swsh": "おなかの　もようで　おびえさせて あいてを　まひの　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.",
+            "oras": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.",
+            "sm": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.",
+            "usum": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.",
+            "lgpe": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.",
+            "swsh": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다."
+        },
+        "german": {
+            "xy": "Schüchtert Ziel mit dem Muster auf seinem Bauch ein, sodass dieses paralysiert wird.",
+            "oras": "Schüchtert Ziel mit dem Muster auf seinem Bauch ein, sodass dieses paralysiert wird.",
+            "sm": "Schüchtert Ziel ein, sodass dieses paralysiert wird.",
+            "usum": "Schüchtert Ziel ein, sodass dieses paralysiert wird.",
+            "lgpe": "Schüchtert Ziel ein, sodass dieses paralysiert wird.",
+            "swsh": "Schüchtert Ziel ein, sodass dieses paralysiert wird."
+        },
+        "spanish": {
+            "xy": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "oras": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "sm": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "usum": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "lgpe": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "swsh": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado."
+        },
+        "italian": {
+            "xy": "Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.",
+            "oras": "Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.",
+            "sm": "Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.",
+            "usum": "Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.",
+            "lgpe": "Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.",
+            "swsh": "Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi."
+        },
+        "japanese": {
+            "xy": "おなかの　模様で　おびえさせて 相手を　まひの　状態に　する。",
+            "oras": "おなかの　模様で　おびえさせて 相手を　まひの　状態に　する。",
+            "sm": "おなかの　模様で　おびえさせて 相手を　まひの　状態に　する。",
+            "usum": "おなかの　模様で　おびえさせて 相手を　まひの　状態に　する。",
+            "lgpe": "おなかの　模様で　おびえさせて 相手を　まひの　状態に　する。",
+            "swsh": "おなかの　模様で　おびえさせて 相手を　まひの　状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "oras": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "sm": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "usum": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "lgpe": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+            "swsh": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado."
+        },
+        "traditional-chinese": {
+            "sm": "用腹部的花紋使對手心生恐懼， 讓對手陷入麻痺狀態。",
+            "usum": "用腹部的花紋使對手心生恐懼， 讓對手陷入麻痺狀態。",
+            "lgpe": "用腹部的花紋使對手心生恐懼， 讓對手陷入麻痺狀態。",
+            "swsh": "用腹部的花紋使對手心生恐懼， 讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用腹部的花纹使对手害怕， 从而让其陷入麻痹状态。",
+            "usum": "用腹部的花纹使对手害怕， 从而让其陷入麻痹状态。",
+            "lgpe": "用腹部的花纹使对手害怕， 从而让其陷入麻痹状态。",
+            "swsh": "用腹部的花纹使对手害怕， 从而让其陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Paralyzes the target.",
+        "shortEffect": "Paralyzes the target."
+    }
 }

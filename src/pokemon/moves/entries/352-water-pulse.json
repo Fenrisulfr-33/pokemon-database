@@ -1,45 +1,144 @@
 {
-  "_id": 352,
-  "key": "water-pulse",
-  "name": {
-    "english": "Water Pulse",
-    "japanese": "みずのはどう",
-    "chinese": "水波动",
-    "korean": "물의파동",
-    "german": "Hidropulso",
-    "french": "Aquawelle",
-    "italian": "Water Pulse",
-    "spanish": "Idropulsar"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks with ultrasonic\nwaves. May confuse the foe",
-    "emerald": "Attacks with ultrasonic\nwaves. May confuse the foe.",
-    "firered-leafgreen": "An attack with a\npulsing blast of\nwater. It may also\nconfuse the foe.",
-    "diamond-pearl": "The user attacks the\nfoe with a pulsing\nblast of water.\nIt may also confuse\nthe foe.",
-    "platinum": "The user attacks the\nfoe with a pulsing\nblast of water.\nIt may also confuse\nthe foe.",
-    "heartgold-soulsilver": "The user attacks the\nfoe with a pulsing\nblast of water.\nIt may also confuse\nthe foe.",
-    "black-white": "The user attacks the target with\na pulsing blast of water.\nIt may also confuse the target.",
-    "black-2-white-2": "The user attacks the target with\na pulsing blast of water.\nIt may also confuse the target.",
-    "x-y": "The user attacks the target with\na pulsing blast of water.\nThis may also confuse the target.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with\na pulsing blast of water.\nThis may also confuse the target.",
-    "sun-moon": "The user attacks the target with a pulsing blast of\nwater. This may also confuse the target.",
-    "ultra-sun-ultra-moon": "The user attacks the target with a pulsing blast of\nwater. This may also confuse the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with a pulsing blast of\nwater. This may also confuse the target.",
-    "sword-shield": "The user attacks the target with a pulsing blast of\nwater. This may also confuse the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 352,
+    "key": "water-pulse",
+    "name": {
+        "japanese-kana": "みずのはどう",
+        "korean": "물의파동",
+        "traditional-chinese": "水之波動",
+        "french": "Vibraqua",
+        "german": "Aquawelle",
+        "spanish": "Hidropulso",
+        "italian": "Idropulsar",
+        "english": "Water Pulse",
+        "japanese": "みずのはどう",
+        "simplified-chinese": "水之波动",
+        "latin-american-spanish": "Pulso de Agua"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 20,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Attacks with ultrasonic waves. May confuse the foe",
+            "em": "Attacks with ultrasonic waves. May confuse the foe.",
+            "frlg": "An attack with a pulsing blast of water. It may also confuse the foe.",
+            "dp": "The user attacks the foe with a pulsing blast of water. It may also confuse the foe.",
+            "pt": "The user attacks the foe with a pulsing blast of water. It may also confuse the foe.",
+            "hgss": "The user attacks the foe with a pulsing blast of water. It may also confuse the foe.",
+            "bw": "The user attacks the target with a pulsing blast of water. It may also confuse the target.",
+            "b2w2": "The user attacks the target with a pulsing blast of water. It may also confuse the target.",
+            "xy": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+            "oras": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+            "sm": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+            "usum": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+            "lgpe": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+            "swsh": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+            "la": "The user attacks the target with a pulsing blast of water. This attack never misses.",
+            "sv": "The user attacks the target with a pulsing blast of water. This may also confuse the target."
+        },
+        "french": {
+            "bw": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut rendre l’ennemi confus.",
+            "xy": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus.",
+            "oras": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus.",
+            "sm": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus.",
+            "usum": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus.",
+            "lgpe": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus.",
+            "swsh": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus."
+        },
+        "japanese-kana": {
+            "xy": "みずの　しんどうを あいてに　あたえて　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "oras": "ずの　しんどうを あいてに　あたえて　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "sm": "みずの　しんどうを あいてに　あたえて　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "usum": "みずの　しんどうを あいてに　あたえて　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "lgpe": "みずの　しんどうを あいてに　あたえて　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "swsh": "みずの　しんどうを あいてに　あたえて　こうげきする。 あいてを　こんらん　させることが　ある。"
+        },
+        "korean": {
+            "xy": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "oras": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "sm": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "usum": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "lgpe": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란시킬 때가 있다.",
+            "swsh": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란시킬 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit Wasserwelle, die das Ziel eventuell verwirren kann.",
+            "oras": "Angriff mit Wasserwelle, die das Ziel eventuell verwirren kann.",
+            "sm": "Angriff mit Wasserwelle, die das Ziel eventuell verwirren kann.",
+            "usum": "Angriff mit Wasserwelle, die das Ziel eventuell verwirren kann.",
+            "lgpe": "Angriff mit Wasserwelle, die das Ziel eventuell verwirren kann.",
+            "swsh": "Angriff mit Wasserwelle, die das Ziel eventuell verwirren kann."
+        },
+        "spanish": {
+            "xy": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "oras": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "sm": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "usum": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "lgpe": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "swsh": "Ataca con un potente chorro de agua. Puede confundir al objetivo."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da un getto d’acqua potentissimo che può anche confonderlo.",
+            "oras": "Il bersaglio viene colpito da un getto d’acqua potentissimo che può anche confonderlo.",
+            "sm": "Il bersaglio viene colpito da un getto d’acqua potentissimo che può anche confonderlo.",
+            "usum": "Il bersaglio viene colpito da un getto d’acqua potentissimo che può anche confonderlo.",
+            "lgpe": "Il bersaglio viene colpito da un getto d’acqua potentissimo che può anche confonderlo.",
+            "swsh": "Il bersaglio viene colpito da un getto d’acqua potentissimo che può anche confonderlo."
+        },
+        "japanese": {
+            "xy": "水の　振動を 相手に　与えて　攻撃する。 相手を　混乱させることが　ある。",
+            "oras": "水の　振動を 相手に　与えて　攻撃する。 相手を　混乱させることが　ある。",
+            "sm": "水の　振動を 相手に　与えて　攻撃する。 相手を　混乱させることが　ある。",
+            "usum": "水の　振動を 相手に　与えて　攻撃する。 相手を　混乱させることが　ある。",
+            "lgpe": "水の　振動を 相手に　与えて　攻撃する。 相手を　混乱させることが　ある。",
+            "swsh": "水の　振動を 相手に　与えて　攻撃する。 相手を　混乱させることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "oras": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "sm": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "usum": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "lgpe": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+            "swsh": "Ataca con un potente chorro de agua. Puede confundir al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用水的震動攻擊對手。 有時會使對手混亂。",
+            "usum": "用水的震動攻擊對手。 有時會使對手混亂。",
+            "lgpe": "用水的震動攻擊對手。 有時會使對手混亂。",
+            "swsh": "用水的震動攻擊對手。 有時會使對手混亂。"
+        },
+        "simplified-chinese": {
+            "sm": "用水的震动攻击对手。 有时会使对手混乱。",
+            "usum": "用水的震动攻击对手。 有时会使对手混乱。",
+            "lgpe": "用水的震动攻击对手。 有时会使对手混乱。",
+            "swsh": "用水的震动攻击对手。 有时会使对手混乱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

@@ -1,47 +1,146 @@
 {
-  "_id": 181,
-  "key": "powder-snow",
-  "name": {
-    "english": "Powder Snow",
-    "japanese": "こなゆき",
-    "chinese": "细雪",
-    "korean": "눈싸라기",
-    "german": "Nieve Polvo",
-    "french": "Pulverschnee",
-    "italian": "Powder Snow",
-    "spanish": "Polneve"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 25,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause freezing.",
-    "crystal": "An attack that may\ncause freezing.",
-    "ruby-sapphire": "Blasts the foe with a snowy\ngust. May cause freezing.",
-    "emerald": "Blasts the foe with a snowy\ngust. May cause freezing.",
-    "firered-leafgreen": "Blasts the foe with\na snowy gust.\nIt may cause\nfreezing.",
-    "diamond-pearl": "The user attacks with\na chilling gust of\npowdery snow.\nIt may also freeze\nthe target.",
-    "platinum": "The user attacks with\na chilling gust of\npowdery snow.\nIt may also freeze\nthe target.",
-    "heartgold-soulsilver": "The user attacks with\na chilling gust of\npowdery snow.\nIt may also freeze\nthe target.",
-    "black-white": "The user attacks with a chilling gust\nof powdery snow.\nIt may also freeze the targets.",
-    "black-2-white-2": "The user attacks with a chilling gust\nof powdery snow.\nIt may also freeze the targets.",
-    "x-y": "The user attacks with a chilling gust\nof powdery snow.\nThis may also freeze the opposing Pokémon.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a chilling gust\nof powdery snow.\nThis may also freeze the opposing Pokémon.",
-    "sun-moon": "The user attacks with a chilling gust of powdery\nsnow. This may also freeze the opposing Pokémon.",
-    "ultra-sun-ultra-moon": "The user attacks with a chilling gust of powdery\nsnow. This may also freeze the opposing Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a chilling gust of powdery\nsnow. This may also freeze the opposing Pokémon.",
-    "sword-shield": "The user attacks with a chilling gust of powdery snow.\nThis may also freeze opposing Pokémon."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.",
-    "shortEffect": "Has a $effect_chance% chance to freeze the target."
-  },
-  "priority": 0
+    "_id": 181,
+    "key": "powder-snow",
+    "name": {
+        "japanese-kana": "こなゆき",
+        "korean": "눈싸라기",
+        "traditional-chinese": "細雪",
+        "french": "Poudreuse",
+        "german": "Pulverschnee",
+        "spanish": "Nieve Polvo",
+        "italian": "Polneve",
+        "english": "Powder Snow",
+        "japanese": "こなゆき",
+        "simplified-chinese": "细雪",
+        "latin-american-spanish": "Polvo de Nieve"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 25,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "freeze",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause freezing.",
+            "cr": "An attack that may cause freezing.",
+            "rs": "Blasts the foe with a snowy gust. May cause freezing.",
+            "em": "Blasts the foe with a snowy gust. May cause freezing.",
+            "frlg": "Blasts the foe with a snowy gust. It may cause freezing.",
+            "dp": "The user attacks with a chilling gust of powdery snow. It may also freeze the target.",
+            "pt": "The user attacks with a chilling gust of powdery snow. It may also freeze the target.",
+            "hgss": "The user attacks with a chilling gust of powdery snow. It may also freeze the target.",
+            "bw": "The user attacks with a chilling gust of powdery snow. It may also freeze the targets.",
+            "b2w2": "The user attacks with a chilling gust of powdery snow. It may also freeze the targets.",
+            "xy": "The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pokémon.",
+            "oras": "The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pokémon.",
+            "sm": "The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pokémon.",
+            "usum": "The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pokémon.",
+            "lgpe": "The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pokémon.",
+            "swsh": "The user attacks with a chilling gust of powdery snow. This may also freeze opposing Pokémon.",
+            "la": "The user attacks with a chilling gust of powdery snow. This may also leave the target with frostbite.",
+            "sv": "The user attacks with a chilling gust of powdery snow. This may also leave opposing Pokémon frozen."
+        },
+        "french": {
+            "bw": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.",
+            "xy": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.",
+            "oras": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.",
+            "sm": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.",
+            "usum": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.",
+            "lgpe": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.",
+            "swsh": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "つめたい　こなゆきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "oras": "つめたい　こなゆきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "sm": "つめたい　こなゆきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "usum": "つめたい　こなゆきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "lgpe": "つめたい　こなゆきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "swsh": "つめたい　こなゆきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "차가운 가랑눈을 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "oras": "차가운 가랑눈을 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "sm": "차가운 가랑눈을 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "usum": "차가운 가랑눈을 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "lgpe": "차가운 가랑눈을 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "swsh": "차가운 가랑눈을 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit Schnee. Das Ziel wird eventuell eingefroren.",
+            "oras": "Angriff mit Schnee. Das Ziel wird eventuell eingefroren.",
+            "sm": "Angriff mit Schnee. Das Ziel wird eventuell eingefroren.",
+            "usum": "Angriff mit Schnee. Das Ziel wird eventuell eingefroren.",
+            "lgpe": "Angriff mit Schnee. Das Ziel wird eventuell eingefroren.",
+            "swsh": "Angriff mit Schnee, durch den gegnerische Pokémon eventuell eingefroren werden."
+        },
+        "spanish": {
+            "xy": "Lanza nieve que puede llegar a congelar.",
+            "oras": "Lanza nieve que puede llegar a congelar.",
+            "sm": "Lanza nieve que puede llegar a congelar.",
+            "usum": "Lanza nieve que puede llegar a congelar.",
+            "lgpe": "Lanza nieve que puede llegar a congelar.",
+            "swsh": "Lanza nieve que puede llegar a congelar."
+        },
+        "italian": {
+            "xy": "Attacca i nemici che ha intorno con una raffica di neve farinosa e può anche congelarli.",
+            "oras": "Attacca i nemici che ha intorno con una raffica di neve farinosa e può anche congelarli.",
+            "sm": "Attacca i nemici che ha intorno con una raffica di neve farinosa e può anche congelarli.",
+            "usum": "Attacca i nemici che ha intorno con una raffica di neve farinosa e può anche congelarli.",
+            "lgpe": "Attacca i nemici che ha intorno con una raffica di neve farinosa e può anche congelarli.",
+            "swsh": "Attacca i nemici che ha intorno con una raffica di neve farinosa e può anche congelarli."
+        },
+        "japanese": {
+            "xy": "冷たい　粉雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "oras": "冷たい　粉雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "sm": "冷たい　粉雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "usum": "冷たい　粉雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "lgpe": "冷たい　粉雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "swsh": "冷たい　粉雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza nieve que puede llegar a congelar.",
+            "oras": "Lanza nieve que puede llegar a congelar.",
+            "sm": "Lanza nieve que puede llegar a congelar.",
+            "usum": "Lanza nieve que puede llegar a congelar.",
+            "lgpe": "Lanza nieve que puede llegar a congelar.",
+            "swsh": "Lanza nieve que puede llegar a congelar."
+        },
+        "traditional-chinese": {
+            "sm": "將冰冷的細雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "usum": "將冰冷的細雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "lgpe": "將冰冷的細雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "swsh": "將冰冷的細雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "将冰冷的细雪 吹向对手进行攻击。 有时会让对手陷入冰冻状态。",
+            "usum": "将冰冷的细雪 吹向对手进行攻击。 有时会让对手陷入冰冻状态。",
+            "lgpe": "将冰冷的细雪 吹向对手进行攻击。 有时会让对手陷入冰冻状态。",
+            "swsh": "将冰冷的细雪 吹向对手进行攻击。 有时会让对手陷入冰冻状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to freeze the target.",
+        "shortEffect": "Has a chance to freeze the target."
+    }
 }

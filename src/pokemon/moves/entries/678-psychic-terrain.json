@@ -1,35 +1,117 @@
 {
-  "_id": 678,
-  "key": "psychic-terrain",
-  "name": {
-    "english": "Psychic Terrain",
-    "japanese": "サイコフィールド",
-    "chinese": "精神場地",
-    "korean": "사이코필드",
-    "german": "Campo Psíquico",
-    "french": "Psychofeld",
-    "italian": "Psychic Terrain",
-    "spanish": "Campo Psichico"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "sun-moon": "This protects Pokémon on the ground from priority\nmoves and powers up Psychic-type moves for\nfive turns.",
-    "ultra-sun-ultra-moon": "This protects Pokémon on the ground from priority\nmoves and powers up Psychic-type moves for\nfive turns.",
-    "lets-go-pikachu-lets-go-eevee": "This protects Pokémon on the ground from priority\nmoves and powers up Psychic-type moves for\nfive turns.",
-    "sword-shield": "This protects Pokémon on the ground from priority\nmoves and powers up Psychic-type moves for\nfive turns."
-  },
-  "effect": {
-    "full": "Changes the terrain to Psychic Terrain for 5 turns.  Overrides electric terrain, grassy terrain, and misty terrain.\n\nAll Pokémon on the ground are immune to moves with priority greater than 0.  (Moves that target the field rather than individual Pokémon, such as spikes, are not affected.)  Additionally, when a Pokémon on the ground uses a psychic-type move, that move's power is increased to 1.5×.\n\nIf a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
-    "shortEffect": "Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%."
-  },
-  "priority": 0
+    "_id": 678,
+    "key": "psychic-terrain",
+    "name": {
+        "japanese-kana": "サイコフィールド",
+        "korean": "사이코필드",
+        "traditional-chinese": "精神場地",
+        "french": "Champ Psychique",
+        "german": "Psychofeld",
+        "spanish": "Campo Psíquico",
+        "italian": "Campo Psichico",
+        "english": "Psychic Terrain",
+        "japanese": "サイコフィールド",
+        "simplified-chinese": "精神场地",
+        "latin-american-spanish": "Campo Psíquico"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "５ターンの　あいだ　じめんにいると せんせいわざを　うけない。 エスパータイプの　いりょくが　あがる。",
+            "usum": "５ターンの　あいだ　じめんにいると せんせいわざを　うけない。 エスパータイプの　いりょくが　あがる。",
+            "lgpe": "５ターンの　あいだ　じめんにいると せんせいわざを　うけない。 エスパータイプの　いりょくが　あがる。",
+            "swsh": "５ターンの　あいだ　じめんにいると せんせいわざを　うけない。 エスパータイプの　いりょくが　あがる。"
+        },
+        "korean": {
+            "sm": "5턴 동안 땅에 있으면 선제공격을 받지 않는다. 에스퍼타입의 위력이 올라간다.",
+            "usum": "5턴 동안 땅에 있으면 선제공격을 받지 않는다. 에스퍼타입의 위력이 올라간다.",
+            "lgpe": "5턴 동안 땅에 있으면 선제공격을 받지 않는다. 에스퍼타입의 위력이 올라간다.",
+            "swsh": "5턴 동안 땅에 있으면 선제공격을 받지 않는다. 에스퍼타입의 위력이 올라간다."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內，地面上的寶可夢 不會受到先制招式攻擊。 超能力屬性的招式威力會提高。",
+            "usum": "在５回合內，地面上的寶可夢 不會受到先制招式攻擊。 超能力屬性的招式威力會提高。",
+            "lgpe": "在５回合內，地面上的寶可夢 不會受到先制招式攻擊。 超能力屬性的招式威力會提高。",
+            "swsh": "在５回合內，地面上的寶可夢 不會受到先制招式攻擊。 超能力屬性的招式威力會提高。"
+        },
+        "french": {
+            "sm": "Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente.",
+            "usum": "Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente.",
+            "lgpe": "Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente.",
+            "swsh": "Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente."
+        },
+        "german": {
+            "sm": "Verhindert für fünf Runden, dass Pokémon am Boden von Attacken mit hoher Erstschlagquote getroffen werden. Erhöht die Stärke von Psycho-Attacken.",
+            "usum": "Verhindert für fünf Runden, dass Pokémon am Boden von Attacken mit hoher Erstschlagquote getroffen werden. Erhöht die Stärke von Psycho-Attacken.",
+            "lgpe": "Verhindert für fünf Runden, dass Pokémon am Boden von Attacken mit hoher Erstschlagquote getroffen werden. Erhöht die Stärke von Psycho-Attacken.",
+            "swsh": "Verhindert für fünf Runden, dass Pokémon am Boden von Erstschlag-Attacken getroffen werden. Erhöht die Stärke von Psycho-Attacken."
+        },
+        "spanish": {
+            "sm": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.",
+            "usum": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.",
+            "lgpe": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.",
+            "swsh": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad."
+        },
+        "italian": {
+            "sm": "Per cinque turni il terreno entra nello stato di Campo Psichico: i Pokémon a terra non subiscono mosse ad alta priorità e le mosse di tipo Psico sono potenziate.",
+            "usum": "Per cinque turni il terreno entra nello stato di Campo Psichico: i Pokémon a terra non subiscono mosse ad alta priorità e le mosse di tipo Psico sono potenziate.",
+            "lgpe": "Per cinque turni il terreno entra nello stato di Campo Psichico: i Pokémon a terra non subiscono mosse ad alta priorità e le mosse di tipo Psico sono potenziate.",
+            "swsh": "Per cinque turni il terreno entra nello stato di Campo Psichico: i Pokémon a terra non subiscono mosse ad alta priorità e le mosse di tipo Psico sono potenziate."
+        },
+        "english": {
+            "sm": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+            "usum": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+            "lgpe": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+            "swsh": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+            "la": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+            "sv": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns."
+        },
+        "japanese": {
+            "sm": "５ターンの間　地面にいると 先制技を　受けない。 エスパータイプの　威力が　あがる。",
+            "usum": "５ターンの間　地面にいると 先制技を　受けない。 エスパータイプの　威力が　あがる。",
+            "lgpe": "５ターンの間　地面にいると 先制技を　受けない。 エスパータイプの　威力が　あがる。",
+            "swsh": "５ターンの間　地面にいると 先制技を　受けない。 エスパータイプの　威力が　あがる。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内，地面上的宝可梦 不会受到先制招式的攻击。 超能力属性的招式威力会提高。",
+            "usum": "在５回合内，地面上的宝可梦 不会受到先制招式的攻击。 超能力属性的招式威力会提高。",
+            "lgpe": "在５回合内，地面上的宝可梦 不会受到先制招式的攻击。 超能力属性的招式威力会提高。",
+            "swsh": "在５回合内，地面上的宝可梦 不会受到先制招式的攻击。 超能力属性的招式威力会提高。"
+        },
+        "latin-american-spanish": {
+            "sm": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.",
+            "usum": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.",
+            "lgpe": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.",
+            "swsh": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad."
+        }
+    },
+    "effect": {
+        "full": "Changes the terrain to Psychic Terrain for 5 turns.  Overrides Electric Terrain, Grassy Terrain, and Misty Terrain. All Pokémon on the ground are immune to moves with priority greater than 0.  (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.)  Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×. If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+        "shortEffect": "Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%."
+    }
 }

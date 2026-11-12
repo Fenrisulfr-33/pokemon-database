@@ -1,42 +1,141 @@
 {
-  "_id": 422,
-  "key": "thunder-fang",
-  "name": {
-    "english": "Thunder Fang",
-    "japanese": "かみなりのキバ",
-    "chinese": "雷牙",
-    "korean": "번개엄니",
-    "german": "Colmillo Rayo",
-    "french": "Donnerzahn",
-    "italian": "Thunder Fang",
-    "spanish": "Fulmindenti"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 65,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed.",
-    "platinum": "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed.",
-    "heartgold-soulsilver": "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed.",
-    "black-white": "The user bites with electrified fangs.\nIt may also make the target flinch or\nleave it with paralysis.",
-    "black-2-white-2": "The user bites with electrified fangs.\nIt may also make the target flinch or\nleave it with paralysis.",
-    "x-y": "The user bites with electrified fangs.\nThis may also make the target flinch or\nleave it with paralysis.",
-    "omega-ruby-alpha-sapphire": "The user bites with electrified fangs.\nThis may also make the target flinch or\nleave it with paralysis.",
-    "sun-moon": "The user bites with electrified fangs. This may also\nmake the target flinch or leave it with paralysis.",
-    "ultra-sun-ultra-moon": "The user bites with electrified fangs. This may also\nmake the target flinch or leave it with paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user bites with electrified fangs. This may also\nmake the target flinch or leave it with paralysis.",
-    "sword-shield": "The user bites with electrified fangs. This may also\nmake the target flinch or leave it with paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target and a separate $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target and a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 422,
+    "key": "thunder-fang",
+    "name": {
+        "japanese-kana": "かみなりのキバ",
+        "korean": "번개엄니",
+        "traditional-chinese": "雷電牙",
+        "french": "Crocs Éclair",
+        "german": "Donnerzahn",
+        "spanish": "Colmillo Rayo",
+        "italian": "Fulmindenti",
+        "english": "Thunder Fang",
+        "japanese": "かみなりのキバ",
+        "simplified-chinese": "雷电牙",
+        "latin-american-spanish": "Colmillo Trueno"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 15,
+    "power": 65,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 10,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.",
+            "pt": "The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.",
+            "hgss": "The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.",
+            "bw": "The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.",
+            "b2w2": "The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.",
+            "xy": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+            "oras": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+            "sm": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+            "usum": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+            "lgpe": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+            "swsh": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+            "la": "The user bites the target with electrified fangs to deal damage. This may also leave the target with paralysis.",
+            "sv": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis."
+        },
+        "french": {
+            "bw": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
+            "xy": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
+            "oras": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
+            "sm": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
+            "usum": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
+            "lgpe": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
+            "swsh": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "でんきを　ためた　キバで　かみつく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。",
+            "oras": "でんきを　ためた　キバで　か つく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。",
+            "sm": "でんきを　ためた　キバで　かみつく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。",
+            "usum": "でんきを　ためた　キバで　かみつく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。",
+            "lgpe": "でんきを　ためた　キバで　かみつく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。",
+            "swsh": "でんきを　ためた　キバで　かみつく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다.",
+            "oras": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다.",
+            "sm": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다.",
+            "usum": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다.",
+            "lgpe": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다.",
+            "swsh": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.",
+            "oras": "Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.",
+            "sm": "Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.",
+            "usum": "Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.",
+            "lgpe": "Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.",
+            "swsh": "Anwender beißt mit elektrifizierten Reißzähnen zu. Ziel schreckt eventuell zurück oder wird paralysiert."
+        },
+        "spanish": {
+            "xy": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "oras": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "sm": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "usum": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "lgpe": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "swsh": "El usuario muerde al objetivo con colmillos electrificados y puede hacer que se amedrente o se paralice."
+        },
+        "italian": {
+            "xy": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio.",
+            "oras": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio.",
+            "sm": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio.",
+            "usum": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio.",
+            "lgpe": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio.",
+            "swsh": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio."
+        },
+        "japanese": {
+            "xy": "電気を　ためた　キバで　かみつく。 相手を　ひるませたり まひ状態に　することが　ある。",
+            "oras": "電気を　ためた　キバで　か つく。 相手を　ひるませたり まひ状態に　することが　ある。",
+            "sm": "電気を　ためた　キバで　かみつく。 相手を　ひるませたり まひ状態に　することが　ある。",
+            "usum": "電気を　ためた　キバで　かみつく。 相手を　ひるませたり まひ状態に　することが　ある。",
+            "lgpe": "電気を　ためた　キバで　かみつく。 相手を　ひるませたり まひ状態に　することが　ある。",
+            "swsh": "電気を　ためた　キバで　かみつく。 相手を　ひるませたり まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "oras": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "sm": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "usum": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "lgpe": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+            "swsh": "El usuario muerde al objetivo con colmillos electrificados y puede hacer que se amedrente o se paralice."
+        },
+        "traditional-chinese": {
+            "sm": "用蓄滿電流的牙齒咬住對手。 有時會讓對手畏縮 或陷入麻痺狀態。",
+            "usum": "用蓄滿電流的牙齒咬住對手。 有時會讓對手畏縮 或陷入麻痺狀態。",
+            "lgpe": "用蓄滿電流的牙齒咬住對手。 有時會讓對手畏縮 或陷入麻痺狀態。",
+            "swsh": "用蓄滿電流的牙齒咬住對手。 有時會讓對手畏縮 或陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用蓄满电流的牙齿咬住对手。 有时会使对手畏缩 或陷入麻痹状态。",
+            "usum": "用蓄满电流的牙齿咬住对手。 有时会使对手畏缩 或陷入麻痹状态。",
+            "lgpe": "用蓄满电流的牙齿咬住对手。 有时会使对手畏缩 或陷入麻痹状态。",
+            "swsh": "用蓄满电流的牙齿咬住对手。 有时会使对手畏缩 或陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target and a separate chance to make the target flinch.",
+        "shortEffect": "Has a chance to paralyze the target and a chance to make the target flinch."
+    }
 }

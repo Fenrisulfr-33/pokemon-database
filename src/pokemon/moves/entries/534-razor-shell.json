@@ -1,39 +1,138 @@
 {
-  "_id": 534,
-  "key": "razor-shell",
-  "name": {
-    "english": "Razor Shell",
-    "japanese": "シェルブレード",
-    "chinese": "贝壳刀",
-    "korean": "셸블레이드",
-    "german": "Concha Filo",
-    "french": "Kalkklinge",
-    "italian": "Razor Shell",
-    "spanish": "Conchilama"
-  },
-  "type": "Water",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 75,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user cuts its target with sharp\nshells. This attack may also lower the\ntarget’s Defense stat.",
-    "black-2-white-2": "The user cuts its target with sharp\nshells. This attack may also lower the\ntarget’s Defense stat.",
-    "x-y": "The user cuts its target with sharp\nshells. This may also lower\nthe target’s Defense stat.",
-    "omega-ruby-alpha-sapphire": "The user cuts its target with sharp\nshells. This may also lower\nthe target’s Defense stat.",
-    "sun-moon": "The user cuts its target with sharp shells. This may\nalso lower the target’s Defense stat.",
-    "ultra-sun-ultra-moon": "The user cuts its target with sharp shells. This may\nalso lower the target’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user cuts its target with sharp shells. This may\nalso lower the target’s Defense stat.",
-    "sword-shield": "The user cuts its target with sharp shells. This may\nalso lower the target’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 534,
+    "key": "razor-shell",
+    "name": {
+        "japanese-kana": "シェルブレード",
+        "korean": "셸블레이드",
+        "traditional-chinese": "貝殼刃",
+        "french": "Coqui-Lame",
+        "german": "Kalkklinge",
+        "spanish": "Concha Filo",
+        "italian": "Conchilama",
+        "english": "Razor Shell",
+        "japanese": "シェルブレード",
+        "simplified-chinese": "贝壳刃",
+        "latin-american-spanish": "Coraza Afilada"
+    },
+    "type": "water",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 75,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 50
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.",
+            "xy": "Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.",
+            "oras": "Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.",
+            "sm": "Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.",
+            "usum": "Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.",
+            "lgpe": "Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense.",
+            "swsh": "Un coquillage aiguisé lacère l’ennemi. Peut aussi baisser sa Défense."
+        },
+        "english": {
+            "bw": "The user cuts its target with sharp shells. This attack may also lower the target’s Defense stat.",
+            "b2w2": "The user cuts its target with sharp shells. This attack may also lower the target’s Defense stat.",
+            "xy": "The user cuts its target with sharp shells. This may also lower the target’s Defense stat.",
+            "oras": "The user cuts its target with sharp shells. This may also lower the target’s Defense stat.",
+            "sm": "The user cuts its target with sharp shells. This may also lower the target’s Defense stat.",
+            "usum": "The user cuts its target with sharp shells. This may also lower the target’s Defense stat.",
+            "lgpe": "The user cuts its target with sharp shells. This may also lower the target’s Defense stat.",
+            "swsh": "The user cuts its target with sharp shells. This may also lower the target’s Defense stat.",
+            "la": "The user cuts its target with sharp shells. This may also lower the target's Defense stat.",
+            "sv": "The user cuts the target with sharp shells to inflict damage. This may also lower the target's Defense stat."
+        },
+        "japanese-kana": {
+            "xy": "するどい　かいがらで　きりつけて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "oras": "するどい　かいがらで　きりつけて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "sm": "するどい　かいがらで　きりつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。",
+            "usum": "するどい　かいがらで　きりつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。",
+            "lgpe": "するどい　かいがらで　きりつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。",
+            "swsh": "するどい　かいがらで　きりつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "날카로운 조개껍질로 베어 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "oras": "날카로운 조개껍질로 베어 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "sm": "날카로운 조개껍질로 베어 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "usum": "날카로운 조개껍질로 베어 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "날카로운 조개껍질로 베어 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "swsh": "날카로운 조개껍질로 베어 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Schneideangriff mit einer scharfen Muschelschale. Senkt eventuell die Verteidigung des Zieles.",
+            "oras": "Schneideangriff mit einer scharfen Muschelschale. Senkt eventuell die Verteidigung des Zieles.",
+            "sm": "Schneideangriff mit einer scharfen Muschelschale. Senkt eventuell die Verteidigung des Zieles.",
+            "usum": "Schneideangriff mit einer scharfen Muschelschale. Senkt eventuell die Verteidigung des Zieles.",
+            "lgpe": "Schneideangriff mit einer scharfen Muschelschale. Senkt eventuell die Verteidigung des Zieles.",
+            "swsh": "Schneideangriff mit einer scharfen Muschelschale. Senkt eventuell die Verteidigung des Zieles."
+        },
+        "spanish": {
+            "xy": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "oras": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "sm": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "usum": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "lgpe": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "swsh": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.",
+            "oras": "Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.",
+            "sm": "Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.",
+            "usum": "Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.",
+            "lgpe": "Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.",
+            "swsh": "Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio."
+        },
+        "japanese": {
+            "xy": "鋭い　貝殻で　切りつけて 攻撃する。相手の　防御を さげることが　ある。",
+            "oras": "鋭い　貝殻で　切りつけて 攻撃する。相手の　防御を さげることが　ある。",
+            "sm": "鋭い　貝殻で　切りつけて 攻撃する。　相手の　防御を さげることが　ある。",
+            "usum": "鋭い　貝殻で　切りつけて 攻撃する。　相手の　防御を さげることが　ある。",
+            "lgpe": "鋭い　貝殻で　切りつけて 攻撃する。　相手の　防御を さげることが　ある。",
+            "swsh": "鋭い　貝殻で　切りつけて 攻撃する。　相手の　防御を さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "oras": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "sm": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "usum": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "lgpe": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.",
+            "swsh": "Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa."
+        },
+        "traditional-chinese": {
+            "sm": "用鋒利的貝殼斬切 對手進行攻擊。 有時會降低對手的防禦。",
+            "usum": "用鋒利的貝殼斬切 對手進行攻擊。 有時會降低對手的防禦。",
+            "lgpe": "用鋒利的貝殼斬切 對手進行攻擊。 有時會降低對手的防禦。",
+            "swsh": "用鋒利的貝殼斬切 對手進行攻擊。 有時會降低對手的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "用锋利的贝壳切斩 对手进行攻击。 有时会降低对手的防御。",
+            "usum": "用锋利的贝壳切斩 对手进行攻击。 有时会降低对手的防御。",
+            "lgpe": "用锋利的贝壳切斩 对手进行攻击。 有时会降低对手的防御。",
+            "swsh": "用锋利的贝壳切斩 对手进行攻击。 有时会降低对手的防御。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Defense by one stage."
+    }
 }

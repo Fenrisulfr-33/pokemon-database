@@ -1,47 +1,146 @@
 {
-  "_id": 29,
-  "key": "headbutt",
-  "name": {
-    "english": "Headbutt",
-    "japanese": "ずつき",
-    "chinese": "铁头功",
-    "korean": "박치기",
-    "german": "Golpe Cabeza",
-    "french": "Kopfnuss",
-    "italian": "Headbutt",
-    "spanish": "Bottintesta"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nmake foe flinch.",
-    "crystal": "An attack that may\nmake foe flinch.",
-    "ruby-sapphire": "A ramming attack that may\ncause flinching.",
-    "emerald": "A ramming attack that may\ncause flinching.",
-    "firered-leafgreen": "The user sticks its\nhead out and rams.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "The user sticks its\nhead out and rams\nstraight forward.\nIt may make the\nfoe flinch.",
-    "platinum": "The user sticks its\nhead out and rams\nstraight forward.\nIt may make the\nfoe flinch.",
-    "heartgold-soulsilver": "The user attacks with\nits head. It may make\nthe foe flinch. To find\nPokémon, hit trees.",
-    "black-white": "The user sticks out its head and attacks\nby charging straight into the target.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user sticks out its head and attacks\nby charging straight into the target.\nIt may also make the target flinch.",
-    "x-y": "The user sticks out its head and attacks\nby charging straight into the target.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user sticks out its head and attacks\nby charging straight into the target.\nThis may also make the target flinch.",
-    "sun-moon": "The user sticks out its head and attacks by charging\nstraight into the target. This may also make the\ntarget flinch.",
-    "ultra-sun-ultra-moon": "The user sticks out its head and attacks by charging\nstraight into the target. This may also make the\ntarget flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user sticks out its head and attacks by charging\nstraight into the target. This may also make the\ntarget flinch.",
-    "sword-shield": "The user sticks out its head and attacks by charging\nstraight into the target. This may also make the\ntarget flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 29,
+    "key": "headbutt",
+    "name": {
+        "japanese-kana": "ずつき",
+        "korean": "박치기",
+        "traditional-chinese": "頭錘",
+        "french": "Coup d’Boule",
+        "german": "Kopfnuss",
+        "spanish": "Golpe Cabeza",
+        "italian": "Bottintesta",
+        "english": "Headbutt",
+        "japanese": "ずつき",
+        "simplified-chinese": "头锤",
+        "latin-american-spanish": "Golpe Cabeza"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may make foe flinch.",
+            "cr": "An attack that may make foe flinch.",
+            "rs": "A ramming attack that may cause flinching.",
+            "em": "A ramming attack that may cause flinching.",
+            "frlg": "The user sticks its head out and rams. It may make the foe flinch.",
+            "dp": "The user sticks its head out and rams straight forward. It may make the foe flinch.",
+            "pt": "The user sticks its head out and rams straight forward. It may make the foe flinch.",
+            "hgss": "The user attacks with its head. It may make the foe flinch. To find Pokémon, hit trees.",
+            "bw": "The user sticks out its head and attacks by charging straight into the target. It may also make the target flinch.",
+            "b2w2": "The user sticks out its head and attacks by charging straight into the target. It may also make the target flinch.",
+            "xy": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+            "oras": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+            "sm": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+            "usum": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+            "lgpe": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+            "swsh": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+            "la": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+            "sv": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi.",
+            "xy": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi.",
+            "oras": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi.",
+            "sm": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi.",
+            "usum": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi.",
+            "lgpe": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi.",
+            "swsh": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "あたまを　つきだして まっすぐ　つっこんで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "あたまを　つきだして まっすぐ　つっこんで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "あたまを　つきだして まっすぐ　つっこんで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "あたまを　つきだして まっすぐ　つっこんで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "あたまを　つきだして まっすぐ　つっこんで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "あたまを　つきだして まっすぐ　つっこんで　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.",
+            "oras": "Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.",
+            "sm": "Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.",
+            "usum": "Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.",
+            "lgpe": "Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.",
+            "swsh": "Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "oras": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "sm": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "usum": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "lgpe": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "swsh": "Potente cabezazo que puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa si lancia diritto di testa contro il bersaglio. Può anche farlo tentennare.",
+            "oras": "Chi la usa si lancia diritto di testa contro il bersaglio. Può anche farlo tentennare.",
+            "sm": "Chi la usa si lancia diritto di testa contro il bersaglio. Può anche farlo tentennare.",
+            "usum": "Chi la usa si lancia diritto di testa contro il bersaglio. Può anche farlo tentennare.",
+            "lgpe": "Chi la usa si lancia diritto di testa contro il bersaglio. Può anche farlo tentennare.",
+            "swsh": "Chi la usa si lancia diritto di testa contro il bersaglio. Può anche farlo tentennare."
+        },
+        "japanese": {
+            "xy": "頭を　突きだして まっすぐ　つっこんで　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "頭を　突きだして まっすぐ　つっこんで　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "頭を　突きだして まっすぐ　つっこんで　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "頭を　突きだして まっすぐ　つっこんで　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "頭を　突きだして まっすぐ　つっこんで　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "頭を　突きだして まっすぐ　つっこんで　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "oras": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "sm": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "usum": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "lgpe": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+            "swsh": "Potente cabezazo que puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將頭伸出， 直直衝向對手進行攻擊。 有時會讓對手畏縮。",
+            "usum": "將頭伸出， 直直衝向對手進行攻擊。 有時會讓對手畏縮。",
+            "lgpe": "將頭伸出， 直直衝向對手進行攻擊。 有時會讓對手畏縮。",
+            "swsh": "將頭伸出， 直直衝向對手進行攻擊。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "将头伸出， 笔直地扑向对手进行攻击。 有时会使对手畏缩。",
+            "usum": "将头伸出， 笔直地扑向对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "将头伸出， 笔直地扑向对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "将头伸出， 笔直地扑向对手进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

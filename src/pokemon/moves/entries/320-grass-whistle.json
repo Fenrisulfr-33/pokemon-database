@@ -1,45 +1,142 @@
 {
-  "_id": 320,
-  "key": "grass-whistle",
-  "name": {
-    "english": "Grass Whistle",
-    "japanese": "くさぶえ",
-    "chinese": "草笛魔音",
-    "korean": "풀피리",
-    "german": "Silbato",
-    "french": "Grasflöte",
-    "italian": "Grass Whistle",
-    "spanish": "Meloderba"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 15,
-  "power": null,
-  "accuracy": 55,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Lulls the foe into sleep\nwith a pleasant melody.",
-    "emerald": "Lulls the foe into sleep\nwith a pleasant melody.",
-    "firered-leafgreen": "A pleasant melody\nis played to lull\nthe foe into a deep\nsleep.",
-    "diamond-pearl": "The user plays a\npleasant melody that\nlulls the foe into a\ndeep sleep.\n",
-    "platinum": "The user plays a\npleasant melody that\nlulls the foe into a\ndeep sleep.\n",
-    "heartgold-soulsilver": "The user plays a\npleasant melody that\nlulls the foe into a\ndeep sleep.\n",
-    "black-white": "The user plays a pleasant melody that\nlulls the target into a deep sleep.",
-    "black-2-white-2": "The user plays a pleasant melody that\nlulls the target into a deep sleep.",
-    "x-y": "The user plays a pleasant melody that\nlulls the target into a deep sleep.",
-    "omega-ruby-alpha-sapphire": "The user plays a pleasant melody that\nlulls the target into a deep sleep.",
-    "sun-moon": "The user plays a pleasant melody that lulls the\ntarget into a deep sleep.",
-    "ultra-sun-ultra-moon": "The user plays a pleasant melody that lulls the\ntarget into a deep sleep.",
-    "lets-go-pikachu-lets-go-eevee": "The user plays a pleasant melody that lulls the\ntarget into a deep sleep.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Puts the target to sleep.",
-    "shortEffect": "Puts the target to sleep."
-  },
-  "priority": 0
+    "_id": 320,
+    "key": "grass-whistle",
+    "name": {
+        "japanese-kana": "くさぶえ",
+        "korean": "풀피리",
+        "traditional-chinese": "草笛",
+        "french": "Siffl’Herbe",
+        "german": "Grasflöte",
+        "spanish": "Silbato",
+        "italian": "Meloderba",
+        "english": "Grass Whistle",
+        "japanese": "くさぶえ",
+        "simplified-chinese": "草笛",
+        "latin-american-spanish": "Silbato de Hoja"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": "smart",
+    "pp": 15,
+    "power": null,
+    "accuracy": 55,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "sleep",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Lulls the foe into sleep with a pleasant melody.",
+            "em": "Lulls the foe into sleep with a pleasant melody.",
+            "frlg": "A pleasant melody is played to lull the foe into a deep sleep.",
+            "dp": "The user plays a pleasant melody that lulls the foe into a deep sleep.",
+            "pt": "The user plays a pleasant melody that lulls the foe into a deep sleep.",
+            "hgss": "The user plays a pleasant melody that lulls the foe into a deep sleep.",
+            "bw": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+            "b2w2": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+            "xy": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+            "oras": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+            "sm": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+            "usum": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+            "lgpe": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur joue une douce mélodie qui plonge l’ennemi dans un profond sommeil.",
+            "xy": "Le lanceur joue une douce mélodie qui plonge l’ennemi dans un profond sommeil.",
+            "oras": "Le lanceur joue une douce mélodie qui plonge l’ennemi dans un profond sommeil.",
+            "sm": "Le lanceur joue une douce mélodie qui plonge l’ennemi dans un profond sommeil.",
+            "usum": "Le lanceur joue une douce mélodie qui plonge l’ennemi dans un profond sommeil.",
+            "lgpe": "Le lanceur joue une douce mélodie qui plonge l’ennemi dans un profond sommeil.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ここちよい　ふえの　ねいろを　きかせて あいてを　ねむりの　じょうたいに　する。",
+            "oras": "ここちよい　ふえの　ねいろを　きかせて あいてを　ねむりの　じょうたいに　する。",
+            "sm": "ここちよい　ふえの　ねいろを　きかせて あいてを　ねむりの　じょうたいに　する。",
+            "usum": "ここちよい　ふえの　ねいろを　きかせて あいてを　ねむりの　じょうたいに　する。",
+            "lgpe": "ここちよい　ふえの　ねいろを　きかせて あいてを　ねむりの　じょうたいに　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "기분 좋은 피리 소리를 들려주어 상대를 잠듦 상태로 만든다.",
+            "oras": "기분 좋은 피리 소리를 들려주어 상대를 잠듦 상태로 만든다.",
+            "sm": "기분 좋은 피리 소리를 들려주어 상대를 잠듦 상태로 만든다.",
+            "usum": "기분 좋은 피리 소리를 들려주어 상대를 잠듦 상태로 만든다.",
+            "lgpe": "기분 좋은 피리 소리를 들려주어 상대를 잠듦 상태로 만든다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Versetzt das Ziel durch eine schöne Melodie in Tiefschlaf.",
+            "oras": "Versetzt das Ziel durch eine schöne Melodie in Tiefschlaf.",
+            "sm": "Versetzt das Ziel durch eine schöne Melodie in Tiefschlaf.",
+            "usum": "Versetzt das Ziel durch eine schöne Melodie in Tiefschlaf.",
+            "lgpe": "Versetzt das Ziel durch eine schöne Melodie in Tiefschlaf.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Agradable melodía que adormece al objetivo.",
+            "oras": "Agradable melodía que adormece al objetivo.",
+            "sm": "Agradable melodía que adormece al objetivo.",
+            "usum": "Agradable melodía que adormece al objetivo.",
+            "lgpe": "Agradable melodía que adormece al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Una dolce melodia culla il bersaglio e lo costringe ad addormentarsi.",
+            "oras": "Una dolce melodia culla il bersaglio e lo costringe ad addormentarsi.",
+            "sm": "Una dolce melodia culla il bersaglio e lo costringe ad addormentarsi.",
+            "usum": "Una dolce melodia culla il bersaglio e lo costringe ad addormentarsi.",
+            "lgpe": "Una dolce melodia culla il bersaglio e lo costringe ad addormentarsi.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "心地好い　笛の　音色を　聞かせて 相手を　眠りの　状態に　する。",
+            "oras": "心地好い　笛の　音色を　聞かせて 相手を　眠りの　状態に　する。",
+            "sm": "心地好い　笛の　音色を　聞かせて 相手を　眠りの　状態に　する。",
+            "usum": "心地好い　笛の　音色を　聞かせて 相手を　眠りの　状態に　する。",
+            "lgpe": "心地好い　笛の　音色を　聞かせて 相手を　眠りの　状態に　する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Agradable melodía que adormece al objetivo.",
+            "oras": "Agradable melodía que adormece al objetivo.",
+            "sm": "Agradable melodía que adormece al objetivo.",
+            "usum": "Agradable melodía que adormece al objetivo.",
+            "lgpe": "Agradable melodía que adormece al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "發出悅耳的笛聲， 讓對手陷入睡眠狀態。",
+            "usum": "發出悅耳的笛聲， 讓對手陷入睡眠狀態。",
+            "lgpe": "發出悅耳的笛聲， 讓對手陷入睡眠狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "让对手听舒适的笛声， 从而陷入睡眠状态。",
+            "usum": "让对手听舒适的笛声， 从而陷入睡眠状态。",
+            "lgpe": "让对手听舒适的笛声， 从而陷入睡眠状态。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Puts the target to sleep.",
+        "shortEffect": "Puts the target to sleep."
+    }
 }

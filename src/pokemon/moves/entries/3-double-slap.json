@@ -1,47 +1,144 @@
 {
-  "_id": 3,
-  "key": "double-slap",
-  "name": {
-    "english": "Double Slap",
-    "japanese": "おうふくビンタ",
-    "chinese": "连环巴掌",
-    "korean": "연속뺨치기",
-    "german": "Doble Bofetón",
-    "french": "Duplexhieb",
-    "italian": "Double Slap",
-    "spanish": "Doppiasberla"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 15,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Repeatedly slaps\n2-5 times.",
-    "crystal": "Repeatedly slaps\n2-5 times.",
-    "ruby-sapphire": "Repeatedly slaps the foe\n2 to 5 times.",
-    "emerald": "Repeatedly slaps the foe\n2 to 5 times.",
-    "firered-leafgreen": "The foe is slapped\nrepeatedly, back\nand forth, two to\nfive times.",
-    "diamond-pearl": "The foe is slapped\nrepeatedly, back\nand forth, two to\nfive times in a row.\n",
-    "platinum": "The foe is slapped\nrepeatedly, back\nand forth, two to\nfive times in a row.\n",
-    "heartgold-soulsilver": "The foe is slapped\nrepeatedly, back\nand forth, two to\nfive times in a row.\n",
-    "black-white": "The target is slapped repeatedly, back\nand forth, two to five times in a row.",
-    "black-2-white-2": "The target is slapped repeatedly, back\nand forth, two to five times in a row.",
-    "x-y": "The target is slapped repeatedly, back\nand forth, two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "The target is slapped repeatedly, back\nand forth, two to five times in a row.",
-    "sun-moon": "The target is slapped repeatedly, back and forth,\ntwo to five times in a row.",
-    "ultra-sun-ultra-moon": "The target is slapped repeatedly, back and forth,\ntwo to five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The target is slapped repeatedly, back and forth,\ntwo to five times in a row.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 3,
+    "key": "double-slap",
+    "name": {
+        "japanese-kana": "おうふくビンタ",
+        "korean": "연속뺨치기",
+        "traditional-chinese": "連環巴掌",
+        "french": "Torgnoles",
+        "german": "Duplexhieb",
+        "spanish": "Doble Bofetón",
+        "italian": "Doppiasberla",
+        "english": "Double Slap",
+        "japanese": "おうふくビンタ",
+        "simplified-chinese": "连环巴掌",
+        "latin-american-spanish": "Doble Bofetón"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 15,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Repeatedly slaps 2-5 times.",
+            "cr": "Repeatedly slaps 2-5 times.",
+            "rs": "Repeatedly slaps the foe 2 to 5 times.",
+            "em": "Repeatedly slaps the foe 2 to 5 times.",
+            "frlg": "The foe is slapped repeatedly, back and forth, two to five times.",
+            "dp": "The foe is slapped repeatedly, back and forth, two to five times in a row.",
+            "pt": "The foe is slapped repeatedly, back and forth, two to five times in a row.",
+            "hgss": "The foe is slapped repeatedly, back and forth, two to five times in a row.",
+            "bw": "The target is slapped repeatedly, back and forth, two to five times in a row.",
+            "b2w2": "The target is slapped repeatedly, back and forth, two to five times in a row.",
+            "xy": "The target is slapped repeatedly, back and forth, two to five times in a row.",
+            "oras": "The target is slapped repeatedly, back and forth, two to five times in a row.",
+            "sm": "The target is slapped repeatedly, back and forth, two to five times in a row.",
+            "usum": "The target is slapped repeatedly, back and forth, two to five times in a row.",
+            "lgpe": "The target is slapped repeatedly, back and forth, two to five times in a row.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Gifle rapidement l’ennemi de 2 à 5 fois d’affilée.",
+            "xy": "Gifle rapidement l’ennemi de deux à cinq fois d’affilée.",
+            "oras": "Gifle rapidement l’ennemi de deux à cinq fois d’affilée.",
+            "sm": "Gifle rapidement l’ennemi de deux à cinq fois d’affilée.",
+            "usum": "Gifle rapidement l’ennemi de deux à cinq fois d’affilée.",
+            "lgpe": "Gifle rapidement l’ennemi de deux à cinq fois d’affilée.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "おうふく　ビンタで あいてを　たたいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "おうふく　ビンタで あいてを　たたいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "おうふく　ビンタで あいてを　たたいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "おうふく　ビンタで あいてを　たたいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "おうふく　ビンタで あいてを　たたいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "연속 뺨치기로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "연속 뺨치기로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "연속 뺨치기로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "연속 뺨치기로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "연속 뺨치기로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel zwei- bis fünfmal hintereinander mit einem Duplexhieb.",
+            "oras": "Trifft das Ziel zwei- bis fünfmal hintereinander mit einem Duplexhieb.",
+            "sm": "Trifft das Ziel zwei- bis fünfmal hintereinander mit einem Duplexhieb.",
+            "usum": "Trifft das Ziel zwei- bis fünfmal hintereinander mit einem Duplexhieb.",
+            "lgpe": "Trifft das Ziel zwei- bis fünfmal hintereinander mit einem Duplexhieb.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Abofetea de dos a cinco veces seguidas.",
+            "oras": "Abofetea de dos a cinco veces seguidas.",
+            "sm": "Abofetea de dos a cinco veces seguidas.",
+            "usum": "Abofetea de dos a cinco veces seguidas.",
+            "lgpe": "Abofetea de dos a cinco veces seguidas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Schiaffeggia il bersaglio da due a cinque volte di fila.",
+            "oras": "Schiaffeggia il bersaglio da due a cinque volte di fila.",
+            "sm": "Schiaffeggia il bersaglio da due a cinque volte di fila.",
+            "usum": "Schiaffeggia il bersaglio da due a cinque volte di fila.",
+            "lgpe": "Schiaffeggia il bersaglio da due a cinque volte di fila.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "おうふく　ビンタで 相手を　たたいて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "おうふく　ビンタで 相手を　たたいて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "おうふく　ビンタで 相手を　たたいて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "おうふく　ビンタで 相手を　たたいて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "おうふく　ビンタで 相手を　たたいて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Abofetea de dos a cinco veces seguidas.",
+            "oras": "Abofetea de dos a cinco veces seguidas.",
+            "sm": "Abofetea de dos a cinco veces seguidas.",
+            "usum": "Abofetea de dos a cinco veces seguidas.",
+            "lgpe": "Abofetea de dos a cinco veces seguidas.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用連環巴掌 拍打對手進行攻擊。 會連續攻擊２～５次。",
+            "usum": "用連環巴掌 拍打對手進行攻擊。 會連續攻擊２～５次。",
+            "lgpe": "用連環巴掌 拍打對手進行攻擊。 會連續攻擊２～５次。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用连环巴掌 拍打对手进行攻击。 连续攻击２～５次。",
+            "usum": "用连环巴掌 拍打对手进行攻击。 连续攻击２～５次。",
+            "lgpe": "用连环巴掌 拍打对手进行攻击。 连续攻击２～５次。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

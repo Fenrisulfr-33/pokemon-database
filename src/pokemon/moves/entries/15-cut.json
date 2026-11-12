@@ -1,47 +1,144 @@
 {
-  "_id": 15,
-  "key": "cut",
-  "name": {
-    "english": "Cut",
-    "japanese": "いあいぎり",
-    "chinese": "一字斩",
-    "korean": "풀베기",
-    "german": "Corte",
-    "french": "Zerschneider",
-    "italian": "Cut",
-    "spanish": "Taglio"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 30,
-  "power": 50,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Cuts using claws,\nscythes, etc.",
-    "crystal": "Cuts using claws,\nscythes, etc.",
-    "ruby-sapphire": "Cuts the foe with sharp\nscythes, claws, etc.",
-    "emerald": "Cuts the foe with sharp\nscythes, claws, etc.",
-    "firered-leafgreen": "A basic attack.\nIt can be used to\ncut down thin trees\nand grass.",
-    "diamond-pearl": "The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.",
-    "platinum": "The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.",
-    "heartgold-soulsilver": "The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.",
-    "black-white": "The target is cut with a scythe or a claw.\nIt can also be used to cut down\nthin trees.",
-    "black-2-white-2": "The target is cut with a scythe or a claw.\nIt can also be used to cut down\nthin trees.",
-    "x-y": "The target is cut with a scythe or claw.\nThis can also be used to cut down thin trees.",
-    "omega-ruby-alpha-sapphire": "The target is cut with a scythe or claw.\nThis can also be used to cut down thin trees.",
-    "sun-moon": "The target is cut with a scythe or claw.",
-    "ultra-sun-ultra-moon": "The target is cut with a scythe or claw.",
-    "lets-go-pikachu-lets-go-eevee": "The target is cut with a scythe or claw.",
-    "sword-shield": "The target is cut with a scythe or claw."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 15,
+    "key": "cut",
+    "name": {
+        "japanese-kana": "いあいぎり",
+        "korean": "풀베기",
+        "traditional-chinese": "居合斬",
+        "french": "Coupe",
+        "german": "Zerschneider",
+        "spanish": "Corte",
+        "italian": "Taglio",
+        "english": "Cut",
+        "japanese": "いあいぎり",
+        "simplified-chinese": "居合劈",
+        "latin-american-spanish": "Corte"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 30,
+    "power": 50,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Cuts using claws, scythes, etc.",
+            "cr": "Cuts using claws, scythes, etc.",
+            "rs": "Cuts the foe with sharp scythes, claws, etc.",
+            "em": "Cuts the foe with sharp scythes, claws, etc.",
+            "frlg": "A basic attack. It can be used to cut down thin trees and grass.",
+            "dp": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.",
+            "pt": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.",
+            "hgss": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.",
+            "bw": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees.",
+            "b2w2": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees.",
+            "xy": "The target is cut with a scythe or claw. This can also be used to cut down thin trees.",
+            "oras": "The target is cut with a scythe or claw. This can also be used to cut down thin trees.",
+            "sm": "The target is cut with a scythe or claw.",
+            "usum": "The target is cut with a scythe or claw.",
+            "lgpe": "The target is cut with a scythe or claw.",
+            "swsh": "The target is cut with a scythe or claw."
+        },
+        "french": {
+            "bw": "Coupe l’ennemi avec des lames ou des griffes. Hors combat, permet de couper des arbres fins.",
+            "xy": "Coupe l’ennemi avec des lames ou des griffes. Hors combat, permet de couper des arbres fins.",
+            "oras": "Coupe l’ennemi avec des lames ou des griffes. Hors combat, permet de couper des arbres fins.",
+            "sm": "Coupe l’ennemi avec des lames ou des griffes.",
+            "usum": "Coupe l’ennemi avec des lames ou des griffes.",
+            "lgpe": "Coupe l’ennemi avec des lames ou des griffes.",
+            "swsh": "Coupe l’ennemi avec des lames ou des griffes."
+        },
+        "japanese-kana": {
+            "xy": "カマや　ツメなどで あいてを　きりつけて　こうげきする。 ほそいきも　きることが　できる。",
+            "oras": "カマや　ツメなどで あいてを　きりつけて　こうげきする。 ほそいきも　きることが　できる。",
+            "sm": "カマや　ツメなどで あいてを　きりつけて　こうげきする。",
+            "usum": "カマや　ツメなどで あいてを　きりつけて　こうげきする。",
+            "lgpe": "カマや　ツメなどで あいてを　きりつけて　こうげきする。",
+            "swsh": "カマや　ツメなどで あいてを　きりつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "낫이나 발톱 등으로 상대를 베어 공격한다. 가느다란 나무도 자를 수 있다.",
+            "oras": "낫이나 발톱 등으로 상대를 베어 공격한다. 가느다란 나무도 자를 수 있다.",
+            "sm": "낫이나 발톱 등으로 상대를 베어 공격한다.",
+            "usum": "낫이나 발톱 등으로 상대를 베어 공격한다.",
+            "lgpe": "낫이나 발톱 등으로 상대를 베어 공격한다.",
+            "swsh": "낫이나 발톱 등으로 상대를 베어 공격한다."
+        },
+        "german": {
+            "xy": "Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.",
+            "oras": "Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.",
+            "sm": "Ein Basisangriff mit Schere oder Klaue.",
+            "usum": "Ein Basisangriff mit Schere oder Klaue.",
+            "lgpe": "Ein Basisangriff mit Schere oder Klaue.",
+            "swsh": "Ein Basisangriff mit Schere oder Klaue."
+        },
+        "spanish": {
+            "xy": "Corta con garras, guadañas, etc. También sirve para cortar árboles finos.",
+            "oras": "Corta con garras, guadañas, etc. También sirve para cortar árboles finos.",
+            "sm": "Corta al adversario con garras, guadañas, etc.",
+            "usum": "Corta al adversario con garras, guadañas, etc.",
+            "lgpe": "Corta al adversario con garras, guadañas, etc.",
+            "swsh": "Corta al adversario con garras, guadañas, etc."
+        },
+        "italian": {
+            "xy": "Attacca il bersaglio con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.",
+            "oras": "Attacca il bersaglio con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.",
+            "sm": "Attacca il bersaglio con artigli o falci affilate.",
+            "usum": "Attacca il bersaglio con artigli o falci affilate.",
+            "lgpe": "Attacca il bersaglio con artigli o falci affilate.",
+            "swsh": "Attacca il bersaglio con artigli o falci affilate."
+        },
+        "japanese": {
+            "xy": "カマや　ツメなどで 相手を　切りつけて　攻撃する。 細い木も　切ることが　できる。",
+            "oras": "カマや　ツメなどで 相手を　切りつけて　攻撃する。 細い木も　切ることが　できる。",
+            "sm": "カマや　ツメなどで 相手を　切りつけて　攻撃する。",
+            "usum": "カマや　ツメなどで 相手を　切りつけて　攻撃する。",
+            "lgpe": "カマや　ツメなどで 相手を　切りつけて　攻撃する。",
+            "swsh": "カマや　ツメなどで 相手を　切りつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Corta con garras, guadañas, etc. También sirve para cortar árboles finos.",
+            "oras": "Corta con garras, guadañas, etc. También sirve para cortar árboles finos.",
+            "sm": "Corta al adversario con garras, guadañas, etc.",
+            "usum": "Corta al adversario con garras, guadañas, etc.",
+            "lgpe": "Corta al adversario con garras, guadañas, etc.",
+            "swsh": "Corta al adversario con garras, guadañas, etc."
+        },
+        "traditional-chinese": {
+            "sm": "用鐮刀或爪子等 斬切對手進行攻擊。",
+            "usum": "用鐮刀或爪子等 斬切對手進行攻擊。",
+            "lgpe": "用鐮刀或爪子等 斬切對手進行攻擊。",
+            "swsh": "用鐮刀或爪子等 斬切對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用镰刀或爪子等 切斩对手进行攻击。",
+            "usum": "用镰刀或爪子等 切斩对手进行攻击。",
+            "lgpe": "用镰刀或爪子等 切斩对手进行攻击。",
+            "swsh": "用镰刀或爪子等 切斩对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

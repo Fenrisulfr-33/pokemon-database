@@ -1,47 +1,153 @@
 {
-  "_id": 139,
-  "key": "poison-gas",
-  "name": {
-    "english": "Poison Gas",
-    "japanese": "どくガス",
-    "chinese": "毒瓦斯",
-    "korean": "독가스",
-    "german": "Gas Venenoso",
-    "french": "Giftwolke",
-    "italian": "Poison Gas",
-    "spanish": "Velenogas"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 40,
-  "power": null,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "A move that may\npoison the foe.",
-    "crystal": "A move that may\npoison the foe.",
-    "ruby-sapphire": "Envelops the foe in a toxic\ngas that may poison.",
-    "emerald": "Envelops the foe in a toxic\ngas that may poison.",
-    "firered-leafgreen": "The foe is sprayed\nwith a cloud of\ntoxic gas that may\npoison the foe.",
-    "diamond-pearl": "A cloud of poison gas\nis sprayed in the\nfoe’s face.\nIt may poison the\ntarget.",
-    "platinum": "A cloud of poison gas\nis sprayed in the\nfoe’s face.\nIt may poison the\ntarget.",
-    "heartgold-soulsilver": "A cloud of poison gas\nis sprayed in the\nfoe’s face.\nIt may poison the\ntarget.",
-    "black-white": "A cloud of poison gas is sprayed\nin the face of opposing Pokémon.\nIt may poison those hit.",
-    "black-2-white-2": "A cloud of poison gas is sprayed\nin the face of opposing Pokémon.\nIt may poison those hit.",
-    "x-y": "A cloud of poison gas is sprayed\nin the face of opposing Pokémon.\nThis may also poison those hit.",
-    "omega-ruby-alpha-sapphire": "A cloud of poison gas is sprayed\nin the face of opposing Pokémon.\nThis may also poison those hit.",
-    "sun-moon": "A cloud of poison gas is sprayed in the face of\nopposing Pokémon, poisoning those hit.",
-    "ultra-sun-ultra-moon": "A cloud of poison gas is sprayed in the face of\nopposing Pokémon, poisoning those hit.",
-    "lets-go-pikachu-lets-go-eevee": "A cloud of poison gas is sprayed in the face of\nopposing Pokémon, poisoning those it hits.",
-    "sword-shield": "A cloud of poison gas is sprayed in the face of\nopposing Pokémon, poisoning those it hits."
-  },
-  "effect": {
-    "full": "Poisons the target.",
-    "shortEffect": "Poisons the target."
-  },
-  "priority": 0
+    "_id": 139,
+    "key": "poison-gas",
+    "name": {
+        "japanese-kana": "どくガス",
+        "korean": "독가스",
+        "traditional-chinese": "毒瓦斯",
+        "french": "Gaz Toxik",
+        "german": "Giftwolke",
+        "spanish": "Gas Venenoso",
+        "italian": "Velenogas",
+        "english": "Poison Gas",
+        "japanese": "どくガス",
+        "simplified-chinese": "毒瓦斯",
+        "latin-american-spanish": "Gas Venenoso"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": "smart",
+    "pp": 40,
+    "power": null,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 55
+        },
+        "xy": {
+            "accuracy": 80
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move that may poison the foe.",
+            "cr": "A move that may poison the foe.",
+            "rs": "Envelops the foe in a toxic gas that may poison.",
+            "em": "Envelops the foe in a toxic gas that may poison.",
+            "frlg": "The foe is sprayed with a cloud of toxic gas that may poison the foe.",
+            "dp": "A cloud of poison gas is sprayed in the foe’s face. It may poison the target.",
+            "pt": "A cloud of poison gas is sprayed in the foe’s face. It may poison the target.",
+            "hgss": "A cloud of poison gas is sprayed in the foe’s face. It may poison the target.",
+            "bw": "A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.",
+            "b2w2": "A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.",
+            "xy": "A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit.",
+            "oras": "A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit.",
+            "sm": "A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.",
+            "usum": "A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.",
+            "lgpe": "A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those it hits.",
+            "swsh": "A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those it hits.",
+            "la": "The user sprays a cloud of toxic gas that poisons the target.",
+            "sv": "A cloud of poison gas is sprayed in the faces of opposing Pokémon, poisoning those it hits."
+        },
+        "french": {
+            "bw": "Un nuage de gaz toxique est projeté au visage de l’ennemi. Peut l’empoisonner.",
+            "xy": "Un nuage de gaz toxique est projeté au visage de l’ennemi. Peut l’empoisonner.",
+            "oras": "Un nuage de gaz toxique est projeté au visage de l’ennemi pour l’empoisonner.",
+            "sm": "Un nuage de gaz toxique est projeté au visage de l’ennemi pour l’empoisonner.",
+            "usum": "Un nuage de gaz toxique est projeté au visage de l’ennemi pour l’empoisonner.",
+            "lgpe": "Un nuage de gaz toxique est projeté au visage de l’ennemi pour l’empoisonner.",
+            "swsh": "Un nuage de gaz toxique est projeté au visage de l’ennemi pour l’empoisonner."
+        },
+        "japanese-kana": {
+            "xy": "どくガスを　あいての　かおに　ふきかけて どくの　じょうたいに　する。",
+            "oras": "どくガスを　あいての　かおに　ふきかけて どくの　じょうたいに　する。",
+            "sm": "どくガスを　あいての　かおに　ふきかけて どくの　じょうたいに　する。",
+            "usum": "どくガスを　あいての　かおに　ふきかけて どくの　じょうたいに　する。",
+            "lgpe": "どくガスを　あいての　かおに　ふきかけて どくの　じょうたいに　する。",
+            "swsh": "どくガスを　あいての　かおに　ふきかけて どくの　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다.",
+            "oras": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다.",
+            "sm": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다.",
+            "usum": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다.",
+            "lgpe": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다.",
+            "swsh": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다."
+        },
+        "german": {
+            "xy": "Hüllt Ziele in der Umgebung in Gas ein, das sie eventuell vergiftet.",
+            "oras": "Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.",
+            "sm": "Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.",
+            "usum": "Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.",
+            "lgpe": "Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.",
+            "swsh": "Hüllt gegnerische Pokémon in ein Gas ein, das sie vergiftet."
+        },
+        "spanish": {
+            "xy": "Lanza una nube de gas tóxico a los rivales. Produce envenenamiento.",
+            "oras": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "sm": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "usum": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "lgpe": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "swsh": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento."
+        },
+        "italian": {
+            "xy": "Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.",
+            "oras": "Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.",
+            "sm": "Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.",
+            "usum": "Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.",
+            "lgpe": "Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.",
+            "swsh": "Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena."
+        },
+        "japanese": {
+            "xy": "毒ガスを　相手の　顔に　吹きかけて 毒の　状態に　する。",
+            "oras": "毒ガスを　相手の　顔に　吹きかけて 毒の　状態に　する。",
+            "sm": "毒ガスを　相手の　顔に　吹きかけて 毒の　状態に　する。",
+            "usum": "毒ガスを　相手の　顔に　吹きかけて 毒の　状態に　する。",
+            "lgpe": "毒ガスを　相手の　顔に　吹きかけて 毒の　状態に　する。",
+            "swsh": "毒ガスを　相手の　顔に　吹きかけて 毒の　状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza una nube de gas tóxico a los rivales. Produce envenenamiento.",
+            "oras": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "sm": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "usum": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "lgpe": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+            "swsh": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento."
+        },
+        "traditional-chinese": {
+            "sm": "將毒瓦斯吹到對手的臉上， 讓對手陷入中毒狀態。",
+            "usum": "將毒瓦斯吹到對手的臉上， 讓對手陷入中毒狀態。",
+            "lgpe": "將毒瓦斯吹到對手的臉上， 讓對手陷入中毒狀態。",
+            "swsh": "將毒瓦斯吹到對手的臉上， 讓對手陷入中毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "将毒瓦斯吹到对手的脸上， 从而让对手陷入中毒状态。",
+            "usum": "将毒瓦斯吹到对手的脸上， 从而让对手陷入中毒状态。",
+            "lgpe": "将毒瓦斯吹到对手的脸上， 从而让对手陷入中毒状态。",
+            "swsh": "将毒瓦斯吹到对手的脸上， 从而让对手陷入中毒状态。"
+        }
+    },
+    "effect": {
+        "full": "Poisons the target.",
+        "shortEffect": "Poisons the target."
+    }
 }

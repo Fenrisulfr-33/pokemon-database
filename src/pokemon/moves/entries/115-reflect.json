@@ -1,47 +1,146 @@
 {
-  "_id": 115,
-  "key": "reflect",
-  "name": {
-    "english": "Reflect",
-    "japanese": "リフレクター",
-    "chinese": "减半反射",
-    "korean": "리플렉터",
-    "german": "Reflejo",
-    "french": "Reflektor",
-    "italian": "Reflect",
-    "spanish": "Riflesso"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "gold-silver": "Raises DEFENSE\nwith a barrier.",
-    "crystal": "Raises DEFENSE\nwith a barrier.",
-    "ruby-sapphire": "Creates a wall of light that\nweakens physical attacks.",
-    "emerald": "Creates a wall of light that\nweakens physical attacks.",
-    "firered-leafgreen": "A wall of light\ncuts damage from\nphysical attacks\nfor five turns.",
-    "diamond-pearl": "A wondrous wall of\nlight is put up to\nsuppress damage from\nphysical attacks for\nfive turns.",
-    "platinum": "A wondrous wall of\nlight is put up to\nsuppress damage from\nphysical attacks for\nfive turns.",
-    "heartgold-soulsilver": "A wondrous wall of\nlight is put up to\nsuppress damage from\nphysical attacks for\nfive turns.",
-    "black-white": "A wondrous wall of light is put up to\nsuppress damage from physical attacks\nfor five turns.",
-    "black-2-white-2": "A wondrous wall of light is put up to\nsuppress damage from physical attacks\nfor five turns.",
-    "x-y": "A wondrous wall of light is put up to\nreduce damage from physical attacks\nfor five turns.",
-    "omega-ruby-alpha-sapphire": "A wondrous wall of light is put up to\nreduce damage from physical attacks\nfor five turns.",
-    "sun-moon": "A wondrous wall of light is put up to reduce damage\nfrom physical attacks for five turns.",
-    "ultra-sun-ultra-moon": "A wondrous wall of light is put up to reduce damage\nfrom physical attacks for five turns.",
-    "lets-go-pikachu-lets-go-eevee": "A wondrous wall of light is put up to reduce damage\nfrom physical attacks for five turns.",
-    "sword-shield": "A wondrous wall of light is put up to reduce damage\nfrom physical attacks for five turns."
-  },
-  "effect": {
-    "full": "Erects a barrier around the user's side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier.",
-    "shortEffect": "Reduces damage from physical attacks by half."
-  },
-  "priority": 0
+    "_id": 115,
+    "key": "reflect",
+    "name": {
+        "japanese-kana": "リフレクター",
+        "korean": "리플렉터",
+        "traditional-chinese": "反射壁",
+        "french": "Protection",
+        "german": "Reflektor",
+        "spanish": "Reflejo",
+        "italian": "Riflesso",
+        "english": "Reflect",
+        "japanese": "リフレクター",
+        "simplified-chinese": "反射壁",
+        "latin-american-spanish": "Reflejo"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Raises DEFENSE with a barrier.",
+            "cr": "Raises DEFENSE with a barrier.",
+            "rs": "Creates a wall of light that weakens physical attacks.",
+            "em": "Creates a wall of light that weakens physical attacks.",
+            "frlg": "A wall of light cuts damage from physical attacks for five turns.",
+            "dp": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+            "pt": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+            "hgss": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+            "bw": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+            "b2w2": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+            "xy": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+            "oras": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+            "sm": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+            "usum": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+            "lgpe": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+            "swsh": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+            "la": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+            "sv": "A wondrous wall of light is put up to reduce damage from physical moves for five turns."
+        },
+        "french": {
+            "bw": "Un fabuleux mur de lumière qui réduit les dégâts causés par les attaques physiques durant 5 tours.",
+            "xy": "Un fabuleux mur de lumière qui réduit les dégâts causés par les attaques physiques durant cinq tours.",
+            "oras": "Un fabuleux mur de lumière qui réduit les dégâts causés par les attaques physiques durant cinq tours.",
+            "sm": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques durant cinq tours.",
+            "usum": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques durant cinq tours.",
+            "lgpe": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques durant cinq tours.",
+            "swsh": "Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques pendant cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　ぶつり　こうげきの ダメージを　よわめる。",
+            "oras": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　ぶつり　こうげきの ダメージを　よわめる。",
+            "sm": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　ぶつり　こうげきの ダメージを　よわめる。",
+            "usum": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　ぶつり　こうげきの ダメージを　よわめる。",
+            "lgpe": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　ぶつり　こうげきの ダメージを　よわめる。",
+            "swsh": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　ぶつり　こうげきの ダメージを　よわめる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 이상한 장막으로 상대로부터 받는 물리공격의 데미지를 약하게 한다.",
+            "oras": "5턴 동안 이상한 장막으로 상대로부터 받는 물리공격의 데미지를 약하게 한다.",
+            "sm": "5턴 동안 이상한 장막으로 상대로부터 받는 물리공격의 데미지를 약하게 한다.",
+            "usum": "5턴 동안 이상한 장막으로 상대로부터 받는 물리공격의 데미지를 약하게 한다.",
+            "lgpe": "5턴 동안 이상한 장막으로 상대로부터 받는 물리공격의 데미지를 약하게 한다.",
+            "swsh": "5턴 동안 이상한 장막을 쳐서 상대로부터 받는 물리공격의 데미지를 약하게 한다."
+        },
+        "german": {
+            "xy": "Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.",
+            "oras": "Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.",
+            "sm": "Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.",
+            "usum": "Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.",
+            "lgpe": "Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.",
+            "swsh": "Eine mysteriöse Wand, die für fünf Runden den Schaden von physischen gegnerischen Treffern reduziert."
+        },
+        "spanish": {
+            "xy": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "oras": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "sm": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "usum": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "lgpe": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "swsh": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+        },
+        "italian": {
+            "xy": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni.",
+            "oras": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni.",
+            "sm": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni.",
+            "usum": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni.",
+            "lgpe": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni.",
+            "swsh": "Innalza una barriera misteriosa che riduce i danni degli attacchi fisici per sé e gli alleati per cinque turni."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　不思議な　かべで 相手から　受ける　物理攻撃の ダメージを　弱める。",
+            "oras": "５ターンの　あいだ　不思議な　かべで 相手から　受ける　物理攻撃の ダメージを　弱める。",
+            "sm": "５ターンの　間　不思議な　かべで 相手から　受ける　物理攻撃の ダメージを　弱める。",
+            "usum": "５ターンの　間　不思議な　かべで 相手から　受ける　物理攻撃の ダメージを　弱める。",
+            "lgpe": "５ターンの　間　不思議な　かべで 相手から　受ける　物理攻撃の ダメージを　弱める。",
+            "swsh": "５ターンの　間　不思議な　かべで 相手から　受ける　物理攻撃の ダメージを　弱める。"
+        },
+        "latin-american-spanish": {
+            "xy": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "oras": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "sm": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "usum": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "lgpe": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.",
+            "swsh": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+        },
+        "traditional-chinese": {
+            "sm": "利用神奇的屏障， 在５回合內減輕 來自對手的物理攻擊傷害。",
+            "usum": "利用神奇的屏障， 在５回合內減輕 來自對手的物理攻擊傷害。",
+            "lgpe": "利用神奇的屏障， 在５回合內減輕 來自對手的物理攻擊傷害。",
+            "swsh": "利用神奇的屏障， 在５回合內減輕 來自對手的物理攻擊傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内使用神奇的墙， 减弱从对手那受到的 物理攻击的伤害。",
+            "usum": "在５回合内使用神奇的墙， 减弱从对手那受到的 物理攻击的伤害。",
+            "lgpe": "利用神奇的墙壁， 在５回合内减弱从对手那里 受到的物理攻击的伤害。",
+            "swsh": "利用神奇的墙壁， 在５回合内减弱从对手那里 受到的物理攻击的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Erects a barrier around the user’s side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier. If the user is holding Light Clay, the barrier lasts for eight turns. Brick Break or Defog used by an opponent will destroy the barrier.",
+        "shortEffect": "Reduces damage from physical attacks by half."
+    }
 }

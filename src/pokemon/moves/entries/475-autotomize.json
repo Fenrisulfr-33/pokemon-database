@@ -1,39 +1,136 @@
 {
-  "_id": 475,
-  "key": "autotomize",
-  "name": {
-    "english": "Autotomize",
-    "japanese": "ボディパージ",
-    "chinese": "体重减轻",
-    "korean": "바디퍼지",
-    "german": "Aligerar",
-    "french": "Autotomie",
-    "italian": "Autotomize",
-    "spanish": "Sganciapesi"
-  },
-  "type": "Steel",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "black-white": "The user sheds part of its body\nto make itself lighter and sharply\nraise its Speed stat.",
-    "black-2-white-2": "The user sheds part of its body\nto make itself lighter and sharply\nraise its Speed stat.",
-    "x-y": "The user sheds part of its body\nto make itself lighter and sharply\nraise its Speed stat.",
-    "omega-ruby-alpha-sapphire": "The user sheds part of its body\nto make itself lighter and sharply\nraise its Speed stat.",
-    "sun-moon": "The user sheds part of its body to make itself lighter\nand sharply raise its Speed stat.",
-    "ultra-sun-ultra-moon": "The user sheds part of its body to make itself lighter\nand sharply raise its Speed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user sheds part of its body to make itself lighter\nand sharply raise its Speed stat.",
-    "sword-shield": "The user sheds part of its body to make itself lighter\nand sharply raise its Speed stat."
-  },
-  "effect": {
-    "full": "Raises the user's Speed by two stages.  Halves the user's weight; this effect does not stack.",
-    "shortEffect": "Raises the user's Speed by two stages and halves the user's weight."
-  },
-  "priority": 0
+    "_id": 475,
+    "key": "autotomize",
+    "name": {
+        "japanese-kana": "ボディパージ",
+        "korean": "바디퍼지",
+        "traditional-chinese": "身體輕量化",
+        "french": "Allègement",
+        "german": "Autotomie",
+        "spanish": "Aligerar",
+        "italian": "Sganciapesi",
+        "english": "Autotomize",
+        "japanese": "ボディパージ",
+        "simplified-chinese": "身体轻量化",
+        "latin-american-spanish": "Aligerar"
+    },
+    "type": "steel",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente fortement.",
+            "xy": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente fortement.",
+            "oras": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente fortement.",
+            "sm": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente beaucoup.",
+            "usum": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente beaucoup.",
+            "lgpe": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente beaucoup.",
+            "swsh": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente beaucoup."
+        },
+        "english": {
+            "bw": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+            "b2w2": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+            "xy": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+            "oras": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+            "sm": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+            "usum": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+            "lgpe": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+            "swsh": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat."
+        },
+        "japanese-kana": {
+            "xy": "からだの　ムダな　ぶぶんを　けずる。 じぶんの　すばやさを　ぐーんと　あげて たいじゅうも　かるく　なる。",
+            "oras": "からだの　ムダな　ぶぶんを　けずる。 じぶんの　すばやさを　ぐーんと　あげて たいじゅうも　かるく　なる。",
+            "sm": "からだの　ムダな　ぶぶんを　けずる。 じぶんの　すばやさを　ぐーんと　あげて たいじゅうも　かるく　なる。",
+            "usum": "からだの　ムダな　ぶぶんを　けずる。 じぶんの　すばやさを　ぐーんと　あげて たいじゅうも　かるく　なる。",
+            "lgpe": "からだの　ムダな　ぶぶんを　けずる。 じぶんの　すばやさを　ぐーんと　あげて たいじゅうも　かるく　なる。",
+            "swsh": "からだの　ムダな　ぶぶんを　けずる。 じぶんの　すばやさを　ぐーんと　あげて たいじゅうも　かるく　なる。"
+        },
+        "korean": {
+            "xy": "몸의 쓸모없는 부분을 깎는다. 자신의 스피드를 크게 올리고 체중도 가벼워진다.",
+            "oras": "몸의 쓸모없는 부분을 깎는다. 자신의 스피드를 크게 올리고 체중도 가벼워진다.",
+            "sm": "몸의 쓸모없는 부분을 깎는다. 자신의 스피드를 크게 올리고 체중도 가벼워진다.",
+            "usum": "몸의 쓸모없는 부분을 깎는다. 자신의 스피드를 크게 올리고 체중도 가벼워진다.",
+            "lgpe": "몸의 쓸모없는 부분을 깎는다. 자신의 스피드를 크게 올리고 체중도 가벼워진다.",
+            "swsh": "몸의 쓸모없는 부분을 깎는다. 자신의 스피드를 크게 올리고 체중도 가벼워진다."
+        },
+        "german": {
+            "xy": "Anwender trennt sich von überflüssigen Körperteilen und steigert seine Initiative stark. Sein Gewicht nimmt deutlich ab.",
+            "oras": "Anwender trennt sich von überflüssigen Körperteilen und steigert seine Initiative stark. Sein Gewicht nimmt deutlich ab.",
+            "sm": "Anwender trennt sich von überflüssigen Körperteilen und erhöht seine Initiative stark. Sein Gewicht nimmt deutlich ab.",
+            "usum": "Anwender trennt sich von überflüssigen Körperteilen und erhöht seine Initiative stark. Sein Gewicht nimmt deutlich ab.",
+            "lgpe": "Anwender trennt sich von überflüssigen Körperteilen und erhöht seine Initiative stark. Sein Gewicht nimmt deutlich ab.",
+            "swsh": "Anwender trennt sich von überflüssigen Körperteilen und erhöht seine Initiative stark. Sein Gewicht nimmt deutlich ab."
+        },
+        "spanish": {
+            "xy": "El usuario se sacude para hacerse más ligero y aumentar mucho su Velocidad.",
+            "oras": "El usuario se sacude para hacerse más ligero y aumentar mucho su Velocidad.",
+            "sm": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.",
+            "usum": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.",
+            "lgpe": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.",
+            "swsh": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.",
+            "oras": "Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.",
+            "sm": "Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.",
+            "usum": "Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.",
+            "lgpe": "Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.",
+            "swsh": "Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità."
+        },
+        "japanese": {
+            "xy": "体の　ムダな　部分を　削る。 自分の　素早さを　ぐーんと　あげて 体重も　軽くなる。",
+            "oras": "体の　ムダな　部分を　削る。 自分の　素早さを　ぐーんと　あげて 体重も　軽くなる。",
+            "sm": "体の　ムダな　部分を　削る。 自分の　素早さを　ぐーんと　あげて 体重も　軽くなる。",
+            "usum": "体の　ムダな　部分を　削る。 自分の　素早さを　ぐーんと　あげて 体重も　軽くなる。",
+            "lgpe": "体の　ムダな　部分を　削る。 自分の　素早さを　ぐーんと　あげて 体重も　軽くなる。",
+            "swsh": "体の　ムダな　部分を　削る。 自分の　素早さを　ぐーんと　あげて 体重も　軽くなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario se sacude para hacerse más ligero y aumentar mucho su Velocidad.",
+            "oras": "El usuario se sacude para hacerse más ligero y aumentar mucho su Velocidad.",
+            "sm": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.",
+            "usum": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.",
+            "lgpe": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.",
+            "swsh": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "削去身體上多餘的部分。 以大幅提高自己的速度， 同時體重也會變輕。",
+            "usum": "削去身體上多餘的部分。 以大幅提高自己的速度， 同時體重也會變輕。",
+            "lgpe": "削去身體上多餘的部分。 以大幅提高自己的速度， 同時體重也會變輕。",
+            "swsh": "削去身體上多餘的部分。 以大幅提高自己的速度， 同時體重也會變輕。"
+        },
+        "simplified-chinese": {
+            "sm": "削掉身体上没用的部分。 大幅提高自己的速度， 同时体重也会变轻。",
+            "usum": "削掉身体上没用的部分。 大幅提高自己的速度， 同时体重也会变轻。",
+            "lgpe": "削掉身体上没用的部分。 大幅提高自己的速度， 同时体重也会变轻。",
+            "swsh": "削掉身体上没用的部分。 大幅提高自己的速度， 同时体重也会变轻。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Speed by two stages.  Halves the user’s weight; this effect does not stack.",
+        "shortEffect": "Raises the user’s Speed by two stages and halves the user’s weight."
+    }
 }

@@ -1,47 +1,146 @@
 {
-  "_id": 116,
-  "key": "focus-energy",
-  "name": {
-    "english": "Focus Energy",
-    "japanese": "きあいだめ",
-    "chinese": "集气",
-    "korean": "기충전",
-    "german": "Foco Energía",
-    "french": "Energiefokus",
-    "italian": "Focus Energy",
-    "spanish": "Focalenergia"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Raises the criti­\ncal hit ratio.",
-    "crystal": "Raises the criti­\ncal hit ratio.",
-    "ruby-sapphire": "Focuses power to raise the\ncritical-hit ratio.",
-    "emerald": "Focuses power to raise the\ncritical-hit ratio.",
-    "firered-leafgreen": "The user takes a\ndeep breath and\nfocuses to raise its\ncritical-hit ratio.",
-    "diamond-pearl": "The user takes a\ndeep breath and\nfocuses to raise the\ncritical-hit ratio of\nits attacks.",
-    "platinum": "The user takes a\ndeep breath and\nfocuses to raise the\ncritical-hit ratio of\nits attacks.",
-    "heartgold-soulsilver": "The user takes a\ndeep breath and\nfocuses to raise the\ncritical-hit ratio of\nits attacks.",
-    "black-white": "The user takes a deep breath and\nfocuses so that critical hits land\nmore easily.",
-    "black-2-white-2": "The user takes a deep breath and\nfocuses so that critical hits land\nmore easily.",
-    "x-y": "The user takes a deep breath and\nfocuses so that critical hits land\nmore easily.",
-    "omega-ruby-alpha-sapphire": "The user takes a deep breath and\nfocuses so that critical hits land\nmore easily.",
-    "sun-moon": "The user takes a deep breath and focuses so that\ncritical hits land more easily.",
-    "ultra-sun-ultra-moon": "The user takes a deep breath and focuses so that\ncritical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The user takes a deep breath and focuses so that\ncritical hits land more easily.",
-    "sword-shield": "The user takes a deep breath and focuses so that\ncritical hits land more easily."
-  },
-  "effect": {
-    "full": "User's critical hit rate is two levels higher until it leaves the field.  If the user has already used focus energy since entering the field, this move will fail.\n\nThis effect is passed on by baton pass.",
-    "shortEffect": "Increases the user's chance to score a critical hit."
-  },
-  "priority": 0
+    "_id": 116,
+    "key": "focus-energy",
+    "name": {
+        "japanese-kana": "きあいだめ",
+        "korean": "기충전",
+        "traditional-chinese": "聚氣",
+        "french": "Puissance",
+        "german": "Energiefokus",
+        "spanish": "Foco Energía",
+        "italian": "Focalenergia",
+        "english": "Focus Energy",
+        "japanese": "きあいだめ",
+        "simplified-chinese": "聚气",
+        "latin-american-spanish": "Centrar Energía"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cool",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Raises the critical hit ratio.",
+            "cr": "Raises the critical hit ratio.",
+            "rs": "Focuses power to raise the critical-hit ratio.",
+            "em": "Focuses power to raise the critical-hit ratio.",
+            "frlg": "The user takes a deep breath and focuses to raise its critical-hit ratio.",
+            "dp": "The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.",
+            "pt": "The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.",
+            "hgss": "The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.",
+            "bw": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "b2w2": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "xy": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "oras": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "sm": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "usum": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "lgpe": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "swsh": "The user takes a deep breath and focuses so that critical hits land more easily.",
+            "la": "The user takes a deep breath and focuses so that its future attacks have a heightened chance of landing critical hits.",
+            "sv": "The user takes a deep breath and focuses so that its future attacks have a heightened chance of landing critical hits."
+        },
+        "french": {
+            "bw": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques.",
+            "xy": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques.",
+            "oras": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques.",
+            "sm": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critique.",
+            "usum": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critique.",
+            "lgpe": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critique.",
+            "swsh": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques."
+        },
+        "japanese-kana": {
+            "xy": "ふかく　いきを　すい　きあいを　こめる。 じぶんの　こうげきが きゅうしょに　あたりやすく　なる。",
+            "oras": "ふかく　いきを　すい　きあいを　こめる。 じぶんの　こうげきが きゅうしょに　あたりやすく　なる。",
+            "sm": "ふかく　いきを　すい　きあいを　こめる。 じぶんの　こうげきが きゅうしょに　あたりやすく　なる。",
+            "usum": "ふかく　いきを　すい　きあいを　こめる。 じぶんの　こうげきが きゅうしょに　あたりやすく　なる。",
+            "lgpe": "ふかく　いきを　すい　きあいを　こめる。 じぶんの　こうげきが きゅうしょに　あたりやすく　なる。",
+            "swsh": "ふかく　いきを　すい　きあいを　こめる。 じぶんの　こうげきが きゅうしょに　あたりやすく　なる。"
+        },
+        "korean": {
+            "xy": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다.",
+            "oras": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다.",
+            "sm": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다.",
+            "usum": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다.",
+            "lgpe": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다.",
+            "swsh": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다."
+        },
+        "german": {
+            "xy": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.",
+            "oras": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.",
+            "sm": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.",
+            "usum": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.",
+            "lgpe": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.",
+            "swsh": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch."
+        },
+        "spanish": {
+            "xy": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "oras": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "sm": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "usum": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "lgpe": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "swsh": "Concentra energía para aumentar las posibilidades de asestar un golpe crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa fa un profondo respiro e si concentra per rendere più probabili i brutti colpi.",
+            "oras": "Chi la usa fa un profondo respiro e si concentra per rendere più probabili i brutti colpi.",
+            "sm": "Chi la usa fa un profondo respiro e si concentra per rendere più probabili i brutti colpi.",
+            "usum": "Chi la usa fa un profondo respiro e si concentra per rendere più probabili i brutti colpi.",
+            "lgpe": "Chi la usa fa un profondo respiro e si concentra per rendere più probabili i brutti colpi.",
+            "swsh": "Chi la usa fa un profondo respiro e si concentra per rendere più probabili i brutti colpi."
+        },
+        "japanese": {
+            "xy": "深く　息を　吸い　気合を　こめる。 自分の　攻撃が 急所に　当たりやすくなる。",
+            "oras": "深く　息を　吸い　気合を　こめる。 自分の　攻撃が 急所に　当たりやすくなる。",
+            "sm": "深く　息を　吸い　気合を　こめる。 自分の　攻撃が 急所に　当たりやすくなる。",
+            "usum": "深く　息を　吸い　気合を　こめる。 自分の　攻撃が 急所に　当たりやすくなる。",
+            "lgpe": "深く　息を　吸い　気合を　こめる。 自分の　攻撃が 急所に　当たりやすくなる。",
+            "swsh": "深く　息を　吸い　気合を　こめる。 自分の　攻撃が 急所に　当たりやすくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "oras": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "sm": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "usum": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "lgpe": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+            "swsh": "Concentra energía para aumentar las posibilidades de asestar un golpe crítico."
+        },
+        "traditional-chinese": {
+            "sm": "深呼吸後集中精神。 讓自己的攻擊 變得容易擊中要害。",
+            "usum": "深呼吸後集中精神。 讓自己的攻擊 變得容易擊中要害。",
+            "lgpe": "深呼吸後集中精神。 讓自己的攻擊 變得容易擊中要害。",
+            "swsh": "深呼吸後集中精神。 讓自己的攻擊 變得容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "深深地吸口气，集中精神。 自己的攻击 会变得容易击中要害。",
+            "usum": "深深地吸口气，集中精神。 自己的攻击 会变得容易击中要害。",
+            "lgpe": "深深地吸口气，集中精神。 自己的攻击 会变得容易击中要害。",
+            "swsh": "深深地吸口气，集中精神。 自己的攻击 会变得容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "User’s critical hit rate is two levels higher until it leaves the field.  If the user has already used Focus Energy since entering the field, this move will fail. This effect is passed on by Baton Pass.",
+        "shortEffect": "Increases the user’s chance to score a critical hit."
+    }
 }

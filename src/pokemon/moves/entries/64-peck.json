@@ -1,47 +1,146 @@
 {
-  "_id": 64,
-  "key": "peck",
-  "name": {
-    "english": "Peck",
-    "japanese": "つつく",
-    "chinese": "啄",
-    "korean": "쪼기",
-    "german": "Picotazo",
-    "french": "Pikser",
-    "italian": "Peck",
-    "spanish": "Beccata"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 35,
-  "power": 35,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Jabs the foe with\na beak, etc.",
-    "crystal": "Jabs the foe with\na beak, etc.",
-    "ruby-sapphire": "Attacks the foe with a\njabbing beak, etc.",
-    "emerald": "Attacks the foe with a\njabbing beak, etc.",
-    "firered-leafgreen": "The foe is jabbed\nwith a sharply\npointed beak or\nhorn.",
-    "diamond-pearl": "The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n",
-    "platinum": "The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n",
-    "heartgold-soulsilver": "The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n",
-    "black-white": "The target is jabbed with a sharply\npointed beak or horn.",
-    "black-2-white-2": "The target is jabbed with a sharply\npointed beak or horn.",
-    "x-y": "The target is jabbed with a sharply\npointed beak or horn.",
-    "omega-ruby-alpha-sapphire": "The target is jabbed with a sharply\npointed beak or horn.",
-    "sun-moon": "The target is jabbed with a sharply pointed beak\nor horn.",
-    "ultra-sun-ultra-moon": "The target is jabbed with a sharply pointed beak\nor horn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is jabbed with a sharply pointed beak\nor horn.",
-    "sword-shield": "The target is jabbed with a sharply pointed beak\nor horn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 64,
+    "key": "peck",
+    "name": {
+        "japanese-kana": "つつく",
+        "korean": "쪼기",
+        "traditional-chinese": "啄",
+        "french": "Picpic",
+        "german": "Pikser",
+        "spanish": "Picotazo",
+        "italian": "Beccata",
+        "english": "Peck",
+        "japanese": "つつく",
+        "simplified-chinese": "啄",
+        "latin-american-spanish": "Picotazo"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 35,
+    "power": 35,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Jabs the foe with a beak, etc.",
+            "cr": "Jabs the foe with a beak, etc.",
+            "rs": "Attacks the foe with a jabbing beak, etc.",
+            "em": "Attacks the foe with a jabbing beak, etc.",
+            "frlg": "The foe is jabbed with a sharply pointed beak or horn.",
+            "dp": "The foe is jabbed with a sharply pointed beak or horn.",
+            "pt": "The foe is jabbed with a sharply pointed beak or horn.",
+            "hgss": "The foe is jabbed with a sharply pointed beak or horn.",
+            "bw": "The target is jabbed with a sharply pointed beak or horn.",
+            "b2w2": "The target is jabbed with a sharply pointed beak or horn.",
+            "xy": "The target is jabbed with a sharply pointed beak or horn.",
+            "oras": "The target is jabbed with a sharply pointed beak or horn.",
+            "sm": "The target is jabbed with a sharply pointed beak or horn.",
+            "usum": "The target is jabbed with a sharply pointed beak or horn.",
+            "lgpe": "The target is jabbed with a sharply pointed beak or horn.",
+            "swsh": "The target is jabbed with a sharply pointed beak or horn.",
+            "la": "The target is jabbed with a sharply pointed beak or horn.",
+            "sv": "The target is jabbed with a sharply pointed beak or horn to inflict damage."
+        },
+        "french": {
+            "bw": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.",
+            "xy": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.",
+            "oras": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.",
+            "sm": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.",
+            "usum": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.",
+            "lgpe": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.",
+            "swsh": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts."
+        },
+        "japanese-kana": {
+            "xy": "するどく　とがった　くちばしや　つので あいてを　つついて　こうげきする。",
+            "oras": "するどく　とがった　くちばしや　つので あいてを　つついて　こうげきする。",
+            "sm": "するどく　とがった　くちばしや　つので あいてを　つついて　こうげきする。",
+            "usum": "するどく　とがった　くちばしや　つので あいてを　つついて　こうげきする。",
+            "lgpe": "するどく　とがった　くちばしや　つので あいてを　つついて　こうげきする。",
+            "swsh": "するどく　とがった　くちばしや　つので あいてを　つついて　こうげきする。"
+        },
+        "korean": {
+            "xy": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다.",
+            "oras": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다.",
+            "sm": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다.",
+            "usum": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다.",
+            "lgpe": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다.",
+            "swsh": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다."
+        },
+        "german": {
+            "xy": "Greift das Ziel mit dem Schnabel oder Horn an.",
+            "oras": "Greift das Ziel mit dem Schnabel oder Horn an.",
+            "sm": "Greift das Ziel mit dem Schnabel oder Horn an.",
+            "usum": "Greift das Ziel mit dem Schnabel oder Horn an.",
+            "lgpe": "Greift das Ziel mit dem Schnabel oder Horn an.",
+            "swsh": "Greift das Ziel mit dem Schnabel oder Horn an."
+        },
+        "spanish": {
+            "xy": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "oras": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "sm": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "usum": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "lgpe": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "swsh": "Ensarta al objetivo con un cuerno o pico punzante."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con il becco appuntito o con un corno.",
+            "oras": "Colpisce il bersaglio con il becco appuntito o con un corno.",
+            "sm": "Colpisce il bersaglio con il becco appuntito o con un corno.",
+            "usum": "Colpisce il bersaglio con il becco appuntito o con un corno.",
+            "lgpe": "Colpisce il bersaglio con il becco appuntito o con un corno.",
+            "swsh": "Colpisce il bersaglio con il becco appuntito o con un corno."
+        },
+        "japanese": {
+            "xy": "鋭く　とがった　くちばしや　つので 相手を　突いて　攻撃する。",
+            "oras": "鋭く　とがった　くちばしや　つので 相手を　突いて　攻撃する。",
+            "sm": "鋭く　とがった　くちばしや　つので 相手を　突いて　攻撃する。",
+            "usum": "鋭く　とがった　くちばしや　つので 相手を　突いて　攻撃する。",
+            "lgpe": "鋭く　とがった　くちばしや　つので 相手を　突いて　攻撃する。",
+            "swsh": "鋭く　とがった　くちばしや　つので 相手を　突いて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "oras": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "sm": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "usum": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "lgpe": "Ensarta al objetivo con un cuerno o pico punzante.",
+            "swsh": "Ensarta al objetivo con un cuerno o pico punzante."
+        },
+        "traditional-chinese": {
+            "sm": "用尖銳的喙或角 刺向對手進行攻擊。",
+            "usum": "用尖銳的喙或角 刺向對手進行攻擊。",
+            "lgpe": "用尖銳的喙或角 刺向對手進行攻擊。",
+            "swsh": "用尖銳的喙或角 刺向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖锐的喙或角 刺向对手进行攻击。",
+            "usum": "用尖锐的喙或角 刺向对手进行攻击。",
+            "lgpe": "用尖锐的喙或角 刺向对手进行攻击。",
+            "swsh": "用尖锐的喙或角 刺向对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

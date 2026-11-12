@@ -1,42 +1,141 @@
 {
-  "_id": 414,
-  "key": "earth-power",
-  "name": {
-    "english": "Earth Power",
-    "japanese": "だいちのちから",
-    "chinese": "大地之力",
-    "korean": "대지의힘",
-    "german": "Tierra Viva",
-    "french": "Erdkräfte",
-    "italian": "Earth Power",
-    "spanish": "Geoforza"
-  },
-  "type": "Ground",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user makes the\nground under the foe\nerupt with power.\nIt may also lower the\ntarget’s Sp. Def.",
-    "platinum": "The user makes the\nground under the foe\nerupt with power.\nIt may also lower the\ntarget’s Sp. Def.",
-    "heartgold-soulsilver": "The user makes the\nground under the foe\nerupt with power.\nIt may also lower the\ntarget’s Sp. Def.",
-    "black-white": "The user makes the ground under\nthe target erupt with power.\nIt may also lower the target’s Sp. Def.",
-    "black-2-white-2": "The user makes the ground under\nthe target erupt with power.\nIt may also lower the target’s Sp. Def.",
-    "x-y": "The user makes the ground under\nthe target erupt with power.\nThis may also lower the target’s Sp. Def.",
-    "omega-ruby-alpha-sapphire": "The user makes the ground under\nthe target erupt with power.\nThis may also lower the target’s Sp. Def.",
-    "sun-moon": "The user makes the ground under the target erupt\nwith power. This may also lower the target’s \nSp. Def stat.",
-    "ultra-sun-ultra-moon": "The user makes the ground under the target erupt\nwith power. This may also lower the target’s \nSp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user makes the ground under the target erupt\nwith power. This may also lower the target’s\nSp. Def stat.",
-    "sword-shield": "The user makes the ground under the target erupt\nwith power. This may also lower the target’s\nSp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 414,
+    "key": "earth-power",
+    "name": {
+        "japanese-kana": "だいちのちから",
+        "korean": "대지의힘",
+        "traditional-chinese": "大地之力",
+        "french": "Telluriforce",
+        "german": "Erdkräfte",
+        "spanish": "Tierra Viva",
+        "italian": "Geoforza",
+        "english": "Earth Power",
+        "japanese": "だいちのちから",
+        "simplified-chinese": "大地之力",
+        "latin-american-spanish": "Poder Terrestre"
+    },
+    "type": "ground",
+    "category": "special",
+    "contest": "smart",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user makes the ground under the foe erupt with power. It may also lower the target’s Sp. Def.",
+            "pt": "The user makes the ground under the foe erupt with power. It may also lower the target’s Sp. Def.",
+            "hgss": "The user makes the ground under the foe erupt with power. It may also lower the target’s Sp. Def.",
+            "bw": "The user makes the ground under the target erupt with power. It may also lower the target’s Sp. Def.",
+            "b2w2": "The user makes the ground under the target erupt with power. It may also lower the target’s Sp. Def.",
+            "xy": "The user makes the ground under the target erupt with power. This may also lower the target’s Sp. Def.",
+            "oras": "The user makes the ground under the target erupt with power. This may also lower the target’s Sp. Def.",
+            "sm": "The user makes the ground under the target erupt with power. This may also lower the target’s Sp. Def stat.",
+            "usum": "The user makes the ground under the target erupt with power. This may also lower the target’s Sp. Def stat.",
+            "lgpe": "The user makes the ground under the target erupt with power. This may also lower the target’s Sp. Def stat.",
+            "swsh": "The user makes the ground under the target erupt with power. This may also lower the target’s Sp. Def stat.",
+            "la": "The user makes the ground under the target erupt with power. This may also lower the target's defensive stats.",
+            "sv": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat."
+        },
+        "french": {
+            "bw": "Des éruptions volcaniques ont lieu sous l’ennemi. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "xy": "Des éruptions volcaniques ont lieu sous l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "oras": "Des éruptions volcaniques ont lieu sous l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "sm": "De terribles séismes secouent l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "usum": "De terribles séismes secouent l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "lgpe": "De terribles séismes secouent l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+            "swsh": "De terribles séismes secouent l’ennemi. Peut aussi baisser sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "あいての　あしもとへ　だいちの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "oras": "あいての　あしもとへ　だいちの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "sm": "あいての　あしもとへ　だいちの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "usum": "あいての　あしもとへ　だいちの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "lgpe": "あいての　あしもとへ　だいちの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "swsh": "あいての　あしもとへ　だいちの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "상대의 발밑에 대지의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "상대의 발밑에 대지의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "상대의 발밑에 대지의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "상대의 발밑에 대지의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "상대의 발밑에 대지의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "상대의 발밑에 대지의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Der Boden unter dem Ziel erzittert durch die Kraft der Erde. Senkt eventuell Spezial-Verteidigung.",
+            "oras": "Der Boden unter dem Ziel erzittert durch die Kraft der Erde. Senkt eventuell Spezial-Verteidigung.",
+            "sm": "Der Boden unter dem Ziel erzittert durch die Kraft der Erde. Senkt eventuell Spezial-Verteidigung.",
+            "usum": "Der Boden unter dem Ziel erzittert durch die Kraft der Erde. Senkt eventuell Spezial-Verteidigung.",
+            "lgpe": "Der Boden unter dem Ziel erzittert durch die Kraft der Erde. Senkt eventuell Spezial-Verteidigung.",
+            "swsh": "Der Boden unter dem Ziel erzittert durch die Kraft der Erde. Senkt eventuell Spezial-Verteidigung."
+        },
+        "spanish": {
+            "xy": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "oras": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "sm": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "usum": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Dal terreno sotto il bersaglio si sprigiona una forza devastante. Può anche ridurne la Difesa Speciale.",
+            "oras": "Dal terreno sotto il bersaglio si sprigiona una forza devastante. Può anche ridurne la Difesa Speciale.",
+            "sm": "Dal terreno sotto il bersaglio si sprigiona una forza devastante. Può anche ridurne la Difesa Speciale.",
+            "usum": "Dal terreno sotto il bersaglio si sprigiona una forza devastante. Può anche ridurne la Difesa Speciale.",
+            "lgpe": "Dal terreno sotto il bersaglio si sprigiona una forza devastante. Può anche ridurne la Difesa Speciale.",
+            "swsh": "Dal terreno sotto il bersaglio si sprigiona una forza devastante. Può anche ridurne la Difesa Speciale."
+        },
+        "japanese": {
+            "xy": "相手の　足下へ　大地の力を 放出する。相手の　特防を さげることが　ある。",
+            "oras": "相手の　足下へ　大地の力を 放出する。相手の　特防を さげることが　ある。",
+            "sm": "相手の　足下へ　大地の力を 放出する。相手の　特防を さげることが　ある。",
+            "usum": "相手の　足下へ　大地の力を 放出する。相手の　特防を さげることが　ある。",
+            "lgpe": "相手の　足下へ　大地の力を 放出する。相手の　特防を さげることが　ある。",
+            "swsh": "相手の　足下へ　大地の力を 放出する。相手の　特防を さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "oras": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "sm": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "usum": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "向對手腳下 釋放出大地之力。 有時會降低對手的特防。",
+            "usum": "向對手腳下 釋放出大地之力。 有時會降低對手的特防。",
+            "lgpe": "向對手腳下 釋放出大地之力。 有時會降低對手的特防。",
+            "swsh": "向對手腳下 釋放出大地之力。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手脚下 释放出大地之力。 有时会降低对手的特防。",
+            "usum": "向对手脚下 释放出大地之力。 有时会降低对手的特防。",
+            "lgpe": "向对手脚下 释放出大地之力。 有时会降低对手的特防。",
+            "swsh": "向对手脚下 释放出大地之力。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

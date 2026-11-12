@@ -1,42 +1,152 @@
 {
-  "_id": 364,
-  "key": "feint",
-  "name": {
-    "english": "Feint",
-    "japanese": "フェイント",
-    "chinese": "佯攻",
-    "korean": "페인트",
-    "german": "Amago",
-    "french": "Offenlegung",
-    "italian": "Feint",
-    "spanish": "Fintoattacco"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "An attack that hits a\nfoe using Protect or\nDetect. It also lifts\nthe effects of those\nmoves.",
-    "platinum": "An attack that hits a\nfoe using Protect or\nDetect. It also lifts\nthe effects of those\nmoves.",
-    "heartgold-soulsilver": "An attack that hits a\nfoe using Protect or\nDetect. It also lifts\nthe effects of those\nmoves.",
-    "black-white": "An attack that hits a target using\nProtect or Detect. It also lifts\nthe effects of those moves.",
-    "black-2-white-2": "An attack that hits a target using\nProtect or Detect. It also lifts\nthe effects of those moves.",
-    "x-y": "An attack that hits a target using\nProtect or Detect. This also lifts\nthe effects of those moves.",
-    "omega-ruby-alpha-sapphire": "An attack that hits a target using\nProtect or Detect. This also lifts\nthe effects of those moves.",
-    "sun-moon": "This attack hits a target using a move such as\nProtect or Detect.\nThis also lifts the effects of those moves.",
-    "ultra-sun-ultra-moon": "This attack hits a target using a move such as\nProtect or Detect.\nThis also lifts the effects of those moves.",
-    "lets-go-pikachu-lets-go-eevee": "This attack hits a target using Protect.\nThis also lifts the effects of the move.",
-    "sword-shield": "This attack hits a target using a move such as\nProtect or Detect.\nThis also lifts the effects of those moves."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Removes the effects of detect or protect from the target before hitting.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome.",
-    "shortEffect": "Hits through Protect and Detect."
-  },
-  "priority": 2
+    "_id": 364,
+    "key": "feint",
+    "name": {
+        "japanese-kana": "フェイント",
+        "korean": "페인트",
+        "traditional-chinese": "佯攻",
+        "french": "Ruse",
+        "german": "Offenlegung",
+        "spanish": "Amago",
+        "italian": "Fintoattacco",
+        "english": "Feint",
+        "japanese": "フェイント",
+        "simplified-chinese": "佯攻",
+        "latin-american-spanish": "Amago"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 30,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 2,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 50
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Cette capacité échoue si la cible n’est pas sous l’effet de Détection ou Abri."
+        },
+        "english": {
+            "bw": "If the target is not under the effect of Detect or Protect, this move will fail."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "dp": "An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.",
+            "pt": "An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.",
+            "hgss": "An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.",
+            "bw": "An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.",
+            "b2w2": "An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.",
+            "xy": "An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.",
+            "oras": "An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.",
+            "sm": "This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.",
+            "usum": "This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.",
+            "lgpe": "This attack hits a target using Protect. This also lifts the effects of the move.",
+            "swsh": "This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.",
+            "la": "This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.",
+            "sv": "This attack can hit a target using a move such as Protect or Detect. This also lifts the effects of those moves."
+        },
+        "french": {
+            "bw": "Une attaque capable de toucher un ennemi qui utilise Détection ou Abri. Annule aussi leur effet.",
+            "xy": "Une attaque capable de toucher un ennemi qui utilise Détection ou Abri. Annule aussi leur effet.",
+            "oras": "Une attaque capable de toucher un ennemi qui utilise Détection ou Abri. Annule aussi leur effet.",
+            "sm": "Une attaque capable de toucher un ennemi qui utilise une capacité comme Détection ou Abri. Annule l’effet de ces capacités.",
+            "usum": "Une attaque capable de toucher un ennemi qui utilise une capacité comme Détection ou Abri. Annule l’effet de ces capacités.",
+            "lgpe": "Une attaque capable de toucher un ennemi qui utilise Abri. Annule l’effet de cette capacité.",
+            "swsh": "Une attaque capable de toucher un ennemi qui utilise une capacité comme Détection ou Abri. Annule l’effet de ces capacités."
+        },
+        "japanese-kana": {
+            "xy": "まもるや　みきりを　している あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。",
+            "oras": "まもるや　 きりを　している あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。",
+            "sm": "まもるや　みきり　などを　している あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。",
+            "usum": "まもるや　みきり　などを　している あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。",
+            "lgpe": "まもるを　つかっている あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。",
+            "swsh": "まもるや　みきり　などを　している あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。"
+        },
+        "korean": {
+            "xy": "방어나 판별을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다.",
+            "oras": "방어나 판별을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다.",
+            "sm": "방어나 판별 등을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다.",
+            "usum": "방어나 판별 등을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다.",
+            "lgpe": "방어를 사용하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다.",
+            "swsh": "방어나 판별 등을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다."
+        },
+        "german": {
+            "xy": "Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.",
+            "oras": "Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.",
+            "sm": "Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken.",
+            "usum": "Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken.",
+            "lgpe": "Ziele, die Schutzschild eingesetzt haben, werden getroffen. Entfernt den Effekt von Schutzschild.",
+            "swsh": "Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken."
+        },
+        "spanish": {
+            "xy": "Permite golpear a objetivos que usan Protección o Detección y anula dichos movimientos.",
+            "oras": "Permite golpear a objetivos que usan Protección o Detección y anula dichos movimientos.",
+            "sm": "Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos.",
+            "usum": "Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos.",
+            "lgpe": "Permite golpear a objetivos que han utilizado el movimiento Protección y anula sus efectos.",
+            "swsh": "Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos."
+        },
+        "italian": {
+            "xy": "Mossa che colpisce anche un bersaglio che ha usato Protezione o Individua, annullandone gli effetti.",
+            "oras": "Mossa che colpisce anche un bersaglio che ha usato Protezione o Individua, annullandone gli effetti.",
+            "sm": "Colpisce anche un bersaglio che ha usato mosse come Protezione e Individua, annullandone gli effetti.",
+            "usum": "Colpisce anche un bersaglio che ha usato mosse come Protezione e Individua, annullandone gli effetti.",
+            "lgpe": "Colpisce anche un bersaglio che ha usato Protezione, annullandone gli effetti.",
+            "swsh": "Colpisce anche un bersaglio che ha usato mosse come Protezione e Individua, annullandone gli effetti."
+        },
+        "japanese": {
+            "xy": "まもるや　みきりを　している 相手に　攻撃が　できる。 守りの　効果を　解除させる。",
+            "oras": "まもるや　 きりを　している 相手に　攻撃が　できる。 守りの　効果を　解除させる。",
+            "sm": "まもるや　みきり　などを　している 相手に　攻撃が　できる。 守りの　効果を　解除させる。",
+            "usum": "まもるや　みきり　などを　している 相手に　攻撃が　できる。 守りの　効果を　解除させる。",
+            "lgpe": "まもるを　つかっている 相手に　攻撃が　できる。 守りの　効果を　解除させる。",
+            "swsh": "まもるや　みきり　などを　している 相手に　攻撃が　できる。 守りの　効果を　解除させる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Permite golpear a objetivos que usan Protección o Detección y anula dichos movimientos.",
+            "oras": "Permite golpear a objetivos que usan Protección o Detección y anula dichos movimientos.",
+            "sm": "Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos.",
+            "usum": "Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos.",
+            "lgpe": "Permite golpear a objetivos que han utilizado el movimiento Protección y anula sus efectos.",
+            "swsh": "Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos."
+        },
+        "traditional-chinese": {
+            "sm": "能夠攻擊使用了 守住或看穿的對手。 並解除對手的防守效果。",
+            "usum": "能夠攻擊使用了 守住或看穿的對手。 並解除對手的防守效果。",
+            "lgpe": "能夠攻擊使用了守住的對手。 並解除對手的防守效果。",
+            "swsh": "能夠攻擊使用了 守住或看穿的對手。 並解除對手的防守效果。"
+        },
+        "simplified-chinese": {
+            "sm": "能够攻击正在使用 守住或看穿等招式的对手。 解除其守护效果。",
+            "usum": "能够攻击正在使用 守住或看穿等招式的对手。 解除其守护效果。",
+            "lgpe": "能够攻击正在使用 守住招式的对手， 并解除其守护效果。",
+            "swsh": "能够攻击正在使用 守住或看穿等招式的对手。 解除其守护效果。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Removes the effects of Detect or Protect from the target before hitting. This move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+        "shortEffect": "Hits through Protect and Detect."
+    }
 }

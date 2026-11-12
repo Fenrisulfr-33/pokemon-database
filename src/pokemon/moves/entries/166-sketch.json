@@ -1,47 +1,146 @@
 {
-  "_id": 166,
-  "key": "sketch",
-  "name": {
-    "english": "Sketch",
-    "japanese": "スケッチ",
-    "chinese": "写生",
-    "korean": "스케치",
-    "german": "Esquema",
-    "french": "Nachahmer",
-    "italian": "Sketch",
-    "spanish": "Schizzo"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 1,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Copies the foe's\nmove permanently.",
-    "crystal": "Copies the foe's\nmove permanently.",
-    "ruby-sapphire": "Copies the foe’s last move\npermanently.",
-    "emerald": "Copies the foe’s last move\npermanently.",
-    "firered-leafgreen": "This move copies\nthe move last used\nby the foe, then\ndisappears.",
-    "diamond-pearl": "It enables the user\nto learn a move used\nby the foe.\nOnce used, the move\nSketch disappears.",
-    "platinum": "It enables the user\nto learn a move used\nby the foe.\nOnce used, the move\nSketch disappears.",
-    "heartgold-soulsilver": "It enables the user\nto permanently learn\nthe move last used by\nthe foe. Once used,\nSketch disappears.",
-    "black-white": "It enables the user to permanently learn\nthe move last used by the target.\nOnce used, Sketch disappears.",
-    "black-2-white-2": "It enables the user to permanently learn\nthe move last used by the target.\nOnce used, Sketch disappears.",
-    "x-y": "It enables the user to permanently learn\nthe move last used by the target.\nOnce used, Sketch disappears.",
-    "omega-ruby-alpha-sapphire": "It enables the user to permanently learn\nthe move last used by the target.\nOnce used, Sketch disappears.",
-    "sun-moon": "It enables the user to permanently learn the move\nlast used by the target. Once used,\nSketch disappears.",
-    "ultra-sun-ultra-moon": "It enables the user to permanently learn the move\nlast used by the target. Once used,\nSketch disappears.",
-    "lets-go-pikachu-lets-go-eevee": "It enables the user to permanently learn the move\nlast used by the target. Once used,\nSketch disappears.",
-    "sword-shield": "It enables the user to permanently learn the move\nlast used by the target. Once used,\nSketch disappears."
-  },
-  "effect": {
-    "full": "Permanently replaces itself with the target's last used move.  If that move is chatter or struggle, this move will fail.\n\nThis move cannot be copied by mimic or mirror move, nor selected by assist or metronome, nor forced by encore.",
-    "shortEffect": "Permanently becomes the target's last used move."
-  },
-  "priority": 0
+    "_id": 166,
+    "key": "sketch",
+    "name": {
+        "japanese-kana": "スケッチ",
+        "korean": "스케치",
+        "traditional-chinese": "寫生",
+        "french": "Gribouille",
+        "german": "Nachahmer",
+        "spanish": "Esquema",
+        "italian": "Schizzo",
+        "english": "Sketch",
+        "japanese": "スケッチ",
+        "simplified-chinese": "写生",
+        "latin-american-spanish": "Boceto"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 1,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Copies the foe's move permanently.",
+            "cr": "Copies the foe's move permanently.",
+            "rs": "Copies the foe’s last move permanently.",
+            "em": "Copies the foe’s last move permanently.",
+            "frlg": "This move copies the move last used by the foe, then disappears.",
+            "dp": "It enables the user to learn a move used by the foe. Once used, the move Sketch disappears.",
+            "pt": "It enables the user to learn a move used by the foe. Once used, the move Sketch disappears.",
+            "hgss": "It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.",
+            "bw": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "b2w2": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "xy": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "oras": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "sm": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "usum": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "lgpe": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "swsh": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "la": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
+            "sv": "This move enables the user to permanently learn the move last used by the target. Once used, Sketch disappears."
+        },
+        "french": {
+            "bw": "Le lanceur apprend le dernier coup utilisé par la cible. Gribouille disparaît après utilisation.",
+            "xy": "Le lanceur apprend le dernier coup utilisé par la cible. Gribouille disparaît après utilisation.",
+            "oras": "Le lanceur apprend la dernière capacité utilisée par la cible. Gribouille disparaît après utilisation.",
+            "sm": "Le lanceur apprend la dernière capacité utilisée par la cible. Gribouille disparaît après utilisation.",
+            "usum": "Le lanceur apprend la dernière capacité utilisée par la cible. Gribouille disparaît après utilisation.",
+            "lgpe": "Le lanceur apprend la dernière capacité utilisée par la cible. Gribouille disparaît après utilisation.",
+            "swsh": "Le lanceur apprend la dernière capacité utilisée par la cible. Gribouille disparaît après utilisation."
+        },
+        "japanese-kana": {
+            "xy": "あいてが　つかった　わざを じぶんの　ものに　する。 １かい　つかうと　スケッチは　きえる。",
+            "oras": "あいてが　つかった　わざを じぶんの　ものに　する。 １かい　つかうと　スケッチは　きえる。",
+            "sm": "あいてが　つかった　わざを じぶんの　ものに　する。 １かい　つかうと　スケッチは　きえる。",
+            "usum": "あいてが　つかった　わざを じぶんの　ものに　する。 １かい　つかうと　スケッチは　きえる。",
+            "lgpe": "あいてが　つかった　わざを じぶんの　ものに　する。 １かい　つかうと　スケッチは　きえる。",
+            "swsh": "あいてが　つかった　わざを じぶんの　ものに　する。 １かい　つかうと　スケッチは　きえる。"
+        },
+        "korean": {
+            "xy": "상대가 쓴 기술을 자신의 것으로 만든다. 한 번 사용하면 스케치는 사라진다.",
+            "oras": "상대가 쓴 기술을 자신의 것으로 만든다. 한 번 사용하면 스케치는 사라진다.",
+            "sm": "상대가 쓴 기술을 자신의 것으로 만든다. 한 번 사용하면 스케치는 사라진다.",
+            "usum": "상대가 쓴 기술을 자신의 것으로 만든다. 한 번 사용하면 스케치는 사라진다.",
+            "lgpe": "상대가 쓴 기술을 자신의 것으로 만든다. 한 번 사용하면 스케치는 사라진다.",
+            "swsh": "상대가 쓴 기술을 자신의 것으로 만든다. 한 번 사용하면 스케치는 사라진다."
+        },
+        "german": {
+            "xy": "Anwender lernt die letzte Attacke des Zieles dauerhaft. Nachahmer verschwindet nach Gebrauch.",
+            "oras": "Anwender lernt die letzte Attacke des Zieles dauerhaft. Nachahmer verschwindet nach Gebrauch.",
+            "sm": "Anwender erlernt die letzte Attacke des Zieles dauerhaft. Nachahmer verschwindet nach Gebrauch.",
+            "usum": "Anwender erlernt die letzte Attacke des Zieles dauerhaft. Nachahmer verschwindet nach Gebrauch.",
+            "lgpe": "Anwender erlernt die letzte Attacke des Zieles dauerhaft. Nachahmer verschwindet nach Gebrauch.",
+            "swsh": "Anwender erlernt die letzte Attacke des Zieles dauerhaft. Nachahmer verschwindet nach Gebrauch."
+        },
+        "spanish": {
+            "xy": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "oras": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "sm": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "usum": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "lgpe": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "swsh": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso."
+        },
+        "italian": {
+            "xy": "Permette a chi la usa di imparare l’ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo.",
+            "oras": "Permette a chi la usa di imparare l’ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo.",
+            "sm": "Permette a chi la usa di imparare l’ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo.",
+            "usum": "Permette a chi la usa di imparare l’ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo.",
+            "lgpe": "Permette a chi la usa di imparare l’ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo.",
+            "swsh": "Permette a chi la usa di imparare l’ultima mossa usata dal bersaglio. La nuova mossa appresa sostituisce Schizzo."
+        },
+        "japanese": {
+            "xy": "相手が　使った　技を 自分の　ものに　する。 １回　使うと　スケッチは　消える。",
+            "oras": "相手が　使った　技を 自分の　ものに　する。 １回　使うと　スケッチは　消える。",
+            "sm": "相手が　使った　技を 自分の　ものに　する。 １回　使うと　スケッチは　消える。",
+            "usum": "相手が　使った　技を 自分の　ものに　する。 １回　使うと　スケッチは　消える。",
+            "lgpe": "相手が　使った　技を 自分の　ものに　する。 １回　使うと　スケッチは　消える。",
+            "swsh": "相手が　使った　技を 自分の　ものに　する。 １回　使うと　スケッチは　消える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "oras": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "sm": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "usum": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "lgpe": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.",
+            "swsh": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso."
+        },
+        "traditional-chinese": {
+            "sm": "將對手使用的招式變成自己的。 寫生在使用１次之後就會消失。",
+            "usum": "將對手使用的招式變成自己的。 寫生在使用１次之後就會消失。",
+            "lgpe": "將對手使用的招式變成自己的。 寫生在使用１次之後就會消失。",
+            "swsh": "將對手使用的招式變成自己的。 寫生在使用１次之後就會消失。"
+        },
+        "simplified-chinese": {
+            "sm": "将对手使用的招式 变成自己的招式。 使用１次后写生消失。",
+            "usum": "将对手使用的招式 变成自己的招式。 使用１次后写生消失。",
+            "lgpe": "将对手使用的招式 变成自己的招式。 使用１次后写生消失。",
+            "swsh": "将对手使用的招式 变成自己的招式。 使用１次后写生消失。"
+        }
+    },
+    "effect": {
+        "full": "Permanently replaces itself with the target’s last used move.  If that move is Chatter or Struggle, this move will fail. This move cannot be copied by Mimic or Mirror Move, nor selected by Assist or Metronome, nor forced by Encore.",
+        "shortEffect": "Permanently becomes the target’s last used move."
+    }
 }

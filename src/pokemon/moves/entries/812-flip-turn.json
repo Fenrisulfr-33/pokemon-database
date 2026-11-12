@@ -1,32 +1,84 @@
 {
-  "_id": 812,
-  "key": "flip-turn",
-  "name": {
-    "english": "Flip Turn",
-    "japanese": "クイックターン",
-    "chinese": "快速折返",
-    "korean": "퀵턴",
-    "german": "Viraje",
-    "french": "Rollwende",
-    "italian": "Flip Turn",
-    "spanish": "Virata"
-  },
-  "type": "Water",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "After making its attack, the user rushes back to\nswitch places with a party Pokémon in waiting."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 812,
+    "key": "flip-turn",
+    "name": {
+        "japanese-kana": "クイックターン",
+        "korean": "퀵턴",
+        "traditional-chinese": "快速折返",
+        "french": "Eau Revoir",
+        "german": "Rollwende",
+        "spanish": "Viraje",
+        "italian": "Virata",
+        "english": "Flip Turn",
+        "japanese": "クイックターン",
+        "simplified-chinese": "快速折返",
+        "latin-american-spanish": "Viraje"
+    },
+    "type": "water",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "こうげきした　あと ものすごい　スピードで　もどってきて ひかえの　ポケモンと　いれかわる。"
+        },
+        "korean": {
+            "swsh": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다."
+        },
+        "traditional-chinese": {
+            "swsh": "攻擊後迅速返回， 和後備寶可夢進行替換。"
+        },
+        "french": {
+            "swsh": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat."
+        },
+        "german": {
+            "swsh": "Nach der Attacke eilt der Anwender zurück und tauscht den Platz mit einem anderen Pokémon."
+        },
+        "spanish": {
+            "swsh": "Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo."
+        },
+        "italian": {
+            "swsh": "Chi usa questa mossa fa marcia indietro per farsi sostituire dopo aver sferrato l’attacco."
+        },
+        "english": {
+            "swsh": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "la": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "sv": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+        },
+        "japanese": {
+            "swsh": "攻撃した　あと ものすごい　スピードで　戻ってきて 控えの　ポケモンと　入れ替わる。"
+        },
+        "simplified-chinese": {
+            "swsh": "在攻击之后急速返回， 和后备宝可梦进行替换。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then the user immediately switches out, and the trainer selects a replacement Pokémon from the party.  If the target faints from this attack, the user’s trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not switch out. The user may be hit by Pursuit when it switches out, if it has been targeted and Pursuit has not yet been used. This move may be used even if the user is under the effect of Ingrain.  Ingrain’s effect will end.",
+        "shortEffect": "User must switch out after attacking."
+    }
 }

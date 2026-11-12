@@ -1,45 +1,144 @@
 {
-  "_id": 259,
-  "key": "torment",
-  "name": {
-    "english": "Torment",
-    "japanese": "いちゃもん",
-    "chinese": "假指控",
-    "korean": "트집",
-    "german": "Tormento",
-    "french": "Folterknecht",
-    "italian": "Torment",
-    "spanish": "Attaccalite"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Torments the foe and stops\nsuccessive use of a move.",
-    "emerald": "Torments the foe and stops\nsuccessive use of a move.",
-    "firered-leafgreen": "It enrages the foe,\nmaking it incapable\nof using the same\nmove successively.",
-    "diamond-pearl": "The user torments\nand enrages the foe,\nmaking it incapable of\nusing the same move\ntwice in a row.",
-    "platinum": "The user torments\nand enrages the foe,\nmaking it incapable of\nusing the same move\ntwice in a row.",
-    "heartgold-soulsilver": "The user torments\nand enrages the foe,\nmaking it incapable of\nusing the same move\ntwice in a row.",
-    "black-white": "The user torments and enrages the\ntarget, making it incapable of using\nthe same move twice in a row.",
-    "black-2-white-2": "The user torments and enrages the\ntarget, making it incapable of using\nthe same move twice in a row.",
-    "x-y": "The user torments and enrages the\ntarget, making it incapable of using\nthe same move twice in a row.",
-    "omega-ruby-alpha-sapphire": "The user torments and enrages the\ntarget, making it incapable of using\nthe same move twice in a row.",
-    "sun-moon": "The user torments and enrages the target, making it\nincapable of using the same move twice in a row.",
-    "ultra-sun-ultra-moon": "The user torments and enrages the target, making it\nincapable of using the same move twice in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The user torments and enrages the target, making it\nincapable of using the same move twice in a row.",
-    "sword-shield": "The user torments and enrages the target, making it\nincapable of using the same move twice in a row."
-  },
-  "effect": {
-    "full": "Prevents the target from attempting to use the same move twice in a row.  When the target leaves the field, this effect ends.\n\nIf the target is forced to attempt a repeated move due to choice band, choice scarf, choice specs, disable, encore, taunt, only having PP remaining for one move, or any other effect, the target will use struggle instead.  The target is then free to use the forced move next turn, as it didn't use that move this turn.",
-    "shortEffect": "Prevents the target from using the same move twice in a row."
-  },
-  "priority": 0
+    "_id": 259,
+    "key": "torment",
+    "name": {
+        "japanese-kana": "いちゃもん",
+        "korean": "트집",
+        "traditional-chinese": "無理取鬧",
+        "french": "Tourmente",
+        "german": "Folterknecht",
+        "spanish": "Tormento",
+        "italian": "Attaccalite",
+        "english": "Torment",
+        "japanese": "いちゃもん",
+        "simplified-chinese": "无理取闹",
+        "latin-american-spanish": "Tormento"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "tough",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "torment",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Torments the foe and stops successive use of a move.",
+            "em": "Torments the foe and stops successive use of a move.",
+            "frlg": "It enrages the foe, making it incapable of using the same move successively.",
+            "dp": "The user torments and enrages the foe, making it incapable of using the same move twice in a row.",
+            "pt": "The user torments and enrages the foe, making it incapable of using the same move twice in a row.",
+            "hgss": "The user torments and enrages the foe, making it incapable of using the same move twice in a row.",
+            "bw": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "b2w2": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "xy": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "oras": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "sm": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "usum": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "lgpe": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "swsh": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "la": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+            "sv": "The user torments and enrages the target, making it incapable of using the same move twice in a row."
+        },
+        "french": {
+            "bw": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité 2 fois de suite.",
+            "xy": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.",
+            "oras": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.",
+            "sm": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.",
+            "usum": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.",
+            "lgpe": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.",
+            "swsh": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite."
+        },
+        "japanese-kana": {
+            "xy": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。",
+            "oras": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。",
+            "sm": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。",
+            "usum": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。",
+            "lgpe": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。",
+            "swsh": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。"
+        },
+        "korean": {
+            "xy": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.",
+            "oras": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.",
+            "sm": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.",
+            "usum": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.",
+            "lgpe": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.",
+            "swsh": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다."
+        },
+        "german": {
+            "xy": "Erzürnt das Ziel, um wiederholten Einsatz derselben Attacke zu verhindern.",
+            "oras": "Erzürnt das Ziel, um wiederholten Einsatz derselben Attacke zu verhindern.",
+            "sm": "Erzürnt das Ziel, um wiederholten Einsatz derselben Attacke zu verhindern.",
+            "usum": "Erzürnt das Ziel, um wiederholten Einsatz derselben Attacke zu verhindern.",
+            "lgpe": "Erzürnt das Ziel, um wiederholten Einsatz derselben Attacke zu verhindern.",
+            "swsh": "Erzürnt das Ziel, um wiederholten Einsatz derselben Attacke zu verhindern."
+        },
+        "spanish": {
+            "xy": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "oras": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "sm": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "usum": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "lgpe": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "swsh": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento."
+        },
+        "italian": {
+            "xy": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito.",
+            "oras": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito.",
+            "sm": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito.",
+            "usum": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito.",
+            "lgpe": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito.",
+            "swsh": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito."
+        },
+        "japanese": {
+            "xy": "相手に　いちゃもんを　つけて 同じ　技を　２回連続で だせなくする。",
+            "oras": "相手に　いちゃもんを　つけて 同じ　技を　２回連続で だせなくする。",
+            "sm": "相手に　いちゃもんを　つけて 同じ　技を　２回連続で だせなくする。",
+            "usum": "相手に　いちゃもんを　つけて 同じ　技を　２回連続で だせなくする。",
+            "lgpe": "相手に　いちゃもんを　つけて 同じ　技を　２回連続で だせなくする。",
+            "swsh": "相手に　いちゃもんを　つけて 同じ　技を　２回連続で だせなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "oras": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "sm": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "usum": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "lgpe": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+            "swsh": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento."
+        },
+        "traditional-chinese": {
+            "sm": "無理取鬧， 讓對手不能連續２次 使出相同招式。",
+            "usum": "無理取鬧， 讓對手不能連續２次 使出相同招式。",
+            "lgpe": "無理取鬧， 讓對手不能連續２次 使出相同招式。",
+            "swsh": "無理取鬧， 讓對手不能連續２次 使出相同招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手无理取闹， 令其不能连续２次 使出相同招式。",
+            "usum": "向对手无理取闹， 令其不能连续２次 使出相同招式。",
+            "lgpe": "向对手无理取闹， 令其不能连续２次 使出相同招式。",
+            "swsh": "向对手无理取闹， 令其不能连续２次 使出相同招式。"
+        }
+    },
+    "effect": {
+        "full": "Prevents the target from attempting to use the same move twice in a row.  When the target leaves the field, this effect ends. If the target is forced to attempt a repeated move due to Choice Band, Choice Scarf, Choice Specs, Disable, Encore, Taunt, only having PP remaining for one move, or any other effect, the target will use Struggle instead.  The target is then free to use the forced move next turn, as it didn’t use that move this turn.",
+        "shortEffect": "Prevents the target from using the same move twice in a row."
+    }
 }

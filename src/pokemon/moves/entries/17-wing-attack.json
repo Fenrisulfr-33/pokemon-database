@@ -1,47 +1,150 @@
 {
-  "_id": 17,
-  "key": "wing-attack",
-  "name": {
-    "english": "Wing Attack",
-    "japanese": "つばさでうつ",
-    "chinese": "翅膀攻击",
-    "korean": "날개치기",
-    "german": "Ataque Ala",
-    "french": "Flügelschlag",
-    "italian": "Wing Attack",
-    "spanish": "Attacco d’Ala"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 35,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Strikes the target\nwith wings.",
-    "crystal": "Strikes the target\nwith wings.",
-    "ruby-sapphire": "Strikes the foe with wings\nspread wide.",
-    "emerald": "Strikes the foe with wings\nspread wide.",
-    "firered-leafgreen": "The foe is struck\nwith large, imposing\nwings spread wide.",
-    "diamond-pearl": "The foe is struck\nwith large, imposing\nwings spread wide\nto inflict damage.\n",
-    "platinum": "The foe is struck\nwith large, imposing\nwings spread wide\nto inflict damage.\n",
-    "heartgold-soulsilver": "The foe is struck\nwith large, imposing\nwings spread wide\nto inflict damage.\n",
-    "black-white": "The target is struck with large, imposing\nwings spread wide to inflict damage.",
-    "black-2-white-2": "The target is struck with large, imposing\nwings spread wide to inflict damage.",
-    "x-y": "The target is struck with large, imposing\nwings spread wide to inflict damage.",
-    "omega-ruby-alpha-sapphire": "The target is struck with large, imposing\nwings spread wide to inflict damage.",
-    "sun-moon": "The target is struck with large, imposing wings\nspread wide to inflict damage.",
-    "ultra-sun-ultra-moon": "The target is struck with large, imposing wings\nspread wide to inflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "The target is struck with large, imposing wings\nspread wide to inflict damage.",
-    "sword-shield": "The target is struck with large, imposing wings\nspread wide to inflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 17,
+    "key": "wing-attack",
+    "name": {
+        "japanese-kana": "つばさでうつ",
+        "korean": "날개치기",
+        "traditional-chinese": "翅膀攻擊",
+        "french": "Cru-Ailes",
+        "german": "Flügelschlag",
+        "spanish": "Ataque Ala",
+        "italian": "Attacco d’Ala",
+        "english": "Wing Attack",
+        "japanese": "つばさでうつ",
+        "simplified-chinese": "翅膀攻击",
+        "latin-american-spanish": "Ataque de Ala"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 35,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "power": 35
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Strikes the target with wings.",
+            "cr": "Strikes the target with wings.",
+            "rs": "Strikes the foe with wings spread wide.",
+            "em": "Strikes the foe with wings spread wide.",
+            "frlg": "The foe is struck with large, imposing wings spread wide.",
+            "dp": "The foe is struck with large, imposing wings spread wide to inflict damage.",
+            "pt": "The foe is struck with large, imposing wings spread wide to inflict damage.",
+            "hgss": "The foe is struck with large, imposing wings spread wide to inflict damage.",
+            "bw": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "b2w2": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "xy": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "oras": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "sm": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "usum": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "lgpe": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "swsh": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "la": "The target is struck with large, imposing wings spread wide to inflict damage.",
+            "sv": "The target is struck with large, imposing wings spread wide to inflict damage."
+        },
+        "french": {
+            "bw": "L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts.",
+            "xy": "L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts.",
+            "oras": "L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts.",
+            "sm": "L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts.",
+            "usum": "L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts.",
+            "lgpe": "L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts.",
+            "swsh": "L’ennemi est frappé par de larges ailes déployées pour infliger des dégâts."
+        },
+        "japanese-kana": {
+            "xy": "おおきく　ひろげた　りっぱな　つばさを あいてに　ぶつけて　こうげきする。",
+            "oras": "おおきく　ひろげた　りっぱな　つばさを あいてに　ぶつけて　こうげきする。",
+            "sm": "おおきく　ひろげた　りっぱな　つばさを あいてに　ぶつけて　こうげきする。",
+            "usum": "おおきく　ひろげた　りっぱな　つばさを あいてに　ぶつけて　こうげきする。",
+            "lgpe": "おおきく　ひろげた　りっぱな　つばさを あいてに　ぶつけて　こうげきする。",
+            "swsh": "おおきく　ひろげた　りっぱな　つばさを あいてに　ぶつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "크게 펼친 훌륭한 날개를 상대에게 부딪쳐서 공격한다.",
+            "oras": "크게 펼친 훌륭한 날개를 상대에게 부딪쳐서 공격한다.",
+            "sm": "크게 펼친 훌륭한 날개를 상대에게 부딪쳐서 공격한다.",
+            "usum": "크게 펼친 훌륭한 날개를 상대에게 부딪쳐서 공격한다.",
+            "lgpe": "크게 펼친 훌륭한 날개를 상대에게 부딪쳐서 공격한다.",
+            "swsh": "크게 펼친 훌륭한 날개를 상대에게 부딪쳐서 공격한다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel mit ausgebreiteten Flügeln.",
+            "oras": "Trifft das Ziel mit ausgebreiteten Flügeln.",
+            "sm": "Trifft das Ziel mit ausgebreiteten Flügeln.",
+            "usum": "Trifft das Ziel mit ausgebreiteten Flügeln.",
+            "lgpe": "Trifft das Ziel mit ausgebreiteten Flügeln.",
+            "swsh": "Trifft das Ziel mit ausgebreiteten Flügeln."
+        },
+        "spanish": {
+            "xy": "Golpea al objetivo con unas grandes alas.",
+            "oras": "Golpea al objetivo con unas grandes alas.",
+            "sm": "Golpea al objetivo con unas grandes alas.",
+            "usum": "Golpea al objetivo con unas grandes alas.",
+            "lgpe": "Golpea al objetivo con unas grandes alas.",
+            "swsh": "Golpea al objetivo con unas grandes alas."
+        },
+        "italian": {
+            "xy": "Infligge danni al bersaglio spiegando delle grandi ali possenti.",
+            "oras": "Infligge danni al bersaglio spiegando delle grandi ali possenti.",
+            "sm": "Infligge danni al bersaglio spiegando delle grandi ali possenti.",
+            "usum": "Infligge danni al bersaglio spiegando delle grandi ali possenti.",
+            "lgpe": "Infligge danni al bersaglio spiegando delle grandi ali possenti.",
+            "swsh": "Infligge danni al bersaglio spiegando delle grandi ali possenti."
+        },
+        "japanese": {
+            "xy": "大きく　ひろげた　りっぱな　翼を 相手に　ぶつけて　攻撃する。",
+            "oras": "大きく　ひろげた　りっぱな　翼を 相手に　ぶつけて　攻撃する。",
+            "sm": "大きく　ひろげた　りっぱな　翼を 相手に　ぶつけて　攻撃する。",
+            "usum": "大きく　ひろげた　りっぱな　翼を 相手に　ぶつけて　攻撃する。",
+            "lgpe": "大きく　ひろげた　りっぱな　翼を 相手に　ぶつけて　攻撃する。",
+            "swsh": "大きく　ひろげた　りっぱな　翼を 相手に　ぶつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea al objetivo con unas grandes alas.",
+            "oras": "Golpea al objetivo con unas grandes alas.",
+            "sm": "Golpea al objetivo con unas grandes alas.",
+            "usum": "Golpea al objetivo con unas grandes alas.",
+            "lgpe": "Golpea al objetivo con unas grandes alas.",
+            "swsh": "Golpea al objetivo con unas grandes alas."
+        },
+        "traditional-chinese": {
+            "sm": "用大大伸展開來的美麗翅膀， 撞向對手進行攻擊。",
+            "usum": "用大大伸展開來的美麗翅膀， 撞向對手進行攻擊。",
+            "lgpe": "用大大伸展開來的美麗翅膀， 撞向對手進行攻擊。",
+            "swsh": "用大大伸展開來的美麗翅膀， 撞向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "大大地展开美丽的翅膀， 将其撞向对手进行攻击。",
+            "usum": "大大地展开美丽的翅膀， 将其撞向对手进行攻击。",
+            "lgpe": "大大地展开美丽的翅膀， 将其撞向对手进行攻击。",
+            "swsh": "大大地展开美丽的翅膀， 将其撞向对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

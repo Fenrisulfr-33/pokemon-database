@@ -1,42 +1,141 @@
 {
-  "_id": 452,
-  "key": "wood-hammer",
-  "name": {
-    "english": "Wood Hammer",
-    "japanese": "ウッドハンマー",
-    "chinese": "木槌",
-    "korean": "우드해머",
-    "german": "Mazazo",
-    "french": "Holzhammer",
-    "italian": "Wood Hammer",
-    "spanish": "Mazzuolegno"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user slams its\nrugged body into the\nfoe to attack. The\nuser also sustains\nserious damage.",
-    "platinum": "The user slams its\nrugged body into the\nfoe to attack. The\nuser also sustains\nserious damage.",
-    "heartgold-soulsilver": "The user slams its\nrugged body into the\nfoe to attack. The\nuser also sustains\nserious damage.",
-    "black-white": "The user slams its rugged body into the\ntarget to attack. The user also sustains\nserious damage.",
-    "black-2-white-2": "The user slams its rugged body into the\ntarget to attack. The user also sustains\nserious damage.",
-    "x-y": "The user slams its rugged body into the\ntarget to attack. This also damages\nthe user quite a lot.",
-    "omega-ruby-alpha-sapphire": "The user slams its rugged body into the\ntarget to attack. This also damages\nthe user quite a lot.",
-    "sun-moon": "The user slams its rugged body into the target to\nattack. This also damages the user quite a lot.",
-    "ultra-sun-ultra-moon": "The user slams its rugged body into the target to\nattack. This also damages the user quite a lot.",
-    "lets-go-pikachu-lets-go-eevee": "The user slams its rugged body into the target to\nattack. This also damages the user quite a lot.",
-    "sword-shield": "The user slams its rugged body into the target to\nattack. This also damages the user quite a lot."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
-    "shortEffect": "User receives 1/3 the damage inflicted in recoil."
-  },
-  "priority": 0
+    "_id": 452,
+    "key": "wood-hammer",
+    "name": {
+        "japanese-kana": "ウッドハンマー",
+        "korean": "우드해머",
+        "traditional-chinese": "木槌",
+        "french": "Martobois",
+        "german": "Holzhammer",
+        "spanish": "Mazazo",
+        "italian": "Mazzuolegno",
+        "english": "Wood Hammer",
+        "japanese": "ウッドハンマー",
+        "simplified-chinese": "木槌",
+        "latin-american-spanish": "Mazazo"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -33,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user slams its rugged body into the foe to attack. The user also sustains serious damage.",
+            "pt": "The user slams its rugged body into the foe to attack. The user also sustains serious damage.",
+            "hgss": "The user slams its rugged body into the foe to attack. The user also sustains serious damage.",
+            "bw": "The user slams its rugged body into the target to attack. The user also sustains serious damage.",
+            "b2w2": "The user slams its rugged body into the target to attack. The user also sustains serious damage.",
+            "xy": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+            "oras": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+            "sm": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+            "usum": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+            "lgpe": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+            "swsh": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+            "la": "The user slams its rugged body into the target to attack. This also damages the user.",
+            "sv": "The user slams its rugged body into the target to attack. This also damages the user quite a lot."
+        },
+        "french": {
+            "bw": "Le lanceur heurte l’ennemi de son corps robuste. Inflige de sérieux dégâts au lanceur aussi.",
+            "xy": "Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur.",
+            "oras": "Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur.",
+            "sm": "Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur.",
+            "usum": "Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur.",
+            "lgpe": "Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur.",
+            "swsh": "Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "かたい　どうたいを あいてに　たたきつけて　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "oras": "かたい　どうたいを あいてに　たたきつけて　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "sm": "かたい　どうたいを あいてに　たたきつけて　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "usum": "かたい　どうたいを あいてに　たたきつけて　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "lgpe": "かたい　どうたいを あいてに　たたきつけて　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "swsh": "かたい　どうたいを あいてに　たたきつけて　こうげきする。 じぶんも　かなり　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 상당한 데미지를 입는다.",
+            "oras": "단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 상당한 데미지를 입는다.",
+            "sm": "단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 상당한 데미지를 입는다.",
+            "usum": "단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 상당한 데미지를 입는다.",
+            "lgpe": "단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 상당한 데미지를 입는다.",
+            "swsh": "단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 상당한 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Anwender attackiert mit seinem robusten Körper. Er erleidet dabei auch selbst großen Schaden.",
+            "oras": "Anwender attackiert mit seinem robusten Körper. Er erleidet dabei auch selbst großen Schaden.",
+            "sm": "Anwender attackiert mit seinem robusten Körper. Er erleidet dabei auch selbst großen Schaden.",
+            "usum": "Anwender attackiert mit seinem robusten Körper. Er erleidet dabei auch selbst großen Schaden.",
+            "lgpe": "Anwender attackiert mit seinem robusten Körper. Er erleidet dabei auch selbst großen Schaden.",
+            "swsh": "Anwender attackiert mit seinem robusten Körper. Er erleidet dabei auch selbst großen Schaden."
+        },
+        "spanish": {
+            "xy": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "oras": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "sm": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "usum": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "lgpe": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "swsh": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño."
+        },
+        "italian": {
+            "xy": "Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni.",
+            "oras": "Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni.",
+            "sm": "Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni.",
+            "usum": "Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni.",
+            "lgpe": "Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni.",
+            "swsh": "Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni."
+        },
+        "japanese": {
+            "xy": "硬い　胴体を 相手に　たたきつけて　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "oras": "硬い　胴体を 相手に　たたきつけて　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "sm": "硬い　胴体を 相手に　たたきつけて　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "usum": "硬い　胴体を 相手に　たたきつけて　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "lgpe": "硬い　胴体を 相手に　たたきつけて　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "swsh": "硬い　胴体を 相手に　たたきつけて　攻撃する。 自分も　かなり　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "oras": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "sm": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "usum": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "lgpe": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+            "swsh": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño."
+        },
+        "traditional-chinese": {
+            "sm": "用堅硬的軀體 撞擊對手進行攻擊。 自己也會受到不小的傷害。",
+            "usum": "用堅硬的軀體 撞擊對手進行攻擊。 自己也會受到不小的傷害。",
+            "lgpe": "用堅硬的軀體 撞擊對手進行攻擊。 自己也會受到不小的傷害。",
+            "swsh": "用堅硬的軀體 撞擊對手進行攻擊。 自己也會受到不小的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "用坚硬的躯体 撞击对手进行攻击。 自己也会受到不小的伤害。",
+            "usum": "用坚硬的躯体 撞击对手进行攻击。 自己也会受到不小的伤害。",
+            "lgpe": "用坚硬的躯体 撞击对手进行攻击。 自己也会受到不小的伤害。",
+            "swsh": "用坚硬的躯体 撞击对手进行攻击。 自己也会受到不小的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+        "shortEffect": "User receives 1/3 the damage inflicted in recoil."
+    }
 }

@@ -1,42 +1,139 @@
 {
-  "_id": 426,
-  "key": "mud-bomb",
-  "name": {
-    "english": "Mud Bomb",
-    "japanese": "どろばくだん",
-    "chinese": "泥巴爆弹",
-    "korean": "진흙폭탄",
-    "german": "Bomba Fango",
-    "french": "Schlammbombe",
-    "italian": "Mud Bomb",
-    "spanish": "Pantanobomba"
-  },
-  "type": "Ground",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 65,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user launches a\nhard-packed mud ball\nto attack.\nIt may also lower the\ntarget’s accuracy.",
-    "platinum": "The user launches a\nhard-packed mud ball\nto attack.\nIt may also lower the\ntarget’s accuracy.",
-    "heartgold-soulsilver": "The user launches a\nhard-packed mud ball\nto attack.\nIt may also lower the\ntarget’s accuracy.",
-    "black-white": "The user launches a hard-packed\nmud ball to attack.\nIt may also lower the target’s accuracy.",
-    "black-2-white-2": "The user launches a hard-packed\nmud ball to attack.\nIt may also lower the target’s accuracy.",
-    "x-y": "The user launches a hard-packed\nmud ball to attack.\nThis may also lower the target’s accuracy.",
-    "omega-ruby-alpha-sapphire": "The user launches a hard-packed\nmud ball to attack.\nThis may also lower the target’s accuracy.",
-    "sun-moon": "The user launches a hard-packed mud ball to attack.\nThis may also lower the target’s accuracy.",
-    "ultra-sun-ultra-moon": "The user launches a hard-packed mud ball to attack.\nThis may also lower the target’s accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "The user launches a hard-packed mud ball to attack.\nThis may also lower the target’s accuracy.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 426,
+    "key": "mud-bomb",
+    "name": {
+        "japanese-kana": "どろばくだん",
+        "korean": "진흙폭탄",
+        "traditional-chinese": "泥巴炸彈",
+        "french": "Boue-Bombe",
+        "german": "Schlammbombe",
+        "spanish": "Bomba Fango",
+        "italian": "Pantanobomba",
+        "english": "Mud Bomb",
+        "japanese": "どろばくだん",
+        "simplified-chinese": "泥巴炸弹",
+        "latin-american-spanish": "Bomba Fango"
+    },
+    "type": "ground",
+    "category": "special",
+    "contest": "smart",
+    "pp": 10,
+    "power": 65,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 30
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user launches a hard-packed mud ball to attack. It may also lower the target’s accuracy.",
+            "pt": "The user launches a hard-packed mud ball to attack. It may also lower the target’s accuracy.",
+            "hgss": "The user launches a hard-packed mud ball to attack. It may also lower the target’s accuracy.",
+            "bw": "The user launches a hard-packed mud ball to attack. It may also lower the target’s accuracy.",
+            "b2w2": "The user launches a hard-packed mud ball to attack. It may also lower the target’s accuracy.",
+            "xy": "The user launches a hard-packed mud ball to attack. This may also lower the target’s accuracy.",
+            "oras": "The user launches a hard-packed mud ball to attack. This may also lower the target’s accuracy.",
+            "sm": "The user launches a hard-packed mud ball to attack. This may also lower the target’s accuracy.",
+            "usum": "The user launches a hard-packed mud ball to attack. This may also lower the target’s accuracy.",
+            "lgpe": "The user launches a hard-packed mud ball to attack. This may also lower the target’s accuracy.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. Peut aussi baisser la Précision de l’ennemi.",
+            "xy": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. Peut aussi baisser la Précision de l’ennemi.",
+            "oras": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. Peut aussi baisser la Précision de l’ennemi.",
+            "sm": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. Peut aussi baisser la Précision de l’ennemi.",
+            "usum": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. Peut aussi baisser la Précision de l’ennemi.",
+            "lgpe": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. Peut aussi baisser la Précision de l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "かたい　どろのたまを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "oras": "かたい　どろのたまを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "sm": "かたい　どろのたまを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "usum": "かたい　どろのたまを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "lgpe": "かたい　どろのたまを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "단단한 진흙구슬을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "oras": "단단한 진흙구슬을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "sm": "단단한 진흙구슬을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "usum": "단단한 진흙구슬을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "lgpe": "단단한 진흙구슬을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender greift mit einem festen Schlammklumpen an. Senkt eventuell Genauigkeit des Zieles.",
+            "oras": "Anwender greift mit einem festen Schlammklumpen an. Senkt eventuell Genauigkeit des Zieles.",
+            "sm": "Anwender greift mit einem festen Schlammklumpen an. Senkt eventuell Genauigkeit des Zieles.",
+            "usum": "Anwender greift mit einem festen Schlammklumpen an. Senkt eventuell Genauigkeit des Zieles.",
+            "lgpe": "Anwender greift mit einem festen Schlammklumpen an. Senkt eventuell Genauigkeit des Zieles.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "oras": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "sm": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "usum": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "lgpe": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia una compatta palla di fango. Può anche ridurre la precisione del Pokémon colpito.",
+            "oras": "Chi la usa lancia una compatta palla di fango. Può anche ridurre la precisione del Pokémon colpito.",
+            "sm": "Chi la usa lancia una compatta palla di fango. Può anche ridurre la precisione del Pokémon colpito.",
+            "usum": "Chi la usa lancia una compatta palla di fango. Può anche ridurre la precisione del Pokémon colpito.",
+            "lgpe": "Chi la usa lancia una compatta palla di fango. Può anche ridurre la precisione del Pokémon colpito.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "硬い　泥の　弾を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "oras": "硬い　泥の　弾を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "sm": "硬い　泥の　弾を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "usum": "硬い　泥の　弾を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "lgpe": "硬い　泥の　弾を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "oras": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "sm": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "usum": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "lgpe": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 堅硬的泥彈進行攻擊。 有時會降低對手的命中率。",
+            "usum": "向對手發射 堅硬的泥彈進行攻擊。 有時會降低對手的命中率。",
+            "lgpe": "向對手發射 堅硬的泥彈進行攻擊。 有時會降低對手的命中率。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 坚硬的泥弹进行攻击。 有时会降低对手的命中率。",
+            "usum": "向对手发射 坚硬的泥弹进行攻击。 有时会降低对手的命中率。",
+            "lgpe": "向对手发射 坚硬的泥弹进行攻击。 有时会降低对手的命中率。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s accuracy by one stage.",
+        "shortEffect": "Has a chance to lower the target’s accuracy by one stage."
+    }
 }

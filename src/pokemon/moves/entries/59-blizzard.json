@@ -1,47 +1,160 @@
 {
-  "_id": 59,
-  "key": "blizzard",
-  "name": {
-    "english": "Blizzard",
-    "japanese": "ふぶき",
-    "chinese": "暴风雪",
-    "korean": "눈보라",
-    "german": "Ventisca",
-    "french": "Blizzard",
-    "italian": "Blizzard",
-    "spanish": "Bora"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 110,
-  "accuracy": 70,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nfreeze the foe.",
-    "crystal": "An attack that may\nfreeze the foe.",
-    "ruby-sapphire": "Hits the foe with an icy\nstorm that may freeze it.",
-    "emerald": "Hits the foe with an icy\nstorm that may freeze it.",
-    "firered-leafgreen": "The foe is blasted\nwith a blizzard.\nIt may freeze the\nfoe solid.",
-    "diamond-pearl": "A howling blizzard is\nsummoned to strike\nthe foe.\nIt may also freeze\nthe target solid.",
-    "platinum": "A howling blizzard is\nsummoned to strike\nthe foe.\nIt may also freeze\nthe target solid.",
-    "heartgold-soulsilver": "A howling blizzard is\nsummoned to strike\nthe foe.\nIt may also freeze\nthe target solid.",
-    "black-white": "A howling blizzard is summoned to strike\nthe opposing team. It may also freeze\nthem solid.",
-    "black-2-white-2": "A howling blizzard is summoned to strike\nthe opposing team. It may also freeze\nthem solid.",
-    "x-y": "A howling blizzard is summoned to strike\nopposing Pokémon. This may also leave\nthe opposing Pokémon frozen.",
-    "omega-ruby-alpha-sapphire": "A howling blizzard is summoned to strike\nopposing Pokémon. This may also leave\nthe opposing Pokémon frozen.",
-    "sun-moon": "A howling blizzard is summoned to strike opposing\nPokémon. This may also leave the opposing\nPokémon frozen.",
-    "ultra-sun-ultra-moon": "A howling blizzard is summoned to strike opposing\nPokémon. This may also leave the opposing\nPokémon frozen.",
-    "lets-go-pikachu-lets-go-eevee": "A howling blizzard is summoned to strike opposing\nPokémon. This may also leave the opposing\nPokémon frozen.",
-    "sword-shield": "A howling blizzard is summoned to strike opposing\nPokémon. This may also leave the opposing\nPokémon frozen."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.",
-    "shortEffect": "Has a $effect_chance% chance to freeze the target."
-  },
-  "priority": 0
+    "_id": 59,
+    "key": "blizzard",
+    "name": {
+        "japanese-kana": "ふぶき",
+        "korean": "눈보라",
+        "traditional-chinese": "暴風雪",
+        "french": "Blizzard",
+        "german": "Blizzard",
+        "spanish": "Ventisca",
+        "italian": "Bora",
+        "english": "Blizzard",
+        "japanese": "ふぶき",
+        "simplified-chinese": "暴风雪",
+        "latin-american-spanish": "Ventisca"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 110,
+    "accuracy": 70,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "freeze",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "accuracy": 90
+        },
+        "xy": {
+            "power": 120
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "dp": "N’interagit pas avec Grêle."
+        },
+        "english": {
+            "dp": "Does not interact with Hail."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may freeze the foe.",
+            "cr": "An attack that may freeze the foe.",
+            "rs": "Hits the foe with an icy storm that may freeze it.",
+            "em": "Hits the foe with an icy storm that may freeze it.",
+            "frlg": "The foe is blasted with a blizzard. It may freeze the foe solid.",
+            "dp": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid.",
+            "pt": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid.",
+            "hgss": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid.",
+            "bw": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
+            "b2w2": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
+            "xy": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+            "oras": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+            "sm": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+            "usum": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+            "lgpe": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+            "swsh": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+            "la": "A howling blizzard is summoned to strike the target. This may also leave the target with frostbite.",
+            "sv": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
+        },
+        "french": {
+            "bw": "Une violente tempête de neige est déclenchée sur l’ennemi. Peut aussi le geler.",
+            "xy": "Une violente tempête de neige est déclenchée sur l’ennemi. Peut aussi le geler.",
+            "oras": "Une violente tempête de neige est déclenchée sur l’ennemi. Peut aussi le geler.",
+            "sm": "Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler.",
+            "usum": "Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler.",
+            "lgpe": "Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler.",
+            "swsh": "Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler."
+        },
+        "japanese-kana": {
+            "xy": "はげしい　ふぶきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "oras": "はげしい　ふぶきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "sm": "はげしい　ふぶきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "usum": "はげしい　ふぶきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "lgpe": "はげしい　ふぶきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+            "swsh": "はげしい　ふぶきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "oras": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "sm": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "usum": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "lgpe": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+            "swsh": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Ein Schneesturm wütet, der das Ziel einfrieren kann.",
+            "oras": "Ein Schneesturm wütet, der das Ziel einfrieren kann.",
+            "sm": "Ein Schneesturm wütet, der das Ziel einfrieren kann.",
+            "usum": "Ein Schneesturm wütet, der das Ziel einfrieren kann.",
+            "lgpe": "Ein Schneesturm wütet, der das Ziel einfrieren kann.",
+            "swsh": "Ein Schneesturm wütet, der gegnerische Pokémon einfrieren kann."
+        },
+        "spanish": {
+            "xy": "Tormenta de hielo que puede llegar a congelar.",
+            "oras": "Tormenta de hielo que puede llegar a congelar.",
+            "sm": "Tormenta de hielo que puede llegar a congelar.",
+            "usum": "Tormenta de hielo que puede llegar a congelar.",
+            "lgpe": "Tormenta de hielo que puede llegar a congelar.",
+            "swsh": "Tormenta de hielo que puede llegar a congelar."
+        },
+        "italian": {
+            "xy": "Colpisce i nemici intorno con una tremenda tempesta di ghiaccio che può anche congelarli.",
+            "oras": "Colpisce i nemici intorno con una tremenda tempesta di ghiaccio che può anche congelarli.",
+            "sm": "Colpisce i nemici intorno con una tremenda tempesta di ghiaccio che può anche congelarli.",
+            "usum": "Colpisce i nemici intorno con una tremenda tempesta di ghiaccio che può anche congelarli.",
+            "lgpe": "Colpisce i nemici intorno con una tremenda tempesta di ghiaccio che può anche congelarli.",
+            "swsh": "Colpisce i nemici intorno con una tremenda tempesta di ghiaccio che può anche congelarli."
+        },
+        "japanese": {
+            "xy": "激しい　吹雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "oras": "激しい　吹雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "sm": "激しい　吹雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "usum": "激しい　吹雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "lgpe": "激しい　吹雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+            "swsh": "激しい　吹雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tormenta de hielo que puede llegar a congelar.",
+            "oras": "Tormenta de hielo que puede llegar a congelar.",
+            "sm": "Tormenta de hielo que puede llegar a congelar.",
+            "usum": "Tormenta de hielo que puede llegar a congelar.",
+            "lgpe": "Tormenta de hielo que puede llegar a congelar.",
+            "swsh": "Tormenta de hielo que puede llegar a congelar."
+        },
+        "traditional-chinese": {
+            "sm": "將猛烈的暴風雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "usum": "將猛烈的暴風雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "lgpe": "將猛烈的暴風雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。",
+            "swsh": "將猛烈的暴風雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "将猛烈的暴风雪 刮向对手进行攻击。 有时会让对手陷入冰冻状态。",
+            "usum": "将猛烈的暴风雪 刮向对手进行攻击。 有时会让对手陷入冰冻状态。",
+            "lgpe": "将猛烈的暴风雪 刮向对手进行攻击。 有时会让对手陷入冰冻状态。",
+            "swsh": "将猛烈的暴风雪 刮向对手进行攻击。 有时会让对手陷入冰冻状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to freeze the target. During Hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.",
+        "shortEffect": "Has a chance to freeze the target."
+    }
 }

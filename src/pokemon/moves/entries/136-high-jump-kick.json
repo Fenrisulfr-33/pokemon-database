@@ -1,47 +1,163 @@
 {
-  "_id": 136,
-  "key": "high-jump-kick",
-  "name": {
-    "english": "High Jump Kick",
-    "japanese": "とびひざげり",
-    "chinese": "飞膝撞",
-    "korean": "무릎차기",
-    "german": "Pat. Salto Alta",
-    "french": "Turmkick",
-    "italian": "High Jump Kick",
-    "spanish": "Calcinvolo"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 130,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "May miss and hurt\nthe user.",
-    "crystal": "May miss and hurt\nthe user.",
-    "ruby-sapphire": "A jumping knee kick. If it\nmisses, the user is hurt.",
-    "emerald": "A jumping knee kick. If it\nmisses, the user is hurt.",
-    "firered-leafgreen": "A strong jumping\nknee kick. If it\nmisses, the user is\nhurt.",
-    "diamond-pearl": "The foe is attacked\nwith a knee kick from\na jump. If it misses,\nthe user is hurt\ninstead.",
-    "platinum": "The foe is attacked\nwith a knee kick from\na jump. If it misses,\nthe user is hurt\ninstead.",
-    "heartgold-soulsilver": "The foe is attacked\nwith a knee kick from\na jump. If it misses,\nthe user is hurt\ninstead.",
-    "black-white": "The target is attacked with a knee kick\nfrom a jump. If it misses, the user is hurt\ninstead.",
-    "black-2-white-2": "The target is attacked with a knee kick\nfrom a jump. If it misses, the user is hurt\ninstead.",
-    "x-y": "The target is attacked with a knee kick\nfrom a jump. If it misses, the user is\nhurt instead.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with a knee kick\nfrom a jump. If it misses, the user is\nhurt instead.",
-    "sun-moon": "The target is attacked with a knee kick from a jump.\nIf it misses, the user is hurt instead.",
-    "ultra-sun-ultra-moon": "The target is attacked with a knee kick from a jump.\nIf it misses, the user is hurt instead.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with a knee kick from a jump.\nIf it misses, the user is hurt instead.",
-    "sword-shield": "The target is attacked with a knee kick from a jump.\nIf it misses, the user is hurt instead."
-  },
-  "effect": {
-    "full": "Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.\n\nThis move cannot be used while gravity is in effect.",
-    "shortEffect": "If the user misses, it takes half the damage it would have inflicted in recoil."
-  },
-  "priority": 0
+    "_id": 136,
+    "key": "high-jump-kick",
+    "name": {
+        "japanese-kana": "とびひざげり",
+        "korean": "무릎차기",
+        "traditional-chinese": "飛膝踢",
+        "french": "Pied Voltige",
+        "german": "Turmkick",
+        "spanish": "Patada Salto Alta",
+        "italian": "Calcinvolo",
+        "english": "High Jump Kick",
+        "japanese": "とびひざげり",
+        "simplified-chinese": "飞膝踢",
+        "latin-american-spanish": "Patada Salto Alto"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 130,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "power": 85
+        },
+        "bw": {
+            "power": 100,
+            "pp": 20
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "Si cette capacité échoue, le lanceur reçoit 1 point de dommage de recul.",
+            "bw": "Si cette capacité échoue, le lanceur reçoit des dommages égaux à la moitié de ses PV max arrondis à l’inférieur."
+        },
+        "english": {
+            "gs": "If this move misses, the user takes 1 point of damage in recoil.",
+            "bw": "If this move misses, the user takes damage equal to half of its max HP rounded down."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "May miss and hurt the user.",
+            "cr": "May miss and hurt the user.",
+            "rs": "A jumping knee kick. If it misses, the user is hurt.",
+            "em": "A jumping knee kick. If it misses, the user is hurt.",
+            "frlg": "A strong jumping knee kick. If it misses, the user is hurt.",
+            "dp": "The foe is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "pt": "The foe is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "hgss": "The foe is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "bw": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "b2w2": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "xy": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "oras": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "sm": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "usum": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "lgpe": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "swsh": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "la": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+            "sv": "The target is attacked with a knee kick from a jump. If this move misses, the user takes damage instead."
+        },
+        "french": {
+            "bw": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse.",
+            "xy": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse.",
+            "oras": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse.",
+            "sm": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse.",
+            "usum": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse.",
+            "lgpe": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse.",
+            "swsh": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse."
+        },
+        "japanese-kana": {
+            "xy": "ジャンプからの　ひざげりで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "oras": "ジャンプからの　ひざげりで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "sm": "ジャンプからの　ひざげりで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "usum": "ジャンプからの　ひざげりで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "lgpe": "ジャンプからの　ひざげりで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+            "swsh": "ジャンプからの　ひざげりで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "oras": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "sm": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "usum": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "lgpe": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+            "swsh": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Sprungtritt mit Knie. Bei Misserfolg verletzt sich der Anwender selbst.",
+            "oras": "Sprungtritt mit Knie. Bei Misserfolg verletzt sich der Anwender selbst.",
+            "sm": "Sprungtritt mit Knie. Bei Misserfolg verletzt sich der Anwender selbst.",
+            "usum": "Sprungtritt mit Knie. Bei Misserfolg verletzt sich der Anwender selbst.",
+            "lgpe": "Sprungtritt mit Knie. Bei Misserfolg verletzt sich der Anwender selbst.",
+            "swsh": "Sprungtritt mit Knie. Bei Misserfolg verletzt sich der Anwender selbst."
+        },
+        "spanish": {
+            "xy": "Salta muy alto y lanza una patada. Si falla, dañará al usuario.",
+            "oras": "Salta muy alto y lanza una patada. Si falla, dañará al usuario.",
+            "sm": "Salta muy alto y da un rodillazo. Si falla, dañará al usuario.",
+            "usum": "Salta muy alto y da un rodillazo. Si falla, dañará al usuario.",
+            "lgpe": "Salta muy alto y da un rodillazo. Si falla, dañará al usuario.",
+            "swsh": "El usuario salta muy alto y da un rodillazo. Si falla, se hará daño."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con una ginocchiata in volo. Se fallisce, subisce danni.",
+            "oras": "Chi la usa colpisce il bersaglio con una ginocchiata in volo. Se fallisce, subisce danni.",
+            "sm": "Chi la usa colpisce il bersaglio con una ginocchiata in volo. Se fallisce, subisce danni.",
+            "usum": "Chi la usa colpisce il bersaglio con una ginocchiata in volo. Se fallisce, subisce danni.",
+            "lgpe": "Chi la usa colpisce il bersaglio con una ginocchiata in volo. Se fallisce, subisce danni.",
+            "swsh": "Chi la usa colpisce il bersaglio con una ginocchiata in volo. Se fallisce, subisce danni."
+        },
+        "japanese": {
+            "xy": "ジャンプからの　ひざげりで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "oras": "ジャンプからの　ひざげりで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "sm": "ジャンプからの　ひざげりで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "usum": "ジャンプからの　ひざげりで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "lgpe": "ジャンプからの　ひざげりで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+            "swsh": "ジャンプからの　ひざげりで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Salta muy alto y lanza una patada. Si falla, dañará al usuario.",
+            "oras": "Salta muy alto y lanza una patada. Si falla, dañará al usuario.",
+            "sm": "Salta muy alto y da un rodillazo. Si falla, dañará al usuario.",
+            "usum": "Salta muy alto y da un rodillazo. Si falla, dañará al usuario.",
+            "lgpe": "Salta muy alto y da un rodillazo. Si falla, dañará al usuario.",
+            "swsh": "El usuario salta muy alto y da un rodillazo. Si falla, se hará daño."
+        },
+        "traditional-chinese": {
+            "sm": "跳起後用膝蓋踢擊對手。 沒踢中對手時自己會受到傷害。",
+            "usum": "跳起後用膝蓋踢擊對手。 沒踢中對手時自己會受到傷害。",
+            "lgpe": "跳起後用膝蓋踢擊對手。 沒踢中對手時自己會受到傷害。",
+            "swsh": "跳起後用膝蓋踢擊對手。 沒踢中對手時自己會受到傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "跳起后用膝盖撞对手进行攻击。 如果撞偏则自己会受到伤害。",
+            "usum": "跳起后用膝盖撞对手进行攻击。 如果撞偏则自己会受到伤害。",
+            "lgpe": "跳起后用膝盖撞对手进行攻击。 如果撞偏则自己会受到伤害。",
+            "swsh": "跳起后用膝盖撞对手进行攻击。 如果撞偏则自己会受到伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. If this move misses, is blocked by Protect or Detect, or has no effect, the user takes damage equal to half of its max HP rounded down. This move cannot be used while Gravity is in effect.",
+        "shortEffect": "If the user misses, it takes half the damage it would have inflicted in recoil."
+    }
 }

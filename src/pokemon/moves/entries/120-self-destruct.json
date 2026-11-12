@@ -1,47 +1,157 @@
 {
-  "_id": 120,
-  "key": "self-destruct",
-  "name": {
-    "english": "Self-Destruct",
-    "japanese": "じばく",
-    "chinese": "自爆",
-    "korean": "자폭",
-    "german": "Autodestrucción",
-    "french": "Finale",
-    "italian": "Self-Destruct",
-    "spanish": "Autodistruzione"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 200,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Powerful but makes\nthe user faint.",
-    "crystal": "Powerful but makes\nthe user faint.",
-    "ruby-sapphire": "Inflicts severe damage but\nmakes the user faint.",
-    "emerald": "Inflicts severe damage but\nmakes the user faint.",
-    "firered-leafgreen": "The user blows up\nto inflict severe\ndamage, even\nmaking itself faint.",
-    "diamond-pearl": "The user blows up to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.",
-    "platinum": "The user blows up to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.",
-    "heartgold-soulsilver": "The user blows up to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.",
-    "black-white": "The user attacks everything around it\nby causing an explosion.\nThe user faints upon using this move.",
-    "black-2-white-2": "The user attacks everything around it\nby causing an explosion.\nThe user faints upon using this move.",
-    "x-y": "The user attacks everything around it\nby causing an explosion.\nThe user faints upon using this move.",
-    "omega-ruby-alpha-sapphire": "The user attacks everything around it\nby causing an explosion.\nThe user faints upon using this move.",
-    "sun-moon": "The user attacks everything around it by causing an\nexplosion. The user faints upon using this move.",
-    "ultra-sun-ultra-moon": "The user attacks everything around it by causing an\nexplosion. The user faints upon using this move.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks everything around it by causing an\nexplosion. The user faints upon using this move.",
-    "sword-shield": "The user attacks everything around it by causing an\nexplosion. The user faints upon using this move."
-  },
-  "effect": {
-    "full": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
-    "shortEffect": "User faints."
-  },
-  "priority": 0
+    "_id": 120,
+    "key": "self-destruct",
+    "name": {
+        "japanese-kana": "じばく",
+        "korean": "자폭",
+        "traditional-chinese": "自爆",
+        "french": "Destruction",
+        "german": "Finale",
+        "spanish": "Autodestrucción",
+        "italian": "Autodistruzione",
+        "english": "Self-Destruct",
+        "japanese": "じばく",
+        "simplified-chinese": "自爆",
+        "latin-american-spanish": "Autodestrucción"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 200,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "power": 130
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Réduit de moitié la Defense pour le calcul des dommages, ce qui équivaut à doubler la puissance de l’attaque."
+        },
+        "english": {
+            "bw": "Halves the target’s Defense for damage calculation, which is similar to doubling the attack’s power."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Powerful but makes the user faint.",
+            "cr": "Powerful but makes the user faint.",
+            "rs": "Inflicts severe damage but makes the user faint.",
+            "em": "Inflicts severe damage but makes the user faint.",
+            "frlg": "The user blows up to inflict severe damage, even making itself faint.",
+            "dp": "The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.",
+            "pt": "The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.",
+            "hgss": "The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.",
+            "bw": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "b2w2": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "xy": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "oras": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "sm": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "usum": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "lgpe": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "swsh": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+            "la": "The user causes an explosion to inflict damage on the target. This also damages the user.",
+            "sv": "The user attacks everything around it by causing an explosion. The user faints upon using this move."
+        },
+        "french": {
+            "bw": "Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.",
+            "xy": "Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.",
+            "oras": "Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.",
+            "sm": "Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.",
+            "usum": "Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.",
+            "lgpe": "Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O.",
+            "swsh": "Le lanceur explose en blessant tous les Pokémon autour de lui. Le lanceur tombe K.O."
+        },
+        "japanese-kana": {
+            "xy": "ばくはつを　おこして　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。",
+            "oras": "ばくはつを　おこして　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。",
+            "sm": "ばくはつを　おこして　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。",
+            "usum": "ばくはつを　おこして　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。",
+            "lgpe": "ばくはつを　おこして　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。",
+            "swsh": "ばくはつを　おこして　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。"
+        },
+        "korean": {
+            "xy": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다.",
+            "oras": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다.",
+            "sm": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다.",
+            "usum": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다.",
+            "lgpe": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다.",
+            "swsh": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다."
+        },
+        "german": {
+            "xy": "Anwender sprengt sich, richtet rundum Riesenschaden an und wird dabei besiegt.",
+            "oras": "Anwender sprengt sich, richtet rundum Riesenschaden an und wird dabei besiegt.",
+            "sm": "Anwender verursacht eine Explosion, mit der er rundum Riesenschaden anrichtet und selbst kampfunfähig wird.",
+            "usum": "Anwender verursacht eine Explosion, mit der er rundum Riesenschaden anrichtet und selbst kampfunfähig wird.",
+            "lgpe": "Anwender verursacht eine Explosion, mit der er rundum Riesenschaden anrichtet und selbst kampfunfähig wird.",
+            "swsh": "Der Anwender verursacht eine Explosion, mit der er bei allen Pokémon im Umkreis Riesenschaden anrichtet und selbst kampfunfähig wird."
+        },
+        "spanish": {
+            "xy": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "oras": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "sm": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "usum": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "lgpe": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "swsh": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato."
+        },
+        "italian": {
+            "xy": "Chi la usa esplode e infligge danni ai Pokémon che ha intorno, ma poi va KO.",
+            "oras": "Chi la usa esplode e infligge danni ai Pokémon che ha intorno, ma poi va KO.",
+            "sm": "Chi la usa esplode e infligge danni ai Pokémon che ha intorno, ma poi va KO.",
+            "usum": "Chi la usa esplode e infligge danni ai Pokémon che ha intorno, ma poi va KO.",
+            "lgpe": "Chi la usa esplode e infligge danni ai Pokémon che ha intorno, ma poi va KO.",
+            "swsh": "Chi la usa esplode e infligge danni ai Pokémon che ha intorno, ma poi va KO."
+        },
+        "japanese": {
+            "xy": "爆発を　おこして　自分の 周りに　いるものを　攻撃する。 使ったあとに　ひんしに　なる。",
+            "oras": "爆発を　おこして　自分の 周りに　いるものを　攻撃する。 使ったあとに　ひんしに　なる。",
+            "sm": "爆発を　おこして　自分の 周りに　いるものを　攻撃する。 使ったあとに　ひんしに　なる。",
+            "usum": "爆発を　おこして　自分の 周りに　いるものを　攻撃する。 使ったあとに　ひんしに　なる。",
+            "lgpe": "爆発を　おこして　自分の 周りに　いるものを　攻撃する。 使ったあとに　ひんしに　なる。",
+            "swsh": "爆発を　おこして　自分の 周りに　いるものを　攻撃する。 使ったあとに　ひんしに　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "oras": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "sm": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "usum": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "lgpe": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+            "swsh": "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato."
+        },
+        "traditional-chinese": {
+            "sm": "引起爆炸， 攻擊自己周圍所有的寶可夢。 使用後自己會陷入瀕死。",
+            "usum": "引起爆炸， 攻擊自己周圍所有的寶可夢。 使用後自己會陷入瀕死。",
+            "lgpe": "引起爆炸， 攻擊自己周圍所有的寶可夢。 使用後自己會陷入瀕死。",
+            "swsh": "引起爆炸， 攻擊自己周圍所有的寶可夢。 使用後自己會陷入瀕死。"
+        },
+        "simplified-chinese": {
+            "sm": "引发爆炸， 攻击自己周围所有的宝可梦。 使用后陷入濒死。",
+            "usum": "引发爆炸， 攻击自己周围所有的宝可梦。 使用后陷入濒死。",
+            "lgpe": "引发爆炸， 攻击自己周围所有的宝可梦。 使用后陷入濒死。",
+            "swsh": "引发爆炸， 攻击自己周围所有的宝可梦。 使用后陷入濒死。"
+        }
+    },
+    "effect": {
+        "full": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
+        "shortEffect": "User faints."
+    }
 }

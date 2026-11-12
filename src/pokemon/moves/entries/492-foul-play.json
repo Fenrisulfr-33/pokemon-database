@@ -1,39 +1,138 @@
 {
-  "_id": 492,
-  "key": "foul-play",
-  "name": {
-    "english": "Foul Play",
-    "japanese": "イカサマ",
-    "chinese": "诈欺",
-    "korean": "속임수",
-    "german": "Juego Sucio",
-    "french": "Schmarotzer",
-    "italian": "Foul Play",
-    "spanish": "Ripicca"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 95,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user turns the target’s power\nagainst it. The higher the target’s\nAttack stat, the greater the damage.",
-    "black-2-white-2": "The user turns the target’s power\nagainst it. The higher the target’s\nAttack stat, the greater the damage.",
-    "x-y": "The user turns the target’s power\nagainst it. The higher the target’s Attack stat,\nthe greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user turns the target’s power\nagainst it. The higher the target’s Attack stat,\nthe greater the move’s power.",
-    "sun-moon": "The user turns the target’s power against it. The\nhigher the target’s Attack stat, the greater the\nmove’s power.",
-    "ultra-sun-ultra-moon": "The user turns the target’s power against it. The\nhigher the target’s Attack stat, the greater the\nmove’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user turns the target’s power against it.\nThe higher the target’s Attack stat, the greater\nthe damage it deals.",
-    "sword-shield": "The user turns the target’s power against it.\nThe higher the target’s Attack stat, the greater\nthe damage it deals."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Damage is calculated using the target's attacking stat rather than the user's.",
-    "shortEffect": "Calculates damage with the target's attacking stat."
-  },
-  "priority": 0
+    "_id": 492,
+    "key": "foul-play",
+    "name": {
+        "japanese-kana": "イカサマ",
+        "korean": "속임수",
+        "traditional-chinese": "欺詐",
+        "french": "Tricherie",
+        "german": "Schmarotzer",
+        "spanish": "Juego Sucio",
+        "italian": "Ripicca",
+        "english": "Foul Play",
+        "japanese": "イカサマ",
+        "simplified-chinese": "欺诈",
+        "latin-american-spanish": "Juego Sucio"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 95,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.",
+            "xy": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.",
+            "oras": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.",
+            "sm": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.",
+            "usum": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.",
+            "lgpe": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.",
+            "swsh": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts."
+        },
+        "english": {
+            "bw": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the damage.",
+            "b2w2": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the damage.",
+            "xy": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the move’s power.",
+            "oras": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the move’s power.",
+            "sm": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the move’s power.",
+            "usum": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the move’s power.",
+            "lgpe": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the damage it deals.",
+            "swsh": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the damage it deals.",
+            "la": "The user turns the target's power against it. The higher the target's Attack stat, the greater the damage it deals.",
+            "sv": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts."
+        },
+        "japanese-kana": {
+            "xy": "あいての　ちからを　りようする。 たたかっている　あいての　こうげきが たかいほど　ダメージが　あがる。",
+            "oras": "あいての　ちからを　りようする。 たたかっている　あいての　こうげきが たかいほど　ダメージが　あがる。",
+            "sm": "あいての　ちからを　りようする。 たたかっている　あいての　こうげきが たかいほど　ダメージが　あがる。",
+            "usum": "あいての　ちからを　りようする。 たたかっている　あいての　こうげきが たかいほど　ダメージが　あがる。",
+            "lgpe": "あいての　ちからを　りようする。 たたかっている　あいての　こうげきが たかいほど　ダメージが　あがる。",
+            "swsh": "あいての　ちからを　りようする。 たたかっている　あいての　こうげきが たかいほど　ダメージが　あがる。"
+        },
+        "korean": {
+            "xy": "상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.",
+            "oras": "상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.",
+            "sm": "상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.",
+            "usum": "상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.",
+            "lgpe": "상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.",
+            "swsh": "상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다."
+        },
+        "german": {
+            "xy": "Anwender macht sich die Kraft des Zieles zunutze. Je höher dessen Angriff, desto mehr Schaden richtet die Attacke an.",
+            "oras": "Anwender macht sich die Kraft des Zieles zunutze. Je höher dessen Angriff, desto mehr Schaden richtet die Attacke an.",
+            "sm": "Anwender macht sich die Kraft des Zieles zunutze. Je höher dessen Angriff, desto mehr Schaden richtet die Attacke an.",
+            "usum": "Anwender macht sich die Kraft des Zieles zunutze. Je höher dessen Angriff, desto mehr Schaden richtet die Attacke an.",
+            "lgpe": "Anwender macht sich die Kraft des Zieles zunutze. Je höher dessen Angriff, desto mehr Schaden richtet die Attacke an.",
+            "swsh": "Anwender macht sich die Kraft des Zieles zunutze. Je höher dessen Angriff, desto mehr Schaden richtet die Attacke an."
+        },
+        "spanish": {
+            "xy": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "oras": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "sm": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "usum": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "lgpe": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "swsh": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca."
+        },
+        "italian": {
+            "xy": "Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all’Attacco del nemico.",
+            "oras": "Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all’Attacco del nemico.",
+            "sm": "Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all’Attacco del nemico.",
+            "usum": "Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all’Attacco del nemico.",
+            "lgpe": "Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all’Attacco del nemico.",
+            "swsh": "Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all’Attacco del nemico."
+        },
+        "japanese": {
+            "xy": "相手の　力を　利用する。 戦っている　相手の　攻撃が 高いほど　ダメージが　あがる。",
+            "oras": "相手の　力を　利用する。 戦っている　相手の　攻撃が 高いほど　ダメージが　あがる。",
+            "sm": "相手の　力を　利用する。 戦っている　相手の　攻撃が 高いほど　ダメージが　あがる。",
+            "usum": "相手の　力を　利用する。 戦っている　相手の　攻撃が 高いほど　ダメージが　あがる。",
+            "lgpe": "相手の　力を　利用する。 戦っている　相手の　攻撃が 高いほど　ダメージが　あがる。",
+            "swsh": "相手の　力を　利用する。 戦っている　相手の　攻撃が 高いほど　ダメージが　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "oras": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "sm": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "usum": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "lgpe": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+            "swsh": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca."
+        },
+        "traditional-chinese": {
+            "sm": "利用對手的力量進行攻擊。 對手的攻擊越高， 給予對手的傷害越大。",
+            "usum": "利用對手的力量進行攻擊。 對手的攻擊越高， 給予對手的傷害越大。",
+            "lgpe": "利用對手的力量進行攻擊。 對手的攻擊越高， 給予對手的傷害越大。",
+            "swsh": "利用對手的力量進行攻擊。 對手的攻擊越高， 給予對手的傷害越大。"
+        },
+        "simplified-chinese": {
+            "sm": "利用对手的力量进行攻击。 正和自己战斗的对手， 其攻击越高，伤害越大。",
+            "usum": "利用对手的力量进行攻击。 正和自己战斗的对手， 其攻击越高，伤害越大。",
+            "lgpe": "利用对手的力量进行攻击。 正和自己战斗的对手， 其攻击越高，伤害越大。",
+            "swsh": "利用对手的力量进行攻击。 正和自己战斗的对手， 其攻击越高，伤害越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Damage is calculated using the target’s attacking stat rather than the user’s.",
+        "shortEffect": "Calculates damage with the target’s attacking stat."
+    }
 }

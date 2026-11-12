@@ -1,37 +1,135 @@
 {
-  "_id": 568,
-  "key": "noble-roar",
-  "name": {
-    "english": "Noble Roar",
-    "japanese": "おたけび",
-    "chinese": "战吼",
-    "korean": "부르짖기",
-    "german": "Rugido de Guerra",
-    "french": "Kampfgebrüll",
-    "italian": "Noble Roar",
-    "spanish": "Urlo"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 30,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "Letting out a noble roar, the user\nintimidates the target and lowers\nits Attack and Sp. Atk stats.",
-    "omega-ruby-alpha-sapphire": "Letting out a noble roar, the user\nintimidates the target and lowers\nits Attack and Sp. Atk stats.",
-    "sun-moon": "Letting out a noble roar, the user intimidates the\ntarget and lowers its Attack and Sp. Atk stats.",
-    "ultra-sun-ultra-moon": "Letting out a noble roar, the user intimidates the\ntarget and lowers its Attack and Sp. Atk stats.",
-    "lets-go-pikachu-lets-go-eevee": "Letting out a noble roar, the user intimidates the\ntarget and lowers its Attack and Sp. Atk stats.",
-    "sword-shield": "Letting out a noble roar, the user intimidates the\ntarget and lowers its Attack and Sp. Atk stats."
-  },
-  "effect": {
-    "full": "Lowers the target's Attack and Special Attack by one stage.",
-    "shortEffect": "Lowers the target's Attack and Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 568,
+    "key": "noble-roar",
+    "name": {
+        "japanese-kana": "おたけび",
+        "korean": "부르짖기",
+        "traditional-chinese": "戰吼",
+        "french": "Râle Mâle",
+        "german": "Kampfgebrüll",
+        "spanish": "Rugido de Guerra",
+        "italian": "Urlo",
+        "english": "Noble Roar",
+        "japanese": "おたけび",
+        "simplified-chinese": "战吼",
+        "latin-american-spanish": "Rugido de Guerra"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 30,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "おたけびを　あげて あいてを　いかくし　あいての こうげきと　とくこうを　さげる。",
+            "oras": "おたけびを　あげて あいてを　いかくし　あいての こうげきと　とくこうを　さげる。",
+            "sm": "おたけびを　あげて あいてを　いかくし　あいての こうげきと　とくこうを　さげる。",
+            "usum": "おたけびを　あげて あいてを　いかくし　あいての こうげきと　とくこうを　さげる。",
+            "lgpe": "おたけびを　あげて あいてを　いかくし　あいての こうげきと　とくこうを　さげる。",
+            "swsh": "おたけびを　あげて あいてを　いかくし　あいての こうげきと　とくこうを　さげる。"
+        },
+        "korean": {
+            "xy": "우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 떨어뜨린다.",
+            "oras": "우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 떨어뜨린다.",
+            "sm": "우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 떨어뜨린다.",
+            "usum": "우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 떨어뜨린다.",
+            "lgpe": "우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 떨어뜨린다.",
+            "swsh": "우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 떨어뜨린다."
+        },
+        "french": {
+            "xy": "Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale.",
+            "oras": "Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale.",
+            "sm": "Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale.",
+            "usum": "Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale.",
+            "lgpe": "Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale.",
+            "swsh": "Le lanceur pousse un rugissement qui intimide l’ennemi et diminue son Attaque et son Attaque Spéciale."
+        },
+        "german": {
+            "xy": "Der Anwender stößt ein Kampfgebrüll aus, das das Ziel einschüchtert und zugleich seinen Angriffs- und Spezial-Angriffs-Wert senkt.",
+            "oras": "Der Anwender stößt ein Kampfgebrüll aus, das das Ziel einschüchtert und zugleich seinen Angriffs- und Spezial-Angriffs-Wert senkt.",
+            "sm": "Der Anwender stößt ein Kampfgebrüll aus, das das Ziel einschüchtert und zugleich seinen Angriffs- und Spezial-Angriffs-Wert senkt.",
+            "usum": "Der Anwender stößt ein Kampfgebrüll aus, das das Ziel einschüchtert und zugleich seinen Angriffs- und Spezial-Angriffs-Wert senkt.",
+            "lgpe": "Der Anwender stößt ein Kampfgebrüll aus, das das Ziel einschüchtert und zugleich seinen Angriffs- und Spezial-Angriffs-Wert senkt.",
+            "swsh": "Der Anwender stößt ein Kampfgebrüll aus, das das Ziel einschüchtert und zugleich seinen Angriffs- und Spezial-Angriffs-Wert senkt."
+        },
+        "spanish": {
+            "xy": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "oras": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "sm": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "usum": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "lgpe": "Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su Ataque como su Ataque Especial.",
+            "swsh": "Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su Ataque como su Ataque Especial."
+        },
+        "italian": {
+            "xy": "Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l’Attacco e l’Attacco Speciale.",
+            "oras": "Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l’Attacco e l’Attacco Speciale.",
+            "sm": "Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l’Attacco e l’Attacco Speciale.",
+            "usum": "Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l’Attacco e l’Attacco Speciale.",
+            "lgpe": "Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l’Attacco e l’Attacco Speciale.",
+            "swsh": "Chi la usa emette un urlo potente che intimidisce il bersaglio, riducendone l’Attacco e l’Attacco Speciale."
+        },
+        "english": {
+            "xy": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+            "oras": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+            "sm": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+            "usum": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+            "lgpe": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+            "swsh": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+            "la": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+            "sv": "Letting out a noble roar, the user intimidates the target and lowers the target's Attack and Sp. Atk stats."
+        },
+        "japanese": {
+            "xy": "おたけびを　あげて 相手を　威嚇し　相手の 攻撃と　特攻を　さげる。",
+            "oras": "おたけびを　あげて 相手を　威嚇し　相手の 攻撃と　特攻を　さげる。",
+            "sm": "おたけびを　あげて 相手を　威嚇し　相手の 攻撃と　特攻を　さげる。",
+            "usum": "おたけびを　あげて 相手を　威嚇し　相手の 攻撃と　特攻を　さげる。",
+            "lgpe": "おたけびを　あげて 相手を　威嚇し　相手の 攻撃と　特攻を　さげる。",
+            "swsh": "おたけびを　あげて 相手を　威嚇し　相手の 攻撃と　特攻を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "oras": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "sm": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "usum": "Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial.",
+            "lgpe": "Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su Ataque como su Ataque Especial.",
+            "swsh": "Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su Ataque como su Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "發出戰吼威嚇對手， 降低對手的 攻擊和特攻。",
+            "usum": "發出戰吼威嚇對手， 降低對手的 攻擊和特攻。",
+            "lgpe": "發出戰吼威嚇對手， 降低對手的 攻擊和特攻。",
+            "swsh": "發出戰吼威嚇對手， 降低對手的 攻擊和特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "发出战吼威吓对手， 从而降低对手的攻击和特攻。",
+            "usum": "发出战吼威吓对手， 从而降低对手的攻击和特攻。",
+            "lgpe": "发出战吼威吓对手， 从而降低对手的攻击和特攻。",
+            "swsh": "发出战吼威吓对手， 从而降低对手的攻击和特攻。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Attack and Special Attack by one stage.",
+        "shortEffect": "Lowers the target’s Attack and Special Attack by one stage."
+    }
 }

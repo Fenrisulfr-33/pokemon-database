@@ -1,47 +1,146 @@
 {
-  "_id": 138,
-  "key": "dream-eater",
-  "name": {
-    "english": "Dream Eater",
-    "japanese": "ゆめくい",
-    "chinese": "食梦",
-    "korean": "꿈먹기",
-    "german": "Comesueños",
-    "french": "Traumfresser",
-    "italian": "Dream Eater",
-    "spanish": "Mangiasogni"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 100,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Steals HP from a\nsleeping victim.",
-    "crystal": "Steals HP from a\nsleeping victim.",
-    "ruby-sapphire": "Takes one half the damage\ninflicted on a sleeping foe.",
-    "emerald": "Takes one half the damage\ninflicted on a sleeping foe.",
-    "firered-leafgreen": "Absorbs half the\ndamage it inflicted\non a sleeping foe\nto restore HP.",
-    "diamond-pearl": "An attack that works\nonly on a sleeping\nfoe. It absorbs half\nthe damage caused to\nheal the user’s HP.",
-    "platinum": "An attack that works\nonly on a sleeping\nfoe. It absorbs half\nthe damage caused to\nheal the user’s HP.",
-    "heartgold-soulsilver": "An attack that works\nonly on a sleeping\nfoe. It absorbs half\nthe damage caused to\nheal the user’s HP.",
-    "black-white": "The user eats the dreams of a sleeping\ntarget. It absorbs half the damage\ncaused to heal the user’s HP.",
-    "black-2-white-2": "The user eats the dreams of a sleeping\ntarget. It absorbs half the damage\ncaused to heal the user’s HP.",
-    "x-y": "The user eats the dreams of a sleeping\ntarget. It absorbs half the damage\ncaused to heal its own HP.",
-    "omega-ruby-alpha-sapphire": "The user eats the dreams of a sleeping\ntarget. It absorbs half the damage\ncaused to heal its own HP.",
-    "sun-moon": "The user eats the dreams of a sleeping target. It\nabsorbs half the damage caused to heal its own HP.",
-    "ultra-sun-ultra-moon": "The user eats the dreams of a sleeping target. It\nabsorbs half the damage caused to heal its own HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user eats the dreams of a sleeping target. It\nabsorbs half the damage caused to heal its own HP.",
-    "sword-shield": "The user eats the dreams of a sleeping target.\nThe user’s HP is restored by half the damage taken by\nthe target."
-  },
-  "effect": {
-    "full": "Fails if not used on a sleeping Pokémon.  Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
-    "shortEffect": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user."
-  },
-  "priority": 0
+    "_id": 138,
+    "key": "dream-eater",
+    "name": {
+        "japanese-kana": "ゆめくい",
+        "korean": "꿈먹기",
+        "traditional-chinese": "食夢",
+        "french": "Dévorêve",
+        "german": "Traumfresser",
+        "spanish": "Comesueños",
+        "italian": "Mangiasogni",
+        "english": "Dream Eater",
+        "japanese": "ゆめくい",
+        "simplified-chinese": "食梦",
+        "latin-american-spanish": "Comesueños"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "smart",
+    "pp": 15,
+    "power": 100,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 50,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Steals HP from a sleeping victim.",
+            "cr": "Steals HP from a sleeping victim.",
+            "rs": "Takes one half the damage inflicted on a sleeping foe.",
+            "em": "Takes one half the damage inflicted on a sleeping foe.",
+            "frlg": "Absorbs half the damage it inflicted on a sleeping foe to restore HP.",
+            "dp": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP.",
+            "pt": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP.",
+            "hgss": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP.",
+            "bw": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user’s HP.",
+            "b2w2": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user’s HP.",
+            "xy": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+            "oras": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+            "sm": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+            "usum": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+            "lgpe": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+            "swsh": "The user eats the dreams of a sleeping target. The user’s HP is restored by half the damage taken by the target.",
+            "la": "The user eats the dreams of a sleeping target. The user's HP is restored by half the damage taken by the target.",
+            "sv": "The user eats the dreams of a sleeping target. The user's HP is restored by up to half the damage taken by the target."
+        },
+        "french": {
+            "bw": "Le lanceur mange le rêve de l’ennemi endormi. Le lanceur récupère en PV la moitié des dégâts infligés.",
+            "xy": "Le lanceur mange le rêve de l’ennemi endormi. Il récupère en PV la moitié des dégâts infligés.",
+            "oras": "Le lanceur mange le rêve de l’ennemi endormi. Il récupère en PV la moitié des dégâts infligés.",
+            "sm": "Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés.",
+            "usum": "Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés.",
+            "lgpe": "Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés.",
+            "swsh": "Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés."
+        },
+        "japanese-kana": {
+            "xy": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。",
+            "oras": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。",
+            "sm": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。",
+            "usum": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。",
+            "lgpe": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。",
+            "swsh": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다.",
+            "oras": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다.",
+            "sm": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다.",
+            "usum": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다.",
+            "lgpe": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다.",
+            "swsh": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다."
+        },
+        "german": {
+            "xy": "Attacke gegen schlafendes Ziel. Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "oras": "Attacke gegen schlafendes Ziel. Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "sm": "Attacke gegen schlafendes Ziel. Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "usum": "Attacke gegen schlafendes Ziel. Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "lgpe": "Frisst die Träume eines schlafenden Ziels. Anwender wird um die Hälfte des zugefügten Schadens geheilt.",
+            "swsh": "Frisst die Träume eines schlafenden Zieles. Anwender wird um die Hälfte des zugefügten Schadens geheilt."
+        },
+        "spanish": {
+            "xy": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "oras": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "sm": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "usum": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "lgpe": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "swsh": "Restaura al usuario la mitad del daño causado a un objetivo dormido."
+        },
+        "italian": {
+            "xy": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.",
+            "oras": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.",
+            "sm": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.",
+            "usum": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.",
+            "lgpe": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.",
+            "swsh": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "寝ている　相手の　夢を　食べて 攻撃する。ダメージの　半分の ＨＰを　回復する。",
+            "oras": "寝ている　相手の　夢を　食べて 攻撃する。ダメージの　半分の ＨＰを　回復する。",
+            "sm": "寝ている　相手の　夢を　食べて 攻撃する。　ダメージの　半分の ＨＰを　回復する。",
+            "usum": "寝ている　相手の　夢を　食べて 攻撃する。　ダメージの　半分の ＨＰを　回復する。",
+            "lgpe": "寝ている　相手の　夢を　食べて 攻撃する。　ダメージの　半分の ＨＰを　回復する。",
+            "swsh": "寝ている　相手の　夢を　食べて 攻撃する。　ダメージの　半分の ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "oras": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "sm": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "usum": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "lgpe": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+            "swsh": "Restaura al usuario la mitad del daño causado a un objetivo dormido."
+        },
+        "traditional-chinese": {
+            "sm": "吃掉熟睡中對手的夢 進行攻擊。可以回復給予對手 傷害的一半ＨＰ。",
+            "usum": "吃掉熟睡中對手的夢 進行攻擊。可以回復給予對手 傷害的一半ＨＰ。",
+            "lgpe": "吃掉熟睡中對手的夢 進行攻擊。可以回復給予對手 傷害的一半HP。",
+            "swsh": "吃掉熟睡中對手的夢 進行攻擊。可以回復給予對手 傷害的一半ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "吃掉正在睡觉的对手的梦 进行攻击。回复对手 所受到伤害的一半ＨＰ。",
+            "usum": "吃掉正在睡觉的对手的梦 进行攻击。回复对手 所受到伤害的一半ＨＰ。",
+            "lgpe": "吃掉正在睡觉的对手的梦 进行攻击。回复对手 所受到伤害的一半HP。",
+            "swsh": "吃掉正在睡觉的对手的梦 进行攻击。回复对手 所受到伤害的一半ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Fails if not used on a sleeping Pokémon.  Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+        "shortEffect": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user."
+    }
 }

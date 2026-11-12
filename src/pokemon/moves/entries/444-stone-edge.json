@@ -1,42 +1,141 @@
 {
-  "_id": 444,
-  "key": "stone-edge",
-  "name": {
-    "english": "Stone Edge",
-    "japanese": "ストーンエッジ",
-    "chinese": "尖石攻击",
-    "korean": "스톤에지",
-    "german": "Roca Afilada",
-    "french": "Steinkante",
-    "italian": "Stone Edge",
-    "spanish": "Pietrataglio"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 5,
-  "power": 100,
-  "accuracy": 80,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit ratio.\n",
-    "platinum": "The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit ratio.\n",
-    "heartgold-soulsilver": "The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit ratio.\n",
-    "black-white": "The user stabs the foe with\nsharpened stones from below.\nIt has a high critical-hit ratio.",
-    "black-2-white-2": "The user stabs the foe with\nsharpened stones from below.\nIt has a high critical-hit ratio.",
-    "x-y": "The user stabs the target with\nsharpened stones from below.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The user stabs the target with\nsharpened stones from below.\nCritical hits land more easily.",
-    "sun-moon": "The user stabs the target from below with\nsharpened stones. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "The user stabs the target from below with\nsharpened stones. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The user stabs the target from below with\nsharpened stones. Critical hits land more easily.",
-    "sword-shield": "The user stabs the target from below with\nsharpened stones. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 444,
+    "key": "stone-edge",
+    "name": {
+        "japanese-kana": "ストーンエッジ",
+        "korean": "스톤에지",
+        "traditional-chinese": "尖石攻擊",
+        "french": "Lame de Roc",
+        "german": "Steinkante",
+        "spanish": "Roca Afilada",
+        "italian": "Pietrataglio",
+        "english": "Stone Edge",
+        "japanese": "ストーンエッジ",
+        "simplified-chinese": "尖石攻击",
+        "latin-american-spanish": "Roca Afilada"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 5,
+    "power": 100,
+    "accuracy": 80,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user stabs the foe with a sharpened stone. It has a high critical-hit ratio.",
+            "pt": "The user stabs the foe with a sharpened stone. It has a high critical-hit ratio.",
+            "hgss": "The user stabs the foe with a sharpened stone. It has a high critical-hit ratio.",
+            "bw": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
+            "b2w2": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
+            "xy": "The user stabs the target with sharpened stones from below. Critical hits land more easily.",
+            "oras": "The user stabs the target with sharpened stones from below. Critical hits land more easily.",
+            "sm": "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
+            "usum": "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
+            "lgpe": "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
+            "swsh": "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
+            "la": "The user stabs the target with sharpened stones. This move has a heightened chance of landing a critical hit.",
+            "sv": "The user stabs the target with sharpened stones. This move has a heightened chance of landing a critical hit."
+        },
+        "french": {
+            "bw": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critiques élevé.",
+            "xy": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critiques élevé.",
+            "oras": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critiques élevé.",
+            "sm": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critique élevé.",
+            "usum": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critique élevé.",
+            "lgpe": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critique élevé.",
+            "swsh": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critiques élevé."
+        },
+        "japanese-kana": {
+            "xy": "とがった　いわを あいてに　つきさして　こうげきする。 きゅうしょに　あたりやすい。",
+            "oras": "とがった　いわを あいてに　つきさして　こうげきする。 きゅうしょに　あたりやすい。",
+            "sm": "とがった　いわを あいてに　つきさして　こうげきする。 きゅうしょに　あたりやすい。",
+            "usum": "とがった　いわを あいてに　つきさして　こうげきする。 きゅうしょに　あたりやすい。",
+            "lgpe": "とがった　いわを あいてに　つきさして　こうげきする。 きゅうしょに　あたりやすい。",
+            "swsh": "とがった　いわを あいてに　つきさして　こうげきする。 きゅうしょに　あたりやすい。"
+        },
+        "korean": {
+            "xy": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞기 쉽다.",
+            "oras": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞기 쉽다.",
+            "sm": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞기 쉽다.",
+            "usum": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞기 쉽다.",
+            "lgpe": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞기 쉽다.",
+            "swsh": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Anwender sticht das Ziel mit spitzen Steinen. Hohe Volltrefferquote.",
+            "oras": "Anwender sticht das Ziel mit spitzen Steinen. Hohe Volltrefferquote.",
+            "sm": "Anwender sticht das Ziel mit spitzen Steinen. Hohe Volltrefferquote.",
+            "usum": "Anwender sticht das Ziel mit spitzen Steinen. Hohe Volltrefferquote.",
+            "lgpe": "Anwender sticht das Ziel mit spitzen Steinen. Hohe Volltrefferquote.",
+            "swsh": "Anwender schleudert scharfe Steine auf das Ziel. Hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "oras": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "sm": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "usum": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "lgpe": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "swsh": "Clava piedras muy afiladas al objetivo. Suele ser crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.",
+            "oras": "Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.",
+            "sm": "Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.",
+            "usum": "Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.",
+            "lgpe": "Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.",
+            "swsh": "Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "とがった　岩を 相手に　突き刺して　攻撃する。 急所に　当たりやすい。",
+            "oras": "とがった　岩を 相手に　突き刺して　攻撃する。 急所に　当たりやすい。",
+            "sm": "とがった　岩を 相手に　突き刺して　攻撃する。 急所に　当たりやすい。",
+            "usum": "とがった　岩を 相手に　突き刺して　攻撃する。 急所に　当たりやすい。",
+            "lgpe": "とがった　岩を 相手に　突き刺して　攻撃する。 急所に　当たりやすい。",
+            "swsh": "とがった　岩を 相手に　突き刺して　攻撃する。 急所に　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "oras": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "sm": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "usum": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "lgpe": "Clava piedras muy afiladas al objetivo. Suele ser crítico.",
+            "swsh": "Clava piedras muy afiladas al objetivo. Suele ser crítico."
+        },
+        "traditional-chinese": {
+            "sm": "用尖銳的岩石 刺進對手進行攻擊。 容易擊中要害。",
+            "usum": "用尖銳的岩石 刺進對手進行攻擊。 容易擊中要害。",
+            "lgpe": "用尖銳的岩石 刺進對手進行攻擊。 容易擊中要害。",
+            "swsh": "用尖銳的岩石 刺進對手進行攻擊。 容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖尖的岩石 刺入对手进行攻击。 容易击中要害。",
+            "usum": "用尖尖的岩石 刺入对手进行攻击。 容易击中要害。",
+            "lgpe": "用尖尖的岩石 刺入对手进行攻击。 容易击中要害。",
+            "swsh": "用尖尖的岩石 刺入对手进行攻击。 容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 371,
-  "key": "payback",
-  "name": {
-    "english": "Payback",
-    "japanese": "しっぺがえし",
-    "chinese": "报复",
-    "korean": "보복",
-    "german": "Vendetta",
-    "french": "Gegenstoß",
-    "italian": "Payback",
-    "spanish": "Rivincita"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "If the user can use\nthis attack after the\nfoe attacks, its\npower is doubled.\n",
-    "platinum": "If the user can use\nthis attack after the\nfoe attacks, its\npower is doubled.\n",
-    "heartgold-soulsilver": "If the user can use\nthis attack after the\nfoe attacks, its\npower is doubled.\n",
-    "black-white": "If the user moves after the target,\nthis attack’s power will be doubled.",
-    "black-2-white-2": "If the user moves after the target,\nthis attack’s power will be doubled.",
-    "x-y": "The user stores power, then attacks.\nIf the user moves after the target,\nthis attack’s power will be doubled.",
-    "omega-ruby-alpha-sapphire": "The user stores power, then attacks.\nIf the user moves after the target,\nthis attack’s power will be doubled.",
-    "sun-moon": "The user stores power, then attacks. If the user\nmoves after the target, this attack’s power will\nbe doubled.",
-    "ultra-sun-ultra-moon": "The user stores power, then attacks. If the user\nmoves after the target, this attack’s power will\nbe doubled.",
-    "lets-go-pikachu-lets-go-eevee": "The user stores power, then attacks. If the user\nmoves after the target, this attack’s power will\nbe doubled.",
-    "sword-shield": "The user stores power, then attacks. If the user\nmoves after the target, this attack’s power will\nbe doubled."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target uses a move or switches out this turn before this move is used, this move has double power.",
-    "shortEffect": "Power is doubled if the target has already moved this turn."
-  },
-  "priority": 0
+    "_id": 371,
+    "key": "payback",
+    "name": {
+        "japanese-kana": "しっぺがえし",
+        "korean": "보복",
+        "traditional-chinese": "以牙還牙",
+        "french": "Représailles",
+        "german": "Gegenstoß",
+        "spanish": "Vendetta",
+        "italian": "Rivincita",
+        "english": "Payback",
+        "japanese": "しっぺがえし",
+        "simplified-chinese": "以牙还牙",
+        "latin-american-spanish": "Revancha"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "If the user can use this attack after the foe attacks, its power is doubled.",
+            "pt": "If the user can use this attack after the foe attacks, its power is doubled.",
+            "hgss": "If the user can use this attack after the foe attacks, its power is doubled.",
+            "bw": "If the user moves after the target, this attack’s power will be doubled.",
+            "b2w2": "If the user moves after the target, this attack’s power will be doubled.",
+            "xy": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+            "oras": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+            "sm": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+            "usum": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+            "lgpe": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+            "swsh": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+            "la": "The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.",
+            "sv": "The user stores power, then attacks. This move's power is doubled if the user moves after the target."
+        },
+        "french": {
+            "bw": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+            "xy": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+            "oras": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+            "sm": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+            "usum": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+            "lgpe": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+            "swsh": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。",
+            "oras": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。",
+            "sm": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。",
+            "usum": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。",
+            "lgpe": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。",
+            "swsh": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。"
+        },
+        "korean": {
+            "xy": "모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.",
+            "oras": "모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.",
+            "sm": "모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.",
+            "usum": "모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.",
+            "lgpe": "모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.",
+            "swsh": "모아서 공격한다. 상대보다 나중에 공격할 수 있으면 기술의 위력은 2배가 된다."
+        },
+        "german": {
+            "xy": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Kraft der Attacke.",
+            "oras": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Kraft der Attacke.",
+            "sm": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Stärke der Attacke.",
+            "usum": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Stärke der Attacke.",
+            "lgpe": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Stärke der Attacke.",
+            "swsh": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Stärke der Attacke."
+        },
+        "spanish": {
+            "xy": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "oras": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "sm": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "usum": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "lgpe": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "swsh": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes."
+        },
+        "italian": {
+            "xy": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se agisce dopo il Pokémon colpito.",
+            "oras": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se agisce dopo il Pokémon colpito.",
+            "sm": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se il Pokémon agisce dopo il bersaglio.",
+            "usum": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se il Pokémon agisce dopo il bersaglio.",
+            "lgpe": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se il Pokémon agisce dopo il bersaglio.",
+            "swsh": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se il Pokémon agisce dopo il bersaglio."
+        },
+        "japanese": {
+            "xy": "ためこんで　攻撃する。 相手より　あとに　攻撃できると 技の　威力は　２倍に　なる。",
+            "oras": "ためこんで　攻撃する。 相手より　あとに　攻撃できると 技の　威力は　２倍に　なる。",
+            "sm": "ためこんで　攻撃する。 相手より　あとに　攻撃できると 技の　威力は　２倍に　なる。",
+            "usum": "ためこんで　攻撃する。 相手より　あとに　攻撃できると 技の　威力は　２倍に　なる。",
+            "lgpe": "ためこんで　攻撃する。 相手より　あとに　攻撃できると 技の　威力は　２倍に　なる。",
+            "swsh": "ためこんで　攻撃する。 相手より　あとに　攻撃できると 技の　威力は　２倍に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "oras": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "sm": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "usum": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "lgpe": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+            "swsh": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes."
+        },
+        "traditional-chinese": {
+            "sm": "累積力量進行攻擊。 若在對手之後進行攻擊， 招式的威力會變成２倍。",
+            "usum": "累積力量進行攻擊。 若在對手之後進行攻擊， 招式的威力會變成２倍。",
+            "lgpe": "累積力量進行攻擊。 若在對手之後進行攻擊， 招式的威力會變成２倍。",
+            "swsh": "累積力量進行攻擊。 若在對手之後進行攻擊， 招式的威力會變成２倍。"
+        },
+        "simplified-chinese": {
+            "sm": "蓄力攻击。 如果能在对手之后攻击， 招式的威力会变成２倍。",
+            "usum": "蓄力攻击。 如果能在对手之后攻击， 招式的威力会变成２倍。",
+            "lgpe": "蓄力攻击。 如果能在对手之后攻击， 招式的威力会变成２倍。",
+            "swsh": "蓄力攻击。 如果能在对手之后攻击， 招式的威力会变成２倍。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target uses a move or switches out this turn before this move is used, this move has double power.",
+        "shortEffect": "Power is doubled if the target has already moved this turn."
+    }
 }

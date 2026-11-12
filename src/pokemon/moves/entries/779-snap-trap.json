@@ -1,32 +1,82 @@
 {
-  "_id": 779,
-  "key": "snap-trap",
-  "name": {
-    "english": "Snap Trap",
-    "japanese": "トラバサミ",
-    "chinese": "捕獸夾",
-    "korean": "집게덫",
-    "german": "Cepo",
-    "french": "Fangeisen",
-    "italian": "Snap Trap",
-    "spanish": "Tagliola"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 35,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user snares the target in a snap trap for four to\nfive turns."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
-    "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
-  },
-  "priority": 0
+    "_id": 779,
+    "key": "snap-trap",
+    "name": {
+        "japanese-kana": "トラバサミ",
+        "korean": "집게덫",
+        "traditional-chinese": "捕獸夾",
+        "french": "Troquenard",
+        "german": "Fangeisen",
+        "spanish": "Cepo",
+        "italian": "Tagliola",
+        "english": "Snap Trap",
+        "japanese": "トラバサミ",
+        "simplified-chinese": "捕兽夹",
+        "latin-american-spanish": "Trampa Presión"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 35,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 5,
+        "maxTurns": 6,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "トラバサミで　とらえて ４－５ターンの　あいだ あいてを　はさんで　こうげきする。"
+        },
+        "korean": {
+            "swsh": "집게덫으로 붙잡은 뒤 4-5턴 동안 상대를 끼워서 공격한다."
+        },
+        "traditional-chinese": {
+            "swsh": "用捕獸夾， 在４～５回合內 夾住對手進行攻擊。"
+        },
+        "french": {
+            "swsh": "Le lanceur piège sa cible dans son Troquenard d’acier et lui inflige des dégâts pendant quatre ou cinq tours."
+        },
+        "german": {
+            "swsh": "Das Ziel wird vier bis fünf Runden lang in einem Fangeisen festgehalten und angegriffen."
+        },
+        "spanish": {
+            "swsh": "Cepo que atrapa al objetivo durante cuatro o cinco turnos y le causa daño mientras se encuentra preso."
+        },
+        "italian": {
+            "swsh": "Chi la usa intrappola il bersaglio in una tagliola e lo attacca per quattro o cinque turni."
+        },
+        "english": {
+            "swsh": "The user snares the target in a snap trap for four to five turns."
+        },
+        "japanese": {
+            "swsh": "トラバサミで　捕らえて ４－５ターンの　間 相手を　はさんで　攻撃する。"
+        },
+        "simplified-chinese": {
+            "swsh": "使用捕兽夹， 在４～５回合内， 夹住对手进行攻击。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Cepo que atrapa al objetivo durante cuatro o cinco turnos y le causa daño mientras se encuentra preso."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

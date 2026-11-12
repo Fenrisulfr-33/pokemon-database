@@ -1,39 +1,138 @@
 {
-  "_id": 503,
-  "key": "scald",
-  "name": {
-    "english": "Scald",
-    "japanese": "ねっとう",
-    "chinese": "热水",
-    "korean": "열탕",
-    "german": "Escaldar",
-    "french": "Siedewasser",
-    "italian": "Scald",
-    "spanish": "Idrovampata"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user shoots boiling hot water at\nits target. It may also leave the target\nwith a burn.",
-    "black-2-white-2": "The user shoots boiling hot water at\nits target. It may also leave the target\nwith a burn.",
-    "x-y": "The user shoots boiling hot water at\nits target. This may also leave the target\nwith a burn.",
-    "omega-ruby-alpha-sapphire": "The user shoots boiling hot water at\nits target. This may also leave the target\nwith a burn.",
-    "sun-moon": "The user shoots boiling hot water at its target.\nThis may also leave the target with a burn.",
-    "ultra-sun-ultra-moon": "The user shoots boiling hot water at its target.\nThis may also leave the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user shoots boiling hot water at its target.\nThis may also leave the target with a burn.",
-    "sword-shield": "The user shoots boiling hot water at its target.\nThis may also leave the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 503,
+    "key": "scald",
+    "name": {
+        "japanese-kana": "ねっとう",
+        "korean": "열탕",
+        "traditional-chinese": "熱水",
+        "french": "Ébullition",
+        "german": "Siedewasser",
+        "spanish": "Escaldar",
+        "italian": "Idrovampata",
+        "english": "Scald",
+        "japanese": "ねっとう",
+        "simplified-chinese": "热水",
+        "latin-american-spanish": "Escaldar"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.",
+            "xy": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.",
+            "oras": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.",
+            "sm": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.",
+            "usum": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.",
+            "lgpe": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.",
+            "swsh": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler."
+        },
+        "english": {
+            "bw": "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
+            "b2w2": "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
+            "xy": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+            "oras": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+            "sm": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+            "usum": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+            "lgpe": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+            "swsh": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+            "la": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+            "sv": "The user attacks by shooting boiling hot water at the target. This may also leave the target with a burn."
+        },
+        "japanese-kana": {
+            "xy": "あつく　にえたぎる　みずを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "あつく　にえたぎる　 ずを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "あつく　にえたぎる　みずを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "あつく　にえたぎる　みずを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "あつく　にえたぎる　みずを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "あつく　にえたぎる　みずを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Heizt dem Ziel mit einem Schwall siedend heißen Kochwassers ein. Das Ziel erleidet dabei eventuell Verbrennungen.",
+            "oras": "Heizt dem Ziel mit einem Schwall siedend heißen Kochwassers ein. Das Ziel erleidet dabei eventuell Verbrennungen.",
+            "sm": "Heizt dem Ziel mit einem Schwall siedend heißen Kochwassers ein. Das Ziel erleidet dabei eventuell Verbrennungen.",
+            "usum": "Heizt dem Ziel mit einem Schwall siedend heißen Kochwassers ein. Das Ziel erleidet dabei eventuell Verbrennungen.",
+            "lgpe": "Heizt dem Ziel mit einem Schwall siedend heißen Kochwassers ein. Das Ziel erleidet dabei eventuell Verbrennungen.",
+            "swsh": "Heizt dem Ziel mit einem Schwall siedend heißen Kochwassers ein. Das Ziel erleidet dabei eventuell Verbrennungen."
+        },
+        "spanish": {
+            "xy": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "oras": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "sm": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "usum": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "lgpe": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "swsh": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio con un getto d’acqua bollente che può anche scottarlo.",
+            "oras": "Chi la usa attacca il bersaglio con un getto d’acqua bollente che può anche scottarlo.",
+            "sm": "Chi la usa attacca il bersaglio con un getto d’acqua bollente che può anche scottarlo.",
+            "usum": "Chi la usa attacca il bersaglio con un getto d’acqua bollente che può anche scottarlo.",
+            "lgpe": "Chi la usa attacca il bersaglio con un getto d’acqua bollente che può anche scottarlo.",
+            "swsh": "Chi la usa attacca il bersaglio con un getto d’acqua bollente che può anche scottarlo."
+        },
+        "japanese": {
+            "xy": "熱く　煮えたぎる　水を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "熱く　煮えたぎる　水を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "熱く　煮えたぎる　水を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "熱く　煮えたぎる　水を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "熱く　煮えたぎる　水を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "熱く　煮えたぎる　水を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "oras": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "sm": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "usum": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "lgpe": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.",
+            "swsh": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "向對手噴射 滾燙的熱水進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "usum": "向對手噴射 滾燙的熱水進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "向對手噴射 滾燙的熱水進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "向對手噴射 滾燙的熱水進行攻擊。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手喷射 煮得翻滚的开水进行攻击。 有时会让对手陷入灼伤状态。",
+            "usum": "向对手喷射 煮得翻滚的开水进行攻击。 有时会让对手陷入灼伤状态。",
+            "lgpe": "向对手喷射 煮得翻滚的开水进行攻击。 有时会让对手陷入灼伤状态。",
+            "swsh": "向对手喷射 煮得翻滚的开水进行攻击。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

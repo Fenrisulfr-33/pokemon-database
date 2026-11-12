@@ -1,37 +1,135 @@
 {
-  "_id": 573,
-  "key": "freeze-dry",
-  "name": {
-    "english": "Freeze-Dry",
-    "japanese": "フリーズドライ",
-    "chinese": "冰冻干燥",
-    "korean": "프리즈드라이",
-    "german": "Liofilización",
-    "french": "Gefriertrockner",
-    "italian": "Freeze-Dry",
-    "spanish": "Liofilizzazione"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user rapidly cools the target.\nThis may also leave the target frozen.\nThis move is super effective on Water types.",
-    "omega-ruby-alpha-sapphire": "The user rapidly cools the target.\nThis may also leave the target frozen.\nThis move is super effective on Water types.",
-    "sun-moon": "The user rapidly cools the target. This may also\nleave the target frozen. This move is super effective\non Water types.",
-    "ultra-sun-ultra-moon": "The user rapidly cools the target. This may also\nleave the target frozen. This move is super effective\non Water types.",
-    "lets-go-pikachu-lets-go-eevee": "The user rapidly cools the target. This may also\nleave the target frozen. This move is super effective\non Water types.",
-    "sword-shield": "The user rapidly cools the target. This may also\nleave the target frozen. This move is super effective\non Water types."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  This move is super-effective against the water type.\n\nThe target's other type will affect damage as usual.  If this move's type is changed, it remains super-effective against Water regardless of its type.",
-    "shortEffect": "Super-effective against water."
-  },
-  "priority": 0
+    "_id": 573,
+    "key": "freeze-dry",
+    "name": {
+        "japanese-kana": "フリーズドライ",
+        "korean": "프리즈드라이",
+        "traditional-chinese": "冷凍乾燥",
+        "french": "Lyophilisation",
+        "german": "Gefriertrockner",
+        "spanish": "Liofilización",
+        "italian": "Liofilizzazione",
+        "english": "Freeze-Dry",
+        "japanese": "フリーズドライ",
+        "simplified-chinese": "冷冻干燥",
+        "latin-american-spanish": "Liofilización"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": null,
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "freeze",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "あいてを　きゅうげきに　ひやして こおり　じょうたいに　することが　ある。 みずタイプにも　こうかばつぐんに　なる。",
+            "oras": "あいてを　きゅうげきに　ひやして こおり　じょうたいに　することが　ある。  ずタイプにも　こうかばつぐんに　なる。",
+            "sm": "あいてを　きゅうげきに　ひやして こおり　じょうたいに　することが　ある。 みずタイプにも　こうかばつぐんに　なる。",
+            "usum": "あいてを　きゅうげきに　ひやして こおり　じょうたいに　することが　ある。 みずタイプにも　こうかばつぐんに　なる。",
+            "lgpe": "あいてを　きゅうげきに　ひやして こおり　じょうたいに　することが　ある。 みずタイプにも　こうかばつぐんに　なる。",
+            "swsh": "あいてを　きゅうげきに　ひやして こおり　じょうたいに　することが　ある。 みずタイプにも　こうかばつぐんに　なる。"
+        },
+        "korean": {
+            "xy": "상대를 급격히 차갑게 하여 얼음 상태로 만들 때가 있다. 물타입 포켓몬에게도 효과가 굉장해진다.",
+            "oras": "상대를 급격히 차갑게 하여 얼음 상태로 만들 때가 있다. 물타입 포켓몬에게도 효과가 굉장해진다.",
+            "sm": "상대를 급격히 차갑게 하여 얼음 상태로 만들 때가 있다. 물타입 포켓몬에게도 효과가 굉장해진다.",
+            "usum": "상대를 급격히 차갑게 하여 얼음 상태로 만들 때가 있다. 물타입 포켓몬에게도 효과가 굉장해진다.",
+            "lgpe": "상대를 급격히 차갑게 하여 얼음 상태로 만들 때가 있다. 물타입 포켓몬에게도 효과가 굉장해진다.",
+            "swsh": "상대를 급격히 차갑게 하여 얼음 상태로 만들 때가 있다. 물타입 포켓몬에게도 효과가 굉장해진다."
+        },
+        "french": {
+            "xy": "Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau.",
+            "oras": "Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau.",
+            "sm": "Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau.",
+            "usum": "Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau.",
+            "lgpe": "Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau.",
+            "swsh": "Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau."
+        },
+        "german": {
+            "xy": "Das Ziel wird stark abgekühlt und manchmal sogar eingefroren. Die Attacke ist sehr effektiv gegen Wasser-Pokémon.",
+            "oras": "Das Ziel wird stark abgekühlt und manchmal sogar eingefroren. Die Attacke ist sehr effektiv gegen Wasser-Pokémon.",
+            "sm": "Das Ziel wird stark abgekühlt und manchmal sogar eingefroren. Die Attacke ist sehr effektiv gegen Wasser-Pokémon.",
+            "usum": "Das Ziel wird stark abgekühlt und manchmal sogar eingefroren. Die Attacke ist sehr effektiv gegen Wasser-Pokémon.",
+            "lgpe": "Das Ziel wird stark abgekühlt und manchmal sogar eingefroren. Die Attacke ist sehr effektiv gegen Wasser-Pokémon.",
+            "swsh": "Das Ziel wird stark abgekühlt und manchmal sogar eingefroren. Die Attacke ist sehr effektiv gegen Wasser-Pokémon."
+        },
+        "spanish": {
+            "xy": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "oras": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "sm": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "usum": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "lgpe": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "swsh": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua."
+        },
+        "italian": {
+            "xy": "Chi la usa raffredda istantaneamente il bersaglio e può congelarlo. Risulta superefficace contro i Pokémon di tipo Acqua.",
+            "oras": "Chi la usa raffredda istantaneamente il bersaglio e può congelarlo. Risulta superefficace contro i Pokémon di tipo Acqua.",
+            "sm": "Chi la usa raffredda istantaneamente il bersaglio e può congelarlo. Risulta superefficace contro i Pokémon di tipo Acqua.",
+            "usum": "Chi la usa raffredda istantaneamente il bersaglio e può congelarlo. Risulta superefficace contro i Pokémon di tipo Acqua.",
+            "lgpe": "Chi la usa raffredda istantaneamente il bersaglio e può congelarlo. Risulta superefficace contro i Pokémon di tipo Acqua.",
+            "swsh": "Chi la usa raffredda istantaneamente il bersaglio e può congelarlo. Risulta superefficace contro i Pokémon di tipo Acqua."
+        },
+        "english": {
+            "xy": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+            "oras": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+            "sm": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+            "usum": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+            "lgpe": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+            "swsh": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+            "la": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+            "sv": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types."
+        },
+        "japanese": {
+            "xy": "相手を　急激に　冷やして こおり　状態に　することが　ある。 みずタイプにも　効果抜群になる。",
+            "oras": "相手を　急激に　冷やして こおり　状態に　することが　ある。  ずタイプにも　効果抜群になる。",
+            "sm": "相手を　急激に　冷やして こおり　状態に　することが　ある。 みずタイプにも　効果バツグンになる。",
+            "usum": "相手を　急激に　冷やして こおり　状態に　することが　ある。 みずタイプにも　効果バツグンになる。",
+            "lgpe": "相手を　急激に　冷やして こおり　状態に　することが　ある。 みずタイプにも　効果バツグンになる。",
+            "swsh": "相手を　急激に　冷やして こおり　状態に　することが　ある。 みずタイプにも　効果バツグンになる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "oras": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "sm": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "usum": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "lgpe": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+            "swsh": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua."
+        },
+        "traditional-chinese": {
+            "sm": "急速冷凍對手， 有時會讓對手陷入冰凍狀態。 對水屬性寶可夢也是效果絕佳。",
+            "usum": "急速冷凍對手， 有時會讓對手陷入冰凍狀態。 對水屬性寶可夢也是效果絕佳。",
+            "lgpe": "急速冷凍對手， 有時會讓對手陷入冰凍狀態。 對水屬性寶可夢也是效果絕佳。",
+            "swsh": "急速冷凍對手， 有時會讓對手陷入冰凍狀態。 對水屬性寶可夢也是效果絕佳。"
+        },
+        "simplified-chinese": {
+            "sm": "急剧冷冻对手， 有时会让对手陷入冰冻状态。 对于水属性宝可梦也是效果绝佳。",
+            "usum": "急剧冷冻对手， 有时会让对手陷入冰冻状态。 对于水属性宝可梦也是效果绝佳。",
+            "lgpe": "急剧冷冻对手， 有时会让对手陷入冰冻状态。 对于水属性宝可梦也是效果绝佳。",
+            "swsh": "急剧冷冻对手， 有时会让对手陷入冰冻状态。 对于水属性宝可梦也是效果绝佳。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  This move is super-effective against the Water type. The target’s other type will affect damage as usual.  If this move’s type is changed, it remains super-effective against Water regardless of its type.",
+        "shortEffect": "Super-effective against Water."
+    }
 }

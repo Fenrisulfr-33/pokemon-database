@@ -1,37 +1,135 @@
 {
-  "_id": 605,
-  "key": "dazzling-gleam",
-  "name": {
-    "english": "Dazzling Gleam",
-    "japanese": "マジカルシャイン",
-    "chinese": "魔法閃耀",
-    "korean": "매지컬샤인",
-    "german": "Brillo Mágico",
-    "french": "Zauberschein",
-    "italian": "Dazzling Gleam",
-    "spanish": "Magibrillio"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "x-y": "The user damages opposing Pokémon\nby emitting a powerful flash.",
-    "omega-ruby-alpha-sapphire": "The user damages opposing Pokémon\nby emitting a powerful flash.",
-    "sun-moon": "The user damages opposing Pokémon by emitting a\npowerful flash.",
-    "ultra-sun-ultra-moon": "The user damages opposing Pokémon by emitting a\npowerful flash.",
-    "lets-go-pikachu-lets-go-eevee": "The user damages opposing Pokémon by emitting a\npowerful flash.",
-    "sword-shield": "The user damages opposing Pokémon by emitting a\npowerful flash."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 605,
+    "key": "dazzling-gleam",
+    "name": {
+        "japanese-kana": "マジカルシャイン",
+        "korean": "매지컬샤인",
+        "traditional-chinese": "魔法閃耀",
+        "french": "Éclat Magique",
+        "german": "Zauberschein",
+        "spanish": "Brillo Mágico",
+        "italian": "Magibrillio",
+        "english": "Dazzling Gleam",
+        "japanese": "マジカルシャイン",
+        "simplified-chinese": "魔法闪耀",
+        "latin-american-spanish": "Brillo Mágico"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。",
+            "oras": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。",
+            "sm": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。",
+            "usum": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。",
+            "lgpe": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。",
+            "swsh": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "강력한 빛을 내어 상대에게 데미지를 준다.",
+            "oras": "강력한 빛을 내어 상대에게 데미지를 준다.",
+            "sm": "강력한 빛을 내어 상대에게 데미지를 준다.",
+            "usum": "강력한 빛을 내어 상대에게 데미지를 준다.",
+            "lgpe": "강력한 빛을 내어 상대에게 데미지를 준다.",
+            "swsh": "강력한 빛을 내어 상대에게 데미지를 준다."
+        },
+        "french": {
+            "xy": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.",
+            "oras": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.",
+            "sm": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.",
+            "usum": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.",
+            "lgpe": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.",
+            "swsh": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi."
+        },
+        "german": {
+            "xy": "Der Anwender feuert einen mächtigen Lichtblitz ab, der dem Ziel Schaden zufügt.",
+            "oras": "Der Anwender feuert einen mächtigen Lichtblitz ab, der dem Ziel Schaden zufügt.",
+            "sm": "Der Anwender feuert einen mächtigen Lichtblitz ab, der dem Ziel Schaden zufügt.",
+            "usum": "Der Anwender feuert einen mächtigen Lichtblitz ab, der dem Ziel Schaden zufügt.",
+            "lgpe": "Der Anwender feuert einen mächtigen Lichtblitz ab, der dem Ziel Schaden zufügt.",
+            "swsh": "Der Anwender feuert einen mächtigen Lichtblitz ab, der gegnerischen Pokémon Schaden zufügt."
+        },
+        "spanish": {
+            "xy": "Inflige daño a los oponentes con una potente luz.",
+            "oras": "Inflige daño a los oponentes con una potente luz.",
+            "sm": "Inflige daño a los oponentes con una potente luz.",
+            "usum": "Inflige daño a los oponentes con una potente luz.",
+            "lgpe": "Inflige daño a los oponentes con una potente luz.",
+            "swsh": "Inflige daño a los oponentes con una potente luz."
+        },
+        "italian": {
+            "xy": "Emette una luce potentissima che infligge danni ai nemici che sono vicini a chi la usa.",
+            "oras": "Emette una luce potentissima che infligge danni ai nemici che sono vicini a chi la usa.",
+            "sm": "Chi la usa emette una luce potentissima che infligge danni ai nemici intorno.",
+            "usum": "Chi la usa emette una luce potentissima che infligge danni ai nemici intorno.",
+            "lgpe": "Chi la usa emette una luce potentissima che infligge danni ai nemici intorno.",
+            "swsh": "Chi la usa emette una luce potentissima che infligge danni ai nemici intorno."
+        },
+        "english": {
+            "xy": "The user damages opposing Pokémon by emitting a powerful flash.",
+            "oras": "The user damages opposing Pokémon by emitting a powerful flash.",
+            "sm": "The user damages opposing Pokémon by emitting a powerful flash.",
+            "usum": "The user damages opposing Pokémon by emitting a powerful flash.",
+            "lgpe": "The user damages opposing Pokémon by emitting a powerful flash.",
+            "swsh": "The user damages opposing Pokémon by emitting a powerful flash.",
+            "la": "The user emits a powerful flash of light to inflict damage on the target.",
+            "sv": "The user damages opposing Pokémon by emitting a powerful flash."
+        },
+        "japanese": {
+            "xy": "強力な　光を　放ち 相手に　ダメージを　与える。",
+            "oras": "強力な　光を　放ち 相手に　ダメージを　与える。",
+            "sm": "強力な　光を　放ち 相手に　ダメージを　与える。",
+            "usum": "強力な　光を　放ち 相手に　ダメージを　与える。",
+            "lgpe": "強力な　光を　放ち 相手に　ダメージを　与える。",
+            "swsh": "強力な　光を　放ち 相手に　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Inflige daño a los oponentes con una potente luz.",
+            "oras": "Inflige daño a los oponentes con una potente luz.",
+            "sm": "Inflige daño a los oponentes con una potente luz.",
+            "usum": "Inflige daño a los oponentes con una potente luz.",
+            "lgpe": "Inflige daño a los oponentes con una potente luz.",
+            "swsh": "Inflige daño a los oponentes con una potente luz."
+        },
+        "traditional-chinese": {
+            "sm": "發出強烈的閃光， 給予對手傷害。",
+            "usum": "發出強烈的閃光， 給予對手傷害。",
+            "lgpe": "發出強烈的閃光， 給予對手傷害。",
+            "swsh": "發出強烈的閃光， 給予對手傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射强光， 并给予伤害。",
+            "usum": "向对手发射强光， 并给予伤害。",
+            "lgpe": "向对手发射强光， 并给予伤害。",
+            "swsh": "向对手发射强光， 并给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

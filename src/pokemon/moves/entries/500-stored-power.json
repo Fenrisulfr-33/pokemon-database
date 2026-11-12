@@ -1,39 +1,138 @@
 {
-  "_id": 500,
-  "key": "stored-power",
-  "name": {
-    "english": "Stored Power",
-    "japanese": "アシストパワー",
-    "chinese": "协助力量",
-    "korean": "어시스트파워",
-    "german": "Poder Reserva",
-    "french": "Kraftvorrat",
-    "italian": "Stored Power",
-    "spanish": "Veicolaforza"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks the target with stored\npower. The more the user’s stats are\nraised, the greater the damage.",
-    "black-2-white-2": "The user attacks the target with stored\npower. The more the user’s stats are\nraised, the greater the damage.",
-    "x-y": "The user attacks the target with stored\npower. The more the user’s stats are\nraised, the greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with stored\npower. The more the user’s stats are\nraised, the greater the move’s power.",
-    "sun-moon": "The user attacks the target with stored power. The\nmore the user’s stats are raised, the greater the\nmove’s power.",
-    "ultra-sun-ultra-moon": "The user attacks the target with stored power. The\nmore the user’s stats are raised, the greater the\nmove’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with stored power. The\nmore the user’s stats are raised, the greater the\nmove’s power.",
-    "sword-shield": "The user attacks the target with stored power.\nThe more the user’s stats are raised, the greater\nthe move’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user's stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move's power.  For a Pokémon with all five stats modified to +6, this move's power is 31×.",
-    "shortEffect": "Power is higher the more the user's stats have been raised, to a maximum of 31×."
-  },
-  "priority": 0
+    "_id": 500,
+    "key": "stored-power",
+    "name": {
+        "japanese-kana": "アシストパワー",
+        "korean": "어시스트파워",
+        "traditional-chinese": "輔助力量",
+        "french": "Force Ajoutée",
+        "german": "Kraftvorrat",
+        "spanish": "Poder Reserva",
+        "italian": "Veicolaforza",
+        "english": "Stored Power",
+        "japanese": "アシストパワー",
+        "simplified-chinese": "辅助力量",
+        "latin-american-spanish": "Poder Acumulado"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 20,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.",
+            "xy": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.",
+            "oras": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.",
+            "sm": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.",
+            "usum": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.",
+            "lgpe": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.",
+            "swsh": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace."
+        },
+        "english": {
+            "bw": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the damage.",
+            "b2w2": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the damage.",
+            "xy": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.",
+            "oras": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.",
+            "sm": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.",
+            "usum": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.",
+            "lgpe": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.",
+            "swsh": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.",
+            "la": "The user attacks the target with stored power. The more the user's stats are raised, the greater the move's power.",
+            "sv": "The user attacks the target with stored power. The more the user's stats are boosted, the greater the move's power."
+        },
+        "japanese-kana": {
+            "xy": "ちくせき　された　パワーで　あいてを こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "oras": "ちくせき　された　パワーで　あいてを こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "sm": "ちくせき　された　パワーで　あいてを こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "usum": "ちくせき　された　パワーで　あいてを こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "lgpe": "ちくせき　された　パワーで　あいてを こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+            "swsh": "ちくせき　された　パワーで　あいてを こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "oras": "축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "sm": "축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "usum": "축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "lgpe": "축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+            "swsh": "축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다."
+        },
+        "german": {
+            "xy": "Angriff mit angesparter Energie. Je höher die Statuswerte des Anwenders, desto stärker fällt die Attacke aus.",
+            "oras": "Angriff mit angesparter Energie. Je höher die Statuswerte des Anwenders, desto stärker fällt die Attacke aus.",
+            "sm": "Angriff mit angesparter Energie. Je höher die Statuswerte des Anwenders, desto stärker fällt die Attacke aus.",
+            "usum": "Angriff mit angesparter Energie. Je höher die Statuswerte des Anwenders, desto stärker fällt die Attacke aus.",
+            "lgpe": "Angriff mit angesparter Energie. Je höher die Statuswerte des Anwenders, desto stärker fällt die Attacke aus.",
+            "swsh": "Angriff mit angesparter Energie. Je stärker die Statuswerte des Anwenders erhöht wurden, desto mehr Schaden richtet diese Attacke an."
+        },
+        "spanish": {
+            "xy": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "oras": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "sm": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "usum": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "lgpe": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "swsh": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño."
+        },
+        "italian": {
+            "xy": "Attacca il bersaglio con l’energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.",
+            "oras": "Attacca il bersaglio con l’energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.",
+            "sm": "Attacca il bersaglio con l’energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.",
+            "usum": "Attacca il bersaglio con l’energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.",
+            "lgpe": "Attacca il bersaglio con l’energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.",
+            "swsh": "Attacca il bersaglio con l’energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto."
+        },
+        "japanese": {
+            "xy": "蓄積された　パワーで　相手を 攻撃する。自分の　能力が あがっているほど　威力が　あがる。",
+            "oras": "蓄積された　パワーで　相手を 攻撃する。自分の　能力が あがっているほど　威力が　あがる。",
+            "sm": "蓄積された　パワーで　相手を 攻撃する。自分の　能力が あがっているほど　威力が　あがる。",
+            "usum": "蓄積された　パワーで　相手を 攻撃する。自分の　能力が あがっているほど　威力が　あがる。",
+            "lgpe": "蓄積された　パワーで　相手を 攻撃する。自分の　能力が あがっているほど　威力が　あがる。",
+            "swsh": "蓄積された　パワーで　相手を 攻撃する。自分の　能力が あがっているほど　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "oras": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "sm": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "usum": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "lgpe": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+            "swsh": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño."
+        },
+        "traditional-chinese": {
+            "sm": "用蓄積的力量攻擊對手。 自己的能力提高越多， 招式的威力越大。",
+            "usum": "用蓄積的力量攻擊對手。 自己的能力提高越多， 招式的威力越大。",
+            "lgpe": "用蓄積的力量攻擊對手。 自己的能力提高越多， 招式的威力越大。",
+            "swsh": "用蓄積的力量攻擊對手。 自己的能力提高越多， 招式的威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "用蓄积起来的力量攻击对手。 自己的能力提高得越多， 威力就越大。",
+            "usum": "用蓄积起来的力量攻击对手。 自己的能力提高得越多， 威力就越大。",
+            "lgpe": "用蓄积起来的力量攻击对手。 自己的能力提高得越多， 威力就越大。",
+            "swsh": "用蓄积起来的力量攻击对手。 自己的能力提高得越多， 威力就越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user’s stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move’s power.  For a Pokémon with all five stats modified to +6, this move’s power is 31×.",
+        "shortEffect": "Power is higher the more the user’s stats have been raised, to a maximum of 31×."
+    }
 }

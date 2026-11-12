@@ -1,42 +1,141 @@
 {
-  "_id": 385,
-  "key": "guard-swap",
-  "name": {
-    "english": "Guard Swap",
-    "japanese": "ガードスワップ",
-    "chinese": "防御交换",
-    "korean": "가드스웹",
-    "german": "Cambiadefensa",
-    "french": "Schutztausch",
-    "italian": "Guard Swap",
-    "spanish": "Barattoscudo"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user employs its\npsychic power to\nswitch changes to\nits Defense and\nSp. Def with the foe.",
-    "platinum": "The user employs its\npsychic power to\nswitch changes to\nits Defense and\nSp. Def with the foe.",
-    "heartgold-soulsilver": "The user employs its\npsychic power to\nswitch changes to\nits Defense and\nSp. Def with the foe.",
-    "black-white": "The user employs its psychic power to\nswitch changes to its Defense and\nSp. Def with the target.",
-    "black-2-white-2": "The user employs its psychic power to\nswitch changes to its Defense and\nSp. Def with the target.",
-    "x-y": "The user employs its psychic power to\nswitch changes to its Defense and\nSp. Def stats with the target.",
-    "omega-ruby-alpha-sapphire": "The user employs its psychic power to\nswitch changes to its Defense and\nSp. Def stats with the target.",
-    "sun-moon": "The user employs its psychic power to switch\nchanges to its Defense and Sp. Def stats with\nthe target.",
-    "ultra-sun-ultra-moon": "The user employs its psychic power to switch\nchanges to its Defense and Sp. Def stats with\nthe target.",
-    "lets-go-pikachu-lets-go-eevee": "The user employs its psychic power to switch\nchanges to its Defense and Sp. Def stats with\nthe target.",
-    "sword-shield": "The user employs its psychic power to switch\nchanges to its Defense and Sp. Def stats with\nthe target."
-  },
-  "effect": {
-    "full": "User swaps its Defense and Special Defense modifiers with the target.",
-    "shortEffect": "User swaps Defense and Special Defense changes with the target."
-  },
-  "priority": 0
+    "_id": 385,
+    "key": "guard-swap",
+    "name": {
+        "japanese-kana": "ガードスワップ",
+        "korean": "가드스왑",
+        "traditional-chinese": "防守互換",
+        "french": "Permugarde",
+        "german": "Schutztausch",
+        "spanish": "Cambiadefensa",
+        "italian": "Barattoscudo",
+        "english": "Guard Swap",
+        "japanese": "ガードスワップ",
+        "simplified-chinese": "防守互换",
+        "latin-american-spanish": "Cambiadefensa"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user employs its psychic power to switch changes to its Defense and Sp. Def with the foe.",
+            "pt": "The user employs its psychic power to switch changes to its Defense and Sp. Def with the foe.",
+            "hgss": "The user employs its psychic power to switch changes to its Defense and Sp. Def with the foe.",
+            "bw": "The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.",
+            "b2w2": "The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.",
+            "xy": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+            "oras": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+            "sm": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+            "usum": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+            "lgpe": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+            "swsh": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+            "la": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+            "sv": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target."
+        },
+        "french": {
+            "bw": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.",
+            "xy": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.",
+            "oras": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.",
+            "sm": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.",
+            "usum": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.",
+            "lgpe": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.",
+            "swsh": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible."
+        },
+        "japanese-kana": {
+            "xy": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうの のうりょく　へんかを　いれかえる。",
+            "oras": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうの のうりょく　へんかを　いれかえる。",
+            "sm": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうの のうりょく　へんかを　いれかえる。",
+            "usum": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうの のうりょく　へんかを　いれかえる。",
+            "lgpe": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうの のうりょく　へんかを　いれかえる。",
+            "swsh": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうの のうりょく　へんかを　いれかえる。"
+        },
+        "korean": {
+            "xy": "초능력으로 자신과 상대의 방어와 특수방어의 능력 변화를 교체한다.",
+            "oras": "초능력으로 자신과 상대의 방어와 특수방어의 능력 변화를 교체한다.",
+            "sm": "초능력으로 자신과 상대의 방어와 특수방어의 능력 변화를 교체한다.",
+            "usum": "초능력으로 자신과 상대의 방어와 특수방어의 능력 변화를 교체한다.",
+            "lgpe": "초능력으로 자신과 상대의 방어와 특수방어의 능력 변화를 교체한다.",
+            "swsh": "초능력으로 자신과 상대의 방어와 특수방어의 능력 변화를 교체한다."
+        },
+        "german": {
+            "xy": "Psychische Kräfte tauschen Änderungen an Verteidigung und Spezial-Verteidigung mit denen des Zieles.",
+            "oras": "Psychische Kräfte tauschen Änderungen an Verteidigung und Spezial-Verteidigung mit denen des Zieles.",
+            "sm": "Psychische Kräfte tauschen Änderungen an Verteidigung und Spezial-Verteidigung mit denen des Zieles.",
+            "usum": "Psychische Kräfte tauschen Änderungen an Verteidigung und Spezial-Verteidigung mit denen des Zieles.",
+            "lgpe": "Psychische Kräfte tauschen Änderungen an Verteidigung und Spezial-Verteidigung mit denen des Zieles.",
+            "swsh": "Psychische Kräfte tauschen Änderungen an Verteidigung und Spezial-Verteidigung mit denen des Zieles."
+        },
+        "spanish": {
+            "xy": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "oras": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "sm": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "usum": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "lgpe": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "swsh": "El usuario emplea su poder mental para intercambiar los cambios en la Defensa y Defensa Especial con el objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.",
+            "oras": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.",
+            "sm": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.",
+            "usum": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.",
+            "lgpe": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.",
+            "swsh": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio."
+        },
+        "japanese": {
+            "xy": "超能力で　自分と　相手の 防御と　特防の 能力変化を　入れ替える。",
+            "oras": "超能力で　自分と　相手の 防御と　特防の 能力変化を　入れ替える。",
+            "sm": "超能力で　自分と　相手の 防御と　特防の 能力変化を　入れ替える。",
+            "usum": "超能力で　自分と　相手の 防御と　特防の 能力変化を　入れ替える。",
+            "lgpe": "超能力で　自分と　相手の 防御と　特防の 能力変化を　入れ替える。",
+            "swsh": "超能力で　自分と　相手の 防御と　特防の 能力変化を　入れ替える。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "oras": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "sm": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "usum": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "lgpe": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+            "swsh": "El usuario emplea su poder mental para intercambiar los cambios en la Defensa y Defensa Especial con el objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用超能力將自己和對手的 防禦與特防的能力變化互相交換。",
+            "usum": "用超能力將自己和對手的 防禦與特防的能力變化互相交換。",
+            "lgpe": "用超能力將自己和對手的 防禦與特防的能力變化互相交換。",
+            "swsh": "用超能力將自己和對手的 防禦與特防的能力變化互相交換。"
+        },
+        "simplified-chinese": {
+            "sm": "利用超能力互换 自己和对手的防御 以及特防的能力变化。",
+            "usum": "利用超能力互换 自己和对手的防御 以及特防的能力变化。",
+            "lgpe": "利用超能力互换 自己和对手的防御 以及特防的能力变化。",
+            "swsh": "利用超能力互换 自己和对手的防御 以及特防的能力变化。"
+        }
+    },
+    "effect": {
+        "full": "User swaps its Defense and Special Defense modifiers with the target.",
+        "shortEffect": "User swaps Defense and Special Defense changes with the target."
+    }
 }

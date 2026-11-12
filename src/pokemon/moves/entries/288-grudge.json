@@ -1,45 +1,142 @@
 {
-  "_id": 288,
-  "key": "grudge",
-  "name": {
-    "english": "Grudge",
-    "japanese": "おんねん",
-    "chinese": "怨恨",
-    "korean": "원념",
-    "german": "Rabia",
-    "french": "Nachspiel",
-    "italian": "Grudge",
-    "spanish": "Rancore"
-  },
-  "type": "Ghost",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "If the user faints, deletes\nthe PP of the final move.",
-    "emerald": "If the user faints, deletes\nall PP of foe’s last move.",
-    "firered-leafgreen": "If the user faints,\nthis move deletes\nthe PP of the move\nthat finished it.",
-    "diamond-pearl": "If the user faints,\nthe user’s grudge\nfully depletes the PP\nof the foe’s move\nthat knocked it out.",
-    "platinum": "If the user faints,\nthe user’s grudge\nfully depletes the PP\nof the foe’s move\nthat knocked it out.",
-    "heartgold-soulsilver": "If the user faints,\nthe user’s grudge\nfully depletes the PP\nof the foe’s move\nthat knocked it out.",
-    "black-white": "If the user faints, the user’s grudge\nfully depletes the PP of the opponent’s\nmove that knocked it out.",
-    "black-2-white-2": "If the user faints, the user’s grudge\nfully depletes the PP of the opponent’s\nmove that knocked it out.",
-    "x-y": "If the user faints, the user’s grudge\nfully depletes the PP of the opponent’s\nmove that knocked it out.",
-    "omega-ruby-alpha-sapphire": "If the user faints, the user’s grudge\nfully depletes the PP of the opponent’s\nmove that knocked it out.",
-    "sun-moon": "If the user faints, the user’s grudge fully depletes\nthe PP of the opponent’s move that knocked it out.",
-    "ultra-sun-ultra-moon": "If the user faints, the user’s grudge fully depletes\nthe PP of the opponent’s move that knocked it out.",
-    "lets-go-pikachu-lets-go-eevee": "If the user faints, the user’s grudge fully depletes\nthe PP of the opponent’s move that knocked it out.",
-    "sword-shield": "If the user faints, the user’s grudge fully depletes\nthe PP of the opponent’s move that knocked it out."
-  },
-  "effect": {
-    "full": "If the user faints before it next acts, the move that fainted it will have its PP dropped to 0.  End-of-turn damage does not trigger this effect.",
-    "shortEffect": "If the user faints this turn, the PP of the move that fainted it drops to 0."
-  },
-  "priority": 0
+    "_id": 288,
+    "key": "grudge",
+    "name": {
+        "japanese-kana": "おんねん",
+        "korean": "원념",
+        "traditional-chinese": "怨念",
+        "french": "Rancune",
+        "german": "Nachspiel",
+        "spanish": "Rabia",
+        "italian": "Rancore",
+        "english": "Grudge",
+        "japanese": "おんねん",
+        "simplified-chinese": "怨念",
+        "latin-american-spanish": "Rabia"
+    },
+    "type": "ghost",
+    "category": "status",
+    "contest": "tough",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "If the user faints, deletes the PP of the final move.",
+            "em": "If the user faints, deletes all PP of foe’s last move.",
+            "frlg": "If the user faints, this move deletes the PP of the move that finished it.",
+            "dp": "If the user faints, the user’s grudge fully depletes the PP of the foe’s move that knocked it out.",
+            "pt": "If the user faints, the user’s grudge fully depletes the PP of the foe’s move that knocked it out.",
+            "hgss": "If the user faints, the user’s grudge fully depletes the PP of the foe’s move that knocked it out.",
+            "bw": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+            "b2w2": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+            "xy": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+            "oras": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+            "sm": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+            "usum": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+            "lgpe": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+            "swsh": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out."
+        },
+        "french": {
+            "bw": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée pour le mettre K.O.",
+            "xy": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O.",
+            "oras": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O.",
+            "sm": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O.",
+            "usum": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O.",
+            "lgpe": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O.",
+            "swsh": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O."
+        },
+        "japanese-kana": {
+            "xy": "あいての　わざで　ひんしに　されたとき おんねんを　かけて そのわざの　ＰＰを　０に　する。",
+            "oras": "あいての　わざで　ひんしに　されたとき おんねんを　かけて そのわざの　ＰＰを　０に　する。",
+            "sm": "あいての　わざで　ひんしに　されたとき おんねんを　かけて そのわざの　ＰＰを　０に　する。",
+            "usum": "あいての　わざで　ひんしに　されたとき おんねんを　かけて そのわざの　ＰＰを　０に　する。",
+            "lgpe": "あいての　わざで　ひんしに　されたとき おんねんを　かけて そのわざの　ＰＰを　０に　する。",
+            "swsh": "あいての　わざで　ひんしに　されたとき おんねんを　かけて そのわざの　ＰＰを　０に　する。"
+        },
+        "korean": {
+            "xy": "상대의 기술로 기절하면 원념을 담아 그 기술의 PP를 0으로 만든다.",
+            "oras": "상대의 기술로 기절하면 원념을 담아 그 기술의 PP를 0으로 만든다.",
+            "sm": "상대의 기술로 기절하면 원념을 담아 그 기술의 PP를 0으로 만든다.",
+            "usum": "상대의 기술로 기절하면 원념을 담아 그 기술의 PP를 0으로 만든다.",
+            "lgpe": "상대의 기술로 기절하면 원념을 담아 그 기술의 PP를 0으로 만든다.",
+            "swsh": "상대의 기술로 기절하면 원념을 담아 그 기술의 PP를 0으로 만든다."
+        },
+        "german": {
+            "xy": "Bei K.O. des Anwenders werden die AP der Attacke, durch die er besiegt wurde, auf 0 herabgesetzt.",
+            "oras": "Bei K.O. des Anwenders werden die AP der Attacke, durch die er besiegt wurde, auf 0 herabgesetzt.",
+            "sm": "Bei K.O. des Anwenders werden die AP der Attacke, durch die er besiegt wurde, auf 0 herabgesetzt.",
+            "usum": "Bei K.O. des Anwenders werden die AP der Attacke, durch die er besiegt wurde, auf 0 herabgesetzt.",
+            "lgpe": "Bei K.O. des Anwenders werden die AP der Attacke, durch die er besiegt wurde, auf 0 herabgesetzt.",
+            "swsh": "Bei K.O. des Anwenders werden die AP der Attacke, durch die er besiegt wurde, auf 0 herabgesetzt."
+        },
+        "spanish": {
+            "xy": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "oras": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "sm": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "usum": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "lgpe": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "swsh": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados."
+        },
+        "italian": {
+            "xy": "Se chi la usa va KO, i PP della mossa nemica che lo ha messo fuori gioco si azzerano.",
+            "oras": "Se chi la usa va KO, i PP della mossa nemica che lo ha messo fuori gioco si azzerano.",
+            "sm": "Se chi la usa va KO, i PP della mossa nemica che lo ha messo fuori gioco si azzerano.",
+            "usum": "Se chi la usa va KO, i PP della mossa nemica che lo ha messo fuori gioco si azzerano.",
+            "lgpe": "Se chi la usa va KO, i PP della mossa nemica che lo ha messo fuori gioco si azzerano.",
+            "swsh": "Se chi la usa va KO, i PP della mossa nemica che lo ha messo fuori gioco si azzerano."
+        },
+        "japanese": {
+            "xy": "相手の　技で　ひんしに　されたとき おんねんを　かけて その技の　ＰＰを　０に　する。",
+            "oras": "相手の　技で　ひんしに　されたとき おんねんを　かけて その技の　ＰＰを　０に　する。",
+            "sm": "相手の　技で　ひんしに　されたとき おんねんを　かけて その技の　ＰＰを　０に　する。",
+            "usum": "相手の　技で　ひんしに　されたとき おんねんを　かけて その技の　ＰＰを　０に　する。",
+            "lgpe": "相手の　技で　ひんしに　されたとき おんねんを　かけて その技の　ＰＰを　０に　する。",
+            "swsh": "相手の　技で　ひんしに　されたとき おんねんを　かけて その技の　ＰＰを　０に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "oras": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "sm": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "usum": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "lgpe": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+            "swsh": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados."
+        },
+        "traditional-chinese": {
+            "sm": "因為對手的招式而陷入瀕死時， 施加怨念， 讓該招式的ＰＰ變成０。",
+            "usum": "因為對手的招式而陷入瀕死時， 施加怨念， 讓該招式的ＰＰ變成０。",
+            "lgpe": "因為對手的招式而陷入瀕死時， 施加怨念， 讓該招式的PP變成０。",
+            "swsh": "因為對手的招式而陷入瀕死時， 施加怨念， 讓該招式的ＰＰ變成０。"
+        },
+        "simplified-chinese": {
+            "sm": "因对手的招式而陷入濒死时 给对手施加怨念， 让该招式的ＰＰ变成０。",
+            "usum": "因对手的招式而陷入濒死时 给对手施加怨念， 让该招式的ＰＰ变成０。",
+            "lgpe": "因对手的招式而陷入濒死时 给对手施加怨念， 让该招式的PP变成０。",
+            "swsh": "因对手的招式而陷入濒死时 给对手施加怨念， 让该招式的ＰＰ变成０。"
+        }
+    },
+    "effect": {
+        "full": "If the user faints before it next acts, the move that fainted it will have its PP dropped to 0.  End-of-turn damage does not trigger this effect.",
+        "shortEffect": "If the user faints this turn, the PP of the move that fainted it drops to 0."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 362,
-  "key": "brine",
-  "name": {
-    "english": "Brine",
-    "japanese": "しおみず",
-    "chinese": "盐水",
-    "korean": "소금물",
-    "german": "Salmuera",
-    "french": "Lake",
-    "italian": "Brine",
-    "spanish": "Acquadisale"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "If the foe’s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower.",
-    "platinum": "If the foe’s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower.",
-    "heartgold-soulsilver": "If the foe’s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower.",
-    "black-white": "If the target’s HP is down to about half,\nthis attack will hit with double\nthe power.",
-    "black-2-white-2": "If the target’s HP is down to about half,\nthis attack will hit with double\nthe power.",
-    "x-y": "If the target’s HP is half or less,\nthis attack will hit with double\nthe power.",
-    "omega-ruby-alpha-sapphire": "If the target’s HP is half or less,\nthis attack will hit with double\nthe power.",
-    "sun-moon": "If the target’s HP is half or less, this attack will hit\nwith double the power.",
-    "ultra-sun-ultra-moon": "If the target’s HP is half or less, this attack will hit\nwith double the power.",
-    "lets-go-pikachu-lets-go-eevee": "If the target’s HP is half or less, this attack will hit\nwith double the power.",
-    "sword-shield": "If the target’s HP is half or less, this attack will hit\nwith double the power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target has less than half its max HP remaining, this move has double power.",
-    "shortEffect": "Has double power against Pokémon that have less than half their max HP remaining."
-  },
-  "priority": 0
+    "_id": 362,
+    "key": "brine",
+    "name": {
+        "japanese-kana": "しおみず",
+        "korean": "소금물",
+        "traditional-chinese": "鹽水",
+        "french": "Saumure",
+        "german": "Lake",
+        "spanish": "Salmuera",
+        "italian": "Acquadisale",
+        "english": "Brine",
+        "japanese": "しおみず",
+        "simplified-chinese": "盐水",
+        "latin-american-spanish": "Agua Salada"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "smart",
+    "pp": 10,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "If the foe’s HP is down to about half, this attack will hit with double the power.",
+            "pt": "If the foe’s HP is down to about half, this attack will hit with double the power.",
+            "hgss": "If the foe’s HP is down to about half, this attack will hit with double the power.",
+            "bw": "If the target’s HP is down to about half, this attack will hit with double the power.",
+            "b2w2": "If the target’s HP is down to about half, this attack will hit with double the power.",
+            "xy": "If the target’s HP is half or less, this attack will hit with double the power.",
+            "oras": "If the target’s HP is half or less, this attack will hit with double the power.",
+            "sm": "If the target’s HP is half or less, this attack will hit with double the power.",
+            "usum": "If the target’s HP is half or less, this attack will hit with double the power.",
+            "lgpe": "If the target’s HP is half or less, this attack will hit with double the power.",
+            "swsh": "If the target’s HP is half or less, this attack will hit with double the power.",
+            "la": "If the target's HP is half or less, this attack will hit with double the power.",
+            "sv": "This move's power is doubled if the target's HP is at half or less."
+        },
+        "french": {
+            "bw": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.",
+            "xy": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.",
+            "oras": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.",
+            "sm": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.",
+            "usum": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.",
+            "lgpe": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.",
+            "swsh": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV."
+        },
+        "japanese-kana": {
+            "xy": "あいてが　ＨＰの　はんぶん　くらい きずを　おっていると　わざの　いりょくが ２ばいに　なる。",
+            "oras": "あいてが　ＨＰの　はんぶん　くらい きずを　おっていると　わざの　いりょくが ２ばいに　なる。",
+            "sm": "あいてが　ＨＰの　はんぶん　くらい きずを　おっていると　わざの　いりょくが ２ばいに　なる。",
+            "usum": "あいてが　ＨＰの　はんぶん　くらい きずを　おっていると　わざの　いりょくが ２ばいに　なる。",
+            "lgpe": "あいてが　ＨＰの　はんぶん　くらい きずを　おっていると　わざの　いりょくが ２ばいに　なる。",
+            "swsh": "あいてが　ＨＰの　はんぶん　くらい きずを　おっていると　わざの　いりょくが ２ばいに　なる。"
+        },
+        "korean": {
+            "xy": "상대가 HP의 절반 정도 상처를 입고 있으면 기술의 위력이 2배가 된다.",
+            "oras": "상대가 HP의 절반 정도 상처를 입고 있으면 기술의 위력이 2배가 된다.",
+            "sm": "상대가 HP의 절반 정도 상처를 입고 있으면 기술의 위력이 2배가 된다.",
+            "usum": "상대가 HP의 절반 정도 상처를 입고 있으면 기술의 위력이 2배가 된다.",
+            "lgpe": "상대가 HP의 절반 정도 상처를 입고 있으면 기술의 위력이 2배가 된다.",
+            "swsh": "상대가 HP의 절반 정도 상처를 입고 있으면 기술의 위력이 2배가 된다."
+        },
+        "german": {
+            "xy": "Hat das Ziel die Hälfte oder weniger seiner maximalen KP, trifft diese Attacke mit doppelter Kraft.",
+            "oras": "Hat das Ziel die Hälfte oder weniger seiner maximalen KP, trifft diese Attacke mit doppelter Kraft.",
+            "sm": "Hat das Ziel die Hälfte oder weniger seiner maximalen KP, trifft diese Attacke mit doppelter Kraft.",
+            "usum": "Hat das Ziel die Hälfte oder weniger seiner maximalen KP, trifft diese Attacke mit doppelter Kraft.",
+            "lgpe": "Hat das Ziel die Hälfte oder weniger seiner maximalen KP, trifft diese Attacke mit doppelter Kraft.",
+            "swsh": "Hat das Ziel die Hälfte oder weniger seiner maximalen KP, trifft diese Attacke mit doppelter Kraft."
+        },
+        "spanish": {
+            "xy": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "oras": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "sm": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "usum": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "lgpe": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "swsh": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte."
+        },
+        "italian": {
+            "xy": "Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.",
+            "oras": "Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.",
+            "sm": "Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.",
+            "usum": "Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.",
+            "lgpe": "Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.",
+            "swsh": "Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza."
+        },
+        "japanese": {
+            "xy": "相手が　ＨＰの　半分くらい きずを　おっていると　技の　威力が ２倍に　なる。",
+            "oras": "相手が　ＨＰの　半分くらい きずを　おっていると　技の　威力が ２倍に　なる。",
+            "sm": "相手が　ＨＰの　半分くらい きずを　おっていると　技の　威力が ２倍に　なる。",
+            "usum": "相手が　ＨＰの　半分くらい きずを　おっていると　技の　威力が ２倍に　なる。",
+            "lgpe": "相手が　ＨＰの　半分くらい きずを　おっていると　技の　威力が ２倍に　なる。",
+            "swsh": "相手が　ＨＰの　半分くらい きずを　おっていると　技の　威力が ２倍に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "oras": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "sm": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "usum": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "lgpe": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+            "swsh": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte."
+        },
+        "traditional-chinese": {
+            "sm": "當對手負傷， ＨＰ剩一半左右時， 招式威力會變成２倍。",
+            "usum": "當對手負傷， ＨＰ剩一半左右時， 招式威力會變成２倍。",
+            "lgpe": "當對手負傷， HP剩一半左右時， 招式威力會變成２倍。",
+            "swsh": "當對手負傷， ＨＰ剩一半左右時， 招式威力會變成２倍。"
+        },
+        "simplified-chinese": {
+            "sm": "当对手的ＨＰ 负伤到一半左右时， 招式威力会变成２倍。",
+            "usum": "当对手的ＨＰ 负伤到一半左右时， 招式威力会变成２倍。",
+            "lgpe": "当对手的HP 负伤到一半左右时， 招式威力会变成２倍。",
+            "swsh": "当对手的ＨＰ 负伤到一半左右时， 招式威力会变成２倍。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target has less than half its max HP remaining, this move has double power.",
+        "shortEffect": "Has double power against Pokémon that have less than half their max HP remaining."
+    }
 }

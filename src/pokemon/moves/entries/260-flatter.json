@@ -1,45 +1,144 @@
 {
-  "_id": 260,
-  "key": "flatter",
-  "name": {
-    "english": "Flatter",
-    "japanese": "おだてる",
-    "chinese": "煽惑",
-    "korean": "부추기기",
-    "german": "Camelo",
-    "french": "Schmeichler",
-    "italian": "Flatter",
-    "spanish": "Adulazione"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Confuses the foe, but\nraises its SP. ATK.",
-    "emerald": "Confuses the foe, but\nraises its SP. ATK.",
-    "firered-leafgreen": "Flattery is used to\nconfuse the foe,\nbut its SP. ATK\nalso rises.",
-    "diamond-pearl": "Flattery is used to\nconfuse the foe.\nHowever, it also\nraises the target’s\nSp. Atk stat.",
-    "platinum": "Flattery is used to\nconfuse the foe.\nHowever, it also\nraises the target’s\nSp. Atk stat.",
-    "heartgold-soulsilver": "Flattery is used to\nconfuse the foe.\nHowever, it also\nraises the target’s\nSp. Atk stat.",
-    "black-white": "Flattery is used to confuse the target.\nHowever, it also raises the target’s\nSp. Atk stat.",
-    "black-2-white-2": "Flattery is used to confuse the target.\nHowever, it also raises the target’s\nSp. Atk stat.",
-    "x-y": "Flattery is used to confuse the target.\nHowever, this also raises the target’s\nSp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "Flattery is used to confuse the target.\nHowever, this also raises the target’s\nSp. Atk stat.",
-    "sun-moon": "Flattery is used to confuse the target. However,\nthis also raises the target’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "Flattery is used to confuse the target. However,\nthis also raises the target’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "Flattery is used to confuse the target. However,\nthis also raises the target’s Sp. Atk stat.",
-    "sword-shield": "Flattery is used to confuse the target. However,\nthis also raises the target’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Raises the target's Special Attack by one stage, then confuses it.",
-    "shortEffect": "Raises the target's Special Attack by one stage and confuses the target."
-  },
-  "priority": 0
+    "_id": 260,
+    "key": "flatter",
+    "name": {
+        "japanese-kana": "おだてる",
+        "korean": "부추기기",
+        "traditional-chinese": "吹捧",
+        "french": "Flatterie",
+        "german": "Schmeichler",
+        "spanish": "Camelo",
+        "italian": "Adulazione",
+        "english": "Flatter",
+        "japanese": "おだてる",
+        "simplified-chinese": "吹捧",
+        "latin-american-spanish": "Halago"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "smart",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "swagger",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Confuses the foe, but raises its SP. ATK.",
+            "em": "Confuses the foe, but raises its SP. ATK.",
+            "frlg": "Flattery is used to confuse the foe, but its SP. ATK also rises.",
+            "dp": "Flattery is used to confuse the foe. However, it also raises the target’s Sp. Atk stat.",
+            "pt": "Flattery is used to confuse the foe. However, it also raises the target’s Sp. Atk stat.",
+            "hgss": "Flattery is used to confuse the foe. However, it also raises the target’s Sp. Atk stat.",
+            "bw": "Flattery is used to confuse the target. However, it also raises the target’s Sp. Atk stat.",
+            "b2w2": "Flattery is used to confuse the target. However, it also raises the target’s Sp. Atk stat.",
+            "xy": "Flattery is used to confuse the target. However, this also raises the target’s Sp. Atk stat.",
+            "oras": "Flattery is used to confuse the target. However, this also raises the target’s Sp. Atk stat.",
+            "sm": "Flattery is used to confuse the target. However, this also raises the target’s Sp. Atk stat.",
+            "usum": "Flattery is used to confuse the target. However, this also raises the target’s Sp. Atk stat.",
+            "lgpe": "Flattery is used to confuse the target. However, this also raises the target’s Sp. Atk stat.",
+            "swsh": "Flattery is used to confuse the target. However, this also raises the target’s Sp. Atk stat.",
+            "la": "Flattery is used to confuse the target. However, this also raises the target's Sp. Atk stat.",
+            "sv": "Flattery is used to confuse the target. However, this also boosts the target's Sp. Atk stat."
+        },
+        "french": {
+            "bw": "Rend la cible confuse, mais augmente son Attaque Spéciale.",
+            "xy": "Rend la cible confuse, mais augmente son Attaque Spéciale.",
+            "oras": "Rend la cible confuse, mais augmente son Attaque Spéciale.",
+            "sm": "Rend la cible confuse, mais augmente son Attaque Spéciale.",
+            "usum": "Rend la cible confuse, mais augmente son Attaque Spéciale.",
+            "lgpe": "Rend la cible confuse, mais augmente son Attaque Spéciale.",
+            "swsh": "Rend la cible confuse, mais augmente son Attaque Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　おだてて　こんらん　させる。 どうじに　あいての　とくこうも あげて　しまう。",
+            "oras": "あいてを　おだてて　こんらん　させる。 どうじに　あいての　とくこうも あげて　しまう。",
+            "sm": "あいてを　おだてて　こんらん　させる。 どうじに　あいての　とくこうも あげて　しまう。",
+            "usum": "あいてを　おだてて　こんらん　させる。 どうじに　あいての　とくこうも あげて　しまう。",
+            "lgpe": "あいてを　おだてて　こんらん　させる。 どうじに　あいての　とくこうも あげて　しまう。",
+            "swsh": "あいてを　おだてて　こんらん　させる。 どうじに　あいての　とくこうも あげて　しまう。"
+        },
+        "korean": {
+            "xy": "상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 올라가 버린다.",
+            "oras": "상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 올라가 버린다.",
+            "sm": "상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 올라가 버린다.",
+            "usum": "상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 올라가 버린다.",
+            "lgpe": "상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 올라가 버린다.",
+            "swsh": "상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 올라가 버린다."
+        },
+        "german": {
+            "xy": "Schmeichelt dem Ziel, um es zu verwirren. Erhöht dessen Spezial-Angriff.",
+            "oras": "Schmeichelt dem Ziel, um es zu verwirren. Erhöht dessen Spezial-Angriff.",
+            "sm": "Schmeichelt dem Ziel, um es zu verwirren. Erhöht dessen Spezial-Angriff.",
+            "usum": "Schmeichelt dem Ziel, um es zu verwirren. Erhöht dessen Spezial-Angriff.",
+            "lgpe": "Schmeichelt dem Ziel, um es zu verwirren. Erhöht dessen Spezial-Angriff.",
+            "swsh": "Schmeichelt dem Ziel, um es zu verwirren. Erhöht dessen Spezial-Angriff."
+        },
+        "spanish": {
+            "xy": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "oras": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "sm": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "usum": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "lgpe": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "swsh": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial."
+        },
+        "italian": {
+            "xy": "Adula il bersaglio e lo confonde, ma ne aumenta l’Attacco Speciale.",
+            "oras": "Adula il bersaglio e lo confonde, ma ne aumenta l’Attacco Speciale.",
+            "sm": "Adula il bersaglio e lo confonde, ma ne aumenta l’Attacco Speciale.",
+            "usum": "Adula il bersaglio e lo confonde, ma ne aumenta l’Attacco Speciale.",
+            "lgpe": "Adula il bersaglio e lo confonde, ma ne aumenta l’Attacco Speciale.",
+            "swsh": "Adula il bersaglio e lo confonde, ma ne aumenta l’Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "相手を　おだてて　混乱させる。 同時に　相手の　特攻も あげてしまう。",
+            "oras": "相手を　おだてて　混乱させる。 同時に　相手の　特攻も あげてしまう。",
+            "sm": "相手を　おだてて　混乱させる。 同時に　相手の　特攻も あげてしまう。",
+            "usum": "相手を　おだてて　混乱させる。 同時に　相手の　特攻も あげてしまう。",
+            "lgpe": "相手を　おだてて　混乱させる。 同時に　相手の　特攻も あげてしまう。",
+            "swsh": "相手を　おだてて　混乱させる。 同時に　相手の　特攻も あげてしまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "oras": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "sm": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "usum": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "lgpe": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.",
+            "swsh": "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "吹捧對手，使其混亂。 同時還會提高對手的特攻。",
+            "usum": "吹捧對手，使其混亂。 同時還會提高對手的特攻。",
+            "lgpe": "吹捧對手，使其混亂。 同時還會提高對手的特攻。",
+            "swsh": "吹捧對手，使其混亂。 同時還會提高對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "吹捧对手，使其混乱。 同时还会提高对手的特攻。",
+            "usum": "吹捧对手，使其混乱。 同时还会提高对手的特攻。",
+            "lgpe": "吹捧对手，使其混乱。 同时还会提高对手的特攻。",
+            "swsh": "吹捧对手，使其混乱。 同时还会提高对手的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Raises the target’s Special Attack by one stage, then confuses it.",
+        "shortEffect": "Raises the target’s Special Attack by one stage and confuses the target."
+    }
 }

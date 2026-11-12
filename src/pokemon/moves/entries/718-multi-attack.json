@@ -1,35 +1,119 @@
 {
-  "_id": 718,
-  "key": "multi-attack",
-  "name": {
-    "english": "Multi-Attack",
-    "japanese": "マルチアタック",
-    "chinese": "多屬性攻擊",
-    "korean": "멀티어택",
-    "german": "Multiataque",
-    "french": "Multi-Angriff",
-    "italian": "Multi-Attack",
-    "spanish": "Multiattacco"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "Cloaking itself in high energy, the user slams into the\ntarget. The memory held determines the move’s type.",
-    "ultra-sun-ultra-moon": "Cloaking itself in high energy, the user slams into the\ntarget. The memory held determines the move’s type.",
-    "lets-go-pikachu-lets-go-eevee": "Cloaking itself in high energy, the user slams into the\ntarget. The memory held determines the move’s type.",
-    "sword-shield": "Cloaking itself in high energy, the user slams into the\ntarget. The memory held determines the move’s type."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the user is holding a plate or a drive, this move's type is the type corresponding to that item.\n\nNote: This effect is technically shared by both techno blast and judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
-    "shortEffect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
-  },
-  "priority": 0
+    "_id": 718,
+    "key": "multi-attack",
+    "name": {
+        "japanese-kana": "マルチアタック",
+        "korean": "멀티어택",
+        "traditional-chinese": "多屬性攻擊",
+        "french": "Coup Varia-Type",
+        "german": "Multi-Angriff",
+        "spanish": "Multiataque",
+        "italian": "Multiattacco",
+        "english": "Multi-Attack",
+        "japanese": "マルチアタック",
+        "simplified-chinese": "多属性攻击",
+        "latin-american-spanish": "Multiataque"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "swsh": {
+            "power": 90
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "たかい　エネルギーを　まといつつ あいてに　ぶつかって　こうげきする。 メモリに　より　タイプが　かわる。",
+            "usum": "たかい　エネルギーを　まといつつ あいてに　ぶつかって　こうげきする。 メモリに　より　タイプが　かわる。",
+            "lgpe": "たかい　エネルギーを　まといつつ あいてに　ぶつかって　こうげきする。 メモリに　より　タイプが　かわる。",
+            "swsh": "たかい　エネルギーを　まといつつ あいてに　ぶつかって　こうげきする。 メモリに　より　タイプが　かわる。"
+        },
+        "korean": {
+            "sm": "높은 에너지를 둘러싸 상대에게 부딪쳐 공격한다. 메모리에 따라 타입이 바뀐다.",
+            "usum": "높은 에너지를 둘러싸 상대에게 부딪쳐 공격한다. 메모리에 따라 타입이 바뀐다.",
+            "lgpe": "높은 에너지를 둘러싸 상대에게 부딪쳐 공격한다. 메모리에 따라 타입이 바뀐다.",
+            "swsh": "높은 에너지를 둘러싸 상대에게 부딪쳐 공격한다. 메모리에 따라 타입이 바뀐다."
+        },
+        "traditional-chinese": {
+            "sm": "讓強大能量圍繞全身， 撞向對手進行攻擊。 招式屬性會隨著記憶碟而改變。",
+            "usum": "讓強大能量圍繞全身， 撞向對手進行攻擊。 招式屬性會隨著記憶碟而改變。",
+            "lgpe": "讓強大能量圍繞全身， 撞向對手進行攻擊。 招式屬性會隨著記憶碟而改變。",
+            "swsh": "讓強大能量圍繞全身， 撞向對手進行攻擊。 招式屬性會隨著記憶碟而改變。"
+        },
+        "french": {
+            "sm": "Le Pokémon s’entoure d’une puissante énergie avant de foncer sur sa cible. Le type de la capacité dépend de la ROM installée.",
+            "usum": "Le Pokémon s’entoure d’une puissante énergie avant de foncer sur sa cible. Le type de la capacité dépend de la ROM installée.",
+            "lgpe": "Le Pokémon s’entoure d’une puissante énergie avant de foncer sur sa cible. Le type de la capacité dépend de la ROM installée.",
+            "swsh": "Le Pokémon s’entoure d’une puissante énergie avant de foncer sur sa cible. Le type de la capacité dépend de la ROM installée."
+        },
+        "german": {
+            "sm": "Der Anwender sammelt eine große Menge Energie und greift das Ziel damit an. Der Typ der Attacke hängt von dem der Disc ab.",
+            "usum": "Der Anwender sammelt eine große Menge Energie und greift das Ziel damit an. Der Typ der Attacke hängt von dem der Disc ab.",
+            "lgpe": "Der Anwender sammelt eine große Menge Energie und greift das Ziel damit an. Der Typ der Attacke hängt von dem der Disc ab.",
+            "swsh": "Der Anwender sammelt eine große Menge Energie und greift das Ziel damit an. Der Typ der Attacke hängt von dem der Disc ab."
+        },
+        "spanish": {
+            "sm": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.",
+            "usum": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.",
+            "lgpe": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.",
+            "swsh": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario."
+        },
+        "italian": {
+            "sm": "Chi la usa si avvolge in un potente campo energetico e colpisce il bersaglio. Il tipo della mossa varia in base alla ROM installata.",
+            "usum": "Chi la usa si avvolge in un potente campo energetico e colpisce il bersaglio. Il tipo della mossa varia in base alla ROM installata.",
+            "lgpe": "Chi la usa si avvolge in un potente campo energetico e colpisce il bersaglio. Il tipo della mossa varia in base alla ROM installata.",
+            "swsh": "Chi la usa si avvolge in un potente campo energetico e colpisce il bersaglio. Il tipo della mossa varia in base alla ROM installata."
+        },
+        "english": {
+            "sm": "Cloaking itself in high energy, the user slams into the target. The memory held determines the move’s type.",
+            "usum": "Cloaking itself in high energy, the user slams into the target. The memory held determines the move’s type.",
+            "lgpe": "Cloaking itself in high energy, the user slams into the target. The memory held determines the move’s type.",
+            "swsh": "Cloaking itself in high energy, the user slams into the target. The memory held determines the move’s type."
+        },
+        "japanese": {
+            "sm": "高い　エネルギーを　まといつつ 相手に　ぶつかって　攻撃する。 メモリに　より　タイプが　変わる。",
+            "usum": "高い　エネルギーを　まといつつ 相手に　ぶつかって　攻撃する。 メモリに　より　タイプが　変わる。",
+            "lgpe": "高い　エネルギーを　まといつつ 相手に　ぶつかって　攻撃する。 メモリに　より　タイプが　変わる。",
+            "swsh": "高い　エネルギーを　まといつつ 相手に　ぶつかって　攻撃する。 メモリに　より　タイプが　変わる。"
+        },
+        "simplified-chinese": {
+            "sm": "一边覆盖高能量， 一边撞向对手进行攻击。 根据存储碟不同，属性会改变。",
+            "usum": "一边覆盖高能量， 一边撞向对手进行攻击。 根据存储碟不同，属性会改变。",
+            "lgpe": "一边覆盖高能量， 一边撞向对手进行攻击。 根据存储碟不同，属性会改变。",
+            "swsh": "一边覆盖高能量， 一边撞向对手进行攻击。 根据存储碟不同，属性会改变。"
+        },
+        "latin-american-spanish": {
+            "sm": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.",
+            "usum": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.",
+            "lgpe": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.",
+            "swsh": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the user is holding a plate or a drive, this move’s type is the type corresponding to that item. Note: This effect is technically shared by both Techno Blast and Judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+        "shortEffect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+    }
 }

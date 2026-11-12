@@ -1,39 +1,138 @@
 {
-  "_id": 505,
-  "key": "heal-pulse",
-  "name": {
-    "english": "Heal Pulse",
-    "japanese": "いやしのはどう",
-    "chinese": "治愈波动",
-    "korean": "치유파동",
-    "german": "Pulso Cura",
-    "french": "Heilwoge",
-    "italian": "Heal Pulse",
-    "spanish": "Ondasana"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user emits a healing pulse which\nrestores the target’s HP by up to\nhalf of its max HP.",
-    "black-2-white-2": "The user emits a healing pulse which\nrestores the target’s HP by up to\nhalf of its max HP.",
-    "x-y": "The user emits a healing pulse which\nrestores the target’s HP by up to\nhalf of its max HP.",
-    "omega-ruby-alpha-sapphire": "The user emits a healing pulse which\nrestores the target’s HP by up to\nhalf of its max HP.",
-    "sun-moon": "The user emits a healing pulse that restores the\ntarget’s HP by up to half of its max HP.",
-    "ultra-sun-ultra-moon": "The user emits a healing pulse that restores the\ntarget’s HP by up to half of its max HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user emits a healing pulse that restores the\ntarget’s HP by up to half of its max HP.",
-    "sword-shield": "The user emits a healing pulse that restores the\ntarget’s HP by up to half of its max HP."
-  },
-  "effect": {
-    "full": "Heals the target for half its max HP.",
-    "shortEffect": "Heals the target for half its max HP."
-  },
-  "priority": 0
+    "_id": 505,
+    "key": "heal-pulse",
+    "name": {
+        "japanese-kana": "いやしのはどう",
+        "korean": "치유파동",
+        "traditional-chinese": "治癒波動",
+        "french": "Vibra Soin",
+        "german": "Heilwoge",
+        "spanish": "Pulso Cura",
+        "italian": "Ondasana",
+        "english": "Heal Pulse",
+        "japanese": "いやしのはどう",
+        "simplified-chinese": "治愈波动",
+        "latin-american-spanish": "Pulso Sanador"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.",
+            "xy": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.",
+            "oras": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.",
+            "sm": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.",
+            "usum": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.",
+            "lgpe": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.",
+            "swsh": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible."
+        },
+        "english": {
+            "bw": "The user emits a healing pulse which restores the target’s HP by up to half of its max HP.",
+            "b2w2": "The user emits a healing pulse which restores the target’s HP by up to half of its max HP.",
+            "xy": "The user emits a healing pulse which restores the target’s HP by up to half of its max HP.",
+            "oras": "The user emits a healing pulse which restores the target’s HP by up to half of its max HP.",
+            "sm": "The user emits a healing pulse that restores the target’s HP by up to half of its max HP.",
+            "usum": "The user emits a healing pulse that restores the target’s HP by up to half of its max HP.",
+            "lgpe": "The user emits a healing pulse that restores the target’s HP by up to half of its max HP.",
+            "swsh": "The user emits a healing pulse that restores the target’s HP by up to half of its max HP.",
+            "la": "The user emits a healing pulse that restores the target's HP by up to half of its max HP.",
+            "sv": "The user emits a healing pulse that restores the target's HP by up to half its max HP."
+        },
+        "japanese-kana": {
+            "xy": "いやしのはどうを　とばして さいだい　ＨＰの　はんぶん あいての　ＨＰを　かいふく　する。",
+            "oras": "いやしのはどうを　とばして さいだい　ＨＰの　はんぶん あいての　ＨＰを　かいふく　する。",
+            "sm": "いやしのはどうを　とばして さいだい　ＨＰの　はんぶん あいての　ＨＰを　かいふく　する。",
+            "usum": "いやしのはどうを　とばして さいだい　ＨＰの　はんぶん あいての　ＨＰを　かいふく　する。",
+            "lgpe": "いやしのはどうを　とばして さいだい　ＨＰの　はんぶん あいての　ＨＰを　かいふく　する。",
+            "swsh": "いやしのはどうを　とばして さいだい　ＨＰの　はんぶん あいての　ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.",
+            "oras": "치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.",
+            "sm": "치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.",
+            "usum": "치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.",
+            "lgpe": "치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.",
+            "swsh": "치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다."
+        },
+        "german": {
+            "xy": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte seiner maximalen KP.",
+            "oras": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte seiner maximalen KP.",
+            "sm": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte von dessen maximalen KP.",
+            "usum": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte von dessen maximalen KP.",
+            "lgpe": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte von dessen maximalen KP.",
+            "swsh": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte von dessen maximalen KP."
+        },
+        "spanish": {
+            "xy": "Una onda curativa restaura los PS del objetivo a la mitad de su máximo.",
+            "oras": "Una onda curativa restaura los PS del objetivo a la mitad de su máximo.",
+            "sm": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+            "usum": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+            "lgpe": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+            "swsh": "Una onda curativa restaura la mitad de los PS máximos del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia un’onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.",
+            "oras": "Chi la usa lancia un’onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.",
+            "sm": "Chi la usa lancia un’onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.",
+            "usum": "Chi la usa lancia un’onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.",
+            "lgpe": "Chi la usa lancia un’onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.",
+            "swsh": "Chi la usa lancia un’onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi."
+        },
+        "japanese": {
+            "xy": "いやしのはどうを　とばして 最大ＨＰの　半分 相手の　ＨＰを　回復する。",
+            "oras": "いやしのはどうを　とばして 最大ＨＰの　半分 相手の　ＨＰを　回復する。",
+            "sm": "いやしのはどうを　とばして 最大ＨＰの　半分 相手の　ＨＰを　回復する。",
+            "usum": "いやしのはどうを　とばして 最大ＨＰの　半分 相手の　ＨＰを　回復する。",
+            "lgpe": "いやしのはどうを　とばして 最大ＨＰの　半分 相手の　ＨＰを　回復する。",
+            "swsh": "いやしのはどうを　とばして 最大ＨＰの　半分 相手の　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una onda curativa restaura los PS del objetivo a la mitad de su máximo.",
+            "oras": "Una onda curativa restaura los PS del objetivo a la mitad de su máximo.",
+            "sm": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+            "usum": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+            "lgpe": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+            "swsh": "Una onda curativa restaura la mitad de los PS máximos del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "釋放出治癒波動， 讓對手回復 最大ＨＰ的一半。",
+            "usum": "釋放出治癒波動， 讓對手回復 最大ＨＰ的一半。",
+            "lgpe": "釋放出治癒波動， 讓對手回復 最大HP的一半。",
+            "swsh": "釋放出治癒波動， 讓對手回復 最大ＨＰ的一半。"
+        },
+        "simplified-chinese": {
+            "sm": "放出治愈波动， 从而回复对手 最大ＨＰ的一半。",
+            "usum": "放出治愈波动， 从而回复对手 最大ＨＰ的一半。",
+            "lgpe": "放出治愈波动， 从而回复对手 最大HP的一半。",
+            "swsh": "放出治愈波动， 从而回复对手 最大ＨＰ的一半。"
+        }
+    },
+    "effect": {
+        "full": "Heals the target for half its max HP.",
+        "shortEffect": "Heals the target for half its max HP."
+    }
 }

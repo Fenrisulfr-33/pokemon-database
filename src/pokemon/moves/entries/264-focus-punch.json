@@ -1,45 +1,144 @@
 {
-  "_id": 264,
-  "key": "focus-punch",
-  "name": {
-    "english": "Focus Punch",
-    "japanese": "きあいパンチ",
-    "chinese": "集中猛击",
-    "korean": "힘껏펀치",
-    "german": "Puño Certero",
-    "french": "Power-Punch",
-    "italian": "Focus Punch",
-    "spanish": "Centripugno"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 150,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A powerful loyalty attack.\nThe user flinches if hit.",
-    "emerald": "A powerful loyalty attack.\nThe user flinches if hit.",
-    "firered-leafgreen": "An attack that is\nexecuted last.\nThe user flinches\nif hit beforehand.",
-    "diamond-pearl": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
-    "platinum": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
-    "heartgold-soulsilver": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
-    "black-white": "The user focuses its mind before\nlaunching a punch. It will fail if the user\nis hit before it is used.",
-    "black-2-white-2": "The user focuses its mind before\nlaunching a punch. It will fail if the user\nis hit before it is used.",
-    "x-y": "The user focuses its mind before\nlaunching a punch. This move fails\nif the user is hit before it is used.",
-    "omega-ruby-alpha-sapphire": "The user focuses its mind before\nlaunching a punch. This move fails\nif the user is hit before it is used.",
-    "sun-moon": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
-    "ultra-sun-ultra-moon": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
-    "lets-go-pikachu-lets-go-eevee": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
-    "sword-shield": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the user takes damage this turn before hitting, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk.",
-    "shortEffect": "If the user takes damage before attacking, the attack is canceled."
-  },
-  "priority": -3
+    "_id": 264,
+    "key": "focus-punch",
+    "name": {
+        "japanese-kana": "きあいパンチ",
+        "korean": "힘껏펀치",
+        "traditional-chinese": "真氣拳",
+        "french": "Mitra-Poing",
+        "german": "Power-Punch",
+        "spanish": "Puño Certero",
+        "italian": "Centripugno",
+        "english": "Focus Punch",
+        "japanese": "きあいパンチ",
+        "simplified-chinese": "真气拳",
+        "latin-american-spanish": "Puño Centrado"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 150,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": -3,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A powerful loyalty attack. The user flinches if hit.",
+            "em": "A powerful loyalty attack. The user flinches if hit.",
+            "frlg": "An attack that is executed last. The user flinches if hit beforehand.",
+            "dp": "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.",
+            "pt": "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.",
+            "hgss": "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.",
+            "bw": "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.",
+            "b2w2": "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.",
+            "xy": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+            "oras": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+            "sm": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+            "usum": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+            "lgpe": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+            "swsh": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+            "la": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+            "sv": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move."
+        },
+        "french": {
+            "bw": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé.",
+            "xy": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé.",
+            "oras": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé.",
+            "sm": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé.",
+            "usum": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé.",
+            "lgpe": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé.",
+            "swsh": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé."
+        },
+        "japanese-kana": {
+            "xy": "せいしんを　たかめて　パンチを くりだす。わざを　だす　までに こうげきを　うけると　しっぱい　する。",
+            "oras": "せいしんを　たかめて　パンチを くりだす。わざを　だす　までに こうげきを　うけると　しっぱい　する。",
+            "sm": "せいしんを　たかめて　パンチを くりだす。　わざを　だす　までに こうげきを　うけると　しっぱい　する。",
+            "usum": "せいしんを　たかめて　パンチを くりだす。　わざを　だす　までに こうげきを　うけると　しっぱい　する。",
+            "lgpe": "せいしんを　たかめて　パンチを くりだす。　わざを　だす　までに こうげきを　うけると　しっぱい　する。",
+            "swsh": "せいしんを　たかめて　パンチを くりだす。　わざを　だす　までに こうげきを　うけると　しっぱい　する。"
+        },
+        "korean": {
+            "xy": "정신력을 높여 펀치를 날린다. 기술을 쓰기 전에 공격을 받으면 실패한다.",
+            "oras": "정신력을 높여 펀치를 날린다. 기술을 쓰기 전에 공격을 받으면 실패한다.",
+            "sm": "정신력을 높여 펀치를 날린다. 기술을 쓰기 전에 공격을 받으면 실패한다.",
+            "usum": "정신력을 높여 펀치를 날린다. 기술을 쓰기 전에 공격을 받으면 실패한다.",
+            "lgpe": "정신력을 높여 펀치를 날린다. 기술을 쓰기 전에 공격을 받으면 실패한다.",
+            "swsh": "정신력을 높여 펀치를 날린다. 기술을 쓰기 전에 공격을 받으면 실패한다."
+        },
+        "german": {
+            "xy": "Anwender konzentriert sich, bevor er angreift. Wird er vorher getroffen, ist die Attacke erfolglos.",
+            "oras": "Anwender konzentriert sich, bevor er angreift. Wird er vorher getroffen, ist die Attacke erfolglos.",
+            "sm": "Anwender konzentriert sich, bevor er angreift. Wird er vorher getroffen, ist die Attacke erfolglos.",
+            "usum": "Anwender konzentriert sich, bevor er angreift. Wird er vorher getroffen, ist die Attacke erfolglos.",
+            "lgpe": "Anwender konzentriert sich, bevor er angreift. Wird er vorher getroffen, ist die Attacke erfolglos.",
+            "swsh": "Anwender konzentriert sich, bevor er angreift. Wird er vorher getroffen, ist die Attacke erfolglos."
+        },
+        "spanish": {
+            "xy": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "oras": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "sm": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "usum": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "lgpe": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "swsh": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso."
+        },
+        "italian": {
+            "xy": "Chi la usa prende la mira prima di sferrare un pugno. Fallirà se verrà colpito prima di eseguire la mossa.",
+            "oras": "Chi la usa prende la mira prima di sferrare un pugno. Fallirà se verrà colpito prima di eseguire la mossa.",
+            "sm": "Chi la usa prende la mira prima di sferrare un pugno. Fallirà se verrà colpito prima di eseguire la mossa.",
+            "usum": "Chi la usa prende la mira prima di sferrare un pugno. Fallirà se verrà colpito prima di eseguire la mossa.",
+            "lgpe": "Chi la usa prende la mira prima di sferrare un pugno. Fallirà se verrà colpito prima di eseguire la mossa.",
+            "swsh": "Chi la usa prende la mira prima di sferrare un pugno. Fallirà se verrà colpito prima di eseguire la mossa."
+        },
+        "japanese": {
+            "xy": "精神を　高めて　パンチを　くりだす。 技を　だすまでに 攻撃を　受けると　失敗する。",
+            "oras": "精神を　高めて　パンチを　くりだす。 技を　だすまでに 攻撃を　受けると　失敗する。",
+            "sm": "精神を　高めて　パンチを　くりだす。 技を　だすまでに 攻撃を　受けると　失敗する。",
+            "usum": "精神を　高めて　パンチを　くりだす。 技を　だすまでに 攻撃を　受けると　失敗する。",
+            "lgpe": "精神を　高めて　パンチを　くりだす。 技を　だすまでに 攻撃を　受けると　失敗する。",
+            "swsh": "精神を　高めて　パンチを　くりだす。 技を　だすまでに 攻撃を　受けると　失敗する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "oras": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "sm": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "usum": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "lgpe": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.",
+            "swsh": "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso."
+        },
+        "traditional-chinese": {
+            "sm": "集中精神後出拳。 若出拳前受到攻擊， 則會失敗。",
+            "usum": "集中精神後出拳。 若出拳前受到攻擊， 則會失敗。",
+            "lgpe": "集中精神後出拳。 若出拳前受到攻擊， 則會失敗。",
+            "swsh": "集中精神後出拳。 若出拳前受到攻擊， 則會失敗。"
+        },
+        "simplified-chinese": {
+            "sm": "集中精神出拳。 在招式使出前 若受到攻击则会失败。",
+            "usum": "集中精神出拳。 在招式使出前 若受到攻击则会失败。",
+            "lgpe": "集中精神出拳。 在招式使出前 若受到攻击则会失败。",
+            "swsh": "集中精神出拳。 在招式使出前 若受到攻击则会失败。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the user takes damage this turn before hitting, this move will fail. This move cannot be copied by Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
+        "shortEffect": "If the user takes damage before attacking, the attack is canceled."
+    }
 }

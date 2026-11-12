@@ -178,8 +178,14 @@ language is lost.
   `[flinch]{mechanic:flinch}`. Keep only the label (`flinch`). If the
   label is empty (`[]{type:fire}`), use the slug instead, with hyphens
   turned into spaces.
+- A soft hyphen (`­`) followed by a line break marks a word split
+  across lines (`fore­\nlegs`). Remove both so the word is joined
+  (`forelegs`).
 - Change `\n`, `\n\n` and `\f` in effect and flavor text to single
   spaces.
+
+These helpers live in `src/pokemon/pokeApi/pokeApiFormat.js` and are
+shared with `pokeApi/moves/getMoves.js`.
 
 ### Dropped fields
 
