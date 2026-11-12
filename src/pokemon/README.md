@@ -1,3 +1,20 @@
+# Pokemon data
+
+---
+
+## File structure 
+
+```text
+src/pokemon
+├──[collection]/
+|	├── entries/		# Documents that get uploaded into the collection
+│   ├──  upsert.js 		# The upsert function for that specific collection
+│   ├──  schema.json 	# The schema for the documents in the collection
+│   ├──  README.md		# Any information needed/specific for this collection
+│   ├──  validation.mjs	# A script to check all files in ./entries pass the schema.json
+│   ├──  [helpers].js 	# Helper files to perform specific functions on the data in ./entries
+```
+
 ```text
 src/pokemon/
 ├── abilities/
