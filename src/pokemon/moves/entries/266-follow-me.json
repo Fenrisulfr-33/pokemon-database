@@ -1,45 +1,144 @@
 {
-  "_id": 266,
-  "key": "follow-me",
-  "name": {
-    "english": "Follow Me",
-    "japanese": "このゆびとまれ",
-    "chinese": "跟我来",
-    "korean": "날따름",
-    "german": "Señuelo",
-    "french": "Spotlight",
-    "italian": "Follow Me",
-    "spanish": "Sonoqui"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Draws attention to make\nfoes attack only the user.",
-    "emerald": "Draws attention to make\nfoes attack only the user.",
-    "firered-leafgreen": "The user draws\nattention to itself,\nmaking foes attack\nonly the user.",
-    "diamond-pearl": "The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n",
-    "platinum": "The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n",
-    "heartgold-soulsilver": "The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n",
-    "black-white": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
-    "black-2-white-2": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
-    "x-y": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
-    "omega-ruby-alpha-sapphire": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
-    "sun-moon": "The user draws attention to itself, making all targets\ntake aim only at the user.",
-    "ultra-sun-ultra-moon": "The user draws attention to itself, making all targets\ntake aim only at the user.",
-    "lets-go-pikachu-lets-go-eevee": "The user draws attention to itself, making all targets\ntake aim only at the user.",
-    "sword-shield": "The user draws attention to itself, making all targets\ntake aim only at the user."
-  },
-  "effect": {
-    "full": "Until the end of this turn, any moves that opposing Pokémon target solely at the user's ally will instead target the user.  If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target.\n\nThis effect takes priority over lightning rod and storm drain.\n\nIf the user's ally switches out, opposing Pokémon may still hit it with pursuit.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Redirects the target's single-target effects to the user for this turn."
-  },
-  "priority": 2
+    "_id": 266,
+    "key": "follow-me",
+    "name": {
+        "japanese-kana": "このゆびとまれ",
+        "korean": "날따름",
+        "traditional-chinese": "看我嘛",
+        "french": "Par Ici",
+        "german": "Spotlight",
+        "spanish": "Señuelo",
+        "italian": "Sonoqui",
+        "english": "Follow Me",
+        "japanese": "このゆびとまれ",
+        "simplified-chinese": "看我嘛",
+        "latin-american-spanish": "Señuelo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 2,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Draws attention to make foes attack only the user.",
+            "em": "Draws attention to make foes attack only the user.",
+            "frlg": "The user draws attention to itself, making foes attack only the user.",
+            "dp": "The user draws attention to itself, making all foes take aim only at the user.",
+            "pt": "The user draws attention to itself, making all foes take aim only at the user.",
+            "hgss": "The user draws attention to itself, making all foes take aim only at the user.",
+            "bw": "The user draws attention to itself, making all targets take aim only at the user.",
+            "b2w2": "The user draws attention to itself, making all targets take aim only at the user.",
+            "xy": "The user draws attention to itself, making all targets take aim only at the user.",
+            "oras": "The user draws attention to itself, making all targets take aim only at the user.",
+            "sm": "The user draws attention to itself, making all targets take aim only at the user.",
+            "usum": "The user draws attention to itself, making all targets take aim only at the user.",
+            "lgpe": "The user draws attention to itself, making all targets take aim only at the user.",
+            "swsh": "The user draws attention to itself, making all targets take aim only at the user.",
+            "la": "The user draws attention to itself, making all targets take aim only at the user.",
+            "sv": "The user draws attention to itself, making all opposing Pokémon take aim only at the user."
+        },
+        "french": {
+            "bw": "Attire l’attention. Les ennemis n’attaquent que le lanceur.",
+            "xy": "Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur.",
+            "oras": "Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur.",
+            "sm": "Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur.",
+            "usum": "Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur.",
+            "lgpe": "Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur.",
+            "swsh": "Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "じぶんに　ちゅうもく　させて あいてからの　こうげきを すべて　じぶんに　むけさせる。",
+            "oras": "じぶんに　ちゅうもく　させて あいてからの　こうげきを すべて　じぶんに　むけさせる。",
+            "sm": "じぶんに　ちゅうもく　させて あいてからの　こうげきを すべて　じぶんに　むけさせる。",
+            "usum": "じぶんに　ちゅうもく　させて あいてからの　こうげきを すべて　じぶんに　むけさせる。",
+            "lgpe": "じぶんに　ちゅうもく　させて あいてからの　こうげきを すべて　じぶんに　むけさせる。",
+            "swsh": "じぶんに　ちゅうもく　させて あいてからの　こうげきを すべて　じぶんに　むけさせる。"
+        },
+        "korean": {
+            "xy": "자신에게 주목시켜 상대로부터의 공격을 모두 자신에게 향하게 한다.",
+            "oras": "자신에게 주목시켜 상대로부터의 공격을 모두 자신에게 향하게 한다.",
+            "sm": "자신에게 주목시켜 상대로부터의 공격을 모두 자신에게 향하게 한다.",
+            "usum": "자신에게 주목시켜 상대로부터의 공격을 모두 자신에게 향하게 한다.",
+            "lgpe": "자신에게 주목시켜 상대로부터의 공격을 모두 자신에게 향하게 한다.",
+            "swsh": "자신에게 주목시켜 상대로부터의 공격을 모두 자신에게 향하게 한다."
+        },
+        "german": {
+            "xy": "Zieht Aufmerksamkeit auf sich. Gegner greift nur Anwender an.",
+            "oras": "Zieht Aufmerksamkeit auf sich. Gegner greift nur Anwender an.",
+            "sm": "Zieht Aufmerksamkeit auf sich. Gegner greift nur Anwender an.",
+            "usum": "Zieht Aufmerksamkeit auf sich. Gegner greift nur Anwender an.",
+            "lgpe": "Zieht Aufmerksamkeit auf sich. Gegner greift nur Anwender an.",
+            "swsh": "Zieht Aufmerksamkeit auf sich. Gegner greifen nur den Anwender an."
+        },
+        "spanish": {
+            "xy": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "oras": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "sm": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "usum": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "lgpe": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "swsh": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo."
+        },
+        "italian": {
+            "xy": "Chi la usa attira l’attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.",
+            "oras": "Chi la usa attira l’attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.",
+            "sm": "Chi la usa attira l’attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.",
+            "usum": "Chi la usa attira l’attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.",
+            "lgpe": "Chi la usa attira l’attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.",
+            "swsh": "Chi la usa attira l’attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio."
+        },
+        "japanese": {
+            "xy": "自分に　注目させて 相手からの　攻撃を すべて　自分に　むけさせる。",
+            "oras": "自分に　注目させて 相手からの　攻撃を すべて　自分に　むけさせる。",
+            "sm": "自分に　注目させて 相手からの　攻撃を すべて　自分に　むけさせる。",
+            "usum": "自分に　注目させて 相手からの　攻撃を すべて　自分に　むけさせる。",
+            "lgpe": "自分に　注目させて 相手からの　攻撃を すべて　自分に　むけさせる。",
+            "swsh": "自分に　注目させて 相手からの　攻撃を すべて　自分に　むけさせる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "oras": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "sm": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "usum": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "lgpe": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+            "swsh": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo."
+        },
+        "traditional-chinese": {
+            "sm": "吸引對手的注意， 將對手的攻擊 全部轉移到自己身上。",
+            "usum": "吸引對手的注意， 將對手的攻擊 全部轉移到自己身上。",
+            "lgpe": "吸引對手的注意， 將對手的攻擊 全部轉移到自己身上。",
+            "swsh": "吸引對手的注意， 將對手的攻擊 全部轉移到自己身上。"
+        },
+        "simplified-chinese": {
+            "sm": "引起对手的注意， 将对手的攻击 全部转移到自己身上。",
+            "usum": "引起对手的注意， 将对手的攻击 全部转移到自己身上。",
+            "lgpe": "引起对手的注意， 将对手的攻击 全部转移到自己身上。",
+            "swsh": "引起对手的注意， 将对手的攻击 全部转移到自己身上。"
+        }
+    },
+    "effect": {
+        "full": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user.  If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Redirects the target’s single-target effects to the user for this turn."
+    }
 }

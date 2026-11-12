@@ -1,45 +1,144 @@
 {
-  "_id": 341,
-  "key": "mud-shot",
-  "name": {
-    "english": "Mud Shot",
-    "japanese": "マッドショット",
-    "chinese": "泥巴射击",
-    "korean": "머드숏",
-    "german": "Disparo Lodo",
-    "french": "Lehmschuss",
-    "italian": "Mud Shot",
-    "spanish": "Colpodifango"
-  },
-  "type": "Ground",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 55,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Hurls mud at the foe and\nreduces SPEED.",
-    "emerald": "Hurls mud at the foe and\nreduces SPEED.",
-    "firered-leafgreen": "The user attacks by\nhurling mud.\nIt also reduces the\nfoe’s SPEED.",
-    "diamond-pearl": "The user attacks by\nhurling a blob of mud\nat the foe.\nIt also reduces the\ntarget’s Speed.",
-    "platinum": "The user attacks by\nhurling a blob of mud\nat the foe.\nIt also reduces the\ntarget’s Speed.",
-    "heartgold-soulsilver": "The user attacks by\nhurling a blob of mud\nat the foe.\nIt also reduces the\ntarget’s Speed.",
-    "black-white": "The user attacks by hurling a blob of mud\nat the target.\nIt also reduces the target’s Speed.",
-    "black-2-white-2": "The user attacks by hurling a blob of mud\nat the target.\nIt also reduces the target’s Speed.",
-    "x-y": "The user attacks by hurling a blob of mud\nat the target.\nThis also lowers the target’s Speed stat.",
-    "omega-ruby-alpha-sapphire": "The user attacks by hurling a blob of mud\nat the target.\nThis also lowers the target’s Speed stat.",
-    "sun-moon": "The user attacks by hurling a blob of mud at the\ntarget. This also lowers the target’s Speed stat.",
-    "ultra-sun-ultra-moon": "The user attacks by hurling a blob of mud at the\ntarget. This also lowers the target’s Speed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by hurling a blob of mud at the\ntarget. This also lowers the target’s Speed stat.",
-    "sword-shield": "The user attacks by hurling a blob of mud at the\ntarget. This also lowers the target’s Speed stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 341,
+    "key": "mud-shot",
+    "name": {
+        "japanese-kana": "マッドショット",
+        "korean": "머드샷",
+        "traditional-chinese": "泥巴射擊",
+        "french": "Tir de Boue",
+        "german": "Lehmschuss",
+        "spanish": "Disparo Lodo",
+        "italian": "Colpodifango",
+        "english": "Mud Shot",
+        "japanese": "マッドショット",
+        "simplified-chinese": "泥巴射击",
+        "latin-american-spanish": "Disparo de Lodo"
+    },
+    "type": "ground",
+    "category": "special",
+    "contest": "tough",
+    "pp": 15,
+    "power": 55,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Hurls mud at the foe and reduces SPEED.",
+            "em": "Hurls mud at the foe and reduces SPEED.",
+            "frlg": "The user attacks by hurling mud. It also reduces the foe’s SPEED.",
+            "dp": "The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.",
+            "pt": "The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.",
+            "hgss": "The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.",
+            "bw": "The user attacks by hurling a blob of mud at the target. It also reduces the target’s Speed.",
+            "b2w2": "The user attacks by hurling a blob of mud at the target. It also reduces the target’s Speed.",
+            "xy": "The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.",
+            "oras": "The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.",
+            "sm": "The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.",
+            "usum": "The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.",
+            "lgpe": "The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.",
+            "swsh": "The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.",
+            "la": "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat.",
+            "sv": "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat."
+        },
+        "french": {
+            "bw": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.",
+            "xy": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.",
+            "oras": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.",
+            "sm": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.",
+            "usum": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.",
+            "lgpe": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.",
+            "swsh": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible."
+        },
+        "japanese-kana": {
+            "xy": "どろの　かたまりを あいてに　なげつけて　こうげきする。 どうじに　あいての　すばやさを　さげる。",
+            "oras": "どろの　かたまりを あいてに　なげつけて　こうげきする。 どうじに　あいての　すばやさを　さげる。",
+            "sm": "どろの　かたまりを あいてに　なげつけて　こうげきする。 どうじに　あいての　すばやさを　さげる。",
+            "usum": "どろの　かたまりを あいてに　なげつけて　こうげきする。 どうじに　あいての　すばやさを　さげる。",
+            "lgpe": "どろの　かたまりを あいてに　なげつけて　こうげきする。 どうじに　あいての　すばやさを　さげる。",
+            "swsh": "どろの　かたまりを あいてに　なげつけて　こうげきする。 どうじに　あいての　すばやさを　さげる。"
+        },
+        "korean": {
+            "xy": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다.",
+            "oras": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다.",
+            "sm": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다.",
+            "usum": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다.",
+            "lgpe": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다.",
+            "swsh": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.",
+            "oras": "Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.",
+            "sm": "Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.",
+            "usum": "Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.",
+            "lgpe": "Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.",
+            "swsh": "Angriff mit Lehm, der den Initiative-Wert des Zieles senkt."
+        },
+        "spanish": {
+            "xy": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "oras": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "sm": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "usum": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "lgpe": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "swsh": "El usuario lanza lodo al objetivo y reduce su Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca lanciando fango sul bersaglio, riducendone anche la Velocità.",
+            "oras": "Chi la usa attacca lanciando fango sul bersaglio, riducendone anche la Velocità.",
+            "sm": "Chi la usa attacca lanciando fango sul bersaglio, riducendone anche la Velocità.",
+            "usum": "Chi la usa attacca lanciando fango sul bersaglio, riducendone anche la Velocità.",
+            "lgpe": "Chi la usa attacca lanciando fango sul bersaglio, riducendone anche la Velocità.",
+            "swsh": "Chi la usa attacca lanciando fango sul bersaglio, riducendone anche la Velocità."
+        },
+        "japanese": {
+            "xy": "泥の　塊を 相手に　投げつけて　攻撃する。 同時に　相手の　素早さを　さげる。",
+            "oras": "泥の　塊を 相手に　投げつけて　攻撃する。 同時に　相手の　素早さを　さげる。",
+            "sm": "泥の　塊を 相手に　投げつけて　攻撃する。 同時に　相手の　素早さを　さげる。",
+            "usum": "泥の　塊を 相手に　投げつけて　攻撃する。 同時に　相手の　素早さを　さげる。",
+            "lgpe": "泥の　塊を 相手に　投げつけて　攻撃する。 同時に　相手の　素早さを　さげる。",
+            "swsh": "泥の　塊を 相手に　投げつけて　攻撃する。 同時に　相手の　素早さを　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "oras": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "sm": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "usum": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "lgpe": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+            "swsh": "El usuario lanza lodo al objetivo y reduce su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "向對手投擲 泥塊進行攻擊。 同時降低對手的速度。",
+            "usum": "向對手投擲 泥塊進行攻擊。 同時降低對手的速度。",
+            "lgpe": "向對手投擲 泥塊進行攻擊。 同時降低對手的速度。",
+            "swsh": "向對手投擲 泥塊進行攻擊。 同時降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手投掷 泥块进行攻击。 同时降低对手的速度。",
+            "usum": "向对手投掷 泥块进行攻击。 同时降低对手的速度。",
+            "lgpe": "向对手投掷 泥块进行攻击。 同时降低对手的速度。",
+            "swsh": "向对手投掷 泥块进行攻击。 同时降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

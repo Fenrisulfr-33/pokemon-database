@@ -1,37 +1,135 @@
 {
-  "_id": 611,
-  "key": "infestation",
-  "name": {
-    "english": "Infestation",
-    "japanese": "まとわりつく",
-    "chinese": "死纏爛打",
-    "korean": "엉겨붙기",
-    "german": "Acoso",
-    "french": "Plage",
-    "italian": "Infestation",
-    "spanish": "Assillo"
-  },
-  "type": "Bug",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The target is infested and attacked for\nfour to five turns.\nThe target can’t flee during this time.",
-    "omega-ruby-alpha-sapphire": "The target is infested and attacked for\nfour to five turns.\nThe target can’t flee during this time.",
-    "sun-moon": "The target is infested and attacked for four to five\nturns. The target can’t flee during this time.",
-    "ultra-sun-ultra-moon": "The target is infested and attacked for four to five\nturns. The target can’t flee during this time.",
-    "lets-go-pikachu-lets-go-eevee": "The target is infested and attacked for four to five\nturns. The target can’t flee during this time.",
-    "sword-shield": "The target is infested and attacked for four to five\nturns. The target can’t flee during this time."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
-    "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
-  },
-  "priority": 0
+    "_id": 611,
+    "key": "infestation",
+    "name": {
+        "japanese-kana": "まとわりつく",
+        "korean": "엉겨붙기",
+        "traditional-chinese": "死纏爛打",
+        "french": "Harcèlement",
+        "german": "Plage",
+        "spanish": "Acoso",
+        "italian": "Assillo",
+        "english": "Infestation",
+        "japanese": "まとわりつく",
+        "simplified-chinese": "纠缠不休",
+        "latin-american-spanish": "Infestación"
+    },
+    "type": "bug",
+    "category": "special",
+    "contest": null,
+    "pp": 20,
+    "power": 20,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 4,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。",
+            "oras": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。",
+            "sm": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。",
+            "usum": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。",
+            "lgpe": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。",
+            "swsh": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。"
+        },
+        "korean": {
+            "xy": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.",
+            "oras": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.",
+            "sm": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.",
+            "usum": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.",
+            "lgpe": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.",
+            "swsh": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다."
+        },
+        "french": {
+            "xy": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.",
+            "oras": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.",
+            "sm": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.",
+            "usum": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.",
+            "lgpe": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.",
+            "swsh": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période."
+        },
+        "german": {
+            "xy": "Der Anwender fällt vier bis fünf Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen.",
+            "oras": "Der Anwender fällt vier bis fünf Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen.",
+            "sm": "Der Anwender fällt vier bis fünf Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen.",
+            "usum": "Der Anwender fällt vier bis fünf Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen.",
+            "lgpe": "Der Anwender fällt vier bis fünf Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen.",
+            "swsh": "Der Anwender fällt vier bis fünf Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen."
+        },
+        "spanish": {
+            "xy": "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "oras": "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "sm": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "usum": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "lgpe": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "swsh": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.",
+            "oras": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.",
+            "sm": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.",
+            "usum": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.",
+            "lgpe": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.",
+            "swsh": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire."
+        },
+        "english": {
+            "xy": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+            "oras": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+            "sm": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+            "usum": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+            "lgpe": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+            "swsh": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+            "la": "The target is infested and attacked for four to five turns. The target can't flee during this time.",
+            "sv": "The target is infested and attacked for four to five turns. The target can't flee during this time."
+        },
+        "japanese": {
+            "xy": "４ー５ターンの　あいだ　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。",
+            "oras": "４ー５ターンの　あいだ　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。",
+            "sm": "４ー５ターンの　間　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。",
+            "usum": "４ー５ターンの　間　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。",
+            "lgpe": "４ー５ターンの　間　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。",
+            "swsh": "４ー５ターンの　間　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "oras": "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "sm": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "usum": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "lgpe": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+            "swsh": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+        },
+        "traditional-chinese": {
+            "sm": "在４～５回合內 死纏爛打地進行攻擊。 在此期間對手將無法逃走。",
+            "usum": "在４～５回合內 死纏爛打地進行攻擊。 在此期間對手將無法逃走。",
+            "lgpe": "在４～５回合內 死纏爛打地進行攻擊。 在此期間對手將無法逃走。",
+            "swsh": "在４～５回合內 死纏爛打地進行攻擊。 在此期間對手將無法逃走。"
+        },
+        "simplified-chinese": {
+            "sm": "在４～５回合内 死缠烂打地进行攻击。 在此期间对手将无法逃走。",
+            "usum": "在４～５回合内 死缠烂打地进行攻击。 在此期间对手将无法逃走。",
+            "lgpe": "在４～５回合内 死缠烂打地进行攻击。 在此期间对手将无法逃走。",
+            "swsh": "在４～５回合内 死缠烂打地进行攻击。 在此期间对手将无法逃走。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

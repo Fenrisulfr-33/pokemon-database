@@ -1,32 +1,84 @@
 {
-  "_id": 816,
-  "key": "jungle-healing",
-  "name": {
-    "english": "Jungle Healing",
-    "japanese": "ジャングルヒール",
-    "chinese": "叢林治療",
-    "korean": "정글힐",
-    "german": "Cura Selvática",
-    "french": "Dschungelheilung",
-    "italian": "Jungle Healing",
-    "spanish": "Giunglacura"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 8,
-  "target": "user-and-allies",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user becomes one with the jungle, restoring HP\nand healing any status conditions of itself and its ally\nPokémon in battle."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 816,
+    "key": "jungle-healing",
+    "name": {
+        "japanese-kana": "ジャングルヒール",
+        "korean": "정글힐",
+        "traditional-chinese": "叢林治療",
+        "french": "Selve Salvatrice",
+        "german": "Dschungelheilung",
+        "spanish": "Cura Selvática",
+        "italian": "Giunglacura",
+        "english": "Jungle Healing",
+        "japanese": "ジャングルヒール",
+        "simplified-chinese": "丛林治疗",
+        "latin-american-spanish": "Selva Sanadora"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "user-and-allies",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 25,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "ジャングルと　いったいか　して じぶんと　ばにいる　みかたの ＨＰと　じょうたいを　かいふくする。"
+        },
+        "korean": {
+            "swsh": "정글과 하나가 되어 자신과 배틀에 나와 있는 같은 편의 HP와 모든 상태를 회복한다."
+        },
+        "traditional-chinese": {
+            "swsh": "和叢林化為一體， 回復自己和場上同伴的ＨＰ和狀態。"
+        },
+        "french": {
+            "swsh": "Le lanceur fait appel au pouvoir de la jungle pour restaurer les PV et soigner les altérations d’état de ses alliés et de lui-même."
+        },
+        "german": {
+            "swsh": "Der Anwender wird eins mit dem Dschungel und heilt bei sich und seinen am Kampf beteiligten Mitstreitern KP und hebt jegliche Statusprobleme auf."
+        },
+        "spanish": {
+            "swsh": "Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura PS no solo de sí mismo, sino también de los aliados presentes en el terreno."
+        },
+        "italian": {
+            "swsh": "Il Pokémon diventa tutt’uno con la giungla, ripristinando i PS e curando i problemi di stato per sé e per l’alleato in campo."
+        },
+        "english": {
+            "swsh": "The user becomes one with the jungle, restoring HP and healing any status conditions of itself and its ally Pokémon in battle.",
+            "la": "The user becomes one with the jungle, restoring HP and healing any status conditions of itself and its ally Pokémon in battle.",
+            "sv": "The user becomes one with the jungle, restoring HP and curing status conditions for itself and its ally Pokémon currently in the battle."
+        },
+        "japanese": {
+            "swsh": "ジャングルと　一体化して 自分と　場にいる　味方の ＨＰと　状態を　回復する。"
+        },
+        "simplified-chinese": {
+            "swsh": "与丛林融为一体， 回复自己和场上同伴的ＨＰ和状态。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura PS no solo de sí mismo, sino también de los aliados presentes en el terreno."
+        }
+    },
+    "effect": {
+        "full": "Each Pokemon on the user's side has its status condition healed and restores 1/4 of its maximum HP, rounded up.",
+        "shortEffect": "Each Pokemon on the user's side has its status condition healed and restores 1/4 of its maximum HP, rounded up."
+    }
 }

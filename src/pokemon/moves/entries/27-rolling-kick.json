@@ -1,47 +1,144 @@
 {
-  "_id": 27,
-  "key": "rolling-kick",
-  "name": {
-    "english": "Rolling Kick",
-    "japanese": "まわしげり",
-    "chinese": "旋风腿",
-    "korean": "돌려차기",
-    "german": "Patada Giro",
-    "french": "Fegekick",
-    "italian": "Rolling Kick",
-    "spanish": "Calciorullo"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 60,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A fast, spinning\nkick.",
-    "crystal": "A fast, spinning\nkick.",
-    "ruby-sapphire": "A fast kick delivered from\na rapid spin.",
-    "emerald": "A fast kick delivered from\na rapid spin.",
-    "firered-leafgreen": "A quick kick from a\nrolling spin.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "The user cuts a\nquick spin and lashes\nout with a sharp\nkick.\n",
-    "platinum": "The user cuts a\nquick spin and lashes\nout with a sharp\nkick.\n",
-    "heartgold-soulsilver": "The user lashes \nout with a quick,\nspinning kick. It\nmay also make the\ntarget flinch.",
-    "black-white": "The user lashes out with a quick, spinning\nkick. It may also make the target flinch.",
-    "black-2-white-2": "The user lashes out with a quick, spinning\nkick. It may also make the target flinch.",
-    "x-y": "The user lashes out with a quick, spinning\nkick. This may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user lashes out with a quick, spinning\nkick. This may also make the target flinch.",
-    "sun-moon": "The user lashes out with a quick, spinning kick.\nThis may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The user lashes out with a quick, spinning kick.\nThis may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user lashes out with a quick, spinning kick.\nThis may also make the target flinch.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 27,
+    "key": "rolling-kick",
+    "name": {
+        "japanese-kana": "まわしげり",
+        "korean": "돌려차기",
+        "traditional-chinese": "迴旋踢",
+        "french": "Mawashi Geri",
+        "german": "Fegekick",
+        "spanish": "Patada Giro",
+        "italian": "Calciorullo",
+        "english": "Rolling Kick",
+        "japanese": "まわしげり",
+        "simplified-chinese": "回旋踢",
+        "latin-american-spanish": "Patada Giro"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 60,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A fast, spinning kick.",
+            "cr": "A fast, spinning kick.",
+            "rs": "A fast kick delivered from a rapid spin.",
+            "em": "A fast kick delivered from a rapid spin.",
+            "frlg": "A quick kick from a rolling spin. It may make the foe flinch.",
+            "dp": "The user cuts a quick spin and lashes out with a sharp kick.",
+            "pt": "The user cuts a quick spin and lashes out with a sharp kick.",
+            "hgss": "The user lashes out with a quick, spinning kick. It may also make the target flinch.",
+            "bw": "The user lashes out with a quick, spinning kick. It may also make the target flinch.",
+            "b2w2": "The user lashes out with a quick, spinning kick. It may also make the target flinch.",
+            "xy": "The user lashes out with a quick, spinning kick. This may also make the target flinch.",
+            "oras": "The user lashes out with a quick, spinning kick. This may also make the target flinch.",
+            "sm": "The user lashes out with a quick, spinning kick. This may also make the target flinch.",
+            "usum": "The user lashes out with a quick, spinning kick. This may also make the target flinch.",
+            "lgpe": "The user lashes out with a quick, spinning kick. This may also make the target flinch.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur effectue un coup de pied tournoyant et extrêmement rapide. Peut apeurer l’ennemi.",
+            "xy": "Le lanceur effectue un coup de pied tournoyant et extrêmement rapide. Peut apeurer l’ennemi.",
+            "oras": "Le lanceur effectue un coup de pied tournoyant et extrêmement rapide. Peut apeurer l’ennemi.",
+            "sm": "Le lanceur effectue un coup de pied tournoyant et extrêmement rapide. Peut apeurer l’ennemi.",
+            "usum": "Le lanceur effectue un coup de pied tournoyant et extrêmement rapide. Peut apeurer l’ennemi.",
+            "lgpe": "Le lanceur effectue un coup de pied tournoyant et extrêmement rapide. Peut apeurer l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "からだを　すばやく　かいてん　させながら けとばして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "からだを　すばやく　かいてん　させながら けとばして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "からだを　すばやく　かいてん　させながら けとばして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "からだを　すばやく　かいてん　させながら けとばして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "からだを　すばやく　かいてん　させながら けとばして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "몸을 재빨리 회전시키며 걷어차서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "몸을 재빨리 회전시키며 걷어차서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "몸을 재빨리 회전시키며 걷어차서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "몸을 재빨리 회전시키며 걷어차서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "몸을 재빨리 회전시키며 걷어차서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Heftiger Tritt aus einer schnellen Drehbewegung. Lässt das Ziel eventuell zurückschrecken.",
+            "oras": "Heftiger Tritt aus einer schnellen Drehbewegung. Lässt das Ziel eventuell zurückschrecken.",
+            "sm": "Heftiger Tritt aus einer schnellen Drehbewegung. Lässt das Ziel eventuell zurückschrecken.",
+            "usum": "Heftiger Tritt aus einer schnellen Drehbewegung. Lässt das Ziel eventuell zurückschrecken.",
+            "lgpe": "Heftiger Tritt aus einer schnellen Drehbewegung. Lässt das Ziel eventuell zurückschrecken.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "oras": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "sm": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "usum": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "lgpe": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa infierisce sul bersaglio con un calcio rotante. Può anche farlo tentennare.",
+            "oras": "Chi la usa infierisce sul bersaglio con un calcio rotante. Può anche farlo tentennare.",
+            "sm": "Chi la usa infierisce sul bersaglio con un calcio rotante. Può anche farlo tentennare.",
+            "usum": "Chi la usa infierisce sul bersaglio con un calcio rotante. Può anche farlo tentennare.",
+            "lgpe": "Chi la usa infierisce sul bersaglio con un calcio rotante. Può anche farlo tentennare.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "体を　素早く　回転させながら けとばして　攻撃する。 相手を　ひるませる　ことが　ある。",
+            "oras": "体を　素早く　回転させながら けとばして　攻撃する。 相手を　ひるませる　ことが　ある。",
+            "sm": "体を　素早く　回転させながら けとばして　攻撃する。 相手を　ひるませる　ことが　ある。",
+            "usum": "体を　素早く　回転させながら けとばして　攻撃する。 相手を　ひるませる　ことが　ある。",
+            "lgpe": "体を　素早く　回転させながら けとばして　攻撃する。 相手を　ひるませる　ことが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "oras": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "sm": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "usum": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "lgpe": "Da una patada rápida y circular. Puede hacer retroceder al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "一邊使身體快速旋轉， 一邊踢飛對手進行攻擊。 有時會使對手畏縮。",
+            "usum": "一邊使身體快速旋轉， 一邊踢飛對手進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "一邊使身體快速旋轉， 一邊踢飛對手進行攻擊。 有時會使對手畏縮。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "一边使身体快速旋转， 一边踢飞对手进行攻击。 有时会使对手畏缩。",
+            "usum": "一边使身体快速旋转， 一边踢飞对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "一边使身体快速旋转， 一边踢飞对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

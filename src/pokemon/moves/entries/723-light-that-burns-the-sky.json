@@ -1,34 +1,104 @@
 {
-  "_id": 723,
-  "key": "light-that-burns-the-sky",
-  "name": {
-    "english": "Light That Burns the Sky",
-    "japanese": "てんこがすめつぼうのひかり",
-    "chinese": "焚天滅世熾光爆",
-    "korean": "하늘을태우는멸망의빛",
-    "german": "Fotodestrucción Apocalíptica",
-    "french": "Licht des Erlöschens",
-    "italian": "Light That Burns the Sky",
-    "spanish": "Fotodistruzione Apocalittica"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": null,
-  "pp": 1,
-  "power": 200,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ultra-sun-ultra-moon": "This attack inflicts Attack or Sp. Atk damage—\nwhichever stat is higher for the user, Necrozma. \nThis move ignores the target’s Ability.",
-    "lets-go-pikachu-lets-go-eevee": "This attack inflicts Attack or Sp. Atk damage—\nwhichever stat is higher for the user, Necrozma.\nThis move ignores the target’s Ability.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts damage using either Attack or Special Attack stat, whichever is higher. Determining which stat is used takes into account stat changes but not held items or abilities.",
-    "shortEffect": "Inflicts damage using either Attack or Special Attack stat, whichever is higher."
-  },
-  "priority": 0
+    "_id": 723,
+    "key": "light-that-burns-the-sky",
+    "name": {
+        "japanese-kana": "てんこがすめつぼうのひかり",
+        "korean": "하늘을태우는멸망의빛",
+        "traditional-chinese": "焚天滅世熾光爆",
+        "french": "Apocalypsis Luminis",
+        "german": "Licht des Erlöschens",
+        "spanish": "Fotodestrucción Apocalíptica",
+        "italian": "Fotodistruzione Apocalittica",
+        "english": "Light That Burns the Sky",
+        "japanese": "てんこがすめつぼうのひかり",
+        "simplified-chinese": "焚天灭世炽光爆",
+        "latin-american-spanish": "Fotodestrucción Apocalíptica"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": null,
+    "pp": 1,
+    "power": 200,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "usum": "ネクロズマが　あいての　とくせいの こうかを　むしして　こうげきと　とくこうの たかいほうで　ダメージを　あたえる。",
+            "lgpe": "ネクロズマが　あいての　とくせいの こうかを　むしして　こうげきと　とくこうの たかいほうで　ダメージを　あたえる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "usum": "네크로즈마가 상대의 특성 효과를 무시하고 공격과 특수공격 중 높은 쪽으로 데미지를 준다.",
+            "lgpe": "네크로즈마가 상대의 특성 효과를 무시하고 공격과 특수공격 중 높은 쪽으로 데미지를 준다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "usum": "奈克洛茲瑪會無視對手特性的效果， 在攻擊與特攻之間選擇 數值較高的一方進行攻擊。",
+            "lgpe": "奈克洛茲瑪會無視對手特性的效果， 在攻擊與特攻之間選擇 數值較高的一方進行攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "usum": "Compare l’Attaque et l’Attaque Spéciale, et utilise celle qui infligera le plus de dégâts. Ignore le talent de la cible.",
+            "lgpe": "Compare l’Attaque et l’Attaque Spéciale, et utilise celle qui infligera le plus de dégâts. Ignore le talent de la cible.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "usum": "Ist der Angriff höher als der Spezial-Angriff, wird die Höhe des Schadens durch den Angriff bestimmt und umgekehrt. Ignoriert die Fähigkeit des Zieles.",
+            "lgpe": "Ist der Angriff höher als der Spezial-Angriff, wird die Höhe des Schadens durch den Angriff bestimmt und umgekehrt. Ignoriert die Fähigkeit des Zieles.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "usum": "Necrozma escoge la característica que tenga el valor más alto entre el Ataque y el Ataque Especial para infligir daño, ignorando la habilidad del objetivo.",
+            "lgpe": "Necrozma escoge la característica que tenga el valor más alto entre el Ataque y el Ataque Especial para infligir daño, ignorando la habilidad del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "usum": "Infligge danni in base all’Attacco o all’Attacco Speciale scegliendo il più alto tra i due. Questo attacco ignora l’abilità del bersaglio.",
+            "lgpe": "Infligge danni in base all’Attacco o all’Attacco Speciale scegliendo il più alto tra i due. Questo attacco ignora l’abilità del bersaglio.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "usum": "This attack inflicts Attack or Sp. Atk damage— whichever stat is higher for the user, Necrozma. This move ignores the target’s Ability.",
+            "lgpe": "This attack inflicts Attack or Sp. Atk damage— whichever stat is higher for the user, Necrozma. This move ignores the target’s Ability.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "usum": "ネクロズマが　相手の　特性の 効果を　無視して　攻撃と　特攻の 高いほうで　ダメージを　与える。",
+            "lgpe": "ネクロズマが　相手の　特性の 効果を　無視して　攻撃と　特攻の 高いほうで　ダメージを　与える。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "usum": "奈克洛兹玛会无视对手的特性效果， 在攻击和特攻之间， 用数值相对较高的一项给予对方伤害。",
+            "lgpe": "奈克洛兹玛会无视对手的特性效果， 在攻击和特攻之间， 用数值相对较高的一项给予对方伤害。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "usum": "Necrozma escoge la característica que tenga el valor más alto entre el Ataque y el Ataque Especial para infligir daño, ignorando la habilidad del objetivo.",
+            "lgpe": "Necrozma escoge la característica que tenga el valor más alto entre el Ataque y el Ataque Especial para infligir daño, ignorando la habilidad del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage using either Attack or Special Attack stat, whichever is higher. Determining which stat is used takes into account stat changes but not held items or abilities.",
+        "shortEffect": "Inflicts damage using either Attack or Special Attack stat, whichever is higher."
+    }
 }

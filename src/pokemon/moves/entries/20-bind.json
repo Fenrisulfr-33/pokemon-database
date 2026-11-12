@@ -1,47 +1,150 @@
 {
-  "_id": 20,
-  "key": "bind",
-  "name": {
-    "english": "Bind",
-    "japanese": "しめつける",
-    "chinese": "绑紧",
-    "korean": "조이기",
-    "german": "Atadura",
-    "french": "Klammergriff",
-    "italian": "Bind",
-    "spanish": "Legatutto"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 15,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Binds the target\nfor 2-5 turns.",
-    "crystal": "Binds the target\nfor 2-5 turns.",
-    "ruby-sapphire": "Binds and squeezes the foe\nfor 2 to 5 turns.",
-    "emerald": "Binds and squeezes the foe\nfor 2 to 5 turns.",
-    "firered-leafgreen": "A long body or\ntentacles are used\nto bind the foe for\ntwo to five turns.",
-    "diamond-pearl": "A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns.",
-    "platinum": "A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns.",
-    "heartgold-soulsilver": "A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns.",
-    "black-white": "Things such as long bodies or tentacles\nare used to bind and squeeze\nthe target for four to five turns.",
-    "black-2-white-2": "Things such as long bodies or tentacles\nare used to bind and squeeze\nthe target for four to five turns.",
-    "x-y": "Things such as long bodies or tentacles\nare used to bind and squeeze\nthe target for four to five turns.",
-    "omega-ruby-alpha-sapphire": "Things such as long bodies or tentacles\nare used to bind and squeeze\nthe target for four to five turns.",
-    "sun-moon": "Things such as long bodies or tentacles are used to\nbind and squeeze the target for four to five turns.",
-    "ultra-sun-ultra-moon": "Things such as long bodies or tentacles are used to\nbind and squeeze the target for four to five turns.",
-    "lets-go-pikachu-lets-go-eevee": "Things such as long bodies or tentacles are used to\nbind and squeeze the target for four to five turns.",
-    "sword-shield": "Things such as long bodies or tentacles are used to\nbind and squeeze the target for four to five turns."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
-    "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
-  },
-  "priority": 0
+    "_id": 20,
+    "key": "bind",
+    "name": {
+        "japanese-kana": "しめつける",
+        "korean": "조이기",
+        "traditional-chinese": "綁緊",
+        "french": "Étreinte",
+        "german": "Klammergriff",
+        "spanish": "Atadura",
+        "italian": "Legatutto",
+        "english": "Bind",
+        "japanese": "しめつける",
+        "simplified-chinese": "绑紧",
+        "latin-american-spanish": "Atadura"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 5,
+        "maxTurns": 6,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 75
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Binds the target for 2-5 turns.",
+            "cr": "Binds the target for 2-5 turns.",
+            "rs": "Binds and squeezes the foe for 2 to 5 turns.",
+            "em": "Binds and squeezes the foe for 2 to 5 turns.",
+            "frlg": "A long body or tentacles are used to bind the foe for two to five turns.",
+            "dp": "A long body or tentacles are used to bind and squeeze the foe for two to five turns.",
+            "pt": "A long body or tentacles are used to bind and squeeze the foe for two to five turns.",
+            "hgss": "A long body or tentacles are used to bind and squeeze the foe for two to five turns.",
+            "bw": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "b2w2": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "xy": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "oras": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "sm": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "usum": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "lgpe": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "swsh": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "la": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
+            "sv": "A long body, tentacles, or the like are used to bind and squeeze the target for four to five turns."
+        },
+        "french": {
+            "bw": "Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant 4 à 5 tours.",
+            "xy": "Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant quatre à cinq tours.",
+            "oras": "Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant quatre à cinq tours.",
+            "sm": "Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant quatre à cinq tours.",
+            "usum": "Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant quatre à cinq tours.",
+            "lgpe": "Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant quatre à cinq tours.",
+            "swsh": "Ligote l’ennemi avec les tentacules ou le corps pour l’écraser durant quatre à cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "ながい　からだや　つるなどを　つかい ４ー５ターンの　あいだ あいてを　しめつけて　こうげきする。",
+            "oras": "ながい　からだや　つるなどを　つかい ４ー５ターンの　あいだ あいてを　しめつけて　こうげきする。",
+            "sm": "ながい　からだや　つるなどを　つかい ４ー５ターンの　あいだ あいてを　しめつけて　こうげきする。",
+            "usum": "ながい　からだや　つるなどを　つかい ４ー５ターンの　あいだ あいてを　しめつけて　こうげきする。",
+            "lgpe": "ながい　からだや　つるなどを　つかい ４ー５ターンの　あいだ あいてを　しめつけて　こうげきする。",
+            "swsh": "ながい　からだや　つるなどを　つかい ４ー５ターンの　あいだ あいてを　しめつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "긴 몸이나 덩굴 등을 써서 4-5턴 동안 상대를 조여 공격한다.",
+            "oras": "긴 몸이나 덩굴 등을 써서 4-5턴 동안 상대를 조여 공격한다.",
+            "sm": "긴 몸이나 덩굴 등을 써서 4-5턴 동안 상대를 조여 공격한다.",
+            "usum": "긴 몸이나 덩굴 등을 써서 4-5턴 동안 상대를 조여 공격한다.",
+            "lgpe": "긴 몸이나 덩굴 등을 써서 4-5턴 동안 상대를 조여 공격한다.",
+            "swsh": "긴 몸이나 덩굴 등을 써서 4-5턴 동안 상대를 조여 공격한다."
+        },
+        "german": {
+            "xy": "Umklammert und quetscht das Ziel über vier bis fünf Runden.",
+            "oras": "Umklammert und quetscht das Ziel über vier bis fünf Runden.",
+            "sm": "Umklammert und quetscht das Ziel über vier bis fünf Runden.",
+            "usum": "Umklammert und quetscht das Ziel über vier bis fünf Runden.",
+            "lgpe": "Umklammert und quetscht das Ziel über vier bis fünf Runden.",
+            "swsh": "Umklammert und quetscht das Ziel über vier bis fünf Runden."
+        },
+        "spanish": {
+            "xy": "Ata y oprime de cuatro a cinco turnos.",
+            "oras": "Ata y oprime de cuatro a cinco turnos.",
+            "sm": "Ata y oprime de cuatro a cinco turnos.",
+            "usum": "Ata y oprime de cuatro a cinco turnos.",
+            "lgpe": "Ata y oprime de cuatro a cinco turnos.",
+            "swsh": "Ata y oprime de cuatro a cinco turnos."
+        },
+        "italian": {
+            "xy": "Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni.",
+            "oras": "Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni.",
+            "sm": "Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni.",
+            "usum": "Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni.",
+            "lgpe": "Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni.",
+            "swsh": "Il lungo corpo o i tentacoli di chi la usa legano e stritolano il bersaglio per quattro o cinque turni."
+        },
+        "japanese": {
+            "xy": "長い　体や　つるなどを　使い ４ー５ターンの　あいだ 相手を　締めつけて　攻撃する。",
+            "oras": "長い　体や　つるなどを　使い ４ー５ターンの　あいだ 相手を　締めつけて　攻撃する。",
+            "sm": "長い　体や　つるなどを　使い ４ー５ターンの　間 相手を　締めつけて　攻撃する。",
+            "usum": "長い　体や　つるなどを　使い ４ー５ターンの　間 相手を　締めつけて　攻撃する。",
+            "lgpe": "長い　体や　つるなどを　使い ４ー５ターンの　間 相手を　締めつけて　攻撃する。",
+            "swsh": "長い　体や　つるなどを　使い ４ー５ターンの　間 相手を　締めつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ata y oprime de cuatro a cinco turnos.",
+            "oras": "Ata y oprime de cuatro a cinco turnos.",
+            "sm": "Ata y oprime de cuatro a cinco turnos.",
+            "usum": "Ata y oprime de cuatro a cinco turnos.",
+            "lgpe": "Ata y oprime de cuatro a cinco turnos.",
+            "swsh": "Ata y oprime de cuatro a cinco turnos."
+        },
+        "traditional-chinese": {
+            "sm": "使用長長的身體或藤蔓等， 在４～５回合內 綁緊對手進行攻擊。",
+            "usum": "使用長長的身體或藤蔓等， 在４～５回合內 綁緊對手進行攻擊。",
+            "lgpe": "使用長長的身體或藤蔓等， 在４～５回合內 綁緊對手進行攻擊。",
+            "swsh": "使用長長的身體或藤蔓等， 在４～５回合內 綁緊對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "使用长长的身体或藤蔓等， 在４～５回合内 绑紧对手进行攻击。",
+            "usum": "使用长长的身体或藤蔓等， 在４～５回合内 绑紧对手进行攻击。",
+            "lgpe": "使用长长的身体或藤蔓等， 在４～５回合内 绑紧对手进行攻击。",
+            "swsh": "使用长长的身体或藤蔓等， 在４～５回合内 绑紧对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

@@ -1,45 +1,148 @@
 {
-  "_id": 261,
-  "key": "will-o-wisp",
-  "name": {
-    "english": "Will-O-Wisp",
-    "japanese": "おにび",
-    "chinese": "鬼火",
-    "korean": "도깨비불",
-    "german": "Fuego Fatuo",
-    "french": "Irrlicht",
-    "italian": "Will-O-Wisp",
-    "spanish": "Fuocofatuo"
-  },
-  "type": "Fire",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": null,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Inflicts a burn on the foe\nwith intense fire.",
-    "emerald": "Inflicts a burn on the foe\nwith intense fire.",
-    "firered-leafgreen": "A sinister, bluish\nwhite flame is shot\nat the foe to\ninflict a burn.",
-    "diamond-pearl": "The user shoots a\nsinister, bluish white\nflame at the foe to\ninflict a burn.\n",
-    "platinum": "The user shoots a\nsinister, bluish white\nflame at the foe to\ninflict a burn.\n",
-    "heartgold-soulsilver": "The user shoots a\nsinister, bluish white\nflame at the foe to\ninflict a burn.\n",
-    "black-white": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
-    "black-2-white-2": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
-    "x-y": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
-    "omega-ruby-alpha-sapphire": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
-    "sun-moon": "The user shoots a sinister, bluish-white flame at the\ntarget to inflict a burn.",
-    "ultra-sun-ultra-moon": "The user shoots a sinister, bluish-white flame at the\ntarget to inflict a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user shoots a sinister flame at the target to inflict\na burn.",
-    "sword-shield": "The user shoots a sinister flame at the target to inflict\na burn."
-  },
-  "effect": {
-    "full": "Burns the target.",
-    "shortEffect": "Burns the target."
-  },
-  "priority": 0
+    "_id": 261,
+    "key": "will-o-wisp",
+    "name": {
+        "japanese-kana": "おにび",
+        "korean": "도깨비불",
+        "traditional-chinese": "鬼火",
+        "french": "Feu Follet",
+        "german": "Irrlicht",
+        "spanish": "Fuego Fatuo",
+        "italian": "Fuocofatuo",
+        "english": "Will-O-Wisp",
+        "japanese": "おにび",
+        "simplified-chinese": "鬼火",
+        "latin-american-spanish": "Fuego Fatuo"
+    },
+    "type": "fire",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 15,
+    "power": null,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "accuracy": 75
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Inflicts a burn on the foe with intense fire.",
+            "em": "Inflicts a burn on the foe with intense fire.",
+            "frlg": "A sinister, bluish white flame is shot at the foe to inflict a burn.",
+            "dp": "The user shoots a sinister, bluish white flame at the foe to inflict a burn.",
+            "pt": "The user shoots a sinister, bluish white flame at the foe to inflict a burn.",
+            "hgss": "The user shoots a sinister, bluish white flame at the foe to inflict a burn.",
+            "bw": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+            "b2w2": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+            "xy": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+            "oras": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+            "sm": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+            "usum": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+            "lgpe": "The user shoots a sinister flame at the target to inflict a burn.",
+            "swsh": "The user shoots a sinister flame at the target to inflict a burn.",
+            "la": "The user shoots a sinister flame at the target to inflict a burn.",
+            "sv": "The user shoots a sinister flame at the target to inflict a burn."
+        },
+        "french": {
+            "bw": "Lance une sinistre flamme violette à l’ennemi pour lui infliger une brûlure.",
+            "xy": "Lance une sinistre flamme violette à l’ennemi pour lui infliger une brûlure.",
+            "oras": "Lance une sinistre flamme violette à l’ennemi pour lui infliger une brûlure.",
+            "sm": "Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure.",
+            "usum": "Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure.",
+            "lgpe": "Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure.",
+            "swsh": "Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure."
+        },
+        "japanese-kana": {
+            "xy": "ぶきみで　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。",
+            "oras": "ぶき で　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。",
+            "sm": "ぶきみで　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。",
+            "usum": "ぶきみで　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。",
+            "lgpe": "ぶきみで　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。",
+            "swsh": "ぶきみで　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다.",
+            "oras": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다.",
+            "sm": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다.",
+            "usum": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다.",
+            "lgpe": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다.",
+            "swsh": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다."
+        },
+        "german": {
+            "xy": "Angriff mit unheimlicher Flamme, die das Ziel verbrennt.",
+            "oras": "Angriff mit unheimlicher Flamme, die das Ziel verbrennt.",
+            "sm": "Angriff mit unheimlicher Flamme, die beim Ziel Verbrennungen verursacht.",
+            "usum": "Angriff mit unheimlicher Flamme, die beim Ziel Verbrennungen verursacht.",
+            "lgpe": "Angriff mit unheimlicher Flamme, die beim Ziel Verbrennungen verursacht.",
+            "swsh": "Anwender feuert unheimliche Flammen ab, die beim Ziel Verbrennungen verursachen."
+        },
+        "spanish": {
+            "xy": "Siniestra llama morada que produce quemaduras.",
+            "oras": "Siniestra llama morada que produce quemaduras.",
+            "sm": "Siniestra llama morada que produce quemaduras.",
+            "usum": "Siniestra llama morada que produce quemaduras.",
+            "lgpe": "Siniestra llama morada que produce quemaduras.",
+            "swsh": "Siniestra llama morada que produce quemaduras."
+        },
+        "italian": {
+            "xy": "Fiamme intense di colore viola causano una scottatura al bersaglio.",
+            "oras": "Fiamme intense di colore viola causano una scottatura al bersaglio.",
+            "sm": "Fiamme intense di colore viola causano una scottatura al bersaglio.",
+            "usum": "Fiamme intense di colore viola causano una scottatura al bersaglio.",
+            "lgpe": "Fiamme intense di colore viola causano una scottatura al bersaglio.",
+            "swsh": "Fiamme sinistre e misteriose causano una scottatura al bersaglio."
+        },
+        "japanese": {
+            "xy": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。",
+            "oras": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。",
+            "sm": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。",
+            "usum": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。",
+            "lgpe": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。",
+            "swsh": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Siniestra llama morada que produce quemaduras.",
+            "oras": "Siniestra llama morada que produce quemaduras.",
+            "sm": "Siniestra llama morada que produce quemaduras.",
+            "usum": "Siniestra llama morada que produce quemaduras.",
+            "lgpe": "Siniestra llama morada que produce quemaduras.",
+            "swsh": "Siniestra llama morada que produce quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "放出詭異的火焰， 讓對手陷入灼傷狀態。",
+            "usum": "放出詭異的火焰， 讓對手陷入灼傷狀態。",
+            "lgpe": "放出詭異的火焰， 讓對手陷入灼傷狀態。",
+            "swsh": "放出詭異的火焰， 讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "放出怪异的火焰， 从而让对手陷入灼伤状态。",
+            "usum": "放出怪异的火焰， 从而让对手陷入灼伤状态。",
+            "lgpe": "放出怪异的火焰， 从而让对手陷入灼伤状态。",
+            "swsh": "放出怪异的火焰， 从而让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Burns the target.",
+        "shortEffect": "Burns the target."
+    }
 }

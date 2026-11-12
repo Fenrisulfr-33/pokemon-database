@@ -1,47 +1,146 @@
 {
-  "_id": 160,
-  "key": "conversion",
-  "name": {
-    "english": "Conversion",
-    "japanese": "テクスチャー",
-    "chinese": "变性",
-    "korean": "텍스처",
-    "german": "Conversión",
-    "french": "Umwandlung",
-    "italian": "Conversion",
-    "spanish": "Conversione"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Change user's type\nto a move's type.",
-    "crystal": "Change user's type\nto a move's type.",
-    "ruby-sapphire": "Changes the user’s type\ninto an own move’s type.",
-    "emerald": "Changes the user’s type\ninto a known move’s type.",
-    "firered-leafgreen": "The user changes\nits type to match\nthe type of one of\nits moves.",
-    "diamond-pearl": "The user changes its\ntype to become the\nsame type as one of\nits moves.\n",
-    "platinum": "The user changes its\ntype to become the\nsame type as one of\nits moves.\n",
-    "heartgold-soulsilver": "The user changes its\ntype to become the\nsame type as one of\nits moves.\n",
-    "black-white": "The user changes its type to become the\nsame type as one of its moves.",
-    "black-2-white-2": "The user changes its type to become the\nsame type as one of its moves.",
-    "x-y": "The user changes its type to become the\nsame type as the move at the top of the\nlist of moves it knows.",
-    "omega-ruby-alpha-sapphire": "The user changes its type to become the\nsame type as the move at the top of the\nlist of moves it knows.",
-    "sun-moon": "The user changes its type to become the same type\nas the move at the top of the list of moves it knows.",
-    "ultra-sun-ultra-moon": "The user changes its type to become the same type\nas the move at the top of the list of moves it knows.",
-    "lets-go-pikachu-lets-go-eevee": "The user changes its type to become the same type\nas the move at the top of the list of moves it knows.",
-    "sword-shield": "The user changes its type to become the same type\nas the move at the top of the list of moves it knows."
-  },
-  "effect": {
-    "full": "User's type changes to the type of one of its moves, selected at random.  hidden power and weather ball are treated as normal.  Only moves with a different type are eligible, and curse is never eligible.  If the user has no suitable moves, this move will fail.",
-    "shortEffect": "User's type changes to the type of one of its moves at random."
-  },
-  "priority": 0
+    "_id": 160,
+    "key": "conversion",
+    "name": {
+        "japanese-kana": "テクスチャー",
+        "korean": "텍스처",
+        "traditional-chinese": "紋理",
+        "french": "Conversion",
+        "german": "Umwandlung",
+        "spanish": "Conversión",
+        "italian": "Conversione",
+        "english": "Conversion",
+        "japanese": "テクスチャー",
+        "simplified-chinese": "纹理",
+        "latin-american-spanish": "Conversión"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Change user's type to a move's type.",
+            "cr": "Change user's type to a move's type.",
+            "rs": "Changes the user’s type into an own move’s type.",
+            "em": "Changes the user’s type into a known move’s type.",
+            "frlg": "The user changes its type to match the type of one of its moves.",
+            "dp": "The user changes its type to become the same type as one of its moves.",
+            "pt": "The user changes its type to become the same type as one of its moves.",
+            "hgss": "The user changes its type to become the same type as one of its moves.",
+            "bw": "The user changes its type to become the same type as one of its moves.",
+            "b2w2": "The user changes its type to become the same type as one of its moves.",
+            "xy": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+            "oras": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+            "sm": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+            "usum": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+            "lgpe": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+            "swsh": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+            "la": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
+            "sv": "The user changes its type to become the same type as the move at the top of the list of moves it knows."
+        },
+        "french": {
+            "bw": "Le lanceur change de type pour prendre celui de l’une de ses capacités.",
+            "xy": "Le lanceur change de type pour prendre celui de la première capacité de sa liste.",
+            "oras": "Le lanceur change de type pour prendre celui de la première capacité de sa liste.",
+            "sm": "Le lanceur change de type pour prendre celui de la première capacité de sa liste.",
+            "usum": "Le lanceur change de type pour prendre celui de la première capacité de sa liste.",
+            "lgpe": "Le lanceur change de type pour prendre celui de la première capacité de sa liste.",
+            "swsh": "Le lanceur change de type pour prendre celui de la première capacité de sa liste."
+        },
+        "japanese-kana": {
+            "xy": "じぶんの　タイプを おぼえている　わざで　いちばん　うえの わざと　おなじ　タイプに　する。",
+            "oras": "じぶんの　タイプを おぼえている　わざで　いちばん　うえの わざと　おなじ　タイプに　する。",
+            "sm": "じぶんの　タイプを おぼえている　わざで　いちばん　うえの わざと　おなじ　タイプに　する。",
+            "usum": "じぶんの　タイプを おぼえている　わざで　いちばん　うえの わざと　おなじ　タイプに　する。",
+            "lgpe": "じぶんの　タイプを おぼえている　わざで　いちばん　うえの わざと　おなじ　タイプに　する。",
+            "swsh": "じぶんの　タイプを おぼえている　わざで　いちばん　うえの わざと　おなじ　タイプに　する。"
+        },
+        "korean": {
+            "xy": "자신의 타입을 배운 기술 중 가장 위에 있는 기술과 같은 타입으로 바꾼다.",
+            "oras": "자신의 타입을 배운 기술 중 가장 위에 있는 기술과 같은 타입으로 바꾼다.",
+            "sm": "자신의 타입을 배운 기술 중 가장 위에 있는 기술과 같은 타입으로 바꾼다.",
+            "usum": "자신의 타입을 배운 기술 중 가장 위에 있는 기술과 같은 타입으로 바꾼다.",
+            "lgpe": "자신의 타입을 배운 기술 중 가장 위에 있는 기술과 같은 타입으로 바꾼다.",
+            "swsh": "자신의 타입을 배운 기술 중 가장 위에 있는 기술과 같은 타입으로 바꾼다."
+        },
+        "german": {
+            "xy": "Wandelt den Typ des Anwenders in den Typ der ersten Attacke des Anwenders um.",
+            "oras": "Wandelt den Typ des Anwenders in den Typ der ersten Attacke des Anwenders um.",
+            "sm": "Wandelt den Typ des Anwenders in den Typ der ersten Attacke des Anwenders um.",
+            "usum": "Wandelt den Typ des Anwenders in den Typ der ersten Attacke des Anwenders um.",
+            "lgpe": "Wandelt den Typ des Anwenders in den Typ der ersten Attacke des Anwenders um.",
+            "swsh": "Wandelt den Typ des Anwenders in den Typ seiner ersten Attacke um."
+        },
+        "spanish": {
+            "xy": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "oras": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "sm": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "usum": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "lgpe": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "swsh": "Cambia el tipo del usuario por el del primero de sus movimientos."
+        },
+        "italian": {
+            "xy": "Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse.",
+            "oras": "Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse.",
+            "sm": "Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse.",
+            "usum": "Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse.",
+            "lgpe": "Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse.",
+            "swsh": "Il tipo di chi la usa muta in quello della prima mossa nella lista delle sue mosse."
+        },
+        "japanese": {
+            "xy": "自分の　タイプを おぼえている　技で　一番　上の 技と　同じ　タイプに　する。",
+            "oras": "自分の　タイプを おぼえている　技で　一番　上の 技と　同じ　タイプに　する。",
+            "sm": "自分の　タイプを おぼえている　技で　一番　上の 技と　同じ　タイプに　する。",
+            "usum": "自分の　タイプを おぼえている　技で　一番　上の 技と　同じ　タイプに　する。",
+            "lgpe": "自分の　タイプを おぼえている　技で　一番　上の 技と　同じ　タイプに　する。",
+            "swsh": "自分の　タイプを おぼえている　技で　一番　上の 技と　同じ　タイプに　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "oras": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "sm": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "usum": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "lgpe": "Cambia el tipo del usuario por el del primero de sus movimientos.",
+            "swsh": "Cambia el tipo del usuario por el del primero de sus movimientos."
+        },
+        "traditional-chinese": {
+            "sm": "將自己的屬性轉換成 與已學會的招式中 第１個招式相同的屬性。",
+            "usum": "將自己的屬性轉換成 與已學會的招式中 第１個招式相同的屬性。",
+            "lgpe": "將自己的屬性轉換成 與已學會的招式中 第１個招式相同的屬性。",
+            "swsh": "將自己的屬性轉換成 與已學會的招式中 第１個招式相同的屬性。"
+        },
+        "simplified-chinese": {
+            "sm": "将自己的属性转换成 和已学会的招式中 第一个招式相同的属性。",
+            "usum": "将自己的属性转换成 和已学会的招式中 第一个招式相同的属性。",
+            "lgpe": "将自己的属性转换成 和已学会的招式中 第一个招式相同的属性。",
+            "swsh": "将自己的属性转换成 和已学会的招式中 第一个招式相同的属性。"
+        }
+    },
+    "effect": {
+        "full": "User’s type changes to the type of one of its moves, selected at random.  Hidden Power and Weather Ball are treated as Normal.  Only moves with a different type are eligible, and Curse is never eligible.  If the user has no suitable moves, this move will fail.",
+        "shortEffect": "User’s type changes to the type of one of its moves at random."
+    }
 }

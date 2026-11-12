@@ -1,47 +1,146 @@
 {
-  "_id": 239,
-  "key": "twister",
-  "name": {
-    "english": "Twister",
-    "japanese": "たつまき",
-    "chinese": "龙卷风",
-    "korean": "회오리",
-    "german": "Ciclón",
-    "french": "Windhose",
-    "italian": "Twister",
-    "spanish": "Tornado"
-  },
-  "type": "Dragon",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "Whips up a tornado\nto attack.",
-    "crystal": "Whips up a tornado\nto attack.",
-    "ruby-sapphire": "Whips up a vicious twister\nto tear at the foe.",
-    "emerald": "Whips up a vicious twister\nto tear at the foe.",
-    "firered-leafgreen": "A vicious twister\nattacks the foe.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "The user whips up a\nvicious twister to\ntear at the foe.\nIt may also make the\nfoe flinch.",
-    "platinum": "The user whips up a\nvicious twister to\ntear at the foe.\nIt may also make the\nfoe flinch.",
-    "heartgold-soulsilver": "The user whips up a\nvicious tornado to\ntear at the foe.\nIt may also make the\nfoe flinch.",
-    "black-white": "The user whips up a vicious tornado\nto tear at the opposing team.\nIt may also make targets flinch.",
-    "black-2-white-2": "The user whips up a vicious tornado\nto tear at the opposing team.\nIt may also make targets flinch.",
-    "x-y": "The user whips up a vicious tornado\nto tear at the opposing Pokémon.\nThis may also make them flinch.",
-    "omega-ruby-alpha-sapphire": "The user whips up a vicious tornado\nto tear at the opposing Pokémon.\nThis may also make them flinch.",
-    "sun-moon": "The user whips up a vicious tornado to tear at the\nopposing Pokémon. This may also make them flinch.",
-    "ultra-sun-ultra-moon": "The user whips up a vicious tornado to tear at the\nopposing Pokémon. This may also make them flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user whips up a vicious tornado to tear at the\nopposing Pokémon. This may also make them flinch.",
-    "sword-shield": "The user whips up a vicious tornado to tear at opposing\nPokémon. This may also make them flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make each target flinch.\n\nIf the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 239,
+    "key": "twister",
+    "name": {
+        "japanese-kana": "たつまき",
+        "korean": "회오리",
+        "traditional-chinese": "龍捲風",
+        "french": "Ouragan",
+        "german": "Windhose",
+        "spanish": "Ciclón",
+        "italian": "Tornado",
+        "english": "Twister",
+        "japanese": "たつまき",
+        "simplified-chinese": "龙卷风",
+        "latin-american-spanish": "Tornado"
+    },
+    "type": "dragon",
+    "category": "special",
+    "contest": "cool",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 20,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Whips up a tornado to attack.",
+            "cr": "Whips up a tornado to attack.",
+            "rs": "Whips up a vicious twister to tear at the foe.",
+            "em": "Whips up a vicious twister to tear at the foe.",
+            "frlg": "A vicious twister attacks the foe. It may make the foe flinch.",
+            "dp": "The user whips up a vicious twister to tear at the foe. It may also make the foe flinch.",
+            "pt": "The user whips up a vicious twister to tear at the foe. It may also make the foe flinch.",
+            "hgss": "The user whips up a vicious tornado to tear at the foe. It may also make the foe flinch.",
+            "bw": "The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.",
+            "b2w2": "The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.",
+            "xy": "The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.",
+            "oras": "The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.",
+            "sm": "The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.",
+            "usum": "The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.",
+            "lgpe": "The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.",
+            "swsh": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch.",
+            "la": "The user whips up a vicious tornado to tear at the target.",
+            "sv": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch."
+        },
+        "french": {
+            "bw": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.",
+            "xy": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.",
+            "oras": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.",
+            "sm": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.",
+            "usum": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.",
+            "lgpe": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.",
+            "swsh": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "たつまきを　おこして あいてを　まきこみ　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "たつまきを　おこして あいてを　まきこ 　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "たつまきを　おこして あいてを　まきこみ　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "たつまきを　おこして あいてを　まきこみ　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "たつまきを　おこして あいてを　まきこみ　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "たつまきを　おこして あいてを　まきこみ　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Trifft Ziele in der Umgebung mit einem heftigen Wirbelsturm, was diese eventuell zurückschrecken lässt.",
+            "oras": "Trifft Ziele in der Umgebung mit einem heftigen Wirbelsturm, was diese eventuell zurückschrecken lässt.",
+            "sm": "Trifft Ziele in der Umgebung mit einem heftigen Wirbelsturm, was diese eventuell zurückschrecken lässt.",
+            "usum": "Trifft Ziele in der Umgebung mit einem heftigen Wirbelsturm, was diese eventuell zurückschrecken lässt.",
+            "lgpe": "Trifft Ziele in der Umgebung mit einem heftigen Wirbelsturm, was diese eventuell zurückschrecken lässt.",
+            "swsh": "Trifft gegnerische Pokémon mit einem heftigen Wirbelsturm, was diese eventuell zurückschrecken lässt."
+        },
+        "spanish": {
+            "xy": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "oras": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "sm": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "usum": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "lgpe": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "swsh": "Crea un violento tornado para hacer trizas al objetivo. Puede amedrentarlo."
+        },
+        "italian": {
+            "xy": "Un potente tornado si abbatte sui nemici nei paraggi. Può anche farli tentennare.",
+            "oras": "Un potente tornado si abbatte sui nemici nei paraggi. Può anche farli tentennare.",
+            "sm": "Un potente tornado si abbatte sui nemici nei paraggi. Può anche farli tentennare.",
+            "usum": "Un potente tornado si abbatte sui nemici nei paraggi. Può anche farli tentennare.",
+            "lgpe": "Un potente tornado si abbatte sui nemici nei paraggi. Può anche farli tentennare.",
+            "swsh": "Un potente tornado si abbatte sui nemici nei paraggi. Può anche farli tentennare."
+        },
+        "japanese": {
+            "xy": "竜巻を　おこして 相手を　まきこみ　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "竜巻を　おこして 相手を　まきこ 　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "竜巻を　おこして 相手を　まきこみ　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "竜巻を　おこして 相手を　まきこみ　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "竜巻を　おこして 相手を　まきこみ　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "竜巻を　おこして 相手を　まきこみ　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "oras": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "sm": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "usum": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "lgpe": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+            "swsh": "Crea un violento tornado para hacer trizas al objetivo. Puede amedrentarlo."
+        },
+        "traditional-chinese": {
+            "sm": "刮起龍捲風， 將對手捲入進行攻擊。 有時會使對手畏縮。",
+            "usum": "刮起龍捲風， 將對手捲入進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "刮起龍捲風， 將對手捲入進行攻擊。 有時會使對手畏縮。",
+            "swsh": "刮起龍捲風， 將對手捲入進行攻擊。 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "兴起龙卷风， 将对手卷入进行攻击。 有时会使对手畏缩。",
+            "usum": "兴起龙卷风， 将对手卷入进行攻击。 有时会使对手畏缩。",
+            "lgpe": "兴起龙卷风， 将对手卷入进行攻击。 有时会使对手畏缩。",
+            "swsh": "兴起龙卷风， 将对手卷入进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make each target flinch. If the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

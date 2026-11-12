@@ -1,45 +1,151 @@
 {
-  "_id": 325,
-  "key": "shadow-punch",
-  "name": {
-    "english": "Shadow Punch",
-    "japanese": "シャドーパンチ",
-    "chinese": "影子拳",
-    "korean": "섀도펀치",
-    "german": "Puño Sombra",
-    "french": "Finsterfaust",
-    "italian": "Shadow Punch",
-    "spanish": "Pugnodombra"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 20,
-  "power": 60,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "An unavoidable punch that\nis thrown from shadows.",
-    "emerald": "An unavoidable punch that\nis thrown from shadows.",
-    "firered-leafgreen": "The user throws a\npunch from the\nshadows. It cannot\nbe evaded.",
-    "diamond-pearl": "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail.",
-    "platinum": "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail.",
-    "heartgold-soulsilver": "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail.",
-    "black-white": "The user throws a punch from the shadows.\nThe punch lands without fail.",
-    "black-2-white-2": "The user throws a punch from the shadows.\nThe punch lands without fail.",
-    "x-y": "The user throws a punch from the shadows.\nThis attack never misses.",
-    "omega-ruby-alpha-sapphire": "The user throws a punch from the shadows.\nThis attack never misses.",
-    "sun-moon": "The user throws a punch from the shadows. This\nattack never misses.",
-    "ultra-sun-ultra-moon": "The user throws a punch from the shadows. This\nattack never misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user throws a punch from the shadows. This\nattack never misses.",
-    "sword-shield": "The user throws a punch from the shadows. This\nattack never misses."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 325,
+    "key": "shadow-punch",
+    "name": {
+        "japanese-kana": "シャドーパンチ",
+        "korean": "섀도펀치",
+        "traditional-chinese": "暗影拳",
+        "french": "Poing Ombre",
+        "german": "Finsterfaust",
+        "spanish": "Puño Sombra",
+        "italian": "Pugnodombra",
+        "english": "Shadow Punch",
+        "japanese": "シャドーパンチ",
+        "simplified-chinese": "暗影拳",
+        "latin-american-spanish": "Puño Sombra"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "An unavoidable punch that is thrown from shadows.",
+            "em": "An unavoidable punch that is thrown from shadows.",
+            "frlg": "The user throws a punch from the shadows. It cannot be evaded.",
+            "dp": "The user throws a punch at the foe from the shadows. The punch lands without fail.",
+            "pt": "The user throws a punch at the foe from the shadows. The punch lands without fail.",
+            "hgss": "The user throws a punch at the foe from the shadows. The punch lands without fail.",
+            "bw": "The user throws a punch from the shadows. The punch lands without fail.",
+            "b2w2": "The user throws a punch from the shadows. The punch lands without fail.",
+            "xy": "The user throws a punch from the shadows. This attack never misses.",
+            "oras": "The user throws a punch from the shadows. This attack never misses.",
+            "sm": "The user throws a punch from the shadows. This attack never misses.",
+            "usum": "The user throws a punch from the shadows. This attack never misses.",
+            "lgpe": "The user throws a punch from the shadows. This attack never misses.",
+            "swsh": "The user throws a punch from the shadows. This attack never misses.",
+            "la": "The user throws a punch from the shadows. This attack never misses.",
+            "sv": "The user throws a punch from the shadows. This attack never misses."
+        },
+        "french": {
+            "bw": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.",
+            "xy": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.",
+            "oras": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.",
+            "sm": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.",
+            "usum": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.",
+            "lgpe": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.",
+            "swsh": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais."
+        },
+        "japanese-kana": {
+            "xy": "かげに　まぎれて　パンチを　くりだす。 こうげきは　かならず　めいちゅう　する。",
+            "oras": "かげに　まぎれて　パンチを　くりだす。 こうげきは　かならず　めいちゅう　する。",
+            "sm": "かげに　まぎれて　パンチを　くりだす。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "かげに　まぎれて　パンチを　くりだす。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "かげに　まぎれて　パンチを　くりだす。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "かげに　まぎれて　パンチを　くりだす。 こうげきは　かならず　めいちゅう　する。"
+        },
+        "korean": {
+            "xy": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.",
+            "oras": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.",
+            "sm": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.",
+            "usum": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.",
+            "lgpe": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.",
+            "swsh": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다."
+        },
+        "german": {
+            "xy": "Angriff mit der Faust aus dem Schattenreich. Ausweichen unmöglich.",
+            "oras": "Angriff mit der Faust aus dem Schattenreich. Ausweichen unmöglich.",
+            "sm": "Angriff mit der Faust aus dem Schattenreich. Ausweichen unmöglich.",
+            "usum": "Angriff mit der Faust aus dem Schattenreich. Ausweichen unmöglich.",
+            "lgpe": "Angriff mit der Faust aus dem Schattenreich. Ausweichen unmöglich.",
+            "swsh": "Angriff mit der Faust aus dem Schattenreich. Ausweichen unmöglich."
+        },
+        "spanish": {
+            "xy": "Puñetazo ineludible procedente de las sombras.",
+            "oras": "Puñetazo ineludible procedente de las sombras.",
+            "sm": "Puñetazo ineludible procedente de las sombras.",
+            "usum": "Puñetazo ineludible procedente de las sombras.",
+            "lgpe": "Puñetazo ineludible procedente de las sombras.",
+            "swsh": "Puñetazo ineludible procedente de las sombras."
+        },
+        "italian": {
+            "xy": "Il bersaglio riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile.",
+            "oras": "Il bersaglio riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile.",
+            "sm": "Il bersaglio riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile.",
+            "usum": "Il bersaglio riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile.",
+            "lgpe": "Il bersaglio riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile.",
+            "swsh": "Il bersaglio riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile."
+        },
+        "japanese": {
+            "xy": "影に　まぎれて　パンチを　くりだす。 攻撃は　必ず　命中する。",
+            "oras": "影に　まぎれて　パンチを　くりだす。 攻撃は　必ず　命中する。",
+            "sm": "影に　まぎれて　パンチを　くりだす。 攻撃は　必ず　命中する。",
+            "usum": "影に　まぎれて　パンチを　くりだす。 攻撃は　必ず　命中する。",
+            "lgpe": "影に　まぎれて　パンチを　くりだす。 攻撃は　必ず　命中する。",
+            "swsh": "影に　まぎれて　パンチを　くりだす。 攻撃は　必ず　命中する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puñetazo ineludible procedente de las sombras.",
+            "oras": "Puñetazo ineludible procedente de las sombras.",
+            "sm": "Puñetazo ineludible procedente de las sombras.",
+            "usum": "Puñetazo ineludible procedente de las sombras.",
+            "lgpe": "Puñetazo ineludible procedente de las sombras.",
+            "swsh": "Puñetazo ineludible procedente de las sombras."
+        },
+        "traditional-chinese": {
+            "sm": "暗藏在陰影之中出拳。 攻擊必定會命中。",
+            "usum": "暗藏在陰影之中出拳。 攻擊必定會命中。",
+            "lgpe": "暗藏在陰影之中出拳。 攻擊必定會命中。",
+            "swsh": "暗藏在陰影之中出拳。 攻擊必定會命中。"
+        },
+        "simplified-chinese": {
+            "sm": "使出混影之拳。 攻击必定会命中。",
+            "usum": "使出混影之拳。 攻击必定会命中。",
+            "lgpe": "藏身暗影出拳攻击。 攻击必定会命中。",
+            "swsh": "使出混影之拳。 攻击必定会命中。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

@@ -1,47 +1,146 @@
 {
-  "_id": 113,
-  "key": "light-screen",
-  "name": {
-    "english": "Light Screen",
-    "japanese": "ひかりのかべ",
-    "chinese": "光墙",
-    "korean": "빛의장막",
-    "german": "Pantalla de Luz",
-    "french": "Lichtschild",
-    "italian": "Light Screen",
-    "spanish": "Schermoluce"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "gold-silver": "Ups SPCL.DEF with\na wall of light.",
-    "crystal": "Ups SPCL.DEF with\na wall of light.",
-    "ruby-sapphire": "Creates a wall of light that\nlowers SP. ATK damage.",
-    "emerald": "Creates a wall of light that\nlowers SP. ATK damage.",
-    "firered-leafgreen": "A wall of light\ncuts damage from\nSP. ATK attacks\nfor five turns.",
-    "diamond-pearl": "A wondrous wall of\nlight is put up to\nsuppress damage from\nspecial attacks for\nfive turns.",
-    "platinum": "A wondrous wall of\nlight is put up to\nsuppress damage from\nspecial attacks for\nfive turns.",
-    "heartgold-soulsilver": "A wondrous wall of\nlight is put up to\nsuppress damage from\nspecial attacks for\nfive turns.",
-    "black-white": "A wondrous wall of light is put up to\nsuppress damage from special attacks\nfor five turns.",
-    "black-2-white-2": "A wondrous wall of light is put up to\nsuppress damage from special attacks\nfor five turns.",
-    "x-y": "A wondrous wall of light is put up to\nreduce damage from special attacks\nfor five turns.",
-    "omega-ruby-alpha-sapphire": "A wondrous wall of light is put up to\nreduce damage from special attacks\nfor five turns.",
-    "sun-moon": "A wondrous wall of light is put up to reduce damage\nfrom special attacks for five turns.",
-    "ultra-sun-ultra-moon": "A wondrous wall of light is put up to reduce damage\nfrom special attacks for five turns.",
-    "lets-go-pikachu-lets-go-eevee": "A wondrous wall of light is put up to reduce damage\nfrom special attacks for five turns.",
-    "sword-shield": "A wondrous wall of light is put up to reduce damage\nfrom special attacks for five turns."
-  },
-  "effect": {
-    "full": "Erects a barrier around the user's side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier.",
-    "shortEffect": "Reduces damage from special attacks by 50% for five turns."
-  },
-  "priority": 0
+    "_id": 113,
+    "key": "light-screen",
+    "name": {
+        "japanese-kana": "ひかりのかべ",
+        "korean": "빛의장막",
+        "traditional-chinese": "光牆",
+        "french": "Mur Lumière",
+        "german": "Lichtschild",
+        "spanish": "Pantalla de Luz",
+        "italian": "Schermoluce",
+        "english": "Light Screen",
+        "japanese": "ひかりのかべ",
+        "simplified-chinese": "光墙",
+        "latin-american-spanish": "Pantalla de Luz"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Ups SPCL.DEF with a wall of light.",
+            "cr": "Ups SPCL.DEF with a wall of light.",
+            "rs": "Creates a wall of light that lowers SP. ATK damage.",
+            "em": "Creates a wall of light that lowers SP. ATK damage.",
+            "frlg": "A wall of light cuts damage from SP. ATK attacks for five turns.",
+            "dp": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+            "pt": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+            "hgss": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+            "bw": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+            "b2w2": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+            "xy": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+            "oras": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+            "sm": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+            "usum": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+            "lgpe": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+            "swsh": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+            "la": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+            "sv": "A wondrous wall of light is put up to reduce damage from special moves for five turns."
+        },
+        "french": {
+            "bw": "Un fabuleux mur de lumière qui réduit les dégâts causés par les attaques spéciales durant 5 tours.",
+            "xy": "Un fabuleux mur de lumière qui réduit les dégâts causés par les attaques spéciales durant cinq tours.",
+            "oras": "Un fabuleux mur de lumière qui réduit les dégâts causés par les attaques spéciales durant cinq tours.",
+            "sm": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales durant cinq tours.",
+            "usum": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales durant cinq tours.",
+            "lgpe": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales durant cinq tours.",
+            "swsh": "Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales pendant cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　とくしゅ　こうげきの ダメージを　よわめる。",
+            "oras": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　とくしゅ　こうげきの ダメージを　よわめる。",
+            "sm": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　とくしゅ　こうげきの ダメージを　よわめる。",
+            "usum": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　とくしゅ　こうげきの ダメージを　よわめる。",
+            "lgpe": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　とくしゅ　こうげきの ダメージを　よわめる。",
+            "swsh": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　とくしゅ　こうげきの ダメージを　よわめる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 이상한 장막으로 상대로부터 받는 특수공격의 데미지를 약하게 한다.",
+            "oras": "5턴 동안 이상한 장막으로 상대로부터 받는 특수공격의 데미지를 약하게 한다.",
+            "sm": "5턴 동안 이상한 장막으로 상대로부터 받는 특수공격의 데미지를 약하게 한다.",
+            "usum": "5턴 동안 이상한 장막으로 상대로부터 받는 특수공격의 데미지를 약하게 한다.",
+            "lgpe": "5턴 동안 이상한 장막으로 상대로부터 받는 특수공격의 데미지를 약하게 한다.",
+            "swsh": "5턴 동안 이상한 장막을 쳐서 상대로부터 받는 특수공격의 데미지를 약하게 한다."
+        },
+        "german": {
+            "xy": "Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.",
+            "oras": "Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.",
+            "sm": "Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.",
+            "usum": "Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.",
+            "lgpe": "Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.",
+            "swsh": "Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Attacken für fünf Runden."
+        },
+        "spanish": {
+            "xy": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "oras": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "sm": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "usum": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "lgpe": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "swsh": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+        },
+        "italian": {
+            "xy": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.",
+            "oras": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.",
+            "sm": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.",
+            "usum": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.",
+            "lgpe": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.",
+            "swsh": "Innalza una barriera misteriosa che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　不思議な　かべで 相手から　受ける　特殊攻撃の ダメージを　弱める。",
+            "oras": "５ターンの　あいだ　不思議な　かべで 相手から　受ける　特殊攻撃の ダメージを　弱める。",
+            "sm": "５ターンの　間　不思議な　かべで 相手から　受ける　特殊攻撃の ダメージを　弱める。",
+            "usum": "５ターンの　間　不思議な　かべで 相手から　受ける　特殊攻撃の ダメージを　弱める。",
+            "lgpe": "５ターンの　間　不思議な　かべで 相手から　受ける　特殊攻撃の ダメージを　弱める。",
+            "swsh": "５ターンの　間　不思議な　かべで 相手から　受ける　特殊攻撃の ダメージを　弱める。"
+        },
+        "latin-american-spanish": {
+            "xy": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "oras": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "sm": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "usum": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "lgpe": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.",
+            "swsh": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+        },
+        "traditional-chinese": {
+            "sm": "利用神奇的屏障， 在５回合內減輕 來自對手的特殊攻擊傷害。",
+            "usum": "利用神奇的屏障， 在５回合內減輕 來自對手的特殊攻擊傷害。",
+            "lgpe": "利用神奇的屏障， 在５回合內減輕 來自對手的特殊攻擊傷害。",
+            "swsh": "利用神奇的屏障， 在５回合內減輕 來自對手的特殊攻擊傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内使用神奇的墙， 减弱从对手那受到的 特殊攻击的伤害。",
+            "usum": "在５回合内使用神奇的墙， 减弱从对手那受到的 特殊攻击的伤害。",
+            "lgpe": "利用神奇的墙壁， 在５回合内减弱从对手那里 受到的特殊攻击的伤害。",
+            "swsh": "利用神奇的墙壁， 在５回合内减弱从对手那里 受到的特殊攻击的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Erects a barrier around the user’s side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier. If the user is holding Light Clay, the barrier lasts for eight turns. Brick Break or Defog used by an opponent will destroy the barrier.",
+        "shortEffect": "Reduces damage from special attacks by 50% for five turns."
+    }
 }

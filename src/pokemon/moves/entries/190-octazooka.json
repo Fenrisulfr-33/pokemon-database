@@ -1,47 +1,144 @@
 {
-  "_id": 190,
-  "key": "octazooka",
-  "name": {
-    "english": "Octazooka",
-    "japanese": "オクタンほう",
-    "chinese": "章鱼桶炮",
-    "korean": "대포무노포",
-    "german": "Pulpocañón",
-    "french": "Octazooka",
-    "italian": "Octazooka",
-    "spanish": "Octazooka"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 65,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nreduce accuracy.",
-    "crystal": "An attack that may\nreduce accuracy.",
-    "ruby-sapphire": "Fires a lump of ink to\ndamage and cut accuracy.",
-    "emerald": "Fires a lump of ink to\ndamage and cut accuracy.",
-    "firered-leafgreen": "Ink is blasted in\nthe foe’s face or\neyes to damage and\nlower accuracy.",
-    "diamond-pearl": "The user attacks by\nspraying ink in the\nfoe’s face or eyes.\nIt may also lower the\ntarget’s accuracy.",
-    "platinum": "The user attacks by\nspraying ink in the\nfoe’s face or eyes.\nIt may also lower the\ntarget’s accuracy.",
-    "heartgold-soulsilver": "The user attacks by\nspraying ink in the\nfoe’s face or eyes.\nIt may also lower the\ntarget’s accuracy.",
-    "black-white": "The user attacks by spraying ink in the\ntarget’s face or eyes.\nIt may also lower the target’s accuracy.",
-    "black-2-white-2": "The user attacks by spraying ink in the\ntarget’s face or eyes.\nIt may also lower the target’s accuracy.",
-    "x-y": "The user attacks by spraying ink in the\ntarget’s face or eyes.\nThis may also lower the target’s accuracy.",
-    "omega-ruby-alpha-sapphire": "The user attacks by spraying ink in the\ntarget’s face or eyes.\nThis may also lower the target’s accuracy.",
-    "sun-moon": "The user attacks by spraying ink in the target’s face\nor eyes. This may also lower the target’s accuracy.",
-    "ultra-sun-ultra-moon": "The user attacks by spraying ink in the target’s face\nor eyes. This may also lower the target’s accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by spraying ink in the target’s face\nor eyes. This may also lower the target’s accuracy.",
-    "sword-shield": "The user attacks by spraying ink in the target’s face\nor eyes. This may also lower the target’s accuracy."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 190,
+    "key": "octazooka",
+    "name": {
+        "japanese-kana": "オクタンほう",
+        "korean": "대포무노포",
+        "traditional-chinese": "章魚桶炮",
+        "french": "Octazooka",
+        "german": "Octazooka",
+        "spanish": "Pulpocañón",
+        "italian": "Octazooka",
+        "english": "Octazooka",
+        "japanese": "オクタンほう",
+        "simplified-chinese": "章鱼桶炮",
+        "latin-american-spanish": "Octazuca"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "tough",
+    "pp": 10,
+    "power": 65,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 50
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may reduce accuracy.",
+            "cr": "An attack that may reduce accuracy.",
+            "rs": "Fires a lump of ink to damage and cut accuracy.",
+            "em": "Fires a lump of ink to damage and cut accuracy.",
+            "frlg": "Ink is blasted in the foe’s face or eyes to damage and lower accuracy.",
+            "dp": "The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.",
+            "pt": "The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.",
+            "hgss": "The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.",
+            "bw": "The user attacks by spraying ink in the target’s face or eyes. It may also lower the target’s accuracy.",
+            "b2w2": "The user attacks by spraying ink in the target’s face or eyes. It may also lower the target’s accuracy.",
+            "xy": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.",
+            "oras": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.",
+            "sm": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.",
+            "usum": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.",
+            "lgpe": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.",
+            "swsh": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy."
+        },
+        "french": {
+            "bw": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser la Précision de l’ennemi.",
+            "xy": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision.",
+            "oras": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision.",
+            "sm": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision.",
+            "usum": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision.",
+            "lgpe": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision.",
+            "swsh": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision."
+        },
+        "japanese-kana": {
+            "xy": "あいての　かおなどに すみを　ふきかけて　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "oras": "あいての　かおなどに す を　ふきかけて　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "sm": "あいての　かおなどに すみを　ふきかけて　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "usum": "あいての　かおなどに すみを　ふきかけて　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "lgpe": "あいての　かおなどに すみを　ふきかけて　こうげきする。 めいちゅうりつを　さげることが　ある。",
+            "swsh": "あいての　かおなどに すみを　ふきかけて　こうげきする。 めいちゅうりつを　さげることが　ある。"
+        },
+        "korean": {
+            "xy": "상대의 얼굴 등에 먹물을 내뿜어 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "oras": "상대의 얼굴 등에 먹물을 내뿜어 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "sm": "상대의 얼굴 등에 먹물을 내뿜어 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "usum": "상대의 얼굴 등에 먹물을 내뿜어 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "lgpe": "상대의 얼굴 등에 먹물을 내뿜어 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+            "swsh": "상대의 얼굴 등에 먹물을 내뿜어 공격한다. 명중률을 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.",
+            "oras": "Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.",
+            "sm": "Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.",
+            "usum": "Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.",
+            "lgpe": "Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.",
+            "swsh": "Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken."
+        },
+        "spanish": {
+            "xy": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "oras": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "sm": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "usum": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "lgpe": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "swsh": "Dispara tinta a la cara. Puede bajar la Precisión."
+        },
+        "italian": {
+            "xy": "Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.",
+            "oras": "Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.",
+            "sm": "Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.",
+            "usum": "Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.",
+            "lgpe": "Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.",
+            "swsh": "Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione."
+        },
+        "japanese": {
+            "xy": "相手の　顔などに 墨を　吹きかけて　攻撃する。 命中率を　さげることが　ある。",
+            "oras": "相手の　顔などに 墨を　吹きかけて　攻撃する。 命中率を　さげることが　ある。",
+            "sm": "相手の　顔などに 墨を　吹きかけて　攻撃する。 命中率を　さげることが　ある。",
+            "usum": "相手の　顔などに 墨を　吹きかけて　攻撃する。 命中率を　さげることが　ある。",
+            "lgpe": "相手の　顔などに 墨を　吹きかけて　攻撃する。 命中率を　さげることが　ある。",
+            "swsh": "相手の　顔などに 墨を　吹きかけて　攻撃する。 命中率を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "oras": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "sm": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "usum": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "lgpe": "Dispara tinta a la cara. Puede bajar la Precisión.",
+            "swsh": "Dispara tinta a la cara. Puede bajar la Precisión."
+        },
+        "traditional-chinese": {
+            "sm": "向對手的臉等 噴出墨汁進行攻擊。 有時會降低對手的命中率。",
+            "usum": "向對手的臉等 噴出墨汁進行攻擊。 有時會降低對手的命中率。",
+            "lgpe": "向對手的臉等 噴出墨汁進行攻擊。 有時會降低對手的命中率。",
+            "swsh": "向對手的臉等 噴出墨汁進行攻擊。 有時會降低對手的命中率。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手的脸等 喷出墨汁进行攻击。 有时会降低对手的命中率。",
+            "usum": "向对手的脸等 喷出墨汁进行攻击。 有时会降低对手的命中率。",
+            "lgpe": "向对手的脸等 喷出墨汁进行攻击。 有时会降低对手的命中率。",
+            "swsh": "向对手的脸等 喷出墨汁进行攻击。 有时会降低对手的命中率。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s accuracy by one stage.",
+        "shortEffect": "Has a chance to lower the target’s accuracy by one stage."
+    }
 }

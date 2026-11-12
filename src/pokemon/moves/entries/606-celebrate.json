@@ -1,37 +1,133 @@
 {
-  "_id": 606,
-  "key": "celebrate",
-  "name": {
-    "english": "Celebrate",
-    "japanese": "おいわい",
-    "chinese": "慶祝",
-    "korean": "축하",
-    "german": "Celebración",
-    "french": "Ehrentag",
-    "italian": "Celebrate",
-    "spanish": "Auguri"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 40,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 6,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "x-y": "The Pokémon congratulates\nyou on your special day!",
-    "omega-ruby-alpha-sapphire": "The Pokémon congratulates\nyou on your special day!",
-    "sun-moon": "The Pokémon congratulates you on your special day!",
-    "ultra-sun-ultra-moon": "The Pokémon congratulates you on your special day!",
-    "lets-go-pikachu-lets-go-eevee": "The Pokémon congratulates you on your special day!",
-    "sword-shield": "The Pokémon congratulates you on your special day!"
-  },
-  "effect": {
-    "full": "Does nothing.",
-    "shortEffect": "Does nothing."
-  },
-  "priority": 0
+    "_id": 606,
+    "key": "celebrate",
+    "name": {
+        "japanese-kana": "おいわい",
+        "korean": "축하",
+        "traditional-chinese": "慶祝",
+        "french": "Célébration",
+        "german": "Ehrentag",
+        "spanish": "Celebración",
+        "italian": "Auguri",
+        "english": "Celebrate",
+        "japanese": "おいわい",
+        "simplified-chinese": "庆祝",
+        "latin-american-spanish": "Celebración"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 40,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ポケモンが　とっても ハッピーな　あなたのことを おいわい　してくれる。",
+            "oras": "ポケモンが　とっても ハッピーな　あなたのことを おいわい　してくれる。",
+            "sm": "ポケモンが　とっても ハッピーな　あなたのことを おいわい　してくれる。",
+            "usum": "ポケモンが　とっても ハッピーな　あなたのことを おいわい　してくれる。",
+            "lgpe": "ポケモンが　とっても ハッピーな　あなたのことを おいわい　してくれる。",
+            "swsh": "ポケモンが　とっても ハッピーな　あなたのことを おいわい　してくれる。"
+        },
+        "korean": {
+            "xy": "포켓몬이 매우 행복한 당신을 축하해 준다.",
+            "oras": "포켓몬이 매우 행복한 당신을 축하해 준다.",
+            "sm": "포켓몬이 매우 행복한 당신을 축하해 준다.",
+            "usum": "포켓몬이 매우 행복한 당신을 축하해 준다.",
+            "lgpe": "포켓몬이 매우 행복한 당신을 축하해 준다.",
+            "swsh": "포켓몬이 매우 행복한 당신을 축하해 준다."
+        },
+        "french": {
+            "xy": "Le Pokémon vous souhaite plein de bonnes choses pour cet événement spécial.",
+            "oras": "Le Pokémon vous souhaite plein de bonnes choses pour cet événement spécial.",
+            "sm": "Le Pokémon vous souhaite plein de bonnes choses pour cet événement spécial.",
+            "usum": "Le Pokémon vous souhaite plein de bonnes choses pour cet événement spécial.",
+            "lgpe": "Le Pokémon vous souhaite plein de bonnes choses pour cet évènement spécial.",
+            "swsh": "Le Pokémon vous souhaite plein de bonnes choses pour cet évènement spécial."
+        },
+        "german": {
+            "xy": "Das Pokémon gratuliert dir zu deinem Geburtstag!",
+            "oras": "Das Pokémon gratuliert dir zu deinem Geburtstag!",
+            "sm": "Das Pokémon gratuliert dir zu deinem Geburtstag!",
+            "usum": "Das Pokémon gratuliert dir zu deinem Geburtstag!",
+            "lgpe": "Das Pokémon gratuliert dir zu deinem Geburtstag!",
+            "swsh": "Das Pokémon gratuliert dir zu deinem Geburtstag!"
+        },
+        "spanish": {
+            "xy": "El Pokémon te felicita en un día muy especial para ti.",
+            "oras": "El Pokémon te felicita en un día muy especial para ti.",
+            "sm": "El Pokémon te felicita en un día muy especial para ti.",
+            "usum": "El Pokémon te felicita en un día muy especial para ti.",
+            "lgpe": "El Pokémon te felicita en un día muy especial para ti.",
+            "swsh": "El Pokémon te felicita en un día muy especial para ti."
+        },
+        "italian": {
+            "xy": "Il Pokémon ti fa gli auguri nel tuo giorno speciale.",
+            "oras": "Il Pokémon ti fa gli auguri nel tuo giorno speciale.",
+            "sm": "Il Pokémon ti fa gli auguri nel tuo giorno speciale.",
+            "usum": "Il Pokémon ti fa gli auguri nel tuo giorno speciale.",
+            "lgpe": "Il Pokémon ti fa gli auguri nel tuo giorno speciale.",
+            "swsh": "Il Pokémon ti fa gli auguri nel tuo giorno speciale."
+        },
+        "english": {
+            "xy": "The Pokémon congratulates you on your special day!",
+            "oras": "The Pokémon congratulates you on your special day!",
+            "sm": "The Pokémon congratulates you on your special day!",
+            "usum": "The Pokémon congratulates you on your special day!",
+            "lgpe": "The Pokémon congratulates you on your special day!",
+            "swsh": "The Pokémon congratulates you on your special day!"
+        },
+        "japanese": {
+            "xy": "ポケモンが　とっても ハッピーな　あなたのことを お祝い　してくれる。",
+            "oras": "ポケモンが　とっても ハッピーな　あなたのことを お祝い　してくれる。",
+            "sm": "ポケモンが　とっても ハッピーな　あなたのことを お祝い　してくれる。",
+            "usum": "ポケモンが　とっても ハッピーな　あなたのことを お祝い　してくれる。",
+            "lgpe": "ポケモンが　とっても ハッピーな　あなたのことを お祝い　してくれる。",
+            "swsh": "ポケモンが　とっても ハッピーな　あなたのことを お祝い　してくれる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon te felicita en un día muy especial para ti.",
+            "oras": "El Pokémon te felicita en un día muy especial para ti.",
+            "sm": "El Pokémon te felicita en un día muy especial para ti.",
+            "usum": "El Pokémon te felicita en un día muy especial para ti.",
+            "lgpe": "El Pokémon te felicita en un día muy especial para ti.",
+            "swsh": "El Pokémon te felicita en un día muy especial para ti."
+        },
+        "traditional-chinese": {
+            "sm": "寶可夢會為了 非常開心的你而慶祝。",
+            "usum": "寶可夢會為了 非常開心的你而慶祝。",
+            "lgpe": "寶可夢會為了 非常開心的你而慶祝。",
+            "swsh": "寶可夢會為了 非常開心的你而慶祝。"
+        },
+        "simplified-chinese": {
+            "sm": "宝可梦为十分 开心的你庆祝。",
+            "usum": "宝可梦为十分 开心的你庆祝。",
+            "lgpe": "宝可梦为十分 开心的你庆祝。",
+            "swsh": "宝可梦为十分 开心的你庆祝。"
+        }
+    },
+    "effect": {
+        "full": "Does nothing.",
+        "shortEffect": "Does nothing."
+    }
 }

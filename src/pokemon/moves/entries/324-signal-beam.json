@@ -1,45 +1,142 @@
 {
-  "_id": 324,
-  "key": "signal-beam",
-  "name": {
-    "english": "Signal Beam",
-    "japanese": "シグナルビーム",
-    "chinese": "信号光束",
-    "korean": "시그널빔",
-    "german": "Doble Rayo",
-    "french": "Ampelleuchte",
-    "italian": "Signal Beam",
-    "spanish": "Segnoraggio"
-  },
-  "type": "Bug",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A strange beam attack that\nmay confuse the foe.",
-    "emerald": "A strange beam attack that\nmay confuse the foe.",
-    "firered-leafgreen": "The foe is hit with\na flashing beam\nthat may also\ncause confusion.",
-    "diamond-pearl": "The user attacks with\na sinister beam of\nlight. It may also\nconfuse the target.\n",
-    "platinum": "The user attacks with\na sinister beam of\nlight. It may also\nconfuse the target.\n",
-    "heartgold-soulsilver": "The user attacks with\na sinister beam of\nlight. It may also\nconfuse the target.\n",
-    "black-white": "The user attacks with a sinister beam of\nlight. It may also confuse the target.",
-    "black-2-white-2": "The user attacks with a sinister beam of\nlight. It may also confuse the target.",
-    "x-y": "The user attacks with a sinister beam of\nlight. This may also confuse the target.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a sinister beam of\nlight. This may also confuse the target.",
-    "sun-moon": "The user attacks with a sinister beam of light.\nThis may also confuse the target.",
-    "ultra-sun-ultra-moon": "The user attacks with a sinister beam of light.\nThis may also confuse the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a sinister beam of light.\nThis may also confuse the target.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 324,
+    "key": "signal-beam",
+    "name": {
+        "japanese-kana": "シグナルビーム",
+        "korean": "시그널빔",
+        "traditional-chinese": "信號光束",
+        "french": "Rayon Signal",
+        "german": "Ampelleuchte",
+        "spanish": "Rayo Señal",
+        "italian": "Segnoraggio",
+        "english": "Signal Beam",
+        "japanese": "シグナルビーム",
+        "simplified-chinese": "信号光束",
+        "latin-american-spanish": "Rayo Señal"
+    },
+    "type": "bug",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 75,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A strange beam attack that may confuse the foe.",
+            "em": "A strange beam attack that may confuse the foe.",
+            "frlg": "The foe is hit with a flashing beam that may also cause confusion.",
+            "dp": "The user attacks with a sinister beam of light. It may also confuse the target.",
+            "pt": "The user attacks with a sinister beam of light. It may also confuse the target.",
+            "hgss": "The user attacks with a sinister beam of light. It may also confuse the target.",
+            "bw": "The user attacks with a sinister beam of light. It may also confuse the target.",
+            "b2w2": "The user attacks with a sinister beam of light. It may also confuse the target.",
+            "xy": "The user attacks with a sinister beam of light. This may also confuse the target.",
+            "oras": "The user attacks with a sinister beam of light. This may also confuse the target.",
+            "sm": "The user attacks with a sinister beam of light. This may also confuse the target.",
+            "usum": "The user attacks with a sinister beam of light. This may also confuse the target.",
+            "lgpe": "The user attacks with a sinister beam of light. This may also confuse the target.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur projette un rayon de lumière sinistre. Peut aussi rendre l’ennemi confus.",
+            "xy": "Le lanceur projette un rayon de lumière sinistre. Peut aussi rendre l’ennemi confus.",
+            "oras": "Le lanceur projette un rayon de lumière sinistre. Peut aussi rendre l’ennemi confus.",
+            "sm": "Le lanceur projette un rayon de lumière sinistre. Peut aussi rendre l’ennemi confus.",
+            "usum": "Le lanceur projette un rayon de lumière sinistre. Peut aussi rendre l’ennemi confus.",
+            "lgpe": "Le lanceur projette un rayon de lumière sinistre. Peut aussi rendre l’ennemi confus.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ふしぎな　ひかりを はっしゃして　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "oras": "ふしぎな　ひかりを はっしゃして　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "sm": "ふしぎな　ひかりを はっしゃして　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "usum": "ふしぎな　ひかりを はっしゃして　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "lgpe": "ふしぎな　ひかりを はっしゃして　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "이상한 빛을 발사해서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "oras": "이상한 빛을 발사해서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "sm": "이상한 빛을 발사해서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "usum": "이상한 빛을 발사해서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "lgpe": "이상한 빛을 발사해서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Strahlenattacke, die das Ziel eventuell verwirrt.",
+            "oras": "Strahlenattacke, die das Ziel eventuell verwirrt.",
+            "sm": "Strahlenattacke, die das Ziel eventuell verwirrt.",
+            "usum": "Strahlenattacke, die das Ziel eventuell verwirrt.",
+            "lgpe": "Strahlenattacke, die das Ziel eventuell verwirrt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "oras": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "sm": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "usum": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "lgpe": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con uno strano raggio di luce che può anche confondere il Pokémon colpito.",
+            "oras": "Chi la usa attacca con uno strano raggio di luce che può anche confondere il Pokémon colpito.",
+            "sm": "Chi la usa attacca con uno strano raggio di luce che può anche confondere il Pokémon colpito.",
+            "usum": "Chi la usa attacca con uno strano raggio di luce che può anche confondere il Pokémon colpito.",
+            "lgpe": "Chi la usa attacca con uno strano raggio di luce che può anche confondere il Pokémon colpito.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "不思議な　光を 発射して　攻撃する。 相手を　混乱させることが　ある。",
+            "oras": "不思議な　光を 発射して　攻撃する。 相手を　混乱させることが　ある。",
+            "sm": "不思議な　光を 発射して　攻撃する。 相手を　混乱させることが　ある。",
+            "usum": "不思議な　光を 発射して　攻撃する。 相手を　混乱させることが　ある。",
+            "lgpe": "不思議な　光を 発射して　攻撃する。 相手を　混乱させることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "oras": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "sm": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "usum": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "lgpe": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "發射神奇的光線進行攻擊。 有時會使對手混亂。",
+            "usum": "發射神奇的光線進行攻擊。 有時會使對手混亂。",
+            "lgpe": "發射神奇的光線進行攻擊。 有時會使對手混亂。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "发射神奇的光线进行攻击。 有时会使对手混乱。",
+            "usum": "发射神奇的光线进行攻击。 有时会使对手混乱。",
+            "lgpe": "发射神奇的光线进行攻击。 有时会使对手混乱。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

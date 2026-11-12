@@ -1,42 +1,141 @@
 {
-  "_id": 370,
-  "key": "close-combat",
-  "name": {
-    "english": "Close Combat",
-    "japanese": "インファイト",
-    "chinese": "近身打",
-    "korean": "인파이트",
-    "german": "A Bocajarro",
-    "french": "Nahkampf",
-    "italian": "Close Combat",
-    "spanish": "Zuffa"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 5,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user fights the\nfoe in close without\nguarding itself. It\nalso cuts the user’s\nDefense and Sp. Def.",
-    "platinum": "The user fights the\nfoe in close without\nguarding itself. It\nalso cuts the user’s\nDefense and Sp. Def.",
-    "heartgold-soulsilver": "The user fights the\nfoe up close without\nguarding itself. It\nalso cuts the user’s\nDefense and Sp. Def.",
-    "black-white": "The user fights the target up close\nwithout guarding itself. It also cuts\nthe user’s Defense and Sp. Def.",
-    "black-2-white-2": "The user fights the target up close\nwithout guarding itself. It also cuts\nthe user’s Defense and Sp. Def.",
-    "x-y": "The user fights the target up close\nwithout guarding itself. This also lowers\nthe user’s Defense and Sp. Def stats.",
-    "omega-ruby-alpha-sapphire": "The user fights the target up close\nwithout guarding itself. This also lowers\nthe user’s Defense and Sp. Def stats.",
-    "sun-moon": "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats.",
-    "ultra-sun-ultra-moon": "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats.",
-    "sword-shield": "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Defense and Special Defense by one stage each.",
-    "shortEffect": "Lowers the user's Defense and Special Defense by one stage after inflicting damage."
-  },
-  "priority": 0
+    "_id": 370,
+    "key": "close-combat",
+    "name": {
+        "japanese-kana": "インファイト",
+        "korean": "인파이트",
+        "traditional-chinese": "近身戰",
+        "french": "Close Combat",
+        "german": "Nahkampf",
+        "spanish": "A Bocajarro",
+        "italian": "Zuffa",
+        "english": "Close Combat",
+        "japanese": "インファイト",
+        "simplified-chinese": "近身战",
+        "latin-american-spanish": "Cuerpo a Cuerpo"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 5,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user fights the foe in close without guarding itself. It also cuts the user’s Defense and Sp. Def.",
+            "pt": "The user fights the foe in close without guarding itself. It also cuts the user’s Defense and Sp. Def.",
+            "hgss": "The user fights the foe up close without guarding itself. It also cuts the user’s Defense and Sp. Def.",
+            "bw": "The user fights the target up close without guarding itself. It also cuts the user’s Defense and Sp. Def.",
+            "b2w2": "The user fights the target up close without guarding itself. It also cuts the user’s Defense and Sp. Def.",
+            "xy": "The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats.",
+            "oras": "The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats.",
+            "sm": "The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats.",
+            "usum": "The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats.",
+            "lgpe": "The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats.",
+            "swsh": "The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats.",
+            "la": "The user fights the target up close, inflicting damage without guarding itself. This also lowers the user's defensive stats.",
+            "sv": "The user fights the target up close, inflicting damage without guarding itself. This also lowers the user's Defense and Sp. Def stats."
+        },
+        "french": {
+            "bw": "Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.",
+            "xy": "Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.",
+            "oras": "Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.",
+            "sm": "Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.",
+            "usum": "Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.",
+            "lgpe": "Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale.",
+            "swsh": "Le lanceur combat au corps à corps sans se protéger. Baisse aussi sa Défense et sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "まもりを　すてて　あいての　ふところに とつげきする。じぶんの ぼうぎょと　とくぼうが　さがる。",
+            "oras": "まもりを　すてて　あいての　ふところに とつげきする。じぶんの ぼうぎょと　とくぼうが　さがる。",
+            "sm": "まもりを　すてて　あいての　ふところに とつげきする。　じぶんの ぼうぎょと　とくぼうが　さがる。",
+            "usum": "まもりを　すてて　あいての　ふところに とつげきする。　じぶんの ぼうぎょと　とくぼうが　さがる。",
+            "lgpe": "まもりを　すてて　あいての　ふところに とつげきする。　じぶんの ぼうぎょと　とくぼうが　さがる。",
+            "swsh": "まもりを　すてて　あいての　ふところに とつげきする。　じぶんの ぼうぎょと　とくぼうが　さがる。"
+        },
+        "korean": {
+            "xy": "방어를 포기하고 상대 깊숙이 돌격한다. 자신의 방어와 특수방어가 떨어진다.",
+            "oras": "방어를 포기하고 상대 깊숙이 돌격한다. 자신의 방어와 특수방어가 떨어진다.",
+            "sm": "방어를 포기하고 상대 깊숙이 돌격한다. 자신의 방어와 특수방어가 떨어진다.",
+            "usum": "방어를 포기하고 상대 깊숙이 돌격한다. 자신의 방어와 특수방어가 떨어진다.",
+            "lgpe": "방어를 포기하고 상대 깊숙이 돌격한다. 자신의 방어와 특수방어가 떨어진다.",
+            "swsh": "방어를 포기하고 상대 쪽으로 깊숙이 돌격한다. 자신의 방어와 특수방어가 떨어진다."
+        },
+        "german": {
+            "xy": "Nahkampf-Attacke ohne Rücksicht auf Verluste. Senkt Verteidigung und Spezial-Verteidigung des Anwenders.",
+            "oras": "Nahkampf-Attacke ohne Rücksicht auf Verluste. Senkt Verteidigung und Spezial-Verteidigung des Anwenders.",
+            "sm": "Nahkampf-Attacke ohne Rücksicht auf Verluste. Senkt Verteidigung und Spezial-Verteidigung des Anwenders.",
+            "usum": "Nahkampf-Attacke ohne Rücksicht auf Verluste. Senkt Verteidigung und Spezial-Verteidigung des Anwenders.",
+            "lgpe": "Nahkampf-Attacke ohne Rücksicht auf Verluste. Senkt Verteidigung und Spezial-Verteidigung des Anwenders.",
+            "swsh": "Nahkampf-Attacke ohne Rücksicht auf Verluste. Senkt Verteidigung und Spezial-Verteidigung des Anwenders."
+        },
+        "spanish": {
+            "xy": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "oras": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "sm": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "usum": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "lgpe": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "swsh": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca abbassando la guardia. La propria Difesa e la Difesa Speciale si riducono.",
+            "oras": "Chi la usa attacca abbassando la guardia. La propria Difesa e la Difesa Speciale si riducono.",
+            "sm": "Chi la usa attacca abbassando la guardia. La propria Difesa e la Difesa Speciale si riducono.",
+            "usum": "Chi la usa attacca abbassando la guardia. La propria Difesa e la Difesa Speciale si riducono.",
+            "lgpe": "Chi la usa attacca abbassando la guardia. La propria Difesa e la Difesa Speciale si riducono.",
+            "swsh": "Chi la usa attacca abbassando la guardia. La propria Difesa e la Difesa Speciale si riducono."
+        },
+        "japanese": {
+            "xy": "守りを　捨てて　相手の　ふところに 突撃する。自分の 防御と　特防が　さがる。",
+            "oras": "守りを　捨てて　相手の　ふところに 突撃する。自分の 防御と　特防が　さがる。",
+            "sm": "守りを　捨てて　相手の　ふところに 突撃する。　自分の 防御と　特防が　さがる。",
+            "usum": "守りを　捨てて　相手の　ふところに 突撃する。　自分の 防御と　特防が　さがる。",
+            "lgpe": "守りを　捨てて　相手の　ふところに 突撃する。　自分の 防御と　特防が　さがる。",
+            "swsh": "守りを　捨てて　相手の　ふところに 突撃する。　自分の 防御と　特防が　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "oras": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "sm": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "usum": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "lgpe": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.",
+            "swsh": "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "反守為攻，近身突擊對手。 自己的防禦和特防會降低。",
+            "usum": "反守為攻，近身突擊對手。 自己的防禦和特防會降低。",
+            "lgpe": "反守為攻，近身突擊對手。 自己的防禦和特防會降低。",
+            "swsh": "反守為攻，近身突擊對手。 自己的防禦和特防會降低。"
+        },
+        "simplified-chinese": {
+            "sm": "放弃守护， 向对手的怀里突击。 自己的防御和特防会降低。",
+            "usum": "放弃守护， 向对手的怀里突击。 自己的防御和特防会降低。",
+            "lgpe": "放弃守护， 向对手的怀里突击。 自己的防御和特防会降低。",
+            "swsh": "放弃守护， 向对手的怀里突击。 自己的防御和特防会降低。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Defense and Special Defense by one stage each.",
+        "shortEffect": "Lowers the user’s Defense and Special Defense by one stage after inflicting damage."
+    }
 }

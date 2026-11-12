@@ -1,39 +1,138 @@
 {
-  "_id": 469,
-  "key": "wide-guard",
-  "name": {
-    "english": "Wide Guard",
-    "japanese": "ワイドガード",
-    "chinese": "全体防御",
-    "korean": "와이드가드",
-    "german": "Vastaguardia",
-    "french": "Rundumschutz",
-    "italian": "Wide Guard",
-    "spanish": "Bodyguard"
-  },
-  "type": "Rock",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "black-white": "The user and its allies are protected from\nwide-ranging attacks for one turn. If used\nin succession, its chance of failing rises.",
-    "black-2-white-2": "The user and its allies are protected from\nwide-ranging attacks for one turn. If used\nin succession, its chance of failing rises.",
-    "x-y": "The user and its allies are protected from\nwide-ranging attacks for one turn.",
-    "omega-ruby-alpha-sapphire": "The user and its allies are protected from\nwide-ranging attacks for one turn.",
-    "sun-moon": "The user and its allies are protected from\nwide-ranging attacks for one turn.",
-    "ultra-sun-ultra-moon": "The user and its allies are protected from\nwide-ranging attacks for one turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user and its allies are protected from\nwide-ranging attacks for one turn.",
-    "sword-shield": "The user and its allies are protected from\nwide-ranging attacks for one turn."
-  },
-  "effect": {
-    "full": "Moves with multiple targets will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Prevents any multi-target moves from hitting friendly Pokémon this turn."
-  },
-  "priority": 3
+    "_id": 469,
+    "key": "wide-guard",
+    "name": {
+        "japanese-kana": "ワイドガード",
+        "korean": "와이드가드",
+        "traditional-chinese": "廣域防守",
+        "french": "Garde Large",
+        "german": "Rundumschutz",
+        "spanish": "Vasta Guardia",
+        "italian": "Bodyguard",
+        "english": "Wide Guard",
+        "japanese": "ワイドガード",
+        "simplified-chinese": "广域防守",
+        "latin-american-spanish": "Guardia Amplia"
+    },
+    "type": "rock",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 3,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Annule les attaques visant toute l’équipe pendant 1 tour. Peut échouer si utilisée plusieurs fois de suite.",
+            "xy": "Annule les attaques visant toute l’équipe pendant un tour.",
+            "oras": "Annule les attaques visant toute l’équipe pendant un tour.",
+            "sm": "Annule les attaques visant toute l’équipe pendant un tour.",
+            "usum": "Annule les attaques visant toute l’équipe pendant un tour.",
+            "lgpe": "Annule les attaques visant toute l’équipe pendant un tour.",
+            "swsh": "Annule les attaques visant toute l’équipe pendant un tour."
+        },
+        "english": {
+            "bw": "The user and its allies are protected from wide-ranging attacks for one turn. If used in succession, its chance of failing rises.",
+            "b2w2": "The user and its allies are protected from wide-ranging attacks for one turn. If used in succession, its chance of failing rises.",
+            "xy": "The user and its allies are protected from wide-ranging attacks for one turn.",
+            "oras": "The user and its allies are protected from wide-ranging attacks for one turn.",
+            "sm": "The user and its allies are protected from wide-ranging attacks for one turn.",
+            "usum": "The user and its allies are protected from wide-ranging attacks for one turn.",
+            "lgpe": "The user and its allies are protected from wide-ranging attacks for one turn.",
+            "swsh": "The user and its allies are protected from wide-ranging attacks for one turn.",
+            "la": "The user and its allies are protected from wide-ranging attacks for one turn.",
+            "sv": "The user and its allies are protected from wide-ranging attacks for one turn."
+        },
+        "japanese-kana": {
+            "xy": "みかた　ぜんいんに　あたる　こうげきを １ターンの　あいだ　ふせぐ。",
+            "oras": "かた　ぜんいんに　あたる　こうげきを １ターンの　あいだ　ふせぐ。",
+            "sm": "みかた　ぜんいんに　あたる　こうげきを １ターンの　あいだ　ふせぐ。",
+            "usum": "みかた　ぜんいんに　あたる　こうげきを １ターンの　あいだ　ふせぐ。",
+            "lgpe": "みかた　ぜんいんに　あたる　こうげきを １ターンの　あいだ　ふせぐ。",
+            "swsh": "みかた　ぜんいんに　あたる　こうげきを １ターンの　あいだ　ふせぐ。"
+        },
+        "korean": {
+            "xy": "같은 편 전원에게 향하는 공격을 1턴 동안 막는다.",
+            "oras": "같은 편 전원에게 향하는 공격을 1턴 동안 막는다.",
+            "sm": "같은 편 전원에게 향하는 공격을 1턴 동안 막는다.",
+            "usum": "같은 편 전원에게 향하는 공격을 1턴 동안 막는다.",
+            "lgpe": "같은 편 전원에게 향하는 공격을 1턴 동안 막는다.",
+            "swsh": "같은 편 전원에게 향하는 공격을 1턴 동안 막는다."
+        },
+        "german": {
+            "xy": "Schützt eine Runde lang vor Angriffen, die alle Pokémon auf deiner Seite treffen.",
+            "oras": "Schützt eine Runde lang vor Angriffen, die alle Pokémon auf deiner Seite treffen.",
+            "sm": "Schützt eine Runde lang vor Angriffen, die alle Pokémon auf deiner Seite treffen.",
+            "usum": "Schützt eine Runde lang vor Angriffen, die alle Pokémon auf deiner Seite treffen.",
+            "lgpe": "Schützt eine Runde lang vor Angriffen, die alle Pokémon auf deiner Seite treffen.",
+            "swsh": "Schützt eine Runde lang vor Angriffen, die alle Pokémon auf der Seite des Anwenders treffen."
+        },
+        "spanish": {
+            "xy": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "oras": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "sm": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "usum": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "lgpe": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "swsh": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno."
+        },
+        "italian": {
+            "xy": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio.",
+            "oras": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio.",
+            "sm": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio per un turno.",
+            "usum": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio per un turno.",
+            "lgpe": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio per un turno.",
+            "swsh": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio per un turno."
+        },
+        "japanese": {
+            "xy": "味方全員に　当たる　攻撃を １ターンの　あいだ　防ぐ。",
+            "oras": "味方全員に　当たる　攻撃を １ターンの　あいだ　防ぐ。",
+            "sm": "味方全員に　当たる　攻撃を １ターンの　間　防ぐ。",
+            "usum": "味方全員に　当たる　攻撃を １ターンの　間　防ぐ。",
+            "lgpe": "味方全員に　当たる　攻撃を １ターンの　間　防ぐ。",
+            "swsh": "味方全員に　当たる　攻撃を １ターンの　間　防ぐ。"
+        },
+        "latin-american-spanish": {
+            "xy": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "oras": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "sm": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "usum": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "lgpe": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+            "swsh": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno."
+        },
+        "traditional-chinese": {
+            "sm": "在１回合內， 防禦住攻擊我方全體的攻擊招式。",
+            "usum": "在１回合內， 防禦住攻擊我方全體的攻擊招式。",
+            "lgpe": "在１回合內， 防禦住攻擊我方全體的攻擊招式。",
+            "swsh": "在１回合內， 防禦住攻擊我方全體的攻擊招式。"
+        },
+        "simplified-chinese": {
+            "sm": "在１回合内防住 击打我方全员的攻击。",
+            "usum": "在１回合内防住 击打我方全员的攻击。",
+            "lgpe": "在１回合内防住 击打我方全员的攻击。",
+            "swsh": "在１回合内防住 击打我方全员的攻击。"
+        }
+    },
+    "effect": {
+        "full": "Moves with multiple targets will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will fail. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Prevents any multi-target moves from hitting friendly Pokémon this turn."
+    }
 }

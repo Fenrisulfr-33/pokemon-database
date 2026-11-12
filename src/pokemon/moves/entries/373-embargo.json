@@ -1,42 +1,139 @@
 {
-  "_id": 373,
-  "key": "embargo",
-  "name": {
-    "english": "Embargo",
-    "japanese": "さしおさえ",
-    "chinese": "征收",
-    "korean": "금제",
-    "german": "Embargo",
-    "french": "Itemsperre",
-    "italian": "Embargo",
-    "spanish": "Divieto"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "It prevents the foe\nfrom using its held\nitem. Its Trainer is\nalso prevented from\nusing items on it.",
-    "platinum": "It prevents the foe\nfrom using its held\nitem. Its Trainer is\nalso prevented from\nusing items on it.",
-    "heartgold-soulsilver": "It prevents the foe\nfrom using its held\nitem. Its Trainer is\nalso prevented from\nusing items on it.",
-    "black-white": "It prevents the target from using its held\nitem. Its Trainer is also prevented from\nusing items on it.",
-    "black-2-white-2": "It prevents the target from using its held\nitem. Its Trainer is also prevented from\nusing items on it.",
-    "x-y": "This move prevents the target from\nusing its held item. Its Trainer is\nalso prevented from using items on it.",
-    "omega-ruby-alpha-sapphire": "This move prevents the target from\nusing its held item. Its Trainer is\nalso prevented from using items on it.",
-    "sun-moon": "This move prevents the target from using its held\nitem for five turns. Its Trainer is also prevented from\nusing items on it.",
-    "ultra-sun-ultra-moon": "This move prevents the target from using its held\nitem for five turns. Its Trainer is also prevented from\nusing items on it.",
-    "lets-go-pikachu-lets-go-eevee": "This move prevents the target from using its held\nitem for five turns. Its Trainer is also prevented from\nusing items on it.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Target cannot use its held item for five turns.  If the target leaves the field, this effect ends.\n\nIf a Pokémon under this effect uses bug bite or pluck on a Pokémon holding a berry, the berry is destroyed but not used.  If a Pokémon under this effect uses fling, it will fail.\n\nThis effect is passed by baton pass.",
-    "shortEffect": "Target cannot use held items."
-  },
-  "priority": 0
+    "_id": 373,
+    "key": "embargo",
+    "name": {
+        "japanese-kana": "さしおさえ",
+        "korean": "금제",
+        "traditional-chinese": "查封",
+        "french": "Embargo",
+        "german": "Itemsperre",
+        "spanish": "Embargo",
+        "italian": "Divieto",
+        "english": "Embargo",
+        "japanese": "さしおさえ",
+        "simplified-chinese": "查封",
+        "latin-american-spanish": "Embargo"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "cute",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "embargo",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 5,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "It prevents the foe from using its held item. Its Trainer is also prevented from using items on it.",
+            "pt": "It prevents the foe from using its held item. Its Trainer is also prevented from using items on it.",
+            "hgss": "It prevents the foe from using its held item. Its Trainer is also prevented from using items on it.",
+            "bw": "It prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
+            "b2w2": "It prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
+            "xy": "This move prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
+            "oras": "This move prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
+            "sm": "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it.",
+            "usum": "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it.",
+            "lgpe": "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Empêche l’ennemi d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui.",
+            "xy": "Empêche l’ennemi d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui.",
+            "oras": "Empêche l’ennemi d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui.",
+            "sm": "Empêche la cible d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui pendant cinq tours.",
+            "usum": "Empêche la cible d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui pendant cinq tours.",
+            "lgpe": "Empêche la cible d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui pendant cinq tours.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "もたせた　どうぐを　つかえなくする。 トレーナーも　その　ポケモンには どうぐを　つかえない。",
+            "oras": "もたせた　どうぐを　つかえなくする。 トレーナーも　その　ポケモンには どうぐを　つかえない。",
+            "sm": "もたせた　どうぐを　５ターンの　あいだ つかえなくする。　トレーナーも その　ポケモンには　どうぐを　つかえない。",
+            "usum": "もたせた　どうぐを　５ターンの　あいだ つかえなくする。　トレーナーも その　ポケモンには　どうぐを　つかえない。",
+            "lgpe": "もたせた　どうぐを　５ターンの　あいだ つかえなくする。　トレーナーも その　ポケモンには　どうぐを　つかえない。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "지니게 한 도구를 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다.",
+            "oras": "지니게 한 도구를 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다.",
+            "sm": "지니게 한 도구를 5턴 동안 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다.",
+            "usum": "지니게 한 도구를 5턴 동안 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다.",
+            "lgpe": "지니게 한 도구를 5턴 동안 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Verhindert, dass auf das Ziel Items verwendet werden.",
+            "oras": "Das Ziel kann weder getragene Items nutzen, noch kann sein Trainer Items auf es anwenden.",
+            "sm": "Das Ziel kann fünf Runden lang weder getragene Items nutzen, noch kann sein Trainer Items auf es anwenden.",
+            "usum": "Das Ziel kann fünf Runden lang weder getragene Items nutzen, noch kann sein Trainer Items auf es anwenden.",
+            "lgpe": "Das Ziel kann fünf Runden lang weder getragene Items nutzen, noch kann sein Trainer Items auf es anwenden.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Impide al objetivo usar el objeto que lleva. Su Entrenador tampoco puede usar objetos con él.",
+            "oras": "Impide al objetivo usar el objeto que lleva. Su Entrenador tampoco puede usar objetos con él.",
+            "sm": "Impide al objetivo usar el objeto que lleva durante cinco turnos. Su Entrenador tampoco puede usar objetos con él.",
+            "usum": "Impide al objetivo usar el objeto que lleva durante cinco turnos. Su Entrenador tampoco puede usar objetos con él.",
+            "lgpe": "Impide al objetivo usar el objeto que lleva durante cinco turnos. Su Entrenador tampoco puede usar objetos con él.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon.",
+            "oras": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon.",
+            "sm": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon per cinque turni.",
+            "usum": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon per cinque turni.",
+            "lgpe": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon per cinque turni.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "持たせた　道具を　使えなくする。 トレーナーも　その　ポケモンには 道具を　使えない。",
+            "oras": "持たせた　道具を　使えなくする。 トレーナーも　その　ポケモンには 道具を　使えない。",
+            "sm": "持たせた　道具を　５ターンの　間 使えなくする。　トレーナーも その　ポケモンには　道具を　使えない。",
+            "usum": "持たせた　道具を　５ターンの　間 使えなくする。　トレーナーも その　ポケモンには　道具を　使えない。",
+            "lgpe": "持たせた　道具を　５ターンの　間 使えなくする。　トレーナーも その　ポケモンには　道具を　使えない。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Impide al objetivo usar el objeto que lleva. Su Entrenador tampoco puede usar objetos con él.",
+            "oras": "Impide al objetivo usar el objeto que lleva. Su Entrenador tampoco puede usar objetos con él.",
+            "sm": "Impide al objetivo usar el objeto que lleva durante cinco turnos. Su Entrenador tampoco puede usar objetos con él.",
+            "usum": "Impide al objetivo usar el objeto que lleva durante cinco turnos. Su Entrenador tampoco puede usar objetos con él.",
+            "lgpe": "Impide al objetivo usar el objeto que lleva durante cinco turnos. Su Entrenador tampoco puede usar objetos con él.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "讓對手在５回合內無法使用攜帶的道具。 訓練家也不能對 該寶可夢使用道具。",
+            "usum": "讓對手在５回合內無法使用攜帶的道具。 訓練家也不能對 該寶可夢使用道具。",
+            "lgpe": "讓對手在５回合內無法使用攜帶的道具。 訓練家也不能對 該寶可夢使用道具。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "让对手在５回合内不能使用 宝可梦携带的道具。训练家也 不能给那只宝可梦使用道具。",
+            "usum": "让对手在５回合内不能使用 宝可梦携带的道具。训练家也 不能给那只宝可梦使用道具。",
+            "lgpe": "让对手在５回合内不能使用 宝可梦携带的道具。训练家也 不能给那只宝可梦使用道具。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Target cannot use its held item for five turns.  If the target leaves the field, this effect ends. If a Pokémon under this effect uses Bug Bite or Pluck on a Pokémon holding a berry, the berry is destroyed but not used.  If a Pokémon under this effect uses Fling, it will fail. This effect is passed by Baton Pass.",
+        "shortEffect": "Target cannot use held items."
+    }
 }

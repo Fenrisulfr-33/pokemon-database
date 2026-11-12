@@ -1,47 +1,144 @@
 {
-  "_id": 169,
-  "key": "spider-web",
-  "name": {
-    "english": "Spider Web",
-    "japanese": "クモのす",
-    "chinese": "蛛丝",
-    "korean": "거미집",
-    "german": "Telaraña",
-    "french": "Spinnennetz",
-    "italian": "Spider Web",
-    "spanish": "Ragnatela"
-  },
-  "type": "Bug",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Prevents fleeing\nor switching.",
-    "crystal": "Prevents fleeing\nor switching.",
-    "ruby-sapphire": "Ensnares the foe to stop it\nfrom fleeing or switching.",
-    "emerald": "Ensnares the foe to stop it\nfrom fleeing or switching.",
-    "firered-leafgreen": "Ensnares the foe \nwith sticky string\nso it doesn’t flee\nor switch out.",
-    "diamond-pearl": "The user ensnares\nthe foe with a thin,\ngooey silk so it can’t\nflee from battle.\n",
-    "platinum": "The user ensnares\nthe foe with a thin,\ngooey silk so it can’t\nflee from battle.\n",
-    "heartgold-soulsilver": "The user ensnares\nthe foe with a thin,\ngooey silk so it can’t\nflee from battle.\n",
-    "black-white": "The user ensnares the target with thin,\ngooey silk so it can’t flee from battle.",
-    "black-2-white-2": "The user ensnares the target with thin,\ngooey silk so it can’t flee from battle.",
-    "x-y": "The user ensnares the target with thin,\ngooey silk so it can’t flee from battle.",
-    "omega-ruby-alpha-sapphire": "The user ensnares the target with thin,\ngooey silk so it can’t flee from battle.",
-    "sun-moon": "The user ensnares the target with thin, gooey silk\nso it can’t flee from battle.",
-    "ultra-sun-ultra-moon": "The user ensnares the target with thin, gooey silk\nso it can’t flee from battle.",
-    "lets-go-pikachu-lets-go-eevee": "The user ensnares the target with thin, gooey silk\nso it can’t flee from battle.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.\n\nThe target may still escape by using baton pass, u turn, or a shed shell.\n\nBoth the user and the target pass on this effect with baton pass.",
-    "shortEffect": "Prevents the target from leaving battle."
-  },
-  "priority": 0
+    "_id": 169,
+    "key": "spider-web",
+    "name": {
+        "japanese-kana": "クモのす",
+        "korean": "거미집",
+        "traditional-chinese": "蛛網",
+        "french": "Toile",
+        "german": "Spinnennetz",
+        "spanish": "Telaraña",
+        "italian": "Ragnatela",
+        "english": "Spider Web",
+        "japanese": "クモのす",
+        "simplified-chinese": "蛛网",
+        "latin-american-spanish": "Telaraña"
+    },
+    "type": "bug",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Prevents fleeing or switching.",
+            "cr": "Prevents fleeing or switching.",
+            "rs": "Ensnares the foe to stop it from fleeing or switching.",
+            "em": "Ensnares the foe to stop it from fleeing or switching.",
+            "frlg": "Ensnares the foe with sticky string so it doesn’t flee or switch out.",
+            "dp": "The user ensnares the foe with a thin, gooey silk so it can’t flee from battle.",
+            "pt": "The user ensnares the foe with a thin, gooey silk so it can’t flee from battle.",
+            "hgss": "The user ensnares the foe with a thin, gooey silk so it can’t flee from battle.",
+            "bw": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+            "b2w2": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+            "xy": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+            "oras": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+            "sm": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+            "usum": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+            "lgpe": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur enserre l’ennemi à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat.",
+            "xy": "Le lanceur enserre l’ennemi à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat.",
+            "oras": "Le lanceur enserre l’ennemi à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat.",
+            "sm": "Le lanceur enserre l’ennemi à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat.",
+            "usum": "Le lanceur enserre l’ennemi à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat.",
+            "lgpe": "Le lanceur enserre l’ennemi à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ネバネバした　ほそい　いとを グルグルと　からませて　あいてを せんとうから　にげられなく　する。",
+            "oras": "ネバネバした　ほそい　いとを グルグルと　からませて　あいてを せんとうから　にげられなく　する。",
+            "sm": "ネバネバした　ほそい　いとを グルグルと　からませて　あいてを せんとうから　にげられなく　する。",
+            "usum": "ネバネバした　ほそい　いとを グルグルと　からませて　あいてを せんとうから　にげられなく　する。",
+            "lgpe": "ネバネバした　ほそい　いとを グルグルと　からませて　あいてを せんとうから　にげられなく　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "끈적끈적하고 가는 실을 칭칭 휘감아 상대를 배틀에서 도망칠 수 없게 한다.",
+            "oras": "끈적끈적하고 가는 실을 칭칭 휘감아 상대를 배틀에서 도망칠 수 없게 한다.",
+            "sm": "끈적끈적하고 가는 실을 칭칭 휘감아 상대를 배틀에서 도망칠 수 없게 한다.",
+            "usum": "끈적끈적하고 가는 실을 칭칭 휘감아 상대를 배틀에서 도망칠 수 없게 한다.",
+            "lgpe": "끈적끈적하고 가는 실을 칭칭 휘감아 상대를 배틀에서 도망칠 수 없게 한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Wickelt das Ziel ein. Flucht oder Tausch unmöglich.",
+            "oras": "Wickelt das Ziel ein. Flucht oder Tausch unmöglich.",
+            "sm": "Wickelt das Ziel ein. Flucht oder Tausch unmöglich.",
+            "usum": "Wickelt das Ziel ein. Flucht oder Tausch unmöglich.",
+            "lgpe": "Wickelt das Ziel ein. Flucht oder Tausch unmöglich.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Enreda al objetivo para evitar que abandone la batalla.",
+            "oras": "Enreda al objetivo para evitar que abandone la batalla.",
+            "sm": "Enreda al objetivo para evitar que abandone el combate.",
+            "usum": "Enreda al objetivo para evitar que abandone el combate.",
+            "lgpe": "Enreda al objetivo para evitar que abandone el combate.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Copre il bersaglio con un filo di seta sottile e appiccicoso. Il Pokémon colpito non può fuggire.",
+            "oras": "Copre il bersaglio con un filo di seta sottile e appiccicoso. Il Pokémon colpito non può fuggire.",
+            "sm": "Copre il bersaglio con un filo di seta sottile e appiccicoso. Il Pokémon colpito non può fuggire.",
+            "usum": "Copre il bersaglio con un filo di seta sottile e appiccicoso. Il Pokémon colpito non può fuggire.",
+            "lgpe": "Copre il bersaglio con un filo di seta sottile e appiccicoso. Il Pokémon colpito non può fuggire.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "ネバネバした　細い　糸を グルグルと　からませて　相手を 戦闘から　逃げられなくする。",
+            "oras": "ネバネバした　細い　糸を グルグルと　からませて　相手を 戦闘から　逃げられなくする。",
+            "sm": "ネバネバした　細い　糸を グルグルと　からませて　相手を 戦闘から　逃げられなくする。",
+            "usum": "ネバネバした　細い　糸を グルグルと　からませて　相手を 戦闘から　逃げられなくする。",
+            "lgpe": "ネバネバした　細い　糸を グルグルと　からませて　相手を 戦闘から　逃げられなくする。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Enreda al objetivo para evitar que abandone la batalla.",
+            "oras": "Enreda al objetivo para evitar que abandone la batalla.",
+            "sm": "Enreda al objetivo para evitar que abandone el combate.",
+            "usum": "Enreda al objetivo para evitar que abandone el combate.",
+            "lgpe": "Enreda al objetivo para evitar que abandone el combate.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用黏糊糊的細絲 一層一層纏住對手， 讓對手不能從戰鬥中逃走。",
+            "usum": "用黏糊糊的細絲 一層一層纏住對手， 讓對手不能從戰鬥中逃走。",
+            "lgpe": "用黏糊糊的細絲 一層一層纏住對手， 讓對手不能從戰鬥中逃走。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "将黏糊糊的细丝 一层一层缠住对手， 使其不能从战斗中逃走。",
+            "usum": "将黏糊糊的细丝 一层一层缠住对手， 使其不能从战斗中逃走。",
+            "lgpe": "将黏糊糊的细丝 一层一层缠住对手， 使其不能从战斗中逃走。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field. The target may still escape by using Baton Pass, U-turn, or a Shed Shell. Both the user and the target pass on this effect with Baton Pass.",
+        "shortEffect": "Prevents the target from leaving battle."
+    }
 }

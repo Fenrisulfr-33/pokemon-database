@@ -1,39 +1,138 @@
 {
-  "_id": 521,
-  "key": "volt-switch",
-  "name": {
-    "english": "Volt Switch",
-    "japanese": "ボルトチェンジ",
-    "chinese": "交换伏特",
-    "korean": "볼트체인지",
-    "german": "Voltiocambio",
-    "french": "Voltwechsel",
-    "italian": "Volt Switch",
-    "spanish": "Invertivolt"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": null,
-  "pp": 20,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.",
-    "black-2-white-2": "After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.",
-    "x-y": "After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.",
-    "omega-ruby-alpha-sapphire": "After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.",
-    "sun-moon": "After making its attack, the user rushes back to\nswitch places with a party Pokémon in waiting.",
-    "ultra-sun-ultra-moon": "After making its attack, the user rushes back to\nswitch places with a party Pokémon in waiting.",
-    "lets-go-pikachu-lets-go-eevee": "After making its attack, the user rushes back to\nswitch places with a party Pokémon in waiting.",
-    "sword-shield": "After making its attack, the user rushes back to\nswitch places with a party Pokémon in waiting."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then the user immediately switches out, and the trainer selects a replacement Pokémon from the party.  If the target faints from this attack, the user's trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not switch out.\n\nThe user may be hit by pursuit when it switches out, if it has been targeted and pursuit has not yet been used.\n\nThis move may be used even if the user is under the effect of ingrain.  ingrain's effect will end.",
-    "shortEffect": "User must switch out after attacking."
-  },
-  "priority": 0
+    "_id": 521,
+    "key": "volt-switch",
+    "name": {
+        "japanese-kana": "ボルトチェンジ",
+        "korean": "볼트체인지",
+        "traditional-chinese": "伏特替換",
+        "french": "Change Éclair",
+        "german": "Voltwechsel",
+        "spanish": "Voltiocambio",
+        "italian": "Invertivolt",
+        "english": "Volt Switch",
+        "japanese": "ボルトチェンジ",
+        "simplified-chinese": "伏特替换",
+        "latin-american-spanish": "Cambiavoltaje"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": null,
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+            "xy": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+            "oras": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+            "sm": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+            "usum": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+            "lgpe": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+            "swsh": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat."
+        },
+        "english": {
+            "bw": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "b2w2": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "xy": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "oras": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "sm": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "usum": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "lgpe": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "swsh": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "la": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+            "sv": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+        },
+        "japanese-kana": {
+            "xy": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。",
+            "oras": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。",
+            "sm": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。",
+            "usum": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。",
+            "lgpe": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。",
+            "swsh": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。"
+        },
+        "korean": {
+            "xy": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.",
+            "oras": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.",
+            "sm": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.",
+            "usum": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.",
+            "lgpe": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.",
+            "swsh": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다."
+        },
+        "german": {
+            "xy": "Anwender kehrt nach dem Angriff mit atemberaubender Geschwindigkeit zurück und tauscht Platz mit einem anderen Pokémon.",
+            "oras": "Anwender kehrt nach dem Angriff mit atemberaubender Geschwindigkeit zurück und tauscht Platz mit einem anderen Pokémon.",
+            "sm": "Anwender kehrt nach dem Angriff mit atemberaubender Geschwindigkeit zurück und tauscht Platz mit einem anderen Pokémon.",
+            "usum": "Anwender kehrt nach dem Angriff mit atemberaubender Geschwindigkeit zurück und tauscht Platz mit einem anderen Pokémon.",
+            "lgpe": "Nach der Attacke eilt der Anwender zurück und tauscht den Platz mit einem anderen Pokémon.",
+            "swsh": "Nach der Attacke eilt der Anwender zurück und tauscht den Platz mit einem anderen Pokémon."
+        },
+        "spanish": {
+            "xy": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "oras": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "sm": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "usum": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "lgpe": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "swsh": "Tras atacar, el usuario vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+        },
+        "italian": {
+            "xy": "Chi usa questa mossa si tira indietro per farsi sostituire dopo aver sferrato l’attacco.",
+            "oras": "Chi usa questa mossa si tira indietro per farsi sostituire dopo aver sferrato l’attacco.",
+            "sm": "Chi usa questa mossa si tira indietro per farsi sostituire dopo aver sferrato l’attacco.",
+            "usum": "Chi usa questa mossa si tira indietro per farsi sostituire dopo aver sferrato l’attacco.",
+            "lgpe": "Chi usa questa mossa si tira indietro per farsi sostituire dopo aver sferrato l’attacco.",
+            "swsh": "Chi usa questa mossa si tira indietro per farsi sostituire dopo aver sferrato l’attacco."
+        },
+        "japanese": {
+            "xy": "攻撃したあと ものすごい　スピードで　もどってきて 控えポケモンと　入れ替わる。",
+            "oras": "攻撃したあと ものすごい　スピードで　もどってきて 控えポケモンと　入れ替わる。",
+            "sm": "攻撃したあと ものすごい　スピードで　もどってきて 控えポケモンと　入れ替わる。",
+            "usum": "攻撃したあと ものすごい　スピードで　もどってきて 控えポケモンと　入れ替わる。",
+            "lgpe": "攻撃したあと ものすごい　スピードで　もどってきて 控えポケモンと　入れ替わる。",
+            "swsh": "攻撃したあと ものすごい　スピードで　もどってきて 控えポケモンと　入れ替わる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "oras": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "sm": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "usum": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "lgpe": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+            "swsh": "Tras atacar, el usuario vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+        },
+        "traditional-chinese": {
+            "sm": "攻擊後迅速返回， 和後備寶可夢進行替換。",
+            "usum": "攻擊後迅速返回， 和後備寶可夢進行替換。",
+            "lgpe": "攻擊後迅速返回， 和後備寶可夢進行替換。",
+            "swsh": "攻擊後迅速返回， 和後備寶可夢進行替換。"
+        },
+        "simplified-chinese": {
+            "sm": "在攻击之后急速返回， 和后备宝可梦进行替换。",
+            "usum": "在攻击之后急速返回， 和后备宝可梦进行替换。",
+            "lgpe": "在攻击之后急速返回， 和后备宝可梦进行替换。",
+            "swsh": "在攻击之后急速返回， 和后备宝可梦进行替换。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then the user immediately switches out, and the trainer selects a replacement Pokémon from the party.  If the target faints from this attack, the user’s trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not switch out. The user may be hit by Pursuit when it switches out, if it has been targeted and Pursuit has not yet been used. This move may be used even if the user is under the effect of Ingrain.  Ingrain’s effect will end.",
+        "shortEffect": "User must switch out after attacking."
+    }
 }

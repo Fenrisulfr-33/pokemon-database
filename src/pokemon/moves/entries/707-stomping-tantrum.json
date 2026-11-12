@@ -1,35 +1,117 @@
 {
-  "_id": 707,
-  "key": "stomping-tantrum",
-  "name": {
-    "english": "Stomping Tantrum",
-    "japanese": "じだんだ",
-    "chinese": "跺腳",
-    "korean": "분함의발구르기",
-    "german": "Pataleta",
-    "french": "Fruststampfer",
-    "italian": "Stomping Tantrum",
-    "spanish": "Battipiedi"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "Driven by frustration, the user attacks the target. If\nthe user’s previous move has failed, the power of\nthis move doubles.",
-    "ultra-sun-ultra-moon": "Driven by frustration, the user attacks the target. If\nthe user’s previous move has failed, the power of\nthis move doubles.",
-    "lets-go-pikachu-lets-go-eevee": "Driven by frustration, the user attacks the target. If\nthe user’s previous move has failed, the power of\nthis move doubles.",
-    "sword-shield": "Driven by frustration, the user attacks the target.\nIf the user’s previous move has failed, the power of\nthis move doubles."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power is doubled if the user's last move failed for any reason (i.e., produced the message \"But it failed!\") or was ineffective due to types.",
-    "shortEffect": "Has double power if the user's last move failed."
-  },
-  "priority": 0
+    "_id": 707,
+    "key": "stomping-tantrum",
+    "name": {
+        "japanese-kana": "じだんだ",
+        "korean": "분함의발구르기",
+        "traditional-chinese": "跺腳",
+        "french": "Trépignement",
+        "german": "Fruststampfer",
+        "spanish": "Pataleta",
+        "italian": "Battipiedi",
+        "english": "Stomping Tantrum",
+        "japanese": "じだんだ",
+        "simplified-chinese": "跺脚",
+        "latin-american-spanish": "Pataleta"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "くやしさを　バネにして　こうげきする。 まえの　ターンに　わざを　はずしていると いりょくが　ばいに　なる。",
+            "usum": "くやしさを　バネにして　こうげきする。 まえの　ターンに　わざを　はずしていると いりょくが　ばいに　なる。",
+            "lgpe": "くやしさを　バネにして　こうげきする。 まえの　ターンに　わざを　はずしていると いりょくが　ばいに　なる。",
+            "swsh": "くやしさを　バネにして　こうげきする。 まえの　ターンに　わざを　はずしていると いりょくが　ばいに　なる。"
+        },
+        "korean": {
+            "sm": "분함을 발판삼아 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 배가 된다.",
+            "usum": "분함을 발판삼아 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 배가 된다.",
+            "lgpe": "분함을 발판삼아 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 배가 된다.",
+            "swsh": "분함을 발판 삼아 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 배가 된다."
+        },
+        "traditional-chinese": {
+            "sm": "化悔恨為力量進行攻擊。 如果上一回合的招式沒有命中， 威力就會加倍。",
+            "usum": "化悔恨為力量進行攻擊。 如果上一回合的招式沒有命中， 威力就會加倍。",
+            "lgpe": "化悔恨為力量進行攻擊。 如果上一回合的招式沒有命中， 威力就會加倍。",
+            "swsh": "化悔恨為力量進行攻擊。 如果上一回合的招式沒有命中， 威力就會加倍。"
+        },
+        "french": {
+            "sm": "Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée.",
+            "usum": "Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée.",
+            "lgpe": "Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée.",
+            "swsh": "Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée."
+        },
+        "german": {
+            "sm": "Von Frust getrieben greift der Anwender an. Wenn seine vorige Attacke fehlgeschlagen ist, verdoppelt sich die Stärke der Attacke.",
+            "usum": "Von Frust getrieben greift der Anwender an. Wenn seine vorige Attacke fehlgeschlagen ist, verdoppelt sich die Stärke der Attacke.",
+            "lgpe": "Von Frust getrieben greift der Anwender an. Wenn seine vorige Attacke fehlgeschlagen ist, verdoppelt sich die Stärke der Attacke.",
+            "swsh": "Von Frust getrieben greift der Anwender an. Wenn seine vorige Attacke fehlgeschlagen ist, verdoppelt sich die Stärke der Attacke."
+        },
+        "spanish": {
+            "sm": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.",
+            "usum": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.",
+            "lgpe": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.",
+            "swsh": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca battendo i piedi per la rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia.",
+            "usum": "Chi la usa attacca battendo i piedi per la rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia.",
+            "lgpe": "Chi la usa attacca battendo i piedi per la rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia.",
+            "swsh": "Chi la usa attacca battendo i piedi per la rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia."
+        },
+        "english": {
+            "sm": "Driven by frustration, the user attacks the target. If the user’s previous move has failed, the power of this move doubles.",
+            "usum": "Driven by frustration, the user attacks the target. If the user’s previous move has failed, the power of this move doubles.",
+            "lgpe": "Driven by frustration, the user attacks the target. If the user’s previous move has failed, the power of this move doubles.",
+            "swsh": "Driven by frustration, the user attacks the target. If the user’s previous move has failed, the power of this move doubles.",
+            "la": "Driven by frustration, the user attacks the target. If the user's previous move has failed, the power of this move doubles.",
+            "sv": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed."
+        },
+        "japanese": {
+            "sm": "悔しさを　バネにして　攻撃する。 前の　ターンに　技を　外していると 威力が　倍に　なる。",
+            "usum": "悔しさを　バネにして　攻撃する。 前の　ターンに　技を　外していると 威力が　倍に　なる。",
+            "lgpe": "悔しさを　バネにして　攻撃する。 前の　ターンに　技を　外していると 威力が　倍に　なる。",
+            "swsh": "悔しさを　バネにして　攻撃する。 前の　ターンに　技を　外していると 威力が　倍に　なる。"
+        },
+        "simplified-chinese": {
+            "sm": "化悔恨为力量进行攻击。 如果上一回合招式没有打中， 威力就会翻倍。",
+            "usum": "化悔恨为力量进行攻击。 如果上一回合招式没有打中， 威力就会翻倍。",
+            "lgpe": "化悔恨为力量进行攻击。 如果上一回合招式没有打中， 威力就会翻倍。",
+            "swsh": "化悔恨为力量进行攻击。 如果上一回合招式没有打中， 威力就会翻倍。"
+        },
+        "latin-american-spanish": {
+            "sm": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.",
+            "usum": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.",
+            "lgpe": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.",
+            "swsh": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power is doubled if the user’s last move failed for any reason (i.e., produced the message \"But it failed!\") or was ineffective due to types.",
+        "shortEffect": "Has double power if the user’s last move failed."
+    }
 }

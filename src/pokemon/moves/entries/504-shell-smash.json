@@ -1,39 +1,138 @@
 {
-  "_id": 504,
-  "key": "shell-smash",
-  "name": {
-    "english": "Shell Smash",
-    "japanese": "からをやぶる",
-    "chinese": "破壳",
-    "korean": "껍질깨기",
-    "german": "Rompecoraza",
-    "french": "Hausbruch",
-    "italian": "Shell Smash",
-    "spanish": "Gettaguscio"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "black-white": "The user breaks its shell, lowering its\nDefense and Sp. Def stats but sharply\nraising Attack, Sp. Atk, and Speed stats.",
-    "black-2-white-2": "The user breaks its shell, lowering its\nDefense and Sp. Def stats but sharply\nraising Attack, Sp. Atk, and Speed stats.",
-    "x-y": "The user breaks its shell, which lowers\nDefense and Sp. Def stats but sharply\nraises its Attack, Sp. Atk, and Speed stats.",
-    "omega-ruby-alpha-sapphire": "The user breaks its shell, which lowers\nDefense and Sp. Def stats but sharply\nraises its Attack, Sp. Atk, and Speed stats.",
-    "sun-moon": "The user breaks its shell, which lowers Defense and\nSp. Def stats but sharply raises its Attack, Sp. Atk,\nand Speed stats.",
-    "ultra-sun-ultra-moon": "The user breaks its shell, which lowers Defense and\nSp. Def stats but sharply raises its Attack, Sp. Atk,\nand Speed stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user breaks its shell, which lowers Defense and\nSp. Def stats but sharply raises its Attack, Sp. Atk,\nand Speed stats.",
-    "sword-shield": "The user breaks its shell, which lowers Defense and\nSp. Def stats but sharply raises its Attack, Sp. Atk,\nand Speed stats."
-  },
-  "effect": {
-    "full": "Raises the user's Attack, Special Attack, and Speed by two stages each.  Lowers the user's Defense and Special Defense by one stage each.",
-    "shortEffect": "Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 504,
+    "key": "shell-smash",
+    "name": {
+        "japanese-kana": "からをやぶる",
+        "korean": "껍질깨기",
+        "traditional-chinese": "破殼",
+        "french": "Exuviation",
+        "german": "Hausbruch",
+        "spanish": "Rompecoraza",
+        "italian": "Gettaguscio",
+        "english": "Shell Smash",
+        "japanese": "からをやぶる",
+        "simplified-chinese": "破壳",
+        "latin-american-spanish": "Rompecoraza"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur brise sa coquille. Il baisse sa Défense et Déf. Spé., mais augmente forte- ment son Attaque, Atq. Spé. et Vitesse.",
+            "xy": "Le lanceur brise sa coquille. Il baisse sa Défense et Défense Spéciale, mais augmente fortement son Attaque, Attaque Spéciale et Vitesse.",
+            "oras": "Le lanceur brise sa coquille. Il baisse sa Défense et Défense Spéciale, mais augmente fortement son Attaque, Attaque Spéciale et Vitesse.",
+            "sm": "Le lanceur brise sa coquille. Il baisse sa Défense et sa Défense Spéciale, mais augmente beaucoup son Attaque, son Attaque Spéciale et sa Vitesse.",
+            "usum": "Le lanceur brise sa coquille. Il baisse sa Défense et sa Défense Spéciale, mais augmente beaucoup son Attaque, son Attaque Spéciale et sa Vitesse.",
+            "lgpe": "Le lanceur brise sa coquille. Il baisse sa Défense et sa Défense Spéciale, mais augmente beaucoup son Attaque, son Attaque Spéciale et sa Vitesse.",
+            "swsh": "Le lanceur brise sa coquille. Il baisse sa Défense et sa Défense Spéciale, mais augmente beaucoup son Attaque, son Attaque Spéciale et sa Vitesse."
+        },
+        "english": {
+            "bw": "The user breaks its shell, lowering its Defense and Sp. Def stats but sharply raising Attack, Sp. Atk, and Speed stats.",
+            "b2w2": "The user breaks its shell, lowering its Defense and Sp. Def stats but sharply raising Attack, Sp. Atk, and Speed stats.",
+            "xy": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
+            "oras": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
+            "sm": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
+            "usum": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
+            "lgpe": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
+            "swsh": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
+            "la": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
+            "sv": "The user breaks its shell, which lowers its Defense and Sp. Def stats but sharply boosts its Attack, Sp. Atk, and Speed stats."
+        },
+        "japanese-kana": {
+            "xy": "からを　やぶって　じぶんの　ぼうぎょ とくぼうを　さげるが　こうげき　とくこう すばやさを　ぐーんと　あげる。",
+            "oras": "からを　やぶって　じぶんの　ぼうぎょ とくぼうを　さげるが　こうげき　とくこう すばやさを　ぐーんと　あげる。",
+            "sm": "からを　やぶって　じぶんの　ぼうぎょ とくぼうを　さげるが　こうげき　とくこう すばやさを　ぐーんと　あげる。",
+            "usum": "からを　やぶって　じぶんの　ぼうぎょ とくぼうを　さげるが　こうげき　とくこう すばやさを　ぐーんと　あげる。",
+            "lgpe": "からを　やぶって　じぶんの　ぼうぎょ とくぼうを　さげるが　こうげき　とくこう すばやさを　ぐーんと　あげる。",
+            "swsh": "からを　やぶって　じぶんの　ぼうぎょ とくぼうを　さげるが　こうげき　とくこう すばやさを　ぐーんと　あげる。"
+        },
+        "korean": {
+            "xy": "껍질을 깨서 자신의 방어와 특수방어를 떨어뜨리지만 공격과 특수공격, 스피드를 크게 올린다.",
+            "oras": "껍질을 깨서 자신의 방어와 특수방어를 떨어뜨리지만 공격과 특수공격, 스피드를 크게 올린다.",
+            "sm": "껍질을 깨서 자신의 방어와 특수방어를 떨어뜨리지만 공격과 특수공격, 스피드를 크게 올린다.",
+            "usum": "껍질을 깨서 자신의 방어와 특수방어를 떨어뜨리지만 공격과 특수공격, 스피드를 크게 올린다.",
+            "lgpe": "껍질을 깨서 자신의 방어와 특수방어를 떨어뜨리지만 공격과 특수공격, 스피드를 크게 올린다.",
+            "swsh": "껍질을 깨서 자신의 방어와 특수방어를 떨어뜨리지만 공격과 특수공격, 스피드를 크게 올린다."
+        },
+        "german": {
+            "xy": "Anwender zerbricht seine Schale und senkt seine Verteidigung und Spezial-Verteidigung, aber dafür steigen Angriff, Spezial-Angriff und Initiative stark.",
+            "oras": "Anwender zerbricht seine Schale und senkt seine Verteidigung und Spezial-Verteidigung, aber dafür steigen Angriff, Spezial-Angriff und Initiative stark.",
+            "sm": "Anwender zerbricht seine Schale und senkt seine Verteidigung und Spezial-Verteidigung, aber dafür steigen Angriff, Spezial-Angriff und Initiative stark.",
+            "usum": "Anwender zerbricht seine Schale und senkt seine Verteidigung und Spezial-Verteidigung, aber dafür steigen Angriff, Spezial-Angriff und Initiative stark.",
+            "lgpe": "Anwender zerbricht seine Schale und senkt seine Verteidigung und Spezial-Verteidigung, aber dafür steigen Angriff, Spezial-Angriff und Initiative stark.",
+            "swsh": "Anwender zerbricht seine Schale und senkt seine Verteidigung und Spezial-Verteidigung, aber dafür steigen Angriff, Spezial-Angriff und Initiative stark."
+        },
+        "spanish": {
+            "xy": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "oras": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "sm": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "usum": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "lgpe": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "swsh": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa si disfa del guscio. Difesa e Difesa Speciale calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità.",
+            "oras": "Chi la usa si disfa del guscio. Difesa e Difesa Speciale calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità.",
+            "sm": "Chi la usa si disfa del guscio. Difesa e Difesa Speciale calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità.",
+            "usum": "Chi la usa si disfa del guscio. Difesa e Difesa Speciale calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità.",
+            "lgpe": "Chi la usa si disfa del guscio. Difesa e Difesa Speciale calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità.",
+            "swsh": "Chi la usa si disfa del guscio. Difesa e Difesa Speciale calano, ma aumentano di molto Attacco, Attacco Speciale e Velocità."
+        },
+        "japanese": {
+            "xy": "殻を　やぶって　自分の　防御 特防を　さげるが　攻撃　特攻 素早さを　ぐーんと　あげる。",
+            "oras": "殻を　やぶって　自分の　防御 特防を　さげるが　攻撃　特攻 素早さを　ぐーんと　あげる。",
+            "sm": "殻を　やぶって　自分の　防御 特防を　さげるが　攻撃　特攻 素早さを　ぐーんと　あげる。",
+            "usum": "殻を　やぶって　自分の　防御 特防を　さげるが　攻撃　特攻 素早さを　ぐーんと　あげる。",
+            "lgpe": "殻を　やぶって　自分の　防御 特防を　さげるが　攻撃　特攻 素早さを　ぐーんと　あげる。",
+            "swsh": "殻を　やぶって　自分の　防御 特防を　さげるが　攻撃　特攻 素早さを　ぐーんと　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "oras": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "sm": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "usum": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "lgpe": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.",
+            "swsh": "El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "破殼而出。 自己的防禦和特防會降低， 但能大幅提高攻擊、特攻和速度。",
+            "usum": "破殼而出。 自己的防禦和特防會降低， 但能大幅提高攻擊、特攻和速度。",
+            "lgpe": "破殼而出。 自己的防禦和特防會降低， 但能大幅提高攻擊、特攻和速度。",
+            "swsh": "破殼而出。 自己的防禦和特防會降低， 但能大幅提高攻擊、特攻和速度。"
+        },
+        "simplified-chinese": {
+            "sm": "打破外壳， 降低自己的防御和特防， 但大幅提高攻击、特攻和速度。",
+            "usum": "打破外壳， 降低自己的防御和特防， 但大幅提高攻击、特攻和速度。",
+            "lgpe": "打破外壳， 降低自己的防御和特防， 但大幅提高攻击、特攻和速度。",
+            "swsh": "打破外壳， 降低自己的防御和特防， 但大幅提高攻击、特攻和速度。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Attack, Special Attack, and Speed by two stages each.  Lowers the user’s Defense and Special Defense by one stage each.",
+        "shortEffect": "Raises user’s Attack, Special Attack, and Speed by two stages.  Lower user’s Defense and Special Defense by one stage."
+    }
 }

@@ -1,47 +1,146 @@
 {
-  "_id": 244,
-  "key": "psych-up",
-  "name": {
-    "english": "Psych Up",
-    "japanese": "じこあんじ",
-    "chinese": "自我暗示",
-    "korean": "자기암시",
-    "german": "Más Psique",
-    "french": "Psycho-Plus",
-    "italian": "Psych Up",
-    "spanish": "Psicamisù"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Copies the foe's\nstat changes.",
-    "crystal": "Copies the foe's\nstat changes.",
-    "ruby-sapphire": "Copies the foe’s effect(s)\nand gives to the user.",
-    "emerald": "Copies the foe’s effect(s)\nand gives to the user.",
-    "firered-leafgreen": "The user hypnotizes\nitself into copying\nany stat change\nmade by the foe.",
-    "diamond-pearl": "The user hypnotizes\nitself into copying\nany stat change\nmade by the foe.\n",
-    "platinum": "The user hypnotizes\nitself into copying\nany stat change\nmade by the foe.\n",
-    "heartgold-soulsilver": "The user hypnotizes\nitself into copying\nany stat change\nmade by the foe.\n",
-    "black-white": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
-    "black-2-white-2": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
-    "x-y": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
-    "omega-ruby-alpha-sapphire": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
-    "sun-moon": "The user hypnotizes itself into copying any stat\nchange made by the target.",
-    "ultra-sun-ultra-moon": "The user hypnotizes itself into copying any stat\nchange made by the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user hypnotizes itself into copying any stat\nchange made by the target.",
-    "sword-shield": "The user hypnotizes itself into copying any stat\nchange made by the target."
-  },
-  "effect": {
-    "full": "Discards the user's stat changes and copies the target's.\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "Discards the user's stat changes and copies the target's."
-  },
-  "priority": 0
+    "_id": 244,
+    "key": "psych-up",
+    "name": {
+        "japanese-kana": "じこあんじ",
+        "korean": "자기암시",
+        "traditional-chinese": "自我暗示",
+        "french": "Boost",
+        "german": "Psycho-Plus",
+        "spanish": "Autosugestión",
+        "italian": "Psicamisù",
+        "english": "Psych Up",
+        "japanese": "じこあんじ",
+        "simplified-chinese": "自我暗示",
+        "latin-american-spanish": "Autosugestión"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Copies the foe's stat changes.",
+            "cr": "Copies the foe's stat changes.",
+            "rs": "Copies the foe’s effect(s) and gives to the user.",
+            "em": "Copies the foe’s effect(s) and gives to the user.",
+            "frlg": "The user hypnotizes itself into copying any stat change made by the foe.",
+            "dp": "The user hypnotizes itself into copying any stat change made by the foe.",
+            "pt": "The user hypnotizes itself into copying any stat change made by the foe.",
+            "hgss": "The user hypnotizes itself into copying any stat change made by the foe.",
+            "bw": "The user hypnotizes itself into copying any stat change made by the target.",
+            "b2w2": "The user hypnotizes itself into copying any stat change made by the target.",
+            "xy": "The user hypnotizes itself into copying any stat change made by the target.",
+            "oras": "The user hypnotizes itself into copying any stat change made by the target.",
+            "sm": "The user hypnotizes itself into copying any stat change made by the target.",
+            "usum": "The user hypnotizes itself into copying any stat change made by the target.",
+            "lgpe": "The user hypnotizes itself into copying any stat change made by the target.",
+            "swsh": "The user hypnotizes itself into copying any stat change made by the target.",
+            "la": "The user hypnotizes itself into copying any stat change made by the target.",
+            "sv": "The user hypnotizes itself into copying any stat change made by the target."
+        },
+        "french": {
+            "bw": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.",
+            "xy": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.",
+            "oras": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.",
+            "sm": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.",
+            "usum": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.",
+            "lgpe": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.",
+            "swsh": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible."
+        },
+        "japanese-kana": {
+            "xy": "じぶんに　あんじを　かけることで のうりょく　へんかの　じょうたいを あいてと　おなじにする。",
+            "oras": "じぶんに　あんじを　かけることで のうりょく　へんかの　じょうたいを あいてと　おなじにする。",
+            "sm": "じぶんに　あんじを　かけることで のうりょく　へんかの　じょうたいを あいてと　おなじにする。",
+            "usum": "じぶんに　あんじを　かけることで のうりょく　へんかの　じょうたいを あいてと　おなじにする。",
+            "lgpe": "じぶんに　あんじを　かけることで のうりょく　へんかの　じょうたいを あいてと　おなじにする。",
+            "swsh": "じぶんに　あんじを　かけることで のうりょく　へんかの　じょうたいを あいてと　おなじにする。"
+        },
+        "korean": {
+            "xy": "자신에게 암시를 걸어서 능력 변화 상태를 상대와 똑같은 상태로 만든다.",
+            "oras": "자신에게 암시를 걸어서 능력 변화 상태를 상대와 똑같은 상태로 만든다.",
+            "sm": "자신에게 암시를 걸어서 능력 변화 상태를 상대와 똑같은 상태로 만든다.",
+            "usum": "자신에게 암시를 걸어서 능력 변화 상태를 상대와 똑같은 상태로 만든다.",
+            "lgpe": "자신에게 암시를 걸어서 능력 변화 상태를 상대와 똑같은 상태로 만든다.",
+            "swsh": "자신에게 암시를 걸어서 능력 변화 상태를 상대와 똑같은 상태로 만든다."
+        },
+        "german": {
+            "xy": "Der Anwender hypnotisiert sich selbst, um die Statusveränderungen des Zieles zu kopieren.",
+            "oras": "Der Anwender hypnotisiert sich selbst, um die Statusveränderungen des Zieles zu kopieren.",
+            "sm": "Der Anwender hypnotisiert sich selbst, um die Statusveränderungen des Zieles zu kopieren.",
+            "usum": "Der Anwender hypnotisiert sich selbst, um die Statusveränderungen des Zieles zu kopieren.",
+            "lgpe": "Der Anwender hypnotisiert sich selbst, um die Statusveränderungen des Zieles zu kopieren.",
+            "swsh": "Der Anwender hypnotisiert sich selbst, um die Statusveränderungen des Zieles zu kopieren."
+        },
+        "spanish": {
+            "xy": "Quien lo usa se hipnotiza y copia cualquier cambio que haya en las características de su objetivo.",
+            "oras": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "sm": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "usum": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "lgpe": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "swsh": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa s’ipnotizza per copiare ogni modifica alle statistiche del bersaglio.",
+            "oras": "Chi la usa s’ipnotizza per copiare ogni modifica alle statistiche del bersaglio.",
+            "sm": "Chi la usa s’ipnotizza per copiare ogni modifica alle statistiche del bersaglio.",
+            "usum": "Chi la usa s’ipnotizza per copiare ogni modifica alle statistiche del bersaglio.",
+            "lgpe": "Chi la usa s’ipnotizza per copiare ogni modifica alle statistiche del bersaglio.",
+            "swsh": "Chi la usa s’ipnotizza per copiare ogni modifica alle statistiche del bersaglio."
+        },
+        "japanese": {
+            "xy": "自分に　暗示を　かけることで 能力変化の　状態を 相手と　同じにする。",
+            "oras": "自分に　暗示を　かけることで 能力変化の　状態を 相手と　同じにする。",
+            "sm": "自分に　暗示を　かけることで 能力変化の　状態を 相手と　同じにする。",
+            "usum": "自分に　暗示を　かけることで 能力変化の　状態を 相手と　同じにする。",
+            "lgpe": "自分に　暗示を　かけることで 能力変化の　状態を 相手と　同じにする。",
+            "swsh": "自分に　暗示を　かけることで 能力変化の　状態を 相手と　同じにする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Quien lo usa se hipnotiza y copia cualquier cambio que haya en las características de su objetivo.",
+            "oras": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "sm": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "usum": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "lgpe": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+            "swsh": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "向自己施加自我暗示， 讓能力變化的狀態 變得與對手相同。",
+            "usum": "向自己施加自我暗示， 讓能力變化的狀態 變得與對手相同。",
+            "lgpe": "向自己施加自我暗示， 讓能力變化的狀態 變得與對手相同。",
+            "swsh": "向自己施加自我暗示， 讓能力變化的狀態 變得與對手相同。"
+        },
+        "simplified-chinese": {
+            "sm": "向自己施以自我暗示， 将能力变化的状态 变得和对手一样。",
+            "usum": "向自己施以自我暗示， 将能力变化的状态 变得和对手一样。",
+            "lgpe": "向自己施以自我暗示， 将能力变化的状态 变得和对手一样。",
+            "swsh": "向自己施以自我暗示， 将能力变化的状态 变得和对手一样。"
+        }
+    },
+    "effect": {
+        "full": "Discards the user’s stat changes and copies the target’s. This move cannot be copied by Mirror Move.",
+        "shortEffect": "Discards the user’s stat changes and copies the target’s."
+    }
 }

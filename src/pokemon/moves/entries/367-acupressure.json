@@ -1,42 +1,141 @@
 {
-  "_id": 367,
-  "key": "acupressure",
-  "name": {
-    "english": "Acupressure",
-    "japanese": "つぼをつく",
-    "chinese": "点穴",
-    "korean": "경혈찌르기",
-    "german": "Acupresión",
-    "french": "Akupressur",
-    "italian": "Acupressure",
-    "spanish": "Acupressione"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user-or-ally",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user applies\npressure to stress\npoints, sharply\nboosting one of its\nstats.",
-    "platinum": "The user applies\npressure to stress\npoints, sharply\nboosting one of its\nstats.",
-    "heartgold-soulsilver": "The user applies\npressure to stress\npoints, sharply\nboosting one of its\nstats.",
-    "black-white": "The user applies pressure to stress\npoints, sharply boosting one of\nits stats.",
-    "black-2-white-2": "The user applies pressure to stress\npoints, sharply boosting one of\nits stats.",
-    "x-y": "The user applies pressure to stress\npoints, sharply boosting one of its or\nits allies’ stats.",
-    "omega-ruby-alpha-sapphire": "The user applies pressure to stress\npoints, sharply boosting one of its or\nits allies’ stats.",
-    "sun-moon": "The user applies pressure to stress points, sharply\nboosting one of its or its allies’ stats.",
-    "ultra-sun-ultra-moon": "The user applies pressure to stress points, sharply\nboosting one of its or its allies’ stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user applies pressure to stress points, sharply\nboosting one of its or its allies’ stats.",
-    "sword-shield": "The user applies pressure to stress points, sharply\nboosting one of its or its allies’ stats."
-  },
-  "effect": {
-    "full": "Raises one of the target's stats by two stages.  The raised stat is chosen at random from any stats that can be raised by two stages.  If no stat is eligible, this move will fail.\n\nIf the target has a substitute, this move will have no effect, even if the user is the target.\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "Raises one of a friendly Pokémon's stats at random by two stages."
-  },
-  "priority": 0
+    "_id": 367,
+    "key": "acupressure",
+    "name": {
+        "japanese-kana": "つぼをつく",
+        "korean": "경혈찌르기",
+        "traditional-chinese": "點穴",
+        "french": "Acupression",
+        "german": "Akupressur",
+        "spanish": "Acupresión",
+        "italian": "Acupressione",
+        "english": "Acupressure",
+        "japanese": "つぼをつく",
+        "simplified-chinese": "点穴",
+        "latin-american-spanish": "Acupresión"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cool",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user-or-ally",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user applies pressure to stress points, sharply boosting one of its stats.",
+            "pt": "The user applies pressure to stress points, sharply boosting one of its stats.",
+            "hgss": "The user applies pressure to stress points, sharply boosting one of its stats.",
+            "bw": "The user applies pressure to stress points, sharply boosting one of its stats.",
+            "b2w2": "The user applies pressure to stress points, sharply boosting one of its stats.",
+            "xy": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+            "oras": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+            "sm": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+            "usum": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+            "lgpe": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+            "swsh": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+            "la": "The user applies pressure to stress points, sharply boosting one of its or its allies' stats.",
+            "sv": "The user applies pressure to stress points, sharply boosting one of its or its allies' stats."
+        },
+        "french": {
+            "bw": "Le lanceur effectue des pressions pour augmenter fortement l’une de ses stats.",
+            "xy": "Le lanceur utilise sa connaissance des points de pression pour augmenter fortement une stat.",
+            "oras": "Le lanceur utilise sa connaissance des points de pression pour augmenter fortement une stat.",
+            "sm": "Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat.",
+            "usum": "Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat.",
+            "lgpe": "Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat.",
+            "swsh": "Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat."
+        },
+        "japanese-kana": {
+            "xy": "つぼおしで　からだを かっせいか　させる。のうりょくの どれか　１つを　ぐーんと　あげる。",
+            "oras": "つぼおしで　からだを かっせいか　させる。のうりょくの どれか　１つを　ぐーんと　あげる。",
+            "sm": "つぼおしで　からだを かっせいか　させる。　のうりょくの どれか　１つを　ぐーんと　あげる。",
+            "usum": "つぼおしで　からだを かっせいか　させる。　のうりょくの どれか　１つを　ぐーんと　あげる。",
+            "lgpe": "つぼおしで　からだを かっせいか　させる。　のうりょくの どれか　１つを　ぐーんと　あげる。",
+            "swsh": "つぼおしで　からだを かっせいか　させる。　のうりょくの どれか　１つを　ぐーんと　あげる。"
+        },
+        "korean": {
+            "xy": "경혈을 눌러 몸을 활성화시킨다. 능력 중 하나를 크게 올린다.",
+            "oras": "경혈을 눌러 몸을 활성화시킨다. 능력 중 하나를 크게 올린다.",
+            "sm": "경혈을 눌러 몸을 활성화시킨다. 능력 중 하나를 크게 올린다.",
+            "usum": "경혈을 눌러 몸을 활성화시킨다. 능력 중 하나를 크게 올린다.",
+            "lgpe": "경혈을 눌러 몸을 활성화시킨다. 능력 중 하나를 크게 올린다.",
+            "swsh": "경혈을 눌러 몸을 활성화시킨다. 능력 중 하나를 크게 올린다."
+        },
+        "german": {
+            "xy": "Anwender erhöht Druck auf Stresspunkte und steigert einen Statuswert stark.",
+            "oras": "Anwender erhöht Druck auf Stresspunkte und steigert einen Statuswert stark.",
+            "sm": "Anwender übt Druck auf Stresspunkte aus und erhöht einen Statuswert stark.",
+            "usum": "Anwender übt Druck auf Stresspunkte aus und erhöht einen Statuswert stark.",
+            "lgpe": "Anwender übt Druck auf Stresspunkte aus und erhöht einen Statuswert stark.",
+            "swsh": "Anwender übt Druck auf Stresspunkte aus und erhöht einen Statuswert stark."
+        },
+        "spanish": {
+            "xy": "Aplica presión en puntos clave de su cuerpo o de los aliados para potenciar un parámetro de sus características.",
+            "oras": "Aplica presión en puntos clave de su cuerpo o de los aliados para potenciar un parámetro de sus características.",
+            "sm": "Aplica presión en puntos clave del cuerpo para potenciar una de sus características.",
+            "usum": "Aplica presión en puntos clave del cuerpo para potenciar una de sus características.",
+            "lgpe": "Aplica presión en puntos clave del cuerpo para potenciar mucho una de sus características.",
+            "swsh": "Aplica presión en puntos clave del cuerpo para potenciar mucho una de sus características."
+        },
+        "italian": {
+            "xy": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.",
+            "oras": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.",
+            "sm": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.",
+            "usum": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.",
+            "lgpe": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.",
+            "swsh": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso."
+        },
+        "japanese": {
+            "xy": "つぼおしで　体を　活性化させる。 能力の　どれか　１つを ぐーんと　あげる。",
+            "oras": "つぼおしで　体を　活性化させる。 能力の　どれか　１つを ぐーんと　あげる。",
+            "sm": "つぼおしで　体を　活性化させる。 能力の　どれか　１つを ぐーんと　あげる。",
+            "usum": "つぼおしで　体を　活性化させる。 能力の　どれか　１つを ぐーんと　あげる。",
+            "lgpe": "つぼおしで　体を　活性化させる。 能力の　どれか　１つを ぐーんと　あげる。",
+            "swsh": "つぼおしで　体を　活性化させる。 能力の　どれか　１つを ぐーんと　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Aplica presión en puntos clave de su cuerpo o de los aliados para potenciar un parámetro de sus características.",
+            "oras": "Aplica presión en puntos clave de su cuerpo o de los aliados para potenciar un parámetro de sus características.",
+            "sm": "Aplica presión en puntos clave del cuerpo para potenciar una de sus características.",
+            "usum": "Aplica presión en puntos clave del cuerpo para potenciar una de sus características.",
+            "lgpe": "Aplica presión en puntos clave del cuerpo para potenciar mucho una de sus características.",
+            "swsh": "Aplica presión en puntos clave del cuerpo para potenciar mucho una de sus características."
+        },
+        "traditional-chinese": {
+            "sm": "利用點穴激發身體的活力， 大幅提高自己的某一項能力。",
+            "usum": "利用點穴激發身體的活力， 大幅提高自己的某一項能力。",
+            "lgpe": "利用點穴激發身體的活力， 大幅提高自己的某一項能力。",
+            "swsh": "利用點穴激發身體的活力， 大幅提高某一項能力。"
+        },
+        "simplified-chinese": {
+            "sm": "通过点穴 让身体舒筋活络。 大幅提高某１项能力。",
+            "usum": "通过点穴 让身体舒筋活络。 大幅提高某１项能力。",
+            "lgpe": "通过点穴 让身体舒筋活络。 大幅提高某１项能力。",
+            "swsh": "通过点穴 让身体舒筋活络。 大幅提高某１项能力。"
+        }
+    },
+    "effect": {
+        "full": "Raises one of the target’s stats by two stages.  The raised stat is chosen at random from any stats that can be raised by two stages.  If no stat is eligible, this move will fail. If the target has a Substitute, this move will have no effect, even if the user is the target. This move cannot be copied by Mirror Move.",
+        "shortEffect": "Raises one of a friendly Pokémon’s stats at random by two stages."
+    }
 }

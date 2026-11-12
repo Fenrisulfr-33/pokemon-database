@@ -1,42 +1,141 @@
 {
-  "_id": 399,
-  "key": "dark-pulse",
-  "name": {
-    "english": "Dark Pulse",
-    "japanese": "あくのはどう",
-    "chinese": "恶波动",
-    "korean": "악의파동",
-    "german": "Pulso Umbrío",
-    "french": "Finsteraura",
-    "italian": "Dark Pulse",
-    "spanish": "Neropulsar"
-  },
-  "type": "Dark",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user releases a\nhorrible aura imbued\nwith dark thoughts.\nIt may also make the\ntarget flinch.",
-    "platinum": "The user releases a\nhorrible aura imbued\nwith dark thoughts.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The user releases a\nhorrible aura imbued\nwith dark thoughts.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user releases a horrible aura imbued\nwith dark thoughts.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user releases a horrible aura imbued\nwith dark thoughts.\nIt may also make the target flinch.",
-    "x-y": "The user releases a horrible aura imbued\nwith dark thoughts.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user releases a horrible aura imbued\nwith dark thoughts.\nThis may also make the target flinch.",
-    "sun-moon": "The user releases a horrible aura imbued with dark\nthoughts. This may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The user releases a horrible aura imbued with dark\nthoughts. This may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user releases a horrible aura imbued with dark\nthoughts. This may also make the target flinch.",
-    "sword-shield": "The user releases a horrible aura imbued with dark\nthoughts. This may also make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 399,
+    "key": "dark-pulse",
+    "name": {
+        "japanese-kana": "あくのはどう",
+        "korean": "악의파동",
+        "traditional-chinese": "惡之波動",
+        "french": "Vibrobscur",
+        "german": "Finsteraura",
+        "spanish": "Pulso Umbrío",
+        "italian": "Neropulsar",
+        "english": "Dark Pulse",
+        "japanese": "あくのはどう",
+        "simplified-chinese": "恶之波动",
+        "latin-american-spanish": "Pulso Oscuro"
+    },
+    "type": "dark",
+    "category": "special",
+    "contest": "cool",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 20,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
+            "pt": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
+            "hgss": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
+            "bw": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
+            "b2w2": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
+            "xy": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+            "oras": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+            "sm": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+            "usum": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+            "lgpe": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+            "swsh": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+            "la": "The user releases a horrible aura imbued with ill intent. This attack never misses.",
+            "sv": "The user releases a horrible aura imbued with ill intent. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur dégage une horrible aura chargée d’idées noires. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur dégage une horrible aura chargée d’idées noires. Peut aussi apeurer l’ennemi.",
+            "oras": "Le lanceur dégage une horrible aura chargée d’idées noires. Peut aussi apeurer l’ennemi.",
+            "sm": "Le lanceur dégage une horrible aura chargée d’idées noires. Peut aussi apeurer l’ennemi.",
+            "usum": "Le lanceur dégage une horrible aura chargée d’idées noires. Peut aussi apeurer l’ennemi.",
+            "lgpe": "Le lanceur dégage une horrible aura chargée d’idées noires. Peut aussi apeurer l’ennemi.",
+            "swsh": "Le lanceur dégage une horrible aura chargée de pensées maléfiques. Peut aussi apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "からだから　あくいに みちた　おそろしい　オーラを　はっする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "からだから　あくいに  ちた　おそろしい　オーラを　はっする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "からだから　あくいに みちた　おそろしい　オーラを　はっする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "からだから　あくいに みちた　おそろしい　オーラを　はっする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "からだから　あくいに みちた　おそろしい　オーラを　はっする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "からだから　あくいに みちた　おそろしい　オーラを　はっする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender greift mit fürchterlicher Aura schlechter Gedanken an. Ziel schreckt eventuell zurück.",
+            "oras": "Anwender greift mit fürchterlicher Aura schlechter Gedanken an. Ziel schreckt eventuell zurück.",
+            "sm": "Anwender greift mit fürchterlicher Aura schlechter Gedanken an. Ziel schreckt eventuell zurück.",
+            "usum": "Anwender greift mit fürchterlicher Aura schlechter Gedanken an. Ziel schreckt eventuell zurück.",
+            "lgpe": "Anwender greift mit fürchterlicher Aura schlechter Gedanken an. Ziel schreckt eventuell zurück.",
+            "swsh": "Anwender greift mit fürchterlicher Aura schlechter Gedanken an. Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "oras": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "sm": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "usum": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "lgpe": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "swsh": "Libera una horrible aura llena de malos pensamientos que puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa emana un’aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.",
+            "oras": "Chi la usa emana un’aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.",
+            "sm": "Chi la usa emana un’aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.",
+            "usum": "Chi la usa emana un’aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.",
+            "lgpe": "Chi la usa emana un’aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.",
+            "swsh": "Chi la usa emana un’aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "体から　悪意に　みちた 恐ろしい　オーラを　発する。 相手を　ひるませることが　ある。",
+            "oras": "体から　悪意に　 ちた 恐ろしい　オーラを　発する。 相手を　ひるませることが　ある。",
+            "sm": "体から　悪意に　みちた 恐ろしい　オーラを　発する。 相手を　ひるませることが　ある。",
+            "usum": "体から　悪意に　みちた 恐ろしい　オーラを　発する。 相手を　ひるませることが　ある。",
+            "lgpe": "体から　悪意に　みちた 恐ろしい　オーラを　発する。 相手を　ひるませることが　ある。",
+            "swsh": "体から　悪意に　みちた 恐ろしい　オーラを　発する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "oras": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "sm": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "usum": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "lgpe": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+            "swsh": "Libera una horrible aura llena de malos pensamientos que puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "從身體散發出 充滿惡意的恐怖氣場。 有時會使對手畏縮。",
+            "usum": "從身體散發出 充滿惡意的恐怖氣場。 有時會使對手畏縮。",
+            "lgpe": "從身體散發出 充滿惡意的恐怖氣場。 有時會使對手畏縮。",
+            "swsh": "從身體散發出 充滿惡意的恐怖氣場。 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "从体内发出 充满恶意的恐怖气场。 有时会使对手畏缩。",
+            "usum": "从体内发出 充满恶意的恐怖气场。 有时会使对手畏缩。",
+            "lgpe": "从体内发出 充满恶意的恐怖气场。 有时会使对手畏缩。",
+            "swsh": "从体内发出 充满恶意的恐怖气场。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

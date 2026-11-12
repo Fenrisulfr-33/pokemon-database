@@ -1,47 +1,146 @@
 {
-  "_id": 242,
-  "key": "crunch",
-  "name": {
-    "english": "Crunch",
-    "japanese": "かみくだく",
-    "chinese": "咬碎",
-    "korean": "깨물어부수기",
-    "german": "Triturar",
-    "french": "Knirscher",
-    "italian": "Crunch",
-    "spanish": "Sgranocchio"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nlower SPCL.DEF.",
-    "crystal": "An attack that may\nlower SPCL.DEF.",
-    "ruby-sapphire": "Crunches with sharp fangs.\nMay lower SP. DEF.",
-    "emerald": "Crunches with sharp fangs.\nMay lower SP. DEF.",
-    "firered-leafgreen": "The foe is crunched\nwith sharp fangs.\nIt may lower the\nfoe’s SP. DEF.",
-    "diamond-pearl": "The user crunches up\nthe foe with sharp\nfangs. It may also\nlower the target’s\nDefense stat.",
-    "platinum": "The user crunches up\nthe foe with sharp\nfangs. It may also\nlower the target’s\nDefense stat.",
-    "heartgold-soulsilver": "The user crunches up\nthe foe with sharp\nfangs. It may also\nlower the target’s\nDefense stat.",
-    "black-white": "The user crunches up the target\nwith sharp fangs. It may also lower\nthe target’s Defense stat.",
-    "black-2-white-2": "The user crunches up the target\nwith sharp fangs. It may also lower\nthe target’s Defense stat.",
-    "x-y": "The user crunches up the target\nwith sharp fangs. This may also lower\nthe target’s Defense stat.",
-    "omega-ruby-alpha-sapphire": "The user crunches up the target\nwith sharp fangs. This may also lower\nthe target’s Defense stat.",
-    "sun-moon": "The user crunches up the target with sharp fangs.\nThis may also lower the target’s Defense stat.",
-    "ultra-sun-ultra-moon": "The user crunches up the target with sharp fangs.\nThis may also lower the target’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user crunches up the target with sharp fangs.\nThis may also lower the target’s Defense stat.",
-    "sword-shield": "The user crunches up the target with sharp fangs.\nThis may also lower the target’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 242,
+    "key": "crunch",
+    "name": {
+        "japanese-kana": "かみくだく",
+        "korean": "깨물어부수기",
+        "traditional-chinese": "咬碎",
+        "french": "Mâchouille",
+        "german": "Knirscher",
+        "spanish": "Triturar",
+        "italian": "Sgranocchio",
+        "english": "Crunch",
+        "japanese": "かみくだく",
+        "simplified-chinese": "咬碎",
+        "latin-american-spanish": "Triturar"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 20
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may lower SPCL.DEF.",
+            "cr": "An attack that may lower SPCL.DEF.",
+            "rs": "Crunches with sharp fangs. May lower SP. DEF.",
+            "em": "Crunches with sharp fangs. May lower SP. DEF.",
+            "frlg": "The foe is crunched with sharp fangs. It may lower the foe’s SP. DEF.",
+            "dp": "The user crunches up the foe with sharp fangs. It may also lower the target’s Defense stat.",
+            "pt": "The user crunches up the foe with sharp fangs. It may also lower the target’s Defense stat.",
+            "hgss": "The user crunches up the foe with sharp fangs. It may also lower the target’s Defense stat.",
+            "bw": "The user crunches up the target with sharp fangs. It may also lower the target’s Defense stat.",
+            "b2w2": "The user crunches up the target with sharp fangs. It may also lower the target’s Defense stat.",
+            "xy": "The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat.",
+            "oras": "The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat.",
+            "sm": "The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat.",
+            "usum": "The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat.",
+            "lgpe": "The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat.",
+            "swsh": "The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat.",
+            "la": "The user crunches up the target with sharp fangs. This may also lower the target's defensive stats.",
+            "sv": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat."
+        },
+        "french": {
+            "bw": "Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser la Défense de l’ennemi.",
+            "xy": "Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense.",
+            "oras": "Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense.",
+            "sm": "Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense.",
+            "usum": "Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense.",
+            "lgpe": "Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense.",
+            "swsh": "Le lanceur mord l’ennemi de ses crocs pointus. Peut aussi baisser sa Défense."
+        },
+        "japanese-kana": {
+            "xy": "するどい　はで　あいてを　かみくだいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "oras": "するどい　はで　あいてを　か くだいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "sm": "するどい　はで　あいてを　かみくだいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "usum": "するどい　はで　あいてを　かみくだいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "lgpe": "するどい　はで　あいてを　かみくだいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "swsh": "するどい　はで　あいてを　かみくだいて こうげきする。あいての　ぼうぎょを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "날카로운 이빨로 상대를 깨물어 부숴서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "oras": "날카로운 이빨로 상대를 깨물어 부숴서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "sm": "날카로운 이빨로 상대를 깨물어 부숴서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "usum": "날카로운 이빨로 상대를 깨물어 부숴서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "날카로운 이빨로 상대를 깨물어 부숴서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "swsh": "날카로운 이빨로 상대를 깨물어 부숴서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Beißt mit scharfen Reißzähnen zu und senkt eventuell die Verteidigung.",
+            "oras": "Beißt mit scharfen Reißzähnen zu und senkt eventuell die Verteidigung.",
+            "sm": "Beißt mit scharfen Reißzähnen zu und senkt eventuell die Verteidigung.",
+            "usum": "Beißt mit scharfen Reißzähnen zu und senkt eventuell die Verteidigung.",
+            "lgpe": "Beißt mit scharfen Reißzähnen zu und senkt eventuell die Verteidigung.",
+            "swsh": "Beißt mit scharfen Reißzähnen zu und senkt eventuell die Verteidigung."
+        },
+        "spanish": {
+            "xy": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "oras": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "sm": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "usum": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "lgpe": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "swsh": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene morso con denti affilati. Può anche ridurne la Difesa.",
+            "oras": "Il bersaglio viene morso con denti affilati. Può anche ridurne la Difesa.",
+            "sm": "Il bersaglio viene morso con denti affilati. Può anche ridurne la Difesa.",
+            "usum": "Il bersaglio viene morso con denti affilati. Può anche ridurne la Difesa.",
+            "lgpe": "Il bersaglio viene morso con denti affilati. Può anche ridurne la Difesa.",
+            "swsh": "Il bersaglio viene morso con denti affilati. Può anche ridurne la Difesa."
+        },
+        "japanese": {
+            "xy": "鋭い　歯で 相手を　かみくだいて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "oras": "鋭い　歯で 相手を　か くだいて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "sm": "鋭い　歯で 相手を　かみくだいて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "usum": "鋭い　歯で 相手を　かみくだいて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "lgpe": "鋭い　歯で 相手を　かみくだいて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "swsh": "鋭い　歯で 相手を　かみくだいて　攻撃する。 相手の　防御を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "oras": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "sm": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "usum": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "lgpe": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo.",
+            "swsh": "Tritura con afilados colmillos y puede bajar la Defensa del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用尖銳的牙齒咬碎對手進行攻擊。 有時會降低對手的防禦。",
+            "usum": "用尖銳的牙齒咬碎對手進行攻擊。 有時會降低對手的防禦。",
+            "lgpe": "用尖銳的牙齒咬碎對手進行攻擊。 有時會降低對手的防禦。",
+            "swsh": "用尖銳的牙齒咬碎對手進行攻擊。 有時會降低對手的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "用利牙咬碎对手进行攻击。 有时会降低对手的防御。",
+            "usum": "用利牙咬碎对手进行攻击。 有时会降低对手的防御。",
+            "lgpe": "用利牙咬碎对手进行攻击。 有时会降低对手的防御。",
+            "swsh": "用利牙咬碎对手进行攻击。 有时会降低对手的防御。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Defense by one stage."
+    }
 }

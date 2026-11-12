@@ -1,47 +1,146 @@
 {
-  "_id": 9,
-  "key": "thunder-punch",
-  "name": {
-    "english": "Thunder Punch",
-    "japanese": "かみなりパンチ",
-    "chinese": "雷光掌",
-    "korean": "번개펀치",
-    "german": "Puño Trueno",
-    "french": "Donnerschlag",
-    "italian": "Thunder Punch",
-    "spanish": "Tuonopugno"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An electric punch.\nIt may paralyze.",
-    "crystal": "An electric punch.\nIt may paralyze.",
-    "ruby-sapphire": "An electrified punch that\nmay paralyze the foe.",
-    "emerald": "An electrified punch that\nmay paralyze the foe.",
-    "firered-leafgreen": "The foe is punched\nwith an electrified\nfist. It may leave\nthe foe paralyzed.",
-    "diamond-pearl": "The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\nparalysis.",
-    "platinum": "The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\nparalysis.",
-    "heartgold-soulsilver": "The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\nparalysis.",
-    "black-white": "The target is punched with an electrified\nfist. It may also leave the target\nwith paralysis.",
-    "black-2-white-2": "The target is punched with an electrified\nfist. It may also leave the target\nwith paralysis.",
-    "x-y": "The target is punched with an electrified\nfist. This may also leave the target\nwith paralysis.",
-    "omega-ruby-alpha-sapphire": "The target is punched with an electrified\nfist. This may also leave the target\nwith paralysis.",
-    "sun-moon": "The target is punched with an electrified fist.\nThis may also leave the target with paralysis.",
-    "ultra-sun-ultra-moon": "The target is punched with an electrified fist.\nThis may also leave the target with paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The target is punched with an electrified fist.\nThis may also leave the target with paralysis.",
-    "sword-shield": "The target is punched with an electrified fist.\nThis may also leave the target with paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 9,
+    "key": "thunder-punch",
+    "name": {
+        "japanese-kana": "かみなりパンチ",
+        "korean": "번개펀치",
+        "traditional-chinese": "雷電拳",
+        "french": "Poing Éclair",
+        "german": "Donnerschlag",
+        "spanish": "Puño Trueno",
+        "italian": "Tuonopugno",
+        "english": "Thunder Punch",
+        "japanese": "かみなりパンチ",
+        "simplified-chinese": "雷电拳",
+        "latin-american-spanish": "Puño Trueno"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An electric punch. It may paralyze.",
+            "cr": "An electric punch. It may paralyze.",
+            "rs": "An electrified punch that may paralyze the foe.",
+            "em": "An electrified punch that may paralyze the foe.",
+            "frlg": "The foe is punched with an electrified fist. It may leave the foe paralyzed.",
+            "dp": "The foe is punched with an electrified fist. It may leave the target with paralysis.",
+            "pt": "The foe is punched with an electrified fist. It may leave the target with paralysis.",
+            "hgss": "The foe is punched with an electrified fist. It may leave the target with paralysis.",
+            "bw": "The target is punched with an electrified fist. It may also leave the target with paralysis.",
+            "b2w2": "The target is punched with an electrified fist. It may also leave the target with paralysis.",
+            "xy": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+            "oras": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+            "sm": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+            "usum": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+            "lgpe": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+            "swsh": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+            "la": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+            "sv": "The target is attacked with an electrified punch. This may also leave the target with paralysis."
+        },
+        "french": {
+            "bw": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.",
+            "xy": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.",
+            "oras": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.",
+            "sm": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.",
+            "usum": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.",
+            "lgpe": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.",
+            "swsh": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "でんげきを　こめた　パンチで あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "でんげきを　こめた　パンチで あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "でんげきを　こめた　パンチで あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "でんげきを　こめた　パンチで あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "でんげきを　こめた　パンチで あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "でんげきを　こめた　パンチで あいてを　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Ein elektrischer Schlag, der das Ziel eventuell paralysiert.",
+            "oras": "Ein elektrischer Schlag, der das Ziel eventuell paralysiert.",
+            "sm": "Ein elektrischer Schlag, der das Ziel eventuell paralysiert.",
+            "usum": "Ein elektrischer Schlag, der das Ziel eventuell paralysiert.",
+            "lgpe": "Ein elektrischer Schlag, der das Ziel eventuell paralysiert.",
+            "swsh": "Ein elektrischer Schlag, der das Ziel eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Puñetazo eléctrico. Puede paralizar.",
+            "oras": "Puñetazo eléctrico. Puede paralizar.",
+            "sm": "Puñetazo eléctrico. Puede paralizar.",
+            "usum": "Puñetazo eléctrico. Puede paralizar.",
+            "lgpe": "Puñetazo eléctrico. Puede paralizar.",
+            "swsh": "Puñetazo eléctrico que puede paralizar al adversario."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un pugno elettrico che può paralizzarlo.",
+            "oras": "Colpisce il bersaglio con un pugno elettrico che può paralizzarlo.",
+            "sm": "Colpisce il bersaglio con un pugno elettrico che può paralizzarlo.",
+            "usum": "Colpisce il bersaglio con un pugno elettrico che può paralizzarlo.",
+            "lgpe": "Colpisce il bersaglio con un pugno elettrico che può paralizzarlo.",
+            "swsh": "Colpisce il bersaglio con un pugno elettrico che può paralizzarlo."
+        },
+        "japanese": {
+            "xy": "電撃を　こめた　パンチで 相手を　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "電撃を　こめた　パンチで 相手を　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "電撃を　こめた　パンチで 相手を　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "電撃を　こめた　パンチで 相手を　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "電撃を　こめた　パンチで 相手を　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "電撃を　こめた　パンチで 相手を　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puñetazo eléctrico. Puede paralizar.",
+            "oras": "Puñetazo eléctrico. Puede paralizar.",
+            "sm": "Puñetazo eléctrico. Puede paralizar.",
+            "usum": "Puñetazo eléctrico. Puede paralizar.",
+            "lgpe": "Puñetazo eléctrico. Puede paralizar.",
+            "swsh": "Puñetazo eléctrico que puede paralizar al adversario."
+        },
+        "traditional-chinese": {
+            "sm": "用帶有電流的拳頭 攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "usum": "用帶有電流的拳頭 攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "用帶有電流的拳頭 攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "用帶有電流的拳頭 攻擊對手。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用充满电流的拳头攻击对手。 有时会让对手陷入麻痹状态。",
+            "usum": "用充满电流的拳头攻击对手。 有时会让对手陷入麻痹状态。",
+            "lgpe": "用充满电流的拳头攻击对手。 有时会让对手陷入麻痹状态。",
+            "swsh": "用充满电流的拳头攻击对手。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

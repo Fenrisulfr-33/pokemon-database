@@ -1,45 +1,155 @@
 {
-  "_id": 254,
-  "key": "stockpile",
-  "name": {
-    "english": "Stockpile",
-    "japanese": "たくわえる",
-    "chinese": "储存",
-    "korean": "비축하기",
-    "german": "Reserva",
-    "french": "Horter",
-    "italian": "Stockpile",
-    "spanish": "Accumulo"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Charges up power for up to\n3 turns.",
-    "emerald": "Charges up power for up to\n3 turns.",
-    "firered-leafgreen": "The user charges\nup power for use\nlater. It can be\nused three times.",
-    "diamond-pearl": "The user charges\nup power, and raises\nboth its Defense and\nSp. Def. The move can\nbe used three times.",
-    "platinum": "The user charges\nup power, and raises\nboth its Defense and\nSp. Def. The move can\nbe used three times.",
-    "heartgold-soulsilver": "The user charges\nup power, and raises\nboth its Defense and\nSp. Def. The move can\nbe used three times.",
-    "black-white": "The user charges up power and raises\nboth its Defense and Sp. Def. The move\ncan be used three times.",
-    "black-2-white-2": "The user charges up power and raises\nboth its Defense and Sp. Def. The move\ncan be used three times.",
-    "x-y": "The user charges up power and raises\nboth its Defense and Sp. Def stats.\nThe move can be used three times.",
-    "omega-ruby-alpha-sapphire": "The user charges up power and raises\nboth its Defense and Sp. Def stats.\nThe move can be used three times.",
-    "sun-moon": "The user charges up power and raises both its\nDefense and Sp. Def stats. The move can be used\nthree times.",
-    "ultra-sun-ultra-moon": "The user charges up power and raises both its\nDefense and Sp. Def stats. The move can be used\nthree times.",
-    "lets-go-pikachu-lets-go-eevee": "The user charges up power and raises both its\nDefense and Sp. Def stats. The move can be used\nthree times.",
-    "sword-shield": "The user charges up power and raises both its\nDefense and Sp. Def stats. The move can be used\nthree times."
-  },
-  "effect": {
-    "full": "Raises the user's Defense and Special Defense by one stage each.  Stores energy for use with spit up and swallow.  Up to three levels of energy can be stored, and all are lost if the user leaves the field.  Energy is still stored even if the stat boosts cannot be applied.\n\nIf the user uses baton pass, the stat boosts are passed as normal, but the stored energy is not.",
-    "shortEffect": "Stores energy up to three times for use with Spit Up and Swallow."
-  },
-  "priority": 0
+    "_id": 254,
+    "key": "stockpile",
+    "name": {
+        "japanese-kana": "たくわえる",
+        "korean": "비축하기",
+        "traditional-chinese": "蓄力",
+        "french": "Stockage",
+        "german": "Horter",
+        "spanish": "Reserva",
+        "italian": "Accumulo",
+        "english": "Stockpile",
+        "japanese": "たくわえる",
+        "simplified-chinese": "蓄力",
+        "latin-american-spanish": "Reserva"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "tough",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "pp": 10
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "dp": "N’augmente ni la Defense ni la Special Defense."
+        },
+        "english": {
+            "dp": "Does not raise Defense or Special Defense."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Charges up power for up to 3 turns.",
+            "em": "Charges up power for up to 3 turns.",
+            "frlg": "The user charges up power for use later. It can be used three times.",
+            "dp": "The user charges up power, and raises both its Defense and Sp. Def. The move can be used three times.",
+            "pt": "The user charges up power, and raises both its Defense and Sp. Def. The move can be used three times.",
+            "hgss": "The user charges up power, and raises both its Defense and Sp. Def. The move can be used three times.",
+            "bw": "The user charges up power and raises both its Defense and Sp. Def. The move can be used three times.",
+            "b2w2": "The user charges up power and raises both its Defense and Sp. Def. The move can be used three times.",
+            "xy": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
+            "oras": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
+            "sm": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
+            "usum": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
+            "lgpe": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
+            "swsh": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
+            "la": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
+            "sv": "The user stores power and boosts its Defense and Sp. Def stats. This move can be used up to three times."
+        },
+        "french": {
+            "bw": "Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisé 3 fois.",
+            "xy": "Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisé trois fois.",
+            "oras": "Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisé trois fois.",
+            "sm": "Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisé trois fois.",
+            "usum": "Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisé trois fois.",
+            "lgpe": "Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisé trois fois.",
+            "swsh": "Le lanceur accumule de la puissance et augmente sa Défense et sa Défense Spéciale. Peut être utilisée trois fois."
+        },
+        "japanese-kana": {
+            "xy": "ちからを　たくわえて　じぶんの ぼうぎょと　とくぼうを　あげる。 さいだい　３かいまで　たくわえられる。",
+            "oras": "ちからを　たくわえて　じぶんの ぼうぎょと　とくぼうを　あげる。 さいだい　３かいまで　たくわえられる。",
+            "sm": "ちからを　たくわえて　じぶんの ぼうぎょと　とくぼうを　あげる。 さいだい　３かいまで　たくわえられる。",
+            "usum": "ちからを　たくわえて　じぶんの ぼうぎょと　とくぼうを　あげる。 さいだい　３かいまで　たくわえられる。",
+            "lgpe": "ちからを　たくわえて　じぶんの ぼうぎょと　とくぼうを　あげる。 さいだい　３かいまで　たくわえられる。",
+            "swsh": "ちからを　たくわえて　じぶんの ぼうぎょと　とくぼうを　あげる。 さいだい　３かいまで　たくわえられる。"
+        },
+        "korean": {
+            "xy": "힘을 비축해서 자신의 방어와 특수방어를 올린다. 최대 3회까지 비축할 수 있다.",
+            "oras": "힘을 비축해서 자신의 방어와 특수방어를 올린다. 최대 3회까지 비축할 수 있다.",
+            "sm": "힘을 비축해서 자신의 방어와 특수방어를 올린다. 최대 3회까지 비축할 수 있다.",
+            "usum": "힘을 비축해서 자신의 방어와 특수방어를 올린다. 최대 3회까지 비축할 수 있다.",
+            "lgpe": "힘을 비축해서 자신의 방어와 특수방어를 올린다. 최대 3회까지 비축할 수 있다.",
+            "swsh": "힘을 비축해서 자신의 방어와 특수방어를 올린다. 최대 3회까지 비축할 수 있다."
+        },
+        "german": {
+            "xy": "Lädt Kraft für später auf. Erhöht Verteidigung und Spezial-Verteidigung. Kann bis zu dreimal eingesetzt werden.",
+            "oras": "Lädt Kraft für später auf. Erhöht Verteidigung und Spezial-Verteidigung. Kann bis zu dreimal eingesetzt werden.",
+            "sm": "Lädt Kraft für später auf. Erhöht Verteidigung und Spezial-Verteidigung. Kann bis zu dreimal eingesetzt werden.",
+            "usum": "Lädt Kraft für später auf. Erhöht Verteidigung und Spezial-Verteidigung. Kann bis zu dreimal eingesetzt werden.",
+            "lgpe": "Lädt Kraft für später auf. Erhöht Verteidigung und Spezial-Verteidigung. Kann bis zu dreimal eingesetzt werden.",
+            "swsh": "Lädt Kraft für später auf. Erhöht Verteidigung und Spezial-Verteidigung. Kann bis zu dreimal eingesetzt werden."
+        },
+        "spanish": {
+            "xy": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "oras": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "sm": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "usum": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "lgpe": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "swsh": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces."
+        },
+        "italian": {
+            "xy": "Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte.",
+            "oras": "Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte.",
+            "sm": "Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte.",
+            "usum": "Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte.",
+            "lgpe": "Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte.",
+            "swsh": "Chi la usa accumula energia aumentando la Difesa e la Difesa Speciale. Si può utilizzare tre volte."
+        },
+        "japanese": {
+            "xy": "力を　蓄えて　自分の 防御と　特防を　あげる。 最大　３回まで　蓄えられる。",
+            "oras": "力を　蓄えて　自分の 防御と　特防を　あげる。 最大　３回まで　蓄えられる。",
+            "sm": "力を　蓄えて　自分の 防御と　特防を　あげる。 最大　３回まで　蓄えられる。",
+            "usum": "力を　蓄えて　自分の 防御と　特防を　あげる。 最大　３回まで　蓄えられる。",
+            "lgpe": "力を　蓄えて　自分の 防御と　特防を　あげる。 最大　３回まで　蓄えられる。",
+            "swsh": "力を　蓄えて　自分の 防御と　特防を　あげる。 最大　３回まで　蓄えられる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "oras": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "sm": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "usum": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "lgpe": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.",
+            "swsh": "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces."
+        },
+        "traditional-chinese": {
+            "sm": "蓄積力量， 提高自己的防禦和特防。 最多蓄積３次。",
+            "usum": "蓄積力量， 提高自己的防禦和特防。 最多蓄積３次。",
+            "lgpe": "蓄積力量， 提高自己的防禦和特防。 最多蓄積３次。",
+            "swsh": "蓄積力量， 提高自己的防禦和特防。 最多蓄積３次。"
+        },
+        "simplified-chinese": {
+            "sm": "积蓄力量， 提高自己的防御和特防。 最多积蓄３次。",
+            "usum": "积蓄力量， 提高自己的防御和特防。 最多积蓄３次。",
+            "lgpe": "积蓄力量， 提高自己的防御和特防。 最多积蓄３次。",
+            "swsh": "积蓄力量， 提高自己的防御和特防。 最多积蓄３次。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Defense and Special Defense by one stage each.  Stores energy for use with Spit Up and Swallow.  Up to three levels of energy can be stored, and all are lost if the user leaves the field.  Energy is still stored even if the stat boosts cannot be applied. If the user uses Baton Pass, the stat boosts are passed as normal, but the stored energy is not.",
+        "shortEffect": "Stores energy up to three times for use with Spit Up and Swallow."
+    }
 }

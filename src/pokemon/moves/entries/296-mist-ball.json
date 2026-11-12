@@ -1,45 +1,148 @@
 {
-  "_id": 296,
-  "key": "mist-ball",
-  "name": {
-    "english": "Mist Ball",
-    "japanese": "ミストボール",
-    "chinese": "薄雾球",
-    "korean": "미스트볼",
-    "german": "Bola Neblina",
-    "french": "Nebelball",
-    "italian": "Mist Ball",
-    "spanish": "Foschisfera"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 5,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks with a flurry of\ndown. May lower SP. ATK.",
-    "emerald": "Attacks with a flurry of\ndown. May lower SP. ATK.",
-    "firered-leafgreen": "A flurry of down\nhits the foe. It\nmay also lower the\nfoe’s SP. ATK.",
-    "diamond-pearl": "A mistlike flurry of\ndown envelops and\ndamages the foe. It\nmay also lower the\ntarget’s Sp. Atk.",
-    "platinum": "A mistlike flurry of\ndown envelops and\ndamages the foe. It\nmay also lower the\ntarget’s Sp. Atk.",
-    "heartgold-soulsilver": "A mistlike flurry of\ndown envelops and\ndamages the foe. It\nmay also lower the\ntarget’s Sp. Atk.",
-    "black-white": "A mistlike flurry of down envelops and\ndamages the target. It may also lower\nthe target’s Sp. Atk.",
-    "black-2-white-2": "A mistlike flurry of down envelops and\ndamages the target. It may also lower\nthe target’s Sp. Atk.",
-    "x-y": "A mist-like flurry of down envelops and\ndamages the target. This may also lower\nthe target’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "A mist-like flurry of down envelops and\ndamages the target. This may also lower\nthe target’s Sp. Atk stat.",
-    "sun-moon": "A mist-like flurry of down envelops and damages the\ntarget. This may also lower the target’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "A mist-like flurry of down envelops and damages the\ntarget. This may also lower the target’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "A mist-like flurry of down envelops and damages the\ntarget. This may also lower the target’s Sp. Atk stat.",
-    "sword-shield": "A mist-like flurry of down envelops and damages the\ntarget. This may also lower the target’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 296,
+    "key": "mist-ball",
+    "name": {
+        "japanese-kana": "ミストボール",
+        "korean": "미스트볼",
+        "traditional-chinese": "薄霧球",
+        "french": "Ball’Brume",
+        "german": "Nebelball",
+        "spanish": "Bola Neblina",
+        "italian": "Foschisfera",
+        "english": "Mist Ball",
+        "japanese": "ミストボール",
+        "simplified-chinese": "薄雾球",
+        "latin-american-spanish": "Bola Neblina"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "smart",
+    "pp": 5,
+    "power": 95,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 50
+    },
+    "changes": {
+        "sv": {
+            "power": 70
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Attacks with a flurry of down. May lower SP. ATK.",
+            "em": "Attacks with a flurry of down. May lower SP. ATK.",
+            "frlg": "A flurry of down hits the foe. It may also lower the foe’s SP. ATK.",
+            "dp": "A mistlike flurry of down envelops and damages the foe. It may also lower the target’s Sp. Atk.",
+            "pt": "A mistlike flurry of down envelops and damages the foe. It may also lower the target’s Sp. Atk.",
+            "hgss": "A mistlike flurry of down envelops and damages the foe. It may also lower the target’s Sp. Atk.",
+            "bw": "A mistlike flurry of down envelops and damages the target. It may also lower the target’s Sp. Atk.",
+            "b2w2": "A mistlike flurry of down envelops and damages the target. It may also lower the target’s Sp. Atk.",
+            "xy": "A mist-like flurry of down envelops and damages the target. This may also lower the target’s Sp. Atk stat.",
+            "oras": "A mist-like flurry of down envelops and damages the target. This may also lower the target’s Sp. Atk stat.",
+            "sm": "A mist-like flurry of down envelops and damages the target. This may also lower the target’s Sp. Atk stat.",
+            "usum": "A mist-like flurry of down envelops and damages the target. This may also lower the target’s Sp. Atk stat.",
+            "lgpe": "A mist-like flurry of down envelops and damages the target. This may also lower the target’s Sp. Atk stat.",
+            "swsh": "A mist-like flurry of down envelops and damages the target. This may also lower the target’s Sp. Atk stat.",
+            "la": "A mist-like flurry of down envelops and damages the target. This may also lower the target's Sp. Atk stat.",
+            "sv": "A mist-like flurry of down envelops and damages the target. This may also lower the target's Sp. Atk stat."
+        },
+        "french": {
+            "bw": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.",
+            "xy": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.",
+            "oras": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.",
+            "sm": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.",
+            "usum": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.",
+            "lgpe": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.",
+            "swsh": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "きりじょうの　うもうで　つつみこみ こうげきする。あいての　とくこうを さげることが　ある。",
+            "oras": "きりじょうの　うもうで　つつ こ  こうげきする。あいての　とくこうを さげることが　ある。",
+            "sm": "きりじょうの　うもうで　つつみこみ こうげきする。　あいての　とくこうを さげることが　ある。",
+            "usum": "きりじょうの　うもうで　つつみこみ こうげきする。　あいての　とくこうを さげることが　ある。",
+            "lgpe": "きりじょうの　うもうで　つつみこみ こうげきする。　あいての　とくこうを さげることが　ある。",
+            "swsh": "きりじょうの　うもうで　つつみこみ こうげきする。　あいての　とくこうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "안개의 깃털로 둘러싸 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "oras": "안개의 깃털로 둘러싸 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "sm": "안개의 깃털로 둘러싸 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "usum": "안개의 깃털로 둘러싸 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "lgpe": "안개의 깃털로 둘러싸 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "swsh": "안개의 깃털로 둘러싸 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit einer Kugel aus Wasser, die Nebel enthält. Senkt eventuell den Spezial-Angriff des Zieles.",
+            "oras": "Angriff mit einer Kugel aus Wasser, die Nebel enthält. Senkt eventuell den Spezial-Angriff des Zieles.",
+            "sm": "Angriff mit einer Nebelwolke aus Daunen. Senkt eventuell den Spezial-Angriff des Zieles.",
+            "usum": "Angriff mit einer Nebelwolke aus Daunen. Senkt eventuell den Spezial-Angriff des Zieles.",
+            "lgpe": "Angriff mit einer Nebelwolke aus Daunen. Senkt eventuell den Spezial-Angriff des Zieles.",
+            "swsh": "Angriff mit einer Nebelwolke aus Daunen. Senkt eventuell den Spezial-Angriff des Zieles."
+        },
+        "spanish": {
+            "xy": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "oras": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "sm": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "usum": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "lgpe": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "swsh": "Banco de niebla que puede bajar el Ataque Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "oras": "Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "sm": "Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "usum": "Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "lgpe": "Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "swsh": "Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l’Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "霧状の　羽毛で　包みこみ 攻撃する。 相手の　特攻を　さげることが　ある。",
+            "oras": "霧状の　羽毛で　包 こ  攻撃する。 相手の　特攻を　さげることが　ある。",
+            "sm": "霧状の　羽毛で　包みこみ 攻撃する。 相手の　特攻を　さげることが　ある。",
+            "usum": "霧状の　羽毛で　包みこみ 攻撃する。 相手の　特攻を　さげることが　ある。",
+            "lgpe": "霧状の　羽毛で　包みこみ 攻撃する。 相手の　特攻を　さげることが　ある。",
+            "swsh": "霧状の　羽毛で　包みこみ 攻撃する。 相手の　特攻を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "oras": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "sm": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "usum": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "lgpe": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+            "swsh": "Banco de niebla que puede bajar el Ataque Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將霧狀的羽毛聚集成團進行攻擊。 有時會降低對手的特攻。",
+            "usum": "將霧狀的羽毛聚集成團進行攻擊。 有時會降低對手的特攻。",
+            "lgpe": "將霧狀的羽毛聚集成團進行攻擊。 有時會降低對手的特攻。",
+            "swsh": "將霧狀的羽毛聚集成團進行攻擊。 有時會降低對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "用围绕着雾状 羽毛的球进行攻击。 有时会降低对手的特攻。",
+            "usum": "用围绕着雾状 羽毛的球进行攻击。 有时会降低对手的特攻。",
+            "lgpe": "用围绕着雾状 羽毛的球进行攻击。 有时会降低对手的特攻。",
+            "swsh": "用围绕着雾状 羽毛的球进行攻击。 有时会降低对手的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Attack by one stage."
+    }
 }

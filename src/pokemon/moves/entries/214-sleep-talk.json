@@ -1,47 +1,146 @@
 {
-  "_id": 214,
-  "key": "sleep-talk",
-  "name": {
-    "english": "Sleep Talk",
-    "japanese": "ねごと",
-    "chinese": "梦话",
-    "korean": "잠꼬대",
-    "german": "Sonámbulo",
-    "french": "Schlafrede",
-    "italian": "Sleep Talk",
-    "spanish": "Sonnolalia"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Randomly attacks\nwhile asleep.",
-    "crystal": "Randomly attacks\nwhile asleep.",
-    "ruby-sapphire": "Uses an own move randomly\nwhile asleep.",
-    "emerald": "Uses an available move\nrandomly while asleep.",
-    "firered-leafgreen": "While asleep, the\nuser randomly uses\none of the moves it\nknows.",
-    "diamond-pearl": "While it is asleep, the\nuser randomly uses\none of the moves it\nknows.\n",
-    "platinum": "While it is asleep, the\nuser randomly uses\none of the moves it\nknows.\n",
-    "heartgold-soulsilver": "While it is asleep, the\nuser randomly uses\none of the moves it\nknows.\n",
-    "black-white": "While it is asleep, the user randomly uses\none of the moves it knows.",
-    "black-2-white-2": "While it is asleep, the user randomly uses\none of the moves it knows.",
-    "x-y": "While it is asleep, the user randomly uses\none of the moves it knows.",
-    "omega-ruby-alpha-sapphire": "While it is asleep, the user randomly uses\none of the moves it knows.",
-    "sun-moon": "While it is asleep, the user randomly uses one of the\nmoves it knows.",
-    "ultra-sun-ultra-moon": "While it is asleep, the user randomly uses one of the\nmoves it knows.",
-    "lets-go-pikachu-lets-go-eevee": "While it is asleep, the user randomly uses one of the\nmoves it knows.",
-    "sword-shield": "While it is asleep, the user randomly uses one of the\nmoves it knows."
-  },
-  "effect": {
-    "full": "Only usable if the user is sleeping.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus punch, me first, metronome, mirror move, shadow force, skull bash, sky attack, sky drop, sleep talk, solar beam, razor wind, or uproar.\n\nIf the selected move requires a recharge turn—i.e., one of blast burn, frenzy plant, giga impact, hydro cannon, hyper beam, roar of time, or rock wrecker—and the user is still sleeping next turn, then it's forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk.",
-    "shortEffect": "Randomly uses one of the user's other three moves.  Only works if the user is sleeping."
-  },
-  "priority": 0
+    "_id": 214,
+    "key": "sleep-talk",
+    "name": {
+        "japanese-kana": "ねごと",
+        "korean": "잠꼬대",
+        "traditional-chinese": "夢話",
+        "french": "Blabla Dodo",
+        "german": "Schlafrede",
+        "spanish": "Sonámbulo",
+        "italian": "Sonnolalia",
+        "english": "Sleep Talk",
+        "japanese": "ねごと",
+        "simplified-chinese": "梦话",
+        "latin-american-spanish": "Sonámbulo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Randomly attacks while asleep.",
+            "cr": "Randomly attacks while asleep.",
+            "rs": "Uses an own move randomly while asleep.",
+            "em": "Uses an available move randomly while asleep.",
+            "frlg": "While asleep, the user randomly uses one of the moves it knows.",
+            "dp": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "pt": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "hgss": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "bw": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "b2w2": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "xy": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "oras": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "sm": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "usum": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "lgpe": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "swsh": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "la": "While it is asleep, the user randomly uses one of the moves it knows.",
+            "sv": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep."
+        },
+        "french": {
+            "bw": "Le lanceur utilise un de ses coups au hasard pendant qu’il dort.",
+            "xy": "Le lanceur utilise un de ses coups au hasard pendant qu’il dort.",
+            "oras": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.",
+            "sm": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.",
+            "usum": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.",
+            "lgpe": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.",
+            "swsh": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort."
+        },
+        "japanese-kana": {
+            "xy": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。",
+            "oras": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。",
+            "sm": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。",
+            "usum": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。",
+            "lgpe": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。",
+            "swsh": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。"
+        },
+        "korean": {
+            "xy": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.",
+            "oras": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.",
+            "sm": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.",
+            "usum": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.",
+            "lgpe": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.",
+            "swsh": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다."
+        },
+        "german": {
+            "xy": "Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.",
+            "oras": "Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.",
+            "sm": "Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.",
+            "usum": "Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.",
+            "lgpe": "Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.",
+            "swsh": "Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft."
+        },
+        "spanish": {
+            "xy": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "oras": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "sm": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "usum": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "lgpe": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "swsh": "Mientras duerme, usa uno de sus movimientos elegido al azar."
+        },
+        "italian": {
+            "xy": "Chi la usa sfodera a caso una delle proprie mosse mentre sta dormendo.",
+            "oras": "Chi la usa sfodera a caso una delle proprie mosse mentre sta dormendo.",
+            "sm": "Chi la usa sfodera a caso una delle proprie mosse mentre sta dormendo.",
+            "usum": "Chi la usa sfodera a caso una delle proprie mosse mentre sta dormendo.",
+            "lgpe": "Chi la usa sfodera a caso una delle proprie mosse mentre sta dormendo.",
+            "swsh": "Chi la usa sferra a caso una delle proprie mosse mentre sta dormendo."
+        },
+        "japanese": {
+            "xy": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。",
+            "oras": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。",
+            "sm": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。",
+            "usum": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。",
+            "lgpe": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。",
+            "swsh": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "oras": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "sm": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "usum": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "lgpe": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+            "swsh": "Mientras duerme, usa uno de sus movimientos elegido al azar."
+        },
+        "traditional-chinese": {
+            "sm": "從自己已學會的招式中 隨機選出１個使出。 只有在睡眠狀態時可以使用。",
+            "usum": "從自己已學會的招式中 隨機選出１個使出。 只有在睡眠狀態時可以使用。",
+            "lgpe": "從自己已學會的招式中 隨機選出１個使出。 只有在睡眠狀態時可以使用。",
+            "swsh": "從自己已學會的招式中 隨機選出１個使出。 只有在睡眠狀態時可以使用。"
+        },
+        "simplified-chinese": {
+            "sm": "从自己已学会的招式中 任意使出１个。 只能在自己睡觉时使用。",
+            "usum": "从自己已学会的招式中 任意使出１个。 只能在自己睡觉时使用。",
+            "lgpe": "从自己已学会的招式中 任意使出１个。 只能在自己睡觉时使用。",
+            "swsh": "从自己已学会的招式中 任意使出１个。 只能在自己睡觉时使用。"
+        }
+    },
+    "effect": {
+        "full": "Only usable if the user is sleeping.  Randomly selects and uses one of the user’s other three moves.  Use of the selected move requires and costs 0 PP. This move will not select Assist, Bide, Bounce, Chatter, Copycat, Dig, Dive, Fly, Focus Punch, Me First, Metronome, Mirror Move, Shadow Force, Skull Bash, Sky Attack, Sky Drop, Sleep Talk, Solar Beam, Razor Wind, or Uproar. If the selected move requires a recharge turn—i.e., one of Blast Burn, Frenzy Plant, Giga Impact, Hydro Cannon, Hyper Beam, Roar of Time, or Rock Wrecker—and the user is still sleeping next turn, then it’s forced to use this move again and pay another PP for the recharge turn. This move cannot be copied by Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
+        "shortEffect": "Randomly uses one of the user’s other three moves.  Only works if the user is sleeping."
+    }
 }

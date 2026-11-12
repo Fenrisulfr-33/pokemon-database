@@ -1,35 +1,115 @@
 {
-  "_id": 717,
-  "key": "natures-madness",
-  "name": {
-    "english": "Nature's Madness",
-    "japanese": "しぜんのいかり",
-    "chinese": "自然之怒",
-    "korean": "자연의분노",
-    "german": "Furia Natural",
-    "french": "Naturzorn",
-    "italian": "Nature’s Madness",
-    "spanish": "Ira della Natura"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user hits the target with the force of nature.\nIt halves the target’s HP.",
-    "ultra-sun-ultra-moon": "The user hits the target with the force of nature.\nIt halves the target’s HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user hits the target with the force of nature.\nIt halves the target’s HP.",
-    "sword-shield": "The user hits the target with the force of nature.\nIt halves the target’s HP."
-  },
-  "effect": {
-    "full": "Inflicts typeless damage equal to half the target's remaining HP.",
-    "shortEffect": "Inflicts damage equal to half the target's HP."
-  },
-  "priority": 0
+    "_id": 717,
+    "key": "natures-madness",
+    "name": {
+        "japanese-kana": "しぜんのいかり",
+        "korean": "자연의분노",
+        "traditional-chinese": "自然之怒",
+        "french": "Ire de la Nature",
+        "german": "Naturzorn",
+        "spanish": "Furia Natural",
+        "italian": "Ira della Natura",
+        "english": "Nature’s Madness",
+        "japanese": "しぜんのいかり",
+        "simplified-chinese": "自然之怒",
+        "latin-american-spanish": "Ira Natural"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "しぜんの　いかりを　あいてに　ぶつける。 あいての　ＨＰは　はんぶんに　なる。",
+            "usum": "しぜんの　いかりを　あいてに　ぶつける。 あいての　ＨＰは　はんぶんに　なる。",
+            "lgpe": "しぜんの　いかりを　あいてに　ぶつける。 あいての　ＨＰは　はんぶんに　なる。",
+            "swsh": "しぜんの　いかりを　あいてに　ぶつける。 あいての　ＨＰは　はんぶんに　なる。"
+        },
+        "korean": {
+            "sm": "자연의 분노를 상대에게 부딪친다. 상대의 HP는 절반이 된다.",
+            "usum": "자연의 분노를 상대에게 부딪친다. 상대의 HP는 절반이 된다.",
+            "lgpe": "자연의 분노를 상대에게 부딪친다. 상대의 HP는 절반이 된다.",
+            "swsh": "자연의 분노를 상대에게 부딪친다. 상대의 HP는 절반이 된다."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發洩自然之怒。 會使對手的ＨＰ減半。",
+            "usum": "向對手發洩自然之怒。 會使對手的ＨＰ減半。",
+            "lgpe": "向對手發洩自然之怒。 會使對手的HP減半。",
+            "swsh": "向對手發洩自然之怒。 會使對手的ＨＰ減半。"
+        },
+        "french": {
+            "sm": "Le lanceur déchaîne toute la colère de la nature pour baisser les PV de la cible de moitié.",
+            "usum": "Le lanceur déchaîne toute la colère de la nature pour baisser les PV de la cible de moitié.",
+            "lgpe": "Le lanceur déchaîne toute la colère de la nature pour baisser les PV de la cible de moitié.",
+            "swsh": "Le lanceur déchaîne toute la colère de la nature pour baisser les PV de la cible de moitié."
+        },
+        "german": {
+            "sm": "Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.",
+            "usum": "Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.",
+            "lgpe": "Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.",
+            "swsh": "Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP."
+        },
+        "spanish": {
+            "sm": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+            "usum": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+            "lgpe": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+            "swsh": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad."
+        },
+        "italian": {
+            "sm": "Scatena l’ira della natura sul bersaglio e ne dimezza i PS.",
+            "usum": "Scatena l’ira della natura sul bersaglio e ne dimezza i PS.",
+            "lgpe": "Scatena l’ira della natura sul bersaglio e ne dimezza i PS.",
+            "swsh": "Scatena l’ira della natura sul bersaglio e ne dimezza i PS."
+        },
+        "english": {
+            "sm": "The user hits the target with the force of nature. It halves the target’s HP.",
+            "usum": "The user hits the target with the force of nature. It halves the target’s HP.",
+            "lgpe": "The user hits the target with the force of nature. It halves the target’s HP.",
+            "swsh": "The user hits the target with the force of nature. It halves the target’s HP."
+        },
+        "japanese": {
+            "sm": "自然の　怒りを　相手に　ぶつける。 相手の　ＨＰは　半分に　なる。",
+            "usum": "自然の　怒りを　相手に　ぶつける。 相手の　ＨＰは　半分に　なる。",
+            "lgpe": "自然の　怒りを　相手に　ぶつける。 相手の　ＨＰは　半分に　なる。",
+            "swsh": "自然の　怒りを　相手に　ぶつける。 相手の　ＨＰは　半分に　なる。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手释放自然之怒。 对手的ＨＰ会减半。",
+            "usum": "向对手释放自然之怒。 对手的ＨＰ会减半。",
+            "lgpe": "向对手释放自然之怒。 对手的HP会减半。",
+            "swsh": "向对手释放自然之怒。 对手的ＨＰ会减半。"
+        },
+        "latin-american-spanish": {
+            "sm": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+            "usum": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+            "lgpe": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+            "swsh": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad."
+        }
+    },
+    "effect": {
+        "full": "Inflicts typeless damage equal to half the target’s remaining HP.",
+        "shortEffect": "Inflicts damage equal to half the target’s HP."
+    }
 }

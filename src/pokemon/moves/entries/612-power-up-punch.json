@@ -1,37 +1,133 @@
 {
-  "_id": 612,
-  "key": "power-up-punch",
-  "name": {
-    "english": "Power-Up Punch",
-    "japanese": "グロウパンチ",
-    "chinese": "增強拳",
-    "korean": "그로우펀치",
-    "german": "Puño Incremento",
-    "french": "Steigerungshieb",
-    "italian": "Power-Up Punch",
-    "spanish": "Crescipugno"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "Striking opponents over and over makes\nthe user’s fists harder.\nHitting a target raises the Attack stat.",
-    "omega-ruby-alpha-sapphire": "Striking opponents over and over makes\nthe user’s fists harder.\nHitting a target raises the Attack stat.",
-    "sun-moon": "Striking opponents over and over makes the user’s\nfists harder. Hitting a target raises the Attack stat.",
-    "ultra-sun-ultra-moon": "Striking opponents over and over makes the user’s\nfists harder. Hitting a target raises the Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "Striking opponents over and over makes the user’s\nfists harder. Hitting a target raises the Attack stat.",
-    "sword-shield": "Striking opponents over and over makes the user’s\nfists harder. Hitting a target raises the Attack stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Raises the user's Attack by one stage.",
-    "shortEffect": "Raises the user's Attack by one stage after inflicting damage."
-  },
-  "priority": 0
+    "_id": 612,
+    "key": "power-up-punch",
+    "name": {
+        "japanese-kana": "グロウパンチ",
+        "korean": "그로우펀치",
+        "traditional-chinese": "增強拳",
+        "french": "Poing Boost",
+        "german": "Steigerungshieb",
+        "spanish": "Puño Incremento",
+        "italian": "Crescipugno",
+        "english": "Power-Up Punch",
+        "japanese": "グロウパンチ",
+        "simplified-chinese": "增强拳",
+        "latin-american-spanish": "Puño Incremento"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "くりかえし　うつことで だんだん　こぶしが　かたくなる。 あいてに　あてると　こうげきが　あがる。",
+            "oras": "くりかえし　うつことで だんだん　こぶしが　かたくなる。 あいてに　あてると　こうげきが　あがる。",
+            "sm": "くりかえし　うつことで だんだん　こぶしが　かたくなる。 あいてに　あてると　こうげきが　あがる。",
+            "usum": "くりかえし　うつことで だんだん　こぶしが　かたくなる。 あいてに　あてると　こうげきが　あがる。",
+            "lgpe": "くりかえし　うつことで だんだん　こぶしが　かたくなる。 あいてに　あてると　こうげきが　あがる。",
+            "swsh": "くりかえし　うつことで だんだん　こぶしが　かたくなる。 あいてに　あてると　こうげきが　あがる。"
+        },
+        "korean": {
+            "xy": "반복하여 때리면 점점 주먹이 단단해진다. 상대를 때리면 공격이 오른다.",
+            "oras": "반복하여 때리면 점점 주먹이 단단해진다. 상대를 때리면 공격이 오른다.",
+            "sm": "반복하여 때리면 점점 주먹이 단단해진다. 상대를 때리면 공격이 오른다.",
+            "usum": "반복하여 때리면 점점 주먹이 단단해진다. 상대를 때리면 공격이 오른다.",
+            "lgpe": "반복하여 때리면 점점 주먹이 단단해진다. 상대를 때리면 공격이 오른다.",
+            "swsh": "반복하여 때리면 점점 주먹이 단단해진다. 상대를 때리면 공격이 오른다."
+        },
+        "french": {
+            "xy": "À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché.",
+            "oras": "À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché.",
+            "sm": "À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché.",
+            "usum": "À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché.",
+            "lgpe": "À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché.",
+            "swsh": "À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché."
+        },
+        "german": {
+            "xy": "Die Fäuste des Anwenders härten durch wiederholtes Zuschlagen ab. Mit jedem Treffer steigt sein Angriffs-Wert.",
+            "oras": "Die Fäuste des Anwenders härten durch wiederholtes Zuschlagen ab. Mit jedem Treffer steigt sein Angriffs-Wert.",
+            "sm": "Die Fäuste des Anwenders härten durch wiederholtes Zuschlagen ab. Mit jedem Treffer steigt sein Angriffs-Wert.",
+            "usum": "Die Fäuste des Anwenders härten durch wiederholtes Zuschlagen ab. Mit jedem Treffer steigt sein Angriffs-Wert.",
+            "lgpe": "Die Fäuste des Anwenders härten durch wiederholtes Zuschlagen ab. Mit jedem Treffer steigt sein Angriffs-Wert.",
+            "swsh": "Die Fäuste des Anwenders härten durch wiederholtes Zuschlagen ab. Mit jedem Treffer steigt sein Angriffs-Wert."
+        },
+        "spanish": {
+            "xy": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "oras": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "sm": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "usum": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "lgpe": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "swsh": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta."
+        },
+        "italian": {
+            "xy": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l’Attacco.",
+            "oras": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, l’Attacco di chi la usa aumenta.",
+            "sm": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, l’Attacco di chi la usa aumenta.",
+            "usum": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, l’Attacco di chi la usa aumenta.",
+            "lgpe": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, l’Attacco di chi la usa aumenta.",
+            "swsh": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, l’Attacco di chi la usa aumenta."
+        },
+        "english": {
+            "xy": "Striking opponents over and over makes the user’s fists harder. Hitting a target raises the Attack stat.",
+            "oras": "Striking opponents over and over makes the user’s fists harder. Hitting a target raises the Attack stat.",
+            "sm": "Striking opponents over and over makes the user’s fists harder. Hitting a target raises the Attack stat.",
+            "usum": "Striking opponents over and over makes the user’s fists harder. Hitting a target raises the Attack stat.",
+            "lgpe": "Striking opponents over and over makes the user’s fists harder. Hitting a target raises the Attack stat.",
+            "swsh": "Striking opponents over and over makes the user’s fists harder. Hitting a target raises the Attack stat."
+        },
+        "japanese": {
+            "xy": "繰り返し　打つことで だんだん　こぶしが　固くなる。 相手に　当てると　攻撃が　あがる。",
+            "oras": "繰り返し　打つことで だんだん　こぶしが　固くなる。 相手に　当てると　攻撃が　あがる。",
+            "sm": "繰り返し　打つことで だんだん　こぶしが　固くなる。 相手に　当てると　攻撃が　あがる。",
+            "usum": "繰り返し　打つことで だんだん　こぶしが　固くなる。 相手に　当てると　攻撃が　あがる。",
+            "lgpe": "繰り返し　打つことで だんだん　こぶしが　固くなる。 相手に　当てると　攻撃が　あがる。",
+            "swsh": "繰り返し　打つことで だんだん　こぶしが　固くなる。 相手に　当てると　攻撃が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "oras": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "sm": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "usum": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "lgpe": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+            "swsh": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta."
+        },
+        "traditional-chinese": {
+            "sm": "反覆出拳擊打對手， 使自己的拳頭慢慢變硬。 命中對手時會提高自己的攻擊。",
+            "usum": "反覆出拳擊打對手， 使自己的拳頭慢慢變硬。 命中對手時會提高自己的攻擊。",
+            "lgpe": "反覆出拳擊打對手， 使自己的拳頭慢慢變硬。 命中對手時會提高自己的攻擊。",
+            "swsh": "反覆出拳擊打對手， 使自己的拳頭慢慢變硬。 命中對手時會提高自己的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "通过反复击打对手， 使自己的拳头慢慢变硬。 打中对手攻击就会提高。",
+            "usum": "通过反复击打对手， 使自己的拳头慢慢变硬。 打中对手攻击就会提高。",
+            "lgpe": "通过反复击打对手， 使自己的拳头慢慢变硬。 打中对手攻击就会提高。",
+            "swsh": "通过反复击打对手， 使自己的拳头慢慢变硬。 打中对手攻击就会提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Raises the user’s Attack by one stage.",
+        "shortEffect": "Raises the user’s Attack by one stage after inflicting damage."
+    }
 }

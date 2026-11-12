@@ -1,35 +1,117 @@
 {
-  "_id": 716,
-  "key": "zing-zap",
-  "name": {
-    "english": "Zing Zap",
-    "japanese": "びりびりちくちく",
-    "chinese": "麻麻刺刺",
-    "korean": "찌리리따끔따끔",
-    "german": "Electropunzada",
-    "french": "Elektropikser",
-    "italian": "Zing Zap",
-    "spanish": "Elettropizzico"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "A strong electric blast crashes down on the target,\ngiving it an electric shock. This may also make the\ntarget flinch.",
-    "ultra-sun-ultra-moon": "A strong electric blast crashes down on the target,\ngiving it an electric shock. This may also make the\ntarget flinch.",
-    "lets-go-pikachu-lets-go-eevee": "A strong electric blast crashes down on the target,\ngiving it an electric shock. This may also make the\ntarget flinch.",
-    "sword-shield": "A strong electric blast crashes down on the target,\ngiving it an electric shock. This may also make the\ntarget flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 716,
+    "key": "zing-zap",
+    "name": {
+        "japanese-kana": "びりびりちくちく",
+        "korean": "찌리리따끔따끔",
+        "traditional-chinese": "麻麻刺刺",
+        "french": "Électrikipik",
+        "german": "Elektropikser",
+        "spanish": "Electropunzada",
+        "italian": "Elettropizzico",
+        "english": "Zing Zap",
+        "japanese": "びりびりちくちく",
+        "simplified-chinese": "麻麻刺刺",
+        "latin-american-spanish": "Electropunzada"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "あいてに　ぶつかって　きょうりょくな でんきをあびせ　びりびりちくちく　させる。 あいてを　ひるませる　ことが　ある。",
+            "usum": "あいてに　ぶつかって　きょうりょくな でんきをあびせ　びりびりちくちく　させる。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "あいてに　ぶつかって　きょうりょくな でんきをあびせ　びりびりちくちく　させる。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "あいてに　ぶつかって　きょうりょくな でんきをあびせ　びりびりちくちく　させる。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "sm": "상대에게 부딪쳐 강력한 전기를 날려서 찌리리따끔따끔하게 만든다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "상대에게 부딪쳐 강력한 전기를 날려서 찌리리따끔따끔하게 만든다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "상대에게 부딪쳐 강력한 전기를 날려서 찌리리따끔따끔하게 만든다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "상대에게 부딪쳐 강력한 전기를 날려서 찌리리따끔따끔하게 만든다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "traditional-chinese": {
+            "sm": "撞向對手，並利用 強電流使其感到麻麻刺刺的。 有時會使對手畏縮。",
+            "usum": "撞向對手，並利用 強電流使其感到麻麻刺刺的。 有時會使對手畏縮。",
+            "lgpe": "撞向對手，並利用 強電流使其感到麻麻刺刺的。 有時會使對手畏縮。",
+            "swsh": "撞向對手，並利用 強電流使其感到麻麻刺刺的。 有時會使對手畏縮。"
+        },
+        "french": {
+            "sm": "Le lanceur fonce sur la cible et lui envoie un puissant choc électrique. Peut aussi l’effrayer.",
+            "usum": "Le lanceur fonce sur la cible et lui envoie un puissant choc électrique. Peut aussi l’effrayer.",
+            "lgpe": "Le lanceur fonce sur la cible et lui envoie un puissant choc électrique. Peut aussi l’effrayer.",
+            "swsh": "Le lanceur fonce sur la cible et lui envoie un puissant choc électrique. Peut aussi l’effrayer."
+        },
+        "german": {
+            "sm": "Der Anwender rammt das Ziel und schockt es mit starkem Strom. Das Ziel schreckt eventuell zurück.",
+            "usum": "Der Anwender rammt das Ziel und schockt es mit starkem Strom. Das Ziel schreckt eventuell zurück.",
+            "lgpe": "Der Anwender rammt das Ziel und schockt es mit starkem Strom. Das Ziel schreckt eventuell zurück.",
+            "swsh": "Der Anwender rammt das Ziel und schockt es mit starkem Strom. Das Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "sm": "El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.",
+            "usum": "El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.",
+            "lgpe": "El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.",
+            "swsh": "Se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacer que se amedrente."
+        },
+        "italian": {
+            "sm": "Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.",
+            "usum": "Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.",
+            "lgpe": "Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.",
+            "swsh": "Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare."
+        },
+        "english": {
+            "sm": "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch.",
+            "usum": "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch.",
+            "lgpe": "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch.",
+            "swsh": "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch.",
+            "la": "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch.",
+            "sv": "The user crashes into the target, delivering a powerful electric shock. This may also make the target flinch."
+        },
+        "japanese": {
+            "sm": "相手に　ぶつかって　強力な 電気を浴びせ　びりびりちくちく　させる。 相手を　ひるませる　ことが　ある。",
+            "usum": "相手に　ぶつかって　強力な 電気を浴びせ　びりびりちくちく　させる。 相手を　ひるませる　ことが　ある。",
+            "lgpe": "相手に　ぶつかって　強力な 電気を浴びせ　びりびりちくちく　させる。 相手を　ひるませる　ことが　ある。",
+            "swsh": "相手に　ぶつかって　強力な 電気を浴びせ　びりびりちくちく　させる。 相手を　ひるませる　ことが　ある。"
+        },
+        "simplified-chinese": {
+            "sm": "撞向对手，并发出强电， 使其感到麻麻刺刺的。 有时会使对手畏缩。",
+            "usum": "撞向对手，并发出强电， 使其感到麻麻刺刺的。 有时会使对手畏缩。",
+            "lgpe": "撞向对手，并发出强电， 使其感到麻麻刺刺的。 有时会使对手畏缩。",
+            "swsh": "撞向对手，并发出强电， 使其感到麻麻刺刺的。 有时会使对手畏缩。"
+        },
+        "latin-american-spanish": {
+            "sm": "El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.",
+            "usum": "El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.",
+            "lgpe": "El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.",
+            "swsh": "Se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacer que se amedrente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

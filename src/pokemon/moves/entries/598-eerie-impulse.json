@@ -1,37 +1,135 @@
 {
-  "_id": 598,
-  "key": "eerie-impulse",
-  "name": {
-    "english": "Eerie Impulse",
-    "japanese": "かいでんぱ",
-    "chinese": "怪異電波",
-    "korean": "괴전파",
-    "german": "Onda Anómala",
-    "french": "Mystowellen",
-    "italian": "Eerie Impulse",
-    "spanish": "Elettromistero"
-  },
-  "type": "Electric",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user’s body generates an eerie impulse.\nExposing the target to it harshly lowers\nthe target’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "The user’s body generates an eerie impulse.\nExposing the target to it harshly lowers\nthe target’s Sp. Atk stat.",
-    "sun-moon": "The user’s body generates an eerie impulse.\nExposing the target to it harshly lowers the target’s\nSp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user’s body generates an eerie impulse.\nExposing the target to it harshly lowers the target’s\nSp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user’s body generates an eerie impulse.\nExposing the target to it harshly lowers the target’s\nSp. Atk stat.",
-    "sword-shield": "The user’s body generates an eerie impulse.\nExposing the target to it harshly lowers the target’s\nSp. Atk stat."
-  },
-  "effect": {
-    "full": "Lowers the target's Special Attack by two stages.",
-    "shortEffect": "Lowers the target's Special Attack by two stages."
-  },
-  "priority": 0
+    "_id": 598,
+    "key": "eerie-impulse",
+    "name": {
+        "japanese-kana": "かいでんぱ",
+        "korean": "괴전파",
+        "traditional-chinese": "怪異電波",
+        "french": "Ondes Étranges",
+        "german": "Mystowellen",
+        "spanish": "Onda Anómala",
+        "italian": "Elettromistero",
+        "english": "Eerie Impulse",
+        "japanese": "かいでんぱ",
+        "simplified-chinese": "怪异电波",
+        "latin-american-spanish": "Onda Anómala"
+    },
+    "type": "electric",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "からだから　かいでんぱを　はなち あいてに　あびせる　ことによって とくこうを　がくっと　さげる。",
+            "oras": "からだから　かいでんぱを　はなち あいてに　あびせる　ことによって とくこうを　がくっと　さげる。",
+            "sm": "からだから　かいでんぱを　はなち あいてに　あびせる　ことによって とくこうを　がくっと　さげる。",
+            "usum": "からだから　かいでんぱを　はなち あいてに　あびせる　ことによって とくこうを　がくっと　さげる。",
+            "lgpe": "からだから　かいでんぱを　はなち あいてに　あびせる　ことによって とくこうを　がくっと　さげる。",
+            "swsh": "からだから　かいでんぱを　はなち あいてに　あびせる　ことによって とくこうを　がくっと　さげる。"
+        },
+        "korean": {
+            "xy": "몸에서 괴전파를 내어 상대에게 쏨으로써 특수공격을 크게 떨어뜨린다.",
+            "oras": "몸에서 괴전파를 내어 상대에게 쏨으로써 특수공격을 크게 떨어뜨린다.",
+            "sm": "몸에서 괴전파를 내어 상대에게 쏨으로써 특수공격을 크게 떨어뜨린다.",
+            "usum": "몸에서 괴전파를 내어 상대에게 쏨으로써 특수공격을 크게 떨어뜨린다.",
+            "lgpe": "몸에서 괴전파를 내어 상대에게 쏨으로써 특수공격을 크게 떨어뜨린다.",
+            "swsh": "몸에서 발생시킨 괴전파를 상대에게 쏘아 특수공격을 크게 떨어뜨린다."
+        },
+        "french": {
+            "xy": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent fortement son Attaque Spéciale.",
+            "oras": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent fortement son Attaque Spéciale.",
+            "sm": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent beaucoup son Attaque Spéciale.",
+            "usum": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent beaucoup son Attaque Spéciale.",
+            "lgpe": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent beaucoup son Attaque Spéciale.",
+            "swsh": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent beaucoup son Attaque Spéciale."
+        },
+        "german": {
+            "xy": "Der Körper des Anwenders erzeugt mysteriöse Wellen und senkt den Spezial-Angriff des Zieles dadurch stark.",
+            "oras": "Der Körper des Anwenders erzeugt mysteriöse Wellen und senkt den Spezial-Angriff des Zieles dadurch stark.",
+            "sm": "Der Körper des Anwenders erzeugt mysteriöse Wellen und senkt den Spezial-Angriff des Zieles dadurch stark.",
+            "usum": "Der Körper des Anwenders erzeugt mysteriöse Wellen und senkt den Spezial-Angriff des Zieles dadurch stark.",
+            "lgpe": "Der Körper des Anwenders erzeugt mysteriöse Wellen und senkt den Spezial-Angriff des Zieles dadurch stark.",
+            "swsh": "Der Körper des Anwenders erzeugt mysteriöse Wellen und senkt den Spezial-Angriff des Zieles dadurch stark."
+        },
+        "spanish": {
+            "xy": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "oras": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "sm": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "usum": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "lgpe": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "swsh": "El usuario irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial."
+        },
+        "italian": {
+            "xy": "Il corpo di chi la usa emette onde anomale che investono il bersaglio, riducendone di molto l’Attacco Speciale.",
+            "oras": "Il corpo di chi la usa emette onde anomale che investono il bersaglio, riducendone di molto l’Attacco Speciale.",
+            "sm": "Il corpo di chi la usa emette onde anomale che investono il bersaglio, riducendone di molto l’Attacco Speciale.",
+            "usum": "Il corpo di chi la usa emette onde anomale che investono il bersaglio, riducendone di molto l’Attacco Speciale.",
+            "lgpe": "Il corpo di chi la usa emette onde anomale che investono il bersaglio, riducendone di molto l’Attacco Speciale.",
+            "swsh": "Il corpo di chi la usa emette onde anomale che investono il bersaglio, riducendone di molto l’Attacco Speciale."
+        },
+        "english": {
+            "xy": "The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.",
+            "oras": "The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.",
+            "sm": "The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.",
+            "usum": "The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.",
+            "lgpe": "The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.",
+            "swsh": "The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.",
+            "la": "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat.",
+            "sv": "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat."
+        },
+        "japanese": {
+            "xy": "体から　かいでんぱを　放ち 相手に　浴びせる　ことによって 特攻を　がくっと　さげる。",
+            "oras": "体から　かいでんぱを　放ち 相手に　浴びせる　ことによって 特攻を　がくっと　さげる。",
+            "sm": "体から　かいでんぱを　放ち 相手に　浴びせる　ことによって 特攻を　がくっと　さげる。",
+            "usum": "体から　かいでんぱを　放ち 相手に　浴びせる　ことによって 特攻を　がくっと　さげる。",
+            "lgpe": "体から　かいでんぱを　放ち 相手に　浴びせる　ことによって 特攻を　がくっと　さげる。",
+            "swsh": "体から　かいでんぱを　放ち 相手に　浴びせる　ことによって 特攻を　がくっと　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "oras": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "sm": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "usum": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "lgpe": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+            "swsh": "El usuario irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial."
+        },
+        "traditional-chinese": {
+            "sm": "從身體發出怪異電波 影響對手， 大幅降低對手的特攻。",
+            "usum": "從身體發出怪異電波 影響對手， 大幅降低對手的特攻。",
+            "lgpe": "從身體發出怪異電波 影響對手， 大幅降低對手的特攻。",
+            "swsh": "從身體發出怪異電波 影響對手， 大幅降低對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "从身体放射出怪异电波， 让对手沐浴其中， 从而大幅降低其特攻。",
+            "usum": "从身体放射出怪异电波， 让对手沐浴其中， 从而大幅降低其特攻。",
+            "lgpe": "从身体放射出怪异电波， 让对手沐浴其中， 从而大幅降低其特攻。",
+            "swsh": "从身体放射出怪异电波， 让对手沐浴其中， 从而大幅降低其特攻。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Special Attack by two stages.",
+        "shortEffect": "Lowers the target’s Special Attack by two stages."
+    }
 }

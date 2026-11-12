@@ -1,45 +1,148 @@
 {
-  "_id": 305,
-  "key": "poison-fang",
-  "name": {
-    "english": "Poison Fang",
-    "japanese": "どくどくのキバ",
-    "chinese": "毒液牙",
-    "korean": "독엄니",
-    "german": "Colmillo Veneno",
-    "french": "Giftzahn",
-    "italian": "Poison Fang",
-    "spanish": "Velenodenti"
-  },
-  "type": "Poison",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A sharp-fanged attack.\nMay badly poison the foe.",
-    "emerald": "A sharp-fanged attack.\nMay badly poison the foe.",
-    "firered-leafgreen": "The foe is bitten\nwith toxic fangs.\nIt may also badly\npoison the foe.",
-    "diamond-pearl": "The user bites the\nfoe with toxic fangs.\nIt may also leave the\nfoe badly poisoned.\n",
-    "platinum": "The user bites the\nfoe with toxic fangs.\nIt may also leave the\nfoe badly poisoned.\n",
-    "heartgold-soulsilver": "The user bites the\nfoe with toxic fangs.\nIt may also leave the\nfoe badly poisoned.\n",
-    "black-white": "The user bites the target with toxic\nfangs. It may also leave the target\nbadly poisoned.",
-    "black-2-white-2": "The user bites the target with toxic\nfangs. It may also leave the target\nbadly poisoned.",
-    "x-y": "The user bites the target with toxic\nfangs. This may also leave the target\nbadly poisoned.",
-    "omega-ruby-alpha-sapphire": "The user bites the target with toxic\nfangs. This may also leave the target\nbadly poisoned.",
-    "sun-moon": "The user bites the target with toxic fangs. This may\nalso leave the target badly poisoned.",
-    "ultra-sun-ultra-moon": "The user bites the target with toxic fangs. This may\nalso leave the target badly poisoned.",
-    "lets-go-pikachu-lets-go-eevee": "The user bites the target with toxic fangs. This may\nalso leave the target badly poisoned.",
-    "sword-shield": "The user bites the target with toxic fangs. This may\nalso leave the target badly poisoned."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to badly poison the target.",
-    "shortEffect": "Has a $effect_chance% chance to badly poison the target."
-  },
-  "priority": 0
+    "_id": 305,
+    "key": "poison-fang",
+    "name": {
+        "japanese-kana": "どくどくのキバ",
+        "korean": "맹독엄니",
+        "traditional-chinese": "劇毒牙",
+        "french": "Crochet Venin",
+        "german": "Giftzahn",
+        "spanish": "Colmillo Veneno",
+        "italian": "Velenodenti",
+        "english": "Poison Fang",
+        "japanese": "どくどくのキバ",
+        "simplified-chinese": "剧毒牙",
+        "latin-american-spanish": "Colmillo Veneno"
+    },
+    "type": "poison",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 15,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 50,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "effectChance": 30
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A sharp-fanged attack. May badly poison the foe.",
+            "em": "A sharp-fanged attack. May badly poison the foe.",
+            "frlg": "The foe is bitten with toxic fangs. It may also badly poison the foe.",
+            "dp": "The user bites the foe with toxic fangs. It may also leave the foe badly poisoned.",
+            "pt": "The user bites the foe with toxic fangs. It may also leave the foe badly poisoned.",
+            "hgss": "The user bites the foe with toxic fangs. It may also leave the foe badly poisoned.",
+            "bw": "The user bites the target with toxic fangs. It may also leave the target badly poisoned.",
+            "b2w2": "The user bites the target with toxic fangs. It may also leave the target badly poisoned.",
+            "xy": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+            "oras": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+            "sm": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+            "usum": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+            "lgpe": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+            "swsh": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+            "la": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+            "sv": "The user bites the target with toxic fangs. This may also leave the target badly poisoned."
+        },
+        "french": {
+            "bw": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.",
+            "xy": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.",
+            "oras": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.",
+            "sm": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.",
+            "usum": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.",
+            "lgpe": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.",
+            "swsh": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement."
+        },
+        "japanese-kana": {
+            "xy": "どくの　ある　キバで あいてに　かみついて　こうげきする。 もうどくを　おわせる　ことが　ある。",
+            "oras": "どくの　ある　キバで あいてに　か ついて　こうげきする。 もうどくを　おわせる　ことが　ある。",
+            "sm": "どくの　ある　キバで あいてに　かみついて　こうげきする。 もうどくを　おわせる　ことが　ある。",
+            "usum": "どくの　ある　キバで あいてに　かみついて　こうげきする。 もうどくを　おわせる　ことが　ある。",
+            "lgpe": "どくの　ある　キバで あいてに　かみついて　こうげきする。 もうどくを　おわせる　ことが　ある。",
+            "swsh": "どくの　ある　キバで あいてに　かみついて　こうげきする。 もうどくを　おわせる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다.",
+            "oras": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다.",
+            "sm": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다.",
+            "usum": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다.",
+            "lgpe": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다.",
+            "swsh": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit giftigen Reißzähnen. Das Ziel wird eventuell schwer vergiftet.",
+            "oras": "Angriff mit giftigen Reißzähnen. Das Ziel wird eventuell schwer vergiftet.",
+            "sm": "Angriff mit giftigen Reißzähnen. Das Ziel wird eventuell schwer vergiftet.",
+            "usum": "Angriff mit giftigen Reißzähnen. Das Ziel wird eventuell schwer vergiftet.",
+            "lgpe": "Angriff mit giftigen Reißzähnen. Das Ziel wird eventuell schwer vergiftet.",
+            "swsh": "Angriff mit giftigen Reißzähnen. Das Ziel wird eventuell schwer vergiftet."
+        },
+        "spanish": {
+            "xy": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "oras": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "sm": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "usum": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "lgpe": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "swsh": "Colmillos tóxicos que pueden envenenar gravemente al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.",
+            "oras": "Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.",
+            "sm": "Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.",
+            "usum": "Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.",
+            "lgpe": "Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.",
+            "swsh": "Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo."
+        },
+        "japanese": {
+            "xy": "毒の　ある　キバで 相手に　かみついて　攻撃する。 猛毒を　おわせる　ことが　ある。",
+            "oras": "毒の　ある　キバで 相手に　か ついて　攻撃する。 猛毒を　おわせる　ことが　ある。",
+            "sm": "毒の　ある　キバで 相手に　かみついて　攻撃する。 猛毒を　おわせる　ことが　ある。",
+            "usum": "毒の　ある　キバで 相手に　かみついて　攻撃する。 猛毒を　おわせる　ことが　ある。",
+            "lgpe": "毒の　ある　キバで 相手に　かみついて　攻撃する。 猛毒を　おわせる　ことが　ある。",
+            "swsh": "毒の　ある　キバで 相手に　かみついて　攻撃する。 猛毒を　おわせる　ことが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "oras": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "sm": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "usum": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "lgpe": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+            "swsh": "Colmillos tóxicos que pueden envenenar gravemente al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用有毒的牙齒 咬住對手進行攻擊。 有時會讓對手陷入劇毒狀態。",
+            "usum": "用有毒的牙齒 咬住對手進行攻擊。 有時會讓對手陷入劇毒狀態。",
+            "lgpe": "用有毒的牙齒 咬住對手進行攻擊。 有時會讓對手陷入劇毒狀態。",
+            "swsh": "用有毒的牙齒 咬住對手進行攻擊。 有時會讓對手陷入劇毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用有毒的牙齿 咬住对手进行攻击。 有时会使对手中剧毒。",
+            "usum": "用有毒的牙齿 咬住对手进行攻击。 有时会使对手中剧毒。",
+            "lgpe": "用有毒的牙齿 咬住对手进行攻击。 有时会使对手中剧毒。",
+            "swsh": "用有毒的牙齿 咬住对手进行攻击。 有时会使对手中剧毒。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to badly poison the target.",
+        "shortEffect": "Has a chance to badly poison the target."
+    }
 }

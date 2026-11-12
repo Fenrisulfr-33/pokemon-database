@@ -1,42 +1,141 @@
 {
-  "_id": 359,
-  "key": "hammer-arm",
-  "name": {
-    "english": "Hammer Arm",
-    "japanese": "アームハンマー",
-    "chinese": "臂力拳",
-    "korean": "암해머",
-    "german": "Machada",
-    "french": "Hammerarm",
-    "italian": "Hammer Arm",
-    "spanish": "Martelpugno"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 100,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user swings and\nhits with its strong\nand heavy fist.\nIt lowers the user’s\nSpeed, however.",
-    "platinum": "The user swings and\nhits with its strong\nand heavy fist.\nIt lowers the user’s\nSpeed, however.",
-    "heartgold-soulsilver": "The user swings and\nhits with its strong\nand heavy fist.\nIt lowers the user’s\nSpeed, however.",
-    "black-white": "The user swings and hits with its strong\nand heavy fist.\nIt lowers the user’s Speed, however.",
-    "black-2-white-2": "The user swings and hits with its strong\nand heavy fist.\nIt lowers the user’s Speed, however.",
-    "x-y": "The user swings and hits with its strong\nand heavy fist.\nIt lowers the user’s Speed, however.",
-    "omega-ruby-alpha-sapphire": "The user swings and hits with its strong\nand heavy fist.\nIt lowers the user’s Speed, however.",
-    "sun-moon": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however.",
-    "ultra-sun-ultra-moon": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however.",
-    "lets-go-pikachu-lets-go-eevee": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however.",
-    "sword-shield": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Speed by one stage.",
-    "shortEffect": "Lowers user's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 359,
+    "key": "hammer-arm",
+    "name": {
+        "japanese-kana": "アームハンマー",
+        "korean": "암해머",
+        "traditional-chinese": "臂錘",
+        "french": "Marto-Poing",
+        "german": "Hammerarm",
+        "spanish": "Machada",
+        "italian": "Martelpugno",
+        "english": "Hammer Arm",
+        "japanese": "アームハンマー",
+        "simplified-chinese": "臂锤",
+        "latin-american-spanish": "Brazo Martillo"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+            "pt": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+            "hgss": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+            "bw": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+            "b2w2": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+            "xy": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+            "oras": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+            "sm": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "usum": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "lgpe": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "swsh": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "la": "The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.",
+            "sv": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat."
+        },
+        "french": {
+            "bw": "Le lanceur lâche un puissant coup de poing sur l’ennemi. Réduit la vitesse du lanceur.",
+            "xy": "Le lanceur lâche un puissant coup de poing sur l’ennemi. Réduit la vitesse du lanceur.",
+            "oras": "Le lanceur lâche un puissant coup de poing sur l’ennemi. Réduit la vitesse du lanceur.",
+            "sm": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.",
+            "usum": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.",
+            "lgpe": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.",
+            "swsh": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "oras": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "sm": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "usum": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "lgpe": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "swsh": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。"
+        },
+        "korean": {
+            "xy": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "oras": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "sm": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "usum": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "lgpe": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "swsh": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다."
+        },
+        "german": {
+            "xy": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "oras": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "sm": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "usum": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "lgpe": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "swsh": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders."
+        },
+        "spanish": {
+            "xy": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "oras": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "sm": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "usum": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "lgpe": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "swsh": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con il suo pugno forte e pesante, ma perde Velocità.",
+            "oras": "Chi la usa colpisce il bersaglio con il suo pugno forte e pesante, ma perde Velocità.",
+            "sm": "Chi la usa colpisce il bersaglio con il suo pugno forte e pesante, ma perde Velocità.",
+            "usum": "Chi la usa colpisce il bersaglio con il suo pugno forte e pesante, ma perde Velocità.",
+            "lgpe": "Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la Velocità di chi la usa.",
+            "swsh": "Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la Velocità di chi la usa."
+        },
+        "japanese": {
+            "xy": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "oras": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "sm": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "usum": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "lgpe": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "swsh": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "oras": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "sm": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "usum": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "lgpe": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+            "swsh": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "揮出強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。",
+            "usum": "揮出強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。",
+            "lgpe": "揮舞強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。",
+            "swsh": "揮出強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。"
+        },
+        "simplified-chinese": {
+            "sm": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。",
+            "usum": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。",
+            "lgpe": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。",
+            "swsh": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Speed by one stage.",
+        "shortEffect": "Lowers user’s Speed by one stage."
+    }
 }

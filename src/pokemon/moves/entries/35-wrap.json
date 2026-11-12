@@ -1,47 +1,150 @@
 {
-  "_id": 35,
-  "key": "wrap",
-  "name": {
-    "english": "Wrap",
-    "japanese": "まきつく",
-    "chinese": "捆绑",
-    "korean": "김밥말이",
-    "german": "Constricción",
-    "french": "Wickel",
-    "italian": "Wrap",
-    "spanish": "Avvolgibotta"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 15,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Squeezes the foe\nfor 2-5 turns.",
-    "crystal": "Squeezes the foe\nfor 2-5 turns.",
-    "ruby-sapphire": "Wraps and squeezes the foe\n2 to 5 times with vines, etc.",
-    "emerald": "Wraps and squeezes the foe\n2 to 5 times with vines, etc.",
-    "firered-leafgreen": "A long body or\nvines are used to\nwrap the foe for\ntwo to five turns.",
-    "diamond-pearl": "A long body or vines\nare used to wrap and\nsqueeze the foe for\ntwo to five turns.\n",
-    "platinum": "A long body or vines\nare used to wrap and\nsqueeze the foe for\ntwo to five turns.\n",
-    "heartgold-soulsilver": "A long body or vines\nare used to wrap and\nsqueeze the foe for\ntwo to five turns.\n",
-    "black-white": "A long body or vines are used to wrap and\nsqueeze the target for four to five turns.",
-    "black-2-white-2": "A long body or vines are used to wrap and\nsqueeze the target for four to five turns.",
-    "x-y": "A long body or vines are used to wrap and\nsqueeze the target for four to five turns.",
-    "omega-ruby-alpha-sapphire": "A long body or vines are used to wrap and\nsqueeze the target for four to five turns.",
-    "sun-moon": "A long body, vines, or the like are used to wrap and \nsqueeze the target for four to five turns.",
-    "ultra-sun-ultra-moon": "A long body, vines, or the like are used to wrap and \nsqueeze the target for four to five turns.",
-    "lets-go-pikachu-lets-go-eevee": "A long body, vines, or the like are used to wrap and\nsqueeze the target for four to five turns.",
-    "sword-shield": "A long body, vines, or the like are used to wrap and\nsqueeze the target for four to five turns."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
-    "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
-  },
-  "priority": 0
+    "_id": 35,
+    "key": "wrap",
+    "name": {
+        "japanese-kana": "まきつく",
+        "korean": "김밥말이",
+        "traditional-chinese": "緊束",
+        "french": "Ligotage",
+        "german": "Wickel",
+        "spanish": "Constricción",
+        "italian": "Avvolgibotta",
+        "english": "Wrap",
+        "japanese": "まきつく",
+        "simplified-chinese": "紧束",
+        "latin-american-spanish": "Constricción"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 85
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Squeezes the foe for 2-5 turns.",
+            "cr": "Squeezes the foe for 2-5 turns.",
+            "rs": "Wraps and squeezes the foe 2 to 5 times with vines, etc.",
+            "em": "Wraps and squeezes the foe 2 to 5 times with vines, etc.",
+            "frlg": "A long body or vines are used to wrap the foe for two to five turns.",
+            "dp": "A long body or vines are used to wrap and squeeze the foe for two to five turns.",
+            "pt": "A long body or vines are used to wrap and squeeze the foe for two to five turns.",
+            "hgss": "A long body or vines are used to wrap and squeeze the foe for two to five turns.",
+            "bw": "A long body or vines are used to wrap and squeeze the target for four to five turns.",
+            "b2w2": "A long body or vines are used to wrap and squeeze the target for four to five turns.",
+            "xy": "A long body or vines are used to wrap and squeeze the target for four to five turns.",
+            "oras": "A long body or vines are used to wrap and squeeze the target for four to five turns.",
+            "sm": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+            "usum": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+            "lgpe": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+            "swsh": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+            "la": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+            "sv": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns."
+        },
+        "french": {
+            "bw": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant 4 à 5 tours.",
+            "xy": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours.",
+            "oras": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours.",
+            "sm": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours.",
+            "usum": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours.",
+            "lgpe": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours.",
+            "swsh": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "ながい　からだや　つるなどを　つかって ４ー５ターンの　あいだ あいてに　まきついて　こうげきする。",
+            "oras": "ながい　からだや　つるなどを　つかって ４ー５ターンの　あいだ あいてに　まきついて　こうげきする。",
+            "sm": "ながい　からだや　つるなどを　つかって ４ー５ターンの　あいだ あいてに　まきついて　こうげきする。",
+            "usum": "ながい　からだや　つるなどを　つかって ４ー５ターンの　あいだ あいてに　まきついて　こうげきする。",
+            "lgpe": "ながい　からだや　つるなどを　つかって ４ー５ターンの　あいだ あいてに　まきついて　こうげきする。",
+            "swsh": "ながい　からだや　つるなどを　つかって ４ー５ターンの　あいだ あいてに　まきついて　こうげきする。"
+        },
+        "korean": {
+            "xy": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다.",
+            "oras": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다.",
+            "sm": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다.",
+            "usum": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다.",
+            "lgpe": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다.",
+            "swsh": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다."
+        },
+        "german": {
+            "xy": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem und fügt ihm Schaden zu.",
+            "oras": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem und fügt ihm Schaden zu.",
+            "sm": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem und fügt ihm Schaden zu.",
+            "usum": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem und fügt ihm Schaden zu.",
+            "lgpe": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem und fügt ihm Schaden zu.",
+            "swsh": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem und fügt ihm Schaden zu."
+        },
+        "spanish": {
+            "xy": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "oras": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "sm": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "usum": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "lgpe": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "swsh": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo."
+        },
+        "italian": {
+            "xy": "Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.",
+            "oras": "Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.",
+            "sm": "Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.",
+            "usum": "Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.",
+            "lgpe": "Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.",
+            "swsh": "Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni."
+        },
+        "japanese": {
+            "xy": "長い　体や　つるなどを　つかって ４ー５ターンの　あいだ 相手に　まきついて　攻撃する。",
+            "oras": "長い　体や　つるなどを　つかって ４ー５ターンの　あいだ 相手に　まきついて　攻撃する。",
+            "sm": "長い　体や　つるなどを　使って ４ー５ターンの　間 相手に　まきついて　攻撃する。",
+            "usum": "長い　体や　つるなどを　使って ４ー５ターンの　間 相手に　まきついて　攻撃する。",
+            "lgpe": "長い　体や　つるなどを　使って ４ー５ターンの　間 相手に　まきついて　攻撃する。",
+            "swsh": "長い　体や　つるなどを　使って ４ー５ターンの　間 相手に　まきついて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "oras": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "sm": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "usum": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "lgpe": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+            "swsh": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo."
+        },
+        "traditional-chinese": {
+            "sm": "使用長長的身體或藤蔓等， 在４～５回合內 緊束對手進行攻擊。",
+            "usum": "使用長長的身體或藤蔓等， 在４～５回合內 緊束對手進行攻擊。",
+            "lgpe": "使用長長的身體或藤蔓等， 在４～５回合內 緊束對手進行攻擊。",
+            "swsh": "使用長長的身體或藤蔓等， 在４～５回合內 緊束對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "使用长长的身体或藤蔓等， 在４～５回合内 紧束对手进行攻击。",
+            "usum": "使用长长的身体或藤蔓等， 在４～５回合内 紧束对手进行攻击。",
+            "lgpe": "使用长长的身体或藤蔓等， 在４～５回合内 紧束对手进行攻击。",
+            "swsh": "使用长长的身体或藤蔓等， 在４～５回合内 紧束对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

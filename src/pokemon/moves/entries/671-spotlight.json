@@ -1,35 +1,115 @@
 {
-  "_id": 671,
-  "key": "spotlight",
-  "name": {
-    "english": "Spotlight",
-    "japanese": "スポットライト",
-    "chinese": "聚光燈",
-    "korean": "스포트라이트",
-    "german": "Foco",
-    "french": "Rampenlicht",
-    "italian": "Spotlight",
-    "spanish": "Riflettore"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user shines a spotlight on the target so that\nonly the target will be attacked during the turn.",
-    "ultra-sun-ultra-moon": "The user shines a spotlight on the target so that\nonly the target will be attacked during the turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user shines a spotlight on the target so that\nonly the target will be attacked during the turn.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "For the duration of the turn, if the target is also a valid target for a move used by one of its opponents, that move will target it instead.",
-    "shortEffect": "Forces the target's opponents to aim at the target for the rest of the turn."
-  },
-  "priority": 3
+    "_id": 671,
+    "key": "spotlight",
+    "name": {
+        "japanese-kana": "スポットライト",
+        "korean": "스포트라이트",
+        "traditional-chinese": "聚光燈",
+        "french": "Projecteur",
+        "german": "Rampenlicht",
+        "spanish": "Foco",
+        "italian": "Riflettore",
+        "english": "Spotlight",
+        "japanese": "スポットライト",
+        "simplified-chinese": "聚光灯",
+        "latin-american-spanish": "Foco"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 3,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "ポケモンに　スポットライトを　あて そのターンに　そのポケモンしか ねらえない　ようにする。",
+            "usum": "ポケモンに　スポットライトを　あて そのターンに　そのポケモンしか ねらえない　ようにする。",
+            "lgpe": "ポケモンに　スポットライトを　あて そのターンに　そのポケモンしか ねらえない　ようにする。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "sm": "포켓몬에게 스포트라이트를 비춰 그 턴에서 그 포켓몬만 공격할 수 있게 한다.",
+            "usum": "포켓몬에게 스포트라이트를 비춰 그 턴에서 그 포켓몬만 공격할 수 있게 한다.",
+            "lgpe": "포켓몬에게 스포트라이트를 비춰 그 턴에서 그 포켓몬만 공격할 수 있게 한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "sm": "幫寶可夢打聚光燈， 該回合只能瞄準該寶可夢。",
+            "usum": "幫寶可夢打聚光燈， 該回合只能瞄準該寶可夢。",
+            "lgpe": "幫寶可夢打聚光燈， 該回合只能瞄準該寶可夢。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "sm": "Met un Pokémon sous le feu des projecteurs et force tout le monde à le viser.",
+            "usum": "Met un Pokémon sous le feu des projecteurs et force tout le monde à le viser.",
+            "lgpe": "Met un Pokémon sous le feu des projecteurs et force tout le monde à le viser.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "sm": "Der Anwender lenkt die Aufmerksamkeit auf das Ziel, sodass in dieser Runde nur noch dieses Pokémon angegriffen wird.",
+            "usum": "Der Anwender lenkt die Aufmerksamkeit auf das Ziel, sodass in dieser Runde nur noch dieses Pokémon angegriffen wird.",
+            "lgpe": "Der Anwender lenkt die Aufmerksamkeit auf das Ziel, sodass in dieser Runde nur noch dieses Pokémon angegriffen wird.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "sm": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él.",
+            "usum": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él.",
+            "lgpe": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "sm": "Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.",
+            "usum": "Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.",
+            "lgpe": "Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "sm": "The user shines a spotlight on the target so that only the target will be attacked during the turn.",
+            "usum": "The user shines a spotlight on the target so that only the target will be attacked during the turn.",
+            "lgpe": "The user shines a spotlight on the target so that only the target will be attacked during the turn.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "sm": "ポケモンに　スポットライトを　当て そのターンに　そのポケモンしか 狙えない　ようにする。",
+            "usum": "ポケモンに　スポットライトを　当て そのターンに　そのポケモンしか 狙えない　ようにする。",
+            "lgpe": "ポケモンに　スポットライトを　当て そのターンに　そのポケモンしか 狙えない　ようにする。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "sm": "给宝可梦打上聚光灯， 该回合只能瞄准该宝可梦。",
+            "usum": "给宝可梦打上聚光灯， 该回合只能瞄准该宝可梦。",
+            "lgpe": "给宝可梦打上聚光灯， 该回合只能瞄准该宝可梦。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "sm": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él.",
+            "usum": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él.",
+            "lgpe": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "For the duration of the turn, if the target is also a valid target for a move used by one of its opponents, that move will target it instead.",
+        "shortEffect": "Forces the target’s opponents to aim at the target for the rest of the turn."
+    }
 }

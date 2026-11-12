@@ -1,47 +1,144 @@
 {
-  "_id": 171,
-  "key": "nightmare",
-  "name": {
-    "english": "Nightmare",
-    "japanese": "あくむ",
-    "chinese": "恶梦",
-    "korean": "악몽",
-    "german": "Pesadilla",
-    "french": "Nachtmahr",
-    "italian": "Nightmare",
-    "spanish": "Incubo"
-  },
-  "type": "Ghost",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A sleeper loses\n1/4 HP every turn.",
-    "crystal": "A sleeper loses\n1/4 HP every turn.",
-    "ruby-sapphire": "Inflicts 1/4 damage on a\nsleeping foe every turn.",
-    "emerald": "Inflicts 1/4 damage on a\nsleeping foe every turn.",
-    "firered-leafgreen": "A sleeping foe is\nshown a nightmare\nthat inflicts some\ndamage every turn.",
-    "diamond-pearl": "A sleeping foe is\nshown a nightmare\nthat inflicts some\ndamage every turn.\n",
-    "platinum": "A sleeping foe is\nshown a nightmare\nthat inflicts some\ndamage every turn.\n",
-    "heartgold-soulsilver": "A sleeping foe is\nshown a nightmare\nthat inflicts some\ndamage every turn.\n",
-    "black-white": "A sleeping target sees a nightmare\nthat inflicts some damage every turn.",
-    "black-2-white-2": "A sleeping target sees a nightmare\nthat inflicts some damage every turn.",
-    "x-y": "A sleeping target sees a nightmare\nthat inflicts some damage every turn.",
-    "omega-ruby-alpha-sapphire": "A sleeping target sees a nightmare\nthat inflicts some damage every turn.",
-    "sun-moon": "A sleeping target sees a nightmare that inflicts some\ndamage every turn.",
-    "ultra-sun-ultra-moon": "A sleeping target sees a nightmare that inflicts some\ndamage every turn.",
-    "lets-go-pikachu-lets-go-eevee": "A sleeping target sees a nightmare that inflicts some\ndamage every turn.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Only works on sleeping Pokémon.  Gives the target a nightmare, damaging it for 1/4 its max HP every turn.  If the target wakes up or leaves the field, this effect ends.",
-    "shortEffect": "Target loses 1/4 its max HP every turn as long as it's asleep."
-  },
-  "priority": 0
+    "_id": 171,
+    "key": "nightmare",
+    "name": {
+        "japanese-kana": "あくむ",
+        "korean": "악몽",
+        "traditional-chinese": "惡夢",
+        "french": "Cauchemar",
+        "german": "Nachtmahr",
+        "spanish": "Pesadilla",
+        "italian": "Incubo",
+        "english": "Nightmare",
+        "japanese": "あくむ",
+        "simplified-chinese": "恶梦",
+        "latin-american-spanish": "Pesadilla"
+    },
+    "type": "ghost",
+    "category": "status",
+    "contest": "smart",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "nightmare",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A sleeper loses 1/4 HP every turn.",
+            "cr": "A sleeper loses 1/4 HP every turn.",
+            "rs": "Inflicts 1/4 damage on a sleeping foe every turn.",
+            "em": "Inflicts 1/4 damage on a sleeping foe every turn.",
+            "frlg": "A sleeping foe is shown a nightmare that inflicts some damage every turn.",
+            "dp": "A sleeping foe is shown a nightmare that inflicts some damage every turn.",
+            "pt": "A sleeping foe is shown a nightmare that inflicts some damage every turn.",
+            "hgss": "A sleeping foe is shown a nightmare that inflicts some damage every turn.",
+            "bw": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+            "b2w2": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+            "xy": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+            "oras": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+            "sm": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+            "usum": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+            "lgpe": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Un cauchemar qui inflige des dégâts à chaque tour à un ennemi endormi.",
+            "xy": "Un cauchemar qui inflige des dégâts à chaque tour à un ennemi endormi.",
+            "oras": "Un cauchemar qui inflige des dégâts à chaque tour à un ennemi endormi.",
+            "sm": "Un cauchemar qui inflige des dégâts à chaque tour à un ennemi endormi.",
+            "usum": "Un cauchemar qui inflige des dégâts à chaque tour à un ennemi endormi.",
+            "lgpe": "Un cauchemar qui inflige des dégâts à chaque tour à un ennemi endormi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ねむり　じょうたいの　あいてに あくむを　みせて　まいターン　すこしずつ ＨＰを　へらしていく。",
+            "oras": "ねむり　じょうたいの　あいてに あくむを　 せて　まいターン　すこしずつ ＨＰを　へらしていく。",
+            "sm": "ねむり　じょうたいの　あいてに あくむを　みせて　まいターン　すこしずつ ＨＰを　へらしていく。",
+            "usum": "ねむり　じょうたいの　あいてに あくむを　みせて　まいターン　すこしずつ ＨＰを　へらしていく。",
+            "lgpe": "ねむり　じょうたいの　あいてに あくむを　みせて　まいターン　すこしずつ ＨＰを　へらしていく。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "잠듦 상태의 상대에게 악몽을 꾸게 하여 매 턴 조금씩 HP를 떨어뜨려 간다.",
+            "oras": "잠듦 상태의 상대에게 악몽을 꾸게 하여 매 턴 조금씩 HP를 떨어뜨려 간다.",
+            "sm": "잠듦 상태의 상대에게 악몽을 꾸게 하여 매 턴 조금씩 HP를 떨어뜨려 간다.",
+            "usum": "잠듦 상태의 상대에게 악몽을 꾸게 하여 매 턴 조금씩 HP를 떨어뜨려 간다.",
+            "lgpe": "잠듦 상태의 상대에게 악몽을 꾸게 하여 매 턴 조금씩 HP를 떨어뜨려 간다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Dem schlafenden Ziel wird durch einen Alptraum in jeder Runde Schaden zugefügt, solang es schläft.",
+            "oras": "Dem schlafenden Ziel wird durch einen Alptraum in jeder Runde Schaden zugefügt, solang es schläft.",
+            "sm": "Dem schlafenden Ziel wird durch einen Alptraum in jeder Runde Schaden zugefügt, solang es schläft.",
+            "usum": "Dem schlafenden Ziel wird durch einen Alptraum in jeder Runde Schaden zugefügt, solang es schläft.",
+            "lgpe": "Dem schlafenden Ziel wird durch einen Alptraum in jeder Runde Schaden zugefügt, solang es schläft.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "oras": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "sm": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "usum": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "lgpe": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Il bersaglio addormentato ha un incubo e perde PS a ogni turno.",
+            "oras": "Il bersaglio addormentato ha un incubo e perde PS a ogni turno.",
+            "sm": "Il bersaglio addormentato ha un incubo e perde PS a ogni turno.",
+            "usum": "Il bersaglio addormentato ha un incubo e perde PS a ogni turno.",
+            "lgpe": "Il bersaglio addormentato ha un incubo e perde PS a ogni turno.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "眠り状態の　相手に 悪夢を　みせて　毎ターン　少しずつ ＨＰを　減らしていく。",
+            "oras": "眠り状態の　相手に 悪夢を　 せて　毎ターン　少しずつ ＨＰを　減らしていく。",
+            "sm": "眠り状態の　相手に 悪夢を　みせて　毎ターン　少しずつ ＨＰを　減らしていく。",
+            "usum": "眠り状態の　相手に 悪夢を　みせて　毎ターン　少しずつ ＨＰを　減らしていく。",
+            "lgpe": "眠り状態の　相手に 悪夢を　みせて　毎ターン　少しずつ ＨＰを　減らしていく。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "oras": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "sm": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "usum": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "lgpe": "El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "讓處於睡眠狀態的對手作惡夢， 每回合減少一部分ＨＰ。",
+            "usum": "讓處於睡眠狀態的對手作惡夢， 每回合減少一部分ＨＰ。",
+            "lgpe": "讓處於睡眠狀態的對手作惡夢， 每回合減少一部分HP。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "让在睡眠状态下的对手做恶梦， 每回合会缓缓减少ＨＰ。",
+            "usum": "让在睡眠状态下的对手做恶梦， 每回合会缓缓减少ＨＰ。",
+            "lgpe": "让在睡眠状态下的对手做恶梦， 每回合会缓缓减少HP。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Only works on sleeping Pokémon.  Gives the target a nightmare, damaging it for 1/4 its max HP every turn.  If the target wakes up or leaves the field, this effect ends.",
+        "shortEffect": "Target loses 1/4 its max HP every turn as long as it’s asleep."
+    }
 }

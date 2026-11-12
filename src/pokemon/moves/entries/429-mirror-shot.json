@@ -1,42 +1,139 @@
 {
-  "_id": 429,
-  "key": "mirror-shot",
-  "name": {
-    "english": "Mirror Shot",
-    "japanese": "ミラーショット",
-    "chinese": "镜光射击",
-    "korean": "미러숏",
-    "german": "Disparo Espejo",
-    "french": "Spiegelsalve",
-    "italian": "Mirror Shot",
-    "spanish": "Cristalcolpo"
-  },
-  "type": "Steel",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 10,
-  "power": 65,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user looses a\nflash of energy from\nits polished body.\nIt may also lower the\ntarget’s accuracy.",
-    "platinum": "The user looses a\nflash of energy from\nits polished body.\nIt may also lower the\ntarget’s accuracy.",
-    "heartgold-soulsilver": "The user looses a\nflash of energy from\nits polished body.\nIt may also lower the\ntarget’s accuracy.",
-    "black-white": "The user looses a flash of energy at\nthe target from its polished body.\nIt may also lower the target’s accuracy.",
-    "black-2-white-2": "The user looses a flash of energy at\nthe target from its polished body.\nIt may also lower the target’s accuracy.",
-    "x-y": "The user lets loose a flash of energy at\nthe target from its polished body.\nThis may also lower the target’s accuracy.",
-    "omega-ruby-alpha-sapphire": "The user lets loose a flash of energy at\nthe target from its polished body.\nThis may also lower the target’s accuracy.",
-    "sun-moon": "The user lets loose a flash of energy at the target\nfrom its polished body. This may also lower the\ntarget’s accuracy.",
-    "ultra-sun-ultra-moon": "The user lets loose a flash of energy at the target\nfrom its polished body. This may also lower the\ntarget’s accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets loose a flash of energy at the target\nfrom its polished body. This may also lower the\ntarget’s accuracy.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 429,
+    "key": "mirror-shot",
+    "name": {
+        "japanese-kana": "ミラーショット",
+        "korean": "미러샷",
+        "traditional-chinese": "鏡光射擊",
+        "french": "Miroi-Tir",
+        "german": "Spiegelsalve",
+        "spanish": "Disparo Espejo",
+        "italian": "Cristalcolpo",
+        "english": "Mirror Shot",
+        "japanese": "ミラーショット",
+        "simplified-chinese": "镜光射击",
+        "latin-american-spanish": "Disparo Espejo"
+    },
+    "type": "steel",
+    "category": "special",
+    "contest": "cute",
+    "pp": 10,
+    "power": 65,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 30
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user looses a flash of energy from its polished body. It may also lower the target’s accuracy.",
+            "pt": "The user looses a flash of energy from its polished body. It may also lower the target’s accuracy.",
+            "hgss": "The user looses a flash of energy from its polished body. It may also lower the target’s accuracy.",
+            "bw": "The user looses a flash of energy at the target from its polished body. It may also lower the target’s accuracy.",
+            "b2w2": "The user looses a flash of energy at the target from its polished body. It may also lower the target’s accuracy.",
+            "xy": "The user lets loose a flash of energy at the target from its polished body. This may also lower the target’s accuracy.",
+            "oras": "The user lets loose a flash of energy at the target from its polished body. This may also lower the target’s accuracy.",
+            "sm": "The user lets loose a flash of energy at the target from its polished body. This may also lower the target’s accuracy.",
+            "usum": "The user lets loose a flash of energy at the target from its polished body. This may also lower the target’s accuracy.",
+            "lgpe": "The user lets loose a flash of energy at the target from its polished body. This may also lower the target’s accuracy.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le corps poli du lanceur libère un éclair d’énergie. Peut aussi baisser la Précision de l’ennemi.",
+            "xy": "Le corps poli du lanceur libère un éclair d’énergie. Peut aussi baisser la Précision de l’ennemi.",
+            "oras": "Le corps poli du lanceur libère un éclair d’énergie. Peut aussi baisser la Précision de l’ennemi.",
+            "sm": "Le corps poli du lanceur libère un éclair d’énergie. Peut aussi baisser la Précision de l’ennemi.",
+            "usum": "Le corps poli du lanceur libère un éclair d’énergie. Peut aussi baisser la Précision de l’ennemi.",
+            "lgpe": "Le corps poli du lanceur libère un éclair d’énergie. Peut aussi baisser la Précision de l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "みがき　あげられた　からだから せんこうの　ちからを　あいてに　はなつ。 めいちゅうりつを　さげることが　ある。",
+            "oras": "がき　あげられた　からだから せんこうの　ちからを　あいてに　はなつ。 めいちゅうりつを　さげることが　ある。",
+            "sm": "みがき　あげられた　からだから せんこうの　ちからを　あいてに　はなつ。 めいちゅうりつを　さげることが　ある。",
+            "usum": "みがき　あげられた　からだから せんこうの　ちからを　あいてに　はなつ。 めいちゅうりつを　さげることが　ある。",
+            "lgpe": "みがき　あげられた　からだから せんこうの　ちからを　あいてに　はなつ。 めいちゅうりつを　さげることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "갈고 닦은 몸에서 섬광의 힘을 상대에게 쏜다. 명중률을 떨어뜨릴 때가 있다.",
+            "oras": "갈고닦은 몸에서 섬광의 힘을 상대에게 쏜다. 명중률을 떨어뜨릴 때가 있다.",
+            "sm": "갈고닦은 몸에서 섬광의 힘을 상대에게 쏜다. 명중률을 떨어뜨릴 때가 있다.",
+            "usum": "갈고닦은 몸에서 섬광의 힘을 상대에게 쏜다. 명중률을 떨어뜨릴 때가 있다.",
+            "lgpe": "갈고닦은 몸에서 섬광의 힘을 상대에게 쏜다. 명중률을 떨어뜨릴 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender feuert Energiestrahl aus seinem Körper ab. Senkt eventuell Genauigkeit des Zieles.",
+            "oras": "Anwender feuert Energiestrahl aus seinem Körper ab. Senkt eventuell Genauigkeit des Zieles.",
+            "sm": "Anwender feuert Energiestrahl aus seinem Körper ab. Senkt eventuell Genauigkeit des Zieles.",
+            "usum": "Anwender feuert Energiestrahl aus seinem Körper ab. Senkt eventuell Genauigkeit des Zieles.",
+            "lgpe": "Anwender feuert Energiestrahl aus seinem Körper ab. Senkt eventuell Genauigkeit des Zieles.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "oras": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "sm": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "usum": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "lgpe": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa rilascia fasci d’energia dal corpo levigato. Può anche ridurre la precisione del bersaglio.",
+            "oras": "Chi la usa rilascia fasci d’energia dal corpo levigato. Può anche ridurre la precisione del bersaglio.",
+            "sm": "Chi la usa rilascia fasci d’energia dal corpo levigato. Può anche ridurre la precisione del bersaglio.",
+            "usum": "Chi la usa rilascia fasci d’energia dal corpo levigato. Può anche ridurre la precisione del bersaglio.",
+            "lgpe": "Chi la usa rilascia fasci d’energia dal corpo levigato. Può anche ridurre la precisione del bersaglio.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "磨きあげられた　体から せん光の　力を　相手に　放つ。 命中率を　さげることが　ある。",
+            "oras": "磨きあげられた　体から せん光の　力を　相手に　放つ。 命中率を　さげることが　ある。",
+            "sm": "磨きあげられた　体から せん光の　力を　相手に　放つ。 命中率を　さげることが　ある。",
+            "usum": "磨きあげられた　体から せん光の　力を　相手に　放つ。 命中率を　さげることが　ある。",
+            "lgpe": "磨きあげられた　体から せん光の　力を　相手に　放つ。 命中率を　さげることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "oras": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "sm": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "usum": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "lgpe": "El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用磨得亮晶晶的身體 向對手放出閃光之力進行攻擊。 有時會降低對手的命中率。",
+            "usum": "用磨得亮晶晶的身體 向對手放出閃光之力進行攻擊。 有時會降低對手的命中率。",
+            "lgpe": "用磨得亮晶晶的身體 向對手放出閃光之力進行攻擊。 有時會降低對手的命中率。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "抛光自己的身体， 向对手释放出闪光之力。 有时会降低对手的命中率。",
+            "usum": "抛光自己的身体， 向对手释放出闪光之力。 有时会降低对手的命中率。",
+            "lgpe": "抛光自己的身体， 向对手释放出闪光之力。 有时会降低对手的命中率。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s accuracy by one stage.",
+        "shortEffect": "Has a chance to lower the target’s accuracy by one stage."
+    }
 }

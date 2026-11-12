@@ -1,47 +1,151 @@
 {
-  "_id": 44,
-  "key": "bite",
-  "name": {
-    "english": "Bite",
-    "japanese": "かみつく",
-    "chinese": "咬咬",
-    "korean": "물기",
-    "german": "Mordisco",
-    "french": "Biss",
-    "italian": "Bite",
-    "spanish": "Morso"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 25,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause flinching.",
-    "crystal": "An attack that may\ncause flinching.",
-    "ruby-sapphire": "Bites with vicious fangs.\nMay cause flinching.",
-    "emerald": "Bites with vicious fangs.\nMay cause flinching.",
-    "firered-leafgreen": "The user bites with\nvicious fangs.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "The foe is bitten with\nviciously sharp fangs.\nIt may make the\ntarget flinch.\n",
-    "platinum": "The foe is bitten with\nviciously sharp fangs.\nIt may make the\ntarget flinch.\n",
-    "heartgold-soulsilver": "The foe is bitten with\nviciously sharp fangs.\nIt may make the\ntarget flinch.\n",
-    "black-white": "The target is bitten\nwith viciously sharp fangs.\nIt may make the target flinch.",
-    "black-2-white-2": "The target is bitten\nwith viciously sharp fangs.\nIt may make the target flinch.",
-    "x-y": "The target is bitten\nwith viciously sharp fangs.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The target is bitten\nwith viciously sharp fangs.\nThis may also make the target flinch.",
-    "sun-moon": "The target is bitten with viciously sharp fangs.\nThis may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The target is bitten with viciously sharp fangs.\nThis may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The target is bitten with viciously sharp fangs.\nThis may also make the target flinch.",
-    "sword-shield": "The target is bitten with viciously sharp fangs.\nThis may also make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 44,
+    "key": "bite",
+    "name": {
+        "japanese-kana": "かみつく",
+        "korean": "물기",
+        "traditional-chinese": "咬住",
+        "french": "Morsure",
+        "german": "Biss",
+        "spanish": "Mordisco",
+        "italian": "Morso",
+        "english": "Bite",
+        "japanese": "かみつく",
+        "simplified-chinese": "咬住",
+        "latin-american-spanish": "Mordida"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 25,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 10,
+            "type": "normal"
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause flinching.",
+            "cr": "An attack that may cause flinching.",
+            "rs": "Bites with vicious fangs. May cause flinching.",
+            "em": "Bites with vicious fangs. May cause flinching.",
+            "frlg": "The user bites with vicious fangs. It may make the foe flinch.",
+            "dp": "The foe is bitten with viciously sharp fangs. It may make the target flinch.",
+            "pt": "The foe is bitten with viciously sharp fangs. It may make the target flinch.",
+            "hgss": "The foe is bitten with viciously sharp fangs. It may make the target flinch.",
+            "bw": "The target is bitten with viciously sharp fangs. It may make the target flinch.",
+            "b2w2": "The target is bitten with viciously sharp fangs. It may make the target flinch.",
+            "xy": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+            "oras": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+            "sm": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+            "usum": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+            "lgpe": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+            "swsh": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+            "la": "The user bites the target with viciously sharp fangs to inflict damage.",
+            "sv": "The target is bitten with viciously sharp fangs. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.",
+            "xy": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.",
+            "oras": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.",
+            "sm": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.",
+            "usum": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.",
+            "lgpe": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.",
+            "swsh": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "するどく　とがった　はで かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "するどく　とがった　はで か ついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "するどく　とがった　はで かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "するどく　とがった　はで かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "するどく　とがった　はで かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "するどく　とがった　はで かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Beißt zu und lässt das Ziel eventuell zurückschrecken.",
+            "oras": "Beißt zu und lässt das Ziel eventuell zurückschrecken.",
+            "sm": "Beißt zu und lässt das Ziel eventuell zurückschrecken.",
+            "usum": "Beißt zu und lässt das Ziel eventuell zurückschrecken.",
+            "lgpe": "Beißt zu und lässt das Ziel eventuell zurückschrecken.",
+            "swsh": "Beißt zu und lässt das Ziel eventuell zurückschrecken."
+        },
+        "spanish": {
+            "xy": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "oras": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "sm": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "usum": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "lgpe": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "swsh": "Un voraz bocado que puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare.",
+            "oras": "Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare.",
+            "sm": "Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare.",
+            "usum": "Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare.",
+            "lgpe": "Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare.",
+            "swsh": "Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare."
+        },
+        "japanese": {
+            "xy": "鋭く　とがった　歯で かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "鋭く　とがった　歯で か ついて　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "鋭く　とがった　歯で かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "鋭く　とがった　歯で かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "鋭く　とがった　歯で かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "鋭く　とがった　歯で かみついて　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "oras": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "sm": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "usum": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "lgpe": "Un voraz bocado que puede hacer retroceder al objetivo.",
+            "swsh": "Un voraz bocado que puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用尖銳的牙齒 咬住對手進行攻擊。 有時會使對手畏縮。",
+            "usum": "用尖銳的牙齒 咬住對手進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "用尖銳的牙齒 咬住對手進行攻擊。 有時會使對手畏縮。",
+            "swsh": "用尖銳的牙齒 咬住對手進行攻擊。 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖锐的牙 咬住对手进行攻击。 有时会使对手畏缩。",
+            "usum": "用尖锐的牙 咬住对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用尖锐的牙 咬住对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "用尖锐的牙 咬住对手进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

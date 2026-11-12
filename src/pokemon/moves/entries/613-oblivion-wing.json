@@ -1,37 +1,133 @@
 {
-  "_id": 613,
-  "key": "oblivion-wing",
-  "name": {
-    "english": "Oblivion Wing",
-    "japanese": "デスウイング",
-    "chinese": "死亡之翼",
-    "korean": "데스윙",
-    "german": "Ala Mortífera",
-    "french": "Unheilsschwingen",
-    "italian": "Oblivion Wing",
-    "spanish": "Ali del Fato"
-  },
-  "type": "Flying",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user absorbs its target’s HP.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
-    "omega-ruby-alpha-sapphire": "The user absorbs its target’s HP.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
-    "sun-moon": "The user absorbs its target’s HP. The user’s HP is\nrestored by over half of the damage taken by\nthe target.",
-    "ultra-sun-ultra-moon": "The user absorbs its target’s HP. The user’s HP is\nrestored by over half of the damage taken by\nthe target.",
-    "lets-go-pikachu-lets-go-eevee": "The user absorbs its target’s HP. The user’s HP is\nrestored by over half of the damage taken by\nthe target.",
-    "sword-shield": "The user absorbs its target’s HP. The user’s HP is\nrestored by over half of the damage taken by\nthe target."
-  },
-  "effect": {
-    "full": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
-    "shortEffect": "Drains 75% of the damage inflicted to heal the user."
-  },
-  "priority": 0
+    "_id": 613,
+    "key": "oblivion-wing",
+    "name": {
+        "japanese-kana": "デスウイング",
+        "korean": "데스윙",
+        "traditional-chinese": "死亡之翼",
+        "french": "Mort’Ailes",
+        "german": "Unheilsschwingen",
+        "spanish": "Ala Mortífera",
+        "italian": "Ali del Fato",
+        "english": "Oblivion Wing",
+        "japanese": "デスウイング",
+        "simplified-chinese": "归天之翼",
+        "latin-american-spanish": "Ala del Olvido"
+    },
+    "type": "flying",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 75,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ねらいを　さだめた　あいてから　ＨＰを すいとる。あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "oras": "ねらいを　さだめた　あいてから　ＨＰを すいとる。あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "sm": "ねらいを　さだめた　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "usum": "ねらいを　さだめた　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "lgpe": "ねらいを　さだめた　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+            "swsh": "ねらいを　さだめた　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。"
+        },
+        "korean": {
+            "xy": "조준한 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "oras": "조준한 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "sm": "조준한 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "usum": "조준한 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "lgpe": "조준한 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+            "swsh": "조준한 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다."
+        },
+        "french": {
+            "xy": "Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "oras": "Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "sm": "Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "usum": "Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "lgpe": "Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+            "swsh": "Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés."
+        },
+        "german": {
+            "xy": "Der Anwender raubt dem Ziel KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "oras": "Der Anwender raubt dem Ziel KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "sm": "Der Anwender raubt dem Ziel KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "usum": "Der Anwender raubt dem Ziel KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "lgpe": "Der Anwender raubt dem Ziel KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+            "swsh": "Der Anwender raubt dem Ziel KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens."
+        },
+        "spanish": {
+            "xy": "El usuario absorbe energía del Pokémon objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "oras": "El usuario absorbe energía del Pokémon objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "sm": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "usum": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "lgpe": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "swsh": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido."
+        },
+        "italian": {
+            "xy": "Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.",
+            "oras": "Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.",
+            "sm": "Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.",
+            "usum": "Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.",
+            "lgpe": "Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.",
+            "swsh": "Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto."
+        },
+        "english": {
+            "xy": "The user absorbs its target’s HP. The user’s HP is restored by over half of the damage taken by the target.",
+            "oras": "The user absorbs its target’s HP. The user’s HP is restored by over half of the damage taken by the target.",
+            "sm": "The user absorbs its target’s HP. The user’s HP is restored by over half of the damage taken by the target.",
+            "usum": "The user absorbs its target’s HP. The user’s HP is restored by over half of the damage taken by the target.",
+            "lgpe": "The user absorbs its target’s HP. The user’s HP is restored by over half of the damage taken by the target.",
+            "swsh": "The user absorbs its target’s HP. The user’s HP is restored by over half of the damage taken by the target."
+        },
+        "japanese": {
+            "xy": "ねらいを　定めた　相手から　ＨＰを 吸い取る。与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "oras": "ねらいを　定めた　相手から　ＨＰを 吸い取る。与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "sm": "ねらいを　定めた　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "usum": "ねらいを　定めた　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "lgpe": "ねらいを　定めた　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+            "swsh": "ねらいを　定めた　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario absorbe energía del Pokémon objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "oras": "El usuario absorbe energía del Pokémon objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "sm": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "usum": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "lgpe": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+            "swsh": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido."
+        },
+        "traditional-chinese": {
+            "sm": "從鎖定的對手身上吸取ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。",
+            "usum": "從鎖定的對手身上吸取ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。",
+            "lgpe": "從鎖定的對手身上吸取HP。 可以回復給予對手 傷害的一半以上的HP。",
+            "swsh": "從鎖定的對手身上吸取ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "从锁定的对手身上吸取ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。",
+            "usum": "从锁定的对手身上吸取ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。",
+            "lgpe": "从锁定的对手身上吸取HP。 回复给予对手 伤害的一半以上的HP。",
+            "swsh": "从锁定的对手身上吸取ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
+        "shortEffect": "Drains 75% of the damage inflicted to heal the user."
+    }
 }

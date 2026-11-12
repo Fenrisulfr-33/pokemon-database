@@ -1,39 +1,138 @@
 {
-  "_id": 509,
-  "key": "circle-throw",
-  "name": {
-    "english": "Circle Throw",
-    "japanese": "ともえなげ",
-    "chinese": "巴投",
-    "korean": "배대뒤치기",
-    "german": "Llave Giro",
-    "french": "Überkopfwurf",
-    "italian": "Circle Throw",
-    "spanish": "Ribaltiro"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 60,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user throws the target and drags out\nanother Pokémon in its party.\nIn the wild, the battle ends.",
-    "black-2-white-2": "The target is thrown and switched.\nIn the wild, a battle against a single\nPokémon ends.",
-    "x-y": "The target is thrown, and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.",
-    "omega-ruby-alpha-sapphire": "The target is thrown, and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.",
-    "sun-moon": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon.",
-    "ultra-sun-ultra-moon": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon.",
-    "sword-shield": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then switches the target out for another of its trainer's Pokémon, selected at random.\n\nIf the target is under the effect of ingrain or suction cups, or it has a substitute, or its Trainer has no more usable Pokémon, it will not be switched out.  If the target is a wild Pokémon, the battle ends instead.",
-    "shortEffect": "Ends wild battles.  Forces trainers to switch Pokémon."
-  },
-  "priority": -6
+    "_id": 509,
+    "key": "circle-throw",
+    "name": {
+        "japanese-kana": "ともえなげ",
+        "korean": "배대뒤치기",
+        "traditional-chinese": "巴投",
+        "french": "Projection",
+        "german": "Überkopfwurf",
+        "spanish": "Llave Giro",
+        "italian": "Ribaltiro",
+        "english": "Circle Throw",
+        "japanese": "ともえなげ",
+        "simplified-chinese": "巴投",
+        "latin-american-spanish": "Llave Giro"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 60,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 5,
+    "priority": -6,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Projette le Pokémon ennemi et le remplace par un autre. Dans la nature, met fin au combat.",
+            "xy": "Projette le Pokémon ennemi et le remplace par un autre. Dans la nature, met fin au combat.",
+            "oras": "Projette le Pokémon ennemi et le remplace par un autre. Dans la nature, met fin au combat.",
+            "sm": "Projette le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat.",
+            "usum": "Projette le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat.",
+            "lgpe": "Projette le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat.",
+            "swsh": "Projette le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
+        },
+        "english": {
+            "bw": "The user throws the target and drags out another Pokémon in its party. In the wild, the battle ends.",
+            "b2w2": "The target is thrown and switched. In the wild, a battle against a single Pokémon ends.",
+            "xy": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "oras": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "sm": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "usum": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "lgpe": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "swsh": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "la": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+            "sv": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　なげとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "oras": "あいてを　なげとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "sm": "あいてを　なげとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "usum": "あいてを　なげとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "lgpe": "あいてを　なげとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+            "swsh": "あいてを　なげとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。"
+        },
+        "korean": {
+            "xy": "상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "oras": "상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "sm": "상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "usum": "상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "lgpe": "상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+            "swsh": "상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다."
+        },
+        "german": {
+            "xy": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon.",
+            "oras": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon.",
+            "sm": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon.",
+            "usum": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon.",
+            "lgpe": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon.",
+            "swsh": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon."
+        },
+        "spanish": {
+            "xy": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "oras": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "sm": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "usum": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "lgpe": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "swsh": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate."
+        },
+        "italian": {
+            "xy": "Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "oras": "Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "sm": "Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "usum": "Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "lgpe": "Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Mette fine alle lotte contro singoli Pokémon selvatici.",
+            "swsh": "Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Mette fine alle lotte contro singoli Pokémon selvatici."
+        },
+        "japanese": {
+            "xy": "相手を　投げとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "oras": "相手を　投げとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "sm": "相手を　投げとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "usum": "相手を　投げとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "lgpe": "相手を　投げとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+            "swsh": "相手を　投げとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "oras": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "sm": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "usum": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "lgpe": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+            "swsh": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate."
+        },
+        "traditional-chinese": {
+            "sm": "摔飛對手， 強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。",
+            "usum": "摔飛對手， 強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。",
+            "lgpe": "摔飛對手， 強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。",
+            "swsh": "摔飛對手， 強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。"
+        },
+        "simplified-chinese": {
+            "sm": "扔飞对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。",
+            "usum": "扔飞对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。",
+            "lgpe": "扔飞对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。",
+            "swsh": "扔飞对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then switches the target out for another of its trainer’s Pokémon, selected at random. If the target is under the effect of Ingrain or Suction Cups, or it has a Substitute, or its Trainer has no more usable Pokémon, it will not be switched out.  If the target is a wild Pokémon, the battle ends instead.",
+        "shortEffect": "Ends wild battles.  Forces trainers to switch Pokémon."
+    }
 }

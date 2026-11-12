@@ -1,42 +1,143 @@
 {
-  "_id": 448,
-  "key": "chatter",
-  "name": {
-    "english": "Chatter",
-    "japanese": "おしゃべり",
-    "chinese": "喋喋不休",
-    "korean": "수다",
-    "german": "Cháchara",
-    "french": "Geschwätz",
-    "italian": "Chatter",
-    "spanish": "Schiamazzo"
-  },
-  "type": "Flying",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 20,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user attacks\nusing a sound wave\nbased on words it has\nlearned. It may also\nconfuse the foe.",
-    "platinum": "The user attacks\nusing a sound wave\nbased on words it has\nlearned. It may also\nconfuse the foe.",
-    "heartgold-soulsilver": "The user attacks\nusing a sound wave\nbased on words it has\nlearned. It may also\nconfuse the foe.",
-    "black-white": "The user attacks using a sound wave\nbased on words it has learned.\nIt may also confuse the target.",
-    "black-2-white-2": "The user attacks using a sound wave\nbased on words it has learned.\nIt may also confuse the target.",
-    "x-y": "The user attacks using a sound wave\nbased on words it has learned.\nThis confuses the target.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with\nsound waves of deafening chatter.\nThis confuses the target.",
-    "sun-moon": "The user attacks the target with sound waves of\ndeafening chatter. This confuses the target.",
-    "ultra-sun-ultra-moon": "The user attacks the target with sound waves of\ndeafening chatter. This confuses the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with sound waves of\ndeafening chatter. This confuses the target.",
-    "sword-shield": "The user attacks the target with sound waves of\ndeafening chatter. This confuses the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has either a 1%, 11%, or 31% chance to confuse the target, based on the volume of the recording made for this move; louder recordings increase the chance of confusion.  If the user is not a chatot, this move will not cause confusion.\n\nThis move cannot be copied by mimic, mirror move, or sketch, nor selected by assist, metronome, or sleep talk.",
-    "shortEffect": "Has a higher chance to confuse the target when the recorded sound is louder."
-  },
-  "priority": 0
+    "_id": 448,
+    "key": "chatter",
+    "name": {
+        "japanese-kana": "おしゃべり",
+        "korean": "수다",
+        "traditional-chinese": "喋喋不休",
+        "french": "Babil",
+        "german": "Geschwätz",
+        "spanish": "Cháchara",
+        "italian": "Schiamazzo",
+        "english": "Chatter",
+        "japanese": "おしゃべり",
+        "simplified-chinese": "喋喋不休",
+        "latin-american-spanish": "Parloteo"
+    },
+    "type": "flying",
+    "category": "special",
+    "contest": "smart",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 60
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user attacks using a sound wave based on words it has learned. It may also confuse the foe.",
+            "pt": "The user attacks using a sound wave based on words it has learned. It may also confuse the foe.",
+            "hgss": "The user attacks using a sound wave based on words it has learned. It may also confuse the foe.",
+            "bw": "The user attacks using a sound wave based on words it has learned. It may also confuse the target.",
+            "b2w2": "The user attacks using a sound wave based on words it has learned. It may also confuse the target.",
+            "xy": "The user attacks using a sound wave based on words it has learned. This confuses the target.",
+            "oras": "The user attacks the target with sound waves of deafening chatter. This confuses the target.",
+            "sm": "The user attacks the target with sound waves of deafening chatter. This confuses the target.",
+            "usum": "The user attacks the target with sound waves of deafening chatter. This confuses the target.",
+            "lgpe": "The user attacks the target with sound waves of deafening chatter. This confuses the target.",
+            "swsh": "The user attacks the target with sound waves of deafening chatter. This confuses the target."
+        },
+        "french": {
+            "bw": "Le lanceur envoie une onde musicale en récitant des mots. Peut aussi rendre l’ennemi confus.",
+            "xy": "Le lanceur envoie une onde musicale en récitant des mots. Rend l’ennemi confus.",
+            "oras": "Attaque avec les ondes sonores assourdissantes qu’il émet en prononçant des mots au hasard. Rend l’ennemi confus.",
+            "sm": "Attaque avec les ondes sonores assourdissantes qu’il émet en bavardant. Rend l’ennemi confus.",
+            "usum": "Attaque avec les ondes sonores assourdissantes qu’il émet en bavardant. Rend l’ennemi confus.",
+            "lgpe": "Attaque avec les ondes sonores assourdissantes qu’il émet en bavardant. Rend l’ennemi confus.",
+            "swsh": "Attaque avec les ondes sonores assourdissantes qu’il émet en bavardant. Rend l’ennemi confus."
+        },
+        "japanese-kana": {
+            "xy": "おぼえた　ことばで おんぱを　おこして　こうげきする。 あいてを　こんらん　させる。",
+            "oras": "とても　うるさい　おしゃべりの おんぱで　あいてを　こうげきする。 あいてを　こんらん　させる。",
+            "sm": "とても　うるさい　おしゃべりの おんぱで　あいてを　こうげきする。 あいてを　こんらん　させる。",
+            "usum": "とても　うるさい　おしゃべりの おんぱで　あいてを　こうげきする。 あいてを　こんらん　させる。",
+            "lgpe": "とても　うるさい　おしゃべりの おんぱで　あいてを　こうげきする。 あいてを　こんらん　させる。",
+            "swsh": "とても　うるさい　おしゃべりの おんぱで　あいてを　こうげきする。 あいてを　こんらん　させる。"
+        },
+        "korean": {
+            "xy": "기억한 말로 음파를 일으켜서 공격한다. 상대를 혼란시킨다.",
+            "oras": "매우 시끄럽고 수다스러운 음파로 상대를 공격한다. 상대를 혼란시킨다.",
+            "sm": "매우 시끄럽고 수다스러운 음파로 상대를 공격한다. 상대를 혼란시킨다.",
+            "usum": "매우 시끄럽고 수다스러운 음파로 상대를 공격한다. 상대를 혼란시킨다.",
+            "lgpe": "매우 시끄럽고 수다스러운 음파로 상대를 공격한다. 상대를 혼란시킨다.",
+            "swsh": "매우 시끄럽고 수다스러운 음파로 상대를 공격한다. 상대를 혼란시킨다."
+        },
+        "german": {
+            "xy": "Attacke mit Schallwellen. Verwirrt das Ziel.",
+            "oras": "Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.",
+            "sm": "Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.",
+            "usum": "Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.",
+            "lgpe": "Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.",
+            "swsh": "Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird."
+        },
+        "spanish": {
+            "xy": "Ataca con una onda sónica compuesta por palabras que ha aprendido y confunde al objetivo.",
+            "oras": "Ataca con una onda de sonido muy ruidosa compuesta  por palabras y confunde al objetivo.",
+            "sm": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.",
+            "usum": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.",
+            "lgpe": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.",
+            "swsh": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca creando un’onda sonora con le parole imparate e confonde il bersaglio.",
+            "oras": "Chi la usa attacca creando un’onda sonora di parole a vanvera e confonde il bersaglio.",
+            "sm": "Chi la usa attacca creando un’onda sonora di parole a vanvera e confonde il bersaglio.",
+            "usum": "Chi la usa attacca creando un’onda sonora di parole a vanvera e confonde il bersaglio.",
+            "lgpe": "Chi la usa attacca creando un’onda sonora di parole a vanvera e confonde il bersaglio.",
+            "swsh": "Chi la usa attacca creando un’onda sonora di parole a vanvera e confonde il bersaglio."
+        },
+        "japanese": {
+            "xy": "おぼえた　言葉で 音波を　おこして　攻撃する。 相手を　混乱させる。",
+            "oras": "とても　うるさい　おしゃべりの 音波で　相手を　攻撃する。 相手を　混乱させる。",
+            "sm": "とても　うるさい　おしゃべりの 音波で　相手を　攻撃する。 相手を　混乱させる。",
+            "usum": "とても　うるさい　おしゃべりの 音波で　相手を　攻撃する。 相手を　混乱させる。",
+            "lgpe": "とても　うるさい　おしゃべりの 音波で　相手を　攻撃する。 相手を　混乱させる。",
+            "swsh": "とても　うるさい　おしゃべりの 音波で　相手を　攻撃する。 相手を　混乱させる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una onda sónica compuesta por palabras que ha aprendido y confunde al objetivo.",
+            "oras": "Ataca con una onda de sonido muy ruidosa compuesta  por palabras y confunde al objetivo.",
+            "sm": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.",
+            "usum": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.",
+            "lgpe": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.",
+            "swsh": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用非常煩人且喋喋不休的 音波攻擊對手。 使對手混亂。",
+            "usum": "用非常煩人且喋喋不休的 音波攻擊對手。 使對手混亂。",
+            "lgpe": "用非常煩人且喋喋不休的 音波攻擊對手。 使對手混亂。",
+            "swsh": "用非常煩人且喋喋不休的 音波攻擊對手。 使對手混亂。"
+        },
+        "simplified-chinese": {
+            "sm": "用非常烦人的， 喋喋不休的音波攻击对手。 使对手混乱。",
+            "usum": "用非常烦人的， 喋喋不休的音波攻击对手。 使对手混乱。",
+            "lgpe": "用非常烦人的， 喋喋不休的音波攻击对手。 使对手混乱。",
+            "swsh": "用非常烦人的， 喋喋不休的音波攻击对手。 使对手混乱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has either a 1%, 11%, or 31% chance to confuse the target, based on the volume of the recording made for this move; louder recordings increase the chance of confusion.  If the user is not a Chatot, this move will not cause confusion. This move cannot be copied by Mimic, Mirror Move, or Sketch, nor selected by Assist, Metronome, or Sleep Talk.",
+        "shortEffect": "Has a higher chance to confuse the target when the recorded sound is louder."
+    }
 }

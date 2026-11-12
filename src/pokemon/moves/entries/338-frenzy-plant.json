@@ -1,45 +1,144 @@
 {
-  "_id": 338,
-  "key": "frenzy-plant",
-  "name": {
-    "english": "Frenzy Plant",
-    "japanese": "ハードプラント",
-    "chinese": "疯狂机器",
-    "korean": "하드플랜트",
-    "german": "Planta Feroz",
-    "french": "Flora-Statue",
-    "italian": "Frenzy Plant",
-    "spanish": "Radicalbero"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Powerful, but leaves the\nuser immobile the next turn.",
-    "emerald": "Powerful, but leaves the\nuser immobile the next turn.",
-    "firered-leafgreen": "The foe is hit with\nan enormous branch.\nThe user can’t move\non the next turn.",
-    "diamond-pearl": "The foe is slammed\nwith an enormous\ntree.\nThe user can’t move\non the next turn.",
-    "platinum": "The foe is slammed\nwith an enormous\ntree.\nThe user can’t move\non the next turn.",
-    "heartgold-soulsilver": "The foe is slammed\nwith an enormous\ntree.\nThe user can’t move\non the next turn.",
-    "black-white": "The user slams the target with\nan enormous tree.\nThe user can’t move on the next turn.",
-    "black-2-white-2": "The user slams the target with\nan enormous tree.\nThe user can’t move on the next turn.",
-    "x-y": "The user slams the target with\nan enormous tree.\nThe user can’t move on the next turn.",
-    "omega-ruby-alpha-sapphire": "The user slams the target with\nan enormous tree.\nThe user can’t move on the next turn.",
-    "sun-moon": "The user slams the target with an enormous tree.\nThe user can’t move on the next turn.",
-    "ultra-sun-ultra-moon": "The user slams the target with an enormous tree.\nThe user can’t move on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user slams the target with an enormous tree.\nThe user can’t move on the next turn.",
-    "sword-shield": "The user slams the target with the roots of an\nenormous tree. The user can’t move on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-    "shortEffect": "User foregoes its next turn to recharge."
-  },
-  "priority": 0
+    "_id": 338,
+    "key": "frenzy-plant",
+    "name": {
+        "japanese-kana": "ハードプラント",
+        "korean": "하드플랜트",
+        "traditional-chinese": "瘋狂植物",
+        "french": "Végé-Attaque",
+        "german": "Flora-Statue",
+        "spanish": "Planta Feroz",
+        "italian": "Radicalbero",
+        "english": "Frenzy Plant",
+        "japanese": "ハードプラント",
+        "simplified-chinese": "疯狂植物",
+        "latin-american-spanish": "Planta Feroz"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Powerful, but leaves the user immobile the next turn.",
+            "em": "Powerful, but leaves the user immobile the next turn.",
+            "frlg": "The foe is hit with an enormous branch. The user can’t move on the next turn.",
+            "dp": "The foe is slammed with an enormous tree. The user can’t move on the next turn.",
+            "pt": "The foe is slammed with an enormous tree. The user can’t move on the next turn.",
+            "hgss": "The foe is slammed with an enormous tree. The user can’t move on the next turn.",
+            "bw": "The user slams the target with an enormous tree. The user can’t move on the next turn.",
+            "b2w2": "The user slams the target with an enormous tree. The user can’t move on the next turn.",
+            "xy": "The user slams the target with an enormous tree. The user can’t move on the next turn.",
+            "oras": "The user slams the target with an enormous tree. The user can’t move on the next turn.",
+            "sm": "The user slams the target with an enormous tree. The user can’t move on the next turn.",
+            "usum": "The user slams the target with an enormous tree. The user can’t move on the next turn.",
+            "lgpe": "The user slams the target with an enormous tree. The user can’t move on the next turn.",
+            "swsh": "The user slams the target with the roots of an enormous tree. The user can’t move on the next turn.",
+            "la": "The user slams the target with the roots of an enormous tree. The user can't move on the next turn.",
+            "sv": "The user slams the target with the roots of an enormous tree. The user can't move on the next turn."
+        },
+        "french": {
+            "bw": "Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant.",
+            "xy": "Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant.",
+            "oras": "Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant.",
+            "sm": "Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant.",
+            "usum": "Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant.",
+            "lgpe": "Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant.",
+            "swsh": "Un violent coup de racines s’abat sur l’ennemi. Immobilise le lanceur au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　じゅもくで あいてを　たたきつけて　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "oras": "おおきな　じゅもくで あいてを　たたきつけて　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "sm": "おおきな　じゅもくで あいてを　たたきつけて　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "usum": "おおきな　じゅもくで あいてを　たたきつけて　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "lgpe": "おおきな　じゅもくで あいてを　たたきつけて　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "swsh": "おおきな　じゅもくで あいてを　たたきつけて　こうげきする。 つぎの　ターンは　うごけなく　なる。"
+        },
+        "korean": {
+            "xy": "큰 나무로 상대를 힘껏 쳐서 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "oras": "큰 나무로 상대를 힘껏 쳐서 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "sm": "큰 나무로 상대를 힘껏 쳐서 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "usum": "큰 나무로 상대를 힘껏 쳐서 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "lgpe": "큰 나무로 상대를 힘껏 쳐서 공격한다. 다음 턴은 움직일 수 없게 된다.",
+            "swsh": "큰 나무로 상대를 힘껏 쳐서 공격한다. 다음 턴은 움직일 수 없게 된다."
+        },
+        "german": {
+            "xy": "Angriff mit dickem Ast. Der Angreifer muss eine Runde aussetzen.",
+            "oras": "Angriff mit dickem Ast. Der Angreifer muss eine Runde aussetzen.",
+            "sm": "Mächtiger Angriff mit Ästen. Der Angreifer muss eine Runde aussetzen.",
+            "usum": "Mächtiger Angriff mit Ästen. Der Angreifer muss eine Runde aussetzen.",
+            "lgpe": "Mächtiger Angriff mit Ästen. Der Angreifer muss eine Runde aussetzen.",
+            "swsh": "Mächtiger Angriff mit Ästen. Der Anwender muss eine Runde aussetzen."
+        },
+        "spanish": {
+            "xy": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "oras": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "sm": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "usum": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "lgpe": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "swsh": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno."
+        },
+        "italian": {
+            "xy": "Un groviglio di radici colpisce il bersaglio. Chi la usa salta il turno successivo.",
+            "oras": "Un groviglio di radici colpisce il bersaglio. Chi la usa salta il turno successivo.",
+            "sm": "Un groviglio di radici colpisce il bersaglio. Chi la usa salta il turno successivo.",
+            "usum": "Un groviglio di radici colpisce il bersaglio. Chi la usa salta il turno successivo.",
+            "lgpe": "Un groviglio di radici colpisce il bersaglio. Chi la usa salta il turno successivo.",
+            "swsh": "Un groviglio di radici colpisce il bersaglio. Chi la usa salta il turno successivo."
+        },
+        "japanese": {
+            "xy": "大きな　樹木で 相手を　たたきつけて　攻撃する。 次の　ターンは　動けなくなる。",
+            "oras": "大きな　樹木で 相手を　たたきつけて　攻撃する。 次の　ターンは　動けなくなる。",
+            "sm": "大きな　樹木で 相手を　たたきつけて　攻撃する。 次の　ターンは　動けなくなる。",
+            "usum": "大きな　樹木で 相手を　たたきつけて　攻撃する。 次の　ターンは　動けなくなる。",
+            "lgpe": "大きな　樹木で 相手を　たたきつけて　攻撃する。 次の　ターンは　動けなくなる。",
+            "swsh": "大きな　樹木で 相手を　たたきつけて　攻撃する。 次の　ターンは　動けなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "oras": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "sm": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "usum": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "lgpe": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.",
+            "swsh": "Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "將大大的樹木 甩向對手進行攻擊。 下一回合自己將無法動彈。",
+            "usum": "將大大的樹木 甩向對手進行攻擊。 下一回合自己將無法動彈。",
+            "lgpe": "將大大的樹木 甩向對手進行攻擊。 下一回合自己將無法動彈。",
+            "swsh": "將大大的樹木 甩向對手進行攻擊。 下一回合自己將無法動彈。"
+        },
+        "simplified-chinese": {
+            "sm": "用大树摔打对手进行攻击。 下一回合自己将无法动弹。",
+            "usum": "用大树摔打对手进行攻击。 下一回合自己将无法动弹。",
+            "lgpe": "用大树摔打对手进行攻击。 下一回合自己将无法动弹。",
+            "swsh": "用大树摔打对手进行攻击。 下一回合自己将无法动弹。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+        "shortEffect": "User foregoes its next turn to recharge."
+    }
 }

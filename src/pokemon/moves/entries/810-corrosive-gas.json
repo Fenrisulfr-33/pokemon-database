@@ -1,32 +1,82 @@
 {
-  "_id": 810,
-  "key": "corrosive-gas",
-  "name": {
-    "english": "Corrosive Gas",
-    "japanese": "ふしょくガス",
-    "chinese": "腐蝕氣體",
-    "korean": "부식가스",
-    "german": "Gas Corrosivo",
-    "french": "Korrosionsgas",
-    "italian": "Corrosive Gas",
-    "spanish": "Gas Corrosivo"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": null,
-  "pp": 40,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 8,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user surrounds everything around it with\nhighly acidic gas and melts away items they hold."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 810,
+    "key": "corrosive-gas",
+    "name": {
+        "japanese-kana": "ふしょくガス",
+        "korean": "부식가스",
+        "traditional-chinese": "腐蝕氣體",
+        "french": "Gaz Corrosif",
+        "german": "Korrosionsgas",
+        "spanish": "Gas Corrosivo",
+        "italian": "Gas Corrosivo",
+        "english": "Corrosive Gas",
+        "japanese": "ふしょくガス",
+        "simplified-chinese": "腐蚀气体",
+        "latin-american-spanish": "Gas Corrosivo"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": null,
+    "pp": 40,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "つよい　さんせいの　ガスで まわりに　いるものを　つつみこみ もっている　どうぐを　とかしてしまう。"
+        },
+        "korean": {
+            "swsh": "주위에 있는 모든 것을 강력한 산성 가스로 뒤덮어서 지니고 있는 도구를 녹여버린다."
+        },
+        "traditional-chinese": {
+            "swsh": "用強烈的酸性氣體 包圍周圍所有的寶可夢， 並將攜帶的道具融化掉。"
+        },
+        "french": {
+            "swsh": "Un gaz corrosif qui enveloppe tous les Pokémon alentour et qui dissout les objets qu’ils tiennent."
+        },
+        "german": {
+            "swsh": "Der Anwender greift alle Pokémon im Umkreis mit einem ätzenden Gas an. Getragene Items werden dadurch zersetzt."
+        },
+        "spanish": {
+            "swsh": "El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y derrite por completo los objetos que lleven equipados."
+        },
+        "italian": {
+            "swsh": "Chi la usa avvolge tutti i Pokémon che ha intorno in un gas altamente acido, dissolvendo i loro strumenti."
+        },
+        "english": {
+            "swsh": "The user surrounds everything around it with highly acidic gas and melts away items they hold."
+        },
+        "japanese": {
+            "swsh": "強い　酸性の　ガスで 周りに　いるものを　包みこみ 持っている　道具を　溶かしてしまう。"
+        },
+        "simplified-chinese": {
+            "swsh": "用具有强酸性的气体 包裹住自己周围所有的宝可梦， 并融化其所携带的道具。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y derrite por completo los objetos que lleven equipados."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Target loses its held item. Neither the user nor the target can recover its item with Recycle. If the target has Multitype or Sticky Hold, it will take damage but not lose its item.",
+        "shortEffect": "Target drops its held item."
+    }
 }

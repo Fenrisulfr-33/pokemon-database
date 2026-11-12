@@ -1,37 +1,135 @@
 {
-  "_id": 609,
-  "key": "nuzzle",
-  "name": {
-    "english": "Nuzzle",
-    "japanese": "ほっぺすりすり",
-    "chinese": "蹭蹭臉頰",
-    "korean": "볼부비부비",
-    "german": "Moflete Estático",
-    "french": "Wangenrubbler",
-    "italian": "Nuzzle",
-    "spanish": "Elettrococcola"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user attacks by nuzzling its electrified\ncheeks against the target. This also leaves\nthe target with paralysis.",
-    "omega-ruby-alpha-sapphire": "The user attacks by nuzzling its electrified\ncheeks against the target. This also leaves\nthe target with paralysis.",
-    "sun-moon": "The user attacks by nuzzling its electrified cheeks\nagainst the target. This also leaves the target\nwith paralysis.",
-    "ultra-sun-ultra-moon": "The user attacks by nuzzling its electrified cheeks\nagainst the target. This also leaves the target\nwith paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by nuzzling its electrified cheeks\nagainst the target. This also leaves the target\nwith paralysis.",
-    "sword-shield": "The user attacks by nuzzling its electrified cheeks\nagainst the target. This also leaves the target\nwith paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 609,
+    "key": "nuzzle",
+    "name": {
+        "japanese-kana": "ほっぺすりすり",
+        "korean": "볼부비부비",
+        "traditional-chinese": "蹭蹭臉頰",
+        "french": "Frotte-Frimousse",
+        "german": "Wangenrubbler",
+        "spanish": "Moflete Estático",
+        "italian": "Elettrococcola",
+        "english": "Nuzzle",
+        "japanese": "ほっぺすりすり",
+        "simplified-chinese": "蹭蹭脸颊",
+        "latin-american-spanish": "Frote"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 20,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "でんきを　おびた　ほっぺを すりつけて　こうげき。 あいてを　まひ　じょうたいに　する。",
+            "oras": "でんきを　おびた　ほっぺを すりつけて　こうげき。 あいてを　まひ　じょうたいに　する。",
+            "sm": "でんきを　おびた　ほっぺを すりつけて　こうげき。 あいてを　まひ　じょうたいに　する。",
+            "usum": "でんきを　おびた　ほっぺを すりつけて　こうげき。 あいてを　まひ　じょうたいに　する。",
+            "lgpe": "でんきを　おびた　ほっぺを すりつけて　こうげき。 あいてを　まひ　じょうたいに　する。",
+            "swsh": "でんきを　おびた　ほっぺを すりつけて　こうげき。 あいてを　まひ　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.",
+            "oras": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.",
+            "sm": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.",
+            "usum": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.",
+            "lgpe": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.",
+            "swsh": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다."
+        },
+        "french": {
+            "xy": "Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi.",
+            "oras": "Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi.",
+            "sm": "Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi.",
+            "usum": "Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi.",
+            "lgpe": "Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi.",
+            "swsh": "Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi."
+        },
+        "german": {
+            "xy": "Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.",
+            "oras": "Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.",
+            "sm": "Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.",
+            "usum": "Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.",
+            "lgpe": "Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.",
+            "swsh": "Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert."
+        },
+        "spanish": {
+            "xy": "Quien lo usa frota sus mofletes cargados de electricidad contra el Pokémon objetivo y consigue paralizarlo.",
+            "oras": "Quien lo usa frota sus mofletes cargados de electricidad contra el Pokémon objetivo y consigue paralizarlo.",
+            "sm": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.",
+            "usum": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.",
+            "lgpe": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.",
+            "swsh": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo."
+        },
+        "italian": {
+            "xy": "Chi la usa strofina le guance elettrizzate contro il bersaglio, paralizzandolo.",
+            "oras": "Chi la usa strofina le guance elettrizzate contro il bersaglio, paralizzandolo.",
+            "sm": "Chi la usa strofina le guance elettrizzate contro il bersaglio, paralizzandolo.",
+            "usum": "Chi la usa strofina le guance elettrizzate contro il bersaglio, paralizzandolo.",
+            "lgpe": "Chi la usa strofina le guance elettrizzate contro il bersaglio, paralizzandolo.",
+            "swsh": "Chi la usa strofina le guance elettrizzate contro il bersaglio, paralizzandolo."
+        },
+        "english": {
+            "xy": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+            "oras": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+            "sm": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+            "usum": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+            "lgpe": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+            "swsh": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+            "la": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+            "sv": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis."
+        },
+        "japanese": {
+            "xy": "電気を　帯びた　ほっぺを すりつけて　攻撃。 相手を　まひ状態に　する。",
+            "oras": "電気を　帯びた　ほっぺを すりつけて　攻撃。 相手を　まひ状態に　する。",
+            "sm": "電気を　帯びた　ほっぺを すりつけて　攻撃。 相手を　まひ状態に　する。",
+            "usum": "電気を　帯びた　ほっぺを すりつけて　攻撃。 相手を　まひ状態に　する。",
+            "lgpe": "電気を　帯びた　ほっぺを すりつけて　攻撃。 相手を　まひ状態に　する。",
+            "swsh": "電気を　帯びた　ほっぺを すりつけて　攻撃。 相手を　まひ状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Quien lo usa frota sus mofletes cargados de electricidad contra el Pokémon objetivo y consigue paralizarlo.",
+            "oras": "Quien lo usa frota sus mofletes cargados de electricidad contra el Pokémon objetivo y consigue paralizarlo.",
+            "sm": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.",
+            "usum": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.",
+            "lgpe": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.",
+            "swsh": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo."
+        },
+        "traditional-chinese": {
+            "sm": "用帶電的臉頰 磨蹭對手進行攻擊。 能讓對手陷入麻痺狀態。",
+            "usum": "用帶電的臉頰 磨蹭對手進行攻擊。 能讓對手陷入麻痺狀態。",
+            "lgpe": "用帶電的臉頰 磨蹭對手進行攻擊。 能讓對手陷入麻痺狀態。",
+            "swsh": "用帶電的臉頰 磨蹭對手進行攻擊。 能讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "将带电的脸颊 蹭蹭对手进行攻击。 让对手陷入麻痹状态。",
+            "usum": "将带电的脸颊 蹭蹭对手进行攻击。 让对手陷入麻痹状态。",
+            "lgpe": "将带电的脸颊 蹭蹭对手进行攻击。 让对手陷入麻痹状态。",
+            "swsh": "将带电的脸颊 蹭蹭对手进行攻击。 让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

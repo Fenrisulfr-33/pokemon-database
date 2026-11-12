@@ -1,47 +1,153 @@
 {
-  "_id": 126,
-  "key": "fire-blast",
-  "name": {
-    "english": "Fire Blast",
-    "japanese": "だいもんじ",
-    "chinese": "大字爆",
-    "korean": "불대문자",
-    "german": "Llamarada",
-    "french": "Feuersturm",
-    "italian": "Fire Blast",
-    "spanish": "Fuocobomba"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 110,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that\nmay cause a burn.",
-    "crystal": "An attack that\nmay cause a burn.",
-    "ruby-sapphire": "A fiery blast that scorches\nall. May cause a burn.",
-    "emerald": "Incinerates everything it\nstrikes. May cause a burn.",
-    "firered-leafgreen": "The foe is hit with\nan intense flame.\nIt may leave the\ntarget with a burn.",
-    "diamond-pearl": "The foe is attacked\nwith an intense blast\nof all-consuming fire.\nIt may also leave the\ntarget with a burn.",
-    "platinum": "The foe is attacked\nwith an intense blast\nof all-consuming fire.\nIt may also leave the\ntarget with a burn.",
-    "heartgold-soulsilver": "The foe is attacked\nwith an intense blast\nof all-consuming fire.\nIt may also leave the\ntarget with a burn.",
-    "black-white": "The target is attacked with an intense\nblast of all-consuming fire.\nIt may also leave the target with a burn.",
-    "black-2-white-2": "The target is attacked with an intense\nblast of all-consuming fire.\nIt may also leave the target with a burn.",
-    "x-y": "The target is attacked with an intense\nblast of all-consuming fire.\nThis may also leave the target with a burn.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with an intense\nblast of all-consuming fire.\nThis may also leave the target with a burn.",
-    "sun-moon": "The target is attacked with an intense blast of\nall-consuming fire. This may also leave the target\nwith a burn.",
-    "ultra-sun-ultra-moon": "The target is attacked with an intense blast of\nall-consuming fire. This may also leave the target\nwith a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with an intense blast of\nall-consuming fire. This may also leave the target\nwith a burn.",
-    "sword-shield": "The target is attacked with an intense blast of\nall-consuming fire. This may also leave the target\nwith a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 126,
+    "key": "fire-blast",
+    "name": {
+        "japanese-kana": "だいもんじ",
+        "korean": "불대문자",
+        "traditional-chinese": "大字爆炎",
+        "french": "Déflagration",
+        "german": "Feuersturm",
+        "spanish": "Llamarada",
+        "italian": "Fuocobomba",
+        "english": "Fire Blast",
+        "japanese": "だいもんじ",
+        "simplified-chinese": "大字爆炎",
+        "latin-american-spanish": "Llamarada"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 110,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 30
+        },
+        "xy": {
+            "power": 120
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause a burn.",
+            "cr": "An attack that may cause a burn.",
+            "rs": "A fiery blast that scorches all. May cause a burn.",
+            "em": "Incinerates everything it strikes. May cause a burn.",
+            "frlg": "The foe is hit with an intense flame. It may leave the target with a burn.",
+            "dp": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
+            "pt": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
+            "hgss": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
+            "bw": "The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
+            "b2w2": "The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
+            "xy": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+            "oras": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+            "sm": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+            "usum": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+            "lgpe": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+            "swsh": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+            "la": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+            "sv": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn."
+        },
+        "french": {
+            "bw": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+            "xy": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+            "oras": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+            "sm": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+            "usum": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+            "lgpe": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+            "swsh": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler."
+        },
+        "japanese-kana": {
+            "xy": "だいのじの　ほのおで あいてを　やきつくす。 やけど　じょうたいに　することが　ある。",
+            "oras": "だいのじの　ほのおで あいてを　やきつくす。 やけど　じょうたいに　することが　ある。",
+            "sm": "だいのじの　ほのおで あいてを　やきつくす。 やけど　じょうたいに　することが　ある。",
+            "usum": "だいのじの　ほのおで あいてを　やきつくす。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "だいのじの　ほのおで あいてを　やきつくす。 やけど　じょうたいに　することが　ある。",
+            "swsh": "だいのじの　ほのおで あいてを　やきつくす。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다.",
+            "oras": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다.",
+            "sm": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다.",
+            "usum": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다.",
+            "swsh": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Feuersbrunst, die das Ziel versengt und ihm eventuell eine Verbrennung zufügt.",
+            "oras": "Feuersbrunst, die das Ziel versengt und ihm eventuell eine Verbrennung zufügt.",
+            "sm": "Feuersbrunst, die das Ziel versengt und ihm eventuell eine Verbrennung zufügt.",
+            "usum": "Feuersbrunst, die das Ziel versengt und ihm eventuell eine Verbrennung zufügt.",
+            "lgpe": "Feuersbrunst, die das Ziel versengt und ihm eventuell eine Verbrennung zufügt.",
+            "swsh": "Feuersbrunst, die das Ziel versengt und ihm eventuell eine Verbrennung zufügt."
+        },
+        "spanish": {
+            "xy": "Llama intensa que chamusca y puede causar quemaduras.",
+            "oras": "Llama intensa que chamusca y puede causar quemaduras.",
+            "sm": "Llama intensa que chamusca y puede causar quemaduras.",
+            "usum": "Llama intensa que chamusca y puede causar quemaduras.",
+            "lgpe": "Llama intensa que chamusca y puede causar quemaduras.",
+            "swsh": "Llama intensa que chamusca y puede causar quemaduras."
+        },
+        "italian": {
+            "xy": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo.",
+            "oras": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo.",
+            "sm": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo.",
+            "usum": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo.",
+            "lgpe": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo.",
+            "swsh": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo."
+        },
+        "japanese": {
+            "xy": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。",
+            "oras": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。",
+            "sm": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。",
+            "usum": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。",
+            "lgpe": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。",
+            "swsh": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Llama intensa que chamusca y puede causar quemaduras.",
+            "oras": "Llama intensa que chamusca y puede causar quemaduras.",
+            "sm": "Llama intensa que chamusca y puede causar quemaduras.",
+            "usum": "Llama intensa que chamusca y puede causar quemaduras.",
+            "lgpe": "Llama intensa que chamusca y puede causar quemaduras.",
+            "swsh": "Llama intensa que chamusca y puede causar quemaduras."
+        },
+        "traditional-chinese": {
+            "sm": "用大字形狀的火焰燒盡對手。 有時會讓對手陷入灼傷狀態。",
+            "usum": "用大字形狀的火焰燒盡對手。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "用大字形狀的火焰燒盡對手。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "用大字形狀的火焰燒盡對手。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用大字形状的火焰烧尽对手。 有时会让对手陷入灼伤状态。",
+            "usum": "用大字形状的火焰烧尽对手。 有时会让对手陷入灼伤状态。",
+            "lgpe": "用大字形状的火焰烧尽对手。 有时会让对手陷入灼伤状态。",
+            "swsh": "用大字形状的火焰烧尽对手。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

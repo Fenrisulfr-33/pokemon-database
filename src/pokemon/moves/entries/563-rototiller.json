@@ -1,37 +1,133 @@
 {
-  "_id": 563,
-  "key": "rototiller",
-  "name": {
-    "english": "Rototiller",
-    "japanese": "たがやす",
-    "chinese": "耕地",
-    "korean": "일구기",
-    "german": "Fertilizante",
-    "french": "Pflüger",
-    "italian": "Rototiller",
-    "spanish": "Aracampo"
-  },
-  "type": "Ground",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "all-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "Tilling the soil, the user makes it easier\nfor plants to grow. This raises the Attack\nand Sp. Atk stats of Grass-type Pokémon.",
-    "omega-ruby-alpha-sapphire": "Tilling the soil, the user makes it easier\nfor plants to grow. This raises the Attack\nand Sp. Atk stats of Grass-type Pokémon.",
-    "sun-moon": "Tilling the soil, the user makes it easier for plants to\ngrow. This raises the Attack and Sp. Atk stats of\nGrass-type Pokémon.",
-    "ultra-sun-ultra-moon": "Tilling the soil, the user makes it easier for plants to\ngrow. This raises the Attack and Sp. Atk stats of\nGrass-type Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "Tilling the soil, the user makes it easier for plants to\ngrow. This raises the Attack and Sp. Atk stats of\nGrass-type Pokémon.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Raises the Attack and Special Attack of all grass Pokémon in battle.",
-    "shortEffect": "Raises the Attack and Special Attack of all grass Pokémon in battle."
-  },
-  "priority": 0
+    "_id": 563,
+    "key": "rototiller",
+    "name": {
+        "japanese-kana": "たがやす",
+        "korean": "일구기",
+        "traditional-chinese": "耕地",
+        "french": "Fertilisation",
+        "german": "Pflüger",
+        "spanish": "Fertilizante",
+        "italian": "Aracampo",
+        "english": "Rototiller",
+        "japanese": "たがやす",
+        "simplified-chinese": "耕地",
+        "latin-american-spanish": "Fertilizante"
+    },
+    "type": "ground",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "じめんを　たがやして　くさきが そだちやすいようにする。くさタイプの こうげきと　とくこうが　あがる。",
+            "oras": "じめんを　たがやして　くさきが そだちやすいようにする。くさタイプの こうげきと　とくこうが　あがる。",
+            "sm": "じめんを　たがやして　くさきが そだちやすいようにする。　くさタイプの こうげきと　とくこうが　あがる。",
+            "usum": "じめんを　たがやして　くさきが そだちやすいようにする。　くさタイプの こうげきと　とくこうが　あがる。",
+            "lgpe": "じめんを　たがやして　くさきが そだちやすいようにする。　くさタイプの こうげきと　とくこうが　あがる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "땅을 일구어 초목이 자라기 쉽게 한다. 풀타입의 공격과 특수공격이 오른다.",
+            "oras": "땅을 일구어 초목이 자라기 쉽게 한다. 풀타입의 공격과 특수공격이 오른다.",
+            "sm": "땅을 일구어 초목이 자라기 쉽게 한다. 풀타입의 공격과 특수공격이 오른다.",
+            "usum": "땅을 일구어 초목이 자라기 쉽게 한다. 풀타입의 공격과 특수공격이 오른다.",
+            "lgpe": "땅을 일구어 초목이 자라기 쉽게 한다. 풀타입의 공격과 특수공격이 오른다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "french": {
+            "xy": "Laboure le sol et le rend plus fertile. Augmente l’Attaque et l’Attaque Spéciale des Pokémon de type Plante.",
+            "oras": "Laboure le sol et le rend plus fertile. Augmente l’Attaque et l’Attaque Spéciale des Pokémon de type Plante.",
+            "sm": "Laboure le sol et le rend plus fertile. Augmente l’Attaque et l’Attaque Spéciale des Pokémon de type Plante.",
+            "usum": "Laboure le sol et le rend plus fertile. Augmente l’Attaque et l’Attaque Spéciale des Pokémon de type Plante.",
+            "lgpe": "Laboure le sol et le rend plus fertile. Augmente l’Attaque et l’Attaque Spéciale des Pokémon de type Plante.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "xy": "Der Anwender pflügt den Boden und macht die Erde fruchtbarer. Erhöht den Angriff und den Spezial-Angriff von Pflanzen-Pokémon.",
+            "oras": "Der Anwender pflügt den Boden und macht die Erde fruchtbarer. Erhöht den Angriff und den Spezial-Angriff von Pflanzen-Pokémon.",
+            "sm": "Der Anwender pflügt den Boden und macht die Erde fruchtbarer. Erhöht den Angriff und den Spezial-Angriff von Pflanzen-Pokémon.",
+            "usum": "Der Anwender pflügt den Boden und macht die Erde fruchtbarer. Erhöht den Angriff und den Spezial-Angriff von Pflanzen-Pokémon.",
+            "lgpe": "Der Anwender pflügt den Boden und macht die Erde fruchtbarer. Erhöht den Angriff und den Spezial-Angriff von Pflanzen-Pokémon.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "oras": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "sm": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "usum": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "lgpe": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa dissoda la terra per far crescere meglio l’erba. Questa mossa aumenta l’Attacco e l’Attacco Speciale dei Pokémon di tipo Erba.",
+            "oras": "Chi la usa dissoda la terra per far crescere meglio l’erba. Questa mossa aumenta l’Attacco e l’Attacco Speciale dei Pokémon di tipo Erba.",
+            "sm": "Chi la usa dissoda la terra per far crescere meglio l’erba. Questa mossa aumenta l’Attacco e l’Attacco Speciale dei Pokémon di tipo Erba.",
+            "usum": "Chi la usa dissoda la terra per far crescere meglio l’erba. Questa mossa aumenta l’Attacco e l’Attacco Speciale dei Pokémon di tipo Erba.",
+            "lgpe": "Chi la usa dissoda la terra per far crescere meglio l’erba. Questa mossa aumenta l’Attacco e l’Attacco Speciale dei Pokémon di tipo Erba.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "xy": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.",
+            "oras": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.",
+            "sm": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.",
+            "usum": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.",
+            "lgpe": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "xy": "地面を　耕して　草木が 育ちやすいようにする。くさタイプの 攻撃と　特攻が　あがる。",
+            "oras": "地面を　耕して　草木が 育ちやすいようにする。くさタイプの 攻撃と　特攻が　あがる。",
+            "sm": "地面を　耕して　草木が 育ちやすいようにする。　くさタイプの 攻撃と　特攻が　あがる。",
+            "usum": "地面を　耕して　草木が 育ちやすいようにする。　くさタイプの 攻撃と　特攻が　あがる。",
+            "lgpe": "地面を　耕して　草木が 育ちやすいようにする。　くさタイプの 攻撃と　特攻が　あがる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "oras": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "sm": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "usum": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "lgpe": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "耕耘土地，讓草木更容易成長。 可提高草屬性寶可夢的攻擊和特攻。",
+            "usum": "耕耘土地，讓草木更容易成長。 可提高草屬性寶可夢的攻擊和特攻。",
+            "lgpe": "耕耘土地，讓草木更容易成長。 可提高草屬性寶可夢的攻擊和特攻。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "翻耕土地， 使草木更容易成长。 会提高草属性宝可梦的攻击和特攻。",
+            "usum": "翻耕土地， 使草木更容易成长。 会提高草属性宝可梦的攻击和特攻。",
+            "lgpe": "翻耕土地， 使草木更容易成长。 会提高草属性宝可梦的攻击和特攻。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Raises the Attack and Special Attack of all Grass Pokémon in battle.",
+        "shortEffect": "Raises the Attack and Special Attack of all Grass Pokémon in battle."
+    }
 }

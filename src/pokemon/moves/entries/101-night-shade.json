@@ -1,47 +1,146 @@
 {
-  "_id": 101,
-  "key": "night-shade",
-  "name": {
-    "english": "Night Shade",
-    "japanese": "ナイトヘッド",
-    "chinese": "黑夜诅咒",
-    "korean": "나이트헤드",
-    "german": "Tinieblas",
-    "french": "Nachtnebel",
-    "italian": "Night Shade",
-    "spanish": "Ombra Notturna"
-  },
-  "type": "Ghost",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "The user's level\nequals damage HP.",
-    "crystal": "The user's level\nequals damage HP.",
-    "ruby-sapphire": "Inflicts damage identical\nto the user’s level.",
-    "emerald": "Inflicts damage identical\nto the user’s level.",
-    "firered-leafgreen": "An attack with a\nmirage that inflicts\ndamage matching\nthe user’s level.",
-    "diamond-pearl": "The user makes the\nfoe see a mirage.\nIt inflicts damage\nmatching the user’s\nlevel.",
-    "platinum": "The user makes the\nfoe see a mirage.\nIt inflicts damage\nmatching the user’s\nlevel.",
-    "heartgold-soulsilver": "The user makes the\nfoe see a mirage.\nIt inflicts damage\nmatching the user’s\nlevel.",
-    "black-white": "The user makes the target see a\nfrightening mirage. It inflicts damage\nmatching the user’s level.",
-    "black-2-white-2": "The user makes the target see a\nfrightening mirage. It inflicts damage\nmatching the user’s level.",
-    "x-y": "The user makes the target see a\nfrightening mirage. It inflicts damage\nequal to the user’s level.",
-    "omega-ruby-alpha-sapphire": "The user makes the target see a\nfrightening mirage. It inflicts damage\nequal to the user’s level.",
-    "sun-moon": "The user makes the target see a frightening mirage.\nIt inflicts damage equal to the user’s level.",
-    "ultra-sun-ultra-moon": "The user makes the target see a frightening mirage.\nIt inflicts damage equal to the user’s level.",
-    "lets-go-pikachu-lets-go-eevee": "The user makes the target see a frightening mirage.\nIt inflicts damage equal to the user’s level.",
-    "sword-shield": "The user makes the target see a frightening mirage.\nIt inflicts damage equal to the user’s level."
-  },
-  "effect": {
-    "full": "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored.",
-    "shortEffect": "Inflicts damage equal to the user's level."
-  },
-  "priority": 0
+    "_id": 101,
+    "key": "night-shade",
+    "name": {
+        "japanese-kana": "ナイトヘッド",
+        "korean": "나이트헤드",
+        "traditional-chinese": "黑夜魔影",
+        "french": "Ombre Nocturne",
+        "german": "Nachtnebel",
+        "spanish": "Tinieblas",
+        "italian": "Ombra Notturna",
+        "english": "Night Shade",
+        "japanese": "ナイトヘッド",
+        "simplified-chinese": "黑夜魔影",
+        "latin-american-spanish": "Tinieblas"
+    },
+    "type": "ghost",
+    "category": "special",
+    "contest": "smart",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "The user's level equals damage HP.",
+            "cr": "The user's level equals damage HP.",
+            "rs": "Inflicts damage identical to the user’s level.",
+            "em": "Inflicts damage identical to the user’s level.",
+            "frlg": "An attack with a mirage that inflicts damage matching the user’s level.",
+            "dp": "The user makes the foe see a mirage. It inflicts damage matching the user’s level.",
+            "pt": "The user makes the foe see a mirage. It inflicts damage matching the user’s level.",
+            "hgss": "The user makes the foe see a mirage. It inflicts damage matching the user’s level.",
+            "bw": "The user makes the target see a frightening mirage. It inflicts damage matching the user’s level.",
+            "b2w2": "The user makes the target see a frightening mirage. It inflicts damage matching the user’s level.",
+            "xy": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level.",
+            "oras": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level.",
+            "sm": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level.",
+            "usum": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level.",
+            "lgpe": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level.",
+            "swsh": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level.",
+            "la": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",
+            "sv": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level."
+        },
+        "french": {
+            "bw": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.",
+            "xy": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.",
+            "oras": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.",
+            "sm": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.",
+            "usum": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.",
+            "lgpe": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.",
+            "swsh": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "おそろしい　まぼろしを　みせて じぶんの　レベルと　おなじ　だけの ダメージを　あいてに　あたえる。",
+            "oras": "おそろしい　まぼろしを　 せて じぶんの　レベルと　おなじ　だけの ダメージを　あいてに　あたえる。",
+            "sm": "おそろしい　まぼろしを　みせて じぶんの　レベルと　おなじ　だけの ダメージを　あいてに　あたえる。",
+            "usum": "おそろしい　まぼろしを　みせて じぶんの　レベルと　おなじ　だけの ダメージを　あいてに　あたえる。",
+            "lgpe": "おそろしい　まぼろしを　みせて じぶんの　レベルと　おなじ　だけの ダメージを　あいてに　あたえる。",
+            "swsh": "おそろしい　まぼろしを　みせて じぶんの　レベルと　おなじ　だけの ダメージを　あいてに　あたえる。"
+        },
+        "korean": {
+            "xy": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다.",
+            "oras": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다.",
+            "sm": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다.",
+            "usum": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다.",
+            "lgpe": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다.",
+            "swsh": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다."
+        },
+        "german": {
+            "xy": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an.",
+            "oras": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an.",
+            "sm": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an.",
+            "usum": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an.",
+            "lgpe": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an.",
+            "swsh": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an."
+        },
+        "spanish": {
+            "xy": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor.",
+            "oras": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor.",
+            "sm": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.",
+            "usum": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.",
+            "lgpe": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.",
+            "swsh": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario."
+        },
+        "italian": {
+            "xy": "Fa apparire un orribile miraggio al bersaglio e infligge un danno pari al livello di chi la usa.",
+            "oras": "Fa apparire un orribile miraggio al bersaglio e infligge un danno pari al livello di chi la usa.",
+            "sm": "Fa apparire un orribile miraggio al bersaglio e infligge un danno pari al livello di chi la usa.",
+            "usum": "Fa apparire un orribile miraggio al bersaglio e infligge un danno pari al livello di chi la usa.",
+            "lgpe": "Fa apparire un orribile miraggio al bersaglio e infligge un danno pari al livello di chi la usa.",
+            "swsh": "Fa apparire un orribile miraggio al bersaglio e infligge un danno pari al livello di chi la usa."
+        },
+        "japanese": {
+            "xy": "恐ろしい　幻を　みせて 自分の　レベルと　同じだけの ダメージを　相手に　与える。",
+            "oras": "恐ろしい　幻を　 せて 自分の　レベルと　同じだけの ダメージを　相手に　与える。",
+            "sm": "恐ろしい　幻を　みせて 自分の　レベルと　同じだけの ダメージを　相手に　与える。",
+            "usum": "恐ろしい　幻を　みせて 自分の　レベルと　同じだけの ダメージを　相手に　与える。",
+            "lgpe": "恐ろしい　幻を　みせて 自分の　レベルと　同じだけの ダメージを　相手に　与える。",
+            "swsh": "恐ろしい　幻を　みせて 自分の　レベルと　同じだけの ダメージを　相手に　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor.",
+            "oras": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor.",
+            "sm": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.",
+            "usum": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.",
+            "lgpe": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.",
+            "swsh": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario."
+        },
+        "traditional-chinese": {
+            "sm": "讓對手看見恐怖幻影， 給予對手和自己等級 相同的傷害。",
+            "usum": "讓對手看見恐怖幻影， 給予對手和自己等級 相同的傷害。",
+            "lgpe": "讓對手看見恐怖幻影， 給予對手和自己等級 相同的傷害。",
+            "swsh": "讓對手看見恐怖幻影， 給予對手和自己等級 相同的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "显示恐怖幻影， 只给予对手 和自己等级相同的伤害。",
+            "usum": "显示恐怖幻影， 只给予对手 和自己等级相同的伤害。",
+            "lgpe": "显示恐怖幻影， 只给予对手 和自己等级相同的伤害。",
+            "swsh": "显示恐怖幻影， 只给予对手 和自己等级相同的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage equal to the user’s level.  Type immunity applies, but other type effects are ignored.",
+        "shortEffect": "Inflicts damage equal to the user’s level."
+    }
 }

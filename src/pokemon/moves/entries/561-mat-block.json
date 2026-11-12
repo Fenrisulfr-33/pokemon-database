@@ -1,37 +1,133 @@
 {
-  "_id": 561,
-  "key": "mat-block",
-  "name": {
-    "english": "Mat Block",
-    "japanese": "たたみがえし",
-    "chinese": "垫返",
-    "korean": "마룻바닥세워막기",
-    "german": "Escudo Tatami",
-    "french": "Tatami-Schild",
-    "italian": "Mat Block",
-    "spanish": "Ribaltappeto"
-  },
-  "type": "Fighting",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "x-y": "Using a pulled-up mat as a shield, the user\nprotects itself and its allies from damaging moves.\nThis does not stop status moves.",
-    "omega-ruby-alpha-sapphire": "Using a pulled-up mat as a shield, the user\nprotects itself and its allies from damaging moves.\nThis does not stop status moves.",
-    "sun-moon": "Using a pulled-up mat as a shield, the user protects\nitself and its allies from damaging moves. This does\nnot stop status moves.",
-    "ultra-sun-ultra-moon": "Using a pulled-up mat as a shield, the user protects\nitself and its allies from damaging moves. This does\nnot stop status moves.",
-    "lets-go-pikachu-lets-go-eevee": "Using a pulled-up mat as a shield, the user protects\nitself and its allies from damaging moves. This does\nnot stop status moves.",
-    "sword-shield": "Using a pulled-up mat as a shield, the user protects\nitself and its allies from damaging moves. This does\nnot stop status moves."
-  },
-  "effect": {
-    "full": "Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out.",
-    "shortEffect": "Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out."
-  },
-  "priority": 0
+    "_id": 561,
+    "key": "mat-block",
+    "name": {
+        "japanese-kana": "たたみがえし",
+        "korean": "마룻바닥세워막기",
+        "traditional-chinese": "掀榻榻米",
+        "french": "Tatamigaeshi",
+        "german": "Tatami-Schild",
+        "spanish": "Escudo Tatami",
+        "italian": "Ribaltappeto",
+        "english": "Mat Block",
+        "japanese": "たたみがえし",
+        "simplified-chinese": "掀榻榻米",
+        "latin-american-spanish": "Escudo Tatami"
+    },
+    "type": "fighting",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "かえした　タタミを　たてにして　じぶんや みかたへの　わざの　ダメージを　ふせぐ。 へんかわざは　ふせぐことが　できない。",
+            "oras": "かえした　タタミを　たてにして　じぶんや  かたへの　わざの　ダメージを　ふせぐ。 へんかわざは　ふせぐことが　できない。",
+            "sm": "かえした　タタミを　たてにして　じぶんや みかたへの　わざの　ダメージを　ふせぐ。 へんかわざは　ふせぐことが　できない。",
+            "usum": "かえした　タタミを　たてにして　じぶんや みかたへの　わざの　ダメージを　ふせぐ。 へんかわざは　ふせぐことが　できない。",
+            "lgpe": "かえした　タタミを　たてにして　じぶんや みかたへの　わざの　ダメージを　ふせぐ。 へんかわざは　ふせぐことが　できない。",
+            "swsh": "かえした　タタミを　たてにして　じぶんや みかたへの　わざの　ダメージを　ふせぐ。 へんかわざは　ふせぐことが　できない。"
+        },
+        "korean": {
+            "xy": "뒤집어 세운 마룻바닥을 방패로 하여 자신과 같은 편으로 향하는 기술 데미지를 막는다. 변화 기술은 막을 수 없다.",
+            "oras": "뒤집어 세운 마룻바닥을 방패로 하여 자신과 같은 편으로 향하는 기술 데미지를 막는다. 변화 기술은 막을 수 없다.",
+            "sm": "뒤집어 세운 마룻바닥을 방패로 하여 자신과 같은 편으로 향하는 기술 데미지를 막는다. 변화 기술은 막을 수 없다.",
+            "usum": "뒤집어 세운 마룻바닥을 방패로 하여 자신과 같은 편으로 향하는 기술 데미지를 막는다. 변화 기술은 막을 수 없다.",
+            "lgpe": "뒤집어 세운 마룻바닥을 방패로 하여 자신과 같은 편으로 향하는 기술 데미지를 막는다. 변화 기술은 막을 수 없다.",
+            "swsh": "뒤집어 세운 마룻바닥을 방패로 하여 자신과 같은 편으로 향하는 기술 데미지를 막는다. 변화 기술은 막을 수 없다."
+        },
+        "french": {
+            "xy": "Retourne un tatami pour bloquer, comme avec un bouclier, les capacités visant le lanceur ou ses alliés. N’a pas d’effet sur les attaques de statut.",
+            "oras": "Retourne un tatami pour bloquer, comme avec un bouclier, les capacités visant le lanceur ou ses alliés. N’a pas d’effet sur les attaques de statut.",
+            "sm": "Retourne un tatami pour bloquer, comme avec un bouclier, les capacités visant le lanceur ou ses alliés. N’a pas d’effet sur les attaques de statut.",
+            "usum": "Retourne un tatami pour bloquer, comme avec un bouclier, les capacités visant le lanceur ou ses alliés. N’a pas d’effet sur les attaques de statut.",
+            "lgpe": "Retourne un tatami pour bloquer, comme avec un bouclier, les capacités visant le lanceur ou ses alliés. N’a pas d’effet sur les attaques de statut.",
+            "swsh": "Retourne un tatami pour bloquer, comme avec un bouclier, les capacités visant le lanceur ou ses alliés. N’a pas d’effet sur les attaques de statut."
+        },
+        "german": {
+            "xy": "Der Anwender richtet eine Tatami-Matte auf, um sich und sein Team vor Schaden zu schützen. Kein Schutz vor Status-Attacken.",
+            "oras": "Der Anwender richtet eine Tatami-Matte auf, um sich und sein Team vor Schaden zu schützen. Kein Schutz vor Status-Attacken.",
+            "sm": "Der Anwender richtet eine Tatami-Matte auf, um sich und sein Team vor Schaden zu schützen. Kein Schutz vor Status-Attacken.",
+            "usum": "Der Anwender richtet eine Tatami-Matte auf, um sich und sein Team vor Schaden zu schützen. Kein Schutz vor Status-Attacken.",
+            "lgpe": "Der Anwender richtet eine Tatami-Matte auf, um sich und sein Team vor Schaden zu schützen. Kein Schutz vor Status-Attacken.",
+            "swsh": "Der Anwender richtet eine Tatami-Matte auf, um sich und sein Team vor Schaden zu schützen. Kein Schutz vor Status-Attacken."
+        },
+        "spanish": {
+            "xy": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "oras": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "sm": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "usum": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "lgpe": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "swsh": "El usuario usa un tatami para escudarse de los ataques enemigos. Protege también a los aliados. No funciona contra movimientos de estado."
+        },
+        "italian": {
+            "xy": "Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato.",
+            "oras": "Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato.",
+            "sm": "Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato.",
+            "usum": "Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato.",
+            "lgpe": "Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato.",
+            "swsh": "Chi la usa protegge se stesso e i propri alleati dai danni di mosse nemiche, adoperando un tappetino come scudo. Non è efficace contro mosse di stato."
+        },
+        "english": {
+            "xy": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+            "oras": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+            "sm": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+            "usum": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+            "lgpe": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+            "swsh": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves."
+        },
+        "japanese": {
+            "xy": "かえした　タタミを　盾にして　自分や 味方への　技の　ダメージを　防ぐ。 変化技は　防ぐことが　できない。",
+            "oras": "かえした　タタミを　盾にして　自分や 味方への　技の　ダメージを　防ぐ。 変化技は　防ぐことが　できない。",
+            "sm": "かえした　タタミを　盾にして　自分や 味方への　技の　ダメージを　防ぐ。 変化技は　防ぐことが　できない。",
+            "usum": "かえした　タタミを　盾にして　自分や 味方への　技の　ダメージを　防ぐ。 変化技は　防ぐことが　できない。",
+            "lgpe": "かえした　タタミを　盾にして　自分や 味方への　技の　ダメージを　防ぐ。 変化技は　防ぐことが　できない。",
+            "swsh": "かえした　タタミを　盾にして　自分や 味方への　技の　ダメージを　防ぐ。 変化技は　防ぐことが　できない。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "oras": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "sm": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "usum": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "lgpe": "El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.",
+            "swsh": "El usuario usa un tatami para escudarse de los ataques enemigos. Protege también a los aliados. No funciona contra movimientos de estado."
+        },
+        "traditional-chinese": {
+            "sm": "將掀起來的榻榻米當作盾牌， 防禦住攻擊我方的攻擊招式。 但無法防禦住變化招式的攻擊。",
+            "usum": "將掀起來的榻榻米當作盾牌， 防禦住攻擊我方的攻擊招式。 但無法防禦住變化招式的攻擊。",
+            "lgpe": "將掀起來的榻榻米當作盾牌， 防禦住攻擊我方的攻擊招式。 但無法防禦住變化招式的攻擊。",
+            "swsh": "將掀起來的榻榻米當作盾牌， 防禦住攻擊我方的攻擊招式。 但無法防禦住變化招式的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "将掀起来的榻榻米当作盾牌， 防住自己和同伴免受招式伤害。 变化招式无法防住。",
+            "usum": "将掀起来的榻榻米当作盾牌， 防住自己和同伴免受招式伤害。 变化招式无法防住。",
+            "lgpe": "将掀起来的榻榻米当作盾牌， 防住自己和同伴免受招式伤害。 变化招式无法防住。",
+            "swsh": "将掀起来的榻榻米当作盾牌， 防住自己和同伴免受招式伤害。 变化招式无法防住。"
+        }
+    },
+    "effect": {
+        "full": "Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out.",
+        "shortEffect": "Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out."
+    }
 }

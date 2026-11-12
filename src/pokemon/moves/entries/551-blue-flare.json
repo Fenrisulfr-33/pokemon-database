@@ -1,39 +1,138 @@
 {
-  "_id": 551,
-  "key": "blue-flare",
-  "name": {
-    "english": "Blue Flare",
-    "japanese": "あおいほのお",
-    "chinese": "青炎",
-    "korean": "푸른불꽃",
-    "german": "Llama Azul",
-    "french": "Blauflammen",
-    "italian": "Blue Flare",
-    "spanish": "Fuocoblu"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 130,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nIt may leave the target with a burn.",
-    "black-2-white-2": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nIt may leave the target with a burn.",
-    "x-y": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nThis may also leave the target with a burn.",
-    "omega-ruby-alpha-sapphire": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nThis may also leave the target with a burn.",
-    "sun-moon": "The user attacks by engulfing the target in an\nintense, yet beautiful, blue flame. This may also leave\nthe target with a burn.",
-    "ultra-sun-ultra-moon": "The user attacks by engulfing the target in an\nintense, yet beautiful, blue flame. This may also leave\nthe target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by engulfing the target in an\nintense, yet beautiful, blue flame. This may also leave\nthe target with a burn.",
-    "sword-shield": "The user attacks by engulfing the target in an\nintense, yet beautiful, blue flame. This may also leave\nthe target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 551,
+    "key": "blue-flare",
+    "name": {
+        "japanese-kana": "あおいほのお",
+        "korean": "푸른불꽃",
+        "traditional-chinese": "青焰",
+        "french": "Flamme Bleue",
+        "german": "Blauflammen",
+        "spanish": "Llama Azul",
+        "italian": "Fuocoblu",
+        "english": "Blue Flare",
+        "japanese": "あおいほのお",
+        "simplified-chinese": "青焰",
+        "latin-american-spanish": "Llama Azul"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 130,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 20,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.",
+            "xy": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.",
+            "oras": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.",
+            "sm": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.",
+            "usum": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.",
+            "lgpe": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.",
+            "swsh": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler."
+        },
+        "english": {
+            "bw": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. It may leave the target with a burn.",
+            "b2w2": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. It may leave the target with a burn.",
+            "xy": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+            "oras": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+            "sm": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+            "usum": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+            "lgpe": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+            "swsh": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+            "la": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+            "sv": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn."
+        },
+        "japanese-kana": {
+            "xy": "うつくしくも　はげしい　あおいほのおで あいてを　つつみこんで　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "oras": "うつくしくも　はげしい　あおいほのおで あいてを　つつ こんで　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "sm": "うつくしくも　はげしい　あおいほのおで あいてを　つつみこんで　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "usum": "うつくしくも　はげしい　あおいほのおで あいてを　つつみこんで　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "うつくしくも　はげしい　あおいほのおで あいてを　つつみこんで　こうげきする。 やけど　じょうたいに　することが　ある。",
+            "swsh": "うつくしくも　はげしい　あおいほのおで あいてを　つつみこんで　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "아름다우면서도 격렬한 푸른불꽃으로 상대를 둘러싸서 공격한다. 화상 상태로 만들 때가 있다.",
+            "oras": "아름다우면서도 격렬한 푸른불꽃으로 상대를 둘러싸서 공격한다. 화상 상태로 만들 때가 있다.",
+            "sm": "아름다우면서도 격렬한 푸른불꽃으로 상대를 둘러싸서 공격한다. 화상 상태로 만들 때가 있다.",
+            "usum": "아름다우면서도 격렬한 푸른불꽃으로 상대를 둘러싸서 공격한다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "아름다우면서도 격렬한 푸른불꽃으로 상대를 둘러싸서 공격한다. 화상 상태로 만들 때가 있다.",
+            "swsh": "아름다우면서도 격렬한 푸른불꽃으로 상대를 둘러싸서 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, die es eventuell verbrennen.",
+            "oras": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, die es eventuell verbrennen.",
+            "sm": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, durch die es eventuell Verbrennungen erleidet.",
+            "usum": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, durch die es eventuell Verbrennungen erleidet.",
+            "lgpe": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, durch die es eventuell Verbrennungen erleidet.",
+            "swsh": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, durch die es eventuell Verbrennungen erleidet."
+        },
+        "spanish": {
+            "xy": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "oras": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "sm": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "usum": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "lgpe": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "swsh": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo.",
+            "oras": "Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo.",
+            "sm": "Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo.",
+            "usum": "Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo.",
+            "lgpe": "Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo.",
+            "swsh": "Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo."
+        },
+        "japanese": {
+            "xy": "美しくも　激しい　青い炎で 相手を　包みこんで　攻撃する。 やけど状態に　することが　ある。",
+            "oras": "美しくも　激しい　青い炎で 相手を　包 こんで　攻撃する。 やけど状態に　することが　ある。",
+            "sm": "美しくも　激しい　青い炎で 相手を　包みこんで　攻撃する。 やけど状態に　することが　ある。",
+            "usum": "美しくも　激しい　青い炎で 相手を　包みこんで　攻撃する。 やけど状態に　することが　ある。",
+            "lgpe": "美しくも　激しい　青い炎で 相手を　包みこんで　攻撃する。 やけど状態に　することが　ある。",
+            "swsh": "美しくも　激しい　青い炎で 相手を　包みこんで　攻撃する。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "oras": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "sm": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "usum": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "lgpe": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+            "swsh": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo."
+        },
+        "traditional-chinese": {
+            "sm": "用美麗而激烈的青焰 燃燒對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "usum": "用美麗而激烈的青焰 燃燒對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "用美麗而激烈的青焰 燃燒對手進行攻擊。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "用美麗而激烈的青焰 燃燒對手進行攻擊。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用美丽而激烈的青焰 包裹住对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "usum": "用美丽而激烈的青焰 包裹住对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "lgpe": "用美丽而激烈的青焰 包裹住对手进行攻击。 有时会让对手陷入灼伤状态。",
+            "swsh": "用美丽而激烈的青焰 包裹住对手进行攻击。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 383,
-  "key": "copycat",
-  "name": {
-    "english": "Copycat",
-    "japanese": "まねっこ",
-    "chinese": "仿造",
-    "korean": "흉내쟁이",
-    "german": "Copión",
-    "french": "Imitator",
-    "italian": "Copycat",
-    "spanish": "Copione"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user mimics the\nmove used immediately\nbefore it. The move\nfails if no other move\nhas been used yet.",
-    "platinum": "The user mimics the\nmove used immediately\nbefore it. The move\nfails if no other move\nhas been used yet.",
-    "heartgold-soulsilver": "The user mimics the\nmove used immediately\nbefore it. The move\nfails if no other move\nhas been used yet.",
-    "black-white": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
-    "black-2-white-2": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
-    "x-y": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
-    "omega-ruby-alpha-sapphire": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
-    "sun-moon": "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet.",
-    "ultra-sun-ultra-moon": "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet.",
-    "lets-go-pikachu-lets-go-eevee": "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet.",
-    "sword-shield": "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet."
-  },
-  "effect": {
-    "full": "Uses the last move that was used successfully by any Pokémon, including the user.\n\nThis move cannot copy itself, nor roar nor whirlwind.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk.",
-    "shortEffect": "Uses the target's last used move."
-  },
-  "priority": 0
+    "_id": 383,
+    "key": "copycat",
+    "name": {
+        "japanese-kana": "まねっこ",
+        "korean": "흉내쟁이",
+        "traditional-chinese": "仿效",
+        "french": "Photocopie",
+        "german": "Imitator",
+        "spanish": "Copión",
+        "italian": "Copione",
+        "english": "Copycat",
+        "japanese": "まねっこ",
+        "simplified-chinese": "仿效",
+        "latin-american-spanish": "Copión"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cool",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "pt": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "hgss": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "bw": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "b2w2": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "xy": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "oras": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "sm": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "usum": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "lgpe": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "swsh": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "la": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+            "sv": "The user mimics the move used immediately before it. The move fails if no other move has been used yet."
+        },
+        "french": {
+            "bw": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.",
+            "xy": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.",
+            "oras": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.",
+            "sm": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.",
+            "usum": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.",
+            "lgpe": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.",
+            "swsh": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée."
+        },
+        "japanese-kana": {
+            "xy": "ちょくぜんに　でた　わざを　まねして おなじ　わざを　だす。 わざが　でていないと　しっぱい　する。",
+            "oras": "ちょくぜんに　でた　わざを　まねして おなじ　わざを　だす。 わざが　でていないと　しっぱい　する。",
+            "sm": "ちょくぜんに　でた　わざを　まねして おなじ　わざを　だす。 わざが　でていないと　しっぱい　する。",
+            "usum": "ちょくぜんに　でた　わざを　まねして おなじ　わざを　だす。 わざが　でていないと　しっぱい　する。",
+            "lgpe": "ちょくぜんに　でた　わざを　まねして おなじ　わざを　だす。 わざが　でていないと　しっぱい　する。",
+            "swsh": "ちょくぜんに　でた　わざを　まねして おなじ　わざを　だす。 わざが　でていないと　しっぱい　する。"
+        },
+        "korean": {
+            "xy": "직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.",
+            "oras": "직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.",
+            "sm": "직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.",
+            "usum": "직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.",
+            "lgpe": "직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.",
+            "swsh": "직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다."
+        },
+        "german": {
+            "xy": "Anwender imitiert gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde.",
+            "oras": "Anwender imitiert gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde.",
+            "sm": "Anwender imitiert die gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde.",
+            "usum": "Anwender imitiert die gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde.",
+            "lgpe": "Anwender imitiert die gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde.",
+            "swsh": "Anwender imitiert die gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde."
+        },
+        "spanish": {
+            "xy": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "oras": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "sm": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "usum": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "lgpe": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "swsh": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno."
+        },
+        "italian": {
+            "xy": "Chi la usa mima l’ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.",
+            "oras": "Chi la usa mima l’ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.",
+            "sm": "Chi la usa mima l’ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.",
+            "usum": "Chi la usa mima l’ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.",
+            "lgpe": "Chi la usa mima l’ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.",
+            "swsh": "Chi la usa mima l’ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa."
+        },
+        "japanese": {
+            "xy": "直前に　でた　技を　まねして 同じ　技を　だす。 技が　でていないと　失敗する。",
+            "oras": "直前に　でた　技を　まねして 同じ　技を　だす。 技が　でていないと　失敗する。",
+            "sm": "直前に　でた　技を　まねして 同じ　技を　だす。 技が　でていないと　失敗する。",
+            "usum": "直前に　でた　技を　まねして 同じ　技を　だす。 技が　でていないと　失敗する。",
+            "lgpe": "直前に　でた　技を　まねして 同じ　技を　だす。 技が　でていないと　失敗する。",
+            "swsh": "直前に　でた　技を　まねして 同じ　技を　だす。 技が　でていないと　失敗する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "oras": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "sm": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "usum": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "lgpe": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+            "swsh": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno."
+        },
+        "traditional-chinese": {
+            "sm": "模仿對手最近一次使用的招式， 若對手沒有成功出招則會失敗。",
+            "usum": "模仿對手最近一次使用的招式， 若對手沒有成功出招則會失敗。",
+            "lgpe": "模仿對手最近一次使用的招式， 若對手沒有成功出招則會失敗。",
+            "swsh": "模仿對手最近一次使用的招式， 若對手沒有成功出招則會失敗。"
+        },
+        "simplified-chinese": {
+            "sm": "模仿对手刚才使出的招式， 并使出相同招式。 如果对手还没出招则会失败。",
+            "usum": "模仿对手刚才使出的招式， 并使出相同招式。 如果对手还没出招则会失败。",
+            "lgpe": "模仿对手刚才使出的招式， 并使出相同招式。 如果对手还没出招则会失败。",
+            "swsh": "模仿对手刚才使出的招式， 并使出相同招式。 如果对手还没出招则会失败。"
+        }
+    },
+    "effect": {
+        "full": "Uses the last move that was used successfully by any Pokémon, including the user. This move cannot copy itself, nor Roar nor Whirlwind. This move cannot be copied by Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
+        "shortEffect": "Uses the target’s last used move."
+    }
 }

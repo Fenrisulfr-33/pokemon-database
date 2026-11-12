@@ -1,42 +1,141 @@
 {
-  "_id": 450,
-  "key": "bug-bite",
-  "name": {
-    "english": "Bug Bite",
-    "japanese": "むしくい",
-    "chinese": "虫咬",
-    "korean": "벌레먹음",
-    "german": "Picadura",
-    "french": "Käferbiss",
-    "italian": "Bug Bite",
-    "spanish": "Coleomorso"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.",
-    "platinum": "The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.",
-    "heartgold-soulsilver": "The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.",
-    "black-white": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
-    "black-2-white-2": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
-    "x-y": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
-    "omega-ruby-alpha-sapphire": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
-    "sun-moon": "The user bites the target. If the target is holding a\nBerry, the user eats it and gains its effect.",
-    "ultra-sun-ultra-moon": "The user bites the target. If the target is holding a\nBerry, the user eats it and gains its effect.",
-    "lets-go-pikachu-lets-go-eevee": "The user bites the target. If the target is holding a\nBerry, the user eats it and gains its effect.",
-    "sword-shield": "The user bites the target. If the target is holding a\nBerry, the user eats it and gains its effect."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.\n\nIf the target is holding a jaboca berry or rowap berry, the berry is still removed, but has no effect.\n\nIf this move is super effective and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.",
-    "shortEffect": "If target has a berry, inflicts double damage and uses the berry."
-  },
-  "priority": 0
+    "_id": 450,
+    "key": "bug-bite",
+    "name": {
+        "japanese-kana": "むしくい",
+        "korean": "벌레먹기",
+        "traditional-chinese": "蟲咬",
+        "french": "Piqûre",
+        "german": "Käferbiss",
+        "spanish": "Picadura",
+        "italian": "Coleomorso",
+        "english": "Bug Bite",
+        "japanese": "むしくい",
+        "simplified-chinese": "虫咬",
+        "latin-american-spanish": "Picadura"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user bites the foe. If the foe is holding a Berry, the user eats it and gains its effect.",
+            "pt": "The user bites the foe. If the foe is holding a Berry, the user eats it and gains its effect.",
+            "hgss": "The user bites the foe. If the foe is holding a Berry, the user eats it and gains its effect.",
+            "bw": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "b2w2": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "xy": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "oras": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "sm": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "usum": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "lgpe": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "swsh": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "la": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+            "sv": "The user attacks by biting the target. If the target is holding a Berry, the user eats it and gains its effect."
+        },
+        "french": {
+            "bw": "Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet.",
+            "xy": "Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet.",
+            "oras": "Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet.",
+            "sm": "Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet.",
+            "usum": "Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet.",
+            "lgpe": "Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet.",
+            "swsh": "Le lanceur pique l’ennemi. Si ce dernier tient une Baie, le lanceur la dévore et obtient son effet."
+        },
+        "japanese-kana": {
+            "xy": "かみついて　こうげきする。 あいてが　きのみを　もっている　とき たべて　きのみの　こうかを　うけられる。",
+            "oras": "か ついて　こうげきする。 あいてが　きの を　もっている　とき たべて　きの の　こうかを　うけられる。",
+            "sm": "かみついて　こうげきする。 あいてが　きのみを　もっている　とき たべて　きのみの　こうかを　うけられる。",
+            "usum": "かみついて　こうげきする。 あいてが　きのみを　もっている　とき たべて　きのみの　こうかを　うけられる。",
+            "lgpe": "かみついて　こうげきする。 あいてが　きのみを　もっている　とき たべて　きのみの　こうかを　うけられる。",
+            "swsh": "かみついて　こうげきする。 あいてが　きのみを　もっている　とき たべて　きのみの　こうかを　うけられる。"
+        },
+        "korean": {
+            "xy": "물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다.",
+            "oras": "물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다.",
+            "sm": "물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다.",
+            "usum": "물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다.",
+            "lgpe": "물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다.",
+            "swsh": "물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다."
+        },
+        "german": {
+            "xy": "Anwender beißt das Ziel. Trägt dieses eine Beere, isst der Anwender sie und erhält ihren Effekt.",
+            "oras": "Anwender beißt das Ziel. Trägt dieses eine Beere, isst der Anwender sie und erhält ihren Effekt.",
+            "sm": "Anwender beißt das Ziel. Trägt dieses eine Beere, isst der Anwender sie und erhält ihren Effekt.",
+            "usum": "Anwender beißt das Ziel. Trägt dieses eine Beere, isst der Anwender sie und erhält ihren Effekt.",
+            "lgpe": "Anwender beißt das Ziel. Trägt dieses eine Beere, isst der Anwender sie und erhält ihren Effekt.",
+            "swsh": "Anwender beißt das Ziel. Trägt dieses eine Beere, isst der Anwender sie und erhält ihren Effekt."
+        },
+        "spanish": {
+            "xy": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "oras": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "sm": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "usum": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "lgpe": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "swsh": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+        },
+        "italian": {
+            "xy": "Chi la usa morde il bersaglio. Inoltre, se questi ha una bacca, gliela ruba e ne sfrutta gli effetti.",
+            "oras": "Chi la usa morde il bersaglio. Inoltre, se questi ha una bacca, gliela ruba e ne sfrutta gli effetti.",
+            "sm": "Chi la usa morde il bersaglio. Inoltre, se questi ha una bacca, gliela ruba e ne sfrutta gli effetti.",
+            "usum": "Chi la usa morde il bersaglio. Inoltre, se questi ha una bacca, gliela ruba e ne sfrutta gli effetti.",
+            "lgpe": "Chi la usa morde il bersaglio. Inoltre, se questi ha una bacca, gliela ruba e ne sfrutta gli effetti.",
+            "swsh": "Chi la usa morde il bersaglio. Inoltre, se questi ha una bacca, gliela ruba e ne sfrutta gli effetti."
+        },
+        "japanese": {
+            "xy": "かみついて　攻撃する。 相手が　きのみを　持っているとき 食べて　きのみの　効果を　受けられる。",
+            "oras": "か ついて　攻撃する。 相手が　きの を　持っているとき 食べて　きの の　効果を　受けられる。",
+            "sm": "かみついて　攻撃する。 相手が　きのみを　持っているとき 食べて　きのみの　効果を　受けられる。",
+            "usum": "かみついて　攻撃する。 相手が　きのみを　持っているとき 食べて　きのみの　効果を　受けられる。",
+            "lgpe": "かみついて　攻撃する。 相手が　きのみを　持っているとき 食べて　きのみの　効果を　受けられる。",
+            "swsh": "かみついて　攻撃する。 相手が　きのみを　持っているとき 食べて　きのみの　効果を　受けられる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "oras": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "sm": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "usum": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "lgpe": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.",
+            "swsh": "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+        },
+        "traditional-chinese": {
+            "sm": "叮咬對手進行攻擊。 可以吃下對手攜帶的樹果， 並獲得樹果的效果。",
+            "usum": "叮咬對手進行攻擊。 可以吃下對手攜帶的樹果， 並獲得樹果的效果。",
+            "lgpe": "叮咬對手進行攻擊。 可以吃下對手攜帶的樹果， 並獲得樹果的效果。",
+            "swsh": "叮咬對手進行攻擊。 可以吃下對手攜帶的樹果， 並獲得樹果的效果。"
+        },
+        "simplified-chinese": {
+            "sm": "咬住进行攻击。 当对手携带树果时， 可以食用并获得其效果。",
+            "usum": "咬住进行攻击。 当对手携带树果时， 可以食用并获得其效果。",
+            "lgpe": "咬住进行攻击。 当对手携带树果时， 可以食用并获得其效果。",
+            "swsh": "咬住进行攻击。 当对手携带树果时， 可以食用并获得其效果。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately. If the target is holding a Jaboca Berry or Rowap Berry, the berry is still removed, but has no effect. If this move is super effective and the target is holding a berry that can reduce this move’s damage, it will do so, and will not be stolen.",
+        "shortEffect": "If target has a berry, inflicts double damage and uses the berry."
+    }
 }

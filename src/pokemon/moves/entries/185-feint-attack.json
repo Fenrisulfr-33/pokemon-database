@@ -1,47 +1,151 @@
 {
-  "_id": 185,
-  "key": "feint-attack",
-  "name": {
-    "english": "Feint Attack",
-    "japanese": "だましうち",
-    "chinese": "虚晃一招",
-    "korean": "속여때리기",
-    "german": "Finta",
-    "french": "Finte",
-    "italian": "Feint Attack",
-    "spanish": "Finta"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 20,
-  "power": 60,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that\nnever misses.",
-    "crystal": "An attack that\nnever misses.",
-    "ruby-sapphire": "Draws the foe close, then\nstrikes without fail.",
-    "emerald": "Draws the foe close, then\nstrikes without fail.",
-    "firered-leafgreen": "The user draws up\nclose to the foe\ndisarmingly, then\nhits without fail.",
-    "diamond-pearl": "The user draws up to\nthe foe disarmingly,\nthen throws a sucker\npunch.\nIt hits without fail.",
-    "platinum": "The user draws up to\nthe foe disarmingly,\nthen throws a sucker\npunch.\nIt hits without fail.",
-    "heartgold-soulsilver": "The user draws up to\nthe foe disarmingly,\nthen throws a sucker\npunch.\nIt hits without fail.",
-    "black-white": "The user approaches the target\ndisarmingly, then throws a sucker punch.\nIt hits without fail.",
-    "black-2-white-2": "The user approaches the target\ndisarmingly, then throws a sucker punch.\nIt hits without fail.",
-    "x-y": "The user approaches the target\ndisarmingly, then throws a sucker punch.\nThis attack never misses.",
-    "omega-ruby-alpha-sapphire": "The user approaches the target\ndisarmingly, then throws a sucker punch.\nThis attack never misses.",
-    "sun-moon": "The user approaches the target disarmingly, then\nthrows a sucker punch. This attack never misses.",
-    "ultra-sun-ultra-moon": "The user approaches the target disarmingly, then\nthrows a sucker punch. This attack never misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user approaches the target disarmingly, then\nthrows a sucker punch. This attack never misses.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 185,
+    "key": "feint-attack",
+    "name": {
+        "japanese-kana": "だましうち",
+        "korean": "속여때리기",
+        "traditional-chinese": "出奇一擊",
+        "french": "Feinte",
+        "german": "Finte",
+        "spanish": "Finta",
+        "italian": "Finta",
+        "english": "Feint Attack",
+        "japanese": "だましうち",
+        "simplified-chinese": "出奇一击",
+        "latin-american-spanish": "Ataque Finta"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "An attack that never misses.",
+            "cr": "An attack that never misses.",
+            "rs": "Draws the foe close, then strikes without fail.",
+            "em": "Draws the foe close, then strikes without fail.",
+            "frlg": "The user draws up close to the foe disarmingly, then hits without fail.",
+            "dp": "The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.",
+            "pt": "The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.",
+            "hgss": "The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.",
+            "bw": "The user approaches the target disarmingly, then throws a sucker punch. It hits without fail.",
+            "b2w2": "The user approaches the target disarmingly, then throws a sucker punch. It hits without fail.",
+            "xy": "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.",
+            "oras": "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.",
+            "sm": "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.",
+            "usum": "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.",
+            "lgpe": "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur s’approche l’air de rien avant de frapper par surprise. N’échoue jamais.",
+            "xy": "Le lanceur s’approche l’air de rien avant de frapper par surprise. N’échoue jamais.",
+            "oras": "Le lanceur s’approche l’air de rien avant de frapper par surprise. N’échoue jamais.",
+            "sm": "Le lanceur s’approche l’air de rien avant de frapper par surprise. N’échoue jamais.",
+            "usum": "Le lanceur s’approche l’air de rien avant de frapper par surprise. N’échoue jamais.",
+            "lgpe": "Le lanceur s’approche l’air de rien avant de frapper par surprise. N’échoue jamais.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "さりげなく　あいてに　ちかづき ゆだんした　すきを　みて　なぐりつける。 こうげきは　かならず　めいちゅう　する。",
+            "oras": "さりげなく　あいてに　ちかづき ゆだんした　すきを　 て　なぐりつける。 こうげきは　かならず　めいちゅう　する。",
+            "sm": "さりげなく　あいてに　ちかづき ゆだんした　すきを　みて　なぐりつける。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "さりげなく　あいてに　ちかづき ゆだんした　すきを　みて　なぐりつける。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "さりげなく　あいてに　ちかづき ゆだんした　すきを　みて　なぐりつける。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "슬금슬금 상대에게 다가가 방심한 틈을 타서 세게 때린다. 공격은 반드시 명중한다.",
+            "oras": "슬금슬금 상대에게 다가가 방심한 틈을 타서 세게 때린다. 공격은 반드시 명중한다.",
+            "sm": "슬금슬금 상대에게 다가가 방심한 틈을 타서 세게 때린다. 공격은 반드시 명중한다.",
+            "usum": "슬금슬금 상대에게 다가가 방심한 틈을 타서 세게 때린다. 공격은 반드시 명중한다.",
+            "lgpe": "슬금슬금 상대에게 다가가 방심한 틈을 타서 세게 때린다. 공격은 반드시 명중한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender nähert sich mit Unschuldsmiene dem Ziel und schlägt zu, sobald dieses unachtsam wird. Ein Treffer ist gewiss.",
+            "oras": "Anwender nähert sich mit Unschuldsmiene dem Ziel und schlägt zu, sobald dieses unachtsam wird. Ein Treffer ist gewiss.",
+            "sm": "Anwender nähert sich mit Unschuldsmiene dem Ziel und schlägt zu, sobald dieses unachtsam wird. Ein Treffer ist gewiss.",
+            "usum": "Anwender nähert sich mit Unschuldsmiene dem Ziel und schlägt zu, sobald dieses unachtsam wird. Ein Treffer ist gewiss.",
+            "lgpe": "Anwender nähert sich mit Unschuldsmiene dem Ziel und schlägt zu, sobald dieses unachtsam wird. Ein Treffer ist gewiss.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "oras": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "sm": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "usum": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "lgpe": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa si avvicina al bersaglio facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.",
+            "oras": "Chi la usa si avvicina al bersaglio facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.",
+            "sm": "Chi la usa si avvicina al bersaglio facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.",
+            "usum": "Chi la usa si avvicina al bersaglio facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.",
+            "lgpe": "Chi la usa si avvicina al bersaglio facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "さりげなく　相手に　ちかづき 油断した　すきを　みて　なぐりつける。 攻撃は　必ず　命中する。",
+            "oras": "さりげなく　相手に　ちかづき 油断した　すきを　 て　なぐりつける。 攻撃は　必ず　命中する。",
+            "sm": "さりげなく　相手に　ちかづき 油断した　すきを　みて　なぐりつける。 攻撃は　必ず　命中する。",
+            "usum": "さりげなく　相手に　ちかづき 油断した　すきを　みて　なぐりつける。 攻撃は　必ず　命中する。",
+            "lgpe": "さりげなく　相手に　ちかづき 油断した　すきを　みて　なぐりつける。 攻撃は　必ず　命中する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "oras": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "sm": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "usum": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "lgpe": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "若無其事地靠近對手， 出其不意地進行攻擊。 攻擊必定會命中。",
+            "usum": "若無其事地靠近對手， 出其不意地進行攻擊。 攻擊必定會命中。",
+            "lgpe": "若無其事地靠近對手， 出其不意地進行攻擊。 攻擊必定會命中。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "悄悄地靠近对手， 趁其不备进行殴打。 攻击必定会命中。",
+            "usum": "悄悄地靠近对手， 趁其不备进行殴打。 攻击必定会命中。",
+            "lgpe": "悄悄地靠近对手， 趁其不备进行殴打。 攻击必定会命中。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

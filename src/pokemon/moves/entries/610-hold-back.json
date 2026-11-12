@@ -1,37 +1,133 @@
 {
-  "_id": 610,
-  "key": "hold-back",
-  "name": {
-    "english": "Hold Back",
-    "japanese": "てかげん",
-    "chinese": "手下留情",
-    "korean": "적당히손봐주기",
-    "german": "Clemencia",
-    "french": "Zurückhaltung",
-    "italian": "Hold Back",
-    "spanish": "Riguardo"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": null,
-  "pp": 40,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user holds back when it attacks\nand the target is left with at least 1 HP.",
-    "omega-ruby-alpha-sapphire": "The user holds back when it attacks\nand the target is left with at least 1 HP.",
-    "sun-moon": "The user holds back when it attacks, and the target\nis left with at least 1 HP.",
-    "ultra-sun-ultra-moon": "The user holds back when it attacks, and the target\nis left with at least 1 HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user holds back when it attacks, and the target\nis left with at least 1 HP.",
-    "sword-shield": "The user holds back when it attacks, and the target\nis left with at least 1 HP."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Will not reduce the target's HP below 1.",
-    "shortEffect": "Cannot lower the target's HP below 1."
-  },
-  "priority": 0
+    "_id": 610,
+    "key": "hold-back",
+    "name": {
+        "japanese-kana": "てかげん",
+        "korean": "적당히손봐주기",
+        "traditional-chinese": "手下留情",
+        "french": "Retenue",
+        "german": "Zurückhaltung",
+        "spanish": "Clemencia",
+        "italian": "Riguardo",
+        "english": "Hold Back",
+        "japanese": "てかげん",
+        "simplified-chinese": "手下留情",
+        "latin-american-spanish": "Clemencia"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": null,
+    "pp": 40,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "てかげん　した　こうげきで あいての　ＨＰを かならず　１だけ　のこす。",
+            "oras": "てかげん　した　こうげきで あいての　ＨＰを かならず　１だけ　のこす。",
+            "sm": "てかげん　した　こうげきで あいての　ＨＰを かならず　１だけ　のこす。",
+            "usum": "てかげん　した　こうげきで あいての　ＨＰを かならず　１だけ　のこす。",
+            "lgpe": "てかげん　した　こうげきで あいての　ＨＰを かならず　１だけ　のこす。",
+            "swsh": "てかげん　した　こうげきで あいての　ＨＰを かならず　１だけ　のこす。"
+        },
+        "korean": {
+            "xy": "적당히 공격하여 상대의 HP를 반드시 1은 남긴다.",
+            "oras": "적당히 공격하여 상대의 HP를 반드시 1은 남긴다.",
+            "sm": "적당히 공격하여 상대의 HP를 반드시 1은 남긴다.",
+            "usum": "적당히 공격하여 상대의 HP를 반드시 1은 남긴다.",
+            "lgpe": "적당히 공격하여 상대의 HP를 반드시 1은 남긴다.",
+            "swsh": "적당히 공격하여 상대의 HP를 반드시 1은 남긴다."
+        },
+        "french": {
+            "xy": "Le lanceur attaque avec retenue, et laisse l’ennemi à 1 PV.",
+            "oras": "Le lanceur attaque avec retenue, et laisse l’ennemi à 1 PV.",
+            "sm": "Le lanceur attaque avec retenue, et laisse au moins 1 PV à l’ennemi.",
+            "usum": "Le lanceur attaque avec retenue, et laisse au moins 1 PV à l’ennemi.",
+            "lgpe": "Le lanceur attaque avec retenue, et laisse au moins 1 PV à l’ennemi.",
+            "swsh": "Le lanceur attaque avec retenue, et laisse au moins 1 PV à l’ennemi."
+        },
+        "german": {
+            "xy": "Der Anwender hält sich beim Angriff zurück und sorgt auf diese Weise dafür, dass dem Ziel danach mindestens 1 KP verbleibt.",
+            "oras": "Der Anwender hält sich beim Angriff zurück und sorgt auf diese Weise dafür, dass dem Ziel danach mindestens 1 KP verbleibt.",
+            "sm": "Der Anwender hält sich beim Angriff zurück und sorgt auf diese Weise dafür, dass dem Ziel danach mindestens 1 KP verbleibt.",
+            "usum": "Der Anwender hält sich beim Angriff zurück und sorgt auf diese Weise dafür, dass dem Ziel danach mindestens 1 KP verbleibt.",
+            "lgpe": "Der Anwender hält sich beim Angriff zurück und sorgt auf diese Weise dafür, dass dem Ziel danach mindestens 1 KP verbleibt.",
+            "swsh": "Der Anwender hält sich beim Angriff zurück und sorgt auf diese Weise dafür, dass dem Ziel danach mindestens 1 KP verbleibt."
+        },
+        "spanish": {
+            "xy": "El usuario se contiene a la hora de atacar y deja al Pokémon objetivo con al menos 1 PS.",
+            "oras": "El usuario se contiene a la hora de atacar y deja al Pokémon objetivo con al menos 1 PS.",
+            "sm": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+            "usum": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+            "lgpe": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+            "swsh": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.",
+            "oras": "Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.",
+            "sm": "Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.",
+            "usum": "Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.",
+            "lgpe": "Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.",
+            "swsh": "Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS."
+        },
+        "english": {
+            "xy": "The user holds back when it attacks and the target is left with at least 1 HP.",
+            "oras": "The user holds back when it attacks and the target is left with at least 1 HP.",
+            "sm": "The user holds back when it attacks, and the target is left with at least 1 HP.",
+            "usum": "The user holds back when it attacks, and the target is left with at least 1 HP.",
+            "lgpe": "The user holds back when it attacks, and the target is left with at least 1 HP.",
+            "swsh": "The user holds back when it attacks, and the target is left with at least 1 HP."
+        },
+        "japanese": {
+            "xy": "手加減　した　攻撃で 相手の　ＨＰを 必ず　１だけ　残す。",
+            "oras": "手加減　した　攻撃で 相手の　ＨＰを 必ず　１だけ　残す。",
+            "sm": "手加減　した　攻撃で 相手の　ＨＰを 必ず　１だけ　残す。",
+            "usum": "手加減　した　攻撃で 相手の　ＨＰを 必ず　１だけ　残す。",
+            "lgpe": "手加減　した　攻撃で 相手の　ＨＰを 必ず　１だけ　残す。",
+            "swsh": "手加減　した　攻撃で 相手の　ＨＰを 必ず　１だけ　残す。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario se contiene a la hora de atacar y deja al Pokémon objetivo con al menos 1 PS.",
+            "oras": "El usuario se contiene a la hora de atacar y deja al Pokémon objetivo con al menos 1 PS.",
+            "sm": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+            "usum": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+            "lgpe": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+            "swsh": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS."
+        },
+        "traditional-chinese": {
+            "sm": "在攻擊的時候手下留情， 讓對手的ＨＰ一定會剩下１。",
+            "usum": "在攻擊的時候手下留情， 讓對手的ＨＰ一定會剩下１。",
+            "lgpe": "在攻擊的時候手下留情， 讓對手的HP一定會剩下１。",
+            "swsh": "在攻擊的時候手下留情， 讓對手的ＨＰ一定會剩下１。"
+        },
+        "simplified-chinese": {
+            "sm": "在攻击的时候手下留情， 从而使对手的ＨＰ 至少会留下１ＨＰ。",
+            "usum": "在攻击的时候手下留情， 从而使对手的ＨＰ 至少会留下１ＨＰ。",
+            "lgpe": "在攻击的时候手下留情， 从而使对手的HP 至少会留下１HP。",
+            "swsh": "在攻击的时候手下留情， 从而使对手的ＨＰ 至少会留下１ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Will not reduce the target’s HP below 1.",
+        "shortEffect": "Cannot lower the target’s HP below 1."
+    }
 }

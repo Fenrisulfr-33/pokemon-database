@@ -1,39 +1,138 @@
 {
-  "_id": 511,
-  "key": "quash",
-  "name": {
-    "english": "Quash",
-    "japanese": "さきおくり",
-    "chinese": "延后",
-    "korean": "순서미루기",
-    "german": "Último Lugar",
-    "french": "Verzögerung",
-    "italian": "Quash",
-    "spanish": "Spintone"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user suppresses the target and\nmakes its move go last.",
-    "black-2-white-2": "The user suppresses the target and\nmakes its move go last.",
-    "x-y": "The user suppresses the target and\nmakes its move go last.",
-    "omega-ruby-alpha-sapphire": "The user suppresses the target and\nmakes its move go last.",
-    "sun-moon": "The user suppresses the target and makes its move\ngo last.",
-    "ultra-sun-ultra-moon": "The user suppresses the target and makes its move\ngo last.",
-    "lets-go-pikachu-lets-go-eevee": "The user suppresses the target and makes its move\ngo last.",
-    "sword-shield": "The user suppresses the target and makes its move\ngo last."
-  },
-  "effect": {
-    "full": "Forces the target to act last this turn, regardless of Speed or move priority.  If the target has already acted this turn, this move will fail.",
-    "shortEffect": "Makes the target act last this turn."
-  },
-  "priority": 0
+    "_id": 511,
+    "key": "quash",
+    "name": {
+        "japanese-kana": "さきおくり",
+        "korean": "순서미루기",
+        "traditional-chinese": "延後",
+        "french": "À la Queue",
+        "german": "Verzögerung",
+        "spanish": "Último Lugar",
+        "italian": "Spintone",
+        "english": "Quash",
+        "japanese": "さきおくり",
+        "simplified-chinese": "延后",
+        "latin-american-spanish": "Último Lugar"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Retient la cible de force, l’obligeant à agir en dernier.",
+            "xy": "Retient la cible de force, l’obligeant à agir en dernier.",
+            "oras": "Retient la cible de force, l’obligeant à agir en dernier.",
+            "sm": "Retient la cible de force, l’obligeant à agir en dernier.",
+            "usum": "Retient la cible de force, l’obligeant à agir en dernier.",
+            "lgpe": "Retient la cible de force, l’obligeant à agir en dernier.",
+            "swsh": "Retient la cible de force, l’obligeant à agir en dernier."
+        },
+        "english": {
+            "bw": "The user suppresses the target and makes its move go last.",
+            "b2w2": "The user suppresses the target and makes its move go last.",
+            "xy": "The user suppresses the target and makes its move go last.",
+            "oras": "The user suppresses the target and makes its move go last.",
+            "sm": "The user suppresses the target and makes its move go last.",
+            "usum": "The user suppresses the target and makes its move go last.",
+            "lgpe": "The user suppresses the target and makes its move go last.",
+            "swsh": "The user suppresses the target and makes its move go last.",
+            "la": "The user suppresses the target and makes its move go last.",
+            "sv": "The user suppresses the target and makes its move go last."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　おさえつけて こうどうの　じゅんばんを さいごに　する。",
+            "oras": "あいてを　おさえつけて こうどうの　じゅんばんを さいごに　する。",
+            "sm": "あいてを　おさえつけて こうどうの　じゅんばんを さいごに　する。",
+            "usum": "あいてを　おさえつけて こうどうの　じゅんばんを さいごに　する。",
+            "lgpe": "あいてを　おさえつけて こうどうの　じゅんばんを さいごに　する。",
+            "swsh": "あいてを　おさえつけて こうどうの　じゅんばんを さいごに　する。"
+        },
+        "korean": {
+            "xy": "상대를 억눌러서 행동의 순서를 마지막으로 만든다.",
+            "oras": "상대를 억눌러서 행동의 순서를 마지막으로 만든다.",
+            "sm": "상대를 억눌러서 행동의 순서를 마지막으로 만든다.",
+            "usum": "상대를 억눌러서 행동의 순서를 마지막으로 만든다.",
+            "lgpe": "상대를 억눌러서 행동의 순서를 마지막으로 만든다.",
+            "swsh": "상대를 억눌러서 행동의 순서를 마지막으로 만든다."
+        },
+        "german": {
+            "xy": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift.",
+            "oras": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift.",
+            "sm": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift.",
+            "usum": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift.",
+            "lgpe": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift.",
+            "swsh": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift."
+        },
+        "spanish": {
+            "xy": "Consigue que el objetivo sea el último en moverse.",
+            "oras": "Consigue que el objetivo sea el último en moverse.",
+            "sm": "Consigue que el objetivo sea el último en moverse.",
+            "usum": "Consigue que el objetivo sea el último en moverse.",
+            "lgpe": "Consigue que el objetivo sea el último en moverse.",
+            "swsh": "Consigue que el objetivo sea el último en moverse."
+        },
+        "italian": {
+            "xy": "Chi la usa spinge via il bersaglio, costringendolo ad agire per ultimo.",
+            "oras": "Chi la usa spinge via il bersaglio, costringendolo ad agire per ultimo.",
+            "sm": "Chi la usa spinge via il bersaglio, costringendolo ad agire per ultimo.",
+            "usum": "Chi la usa spinge via il bersaglio, costringendolo ad agire per ultimo.",
+            "lgpe": "Chi la usa spinge via il bersaglio, costringendolo ad agire per ultimo.",
+            "swsh": "Chi la usa spinge via il bersaglio, costringendolo ad agire per ultimo."
+        },
+        "japanese": {
+            "xy": "相手を　おさえつけて 行動の　順番を 最後に　する。",
+            "oras": "相手を　おさえつけて 行動の　順番を 最後に　する。",
+            "sm": "相手を　おさえつけて 行動の　順番を 最後に　する。",
+            "usum": "相手を　おさえつけて 行動の　順番を 最後に　する。",
+            "lgpe": "相手を　おさえつけて 行動の　順番を 最後に　する。",
+            "swsh": "相手を　おさえつけて 行動の　順番を 最後に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Consigue que el objetivo sea el último en moverse.",
+            "oras": "Consigue que el objetivo sea el último en moverse.",
+            "sm": "Consigue que el objetivo sea el último en moverse.",
+            "usum": "Consigue que el objetivo sea el último en moverse.",
+            "lgpe": "Consigue que el objetivo sea el último en moverse.",
+            "swsh": "Consigue que el objetivo sea el último en moverse."
+        },
+        "traditional-chinese": {
+            "sm": "壓制對手，讓對手在 回合的最後才能行動。",
+            "usum": "壓制對手，讓對手在 回合的最後才能行動。",
+            "lgpe": "壓制對手，讓對手在 回合的最後才能行動。",
+            "swsh": "壓制對手，讓對手在 回合的最後才能行動。"
+        },
+        "simplified-chinese": {
+            "sm": "压制对手， 从而将其行动顺序放到最后。",
+            "usum": "压制对手， 从而将其行动顺序放到最后。",
+            "lgpe": "压制对手， 从而将其行动顺序放到最后。",
+            "swsh": "压制对手， 从而将其行动顺序放到最后。"
+        }
+    },
+    "effect": {
+        "full": "Forces the target to act last this turn, regardless of Speed or move priority.  If the target has already acted this turn, this move will fail.",
+        "shortEffect": "Makes the target act last this turn."
+    }
 }

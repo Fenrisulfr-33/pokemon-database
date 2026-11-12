@@ -1,47 +1,144 @@
 {
-  "_id": 96,
-  "key": "meditate",
-  "name": {
-    "english": "Meditate",
-    "japanese": "ヨガのポーズ",
-    "chinese": "瑜伽姿势",
-    "korean": "요가포즈",
-    "german": "Meditación",
-    "french": "Meditation",
-    "italian": "Meditate",
-    "spanish": "Meditazione"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 40,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Raises the user's\nATTACK.",
-    "crystal": "Raises the user's\nATTACK.",
-    "ruby-sapphire": "Meditates in a peaceful\nfashion to raise ATTACK.",
-    "emerald": "Meditates in a peaceful\nfashion to raise ATTACK.",
-    "firered-leafgreen": "The user meditates\nto awaken its power\nand raise its\nATTACK stat.",
-    "diamond-pearl": "The user meditates\nto awaken the power\ndeep within its body\nand raise its Attack\nstat.",
-    "platinum": "The user meditates\nto awaken the power\ndeep within its body\nand raise its Attack\nstat.",
-    "heartgold-soulsilver": "The user meditates\nto awaken the power\ndeep within its body\nand raise its Attack\nstat.",
-    "black-white": "The user meditates to awaken the power\ndeep within its body and raise its\nAttack stat.",
-    "black-2-white-2": "The user meditates to awaken the power\ndeep within its body and raise its\nAttack stat.",
-    "x-y": "The user meditates to awaken the power\ndeep within its body and raise its\nAttack stat.",
-    "omega-ruby-alpha-sapphire": "The user meditates to awaken the power\ndeep within its body and raise its\nAttack stat.",
-    "sun-moon": "The user meditates to awaken the power deep\nwithin its body and raise its Attack stat.",
-    "ultra-sun-ultra-moon": "The user meditates to awaken the power deep\nwithin its body and raise its Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user meditates to awaken the power deep\nwithin its body and raise its Attack stat.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Raises the user's Attack by one stage.",
-    "shortEffect": "Raises the user's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 96,
+    "key": "meditate",
+    "name": {
+        "japanese-kana": "ヨガのポーズ",
+        "korean": "요가포즈",
+        "traditional-chinese": "瑜伽姿勢",
+        "french": "Yoga",
+        "german": "Meditation",
+        "spanish": "Meditación",
+        "italian": "Meditazione",
+        "english": "Meditate",
+        "japanese": "ヨガのポーズ",
+        "simplified-chinese": "瑜伽姿势",
+        "latin-american-spanish": "Meditación"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 40,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Raises the user's ATTACK.",
+            "cr": "Raises the user's ATTACK.",
+            "rs": "Meditates in a peaceful fashion to raise ATTACK.",
+            "em": "Meditates in a peaceful fashion to raise ATTACK.",
+            "frlg": "The user meditates to awaken its power and raise its ATTACK stat.",
+            "dp": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "pt": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "hgss": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "bw": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "b2w2": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "xy": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "oras": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "sm": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "usum": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "lgpe": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque.",
+            "xy": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque.",
+            "oras": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque.",
+            "sm": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque.",
+            "usum": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque.",
+            "lgpe": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ねむっている　ちからを からだの　おくから　ひきだして じぶんの　こうげきを　あげる。",
+            "oras": "ねむっている　ちからを からだの　おくから　ひきだして じぶんの　こうげきを　あげる。",
+            "sm": "ねむっている　ちからを からだの　おくから　ひきだして じぶんの　こうげきを　あげる。",
+            "usum": "ねむっている　ちからを からだの　おくから　ひきだして じぶんの　こうげきを　あげる。",
+            "lgpe": "ねむっている　ちからを からだの　おくから　ひきだして じぶんの　こうげきを　あげる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "잠들어 있는 힘을 몸속에서 끌어내어 자신의 공격을 올린다.",
+            "oras": "잠들어 있는 힘을 몸속에서 끌어내어 자신의 공격을 올린다.",
+            "sm": "잠들어 있는 힘을 몸속에서 끌어내어 자신의 공격을 올린다.",
+            "usum": "잠들어 있는 힘을 몸속에서 끌어내어 자신의 공격을 올린다.",
+            "lgpe": "잠들어 있는 힘을 몸속에서 끌어내어 자신의 공격을 올린다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und steigert so seinen Angriffs-Wert.",
+            "oras": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und steigert so seinen Angriffs-Wert.",
+            "sm": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und erhöht so seinen Angriffs-Wert.",
+            "usum": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und erhöht so seinen Angriffs-Wert.",
+            "lgpe": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und erhöht so seinen Angriffs-Wert.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El usuario reposa y medita para potenciar el Ataque.",
+            "oras": "El usuario reposa y medita para potenciar el Ataque.",
+            "sm": "El usuario reposa y medita para potenciar el Ataque.",
+            "usum": "El usuario reposa y medita para potenciar el Ataque.",
+            "lgpe": "El usuario reposa y medita para potenciar el Ataque.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa medita per risvegliare la propria forza interiore e migliorare l’Attacco.",
+            "oras": "Chi la usa medita per risvegliare la propria forza interiore e migliorare l’Attacco.",
+            "sm": "Chi la usa medita per risvegliare la propria forza interiore e migliorare l’Attacco.",
+            "usum": "Chi la usa medita per risvegliare la propria forza interiore e migliorare l’Attacco.",
+            "lgpe": "Chi la usa medita per risvegliare la propria forza interiore e migliorare l’Attacco.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "眠っている　力を 体の　奥から　ひきだして 自分の　攻撃を　あげる。",
+            "oras": "眠っている　力を 体の　奥から　ひきだして 自分の　攻撃を　あげる。",
+            "sm": "眠っている　力を 体の　奥から　ひきだして 自分の　攻撃を　あげる。",
+            "usum": "眠っている　力を 体の　奥から　ひきだして 自分の　攻撃を　あげる。",
+            "lgpe": "眠っている　力を 体の　奥から　ひきだして 自分の　攻撃を　あげる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario reposa y medita para potenciar el Ataque.",
+            "oras": "El usuario reposa y medita para potenciar el Ataque.",
+            "sm": "El usuario reposa y medita para potenciar el Ataque.",
+            "usum": "El usuario reposa y medita para potenciar el Ataque.",
+            "lgpe": "El usuario reposa y medita para potenciar el Ataque.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "喚醒身體深處 沉睡的力量， 提高自己的攻擊。",
+            "usum": "喚醒身體深處 沉睡的力量， 提高自己的攻擊。",
+            "lgpe": "喚醒身體深處 沉睡的力量， 提高自己的攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "唤醒身体深处 沉睡的力量， 从而提高自己的攻击。",
+            "usum": "唤醒身体深处 沉睡的力量， 从而提高自己的攻击。",
+            "lgpe": "唤醒身体深处 沉睡的力量， 从而提高自己的攻击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Attack by one stage.",
+        "shortEffect": "Raises the user’s Attack by one stage."
+    }
 }

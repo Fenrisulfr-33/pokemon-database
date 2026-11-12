@@ -1,35 +1,117 @@
 {
-  "_id": 715,
-  "key": "tearful-look",
-  "name": {
-    "english": "Tearful Look",
-    "japanese": "なみだめ",
-    "chinese": "淚眼汪汪",
-    "korean": "눈물그렁그렁",
-    "german": "Ojos Llorosos",
-    "french": "Tränendrüse",
-    "italian": "Tearful Look",
-    "spanish": "Occhionilucidi"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user gets teary eyed to make the target lose\nits combative spirit. This lowers the target’s\nAttack and Sp. Atk stats.",
-    "ultra-sun-ultra-moon": "The user gets teary eyed to make the target lose\nits combative spirit. This lowers the target’s\nAttack and Sp. Atk stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user gets teary eyed to make the target lose\nits combative spirit. This lowers the target’s\nAttack and Sp. Atk stats.",
-    "sword-shield": "The user gets teary eyed to make the target lose\nits combative spirit. This lowers the target’s\nAttack and Sp. Atk stats."
-  },
-  "effect": {
-    "full": "Lowers the target's Attack and Special Attack by one stage each.",
-    "shortEffect": "Lowers the target's Attack and Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 715,
+    "key": "tearful-look",
+    "name": {
+        "japanese-kana": "なみだめ",
+        "korean": "눈물그렁그렁",
+        "traditional-chinese": "淚眼汪汪",
+        "french": "Larme à l’Œil",
+        "german": "Tränendrüse",
+        "spanish": "Ojos Llorosos",
+        "italian": "Occhionilucidi",
+        "english": "Tearful Look",
+        "japanese": "なみだめ",
+        "simplified-chinese": "泪眼汪汪",
+        "latin-american-spanish": "Ojos Llorosos"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "なみだめに　なって あいての　せんりょくを　そうしつさせる。 あいての　こうげきと　とくこうが　さがる。",
+            "usum": "なみだめに　なって あいての　せんりょくを　そうしつさせる。 あいての　こうげきと　とくこうが　さがる。",
+            "lgpe": "なみだめに　なって あいての　せんりょくを　そうしつさせる。 あいての　こうげきと　とくこうが　さがる。",
+            "swsh": "なみだめに　なって あいての　せんりょくを　そうしつさせる。 あいての　こうげきと　とくこうが　さがる。"
+        },
+        "korean": {
+            "sm": "눈물을 그렁그렁거려 상대의 전의를 상실하게 한다. 상대의 공격과 특수공격이 떨어진다.",
+            "usum": "눈물을 그렁그렁거려 상대의 전의를 상실하게 한다. 상대의 공격과 특수공격이 떨어진다.",
+            "lgpe": "눈물을 그렁그렁거려 상대의 전의를 상실하게 한다. 상대의 공격과 특수공격이 떨어진다.",
+            "swsh": "눈물을 그렁그렁거려 상대의 전의를 상실하게 한다. 상대의 공격과 특수공격이 떨어진다."
+        },
+        "traditional-chinese": {
+            "sm": "變得淚眼汪汪， 令對手喪失鬥志。 進而降低對手的攻擊和特攻。",
+            "usum": "變得淚眼汪汪， 令對手喪失鬥志。 進而降低對手的攻擊和特攻。",
+            "lgpe": "變得淚眼汪汪， 令對手喪失鬥志。 進而降低對手的攻擊和特攻。",
+            "swsh": "變得淚眼汪汪， 令對手喪失鬥志。 進而降低對手的攻擊和特攻。"
+        },
+        "french": {
+            "sm": "Le lanceur jette un regard plein de larmes à la cible. Celle-ci perd toute velléité de combat et voit son Attaque et son Attaque Spéciale baisser.",
+            "usum": "Le lanceur jette un regard plein de larmes à la cible. Celle-ci perd toute velléité de combat et voit son Attaque et son Attaque Spéciale baisser.",
+            "lgpe": "Le lanceur jette un regard plein de larmes à la cible. Celle-ci perd toute velléité de combat et voit son Attaque et son Attaque Spéciale baisser.",
+            "swsh": "Le lanceur jette un regard plein de larmes à la cible. Celle-ci perd toute velléité de combat et voit son Attaque et son Attaque Spéciale baisser."
+        },
+        "german": {
+            "sm": "Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.",
+            "usum": "Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.",
+            "lgpe": "Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.",
+            "swsh": "Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken."
+        },
+        "spanish": {
+            "sm": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.",
+            "usum": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.",
+            "lgpe": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.",
+            "swsh": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial."
+        },
+        "italian": {
+            "sm": "Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere lo spirito combattivo, riducendone l’Attacco e l’Attacco Speciale.",
+            "usum": "Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere lo spirito combattivo, riducendone l’Attacco e l’Attacco Speciale.",
+            "lgpe": "Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere lo spirito combattivo, riducendone l’Attacco e l’Attacco Speciale.",
+            "swsh": "Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere lo spirito combattivo, riducendone l’Attacco e l’Attacco Speciale."
+        },
+        "english": {
+            "sm": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.",
+            "usum": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.",
+            "lgpe": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.",
+            "swsh": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.",
+            "la": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target's Attack and Sp. Atk stats.",
+            "sv": "The user gets teary-eyed to make the target lose its combative spirit. This lowers the target's Attack and Sp. Atk stats."
+        },
+        "japanese": {
+            "sm": "なみだめに　なって 相手の　戦力を　喪失させる。 相手の　攻撃と　特攻が　さがる。",
+            "usum": "なみだめに　なって 相手の　戦力を　喪失させる。 相手の　攻撃と　特攻が　さがる。",
+            "lgpe": "なみだめに　なって 相手の　戦力を　喪失させる。 相手の　攻撃と　特攻が　さがる。",
+            "swsh": "なみだめに　なって 相手の　戦力を　喪失させる。 相手の　攻撃と　特攻が　さがる。"
+        },
+        "simplified-chinese": {
+            "sm": "变得泪眼汪汪， 让对手丧失斗志。 从而降低对手的攻击和特攻。",
+            "usum": "变得泪眼汪汪， 让对手丧失斗志。 从而降低对手的攻击和特攻。",
+            "lgpe": "变得泪眼汪汪， 让对手丧失斗志。 从而降低对手的攻击和特攻。",
+            "swsh": "变得泪眼汪汪， 让对手丧失斗志。 从而降低对手的攻击和特攻。"
+        },
+        "latin-american-spanish": {
+            "sm": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.",
+            "usum": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.",
+            "lgpe": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.",
+            "swsh": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial."
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Attack and Special Attack by one stage each.",
+        "shortEffect": "Lowers the target’s Attack and Special Attack by one stage."
+    }
 }

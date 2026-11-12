@@ -1,47 +1,146 @@
 {
-  "_id": 61,
-  "key": "bubble-beam",
-  "name": {
-    "english": "Bubble Beam",
-    "japanese": "バブルこうせん",
-    "chinese": "泡沫光线",
-    "korean": "거품광선",
-    "german": "Rayo Burbuja",
-    "french": "Blubbstrahl",
-    "italian": "Bubble Beam",
-    "spanish": "Bollaraggio"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nlower SPEED.",
-    "crystal": "An attack that may\nlower SPEED.",
-    "ruby-sapphire": "Forcefully sprays bubbles\nthat may lower SPEED.",
-    "emerald": "Forcefully sprays bubbles\nthat may lower SPEED.",
-    "firered-leafgreen": "A spray of bubbles\nstrikes the foe.\nIt may lower the\nfoe’s SPEED stat.",
-    "diamond-pearl": "A spray of bubbles is\nforcefully ejected\nat the foe.\nIt may also lower the\ntarget’s Speed stat.",
-    "platinum": "A spray of bubbles is\nforcefully ejected\nat the foe.\nIt may also lower the\ntarget’s Speed stat.",
-    "heartgold-soulsilver": "A spray of bubbles is\nforcefully ejected\nat the foe.\nIt may also lower the\ntarget’s Speed stat.",
-    "black-white": "A spray of bubbles is forcefully ejected\nat the opposing team. It may also lower\ntheir Speed stats.",
-    "black-2-white-2": "A spray of bubbles is forcefully ejected\nat the opposing team. It may also lower\ntheir Speed stats.",
-    "x-y": "A spray of bubbles is forcefully ejected\nat the target. This may also lower\nits Speed stat.",
-    "omega-ruby-alpha-sapphire": "A spray of bubbles is forcefully ejected\nat the target. This may also lower\nits Speed stat.",
-    "sun-moon": "A spray of bubbles is forcefully ejected at the\ntarget. This may also lower its Speed stat.",
-    "ultra-sun-ultra-moon": "A spray of bubbles is forcefully ejected at the\ntarget. This may also lower its Speed stat.",
-    "lets-go-pikachu-lets-go-eevee": "A spray of bubbles is forcefully ejected at the\ntarget. This may also lower its Speed stat.",
-    "sword-shield": "A spray of bubbles is forcefully ejected at the\ntarget. This may also lower the target’s Speed stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 61,
+    "key": "bubble-beam",
+    "name": {
+        "japanese-kana": "バブルこうせん",
+        "korean": "거품광선",
+        "traditional-chinese": "泡沫光線",
+        "french": "Bulles d’O",
+        "german": "Blubbstrahl",
+        "spanish": "Rayo Burbuja",
+        "italian": "Bollaraggio",
+        "english": "Bubble Beam",
+        "japanese": "バブルこうせん",
+        "simplified-chinese": "泡沫光线",
+        "latin-american-spanish": "Rayo Burbuja"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may lower SPEED.",
+            "cr": "An attack that may lower SPEED.",
+            "rs": "Forcefully sprays bubbles that may lower SPEED.",
+            "em": "Forcefully sprays bubbles that may lower SPEED.",
+            "frlg": "A spray of bubbles strikes the foe. It may lower the foe’s SPEED stat.",
+            "dp": "A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.",
+            "pt": "A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.",
+            "hgss": "A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.",
+            "bw": "A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.",
+            "b2w2": "A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.",
+            "xy": "A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.",
+            "oras": "A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.",
+            "sm": "A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.",
+            "usum": "A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.",
+            "lgpe": "A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.",
+            "swsh": "A spray of bubbles is forcefully ejected at the target. This may also lower the target’s Speed stat.",
+            "la": "A spray of bubbles is forcefully ejected at the target. This may also lower the target's Speed stat.",
+            "sv": "A spray of bubbles is forcefully ejected at the target. This may also lower the target's Speed stat."
+        },
+        "french": {
+            "bw": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.",
+            "xy": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.",
+            "oras": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.",
+            "sm": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.",
+            "usum": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.",
+            "lgpe": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.",
+            "swsh": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse."
+        },
+        "japanese-kana": {
+            "xy": "あわを　いきおいよく あいてに　はっしゃして　こうげきする。 すばやさを　さげる　ことが　ある。",
+            "oras": "あわを　いきおいよく あいてに　はっしゃして　こうげきする。 すばやさを　さげる　ことが　ある。",
+            "sm": "あわを　いきおいよく あいてに　はっしゃして　こうげきする。 すばやさを　さげる　ことが　ある。",
+            "usum": "あわを　いきおいよく あいてに　はっしゃして　こうげきする。 すばやさを　さげる　ことが　ある。",
+            "lgpe": "あわを　いきおいよく あいてに　はっしゃして　こうげきする。 すばやさを　さげる　ことが　ある。",
+            "swsh": "あわを　いきおいよく あいてに　はっしゃして　こうげきする。 すばやさを　さげる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다.",
+            "oras": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다.",
+            "sm": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다.",
+            "usum": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다.",
+            "lgpe": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다.",
+            "swsh": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.",
+            "oras": "Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.",
+            "sm": "Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.",
+            "usum": "Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.",
+            "lgpe": "Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.",
+            "swsh": "Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken."
+        },
+        "spanish": {
+            "xy": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "oras": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "sm": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "usum": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "lgpe": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "swsh": "Diluvio de burbujas que puede bajar la Velocidad."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.",
+            "oras": "Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.",
+            "sm": "Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.",
+            "usum": "Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.",
+            "lgpe": "Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.",
+            "swsh": "Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità."
+        },
+        "japanese": {
+            "xy": "泡を　勢いよく 相手に　発射して　攻撃する。 素早さを　さげる　ことが　ある。",
+            "oras": "泡を　勢いよく 相手に　発射して　攻撃する。 素早さを　さげる　ことが　ある。",
+            "sm": "泡を　勢いよく 相手に　発射して　攻撃する。 素早さを　さげる　ことが　ある。",
+            "usum": "泡を　勢いよく 相手に　発射して　攻撃する。 素早さを　さげる　ことが　ある。",
+            "lgpe": "泡を　勢いよく 相手に　発射して　攻撃する。 素早さを　さげる　ことが　ある。",
+            "swsh": "泡を　勢いよく 相手に　発射して　攻撃する。 素早さを　さげる　ことが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "oras": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "sm": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "usum": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "lgpe": "Diluvio de burbujas que puede bajar la Velocidad.",
+            "swsh": "Diluvio de burbujas que puede bajar la Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "向對手猛烈地噴射 泡沫進行攻擊。 有時會降低對手的速度。",
+            "usum": "向對手猛烈地噴射 泡沫進行攻擊。 有時會降低對手的速度。",
+            "lgpe": "向對手猛烈地噴射 泡沫進行攻擊。 有時會降低對手的速度。",
+            "swsh": "向對手猛烈地噴射 泡沫進行攻擊。 有時會降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手猛烈地喷射 泡沫进行攻击。 有时会降低对手的速度。",
+            "usum": "向对手猛烈地喷射 泡沫进行攻击。 有时会降低对手的速度。",
+            "lgpe": "向对手猛烈地喷射 泡沫进行攻击。 有时会降低对手的速度。",
+            "swsh": "向对手猛烈地喷射 泡沫进行攻击。 有时会降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

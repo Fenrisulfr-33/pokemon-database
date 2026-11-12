@@ -1,47 +1,146 @@
 {
-  "_id": 223,
-  "key": "dynamic-punch",
-  "name": {
-    "english": "Dynamic Punch",
-    "japanese": "ばくれつパンチ",
-    "chinese": "爆裂拳",
-    "korean": "폭발펀치",
-    "german": "Puño Dinámico",
-    "french": "Wuchtschlag",
-    "italian": "Dynamic Punch",
-    "spanish": "Dinamipugno"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 100,
-  "accuracy": 50,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that\nalways confuses.",
-    "crystal": "An attack that\nalways confuses.",
-    "ruby-sapphire": "Powerful and sure to cause\nconfusion, but inaccurate.",
-    "emerald": "Powerful and sure to cause\nconfusion, but inaccurate.",
-    "firered-leafgreen": "The foe is punched\nwith the user’s full\npower. It confuses\nthe foe if it hits.",
-    "diamond-pearl": "The foe is punched\nwith the user’s full,\nconcentrated power.\nIt confuses the foe\nif it hits.",
-    "platinum": "The foe is punched\nwith the user’s full,\nconcentrated power.\nIt confuses the foe\nif it hits.",
-    "heartgold-soulsilver": "The foe is punched\nwith the user’s full,\nconcentrated power.\nIt confuses the foe\nif it hits.",
-    "black-white": "The user punches the target with full,\nconcentrated power.\nIt confuses the target if it hits.",
-    "black-2-white-2": "The user punches the target with full,\nconcentrated power.\nIt confuses the target if it hits.",
-    "x-y": "The user punches the target with full,\nconcentrated power.\nThis confuses the target if it hits.",
-    "omega-ruby-alpha-sapphire": "The user punches the target with full,\nconcentrated power.\nThis confuses the target if it hits.",
-    "sun-moon": "The user punches the target with full, concentrated\npower. This confuses the target if it hits.",
-    "ultra-sun-ultra-moon": "The user punches the target with full, concentrated\npower. This confuses the target if it hits.",
-    "lets-go-pikachu-lets-go-eevee": "The user punches the target with full, concentrated\npower. This confuses the target if it hits.",
-    "sword-shield": "The user punches the target with full, concentrated\npower. This confuses the target if it hits."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 223,
+    "key": "dynamic-punch",
+    "name": {
+        "japanese-kana": "ばくれつパンチ",
+        "korean": "폭발펀치",
+        "traditional-chinese": "爆裂拳",
+        "french": "Dynamo-Poing",
+        "german": "Wuchtschlag",
+        "spanish": "Puño Dinámico",
+        "italian": "Dinamipugno",
+        "english": "Dynamic Punch",
+        "japanese": "ばくれつパンチ",
+        "simplified-chinese": "爆裂拳",
+        "latin-american-spanish": "Puño Dinámico"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 5,
+    "power": 100,
+    "accuracy": 50,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that always confuses.",
+            "cr": "An attack that always confuses.",
+            "rs": "Powerful and sure to cause confusion, but inaccurate.",
+            "em": "Powerful and sure to cause confusion, but inaccurate.",
+            "frlg": "The foe is punched with the user’s full power. It confuses the foe if it hits.",
+            "dp": "The foe is punched with the user’s full, concentrated power. It confuses the foe if it hits.",
+            "pt": "The foe is punched with the user’s full, concentrated power. It confuses the foe if it hits.",
+            "hgss": "The foe is punched with the user’s full, concentrated power. It confuses the foe if it hits.",
+            "bw": "The user punches the target with full, concentrated power. It confuses the target if it hits.",
+            "b2w2": "The user punches the target with full, concentrated power. It confuses the target if it hits.",
+            "xy": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+            "oras": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+            "sm": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+            "usum": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+            "lgpe": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+            "swsh": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+            "la": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+            "sv": "The user attacks by punching the target with full concentrated power. This also confuses the target."
+        },
+        "french": {
+            "bw": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. S’il est touché, il est confus.",
+            "xy": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus.",
+            "oras": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus.",
+            "sm": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus.",
+            "usum": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus.",
+            "lgpe": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus.",
+            "swsh": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus."
+        },
+        "japanese-kana": {
+            "xy": "こんしんの　ちからで パンチを　くりだして　こうげきする。 あいてを　かならず　こんらん　させる。",
+            "oras": "こんしんの　ちからで パンチを　くりだして　こうげきする。 あいてを　かならず　こんらん　させる。",
+            "sm": "こんしんの　ちからで パンチを　くりだして　こうげきする。 あいてを　かならず　こんらん　させる。",
+            "usum": "こんしんの　ちからで パンチを　くりだして　こうげきする。 あいてを　かならず　こんらん　させる。",
+            "lgpe": "こんしんの　ちからで パンチを　くりだして　こうげきする。 あいてを　かならず　こんらん　させる。",
+            "swsh": "こんしんの　ちからで パンチを　くりだして　こうげきする。 あいてを　かならず　こんらん　させる。"
+        },
+        "korean": {
+            "xy": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.",
+            "oras": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.",
+            "sm": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.",
+            "usum": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.",
+            "lgpe": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.",
+            "swsh": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다."
+        },
+        "german": {
+            "xy": "Kräftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "oras": "Kräftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "sm": "Kräftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "usum": "Kräftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "lgpe": "Kräftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "swsh": "Kräftiger Schlag, der das Ziel bei Erfolg verwirrt."
+        },
+        "spanish": {
+            "xy": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "oras": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "sm": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "usum": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "lgpe": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "swsh": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un pugno davvero forte. Se va a segno, lo confonde.",
+            "oras": "Colpisce il bersaglio con un pugno davvero forte. Se va a segno, lo confonde.",
+            "sm": "Colpisce il bersaglio con un pugno davvero forte. Se va a segno, lo confonde.",
+            "usum": "Colpisce il bersaglio con un pugno davvero forte. Se va a segno, lo confonde.",
+            "lgpe": "Colpisce il bersaglio con un pugno davvero forte. Se va a segno, lo confonde.",
+            "swsh": "Colpisce il bersaglio con un pugno davvero forte. Se va a segno, lo confonde."
+        },
+        "japanese": {
+            "xy": "こん身の　力で パンチを　くりだして　攻撃する。 相手を　必ず　混乱させる。",
+            "oras": "こん身の　力で パンチを　くりだして　攻撃する。 相手を　必ず　混乱させる。",
+            "sm": "こん身の　力で パンチを　くりだして　攻撃する。 相手を　必ず　混乱させる。",
+            "usum": "こん身の　力で パンチを　くりだして　攻撃する。 相手を　必ず　混乱させる。",
+            "lgpe": "こん身の　力で パンチを　くりだして　攻撃する。 相手を　必ず　混乱させる。",
+            "swsh": "こん身の　力で パンチを　くりだして　攻撃する。 相手を　必ず　混乱させる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "oras": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "sm": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "usum": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "lgpe": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+            "swsh": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina."
+        },
+        "traditional-chinese": {
+            "sm": "使出渾身力量出拳進行攻擊。 必定會使對手混亂。",
+            "usum": "使出渾身力量出拳進行攻擊。 必定會使對手混亂。",
+            "lgpe": "使出渾身力量出拳進行攻擊。 必定會使對手混亂。",
+            "swsh": "使出渾身力量出拳進行攻擊。 必定會使對手混亂。"
+        },
+        "simplified-chinese": {
+            "sm": "使出浑身力气出拳进行攻击。 必定会使对手混乱。",
+            "usum": "使出浑身力气出拳进行攻击。 必定会使对手混乱。",
+            "lgpe": "使出浑身力气出拳进行攻击。 必定会使对手混乱。",
+            "swsh": "使出浑身力气出拳进行攻击。 必定会使对手混乱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

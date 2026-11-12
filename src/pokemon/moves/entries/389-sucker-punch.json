@@ -1,42 +1,145 @@
 {
-  "_id": 389,
-  "key": "sucker-punch",
-  "name": {
-    "english": "Sucker Punch",
-    "japanese": "ふいうち",
-    "chinese": "突袭",
-    "korean": "기습",
-    "german": "Golpe Bajo",
-    "french": "Tiefschlag",
-    "italian": "Sucker Punch",
-    "spanish": "Sbigoattacco"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 5,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "This move enables the\nuser to attack first.\nIt fails if the foe is\nnot readying an\nattack, however.",
-    "platinum": "This move enables the\nuser to attack first.\nIt fails if the foe is\nnot readying an\nattack, however.",
-    "heartgold-soulsilver": "This move enables the\nuser to attack first.\nIt fails if the foe is\nnot readying an\nattack, however.",
-    "black-white": "This move enables the user to attack\nfirst. It fails if the target is not\nreadying an attack, however.",
-    "black-2-white-2": "This move enables the user to attack\nfirst. It fails if the target is not\nreadying an attack, however.",
-    "x-y": "This move enables the user to attack\nfirst. This move fails if the target is not\nreadying an attack.",
-    "omega-ruby-alpha-sapphire": "This move enables the user to attack\nfirst. This move fails if the target is not\nreadying an attack.",
-    "sun-moon": "This move enables the user to attack first. This move\nfails if the target is not readying an attack.",
-    "ultra-sun-ultra-moon": "This move enables the user to attack first. This move\nfails if the target is not readying an attack.",
-    "lets-go-pikachu-lets-go-eevee": "This move enables the user to attack first. This move\nfails if the target is not readying an attack.",
-    "sword-shield": "This move enables the user to attack first. This move\nfails if the target is not readying an attack."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will fail.\n\nThis move is not affected by iron fist.",
-    "shortEffect": "Only works if the target is about to use a damaging move."
-  },
-  "priority": 1
+    "_id": 389,
+    "key": "sucker-punch",
+    "name": {
+        "japanese-kana": "ふいうち",
+        "korean": "기습",
+        "traditional-chinese": "突襲",
+        "french": "Coup Bas",
+        "german": "Tiefschlag",
+        "spanish": "Golpe Bajo",
+        "italian": "Sbigoattacco",
+        "english": "Sucker Punch",
+        "japanese": "ふいうち",
+        "simplified-chinese": "突袭",
+        "latin-american-spanish": "Golpe Bajo"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 5,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "power": 80
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "This move enables the user to attack first. It fails if the foe is not readying an attack, however.",
+            "pt": "This move enables the user to attack first. It fails if the foe is not readying an attack, however.",
+            "hgss": "This move enables the user to attack first. It fails if the foe is not readying an attack, however.",
+            "bw": "This move enables the user to attack first. It fails if the target is not readying an attack, however.",
+            "b2w2": "This move enables the user to attack first. It fails if the target is not readying an attack, however.",
+            "xy": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+            "oras": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+            "sm": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+            "usum": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+            "lgpe": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+            "swsh": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+            "la": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+            "sv": "This move enables the user to attack first. This move fails if the target is not readying an attack."
+        },
+        "french": {
+            "bw": "Permet au lanceur de frapper en premier. Échoue si l’ennemi ne prépare pas une attaque.",
+            "xy": "Permet au lanceur de frapper en premier. Échoue si l’ennemi ne prépare pas une attaque.",
+            "oras": "Permet au lanceur de frapper en premier. Échoue si l’ennemi ne prépare pas une attaque.",
+            "sm": "Permet au lanceur de frapper en priorité. Échoue si l’ennemi ne prépare pas une attaque.",
+            "usum": "Permet au lanceur de frapper en priorité. Échoue si l’ennemi ne prépare pas une attaque.",
+            "lgpe": "Permet au lanceur de frapper en priorité. Échoue si l’ennemi ne prépare pas une attaque.",
+            "swsh": "Permet au lanceur de frapper en priorité. Échoue si l’ennemi ne prépare pas une attaque."
+        },
+        "japanese-kana": {
+            "xy": "あいてより　さきに　こうげき　できる。 あいてが　だすわざが こうげきわざ　でないと　しっぱい　する。",
+            "oras": "あいてより　さきに　こうげき　できる。 あいてが　だすわざが こうげきわざ　でないと　しっぱい　する。",
+            "sm": "あいてより　さきに　こうげき　できる。 あいてが　だすわざが こうげきわざ　でないと　しっぱい　する。",
+            "usum": "あいてより　さきに　こうげき　できる。 あいてが　だすわざが こうげきわざ　でないと　しっぱい　する。",
+            "lgpe": "あいてより　さきに　こうげき　できる。 あいてが　だすわざが こうげきわざ　でないと　しっぱい　する。",
+            "swsh": "あいてより　さきに　こうげき　できる。 あいてが　だすわざが こうげきわざ　でないと　しっぱい　する。"
+        },
+        "korean": {
+            "xy": "상대보다 먼저 공격할 수 있다. 상대가 쓴 기술이 공격기술이 아니면 실패한다.",
+            "oras": "상대보다 먼저 공격할 수 있다. 상대가 쓴 기술이 공격기술이 아니면 실패한다.",
+            "sm": "상대보다 먼저 공격할 수 있다. 상대가 쓴 기술이 공격기술이 아니면 실패한다.",
+            "usum": "상대보다 먼저 공격할 수 있다. 상대가 쓴 기술이 공격기술이 아니면 실패한다.",
+            "lgpe": "상대보다 먼저 공격할 수 있다. 상대가 쓴 기술이 공격기술이 아니면 실패한다.",
+            "swsh": "상대보다 먼저 공격할 수 있다. 상대가 쓴 기술이 공격기술이 아니면 실패한다."
+        },
+        "german": {
+            "xy": "Ermöglicht den Erstschlag. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet.",
+            "oras": "Ermöglicht den Erstschlag. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet, die KP-Schaden zufügen würde.",
+            "sm": "Attacke mit hoher Erstschlagquote. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet, die KP-Schaden zufügen würde.",
+            "usum": "Attacke mit hoher Erstschlagquote. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet, die KP-Schaden zufügen würde.",
+            "lgpe": "Attacke mit hoher Erstschlagquote. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet, die KP-Schaden zufügen würde.",
+            "swsh": "Erstschlag-Attacke, die aber nur gelingt, wenn das Ziel gerade eine Attacke vorbereitet, die KP-Schaden zufügen würde."
+        },
+        "spanish": {
+            "xy": "Permite atacar primero. Falla si el objetivo no está preparando ningún ataque.",
+            "oras": "Permite atacar primero. Falla si el objetivo no está preparando ningún ataque.",
+            "sm": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.",
+            "usum": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.",
+            "lgpe": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.",
+            "swsh": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque."
+        },
+        "italian": {
+            "xy": "Chi la usa può attaccare per primo. Fallisce se il bersaglio non sta preparando un attacco.",
+            "oras": "Chi la usa può attaccare per primo. Fallisce se il bersaglio non sta preparando un attacco.",
+            "sm": "Chi la usa attacca con alta priorità, ma fallisce se il bersaglio non sta preparando un attacco.",
+            "usum": "Chi la usa attacca con alta priorità, ma fallisce se il bersaglio non sta preparando un attacco.",
+            "lgpe": "Chi la usa attacca con alta priorità, ma fallisce se il bersaglio non sta preparando un attacco.",
+            "swsh": "Chi la usa attacca con alta priorità, ma fallisce se il bersaglio non sta preparando un attacco."
+        },
+        "japanese": {
+            "xy": "相手より　先に　攻撃　できる。 相手が　だす技が 攻撃技でないと　失敗する。",
+            "oras": "相手より　先に　攻撃　できる。 相手が　だす技が 攻撃技でないと　失敗する。",
+            "sm": "相手より　先に　攻撃　できる。 相手が　だす技が 攻撃技でないと　失敗する。",
+            "usum": "相手より　先に　攻撃　できる。 相手が　だす技が 攻撃技でないと　失敗する。",
+            "lgpe": "相手より　先に　攻撃　できる。 相手が　だす技が 攻撃技でないと　失敗する。",
+            "swsh": "相手より　先に　攻撃　できる。 相手が　だす技が 攻撃技でないと　失敗する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Permite atacar primero. Falla si el objetivo no está preparando ningún ataque.",
+            "oras": "Permite atacar primero. Falla si el objetivo no está preparando ningún ataque.",
+            "sm": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.",
+            "usum": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.",
+            "lgpe": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.",
+            "swsh": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque."
+        },
+        "traditional-chinese": {
+            "sm": "可以搶先對手一步進行攻擊。 若對手使用的不是攻擊招式則會失敗。",
+            "usum": "可以搶先對手一步進行攻擊。 若對手使用的不是攻擊招式則會失敗。",
+            "lgpe": "可以搶先對手一步進行攻擊。 若對手使用的不是攻擊招式則會失敗。",
+            "swsh": "可以搶先對手一步進行攻擊。 若對手使用的不是攻擊招式則會失敗。"
+        },
+        "simplified-chinese": {
+            "sm": "可以比对手先攻击。 对手使出的招式 如果不是攻击招式则会失败。",
+            "usum": "可以比对手先攻击。 对手使出的招式 如果不是攻击招式则会失败。",
+            "lgpe": "可以比对手先攻击。 对手使出的招式 如果不是攻击招式则会失败。",
+            "swsh": "可以比对手先攻击。 对手使出的招式 如果不是攻击招式则会失败。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will fail. This move is not affected by Iron Fist.",
+        "shortEffect": "Only works if the target is about to use a damaging move."
+    }
 }

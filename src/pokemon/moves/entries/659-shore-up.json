@@ -1,35 +1,117 @@
 {
-  "_id": 659,
-  "key": "shore-up",
-  "name": {
-    "english": "Shore Up",
-    "japanese": "すなあつめ",
-    "chinese": "集沙",
-    "korean": "모래모으기",
-    "german": "Recogearena",
-    "french": "Sandsammler",
-    "italian": "Shore Up",
-    "spanish": "Sabbiaccumulo"
-  },
-  "type": "Ground",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user regains up to half of its max HP. It restores\nmore HP in a sandstorm.",
-    "ultra-sun-ultra-moon": "The user regains up to half of its max HP. It restores\nmore HP in a sandstorm.",
-    "lets-go-pikachu-lets-go-eevee": "The user regains up to half of its max HP. It restores\nmore HP in a sandstorm.",
-    "sword-shield": "The user regains up to half of its max HP. It restores\nmore HP in a sandstorm."
-  },
-  "effect": {
-    "full": "Heals the user for ½ its max HP.  During a sandstorm, the healing is increased to ⅔.",
-    "shortEffect": "Heals the user for ½ its max HP, or ⅔ during a sandstorm."
-  },
-  "priority": 0
+    "_id": 659,
+    "key": "shore-up",
+    "name": {
+        "japanese-kana": "すなあつめ",
+        "korean": "모래모으기",
+        "traditional-chinese": "集沙",
+        "french": "Amass’Sable",
+        "german": "Sandsammler",
+        "spanish": "Recogearena",
+        "italian": "Sabbiaccumulo",
+        "english": "Shore Up",
+        "japanese": "すなあつめ",
+        "simplified-chinese": "集沙",
+        "latin-american-spanish": "Recogearena"
+    },
+    "type": "ground",
+    "category": "status",
+    "contest": null,
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 すなあらしのときは　おおく　かいふく。",
+            "usum": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 すなあらしのときは　おおく　かいふく。",
+            "lgpe": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 すなあらしのときは　おおく　かいふく。",
+            "swsh": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 すなあらしのときは　おおく　かいふく。"
+        },
+        "korean": {
+            "sm": "자신의 최대 HP 절반을 회복한다. 모래바람일 때는 많이 회복한다.",
+            "usum": "자신의 최대 HP 절반을 회복한다. 모래바람일 때는 많이 회복한다.",
+            "lgpe": "자신의 최대 HP 절반을 회복한다. 모래바람일 때는 많이 회복한다.",
+            "swsh": "자신의 최대 HP 절반을 회복한다. 모래바람일 때는 많이 회복한다."
+        },
+        "traditional-chinese": {
+            "sm": "回復自己最大ＨＰ的一半。 在沙暴中回復得更多。",
+            "usum": "回復自己最大ＨＰ的一半。 在沙暴中回復得更多。",
+            "lgpe": "回復自己最大HP的一半。 在沙暴中回復得更多。",
+            "swsh": "回復自己最大ＨＰ的一半。 在沙暴中回復得更多。"
+        },
+        "french": {
+            "sm": "Le lanceur récupère jusqu’à la moitié de ses PV max. Durant une tempête de sable, il en récupère encore plus.",
+            "usum": "Le lanceur récupère jusqu’à la moitié de ses PV max. Durant une tempête de sable, il en récupère encore plus.",
+            "lgpe": "Le lanceur récupère jusqu’à la moitié de ses PV max. Durant une tempête de sable, il en récupère encore plus.",
+            "swsh": "Le lanceur récupère jusqu’à la moitié de ses PV max. Durant une tempête de sable, il en récupère encore plus."
+        },
+        "german": {
+            "sm": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Tobt ein Sandsturm, werden noch mehr KP aufgefüllt.",
+            "usum": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Tobt ein Sandsturm, werden noch mehr KP aufgefüllt.",
+            "lgpe": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Tobt ein Sandsturm, werden noch mehr KP aufgefüllt.",
+            "swsh": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Tobt ein Sandsturm, werden noch mehr KP aufgefüllt."
+        },
+        "spanish": {
+            "sm": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.",
+            "usum": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.",
+            "lgpe": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.",
+            "swsh": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS."
+        },
+        "italian": {
+            "sm": "Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.",
+            "usum": "Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.",
+            "lgpe": "Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.",
+            "swsh": "Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più."
+        },
+        "english": {
+            "sm": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+            "usum": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+            "lgpe": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+            "swsh": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+            "la": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+            "sv": "The user restores its own HP by up to half its max HP. It regains more HP in a sandstorm."
+        },
+        "japanese": {
+            "sm": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 すなあらしの時は　多く　回復。",
+            "usum": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 すなあらしの時は　多く　回復。",
+            "lgpe": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 すなあらしの時は　多く　回復。",
+            "swsh": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 すなあらしの時は　多く　回復。"
+        },
+        "simplified-chinese": {
+            "sm": "回复自己最大ＨＰ的一半。 在沙暴中回复得更多。",
+            "usum": "回复自己最大ＨＰ的一半。 在沙暴中回复得更多。",
+            "lgpe": "回复自己最大HP的一半。 在沙暴中回复得更多。",
+            "swsh": "回复自己最大ＨＰ的一半。 在沙暴中回复得更多。"
+        },
+        "latin-american-spanish": {
+            "sm": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.",
+            "usum": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.",
+            "lgpe": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.",
+            "swsh": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS."
+        }
+    },
+    "effect": {
+        "full": "Heals the user for ½ its max HP.  During a Sandstorm, the healing is increased to ⅔.",
+        "shortEffect": "Heals the user for ½ its max HP, or ⅔ during a sandstorm."
+    }
 }

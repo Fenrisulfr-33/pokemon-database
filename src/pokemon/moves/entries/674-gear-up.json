@@ -1,35 +1,115 @@
 {
-  "_id": 674,
-  "key": "gear-up",
-  "name": {
-    "english": "Gear Up",
-    "japanese": "アシストギア",
-    "chinese": "輔助齒輪",
-    "korean": "어시스트기어",
-    "german": "Piñón Auxiliar",
-    "french": "Hilfsmechanik",
-    "italian": "Gear Up",
-    "spanish": "Marciainpiù"
-  },
-  "type": "Steel",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "user-and-allies",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user engages its gears to raise the Attack and\nSp. Atk stats of ally Pokémon with the Plus or\nMinus Ability.",
-    "ultra-sun-ultra-moon": "The user engages its gears to raise the Attack and\nSp. Atk stats of ally Pokémon with the Plus or\nMinus Ability.",
-    "lets-go-pikachu-lets-go-eevee": "The user engages its gears to raise the Attack and\nSp. Atk stats of ally Pokémon with the Plus or\nMinus Ability.",
-    "sword-shield": "The user engages its gears to raise the Attack and\nSp. Atk stats of ally Pokémon with the Plus or\nMinus Ability."
-  },
-  "effect": {
-    "full": "Raises the Attack and Special Attack of all friendly Pokémon with plus or minus by one stage.",
-    "shortEffect": "Raises the Attack and Special Attack of all friendly Pokémon with plus or minus by one stage."
-  },
-  "priority": 0
+    "_id": 674,
+    "key": "gear-up",
+    "name": {
+        "japanese-kana": "アシストギア",
+        "korean": "어시스트기어",
+        "traditional-chinese": "輔助齒輪",
+        "french": "Engrenage",
+        "german": "Hilfsmechanik",
+        "spanish": "Piñón Auxiliar",
+        "italian": "Marciainpiù",
+        "english": "Gear Up",
+        "japanese": "アシストギア",
+        "simplified-chinese": "辅助齿轮",
+        "latin-american-spanish": "Engranajes"
+    },
+    "type": "steel",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "user-and-allies",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "ギアを　いれる　ことによって とくせい　プラスと　マイナスの こうげきと　とくこうが　あがる。",
+            "usum": "ギアを　いれる　ことによって とくせい　プラスと　マイナスの こうげきと　とくこうが　あがる。",
+            "lgpe": "ギアを　いれる　ことによって とくせい　プラスと　マイナスの こうげきと　とくこうが　あがる。",
+            "swsh": "ギアを　いれる　ことによって とくせい　プラスと　マイナスの こうげきと　とくこうが　あがる。"
+        },
+        "korean": {
+            "sm": "기어를 넣는 것으로 특성 플러스와 마이너스의 공격과 특수공격이 올라간다.",
+            "usum": "기어를 넣는 것으로 특성 플러스와 마이너스의 공격과 특수공격이 올라간다.",
+            "lgpe": "기어를 넣는 것으로 특성 플러스와 마이너스의 공격과 특수공격이 올라간다.",
+            "swsh": "기어를 넣는 것으로 특성 플러스와 마이너스의 공격과 특수공격이 올라간다."
+        },
+        "traditional-chinese": {
+            "sm": "藉由啟動齒輪， 提高特性為正電和負電的 寶可夢的攻擊和特攻。",
+            "usum": "藉由啟動齒輪， 提高特性為正電和負電的 寶可夢的攻擊和特攻。",
+            "lgpe": "藉由啟動齒輪， 提高特性為正電和負電的 寶可夢的攻擊和特攻。",
+            "swsh": "藉由啟動齒輪， 提高特性為正電和負電的 寶可夢的攻擊和特攻。"
+        },
+        "french": {
+            "sm": "Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Minus.",
+            "usum": "Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Minus.",
+            "lgpe": "Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Minus.",
+            "swsh": "Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Moins."
+        },
+        "german": {
+            "sm": "Der Anwender erhöht mithilfe von Zahnrädern Angriff und Spezial-Angriff von Team-Pokémon mit der Fähigkeit Plus oder Minus.",
+            "usum": "Der Anwender erhöht mithilfe von Zahnrädern Angriff und Spezial-Angriff von Team-Pokémon mit der Fähigkeit Plus oder Minus.",
+            "lgpe": "Der Anwender erhöht mithilfe von Zahnrädern Angriff und Spezial-Angriff von Team-Pokémon mit der Fähigkeit Plus oder Minus.",
+            "swsh": "Der Anwender erhöht mithilfe von Zahnrädern Angriff und Spezial-Angriff von Team-Pokémon mit der Fähigkeit Plus oder Minus."
+        },
+        "spanish": {
+            "sm": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "usum": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "lgpe": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "swsh": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos."
+        },
+        "italian": {
+            "sm": "Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.",
+            "usum": "Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.",
+            "lgpe": "Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.",
+            "swsh": "Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale."
+        },
+        "english": {
+            "sm": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability.",
+            "usum": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability.",
+            "lgpe": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability.",
+            "swsh": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability."
+        },
+        "japanese": {
+            "sm": "ギアを　入れる　ことによって 特性　プラスと　マイナスの 攻撃と　特攻が　あがる。",
+            "usum": "ギアを　入れる　ことによって 特性　プラスと　マイナスの 攻撃と　特攻が　あがる。",
+            "lgpe": "ギアを　入れる　ことによって 特性　プラスと　マイナスの 攻撃と　特攻が　あがる。",
+            "swsh": "ギアを　入れる　ことによって 特性　プラスと　マイナスの 攻撃と　特攻が　あがる。"
+        },
+        "simplified-chinese": {
+            "sm": "启动齿轮， 提高特性为正电和负电的 宝可梦的攻击和特攻。",
+            "usum": "启动齿轮， 提高特性为正电和负电的 宝可梦的攻击和特攻。",
+            "lgpe": "启动齿轮， 提高特性为正电和负电的 宝可梦的攻击和特攻。",
+            "swsh": "启动齿轮， 提高特性为正电和负电的 宝可梦的攻击和特攻。"
+        },
+        "latin-american-spanish": {
+            "sm": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "usum": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "lgpe": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+            "swsh": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos."
+        }
+    },
+    "effect": {
+        "full": "Raises the Attack and Special Attack of all friendly Pokémon with Plus or Minus by one stage.",
+        "shortEffect": "Raises the Attack and Special Attack of all friendly Pokémon with Plus or Minus by one stage."
+    }
 }

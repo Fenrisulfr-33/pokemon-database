@@ -1,42 +1,143 @@
 {
-  "_id": 358,
-  "key": "wake-up-slap",
-  "name": {
-    "english": "Wake-Up Slap",
-    "japanese": "めざましビンタ",
-    "chinese": "苏醒巴掌",
-    "korean": "잠깨움뺨치기",
-    "german": "Espabila",
-    "french": "Weckruf",
-    "italian": "Wake-Up Slap",
-    "spanish": "Svegliopacca"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however.",
-    "platinum": "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however.",
-    "heartgold-soulsilver": "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however.",
-    "black-white": "This attack inflicts big damage on a\nsleeping target. It also wakes the target\nup, however.",
-    "black-2-white-2": "This attack inflicts big damage on a\nsleeping target. It also wakes the target\nup, however.",
-    "x-y": "This attack inflicts big damage on a\nsleeping target. This also wakes the target\nup, however.",
-    "omega-ruby-alpha-sapphire": "This attack inflicts big damage on a\nsleeping target. This also wakes the target\nup, however.",
-    "sun-moon": "This attack inflicts big damage on a sleeping target.\nThis also wakes the target up, however.",
-    "ultra-sun-ultra-moon": "This attack inflicts big damage on a sleeping target.\nThis also wakes the target up, however.",
-    "lets-go-pikachu-lets-go-eevee": "This attack inflicts big damage on a sleeping target.\nThis also wakes the target up, however.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target is sleeping, this move has double power, and the target wakes up.",
-    "shortEffect": "If the target is asleep, has double power and wakes it up."
-  },
-  "priority": 0
+    "_id": 358,
+    "key": "wake-up-slap",
+    "name": {
+        "japanese-kana": "めざましビンタ",
+        "korean": "잠깨움뺨치기",
+        "traditional-chinese": "喚醒巴掌",
+        "french": "Réveil Forcé",
+        "german": "Weckruf",
+        "spanish": "Espabila",
+        "italian": "Svegliopacca",
+        "english": "Wake-Up Slap",
+        "japanese": "めざましビンタ",
+        "simplified-chinese": "唤醒巴掌",
+        "latin-american-spanish": "Despabilador"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 10,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 60
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.",
+            "pt": "This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.",
+            "hgss": "This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.",
+            "bw": "This attack inflicts big damage on a sleeping target. It also wakes the target up, however.",
+            "b2w2": "This attack inflicts big damage on a sleeping target. It also wakes the target up, however.",
+            "xy": "This attack inflicts big damage on a sleeping target. This also wakes the target up, however.",
+            "oras": "This attack inflicts big damage on a sleeping target. This also wakes the target up, however.",
+            "sm": "This attack inflicts big damage on a sleeping target. This also wakes the target up, however.",
+            "usum": "This attack inflicts big damage on a sleeping target. This also wakes the target up, however.",
+            "lgpe": "This attack inflicts big damage on a sleeping target. This also wakes the target up, however.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Cette attaque inflige d’importants dégâts à un Pokémon endormi. Mais elle le réveille également.",
+            "xy": "Cette attaque inflige d’importants dégâts à un Pokémon endormi. Mais elle le réveille également.",
+            "oras": "Cette attaque inflige d’importants dégâts à un Pokémon endormi. Mais elle le réveille également.",
+            "sm": "Cette attaque inflige d’importants dégâts à un Pokémon endormi. Mais elle le réveille également.",
+            "usum": "Cette attaque inflige d’importants dégâts à un Pokémon endormi. Mais elle le réveille également.",
+            "lgpe": "Cette attaque inflige d’importants dégâts à un Pokémon endormi, mais elle le réveille également.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ねむり　じょうたいの　あいてに おおきな　ダメージを　あたえる。 かわりに　あいては　ねむりから　さめる。",
+            "oras": "ねむり　じょうたいの　あいてに おおきな　ダメージを　あたえる。 かわりに　あいては　ねむりから　さめる。",
+            "sm": "ねむり　じょうたいの　あいてに おおきな　ダメージを　あたえる。 かわりに　あいては　ねむりから　さめる。",
+            "usum": "ねむり　じょうたいの　あいてに おおきな　ダメージを　あたえる。 かわりに　あいては　ねむりから　さめる。",
+            "lgpe": "ねむり　じょうたいの　あいてに おおきな　ダメージを　あたえる。 かわりに　あいては　ねむりから　さめる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "잠듦 상태의 상대에게 큰 데미지를 준다. 대신 상대는 잠에서 깬다.",
+            "oras": "잠듦 상태의 상대에게 큰 데미지를 준다. 대신 상대는 잠에서 깬다.",
+            "sm": "잠듦 상태의 상대에게 큰 데미지를 준다. 대신 상대는 잠에서 깬다.",
+            "usum": "잠듦 상태의 상대에게 큰 데미지를 준다. 대신 상대는 잠에서 깬다.",
+            "lgpe": "잠듦 상태의 상대에게 큰 데미지를 준다. 대신 상대는 잠에서 깬다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.",
+            "oras": "Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.",
+            "sm": "Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.",
+            "usum": "Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.",
+            "lgpe": "Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "oras": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "sm": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "usum": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "lgpe": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Questa mossa infligge un danno doppio a un bersaglio addormentato, ma allo stesso tempo lo risveglia.",
+            "oras": "Questa mossa infligge un danno doppio a un bersaglio addormentato, ma allo stesso tempo lo risveglia.",
+            "sm": "Questa mossa infligge un danno doppio a un bersaglio addormentato, ma allo stesso tempo lo risveglia.",
+            "usum": "Questa mossa infligge un danno doppio a un bersaglio addormentato, ma allo stesso tempo lo risveglia.",
+            "lgpe": "Questa mossa infligge un danno doppio a un bersaglio addormentato, ma allo stesso tempo lo risveglia.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "眠り状態の　相手に 大きな　ダメージを　与える。 かわりに　相手は　眠りから　さめる。",
+            "oras": "眠り状態の　相手に 大きな　ダメージを　与える。 かわりに　相手は　眠りから　さめる。",
+            "sm": "眠り状態の　相手に 大きな　ダメージを　与える。 かわりに　相手は　眠りから　さめる。",
+            "usum": "眠り状態の　相手に 大きな　ダメージを　与える。 かわりに　相手は　眠りから　さめる。",
+            "lgpe": "眠り状態の　相手に 大きな　ダメージを　与える。 かわりに　相手は　眠りから　さめる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "oras": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "sm": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "usum": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "lgpe": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "攻擊陷入睡眠狀態的對手時， 可以給予較大的傷害。 但對手也會從睡眠中醒過來。",
+            "usum": "攻擊陷入睡眠狀態的對手時， 可以給予較大的傷害。 但對手也會從睡眠中醒過來。",
+            "lgpe": "攻擊陷入睡眠狀態的對手時， 可以給予較大的傷害。 但對手也會從睡眠中醒過來。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "给予睡眠状态下的对手较大的伤害。 但相反对手会从睡眠中醒过来。",
+            "usum": "给予睡眠状态下的对手较大的伤害。 但相反对手会从睡眠中醒过来。",
+            "lgpe": "给予睡眠状态下的对手较大的伤害。 但相反对手会从睡眠中醒过来。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target is sleeping, this move has double power, and the target wakes up.",
+        "shortEffect": "If the target is asleep, has double power and wakes it up."
+    }
 }

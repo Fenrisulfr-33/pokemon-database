@@ -1,42 +1,141 @@
 {
-  "_id": 404,
-  "key": "x-scissor",
-  "name": {
-    "english": "X-Scissor",
-    "japanese": "シザークロス",
-    "chinese": "剪刀十字拳",
-    "korean": "시저크로스",
-    "german": "Tijera X",
-    "french": "Kreuzschere",
-    "italian": "X-Scissor",
-    "spanish": "Forbice X"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user slashes at\nthe foe by crossing\nits scythes or claws\nas if they were a pair\nof scissors.",
-    "platinum": "The user slashes at\nthe foe by crossing\nits scythes or claws\nas if they were a pair\nof scissors.",
-    "heartgold-soulsilver": "The user slashes at\nthe foe by crossing\nits scythes or claws\nas if they were a pair\nof scissors.",
-    "black-white": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
-    "black-2-white-2": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
-    "x-y": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
-    "omega-ruby-alpha-sapphire": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
-    "sun-moon": "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.",
-    "ultra-sun-ultra-moon": "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.",
-    "lets-go-pikachu-lets-go-eevee": "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.",
-    "sword-shield": "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 404,
+    "key": "x-scissor",
+    "name": {
+        "japanese-kana": "シザークロス",
+        "korean": "시저크로스",
+        "traditional-chinese": "十字剪",
+        "french": "Plaie Croix",
+        "german": "Kreuzschere",
+        "spanish": "Tijera X",
+        "italian": "Forbice X",
+        "english": "X-Scissor",
+        "japanese": "シザークロス",
+        "simplified-chinese": "十字剪",
+        "latin-american-spanish": "Tijera X"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.",
+            "pt": "The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.",
+            "hgss": "The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.",
+            "bw": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "b2w2": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "xy": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "oras": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "sm": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "usum": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "lgpe": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "swsh": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+            "la": "The user strikes at the target by crossing its scythes or claws as if they were a pair of scissors. This move has a heightened chance of landing a critical hit.",
+            "sv": "The user slashes at the target by crossing its scythes, claws, or the like as if they were a pair of scissors."
+        },
+        "french": {
+            "bw": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.",
+            "xy": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.",
+            "oras": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.",
+            "sm": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.",
+            "usum": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.",
+            "lgpe": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.",
+            "swsh": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux."
+        },
+        "japanese-kana": {
+            "xy": "カマや　ツメを　ハサミのように こうさ　させながら　あいてを　きりさく。",
+            "oras": "カマや　ツメを　ハサミのように こうさ　させながら　あいてを　きりさく。",
+            "sm": "カマや　ツメを　ハサミのように こうさ　させながら　あいてを　きりさく。",
+            "usum": "カマや　ツメを　ハサミのように こうさ　させながら　あいてを　きりさく。",
+            "lgpe": "カマや　ツメを　ハサミのように こうさ　させながら　あいてを　きりさく。",
+            "swsh": "カマや　ツメを　ハサミのように こうさ　させながら　あいてを　きりさく。"
+        },
+        "korean": {
+            "xy": "낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.",
+            "oras": "낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.",
+            "sm": "낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.",
+            "usum": "낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.",
+            "lgpe": "낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.",
+            "swsh": "낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다."
+        },
+        "german": {
+            "xy": "Der Anwender führt eine Attacke aus, die einer Scherenbewegung ähnelt.",
+            "oras": "Der Anwender führt eine Attacke aus, die einer Scherenbewegung ähnelt.",
+            "sm": "Der Anwender führt eine Attacke aus, die einer Scherenbewegung ähnelt.",
+            "usum": "Der Anwender führt eine Attacke aus, die einer Scherenbewegung ähnelt.",
+            "lgpe": "Der Anwender führt eine Attacke aus, die einer Scherenbewegung ähnelt.",
+            "swsh": "Der Anwender führt eine Attacke aus, die einer Scherenbewegung ähnelt."
+        },
+        "spanish": {
+            "xy": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "oras": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "sm": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "usum": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "lgpe": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "swsh": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio usando le sue falci o i suoi artigli come se fossero delle forbici.",
+            "oras": "Chi la usa colpisce il bersaglio usando le sue falci o i suoi artigli come se fossero delle forbici.",
+            "sm": "Chi la usa colpisce il bersaglio con un attacco che ricorda un colpo di forbici.",
+            "usum": "Chi la usa colpisce il bersaglio con un attacco che ricorda un colpo di forbici.",
+            "lgpe": "Chi la usa colpisce il bersaglio con un attacco che ricorda un colpo di forbici.",
+            "swsh": "Chi la usa colpisce il bersaglio con un attacco che ricorda un colpo di forbici."
+        },
+        "japanese": {
+            "xy": "カマや　ツメを　ハサミのように 交差させながら　相手を　切り裂く。",
+            "oras": "カマや　ツメを　ハサミのように 交差させながら　相手を　切り裂く。",
+            "sm": "カマや　ツメを　ハサミのように 交差させながら　相手を　切り裂く。",
+            "usum": "カマや　ツメを　ハサミのように 交差させながら　相手を　切り裂く。",
+            "lgpe": "カマや　ツメを　ハサミのように 交差させながら　相手を　切り裂く。",
+            "swsh": "カマや　ツメを　ハサミのように 交差させながら　相手を　切り裂く。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "oras": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "sm": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "usum": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "lgpe": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.",
+            "swsh": "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras."
+        },
+        "traditional-chinese": {
+            "sm": "將鐮刀或爪子像剪刀般地交叉， 順勢劈開對手。",
+            "usum": "將鐮刀或爪子像剪刀般地交叉， 順勢劈開對手。",
+            "lgpe": "將鐮刀或爪子像剪刀般地交叉， 順勢劈開對手。",
+            "swsh": "將鐮刀或爪子像剪刀般地交叉， 順勢劈開對手。"
+        },
+        "simplified-chinese": {
+            "sm": "将镰刀或爪子像剪刀般地交叉， 顺势劈开对手。",
+            "usum": "将镰刀或爪子像剪刀般地交叉， 顺势劈开对手。",
+            "lgpe": "将镰刀或爪子像剪刀般地交叉， 顺势劈开对手。",
+            "swsh": "将镰刀或爪子像剪刀般地交叉， 顺势劈开对手。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

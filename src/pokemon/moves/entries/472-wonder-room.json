@@ -1,39 +1,138 @@
 {
-  "_id": 472,
-  "key": "wonder-room",
-  "name": {
-    "english": "Wonder Room",
-    "japanese": "ワンダールーム",
-    "chinese": "奇妙空间",
-    "korean": "원더룸",
-    "german": "Zona Extraña",
-    "french": "Wunderraum",
-    "italian": "Wonder Room",
-    "spanish": "Mirabilzona"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "black-white": "The user creates a bizarre area in which\nPokémon’s Defense and Sp. Def\nstats are swapped for five turns.",
-    "black-2-white-2": "The user creates a bizarre area in which\nPokémon’s Defense and Sp. Def\nstats are swapped for five turns.",
-    "x-y": "The user creates a bizarre area in which\nPokémon’s Defense and Sp. Def\nstats are swapped for five turns.",
-    "omega-ruby-alpha-sapphire": "The user creates a bizarre area in which\nPokémon’s Defense and Sp. Def\nstats are swapped for five turns.",
-    "sun-moon": "The user creates a bizarre area in which Pokémon’s\nDefense and Sp. Def stats are swapped for\nfive turns.",
-    "ultra-sun-ultra-moon": "The user creates a bizarre area in which Pokémon’s\nDefense and Sp. Def stats are swapped for\nfive turns.",
-    "lets-go-pikachu-lets-go-eevee": "The user creates a bizarre area in which Pokémon’s\nDefense and Sp. Def stats are swapped for\nfive turns.",
-    "sword-shield": "The user creates a bizarre area in which Pokémon’s\nDefense and Sp. Def stats are swapped for\nfive turns."
-  },
-  "effect": {
-    "full": "For five turns (including this one), every Pokémon's Defense and Special Defense are swapped.",
-    "shortEffect": "All Pokémon's Defense and Special Defense are swapped for 5 turns."
-  },
-  "priority": 0
+    "_id": 472,
+    "key": "wonder-room",
+    "name": {
+        "japanese-kana": "ワンダールーム",
+        "korean": "원더룸",
+        "traditional-chinese": "奇妙空間",
+        "french": "Zone Étrange",
+        "german": "Wunderraum",
+        "spanish": "Zona Extraña",
+        "italian": "Mirabilzona",
+        "english": "Wonder Room",
+        "japanese": "ワンダールーム",
+        "simplified-chinese": "奇妙空间",
+        "latin-american-spanish": "Zona Extraña"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Crée une zone étrange où pendant 5 tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées.",
+            "xy": "Crée une zone étrange où pendant cinq tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées.",
+            "oras": "Crée une zone étrange où pendant cinq tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées.",
+            "sm": "Crée une zone étrange où pendant cinq tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées.",
+            "usum": "Crée une zone étrange où pendant cinq tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées.",
+            "lgpe": "Crée une zone étrange où pendant cinq tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées.",
+            "swsh": "Le lanceur crée une zone mystérieuse où la Défense et la Défense Spéciale de tous les Pokémon sont inversées pendant cinq tours."
+        },
+        "english": {
+            "bw": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "b2w2": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "xy": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "oras": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "sm": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "usum": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "lgpe": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "swsh": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+            "la": "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns.",
+            "sv": "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns."
+        },
+        "japanese-kana": {
+            "xy": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの ぼうぎょと　とくぼうが　いれかわる。",
+            "oras": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの ぼうぎょと　とくぼうが　いれかわる。",
+            "sm": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの ぼうぎょと　とくぼうが　いれかわる。",
+            "usum": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの ぼうぎょと　とくぼうが　いれかわる。",
+            "lgpe": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの ぼうぎょと　とくぼうが　いれかわる。",
+            "swsh": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの ぼうぎょと　とくぼうが　いれかわる。"
+        },
+        "korean": {
+            "xy": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.",
+            "oras": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.",
+            "sm": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.",
+            "usum": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.",
+            "lgpe": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.",
+            "swsh": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다."
+        },
+        "german": {
+            "xy": "Anwender erzeugt bizarren Raum, in dem über fünf Runden die Verteidigung aller Pokémon mit ihrer Spezial-Verteidigung getauscht wird.",
+            "oras": "Anwender erzeugt bizarren Raum, in dem über fünf Runden die Verteidigung aller Pokémon mit ihrer Spezial-Verteidigung getauscht wird.",
+            "sm": "Anwender erzeugt bizarren Raum, in dem über fünf Runden die Verteidigung aller Pokémon mit ihrer Spezial-Verteidigung getauscht wird.",
+            "usum": "Anwender erzeugt bizarren Raum, in dem über fünf Runden die Verteidigung aller Pokémon mit ihrer Spezial-Verteidigung getauscht wird.",
+            "lgpe": "Anwender erzeugt bizarren Raum, in dem über fünf Runden die Verteidigung aller Pokémon mit ihrer Spezial-Verteidigung getauscht wird.",
+            "swsh": "Anwender erzeugt einen bizarren Raum, in dem über fünf Runden die Verteidigung aller Pokémon mit ihrer Spezial-Verteidigung getauscht wird."
+        },
+        "spanish": {
+            "xy": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "oras": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "sm": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "usum": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "lgpe": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "swsh": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos."
+        },
+        "italian": {
+            "xy": "Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.",
+            "oras": "Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.",
+            "sm": "Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.",
+            "usum": "Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.",
+            "lgpe": "Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.",
+            "swsh": "Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni."
+        },
+        "japanese": {
+            "xy": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 防御と　特防が　入れ替わる。",
+            "oras": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 防御と　特防が　入れ替わる。",
+            "sm": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 防御と　特防が　入れ替わる。",
+            "usum": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 防御と　特防が　入れ替わる。",
+            "lgpe": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 防御と　特防が　入れ替わる。",
+            "swsh": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 防御と　特防が　入れ替わる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "oras": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "sm": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "usum": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "lgpe": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+            "swsh": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos."
+        },
+        "traditional-chinese": {
+            "sm": "創造出非常不可思議的空間。 在５回合內，讓所有寶可夢的 防禦和特防互相交換。",
+            "usum": "創造出非常不可思議的空間。 在５回合內，讓所有寶可夢的 防禦和特防互相交換。",
+            "lgpe": "創造出非常不可思議的空間。 在５回合內，讓所有寶可夢的 防禦和特防互相交換。",
+            "swsh": "創造出非常不可思議的空間。 在５回合內，讓所有寶可夢的 防禦和特防互相交換。"
+        },
+        "simplified-chinese": {
+            "sm": "制造出离奇的空间。 在５回合内互换 所有宝可梦的防御和特防。",
+            "usum": "制造出离奇的空间。 在５回合内互换 所有宝可梦的防御和特防。",
+            "lgpe": "制造出离奇的空间。 在５回合内互换 所有宝可梦的防御和特防。",
+            "swsh": "制造出离奇的空间。 在５回合内互换 所有宝可梦的防御和特防。"
+        }
+    },
+    "effect": {
+        "full": "For five turns (including this one), every Pokémon’s Defense and Special Defense are swapped.",
+        "shortEffect": "All Pokémon’s Defense and Special Defense are swapped for 5 turns."
+    }
 }

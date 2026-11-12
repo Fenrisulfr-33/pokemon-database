@@ -1,35 +1,117 @@
 {
-  "_id": 661,
-  "key": "baneful-bunker",
-  "name": {
-    "english": "Baneful Bunker",
-    "japanese": "トーチカ",
-    "chinese": "碉堡",
-    "korean": "토치카",
-    "german": "Búnker",
-    "french": "Bunker",
-    "italian": "Baneful Bunker",
-    "spanish": "Fortino"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "sun-moon": "In addition to protecting the user from attacks, this\nmove also poisons any attacker that makes\ndirect contact.",
-    "ultra-sun-ultra-moon": "In addition to protecting the user from attacks, this\nmove also poisons any attacker that makes\ndirect contact.",
-    "lets-go-pikachu-lets-go-eevee": "In addition to protecting the user from attacks, this\nmove also poisons any attacker that makes\ndirect contact.",
-    "sword-shield": "In addition to protecting the user from attacks, this\nmove also poisons any attacker that makes\ndirect contact."
-  },
-  "effect": {
-    "full": "Grants the user protection for the rest of the turn.  If a Pokémon attempts to use a move that makes contact with the user, that Pokémon will be poisoned.  This move's chance of success halves every time it's used consecutively with any other protection move.",
-    "shortEffect": "Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it."
-  },
-  "priority": 4
+    "_id": 661,
+    "key": "baneful-bunker",
+    "name": {
+        "japanese-kana": "トーチカ",
+        "korean": "토치카",
+        "traditional-chinese": "碉堡",
+        "french": "Blockhaus",
+        "german": "Bunker",
+        "spanish": "Búnker",
+        "italian": "Fortino",
+        "english": "Baneful Bunker",
+        "japanese": "トーチカ",
+        "simplified-chinese": "碉堡",
+        "latin-american-spanish": "Búnker"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいてに どくを　あたえて　しまう。",
+            "usum": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいてに どくを　あたえて　しまう。",
+            "lgpe": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいてに どくを　あたえて　しまう。",
+            "swsh": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいてに どくを　あたえて　しまう。"
+        },
+        "korean": {
+            "sm": "상대의 공격을 막음과 동시에 접촉한 상대에게 독을 퍼뜨린다.",
+            "usum": "상대의 공격을 막음과 동시에 접촉한 상대에게 독을 퍼뜨린다.",
+            "lgpe": "상대의 공격을 막음과 동시에 접촉한 상대에게 독을 퍼뜨린다.",
+            "swsh": "상대의 공격을 막음과 동시에 접촉한 상대에게 독을 퍼뜨린다."
+        },
+        "traditional-chinese": {
+            "sm": "防住對手攻擊的同時， 讓碰觸到自己的對手中毒。",
+            "usum": "防住對手攻擊的同時， 讓碰觸到自己的對手中毒。",
+            "lgpe": "防住對手攻擊的同時， 讓碰觸到自己的對手中毒。",
+            "swsh": "防住對手攻擊的同時， 讓碰觸到自己的對手中毒。"
+        },
+        "french": {
+            "sm": "Protège le lanceur contre les attaques de l’ennemi et empoisonne ce dernier s’il utilise une attaque directe sur le lanceur.",
+            "usum": "Protège le lanceur contre les attaques de l’ennemi et empoisonne ce dernier s’il utilise une attaque directe sur le lanceur.",
+            "lgpe": "Protège le lanceur contre les attaques de l’ennemi et empoisonne ce dernier s’il utilise une attaque directe sur le lanceur.",
+            "swsh": "Protège le lanceur contre les attaques de l’ennemi et empoisonne ce dernier s’il utilise une attaque directe sur le lanceur."
+        },
+        "german": {
+            "sm": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig werden alle Pokémon, die mit ihm in Berührung kommen, vergiftet.",
+            "usum": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig werden alle Pokémon, die mit ihm in Berührung kommen, vergiftet.",
+            "lgpe": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig werden alle Pokémon, die mit ihm in Berührung kommen, vergiftet.",
+            "swsh": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig werden alle Pokémon, die mit ihm in Berührung kommen, vergiftet."
+        },
+        "spanish": {
+            "sm": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario.",
+            "usum": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario.",
+            "lgpe": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario.",
+            "swsh": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario."
+        },
+        "italian": {
+            "sm": "Protegge dagli attacchi e avvelena i Pokémon che lanciano un attacco diretto su chi la usa.",
+            "usum": "Protegge dagli attacchi e avvelena i Pokémon che lanciano un attacco diretto su chi la usa.",
+            "lgpe": "Protegge dagli attacchi e avvelena i Pokémon che lanciano un attacco diretto su chi la usa.",
+            "swsh": "Protegge dagli attacchi e avvelena i Pokémon che lanciano un attacco diretto su chi la usa."
+        },
+        "english": {
+            "sm": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
+            "usum": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
+            "lgpe": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
+            "swsh": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
+            "la": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
+            "sv": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact."
+        },
+        "japanese": {
+            "sm": "相手の　攻撃を　防ぐと 同時に　触れた　相手に 毒を　与えてしまう。",
+            "usum": "相手の　攻撃を　防ぐと 同時に　触れた　相手に 毒を　与えてしまう。",
+            "lgpe": "相手の　攻撃を　防ぐと 同時に　触れた　相手に 毒を　与えてしまう。",
+            "swsh": "相手の　攻撃を　防ぐと 同時に　触れた　相手に 毒を　与えてしまう。"
+        },
+        "simplified-chinese": {
+            "sm": "防住对手攻击的同时， 让接触到自己的对手中毒。",
+            "usum": "防住对手攻击的同时， 让接触到自己的对手中毒。",
+            "lgpe": "防住对手攻击的同时， 让接触到自己的对手中毒。",
+            "swsh": "防住对手攻击的同时， 让接触到自己的对手中毒。"
+        },
+        "latin-american-spanish": {
+            "sm": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario.",
+            "usum": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario.",
+            "lgpe": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario.",
+            "swsh": "Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario."
+        }
+    },
+    "effect": {
+        "full": "Grants the user protection for the rest of the turn.  If a Pokémon attempts to use a move that makes contact with the user, that Pokémon will be poisoned.  This move’s chance of success halves every time it’s used consecutively with any other protection move.",
+        "shortEffect": "Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it."
+    }
 }

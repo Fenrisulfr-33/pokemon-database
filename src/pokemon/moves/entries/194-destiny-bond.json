@@ -1,47 +1,146 @@
 {
-  "_id": 194,
-  "key": "destiny-bond",
-  "name": {
-    "english": "Destiny Bond",
-    "japanese": "みちづれ",
-    "chinese": "同命",
-    "korean": "길동무",
-    "german": "Mismo Destino",
-    "french": "Abgangsbund",
-    "italian": "Destiny Bond",
-    "spanish": "Destinobbligato"
-  },
-  "type": "Ghost",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "The foe faints if\nthe user does.",
-    "crystal": "The foe faints if\nthe user does.",
-    "ruby-sapphire": "If the user faints, the foe\nis also made to faint.",
-    "emerald": "If the user faints, the foe\nis also made to faint.",
-    "firered-leafgreen": "If the user faints,\nthe foe delivering\nthe final hit also\nfaints.",
-    "diamond-pearl": "When this move is\nused, if the user\nfaints, the foe that\nlanded the knockout\nhit also faints.",
-    "platinum": "When this move is\nused, if the user\nfaints, the foe that\nlanded the knockout\nhit also faints.",
-    "heartgold-soulsilver": "When this move is\nused, if the user\nfaints, the foe that\nlanded the knockout\nhit also faints.",
-    "black-white": "When this move is used, if the user faints,\nthe Pokémon that landed the knockout\nhit also faints.",
-    "black-2-white-2": "When this move is used, if the user faints,\nthe Pokémon that landed the knockout\nhit also faints.",
-    "x-y": "When this move is used, if the user faints,\nthe Pokémon that landed the knockout\nhit also faints.",
-    "omega-ruby-alpha-sapphire": "When this move is used, if the user faints,\nthe Pokémon that landed the knockout\nhit also faints.",
-    "sun-moon": "After using this move, if the user faints, the\nPokémon that landed the knockout hit also faints.\nIts chance of failing rises if it is used in succession.",
-    "ultra-sun-ultra-moon": "After using this move, if the user faints, the\nPokémon that landed the knockout hit also faints.\nIts chance of failing rises if it is used in succession.",
-    "lets-go-pikachu-lets-go-eevee": "After using this move, if the user faints, the\nPokémon that landed the knockout hit also faints.\nIts chance of failing rises if it is used in succession.",
-    "sword-shield": "After using this move, if the user faints, the\nPokémon that landed the knockout hit also faints.\nIts chance of failing rises if it is used in succession."
-  },
-  "effect": {
-    "full": "If the user faints before its next move, the Pokémon that fainted it will automatically faint.  End-of-turn damage is ignored.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "If the user faints this turn, the target automatically will, too."
-  },
-  "priority": 0
+    "_id": 194,
+    "key": "destiny-bond",
+    "name": {
+        "japanese-kana": "みちづれ",
+        "korean": "길동무",
+        "traditional-chinese": "同命",
+        "french": "Lien du Destin",
+        "german": "Abgangsbund",
+        "spanish": "Mismo Destino",
+        "italian": "Destinobbligato",
+        "english": "Destiny Bond",
+        "japanese": "みちづれ",
+        "simplified-chinese": "同命",
+        "latin-american-spanish": "Lazo del Destino"
+    },
+    "type": "ghost",
+    "category": "status",
+    "contest": "smart",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "The foe faints if the user does.",
+            "cr": "The foe faints if the user does.",
+            "rs": "If the user faints, the foe is also made to faint.",
+            "em": "If the user faints, the foe is also made to faint.",
+            "frlg": "If the user faints, the foe delivering the final hit also faints.",
+            "dp": "When this move is used, if the user faints, the foe that landed the knockout hit also faints.",
+            "pt": "When this move is used, if the user faints, the foe that landed the knockout hit also faints.",
+            "hgss": "When this move is used, if the user faints, the foe that landed the knockout hit also faints.",
+            "bw": "When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.",
+            "b2w2": "When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.",
+            "xy": "When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.",
+            "oras": "When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.",
+            "sm": "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
+            "usum": "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
+            "lgpe": "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
+            "swsh": "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
+            "la": "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
+            "sv": "If the user is knocked out after using this move, the Pokémon that knocked it out will also faint. This move's chance of failing rises if it is used in succession."
+        },
+        "french": {
+            "bw": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur.",
+            "xy": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur.",
+            "oras": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur.",
+            "sm": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur. Elle échoue si elle est réutilisée après activation.",
+            "usum": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur. Elle échoue si elle est réutilisée après activation.",
+            "lgpe": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur. Elle échoue si elle est réutilisée après activation.",
+            "swsh": "Si un ennemi porte un coup fatal au lanceur après qu’il a activé cette capacité, ils sont tous les deux mis K.O. La capacité échoue si elle est immédiatement réutilisée."
+        },
+        "japanese-kana": {
+            "xy": "わざを　だしたあと　こうげきを　うけて ひんしに　なったとき こうげき　あいても　ひんしに　する。",
+            "oras": "わざを　だしたあと　こうげきを　うけて ひんしに　なったとき こうげき　あいても　ひんしに　する。",
+            "sm": "わざのあと　あいての　こうげきで　ひんしに なると　こうげき　あいても　ひんしにする。 れんぞくして　だすと　しっぱいする。",
+            "usum": "わざのあと　あいての　こうげきで　ひんしに なると　こうげき　あいても　ひんしにする。 れんぞくして　だすと　しっぱいする。",
+            "lgpe": "わざのあと　あいての　こうげきで　ひんしに なると　こうげき　あいても　ひんしにする。 れんぞくして　だすと　しっぱいする。",
+            "swsh": "わざのあと　あいての　こうげきで　ひんしに なると　こうげき　あいても　ひんしにする。 れんぞくして　だすと　しっぱいする。"
+        },
+        "korean": {
+            "xy": "기술을 쓴 뒤 공격을 받아 기절했을 때 길동무의 대상도 기절하게 한다.",
+            "oras": "기술을 쓴 뒤 공격을 받아 기절했을 때 공격 상대도 기절하게 한다.",
+            "sm": "기술을 쓴 뒤 상대의 공격으로 기절했을 때 공격 상대도 기절하게 한다. 연속으로 쓰면 실패한다.",
+            "usum": "기술을 쓴 뒤 상대의 공격으로 기절했을 때 공격 상대도 기절하게 한다. 연속으로 쓰면 실패한다.",
+            "lgpe": "기술을 쓴 뒤 상대의 공격으로 기절했을 때 공격 상대도 기절하게 한다. 연속으로 쓰면 실패한다.",
+            "swsh": "기술을 쓴 뒤 상대의 공격으로 기절했을 때 공격 상대도 기절하게 한다. 연속으로 쓰면 실패한다."
+        },
+        "german": {
+            "xy": "Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Ziel zum K.O.",
+            "oras": "Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Gegner, der ihn besiegt hat, zum K.O.",
+            "sm": "Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.",
+            "usum": "Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.",
+            "lgpe": "Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.",
+            "swsh": "Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung."
+        },
+        "spanish": {
+            "xy": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también.",
+            "oras": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también.",
+            "sm": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.",
+            "usum": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.",
+            "lgpe": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.",
+            "swsh": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente."
+        },
+        "italian": {
+            "xy": "Se chi la usa va KO prima del turno successivo, chi ha sferrato il colpo da KO fa la stessa fine.",
+            "oras": "Se chi la usa va KO prima del turno successivo, chi ha sferrato il colpo da KO fa la stessa fine.",
+            "sm": "Se chi la usa va KO prima del turno successivo, chi ha sferrato il colpo da KO fa la stessa fine. Se usata in successione fallisce.",
+            "usum": "Se chi la usa va KO prima del turno successivo, chi ha sferrato il colpo da KO fa la stessa fine. Se usata in successione fallisce.",
+            "lgpe": "Se chi la usa va KO prima del turno successivo, chi ha sferrato il colpo da KO fa la stessa fine. Se usata in successione fallisce.",
+            "swsh": "Se chi la usa va KO a causa di un attacco, chi ha sferrato il colpo da KO fa la stessa fine. Se usata in successione fallisce."
+        },
+        "japanese": {
+            "xy": "技を　だしたあと　攻撃を　受けて ひんしに　なったとき 攻撃　相手も　ひんしに　する。",
+            "oras": "技を　だしたあと　攻撃を　受けて ひんしに　なったとき 攻撃　相手も　ひんしに　する。",
+            "sm": "技のあと　相手の　攻撃で　ひんしに なると　攻撃　相手も　ひんしにする。 連続して　出すと　失敗する。",
+            "usum": "技のあと　相手の　攻撃で　ひんしに なると　攻撃　相手も　ひんしにする。 連続して　出すと　失敗する。",
+            "lgpe": "技のあと　相手の　攻撃で　ひんしに なると　攻撃　相手も　ひんしにする。 連続して　出すと　失敗する。",
+            "swsh": "技のあと　相手の　攻撃で　ひんしに なると　攻撃　相手も　ひんしにする。 連続して　出すと　失敗する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también.",
+            "oras": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también.",
+            "sm": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.",
+            "usum": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.",
+            "lgpe": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.",
+            "swsh": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente."
+        },
+        "traditional-chinese": {
+            "sm": "使出招式後，當受到對手攻擊 陷入瀕死時，對手也會一同陷入瀕死。 連續使用時會失敗。",
+            "usum": "使出招式後，當受到對手攻擊 陷入瀕死時，對手也會一同陷入瀕死。 連續使用時會失敗。",
+            "lgpe": "使出招式後，當受到對手攻擊 陷入瀕死時，對手也會一同陷入瀕死。 連續使用時會失敗。",
+            "swsh": "使出招式後，當受到對手攻擊， 陷入瀕死時，對手也會一同陷入瀕死。 連續使用時會失敗。"
+        },
+        "simplified-chinese": {
+            "sm": "使出招式后，当受到对手攻击 陷入濒死时，对手也会一同濒死。 连续使出则会失败。",
+            "usum": "使出招式后，当受到对手攻击 陷入濒死时，对手也会一同濒死。 连续使出则会失败。",
+            "lgpe": "使出招式后，当受到对手攻击 陷入濒死时，对手也会一同濒死。 连续使出则会失败。",
+            "swsh": "使出招式后，当受到对手攻击 陷入濒死时，对手也会一同濒死。 连续使出则会失败。"
+        }
+    },
+    "effect": {
+        "full": "If the user faints before its next move, the Pokémon that fainted it will automatically faint.  End-of-turn damage is ignored. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "If the user faints this turn, the target automatically will, too."
+    }
 }

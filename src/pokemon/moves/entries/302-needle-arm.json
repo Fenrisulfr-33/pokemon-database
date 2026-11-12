@@ -1,45 +1,142 @@
 {
-  "_id": 302,
-  "key": "needle-arm",
-  "name": {
-    "english": "Needle Arm",
-    "japanese": "ニードルアーム",
-    "chinese": "针叶暗器",
-    "korean": "바늘팔",
-    "german": "Brazo Pincho",
-    "french": "Nietenranke",
-    "italian": "Needle Arm",
-    "spanish": "Pugnospine"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks with thorny arms.\nMay cause flinching.",
-    "emerald": "Attacks with thorny arms.\nMay cause flinching.",
-    "firered-leafgreen": "An attack using\nthorny arms.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "The user attacks by\nwildly swinging its\nthorny arms.\nIt may also make the\ntarget flinch.",
-    "platinum": "The user attacks by\nwildly swinging its\nthorny arms.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The user attacks by\nwildly swinging its\nthorny arms.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user attacks by wildly swinging its\nthorny arms. It may also make the\ntarget flinch.",
-    "black-2-white-2": "The user attacks by wildly swinging its\nthorny arms. It may also make the\ntarget flinch.",
-    "x-y": "The user attacks by wildly swinging its\nthorny arms. This may also make the\ntarget flinch.",
-    "omega-ruby-alpha-sapphire": "The user attacks by wildly swinging its\nthorny arms. This may also make the\ntarget flinch.",
-    "sun-moon": "The user attacks by wildly swinging its thorny arms.\nThis may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The user attacks by wildly swinging its thorny arms.\nThis may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by wildly swinging its thorny arms.\nThis may also make the target flinch.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 302,
+    "key": "needle-arm",
+    "name": {
+        "japanese-kana": "ニードルアーム",
+        "korean": "바늘팔",
+        "traditional-chinese": "尖刺臂",
+        "french": "Poing Dard",
+        "german": "Nietenranke",
+        "spanish": "Brazo Pincho",
+        "italian": "Pugnospine",
+        "english": "Needle Arm",
+        "japanese": "ニードルアーム",
+        "simplified-chinese": "尖刺臂",
+        "latin-american-spanish": "Brazo Aguja"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 15,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Attacks with thorny arms. May cause flinching.",
+            "em": "Attacks with thorny arms. May cause flinching.",
+            "frlg": "An attack using thorny arms. It may make the foe flinch.",
+            "dp": "The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",
+            "pt": "The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",
+            "hgss": "The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",
+            "bw": "The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",
+            "b2w2": "The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",
+            "xy": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
+            "oras": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
+            "sm": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
+            "usum": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
+            "lgpe": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur attaque en fouettant l’ennemi de ses bras épineux. Peut aussi l’apeurer.",
+            "xy": "Le lanceur attaque en fouettant l’ennemi de ses bras épineux. Peut aussi l’apeurer.",
+            "oras": "Le lanceur attaque en fouettant l’ennemi de ses bras épineux. Peut aussi l’apeurer.",
+            "sm": "Le lanceur attaque en fouettant l’ennemi de ses bras épineux. Peut aussi l’apeurer.",
+            "usum": "Le lanceur attaque en fouettant l’ennemi de ses bras épineux. Peut aussi l’apeurer.",
+            "lgpe": "Le lanceur attaque en fouettant l’ennemi de ses bras épineux. Peut aussi l’apeurer.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "トゲの　うでを はげしく　ふるって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "トゲの　うでを はげしく　ふるって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "トゲの　うでを はげしく　ふるって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "トゲの　うでを はげしく　ふるって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "トゲの　うでを はげしく　ふるって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "바늘팔을 세차게 흔들어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "바늘팔을 세차게 흔들어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "바늘팔을 세차게 흔들어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "바늘팔을 세차게 흔들어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "바늘팔을 세차게 흔들어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.",
+            "oras": "Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.",
+            "sm": "Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.",
+            "usum": "Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.",
+            "lgpe": "Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "oras": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "sm": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "usum": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "lgpe": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca colpendo il bersaglio con i suoi arti pieni di spine. Può far tentennare il Pokémon colpito.",
+            "oras": "Chi la usa attacca colpendo il bersaglio con i suoi arti pieni di spine. Può far tentennare il Pokémon colpito.",
+            "sm": "Chi la usa attacca colpendo il bersaglio con i suoi arti pieni di spine. Può far tentennare il Pokémon colpito.",
+            "usum": "Chi la usa attacca colpendo il bersaglio con i suoi arti pieni di spine. Può far tentennare il Pokémon colpito.",
+            "lgpe": "Chi la usa attacca colpendo il bersaglio con i suoi arti pieni di spine. Può far tentennare il Pokémon colpito.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "トゲの　腕を 激しく　ふるって　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "トゲの　腕を 激しく　ふるって　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "トゲの　腕を 激しく　ふるって　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "トゲの　腕を 激しく　ふるって　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "トゲの　腕を 激しく　ふるって　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "oras": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "sm": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "usum": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "lgpe": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用帶刺的手臂 猛烈揮打進行攻擊。 有時會使對手畏縮。",
+            "usum": "用帶刺的手臂 猛烈揮打進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "用帶刺的手臂 猛烈揮打進行攻擊。 有時會使對手畏縮。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用带刺的手臂 猛烈地挥舞进行攻击。 有时会使对手畏缩。",
+            "usum": "用带刺的手臂 猛烈地挥舞进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用带刺的手臂 猛烈地挥舞进行攻击。 有时会使对手畏缩。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

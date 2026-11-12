@@ -1,35 +1,115 @@
 {
-  "_id": 703,
-  "key": "genesis-supernova",
-  "name": {
-    "english": "Genesis Supernova",
-    "japanese": "オリジンズスーパーノヴァ",
-    "chinese": "起源超新星大爆炸",
-    "korean": "오리진즈슈퍼노바",
-    "german": "Supernova Original",
-    "french": "Supernova des Ursprungs",
-    "italian": "Genesis Supernova",
-    "spanish": "Supernova delle Origini"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": null,
-  "pp": 1,
-  "power": 185,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "After obtaining Z-Power, the user, Mew, attacks\nthe target with full force. The terrain will be charged\nwith psychic energy.",
-    "ultra-sun-ultra-moon": "After obtaining Z-Power, the user, Mew, attacks\nthe target with full force. The terrain will be charged\nwith psychic energy.",
-    "lets-go-pikachu-lets-go-eevee": "After obtaining Z-Power, the user, Mew, attacks\nthe target with full force. The terrain will be charged\nwith psychic energy.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then (if successful) changes the terrain to psychic terrain.",
-    "shortEffect": "Changes the terrain to Psychic Terrain after inflicting damage."
-  },
-  "priority": 0
+    "_id": 703,
+    "key": "genesis-supernova",
+    "name": {
+        "japanese-kana": "オリジンズスーパーノヴァ",
+        "korean": "오리진즈슈퍼노바",
+        "traditional-chinese": "起源超新星大爆炸",
+        "french": "Supernova Originelle",
+        "german": "Supernova des Ursprungs",
+        "spanish": "Supernova Original",
+        "italian": "Supernova delle Origini",
+        "english": "Genesis Supernova",
+        "japanese": "オリジンズスーパーノヴァ",
+        "simplified-chinese": "起源超新星大爆炸",
+        "latin-american-spanish": "Supernova Original"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": null,
+    "pp": 1,
+    "power": 185,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "Ｚパワーを　えた　ミュウが ぜんりょくで　あいてを　こうげきする。 あしもとが　サイコフィールドになる。",
+            "usum": "Ｚパワーを　えた　ミュウが ぜんりょくで　あいてを　こうげきする。 あしもとが　サイコフィールドになる。",
+            "lgpe": "Ｚパワーを　えた　ミュウが ぜんりょくで　あいてを　こうげきする。 あしもとが　サイコフィールドになる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "sm": "Z파워를 얻은 뮤가 전력으로 상대를 공격한다. 발밑이 사이코필드가 된다.",
+            "usum": "Z파워를 얻은 뮤가 전력으로 상대를 공격한다. 발밑이 사이코필드가 된다.",
+            "lgpe": "Z파워를 얻은 뮤가 전력으로 상대를 공격한다. 발밑이 사이코필드가 된다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "sm": "得到Ｚ力量的夢幻 全力攻擊對手。 腳下變成精神場地。",
+            "usum": "得到Ｚ力量的夢幻 全力攻擊對手。 腳下變成精神場地。",
+            "lgpe": "得到Ｚ力量的夢幻 全力攻擊對手。 腳下變成精神場地。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "sm": "Mew utilise la Force Z pour attaquer la cible. Le terrain devient un Champ Psychique.",
+            "usum": "Mew utilise la Force Z pour attaquer la cible. Le terrain devient un Champ Psychique.",
+            "lgpe": "Mew utilise la Force Z pour attaquer la cible. Le terrain devient un Champ Psychique.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "sm": "Mew greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Der Untergrund wird dabei in ein Psychofeld verwandelt.",
+            "usum": "Mew greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Der Untergrund wird dabei in ein Psychofeld verwandelt.",
+            "lgpe": "Mew greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Der Untergrund wird dabei in ein Psychofeld verwandelt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "sm": "Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.",
+            "usum": "Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.",
+            "lgpe": "Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "sm": "Grazie al Potere Z, Mew attacca il bersaglio con tutta la sua forza e genera un Campo Psichico a terra.",
+            "usum": "Grazie al Potere Z, Mew attacca il bersaglio con tutta la sua forza e genera un Campo Psichico a terra.",
+            "lgpe": "Grazie al Potere Z, Mew attacca il bersaglio con tutta la sua forza e genera un Campo Psichico a terra.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "sm": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
+            "usum": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
+            "lgpe": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "sm": "Ｚパワーを　得た　ミュウが 全力で　相手を　攻撃する。 足元が　サイコフィールドになる。",
+            "usum": "Ｚパワーを　得た　ミュウが 全力で　相手を　攻撃する。 足元が　サイコフィールドになる。",
+            "lgpe": "Ｚパワーを　得た　ミュウが 全力で　相手を　攻撃する。 足元が　サイコフィールドになる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "sm": "得到Ｚ力量的梦幻 将全力攻击对手。 脚下会变成精神场地。",
+            "usum": "得到Ｚ力量的梦幻 将全力攻击对手。 脚下会变成精神场地。",
+            "lgpe": "得到Ｚ力量的梦幻 将全力攻击对手。 脚下会变成精神场地。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "sm": "Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.",
+            "usum": "Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.",
+            "lgpe": "Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then (if successful) changes the terrain to Psychic Terrain.",
+        "shortEffect": "Changes the terrain to Psychic Terrain after inflicting damage."
+    }
 }

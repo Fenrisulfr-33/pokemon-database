@@ -1,34 +1,104 @@
 {
-  "_id": 728,
-  "key": "clangorous-soulblaze",
-  "name": {
-    "english": "Clangorous Soulblaze",
-    "japanese": "ブレイジングソウルビート",
-    "chinese": "熾魂熱舞烈音爆",
-    "korean": "브레이징소울비트",
-    "german": "Estruendo Implacable",
-    "french": "Rasselnder Seelentanz",
-    "italian": "Clangorous Soulblaze",
-    "spanish": "Dracofonia Divampante"
-  },
-  "type": "Dragon",
-  "category": "Special",
-  "contest": null,
-  "pp": 1,
-  "power": 185,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "ultra-sun-ultra-moon": "After obtaining Z-Power, the user, Kommo-o,\nattacks the opposing Pokémon with full force. This\nmove boosts the user’s stats.",
-    "lets-go-pikachu-lets-go-eevee": "After obtaining Z-Power, the user, Kommo-o,\nattacks the opposing Pokémon with full force. This\nmove boosts the user’s stats.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts sound-based damage to all opposing Pokémon and increases the user's Attack, Defense, Special Attack, Special Defense, and Speed by one stage each. The user's stats are not raised if the move fails to damage any opposing Pokémon.",
-    "shortEffect": "Inflicts damage to all opposing Pokémon and increases the user's Attack, Defense, Special Attack, Special Defense, and Speed by one stage each."
-  },
-  "priority": 0
+    "_id": 728,
+    "key": "clangorous-soulblaze",
+    "name": {
+        "japanese-kana": "ブレイジングソウルビート",
+        "korean": "브레이징소울비트",
+        "traditional-chinese": "熾魂熱舞烈音爆",
+        "french": "Dracacophonie Flamboyante",
+        "german": "Rasselnder Seelentanz",
+        "spanish": "Estruendo Implacable",
+        "italian": "Dracofonia Divampante",
+        "english": "Clangorous Soulblaze",
+        "japanese": "ブレイジングソウルビート",
+        "simplified-chinese": "炽魂热舞烈音爆",
+        "latin-american-spanish": "Estruendo Implacable"
+    },
+    "type": "dragon",
+    "category": "special",
+    "contest": null,
+    "pp": 1,
+    "power": 185,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "usum": "Ｚパワーを　えた　ジャラランガが ぜんりょくで　あいてを　こうげきする。 ついかで　じぶんの　のうりょくが　あがる。",
+            "lgpe": "Ｚパワーを　えた　ジャラランガが ぜんりょくで　あいてを　こうげきする。 ついかで　じぶんの　のうりょくが　あがる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "usum": "Z파워를 얻은 짜랑고우거가 전력으로 상대를 공격한다. 추가로 자신의 능력이 올라간다.",
+            "lgpe": "Z파워를 얻은 짜랑고우거가 전력으로 상대를 공격한다. 추가로 자신의 능력이 올라간다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "usum": "獲得Ｚ力量的杖尾鱗甲龍 將會以全力攻擊對手， 並提升自己的能力。",
+            "lgpe": "獲得Ｚ力量的杖尾鱗甲龍 將會以全力攻擊對手， 並提升自己的能力。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "usum": "Ékaïser utilise la Force Z pour frapper l’ennemi de toutes ses forces. Augmente aussi ses stats.",
+            "lgpe": "Ékaïser utilise la Force Z pour frapper l’ennemi de toutes ses forces. Augmente aussi ses stats.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "usum": "Grandiras greift Gegner mithilfe von Z-Kraft mit voller Wucht an. Zusätzlich werden seine Statuswerte erhöht.",
+            "lgpe": "Grandiras greift Gegner mithilfe von Z-Kraft mit voller Wucht an. Zusätzlich werden seine Statuswerte erhöht.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "usum": "Kommo-o ataca con toda su fuerza al objetivo tras imbuirse del Poder Z. Además, potencia sus propias características.",
+            "lgpe": "Kommo-o ataca con toda su fuerza al objetivo tras imbuirse del Poder Z. Además, potencia sus propias características.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "usum": "Grazie al Potere Z, Kommo-o attacca i nemici con tutta la sua forza. Inoltre, aumenta le proprie statistiche.",
+            "lgpe": "Grazie al Potere Z, Kommo-o attacca i nemici con tutta la sua forza. Inoltre, aumenta le proprie statistiche.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "usum": "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pokémon with full force. This move boosts the user’s stats.",
+            "lgpe": "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pokémon with full force. This move boosts the user’s stats.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "usum": "Ｚパワーを　得た　ジャラランガが 全力で　相手を　攻撃する。 追加で　自分の　能力が　上がる。",
+            "lgpe": "Ｚパワーを　得た　ジャラランガが 全力で　相手を　攻撃する。 追加で　自分の　能力が　上がる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "usum": "得到Ｚ力量的杖尾鳞甲龙 将全力攻击对手。 并且自己的能力会提高。",
+            "lgpe": "得到Ｚ力量的杖尾鳞甲龙 将全力攻击对手。 并且自己的能力会提高。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "usum": "Kommo-o ataca con toda su fuerza al objetivo tras imbuirse del Poder Z. Además, potencia sus propias características.",
+            "lgpe": "Kommo-o ataca con toda su fuerza al objetivo tras imbuirse del Poder Z. Además, potencia sus propias características.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts sound-based damage to all opposing Pokémon and increases the user’s Attack, Defense, Special Attack, Special Defense, and Speed by one stage each. The user’s stats are not raised if the move fails to damage any opposing Pokémon.",
+        "shortEffect": "Inflicts damage to all opposing Pokémon and increases the user’s Attack, Defense, Special Attack, Special Defense, and Speed by one stage each."
+    }
 }

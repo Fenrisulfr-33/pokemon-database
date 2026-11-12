@@ -1,47 +1,151 @@
 {
-  "_id": 42,
-  "key": "pin-missile",
-  "name": {
-    "english": "Pin Missile",
-    "japanese": "ミサイルばり",
-    "chinese": "飞弹针",
-    "korean": "바늘미사일",
-    "german": "Pin Misil",
-    "french": "Nadelrakete",
-    "italian": "Pin Missile",
-    "spanish": "Missilspillo"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 25,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Fires pins that\nstrike 2-5 times.",
-    "crystal": "Fires pins that\nstrike 2-5 times.",
-    "ruby-sapphire": "Sharp pins are fired to\nstrike 2 to 5 times.",
-    "emerald": "Sharp pins are fired to\nstrike 2 to 5 times.",
-    "firered-leafgreen": "Sharp pins are shot\nat the foe and hit\ntwo to five times\nat once.",
-    "diamond-pearl": "Sharp pins are shot\nat the foe in rapid\nsuccession.\nThey hit two to five\ntimes in a row.",
-    "platinum": "Sharp pins are shot\nat the foe in rapid\nsuccession.\nThey hit two to five\ntimes in a row.",
-    "heartgold-soulsilver": "Sharp pins are shot\nat the foe in rapid\nsuccession.\nThey hit two to five\ntimes in a row.",
-    "black-white": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "black-2-white-2": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "x-y": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "Sharp spikes are shot at the target\nin rapid succession.\nThey hit two to five times in a row.",
-    "sun-moon": "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
-    "ultra-sun-ultra-moon": "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
-    "sword-shield": "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 42,
+    "key": "pin-missile",
+    "name": {
+        "japanese-kana": "ミサイルばり",
+        "korean": "바늘미사일",
+        "traditional-chinese": "飛彈針",
+        "french": "Dard-Nuée",
+        "german": "Nadelrakete",
+        "spanish": "Pin Misil",
+        "italian": "Missilspillo",
+        "english": "Pin Missile",
+        "japanese": "ミサイルばり",
+        "simplified-chinese": "飞弹针",
+        "latin-american-spanish": "Misil Aguja"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 20,
+    "power": 25,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "accuracy": 85,
+            "power": 14
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Fires pins that strike 2-5 times.",
+            "cr": "Fires pins that strike 2-5 times.",
+            "rs": "Sharp pins are fired to strike 2 to 5 times.",
+            "em": "Sharp pins are fired to strike 2 to 5 times.",
+            "frlg": "Sharp pins are shot at the foe and hit two to five times at once.",
+            "dp": "Sharp pins are shot at the foe in rapid succession. They hit two to five times in a row.",
+            "pt": "Sharp pins are shot at the foe in rapid succession. They hit two to five times in a row.",
+            "hgss": "Sharp pins are shot at the foe in rapid succession. They hit two to five times in a row.",
+            "bw": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "b2w2": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "xy": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "oras": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "sm": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "usum": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "lgpe": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "swsh": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+            "la": "Sharp spikes are shot at the target. Spike splinters left behind by this attack continue to damage the target for several turns.",
+            "sv": "The user attacks by shooting sharp spikes at the target. This move hits two to five times in a row."
+        },
+        "french": {
+            "bw": "Envoie une rafale de dards. Peut toucher de 2 à 5 fois.",
+            "xy": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "oras": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "sm": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "usum": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "lgpe": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+            "swsh": "Envoie une rafale de dards. Peut toucher de deux à cinq fois."
+        },
+        "japanese-kana": {
+            "xy": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。"
+        },
+        "korean": {
+            "xy": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다."
+        },
+        "german": {
+            "xy": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "oras": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "sm": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "usum": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "lgpe": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+            "swsh": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander."
+        },
+        "spanish": {
+            "xy": "Lanza finas púas que hieren de dos a cinco veces.",
+            "oras": "Lanza finas púas que hieren de dos a cinco veces.",
+            "sm": "Lanza finas púas que hieren de dos a cinco veces.",
+            "usum": "Lanza finas púas que hieren de dos a cinco veces.",
+            "lgpe": "Lanza finas púas que hieren de dos a cinco veces.",
+            "swsh": "Lanza finas púas que hieren de dos a cinco veces."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da due a cinque volte con spilli appuntiti in rapida successione.",
+            "oras": "Il bersaglio viene colpito da due a cinque volte con spilli appuntiti in rapida successione.",
+            "sm": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.",
+            "usum": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.",
+            "lgpe": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.",
+            "swsh": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine."
+        },
+        "japanese": {
+            "xy": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza finas púas que hieren de dos a cinco veces.",
+            "oras": "Lanza finas púas que hieren de dos a cinco veces.",
+            "sm": "Lanza finas púas que hieren de dos a cinco veces.",
+            "usum": "Lanza finas púas que hieren de dos a cinco veces.",
+            "lgpe": "Lanza finas púas que hieren de dos a cinco veces.",
+            "swsh": "Lanza finas púas que hieren de dos a cinco veces."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。",
+            "usum": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。",
+            "lgpe": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。",
+            "swsh": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 锐针进行攻击。 连续攻击２～５次。",
+            "usum": "向对手发射 锐针进行攻击。 连续攻击２～５次。",
+            "lgpe": "向对手发射 锐针进行攻击。 连续攻击２～５次。",
+            "swsh": "向对手发射 锐针进行攻击。 连续攻击２～５次。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

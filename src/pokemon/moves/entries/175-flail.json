@@ -1,47 +1,146 @@
 {
-  "_id": 175,
-  "key": "flail",
-  "name": {
-    "english": "Flail",
-    "japanese": "じたばた",
-    "chinese": "手足慌乱",
-    "korean": "바둥바둥",
-    "german": "Azote",
-    "french": "Dreschflegel",
-    "italian": "Flail",
-    "spanish": "Flagello"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Stronger if the\nuser's HP is low.",
-    "crystal": "Stronger if the\nuser's HP is low.",
-    "ruby-sapphire": "Inflicts more damage when\nthe user’s HP is down.",
-    "emerald": "Inflicts more damage when\nthe user’s HP is down.",
-    "firered-leafgreen": "A desperate attack\nthat becomes more\npowerful the less\nHP the user has.",
-    "diamond-pearl": "The user flails about\naimlessly to attack.\nIt becomes more\npowerful the less HP\nthe user has.",
-    "platinum": "The user flails about\naimlessly to attack.\nIt becomes more\npowerful the less HP\nthe user has.",
-    "heartgold-soulsilver": "The user flails about\naimlessly to attack.\nIt becomes more\npowerful the less HP\nthe user has.",
-    "black-white": "The user flails about aimlessly to attack.\nIt becomes more powerful the less HP\nthe user has.",
-    "black-2-white-2": "The user flails about aimlessly to attack.\nIt becomes more powerful the less HP\nthe user has.",
-    "x-y": "The user flails about aimlessly to attack.\nThe less HP the user has,\nthe greater the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user flails about aimlessly to attack.\nThe less HP the user has,\nthe greater the move’s power.",
-    "sun-moon": "The user flails about aimlessly to attack. The less HP\nthe user has, the greater the move’s power.",
-    "ultra-sun-ultra-moon": "The user flails about aimlessly to attack. The less HP\nthe user has, the greater the move’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user flails about aimlessly to attack. The less HP\nthe user has, the greater the move’s power.",
-    "sword-shield": "The user flails about aimlessly to attack. The less HP\nthe user has, the greater the move’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power varies inversely with the user's proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n",
-    "shortEffect": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
-  },
-  "priority": 0
+    "_id": 175,
+    "key": "flail",
+    "name": {
+        "japanese-kana": "じたばた",
+        "korean": "바둥바둥",
+        "traditional-chinese": "抓狂",
+        "french": "Gigotage",
+        "german": "Dreschflegel",
+        "spanish": "Azote",
+        "italian": "Flagello",
+        "english": "Flail",
+        "japanese": "じたばた",
+        "simplified-chinese": "抓狂",
+        "latin-american-spanish": "Azote"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Stronger if the user's HP is low.",
+            "cr": "Stronger if the user's HP is low.",
+            "rs": "Inflicts more damage when the user’s HP is down.",
+            "em": "Inflicts more damage when the user’s HP is down.",
+            "frlg": "A desperate attack that becomes more powerful the less HP the user has.",
+            "dp": "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",
+            "pt": "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",
+            "hgss": "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",
+            "bw": "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",
+            "b2w2": "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",
+            "xy": "The user flails about aimlessly to attack. The less HP the user has, the greater the move’s power.",
+            "oras": "The user flails about aimlessly to attack. The less HP the user has, the greater the move’s power.",
+            "sm": "The user flails about aimlessly to attack. The less HP the user has, the greater the move’s power.",
+            "usum": "The user flails about aimlessly to attack. The less HP the user has, the greater the move’s power.",
+            "lgpe": "The user flails about aimlessly to attack. The less HP the user has, the greater the move’s power.",
+            "swsh": "The user flails about aimlessly to attack. The less HP the user has, the greater the move’s power.",
+            "la": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power.",
+            "sv": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power."
+        },
+        "french": {
+            "bw": "Le lanceur fait tournoyer son fléau. Plus ses PV sont bas, plus l’attaque est puissante.",
+            "xy": "Le lanceur fait tournoyer son fléau. Plus ses PV sont bas, plus l’attaque est puissante.",
+            "oras": "Le lanceur fait tournoyer son fléau. Plus ses PV sont bas, plus l’attaque est puissante.",
+            "sm": "Le lanceur fait tournoyer son fléau. Plus ses PV sont bas, plus l’attaque est puissante.",
+            "usum": "Le lanceur fait tournoyer son fléau. Plus ses PV sont bas, plus l’attaque est puissante.",
+            "lgpe": "Le lanceur fait tournoyer son fléau. Plus ses PV sont bas, plus l’attaque est puissante.",
+            "swsh": "Le lanceur attaque en gigotant dans tous les sens. Plus ses PV sont bas, plus l’attaque est puissante."
+        },
+        "japanese-kana": {
+            "xy": "じたばた　あばれて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "oras": "じたばた　あばれて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "sm": "じたばた　あばれて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "usum": "じたばた　あばれて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "lgpe": "じたばた　あばれて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "swsh": "じたばた　あばれて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。"
+        },
+        "korean": {
+            "xy": "바둥바둥 난동 부려서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "oras": "바둥바둥 난동 부려서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "sm": "바둥바둥 난동 부려서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "usum": "바둥바둥 난동 부려서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "lgpe": "바둥바둥 난동 부려서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "swsh": "바둥바둥 난동 부려서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Attacke richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "oras": "Attacke richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "sm": "Attacke richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "usum": "Attacke richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "lgpe": "Attacke richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "swsh": "Attacke richtet mehr Schaden an, wenn eigene KP niedrig sind."
+        },
+        "spanish": {
+            "xy": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "oras": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "sm": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "usum": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "lgpe": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "swsh": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá."
+        },
+        "italian": {
+            "xy": "Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.",
+            "oras": "Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.",
+            "sm": "Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.",
+            "usum": "Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.",
+            "lgpe": "Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.",
+            "swsh": "Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi."
+        },
+        "japanese": {
+            "xy": "じたばた　暴れて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "oras": "じたばた　暴れて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "sm": "じたばた　暴れて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "usum": "じたばた　暴れて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "lgpe": "じたばた　暴れて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "swsh": "じたばた　暴れて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "oras": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "sm": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "usum": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "lgpe": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+            "swsh": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá."
+        },
+        "traditional-chinese": {
+            "sm": "抓狂般亂打進行攻擊。 自己的ＨＰ越少， 招式的威力越大。",
+            "usum": "抓狂般亂打進行攻擊。 自己的ＨＰ越少， 招式的威力越大。",
+            "lgpe": "抓狂般亂打進行攻擊。 自己的HP越少， 招式的威力越大。",
+            "swsh": "抓狂般亂打進行攻擊。 自己的ＨＰ越少， 招式的威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "抓狂般乱打进行攻击。 自己的ＨＰ越少， 招式的威力越大。",
+            "usum": "抓狂般乱打进行攻击。 自己的ＨＰ越少， 招式的威力越大。",
+            "lgpe": "抓狂般乱打进行攻击。 自己的HP越少， 招式的威力越大。",
+            "swsh": "抓狂般乱打进行攻击。 自己的ＨＰ越少， 招式的威力越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power varies inversely with the user’s proportional remaining HP. 64 * current HP / max HP | Power -----------------------: | ----:  0– 1                    |  200  2– 5                    |  150  6–12                    |  100 13–21                    |   80 22–42                    |   40 43–64                    |   20",
+        "shortEffect": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+    }
 }

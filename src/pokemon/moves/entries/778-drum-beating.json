@@ -1,32 +1,84 @@
 {
-  "_id": 778,
-  "key": "drum-beating",
-  "name": {
-    "english": "Drum Beating",
-    "japanese": "ドラムアタック",
-    "chinese": "鼓擊",
-    "korean": "드럼어택",
-    "german": "Batería Asalto",
-    "french": "Trommelschläge",
-    "italian": "Drum Beating",
-    "spanish": "Tamburattacco"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user plays its drum, controlling the drum’s roots\nto attack the target. This also lowers the target’s\nSpeed stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 778,
+    "key": "drum-beating",
+    "name": {
+        "japanese-kana": "ドラムアタック",
+        "korean": "드럼어택",
+        "traditional-chinese": "鼓擊",
+        "french": "Tambour Battant",
+        "german": "Trommelschläge",
+        "spanish": "Batería Asalto",
+        "italian": "Tamburattacco",
+        "english": "Drum Beating",
+        "japanese": "ドラムアタック",
+        "simplified-chinese": "鼓击",
+        "latin-american-spanish": "Batería Asalto"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "ドラムの　ねっこを　ドラミングで コントロールして　こうげき　することで あいての　すばやさを　さげる。"
+        },
+        "korean": {
+            "swsh": "드럼의 뿌리를 연주로 조종해서 공격하는 것으로 상대의 스피드를 떨어뜨린다."
+        },
+        "traditional-chinese": {
+            "swsh": "用打鼓來控制 鼓的根部進行攻擊， 進而降低對手的速度。"
+        },
+        "french": {
+            "swsh": "Le lanceur bat son tambour pour en diriger les racines sur la cible, l’attaquer, et baisser sa Vitesse."
+        },
+        "german": {
+            "swsh": "Der Anwender kontrolliert durch Trommeln Wurzeln, die das Ziel angreifen und dessen Initiative senken."
+        },
+        "spanish": {
+            "swsh": "El usuario controla un tocón mediante la percusión y al atacar reduce la Velocidad del objetivo."
+        },
+        "italian": {
+            "swsh": "Chi la usa percuote il proprio tamburo per controllarne le radici e attaccare il bersaglio, riducendone la Velocità."
+        },
+        "english": {
+            "swsh": "The user plays its drum, controlling the drum’s roots to attack the target. This also lowers the target’s Speed stat.",
+            "la": "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat.",
+            "sv": "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat."
+        },
+        "japanese": {
+            "swsh": "ドラムの　根っこを　ドラミングで コントロールして　こうげき　することで 相手の　素早さを　下げる。"
+        },
+        "simplified-chinese": {
+            "swsh": "用鼓点来控制 鼓的根部进行攻击， 从而降低对手的速度。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario controla un tocón mediante la percusión y al atacar reduce la Velocidad del objetivo."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

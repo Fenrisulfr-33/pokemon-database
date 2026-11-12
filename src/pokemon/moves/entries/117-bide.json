@@ -1,47 +1,151 @@
 {
-  "_id": 117,
-  "key": "bide",
-  "name": {
-    "english": "Bide",
-    "japanese": "がまん",
-    "chinese": "忍忍",
-    "korean": "참기",
-    "german": "Venganza",
-    "french": "Geduld",
-    "italian": "Bide",
-    "spanish": "Pazienza"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Waits 2-3 turns &\nhits back double.",
-    "crystal": "Waits 2-3 turns &\nhits back double.",
-    "ruby-sapphire": "Endures attack for 2\nturns to retaliate double.",
-    "emerald": "Endures attack for 2\nturns to retaliate double.",
-    "firered-leafgreen": "The user endures\nattacks for two\nturns, then strikes\nback double.",
-    "diamond-pearl": "The user endures\nattacks for two\nturns, then strikes\nback to cause double\nthe damage taken.",
-    "platinum": "The user endures\nattacks for two\nturns, then strikes\nback to cause double\nthe damage taken.",
-    "heartgold-soulsilver": "The user endures\nattacks for two\nturns, then strikes\nback to cause double\nthe damage taken.",
-    "black-white": "The user endures attacks for two\nturns, then strikes back to cause\ndouble the damage taken.",
-    "black-2-white-2": "The user endures attacks for two\nturns, then strikes back to cause\ndouble the damage taken.",
-    "x-y": "The user endures attacks for two\nturns, then strikes back to cause\ndouble the damage taken.",
-    "omega-ruby-alpha-sapphire": "The user endures attacks for two\nturns, then strikes back to cause\ndouble the damage taken.",
-    "sun-moon": "The user endures attacks for two turns, then strikes\nback to cause double the damage taken.",
-    "ultra-sun-ultra-moon": "The user endures attacks for two turns, then strikes\nback to cause double the damage taken.",
-    "lets-go-pikachu-lets-go-eevee": "The user endures attacks for two turns, then strikes\nback to cause double the damage taken.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "User waits for two turns, then hits back for twice the damage it took."
-  },
-  "priority": 1
+    "_id": 117,
+    "key": "bide",
+    "name": {
+        "japanese-kana": "がまん",
+        "korean": "참기",
+        "traditional-chinese": "忍耐",
+        "french": "Patience",
+        "german": "Geduld",
+        "spanish": "Venganza",
+        "italian": "Pazienza",
+        "english": "Bide",
+        "japanese": "がまん",
+        "simplified-chinese": "忍耐",
+        "latin-american-spanish": "Venganza"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": true,
+    "generation": 1,
+    "priority": 1,
+    "target": "user",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "dp": "Dure deux ou trois tours."
+        },
+        "english": {
+            "dp": "Lasts either two or three turns."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Waits 2-3 turns & hits back double.",
+            "cr": "Waits 2-3 turns & hits back double.",
+            "rs": "Endures attack for 2 turns to retaliate double.",
+            "em": "Endures attack for 2 turns to retaliate double.",
+            "frlg": "The user endures attacks for two turns, then strikes back double.",
+            "dp": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "pt": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "hgss": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "bw": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "b2w2": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "xy": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "oras": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "sm": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "usum": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "lgpe": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur encaisse les coups durant 2 tours et réplique en infligeant le double des dégâts subis.",
+            "xy": "Le lanceur encaisse les coups durant deux tours et réplique en infligeant le double des dégâts subis.",
+            "oras": "Le lanceur encaisse les coups durant deux tours et réplique en infligeant le double des dégâts subis.",
+            "sm": "Le lanceur encaisse les coups durant deux tours et réplique en infligeant le double des dégâts subis.",
+            "usum": "Le lanceur encaisse les coups durant deux tours et réplique en infligeant le double des dégâts subis.",
+            "lgpe": "Le lanceur encaisse les coups durant deux tours et réplique en infligeant le double des dégâts subis.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "２ターンの　あいだ　こうげきに　たえて うけた　ダメージを　２ばいに　して あいてに　かえす。",
+            "oras": "２ターンの　あいだ　こうげきに　たえて うけた　ダメージを　２ばいに　して あいてに　かえす。",
+            "sm": "２ターンの　あいだ　こうげきに　たえて うけた　ダメージを　２ばいに　して あいてに　かえす。",
+            "usum": "２ターンの　あいだ　こうげきに　たえて うけた　ダメージを　２ばいに　して あいてに　かえす。",
+            "lgpe": "２ターンの　あいだ　こうげきに　たえて うけた　ダメージを　２ばいに　して あいてに　かえす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "2턴 동안 공격을 견뎌 입은 데미지를 2배로 만들어 상대에게 돌려준다.",
+            "oras": "2턴 동안 공격을 견뎌 입은 데미지를 2배로 만들어 상대에게 돌려준다.",
+            "sm": "2턴 동안 공격을 견뎌 입은 데미지를 2배로 만들어 상대에게 돌려준다.",
+            "usum": "2턴 동안 공격을 견뎌 입은 데미지를 2배로 만들어 상대에게 돌려준다.",
+            "lgpe": "2턴 동안 공격을 견뎌 입은 데미지를 2배로 만들어 상대에게 돌려준다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Erträgt zwei Runden Angriffe und schlägt dann mit dem doppelten Wert des erlittenen Schadens zurück.",
+            "oras": "Erträgt zwei Runden Angriffe und schlägt dann mit dem doppelten Wert des erlittenen Schadens zurück.",
+            "sm": "Erträgt zwei Runden Angriffe und schlägt dann mit dem doppelten Wert des erlittenen Schadens zurück.",
+            "usum": "Erträgt zwei Runden Angriffe und schlägt dann mit dem doppelten Wert des erlittenen Schadens zurück.",
+            "lgpe": "Erträgt zwei Runden Angriffe und schlägt dann mit dem doppelten Wert des erlittenen Schadens zurück.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "oras": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "sm": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "usum": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "lgpe": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.",
+            "oras": "Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.",
+            "sm": "Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.",
+            "usum": "Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.",
+            "lgpe": "Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "２ターンの　あいだ　攻撃に　たえて 受けた　ダメージを　２倍にして 相手に　返す。",
+            "oras": "２ターンの　あいだ　攻撃に　たえて 受けた　ダメージを　２倍にして 相手に　返す。",
+            "sm": "２ターンの　間　攻撃に　たえて 受けた　ダメージを　２倍にして 相手に　返す。",
+            "usum": "２ターンの　間　攻撃に　たえて 受けた　ダメージを　２倍にして 相手に　返す。",
+            "lgpe": "２ターンの　間　攻撃に　たえて 受けた　ダメージを　２倍にして 相手に　返す。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "oras": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "sm": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "usum": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "lgpe": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "在２回合內忍受攻擊， 然後將受到的傷害 加倍返還給對手。",
+            "usum": "在２回合內忍受攻擊， 然後將受到的傷害 加倍返還給對手。",
+            "lgpe": "在２回合內忍受攻擊， 然後將受到的傷害 加倍返還給對手。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "在２回合内忍受攻击， 受到的伤害会 ２倍返还给对手。",
+            "usum": "在２回合内忍受攻击， 受到的伤害会 ２倍返还给对手。",
+            "lgpe": "在２回合内忍受攻击， 受到的伤害会 ２倍返还给对手。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "User waits for two turns, then hits back for twice the damage it took."
+    }
 }

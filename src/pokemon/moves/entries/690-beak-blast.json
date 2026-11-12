@@ -1,35 +1,117 @@
 {
-  "_id": 690,
-  "key": "beak-blast",
-  "name": {
-    "english": "Beak Blast",
-    "japanese": "くちばしキャノン",
-    "chinese": "鳥嘴加農炮",
-    "korean": "부리캐논",
-    "german": "Pico Cañón",
-    "french": "Schnabelkanone",
-    "italian": "Beak Blast",
-    "spanish": "Cannonbecco"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 100,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user first heats up its beak, and then it attacks\nthe target. Making direct contact with the Pokémon\nwhile it’s heating up its beak results in a burn.",
-    "ultra-sun-ultra-moon": "The user first heats up its beak, and then it attacks\nthe target. Making direct contact with the Pokémon\nwhile it’s heating up its beak results in a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user first heats up its beak, and then it attacks\nthe target. Making direct contact with the Pokémon\nwhile it’s heating up its beak results in a burn.",
-    "sword-shield": "The user first heats up its beak, and then it attacks\nthe target. Making direct contact with the Pokémon\nwhile it’s heating up its beak results in a burn."
-  },
-  "effect": {
-    "full": "Begins charging at the start of the turn, then attacks as normal.  Any Pokémon that makes contact with the user while charging is burned.  The charging is not affected by accuracy, sleep, paralysis, or any other effect that would interfere with a move.",
-    "shortEffect": "Inflicts a burn on any Pokémon that makes contact before the attack."
-  },
-  "priority": -3
+    "_id": 690,
+    "key": "beak-blast",
+    "name": {
+        "japanese-kana": "くちばしキャノン",
+        "korean": "부리캐논",
+        "traditional-chinese": "鳥嘴加農炮",
+        "french": "Bec-Canon",
+        "german": "Schnabelkanone",
+        "spanish": "Pico Cañón",
+        "italian": "Cannonbecco",
+        "english": "Beak Blast",
+        "japanese": "くちばしキャノン",
+        "simplified-chinese": "鸟嘴加农炮",
+        "latin-american-spanish": "Pico Cañón"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 100,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": -3,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "さいしょに　クチバシを　かねつしてから こうげきを　くりだす。 かねつちゅうに　さわると　やけどする。",
+            "usum": "さいしょに　クチバシを　かねつしてから こうげきを　くりだす。 かねつちゅうに　さわると　やけどする。",
+            "lgpe": "さいしょに　クチバシを　かねつしてから こうげきを　くりだす。 かねつちゅうに　さわると　やけどする。",
+            "swsh": "さいしょに　クチバシを　かねつしてから こうげきを　くりだす。 かねつちゅうに　さわると　やけどする。"
+        },
+        "korean": {
+            "sm": "먼저 부리를 가열시킨 다음 공격을 날린다. 가열 중에 만지면 화상을 입는다.",
+            "usum": "먼저 부리를 가열시킨 다음 공격을 날린다. 가열 중에 만지면 화상을 입는다.",
+            "lgpe": "먼저 부리를 가열시킨 다음 공격을 날린다. 가열 중에 만지면 화상을 입는다.",
+            "swsh": "먼저 부리를 가열시킨 다음 공격을 날린다. 가열 중에 만지면 화상을 입는다."
+        },
+        "traditional-chinese": {
+            "sm": "先加熱鳥嘴後再進行攻擊。 若對手在加熱時觸碰的話， 就會灼傷。",
+            "usum": "先加熱鳥嘴後再進行攻擊。 若對手在加熱時觸碰的話， 就會灼傷。",
+            "lgpe": "先加熱鳥嘴後再進行攻擊。 若對手在加熱時觸碰的話， 就會灼傷。",
+            "swsh": "先加熱鳥嘴後再進行攻擊。 若對手在加熱時觸碰的話， 就會灼傷。"
+        },
+        "french": {
+            "sm": "Le lanceur fait chauffer son bec avant d’attaquer. S’il subit une attaque directe pendant la montée en température, l’attaquant sera brûlé.",
+            "usum": "Le lanceur fait chauffer son bec avant d’attaquer. S’il subit une attaque directe pendant la montée en température, l’attaquant sera brûlé.",
+            "lgpe": "Le lanceur fait chauffer son bec avant d’attaquer. S’il subit une attaque directe pendant la montée en température, l’attaquant sera brûlé.",
+            "swsh": "Le lanceur fait chauffer son bec avant d’attaquer. S’il subit une attaque directe pendant la montée en température, l’attaquant sera brûlé."
+        },
+        "german": {
+            "sm": "Der Anwender erhitzt zuerst seinen Schnabel und greift dann an. Pokémon, die ihn während des Erhitzens berühren, erleiden Verbrennungen.",
+            "usum": "Der Anwender erhitzt zuerst seinen Schnabel und greift dann an. Pokémon, die ihn während des Erhitzens berühren, erleiden Verbrennungen.",
+            "lgpe": "Der Anwender erhitzt zuerst seinen Schnabel und greift dann an. Pokémon, die ihn während des Erhitzens berühren, erleiden Verbrennungen.",
+            "swsh": "Der Anwender erhitzt zuerst seinen Schnabel und greift dann an. Pokémon, die ihn während des Erhitzens berühren, erleiden Verbrennungen."
+        },
+        "spanish": {
+            "sm": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.",
+            "usum": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.",
+            "lgpe": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.",
+            "swsh": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico."
+        },
+        "italian": {
+            "sm": "Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato.",
+            "usum": "Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato.",
+            "lgpe": "Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato.",
+            "swsh": "Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato."
+        },
+        "english": {
+            "sm": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it’s heating up its beak results in a burn.",
+            "usum": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it’s heating up its beak results in a burn.",
+            "lgpe": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it’s heating up its beak results in a burn.",
+            "swsh": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it’s heating up its beak results in a burn.",
+            "la": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it's heating up its beak results in a burn.",
+            "sv": "The user first heats up its beak, and then it attacks the target. Making direct contact with the user while it's heating up its beak results in a burn."
+        },
+        "japanese": {
+            "sm": "最初に　クチバシを　加熱してから 攻撃を　くりだす。 加熱中に　さわると　やけどする。",
+            "usum": "最初に　クチバシを　加熱してから 攻撃を　くりだす。 加熱中に　さわると　やけどする。",
+            "lgpe": "最初に　クチバシを　加熱してから 攻撃を　くりだす。 加熱中に　さわると　やけどする。",
+            "swsh": "最初に　クチバシを　加熱してから 攻撃を　くりだす。 加熱中に　さわると　やけどする。"
+        },
+        "simplified-chinese": {
+            "sm": "先加热鸟嘴后再进行攻击。 鸟嘴在加热时对手触碰的话， 就会使其灼伤。",
+            "usum": "先加热鸟嘴后再进行攻击。 鸟嘴在加热时对手触碰的话， 就会使其灼伤。",
+            "lgpe": "先加热鸟嘴后再进行攻击。 鸟嘴在加热时对手触碰的话， 就会使其灼伤。",
+            "swsh": "先加热鸟嘴后再进行攻击。 鸟嘴在加热时对手触碰的话， 就会使其灼伤。"
+        },
+        "latin-american-spanish": {
+            "sm": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.",
+            "usum": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.",
+            "lgpe": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.",
+            "swsh": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico."
+        }
+    },
+    "effect": {
+        "full": "Begins charging at the start of the turn, then attacks as normal.  Any Pokémon that makes contact with the user while charging is burned.  The charging is not affected by accuracy, sleep, paralysis, or any other effect that would interfere with a move.",
+        "shortEffect": "Inflicts a burn on any Pokémon that makes contact before the attack."
+    }
 }

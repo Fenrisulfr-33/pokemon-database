@@ -1,33 +1,99 @@
 {
-  "_id": 739,
-  "key": "freezy-frost",
-  "name": {
-    "english": "Freezy Frost",
-    "japanese": "こちこちフロスト",
-    "chinese": "冰冰霜凍",
-    "korean": "꽁꽁프로스트",
-    "german": "Glaceoprisma",
-    "french": "Klirrfrost",
-    "italian": "Freezy Frost",
-    "spanish": "Scricchiagelo"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 100,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a crystal made of cold frozen\nhaze. It eliminates every stat change among all the\nPokémon engaged in battle.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 739,
+    "key": "freezy-frost",
+    "name": {
+        "japanese-kana": "こちこちフロスト",
+        "korean": "꽁꽁프로스트",
+        "traditional-chinese": "冰冰霜凍",
+        "french": "Évo-Congélo",
+        "german": "Klirrfrost",
+        "spanish": "Glaceoprisma",
+        "italian": "Scricchiagelo",
+        "english": "Freezy Frost",
+        "japanese": "こちこちフロスト",
+        "simplified-chinese": "冰冰霜冻",
+        "latin-american-spanish": "Glaceoprisma"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 100,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "swsh": {
+            "accuracy": 100,
+            "power": 90,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "つめたく　こおった　くろいきりの けっしょうで　こうげき。　ぜんいんの のうりょく　へんかを　もとに　もどす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "차갑게 얼어붙은 흑안개의 결정으로 공격한다. 전원의 능력 변화를 원래대로 돌린다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "用冰凍的黑霧結晶進行攻擊， 讓全體寶可夢的能力變化 回到初始狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Évoli frappe l’adversaire avec un cristal de buée noire gelée. Annule les changements de stats de tous les Pokémon au combat.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Evoli greift mit einem schwarzen Kristall aus gefrorenem Nebel an. Die Statusveränderungen aller am Kampf beteiligten Pokémon werden zurückgesetzt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Ataca al rival con negros cristales de niebla congelada. Revierte los cambios en las características de todos los Pokémon presentes.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Chi la usa attacca il bersaglio con un cristallo formato da una nube nera congelata, che annulla ogni modifica alle statistiche di tutti i Pokémon.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pokémon engaged in battle.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "冷たく　凍った　くろいきりの 結晶で　攻撃。　全員の 能力変化を　もとに　もどす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "利用冰冷的黑雾结晶进行攻击。 使全体宝可梦的能力变回原点。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Ataca al rival con negros cristales de niebla congelada. Revierte los cambios en las características de todos los Pokémon presentes.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

@@ -1,39 +1,138 @@
 {
-  "_id": 555,
-  "key": "snarl",
-  "name": {
-    "english": "Snarl",
-    "japanese": "バークアウト",
-    "chinese": "大声咆哮",
-    "korean": "바크아웃",
-    "german": "Alarido",
-    "french": "Standpauke",
-    "italian": "Snarl",
-    "spanish": "Urlorabbia"
-  },
-  "type": "Dark",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 55,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 5,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "black-white": "The user yells as if it is ranting about\nsomething, making the target’s Sp. Atk\nstat decrease.",
-    "black-2-white-2": "The user yells as if it is ranting about\nsomething, making the targets’ Sp. Atk\nstat decrease.",
-    "x-y": "The user yells as if it’s ranting about\nsomething, which lowers the Sp. Atk stat\nof opposing Pokémon.",
-    "omega-ruby-alpha-sapphire": "The user yells as if it’s ranting about\nsomething, which lowers the Sp. Atk stat\nof opposing Pokémon.",
-    "sun-moon": "The user yells as if it’s ranting about something,\nwhich lowers the Sp. Atk stat of opposing Pokémon.",
-    "ultra-sun-ultra-moon": "The user yells as if it’s ranting about something,\nwhich lowers the Sp. Atk stat of opposing Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The user yells as if it’s ranting about something,\nwhich lowers the Sp. Atk stat of opposing Pokémon.",
-    "sword-shield": "The user yells as if it’s ranting about something,\nwhich lowers the Sp. Atk stats of opposing Pokémon."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 555,
+    "key": "snarl",
+    "name": {
+        "japanese-kana": "バークアウト",
+        "korean": "바크아웃",
+        "traditional-chinese": "大聲咆哮",
+        "french": "Aboiement",
+        "german": "Standpauke",
+        "spanish": "Alarido",
+        "italian": "Urlorabbia",
+        "english": "Snarl",
+        "japanese": "バークアウト",
+        "simplified-chinese": "大声咆哮",
+        "latin-american-spanish": "Alarido"
+    },
+    "type": "dark",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 55,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.",
+            "xy": "Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.",
+            "oras": "Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.",
+            "sm": "Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.",
+            "usum": "Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.",
+            "lgpe": "Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi.",
+            "swsh": "Le lanceur hurle sur l’ennemi. Baisse l’Attaque Spéciale de l’ennemi."
+        },
+        "english": {
+            "bw": "The user yells as if it is ranting about something, making the target’s Sp. Atk stat decrease.",
+            "b2w2": "The user yells as if it is ranting about something, making the targets’ Sp. Atk stat decrease.",
+            "xy": "The user yells as if it’s ranting about something, which lowers the Sp. Atk stat of opposing Pokémon.",
+            "oras": "The user yells as if it’s ranting about something, which lowers the Sp. Atk stat of opposing Pokémon.",
+            "sm": "The user yells as if it’s ranting about something, which lowers the Sp. Atk stat of opposing Pokémon.",
+            "usum": "The user yells as if it’s ranting about something, which lowers the Sp. Atk stat of opposing Pokémon.",
+            "lgpe": "The user yells as if it’s ranting about something, which lowers the Sp. Atk stat of opposing Pokémon.",
+            "swsh": "The user yells as if it’s ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
+            "la": "The user attacks by crying out as if it's ranting about something. This also lowers the target's offensive stats.",
+            "sv": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon."
+        },
+        "japanese-kana": {
+            "xy": "まくしたてる　ように　どなりつけて あいての　とくこうを　さげる。",
+            "oras": "まくしたてる　ように　どなりつけて あいての　とくこうを　さげる。",
+            "sm": "まくしたてる　ように　どなりつけて あいての　とくこうを　さげる。",
+            "usum": "まくしたてる　ように　どなりつけて あいての　とくこうを　さげる。",
+            "lgpe": "まくしたてる　ように　どなりつけて あいての　とくこうを　さげる。",
+            "swsh": "まくしたてる　ように　どなりつけて あいての　とくこうを　さげる。"
+        },
+        "korean": {
+            "xy": "호되게 호통을 쳐서 상대의 특수공격을 떨어뜨린다.",
+            "oras": "호되게 호통을 쳐서 상대의 특수공격을 떨어뜨린다.",
+            "sm": "호되게 호통을 쳐서 상대의 특수공격을 떨어뜨린다.",
+            "usum": "호되게 호통을 쳐서 상대의 특수공격을 떨어뜨린다.",
+            "lgpe": "호되게 호통을 쳐서 상대의 특수공격을 떨어뜨린다.",
+            "swsh": "호되게 호통을 쳐서 상대의 특수공격을 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Wäscht Zielen in der Nähe mit einer ausführlichen Standpauke den Kopf und senkt dabei deren Spezial-Angriff.",
+            "oras": "Wäscht Zielen in der Nähe mit einer ausführlichen Standpauke den Kopf und senkt dabei deren Spezial-Angriff.",
+            "sm": "Wäscht Zielen in der Nähe mit einer ausführlichen Standpauke den Kopf und senkt dabei deren Spezial-Angriff.",
+            "usum": "Wäscht Zielen in der Nähe mit einer ausführlichen Standpauke den Kopf und senkt dabei deren Spezial-Angriff.",
+            "lgpe": "Wäscht Zielen in der Nähe mit einer ausführlichen Standpauke den Kopf und senkt dabei deren Spezial-Angriff.",
+            "swsh": "Wäscht gegnerischen Pokémon mit einer ausführlichen Standpauke den Kopf und senkt dabei deren Spezial-Angriff."
+        },
+        "spanish": {
+            "xy": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "oras": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "sm": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "usum": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "lgpe": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "swsh": "Chillido desagradable que baja el Ataque Especial del rival."
+        },
+        "italian": {
+            "xy": "Chi la usa si mette a urlare per un po’, riducendo l’Attacco Speciale dei nemici intorno.",
+            "oras": "Chi la usa si mette a urlare per un po’, riducendo l’Attacco Speciale dei nemici intorno.",
+            "sm": "Chi la usa si mette a urlare per un po’, riducendo l’Attacco Speciale dei nemici intorno.",
+            "usum": "Chi la usa si mette a urlare per un po’, riducendo l’Attacco Speciale dei nemici intorno.",
+            "lgpe": "Chi la usa si mette a urlare per un po’, riducendo l’Attacco Speciale dei nemici intorno.",
+            "swsh": "Chi la usa si mette a urlare per un po’, riducendo l’Attacco Speciale dei nemici intorno."
+        },
+        "japanese": {
+            "xy": "まくしたてる　ように　怒鳴りつけて 相手の　特攻を　さげる。",
+            "oras": "まくしたてる　ように　怒鳴りつけて 相手の　特攻を　さげる。",
+            "sm": "まくしたてる　ように　怒鳴りつけて 相手の　特攻を　さげる。",
+            "usum": "まくしたてる　ように　怒鳴りつけて 相手の　特攻を　さげる。",
+            "lgpe": "まくしたてる　ように　怒鳴りつけて 相手の　特攻を　さげる。",
+            "swsh": "まくしたてる　ように　怒鳴りつけて 相手の　特攻を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "oras": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "sm": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "usum": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "lgpe": "Ataca con un chillido desagradable que baja el Ataque Especial del rival.",
+            "swsh": "Chillido desagradable que baja el Ataque Especial del rival."
+        },
+        "traditional-chinese": {
+            "sm": "沒完沒了地向對手大聲咆哮， 降低對手的特攻。",
+            "usum": "沒完沒了地向對手大聲咆哮， 降低對手的特攻。",
+            "lgpe": "沒完沒了地向對手大聲咆哮， 降低對手的特攻。",
+            "swsh": "沒完沒了地向對手大聲咆哮， 降低對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "没完没了地大声斥责， 从而降低对手的特攻。",
+            "usum": "没完没了地大声斥责， 从而降低对手的特攻。",
+            "lgpe": "没完没了地大声斥责， 从而降低对手的特攻。",
+            "swsh": "没完没了地大声斥责， 从而降低对手的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Attack by one stage."
+    }
 }

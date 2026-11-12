@@ -1,35 +1,117 @@
 {
-  "_id": 675,
-  "key": "throat-chop",
-  "name": {
-    "english": "Throat Chop",
-    "japanese": "じごくづき",
-    "chinese": "地獄突刺",
-    "korean": "지옥찌르기",
-    "german": "Golpe Mordaza",
-    "french": "Neck Strike",
-    "italian": "Throat Chop",
-    "spanish": "Colpo Infernale"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user attacks the target’s throat, and the\nresultant suffering prevents the target from using\nmoves that emit sound for two turns.",
-    "ultra-sun-ultra-moon": "The user attacks the target’s throat, and the\nresultant suffering prevents the target from using\nmoves that emit sound for two turns.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target’s throat, and the\nresultant suffering prevents the target from using\nmoves that emit sound for two turns.",
-    "sword-shield": "The user attacks the target’s throat, and the\nresultant suffering prevents the target from using\nmoves that emit sound for two turns."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Silences the target for two turns, preventing it from using any sound-based moves.",
-    "shortEffect": "Prevents the target from using sound-based moves for two turns."
-  },
-  "priority": 0
+    "_id": 675,
+    "key": "throat-chop",
+    "name": {
+        "japanese-kana": "じごくづき",
+        "korean": "지옥찌르기",
+        "traditional-chinese": "地獄突刺",
+        "french": "Exécu-Son",
+        "german": "Neck Strike",
+        "spanish": "Golpe Mordaza",
+        "italian": "Colpo Infernale",
+        "english": "Throat Chop",
+        "japanese": "じごくづき",
+        "simplified-chinese": "深渊突刺",
+        "latin-american-spanish": "Golpe al Cuello"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "silence",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 2,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "この　わざを　うけた　あいては じごくの　くるしみから　２ターンのあいだ おとの　わざを　だすことが　できなくなる。",
+            "usum": "この　わざを　うけた　あいては じごくの　くるしみから　２ターンのあいだ おとの　わざを　だすことが　できなくなる。",
+            "lgpe": "この　わざを　うけた　あいては じごくの　くるしみから　２ターンのあいだ おとの　わざを　だすことが　できなくなる。",
+            "swsh": "この　わざを　うけた　あいては じごくの　くるしみから　２ターンのあいだ おとの　わざを　だすことが　できなくなる。"
+        },
+        "korean": {
+            "sm": "이 기술에 맞은 상대는 지옥의 고통 때문에 2턴 동안 소리 기술을 낼 수 없다.",
+            "usum": "이 기술에 맞은 상대는 지옥의 고통 때문에 2턴 동안 소리 기술을 낼 수 없다.",
+            "lgpe": "이 기술에 맞은 상대는 지옥의 고통 때문에 2턴 동안 소리 기술을 낼 수 없다.",
+            "swsh": "이 기술에 맞은 상대는 지옥의 고통 때문에 2턴 동안 소리 기술을 낼 수 없다."
+        },
+        "traditional-chinese": {
+            "sm": "受到此招式攻擊的對手， 會因為地獄般的痛苦，在２回合內 無法使用會發出聲音的招式。",
+            "usum": "受到此招式攻擊的對手， 會因為地獄般的痛苦，在２回合內 無法使用會發出聲音的招式。",
+            "lgpe": "受到此招式攻擊的對手， 會因為地獄般的痛苦，在２回合內 無法使用會發出聲音的招式。",
+            "swsh": "受到此招式攻擊的對手， 會因為地獄般的痛苦，在２回合內 無法使用會發出聲音的招式。"
+        },
+        "french": {
+            "sm": "Inflige une douleur tellement violente à la cible qu’elle ne peut plus émettre de sons pendant deux tours.",
+            "usum": "Inflige une douleur tellement violente à la cible qu’elle ne peut plus émettre de sons pendant deux tours.",
+            "lgpe": "Inflige une douleur tellement violente à la cible qu’elle ne peut plus émettre de sons pendant deux tours.",
+            "swsh": "Inflige une douleur tellement violente à la cible qu’elle ne peut plus émettre de sons pendant deux tours."
+        },
+        "german": {
+            "sm": "Das Pokémon, das von dieser Attacke getroffen wird, erleidet starke Schmerzen und kann deswegen zwei Runden lang keine Lärm-Attacken mehr einsetzen.",
+            "usum": "Das Pokémon, das von dieser Attacke getroffen wird, erleidet starke Schmerzen und kann deswegen zwei Runden lang keine Lärm-Attacken mehr einsetzen.",
+            "lgpe": "Das Pokémon, das von dieser Attacke getroffen wird, erleidet starke Schmerzen und kann deswegen zwei Runden lang keine Lärm-Attacken mehr einsetzen.",
+            "swsh": "Das Pokémon, das von dieser Attacke getroffen wird, erleidet starke Schmerzen und kann deswegen zwei Runden lang keine Lärm-Attacken mehr einsetzen."
+        },
+        "spanish": {
+            "sm": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.",
+            "usum": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.",
+            "lgpe": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.",
+            "swsh": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido."
+        },
+        "italian": {
+            "sm": "Chi viene colpito da questa mossa prova un dolore lancinante e non può più usare mosse basate sul suono per due turni.",
+            "usum": "Chi viene colpito da questa mossa prova un dolore lancinante e non può più usare mosse basate sul suono per due turni.",
+            "lgpe": "Chi viene colpito da questa mossa prova un dolore lancinante e non può più usare mosse basate sul suono per due turni.",
+            "swsh": "Chi viene colpito da questa mossa prova un dolore lancinante e non può più usare mosse basate sul suono per due turni."
+        },
+        "english": {
+            "sm": "The user attacks the target’s throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.",
+            "usum": "The user attacks the target’s throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.",
+            "lgpe": "The user attacks the target’s throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.",
+            "swsh": "The user attacks the target’s throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.",
+            "la": "The user attacks the target's throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.",
+            "sv": "The user attacks the target's throat, and the resultant suffering prevents the target from using sound-based moves for two turns."
+        },
+        "japanese": {
+            "sm": "この　技を　受けた　相手は 地獄の　苦しみから　２ターンの間 音の　技を　出すことが　できなくなる。",
+            "usum": "この　技を　受けた　相手は 地獄の　苦しみから　２ターンの間 音の　技を　出すことが　できなくなる。",
+            "lgpe": "この　技を　受けた　相手は 地獄の　苦しみから　２ターンの間 音の　技を　出すことが　できなくなる。",
+            "swsh": "この　技を　受けた　相手は 地獄の　苦しみから　２ターンの間 音の　技を　出すことが　できなくなる。"
+        },
+        "simplified-chinese": {
+            "sm": "受到此招式攻击的对手， 会因为地狱般的痛苦，在２回合内， 变得无法使出声音类招式。",
+            "usum": "受到此招式攻击的对手， 会因为地狱般的痛苦，在２回合内， 变得无法使出声音类招式。",
+            "lgpe": "受到此招式攻击的对手， 会因为地狱般的痛苦，在２回合内， 变得无法使出声音类招式。",
+            "swsh": "受到此招式攻击的对手， 会因为地狱般的痛苦，在２回合内， 变得无法使出声音类招式。"
+        },
+        "latin-american-spanish": {
+            "sm": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.",
+            "usum": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.",
+            "lgpe": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.",
+            "swsh": "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Silences the target for two turns, preventing it from using any sound-based moves.",
+        "shortEffect": "Prevents the target from using sound-based moves for two turns."
+    }
 }

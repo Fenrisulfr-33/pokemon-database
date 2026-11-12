@@ -1,39 +1,138 @@
 {
-  "_id": 499,
-  "key": "clear-smog",
-  "name": {
-    "english": "Clear Smog",
-    "japanese": "クリアスモッグ",
-    "chinese": "清除迷雾",
-    "korean": "클리어스모그",
-    "german": "Niebla Clara",
-    "french": "Klärsmog",
-    "italian": "Clear Smog",
-    "spanish": "Pulifumo"
-  },
-  "type": "Poison",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 50,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks by throwing a clump of\nspecial mud. All status changes are\nreturned to normal.",
-    "black-2-white-2": "The user attacks by throwing a clump of\nspecial mud. All status changes are\nreturned to normal.",
-    "x-y": "The user attacks by throwing a clump of\nspecial mud. All stat changes are\nreturned to normal.",
-    "omega-ruby-alpha-sapphire": "The user attacks by throwing a clump of\nspecial mud. All stat changes are\nreturned to normal.",
-    "sun-moon": "The user attacks by throwing a clump of special\nmud. All stat changes are returned to normal.",
-    "ultra-sun-ultra-moon": "The user attacks by throwing a clump of special\nmud. All stat changes are returned to normal.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by throwing a clump of special\nmud. All stat changes are returned to normal.",
-    "sword-shield": "The user attacks the target by throwing a clump of\nspecial mud. All stat changes are returned to normal."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  All of the target's stat modifiers are reset to zero.",
-    "shortEffect": "Removes all of the target's stat modifiers."
-  },
-  "priority": 0
+    "_id": 499,
+    "key": "clear-smog",
+    "name": {
+        "japanese-kana": "クリアスモッグ",
+        "korean": "클리어스모그",
+        "traditional-chinese": "清除之煙",
+        "french": "Bain de Smog",
+        "german": "Klärsmog",
+        "spanish": "Niebla Clara",
+        "italian": "Pulifumo",
+        "english": "Clear Smog",
+        "japanese": "クリアスモッグ",
+        "simplified-chinese": "清除之烟",
+        "latin-american-spanish": "Humo Claro"
+    },
+    "type": "poison",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 50,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés.",
+            "xy": "Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés.",
+            "oras": "Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés.",
+            "sm": "Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés.",
+            "usum": "Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés.",
+            "lgpe": "Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés.",
+            "swsh": "Le lanceur jette un tas de détritus spéciaux sur la cible. Les changements de stats de la cible sont annulés."
+        },
+        "english": {
+            "bw": "The user attacks by throwing a clump of special mud. All status changes are returned to normal.",
+            "b2w2": "The user attacks by throwing a clump of special mud. All status changes are returned to normal.",
+            "xy": "The user attacks by throwing a clump of special mud. All stat changes are returned to normal.",
+            "oras": "The user attacks by throwing a clump of special mud. All stat changes are returned to normal.",
+            "sm": "The user attacks by throwing a clump of special mud. All stat changes are returned to normal.",
+            "usum": "The user attacks by throwing a clump of special mud. All stat changes are returned to normal.",
+            "lgpe": "The user attacks by throwing a clump of special mud. All stat changes are returned to normal.",
+            "swsh": "The user attacks the target by throwing a clump of special mud. All stat changes are returned to normal.",
+            "la": "The user attacks the target by throwing a clump of special mud. All stat changes are returned to normal.",
+            "sv": "The user attacks the target by throwing a clump of special mud. All stat changes are eliminated."
+        },
+        "japanese-kana": {
+            "xy": "とくしゅな　どろの　かたまりを あいてに　なげつけて　こうげきする。 のうりょく　へんかを　もとに　もどす。",
+            "oras": "とくしゅな　どろの　かたまりを あいてに　なげつけて　こうげきする。 のうりょく　へんかを　もとに　もどす。",
+            "sm": "とくしゅな　どろの　かたまりを あいてに　なげつけて　こうげきする。 のうりょく　へんかを　もとに　もどす。",
+            "usum": "とくしゅな　どろの　かたまりを あいてに　なげつけて　こうげきする。 のうりょく　へんかを　もとに　もどす。",
+            "lgpe": "とくしゅな　どろの　かたまりを あいてに　なげつけて　こうげきする。 のうりょく　へんかを　もとに　もどす。",
+            "swsh": "とくしゅな　どろの　かたまりを あいてに　なげつけて　こうげきする。 のうりょく　へんかを　もとに　もどす。"
+        },
+        "korean": {
+            "xy": "특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다.",
+            "oras": "특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다.",
+            "sm": "특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다.",
+            "usum": "특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다.",
+            "lgpe": "특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다.",
+            "swsh": "특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다."
+        },
+        "german": {
+            "xy": "Anwender greift das Ziel mit spezialgefertigten Schlammklumpen an. Setzt Statusveränderungen zurück.",
+            "oras": "Anwender greift das Ziel mit spezialgefertigtem Smog an. Setzt dessen Statusveränderungen zurück.",
+            "sm": "Anwender greift das Ziel mit spezialgefertigtem Smog an. Setzt dessen Statusveränderungen zurück.",
+            "usum": "Anwender greift das Ziel mit spezialgefertigtem Smog an. Setzt dessen Statusveränderungen zurück.",
+            "lgpe": "Anwender greift das Ziel mit spezialgefertigtem Smog an. Setzt dessen Statusveränderungen zurück.",
+            "swsh": "Anwender greift das Ziel mit spezialgefertigtem Smog an. Setzt dessen Statusveränderungen zurück."
+        },
+        "spanish": {
+            "xy": "Ataca al objetivo con una extraña niebla que elimina sus cambios de características.",
+            "oras": "Ataca al objetivo con una extraña niebla que elimina sus cambios de características.",
+            "sm": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
+            "usum": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
+            "lgpe": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
+            "swsh": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características."
+        },
+        "italian": {
+            "xy": "Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.",
+            "oras": "Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.",
+            "sm": "Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.",
+            "usum": "Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.",
+            "lgpe": "Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.",
+            "swsh": "Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche."
+        },
+        "japanese": {
+            "xy": "特殊な　泥の　塊を 相手に　投げつけて　攻撃する。 能力変化を　もとに　もどす。",
+            "oras": "特殊な　泥の　塊を 相手に　投げつけて　攻撃する。 能力変化を　もとに　もどす。",
+            "sm": "特殊な　泥の　塊を 相手に　投げつけて　攻撃する。 能力変化を　もとに　もどす。",
+            "usum": "特殊な　泥の　塊を 相手に　投げつけて　攻撃する。 能力変化を　もとに　もどす。",
+            "lgpe": "特殊な　泥の　塊を 相手に　投げつけて　攻撃する。 能力変化を　もとに　もどす。",
+            "swsh": "特殊な　泥の　塊を 相手に　投げつけて　攻撃する。 能力変化を　もとに　もどす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca al objetivo con una extraña niebla que elimina sus cambios de características.",
+            "oras": "Ataca al objetivo con una extraña niebla que elimina sus cambios de características.",
+            "sm": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
+            "usum": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
+            "lgpe": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.",
+            "swsh": "Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características."
+        },
+        "traditional-chinese": {
+            "sm": "向對手投擲特殊的泥塊進行攻擊。 能讓對手的能力變化 回復到初始狀態。",
+            "usum": "向對手投擲特殊的泥塊進行攻擊。 能讓對手的能力變化 回復到初始狀態。",
+            "lgpe": "向對手投擲特殊的泥塊進行攻擊。 能讓對手的能力變化 回復到初始狀態。",
+            "swsh": "向對手投擲特殊的泥塊進行攻擊。 能讓對手的能力變化 回復到初始狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手投掷 特殊的泥块进行攻击。 使其能力变回原点。",
+            "usum": "向对手投掷 特殊的泥块进行攻击。 使其能力变回原点。",
+            "lgpe": "向对手投掷 特殊的泥块进行攻击。 使其能力变回原点。",
+            "swsh": "向对手投掷 特殊的泥块进行攻击。 使其能力变回原点。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  All of the target’s stat modifiers are reset to zero.",
+        "shortEffect": "Removes all of the target’s stat modifiers."
+    }
 }

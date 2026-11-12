@@ -1,42 +1,141 @@
 {
-  "_id": 420,
-  "key": "ice-shard",
-  "name": {
-    "english": "Ice Shard",
-    "japanese": "こおりのつぶて",
-    "chinese": "冰粒",
-    "korean": "얼음뭉치",
-    "german": "Canto Helado",
-    "french": "Eissplitter",
-    "italian": "Ice Shard",
-    "spanish": "Geloscheggia"
-  },
-  "type": "Ice",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user flash\nfreezes chunks of\nice and hurls them.\nThis move always goes\nfirst.",
-    "platinum": "The user flash\nfreezes chunks of\nice and hurls them.\nThis move always goes\nfirst.",
-    "heartgold-soulsilver": "The user flash\nfreezes chunks of\nice and hurls them.\nThis move always goes\nfirst.",
-    "black-white": "The user flash freezes chunks of\nice and hurls them at the target.\nThis move always goes first.",
-    "black-2-white-2": "The user flash freezes chunks of\nice and hurls them at the target.\nThis move always goes first.",
-    "x-y": "The user flash-freezes chunks of\nice and hurls them at the target.\nThis move always goes first.",
-    "omega-ruby-alpha-sapphire": "The user flash-freezes chunks of\nice and hurls them at the target.\nThis move always goes first.",
-    "sun-moon": "The user flash-freezes chunks of ice and hurls them\nat the target. This move always goes first.",
-    "ultra-sun-ultra-moon": "The user flash-freezes chunks of ice and hurls them\nat the target. This move always goes first.",
-    "lets-go-pikachu-lets-go-eevee": "The user flash-freezes chunks of ice and hurls them\nat the target. This move always goes first.",
-    "sword-shield": "The user flash-freezes chunks of ice and hurls them\nat the target. This move always goes first."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 1
+    "_id": 420,
+    "key": "ice-shard",
+    "name": {
+        "japanese-kana": "こおりのつぶて",
+        "korean": "얼음뭉치",
+        "traditional-chinese": "冰礫",
+        "french": "Éclats Glace",
+        "german": "Eissplitter",
+        "spanish": "Esquirla Helada",
+        "italian": "Geloscheggia",
+        "english": "Ice Shard",
+        "japanese": "こおりのつぶて",
+        "simplified-chinese": "冰砾",
+        "latin-american-spanish": "Esquirla Helada"
+    },
+    "type": "ice",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user flash freezes chunks of ice and hurls them. This move always goes first.",
+            "pt": "The user flash freezes chunks of ice and hurls them. This move always goes first.",
+            "hgss": "The user flash freezes chunks of ice and hurls them. This move always goes first.",
+            "bw": "The user flash freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "b2w2": "The user flash freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "xy": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "oras": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "sm": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "usum": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "lgpe": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "swsh": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first.",
+            "la": "The user flash-freezes chunks of ice and hurls them at the target. This also raises the user's action speed.",
+            "sv": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first."
+        },
+        "french": {
+            "bw": "Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe toujours en premier.",
+            "xy": "Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe toujours en premier.",
+            "oras": "Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe toujours en premier.",
+            "sm": "Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe en priorité.",
+            "usum": "Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe en priorité.",
+            "lgpe": "Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe en priorité.",
+            "swsh": "Le lanceur crée des éclats de glace qu’il envoie sur l’ennemi. Frappe en priorité."
+        },
+        "japanese-kana": {
+            "xy": "こおりの　かたまりを　いっしゅんで つくり　あいてに　すばやく　はなつ。 かならず　せんせい　こうげき　できる。",
+            "oras": "こおりの　かたまりを　いっしゅんで つくり　あいてに　すばやく　はなつ。 かならず　せんせい　こうげき　できる。",
+            "sm": "こおりの　かたまりを　いっしゅんで つくり　あいてに　すばやく　はなつ。 かならず　せんせい　こうげき　できる。",
+            "usum": "こおりの　かたまりを　いっしゅんで つくり　あいてに　すばやく　はなつ。 かならず　せんせい　こうげき　できる。",
+            "lgpe": "こおりの　かたまりを　いっしゅんで つくり　あいてに　すばやく　はなつ。 かならず　せんせい　こうげき　できる。",
+            "swsh": "こおりの　かたまりを　いっしゅんで つくり　あいてに　すばやく　はなつ。 かならず　せんせい　こうげき　できる。"
+        },
+        "korean": {
+            "xy": "얼음 덩어리를 순식간에 만들어 상대에게 빠르게 쏜다. 반드시 선제공격을 할 수 있다.",
+            "oras": "얼음덩어리를 순식간에 만들어 상대에게 빠르게 쏜다. 반드시 선제공격을 할 수 있다.",
+            "sm": "얼음덩어리를 순식간에 만들어 상대에게 빠르게 쏜다. 반드시 선제공격을 할 수 있다.",
+            "usum": "얼음덩어리를 순식간에 만들어 상대에게 빠르게 쏜다. 반드시 선제공격을 할 수 있다.",
+            "lgpe": "얼음덩어리를 순식간에 만들어 상대에게 빠르게 쏜다. 반드시 선제공격을 할 수 있다.",
+            "swsh": "얼음덩어리를 순식간에 만들어 상대에게 빠르게 쏜다. 반드시 선제공격을 할 수 있다."
+        },
+        "german": {
+            "xy": "Das Ziel wird mit Eisklumpen beworfen. Diese Attacke hat Erstschlaggarantie.",
+            "oras": "Das Ziel wird mit Eisklumpen beworfen. Diese Attacke hat Erstschlaggarantie.",
+            "sm": "Das Ziel wird mit Eisklumpen beworfen. Hohe Erstschlagquote.",
+            "usum": "Das Ziel wird mit Eisklumpen beworfen. Hohe Erstschlagquote.",
+            "lgpe": "Das Ziel wird mit Eisklumpen beworfen. Hohe Erstschlagquote.",
+            "swsh": "Erstschlag-Attacke, bei der das Ziel mit Eisklumpen beworfen wird."
+        },
+        "spanish": {
+            "xy": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento siempre va primero.",
+            "oras": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento siempre va primero.",
+            "sm": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta.",
+            "usum": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta.",
+            "lgpe": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta.",
+            "swsh": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta."
+        },
+        "italian": {
+            "xy": "Chi la usa crea dei pezzi di ghiaccio e li lancia. Con questa mossa si colpisce per primi.",
+            "oras": "Chi la usa crea dei pezzi di ghiaccio e li lancia. Con questa mossa si colpisce per primi.",
+            "sm": "Chi la usa crea dei pezzi di ghiaccio e li lancia. Questa mossa ha priorità alta.",
+            "usum": "Chi la usa crea dei pezzi di ghiaccio e li lancia. Questa mossa ha priorità alta.",
+            "lgpe": "Chi la usa crea dei pezzi di ghiaccio e li lancia. Questa mossa ha priorità alta.",
+            "swsh": "Chi la usa crea dei pezzi di ghiaccio e li lancia. Questa mossa ha priorità alta."
+        },
+        "japanese": {
+            "xy": "氷の塊を　一瞬で　つくり 相手に　素早く　放つ。 必ず　先制攻撃　できる。",
+            "oras": "氷の塊を　一瞬で　つくり 相手に　素早く　放つ。 必ず　先制攻撃　できる。",
+            "sm": "氷の塊を　一瞬で　つくり 相手に　素早く　放つ。 必ず　先制攻撃　できる。",
+            "usum": "氷の塊を　一瞬で　つくり 相手に　素早く　放つ。 必ず　先制攻撃　できる。",
+            "lgpe": "氷の塊を　一瞬で　つくり 相手に　素早く　放つ。 必ず　先制攻撃　できる。",
+            "swsh": "氷の塊を　一瞬で　つくり 相手に　素早く　放つ。 必ず　先制攻撃　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento siempre va primero.",
+            "oras": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento siempre va primero.",
+            "sm": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta.",
+            "usum": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta.",
+            "lgpe": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta.",
+            "swsh": "Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta."
+        },
+        "traditional-chinese": {
+            "sm": "將瞬間製造出的冰塊 快速地扔向對手。 必定能夠發動先制攻擊。",
+            "usum": "將瞬間製造出的冰塊 快速地扔向對手。 必定能夠發動先制攻擊。",
+            "lgpe": "將瞬間製造出的冰塊 快速地扔向對手。 必定能夠發動先制攻擊。",
+            "swsh": "將瞬間製造出的冰塊 快速地扔向對手。 必定能夠發動先制攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "瞬间制作冰块， 快速地扔向对手。 必定能够先制攻击。",
+            "usum": "瞬间制作冰块， 快速地扔向对手。 必定能够先制攻击。",
+            "lgpe": "瞬间制作冰块， 快速地扔向对手。 必定能够先制攻击。",
+            "swsh": "瞬间制作冰块， 快速地扔向对手。 必定能够先制攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

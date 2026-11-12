@@ -1,47 +1,148 @@
 {
-  "_id": 2,
-  "key": "karate-chop",
-  "name": {
-    "english": "Karate Chop",
-    "japanese": "からてチョップ",
-    "chinese": "手刀",
-    "korean": "태권당수",
-    "german": "Golpe Kárate",
-    "french": "Karateschlag",
-    "italian": "Karate Chop",
-    "spanish": "Colpokarate"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 25,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Has a high criti­\ncal hit ratio.",
-    "crystal": "Has a high criti­\ncal hit ratio.",
-    "ruby-sapphire": "A chopping attack with a\nhigh critical-hit ratio.",
-    "emerald": "A chopping attack with a\nhigh critical-hit ratio.",
-    "firered-leafgreen": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.",
-    "diamond-pearl": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n",
-    "platinum": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n",
-    "heartgold-soulsilver": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n",
-    "black-white": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
-    "black-2-white-2": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
-    "x-y": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
-    "sun-moon": "The target is attacked with a sharp chop. Critical\nhits land more easily.",
-    "ultra-sun-ultra-moon": "The target is attacked with a sharp chop. Critical\nhits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with a sharp chop. Critical\nhits land more easily.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 2,
+    "key": "karate-chop",
+    "name": {
+        "japanese-kana": "からてチョップ",
+        "korean": "태권당수",
+        "traditional-chinese": "空手劈",
+        "french": "Poing Karaté",
+        "german": "Karateschlag",
+        "spanish": "Golpe Kárate",
+        "italian": "Colpokarate",
+        "english": "Karate Chop",
+        "japanese": "からてチョップ",
+        "simplified-chinese": "空手劈",
+        "latin-american-spanish": "Golpe Karate"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 25,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "type": "normal"
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Has a high critical hit ratio.",
+            "cr": "Has a high critical hit ratio.",
+            "rs": "A chopping attack with a high critical-hit ratio.",
+            "em": "A chopping attack with a high critical-hit ratio.",
+            "frlg": "The foe is attacked with a sharp chop. It has a high critical-hit ratio.",
+            "dp": "The foe is attacked with a sharp chop. It has a high critical-hit ratio.",
+            "pt": "The foe is attacked with a sharp chop. It has a high critical-hit ratio.",
+            "hgss": "The foe is attacked with a sharp chop. It has a high critical-hit ratio.",
+            "bw": "The target is attacked with a sharp chop. Critical hits land more easily.",
+            "b2w2": "The target is attacked with a sharp chop. Critical hits land more easily.",
+            "xy": "The target is attacked with a sharp chop. Critical hits land more easily.",
+            "oras": "The target is attacked with a sharp chop. Critical hits land more easily.",
+            "sm": "The target is attacked with a sharp chop. Critical hits land more easily.",
+            "usum": "The target is attacked with a sharp chop. Critical hits land more easily.",
+            "lgpe": "The target is attacked with a sharp chop. Critical hits land more easily.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "L’ennemi est tranché violemment. Taux de critiques élevé.",
+            "xy": "L’ennemi est tranché violemment. Taux de critiques élevé.",
+            "oras": "L’ennemi est tranché violemment. Taux de critiques élevé.",
+            "sm": "L’ennemi est tranché violemment. Taux de critique élevé.",
+            "usum": "L’ennemi est tranché violemment. Taux de critique élevé.",
+            "lgpe": "L’ennemi est tranché violemment. Taux de critique élevé.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "するどい　チョップで あいてを　たたいて　こうげきする。 きゅうしょに　あたりやすい。",
+            "oras": "するどい　チョップで あいてを　たたいて　こうげきする。 きゅうしょに　あたりやすい。",
+            "sm": "するどい　チョップで あいてを　たたいて　こうげきする。 きゅうしょに　あたりやすい。",
+            "usum": "するどい　チョップで あいてを　たたいて　こうげきする。 きゅうしょに　あたりやすい。",
+            "lgpe": "するどい　チョップで あいてを　たたいて　こうげきする。 きゅうしょに　あたりやすい。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞기 쉽다.",
+            "oras": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞기 쉽다.",
+            "sm": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞기 쉽다.",
+            "usum": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞기 쉽다.",
+            "lgpe": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞기 쉽다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Gute Möglichkeit, einen Volltreffer zu landen.",
+            "oras": "Gute Möglichkeit, einen Volltreffer zu landen.",
+            "sm": "Gute Möglichkeit, einen Volltreffer zu landen.",
+            "usum": "Gute Möglichkeit, einen Volltreffer zu landen.",
+            "lgpe": "Gute Möglichkeit, einen Volltreffer zu landen.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Da un golpe cortante. Suele ser crítico.",
+            "oras": "Da un golpe cortante. Suele ser crítico.",
+            "sm": "Da un golpe cortante. Suele ser crítico.",
+            "usum": "Da un golpe cortante. Suele ser crítico.",
+            "lgpe": "Da un golpe cortante. Suele ser crítico.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un colpo netto. Probabile brutto colpo.",
+            "oras": "Colpisce il bersaglio con un colpo netto. Probabile brutto colpo.",
+            "sm": "Colpisce il bersaglio con un colpo netto. Probabile brutto colpo.",
+            "usum": "Colpisce il bersaglio con un colpo netto. Probabile brutto colpo.",
+            "lgpe": "Colpisce il bersaglio con un colpo netto. Probabile brutto colpo.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "鋭い　チョップで 相手を　たたいて　攻撃する。 急所に　当たりやすい。",
+            "oras": "鋭い　チョップで 相手を　たたいて　攻撃する。 急所に　当たりやすい。",
+            "sm": "鋭い　チョップで 相手を　たたいて　攻撃する。 急所に　当たりやすい。",
+            "usum": "鋭い　チョップで 相手を　たたいて　攻撃する。 急所に　当たりやすい。",
+            "lgpe": "鋭い　チョップで 相手を　たたいて　攻撃する。 急所に　当たりやすい。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Da un golpe cortante. Suele ser crítico.",
+            "oras": "Da un golpe cortante. Suele ser crítico.",
+            "sm": "Da un golpe cortante. Suele ser crítico.",
+            "usum": "Da un golpe cortante. Suele ser crítico.",
+            "lgpe": "Da un golpe cortante. Suele ser crítico.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用鋒利的手刀 劈向對手進行攻擊。 容易擊中要害。",
+            "usum": "用鋒利的手刀 劈向對手進行攻擊。 容易擊中要害。",
+            "lgpe": "用鋒利的手刀 劈向對手進行攻擊。 容易擊中要害。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用锋利的手刀 劈向对手进行攻击。 容易击中要害。",
+            "usum": "用锋利的手刀 劈向对手进行攻击。 容易击中要害。",
+            "lgpe": "用锋利的手刀 劈向对手进行攻击。 容易击中要害。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

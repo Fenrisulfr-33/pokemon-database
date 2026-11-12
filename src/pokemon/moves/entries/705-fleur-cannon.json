@@ -1,35 +1,117 @@
 {
-  "_id": 705,
-  "key": "fleur-cannon",
-  "name": {
-    "english": "Fleur Cannon",
-    "japanese": "フルールカノン",
-    "chinese": "花朵加農炮",
-    "korean": "플뢰르캐논",
-    "german": "Cañón Floral",
-    "french": "Kanonenbouquet",
-    "italian": "Fleur Cannon",
-    "spanish": "Cannonfiore"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 130,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user unleashes a strong beam. The attack’s\nrecoil harshly lowers the user’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user unleashes a strong beam. The attack’s\nrecoil harshly lowers the user’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user unleashes a strong beam. The attack’s\nrecoil harshly lowers the user’s Sp. Atk stat.",
-    "sword-shield": "The user unleashes a strong beam. The attack’s\nrecoil harshly lowers the user’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Special Attack by two stages.",
-    "shortEffect": "Lowers the user's Special Attack by two stages after inflicting damage."
-  },
-  "priority": 0
+    "_id": 705,
+    "key": "fleur-cannon",
+    "name": {
+        "japanese-kana": "フルールカノン",
+        "korean": "플뢰르캐논",
+        "traditional-chinese": "花朵加農炮",
+        "french": "Canon Floral",
+        "german": "Kanonenbouquet",
+        "spanish": "Cañón Floral",
+        "italian": "Cannonfiore",
+        "english": "Fleur Cannon",
+        "japanese": "フルールカノン",
+        "simplified-chinese": "花朵加农炮",
+        "latin-american-spanish": "Cañón Floral"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 130,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "きょうりょくな　ビームを　はなったあと じぶんの　とくこうが　がくっと　さがる。",
+            "usum": "きょうりょくな　ビームを　はなったあと じぶんの　とくこうが　がくっと　さがる。",
+            "lgpe": "きょうりょくな　ビームを　はなったあと じぶんの　とくこうが　がくっと　さがる。",
+            "swsh": "きょうりょくな　ビームを　はなったあと じぶんの　とくこうが　がくっと　さがる。"
+        },
+        "korean": {
+            "sm": "강력한 빔을 발산한 후 자신의 특수공격이 크게 떨어진다.",
+            "usum": "강력한 빔을 발산한 후 자신의 특수공격이 크게 떨어진다.",
+            "lgpe": "강력한 빔을 발산한 후 자신의 특수공격이 크게 떨어진다.",
+            "swsh": "강력한 빔을 발산한 후 자신의 특수공격이 크게 떨어진다."
+        },
+        "traditional-chinese": {
+            "sm": "放出強力光束後， 自己的特攻會大幅降低。",
+            "usum": "放出強力光束後， 自己的特攻會大幅降低。",
+            "lgpe": "放出強力光束後， 自己的特攻會大幅降低。",
+            "swsh": "放出強力光束後， 自己的特攻會大幅降低。"
+        },
+        "french": {
+            "sm": "Envoie un rayon laser dévastateur. Baisse beaucoup l’Attaque Spéciale du lanceur.",
+            "usum": "Envoie un rayon laser dévastateur. Baisse beaucoup l’Attaque Spéciale du lanceur.",
+            "lgpe": "Envoie un rayon laser dévastateur. Baisse beaucoup l’Attaque Spéciale du lanceur.",
+            "swsh": "Envoie un rayon laser dévastateur. Baisse beaucoup l’Attaque Spéciale du lanceur."
+        },
+        "german": {
+            "sm": "Der Anwender greift das Ziel mit einem gewaltigen Strahl an. Sein eigener Spezial-Angriff sinkt dadurch stark.",
+            "usum": "Der Anwender greift das Ziel mit einem gewaltigen Strahl an. Sein eigener Spezial-Angriff sinkt dadurch stark.",
+            "lgpe": "Der Anwender greift das Ziel mit einem gewaltigen Strahl an. Sein eigener Spezial-Angriff sinkt dadurch stark.",
+            "swsh": "Der Anwender greift das Ziel mit einem gewaltigen Strahl an. Sein eigener Spezial-Angriff sinkt dadurch stark."
+        },
+        "spanish": {
+            "sm": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+            "usum": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+            "lgpe": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+            "swsh": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho."
+        },
+        "italian": {
+            "sm": "Colpisce il bersaglio con un potente raggio, ma riduce di molto l’Attacco Speciale di chi la usa.",
+            "usum": "Colpisce il bersaglio con un potente raggio, ma riduce di molto l’Attacco Speciale di chi la usa.",
+            "lgpe": "Colpisce il bersaglio con un potente raggio, ma riduce di molto l’Attacco Speciale di chi la usa.",
+            "swsh": "Colpisce il bersaglio con un potente raggio, ma riduce di molto l’Attacco Speciale di chi la usa."
+        },
+        "english": {
+            "sm": "The user unleashes a strong beam. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "usum": "The user unleashes a strong beam. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "lgpe": "The user unleashes a strong beam. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "swsh": "The user unleashes a strong beam. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+            "la": "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.",
+            "sv": "The user unleashes a strong beam. The recoil from this move harshly lowers the user's Sp. Atk stat."
+        },
+        "japanese": {
+            "sm": "強力な　ビームを　放ったあと 自分の　特攻が　がくっと　さがる。",
+            "usum": "強力な　ビームを　放ったあと 自分の　特攻が　がくっと　さがる。",
+            "lgpe": "強力な　ビームを　放ったあと 自分の　特攻が　がくっと　さがる。",
+            "swsh": "強力な　ビームを　放ったあと 自分の　特攻が　がくっと　さがる。"
+        },
+        "simplified-chinese": {
+            "sm": "放出强力光束后， 自己的特攻会大幅降低。",
+            "usum": "放出强力光束后， 自己的特攻会大幅降低。",
+            "lgpe": "放出强力光束后， 自己的特攻会大幅降低。",
+            "swsh": "放出强力光束后， 自己的特攻会大幅降低。"
+        },
+        "latin-american-spanish": {
+            "sm": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+            "usum": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+            "lgpe": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+            "swsh": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Special Attack by two stages.",
+        "shortEffect": "Lowers the user’s Special Attack by two stages after inflicting damage."
+    }
 }

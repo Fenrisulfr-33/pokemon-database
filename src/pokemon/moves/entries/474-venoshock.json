@@ -1,39 +1,138 @@
 {
-  "_id": 474,
-  "key": "venoshock",
-  "name": {
-    "english": "Venoshock",
-    "japanese": "ベノムショック",
-    "chinese": "毒液攻击",
-    "korean": "베놈쇼크",
-    "german": "Carga Tóxica",
-    "french": "Giftschock",
-    "italian": "Venoshock",
-    "spanish": "Velenoshock"
-  },
-  "type": "Poison",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user drenches the target in a special\npoisonous liquid. Its power is doubled\nif the target is poisoned.",
-    "black-2-white-2": "The user drenches the target in a special\npoisonous liquid. Its power is doubled\nif the target is poisoned.",
-    "x-y": "The user drenches the target in a special\npoisonous liquid. This move’s power is doubled\nif the target is poisoned.",
-    "omega-ruby-alpha-sapphire": "The user drenches the target in a special\npoisonous liquid. This move’s power is doubled\nif the target is poisoned.",
-    "sun-moon": "The user drenches the target in a special poisonous\nliquid. This move’s power is doubled if the target\nis poisoned.",
-    "ultra-sun-ultra-moon": "The user drenches the target in a special poisonous\nliquid. This move’s power is doubled if the target\nis poisoned.",
-    "lets-go-pikachu-lets-go-eevee": "The user drenches the target in a special poisonous\nliquid. This move’s power is doubled if the target\nis poisoned.",
-    "sword-shield": "The user drenches the target in a special poisonous\nliquid. This move’s power is doubled if the target\nis poisoned."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target is poisoned, this move has double power.",
-    "shortEffect": "Inflicts double damage if the target is Poisoned."
-  },
-  "priority": 0
+    "_id": 474,
+    "key": "venoshock",
+    "name": {
+        "japanese-kana": "ベノムショック",
+        "korean": "베놈쇼크",
+        "traditional-chinese": "毒液衝擊",
+        "french": "Choc Venin",
+        "german": "Giftschock",
+        "spanish": "Carga Tóxica",
+        "italian": "Velenoshock",
+        "english": "Venoshock",
+        "japanese": "ベノムショック",
+        "simplified-chinese": "毒液冲击",
+        "latin-american-spanish": "Carga Tóxica"
+    },
+    "type": "poison",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.",
+            "xy": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.",
+            "oras": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.",
+            "sm": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.",
+            "usum": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.",
+            "lgpe": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.",
+            "swsh": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné."
+        },
+        "english": {
+            "bw": "The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned.",
+            "b2w2": "The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned.",
+            "xy": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.",
+            "oras": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.",
+            "sm": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.",
+            "usum": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.",
+            "lgpe": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.",
+            "swsh": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.",
+            "la": "The user drenches the target in a special poisonous liquid to inflict damage. This move’s power is doubled if the target has a status condition.",
+            "sv": "The user drenches the target in a special poisonous liquid. This move's power is doubled if the target is poisoned."
+        },
+        "japanese-kana": {
+            "xy": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。",
+            "oras": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。",
+            "sm": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。",
+            "usum": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。",
+            "lgpe": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。",
+            "swsh": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。"
+        },
+        "korean": {
+            "xy": "특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.",
+            "oras": "특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.",
+            "sm": "특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.",
+            "usum": "특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.",
+            "lgpe": "특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.",
+            "swsh": "특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다."
+        },
+        "german": {
+            "xy": "Überschüttet das Ziel mit einer speziellen toxischen Flüssigkeit. Doppelt so stark gegen vergiftete Ziele.",
+            "oras": "Überschüttet das Ziel mit einer speziellen toxischen Flüssigkeit. Doppelt so stark gegen vergiftete Ziele.",
+            "sm": "Überschüttet das Ziel mit einer speziellen toxischen Flüssigkeit. Doppelt so stark gegen vergiftete Ziele.",
+            "usum": "Überschüttet das Ziel mit einer speziellen toxischen Flüssigkeit. Doppelt so stark gegen vergiftete Ziele.",
+            "lgpe": "Überschüttet das Ziel mit einer speziellen toxischen Flüssigkeit. Doppelt so stark gegen vergiftete Ziele.",
+            "swsh": "Überschüttet das Ziel mit einer speziellen toxischen Flüssigkeit. Doppelt so stark gegen vergiftete Ziele."
+        },
+        "spanish": {
+            "xy": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "oras": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "sm": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "usum": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "lgpe": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "swsh": "Cubre al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+        },
+        "italian": {
+            "xy": "Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.",
+            "oras": "Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.",
+            "sm": "Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.",
+            "usum": "Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.",
+            "lgpe": "Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.",
+            "swsh": "Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia."
+        },
+        "japanese": {
+            "xy": "特殊な　毒液を　浴びせかける。 毒状態の　相手には 威力が　２倍に　なる。",
+            "oras": "特殊な　毒液を　浴びせかける。 毒状態の　相手には 威力が　２倍に　なる。",
+            "sm": "特殊な　毒液を　浴びせかける。 毒状態の　相手には 威力が　２倍に　なる。",
+            "usum": "特殊な　毒液を　浴びせかける。 毒状態の　相手には 威力が　２倍に　なる。",
+            "lgpe": "特殊な　毒液を　浴びせかける。 毒状態の　相手には 威力が　２倍に　なる。",
+            "swsh": "特殊な　毒液を　浴びせかける。 毒状態の　相手には 威力が　２倍に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "oras": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "sm": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "usum": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "lgpe": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+            "swsh": "Cubre al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+        },
+        "traditional-chinese": {
+            "sm": "將特殊的毒液潑向對手。 攻擊陷入中毒狀態的對手時， 威力會變成２倍。",
+            "usum": "將特殊的毒液潑向對手。 攻擊陷入中毒狀態的對手時， 威力會變成２倍。",
+            "lgpe": "將特殊的毒液潑向對手。 攻擊陷入中毒狀態的對手時， 威力會變成２倍。",
+            "swsh": "將特殊的毒液潑向對手。 攻擊陷入中毒狀態的對手時， 威力會變成２倍。"
+        },
+        "simplified-chinese": {
+            "sm": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 威力会变成２倍。",
+            "usum": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 威力会变成２倍。",
+            "lgpe": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 威力会变成２倍。",
+            "swsh": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 威力会变成２倍。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target is poisoned, this move has double power.",
+        "shortEffect": "Inflicts double damage if the target is Poisoned."
+    }
 }

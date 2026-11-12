@@ -1,47 +1,146 @@
 {
-  "_id": 211,
-  "key": "steel-wing",
-  "name": {
-    "english": "Steel Wing",
-    "japanese": "はがねのつばさ",
-    "chinese": "钢翼",
-    "korean": "강철날개",
-    "german": "Ala de Acero",
-    "french": "Stahlflügel",
-    "italian": "Steel Wing",
-    "spanish": "Alacciaio"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 25,
-  "power": 70,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Stiff wings strike\nthe foe.",
-    "crystal": "Stiff wings strike\nthe foe.",
-    "ruby-sapphire": "Strikes the foe with hard\nwings spread wide.",
-    "emerald": "Strikes the foe with hard\nwings spread wide.",
-    "firered-leafgreen": "The foe is hit with\nwings of steel.\nIt may also raise\nthe user’s DEFENSE.",
-    "diamond-pearl": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser’s Defense stat.\n",
-    "platinum": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser’s Defense stat.\n",
-    "heartgold-soulsilver": "The foe is hit with\nwings of steel.\nIt may also raise the\nuser’s Defense stat.\n",
-    "black-white": "The target is hit with wings of steel.\nIt may also raise the user’s Defense stat.",
-    "black-2-white-2": "The target is hit with wings of steel.\nIt may also raise the user’s Defense stat.",
-    "x-y": "The target is hit with wings of steel.\nThis may also raise the user’s Defense stat.",
-    "omega-ruby-alpha-sapphire": "The target is hit with wings of steel.\nThis may also raise the user’s Defense stat.",
-    "sun-moon": "The target is hit with wings of steel. This may also\nraise the user’s Defense stat.",
-    "ultra-sun-ultra-moon": "The target is hit with wings of steel. This may also\nraise the user’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit with wings of steel. This may also\nraise the user’s Defense stat.",
-    "sword-shield": "The target is hit with wings of steel. This may also\nraise the user’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage. Has a $effect_chance% chance to raise the user's Defense one stage.",
-    "shortEffect": "Has a $effect_chance% chance to raise the user's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 211,
+    "key": "steel-wing",
+    "name": {
+        "japanese-kana": "はがねのつばさ",
+        "korean": "강철날개",
+        "traditional-chinese": "鋼翼",
+        "french": "Ailes d’Acier",
+        "german": "Stahlflügel",
+        "spanish": "Ala de Acero",
+        "italian": "Alacciaio",
+        "english": "Steel Wing",
+        "japanese": "はがねのつばさ",
+        "simplified-chinese": "钢翼",
+        "latin-american-spanish": "Ala de Acero"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 25,
+    "power": 70,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Stiff wings strike the foe.",
+            "cr": "Stiff wings strike the foe.",
+            "rs": "Strikes the foe with hard wings spread wide.",
+            "em": "Strikes the foe with hard wings spread wide.",
+            "frlg": "The foe is hit with wings of steel. It may also raise the user’s DEFENSE.",
+            "dp": "The foe is hit with wings of steel. It may also raise the user’s Defense stat.",
+            "pt": "The foe is hit with wings of steel. It may also raise the user’s Defense stat.",
+            "hgss": "The foe is hit with wings of steel. It may also raise the user’s Defense stat.",
+            "bw": "The target is hit with wings of steel. It may also raise the user’s Defense stat.",
+            "b2w2": "The target is hit with wings of steel. It may also raise the user’s Defense stat.",
+            "xy": "The target is hit with wings of steel. This may also raise the user’s Defense stat.",
+            "oras": "The target is hit with wings of steel. This may also raise the user’s Defense stat.",
+            "sm": "The target is hit with wings of steel. This may also raise the user’s Defense stat.",
+            "usum": "The target is hit with wings of steel. This may also raise the user’s Defense stat.",
+            "lgpe": "The target is hit with wings of steel. This may also raise the user’s Defense stat.",
+            "swsh": "The target is hit with wings of steel. This may also raise the user’s Defense stat.",
+            "la": "The target is hit with wings of steel. This may also raise the user's Defense stat.",
+            "sv": "The target is hit with wings of steel. This may also boost the user's Defense stat."
+        },
+        "french": {
+            "bw": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.",
+            "xy": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.",
+            "oras": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.",
+            "sm": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.",
+            "usum": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.",
+            "lgpe": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.",
+            "swsh": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "かたい　つばさを　あいてに　たたきつけて こうげきする。じぶんの　ぼうぎょが あがることが　ある。",
+            "oras": "かたい　つばさを　あいてに　たたきつけて こうげきする。じぶんの　ぼうぎょが あがることが　ある。",
+            "sm": "かたい　つばさを　あいてに　たたきつけて こうげきする。　じぶんの　ぼうぎょが あがることが　ある。",
+            "usum": "かたい　つばさを　あいてに　たたきつけて こうげきする。　じぶんの　ぼうぎょが あがることが　ある。",
+            "lgpe": "かたい　つばさを　あいてに　たたきつけて こうげきする。　じぶんの　ぼうぎょが あがることが　ある。",
+            "swsh": "かたい　つばさを　あいてに　たたきつけて こうげきする。　じぶんの　ぼうぎょが あがることが　ある。"
+        },
+        "korean": {
+            "xy": "단단한 날개를 상대에게 부딪쳐서 공격한다. 자신의 방어가 올라갈 때가 있다.",
+            "oras": "단단한 날개를 상대에게 부딪쳐서 공격한다. 자신의 방어가 올라갈 때가 있다.",
+            "sm": "단단한 날개를 상대에게 부딪쳐서 공격한다. 자신의 방어가 올라갈 때가 있다.",
+            "usum": "단단한 날개를 상대에게 부딪쳐서 공격한다. 자신의 방어가 올라갈 때가 있다.",
+            "lgpe": "단단한 날개를 상대에게 부딪쳐서 공격한다. 자신의 방어가 올라갈 때가 있다.",
+            "swsh": "단단한 날개를 상대에게 부딪쳐서 공격한다. 자신의 방어가 올라갈 때가 있다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel mit Stahlflügeln. Verteidigungs-Wert des Anwenders steigt eventuell.",
+            "oras": "Trifft das Ziel mit Stahlflügeln. Verteidigungs-Wert des Anwenders steigt eventuell.",
+            "sm": "Trifft das Ziel mit Stahlflügeln. Verteidigungs-Wert des Anwenders steigt eventuell.",
+            "usum": "Trifft das Ziel mit Stahlflügeln. Verteidigungs-Wert des Anwenders steigt eventuell.",
+            "lgpe": "Trifft das Ziel mit Stahlflügeln. Verteidigungs-Wert des Anwenders steigt eventuell.",
+            "swsh": "Trifft das Ziel mit Stahlflügeln. Verteidigungs-Wert des Anwenders steigt eventuell."
+        },
+        "spanish": {
+            "xy": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "oras": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "sm": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "usum": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "lgpe": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "swsh": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con ali d’acciaio. Può anche aumentare la Difesa di chi la usa.",
+            "oras": "Colpisce il bersaglio con ali d’acciaio. Può anche aumentare la Difesa di chi la usa.",
+            "sm": "Colpisce il bersaglio con ali d’acciaio. Può anche aumentare la Difesa di chi la usa.",
+            "usum": "Colpisce il bersaglio con ali d’acciaio. Può anche aumentare la Difesa di chi la usa.",
+            "lgpe": "Colpisce il bersaglio con ali d’acciaio. Può anche aumentare la Difesa di chi la usa.",
+            "swsh": "Colpisce il bersaglio con ali d’acciaio. Può anche aumentare la Difesa di chi la usa."
+        },
+        "japanese": {
+            "xy": "硬い　翼を　相手に　たたきつけて 攻撃する。自分の　防御が あがることが　ある。",
+            "oras": "硬い　翼を　相手に　たたきつけて 攻撃する。自分の　防御が あがることが　ある。",
+            "sm": "硬い　翼を　相手に　たたきつけて 攻撃する。　自分の　防御が あがることが　ある。",
+            "usum": "硬い　翼を　相手に　たたきつけて 攻撃する。　自分の　防御が あがることが　ある。",
+            "lgpe": "硬い　翼を　相手に　たたきつけて 攻撃する。　自分の　防御が あがることが　ある。",
+            "swsh": "硬い　翼を　相手に　たたきつけて 攻撃する。　自分の　防御が あがることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "oras": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "sm": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "usum": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "lgpe": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+            "swsh": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "用堅硬的翅膀撞擊 對手進行攻擊。 有時會提高自己的防禦。",
+            "usum": "用堅硬的翅膀撞擊 對手進行攻擊。 有時會提高自己的防禦。",
+            "lgpe": "用堅硬的翅膀撞擊 對手進行攻擊。 有時會提高自己的防禦。",
+            "swsh": "用堅硬的翅膀撞擊 對手進行攻擊。 有時會提高自己的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "用坚硬的翅膀敲打 对手进行攻击。 有时会提高自己的防御。",
+            "usum": "用坚硬的翅膀敲打 对手进行攻击。 有时会提高自己的防御。",
+            "lgpe": "用坚硬的翅膀敲打 对手进行攻击。 有时会提高自己的防御。",
+            "swsh": "用坚硬的翅膀敲打 对手进行攻击。 有时会提高自己的防御。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. Has a chance to raise the user’s Defense one stage.",
+        "shortEffect": "Has a chance to raise the user’s Defense by one stage."
+    }
 }

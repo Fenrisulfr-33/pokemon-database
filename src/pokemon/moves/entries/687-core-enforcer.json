@@ -1,35 +1,115 @@
 {
-  "_id": 687,
-  "key": "core-enforcer",
-  "name": {
-    "english": "Core Enforcer",
-    "japanese": "コアパニッシャー",
-    "chinese": "核心懲罰者",
-    "korean": "코어퍼니셔",
-    "german": "Núcleo Castigo",
-    "french": "Sanktionskern",
-    "italian": "Core Enforcer",
-    "spanish": "Nucleocastigo"
-  },
-  "type": "Dragon",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 100,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "sun-moon": "If the Pokémon the user has inflicted damage on\nhave already used their moves, this move eliminates\nthe effect of the target’s Ability.",
-    "ultra-sun-ultra-moon": "If the Pokémon the user has inflicted damage on\nhave already used their moves, this move eliminates\nthe effect of the target’s Ability.",
-    "lets-go-pikachu-lets-go-eevee": "If the Pokémon the user has inflicted damage on\nhave already used their moves, this move eliminates\nthe effect of the target’s Ability.",
-    "sword-shield": "If the Pokémon the user has inflicted damage on\nhave already used their moves, this move eliminates\nthe effect of the target’s Ability."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target has already moved this turn, its ability is nullified.",
-    "shortEffect": "Nullifies the target's ability if it moves earlier."
-  },
-  "priority": 0
+    "_id": 687,
+    "key": "core-enforcer",
+    "name": {
+        "japanese-kana": "コアパニッシャー",
+        "korean": "코어퍼니셔",
+        "traditional-chinese": "核心懲罰者",
+        "french": "Sanction Suprême",
+        "german": "Sanktionskern",
+        "spanish": "Núcleo Castigo",
+        "italian": "Nucleocastigo",
+        "english": "Core Enforcer",
+        "japanese": "コアパニッシャー",
+        "simplified-chinese": "核心惩罚者",
+        "latin-american-spanish": "Núcleo Castigo"
+    },
+    "type": "dragon",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 100,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "ダメージを　あたえた　あいてが すでに　こうどうを　おえて　いたら あいての　とくせいを　けして　しまう。",
+            "usum": "ダメージを　あたえた　あいてが すでに　こうどうを　おえて　いたら あいての　とくせいを　けして　しまう。",
+            "lgpe": "ダメージを　あたえた　あいてが すでに　こうどうを　おえて　いたら あいての　とくせいを　けして　しまう。",
+            "swsh": "ダメージを　あたえた　あいてが すでに　こうどうを　おえて　いたら あいての　とくせいを　けして　しまう。"
+        },
+        "korean": {
+            "sm": "데미지를 준 상대가 이미 행동을 끝냈다면 상대의 특성을 없애버린다.",
+            "usum": "데미지를 준 상대가 이미 행동을 끝냈다면 상대의 특성을 없애버린다.",
+            "lgpe": "데미지를 준 상대가 이미 행동을 끝냈다면 상대의 특성을 없애버린다.",
+            "swsh": "데미지를 준 상대가 이미 행동을 끝냈다면 상대의 특성을 없애버린다."
+        },
+        "traditional-chinese": {
+            "sm": "如果攻擊的對手在該回合 已經結束行動， 對手的特性就會被消除。",
+            "usum": "如果攻擊的對手在該回合 已經結束行動， 對手的特性就會被消除。",
+            "lgpe": "如果攻擊的對手在該回合 已經結束行動， 對手的特性就會被消除。",
+            "swsh": "如果攻擊的對手在該回合 已經結束行動， 對手的特性就會被消除。"
+        },
+        "french": {
+            "sm": "La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent.",
+            "usum": "La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent.",
+            "lgpe": "La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent.",
+            "swsh": "La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent."
+        },
+        "german": {
+            "sm": "Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.",
+            "usum": "Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.",
+            "lgpe": "Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.",
+            "swsh": "Hat das gegnerische Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit."
+        },
+        "spanish": {
+            "sm": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+            "usum": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+            "lgpe": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+            "swsh": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad."
+        },
+        "italian": {
+            "sm": "Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità.",
+            "usum": "Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità.",
+            "lgpe": "Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità.",
+            "swsh": "Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità."
+        },
+        "english": {
+            "sm": "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.",
+            "usum": "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.",
+            "lgpe": "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.",
+            "swsh": "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability."
+        },
+        "japanese": {
+            "sm": "ダメージを　与えた　相手が すでに　行動を　終えていたら 相手の　特性を　消してしまう。",
+            "usum": "ダメージを　与えた　相手が すでに　行動を　終えていたら 相手の　特性を　消してしまう。",
+            "lgpe": "ダメージを　与えた　相手が すでに　行動を　終えていたら 相手の　特性を　消してしまう。",
+            "swsh": "ダメージを　与えた　相手が すでに　行動を　終えていたら 相手の　特性を　消してしまう。"
+        },
+        "simplified-chinese": {
+            "sm": "如果给予过伤害的对手 已经结束行动， 其特性就会被消除。",
+            "usum": "如果给予过伤害的对手 已经结束行动， 其特性就会被消除。",
+            "lgpe": "如果给予过伤害的对手 已经结束行动， 其特性就会被消除。",
+            "swsh": "如果给予过伤害的对手 已经结束行动， 其特性就会被消除。"
+        },
+        "latin-american-spanish": {
+            "sm": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+            "usum": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+            "lgpe": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+            "swsh": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target has already moved this turn, its ability is nullified.",
+        "shortEffect": "Nullifies the target’s ability if it moves earlier."
+    }
 }

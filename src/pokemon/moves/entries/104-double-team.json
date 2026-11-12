@@ -1,47 +1,146 @@
 {
-  "_id": 104,
-  "key": "double-team",
-  "name": {
-    "english": "Double Team",
-    "japanese": "かげぶんしん",
-    "chinese": "影子分身",
-    "korean": "그림자분신",
-    "german": "Doble Equipo",
-    "french": "Doppelteam",
-    "italian": "Double Team",
-    "spanish": "Doppioteam"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Heightens evasive­\nness.",
-    "crystal": "Heightens evasive­\nness.",
-    "ruby-sapphire": "Creates illusory copies to\nraise evasiveness.",
-    "emerald": "Creates illusory copies to\nraise evasiveness.",
-    "firered-leafgreen": "The user creates\nillusory copies of\nitself to raise its\nevasiveness.",
-    "diamond-pearl": "By moving rapidly, the\nuser makes illusory\ncopies of itself to\nraise its evasiveness.\n",
-    "platinum": "By moving rapidly, the\nuser makes illusory\ncopies of itself to\nraise its evasiveness.\n",
-    "heartgold-soulsilver": "By moving rapidly, the\nuser makes illusory\ncopies of itself to\nraise its evasiveness.\n",
-    "black-white": "By moving rapidly, the user makes illusory\ncopies of itself to raise its evasiveness.",
-    "black-2-white-2": "By moving rapidly, the user makes illusory\ncopies of itself to raise its evasiveness.",
-    "x-y": "By moving rapidly, the user makes illusory\ncopies of itself to raise its evasiveness.",
-    "omega-ruby-alpha-sapphire": "By moving rapidly, the user makes illusory\ncopies of itself to raise its evasiveness.",
-    "sun-moon": "By moving rapidly, the user makes illusory copies of\nitself to raise its evasiveness.",
-    "ultra-sun-ultra-moon": "By moving rapidly, the user makes illusory copies of\nitself to raise its evasiveness.",
-    "lets-go-pikachu-lets-go-eevee": "By moving rapidly, the user makes illusory copies of\nitself to raise its evasiveness.",
-    "sword-shield": "By moving rapidly, the user makes illusory copies of\nitself to raise its evasiveness."
-  },
-  "effect": {
-    "full": "Raises the user's evasion by one stage.",
-    "shortEffect": "Raises the user's evasion by one stage."
-  },
-  "priority": 0
+    "_id": 104,
+    "key": "double-team",
+    "name": {
+        "japanese-kana": "かげぶんしん",
+        "korean": "그림자분신",
+        "traditional-chinese": "影子分身",
+        "french": "Reflet",
+        "german": "Doppelteam",
+        "spanish": "Doble Equipo",
+        "italian": "Doppioteam",
+        "english": "Double Team",
+        "japanese": "かげぶんしん",
+        "simplified-chinese": "影子分身",
+        "latin-american-spanish": "Doble Equipo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cool",
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Heightens evasiveness.",
+            "cr": "Heightens evasiveness.",
+            "rs": "Creates illusory copies to raise evasiveness.",
+            "em": "Creates illusory copies to raise evasiveness.",
+            "frlg": "The user creates illusory copies of itself to raise its evasiveness.",
+            "dp": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "pt": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "hgss": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "bw": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "b2w2": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "xy": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "oras": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "sm": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "usum": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "lgpe": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "swsh": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "la": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+            "sv": "By moving rapidly, the user makes illusory copies of itself to boost its evasiveness."
+        },
+        "french": {
+            "bw": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui, augmentant son Esquive.",
+            "xy": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui, augmentant son Esquive.",
+            "oras": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui, augmentant son Esquive.",
+            "sm": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui-même, augmentant son Esquive.",
+            "usum": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui-même, augmentant son Esquive.",
+            "lgpe": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui-même, augmentant son Esquive.",
+            "swsh": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui-même, augmentant son Esquive."
+        },
+        "japanese-kana": {
+            "xy": "すばやい　うごきで　ぶんしんを　つくり あいてを　まどわせて かいひりつを　あげる。",
+            "oras": "すばやい　うごきで　ぶんしんを　つくり あいてを　まどわせて かいひりつを　あげる。",
+            "sm": "すばやい　うごきで　ぶんしんを　つくり あいてを　まどわせて かいひりつを　あげる。",
+            "usum": "すばやい　うごきで　ぶんしんを　つくり あいてを　まどわせて かいひりつを　あげる。",
+            "lgpe": "すばやい　うごきで　ぶんしんを　つくり あいてを　まどわせて かいひりつを　あげる。",
+            "swsh": "すばやい　うごきで　ぶんしんを　つくり あいてを　まどわせて かいひりつを　あげる。"
+        },
+        "korean": {
+            "xy": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다.",
+            "oras": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다.",
+            "sm": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다.",
+            "usum": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다.",
+            "lgpe": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다.",
+            "swsh": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다."
+        },
+        "german": {
+            "xy": "Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.",
+            "oras": "Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.",
+            "sm": "Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.",
+            "usum": "Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.",
+            "lgpe": "Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.",
+            "swsh": "Erzeugt durch schnelle Bewegungen Ebenbilder, um den Ausweichwert zu erhöhen."
+        },
+        "spanish": {
+            "xy": "Crea copias de sí mismo para mejorar la Evasión.",
+            "oras": "Crea copias de sí mismo para mejorar la Evasión.",
+            "sm": "Crea copias de sí mismo para mejorar la Evasión.",
+            "usum": "Crea copias de sí mismo para mejorar la Evasión.",
+            "lgpe": "Crea copias de sí mismo para mejorar la Evasión.",
+            "swsh": "Crea copias de sí mismo para mejorar la Evasión."
+        },
+        "italian": {
+            "xy": "Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.",
+            "oras": "Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.",
+            "sm": "Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.",
+            "usum": "Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.",
+            "lgpe": "Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.",
+            "swsh": "Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione."
+        },
+        "japanese": {
+            "xy": "素早い　動きで　分身を　つくり 相手を　まどわせて 回避率を　あげる。",
+            "oras": "素早い　動きで　分身を　つくり 相手を　まどわせて 回避率を　あげる。",
+            "sm": "素早い　動きで　分身を　つくり 相手を　まどわせて 回避率を　あげる。",
+            "usum": "素早い　動きで　分身を　つくり 相手を　まどわせて 回避率を　あげる。",
+            "lgpe": "素早い　動きで　分身を　つくり 相手を　まどわせて 回避率を　あげる。",
+            "swsh": "素早い　動きで　分身を　つくり 相手を　まどわせて 回避率を　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Crea copias de sí mismo para mejorar la Evasión.",
+            "oras": "Crea copias de sí mismo para mejorar la Evasión.",
+            "sm": "Crea copias de sí mismo para mejorar la Evasión.",
+            "usum": "Crea copias de sí mismo para mejorar la Evasión.",
+            "lgpe": "Crea copias de sí mismo para mejorar la Evasión.",
+            "swsh": "Crea copias de sí mismo para mejorar la Evasión."
+        },
+        "traditional-chinese": {
+            "sm": "利用快速移動 製造出分身擾亂對手， 提高自己的閃避率。",
+            "usum": "利用快速移動 製造出分身擾亂對手， 提高自己的閃避率。",
+            "lgpe": "利用快速移動 製造出分身擾亂對手， 提高自己的閃避率。",
+            "swsh": "利用快速移動 製造出分身擾亂對手， 提高自己的閃避率。"
+        },
+        "simplified-chinese": {
+            "sm": "通过快速移动来制造分身， 扰乱对手，从而提高闪避率。",
+            "usum": "通过快速移动来制造分身， 扰乱对手，从而提高闪避率。",
+            "lgpe": "通过快速移动来制造分身， 扰乱对手，从而提高闪避率。",
+            "swsh": "通过快速移动来制造分身， 扰乱对手，从而提高闪避率。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s evasion by one stage.",
+        "shortEffect": "Raises the user’s evasion by one stage."
+    }
 }

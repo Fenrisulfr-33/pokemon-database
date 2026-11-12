@@ -1,45 +1,150 @@
 {
-  "_id": 317,
-  "key": "rock-tomb",
-  "name": {
-    "english": "Rock Tomb",
-    "japanese": "がんせきふうじ",
-    "chinese": "岩石封闭",
-    "korean": "암석봉인",
-    "german": "Tumba Rocas",
-    "french": "Felsgrab",
-    "italian": "Rock Tomb",
-    "spanish": "Rocciotomba"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 60,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Stops the foe from moving\nwith rocks and cuts SPEED.",
-    "emerald": "Stops the foe from moving\nwith rocks and cuts SPEED.",
-    "firered-leafgreen": "Boulders are hurled\nat the foe. It also\nlowers the foe’s\nSPEED if it hits.",
-    "diamond-pearl": "Boulders are hurled\nat the foe. It also\nlowers the foe’s\nSpeed by preventing\nits movement.",
-    "platinum": "Boulders are hurled\nat the foe. It also\nlowers the foe’s\nSpeed by preventing\nits movement.",
-    "heartgold-soulsilver": "Boulders are hurled\nat the foe. It also\nlowers the foe’s\nSpeed by preventing\nits movement.",
-    "black-white": "Boulders are hurled at the target. It also\nlowers the target’s Speed by preventing\nits movement.",
-    "black-2-white-2": "Boulders are hurled at the target. It also\nlowers the target’s Speed by preventing\nits movement.",
-    "x-y": "Boulders are hurled at the target. This also\nlowers the target’s Speed stat by preventing\nits movement.",
-    "omega-ruby-alpha-sapphire": "Boulders are hurled at the target. This also\nlowers the target’s Speed stat by preventing\nits movement.",
-    "sun-moon": "Boulders are hurled at the target. This also lowers\nthe target’s Speed stat by preventing its movement.",
-    "ultra-sun-ultra-moon": "Boulders are hurled at the target. This also lowers\nthe target’s Speed stat by preventing its movement.",
-    "lets-go-pikachu-lets-go-eevee": "Boulders are hurled at the target. This also lowers\nthe target’s Speed stat by preventing its movement.",
-    "sword-shield": "Boulders are hurled at the target. This also lowers\nthe target’s Speed stat by preventing its movement."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 317,
+    "key": "rock-tomb",
+    "name": {
+        "japanese-kana": "がんせきふうじ",
+        "korean": "암석봉인",
+        "traditional-chinese": "岩石封鎖",
+        "french": "Tomberoche",
+        "german": "Felsgrab",
+        "spanish": "Tumba Rocas",
+        "italian": "Rocciotomba",
+        "english": "Rock Tomb",
+        "japanese": "がんせきふうじ",
+        "simplified-chinese": "岩石封锁",
+        "latin-american-spanish": "Tumba de Rocas"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 15,
+    "power": 60,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "xy": {
+            "accuracy": 80,
+            "power": 50,
+            "pp": 10
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Stops the foe from moving with rocks and cuts SPEED.",
+            "em": "Stops the foe from moving with rocks and cuts SPEED.",
+            "frlg": "Boulders are hurled at the foe. It also lowers the foe’s SPEED if it hits.",
+            "dp": "Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.",
+            "pt": "Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.",
+            "hgss": "Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.",
+            "bw": "Boulders are hurled at the target. It also lowers the target’s Speed by preventing its movement.",
+            "b2w2": "Boulders are hurled at the target. It also lowers the target’s Speed by preventing its movement.",
+            "xy": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+            "oras": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+            "sm": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+            "usum": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+            "lgpe": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+            "swsh": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+            "la": "Boulders are hurled at the target. This also lowers the target's Speed stat by preventing its movement.",
+            "sv": "The user hurls boulders at the target to inflict damage. This also lowers the target's Speed stat by cutting off its movement."
+        },
+        "french": {
+            "bw": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse en l’empêchant de se déplacer.",
+            "xy": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.",
+            "oras": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.",
+            "sm": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.",
+            "usum": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.",
+            "lgpe": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.",
+            "swsh": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse."
+        },
+        "japanese-kana": {
+            "xy": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。",
+            "oras": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。",
+            "sm": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。",
+            "usum": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。",
+            "lgpe": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。",
+            "swsh": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。"
+        },
+        "korean": {
+            "xy": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다.",
+            "oras": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다.",
+            "sm": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다.",
+            "usum": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다.",
+            "lgpe": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다.",
+            "swsh": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.",
+            "oras": "Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.",
+            "sm": "Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.",
+            "usum": "Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.",
+            "lgpe": "Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.",
+            "swsh": "Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt."
+        },
+        "spanish": {
+            "xy": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "oras": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "sm": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "usum": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "lgpe": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "swsh": "Tira rocas que detienen al objetivo y bajan su Velocidad."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.",
+            "oras": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.",
+            "sm": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.",
+            "usum": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.",
+            "lgpe": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.",
+            "swsh": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità."
+        },
+        "japanese": {
+            "xy": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。",
+            "oras": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。",
+            "sm": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。",
+            "usum": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。",
+            "lgpe": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。",
+            "swsh": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "oras": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "sm": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "usum": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "lgpe": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+            "swsh": "Tira rocas que detienen al objetivo y bajan su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "投擲岩石進行攻擊。 封住對手的行動， 進而降低其速度。",
+            "usum": "投擲岩石進行攻擊。 封住對手的行動， 進而降低其速度。",
+            "lgpe": "投擲岩石進行攻擊。 封住對手的行動， 進而降低其速度。",
+            "swsh": "投擲岩石進行攻擊。 封住對手的行動， 進而降低其速度。"
+        },
+        "simplified-chinese": {
+            "sm": "投掷岩石进行攻击。 封住对手的行动， 从而降低速度。",
+            "usum": "投掷岩石进行攻击。 封住对手的行动， 从而降低速度。",
+            "lgpe": "投掷岩石进行攻击。 封住对手的行动， 从而降低速度。",
+            "swsh": "投掷岩石进行攻击。 封住对手的行动， 从而降低速度。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

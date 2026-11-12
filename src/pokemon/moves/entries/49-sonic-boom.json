@@ -1,47 +1,144 @@
 {
-  "_id": 49,
-  "key": "sonic-boom",
-  "name": {
-    "english": "Sonic Boom",
-    "japanese": "ソニックブーム",
-    "chinese": "音爆",
-    "korean": "소닉붐",
-    "german": "Bomba Sónica",
-    "french": "Ultraschall",
-    "italian": "Sonic Boom",
-    "spanish": "Sonicboom"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 20,
-  "power": null,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Always inflicts\n20HP damage.",
-    "crystal": "Always inflicts\n20HP damage.",
-    "ruby-sapphire": "Launches shock waves that\nalways inflict 20 HP damage.",
-    "emerald": "Launches shock waves that\nalways inflict 20 HP damage.",
-    "firered-leafgreen": "The foe is hit with\na shock wave that\nalways inflicts 20-\nHP damage.",
-    "diamond-pearl": "The foe is hit with a\ndestructive shock\nwave that always\ninflicts 20 HP damage.\n",
-    "platinum": "The foe is hit with a\ndestructive shock\nwave that always\ninflicts 20 HP damage.\n",
-    "heartgold-soulsilver": "The foe is hit with a\ndestructive shock\nwave that always\ninflicts 20 HP damage.\n",
-    "black-white": "The target is hit with a destructive shock\nwave that always inflicts 20 HP damage.",
-    "black-2-white-2": "The target is hit with a destructive shock\nwave that always inflicts 20 HP damage.",
-    "x-y": "The target is hit with a destructive shock\nwave that always inflicts 20 HP damage.",
-    "omega-ruby-alpha-sapphire": "The target is hit with a destructive shock\nwave that always inflicts 20 HP damage.",
-    "sun-moon": "The target is hit with a destructive shock wave that\nalways inflicts 20 HP damage.",
-    "ultra-sun-ultra-moon": "The target is hit with a destructive shock wave that\nalways inflicts 20 HP damage.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit with a destructive shock wave that\nalways inflicts 20 HP damage.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts exactly 20 damage.",
-    "shortEffect": "Inflicts 20 points of damage."
-  },
-  "priority": 0
+    "_id": 49,
+    "key": "sonic-boom",
+    "name": {
+        "japanese-kana": "ソニックブーム",
+        "korean": "소닉붐",
+        "traditional-chinese": "音爆",
+        "french": "Sonic Boom",
+        "german": "Ultraschall",
+        "spanish": "Bomba Sónica",
+        "italian": "Sonicboom",
+        "english": "Sonic Boom",
+        "japanese": "ソニックブーム",
+        "simplified-chinese": "音爆",
+        "latin-american-spanish": "Explosión Sónica"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cool",
+    "pp": 20,
+    "power": null,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Always inflicts 20HP damage.",
+            "cr": "Always inflicts 20HP damage.",
+            "rs": "Launches shock waves that always inflict 20 HP damage.",
+            "em": "Launches shock waves that always inflict 20 HP damage.",
+            "frlg": "The foe is hit with a shock wave that always inflicts 20- HP damage.",
+            "dp": "The foe is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "pt": "The foe is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "hgss": "The foe is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "bw": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "b2w2": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "xy": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "oras": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "sm": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "usum": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "lgpe": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts.",
+            "xy": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts.",
+            "oras": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts.",
+            "sm": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts.",
+            "usum": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts.",
+            "lgpe": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "しょうげきはを あいてに　ぶつけて　こうげきする。 ２０の　ダメージを　きまって　あたえる。",
+            "oras": "しょうげきはを あいてに　ぶつけて　こうげきする。 ２０の　ダメージを　きまって　あたえる。",
+            "sm": "しょうげきはを あいてに　ぶつけて　こうげきする。 ２０の　ダメージを　きまって　あたえる。",
+            "usum": "しょうげきはを あいてに　ぶつけて　こうげきする。 ２０の　ダメージを　きまって　あたえる。",
+            "lgpe": "しょうげきはを あいてに　ぶつけて　こうげきする。 ２０の　ダメージを　きまって　あたえる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "충격파를 상대에 부딪쳐서 공격한다. 언제나 20의 데미지를 준다.",
+            "oras": "충격파를 상대에 부딪쳐서 공격한다. 언제나 20의 데미지를 준다.",
+            "sm": "충격파를 상대에 부딪쳐서 공격한다. 언제나 20의 데미지를 준다.",
+            "usum": "충격파를 상대에 부딪쳐서 공격한다. 언제나 20의 데미지를 준다.",
+            "lgpe": "충격파를 상대에 부딪쳐서 공격한다. 언제나 20의 데미지를 준다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Das Ziel wird von einer Schockwelle getroffen, die stets 20 KP Schaden anrichtet.",
+            "oras": "Das Ziel wird von einer Schockwelle getroffen, die stets 20 KP Schaden anrichtet.",
+            "sm": "Das Ziel wird von einer Schockwelle getroffen, die stets 20 KP Schaden anrichtet.",
+            "usum": "Das Ziel wird von einer Schockwelle getroffen, die stets 20 KP Schaden anrichtet.",
+            "lgpe": "Das Ziel wird von einer Schockwelle getroffen, die stets 20 KP Schaden anrichtet.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "oras": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "sm": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "usum": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "lgpe": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.",
+            "oras": "Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.",
+            "sm": "Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.",
+            "usum": "Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.",
+            "lgpe": "Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "衝撃波を 相手に　ぶつけて　攻撃する。 ２０の　ダメージを　決まって　与える。",
+            "oras": "衝撃波を 相手に　ぶつけて　攻撃する。 ２０の　ダメージを　決まって　与える。",
+            "sm": "衝撃波を 相手に　ぶつけて　攻撃する。 ２０の　ダメージを　決まって　与える。",
+            "usum": "衝撃波を 相手に　ぶつけて　攻撃する。 ２０の　ダメージを　決まって　与える。",
+            "lgpe": "衝撃波を 相手に　ぶつけて　攻撃する。 ２０の　ダメージを　決まって　与える。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "oras": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "sm": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "usum": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "lgpe": "Lanza ondas de choque que restan 20 PS al objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射衝擊波 進行攻擊。 固定給予２０的傷害。",
+            "usum": "向對手發射衝擊波 進行攻擊。 固定給予２０的傷害。",
+            "lgpe": "向對手發射衝擊波 進行攻擊。 固定給予20的傷害。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "将冲击波 撞向对手进行攻击。 必定会给予２０的伤害。",
+            "usum": "将冲击波 撞向对手进行攻击。 必定会给予２０的伤害。",
+            "lgpe": "将冲击波 撞向对手进行攻击。 必定会给予20的伤害。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts exactly 20 damage.",
+        "shortEffect": "Inflicts 20 points of damage."
+    }
 }

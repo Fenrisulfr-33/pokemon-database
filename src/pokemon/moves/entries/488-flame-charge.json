@@ -1,39 +1,138 @@
 {
-  "_id": 488,
-  "key": "flame-charge",
-  "name": {
-    "english": "Flame Charge",
-    "japanese": "ニトロチャージ",
-    "chinese": "火焰袭击",
-    "korean": "니트로차지",
-    "german": "Nitrocarga",
-    "french": "Nitroladung",
-    "italian": "Flame Charge",
-    "spanish": "Nitrocarica"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user cloaks itself with flame and\nattacks. Building up more power,\nit raises the user’s Speed stat.",
-    "black-2-white-2": "The user cloaks itself with flame and\nattacks. Building up more power,\nit raises the user’s Speed stat.",
-    "x-y": "Cloaking itself in flame, the user attacks.\nThen, building up more power,\nthe user raises its Speed stat.",
-    "omega-ruby-alpha-sapphire": "Cloaking itself in flame, the user attacks.\nThen, building up more power,\nthe user raises its Speed stat.",
-    "sun-moon": "Cloaking itself in flame, the user attacks. Then,\nbuilding up more power, the user raises its\nSpeed stat.",
-    "ultra-sun-ultra-moon": "Cloaking itself in flame, the user attacks. Then,\nbuilding up more power, the user raises its\nSpeed stat.",
-    "lets-go-pikachu-lets-go-eevee": "Cloaking itself in flame, the user attacks. Then,\nbuilding up more power, the user raises its\nSpeed stat.",
-    "sword-shield": "Cloaking itself in flame, the user attacks the target.\nThen, building up more power, the user raises its\nSpeed stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Raises the user's Speed by one stage.",
-    "shortEffect": "Inflicts regular damage.  Raises the user's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 488,
+    "key": "flame-charge",
+    "name": {
+        "japanese-kana": "ニトロチャージ",
+        "korean": "니트로차지",
+        "traditional-chinese": "蓄能焰襲",
+        "french": "Nitrocharge",
+        "german": "Nitroladung",
+        "spanish": "Nitrocarga",
+        "italian": "Nitrocarica",
+        "english": "Flame Charge",
+        "japanese": "ニトロチャージ",
+        "simplified-chinese": "蓄能焰袭",
+        "latin-american-spanish": "Carga de Fuego"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.",
+            "xy": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.",
+            "oras": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.",
+            "sm": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.",
+            "usum": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.",
+            "lgpe": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.",
+            "swsh": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente."
+        },
+        "english": {
+            "bw": "The user cloaks itself with flame and attacks. Building up more power, it raises the user’s Speed stat.",
+            "b2w2": "The user cloaks itself with flame and attacks. Building up more power, it raises the user’s Speed stat.",
+            "xy": "Cloaking itself in flame, the user attacks. Then, building up more power, the user raises its Speed stat.",
+            "oras": "Cloaking itself in flame, the user attacks. Then, building up more power, the user raises its Speed stat.",
+            "sm": "Cloaking itself in flame, the user attacks. Then, building up more power, the user raises its Speed stat.",
+            "usum": "Cloaking itself in flame, the user attacks. Then, building up more power, the user raises its Speed stat.",
+            "lgpe": "Cloaking itself in flame, the user attacks. Then, building up more power, the user raises its Speed stat.",
+            "swsh": "Cloaking itself in flame, the user attacks the target. Then, building up more power, the user raises its Speed stat.",
+            "la": "Cloaking itself in flame, the user attacks the target. Then, building up more power, the user raises its Speed stat.",
+            "sv": "Cloaking itself in flame, the user attacks the target. Then, building up momentum, the user boosts its Speed stat."
+        },
+        "japanese-kana": {
+            "xy": "ほのおを　まとい　あいてを こうげきする。ちからを　ためて　じぶんの すばやさを　あげる。",
+            "oras": "ほのおを　まとい　あいてを こうげきする。ちからを　ためて　じぶんの すばやさを　あげる。",
+            "sm": "ほのおを　まとい　あいてを こうげきする。ちからを　ためて　じぶんの すばやさを　あげる。",
+            "usum": "ほのおを　まとい　あいてを こうげきする。ちからを　ためて　じぶんの すばやさを　あげる。",
+            "lgpe": "ほのおを　まとい　あいてを こうげきする。ちからを　ためて　じぶんの すばやさを　あげる。",
+            "swsh": "ほのおを　まとい　あいてを こうげきする。ちからを　ためて　じぶんの すばやさを　あげる。"
+        },
+        "korean": {
+            "xy": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다.",
+            "oras": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다.",
+            "sm": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다.",
+            "usum": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다.",
+            "lgpe": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다.",
+            "swsh": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다."
+        },
+        "german": {
+            "xy": "Anwender hüllt sich in Flammen und greift das Ziel an. Sammelt seine Energie und erhöht dadurch die eigene Initiative.",
+            "oras": "Anwender hüllt sich in Flammen und greift das Ziel an. Sammelt seine Energie und erhöht dadurch die eigene Initiative.",
+            "sm": "Anwender hüllt sich in Flammen und greift das Ziel an. Sammelt seine Energie und erhöht dadurch die eigene Initiative.",
+            "usum": "Anwender hüllt sich in Flammen und greift das Ziel an. Sammelt seine Energie und erhöht dadurch die eigene Initiative.",
+            "lgpe": "Anwender hüllt sich in Flammen und greift das Ziel an. Sammelt seine Energie und erhöht dadurch die eigene Initiative.",
+            "swsh": "Anwender hüllt sich in Flammen und greift das Ziel an. Sammelt seine Energie und erhöht dadurch die eigene Initiative."
+        },
+        "spanish": {
+            "xy": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "oras": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "sm": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "usum": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "lgpe": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "swsh": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante."
+        },
+        "italian": {
+            "xy": "Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.",
+            "oras": "Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.",
+            "sm": "Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.",
+            "usum": "Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.",
+            "lgpe": "Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.",
+            "swsh": "Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità."
+        },
+        "japanese": {
+            "xy": "炎を　まとい　相手を　攻撃する。 力を　ためて　自分の 素早さを　あげる。",
+            "oras": "炎を　まとい　相手を　攻撃する。 力を　ためて　自分の 素早さを　あげる。",
+            "sm": "炎を　まとい　相手を　攻撃する。 力を　ためて　自分の 素早さを　あげる。",
+            "usum": "炎を　まとい　相手を　攻撃する。 力を　ためて　自分の 素早さを　あげる。",
+            "lgpe": "炎を　まとい　相手を　攻撃する。 力を　ためて　自分の 素早さを　あげる。",
+            "swsh": "炎を　まとい　相手を　攻撃する。 力を　ためて　自分の 素早さを　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "oras": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "sm": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "usum": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "lgpe": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+            "swsh": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante."
+        },
+        "traditional-chinese": {
+            "sm": "讓火焰圍繞全身後攻擊對手。 同時蓄積力量來提高自己的速度。",
+            "usum": "讓火焰圍繞全身後攻擊對手。 同時蓄積力量來提高自己的速度。",
+            "lgpe": "讓火焰圍繞全身後攻擊對手。 同時蓄積力量來提高自己的速度。",
+            "swsh": "讓火焰圍繞全身後攻擊對手。 同時蓄積力量來提高自己的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "让火焰覆盖全身，攻击对手。 积蓄力量并提高自己的速度。",
+            "usum": "让火焰覆盖全身，攻击对手。 积蓄力量并提高自己的速度。",
+            "lgpe": "让火焰覆盖全身，攻击对手。 积蓄力量并提高自己的速度。",
+            "swsh": "让火焰覆盖全身，攻击对手。 积蓄力量并提高自己的速度。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Raises the user’s Speed by one stage.",
+        "shortEffect": "Inflicts regular damage.  Raises the user’s Speed by one stage."
+    }
 }

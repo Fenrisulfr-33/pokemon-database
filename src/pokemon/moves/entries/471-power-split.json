@@ -1,39 +1,138 @@
 {
-  "_id": 471,
-  "key": "power-split",
-  "name": {
-    "english": "Power Split",
-    "japanese": "パワーシェア",
-    "chinese": "力量平分",
-    "korean": "파워셰어",
-    "german": "Isofuerza",
-    "french": "Kraftteiler",
-    "italian": "Power Split",
-    "spanish": "Pariattacco"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user employs its psychic power to\naverage its Attack and Sp. Atk stats\nwith those of the target’s.",
-    "black-2-white-2": "The user employs its psychic power to\naverage its Attack and Sp. Atk stats\nwith those of the target’s.",
-    "x-y": "The user employs its psychic power to\naverage its Attack and Sp. Atk stats\nwith those of the target.",
-    "omega-ruby-alpha-sapphire": "The user employs its psychic power to\naverage its Attack and Sp. Atk stats\nwith those of the target.",
-    "sun-moon": "The user employs its psychic power to average its\nAttack and Sp. Atk stats with those of the target.",
-    "ultra-sun-ultra-moon": "The user employs its psychic power to average its\nAttack and Sp. Atk stats with those of the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user employs its psychic power to average its\nAttack and Sp. Atk stats with those of the target.",
-    "sword-shield": "The user employs its psychic power to average its\nAttack and Sp. Atk stats with those of the target."
-  },
-  "effect": {
-    "full": "Averages the user's unmodified Attack with the target's unmodified Attack; the value becomes the unmodified Attack for both Pokémon. Unmodified Special Attack is averaged the same way.\n\nThis effect applies before any other persistent changes to unmodified Attack or Special Attack, such as flower gift during sunny day.",
-    "shortEffect": "Averages Attack and Special Attack with the target."
-  },
-  "priority": 0
+    "_id": 471,
+    "key": "power-split",
+    "name": {
+        "japanese-kana": "パワーシェア",
+        "korean": "파워셰어",
+        "traditional-chinese": "力量平分",
+        "french": "Partage Force",
+        "german": "Kraftteiler",
+        "spanish": "Isofuerza",
+        "italian": "Pariattacco",
+        "english": "Power Split",
+        "japanese": "パワーシェア",
+        "simplified-chinese": "力量平分",
+        "latin-american-spanish": "Fuerza Dividida"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "xy": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "oras": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "sm": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "usum": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "lgpe": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "swsh": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux."
+        },
+        "english": {
+            "bw": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target’s.",
+            "b2w2": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target’s.",
+            "xy": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+            "oras": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+            "sm": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+            "usum": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+            "lgpe": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+            "swsh": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+            "la": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+            "sv": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target."
+        },
+        "japanese-kana": {
+            "xy": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうを　たして はんぶんに　わける。",
+            "oras": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうを　たして はんぶんに　わける。",
+            "sm": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうを　たして はんぶんに　わける。",
+            "usum": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうを　たして はんぶんに　わける。",
+            "lgpe": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうを　たして はんぶんに　わける。",
+            "swsh": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうを　たして はんぶんに　わける。"
+        },
+        "korean": {
+            "xy": "초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.",
+            "oras": "초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.",
+            "sm": "초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.",
+            "usum": "초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.",
+            "lgpe": "초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.",
+            "swsh": "초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다."
+        },
+        "german": {
+            "xy": "Durch Psycho-Kräfte werden Angriff und Spezial-Angriff des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "oras": "Durch Psycho-Kräfte werden Angriff und Spezial-Angriff des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "sm": "Durch Psycho-Kräfte werden Angriff und Spezial-Angriff des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "usum": "Durch Psycho-Kräfte werden Angriff und Spezial-Angriff des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "lgpe": "Durch Psycho-Kräfte werden Angriff und Spezial-Angriff des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "swsh": "Durch Psycho-Kräfte werden Angriff und Spezial-Angriff des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt."
+        },
+        "spanish": {
+            "xy": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "oras": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "sm": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "usum": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "lgpe": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "swsh": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos."
+        },
+        "italian": {
+            "xy": "Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.",
+            "oras": "Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.",
+            "sm": "Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.",
+            "usum": "Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.",
+            "lgpe": "Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.",
+            "swsh": "Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente."
+        },
+        "japanese": {
+            "xy": "超能力で　自分と　相手の 攻撃と　特攻を　たして 半分に　わける。",
+            "oras": "超能力で　自分と　相手の 攻撃と　特攻を　たして 半分に　わける。",
+            "sm": "超能力で　自分と　相手の 攻撃と　特攻を　たして 半分に　わける。",
+            "usum": "超能力で　自分と　相手の 攻撃と　特攻を　たして 半分に　わける。",
+            "lgpe": "超能力で　自分と　相手の 攻撃と　特攻を　たして 半分に　わける。",
+            "swsh": "超能力で　自分と　相手の 攻撃と　特攻を　たして 半分に　わける。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "oras": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "sm": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "usum": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "lgpe": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+            "swsh": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos."
+        },
+        "traditional-chinese": {
+            "sm": "用超能力將自己和對手的 攻擊和特攻各別相加後， 再進行平分。",
+            "usum": "用超能力將自己和對手的 攻擊和特攻各別相加後， 再進行平分。",
+            "lgpe": "用超能力將自己和對手的 攻擊和特攻各別相加後， 再進行平分。",
+            "swsh": "用超能力將自己和對手的 攻擊和特攻各別相加後， 再進行平分。"
+        },
+        "simplified-chinese": {
+            "sm": "利用超能力将自己和对手的 攻击和特攻相加， 再进行平分。",
+            "usum": "利用超能力将自己和对手的 攻击和特攻相加， 再进行平分。",
+            "lgpe": "利用超能力将自己和对手的 攻击和特攻相加， 再进行平分。",
+            "swsh": "利用超能力将自己和对手的 攻击和特攻相加， 再进行平分。"
+        }
+    },
+    "effect": {
+        "full": "Averages the user’s unmodified Attack with the target’s unmodified Attack; the value becomes the unmodified Attack for both Pokémon. Unmodified Special Attack is averaged the same way. This effect applies before any other persistent changes to unmodified Attack or Special Attack, such as Flower Gift during Sunny Day.",
+        "shortEffect": "Averages Attack and Special Attack with the target."
+    }
 }

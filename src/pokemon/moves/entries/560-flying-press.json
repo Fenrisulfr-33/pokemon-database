@@ -1,37 +1,139 @@
 {
-  "_id": 560,
-  "key": "flying-press",
-  "name": {
-    "english": "Flying Press",
-    "japanese": "フライングプレス",
-    "chinese": "飞行重压",
-    "korean": "플라잉프레스",
-    "german": "Plancha Voladora",
-    "french": "Flying Press",
-    "italian": "Flying Press",
-    "spanish": "Schiacciatuffo"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user dives down onto the target\nfrom the sky. This move is Fighting\nand Flying type simultaneously.",
-    "omega-ruby-alpha-sapphire": "The user dives down onto the target\nfrom the sky. This move is Fighting\nand Flying type simultaneously.",
-    "sun-moon": "The user dives down onto the target from the sky.\nThis move is Fighting and Flying type simultaneously.",
-    "ultra-sun-ultra-moon": "The user dives down onto the target from the sky.\nThis move is Fighting and Flying type simultaneously.",
-    "lets-go-pikachu-lets-go-eevee": "The user dives down onto the target from the sky.\nThis move is Fighting and Flying type simultaneously.",
-    "sword-shield": "The user dives down onto the target from the sky.\nThis move is Fighting and Flying type simultaneously."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the purposes of type effectiveness, this move is both fighting- and flying-type: its final effectiveness is determined by multiplying the effectiveness of each type against each of the target's types.\n\nFor all other purposes, this move is pure Fighting-type.  If this move's type is changed, its Fighting typing is overwritten, and its secondary type remains Flying.\n\nIf the target has used minimize since entering battle, this move has double power and will never miss.",
-    "shortEffect": "Deals both fighting and flying-type damage."
-  },
-  "priority": 0
+    "_id": 560,
+    "key": "flying-press",
+    "name": {
+        "japanese-kana": "フライングプレス",
+        "korean": "플라잉프레스",
+        "traditional-chinese": "飛身重壓",
+        "french": "Flying Press",
+        "german": "Flying Press",
+        "spanish": "Plancha Voladora",
+        "italian": "Schiacciatuffo",
+        "english": "Flying Press",
+        "japanese": "フライングプレス",
+        "simplified-chinese": "飞身重压",
+        "latin-american-spanish": "Plancha Voladora"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 100,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "power": 80
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "くうちゅうから　あいてに　ダイブする。 このわざは　かくとうタイプと　どうじに ひこうタイプでも　ある。",
+            "oras": "くうちゅうから　あいてに　ダイブする。 このわざは　かくとうタイプと　どうじに ひこうタイプでも　ある。",
+            "sm": "くうちゅうから　あいてに　ダイブする。 このわざは　かくとうタイプと　どうじに ひこうタイプでも　ある。",
+            "usum": "くうちゅうから　あいてに　ダイブする。 このわざは　かくとうタイプと　どうじに ひこうタイプでも　ある。",
+            "lgpe": "くうちゅうから　あいてに　ダイブする。 このわざは　かくとうタイプと　どうじに ひこうタイプでも　ある。",
+            "swsh": "くうちゅうから　あいてに　ダイブする。 このわざは　かくとうタイプと　どうじに ひこうタイプでも　ある。"
+        },
+        "korean": {
+            "xy": "공중에서 상대에게 다이브한다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다.",
+            "oras": "공중에서 상대에게 다이브한다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다.",
+            "sm": "공중에서 상대에게 다이브한다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다.",
+            "usum": "공중에서 상대에게 다이브한다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다.",
+            "lgpe": "공중에서 상대에게 다이브한다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다.",
+            "swsh": "공중에서 상대에게 다이브한다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다."
+        },
+        "french": {
+            "xy": "Une attaque en piqué depuis le ciel, à la fois de type Combat et de type Vol.",
+            "oras": "Une attaque en piqué depuis le ciel, à la fois de type Combat et de type Vol.",
+            "sm": "Une attaque en piqué depuis le ciel, à la fois de type Combat et de type Vol.",
+            "usum": "Une attaque en piqué depuis le ciel, à la fois de type Combat et de type Vol.",
+            "lgpe": "Une attaque en piqué depuis le ciel, à la fois de type Combat et de type Vol.",
+            "swsh": "Une attaque en piqué depuis le ciel, à la fois de type Combat et de type Vol."
+        },
+        "german": {
+            "xy": "Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.",
+            "oras": "Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.",
+            "sm": "Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.",
+            "usum": "Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.",
+            "lgpe": "Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.",
+            "swsh": "Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an."
+        },
+        "spanish": {
+            "xy": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "oras": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "sm": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "usum": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "lgpe": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "swsh": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo."
+        },
+        "italian": {
+            "xy": "Chi la usa si tuffa sul bersaglio dall’alto. È una mossa di tipo Lotta e Volante allo stesso tempo.",
+            "oras": "Chi la usa si tuffa sul bersaglio dall’alto. È una mossa di tipo Lotta e Volante allo stesso tempo.",
+            "sm": "Chi la usa si tuffa sul bersaglio dall’alto. È una mossa di tipo Lotta e Volante allo stesso tempo.",
+            "usum": "Chi la usa si tuffa sul bersaglio dall’alto. È una mossa di tipo Lotta e Volante allo stesso tempo.",
+            "lgpe": "Chi la usa si tuffa sul bersaglio dall’alto. È una mossa di tipo Lotta e Volante allo stesso tempo.",
+            "swsh": "Chi la usa si tuffa sul bersaglio dall’alto. È una mossa di tipo Lotta e Volante allo stesso tempo."
+        },
+        "english": {
+            "xy": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+            "oras": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+            "sm": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+            "usum": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+            "lgpe": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+            "swsh": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+            "la": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+            "sv": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously."
+        },
+        "japanese": {
+            "xy": "空中から　相手に　ダイブする。 この技は　かくとうタイプと　同時に ひこうタイプでも　ある。",
+            "oras": "空中から　相手に　ダイブする。 この技は　かくとうタイプと　同時に ひこうタイプでも　ある。",
+            "sm": "空中から　相手に　ダイブする。 この技は　かくとうタイプと　同時に ひこうタイプでも　ある。",
+            "usum": "空中から　相手に　ダイブする。 この技は　かくとうタイプと　同時に ひこうタイプでも　ある。",
+            "lgpe": "空中から　相手に　ダイブする。 この技は　かくとうタイプと　同時に ひこうタイプでも　ある。",
+            "swsh": "空中から　相手に　ダイブする。 この技は　かくとうタイプと　同時に ひこうタイプでも　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "oras": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "sm": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "usum": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "lgpe": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.",
+            "swsh": "El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo."
+        },
+        "traditional-chinese": {
+            "sm": "從空中俯衝向對手進行攻擊。 此招式同時具有 格鬥屬性和飛行屬性。",
+            "usum": "從空中俯衝向對手進行攻擊。 此招式同時具有 格鬥屬性和飛行屬性。",
+            "lgpe": "從空中俯衝向對手進行攻擊。 此招式同時具有 格鬥屬性和飛行屬性。",
+            "swsh": "從空中俯衝向對手進行攻擊。 此招式同時具有 格鬥屬性和飛行屬性。"
+        },
+        "simplified-chinese": {
+            "sm": "从空中俯冲向对手。 此招式同时带有 格斗属性和飞行属性。",
+            "usum": "从空中俯冲向对手。 此招式同时带有 格斗属性和飞行属性。",
+            "lgpe": "从空中俯冲向对手。 此招式同时带有 格斗属性和飞行属性。",
+            "swsh": "从空中俯冲向对手。 此招式同时带有 格斗属性和飞行属性。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the purposes of type effectiveness, this move is both Fighting- and Flying-type: its final effectiveness is determined by multiplying the effectiveness of each type against each of the target’s types. For all other purposes, this move is pure Fighting-type.  If this move’s type is changed, its Fighting typing is overwritten, and its secondary type remains Flying. If the target has used Minimize since entering battle, this move has double power and will never miss.",
+        "shortEffect": "Deals both Fighting and Flying-type damage."
+    }
 }

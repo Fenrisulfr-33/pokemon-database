@@ -1,32 +1,84 @@
 {
-  "_id": 789,
-  "key": "spirit-break",
-  "name": {
-    "english": "Spirit Break",
-    "japanese": "ソウルクラッシュ",
-    "chinese": "靈魂衝擊",
-    "korean": "소울크래시",
-    "german": "Choque Anímico",
-    "french": "Seelenbruch",
-    "italian": "Spirit Break",
-    "spanish": "Frantumanima"
-  },
-  "type": "Fairy",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user attacks the target with so much force that it\ncould break the target’s spirit. This also lowers the\ntarget’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 789,
+    "key": "spirit-break",
+    "name": {
+        "japanese-kana": "ソウルクラッシュ",
+        "korean": "소울크래시",
+        "traditional-chinese": "靈魂衝擊",
+        "french": "Choc Émotionnel",
+        "german": "Seelenbruch",
+        "spanish": "Choque Anímico",
+        "italian": "Frantumanima",
+        "english": "Spirit Break",
+        "japanese": "ソウルクラッシュ",
+        "simplified-chinese": "灵魂冲击",
+        "latin-american-spanish": "Choque Anímico"
+    },
+    "type": "fairy",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "くらうと　くじけるほどの いきおいで　こうげき。 あいての　とくこうを　さげる。"
+        },
+        "korean": {
+            "swsh": "맞으면 기가 꺾여버릴 것 같은 기세로 공격한다. 상대의 특수공격을 떨어뜨린다."
+        },
+        "traditional-chinese": {
+            "swsh": "用足以讓對手一蹶不振的 氣勢進行攻擊。 可降低對手的特攻。"
+        },
+        "french": {
+            "swsh": "Le lanceur attaque son adversaire avec une telle force que ce dernier peut s’en retrouver profondément troublé. Baisse l’Attaque Spéciale de la cible."
+        },
+        "german": {
+            "swsh": "Die Attacke trifft das Ziel mit so viel Wucht, dass es den Mut verliert. Dabei wird sein Spezial-Angriff gesenkt."
+        },
+        "spanish": {
+            "swsh": "El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuencia, reduce su Ataque Especial."
+        },
+        "italian": {
+            "swsh": "Chi la usa attacca il bersaglio con un tale impeto da fargli perdere la voglia di lottare e ne riduce l’Attacco Speciale."
+        },
+        "english": {
+            "swsh": "The user attacks the target with so much force that it could break the target’s spirit. This also lowers the target’s Sp. Atk stat.",
+            "la": "The user attacks the target with so much force that it could break the target's spirit. This also lowers the target's Sp. Atk stat.",
+            "sv": "The user attacks the target with so much force that it could break the target's spirit. This also lowers the target's Sp. Atk stat."
+        },
+        "japanese": {
+            "swsh": "食らうと　くじけるほどの 勢いで　攻撃。 相手の　特攻を　下げる。"
+        },
+        "simplified-chinese": {
+            "swsh": "用足以让对手一蹶不振的 气势进行攻击。 会降低对手的特攻。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuencia, reduce su Ataque Especial."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Attack by one stage."
+    }
 }

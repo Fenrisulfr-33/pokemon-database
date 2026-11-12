@@ -1,45 +1,142 @@
 {
-  "_id": 289,
-  "key": "snatch",
-  "name": {
-    "english": "Snatch",
-    "japanese": "よこどり",
-    "chinese": "抢夺",
-    "korean": "가로챔",
-    "german": "Robo",
-    "french": "Übernahme",
-    "italian": "Snatch",
-    "spanish": "Scippo"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Steals the effects of the\nmove the foe uses next.",
-    "emerald": "Steals the effects of the\nmove the target uses next.",
-    "firered-leafgreen": "Steals the effects\nof the foe’s\nhealing or status-\nchanging move.",
-    "diamond-pearl": "The user steals the\neffects of any\nhealing or status-\nchanging move the foe\nattempts to use.",
-    "platinum": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
-    "heartgold-soulsilver": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
-    "black-white": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
-    "black-2-white-2": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
-    "x-y": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
-    "omega-ruby-alpha-sapphire": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
-    "sun-moon": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
-    "ultra-sun-ultra-moon": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
-    "lets-go-pikachu-lets-go-eevee": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "The next time a Pokémon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag.\n\nIf two Pokémon use this move on the same turn, the faster Pokémon will steal the first beneficial move, and the slower Pokémon will then steal it again—thus, only the slowest Pokémon using this move ultimately gains a stolen move's effect.\n\nIf the user steals psych up, it will target the Pokémon that used psych up.  If the user was the original target of psych up, and the Pokémon that originally used it's affected by pressure, it will only lose 1 PP.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome.",
-    "shortEffect": "Steals the target's move, if it's self-targeted."
-  },
-  "priority": 4
+    "_id": 289,
+    "key": "snatch",
+    "name": {
+        "japanese-kana": "よこどり",
+        "korean": "가로채기",
+        "traditional-chinese": "搶奪",
+        "french": "Saisie",
+        "german": "Übernahme",
+        "spanish": "Robo",
+        "italian": "Scippo",
+        "english": "Snatch",
+        "japanese": "よこどり",
+        "simplified-chinese": "化为己用",
+        "latin-american-spanish": "Robo"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Steals the effects of the move the foe uses next.",
+            "em": "Steals the effects of the move the target uses next.",
+            "frlg": "Steals the effects of the foe’s healing or status- changing move.",
+            "dp": "The user steals the effects of any healing or status- changing move the foe attempts to use.",
+            "pt": "The user steals the effects of any healing or stat- changing move the foe attempts to use.",
+            "hgss": "The user steals the effects of any healing or stat- changing move the foe attempts to use.",
+            "bw": "The user steals the effects of any healing or stat-changing move the opponent attempts to use.",
+            "b2w2": "The user steals the effects of any healing or stat-changing move the opponent attempts to use.",
+            "xy": "The user steals the effects of any attempts to use a healing or stat-changing move.",
+            "oras": "The user steals the effects of any attempts to use a healing or stat-changing move.",
+            "sm": "The user steals the effects of any attempts to use a healing or stat-changing move.",
+            "usum": "The user steals the effects of any attempts to use a healing or stat-changing move.",
+            "lgpe": "The user steals the effects of any attempts to use a healing or stat-changing move.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur vole l’effet des capacités de soin ou de changement de stats utilisées par la cible.",
+            "xy": "Lorsqu’une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets.",
+            "oras": "Lorsqu’une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets.",
+            "sm": "Lorsqu’une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets.",
+            "usum": "Lorsqu’une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets.",
+            "lgpe": "Lorsqu’une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "あいてが　つかおうと　した かいふくわざや　のうりょく　へんかの わざを　うばって　じぶんに　つかう。",
+            "oras": "あいてが　つかおうと　した かいふくわざや　のうりょく　へんかの わざを　うばって　じぶんに　つかう。",
+            "sm": "あいてが　つかおうと　した かいふくわざや　のうりょく　へんかの わざを　うばって　じぶんに　つかう。",
+            "usum": "あいてが　つかおうと　した かいふくわざや　のうりょく　へんかの わざを　うばって　じぶんに　つかう。",
+            "lgpe": "あいてが　つかおうと　した かいふくわざや　のうりょく　へんかの わざを　うばって　じぶんに　つかう。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "상대가 사용하려고 한 회복 기술이나 능력 변화의 기술을 빼앗아 자신에게 쓴다.",
+            "oras": "상대가 사용하려고 한 회복 기술이나 능력 변화의 기술을 빼앗아 자신에게 쓴다.",
+            "sm": "상대가 사용하려고 한 회복 기술이나 능력 변화의 기술을 빼앗아 자신에게 쓴다.",
+            "usum": "상대가 사용하려고 한 회복 기술이나 능력 변화의 기술을 빼앗아 자신에게 쓴다.",
+            "lgpe": "상대가 사용하려고 한 회복 기술이나 능력 변화의 기술을 빼앗아 자신에게 쓴다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Raubt den Effekt eingesetzter heilender oder Werte verändernder Attacken.",
+            "oras": "Raubt den Effekt eingesetzter heilender oder Werte verändernder Attacken.",
+            "sm": "Raubt den Effekt heilender oder Werte verändernder Attacken des Zieles.",
+            "usum": "Raubt den Effekt heilender oder Werte verändernder Attacken des Zieles.",
+            "lgpe": "Raubt den Effekt heilender oder Werte verändernder Attacken des Zieles.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "oras": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "sm": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "usum": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "lgpe": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa ruba e utilizza la mossa curativa o modifica-statistiche che un altro Pokémon stava per usare.",
+            "oras": "Chi la usa ruba e utilizza la mossa curativa o modifica-statistiche che un altro Pokémon stava per usare.",
+            "sm": "Chi la usa ruba e utilizza la mossa curativa o modifica-statistiche che un altro Pokémon stava per usare.",
+            "usum": "Chi la usa ruba e utilizza la mossa curativa o modifica-statistiche che un altro Pokémon stava per usare.",
+            "lgpe": "Chi la usa ruba e utilizza la mossa curativa o modifica-statistiche che un altro Pokémon stava per usare.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "相手が　使おうと　した 回復技や　能力変化の 技を　うばって　自分に　使う。",
+            "oras": "相手が　使おうと　した 回復技や　能力変化の 技を　うばって　自分に　使う。",
+            "sm": "相手が　使おうと　した 回復技や　能力変化の 技を　うばって　自分に　使う。",
+            "usum": "相手が　使おうと　した 回復技や　能力変化の 技を　うばって　自分に　使う。",
+            "lgpe": "相手が　使おうと　した 回復技や　能力変化の 技を　うばって　自分に　使う。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "oras": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "sm": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "usum": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "lgpe": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "將對手打算使用的回復招式 或能力變化招式奪為己用。",
+            "usum": "將對手打算使用的回復招式 或能力變化招式奪為己用。",
+            "lgpe": "將對手打算使用的回復招式 或能力變化招式奪為己用。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "将对手打算使用的回复招式 或能力变化招式夺为己用。",
+            "usum": "将对手打算使用的回复招式 或能力变化招式夺为己用。",
+            "lgpe": "将对手打算使用的回复招式 或能力变化招式夺为己用。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "The next time a Pokémon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag. If two Pokémon use this move on the same turn, the faster Pokémon will steal the first beneficial move, and the slower Pokémon will then steal it again—thus, only the slowest Pokémon using this move ultimately gains a stolen move’s effect. If the user steals Psych Up, it will target the Pokémon that used Psych Up.  If the user was the original target of Psych Up, and the Pokémon that originally used it’s affected by Pressure, it will only lose 1 PP. This move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+        "shortEffect": "Steals the target’s move, if it’s self-targeted."
+    }
 }

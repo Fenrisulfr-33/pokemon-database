@@ -1,45 +1,151 @@
 {
-  "_id": 351,
-  "key": "shock-wave",
-  "name": {
-    "english": "Shock Wave",
-    "japanese": "でんげきは",
-    "chinese": "电击波",
-    "korean": "전격파",
-    "german": "Onda Voltio",
-    "french": "Schockwelle",
-    "italian": "Shock Wave",
-    "spanish": "Ondashock"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 60,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A fast and unavoidable\nelectric attack.",
-    "emerald": "A fast and unavoidable\nelectric attack.",
-    "firered-leafgreen": "A rapid jolt of\nelectricity strikes\nthe foe. It can’t\nbe evaded.",
-    "diamond-pearl": "The user strikes the\nfoe with a quick jolt\nof electricity.\nThis attack cannot be\nevaded.",
-    "platinum": "The user strikes the\nfoe with a quick jolt\nof electricity.\nThis attack cannot be\nevaded.",
-    "heartgold-soulsilver": "The user strikes the\nfoe with a quick jolt\nof electricity.\nThis attack cannot be\nevaded.",
-    "black-white": "The user strikes the target with a quick\njolt of electricity.\nThis attack cannot be evaded.",
-    "black-2-white-2": "The user strikes the target with a quick\njolt of electricity.\nThis attack cannot be evaded.",
-    "x-y": "The user strikes the target with a quick\njolt of electricity.\nThis attack never misses.",
-    "omega-ruby-alpha-sapphire": "The user strikes the target with a quick\njolt of electricity.\nThis attack never misses.",
-    "sun-moon": "The user strikes the target with a quick jolt of\nelectricity. This attack never misses.",
-    "ultra-sun-ultra-moon": "The user strikes the target with a quick jolt of\nelectricity. This attack never misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes the target with a quick jolt of\nelectricity. This attack never misses.",
-    "sword-shield": "The user strikes the target with a quick jolt of\nelectricity. This attack never misses."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 351,
+    "key": "shock-wave",
+    "name": {
+        "japanese-kana": "でんげきは",
+        "korean": "전격파",
+        "traditional-chinese": "電擊波",
+        "french": "Onde de Choc",
+        "german": "Schockwelle",
+        "spanish": "Onda Voltio",
+        "italian": "Ondashock",
+        "english": "Shock Wave",
+        "japanese": "でんげきは",
+        "simplified-chinese": "电击波",
+        "latin-american-spanish": "Onda de Choque"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": "cool",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "A fast and unavoidable electric attack.",
+            "em": "A fast and unavoidable electric attack.",
+            "frlg": "A rapid jolt of electricity strikes the foe. It can’t be evaded.",
+            "dp": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.",
+            "pt": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.",
+            "hgss": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.",
+            "bw": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
+            "b2w2": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
+            "xy": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+            "oras": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+            "sm": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+            "usum": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+            "lgpe": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+            "swsh": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+            "la": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+            "sv": "The user strikes the target with a quick jolt of electricity. This attack never misses."
+        },
+        "french": {
+            "bw": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.",
+            "xy": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.",
+            "oras": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.",
+            "sm": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.",
+            "usum": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.",
+            "lgpe": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.",
+            "swsh": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver."
+        },
+        "japanese-kana": {
+            "xy": "でんげきを　すばやく あいてに　あびせる。 こうげきは　かならず　めいちゅう　する。",
+            "oras": "でんげきを　すばやく あいてに　あびせる。 こうげきは　かならず　めいちゅう　する。",
+            "sm": "でんげきを　すばやく あいてに　あびせる。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "でんげきを　すばやく あいてに　あびせる。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "でんげきを　すばやく あいてに　あびせる。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "でんげきを　すばやく あいてに　あびせる。 こうげきは　かならず　めいちゅう　する。"
+        },
+        "korean": {
+            "xy": "전격을 재빠르게 상대에게 날린다. 공격은 반드시 명중한다.",
+            "oras": "전격을 재빠르게 상대에게 날린다. 공격은 반드시 명중한다.",
+            "sm": "전격을 재빠르게 상대에게 날린다. 공격은 반드시 명중한다.",
+            "usum": "전격을 재빠르게 상대에게 날린다. 공격은 반드시 명중한다.",
+            "lgpe": "전격을 재빠르게 상대에게 날린다. 공격은 반드시 명중한다.",
+            "swsh": "전격을 재빠르게 상대에게 날린다. 공격은 반드시 명중한다."
+        },
+        "german": {
+            "xy": "Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.",
+            "oras": "Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.",
+            "sm": "Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.",
+            "usum": "Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.",
+            "lgpe": "Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.",
+            "swsh": "Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich."
+        },
+        "spanish": {
+            "xy": "Ataque eléctrico muy rápido e ineludible.",
+            "oras": "Ataque eléctrico muy rápido e ineludible.",
+            "sm": "Ataque eléctrico muy rápido e ineludible.",
+            "usum": "Ataque eléctrico muy rápido e ineludible.",
+            "lgpe": "Ataque eléctrico muy rápido e ineludible.",
+            "swsh": "Ataque eléctrico muy rápido e ineludible."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa.",
+            "oras": "Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa.",
+            "sm": "Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa.",
+            "usum": "Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa.",
+            "lgpe": "Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa.",
+            "swsh": "Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa."
+        },
+        "japanese": {
+            "xy": "電撃を　素早く 相手に　浴びせる。 攻撃は　必ず　命中する。",
+            "oras": "電撃を　素早く 相手に　浴びせる。 攻撃は　必ず　命中する。",
+            "sm": "電撃を　素早く 相手に　浴びせる。 攻撃は　必ず　命中する。",
+            "usum": "電撃を　素早く 相手に　浴びせる。 攻撃は　必ず　命中する。",
+            "lgpe": "電撃を　素早く 相手に　浴びせる。 攻撃は　必ず　命中する。",
+            "swsh": "電撃を　素早く 相手に　浴びせる。 攻撃は　必ず　命中する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque eléctrico muy rápido e ineludible.",
+            "oras": "Ataque eléctrico muy rápido e ineludible.",
+            "sm": "Ataque eléctrico muy rápido e ineludible.",
+            "usum": "Ataque eléctrico muy rápido e ineludible.",
+            "lgpe": "Ataque eléctrico muy rápido e ineludible.",
+            "swsh": "Ataque eléctrico muy rápido e ineludible."
+        },
+        "traditional-chinese": {
+            "sm": "向對手迅速放出電流。 攻擊一定會命中。",
+            "usum": "向對手迅速放出電流。 攻擊一定會命中。",
+            "lgpe": "向對手迅速放出電流。 攻擊一定會命中。",
+            "swsh": "向對手迅速放出電流。 攻擊一定會命中。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手快速发出电击。 攻击必定会命中。",
+            "usum": "向对手快速发出电击。 攻击必定会命中。",
+            "lgpe": "向对手快速发出电击。 攻击必定会命中。",
+            "swsh": "向对手快速发出电击。 攻击必定会命中。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

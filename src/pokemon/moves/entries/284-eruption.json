@@ -1,45 +1,144 @@
 {
-  "_id": 284,
-  "key": "eruption",
-  "name": {
-    "english": "Eruption",
-    "japanese": "ふんか",
-    "chinese": "喷火",
-    "korean": "분화",
-    "german": "Estallido",
-    "french": "Eruption",
-    "italian": "Eruption",
-    "spanish": "Eruzione"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "The higher the user’s HP,\nthe more damage caused.",
-    "emerald": "The higher the user’s HP,\nthe more damage caused.",
-    "firered-leafgreen": "The higher the\nuser’s HP, the more\npowerful this\nattack becomes.",
-    "diamond-pearl": "The user attacks in\nan explosive fury.\nThe lower the user’s\nHP, the less powerful\nthis attack becomes.",
-    "platinum": "The user attacks in\nan explosive fury.\nThe lower the user’s\nHP, the less powerful\nthis attack becomes.",
-    "heartgold-soulsilver": "The user attacks in\nan explosive fury.\nThe lower the user’s\nHP, the less powerful\nthis attack becomes.",
-    "black-white": "The user attacks the opposing team with\nexplosive fury. The lower the user’s HP,\nthe less powerful this attack becomes.",
-    "black-2-white-2": "The user attacks the opposing team with\nexplosive fury. The lower the user’s HP,\nthe less powerful this attack becomes.",
-    "x-y": "The user attacks opposing Pokémon with\nexplosive fury. The lower the user’s HP,\nthe lower the move’s power.",
-    "omega-ruby-alpha-sapphire": "The user attacks opposing Pokémon with\nexplosive fury. The lower the user’s HP,\nthe lower the move’s power.",
-    "sun-moon": "The user attacks opposing Pokémon with explosive\nfury. The lower the user’s HP, the lower the\nmove’s power.",
-    "ultra-sun-ultra-moon": "The user attacks opposing Pokémon with explosive\nfury. The lower the user’s HP, the lower the\nmove’s power.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks opposing Pokémon with explosive\nfury. The lower the user’s HP, the lower the\nmove’s power.",
-    "sword-shield": "The user attacks opposing Pokémon with explosive\nfury. The lower the user’s HP, the lower the\nmove’s power."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power increases with the user's remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
-    "shortEffect": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
-  },
-  "priority": 0
+    "_id": 284,
+    "key": "eruption",
+    "name": {
+        "japanese-kana": "ふんか",
+        "korean": "분화",
+        "traditional-chinese": "噴火",
+        "french": "Éruption",
+        "german": "Eruption",
+        "spanish": "Estallido",
+        "italian": "Eruzione",
+        "english": "Eruption",
+        "japanese": "ふんか",
+        "simplified-chinese": "喷火",
+        "latin-american-spanish": "Estallido"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "The higher the user’s HP, the more damage caused.",
+            "em": "The higher the user’s HP, the more damage caused.",
+            "frlg": "The higher the user’s HP, the more powerful this attack becomes.",
+            "dp": "The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.",
+            "pt": "The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.",
+            "hgss": "The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.",
+            "bw": "The user attacks the opposing team with explosive fury. The lower the user’s HP, the less powerful this attack becomes.",
+            "b2w2": "The user attacks the opposing team with explosive fury. The lower the user’s HP, the less powerful this attack becomes.",
+            "xy": "The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.",
+            "oras": "The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.",
+            "sm": "The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.",
+            "usum": "The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.",
+            "lgpe": "The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.",
+            "swsh": "The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.",
+            "la": "The user attacks opposing Pokémon with explosive fury. The lower the user's HP, the lower the move's power.",
+            "sv": "The user attacks opposing Pokémon with explosive fury. The lower the user's HP, the lower the move's power."
+        },
+        "french": {
+            "bw": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas et moins l’attaque est puissante.",
+            "xy": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas et moins l’attaque est puissante.",
+            "oras": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas et moins l’attaque est puissante.",
+            "sm": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas et moins l’attaque est puissante.",
+            "usum": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas et moins l’attaque est puissante.",
+            "lgpe": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas et moins l’attaque est puissante.",
+            "swsh": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas, moins l’attaque est puissante."
+        },
+        "japanese-kana": {
+            "xy": "いかりを　ばくはつ　させて　あいてを こうげきする。じぶんの　ＨＰが　すくない ほど　わざの　いりょくは　さがる。",
+            "oras": "いかりを　ばくはつ　させて　あいてを こうげきする。じぶんの　ＨＰが　すくない ほど　わざの　いりょくは　さがる。",
+            "sm": "いかりを　ばくはつ　させて　あいてを こうげきする。　じぶんの　ＨＰが　すくない ほど　わざの　いりょくは　さがる。",
+            "usum": "いかりを　ばくはつ　させて　あいてを こうげきする。　じぶんの　ＨＰが　すくない ほど　わざの　いりょくは　さがる。",
+            "lgpe": "いかりを　ばくはつ　させて　あいてを こうげきする。　じぶんの　ＨＰが　すくない ほど　わざの　いりょくは　さがる。",
+            "swsh": "いかりを　ばくはつ　させて　あいてを こうげきする。　じぶんの　ＨＰが　すくない ほど　わざの　いりょくは　さがる。"
+        },
+        "korean": {
+            "xy": "분노를 폭발시켜 상대를 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "oras": "분노를 폭발시켜 상대를 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "sm": "분노를 폭발시켜 상대를 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "usum": "분노를 폭발시켜 상대를 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "lgpe": "분노를 폭발시켜 상대를 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.",
+            "swsh": "분노를 폭발시켜 상대를 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다."
+        },
+        "german": {
+            "xy": "Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.",
+            "oras": "Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.",
+            "sm": "Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.",
+            "usum": "Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.",
+            "lgpe": "Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.",
+            "swsh": "Explosiver Angriff gegen gegnerische Pokémon. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet."
+        },
+        "spanish": {
+            "xy": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "oras": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "sm": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "usum": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "lgpe": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "swsh": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque."
+        },
+        "italian": {
+            "xy": "Attacco impetuoso ed esplosivo la cui potenza è proporzionale ai PS di chi lo usa.",
+            "oras": "Attacco impetuoso ed esplosivo la cui potenza è proporzionale ai PS di chi lo usa.",
+            "sm": "Attacco impetuoso ed esplosivo la cui potenza è proporzionale ai PS di chi lo usa.",
+            "usum": "Attacco impetuoso ed esplosivo la cui potenza è proporzionale ai PS di chi lo usa.",
+            "lgpe": "Attacco impetuoso ed esplosivo la cui potenza è proporzionale ai PS di chi lo usa.",
+            "swsh": "Attacco impetuoso ed esplosivo la cui potenza è proporzionale ai PS di chi lo usa."
+        },
+        "japanese": {
+            "xy": "怒りを　爆発させて　相手を 攻撃する。自分の　ＨＰが 少ないほど　技の　威力は　さがる。",
+            "oras": "怒りを　爆発させて　相手を 攻撃する。自分の　ＨＰが 少ないほど　技の　威力は　さがる。",
+            "sm": "怒りを　爆発させて　相手を 攻撃する。　自分の　ＨＰが 少ないほど　技の　威力は　さがる。",
+            "usum": "怒りを　爆発させて　相手を 攻撃する。　自分の　ＨＰが 少ないほど　技の　威力は　さがる。",
+            "lgpe": "怒りを　爆発させて　相手を 攻撃する。　自分の　ＨＰが 少ないほど　技の　威力は　さがる。",
+            "swsh": "怒りを　爆発させて　相手を 攻撃する。　自分の　ＨＰが 少ないほど　技の　威力は　さがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "oras": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "sm": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "usum": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "lgpe": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.",
+            "swsh": "Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque."
+        },
+        "traditional-chinese": {
+            "sm": "爆發怒火攻擊對手。 自己的ＨＰ越少， 招式的威力越小。",
+            "usum": "爆發怒火攻擊對手。 自己的ＨＰ越少， 招式的威力越小。",
+            "lgpe": "爆發怒火攻擊對手。 自己的HP越少， 招式的威力越小。",
+            "swsh": "爆發怒火攻擊對手。 自己的ＨＰ越少， 招式的威力越小。"
+        },
+        "simplified-chinese": {
+            "sm": "爆发怒火攻击对手。 自己的ＨＰ越少， 招式的威力越小。",
+            "usum": "爆发怒火攻击对手。 自己的ＨＰ越少， 招式的威力越小。",
+            "lgpe": "爆发怒火攻击对手。 自己的HP越少， 招式的威力越小。",
+            "swsh": "爆发怒火攻击对手。 自己的ＨＰ越少， 招式的威力越小。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "shortEffect": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+    }
 }

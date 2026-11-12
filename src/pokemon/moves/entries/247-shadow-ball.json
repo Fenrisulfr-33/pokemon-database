@@ -1,47 +1,146 @@
 {
-  "_id": 247,
-  "key": "shadow-ball",
-  "name": {
-    "english": "Shadow Ball",
-    "japanese": "シャドーボール",
-    "chinese": "影子球",
-    "korean": "섀도볼",
-    "german": "Bola Sombra",
-    "french": "Spukball",
-    "italian": "Shadow Ball",
-    "spanish": "Palla Ombra"
-  },
-  "type": "Ghost",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nlower SPCL.DEF.",
-    "crystal": "An attack that may\nlower SPCL.DEF.",
-    "ruby-sapphire": "Hurls a black blob that may\nlower the foe’s SP. DEF.",
-    "emerald": "Hurls a black blob that may\nlower the foe’s SP. DEF.",
-    "firered-leafgreen": "A shadowy blob is\nhurled at the foe.\nMay also lower the\nfoe’s SP. DEF.",
-    "diamond-pearl": "The user hurls a\nshadowy blob at the\nfoe. It may also\nlower the foe’s\nSp. Def stat.",
-    "platinum": "The user hurls a\nshadowy blob at the\nfoe. It may also\nlower the foe’s\nSp. Def stat.",
-    "heartgold-soulsilver": "The user hurls a\nshadowy blob at the\nfoe. It may also\nlower the foe’s\nSp. Def stat.",
-    "black-white": "The user hurls a shadowy blob at the\ntarget. It may also lower the target’s\nSp. Def stat.",
-    "black-2-white-2": "The user hurls a shadowy blob at the\ntarget. It may also lower the target’s\nSp. Def stat.",
-    "x-y": "The user hurls a shadowy blob at the\ntarget. This may also lower the target’s\nSp. Def stat.",
-    "omega-ruby-alpha-sapphire": "The user hurls a shadowy blob at the\ntarget. This may also lower the target’s\nSp. Def stat.",
-    "sun-moon": "The user hurls a shadowy blob at the target.\nThis may also lower the target’s Sp. Def stat.",
-    "ultra-sun-ultra-moon": "The user hurls a shadowy blob at the target.\nThis may also lower the target’s Sp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user hurls a shadowy blob at the target.\nThis may also lower the target’s Sp. Def stat.",
-    "sword-shield": "The user hurls a shadowy blob at the target.\nThis may also lower the target’s Sp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 247,
+    "key": "shadow-ball",
+    "name": {
+        "japanese-kana": "シャドーボール",
+        "korean": "섀도볼",
+        "traditional-chinese": "暗影球",
+        "french": "Ball’Ombre",
+        "german": "Spukball",
+        "spanish": "Bola Sombra",
+        "italian": "Palla Ombra",
+        "english": "Shadow Ball",
+        "japanese": "シャドーボール",
+        "simplified-chinese": "暗影球",
+        "latin-american-spanish": "Bola Sombra"
+    },
+    "type": "ghost",
+    "category": "special",
+    "contest": "smart",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 20
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may lower SPCL.DEF.",
+            "cr": "An attack that may lower SPCL.DEF.",
+            "rs": "Hurls a black blob that may lower the foe’s SP. DEF.",
+            "em": "Hurls a black blob that may lower the foe’s SP. DEF.",
+            "frlg": "A shadowy blob is hurled at the foe. May also lower the foe’s SP. DEF.",
+            "dp": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat.",
+            "pt": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat.",
+            "hgss": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat.",
+            "bw": "The user hurls a shadowy blob at the target. It may also lower the target’s Sp. Def stat.",
+            "b2w2": "The user hurls a shadowy blob at the target. It may also lower the target’s Sp. Def stat.",
+            "xy": "The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+            "oras": "The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+            "sm": "The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+            "usum": "The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+            "lgpe": "The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+            "swsh": "The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+            "la": "The user hurls a shadowy blob at the target to deal damage. This may also lower the target’s defensive stats.",
+            "sv": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat."
+        },
+        "french": {
+            "bw": "Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "xy": "Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "oras": "Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "sm": "Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "usum": "Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "lgpe": "Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+            "swsh": "Projette une grande ombre sur l’ennemi. Peut aussi faire baisser sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "くろいかげの　かたまりを　なげつけて こうげきする。あいての　とくぼうを さげることが　ある。",
+            "oras": "くろいかげの　かたまりを　なげつけて こうげきする。あいての　とくぼうを さげることが　ある。",
+            "sm": "くろいかげの　かたまりを　なげつけて こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "usum": "くろいかげの　かたまりを　なげつけて こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "lgpe": "くろいかげの　かたまりを　なげつけて こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "swsh": "くろいかげの　かたまりを　なげつけて こうげきする。　あいての　とくぼうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "까만 그림자의 덩어리를 내던져서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "까만 그림자의 덩어리를 내던져서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "까만 그림자의 덩어리를 내던져서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "까만 그림자의 덩어리를 내던져서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "까만 그림자의 덩어리를 내던져서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "까만 그림자의 덩어리를 내던져서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Bewirft das Ziel mit gruseligem Ball und senkt eventuell die Spezial-Verteidigung.",
+            "oras": "Bewirft das Ziel mit gruseligem Ball und senkt eventuell die Spezial-Verteidigung.",
+            "sm": "Bewirft das Ziel mit gruseligem Ball und senkt eventuell die Spezial-Verteidigung.",
+            "usum": "Bewirft das Ziel mit gruseligem Ball und senkt eventuell die Spezial-Verteidigung.",
+            "lgpe": "Bewirft das Ziel mit gruseligem Ball und senkt eventuell die Spezial-Verteidigung.",
+            "swsh": "Bewirft das Ziel mit einem gruseligen Ball und senkt eventuell dessen Spezial-Verteidigung."
+        },
+        "spanish": {
+            "xy": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "oras": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "sm": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "usum": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "lgpe": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "swsh": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Lancia sul bersaglio una sfera nera. Può anche ridurne la Difesa Speciale.",
+            "oras": "Lancia sul bersaglio una sfera nera. Può anche ridurne la Difesa Speciale.",
+            "sm": "Lancia sul bersaglio una sfera nera. Può anche ridurne la Difesa Speciale.",
+            "usum": "Lancia sul bersaglio una sfera nera. Può anche ridurne la Difesa Speciale.",
+            "lgpe": "Lancia sul bersaglio una sfera nera. Può anche ridurne la Difesa Speciale.",
+            "swsh": "Lancia sul bersaglio una sfera nera. Può anche ridurne la Difesa Speciale."
+        },
+        "japanese": {
+            "xy": "黒い影の　塊を　投げつけて 攻撃する。相手の　特防を さげることが　ある。",
+            "oras": "黒い影の　塊を　投げつけて 攻撃する。相手の　特防を さげることが　ある。",
+            "sm": "黒い影の　塊を　投げつけて 攻撃する。　相手の　特防を さげることが　ある。",
+            "usum": "黒い影の　塊を　投げつけて 攻撃する。　相手の　特防を さげることが　ある。",
+            "lgpe": "黒い影の　塊を　投げつけて 攻撃する。　相手の　特防を さげることが　ある。",
+            "swsh": "黒い影の　塊を　投げつけて 攻撃する。　相手の　特防を さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "oras": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "sm": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "usum": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "lgpe": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.",
+            "swsh": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "投擲一團黑影進行攻擊。 有時會降低對手的特防。",
+            "usum": "投擲一團黑影進行攻擊。 有時會降低對手的特防。",
+            "lgpe": "投擲一團黑影進行攻擊。 有時會降低對手的特防。",
+            "swsh": "投擲一團黑影進行攻擊。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "投掷一团黑影进行攻击。 有时会降低对手的特防。",
+            "usum": "投掷一团黑影进行攻击。 有时会降低对手的特防。",
+            "lgpe": "投掷一团黑影进行攻击。 有时会降低对手的特防。",
+            "swsh": "投掷一团黑影进行攻击。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

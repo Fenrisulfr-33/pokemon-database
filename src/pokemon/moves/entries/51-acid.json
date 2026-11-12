@@ -1,47 +1,146 @@
 {
-  "_id": 51,
-  "key": "acid",
-  "name": {
-    "english": "Acid",
-    "japanese": "ようかいえき",
-    "chinese": "溶解液",
-    "korean": "용해액",
-    "german": "Ácido",
-    "french": "Säure",
-    "italian": "Acid",
-    "spanish": "Acido"
-  },
-  "type": "Poison",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nlower DEFENSE.",
-    "crystal": "An attack that may\nlower DEFENSE.",
-    "ruby-sapphire": "Sprays a hide-melting acid.\nMay lower DEFENSE.",
-    "emerald": "Sprays a hide-melting acid.\nMay lower DEFENSE.",
-    "firered-leafgreen": "The foe is sprayed\nwith a harsh, hide-\nmelting acid that\nmay lower DEFENSE.",
-    "diamond-pearl": "The foe is attacked\nwith a spray of harsh\nacid. It may also\nlower the target’s\nSp. Def stat.",
-    "platinum": "The foe is attacked\nwith a spray of harsh\nacid. It may also\nlower the target’s\nSp. Def stat.",
-    "heartgold-soulsilver": "The foe is attacked\nwith a spray of harsh\nacid. It may also\nlower the target’s\nSp. Def stat.",
-    "black-white": "The opposing team is attacked with a spray\nof harsh acid. The acid may also lower\nthe targets’ Sp. Def stats.",
-    "black-2-white-2": "The opposing team is attacked with a spray\nof harsh acid. The acid may also lower\nthe targets’ Sp. Def stats.",
-    "x-y": "The opposing Pokémon are attacked\nwith a spray of harsh acid. This may\nalso lower their Sp. Def stats.",
-    "omega-ruby-alpha-sapphire": "The opposing Pokémon are attacked\nwith a spray of harsh acid. This may\nalso lower their Sp. Def stats.",
-    "sun-moon": "The opposing Pokémon are attacked with a spray of\nharsh acid. This may also lower their Sp. Def stat.",
-    "ultra-sun-ultra-moon": "The opposing Pokémon are attacked with a spray of\nharsh acid. This may also lower their Sp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The opposing Pokémon are attacked with a spray of\nharsh acid. This may also lower their Sp. Def stat.",
-    "sword-shield": "Opposing Pokémon are attacked with a spray of harsh\nacid. This may also lower their Sp. Def stats."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 51,
+    "key": "acid",
+    "name": {
+        "japanese-kana": "ようかいえき",
+        "korean": "용해액",
+        "traditional-chinese": "溶解液",
+        "french": "Acide",
+        "german": "Säure",
+        "spanish": "Ácido",
+        "italian": "Acido",
+        "english": "Acid",
+        "japanese": "ようかいえき",
+        "simplified-chinese": "溶解液",
+        "latin-american-spanish": "Ácido"
+    },
+    "type": "poison",
+    "category": "special",
+    "contest": "smart",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may lower DEFENSE.",
+            "cr": "An attack that may lower DEFENSE.",
+            "rs": "Sprays a hide-melting acid. May lower DEFENSE.",
+            "em": "Sprays a hide-melting acid. May lower DEFENSE.",
+            "frlg": "The foe is sprayed with a harsh, hide- melting acid that may lower DEFENSE.",
+            "dp": "The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.",
+            "pt": "The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.",
+            "hgss": "The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.",
+            "bw": "The opposing team is attacked with a spray of harsh acid. The acid may also lower the targets’ Sp. Def stats.",
+            "b2w2": "The opposing team is attacked with a spray of harsh acid. The acid may also lower the targets’ Sp. Def stats.",
+            "xy": "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.",
+            "oras": "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.",
+            "sm": "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
+            "usum": "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
+            "lgpe": "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
+            "swsh": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.",
+            "la": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.",
+            "sv": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats."
+        },
+        "french": {
+            "bw": "Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "xy": "Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser sa Défense Spéciale.",
+            "oras": "Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser sa Défense Spéciale.",
+            "sm": "Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser sa Défense Spéciale.",
+            "usum": "Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser sa Défense Spéciale.",
+            "lgpe": "Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser sa Défense Spéciale.",
+            "swsh": "Le lanceur attaque l’ennemi avec un jet d’acide corrosif. Peut aussi baisser sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "つよい　さんを　あいてに　かけて こうげきする。あいての　とくぼうを さげることが　ある。",
+            "oras": "つよい　さんを　あいてに　かけて こうげきする。あいての　とくぼうを さげることが　ある。",
+            "sm": "つよい　さんを　あいてに　かけて こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "usum": "つよい　さんを　あいてに　かけて こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "lgpe": "つよい　さんを　あいてに　かけて こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "swsh": "つよい　さんを　あいてに　かけて こうげきする。　あいての　とくぼうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "강한 산을 상대에게 끼얹어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "강한 산을 상대에게 끼얹어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "강한 산을 상대에게 끼얹어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "강한 산을 상대에게 끼얹어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "강한 산을 상대에게 끼얹어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "강한 산을 상대에게 끼얹어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.",
+            "oras": "Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.",
+            "sm": "Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.",
+            "usum": "Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.",
+            "lgpe": "Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.",
+            "swsh": "Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der gegnerischen Pokémon senkt."
+        },
+        "spanish": {
+            "xy": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "oras": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "sm": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "usum": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "lgpe": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "swsh": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial."
+        },
+        "italian": {
+            "xy": "Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.",
+            "oras": "Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.",
+            "sm": "Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.",
+            "usum": "Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.",
+            "lgpe": "Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.",
+            "swsh": "Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale."
+        },
+        "japanese": {
+            "xy": "強い　酸を　相手に　かけて 攻撃する。相手の　特防を さげることが　ある。",
+            "oras": "強い　酸を　相手に　かけて 攻撃する。相手の　特防を さげることが　ある。",
+            "sm": "強い　酸を　相手に　かけて 攻撃する。　相手の　特防を さげることが　ある。",
+            "usum": "強い　酸を　相手に　かけて 攻撃する。　相手の　特防を さげることが　ある。",
+            "lgpe": "強い　酸を　相手に　かけて 攻撃する。　相手の　特防を さげることが　ある。",
+            "swsh": "強い　酸を　相手に　かけて 攻撃する。　相手の　特防を さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "oras": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "sm": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "usum": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "lgpe": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.",
+            "swsh": "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial."
+        },
+        "traditional-chinese": {
+            "sm": "將強酸潑向對手進行攻擊。 有時會降低對手的特防。",
+            "usum": "將強酸潑向對手進行攻擊。 有時會降低對手的特防。",
+            "lgpe": "將強酸潑向對手進行攻擊。 有時會降低對手的特防。",
+            "swsh": "將強酸潑向對手進行攻擊。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "将强酸泼向对手进行攻击。 有时会降低对手的特防。",
+            "usum": "将强酸泼向对手进行攻击。 有时会降低对手的特防。",
+            "lgpe": "将强酸泼向对手进行攻击。 有时会降低对手的特防。",
+            "swsh": "将强酸泼向对手进行攻击。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

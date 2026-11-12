@@ -1,47 +1,146 @@
 {
-  "_id": 179,
-  "key": "reversal",
-  "name": {
-    "english": "Reversal",
-    "japanese": "きしかいせい",
-    "chinese": "起死回生",
-    "korean": "기사회생",
-    "german": "Inversión",
-    "french": "Gegenschlag",
-    "italian": "Reversal",
-    "spanish": "Contropiede"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Stronger if the\nuser's HP is low.",
-    "crystal": "Stronger if the\nuser's HP is low.",
-    "ruby-sapphire": "Inflicts more damage when\nthe user’s HP is down.",
-    "emerald": "Inflicts more damage when\nthe user’s HP is down.",
-    "firered-leafgreen": "An all-out attack\nthat becomes more\npowerful the less\nHP the user has.",
-    "diamond-pearl": "An all-out attack\nthat becomes more\npowerful the less\nHP the user has.\n",
-    "platinum": "An all-out attack\nthat becomes more\npowerful the less\nHP the user has.\n",
-    "heartgold-soulsilver": "An all-out attack\nthat becomes more\npowerful the less\nHP the user has.\n",
-    "black-white": "An all-out attack that becomes more\npowerful the less HP the user has.",
-    "black-2-white-2": "An all-out attack that becomes more\npowerful the less HP the user has.",
-    "x-y": "An all-out attack that becomes more\npowerful the less HP the user has.",
-    "omega-ruby-alpha-sapphire": "An all-out attack that becomes more\npowerful the less HP the user has.",
-    "sun-moon": "An all-out attack that becomes more powerful the\nless HP the user has.",
-    "ultra-sun-ultra-moon": "An all-out attack that becomes more powerful the\nless HP the user has.",
-    "lets-go-pikachu-lets-go-eevee": "An all-out attack that becomes more powerful the\nless HP the user has.",
-    "sword-shield": "An all-out attack that becomes more powerful the\nless HP the user has."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power varies inversely with the user's proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n",
-    "shortEffect": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
-  },
-  "priority": 0
+    "_id": 179,
+    "key": "reversal",
+    "name": {
+        "japanese-kana": "きしかいせい",
+        "korean": "기사회생",
+        "traditional-chinese": "起死回生",
+        "french": "Contre",
+        "german": "Gegenschlag",
+        "spanish": "Inversión",
+        "italian": "Contropiede",
+        "english": "Reversal",
+        "japanese": "きしかいせい",
+        "simplified-chinese": "绝处逢生",
+        "latin-american-spanish": "Inversión"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Stronger if the user's HP is low.",
+            "cr": "Stronger if the user's HP is low.",
+            "rs": "Inflicts more damage when the user’s HP is down.",
+            "em": "Inflicts more damage when the user’s HP is down.",
+            "frlg": "An all-out attack that becomes more powerful the less HP the user has.",
+            "dp": "An all-out attack that becomes more powerful the less HP the user has.",
+            "pt": "An all-out attack that becomes more powerful the less HP the user has.",
+            "hgss": "An all-out attack that becomes more powerful the less HP the user has.",
+            "bw": "An all-out attack that becomes more powerful the less HP the user has.",
+            "b2w2": "An all-out attack that becomes more powerful the less HP the user has.",
+            "xy": "An all-out attack that becomes more powerful the less HP the user has.",
+            "oras": "An all-out attack that becomes more powerful the less HP the user has.",
+            "sm": "An all-out attack that becomes more powerful the less HP the user has.",
+            "usum": "An all-out attack that becomes more powerful the less HP the user has.",
+            "lgpe": "An all-out attack that becomes more powerful the less HP the user has.",
+            "swsh": "An all-out attack that becomes more powerful the less HP the user has.",
+            "la": "An all-out attack that becomes more powerful the less HP the user has.",
+            "sv": "An all-out attack that becomes more powerful the less HP the user has."
+        },
+        "french": {
+            "bw": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas et plus l’attaque est puissante.",
+            "xy": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas et plus l’attaque est puissante.",
+            "oras": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas et plus l’attaque est puissante.",
+            "sm": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas et plus l’attaque est puissante.",
+            "usum": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas et plus l’attaque est puissante.",
+            "lgpe": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas et plus l’attaque est puissante.",
+            "swsh": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas, plus l’attaque est puissante."
+        },
+        "japanese-kana": {
+            "xy": "ちからを　ふりしぼり　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "oras": "ちからを　ふりしぼり　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "sm": "ちからを　ふりしぼり　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "usum": "ちからを　ふりしぼり　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "lgpe": "ちからを　ふりしぼり　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+            "swsh": "ちからを　ふりしぼり　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。"
+        },
+        "korean": {
+            "xy": "힘을 쥐어짜서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "oras": "힘을 쥐어짜서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "sm": "힘을 쥐어짜서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "usum": "힘을 쥐어짜서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "lgpe": "힘을 쥐어짜서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+            "swsh": "힘을 쥐어짜서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "oras": "Richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "sm": "Richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "usum": "Richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "lgpe": "Richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+            "swsh": "Richtet mehr Schaden an, wenn eigene KP niedrig sind."
+        },
+        "spanish": {
+            "xy": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "oras": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "sm": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "usum": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "lgpe": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "swsh": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con tutte le sue forze. Più i PS sono bassi, maggiore è la potenza di questa mossa.",
+            "oras": "Chi la usa attacca con tutte le sue forze. Più i PS sono bassi, maggiore è la potenza di questa mossa.",
+            "sm": "Chi la usa attacca con tutte le sue forze. Più i PS sono bassi, maggiore è la potenza di questa mossa.",
+            "usum": "Chi la usa attacca con tutte le sue forze. Più i PS sono bassi, maggiore è la potenza di questa mossa.",
+            "lgpe": "Chi la usa attacca con tutte le sue forze. Più i PS sono bassi, maggiore è la potenza di questa mossa.",
+            "swsh": "Chi la usa attacca con tutte le sue forze. Più i PS sono bassi, maggiore è la potenza di questa mossa."
+        },
+        "japanese": {
+            "xy": "力を　ふりしぼり　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "oras": "力を　ふりしぼり　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "sm": "力を　ふりしぼり　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "usum": "力を　ふりしぼり　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "lgpe": "力を　ふりしぼり　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+            "swsh": "力を　ふりしぼり　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "oras": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "sm": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "usum": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "lgpe": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.",
+            "swsh": "Ataque desesperado que causa más daño cuantos menos PS tenga el usuario."
+        },
+        "traditional-chinese": {
+            "sm": "竭盡全力進行攻擊。 自己的ＨＰ越少， 招式的威力越大。",
+            "usum": "竭盡全力進行攻擊。 自己的ＨＰ越少， 招式的威力越大。",
+            "lgpe": "竭盡全力進行攻擊。 自己的HP越少， 招式的威力越大。",
+            "swsh": "竭盡全力進行攻擊。 自己的ＨＰ越少， 招式的威力越大。"
+        },
+        "simplified-chinese": {
+            "sm": "竭尽全力进行攻击。 自己的ＨＰ越少， 招式的威力越大。",
+            "usum": "竭尽全力进行攻击。 自己的ＨＰ越少， 招式的威力越大。",
+            "lgpe": "竭尽全力进行攻击。 自己的HP越少， 招式的威力越大。",
+            "swsh": "竭尽全力进行攻击。 自己的ＨＰ越少， 招式的威力越大。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power varies inversely with the user’s proportional remaining HP. 64 * current HP / max HP | Power -----------------------: | ----:  0– 1                    |  200  2– 5                    |  150  6–12                    |  100 13–21                    |   80 22–42                    |   40 43–64                    |   20",
+        "shortEffect": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+    }
 }

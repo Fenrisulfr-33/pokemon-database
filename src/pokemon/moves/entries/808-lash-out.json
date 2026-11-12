@@ -1,32 +1,84 @@
 {
-  "_id": 808,
-  "key": "lash-out",
-  "name": {
-    "english": "Lash Out",
-    "japanese": "うっぷんばらし",
-    "chinese": "洩憤",
-    "korean": "분풀이",
-    "german": "Desahogo",
-    "french": "Frustventil",
-    "italian": "Lash Out",
-    "spanish": "Sfogarabbia"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user lashes out to vent its frustration toward\nthe target. If the user’s stats were lowered during this\nturn, the power of this move is doubled."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 808,
+    "key": "lash-out",
+    "name": {
+        "japanese-kana": "うっぷんばらし",
+        "korean": "분풀이",
+        "traditional-chinese": "洩憤",
+        "french": "Cent Rancunes",
+        "german": "Frustventil",
+        "spanish": "Desahogo",
+        "italian": "Sfogarabbia",
+        "english": "Lash Out",
+        "japanese": "うっぷんばらし",
+        "simplified-chinese": "泄愤",
+        "latin-american-spanish": "Desahogo"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "あいてへの　いらだちを　ぶつけて　こうげき。 そのターンに　のうりょくを　さげられていると わざの　いりょくが　２ばいに　なる。"
+        },
+        "korean": {
+            "swsh": "상대에 대한 울분이 담긴 공격을 한다. 그 턴에 능력이 떨어져 있으면 기술의 위력이 2배가 된다."
+        },
+        "traditional-chinese": {
+            "swsh": "將惱怒砸向對手進行攻擊。 如果此回合已被降低能力， 招式威力就會變成２倍。"
+        },
+        "french": {
+            "swsh": "Le lanceur frappe l’ennemi avec toute sa rancune. Si les stats du lanceur ont diminué pendant ce tour, la puissance de cette attaque est doublée."
+        },
+        "german": {
+            "swsh": "Der Anwender entlädt seinen Frust in einem Angriff. Die Stärke der Attacke wird verdoppelt, wenn seine Statuswerte in dieser Runde gesenkt wurden."
+        },
+        "spanish": {
+            "swsh": "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica."
+        },
+        "italian": {
+            "swsh": "Chi la usa attacca il bersaglio con tutta la propria ira. Se ha subito riduzioni delle statistiche durante quel turno, la potenza della mossa raddoppia."
+        },
+        "english": {
+            "swsh": "The user lashes out to vent its frustration toward the target. If the user’s stats were lowered during this turn, the power of this move is doubled.",
+            "la": "The user lashes out to vent its frustration toward the target. If its stats were lowered during the turn, the power of this move is doubled.",
+            "sv": "The user lashes out to vent its frustration toward the target. This move's power is doubled if the user's stats were lowered during this turn."
+        },
+        "japanese": {
+            "swsh": "相手への　いらだちを　ぶつけて　攻撃。 そのターンに　能力を　さげられていると 技の　威力が　２倍に　なる。"
+        },
+        "simplified-chinese": {
+            "swsh": "攻击对手以发泄对其感到的恼怒情绪。 如果在该回合内自身能力遭到降低， 招式的威力会变成２倍。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica."
+        }
+    },
+    "effect": {
+        "full": "Power doubles if the user had a stat stage lowered this turn.",
+        "shortEffect": "Power doubles if the user had a stat stage lowered this turn."
+    }
 }

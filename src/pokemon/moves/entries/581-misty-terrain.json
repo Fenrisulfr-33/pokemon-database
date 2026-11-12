@@ -1,37 +1,135 @@
 {
-  "_id": 581,
-  "key": "misty-terrain",
-  "name": {
-    "english": "Misty Terrain",
-    "japanese": "ミストフィールド",
-    "chinese": "薄雾场地",
-    "korean": "미스트필드",
-    "german": "Campo de Niebla",
-    "french": "Nebelfeld",
-    "italian": "Misty Terrain",
-    "spanish": "Campo Nebbioso"
-  },
-  "type": "Fairy",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "x-y": "The user covers the ground under everyone’s feet\nwith mist for five turns. This protects Pokémon\non the ground from status conditions.",
-    "omega-ruby-alpha-sapphire": "The user covers the ground under everyone’s feet\nwith mist for five turns. This protects Pokémon\non the ground from status conditions.",
-    "sun-moon": "This protects Pokémon on the ground from status\nconditions and halves damage from Dragon-type\nmoves for five turns.",
-    "ultra-sun-ultra-moon": "This protects Pokémon on the ground from status\nconditions and halves damage from Dragon-type\nmoves for five turns.",
-    "lets-go-pikachu-lets-go-eevee": "This protects Pokémon on the ground from status\nconditions and halves damage from Dragon-type\nmoves for five turns.",
-    "sword-shield": "This protects Pokémon on the ground from status\nconditions and halves damage from Dragon-type\nmoves for five turns."
-  },
-  "effect": {
-    "full": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens dragon moves used against them to 0.5× their power.\n\nChanges nature power to moonblast.",
-    "shortEffect": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves."
-  },
-  "priority": 0
+    "_id": 581,
+    "key": "misty-terrain",
+    "name": {
+        "japanese-kana": "ミストフィールド",
+        "korean": "미스트필드",
+        "traditional-chinese": "薄霧場地",
+        "french": "Champ Brumeux",
+        "german": "Nebelfeld",
+        "spanish": "Campo de Niebla",
+        "italian": "Campo Nebbioso",
+        "english": "Misty Terrain",
+        "japanese": "ミストフィールド",
+        "simplified-chinese": "薄雾场地",
+        "latin-american-spanish": "Campo de Niebla"
+    },
+    "type": "fairy",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　あしもとを ミストフィールドにする。　じめんにいると じょうたいいじょうに　ならない。",
+            "oras": "５ターンの　あいだ　あしもとを ミストフィールドにする。　じめんにいると じょうたいいじょうに　ならない。",
+            "sm": "５ターンのあいだ　じめんにいると じょうたいいじょうに　ならず　ドラゴン わざの　ダメージも　はんぶんになる。",
+            "usum": "５ターンのあいだ　じめんにいると じょうたいいじょうに　ならず　ドラゴン わざの　ダメージも　はんぶんになる。",
+            "lgpe": "５ターンのあいだ　じめんにいると じょうたいいじょうに　ならず　ドラゴン わざの　ダメージも　はんぶんになる。",
+            "swsh": "５ターンのあいだ　じめんにいると じょうたいいじょうに　ならず　ドラゴン わざの　ダメージも　はんぶんになる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 발밑을 미스트필드로 만든다. 땅에 있으면 상태 이상이 되지 않는다.",
+            "oras": "5턴 동안 발밑을 미스트필드로 만든다. 땅에 있으면 상태 이상이 되지 않는다.",
+            "sm": "5턴 동안 땅에 있으면 상태 이상이 되지 않고 드래곤타입 기술의 데미지도 절반이 된다.",
+            "usum": "5턴 동안 땅에 있으면 상태 이상이 되지 않고 드래곤타입 기술의 데미지도 절반이 된다.",
+            "lgpe": "5턴 동안 땅에 있으면 상태 이상이 되지 않고 드래곤타입 기술의 데미지도 절반이 된다.",
+            "swsh": "5턴 동안 땅에 있으면 상태 이상이 되지 않고 드래곤타입 기술의 데미지도 절반이 된다."
+        },
+        "french": {
+            "xy": "Pendant cinq tours, le terrain aux pieds du lanceur se couvre de brume. Les Pokémon au sol ne peuvent pas subir d’altération de statut.",
+            "oras": "Pendant cinq tours, le terrain aux pieds du lanceur se couvre de brume. Les Pokémon au sol ne peuvent pas subir d’altération de statut.",
+            "sm": "Pendant cinq tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et la puissance des capacités de type Dragon est divisée par deux.",
+            "usum": "Pendant cinq tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et la puissance des capacités de type Dragon est divisée par deux.",
+            "lgpe": "Pendant cinq tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et la puissance des capacités de type Dragon est divisée par deux.",
+            "swsh": "Pendant cinq tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et la puissance des capacités de type Dragon est divisée par deux."
+        },
+        "german": {
+            "xy": "Verwandelt den Untergrund fünf Runden lang in ein Nebelfeld und schützt alle Pokémon, die den Boden berühren, vor Statusproblemen.",
+            "oras": "Verwandelt den Untergrund fünf Runden lang in ein Nebelfeld und schützt alle Pokémon, die den Boden berühren, vor Statusproblemen.",
+            "sm": "Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.",
+            "usum": "Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.",
+            "lgpe": "Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.",
+            "swsh": "Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert."
+        },
+        "spanish": {
+            "xy": "Cubre de niebla el terreno de combate durante cinco turnos. Los Pokémon que estén en el suelo no se ven afectados por cambios de estado.",
+            "oras": "Cubre de niebla el terreno de combate durante cinco turnos. Los Pokémon que estén en el suelo no se ven afectados por cambios de estado.",
+            "sm": "Durante cinco turnos, los Pokémon que están en el suelo no sufren cambios de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.",
+            "usum": "Durante cinco turnos, los Pokémon que están en el suelo no sufren cambios de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.",
+            "lgpe": "Durante cinco turnos, los Pokémon que están en el suelo no sufren cambios de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.",
+            "swsh": "Durante cinco turnos, los Pokémon que están en el suelo no sufren problemas de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón."
+        },
+        "italian": {
+            "xy": "Per cinque turni trasforma il terreno di lotta in un campo nebbioso, impedendo ai Pokémon a terra di essere colpiti da problemi di stato.",
+            "oras": "Per cinque turni trasforma il terreno di lotta in un campo nebbioso, impedendo ai Pokémon a terra di essere colpiti da problemi di stato.",
+            "sm": "Per cinque turni il terreno entra nello stato di Campo Nebbioso: i Pokémon a terra sono immuni ai problemi di stato e la potenza delle mosse Drago è dimezzata.",
+            "usum": "Per cinque turni il terreno entra nello stato di Campo Nebbioso: i Pokémon a terra sono immuni ai problemi di stato e la potenza delle mosse Drago è dimezzata.",
+            "lgpe": "Per cinque turni il terreno entra nello stato di Campo Nebbioso: i Pokémon a terra sono immuni ai problemi di stato e la potenza delle mosse Drago è dimezzata.",
+            "swsh": "Per cinque turni il terreno entra nello stato di Campo Nebbioso: i Pokémon a terra sono immuni ai problemi di stato e la potenza delle mosse Drago è dimezzata."
+        },
+        "english": {
+            "xy": "The user covers the ground under everyone’s feet with mist for five turns. This protects Pokémon on the ground from status conditions.",
+            "oras": "The user covers the ground under everyone’s feet with mist for five turns. This protects Pokémon on the ground from status conditions.",
+            "sm": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+            "usum": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+            "lgpe": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+            "swsh": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+            "la": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+            "sv": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　足元を ミストフィールドにする。地面にいると 状態異常に　ならない。",
+            "oras": "５ターンの　あいだ　足元を ミストフィールドにする。地面にいると 状態異常に　ならない。",
+            "sm": "５ターンの　間　地面にいると 状態異常に　ならず　ドラゴン技の ダメージも　半分になる。",
+            "usum": "５ターンの　間　地面にいると 状態異常に　ならず　ドラゴン技の ダメージも　半分になる。",
+            "lgpe": "５ターンの　間　地面にいると 状態異常に　ならず　ドラゴン技の ダメージも　半分になる。",
+            "swsh": "５ターンの　間　地面にいると 状態異常に　ならず　ドラゴン技の ダメージも　半分になる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cubre de niebla el terreno de combate durante cinco turnos. Los Pokémon que estén en el suelo no se ven afectados por cambios de estado.",
+            "oras": "Cubre de niebla el terreno de combate durante cinco turnos. Los Pokémon que estén en el suelo no se ven afectados por cambios de estado.",
+            "sm": "Durante cinco turnos, los Pokémon que están en el suelo no sufren cambios de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.",
+            "usum": "Durante cinco turnos, los Pokémon que están en el suelo no sufren cambios de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.",
+            "lgpe": "Durante cinco turnos, los Pokémon que están en el suelo no sufren cambios de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.",
+            "swsh": "Durante cinco turnos, los Pokémon que están en el suelo no sufren problemas de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內， 地面上的寶可夢不會陷入異常狀態。 龍屬性招式的傷害也會減半。",
+            "usum": "在５回合內， 地面上的寶可夢不會陷入異常狀態。 龍屬性招式的傷害也會減半。",
+            "lgpe": "在５回合內， 地面上的寶可夢不會陷入異常狀態。 龍屬性招式的傷害也會減半。",
+            "swsh": "在５回合內， 地面上的寶可夢不會陷入異常狀態。 龍屬性招式的傷害也會減半。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内， 地面上的宝可梦不会陷入异常状态。 龙属性招式的伤害也会减半。",
+            "usum": "在５回合内， 地面上的宝可梦不会陷入异常状态。 龙属性招式的伤害也会减半。",
+            "lgpe": "在５回合内， 地面上的宝可梦不会陷入异常状态。 龙属性招式的伤害也会减半。",
+            "swsh": "在５回合内， 地面上的宝可梦不会陷入异常状态。 龙属性招式的伤害也会减半。"
+        }
+    },
+    "effect": {
+        "full": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power. Changes Nature Power to Moonblast.",
+        "shortEffect": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves."
+    }
 }

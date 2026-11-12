@@ -1,47 +1,146 @@
 {
-  "_id": 31,
-  "key": "fury-attack",
-  "name": {
-    "english": "Fury Attack",
-    "japanese": "みだれづき",
-    "chinese": "疯狂攻击",
-    "korean": "마구찌르기",
-    "german": "Ataque Furia",
-    "french": "Furienschlag",
-    "italian": "Fury Attack",
-    "spanish": "Furia"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 15,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Jabs the target\n2-5 times.",
-    "crystal": "Jabs the target\n2-5 times.",
-    "ruby-sapphire": "Jabs the foe 2 to 5 times\nwith sharp horns, etc.",
-    "emerald": "Jabs the foe 2 to 5 times\nwith sharp horns, etc.",
-    "firered-leafgreen": "The foe is jabbed\nrepeatedly with a\nhorn or beak two to\nfive times.",
-    "diamond-pearl": "The foe is jabbed\nrepeatedly with a\nhorn or beak two to\nfive times in a row.\n",
-    "platinum": "The foe is jabbed\nrepeatedly with a\nhorn or beak two to\nfive times in a row.\n",
-    "heartgold-soulsilver": "The foe is jabbed\nrepeatedly with a\nhorn or beak two to\nfive times in a row.\n",
-    "black-white": "The target is jabbed repeatedly with a\nhorn or beak two to five times in a row.",
-    "black-2-white-2": "The target is jabbed repeatedly with a\nhorn or beak two to five times in a row.",
-    "x-y": "The target is jabbed repeatedly with a\nhorn or beak two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "The target is jabbed repeatedly with a\nhorn or beak two to five times in a row.",
-    "sun-moon": "The target is jabbed repeatedly with a horn or beak\ntwo to five times in a row.",
-    "ultra-sun-ultra-moon": "The target is jabbed repeatedly with a horn or beak\ntwo to five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The target is jabbed repeatedly with a horn or beak\ntwo to five times in a row.",
-    "sword-shield": "The target is jabbed repeatedly with a horn or beak\ntwo to five times in a row."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 31,
+    "key": "fury-attack",
+    "name": {
+        "japanese-kana": "みだれづき",
+        "korean": "마구찌르기",
+        "traditional-chinese": "亂擊",
+        "french": "Furie",
+        "german": "Furienschlag",
+        "spanish": "Ataque Furia",
+        "italian": "Furia",
+        "english": "Fury Attack",
+        "japanese": "みだれづき",
+        "simplified-chinese": "乱击",
+        "latin-american-spanish": "Ataque Furia"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Jabs the target 2-5 times.",
+            "cr": "Jabs the target 2-5 times.",
+            "rs": "Jabs the foe 2 to 5 times with sharp horns, etc.",
+            "em": "Jabs the foe 2 to 5 times with sharp horns, etc.",
+            "frlg": "The foe is jabbed repeatedly with a horn or beak two to five times.",
+            "dp": "The foe is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "pt": "The foe is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "hgss": "The foe is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "bw": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "b2w2": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "xy": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "oras": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "sm": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "usum": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "lgpe": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "swsh": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "la": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+            "sv": "The user attacks by jabbing the target with a horn, a beak, or the like. This move hits two to five times in a row."
+        },
+        "french": {
+            "bw": "Frappe l’ennemi 2 à 5 fois d’affilée avec un bec ou une corne.",
+            "xy": "Frappe l’ennemi deux à cinq fois d’affilée avec un bec ou une corne, par exemple.",
+            "oras": "Frappe l’ennemi deux à cinq fois d’affilée avec un bec ou une corne, par exemple.",
+            "sm": "Frappe l’ennemi deux à cinq fois d’affilée avec un bec ou une corne, par exemple.",
+            "usum": "Frappe l’ennemi deux à cinq fois d’affilée avec un bec ou une corne, par exemple.",
+            "lgpe": "Frappe l’ennemi deux à cinq fois d’affilée avec un bec ou une corne, par exemple.",
+            "swsh": "Frappe l’ennemi deux à cinq fois d’affilée avec un bec ou une corne, par exemple."
+        },
+        "japanese-kana": {
+            "xy": "つのや　くちばしで あいてを　つついて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "つのや　くちばしで あいてを　つついて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "つのや　くちばしで あいてを　つついて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "つのや　くちばしで あいてを　つついて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "つのや　くちばしで あいてを　つついて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "つのや　くちばしで あいてを　つついて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。"
+        },
+        "korean": {
+            "xy": "뿔이나 부리로 상대를 찔러서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "뿔이나 부리로 상대를 찔러서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "뿔이나 부리로 상대를 찔러서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "뿔이나 부리로 상대를 찔러서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "뿔이나 부리로 상대를 찔러서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "뿔이나 부리로 상대를 찔러서 공격한다. 2-5회 동안 연속으로 쓴다."
+        },
+        "german": {
+            "xy": "Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.",
+            "oras": "Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.",
+            "sm": "Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.",
+            "usum": "Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.",
+            "lgpe": "Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.",
+            "swsh": "Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf."
+        },
+        "spanish": {
+            "xy": "Cornea al objetivo de dos a cinco veces.",
+            "oras": "Cornea al objetivo de dos a cinco veces.",
+            "sm": "Cornea al objetivo de dos a cinco veces.",
+            "usum": "Cornea al objetivo de dos a cinco veces.",
+            "lgpe": "Cornea al objetivo de dos a cinco veces.",
+            "swsh": "Cornea al objetivo de dos a cinco veces."
+        },
+        "italian": {
+            "xy": "Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila.",
+            "oras": "Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila.",
+            "sm": "Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila.",
+            "usum": "Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila.",
+            "lgpe": "Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila.",
+            "swsh": "Infilza il bersaglio con corna affilate o con il becco da due a cinque volte di fila."
+        },
+        "japanese": {
+            "xy": "つのや　くちばしで 相手を　つついて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "つのや　くちばしで 相手を　つついて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "つのや　くちばしで 相手を　つついて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "つのや　くちばしで 相手を　つついて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "つのや　くちばしで 相手を　つついて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "つのや　くちばしで 相手を　つついて　攻撃する。 ２ー５回の　間　連続で　だす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cornea al objetivo de dos a cinco veces.",
+            "oras": "Cornea al objetivo de dos a cinco veces.",
+            "sm": "Cornea al objetivo de dos a cinco veces.",
+            "usum": "Cornea al objetivo de dos a cinco veces.",
+            "lgpe": "Cornea al objetivo de dos a cinco veces.",
+            "swsh": "Cornea al objetivo de dos a cinco veces."
+        },
+        "traditional-chinese": {
+            "sm": "用角或喙 刺向對手進行攻擊。 連續攻擊２～５次。",
+            "usum": "用角或喙 刺向對手進行攻擊。 連續攻擊２～５次。",
+            "lgpe": "用角或喙 刺向對手進行攻擊。 連續攻擊２～５次。",
+            "swsh": "用角或喙 刺向對手進行攻擊。 連續攻擊２～５次。"
+        },
+        "simplified-chinese": {
+            "sm": "用角或喙 刺向对手进行攻击。 连续攻击２～５次。",
+            "usum": "用角或喙 刺向对手进行攻击。 连续攻击２～５次。",
+            "lgpe": "用角或喙 刺向对手进行攻击。 连续攻击２～５次。",
+            "swsh": "用角或喙 刺向对手进行攻击。 连续攻击２～５次。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

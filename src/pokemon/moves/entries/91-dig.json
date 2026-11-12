@@ -1,47 +1,160 @@
 {
-  "_id": 91,
-  "key": "dig",
-  "name": {
-    "english": "Dig",
-    "japanese": "あなをほる",
-    "chinese": "挖地洞",
-    "korean": "구멍파기",
-    "german": "Excavar",
-    "french": "Schaufler",
-    "italian": "Dig",
-    "spanish": "Fossa"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "crystal": "1st turn: Burrow\n2nd turn: Attack",
-    "ruby-sapphire": "Digs underground the first\nturn and strikes next turn.",
-    "emerald": "Digs underground the first\nturn and strikes next turn.",
-    "gold-silver": "1st turn: Burrow\n2nd turn: Attack",
-    "firered-leafgreen": "An attack that hits\non the 2nd turn.\nCan also be used\nto exit dungeons.",
-    "diamond-pearl": "The user burrows,\nthen attacks on the\nsecond turn.\nIt can also be used\nto exit dungeons.",
-    "platinum": "The user burrows,\nthen attacks on the\nsecond turn.\nIt can also be used\nto exit dungeons.",
-    "heartgold-soulsilver": "The user burrows,\nthen attacks on the\nsecond turn.\nIt can also be used\nto exit dungeons.",
-    "black-white": "The user burrows, then attacks\non the second turn.\nIt can also be used to exit dungeons.",
-    "black-2-white-2": "The user burrows, then attacks\non the second turn.\nIt can also be used to exit dungeons.",
-    "x-y": "The user burrows, then attacks\non the next turn.\nIt can also be used to exit dungeons.",
-    "omega-ruby-alpha-sapphire": "The user burrows, then attacks\non the next turn.\nIt can also be used to exit dungeons.",
-    "sun-moon": "The user burrows, then attacks on the next turn.",
-    "ultra-sun-ultra-moon": "The user burrows, then attacks on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user burrows into the ground, then attacks on\nthe next turn.",
-    "sword-shield": "The user burrows into the ground, then attacks on\nthe next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, earthquake, fissure, and magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "User digs underground, dodging all attacks, and hits next turn."
-  },
-  "priority": 0
+    "_id": 91,
+    "key": "dig",
+    "name": {
+        "japanese-kana": "あなをほる",
+        "korean": "구멍파기",
+        "traditional-chinese": "挖洞",
+        "french": "Tunnel",
+        "german": "Schaufler",
+        "spanish": "Excavar",
+        "italian": "Fossa",
+        "english": "Dig",
+        "japanese": "あなをほる",
+        "simplified-chinese": "挖洞",
+        "latin-american-spanish": "Excavar"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "power": 100
+        },
+        "dp": {
+            "power": 60
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "Météores peut toucher le lanceur lorsqu’il est sous terre, contrairement aux autres capacités. A cause d’un bug, si le lanceur ne parvient pas à effectuer le deuxième tour de la capcité, par exemple à cause d’une paralysis, il reste sous terre jusqu’à ce qu’il soit rappelé ou utilise à nouveau Tunnel avec succès. Il peut agir comme s’il était à la surface pendant ce temps, mais les capacités continuent de ne pas le toucher."
+        },
+        "english": {
+            "gs": "Swift can hit the user while underground, and no other moves can.  Due to a bug, if the user fails to carry out the move’s second turn, e.g. due to paralysis, it remains underground until it switches out or uses Dig again successfully.  It can act as if it were aboveground in the meantime, but moves still miss it."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "1st turn: Burrow 2nd turn: Attack",
+            "cr": "1st turn: Burrow 2nd turn: Attack",
+            "rs": "Digs underground the first turn and strikes next turn.",
+            "em": "Digs underground the first turn and strikes next turn.",
+            "frlg": "An attack that hits on the 2nd turn. Can also be used to exit dungeons.",
+            "dp": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
+            "pt": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
+            "hgss": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
+            "bw": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
+            "b2w2": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
+            "xy": "The user burrows, then attacks on the next turn. It can also be used to exit dungeons.",
+            "oras": "The user burrows, then attacks on the next turn. It can also be used to exit dungeons.",
+            "sm": "The user burrows, then attacks on the next turn.",
+            "usum": "The user burrows, then attacks on the next turn.",
+            "lgpe": "The user burrows into the ground, then attacks on the next turn.",
+            "swsh": "The user burrows into the ground, then attacks on the next turn.",
+            "la": "The user burrows into the ground, then attacks on the next turn.",
+            "sv": "The user burrows into the ground on the first turn, then attacks on the next turn."
+        },
+        "french": {
+            "bw": "Le lanceur creuse au 1er tour et frappe au 2è. Permet aussi de s’échapper d’un donjon.",
+            "xy": "Le lanceur creuse au premier tour et frappe au second. Permet aussi de sortir des grottes.",
+            "oras": "Le lanceur creuse au premier tour et frappe au second. Permet aussi de sortir des grottes.",
+            "sm": "Le lanceur creuse au premier tour et frappe au second.",
+            "usum": "Le lanceur creuse au premier tour et frappe au second.",
+            "lgpe": "Le lanceur creuse au premier tour et frappe au second.",
+            "swsh": "Le lanceur creuse au premier tour et frappe au second."
+        },
+        "japanese-kana": {
+            "xy": "１ターンめに　もぐり　２ターンめで あいてを　こうげきする。どうくつ からの　だっしゅつも　できる。",
+            "oras": "１ターンめに　もぐり　２ターンめで あいてを　こうげきする。どうくつ からの　だっしゅつも　できる。",
+            "sm": "１ターンめに　もぐり　２ターンめで あいてを　こうげきする。",
+            "usum": "１ターンめに　もぐり　２ターンめで あいてを　こうげきする。",
+            "lgpe": "１ターンめに　もぐり　２ターンめで あいてを　こうげきする。",
+            "swsh": "１ターンめに　もぐり　２ターンめで あいてを　こうげきする。"
+        },
+        "korean": {
+            "xy": "1턴째에 파고들어 2턴째에 상대를 공격한다. 동굴에서 탈출할 수도 있다.",
+            "oras": "1턴째에 파고들어 2턴째에 상대를 공격한다. 동굴에서 탈출할 수도 있다.",
+            "sm": "1턴째에 파고들어 2턴째에 상대를 공격한다.",
+            "usum": "1턴째에 파고들어 2턴째에 상대를 공격한다.",
+            "lgpe": "1턴째에 파고들어 2턴째에 상대를 공격한다.",
+            "swsh": "1턴째에 파고들어 2턴째에 상대를 공격한다."
+        },
+        "german": {
+            "xy": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an. Macht Flucht aus Höhlen möglich.",
+            "oras": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an. Macht Flucht aus Höhlen möglich.",
+            "sm": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an.",
+            "usum": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an.",
+            "lgpe": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an.",
+            "swsh": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an."
+        },
+        "spanish": {
+            "xy": "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas.",
+            "oras": "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas.",
+            "sm": "Primer turno: cava. Segundo turno: ataca.",
+            "usum": "Primer turno: cava. Segundo turno: ataca.",
+            "lgpe": "Primer turno: cava. Segundo turno: ataca.",
+            "swsh": "El usuario cava durante el primer turno y ataca en el segundo."
+        },
+        "italian": {
+            "xy": "Chi la usa scava al primo turno e attacca al successivo. Fuori dalla lotta fa uscire da alcuni luoghi.",
+            "oras": "Chi la usa scava al primo turno e attacca al successivo. Fuori dalla lotta fa uscire da alcuni luoghi.",
+            "sm": "Chi la usa scava al primo turno e attacca al successivo.",
+            "usum": "Chi la usa scava al primo turno e attacca al successivo.",
+            "lgpe": "Chi la usa scava al primo turno e attacca al successivo.",
+            "swsh": "Chi la usa scava al primo turno e attacca al successivo."
+        },
+        "japanese": {
+            "xy": "１ターン目に　潜り　２ターン目で 相手を　攻撃する。 洞窟からの　脱出も　できる。",
+            "oras": "１ターン目に　潜り　２ターン目で 相手を　攻撃する。 洞窟からの　脱出も　できる。",
+            "sm": "１ターン目に　潜り　２ターン目で 相手を　攻撃する。",
+            "usum": "１ターン目に　潜り　２ターン目で 相手を　攻撃する。",
+            "lgpe": "１ターン目に　潜り　２ターン目で 相手を　攻撃する。",
+            "swsh": "１ターン目に　潜り　２ターン目で 相手を　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas.",
+            "oras": "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas.",
+            "sm": "Primer turno: cava. Segundo turno: ataca.",
+            "usum": "Primer turno: cava. Segundo turno: ataca.",
+            "lgpe": "Primer turno: cava. Segundo turno: ataca.",
+            "swsh": "El usuario cava durante el primer turno y ataca en el segundo."
+        },
+        "traditional-chinese": {
+            "sm": "使用後的第１回合潛入地底， 並於第２回合攻擊對手。",
+            "usum": "使用後的第１回合潛入地底， 並於第２回合攻擊對手。",
+            "lgpe": "使用後的第１回合潛入地底， 並於第２回合攻擊對手。",
+            "swsh": "使用後的第１回合潛入地底， 並於第２回合攻擊對手。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合钻入， 第２回合攻击对手。",
+            "usum": "第１回合钻入， 第２回合攻击对手。",
+            "lgpe": "第１回合钻入， 第２回合攻击对手。",
+            "swsh": "第１回合钻入， 第２回合攻击对手。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn. During the immune turn, Earthquake, Fissure, and Magnitude still hit the user normally, and their power is doubled if appropriate. The user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "User digs underground, dodging all attacks, and hits next turn."
+    }
 }

@@ -1,47 +1,148 @@
 {
-  "_id": 149,
-  "key": "psywave",
-  "name": {
-    "english": "Psywave",
-    "japanese": "サイコウェーブ",
-    "chinese": "幻象波",
-    "korean": "사이코웨이브",
-    "german": "Psicoonda",
-    "french": "Psywelle",
-    "italian": "Psywave",
-    "spanish": "Psiconda"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack with\nvariable power.",
-    "crystal": "An attack with\nvariable power.",
-    "ruby-sapphire": "Attacks with a psychic\nwave of varying intensity.",
-    "emerald": "Attacks with a psychic\nwave of varying intensity.",
-    "firered-leafgreen": "The foe is attacked\nwith an odd, hot\nenergy wave that\nvaries in intensity.",
-    "diamond-pearl": "The foe is attacked\nwith an odd, hot\nenergy wave.\nThe attack varies in\nintensity.",
-    "platinum": "The foe is attacked\nwith an odd, hot\nenergy wave.\nThe attack varies in\nintensity.",
-    "heartgold-soulsilver": "The foe is attacked\nwith an odd, hot\nenergy wave.\nThe attack varies in\nintensity.",
-    "black-white": "The target is attacked with an odd \npsychic wave.\nThe attack varies in intensity.",
-    "black-2-white-2": "The target is attacked with an odd\npsychic wave.\nThe attack varies in intensity.",
-    "x-y": "The target is attacked with an odd\npsychic wave.\nThe attack varies in intensity.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with an odd\npsychic wave.\nThe attack varies in intensity.",
-    "sun-moon": "The target is attacked with an odd psychic wave.\nThe attack varies in intensity.",
-    "ultra-sun-ultra-moon": "The target is attacked with an odd psychic wave.\nThe attack varies in intensity.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with an odd psychic wave.\nThe attack varies in intensity.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts typeless damage between 50% and 150% of the user's level, selected at random in increments of 10%.",
-    "shortEffect": "Inflicts damage between 50% and 150% of the user's level."
-  },
-  "priority": 0
+    "_id": 149,
+    "key": "psywave",
+    "name": {
+        "japanese-kana": "サイコウェーブ",
+        "korean": "사이코웨이브",
+        "traditional-chinese": "精神波",
+        "french": "Vague Psy",
+        "german": "Psywelle",
+        "spanish": "Psicoonda",
+        "italian": "Psiconda",
+        "english": "Psywave",
+        "japanese": "サイコウェーブ",
+        "simplified-chinese": "精神波",
+        "latin-american-spanish": "Psicoonda"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "smart",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "accuracy": 80
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack with variable power.",
+            "cr": "An attack with variable power.",
+            "rs": "Attacks with a psychic wave of varying intensity.",
+            "em": "Attacks with a psychic wave of varying intensity.",
+            "frlg": "The foe is attacked with an odd, hot energy wave that varies in intensity.",
+            "dp": "The foe is attacked with an odd, hot energy wave. The attack varies in intensity.",
+            "pt": "The foe is attacked with an odd, hot energy wave. The attack varies in intensity.",
+            "hgss": "The foe is attacked with an odd, hot energy wave. The attack varies in intensity.",
+            "bw": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+            "b2w2": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+            "xy": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+            "oras": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+            "sm": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+            "usum": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+            "lgpe": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’intensité variable.",
+            "xy": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’intensité variable.",
+            "oras": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’intensité variable.",
+            "sm": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’intensité variable.",
+            "usum": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’intensité variable.",
+            "lgpe": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’intensité variable.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ふしぎな　ねんぱを あいてに　はっしゃして　こうげきする。 つかう　たびに　ダメージが　かわる。",
+            "oras": "ふしぎな　ねんぱを あいてに　はっしゃして　こうげきする。 つかう　たびに　ダメージが　かわる。",
+            "sm": "ふしぎな　ねんぱを あいてに　はっしゃして　こうげきする。 つかう　たびに　ダメージが　かわる。",
+            "usum": "ふしぎな　ねんぱを あいてに　はっしゃして　こうげきする。 つかう　たびに　ダメージが　かわる。",
+            "lgpe": "ふしぎな　ねんぱを あいてに　はっしゃして　こうげきする。 つかう　たびに　ダメージが　かわる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "이상한 염력파를 상대에게 발사하여 공격한다. 사용할 때마다 데미지가 바뀐다.",
+            "oras": "이상한 염력파를 상대에게 발사하여 공격한다. 사용할 때마다 데미지가 바뀐다.",
+            "sm": "이상한 염력파를 상대에게 발사하여 공격한다. 사용할 때마다 데미지가 바뀐다.",
+            "usum": "이상한 염력파를 상대에게 발사하여 공격한다. 사용할 때마다 데미지가 바뀐다.",
+            "lgpe": "이상한 염력파를 상대에게 발사하여 공격한다. 사용할 때마다 데미지가 바뀐다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Anwender erzeugt eine mysteriöse Energiewelle, deren Intensität von Mal zu Mal anders ausfällt.",
+            "oras": "Anwender erzeugt eine mysteriöse Energiewelle, deren Intensität von Mal zu Mal anders ausfällt.",
+            "sm": "Anwender erzeugt eine mysteriöse Energiewelle, deren Intensität von Mal zu Mal anders ausfällt.",
+            "usum": "Anwender erzeugt eine mysteriöse Energiewelle, deren Intensität von Mal zu Mal anders ausfällt.",
+            "lgpe": "Anwender erzeugt eine mysteriöse Energiewelle, deren Intensität von Mal zu Mal anders ausfällt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Ataque con una onda de energía de intensidad variable.",
+            "oras": "Ataque con una onda de energía de intensidad variable.",
+            "sm": "Ataque con una onda de energía de intensidad variable.",
+            "usum": "Ataque con una onda de energía de intensidad variable.",
+            "lgpe": "Ataque con una onda de energía de intensidad variable.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una strana onda psichica. Ha un’intensità variabile.",
+            "oras": "Colpisce il bersaglio con una strana onda psichica. Ha un’intensità variabile.",
+            "sm": "Colpisce il bersaglio con una strana onda psichica. Ha un’intensità variabile.",
+            "usum": "Colpisce il bersaglio con una strana onda psichica. Ha un’intensità variabile.",
+            "lgpe": "Colpisce il bersaglio con una strana onda psichica. Ha un’intensità variabile.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "不思議な　念波を 相手に　発射して　攻撃する。 使うたびに　ダメージが　変わる。",
+            "oras": "不思議な　念波を 相手に　発射して　攻撃する。 使うたびに　ダメージが　変わる。",
+            "sm": "不思議な　念波を 相手に　発射して　攻撃する。 使うたびに　ダメージが　変わる。",
+            "usum": "不思議な　念波を 相手に　発射して　攻撃する。 使うたびに　ダメージが　変わる。",
+            "lgpe": "不思議な　念波を 相手に　発射して　攻撃する。 使うたびに　ダメージが　変わる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque con una onda de energía de intensidad variable.",
+            "oras": "Ataque con una onda de energía de intensidad variable.",
+            "sm": "Ataque con una onda de energía de intensidad variable.",
+            "usum": "Ataque con una onda de energía de intensidad variable.",
+            "lgpe": "Ataque con una onda de energía de intensidad variable.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 神奇的念力波進行攻擊。 每次給予的傷害都不同。",
+            "usum": "向對手發射 神奇的念力波進行攻擊。 每次給予的傷害都不同。",
+            "lgpe": "向對手發射 神奇的念力波進行攻擊。 每次給予的傷害都不同。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 神奇的念波进行攻击。 每次使用，伤害都会改变。",
+            "usum": "向对手发射 神奇的念波进行攻击。 每次使用，伤害都会改变。",
+            "lgpe": "向对手发射 神奇的念波进行攻击。 每次使用，伤害都会改变。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts typeless damage between 50% and 150% of the user’s level, selected at random in increments of 10%.",
+        "shortEffect": "Inflicts damage between 50% and 150% of the user’s level."
+    }
 }

@@ -1,45 +1,142 @@
 {
-  "_id": 287,
-  "key": "refresh",
-  "name": {
-    "english": "Refresh",
-    "japanese": "リフレッシュ",
-    "chinese": "清新",
-    "korean": "리프레쉬",
-    "german": "Alivio",
-    "french": "Heilung",
-    "italian": "Refresh",
-    "spanish": "Rinfrescata"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Heals poisoning, paralysis,\nor a burn.",
-    "emerald": "Heals poisoning, paralysis,\nor a burn.",
-    "firered-leafgreen": "A self-healing move\nthat cures the user\nof a poisoning,\nburn, or paralysis.",
-    "diamond-pearl": "The user rests\nto cure itself of a\npoisoning, burn, or\nparalysis.\n",
-    "platinum": "The user rests\nto cure itself of a\npoisoning, burn, or\nparalysis.\n",
-    "heartgold-soulsilver": "The user rests\nto cure itself of a\npoisoning, burn, or\nparalysis.\n",
-    "black-white": "The user rests to cure itself of a\npoisoning, burn, or paralysis.",
-    "black-2-white-2": "The user rests to cure itself of a\npoisoning, burn, or paralysis.",
-    "x-y": "The user rests to cure itself of a\npoisoning, burn, or paralysis.",
-    "omega-ruby-alpha-sapphire": "The user rests to cure itself of a\npoisoning, burn, or paralysis.",
-    "sun-moon": "The user rests to cure itself of poisoning, a burn,\nor paralysis.",
-    "ultra-sun-ultra-moon": "The user rests to cure itself of poisoning, a burn,\nor paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user rests to cure itself of poisoning, a burn,\nor paralysis.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Removes a burn, paralysis, or poison from the user.",
-    "shortEffect": "Cleanses the user of a burn, paralysis, or poison."
-  },
-  "priority": 0
+    "_id": 287,
+    "key": "refresh",
+    "name": {
+        "japanese-kana": "リフレッシュ",
+        "korean": "리프레시",
+        "traditional-chinese": "煥然一新",
+        "french": "Régénération",
+        "german": "Heilung",
+        "spanish": "Alivio",
+        "italian": "Rinfrescata",
+        "english": "Refresh",
+        "japanese": "リフレッシュ",
+        "simplified-chinese": "焕然一新",
+        "latin-american-spanish": "Alivio"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Heals poisoning, paralysis, or a burn.",
+            "em": "Heals poisoning, paralysis, or a burn.",
+            "frlg": "A self-healing move that cures the user of a poisoning, burn, or paralysis.",
+            "dp": "The user rests to cure itself of a poisoning, burn, or paralysis.",
+            "pt": "The user rests to cure itself of a poisoning, burn, or paralysis.",
+            "hgss": "The user rests to cure itself of a poisoning, burn, or paralysis.",
+            "bw": "The user rests to cure itself of a poisoning, burn, or paralysis.",
+            "b2w2": "The user rests to cure itself of a poisoning, burn, or paralysis.",
+            "xy": "The user rests to cure itself of a poisoning, burn, or paralysis.",
+            "oras": "The user rests to cure itself of a poisoning, burn, or paralysis.",
+            "sm": "The user rests to cure itself of poisoning, a burn, or paralysis.",
+            "usum": "The user rests to cure itself of poisoning, a burn, or paralysis.",
+            "lgpe": "The user rests to cure itself of poisoning, a burn, or paralysis.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur se repose pour guérir d’un empoisonnement, d’une brûlure ou d’une paralysie.",
+            "xy": "Le lanceur se repose pour guérir d’un empoisonnement, d’une brûlure ou d’une paralysie.",
+            "oras": "Le lanceur se repose pour guérir d’un empoisonnement, d’une brûlure ou d’une paralysie.",
+            "sm": "Le lanceur se repose pour guérir d’un empoisonnement, d’une brûlure ou d’une paralysie.",
+            "usum": "Le lanceur se repose pour guérir d’un empoisonnement, d’une brûlure ou d’une paralysie.",
+            "lgpe": "Le lanceur se repose pour guérir d’un empoisonnement, d’une brûlure ou d’une paralysie.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "からだを　やすめて　じぶんが　おっている どく　まひ　やけどの じょうたい　いじょうを　なおす。",
+            "oras": "からだを　やすめて　じぶんが　おっている どく　まひ　やけどの じょうたい　いじょうを　なおす。",
+            "sm": "からだを　やすめて　じぶんが　おっている どく　まひ　やけどの じょうたい　いじょうを　なおす。",
+            "usum": "からだを　やすめて　じぶんが　おっている どく　まひ　やけどの じょうたい　いじょうを　なおす。",
+            "lgpe": "からだを　やすめて　じぶんが　おっている どく　まひ　やけどの じょうたい　いじょうを　なおす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "몸을 쉬게 하여 자신이 입은 독, 마비, 화상의 상태 이상을 치료한다.",
+            "oras": "몸을 쉬게 하여 자신이 입은 독, 마비, 화상의 상태 이상을 치료한다.",
+            "sm": "몸을 쉬게 하여 자신이 입은 독, 마비, 화상의 상태 이상을 치료한다.",
+            "usum": "몸을 쉬게 하여 자신이 입은 독, 마비, 화상의 상태 이상을 치료한다.",
+            "lgpe": "몸을 쉬게 하여 자신이 입은 독, 마비, 화상의 상태 이상을 치료한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Selbstheilung bei Vergiftung, Paralyse und Verbrennung.",
+            "oras": "Selbstheilung bei Vergiftung, Paralyse und Verbrennung.",
+            "sm": "Selbstheilung bei Vergiftung, Paralyse und Verbrennung.",
+            "usum": "Selbstheilung bei Vergiftung, Paralyse und Verbrennung.",
+            "lgpe": "Selbstheilung bei Vergiftung, Paralyse und Verbrennung.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "oras": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "sm": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "usum": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "lgpe": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.",
+            "oras": "Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.",
+            "sm": "Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.",
+            "usum": "Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.",
+            "lgpe": "Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "体を　やすめて　自分が　おっている 毒　まひ　やけどの 状態異常を　治す。",
+            "oras": "体を　やすめて　自分が　おっている 毒　まひ　やけどの 状態異常を　治す。",
+            "sm": "体を　やすめて　自分が　おっている 毒　まひ　やけどの 状態異常を　治す。",
+            "usum": "体を　やすめて　自分が　おっている 毒　まひ　やけどの 状態異常を　治す。",
+            "lgpe": "体を　やすめて　自分が　おっている 毒　まひ　やけどの 状態異常を　治す。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "oras": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "sm": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "usum": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "lgpe": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "讓身體休息， 治癒自己身上的 中毒、麻痺、灼傷的異常狀態。",
+            "usum": "讓身體休息， 治癒自己身上的 中毒、麻痺、灼傷的異常狀態。",
+            "lgpe": "讓身體休息， 治癒自己身上的 中毒、麻痺、灼傷的異常狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "让身体休息， 治愈自己身上所中的 毒、麻痹、灼伤的异常状态。",
+            "usum": "让身体休息， 治愈自己身上所中的 毒、麻痹、灼伤的异常状态。",
+            "lgpe": "让身体休息， 治愈自己身上所中的 毒、麻痹、灼伤的异常状态。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Removes a burn, paralysis, or poison from the user.",
+        "shortEffect": "Cleanses the user of a burn, paralysis, or poison."
+    }
 }

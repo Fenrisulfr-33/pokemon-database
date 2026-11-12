@@ -1,45 +1,144 @@
 {
-  "_id": 263,
-  "key": "facade",
-  "name": {
-    "english": "Facade",
-    "japanese": "からげんき",
-    "chinese": "假勇敢",
-    "korean": "객기",
-    "german": "Imagen",
-    "french": "Fassade",
-    "italian": "Facade",
-    "spanish": "Facciata"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 20,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Boosts ATTACK when burned,\nparalyzed, or poisoned.",
-    "emerald": "Boosts ATTACK when burned,\nparalyzed, or poisoned.",
-    "firered-leafgreen": "An attack that is\nboosted if user is\nburned, poisoned,\nor paralyzed.",
-    "diamond-pearl": "An attack move that\ndoubles its power if\nthe user is poisoned,\nparalyzed, or has a\nburn.",
-    "platinum": "An attack move that\ndoubles its power if\nthe user is poisoned,\nparalyzed, or has a\nburn.",
-    "heartgold-soulsilver": "An attack move that\ndoubles its power if\nthe user is poisoned,\nparalyzed, or has a\nburn.",
-    "black-white": "An attack move that doubles its power if\nthe user is poisoned, burned, or\nhas paralysis.",
-    "black-2-white-2": "An attack move that doubles its power if\nthe user is poisoned, burned, or\nhas paralysis.",
-    "x-y": "An attack move that doubles its power if\nthe user is poisoned, burned, or\nhas paralysis.",
-    "omega-ruby-alpha-sapphire": "An attack move that doubles its power if\nthe user is poisoned, burned, or\nhas paralysis.",
-    "sun-moon": "This attack move doubles its power if the user is\npoisoned, burned, or paralyzed.",
-    "ultra-sun-ultra-moon": "This attack move doubles its power if the user is\npoisoned, burned, or paralyzed.",
-    "lets-go-pikachu-lets-go-eevee": "This attack move doubles its power if the user is\npoisoned, burned, or paralyzed.",
-    "sword-shield": "This attack move doubles its power if the user is\npoisoned, burned, or paralyzed."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power.",
-    "shortEffect": "Power doubles if user is burned, paralyzed, or poisoned."
-  },
-  "priority": 0
+    "_id": 263,
+    "key": "facade",
+    "name": {
+        "japanese-kana": "からげんき",
+        "korean": "객기",
+        "traditional-chinese": "硬撐",
+        "french": "Façade",
+        "german": "Fassade",
+        "spanish": "Fachada",
+        "italian": "Facciata",
+        "english": "Facade",
+        "japanese": "からげんき",
+        "simplified-chinese": "硬撑",
+        "latin-american-spanish": "Fachada"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Boosts ATTACK when burned, paralyzed, or poisoned.",
+            "em": "Boosts ATTACK when burned, paralyzed, or poisoned.",
+            "frlg": "An attack that is boosted if user is burned, poisoned, or paralyzed.",
+            "dp": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn.",
+            "pt": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn.",
+            "hgss": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn.",
+            "bw": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis.",
+            "b2w2": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis.",
+            "xy": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis.",
+            "oras": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis.",
+            "sm": "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+            "usum": "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+            "lgpe": "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+            "swsh": "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+            "la": "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+            "sv": "This move's power is doubled if the user is poisoned, burned, or paralyzed."
+        },
+        "french": {
+            "bw": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+            "xy": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+            "oras": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+            "sm": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+            "usum": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+            "lgpe": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+            "swsh": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé."
+        },
+        "japanese-kana": {
+            "xy": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。",
+            "oras": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。",
+            "sm": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。",
+            "usum": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。",
+            "lgpe": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。",
+            "swsh": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。"
+        },
+        "korean": {
+            "xy": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다.",
+            "oras": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다.",
+            "sm": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다.",
+            "usum": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다.",
+            "lgpe": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다.",
+            "swsh": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다."
+        },
+        "german": {
+            "xy": "Doppelte Stärke nach Verbrennung, Paralyse oder Vergiftung.",
+            "oras": "Ist der Anwender vergiftet, paralysiert oder leidet er unter Verbrennungen, verdoppelt sich die Kraft der Attacke.",
+            "sm": "Ist der Anwender vergiftet, paralysiert oder leidet er unter Verbrennungen, verdoppelt sich die Kraft der Attacke.",
+            "usum": "Ist der Anwender vergiftet, paralysiert oder leidet er unter Verbrennungen, verdoppelt sich die Kraft der Attacke.",
+            "lgpe": "Ist der Anwender vergiftet, paralysiert oder leidet er unter Verbrennungen, verdoppelt sich die Kraft der Attacke.",
+            "swsh": "Ist der Anwender vergiftet, paralysiert oder leidet er unter Verbrennungen, verdoppelt sich die Kraft der Attacke."
+        },
+        "spanish": {
+            "xy": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "oras": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "sm": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "usum": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "lgpe": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "swsh": "Si el usuario está quemado, paralizado o envenenado, ataca con el doble de potencia."
+        },
+        "italian": {
+            "xy": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.",
+            "oras": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.",
+            "sm": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.",
+            "usum": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.",
+            "lgpe": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.",
+            "swsh": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato."
+        },
+        "japanese": {
+            "xy": "自分が　毒　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。",
+            "oras": "自分が　毒　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。",
+            "sm": "自分が　毒　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。",
+            "usum": "自分が　毒　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。",
+            "lgpe": "自分が　毒　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。",
+            "swsh": "自分が　毒　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "oras": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "sm": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "usum": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "lgpe": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+            "swsh": "Si el usuario está quemado, paralizado o envenenado, ataca con el doble de potencia."
+        },
+        "traditional-chinese": {
+            "sm": "當自己陷入中毒、麻痺、灼傷等 狀態時，向對手使用此招式， 威力會變成２倍。",
+            "usum": "當自己陷入中毒、麻痺、灼傷等 狀態時，向對手使用此招式， 威力會變成２倍。",
+            "lgpe": "當自己陷入中毒、麻痺、灼傷等 狀態時，向對手使用此招式， 威力會變成２倍。",
+            "swsh": "當自己陷入中毒、麻痺、灼傷等 狀態時，向對手使用此招式， 威力會變成２倍。"
+        },
+        "simplified-chinese": {
+            "sm": "当自己处于中毒、麻痹、灼伤状态时， 向对手使出此招式的话， 威力会变成２倍。",
+            "usum": "当自己处于中毒、麻痹、灼伤状态时， 向对手使出此招式的话， 威力会变成２倍。",
+            "lgpe": "当自己处于中毒、麻痹、灼伤状态时， 向对手使出此招式的话， 威力会变成２倍。",
+            "swsh": "当自己处于中毒、麻痹、灼伤状态时， 向对手使出此招式的话， 威力会变成２倍。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power.",
+        "shortEffect": "Power doubles if user is burned, paralyzed, or poisoned."
+    }
 }

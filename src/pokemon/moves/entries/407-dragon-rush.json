@@ -1,42 +1,141 @@
 {
-  "_id": 407,
-  "key": "dragon-rush",
-  "name": {
-    "english": "Dragon Rush",
-    "japanese": "ドラゴンダイブ",
-    "chinese": "龙神俯冲",
-    "korean": "드래곤다이브",
-    "german": "Carga Dragón",
-    "french": "Drachenstoß",
-    "italian": "Dragon Rush",
-    "spanish": "Dragofuria"
-  },
-  "type": "Dragon",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 100,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user tackles the\nfoe while exhibiting\noverwhelming menace.\nIt may also make the\ntarget flinch.",
-    "platinum": "The user tackles the\nfoe while exhibiting\noverwhelming menace.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The user tackles the\nfoe while exhibiting\noverwhelming menace.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user tackles the target while\nexhibiting overwhelming menace.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user tackles the target while\nexhibiting overwhelming menace.\nIt may also make the target flinch.",
-    "x-y": "The user tackles the target while\nexhibiting overwhelming menace.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user tackles the target while\nexhibiting overwhelming menace.\nThis may also make the target flinch.",
-    "sun-moon": "The user tackles the target while exhibiting\noverwhelming menace. This may also make the\ntarget flinch.",
-    "ultra-sun-ultra-moon": "The user tackles the target while exhibiting\noverwhelming menace. This may also make the\ntarget flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user tackles the target while exhibiting\noverwhelming menace. This may also make the\ntarget flinch.",
-    "sword-shield": "The user tackles the target while exhibiting\noverwhelming menace. This may also make the\ntarget flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 407,
+    "key": "dragon-rush",
+    "name": {
+        "japanese-kana": "ドラゴンダイブ",
+        "korean": "드래곤다이브",
+        "traditional-chinese": "龍之俯衝",
+        "french": "Draco-Charge",
+        "german": "Drachenstoß",
+        "spanish": "Carga Dragón",
+        "italian": "Dragofuria",
+        "english": "Dragon Rush",
+        "japanese": "ドラゴンダイブ",
+        "simplified-chinese": "龙之俯冲",
+        "latin-american-spanish": "Carga Dragón"
+    },
+    "type": "dragon",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 75,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 20,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.",
+            "pt": "The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.",
+            "hgss": "The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.",
+            "bw": "The user tackles the target while exhibiting overwhelming menace. It may also make the target flinch.",
+            "b2w2": "The user tackles the target while exhibiting overwhelming menace. It may also make the target flinch.",
+            "xy": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+            "oras": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+            "sm": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+            "usum": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+            "lgpe": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+            "swsh": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+            "la": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+            "sv": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur frappe l’ennemi d’un air menaçant. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer.",
+            "oras": "Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer.",
+            "sm": "Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer.",
+            "usum": "Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer.",
+            "lgpe": "Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer.",
+            "swsh": "Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "すさまじい　さっきで　いあつ　しながら たいあたりする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "すさまじい　さっきで　いあつ　しながら たいあたりする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "すさまじい　さっきで　いあつ　しながら たいあたりする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "すさまじい　さっきで　いあつ　しながら たいあたりする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "すさまじい　さっきで　いあつ　しながら たいあたりする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "すさまじい　さっきで　いあつ　しながら たいあたりする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender führt einen gefährlichen Angriff aus. Das Ziel schreckt eventuell zurück.",
+            "oras": "Anwender führt einen Furcht einflößenden Angriff aus. Das Ziel schreckt eventuell zurück.",
+            "sm": "Anwender führt einen furchteinflößenden Angriff aus. Das Ziel schreckt eventuell zurück.",
+            "usum": "Anwender führt einen furchteinflößenden Angriff aus. Das Ziel schreckt eventuell zurück.",
+            "lgpe": "Anwender führt einen furchteinflößenden Angriff aus. Das Ziel schreckt eventuell zurück.",
+            "swsh": "Anwender führt einen furchteinflößenden Angriff aus. Das Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "oras": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "sm": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "usum": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "lgpe": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "swsh": "Ataca de forma brutal mientras intimida al objetivo. También puede amedrentarlo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il bersaglio.",
+            "oras": "Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il bersaglio.",
+            "sm": "Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il bersaglio.",
+            "usum": "Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il bersaglio.",
+            "lgpe": "Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il bersaglio.",
+            "swsh": "Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il bersaglio."
+        },
+        "japanese": {
+            "xy": "すさまじい　殺気で　威圧しながら 体当たりする。 相手を　ひるませることが　ある。",
+            "oras": "すさまじい　殺気で　威圧しながら 体当たりする。 相手を　ひるませることが　ある。",
+            "sm": "すさまじい　殺気で　威圧しながら 体当たりする。 相手を　ひるませることが　ある。",
+            "usum": "すさまじい　殺気で　威圧しながら 体当たりする。 相手を　ひるませることが　ある。",
+            "lgpe": "すさまじい　殺気で　威圧しながら 体当たりする。 相手を　ひるませることが　ある。",
+            "swsh": "すさまじい　殺気で　威圧しながら 体当たりする。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "oras": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "sm": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "usum": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "lgpe": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+            "swsh": "Ataca de forma brutal mientras intimida al objetivo. También puede amedrentarlo."
+        },
+        "traditional-chinese": {
+            "sm": "釋放出駭人的殺氣， 威嚇並撞擊對手。 有時會使對手畏縮。",
+            "usum": "釋放出駭人的殺氣， 威嚇並撞擊對手。 有時會使對手畏縮。",
+            "lgpe": "釋放出駭人的殺氣， 威嚇並撞擊對手。 有時會使對手畏縮。",
+            "swsh": "釋放出駭人的殺氣， 威嚇並撞擊對手。 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "释放出骇人的杀气， 一边威慑一边撞击对手。 有时会使对手畏缩。",
+            "usum": "释放出骇人的杀气， 一边威慑一边撞击对手。 有时会使对手畏缩。",
+            "lgpe": "释放出骇人的杀气， 一边威慑一边撞击对手。 有时会使对手畏缩。",
+            "swsh": "释放出骇人的杀气， 一边威慑一边撞击对手。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

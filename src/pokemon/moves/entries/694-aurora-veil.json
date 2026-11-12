@@ -1,35 +1,117 @@
 {
-  "_id": 694,
-  "key": "aurora-veil",
-  "name": {
-    "english": "Aurora Veil",
-    "japanese": "オーロラベール",
-    "chinese": "極光幕",
-    "korean": "오로라베일",
-    "german": "Velo Aurora",
-    "french": "Auroraschleier",
-    "italian": "Aurora Veil",
-    "spanish": "Velaurora"
-  },
-  "type": "Ice",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "sun-moon": "This move reduces damage from physical and\nspecial moves for five turns. This can be used only\nin a hailstorm.",
-    "ultra-sun-ultra-moon": "This move reduces damage from physical and\nspecial moves for five turns. This can be used only\nin a hailstorm.",
-    "lets-go-pikachu-lets-go-eevee": "This move reduces damage from physical and\nspecial moves for five turns. This can be used only\nin a hailstorm.",
-    "sword-shield": "This move reduces damage from physical and\nspecial moves for five turns. This can be used only\nin a hailstorm."
-  },
-  "effect": {
-    "full": "Places the Aurora Veil effect on the user's side of the field for the next 5 turns.  If the weather is not hail, or the weather is disabled by the effects of cloud nine or air lock, this move will fail.\n\nAny regular damage dealt to an affected Pokémon is reduced by ½.  (If there are multiple Pokémon on the affected field, the reduction is ⅓.)",
-    "shortEffect": "Reduces damage five turns, but must be used during hail."
-  },
-  "priority": 0
+    "_id": 694,
+    "key": "aurora-veil",
+    "name": {
+        "japanese-kana": "オーロラベール",
+        "korean": "오로라베일",
+        "traditional-chinese": "極光幕",
+        "french": "Voile Aurore",
+        "german": "Auroraschleier",
+        "spanish": "Velo Aurora",
+        "italian": "Velaurora",
+        "english": "Aurora Veil",
+        "japanese": "オーロラベール",
+        "simplified-chinese": "极光幕",
+        "latin-american-spanish": "Velo Aurora"
+    },
+    "type": "ice",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "５ターンの　あいだ　ぶつりと とくしゅの　ダメージを　よわめる。 あられの　ときしか　だすことが　できない。",
+            "usum": "５ターンの　あいだ　ぶつりと とくしゅの　ダメージを　よわめる。 あられの　ときしか　だすことが　できない。",
+            "lgpe": "５ターンの　あいだ　ぶつりと とくしゅの　ダメージを　よわめる。 あられの　ときしか　だすことが　できない。",
+            "swsh": "５ターンの　あいだ　ぶつりと とくしゅの　ダメージを　よわめる。 あられの　ときしか　だすことが　できない。"
+        },
+        "korean": {
+            "sm": "5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 싸라기눈일 때만 쓸 수 있다.",
+            "usum": "5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 싸라기눈일 때만 쓸 수 있다.",
+            "lgpe": "5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 싸라기눈일 때만 쓸 수 있다.",
+            "swsh": "5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 싸라기눈일 때만 쓸 수 있다."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內減弱 物理和特殊的傷害。 在下冰雹時才有效果。",
+            "usum": "在５回合內減弱 物理和特殊的傷害。 在下冰雹時才有效果。",
+            "lgpe": "在５回合內減弱 物理和特殊的傷害。 在下冰雹時才有效果。",
+            "swsh": "在５回合內減弱 物理和特殊的傷害。 在下冰雹時才有效果。"
+        },
+        "french": {
+            "sm": "Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisé que lorsqu’il grêle.",
+            "usum": "Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisé que lorsqu’il grêle.",
+            "lgpe": "Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisé que lorsqu’il grêle.",
+            "swsh": "Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisée que lorsqu’il grêle."
+        },
+        "german": {
+            "sm": "Diese Attacke schwächt fünf Runden lang den durch physische sowie durch Spezial-Attacken erhaltenen Schaden. Kann nur bei Hagel eingesetzt werden.",
+            "usum": "Diese Attacke schwächt fünf Runden lang den durch physische sowie durch Spezial-Attacken erhaltenen Schaden. Kann nur bei Hagel eingesetzt werden.",
+            "lgpe": "Diese Attacke schwächt fünf Runden lang den durch physische sowie durch Spezial-Attacken erhaltenen Schaden. Kann nur bei Hagel eingesetzt werden.",
+            "swsh": "Diese Attacke schwächt fünf Runden lang den durch physische sowie durch Spezial-Attacken erhaltenen Schaden. Kann nur bei Hagel eingesetzt werden."
+        },
+        "spanish": {
+            "sm": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.",
+            "usum": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.",
+            "lgpe": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.",
+            "swsh": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando."
+        },
+        "italian": {
+            "sm": "Riduce i danni subiti dalle mosse fisiche e dalle mosse speciali per cinque turni. Si può usare solo quando grandina.",
+            "usum": "Riduce i danni subiti dalle mosse fisiche e dalle mosse speciali per cinque turni. Si può usare solo quando grandina.",
+            "lgpe": "Riduce i danni subiti dalle mosse fisiche e dalle mosse speciali per cinque turni. Si può usare solo quando grandina.",
+            "swsh": "Riduce i danni subiti dalle mosse fisiche e dalle mosse speciali per cinque turni. Si può usare solo quando grandina."
+        },
+        "english": {
+            "sm": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+            "usum": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+            "lgpe": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+            "swsh": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+            "la": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+            "sv": "This move reduces damage from physical and special moves for five turns. This can be used only when it is snowing."
+        },
+        "japanese": {
+            "sm": "５ターンの　間　物理と 特殊の　ダメージを　弱める。 あられの　時しか　出すことが　できない。",
+            "usum": "５ターンの　間　物理と 特殊の　ダメージを　弱める。 あられの　時しか　出すことが　できない。",
+            "lgpe": "５ターンの　間　物理と 特殊の　ダメージを　弱める。 あられの　時しか　出すことが　できない。",
+            "swsh": "５ターンの　間　物理と 特殊の　ダメージを　弱める。 あられの　時しか　出すことが　できない。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内减弱 物理和特殊的伤害。 只有冰雹时才能使出。",
+            "usum": "在５回合内减弱 物理和特殊的伤害。 只有冰雹时才能使出。",
+            "lgpe": "在５回合内减弱 物理和特殊的伤害。 只有冰雹时才能使出。",
+            "swsh": "在５回合内减弱 物理和特殊的伤害。 只有冰雹时才能使出。"
+        },
+        "latin-american-spanish": {
+            "sm": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.",
+            "usum": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.",
+            "lgpe": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.",
+            "swsh": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando."
+        }
+    },
+    "effect": {
+        "full": "Places the Aurora Veil effect on the user’s side of the field for the next 5 turns.  If the weather is not Hail, or the weather is disabled by the effects of Cloud Nine or Air Lock, this move will fail. Any regular damage dealt to an affected Pokémon is reduced by ½.  (If there are multiple Pokémon on the affected field, the reduction is ⅓.)",
+        "shortEffect": "Reduces damage five turns, but must be used during hail."
+    }
 }

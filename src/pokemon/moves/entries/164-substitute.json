@@ -1,47 +1,146 @@
 {
-  "_id": 164,
-  "key": "substitute",
-  "name": {
-    "english": "Substitute",
-    "japanese": "みがわり",
-    "chinese": "替身",
-    "korean": "대타출동",
-    "german": "Sustituto",
-    "french": "Delegator",
-    "italian": "Substitute",
-    "spanish": "Sostituto"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Makes a decoy with\n1/4 user's max HP.",
-    "crystal": "Makes a decoy with\n1/4 user's max HP.",
-    "ruby-sapphire": "Creates a decoy using 1/4\nof the user’s maximum HP.",
-    "emerald": "Creates a decoy using 1/4\nof the user’s maximum HP.",
-    "firered-leafgreen": "The user creates a\ndecoy using one-\nquarter of its full\nHP.",
-    "diamond-pearl": "The user makes a\ncopy of itself using\nsome of its HP.\nThe copy serves as\nthe user’s decoy.",
-    "platinum": "The user makes a\ncopy of itself using\nsome of its HP.\nThe copy serves as\nthe user’s decoy.",
-    "heartgold-soulsilver": "The user makes a\ncopy of itself using\nsome of its HP.\nThe copy serves as\nthe user’s decoy.",
-    "black-white": "The user makes a copy of itself using\nsome of its HP.\nThe copy serves as the user’s decoy.",
-    "black-2-white-2": "The user makes a copy of itself using\nsome of its HP.\nThe copy serves as the user’s decoy.",
-    "x-y": "The user makes a copy of itself using\nsome of its HP.\nThe copy serves as the user’s decoy.",
-    "omega-ruby-alpha-sapphire": "The user makes a copy of itself using\nsome of its HP.\nThe copy serves as the user’s decoy.",
-    "sun-moon": "The user makes a copy of itself using some of its HP.\nThe copy serves as the user’s decoy.",
-    "ultra-sun-ultra-moon": "The user makes a copy of itself using some of its HP.\nThe copy serves as the user’s decoy.",
-    "lets-go-pikachu-lets-go-eevee": "The user makes a copy of itself using some of its HP.\nThe copy serves as the user’s decoy.",
-    "sword-shield": "The user creates a substitute for itself using some of\nits HP. The substitute serves as the user’s decoy."
-  },
-  "effect": {
-    "full": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effects, confusion, and flinching.  The effects of smelling salts and wake up slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap berry.  magic coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream eater, embargo, flatter, gastro acid, grudge, heal block, leech seed, lock on, mean look, mimic, mind reader, nightmare, pain split, psycho shift, spider web, sketch, swagger, switcheroo, trick, worry seed, and yawn.  A Pokémon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt absorb absorbing thunder wave), such moves will not be blocked.\n\nlife orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic spikes.\n\nThe doll is passed on by baton pass.  It keeps its existing HP, but uses the replacement Pokémon's stats and types for damage calculation.\n\nAll other effects work as normal.",
-    "shortEffect": "Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
-  },
-  "priority": 0
+    "_id": 164,
+    "key": "substitute",
+    "name": {
+        "japanese-kana": "みがわり",
+        "korean": "대타출동",
+        "traditional-chinese": "替身",
+        "french": "Clonage",
+        "german": "Delegator",
+        "spanish": "Sustituto",
+        "italian": "Sostituto",
+        "english": "Substitute",
+        "japanese": "みがわり",
+        "simplified-chinese": "替身",
+        "latin-american-spanish": "Sustituto"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Makes a decoy with 1/4 user's max HP.",
+            "cr": "Makes a decoy with 1/4 user's max HP.",
+            "rs": "Creates a decoy using 1/4 of the user’s maximum HP.",
+            "em": "Creates a decoy using 1/4 of the user’s maximum HP.",
+            "frlg": "The user creates a decoy using one- quarter of its full HP.",
+            "dp": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "pt": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "hgss": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "bw": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "b2w2": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "xy": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "oras": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "sm": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "usum": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "lgpe": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "swsh": "The user creates a substitute for itself using some of its HP. The substitute serves as the user’s decoy.",
+            "la": "The user creates a substitute for itself using some of its HP. The substitute serves as the user's decoy.",
+            "sv": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy."
+        },
+        "french": {
+            "bw": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+            "xy": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+            "oras": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+            "sm": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+            "usum": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+            "lgpe": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+            "swsh": "Le lanceur crée un clone en sacrifiant quelques PV. Ce clone sert de leurre."
+        },
+        "japanese-kana": {
+            "xy": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　みがわりに　なる。",
+            "oras": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　 がわりに　なる。",
+            "sm": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　みがわりに　なる。",
+            "usum": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　みがわりに　なる。",
+            "lgpe": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　みがわりに　なる。",
+            "swsh": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　みがわりに　なる。"
+        },
+        "korean": {
+            "xy": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다.",
+            "oras": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다.",
+            "sm": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다.",
+            "usum": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다.",
+            "lgpe": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다.",
+            "swsh": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다."
+        },
+        "german": {
+            "xy": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.",
+            "oras": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.",
+            "sm": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.",
+            "usum": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.",
+            "lgpe": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.",
+            "swsh": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt."
+        },
+        "spanish": {
+            "xy": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "oras": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "sm": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "usum": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "lgpe": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "swsh": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+        },
+        "italian": {
+            "xy": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico.",
+            "oras": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico.",
+            "sm": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico.",
+            "usum": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico.",
+            "lgpe": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico.",
+            "swsh": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico."
+        },
+        "japanese": {
+            "xy": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。",
+            "oras": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。",
+            "sm": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。",
+            "usum": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。",
+            "lgpe": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。",
+            "swsh": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "oras": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "sm": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "usum": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "lgpe": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+            "swsh": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+        },
+        "traditional-chinese": {
+            "sm": "消耗一些自己的ＨＰ， 製造分身。 分身將成為自己的替身。",
+            "usum": "消耗一些自己的ＨＰ， 製造分身。 分身將成為自己的替身。",
+            "lgpe": "消耗一些自己的HP， 製造分身。 分身將成為自己的替身。",
+            "swsh": "消耗一些自己的ＨＰ， 製造分身。 分身將成為自己的替身。"
+        },
+        "simplified-chinese": {
+            "sm": "削减少许自己的ＨＰ， 制造分身。 分身将成为自己的替身。",
+            "usum": "削减少许自己的ＨＰ， 制造分身。 分身将成为自己的替身。",
+            "lgpe": "削减少许自己的HP， 制造分身。 分身将成为自己的替身。",
+            "swsh": "削减少许自己的ＨＰ， 制造分身。 分身将成为自己的替身。"
+        }
+    },
+    "effect": {
+        "full": "Transfers 1/4 the user’s max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail. The doll takes damage as normal, using the user’s stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user’s HP still do so; the doll’s HP does not influence any move. The doll will block major status effects, confusion, and flinching.  The effects of Smelling Salts and Wake-Up Slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like Wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate. Moves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., Avalanche, Counter, or a Rowap Berry.  Magic Coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like Absorb are healed as normal. It will also block Acupressure, Block, the curse effect of Curse, Dream Eater, Embargo, Flatter, Gastro Acid, Grudge, Heal Block, Leech Seed, Lock-On, Mean Look, Mimic, Mind Reader, Nightmare, Pain Split, Psycho Shift, Spider Web, Sketch, Swagger, Switcheroo, Trick, Worry Seed, and Yawn.  A Pokémon affected by Yawn before summoning the doll will still fall to sleep. The doll blocks Intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as Volt Absorb absorbing Thunder Wave), such moves will not be blocked. Life Orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll. The user is still vulnerable to damage inflicted when entering or leaving the field, such as by Pursuit or Spikes; however, the doll will block the poison effect of Toxic Spikes. The doll is passed on by Baton Pass.  It keeps its existing HP, but uses the replacement Pokémon’s stats and types for damage calculation. All other effects work as normal.",
+        "shortEffect": "Transfers 1/4 of the user’s max HP into a doll, protecting the user from further damage or status changes until it breaks."
+    }
 }

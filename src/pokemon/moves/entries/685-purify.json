@@ -1,35 +1,115 @@
 {
-  "_id": 685,
-  "key": "purify",
-  "name": {
-    "english": "Purify",
-    "japanese": "じょうか",
-    "chinese": "淨化",
-    "korean": "정화",
-    "german": "Purificación",
-    "french": "Läuterung",
-    "italian": "Purify",
-    "spanish": "Purificazione"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user heals the target’s status condition. If the\nmove succeeds, it also restores the user’s own HP.",
-    "ultra-sun-ultra-moon": "The user heals the target’s status condition. If the\nmove succeeds, it also restores the user’s own HP.",
-    "lets-go-pikachu-lets-go-eevee": "The user heals the target’s status condition. If the\nmove succeeds, it also restores the user’s own HP.",
-    "sword-shield": "The user heals the target’s status condition. If the\nmove succeeds, it also restores the user’s own HP."
-  },
-  "effect": {
-    "full": "Cures the target of its major status ailment and heals the user for 50% of its max HP.  If the target has no major status ailment, this move will fail.",
-    "shortEffect": "Cures the target of a major status ailment and heals the user for 50% of its max HP."
-  },
-  "priority": 0
+    "_id": 685,
+    "key": "purify",
+    "name": {
+        "japanese-kana": "じょうか",
+        "korean": "정화",
+        "traditional-chinese": "淨化",
+        "french": "Purification",
+        "german": "Läuterung",
+        "spanish": "Purificación",
+        "italian": "Purificazione",
+        "english": "Purify",
+        "japanese": "じょうか",
+        "simplified-chinese": "净化",
+        "latin-american-spanish": "Purificación"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "あいての　じょうたいいじょうを　なおす。 なおすと　じぶんは　ＨＰを かいふく　することが　できる。",
+            "usum": "あいての　じょうたいいじょうを　なおす。 なおすと　じぶんは　ＨＰを かいふく　することが　できる。",
+            "lgpe": "あいての　じょうたいいじょうを　なおす。 なおすと　じぶんは　ＨＰを かいふく　することが　できる。",
+            "swsh": "あいての　じょうたいいじょうを　なおす。 なおすと　じぶんは　ＨＰを かいふく　することが　できる。"
+        },
+        "korean": {
+            "sm": "상대의 상태 이상을 회복한다. 회복하면 자신은 HP를 회복할 수 있다.",
+            "usum": "상대의 상태 이상을 회복한다. 회복하면 자신은 HP를 회복할 수 있다.",
+            "lgpe": "상대의 상태 이상을 회복한다. 회복하면 자신은 HP를 회복할 수 있다.",
+            "swsh": "상대의 상태 이상을 회복한다. 회복하면 자신은 HP를 회복할 수 있다."
+        },
+        "traditional-chinese": {
+            "sm": "治癒對手的異常狀態。 治癒後可以回復自己的ＨＰ。",
+            "usum": "治癒對手的異常狀態。 治癒後可以回復自己的ＨＰ。",
+            "lgpe": "治癒對手的異常狀態。 治癒後可以回復自己的HP。",
+            "swsh": "治癒對手的異常狀態。 治癒後可以回復自己的ＨＰ。"
+        },
+        "french": {
+            "sm": "Le lanceur soigne les altérations de statut de la cible, ce qui lui permet de regagner des PV.",
+            "usum": "Le lanceur soigne les altérations de statut de la cible, ce qui lui permet de regagner des PV.",
+            "lgpe": "Le lanceur soigne les altérations de statut de la cible, ce qui lui permet de regagner des PV.",
+            "swsh": "Le lanceur soigne les altérations de statut de la cible, ce qui lui permet de regagner des PV."
+        },
+        "german": {
+            "sm": "Der Anwender heilt das Statusproblem des Zieles und füllt dadurch seine eigenen KP auf.",
+            "usum": "Der Anwender heilt das Statusproblem des Zieles und füllt dadurch seine eigenen KP auf.",
+            "lgpe": "Der Anwender heilt das Statusproblem des Zieles und füllt dadurch seine eigenen KP auf.",
+            "swsh": "Der Anwender heilt das Statusproblem des Zieles und füllt dadurch seine eigenen KP auf."
+        },
+        "spanish": {
+            "sm": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+            "usum": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+            "lgpe": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+            "swsh": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios."
+        },
+        "italian": {
+            "sm": "Chi la usa cura i problemi di stato del bersaglio e in cambio recupera PS.",
+            "usum": "Chi la usa cura i problemi di stato del bersaglio e in cambio recupera PS.",
+            "lgpe": "Chi la usa cura i problemi di stato del bersaglio e in cambio recupera PS.",
+            "swsh": "Chi la usa cura i problemi di stato del bersaglio e in cambio recupera PS."
+        },
+        "english": {
+            "sm": "The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP.",
+            "usum": "The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP.",
+            "lgpe": "The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP.",
+            "swsh": "The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP."
+        },
+        "japanese": {
+            "sm": "相手の　状態異常を　治す。 治すと　自分は　ＨＰを 回復　することが　できる。",
+            "usum": "相手の　状態異常を　治す。 治すと　自分は　ＨＰを 回復　することが　できる。",
+            "lgpe": "相手の　状態異常を　治す。 治すと　自分は　ＨＰを 回復　することが　できる。",
+            "swsh": "相手の　状態異常を　治す。 治すと　自分は　ＨＰを 回復　することが　できる。"
+        },
+        "simplified-chinese": {
+            "sm": "治愈对手的异常状态。 治愈后可以回复自己的ＨＰ。",
+            "usum": "治愈对手的异常状态。 治愈后可以回复自己的ＨＰ。",
+            "lgpe": "治愈对手的异常状态。 治愈后可以回复自己的HP。",
+            "swsh": "治愈对手的异常状态。 治愈后可以回复自己的ＨＰ。"
+        },
+        "latin-american-spanish": {
+            "sm": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+            "usum": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+            "lgpe": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+            "swsh": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios."
+        }
+    },
+    "effect": {
+        "full": "Cures the target of its major status ailment and heals the user for 50% of its max HP.  If the target has no major status ailment, this move will fail.",
+        "shortEffect": "Cures the target of a major status ailment and heals the user for 50% of its max HP."
+    }
 }

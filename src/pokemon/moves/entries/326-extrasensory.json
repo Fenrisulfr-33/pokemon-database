@@ -1,45 +1,148 @@
 {
-  "_id": 326,
-  "key": "extrasensory",
-  "name": {
-    "english": "Extrasensory",
-    "japanese": "じんつうりき",
-    "chinese": "神通力",
-    "korean": "신통력",
-    "german": "Paranormal",
-    "french": "Sondersensor",
-    "italian": "Extrasensory",
-    "spanish": "Extrasenso"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks with a peculiar\npower. May cause flinching.",
-    "emerald": "Attacks with a peculiar\npower. May cause flinching.",
-    "firered-leafgreen": "The user attacks\nwith an odd power\nthat may make the\nfoe flinch.",
-    "diamond-pearl": "The user attacks with\nan odd, unseeable\npower.\nIt may also make the\nfoe flinch.",
-    "platinum": "The user attacks with\nan odd, unseeable\npower.\nIt may also make the\nfoe flinch.",
-    "heartgold-soulsilver": "The user attacks with\nan odd, unseeable\npower.\nIt may also make the\nfoe flinch.",
-    "black-white": "The user attacks with an odd,\nunseeable power.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user attacks with an odd,\nunseeable power.\nIt may also make the target flinch.",
-    "x-y": "The user attacks with an odd,\nunseeable power.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user attacks with an odd,\nunseeable power.\nThis may also make the target flinch.",
-    "sun-moon": "The user attacks with an odd, unseeable power.\nThis may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The user attacks with an odd, unseeable power.\nThis may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with an odd, unseeable power.\nThis may also make the target flinch.",
-    "sword-shield": "The user attacks with an odd, unseeable power.\nThis may also make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 326,
+    "key": "extrasensory",
+    "name": {
+        "japanese-kana": "じんつうりき",
+        "korean": "신통력",
+        "traditional-chinese": "神通力",
+        "french": "Extrasenseur",
+        "german": "Sondersensor",
+        "spanish": "Paranormal",
+        "italian": "Extrasenso",
+        "english": "Extrasensory",
+        "japanese": "じんつうりき",
+        "simplified-chinese": "神通力",
+        "latin-american-spanish": "Extrasensorial"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "cool",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 10,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "pp": 30
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Attacks with a peculiar power. May cause flinching.",
+            "em": "Attacks with a peculiar power. May cause flinching.",
+            "frlg": "The user attacks with an odd power that may make the foe flinch.",
+            "dp": "The user attacks with an odd, unseeable power. It may also make the foe flinch.",
+            "pt": "The user attacks with an odd, unseeable power. It may also make the foe flinch.",
+            "hgss": "The user attacks with an odd, unseeable power. It may also make the foe flinch.",
+            "bw": "The user attacks with an odd, unseeable power. It may also make the target flinch.",
+            "b2w2": "The user attacks with an odd, unseeable power. It may also make the target flinch.",
+            "xy": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+            "oras": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+            "sm": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+            "usum": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+            "lgpe": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+            "swsh": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+            "la": "The user attacks with an odd, unseeable power.",
+            "sv": "The user attacks with an odd, unseeable power. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi.",
+            "oras": "Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi.",
+            "sm": "Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi.",
+            "usum": "Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi.",
+            "lgpe": "Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi.",
+            "swsh": "Le lanceur attaque avec un pouvoir étrange et invisible. Peut aussi apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "みえない　ふしぎな　ちからを おくって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "えない　ふしぎな　ちからを おくって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "みえない　ふしぎな　ちからを おくって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "みえない　ふしぎな　ちからを おくって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "みえない　ふしぎな　ちからを おくって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "みえない　ふしぎな　ちからを おくって　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "보이지 않는 이상한 힘을 보내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "보이지 않는 이상한 힘을 보내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "보이지 않는 이상한 힘을 보내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "보이지 않는 이상한 힘을 보내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "보이지 않는 이상한 힘을 보내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "보이지 않는 이상한 힘을 보내어 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.",
+            "oras": "Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.",
+            "sm": "Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.",
+            "usum": "Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.",
+            "lgpe": "Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.",
+            "swsh": "Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt."
+        },
+        "spanish": {
+            "xy": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "oras": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "sm": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "usum": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "lgpe": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "swsh": "Emite una energía muy extraña que puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio.",
+            "oras": "Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio.",
+            "sm": "Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio.",
+            "usum": "Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio.",
+            "lgpe": "Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio.",
+            "swsh": "Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il bersaglio."
+        },
+        "japanese": {
+            "xy": "みえない　不思議な　力を 送って　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "えない　不思議な　力を 送って　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "みえない　不思議な　力を 送って　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "みえない　不思議な　力を 送って　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "みえない　不思議な　力を 送って　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "みえない　不思議な　力を 送って　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "oras": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "sm": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "usum": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "lgpe": "Energía muy extraña que puede hacer retroceder al objetivo.",
+            "swsh": "Emite una energía muy extraña que puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "發送看不見的 神奇力量進行攻擊。 有時會使對手畏縮。",
+            "usum": "發送看不見的 神奇力量進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "發送看不見的 神奇力量進行攻擊。 有時會使對手畏縮。",
+            "swsh": "發送看不見的 神奇力量進行攻擊。 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "发出看不见的 神奇力量进行攻击。 有时会使对手畏缩。",
+            "usum": "发出看不见的 神奇力量进行攻击。 有时会使对手畏缩。",
+            "lgpe": "发出看不见的 神奇力量进行攻击。 有时会使对手畏缩。",
+            "swsh": "发出看不见的 神奇力量进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

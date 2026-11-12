@@ -1,42 +1,145 @@
 {
-  "_id": 366,
-  "key": "tailwind",
-  "name": {
-    "english": "Tailwind",
-    "japanese": "おいかぜ",
-    "chinese": "顺风",
-    "korean": "순풍",
-    "german": "Viento Afín",
-    "french": "Rückenwind",
-    "italian": "Tailwind",
-    "spanish": "Ventoincoda"
-  },
-  "type": "Flying",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "users-field",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user whips up a\nturbulent whirlwind\nthat ups the Speed\nof all party Pokémon\nfor three turns.",
-    "platinum": "The user whips up a\nturbulent whirlwind\nthat ups the Speed\nof all party Pokémon\nfor three turns.",
-    "heartgold-soulsilver": "The user whips up a\nturbulent whirlwind\nthat ups the Speed\nof all party Pokémon\nfor three turns.",
-    "black-white": "The user whips up a turbulent whirlwind\nthat ups the Speed of all party Pokémon\nfor four turns.",
-    "black-2-white-2": "The user whips up a turbulent whirlwind\nthat ups the Speed of all party Pokémon\nfor four turns.",
-    "x-y": "The user whips up a turbulent whirlwind\nthat ups the Speed stat of the user and\nits allies for four turns.",
-    "omega-ruby-alpha-sapphire": "The user whips up a turbulent whirlwind\nthat ups the Speed stat of the user and\nits allies for four turns.",
-    "sun-moon": "The user whips up a turbulent whirlwind that ups\nthe Speed stat of the user and its allies for\nfour turns.",
-    "ultra-sun-ultra-moon": "The user whips up a turbulent whirlwind that ups\nthe Speed stat of the user and its allies for\nfour turns.",
-    "lets-go-pikachu-lets-go-eevee": "The user whips up a turbulent whirlwind that ups\nthe Speed stat of the user and its allies for\nfour turns.",
-    "sword-shield": "The user whips up a turbulent whirlwind that ups\nthe Speed stats of the user and its allies for\nfour turns."
-  },
-  "effect": {
-    "full": "For the next three turns, all Pokémon on the user's side of the field have their original Speed doubled.  This effect remains if the user leaves the field.",
-    "shortEffect": "For three turns, friendly Pokémon have doubled Speed."
-  },
-  "priority": 0
+    "_id": 366,
+    "key": "tailwind",
+    "name": {
+        "japanese-kana": "おいかぜ",
+        "korean": "순풍",
+        "traditional-chinese": "順風",
+        "french": "Vent Arrière",
+        "german": "Rückenwind",
+        "spanish": "Viento Afín",
+        "italian": "Ventoincoda",
+        "english": "Tailwind",
+        "japanese": "おいかぜ",
+        "simplified-chinese": "顺风",
+        "latin-american-spanish": "Viento Afín"
+    },
+    "type": "flying",
+    "category": "status",
+    "contest": "smart",
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "users-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "pp": 30
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for three turns.",
+            "pt": "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for three turns.",
+            "hgss": "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for three turns.",
+            "bw": "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.",
+            "b2w2": "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.",
+            "xy": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.",
+            "oras": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.",
+            "sm": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.",
+            "usum": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.",
+            "lgpe": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.",
+            "swsh": "The user whips up a turbulent whirlwind that ups the Speed stats of the user and its allies for four turns.",
+            "la": "The user whips up a turbulent whirlwind that ups the Speed stats of the user and its allies for four turns.",
+            "sv": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns."
+        },
+        "french": {
+            "bw": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours.",
+            "xy": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours.",
+            "oras": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours.",
+            "sm": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours.",
+            "usum": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours.",
+            "lgpe": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours.",
+            "swsh": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant quatre tours."
+        },
+        "japanese-kana": {
+            "xy": "はげしく　ふきあれる かぜのうずを　つくり　４ターンの　あいだ みかた　ぜんいんの　すばやさを　あげる。",
+            "oras": "はげしく　ふきあれる かぜのうずを　つくり　４ターンの　あいだ  かた　ぜんいんの　すばやさを　あげる。",
+            "sm": "はげしく　ふきあれる かぜのうずを　つくり　４ターンの　あいだ みかた　ぜんいんの　すばやさを　あげる。",
+            "usum": "はげしく　ふきあれる かぜのうずを　つくり　４ターンの　あいだ みかた　ぜんいんの　すばやさを　あげる。",
+            "lgpe": "はげしく　ふきあれる かぜのうずを　つくり　４ターンの　あいだ みかた　ぜんいんの　すばやさを　あげる。",
+            "swsh": "はげしく　ふきあれる かぜのうずを　つくり　４ターンの　あいだ みかた　ぜんいんの　すばやさを　あげる。"
+        },
+        "korean": {
+            "xy": "세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.",
+            "oras": "세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.",
+            "sm": "세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.",
+            "usum": "세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.",
+            "lgpe": "세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.",
+            "swsh": "세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다."
+        },
+        "german": {
+            "xy": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden steigert.",
+            "oras": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden steigert.",
+            "sm": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden erhöht.",
+            "usum": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden erhöht.",
+            "lgpe": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden erhöht.",
+            "swsh": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden erhöht."
+        },
+        "spanish": {
+            "xy": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "oras": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "sm": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "usum": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "lgpe": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "swsh": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos."
+        },
+        "italian": {
+            "xy": "Chi la usa scatena un turbine che aumenta la Velocità di tutti i Pokémon della squadra per quattro turni.",
+            "oras": "Chi la usa scatena un turbine che aumenta la Velocità di tutti i Pokémon della squadra per quattro turni.",
+            "sm": "Chi la usa scatena un turbine che aumenta la Velocità di tutti i Pokémon della squadra per quattro turni.",
+            "usum": "Chi la usa scatena un turbine che aumenta la Velocità di tutti i Pokémon della squadra per quattro turni.",
+            "lgpe": "Chi la usa scatena un turbine che aumenta la Velocità di tutti i Pokémon della squadra per quattro turni.",
+            "swsh": "Chi la usa scatena un turbine che aumenta la Velocità di tutti i Pokémon della squadra per quattro turni."
+        },
+        "japanese": {
+            "xy": "激しく　吹きあれる 風の渦を　つくり　４ターンの　あいだ 味方　全員の　素早さを　あげる。",
+            "oras": "激しく　吹きあれる 風の渦を　つくり　４ターンの　あいだ 味方　全員の　素早さを　あげる。",
+            "sm": "激しく　吹きあれる 風の渦を　つくり　４ターンの　間 味方　全員の　素早さを　あげる。",
+            "usum": "激しく　吹きあれる 風の渦を　つくり　４ターンの　間 味方　全員の　素早さを　あげる。",
+            "lgpe": "激しく　吹きあれる 風の渦を　つくり　４ターンの　間 味方　全員の　素早さを　あげる。",
+            "swsh": "激しく　吹きあれる 風の渦を　つくり　４ターンの　間 味方　全員の　素早さを　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "oras": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "sm": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "usum": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "lgpe": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+            "swsh": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos."
+        },
+        "traditional-chinese": {
+            "sm": "刮起猛烈的強風， 在４回合內 提高我方全體的速度。",
+            "usum": "刮起猛烈的強風， 在４回合內 提高我方全體的速度。",
+            "lgpe": "刮起猛烈的強風， 在４回合內 提高我方全體的速度。",
+            "swsh": "刮起猛烈的強風， 在４回合內 提高我方全體的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "刮起猛烈的旋风， 在４回合内 提高我方全员的速度。",
+            "usum": "刮起猛烈的旋风， 在４回合内 提高我方全员的速度。",
+            "lgpe": "刮起猛烈的旋风， 在４回合内 提高我方全员的速度。",
+            "swsh": "刮起猛烈的旋风， 在４回合内 提高我方全员的速度。"
+        }
+    },
+    "effect": {
+        "full": "For the next three turns, all Pokémon on the user’s side of the field have their original Speed doubled.  This effect remains if the user leaves the field.",
+        "shortEffect": "For three turns, friendly Pokémon have doubled Speed."
+    }
 }

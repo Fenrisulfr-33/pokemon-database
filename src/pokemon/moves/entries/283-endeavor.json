@@ -1,45 +1,144 @@
 {
-  "_id": 283,
-  "key": "endeavor",
-  "name": {
-    "english": "Endeavor",
-    "japanese": "がむしゃら",
-    "chinese": "强攻",
-    "korean": "죽기살기",
-    "german": "Esfuerzo",
-    "french": "Notsituation",
-    "italian": "Endeavor",
-    "spanish": "Rimonta"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 5,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Gains power if the user’s HP\nis lower than the foe’s HP.",
-    "emerald": "Gains power if the user’s HP\nis lower than the foe’s HP.",
-    "firered-leafgreen": "Gains power the\nfewer HP the user\nhas compared with\nthe foe.",
-    "diamond-pearl": "An attack move that\ncuts down the foe’s\nHP to equal the\nuser’s HP.\n",
-    "platinum": "An attack move that\ncuts down the foe’s\nHP to equal the\nuser’s HP.\n",
-    "heartgold-soulsilver": "An attack move that\ncuts down the foe’s\nHP to equal the\nuser’s HP.\n",
-    "black-white": "An attack move that cuts down the\ntarget’s HP to equal the user’s HP.",
-    "black-2-white-2": "An attack move that cuts down the\ntarget’s HP to equal the user’s HP.",
-    "x-y": "An attack move that cuts down the\ntarget’s HP to equal the user’s HP.",
-    "omega-ruby-alpha-sapphire": "An attack move that cuts down the\ntarget’s HP to equal the user’s HP.",
-    "sun-moon": "This attack move cuts down the target’s HP to equal\nthe user’s HP.",
-    "ultra-sun-ultra-moon": "This attack move cuts down the target’s HP to equal\nthe user’s HP.",
-    "lets-go-pikachu-lets-go-eevee": "This attack move cuts down the target’s HP to equal\nthe user’s HP.",
-    "sword-shield": "This attack move cuts down the target’s HP to equal\nthe user’s HP."
-  },
-  "effect": {
-    "full": "Inflicts exactly enough damage to lower the target's HP to equal the user's.  If the target's HP is not higher than the user's, this move has no effect.  Type immunity applies, but other type effects are ignored.  This effect counts as damage for moves that respond to damage.",
-    "shortEffect": "Lowers the target's HP to equal the user's."
-  },
-  "priority": 0
+    "_id": 283,
+    "key": "endeavor",
+    "name": {
+        "japanese-kana": "がむしゃら",
+        "korean": "죽기살기",
+        "traditional-chinese": "蠻幹",
+        "french": "Effort",
+        "german": "Notsituation",
+        "spanish": "Esfuerzo",
+        "italian": "Rimonta",
+        "english": "Endeavor",
+        "japanese": "がむしゃら",
+        "simplified-chinese": "蛮干",
+        "latin-american-spanish": "Esfuerzo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 5,
+    "power": null,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Gains power if the user’s HP is lower than the foe’s HP.",
+            "em": "Gains power if the user’s HP is lower than the foe’s HP.",
+            "frlg": "Gains power the fewer HP the user has compared with the foe.",
+            "dp": "An attack move that cuts down the foe’s HP to equal the user’s HP.",
+            "pt": "An attack move that cuts down the foe’s HP to equal the user’s HP.",
+            "hgss": "An attack move that cuts down the foe’s HP to equal the user’s HP.",
+            "bw": "An attack move that cuts down the target’s HP to equal the user’s HP.",
+            "b2w2": "An attack move that cuts down the target’s HP to equal the user’s HP.",
+            "xy": "An attack move that cuts down the target’s HP to equal the user’s HP.",
+            "oras": "An attack move that cuts down the target’s HP to equal the user’s HP.",
+            "sm": "This attack move cuts down the target’s HP to equal the user’s HP.",
+            "usum": "This attack move cuts down the target’s HP to equal the user’s HP.",
+            "lgpe": "This attack move cuts down the target’s HP to equal the user’s HP.",
+            "swsh": "This attack move cuts down the target’s HP to equal the user’s HP.",
+            "la": "This attack move cuts down the target's HP to equal the user's HP.",
+            "sv": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP."
+        },
+        "french": {
+            "bw": "Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur.",
+            "xy": "Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur.",
+            "oras": "Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur.",
+            "sm": "Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur.",
+            "usum": "Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur.",
+            "lgpe": "Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur.",
+            "swsh": "Une attaque qui réduit les PV de l’ennemi au niveau des PV du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "あいての　ＨＰが　じぶんの　ＨＰと おなじ　くらいに　なるように ダメージを　あたえる。",
+            "oras": "あいての　ＨＰが　じぶんの　ＨＰと おなじ　くらいに　なるように ダメージを　あたえる。",
+            "sm": "あいての　ＨＰが　じぶんの　ＨＰと おなじ　くらいに　なるように ダメージを　あたえる。",
+            "usum": "あいての　ＨＰが　じぶんの　ＨＰと おなじ　くらいに　なるように ダメージを　あたえる。",
+            "lgpe": "あいての　ＨＰが　じぶんの　ＨＰと おなじ　くらいに　なるように ダメージを　あたえる。",
+            "swsh": "あいての　ＨＰが　じぶんの　ＨＰと おなじ　くらいに　なるように ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "상대의 HP가 자신의 HP와 같아지도록 데미지를 준다.",
+            "oras": "상대의 HP가 자신의 HP와 같아지도록 데미지를 준다.",
+            "sm": "상대의 HP가 자신의 HP와 같아지도록 데미지를 준다.",
+            "usum": "상대의 HP가 자신의 HP와 같아지도록 데미지를 준다.",
+            "lgpe": "상대의 HP가 자신의 HP와 같아지도록 데미지를 준다.",
+            "swsh": "상대의 HP가 자신의 HP와 같아지도록 데미지를 준다."
+        },
+        "german": {
+            "xy": "Trifft nur, wenn KP des Anwenders geringer als KP des Zieles sind. Senkt dessen KP auf die Höhe der KP des Anwenders.",
+            "oras": "Trifft nur, wenn KP des Anwenders geringer als KP des Zieles sind. Senkt dessen KP auf die Höhe der KP des Anwenders.",
+            "sm": "Trifft nur, wenn KP des Anwenders geringer als KP des Zieles sind. Senkt dessen KP auf die Höhe der KP des Anwenders.",
+            "usum": "Trifft nur, wenn KP des Anwenders geringer als KP des Zieles sind. Senkt dessen KP auf die Höhe der KP des Anwenders.",
+            "lgpe": "Trifft nur, wenn KP des Anwenders geringer als KP des Zieles sind. Senkt dessen KP auf die Höhe der KP des Anwenders.",
+            "swsh": "Trifft nur, wenn KP des Anwenders geringer als KP des Zieles sind. Senkt dessen KP auf die Höhe der KP des Anwenders."
+        },
+        "spanish": {
+            "xy": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "oras": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "sm": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "usum": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "lgpe": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "swsh": "Reduce los PS del objetivo para que igualen a los del atacante."
+        },
+        "italian": {
+            "xy": "Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi la usa.",
+            "oras": "Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi la usa.",
+            "sm": "Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi lo usa.",
+            "usum": "Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi lo usa.",
+            "lgpe": "Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi lo usa.",
+            "swsh": "Attacco che riduce i PS del bersaglio a una quantità pari ai PS di chi lo usa."
+        },
+        "japanese": {
+            "xy": "相手の　ＨＰが　自分の　ＨＰと 同じくらいに　なるように ダメージを　与える。",
+            "oras": "相手の　ＨＰが　自分の　ＨＰと 同じくらいに　なるように ダメージを　与える。",
+            "sm": "相手の　ＨＰが　自分の　ＨＰと 同じくらいに　なるように ダメージを　与える。",
+            "usum": "相手の　ＨＰが　自分の　ＨＰと 同じくらいに　なるように ダメージを　与える。",
+            "lgpe": "相手の　ＨＰが　自分の　ＨＰと 同じくらいに　なるように ダメージを　与える。",
+            "swsh": "相手の　ＨＰが　自分の　ＨＰと 同じくらいに　なるように ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "oras": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "sm": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "usum": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "lgpe": "Reduce los PS del objetivo para que igualen a los del atacante.",
+            "swsh": "Reduce los PS del objetivo para que igualen a los del atacante."
+        },
+        "traditional-chinese": {
+            "sm": "給予傷害， 使對手的ＨＰ變得 和自己的ＨＰ一樣。",
+            "usum": "給予傷害， 使對手的ＨＰ變得 和自己的ＨＰ一樣。",
+            "lgpe": "給予傷害， 使對手的HP變得 和自己的HP一樣。",
+            "swsh": "給予傷害， 使對手的ＨＰ變得 和自己的ＨＰ一樣。"
+        },
+        "simplified-chinese": {
+            "sm": "给予伤害， 使对手的ＨＰ变得 和自己的ＨＰ一样。",
+            "usum": "给予伤害， 使对手的ＨＰ变得 和自己的ＨＰ一样。",
+            "lgpe": "给予伤害， 使对手的HP变得 和自己的HP一样。",
+            "swsh": "给予伤害， 使对手的ＨＰ变得 和自己的ＨＰ一样。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts exactly enough damage to lower the target’s HP to equal the user’s.  If the target’s HP is not higher than the user’s, this move has no effect.  Type immunity applies, but other type effects are ignored.  This effect counts as damage for moves that respond to damage.",
+        "shortEffect": "Lowers the target’s HP to equal the user’s."
+    }
 }

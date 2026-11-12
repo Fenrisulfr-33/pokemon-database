@@ -1,42 +1,141 @@
 {
-  "_id": 411,
-  "key": "focus-blast",
-  "name": {
-    "english": "Focus Blast",
-    "japanese": "きあいだま",
-    "chinese": "集气弹",
-    "korean": "기합구슬",
-    "german": "Onda Certera",
-    "french": "Fokusstoß",
-    "italian": "Focus Blast",
-    "spanish": "Focalcolpo"
-  },
-  "type": "Fighting",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 120,
-  "accuracy": 70,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user heightens\nits mental focus and\nunleashes its power.\nIt may also lower the\ntarget’s Sp. Def.",
-    "platinum": "The user heightens\nits mental focus and\nunleashes its power.\nIt may also lower the\ntarget’s Sp. Def.",
-    "heartgold-soulsilver": "The user heightens\nits mental focus and\nunleashes its power.\nIt may also lower the\ntarget’s Sp. Def.",
-    "black-white": "The user heightens its mental focus and\nunleashes its power.\nIt may also lower the target’s Sp. Def.",
-    "black-2-white-2": "The user heightens its mental focus and\nunleashes its power.\nIt may also lower the target’s Sp. Def.",
-    "x-y": "The user heightens its mental focus and\nunleashes its power.\nThis may also lower the target’s Sp. Def.",
-    "omega-ruby-alpha-sapphire": "The user heightens its mental focus and\nunleashes its power.\nThis may also lower the target’s Sp. Def.",
-    "sun-moon": "The user heightens its mental focus and unleashes\nits power. This may also lower the target’s \nSp. Def stat.",
-    "ultra-sun-ultra-moon": "The user heightens its mental focus and unleashes\nits power. This may also lower the target’s \nSp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user heightens its mental focus and unleashes\nits power. This may also lower the target’s\nSp. Def stat.",
-    "sword-shield": "The user heightens its mental focus and unleashes\nits power. This may also lower the target’s\nSp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 411,
+    "key": "focus-blast",
+    "name": {
+        "japanese-kana": "きあいだま",
+        "korean": "기합구슬",
+        "traditional-chinese": "真氣彈",
+        "french": "Exploforce",
+        "german": "Fokusstoß",
+        "spanish": "Onda Certera",
+        "italian": "Focalcolpo",
+        "english": "Focus Blast",
+        "japanese": "きあいだま",
+        "simplified-chinese": "真气弹",
+        "latin-american-spanish": "Ataque Centrado"
+    },
+    "type": "fighting",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": 120,
+    "accuracy": 70,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user heightens its mental focus and unleashes its power. It may also lower the target’s Sp. Def.",
+            "pt": "The user heightens its mental focus and unleashes its power. It may also lower the target’s Sp. Def.",
+            "hgss": "The user heightens its mental focus and unleashes its power. It may also lower the target’s Sp. Def.",
+            "bw": "The user heightens its mental focus and unleashes its power. It may also lower the target’s Sp. Def.",
+            "b2w2": "The user heightens its mental focus and unleashes its power. It may also lower the target’s Sp. Def.",
+            "xy": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def.",
+            "oras": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def.",
+            "sm": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def stat.",
+            "usum": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def stat.",
+            "lgpe": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def stat.",
+            "swsh": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def stat.",
+            "la": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
+            "sv": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat."
+        },
+        "french": {
+            "bw": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "xy": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "oras": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "sm": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "usum": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "lgpe": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "swsh": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "きあいを　たかめて　こんしんの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "oras": "きあいを　たかめて　こんしんの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "sm": "きあいを　たかめて　こんしんの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "usum": "きあいを　たかめて　こんしんの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "lgpe": "きあいを　たかめて　こんしんの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。",
+            "swsh": "きあいを　たかめて　こんしんの　ちからを ほうしゅつする。あいての　とくぼうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "기합을 높여서 혼신의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "기합을 높여서 혼신의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "기합을 높여서 혼신의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "기합을 높여서 혼신의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "기합을 높여서 혼신의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "기합을 높여서 혼신의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender erhöht seinen mentalen Fokus und greift dann an. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "oras": "Anwender erhöht seinen mentalen Fokus und greift dann an. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "sm": "Anwender erhöht seinen mentalen Fokus und greift dann an. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "usum": "Anwender erhöht seinen mentalen Fokus und greift dann an. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "lgpe": "Anwender erhöht seinen mentalen Fokus und greift dann an. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "swsh": "Anwender erhöht seinen mentalen Fokus und greift dann an. Senkt eventuell Spezial-Verteidigung des Zieles."
+        },
+        "spanish": {
+            "xy": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "oras": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "sm": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "usum": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa si concentra e rilascia la sua forza. Può ridurre la Difesa Speciale del Pokémon colpito.",
+            "oras": "Chi la usa si concentra e rilascia la sua forza. Può ridurre la Difesa Speciale del Pokémon colpito.",
+            "sm": "Chi la usa si concentra e rilascia la sua forza. Può ridurre la Difesa Speciale del Pokémon colpito.",
+            "usum": "Chi la usa si concentra e rilascia la sua forza. Può ridurre la Difesa Speciale del Pokémon colpito.",
+            "lgpe": "Chi la usa si concentra e rilascia la sua forza. Può ridurre la Difesa Speciale del Pokémon colpito.",
+            "swsh": "Chi la usa si concentra e rilascia la sua forza. Può ridurre la Difesa Speciale del Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "気合を　高めて ありったけの　力を　放出する。 相手の　特防を　さげることが　ある。",
+            "oras": "気合を　高めて ありったけの　力を　放出する。 相手の　特防を　さげることが　ある。",
+            "sm": "気合を　高めて ありったけの　力を　放出する。 相手の　特防を　さげることが　ある。",
+            "usum": "気合を　高めて ありったけの　力を　放出する。 相手の　特防を　さげることが　ある。",
+            "lgpe": "気合を　高めて ありったけの　力を　放出する。 相手の　特防を　さげることが　ある。",
+            "swsh": "気合を　高めて ありったけの　力を　放出する。 相手の　特防を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "oras": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "sm": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "usum": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "提高氣勢， 釋放全身所有力量。 有時會降低對手的特防。",
+            "usum": "提高氣勢， 釋放全身所有力量。 有時會降低對手的特防。",
+            "lgpe": "提高氣勢， 釋放全身所有力量。 有時會降低對手的特防。",
+            "swsh": "提高氣勢， 釋放全身所有力量。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "提高气势， 释放出全部力量。 有时会降低对手的特防。",
+            "usum": "提高气势， 释放出全部力量。 有时会降低对手的特防。",
+            "lgpe": "提高气势， 释放出全部力量。 有时会降低对手的特防。",
+            "swsh": "提高气势， 释放出全部力量。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

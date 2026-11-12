@@ -1,42 +1,141 @@
 {
-  "_id": 451,
-  "key": "charge-beam",
-  "name": {
-    "english": "Charge Beam",
-    "japanese": "チャージビーム",
-    "chinese": "充电光束",
-    "korean": "차지빔",
-    "german": "Rayo Carga",
-    "french": "Ladestrahl",
-    "italian": "Charge Beam",
-    "spanish": "Raggioscossa"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 50,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user fires a\nconcentrated bundle\nof electricity. It may\nalso raise the user’s\nSp. Atk stat.",
-    "platinum": "The user fires a\nconcentrated bundle\nof electricity. It may\nalso raise the user’s\nSp. Atk stat.",
-    "heartgold-soulsilver": "The user fires a\nconcentrated bundle\nof electricity. It may\nalso raise the user’s\nSp. Atk stat.",
-    "black-white": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
-    "black-2-white-2": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
-    "x-y": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
-    "sun-moon": "The user attacks with an electric charge. The user\nmay use any remaining electricity to raise its\nSp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user attacks with an electric charge. The user\nmay use any remaining electricity to raise its\nSp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with an electric charge. The user\nmay use any remaining electricity to raise its\nSp. Atk stat.",
-    "sword-shield": "The user attacks the target with an electric charge. The\nuser may use any remaining electricity to raise its\nSp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to raise the user's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to raise the user's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 451,
+    "key": "charge-beam",
+    "name": {
+        "japanese-kana": "チャージビーム",
+        "korean": "차지빔",
+        "traditional-chinese": "充電光束",
+        "french": "Rayon Chargé",
+        "german": "Ladestrahl",
+        "spanish": "Rayo Carga",
+        "italian": "Raggioscossa",
+        "english": "Charge Beam",
+        "japanese": "チャージビーム",
+        "simplified-chinese": "充电光束",
+        "latin-american-spanish": "Rayo Carga"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 50,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 70
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user fires a concentrated bundle of electricity. It may also raise the user’s Sp. Atk stat.",
+            "pt": "The user fires a concentrated bundle of electricity. It may also raise the user’s Sp. Atk stat.",
+            "hgss": "The user fires a concentrated bundle of electricity. It may also raise the user’s Sp. Atk stat.",
+            "bw": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "b2w2": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "xy": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "oras": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "sm": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "usum": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "lgpe": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "swsh": "The user attacks the target with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "la": "The user attacks the target with an electric charge. The leftover electricity may also raise the user’s offensive stats.",
+            "sv": "The user attacks the target with an electric charge. The residual electricity may also boost the user's Sp. Atk stat."
+        },
+        "french": {
+            "bw": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+            "xy": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+            "oras": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+            "sm": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+            "usum": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+            "lgpe": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+            "swsh": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "でんげきの　たばを　あいてに はっしゃする。でんきを　ためて　じぶんの とくこうを　あげることが　ある。",
+            "oras": "でんげきの　たばを　あいてに はっしゃする。でんきを　ためて　じぶんの とくこうを　あげることが　ある。",
+            "sm": "でんげきの　たばを　あいてに はっしゃする。でんきを　ためて　じぶんの とくこうを　あげることが　ある。",
+            "usum": "でんげきの　たばを　あいてに はっしゃする。でんきを　ためて　じぶんの とくこうを　あげることが　ある。",
+            "lgpe": "でんげきの　たばを　あいてに はっしゃする。でんきを　ためて　じぶんの とくこうを　あげることが　ある。",
+            "swsh": "でんげきの　たばを　あいてに はっしゃする。でんきを　ためて　じぶんの とくこうを　あげることが　ある。"
+        },
+        "korean": {
+            "xy": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다.",
+            "oras": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다.",
+            "sm": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다.",
+            "usum": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다.",
+            "lgpe": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다.",
+            "swsh": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다."
+        },
+        "german": {
+            "xy": "Ziel wird von einem Elektrostrahl getroffen. Steigert eventuell Spezial-Angriff des Anwenders.",
+            "oras": "Ziel wird von einem Elektrostrahl getroffen. Steigert eventuell Spezial-Angriff des Anwenders.",
+            "sm": "Ziel wird von einem Elektrostrahl getroffen. Erhöht eventuell Spezial-Angriff des Anwenders.",
+            "usum": "Ziel wird von einem Elektrostrahl getroffen. Erhöht eventuell Spezial-Angriff des Anwenders.",
+            "lgpe": "Ziel wird von einem Elektrostrahl getroffen. Erhöht eventuell Spezial-Angriff des Anwenders.",
+            "swsh": "Ziel wird von einem Elektrostrahl getroffen. Erhöht eventuell Spezial-Angriff des Anwenders."
+        },
+        "spanish": {
+            "xy": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "oras": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "sm": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "usum": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "lgpe": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "swsh": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.",
+            "oras": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.",
+            "sm": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.",
+            "usum": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.",
+            "lgpe": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.",
+            "swsh": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale."
+        },
+        "japanese": {
+            "xy": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。",
+            "oras": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。",
+            "sm": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。",
+            "usum": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。",
+            "lgpe": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。",
+            "swsh": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "oras": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "sm": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "usum": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "lgpe": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+            "swsh": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射電擊光束。 有時會因電流蓄積， 提高自己的特攻。",
+            "usum": "向對手發射電擊光束。 有時會因電流蓄積， 提高自己的特攻。",
+            "lgpe": "向對手發射電擊光束。 有時會因電流蓄積， 提高自己的特攻。",
+            "swsh": "向對手發射電擊光束。 有時會因電流蓄積， 提高自己的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射电击光束。 由于蓄满电流， 有时会提高自己的特攻。",
+            "usum": "向对手发射电击光束。 由于蓄满电流， 有时会提高自己的特攻。",
+            "lgpe": "向对手发射电击光束。 由于蓄满电流， 有时会提高自己的特攻。",
+            "swsh": "向对手发射电击光束。 由于蓄满电流， 有时会提高自己的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to raise the user’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to raise the user’s Special Attack by one stage."
+    }
 }

@@ -1,39 +1,138 @@
 {
-  "_id": 470,
-  "key": "guard-split",
-  "name": {
-    "english": "Guard Split",
-    "japanese": "ガードシェア",
-    "chinese": "防御平分",
-    "korean": "가드셰어",
-    "german": "Isoguardia",
-    "french": "Schutzteiler",
-    "italian": "Guard Split",
-    "spanish": "Paridifesa"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user employs its psychic power to\naverage its Defense and Sp. Def stats\nwith those of its target’s.",
-    "black-2-white-2": "The user employs its psychic power to\naverage its Defense and Sp. Def stats\nwith those of its target’s.",
-    "x-y": "The user employs its psychic power to\naverage its Defense and Sp. Def stats\nwith those of the target.",
-    "omega-ruby-alpha-sapphire": "The user employs its psychic power to\naverage its Defense and Sp. Def stats\nwith those of the target.",
-    "sun-moon": "The user employs its psychic power to average its\nDefense and Sp. Def stats with those of the target.",
-    "ultra-sun-ultra-moon": "The user employs its psychic power to average its\nDefense and Sp. Def stats with those of the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user employs its psychic power to average its\nDefense and Sp. Def stats with those of the target.",
-    "sword-shield": "The user employs its psychic power to average its\nDefense and Sp. Def stats with those of the target."
-  },
-  "effect": {
-    "full": "Averages the user's unmodified Defense with the target's unmodified Defense; the value becomes the unmodified Defense for both Pokémon. Unmodified Special Defense is averaged the same way.",
-    "shortEffect": "Averages Defense and Special Defense with the target."
-  },
-  "priority": 0
+    "_id": 470,
+    "key": "guard-split",
+    "name": {
+        "japanese-kana": "ガードシェア",
+        "korean": "가드셰어",
+        "traditional-chinese": "防守平分",
+        "french": "Partage Garde",
+        "german": "Schutzteiler",
+        "spanish": "Isoguardia",
+        "italian": "Paridifesa",
+        "english": "Guard Split",
+        "japanese": "ガードシェア",
+        "simplified-chinese": "防守平分",
+        "latin-american-spanish": "Guardia Dividida"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "xy": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "oras": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "sm": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "usum": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "lgpe": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+            "swsh": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux."
+        },
+        "english": {
+            "bw": "The user employs its psychic power to average its Defense and Sp. Def stats with those of its target’s.",
+            "b2w2": "The user employs its psychic power to average its Defense and Sp. Def stats with those of its target’s.",
+            "xy": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+            "oras": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+            "sm": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+            "usum": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+            "lgpe": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+            "swsh": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+            "la": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+            "sv": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target."
+        },
+        "japanese-kana": {
+            "xy": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうを　たして はんぶんに　わける。",
+            "oras": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうを　たして はんぶんに　わける。",
+            "sm": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうを　たして はんぶんに　わける。",
+            "usum": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうを　たして はんぶんに　わける。",
+            "lgpe": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうを　たして はんぶんに　わける。",
+            "swsh": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうを　たして はんぶんに　わける。"
+        },
+        "korean": {
+            "xy": "초능력으로 자신과 상대의 방어와 특수방어를 더해서 반으로 나눈다.",
+            "oras": "초능력으로 자신과 상대의 방어와 특수방어를 더해서 반으로 나눈다.",
+            "sm": "초능력으로 자신과 상대의 방어와 특수방어를 더해서 반으로 나눈다.",
+            "usum": "초능력으로 자신과 상대의 방어와 특수방어를 더해서 반으로 나눈다.",
+            "lgpe": "초능력으로 자신과 상대의 방어와 특수방어를 더해서 반으로 나눈다.",
+            "swsh": "초능력으로 자신과 상대의 방어와 특수방어를 더해서 반으로 나눈다."
+        },
+        "german": {
+            "xy": "Durch Psycho-Kräfte werden Verteidigung und Spezial-Verteidigung des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "oras": "Durch Psycho-Kräfte werden Verteidigung und Spezial-Verteidigung des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "sm": "Durch Psycho-Kräfte werden Verteidigung und Spezial-Verteidigung des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "usum": "Durch Psycho-Kräfte werden Verteidigung und Spezial-Verteidigung des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "lgpe": "Durch Psycho-Kräfte werden Verteidigung und Spezial-Verteidigung des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+            "swsh": "Durch Psycho-Kräfte werden Verteidigung und Spezial-Verteidigung des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt."
+        },
+        "spanish": {
+            "xy": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "oras": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "sm": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "usum": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "lgpe": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "swsh": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas."
+        },
+        "italian": {
+            "xy": "Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.",
+            "oras": "Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.",
+            "sm": "Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.",
+            "usum": "Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.",
+            "lgpe": "Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.",
+            "swsh": "Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente."
+        },
+        "japanese": {
+            "xy": "超能力で　自分と　相手の 防御と　特防を　たして 半分に　わける。",
+            "oras": "超能力で　自分と　相手の 防御と　特防を　たして 半分に　わける。",
+            "sm": "超能力で　自分と　相手の 防御と　特防を　たして 半分に　わける。",
+            "usum": "超能力で　自分と　相手の 防御と　特防を　たして 半分に　わける。",
+            "lgpe": "超能力で　自分と　相手の 防御と　特防を　たして 半分に　わける。",
+            "swsh": "超能力で　自分と　相手の 防御と　特防を　たして 半分に　わける。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "oras": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "sm": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "usum": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "lgpe": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+            "swsh": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas."
+        },
+        "traditional-chinese": {
+            "sm": "用超能力將自己和對手的 防禦和特防各別相加後， 再進行平分。",
+            "usum": "用超能力將自己和對手的 防禦和特防各別相加後， 再進行平分。",
+            "lgpe": "用超能力將自己和對手的 防禦和特防各別相加後， 再進行平分。",
+            "swsh": "用超能力將自己和對手的 防禦和特防各別相加後， 再進行平分。"
+        },
+        "simplified-chinese": {
+            "sm": "利用超能力将自己和对手的 防御和特防相加， 再进行平分。",
+            "usum": "利用超能力将自己和对手的 防御和特防相加， 再进行平分。",
+            "lgpe": "利用超能力将自己和对手的 防御和特防相加， 再进行平分。",
+            "swsh": "利用超能力将自己和对手的 防御和特防相加， 再进行平分。"
+        }
+    },
+    "effect": {
+        "full": "Averages the user’s unmodified Defense with the target’s unmodified Defense; the value becomes the unmodified Defense for both Pokémon. Unmodified Special Defense is averaged the same way.",
+        "shortEffect": "Averages Defense and Special Defense with the target."
+    }
 }

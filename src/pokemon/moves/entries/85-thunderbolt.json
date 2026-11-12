@@ -1,47 +1,150 @@
 {
-  "_id": 85,
-  "key": "thunderbolt",
-  "name": {
-    "english": "Thunderbolt",
-    "japanese": "１０まんボルト",
-    "chinese": "十万伏特",
-    "korean": "10만볼트",
-    "german": "Rayo",
-    "french": "Donnerblitz",
-    "italian": "Thunderbolt",
-    "spanish": "Fulmine"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause paralysis.",
-    "crystal": "An attack that may\ncause paralysis.",
-    "ruby-sapphire": "A strong electrical attack\nthat may paralyze the foe.",
-    "emerald": "A strong electrical attack\nthat may paralyze the foe.",
-    "firered-leafgreen": "A strong electrical\nattack that may\nalso leave the foe\nparalyzed.",
-    "diamond-pearl": "A strong electric\nblast is loosed at\nthe foe.\nIt may also leave the\nfoe paralyzed.",
-    "platinum": "A strong electric\nblast is loosed at\nthe foe.\nIt may also leave the\nfoe paralyzed.",
-    "heartgold-soulsilver": "A strong electric\nblast is loosed at\nthe foe.\nIt may also leave the\nfoe paralyzed.",
-    "black-white": "A strong electric blast is loosed at the\ntarget. It may also leave the target\nwith paralysis.",
-    "black-2-white-2": "A strong electric blast is loosed at the\ntarget. It may also leave the target\nwith paralysis.",
-    "x-y": "A strong electric blast crashes down on the\ntarget. This may also leave the target\nwith paralysis.",
-    "omega-ruby-alpha-sapphire": "A strong electric blast crashes down on the\ntarget. This may also leave the target\nwith paralysis.",
-    "sun-moon": "A strong electric blast crashes down on the target.\nThis may also leave the target with paralysis.",
-    "ultra-sun-ultra-moon": "A strong electric blast crashes down on the target.\nThis may also leave the target with paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "A strong electric blast crashes down on the target.\nThis may also leave the target with paralysis.",
-    "sword-shield": "A strong electric blast crashes down on the target.\nThis may also leave the target with paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 85,
+    "key": "thunderbolt",
+    "name": {
+        "japanese-kana": "１０まんボルト",
+        "korean": "10만볼트",
+        "traditional-chinese": "十萬伏特",
+        "french": "Tonnerre",
+        "german": "Donnerblitz",
+        "spanish": "Rayo",
+        "italian": "Fulmine",
+        "english": "Thunderbolt",
+        "japanese": "１０まんボルト",
+        "simplified-chinese": "十万伏特",
+        "latin-american-spanish": "Atactrueno"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": "cool",
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 95
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause paralysis.",
+            "cr": "An attack that may cause paralysis.",
+            "rs": "A strong electrical attack that may paralyze the foe.",
+            "em": "A strong electrical attack that may paralyze the foe.",
+            "frlg": "A strong electrical attack that may also leave the foe paralyzed.",
+            "dp": "A strong electric blast is loosed at the foe. It may also leave the foe paralyzed.",
+            "pt": "A strong electric blast is loosed at the foe. It may also leave the foe paralyzed.",
+            "hgss": "A strong electric blast is loosed at the foe. It may also leave the foe paralyzed.",
+            "bw": "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
+            "b2w2": "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
+            "xy": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+            "oras": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+            "sm": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+            "usum": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+            "lgpe": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+            "swsh": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+            "la": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis.",
+            "sv": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis."
+        },
+        "french": {
+            "bw": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "xy": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "oras": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "sm": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "usum": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "lgpe": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+            "swsh": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser."
+        },
+        "japanese-kana": {
+            "xy": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Eine starke Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "oras": "Eine starke Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "sm": "Eine starke Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "usum": "Eine starke Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "lgpe": "Eine starke Elektro-Attacke, die das Ziel eventuell paralysiert.",
+            "swsh": "Eine starke Elektro-Attacke, die das Ziel eventuell paralysiert."
+        },
+        "spanish": {
+            "xy": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "oras": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "sm": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "usum": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "lgpe": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "swsh": "Potente ataque eléctrico que puede paralizar al objetivo."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.",
+            "oras": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.",
+            "sm": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.",
+            "usum": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.",
+            "lgpe": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.",
+            "swsh": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo."
+        },
+        "japanese": {
+            "xy": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "oras": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "sm": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "usum": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "lgpe": "Potente ataque eléctrico que puede paralizar al objetivo.",
+            "swsh": "Potente ataque eléctrico que puede paralizar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "向對手放出強力電流進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "usum": "向對手放出強力電流進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "向對手放出強力電流進行攻擊。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "向對手放出強力電流進行攻擊。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发出 强力电击进行攻击。 有时会让对手陷入麻痹状态。",
+            "usum": "向对手发出 强力电击进行攻击。 有时会让对手陷入麻痹状态。",
+            "lgpe": "向对手发出 强力电击进行攻击。 有时会让对手陷入麻痹状态。",
+            "swsh": "向对手发出 强力电击进行攻击。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

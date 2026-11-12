@@ -1,47 +1,150 @@
 {
-  "_id": 184,
-  "key": "scary-face",
-  "name": {
-    "english": "Scary Face",
-    "japanese": "こわいかお",
-    "chinese": "鬼脸",
-    "korean": "겁나는얼굴",
-    "german": "Cara Susto",
-    "french": "Grimasse",
-    "italian": "Scary Face",
-    "spanish": "Visotruce"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Sharply reduces\nthe foe's SPEED.",
-    "crystal": "Sharply reduces\nthe foe's SPEED.",
-    "ruby-sapphire": "Frightens with a scary face\nto sharply reduce SPEED.",
-    "emerald": "Frightens with a scary face\nto sharply reduce SPEED.",
-    "firered-leafgreen": "Frightens the foe\nwith a scary face\nto sharply reduce\nits SPEED.",
-    "diamond-pearl": "The user frightens\nthe foe with a scary\nface to sharply\nreduce its Speed\nstat.",
-    "platinum": "The user frightens\nthe foe with a scary\nface to sharply\nreduce its Speed\nstat.",
-    "heartgold-soulsilver": "The user frightens\nthe foe with a scary\nface to sharply\nreduce its Speed\nstat.",
-    "black-white": "The user frightens the target with a scary\nface to harshly reduce its Speed stat.",
-    "black-2-white-2": "The user frightens the target with a scary\nface to harshly reduce its Speed stat.",
-    "x-y": "The user frightens the target with a scary\nface to harshly lower its Speed stat.",
-    "omega-ruby-alpha-sapphire": "The user frightens the target with a scary\nface to harshly lower its Speed stat.",
-    "sun-moon": "The user frightens the target with a scary face to\nharshly lower its Speed stat.",
-    "ultra-sun-ultra-moon": "The user frightens the target with a scary face to\nharshly lower its Speed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user frightens the target with a scary face to\nharshly lower its Speed stat.",
-    "sword-shield": "The user frightens the target with a scary face to\nharshly lower its Speed stat."
-  },
-  "effect": {
-    "full": "Lowers the target's Speed by two stages.",
-    "shortEffect": "Lowers the target's Speed by two stages."
-  },
-  "priority": 0
+    "_id": 184,
+    "key": "scary-face",
+    "name": {
+        "japanese-kana": "こわいかお",
+        "korean": "겁나는얼굴",
+        "traditional-chinese": "鬼面",
+        "french": "Grimace",
+        "german": "Grimasse",
+        "spanish": "Cara Susto",
+        "italian": "Visotruce",
+        "english": "Scary Face",
+        "japanese": "こわいかお",
+        "simplified-chinese": "鬼面",
+        "latin-american-spanish": "Cara Aterradora"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 90
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Sharply reduces the foe's SPEED.",
+            "cr": "Sharply reduces the foe's SPEED.",
+            "rs": "Frightens with a scary face to sharply reduce SPEED.",
+            "em": "Frightens with a scary face to sharply reduce SPEED.",
+            "frlg": "Frightens the foe with a scary face to sharply reduce its SPEED.",
+            "dp": "The user frightens the foe with a scary face to sharply reduce its Speed stat.",
+            "pt": "The user frightens the foe with a scary face to sharply reduce its Speed stat.",
+            "hgss": "The user frightens the foe with a scary face to sharply reduce its Speed stat.",
+            "bw": "The user frightens the target with a scary face to harshly reduce its Speed stat.",
+            "b2w2": "The user frightens the target with a scary face to harshly reduce its Speed stat.",
+            "xy": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+            "oras": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+            "sm": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+            "usum": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+            "lgpe": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+            "swsh": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+            "la": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+            "sv": "The user frightens the target with a scary face to harshly lower its Speed stat."
+        },
+        "french": {
+            "bw": "Une grimace qui effraie l’ennemi et réduit fortement sa Vitesse.",
+            "xy": "Une grimace qui effraie l’ennemi et réduit fortement sa Vitesse.",
+            "oras": "Une grimace qui effraie l’ennemi et réduit fortement sa Vitesse.",
+            "sm": "Une grimace qui effraie l’ennemi et réduit beaucoup sa Vitesse.",
+            "usum": "Une grimace qui effraie l’ennemi et réduit beaucoup sa Vitesse.",
+            "lgpe": "Une grimace qui effraie l’ennemi et réduit beaucoup sa Vitesse.",
+            "swsh": "Le lanceur fait une grimace qui effraie l’ennemi et réduit beaucoup sa Vitesse."
+        },
+        "japanese-kana": {
+            "xy": "おそろしい　かおで　にらみ　おびえさせて あいての　すばやさを　がくっと　さげる。",
+            "oras": "おそろしい　かおで　にら 　おびえさせて あいての　すばやさを　がくっと　さげる。",
+            "sm": "おそろしい　かおで　にらみ　おびえさせて あいての　すばやさを　がくっと　さげる。",
+            "usum": "おそろしい　かおで　にらみ　おびえさせて あいての　すばやさを　がくっと　さげる。",
+            "lgpe": "おそろしい　かおで　にらみ　おびえさせて あいての　すばやさを　がくっと　さげる。",
+            "swsh": "おそろしい　かおで　にらみ　おびえさせて あいての　すばやさを　がくっと　さげる。"
+        },
+        "korean": {
+            "xy": "무서운 얼굴로 노려보고 겁주어 상대의 스피드를 크게 떨어뜨린다.",
+            "oras": "무서운 얼굴로 노려보고 겁주어 상대의 스피드를 크게 떨어뜨린다.",
+            "sm": "무서운 얼굴로 노려보고 겁주어 상대의 스피드를 크게 떨어뜨린다.",
+            "usum": "무서운 얼굴로 노려보고 겁주어 상대의 스피드를 크게 떨어뜨린다.",
+            "lgpe": "무서운 얼굴로 노려보고 겁주어 상대의 스피드를 크게 떨어뜨린다.",
+            "swsh": "무서운 얼굴로 노려보고 겁주어 상대의 스피드를 크게 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.",
+            "oras": "Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.",
+            "sm": "Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.",
+            "usum": "Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.",
+            "lgpe": "Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.",
+            "swsh": "Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark."
+        },
+        "spanish": {
+            "xy": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "oras": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "sm": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "usum": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "lgpe": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "swsh": "Asusta al objetivo para reducir mucho su Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.",
+            "oras": "Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.",
+            "sm": "Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.",
+            "usum": "Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.",
+            "lgpe": "Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.",
+            "swsh": "Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità."
+        },
+        "japanese": {
+            "xy": "恐ろしい　顔で　にらみ　おびえさせて 相手の　素早さを　がくっと　さげる。",
+            "oras": "恐ろしい　顔で　にら 　おびえさせて 相手の　素早さを　がくっと　さげる。",
+            "sm": "恐ろしい　顔で　にらみ　おびえさせて 相手の　素早さを　がくっと　さげる。",
+            "usum": "恐ろしい　顔で　にらみ　おびえさせて 相手の　素早さを　がくっと　さげる。",
+            "lgpe": "恐ろしい　顔で　にらみ　おびえさせて 相手の　素早さを　がくっと　さげる。",
+            "swsh": "恐ろしい　顔で　にらみ　おびえさせて 相手の　素早さを　がくっと　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "oras": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "sm": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "usum": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "lgpe": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "swsh": "Asusta al objetivo para reducir mucho su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "用恐怖的表情瞪著對手， 讓對手害怕， 大幅降低對手的速度。",
+            "usum": "用恐怖的表情瞪著對手， 讓對手害怕， 大幅降低對手的速度。",
+            "lgpe": "用恐怖的表情瞪著對手， 讓對手害怕， 大幅降低對手的速度。",
+            "swsh": "用恐怖的表情瞪著對手， 讓對手害怕， 大幅降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "用恐怖的脸瞪着对手， 使其害怕， 从而大幅降低对手的速度。",
+            "usum": "用恐怖的脸瞪着对手， 使其害怕， 从而大幅降低对手的速度。",
+            "lgpe": "用恐怖的表情瞪着对手， 使其害怕， 从而大幅降低对手的速度。",
+            "swsh": "用恐怖的表情瞪着对手， 使其害怕， 从而大幅降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Speed by two stages.",
+        "shortEffect": "Lowers the target’s Speed by two stages."
+    }
 }

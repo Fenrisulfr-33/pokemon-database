@@ -1,45 +1,144 @@
 {
-  "_id": 295,
-  "key": "luster-purge",
-  "name": {
-    "english": "Luster Purge",
-    "japanese": "ラスターパージ",
-    "chinese": "洁净光泽",
-    "korean": "라스트버지",
-    "german": "Resplandor",
-    "french": "Scheinwerfer",
-    "italian": "Luster Purge",
-    "spanish": "Abbagliante"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 5,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Attacks with a burst of\nlight. May lower SP. DEF.",
-    "emerald": "Attacks with a burst of\nlight. May lower SP. DEF.",
-    "firered-leafgreen": "A burst of light\ninjures the foe. It\nmay also lower the\nfoe’s SP. DEF.",
-    "diamond-pearl": "The user looses a\ndamaging burst of\nlight. It may also\nreduce the target’s\nSp. Def stat.",
-    "platinum": "The user looses a\ndamaging burst of\nlight. It may also\nreduce the target’s\nSp. Def stat.",
-    "heartgold-soulsilver": "The user looses a\ndamaging burst of\nlight. It may also\nreduce the target’s\nSp. Def stat.",
-    "black-white": "The user lets loose a damaging burst\nof light. It may also reduce the target’s\nSp. Def stat.",
-    "black-2-white-2": "The user lets loose a damaging burst\nof light. It may also reduce the target’s\nSp. Def stat.",
-    "x-y": "The user lets loose a damaging burst\nof light. This may also lower the target’s\nSp. Def stat.",
-    "omega-ruby-alpha-sapphire": "The user lets loose a damaging burst\nof light. This may also lower the target’s\nSp. Def stat.",
-    "sun-moon": "The user lets loose a damaging burst of light. This\nmay also lower the target’s Sp. Def stat.",
-    "ultra-sun-ultra-moon": "The user lets loose a damaging burst of light. This\nmay also lower the target’s Sp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets loose a damaging burst of light. This\nmay also lower the target’s Sp. Def stat.",
-    "sword-shield": "The user lets loose a damaging burst of light. This\nmay also lower the target’s Sp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 295,
+    "key": "luster-purge",
+    "name": {
+        "japanese-kana": "ラスターパージ",
+        "korean": "러스터퍼지",
+        "traditional-chinese": "潔淨光芒",
+        "french": "Lumi-Éclat",
+        "german": "Scheinwerfer",
+        "spanish": "Resplandor",
+        "italian": "Abbagliante",
+        "english": "Luster Purge",
+        "japanese": "ラスターパージ",
+        "simplified-chinese": "洁净光芒",
+        "latin-american-spanish": "Resplandor"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "smart",
+    "pp": 5,
+    "power": 95,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 50
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Attacks with a burst of light. May lower SP. DEF.",
+            "em": "Attacks with a burst of light. May lower SP. DEF.",
+            "frlg": "A burst of light injures the foe. It may also lower the foe’s SP. DEF.",
+            "dp": "The user looses a damaging burst of light. It may also reduce the target’s Sp. Def stat.",
+            "pt": "The user looses a damaging burst of light. It may also reduce the target’s Sp. Def stat.",
+            "hgss": "The user looses a damaging burst of light. It may also reduce the target’s Sp. Def stat.",
+            "bw": "The user lets loose a damaging burst of light. It may also reduce the target’s Sp. Def stat.",
+            "b2w2": "The user lets loose a damaging burst of light. It may also reduce the target’s Sp. Def stat.",
+            "xy": "The user lets loose a damaging burst of light. This may also lower the target’s Sp. Def stat.",
+            "oras": "The user lets loose a damaging burst of light. This may also lower the target’s Sp. Def stat.",
+            "sm": "The user lets loose a damaging burst of light. This may also lower the target’s Sp. Def stat.",
+            "usum": "The user lets loose a damaging burst of light. This may also lower the target’s Sp. Def stat.",
+            "lgpe": "The user lets loose a damaging burst of light. This may also lower the target’s Sp. Def stat.",
+            "swsh": "The user lets loose a damaging burst of light. This may also lower the target’s Sp. Def stat.",
+            "la": "The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat.",
+            "sv": "The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat."
+        },
+        "french": {
+            "bw": "Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "xy": "Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "oras": "Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "sm": "Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "usum": "Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "lgpe": "Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "swsh": "Le lanceur libère un éclair lumineux. Peut aussi baisser la Défense Spéciale de l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "まばゆい　ひかりを　ときはなって こうげきする。あいての　とくぼうを さげることが　ある。",
+            "oras": "まばゆい　ひかりを　ときはなって こうげきする。あいての　とくぼうを さげることが　ある。",
+            "sm": "まばゆい　ひかりを　ときはなって こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "usum": "まばゆい　ひかりを　ときはなって こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "lgpe": "まばゆい　ひかりを　ときはなって こうげきする。　あいての　とくぼうを さげることが　ある。",
+            "swsh": "まばゆい　ひかりを　ときはなって こうげきする。　あいての　とくぼうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "눈부신 빛을 발산하여 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "눈부신 빛을 발산하여 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "눈부신 빛을 발산하여 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "눈부신 빛을 발산하여 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "눈부신 빛을 발산하여 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "눈부신 빛을 발산하여 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit grellem Licht, der die Spezial-Verteidigung des Zieles eventuell senkt.",
+            "oras": "Angriff mit grellem Licht, der die Spezial-Verteidigung des Zieles eventuell senkt.",
+            "sm": "Angriff mit einem grellem Licht, der die Spezial-Verteidigung des Zieles eventuell senkt.",
+            "usum": "Angriff mit einem grellem Licht, der die Spezial-Verteidigung des Zieles eventuell senkt.",
+            "lgpe": "Angriff mit einem grellem Licht, der die Spezial-Verteidigung des Zieles eventuell senkt.",
+            "swsh": "Angriff mit einem grellem Licht, der die Spezial-Verteidigung des Zieles eventuell senkt."
+        },
+        "spanish": {
+            "xy": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "oras": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "sm": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "usum": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "lgpe": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "swsh": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa scatena un’esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.",
+            "oras": "Chi la usa scatena un’esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.",
+            "sm": "Chi la usa scatena un’esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.",
+            "usum": "Chi la usa scatena un’esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.",
+            "lgpe": "Chi la usa scatena un’esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.",
+            "swsh": "Chi la usa scatena un’esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "まばゆい　光を 解放して　攻撃する。 相手の　特防を　さげることが　ある。",
+            "oras": "まばゆい　光を 解放して　攻撃する。 相手の　特防を　さげることが　ある。",
+            "sm": "まばゆい　光を 解放して　攻撃する。 相手の　特防を　さげることが　ある。",
+            "usum": "まばゆい　光を 解放して　攻撃する。 相手の　特防を　さげることが　ある。",
+            "lgpe": "まばゆい　光を 解放して　攻撃する。 相手の　特防を　さげることが　ある。",
+            "swsh": "まばゆい　光を 解放して　攻撃する。 相手の　特防を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "oras": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "sm": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "usum": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "lgpe": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo.",
+            "swsh": "Fogonazo de luz que puede bajar la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "放出耀眼的光芒進行攻擊。 有時會降低對手的特防。",
+            "usum": "放出耀眼的光芒進行攻擊。 有時會降低對手的特防。",
+            "lgpe": "放出耀眼的光芒進行攻擊。 有時會降低對手的特防。",
+            "swsh": "放出耀眼的光芒進行攻擊。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "释放耀眼的光芒进行攻击。 有时会降低对手的特防。",
+            "usum": "释放耀眼的光芒进行攻击。 有时会降低对手的特防。",
+            "lgpe": "释放耀眼的光芒进行攻击。 有时会降低对手的特防。",
+            "swsh": "释放耀眼的光芒进行攻击。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

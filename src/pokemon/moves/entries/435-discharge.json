@@ -1,42 +1,141 @@
 {
-  "_id": 435,
-  "key": "discharge",
-  "name": {
-    "english": "Discharge",
-    "japanese": "ほうでん",
-    "chinese": "放电",
-    "korean": "방전",
-    "german": "Chispazo",
-    "french": "Ladungsstoß",
-    "italian": "Discharge",
-    "spanish": "Scarica"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "A flare of electricity\nis loosed to strike\nall Pokémon in battle.\nIt may also cause\nparalysis.",
-    "platinum": "A flare of electricity\nis loosed to strike\nall Pokémon in battle.\nIt may also cause\nparalysis.",
-    "heartgold-soulsilver": "A flare of electricity\nis loosed to strike\nall Pokémon in battle.\nIt may also cause\nparalysis.",
-    "black-white": "A flare of electricity is loosed to strike\nthe area around the user.\nIt may also cause paralysis.",
-    "black-2-white-2": "A flare of electricity is loosed to strike\nthe area around the user.\nIt may also cause paralysis.",
-    "x-y": "The user strikes everything around it\nby letting loose a flare of electricity.\nThis may also cause paralysis.",
-    "omega-ruby-alpha-sapphire": "The user strikes everything around it\nby letting loose a flare of electricity.\nThis may also cause paralysis.",
-    "sun-moon": "The user strikes everything around it by letting loose\na flare of electricity. This may also cause paralysis.",
-    "ultra-sun-ultra-moon": "The user strikes everything around it by letting loose\na flare of electricity. This may also cause paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes everything around it by letting loose\na flare of electricity. This may also cause paralysis.",
-    "sword-shield": "The user strikes everything around it by letting loose\na flare of electricity. This may also cause paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 435,
+    "key": "discharge",
+    "name": {
+        "japanese-kana": "ほうでん",
+        "korean": "방전",
+        "traditional-chinese": "放電",
+        "french": "Coup d’Jus",
+        "german": "Ladungsstoß",
+        "spanish": "Chispazo",
+        "italian": "Scarica",
+        "english": "Discharge",
+        "japanese": "ほうでん",
+        "simplified-chinese": "放电",
+        "latin-american-spanish": "Chispazo"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": "cool",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "A flare of electricity is loosed to strike all Pokémon in battle. It may also cause paralysis.",
+            "pt": "A flare of electricity is loosed to strike all Pokémon in battle. It may also cause paralysis.",
+            "hgss": "A flare of electricity is loosed to strike all Pokémon in battle. It may also cause paralysis.",
+            "bw": "A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.",
+            "b2w2": "A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.",
+            "xy": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+            "oras": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+            "sm": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+            "usum": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+            "lgpe": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+            "swsh": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+            "la": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+            "sv": "The user strikes everything around it by letting loose a flare of electricity. This may also leave those hit by the attack with paralysis."
+        },
+        "french": {
+            "bw": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi paralyser.",
+            "xy": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser.",
+            "oras": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser.",
+            "sm": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser.",
+            "usum": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser.",
+            "lgpe": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser.",
+            "swsh": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser."
+        },
+        "japanese-kana": {
+            "xy": "まばゆい　でんげきで　じぶんの まわりに　いるものを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "oras": "まばゆい　でんげきで　じぶんの まわりに　いるものを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "sm": "まばゆい　でんげきで　じぶんの まわりに　いるものを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "usum": "まばゆい　でんげきで　じぶんの まわりに　いるものを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "まばゆい　でんげきで　じぶんの まわりに　いるものを　こうげきする。 まひ　じょうたいに　することが　ある。",
+            "swsh": "まばゆい　でんげきで　じぶんの まわりに　いるものを　こうげきする。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "눈부신 전격으로 자신의 주위에 있는 포켓몬을 공격한다. 마비 상태로 만들 때가 있다.",
+            "oras": "눈부신 전격으로 자신의 주위에 있는 포켓몬을 공격한다. 마비 상태로 만들 때가 있다.",
+            "sm": "눈부신 전격으로 자신의 주위에 있는 포켓몬을 공격한다. 마비 상태로 만들 때가 있다.",
+            "usum": "눈부신 전격으로 자신의 주위에 있는 포켓몬을 공격한다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "눈부신 전격으로 자신의 주위에 있는 포켓몬을 공격한다. 마비 상태로 만들 때가 있다.",
+            "swsh": "눈부신 전격으로 자신의 주위에 있는 포켓몬을 공격한다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender greift die Pokémon in seiner Umgebung mit Elektrizität an. Paralysiert eventuell.",
+            "oras": "Anwender greift die Pokémon in seiner Umgebung mit Elektrizität an. Paralysiert eventuell.",
+            "sm": "Anwender greift die Pokémon in seiner Umgebung mit Elektrizität an. Paralysiert eventuell.",
+            "usum": "Anwender greift die Pokémon in seiner Umgebung mit Elektrizität an. Paralysiert eventuell.",
+            "lgpe": "Anwender greift die Pokémon in seiner Umgebung mit Elektrizität an. Paralysiert eventuell.",
+            "swsh": "Anwender greift alle Pokémon im Umkreis mit Elektrizität an. Diese werden eventuell auch paralysiert."
+        },
+        "spanish": {
+            "xy": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "oras": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "sm": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "usum": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "lgpe": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "swsh": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche paralizzarli.",
+            "oras": "Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche paralizzarli.",
+            "sm": "Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche paralizzarli.",
+            "usum": "Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche paralizzarli.",
+            "lgpe": "Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche paralizzarli.",
+            "swsh": "Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche paralizzarli."
+        },
+        "japanese": {
+            "xy": "まばゆい　電撃で　自分の 周りに　いるものを　攻撃する。 まひ状態に　することが　ある。",
+            "oras": "まばゆい　電撃で　自分の 周りに　いるものを　攻撃する。 まひ状態に　することが　ある。",
+            "sm": "まばゆい　電撃で　自分の 周りに　いるものを　攻撃する。 まひ状態に　することが　ある。",
+            "usum": "まばゆい　電撃で　自分の 周りに　いるものを　攻撃する。 まひ状態に　することが　ある。",
+            "lgpe": "まばゆい　電撃で　自分の 周りに　いるものを　攻撃する。 まひ状態に　することが　ある。",
+            "swsh": "まばゆい　電撃で　自分の 周りに　いるものを　攻撃する。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "oras": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "sm": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "usum": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "lgpe": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+            "swsh": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar."
+        },
+        "traditional-chinese": {
+            "sm": "用耀眼的電流 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入麻痺狀態。",
+            "usum": "用耀眼的電流 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "用耀眼的電流 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "用耀眼的電流 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用耀眼的电击 攻击自己周围所有的宝可梦。 有时会陷入麻痹状态。",
+            "usum": "用耀眼的电击 攻击自己周围所有的宝可梦。 有时会陷入麻痹状态。",
+            "lgpe": "用耀眼的电击 攻击自己周围所有的宝可梦。 有时会陷入麻痹状态。",
+            "swsh": "用耀眼的电击 攻击自己周围所有的宝可梦。 有时会陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

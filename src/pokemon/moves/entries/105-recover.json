@@ -1,47 +1,150 @@
 {
-  "_id": 105,
-  "key": "recover",
-  "name": {
-    "english": "Recover",
-    "japanese": "じこさいせい",
-    "chinese": "自我复原",
-    "korean": "HP회복",
-    "german": "Recuperación",
-    "french": "Genesung",
-    "italian": "Recover",
-    "spanish": "Ripresa"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Restores HP by 1/2\nthe max HP.",
-    "crystal": "Restores HP by 1/2\nthe max HP.",
-    "ruby-sapphire": "Recovers up to half the\nuser’s maximum HP.",
-    "emerald": "Recovers up to half the\nuser’s maximum HP.",
-    "firered-leafgreen": "A self-healing move\nthat restores HP by\nup to half of the\nuser’s maximum HP.",
-    "diamond-pearl": "A self-healing move.\nThe user restores its\nown HP by up to half\nof its max HP.\n",
-    "platinum": "A self-healing move.\nThe user restores its\nown HP by up to half\nof its max HP.\n",
-    "heartgold-soulsilver": "A self-healing move.\nThe user restores its\nown HP by up to half\nof its max HP.\n",
-    "black-white": "Restoring its own cells, the user\nrestores its own HP by half of\nits max HP.",
-    "black-2-white-2": "Restoring its own cells, the user\nrestores its own HP by half of\nits max HP.",
-    "x-y": "Restoring its own cells, the user\nrestores its own HP by half of\nits max HP.",
-    "omega-ruby-alpha-sapphire": "Restoring its own cells, the user\nrestores its own HP by half of\nits max HP.",
-    "sun-moon": "Restoring its own cells, the user restores its own HP\nby half of its max HP.",
-    "ultra-sun-ultra-moon": "Restoring its own cells, the user restores its own HP\nby half of its max HP.",
-    "lets-go-pikachu-lets-go-eevee": "Restoring its own cells, the user restores its own HP\nby half of its max HP.",
-    "sword-shield": "Restoring its own cells, the user restores its own HP\nby half of its max HP."
-  },
-  "effect": {
-    "full": "Heals the user for half its max HP.",
-    "shortEffect": "Heals the user by half its max HP."
-  },
-  "priority": 0
+    "_id": 105,
+    "key": "recover",
+    "name": {
+        "japanese-kana": "じこさいせい",
+        "korean": "HP회복",
+        "traditional-chinese": "自我再生",
+        "french": "Soin",
+        "german": "Genesung",
+        "spanish": "Recuperación",
+        "italian": "Ripresa",
+        "english": "Recover",
+        "japanese": "じこさいせい",
+        "simplified-chinese": "自我再生",
+        "latin-american-spanish": "Recuperación"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "pp": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Restores HP by 1/2 the max HP.",
+            "cr": "Restores HP by 1/2 the max HP.",
+            "rs": "Recovers up to half the user’s maximum HP.",
+            "em": "Recovers up to half the user’s maximum HP.",
+            "frlg": "A self-healing move that restores HP by up to half of the user’s maximum HP.",
+            "dp": "A self-healing move. The user restores its own HP by up to half of its max HP.",
+            "pt": "A self-healing move. The user restores its own HP by up to half of its max HP.",
+            "hgss": "A self-healing move. The user restores its own HP by up to half of its max HP.",
+            "bw": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "b2w2": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "xy": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "oras": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "sm": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "usum": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "lgpe": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "swsh": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+            "la": "The user regenerates its cells to restore its own HP.",
+            "sv": "The user regenerates its cells, restoring its own HP by up to half its max HP."
+        },
+        "french": {
+            "bw": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.",
+            "xy": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.",
+            "oras": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.",
+            "sm": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.",
+            "usum": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.",
+            "lgpe": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.",
+            "swsh": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max."
+        },
+        "japanese-kana": {
+            "xy": "さいぼうを　さいせい　させて じぶんの　さいだい　ＨＰの はんぶんの　ＨＰを　かいふく　する。",
+            "oras": "さいぼうを　さいせい　させて じぶんの　さいだい　ＨＰの はんぶんの　ＨＰを　かいふく　する。",
+            "sm": "さいぼうを　さいせい　させて じぶんの　さいだい　ＨＰの はんぶんの　ＨＰを　かいふく　する。",
+            "usum": "さいぼうを　さいせい　させて じぶんの　さいだい　ＨＰの はんぶんの　ＨＰを　かいふく　する。",
+            "lgpe": "さいぼうを　さいせい　させて じぶんの　さいだい　ＨＰの はんぶんの　ＨＰを　かいふく　する。",
+            "swsh": "さいぼうを　さいせい　させて じぶんの　さいだい　ＨＰの はんぶんの　ＨＰを　かいふく　する。"
+        },
+        "korean": {
+            "xy": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다.",
+            "oras": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다.",
+            "sm": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다.",
+            "usum": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다.",
+            "lgpe": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다.",
+            "swsh": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다."
+        },
+        "german": {
+            "xy": "Eine Selbstheilung. KP des Anwenders werden um 50 % des maximalen Wertes aufgefüllt.",
+            "oras": "Eine Selbstheilung. KP des Anwenders werden um 50 % des maximalen Wertes aufgefüllt.",
+            "sm": "Eine Selbstheilung. KP des Anwenders werden um 50 % des maximalen Wertes aufgefüllt.",
+            "usum": "Eine Selbstheilung. KP des Anwenders werden um 50 % des maximalen Wertes aufgefüllt.",
+            "lgpe": "Eine Selbstheilung. KP des Anwenders werden um 50 % des maximalen Wertes aufgefüllt.",
+            "swsh": "Eine Selbstheilung. KP des Anwenders werden um 50 % des maximalen Wertes aufgefüllt."
+        },
+        "spanish": {
+            "xy": "Restaura hasta la mitad de los PS máximos.",
+            "oras": "Restaura hasta la mitad de los PS máximos.",
+            "sm": "Restaura hasta la mitad de los PS máximos.",
+            "usum": "Restaura hasta la mitad de los PS máximos.",
+            "lgpe": "Restaura hasta la mitad de los PS máximos.",
+            "swsh": "Restaura hasta la mitad de los PS máximos."
+        },
+        "italian": {
+            "xy": "Mossa autocurativa. Chi la usa recupera metà dei PS massimi.",
+            "oras": "Mossa autocurativa. Chi la usa recupera metà dei PS massimi.",
+            "sm": "Mossa autocurativa. Chi la usa recupera metà dei PS massimi.",
+            "usum": "Mossa autocurativa. Chi la usa recupera metà dei PS massimi.",
+            "lgpe": "Mossa autocurativa. Chi la usa recupera metà dei PS massimi.",
+            "swsh": "Mossa autocurativa. Chi la usa recupera metà dei PS massimi."
+        },
+        "japanese": {
+            "xy": "細胞を　再生させて 自分の　最大ＨＰの 半分の　ＨＰを　回復する。",
+            "oras": "細胞を　再生させて 自分の　最大ＨＰの 半分の　ＨＰを　回復する。",
+            "sm": "細胞を　再生させて 自分の　最大ＨＰの 半分の　ＨＰを　回復する。",
+            "usum": "細胞を　再生させて 自分の　最大ＨＰの 半分の　ＨＰを　回復する。",
+            "lgpe": "細胞を　再生させて 自分の　最大ＨＰの 半分の　ＨＰを　回復する。",
+            "swsh": "細胞を　再生させて 自分の　最大ＨＰの 半分の　ＨＰを　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Restaura hasta la mitad de los PS máximos.",
+            "oras": "Restaura hasta la mitad de los PS máximos.",
+            "sm": "Restaura hasta la mitad de los PS máximos.",
+            "usum": "Restaura hasta la mitad de los PS máximos.",
+            "lgpe": "Restaura hasta la mitad de los PS máximos.",
+            "swsh": "Restaura hasta la mitad de los PS máximos."
+        },
+        "traditional-chinese": {
+            "sm": "讓細胞再生， 回復自己最大ＨＰ的一半。",
+            "usum": "讓細胞再生， 回復自己最大ＨＰ的一半。",
+            "lgpe": "讓細胞再生， 回復自己最大HP的一半。",
+            "swsh": "讓細胞再生， 回復自己最大ＨＰ的一半。"
+        },
+        "simplified-chinese": {
+            "sm": "让细胞再生， 从而回复自己 最大ＨＰ的一半。",
+            "usum": "让细胞再生， 从而回复自己 最大ＨＰ的一半。",
+            "lgpe": "让细胞再生， 从而回复自己 最大HP的一半。",
+            "swsh": "让细胞再生， 从而回复自己 最大ＨＰ的一半。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user for half its max HP.",
+        "shortEffect": "Heals the user by half its max HP."
+    }
 }

@@ -1,47 +1,153 @@
 {
-  "_id": 152,
-  "key": "crabhammer",
-  "name": {
-    "english": "Crabhammer",
-    "japanese": "クラブハンマー",
-    "chinese": "螃蟹拳",
-    "korean": "찝게햄머",
-    "german": "Martillazo",
-    "french": "Krabbhammer",
-    "italian": "Crabhammer",
-    "spanish": "Martellata"
-  },
-  "type": "Water",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 100,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Has a high criti­\ncal hit ratio.",
-    "crystal": "Has a high criti­\ncal hit ratio.",
-    "ruby-sapphire": "Hammers with a pincer. Has a\nhigh critical-hit ratio.",
-    "emerald": "Hammers with a pincer. Has a\nhigh critical-hit ratio.",
-    "firered-leafgreen": "A large pincer is\nused to hammer the\nfoe. It has a high\ncritical-hit ratio.",
-    "diamond-pearl": "The foe is hammered\nwith a large pincer.\nThis move has a high\ncritical-hit ratio.\n",
-    "platinum": "The foe is hammered\nwith a large pincer.\nThis move has a high\ncritical-hit ratio.\n",
-    "heartgold-soulsilver": "The foe is hammered\nwith a large pincer.\nThis move has a high\ncritical-hit ratio.\n",
-    "black-white": "The target is hammered with a large pincer.\nCritical hits land more easily.",
-    "black-2-white-2": "The target is hammered with a large pincer.\nCritical hits land more easily.",
-    "x-y": "The target is hammered with a large pincer.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The target is hammered with a large pincer.\nCritical hits land more easily.",
-    "sun-moon": "The target is hammered with a large pincer. Critical\nhits land more easily.",
-    "ultra-sun-ultra-moon": "The target is hammered with a large pincer. Critical\nhits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hammered with a large pincer. Critical\nhits land more easily.",
-    "sword-shield": "The target is hammered with a large pincer. Critical\nhits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 152,
+    "key": "crabhammer",
+    "name": {
+        "japanese-kana": "クラブハンマー",
+        "korean": "집게해머",
+        "traditional-chinese": "蟹鉗錘",
+        "french": "Pince-Masse",
+        "german": "Krabbhammer",
+        "spanish": "Martillazo",
+        "italian": "Martellata",
+        "english": "Crabhammer",
+        "japanese": "クラブハンマー",
+        "simplified-chinese": "蟹钳锤",
+        "latin-american-spanish": "Martillazo"
+    },
+    "type": "water",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 85
+        },
+        "xy": {
+            "power": 90
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Has a high critical hit ratio.",
+            "cr": "Has a high critical hit ratio.",
+            "rs": "Hammers with a pincer. Has a high critical-hit ratio.",
+            "em": "Hammers with a pincer. Has a high critical-hit ratio.",
+            "frlg": "A large pincer is used to hammer the foe. It has a high critical-hit ratio.",
+            "dp": "The foe is hammered with a large pincer. This move has a high critical-hit ratio.",
+            "pt": "The foe is hammered with a large pincer. This move has a high critical-hit ratio.",
+            "hgss": "The foe is hammered with a large pincer. This move has a high critical-hit ratio.",
+            "bw": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "b2w2": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "xy": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "oras": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "sm": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "usum": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "lgpe": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "swsh": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "la": "The target is hammered with a large pincer. Critical hits land more easily.",
+            "sv": "The target is hammered with a large pincer. This move has a heightened chance of landing a critical hit."
+        },
+        "french": {
+            "bw": "Une grande pince martèle l’ennemi. Taux de critiques élevé.",
+            "xy": "Une grande pince martèle l’ennemi. Taux de critiques élevé.",
+            "oras": "Une grande pince martèle l’ennemi. Taux de critiques élevé.",
+            "sm": "Une grande pince martèle l’ennemi. Taux de critique élevé.",
+            "usum": "Une grande pince martèle l’ennemi. Taux de critique élevé.",
+            "lgpe": "Une grande pince martèle l’ennemi. Taux de critique élevé.",
+            "swsh": "Une grande pince martèle l’ennemi. Taux de critiques élevé."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　ハサミを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "oras": "おおきな　ハサミを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "sm": "おおきな　ハサミを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "usum": "おおきな　ハサミを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "lgpe": "おおきな　ハサミを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。",
+            "swsh": "おおきな　ハサミを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。"
+        },
+        "korean": {
+            "xy": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다.",
+            "oras": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다.",
+            "sm": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다.",
+            "usum": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다.",
+            "lgpe": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다.",
+            "swsh": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Schlägt mit Schere zu. Hohe Volltrefferquote.",
+            "oras": "Schlägt mit Schere zu. Hohe Volltrefferquote.",
+            "sm": "Schlägt mit Schere zu. Hohe Volltrefferquote.",
+            "usum": "Schlägt mit Schere zu. Hohe Volltrefferquote.",
+            "lgpe": "Schlägt mit Schere zu. Hohe Volltrefferquote.",
+            "swsh": "Schlägt mit Schere zu. Hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "oras": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "sm": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "usum": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "lgpe": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "swsh": "Golpea con fuerza con una pinza enorme. Suele asestar un golpe crítico."
+        },
+        "italian": {
+            "xy": "Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.",
+            "oras": "Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.",
+            "sm": "Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.",
+            "usum": "Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.",
+            "lgpe": "Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.",
+            "swsh": "Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "大きな　ハサミを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。",
+            "oras": "大きな　ハサミを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。",
+            "sm": "大きな　ハサミを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。",
+            "usum": "大きな　ハサミを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。",
+            "lgpe": "大きな　ハサミを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。",
+            "swsh": "大きな　ハサミを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "oras": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "sm": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "usum": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "lgpe": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+            "swsh": "Golpea con fuerza con una pinza enorme. Suele asestar un golpe crítico."
+        },
+        "traditional-chinese": {
+            "sm": "用巨大的鉗子 敲打對手進行攻擊。 容易擊中要害。",
+            "usum": "用巨大的鉗子 敲打對手進行攻擊。 容易擊中要害。",
+            "lgpe": "用巨大的鉗子 敲打對手進行攻擊。 容易擊中要害。",
+            "swsh": "用巨大的鉗子 敲打對手進行攻擊。 容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "用大钳子 敲打对手进行攻击。 容易击中要害。",
+            "usum": "用大钳子 敲打对手进行攻击。 容易击中要害。",
+            "lgpe": "用大钳子 敲打对手进行攻击。 容易击中要害。",
+            "swsh": "用大钳子 敲打对手进行攻击。 容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

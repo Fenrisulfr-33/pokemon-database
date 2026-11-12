@@ -1,47 +1,150 @@
 {
-  "_id": 28,
-  "key": "sand-attack",
-  "name": {
-    "english": "Sand Attack",
-    "japanese": "すなかけ",
-    "chinese": "飞沙脚",
-    "korean": "모래뿌리기",
-    "german": "Ataque Arena",
-    "french": "Sandwirbel",
-    "italian": "Sand Attack",
-    "spanish": "Turbosabbia"
-  },
-  "type": "Ground",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Reduces accuracy\nby throwing sand.",
-    "crystal": "Reduces accuracy\nby throwing sand.",
-    "ruby-sapphire": "Reduces the foe’s accuracy\nby hurling sand in its face.",
-    "emerald": "Reduces the foe’s accuracy\nby hurling sand in its face.",
-    "firered-leafgreen": "A lot of sand is\nhurled in the foe’s\nface, reducing its\naccuracy.",
-    "diamond-pearl": "Sand is hurled in the\nfoe’s face, reducing\nits accuracy.\n\n",
-    "platinum": "Sand is hurled in the\nfoe’s face, reducing\nits accuracy.\n\n",
-    "heartgold-soulsilver": "Sand is hurled in the\nfoe’s face, reducing\nits accuracy.\n\n",
-    "black-white": "Sand is hurled in the target’s face,\nreducing its accuracy.",
-    "black-2-white-2": "Sand is hurled in the target’s face,\nreducing its accuracy.",
-    "x-y": "Sand is hurled in the target’s face,\nreducing the target’s accuracy.",
-    "omega-ruby-alpha-sapphire": "Sand is hurled in the target’s face,\nreducing the target’s accuracy.",
-    "sun-moon": "Sand is hurled in the target’s face, reducing the\ntarget’s accuracy.",
-    "ultra-sun-ultra-moon": "Sand is hurled in the target’s face, reducing the\ntarget’s accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "Sand is hurled in the target’s face, reducing the\ntarget’s accuracy.",
-    "sword-shield": "Sand is hurled in the target’s face, reducing the\ntarget’s accuracy."
-  },
-  "effect": {
-    "full": "Lowers the target's accuracy by one stage.",
-    "shortEffect": "Lowers the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 28,
+    "key": "sand-attack",
+    "name": {
+        "japanese-kana": "すなかけ",
+        "korean": "모래뿌리기",
+        "traditional-chinese": "潑沙",
+        "french": "Jet de Sable",
+        "german": "Sandwirbel",
+        "spanish": "Ataque Arena",
+        "italian": "Turbosabbia",
+        "english": "Sand Attack",
+        "japanese": "すなかけ",
+        "simplified-chinese": "泼沙",
+        "latin-american-spanish": "Ataque Arena"
+    },
+    "type": "ground",
+    "category": "status",
+    "contest": "cute",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "type": "normal"
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Reduces accuracy by throwing sand.",
+            "cr": "Reduces accuracy by throwing sand.",
+            "rs": "Reduces the foe’s accuracy by hurling sand in its face.",
+            "em": "Reduces the foe’s accuracy by hurling sand in its face.",
+            "frlg": "A lot of sand is hurled in the foe’s face, reducing its accuracy.",
+            "dp": "Sand is hurled in the foe’s face, reducing its accuracy.",
+            "pt": "Sand is hurled in the foe’s face, reducing its accuracy.",
+            "hgss": "Sand is hurled in the foe’s face, reducing its accuracy.",
+            "bw": "Sand is hurled in the target’s face, reducing its accuracy.",
+            "b2w2": "Sand is hurled in the target’s face, reducing its accuracy.",
+            "xy": "Sand is hurled in the target’s face, reducing the target’s accuracy.",
+            "oras": "Sand is hurled in the target’s face, reducing the target’s accuracy.",
+            "sm": "Sand is hurled in the target’s face, reducing the target’s accuracy.",
+            "usum": "Sand is hurled in the target’s face, reducing the target’s accuracy.",
+            "lgpe": "Sand is hurled in the target’s face, reducing the target’s accuracy.",
+            "swsh": "Sand is hurled in the target’s face, reducing the target’s accuracy.",
+            "la": "Sand is hurled in the target's face, reducing the target's accuracy.",
+            "sv": "Sand is hurled in the target's face, lowering the target's accuracy."
+        },
+        "french": {
+            "bw": "Lance du sable au visage de l’ennemi pour baisser sa Précision.",
+            "xy": "Lance du sable au visage de l’ennemi pour baisser sa Précision.",
+            "oras": "Lance du sable au visage de l’ennemi pour baisser sa Précision.",
+            "sm": "Lance du sable au visage de l’ennemi pour baisser sa Précision.",
+            "usum": "Lance du sable au visage de l’ennemi pour baisser sa Précision.",
+            "lgpe": "Lance du sable au visage de l’ennemi pour baisser sa Précision.",
+            "swsh": "Lance du sable au visage de l’ennemi pour baisser sa Précision."
+        },
+        "japanese-kana": {
+            "xy": "あいての　かおに　すなを　かけて めいちゅうりつを　さげる。",
+            "oras": "あいての　かおに　すなを　かけて めいちゅうりつを　さげる。",
+            "sm": "あいての　かおに　すなを　かけて めいちゅうりつを　さげる。",
+            "usum": "あいての　かおに　すなを　かけて めいちゅうりつを　さげる。",
+            "lgpe": "あいての　かおに　すなを　かけて めいちゅうりつを　さげる。",
+            "swsh": "あいての　かおに　すなを　かけて めいちゅうりつを　さげる。"
+        },
+        "korean": {
+            "xy": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다.",
+            "oras": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다.",
+            "sm": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다.",
+            "usum": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다.",
+            "lgpe": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다.",
+            "swsh": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Senkt Genauigkeit des Zieles, indem ihm Sand ins Gesicht geworfen wird.",
+            "oras": "Senkt Genauigkeit des Zieles, indem ihm Sand ins Gesicht geworfen wird.",
+            "sm": "Senkt Genauigkeit des Zieles, indem ihm Sand ins Gesicht geworfen wird.",
+            "usum": "Senkt Genauigkeit des Zieles, indem ihm Sand ins Gesicht geworfen wird.",
+            "lgpe": "Senkt Genauigkeit des Zieles, indem ihm Sand ins Gesicht geworfen wird.",
+            "swsh": "Senkt Genauigkeit des Zieles, indem ihm Sand ins Gesicht geworfen wird."
+        },
+        "spanish": {
+            "xy": "Arroja arena a la cara y baja la Precisión.",
+            "oras": "Arroja arena a la cara y baja la Precisión.",
+            "sm": "Arroja arena a la cara y baja la Precisión.",
+            "usum": "Arroja arena a la cara y baja la Precisión.",
+            "lgpe": "Arroja arena a la cara y baja la Precisión.",
+            "swsh": "Arroja arena a la cara y baja la Precisión."
+        },
+        "italian": {
+            "xy": "Getta sabbia in faccia al bersaglio e ne riduce la precisione.",
+            "oras": "Getta sabbia in faccia al bersaglio e ne riduce la precisione.",
+            "sm": "Getta sabbia in faccia al bersaglio e ne riduce la precisione.",
+            "usum": "Getta sabbia in faccia al bersaglio e ne riduce la precisione.",
+            "lgpe": "Getta sabbia in faccia al bersaglio e ne riduce la precisione.",
+            "swsh": "Getta sabbia in faccia al bersaglio e ne riduce la precisione."
+        },
+        "japanese": {
+            "xy": "相手の　顔に　砂を　かけて 命中率を　さげる。",
+            "oras": "相手の　顔に　砂を　かけて 命中率を　さげる。",
+            "sm": "相手の　顔に　砂を　かけて 命中率を　さげる。",
+            "usum": "相手の　顔に　砂を　かけて 命中率を　さげる。",
+            "lgpe": "相手の　顔に　砂を　かけて 命中率を　さげる。",
+            "swsh": "相手の　顔に　砂を　かけて 命中率を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Arroja arena a la cara y baja la Precisión.",
+            "oras": "Arroja arena a la cara y baja la Precisión.",
+            "sm": "Arroja arena a la cara y baja la Precisión.",
+            "usum": "Arroja arena a la cara y baja la Precisión.",
+            "lgpe": "Arroja arena a la cara y baja la Precisión.",
+            "swsh": "Arroja arena a la cara y baja la Precisión."
+        },
+        "traditional-chinese": {
+            "sm": "向對手的臉上潑沙， 降低對手的命中率。",
+            "usum": "向對手的臉上潑沙， 降低對手的命中率。",
+            "lgpe": "向對手的臉上潑沙， 降低對手的命中率。",
+            "swsh": "向對手的臉上潑沙， 降低對手的命中率。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手脸上泼沙子， 从而降低命中率。",
+            "usum": "向对手脸上泼沙子， 从而降低命中率。",
+            "lgpe": "向对手脸上泼沙子， 从而降低命中率。",
+            "swsh": "向对手脸上泼沙子， 从而降低命中率。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s accuracy by one stage.",
+        "shortEffect": "Lowers the target’s accuracy by one stage."
+    }
 }

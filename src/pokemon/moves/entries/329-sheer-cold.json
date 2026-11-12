@@ -1,45 +1,143 @@
 {
-  "_id": 329,
-  "key": "sheer-cold",
-  "name": {
-    "english": "Sheer Cold",
-    "japanese": "ぜったいれいど",
-    "chinese": "绝对零度",
-    "korean": "절대영도",
-    "german": "Frío Polar",
-    "french": "Eiseskälte",
-    "italian": "Sheer Cold",
-    "spanish": "Purogelo"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": null,
-  "accuracy": 30,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A chilling attack that\ncauses fainting if it hits.",
-    "emerald": "A chilling attack that\ncauses fainting if it hits.",
-    "firered-leafgreen": "The foe is attacked\nwith ultimate cold\nthat causes fainting\nif it hits.",
-    "diamond-pearl": "The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.",
-    "platinum": "The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.",
-    "heartgold-soulsilver": "The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.",
-    "black-white": "The target is attacked with a blast of\nabsolute-zero cold.\nThe target instantly faints if it hits.",
-    "black-2-white-2": "The target is attacked with a blast of\nabsolute-zero cold.\nThe target instantly faints if it hits.",
-    "x-y": "The target is attacked with a blast of\nabsolute-zero cold. The target faints\ninstantly if this attack hits.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with a blast of\nabsolute-zero cold. The target faints\ninstantly if this attack hits.",
-    "sun-moon": "The target faints instantly. It’s less likely to hit the\ntarget if it’s used by Pokémon other than Ice types.",
-    "ultra-sun-ultra-moon": "The target faints instantly. It’s less likely to hit the\ntarget if it’s used by Pokémon other than Ice types.",
-    "lets-go-pikachu-lets-go-eevee": "The target faints instantly. It’s less likely to hit the\ntarget if it’s used by Pokémon other than Ice types.",
-    "sword-shield": "The target faints instantly. It’s less likely to hit the\ntarget if it’s used by Pokémon other than Ice types."
-  },
-  "effect": {
-    "full": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
-    "shortEffect": "Causes a one-hit KO."
-  },
-  "priority": 0
+    "_id": 329,
+    "key": "sheer-cold",
+    "name": {
+        "japanese-kana": "ぜったいれいど",
+        "korean": "절대영도",
+        "traditional-chinese": "絕對零度",
+        "french": "Glaciation",
+        "german": "Eiseskälte",
+        "spanish": "Frío Polar",
+        "italian": "Purogelo",
+        "english": "Sheer Cold",
+        "japanese": "ぜったいれいど",
+        "simplified-chinese": "绝对零度",
+        "latin-american-spanish": "Frío Extremo"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": null,
+    "accuracy": 30,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ohko",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A chilling attack that causes fainting if it hits.",
+            "em": "A chilling attack that causes fainting if it hits.",
+            "frlg": "The foe is attacked with ultimate cold that causes fainting if it hits.",
+            "dp": "The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.",
+            "pt": "The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.",
+            "hgss": "The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.",
+            "bw": "The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.",
+            "b2w2": "The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.",
+            "xy": "The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.",
+            "oras": "The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.",
+            "sm": "The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.",
+            "usum": "The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.",
+            "lgpe": "The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.",
+            "swsh": "The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.",
+            "sv": "The target faints instantly. This move is less likely to hit the target if used by Pokémon other than Ice types."
+        },
+        "french": {
+            "bw": "Une vague de froid glacial frappe l’ennemi. S’il est touché, il est mis K.O. sur le coup.",
+            "xy": "Une vague de froid glacial frappe l’ennemi. S’il est touché, il est mis K.O. sur le coup.",
+            "oras": "Une vague de froid glacial frappe l’ennemi. S’il est touché, il est mis K.O. sur le coup.",
+            "sm": "Une vague de froid glacial frappe l’ennemi pour le mettre K.O. en un coup. A peu de chances de réussir si le lanceur ne possède pas le type Glace.",
+            "usum": "Une vague de froid glacial frappe l’ennemi pour le mettre K.O. en un coup. A peu de chances de réussir si le lanceur ne possède pas le type Glace.",
+            "lgpe": "Une vague de froid glacial frappe l’ennemi pour le mettre K.O. en un coup. A peu de chances de réussir si le lanceur ne possède pas le type Glace.",
+            "swsh": "Une vague de froid glacial frappe l’ennemi pour le mettre K.O. en un coup. A peu de chances de réussir si le lanceur ne possède pas le type Glace."
+        },
+        "japanese-kana": {
+            "xy": "ぜったいれいどの　つめたさで あいてを　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "oras": "ぜったいれいどの　つめたさで あいてを　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "sm": "あいてを　いちげきで　ひんしに　する。 こおりタイプ　いがいの　ポケモンが つかうと　あたりにくい。",
+            "usum": "あいてを　いちげきで　ひんしに　する。 こおりタイプ　いがいの　ポケモンが つかうと　あたりにくい。",
+            "lgpe": "あいてを　いちげきで　ひんしに　する。 こおりタイプ　いがいの　ポケモンが つかうと　あたりにくい。",
+            "swsh": "あいてを　いちげきで　ひんしに　する。 こおりタイプ　いがいの　ポケモンが つかうと　あたりにくい。"
+        },
+        "korean": {
+            "xy": "절대영도의 추위로 상대를 공격한다. 맞으면 일격에 기절한다.",
+            "oras": "절대영도의 추위로 상대를 공격한다. 맞으면 일격에 기절한다.",
+            "sm": "상대를 일격에 기절시킨다. 얼음타입 이외의 포켓몬이 사용하면 잘 맞지 않는다.",
+            "usum": "상대를 일격에 기절시킨다. 얼음타입 이외의 포켓몬이 사용하면 잘 맞지 않는다.",
+            "lgpe": "상대를 일격에 기절시킨다. 얼음타입 이외의 포켓몬이 사용하면 잘 맞지 않는다.",
+            "swsh": "상대를 일격에 기절시킨다. 얼음타입 이외의 포켓몬이 사용하면 잘 맞지 않는다."
+        },
+        "german": {
+            "xy": "Angriff mit Kälte, die das Ziel bei Erfolg besiegt.",
+            "oras": "Angriff mit Kälte, die das Ziel bei Erfolg besiegt.",
+            "sm": "Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.",
+            "usum": "Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.",
+            "lgpe": "Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.",
+            "swsh": "Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener."
+        },
+        "spanish": {
+            "xy": "Ataque de frío polar que debilita al objetivo si le alcanza.",
+            "oras": "Ataque de frío polar que debilita al objetivo si le alcanza.",
+            "sm": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.",
+            "usum": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.",
+            "lgpe": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.",
+            "swsh": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte."
+        },
+        "italian": {
+            "xy": "Ondata di freddo penetrante che, se va a segno, fa andare KO il bersaglio.",
+            "oras": "Ondata di freddo penetrante che, se va a segno, fa andare KO il bersaglio.",
+            "sm": "Il bersaglio esaurisce i PS in un colpo solo. Se viene usata da Pokémon che non sono di tipo Ghiaccio, difficilmente va a segno.",
+            "usum": "Il bersaglio esaurisce i PS in un colpo solo. Se viene usata da Pokémon che non sono di tipo Ghiaccio, difficilmente va a segno.",
+            "lgpe": "Il bersaglio esaurisce i PS in un colpo solo. Se viene usata da Pokémon che non sono di tipo Ghiaccio, difficilmente va a segno.",
+            "swsh": "Il bersaglio esaurisce i PS in un colpo solo. Se viene usata da Pokémon che non sono di tipo Ghiaccio, difficilmente va a segno."
+        },
+        "japanese": {
+            "xy": "絶対零度の　冷たさで 相手を　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "oras": "絶対零度の　冷たさで 相手を　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "sm": "相手を　一撃で　瀕死に　する。 こおりタイプ　以外の　ポケモンが 使うと　当たりにくい。",
+            "usum": "相手を　一撃で　瀕死に　する。 こおりタイプ　以外の　ポケモンが 使うと　当たりにくい。",
+            "lgpe": "相手を　一撃で　瀕死に　する。 こおりタイプ　以外の　ポケモンが 使うと　当たりにくい。",
+            "swsh": "相手を　一撃で　瀕死に　する。 こおりタイプ　以外の　ポケモンが 使うと　当たりにくい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque de frío polar que debilita al objetivo si le alcanza.",
+            "oras": "Ataque de frío polar que debilita al objetivo si le alcanza.",
+            "sm": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.",
+            "usum": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.",
+            "lgpe": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.",
+            "swsh": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte."
+        },
+        "traditional-chinese": {
+            "sm": "一擊讓對手陷入瀕死。 冰屬性以外的寶可夢使用時， 會比較不易命中對手。",
+            "usum": "一擊讓對手陷入瀕死。 冰屬性以外的寶可夢使用時， 會比較不易命中對手。",
+            "lgpe": "一擊讓對手陷入瀕死。 冰屬性以外的寶可夢使用時， 會比較不易命中對手。",
+            "swsh": "一擊讓對手陷入瀕死。 冰屬性以外的寶可夢使用時， 會比較不易命中對手。"
+        },
+        "simplified-chinese": {
+            "sm": "给对手一击濒死。 如果是冰属性以外的宝可梦使用， 就会难以打中。",
+            "usum": "给对手一击濒死。 如果是冰属性以外的宝可梦使用， 就会难以打中。",
+            "lgpe": "给对手一击濒死。 如果是冰属性以外的宝可梦使用， 就会难以打中。",
+            "swsh": "给对手一击濒死。 如果是冰属性以外的宝可梦使用， 就会难以打中。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail. Because this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting. The effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+        "shortEffect": "Causes a one-hit KO."
+    }
 }

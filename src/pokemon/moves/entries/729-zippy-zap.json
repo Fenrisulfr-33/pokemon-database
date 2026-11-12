@@ -1,33 +1,98 @@
 {
-  "_id": 729,
-  "key": "zippy-zap",
-  "name": {
-    "english": "Zippy Zap",
-    "japanese": "ばちばちアクセル",
-    "chinese": "電電加速",
-    "korean": "파찌파찌액셀",
-    "german": "Pikaturbo",
-    "french": "Britzelturbo",
-    "italian": "Zippy Zap",
-    "spanish": "Sprintaboom"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with bursts of electricity\nat high speed. This move always goes first and results\nin a critical hit.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 2
+    "_id": 729,
+    "key": "zippy-zap",
+    "name": {
+        "japanese-kana": "ばちばちアクセル",
+        "korean": "파찌파찌액셀",
+        "traditional-chinese": "電電加速",
+        "french": "Pika-Sprint",
+        "german": "Britzelturbo",
+        "spanish": "Pikaturbo",
+        "italian": "Sprintaboom",
+        "english": "Zippy Zap",
+        "japanese": "ばちばちアクセル",
+        "simplified-chinese": "电电加速",
+        "latin-american-spanish": "Pikaturbo"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 2,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "swsh": {
+            "power": 50,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "もうスピードの　でんげき　アタック。 かならず　せんせい　こうげき　できて きゅうしょに　あたる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "맹렬한 속도의 전격 공격. 반드시 선제공격할 수 있고 급소에 맞는다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "迅猛無比的電擊。 必定能夠發動先制攻擊， 擊中對手要害。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Une attaque électrique rapide comme l’éclair qui inflige un coup critique à coup sûr. Frappe en priorité.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Ein stürmischer Blitz-Angriff mit hoher Erstschlag- und Volltrefferquote.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Ataque eléctrico a la velocidad del rayo. Este movimiento tiene prioridad alta y propina golpes críticos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Un attacco elettrico ad altissima velocità. Questa mossa ha priorità alta e infligge sicuramente un brutto colpo.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "猛スピードの　電撃　アタック。 必ず　先制攻撃　できて 急所に　あたる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "迅猛无比的电击。 必定能够先制攻击， 击中对方的要害。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Ataque eléctrico a la velocidad del rayo. Este movimiento tiene prioridad alta y propina golpes críticos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

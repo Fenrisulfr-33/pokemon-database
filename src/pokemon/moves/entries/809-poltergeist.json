@@ -1,32 +1,84 @@
 {
-  "_id": 809,
-  "key": "poltergeist",
-  "name": {
-    "english": "Poltergeist",
-    "japanese": "ポルターガイスト",
-    "chinese": "靈騷",
-    "korean": "폴터가이스트",
-    "german": "Poltergeist",
-    "french": "Poltergeist",
-    "italian": "Poltergeist",
-    "spanish": "Poltergeist"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 110,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user attacks the target by controlling the target’s\nitem. The move fails if the target doesn’t have an item."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 809,
+    "key": "poltergeist",
+    "name": {
+        "japanese-kana": "ポルターガイスト",
+        "korean": "폴터가이스트",
+        "traditional-chinese": "靈騷",
+        "french": "Esprit Frappeur",
+        "german": "Poltergeist",
+        "spanish": "Poltergeist",
+        "italian": "Poltergeist",
+        "english": "Poltergeist",
+        "japanese": "ポルターガイスト",
+        "simplified-chinese": "灵骚",
+        "latin-american-spanish": "Poltergeist"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 110,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "あいての　もちものを　あやつって　こうげき。 あいてが　どうぐを　もっていない　ばあいは しっぱい　する。"
+        },
+        "korean": {
+            "swsh": "상대의 지닌 물건을 조종해서 공격한다. 상대가 도구를 지니고 있지 않으면 실패한다."
+        },
+        "traditional-chinese": {
+            "swsh": "操控對手的持有物進行攻擊。 對手沒有攜帶道具時， 則會失敗。"
+        },
+        "french": {
+            "swsh": "Le lanceur manipule l’objet tenu par l’ennemi pour l’attaquer. Échoue si la cible ne tient rien."
+        },
+        "german": {
+            "swsh": "Der Anwender greift das Ziel mit dessen getragenem Item an. Die Attacke schlägt fehl, wenn das Ziel kein Item trägt."
+        },
+        "spanish": {
+            "swsh": "El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado, el movimiento falla."
+        },
+        "italian": {
+            "swsh": "Chi la usa attacca utilizzando lo strumento del bersaglio. La mossa fallisce se quest’ultimo non ha uno strumento."
+        },
+        "english": {
+            "swsh": "The user attacks the target by controlling the target’s item. The move fails if the target doesn’t have an item.",
+            "la": "The user attacks the target by controlling the target's item. The move fails if the target doesn't have an item.",
+            "sv": "The user attacks by controlling the target's item. This move fails if the target isn't holding an item."
+        },
+        "japanese": {
+            "swsh": "相手の　持ち物を　あやつって　攻撃。 相手が　道具を　持っていない　場合は 失敗する。"
+        },
+        "simplified-chinese": {
+            "swsh": "操纵对手的持有物进行攻击。 当对手没有携带道具时， 使出此招式时便会失败。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado, el movimiento falla."
+        }
+    },
+    "effect": {
+        "full": "Fails if the target has no held item.",
+        "shortEffect": "Fails if the target has no held item."
+    }
 }

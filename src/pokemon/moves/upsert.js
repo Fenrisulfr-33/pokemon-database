@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import upsertEntries from "../helpers/upsertEntries.js";
 import schema from "./schema.json" with { type: "json" };
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
+import { getMoves } from "#helpers/getMoves.js";
 import {
 	MOVES_ENTRIES_DIR,
 	LEARNSETS_ENTRIES_DIR,
@@ -15,7 +16,7 @@ dotenv.config();
  * @returns {Array<Object>} move documents
  */
 async function run() {
-	const moves = readJsonDir(MOVES_ENTRIES_DIR);
+	const moves = getMoves();
 	console.log(`Loaded ${moves.length} moves from ${MOVES_ENTRIES_DIR}`);
 	await upsertEntries({ 
 		environment: process.env.MONGO_ENV, 

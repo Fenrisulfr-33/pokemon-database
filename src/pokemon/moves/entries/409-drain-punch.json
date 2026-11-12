@@ -1,42 +1,146 @@
 {
-  "_id": 409,
-  "key": "drain-punch",
-  "name": {
-    "english": "Drain Punch",
-    "japanese": "ドレインパンチ",
-    "chinese": "吸收拳",
-    "korean": "드레인펀치",
-    "german": "Puño Drenaje",
-    "french": "Ableithieb",
-    "italian": "Drain Punch",
-    "spanish": "Assorbipugno"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "platinum": "An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "heartgold-soulsilver": "An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "black-white": "An energy-draining punch. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "black-2-white-2": "An energy-draining punch. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "x-y": "An energy-draining punch. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "omega-ruby-alpha-sapphire": "An energy-draining punch. The user’s\nHP is restored by half the damage taken\nby the target.",
-    "sun-moon": "An energy-draining punch. The user’s HP is restored\nby half the damage taken by the target.",
-    "ultra-sun-ultra-moon": "An energy-draining punch. The user’s HP is restored\nby half the damage taken by the target.",
-    "lets-go-pikachu-lets-go-eevee": "An energy-draining punch. The user’s HP is restored\nby half the damage taken by the target.",
-    "sword-shield": "An energy-draining punch. The user’s HP is restored\nby half the damage taken by the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
-    "shortEffect": "Drains half the damage inflicted to heal the user."
-  },
-  "priority": 0
+    "_id": 409,
+    "key": "drain-punch",
+    "name": {
+        "japanese-kana": "ドレインパンチ",
+        "korean": "드레인펀치",
+        "traditional-chinese": "吸取拳",
+        "french": "Vampi-Poing",
+        "german": "Ableithieb",
+        "spanish": "Puño Drenaje",
+        "italian": "Assorbipugno",
+        "english": "Drain Punch",
+        "japanese": "ドレインパンチ",
+        "simplified-chinese": "吸取拳",
+        "latin-american-spanish": "Puño Drenador"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 75,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 50,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 60,
+            "pp": 5
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "pt": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "hgss": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "bw": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "b2w2": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "xy": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "oras": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "sm": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "usum": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "lgpe": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "swsh": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "la": "The user attacks with an energy-draining punch that restores the user’s HP.",
+            "sv": "The user attacks with an energy-draining punch. The user's HP is restored by up to half the damage taken by the target."
+        },
+        "french": {
+            "bw": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "xy": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "oras": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "sm": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "usum": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "lgpe": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+            "swsh": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "こぶしから　あいての　ちからを すいとる。あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "oras": "こぶしから　あいての　ちからを すいとる。あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "sm": "こぶしから　あいての　ちからを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "usum": "こぶしから　あいての　ちからを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "lgpe": "こぶしから　あいての　ちからを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "swsh": "こぶしから　あいての　ちからを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。"
+        },
+        "korean": {
+            "xy": "주먹으로 상대의 힘을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "oras": "주먹으로 상대의 힘을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "sm": "주먹으로 상대의 힘을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "usum": "주먹으로 상대의 힘을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "lgpe": "주먹으로 상대의 힘을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+            "swsh": "주먹으로 상대의 힘을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다."
+        },
+        "german": {
+            "xy": "Entzieht dem Ziel Energie. Die Hälfte des Schadens wird den KP des Anwenders zugerechnet.",
+            "oras": "Entzieht dem Ziel Energie. Die Hälfte des Schadens wird den KP des Anwenders zugerechnet.",
+            "sm": "Entzieht dem Ziel Energie. Die Hälfte des Schadens wird den KP des Anwenders zugerechnet.",
+            "usum": "Entzieht dem Ziel Energie. Die Hälfte des Schadens wird den KP des Anwenders zugerechnet.",
+            "lgpe": "Entzieht dem Ziel Energie. Die Hälfte des Schadens wird den KP des Anwenders zugerechnet.",
+            "swsh": "Entzieht dem Ziel Energie. Die Hälfte des Schadens wird den KP des Anwenders zugerechnet."
+        },
+        "spanish": {
+            "xy": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "oras": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "sm": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "usum": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "lgpe": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "swsh": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo."
+        },
+        "italian": {
+            "xy": "Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto.",
+            "oras": "Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto.",
+            "sm": "Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto.",
+            "usum": "Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto.",
+            "lgpe": "Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto.",
+            "swsh": "Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto."
+        },
+        "japanese": {
+            "xy": "こぶしから　相手の　力を　吸い取る。 与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "oras": "こぶしから　相手の　力を　吸い取る。 与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "sm": "こぶしから　相手の　力を　吸い取る。 与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "usum": "こぶしから　相手の　力を　吸い取る。 与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "lgpe": "こぶしから　相手の　力を　吸い取る。 与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "swsh": "こぶしから　相手の　力を　吸い取る。 与えた　ダメージの 半分の　ＨＰを　回復できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "oras": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "sm": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "usum": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "lgpe": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+            "swsh": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "從拳頭吸取對手的力量。 可以回復給予對手 傷害的一半ＨＰ。",
+            "usum": "從拳頭吸取對手的力量。 可以回復給予對手 傷害的一半ＨＰ。",
+            "lgpe": "從拳頭吸取對手的力量。 可以回復給予對手 傷害的一半HP。",
+            "swsh": "從拳頭吸取對手的力量。 可以回復給予對手 傷害的一半ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "用拳头吸取对手的力量。 可以回复给予对手 伤害的一半ＨＰ。",
+            "usum": "用拳头吸取对手的力量。 可以回复给予对手 伤害的一半ＨＰ。",
+            "lgpe": "用拳头吸取对手的力量。 可以回复给予对手 伤害的一半HP。",
+            "swsh": "用拳头吸取对手的力量。 可以回复给予对手 伤害的一半ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+        "shortEffect": "Drains half the damage inflicted to heal the user."
+    }
 }

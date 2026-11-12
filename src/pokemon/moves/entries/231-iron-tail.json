@@ -1,47 +1,146 @@
 {
-  "_id": 231,
-  "key": "iron-tail",
-  "name": {
-    "english": "Iron Tail",
-    "japanese": "アイアンテール",
-    "chinese": "铁尾",
-    "korean": "아이언테일",
-    "german": "Cola Férrea",
-    "french": "Eisenschweif",
-    "italian": "Iron Tail",
-    "spanish": "Codacciaio"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 100,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nreduce DEFENSE.",
-    "crystal": "An attack that may\nreduce DEFENSE.",
-    "ruby-sapphire": "Attacks with a rock-hard\ntail. May lower DEFENSE.",
-    "emerald": "Attacks with a rock-hard\ntail. May lower DEFENSE.",
-    "firered-leafgreen": "An attack with a\nsteel-hard tail.\nIt may lower the\nfoe’s DEFENSE stat.",
-    "diamond-pearl": "The foe is slammed\nwith a steel-hard\ntail. It may also\nlower the target’s\nDefense stat.",
-    "platinum": "The foe is slammed\nwith a steel-hard\ntail. It may also\nlower the target’s\nDefense stat.",
-    "heartgold-soulsilver": "The foe is slammed\nwith a steel-hard\ntail. It may also\nlower the target’s\nDefense stat.",
-    "black-white": "The target is slammed with a steel-hard\ntail. It may also lower the target’s\nDefense stat.",
-    "black-2-white-2": "The target is slammed with a steel-hard\ntail. It may also lower the target’s\nDefense stat.",
-    "x-y": "The target is slammed with a steel-hard\ntail. This may also lower the target’s\nDefense stat.",
-    "omega-ruby-alpha-sapphire": "The target is slammed with a steel-hard\ntail. This may also lower the target’s\nDefense stat.",
-    "sun-moon": "The target is slammed with a steel-hard tail.\nThis may also lower the target’s Defense stat.",
-    "ultra-sun-ultra-moon": "The target is slammed with a steel-hard tail.\nThis may also lower the target’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The target is slammed with a steel-hard tail.\nThis may also lower the target’s Defense stat.",
-    "sword-shield": "The target is slammed with a steel-hard tail.\nThis may also lower the target’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 231,
+    "key": "iron-tail",
+    "name": {
+        "japanese-kana": "アイアンテール",
+        "korean": "아이언테일",
+        "traditional-chinese": "鐵尾",
+        "french": "Queue de Fer",
+        "german": "Eisenschweif",
+        "spanish": "Cola Férrea",
+        "italian": "Codacciaio",
+        "english": "Iron Tail",
+        "japanese": "アイアンテール",
+        "simplified-chinese": "铁尾",
+        "latin-american-spanish": "Cola de Hierro"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 100,
+    "accuracy": 75,
+    "contact": true,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 30
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may reduce DEFENSE.",
+            "cr": "An attack that may reduce DEFENSE.",
+            "rs": "Attacks with a rock-hard tail. May lower DEFENSE.",
+            "em": "Attacks with a rock-hard tail. May lower DEFENSE.",
+            "frlg": "An attack with a steel-hard tail. It may lower the foe’s DEFENSE stat.",
+            "dp": "The foe is slammed with a steel-hard tail. It may also lower the target’s Defense stat.",
+            "pt": "The foe is slammed with a steel-hard tail. It may also lower the target’s Defense stat.",
+            "hgss": "The foe is slammed with a steel-hard tail. It may also lower the target’s Defense stat.",
+            "bw": "The target is slammed with a steel-hard tail. It may also lower the target’s Defense stat.",
+            "b2w2": "The target is slammed with a steel-hard tail. It may also lower the target’s Defense stat.",
+            "xy": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+            "oras": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+            "sm": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+            "usum": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+            "lgpe": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+            "swsh": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+            "la": "The target is slammed with a steel-hard tail. This may also lower the target’s defensive stats.",
+            "sv": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat."
+        },
+        "french": {
+            "bw": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser la Défense de l’ennemi.",
+            "xy": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.",
+            "oras": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.",
+            "sm": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.",
+            "usum": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.",
+            "lgpe": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.",
+            "swsh": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense."
+        },
+        "japanese-kana": {
+            "xy": "かたい　しっぽで　あいてを　たたきつけて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "oras": "かたい　しっぽで　あいてを　たたきつけて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "sm": "かたい　しっぽで　あいてを　たたきつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。",
+            "usum": "かたい　しっぽで　あいてを　たたきつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。",
+            "lgpe": "かたい　しっぽで　あいてを　たたきつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。",
+            "swsh": "かたい　しっぽで　あいてを　たたきつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "oras": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "sm": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "usum": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "swsh": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Attacke mit hartem Eisenschweif. Senkt eventuell den Verteidigungs-Wert des Zieles.",
+            "oras": "Attacke mit hartem Eisenschweif. Senkt eventuell den Verteidigungs-Wert des Zieles.",
+            "sm": "Attacke mit hartem Eisenschweif. Senkt eventuell den Verteidigungs-Wert des Zieles.",
+            "usum": "Attacke mit hartem Eisenschweif. Senkt eventuell den Verteidigungs-Wert des Zieles.",
+            "lgpe": "Attacke mit hartem Eisenschweif. Senkt eventuell den Verteidigungs-Wert des Zieles.",
+            "swsh": "Attacke mit hartem Eisenschweif. Senkt eventuell den Verteidigungs-Wert des Zieles."
+        },
+        "spanish": {
+            "xy": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "oras": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "sm": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "usum": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "lgpe": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "swsh": "Ataca con una cola férrea y puede bajar la Defensa del objetivo."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da una robusta coda d’acciaio. Può anche ridurne la Difesa.",
+            "oras": "Il bersaglio viene colpito da una robusta coda d’acciaio. Può anche ridurne la Difesa.",
+            "sm": "Il bersaglio viene colpito da una robusta coda d’acciaio. Può anche ridurne la Difesa.",
+            "usum": "Il bersaglio viene colpito da una robusta coda d’acciaio. Può anche ridurne la Difesa.",
+            "lgpe": "Il bersaglio viene colpito da una robusta coda d’acciaio. Può anche ridurne la Difesa.",
+            "swsh": "Il bersaglio viene colpito da una robusta coda d’acciaio. Può anche ridurne la Difesa."
+        },
+        "japanese": {
+            "xy": "硬い　しっぽで 相手を　たたきつけて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "oras": "硬い　しっぽで 相手を　たたきつけて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "sm": "硬い　しっぽで 相手を　たたきつけて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "usum": "硬い　しっぽで 相手を　たたきつけて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "lgpe": "硬い　しっぽで 相手を　たたきつけて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "swsh": "硬い　しっぽで 相手を　たたきつけて　攻撃する。 相手の　防御を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "oras": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "sm": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "usum": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "lgpe": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+            "swsh": "Ataca con una cola férrea y puede bajar la Defensa del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將堅硬的尾巴 甩向對手進行攻擊。 有時會降低對手的防禦。",
+            "usum": "將堅硬的尾巴 甩向對手進行攻擊。 有時會降低對手的防禦。",
+            "lgpe": "將堅硬的尾巴 甩向對手進行攻擊。 有時會降低對手的防禦。",
+            "swsh": "將堅硬的尾巴 甩向對手進行攻擊。 有時會降低對手的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "使用坚硬的尾巴 摔打对手进行攻击。 有时会降低对手的防御。",
+            "usum": "使用坚硬的尾巴 摔打对手进行攻击。 有时会降低对手的防御。",
+            "lgpe": "使用坚硬的尾巴 摔打对手进行攻击。 有时会降低对手的防御。",
+            "swsh": "使用坚硬的尾巴 摔打对手进行攻击。 有时会降低对手的防御。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Defense by one stage."
+    }
 }

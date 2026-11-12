@@ -1,47 +1,151 @@
 {
-  "_id": 141,
-  "key": "leech-life",
-  "name": {
-    "english": "Leech Life",
-    "japanese": "きゅうけつ",
-    "chinese": "吸血",
-    "korean": "흡혈",
-    "german": "Chupavidas",
-    "french": "Blutsauger",
-    "italian": "Leech Life",
-    "spanish": "Sanguisuga"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 20,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Steals 1/2 of the\ndamage inflicted.",
-    "crystal": "Steals 1/2 of the\ndamage inflicted.",
-    "ruby-sapphire": "An attack that steals half\nthe damage inflicted.",
-    "emerald": "An attack that steals half\nthe damage inflicted.",
-    "firered-leafgreen": "An attack that\nabsorbs half the\ndamage it inflicted\nto restore HP.",
-    "diamond-pearl": "A blood-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "platinum": "A blood-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "heartgold-soulsilver": "A blood-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.",
-    "black-white": "The user drains the target’s blood.\nThe user’s HP is restored by half the\ndamage taken by the target.",
-    "black-2-white-2": "The user drains the target’s blood.\nThe user’s HP is restored by half the\ndamage taken by the target.",
-    "x-y": "The user drains the target’s blood.\nThe user’s HP is restored by half the\ndamage taken by the target.",
-    "omega-ruby-alpha-sapphire": "The user drains the target’s blood.\nThe user’s HP is restored by half the\ndamage taken by the target.",
-    "sun-moon": "The user drains the target’s blood. The user’s HP is\nrestored by half the damage taken by the target.",
-    "ultra-sun-ultra-moon": "The user drains the target’s blood. The user’s HP is\nrestored by half the damage taken by the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user drains the target’s blood. The user’s HP is\nrestored by half the damage taken by the target.",
-    "sword-shield": "The user drains the target’s blood. The user’s HP is\nrestored by half the damage taken by the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
-    "shortEffect": "Drains half the damage inflicted to heal the user."
-  },
-  "priority": 0
+    "_id": 141,
+    "key": "leech-life",
+    "name": {
+        "japanese-kana": "きゅうけつ",
+        "korean": "흡혈",
+        "traditional-chinese": "吸血",
+        "french": "Vampirisme",
+        "german": "Blutsauger",
+        "spanish": "Chupavidas",
+        "italian": "Sanguisuga",
+        "english": "Leech Life",
+        "japanese": "きゅうけつ",
+        "simplified-chinese": "吸血",
+        "latin-american-spanish": "Chupavidas"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 50,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "power": 20,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Steals 1/2 of the damage inflicted.",
+            "cr": "Steals 1/2 of the damage inflicted.",
+            "rs": "An attack that steals half the damage inflicted.",
+            "em": "An attack that steals half the damage inflicted.",
+            "frlg": "An attack that absorbs half the damage it inflicted to restore HP.",
+            "dp": "A blood-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "pt": "A blood-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "hgss": "A blood-draining attack. The user’s HP is restored by half the damage taken by the target.",
+            "bw": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "b2w2": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "xy": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "oras": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "sm": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "usum": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "lgpe": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "swsh": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+            "la": "The user attacks by draining the target's blood. Some of the damage dealt to the target is absorbed by the user to restore their own HP.",
+            "sv": "The user drains the target's blood. The user's HP is restored by up to half the damage taken by the target."
+        },
+        "french": {
+            "bw": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+            "xy": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+            "oras": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+            "sm": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+            "usum": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+            "lgpe": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+            "swsh": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "oras": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "sm": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "usum": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "lgpe": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+            "swsh": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。"
+        },
+        "korean": {
+            "xy": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다.",
+            "oras": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다.",
+            "sm": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다.",
+            "usum": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다.",
+            "lgpe": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다.",
+            "swsh": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다."
+        },
+        "german": {
+            "xy": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "oras": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "sm": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "usum": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "lgpe": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+            "swsh": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben."
+        },
+        "spanish": {
+            "xy": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "oras": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "sm": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "usum": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "lgpe": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "swsh": "Restaura al usuario la mitad del daño causado al objetivo."
+        },
+        "italian": {
+            "xy": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "oras": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "sm": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "usum": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "lgpe": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+            "swsh": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto."
+        },
+        "japanese": {
+            "xy": "血を　吸い取って　相手を 攻撃する。与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "oras": "血を　吸い取って　相手を 攻撃する。与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "sm": "血を　吸い取って　相手を 攻撃する。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "usum": "血を　吸い取って　相手を 攻撃する。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "lgpe": "血を　吸い取って　相手を 攻撃する。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+            "swsh": "血を　吸い取って　相手を 攻撃する。　与えた　ダメージの 半分の　ＨＰを　回復できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "oras": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "sm": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "usum": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "lgpe": "Restaura al usuario la mitad del daño causado al objetivo.",
+            "swsh": "Restaura al usuario la mitad del daño causado al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "吸取對手的血液進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。",
+            "usum": "吸取對手的血液進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。",
+            "lgpe": "吸取對手的血液進行攻擊。 可以回復給予對手 傷害的一半HP。",
+            "swsh": "吸取對手的血液進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。"
+        },
+        "simplified-chinese": {
+            "sm": "吸取血液攻击对手。 可以回复给予对手 伤害的一半ＨＰ。",
+            "usum": "吸取血液攻击对手。 可以回复给予对手 伤害的一半ＨＰ。",
+            "lgpe": "吸取血液攻击对手。 可以回复给予对手 伤害的一半HP。",
+            "swsh": "吸取血液攻击对手。 可以回复给予对手 伤害的一半ＨＰ。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+        "shortEffect": "Drains half the damage inflicted to heal the user."
+    }
 }

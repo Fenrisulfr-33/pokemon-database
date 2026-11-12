@@ -1,47 +1,146 @@
 {
-  "_id": 220,
-  "key": "pain-split",
-  "name": {
-    "english": "Pain Split",
-    "japanese": "いたみわけ",
-    "chinese": "分享痛楚",
-    "korean": "아픔나누기",
-    "german": "Divide Dolor",
-    "french": "Leidteiler",
-    "italian": "Pain Split",
-    "spanish": "Malcomune"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Adds user & foe's\nHPs. Shares total.",
-    "crystal": "Adds user & foe's\nHPs. Shares total.",
-    "ruby-sapphire": "Adds the user and foe’s HP,\nthen shares them equally.",
-    "emerald": "Adds the user and foe’s HP,\nthen shares them equally.",
-    "firered-leafgreen": "The user adds its\nHP to the foe’s HP,\nthen equally shares\nthe total HP.",
-    "diamond-pearl": "The user adds its HP\nto the foe’s HP, then\nequally shares the\ncombined HP with the\nfoe.",
-    "platinum": "The user adds its HP\nto the foe’s HP, then\nequally shares the\ncombined HP with the\nfoe.",
-    "heartgold-soulsilver": "The user adds its HP\nto the foe’s HP, then\nequally shares the\ncombined HP with the\nfoe.",
-    "black-white": "The user adds its HP to the target’s HP,\nthen equally shares the combined HP\nwith the target.",
-    "black-2-white-2": "The user adds its HP to the target’s HP,\nthen equally shares the combined HP\nwith the target.",
-    "x-y": "The user adds its HP to the target’s HP,\nthen equally shares the combined HP\nwith the target.",
-    "omega-ruby-alpha-sapphire": "The user adds its HP to the target’s HP,\nthen equally shares the combined HP\nwith the target.",
-    "sun-moon": "The user adds its HP to the target’s HP, then equally\nshares the combined HP with the target.",
-    "ultra-sun-ultra-moon": "The user adds its HP to the target’s HP, then equally\nshares the combined HP with the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user adds its HP to the target’s HP, then equally\nshares the combined HP with the target.",
-    "sword-shield": "The user adds its HP to the target’s HP, then equally\nshares the combined HP with the target."
-  },
-  "effect": {
-    "full": "Changes the user's and target's remaining HP to the average of their current remaining HP.  Ignores accuracy and evasion modifiers.  This effect does not count as inflicting damage for other moves and effects that respond to damage taken.\n\nThis effect fails against a substitute.",
-    "shortEffect": "Sets the user's and targets's HP to the average of their current HP."
-  },
-  "priority": 0
+    "_id": 220,
+    "key": "pain-split",
+    "name": {
+        "japanese-kana": "いたみわけ",
+        "korean": "아픔나누기",
+        "traditional-chinese": "分擔痛楚",
+        "french": "Balance",
+        "german": "Leidteiler",
+        "spanish": "Divide Dolor",
+        "italian": "Malcomune",
+        "english": "Pain Split",
+        "japanese": "いたみわけ",
+        "simplified-chinese": "分担痛楚",
+        "latin-american-spanish": "Dividedolor"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Adds user & foe's HPs. Shares total.",
+            "cr": "Adds user & foe's HPs. Shares total.",
+            "rs": "Adds the user and foe’s HP, then shares them equally.",
+            "em": "Adds the user and foe’s HP, then shares them equally.",
+            "frlg": "The user adds its HP to the foe’s HP, then equally shares the total HP.",
+            "dp": "The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.",
+            "pt": "The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.",
+            "hgss": "The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.",
+            "bw": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "b2w2": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "xy": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "oras": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "sm": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "usum": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "lgpe": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "swsh": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+            "la": "The user adds its HP to the target's HP, then equally shares the combined HP with the target.",
+            "sv": "The user adds its HP to the target's HP, then equally splits the combined HP between the target and itself."
+        },
+        "french": {
+            "bw": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.",
+            "xy": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.",
+            "oras": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.",
+            "sm": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.",
+            "usum": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.",
+            "lgpe": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.",
+            "swsh": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement."
+        },
+        "japanese-kana": {
+            "xy": "じぶんの　ＨＰと　あいての　ＨＰを あわせて　それを　じぶんと　あいてで なかよく　わける。",
+            "oras": "じぶんの　ＨＰと　あいての　ＨＰを あわせて　それを　じぶんと　あいてで なかよく　わける。",
+            "sm": "じぶんの　ＨＰと　あいての　ＨＰを あわせて　それを　じぶんと　あいてで なかよく　わける。",
+            "usum": "じぶんの　ＨＰと　あいての　ＨＰを あわせて　それを　じぶんと　あいてで なかよく　わける。",
+            "lgpe": "じぶんの　ＨＰと　あいての　ＨＰを あわせて　それを　じぶんと　あいてで なかよく　わける。",
+            "swsh": "じぶんの　ＨＰと　あいての　ＨＰを あわせて　それを　じぶんと　あいてで なかよく　わける。"
+        },
+        "korean": {
+            "xy": "자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.",
+            "oras": "자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.",
+            "sm": "자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.",
+            "usum": "자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.",
+            "lgpe": "자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.",
+            "swsh": "자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다."
+        },
+        "german": {
+            "xy": "Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.",
+            "oras": "Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.",
+            "sm": "Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.",
+            "usum": "Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.",
+            "lgpe": "Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.",
+            "swsh": "Addiert KP von Anwender und Ziel. Teilt sie gerecht auf."
+        },
+        "spanish": {
+            "xy": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "oras": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "sm": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "usum": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "lgpe": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "swsh": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales."
+        },
+        "italian": {
+            "xy": "Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.",
+            "oras": "Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.",
+            "sm": "Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.",
+            "usum": "Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.",
+            "lgpe": "Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.",
+            "swsh": "Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali."
+        },
+        "japanese": {
+            "xy": "自分の　ＨＰと　相手の　ＨＰを あわせて　それを　自分と　相手で なかよく　わける。",
+            "oras": "自分の　ＨＰと　相手の　ＨＰを あわせて　それを　自分と　相手で なかよく　わける。",
+            "sm": "自分の　ＨＰと　相手の　ＨＰを あわせて　それを　自分と　相手で なかよく　わける。",
+            "usum": "自分の　ＨＰと　相手の　ＨＰを あわせて　それを　自分と　相手で なかよく　わける。",
+            "lgpe": "自分の　ＨＰと　相手の　ＨＰを あわせて　それを　自分と　相手で なかよく　わける。",
+            "swsh": "自分の　ＨＰと　相手の　ＨＰを あわせて　それを　自分と　相手で なかよく　わける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "oras": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "sm": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "usum": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "lgpe": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+            "swsh": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales."
+        },
+        "traditional-chinese": {
+            "sm": "將自己的ＨＰ和 對手的ＨＰ相加， 然後雙方友好地平分。",
+            "usum": "將自己的ＨＰ和 對手的ＨＰ相加， 然後雙方友好地平分。",
+            "lgpe": "將自己的HP和 對手的HP相加， 然後雙方友好地平分。",
+            "swsh": "將自己的ＨＰ和 對手的ＨＰ相加， 然後雙方友好地平分。"
+        },
+        "simplified-chinese": {
+            "sm": "将自己的ＨＰ和 对手的ＨＰ相加， 然后自己和对手友好地平分。",
+            "usum": "将自己的ＨＰ和 对手的ＨＰ相加， 然后自己和对手友好地平分。",
+            "lgpe": "将自己的HP和 对手的HP相加， 然后自己和对手友好地平分。",
+            "swsh": "将自己的ＨＰ和 对手的ＨＰ相加， 然后自己和对手友好地平分。"
+        }
+    },
+    "effect": {
+        "full": "Changes the user’s and target’s remaining HP to the average of their current remaining HP.  Ignores accuracy and evasion modifiers.  This effect does not count as inflicting damage for other moves and effects that respond to damage taken. This effect fails against a Substitute.",
+        "shortEffect": "Sets the user’s and targets’s HP to the average of their current HP."
+    }
 }

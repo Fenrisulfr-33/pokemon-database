@@ -1,42 +1,141 @@
 {
-  "_id": 428,
-  "key": "zen-headbutt",
-  "name": {
-    "english": "Zen Headbutt",
-    "japanese": "しねんのずつき",
-    "chinese": "意念头锤",
-    "korean": "사념의박치기",
-    "german": "Cabezazo Zen",
-    "french": "Zen-Kopfstoß",
-    "italian": "Zen Headbutt",
-    "spanish": "Cozzata Zen"
-  },
-  "type": "Psychic",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user focuses its\nwillpower to its head\nand rams the foe.\nIt may also make the\ntarget flinch.",
-    "platinum": "The user focuses its\nwillpower to its head\nand rams the foe.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The user focuses its\nwillpower to its head\nand rams the foe.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user focuses its willpower to its head\nand attacks the target.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user focuses its willpower to its head\nand attacks the target.\nIt may also make the target flinch.",
-    "x-y": "The user focuses its willpower to its head\nand attacks the target.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user focuses its willpower to its head\nand attacks the target.\nThis may also make the target flinch.",
-    "sun-moon": "The user focuses its willpower to its head and\nattacks the target. This may also make the\ntarget flinch.",
-    "ultra-sun-ultra-moon": "The user focuses its willpower to its head and\nattacks the target. This may also make the\ntarget flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user focuses its willpower to its head and\nattacks the target. This may also make the\ntarget flinch.",
-    "sword-shield": "The user focuses its willpower to its head and\nattacks the target. This may also make the\ntarget flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 428,
+    "key": "zen-headbutt",
+    "name": {
+        "japanese-kana": "しねんのずつき",
+        "korean": "사념의박치기",
+        "traditional-chinese": "意念頭錘",
+        "french": "Psykoud’Boul",
+        "german": "Zen-Kopfstoß",
+        "spanish": "Cabezazo Zen",
+        "italian": "Cozzata Zen",
+        "english": "Zen Headbutt",
+        "japanese": "しねんのずつき",
+        "simplified-chinese": "意念头锤",
+        "latin-american-spanish": "Cabezazo Zen"
+    },
+    "type": "psychic",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 20,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user focuses its willpower to its head and rams the foe. It may also make the target flinch.",
+            "pt": "The user focuses its willpower to its head and rams the foe. It may also make the target flinch.",
+            "hgss": "The user focuses its willpower to its head and rams the foe. It may also make the target flinch.",
+            "bw": "The user focuses its willpower to its head and attacks the target. It may also make the target flinch.",
+            "b2w2": "The user focuses its willpower to its head and attacks the target. It may also make the target flinch.",
+            "xy": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+            "oras": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+            "sm": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+            "usum": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+            "lgpe": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+            "swsh": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+            "la": "The user focuses its willpower to its head and attacks the target.",
+            "sv": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.",
+            "oras": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.",
+            "sm": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.",
+            "usum": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.",
+            "lgpe": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.",
+            "swsh": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "しねんの　ちからを ひたいに　あつめて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "しねんの　ちからを ひたいに　あつめて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "しねんの　ちからを ひたいに　あつめて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "しねんの　ちからを ひたいに　あつめて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "しねんの　ちからを ひたいに　あつめて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "しねんの　ちからを ひたいに　あつめて　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "사념의 힘을 이마에 모아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "사념의 힘을 이마에 모아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "사념의 힘을 이마에 모아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "사념의 힘을 이마에 모아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "사념의 힘을 이마에 모아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "사념의 힘을 이마에 모아서 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender konzentriert seinen Willen und rammt das Ziel. Dieses schreckt eventuell zurück.",
+            "oras": "Anwender konzentriert seinen Willen und rammt das Ziel. Dieses schreckt eventuell zurück.",
+            "sm": "Anwender konzentriert seinen Willen und rammt das Ziel. Dieses schreckt eventuell zurück.",
+            "usum": "Anwender konzentriert seinen Willen und rammt das Ziel. Dieses schreckt eventuell zurück.",
+            "lgpe": "Anwender konzentriert seinen Willen und rammt das Ziel. Dieses schreckt eventuell zurück.",
+            "swsh": "Anwender konzentriert seinen Willen und rammt das Ziel. Dieses schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "oras": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "sm": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "usum": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "lgpe": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "swsh": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo se amedrente."
+        },
+        "italian": {
+            "xy": "Chi la usa concentra la forza nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.",
+            "oras": "Chi la usa concentra la forza nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.",
+            "sm": "Chi la usa concentra la forza nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.",
+            "usum": "Chi la usa concentra la forza nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.",
+            "lgpe": "Chi la usa concentra le energie psichiche nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.",
+            "swsh": "Chi la usa concentra le energie psichiche nella testa e si lancia contro il bersaglio. Può anche farlo tentennare."
+        },
+        "japanese": {
+            "xy": "思念の　力を 額に　集めて　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "思念の　力を 額に　集めて　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "思念の　力を 額に　集めて　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "思念の　力を 額に　集めて　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "思念の　力を 額に　集めて　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "思念の　力を 額に　集めて　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "oras": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "sm": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "usum": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "lgpe": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+            "swsh": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo se amedrente."
+        },
+        "traditional-chinese": {
+            "sm": "將意念的力量集中在 前額進行攻擊。 有時會讓對手畏縮。",
+            "usum": "將意念的力量集中在 前額進行攻擊。 有時會讓對手畏縮。",
+            "lgpe": "將意念的力量集中在 前額進行攻擊。 有時會讓對手畏縮。",
+            "swsh": "將意念的力量集中在 前額進行攻擊。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "将思念的力量集中在 前额进行攻击。 有时会使对手畏缩。",
+            "usum": "将思念的力量集中在 前额进行攻击。 有时会使对手畏缩。",
+            "lgpe": "将思念的力量集中在 前额进行攻击。 有时会使对手畏缩。",
+            "swsh": "将思念的力量集中在 前额进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

@@ -1,47 +1,146 @@
 {
-  "_id": 106,
-  "key": "harden",
-  "name": {
-    "english": "Harden",
-    "japanese": "かたくなる",
-    "chinese": "硬梆梆",
-    "korean": "단단해지기",
-    "german": "Fortaleza",
-    "french": "Härtner",
-    "italian": "Harden",
-    "spanish": "Rafforzatore"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Raises the user's\nDEFENSE.",
-    "crystal": "Raises the user's\nDEFENSE.",
-    "ruby-sapphire": "Stiffens the body’s \nmuscles to raise DEFENSE.",
-    "emerald": "Stiffens the body’s \nmuscles to raise DEFENSE.",
-    "firered-leafgreen": "The user stiffens\nall the muscles in\nits body to raise\nits DEFENSE stat.",
-    "diamond-pearl": "The user stiffens all\nthe muscles in its\nbody to raise its\nDefense stat.\n",
-    "platinum": "The user stiffens all\nthe muscles in its\nbody to raise its\nDefense stat.\n",
-    "heartgold-soulsilver": "The user stiffens all\nthe muscles in its\nbody to raise its\nDefense stat.\n",
-    "black-white": "The user stiffens all the muscles in its\nbody to raise its Defense stat.",
-    "black-2-white-2": "The user stiffens all the muscles in its\nbody to raise its Defense stat.",
-    "x-y": "The user stiffens all the muscles in its\nbody to raise its Defense stat.",
-    "omega-ruby-alpha-sapphire": "The user stiffens all the muscles in its\nbody to raise its Defense stat.",
-    "sun-moon": "The user stiffens all the muscles in its body to raise\nits Defense stat.",
-    "ultra-sun-ultra-moon": "The user stiffens all the muscles in its body to raise\nits Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user stiffens all the muscles in its body to raise\nits Defense stat.",
-    "sword-shield": "The user stiffens all the muscles in its body to raise\nits Defense stat."
-  },
-  "effect": {
-    "full": "Raises the user's Defense by one stage.",
-    "shortEffect": "Raises the user's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 106,
+    "key": "harden",
+    "name": {
+        "japanese-kana": "かたくなる",
+        "korean": "단단해지기",
+        "traditional-chinese": "變硬",
+        "french": "Armure",
+        "german": "Härtner",
+        "spanish": "Fortaleza",
+        "italian": "Rafforzatore",
+        "english": "Harden",
+        "japanese": "かたくなる",
+        "simplified-chinese": "变硬",
+        "latin-american-spanish": "Fortaleza"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "tough",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Raises the user's DEFENSE.",
+            "cr": "Raises the user's DEFENSE.",
+            "rs": "Stiffens the body’s muscles to raise DEFENSE.",
+            "em": "Stiffens the body’s muscles to raise DEFENSE.",
+            "frlg": "The user stiffens all the muscles in its body to raise its DEFENSE stat.",
+            "dp": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "pt": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "hgss": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "bw": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "b2w2": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "xy": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "oras": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "sm": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "usum": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "lgpe": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "swsh": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "la": "The user stiffens all the muscles in its body to raise its Defense stat.",
+            "sv": "The user stiffens all the muscles in its body to boost its Defense stat."
+        },
+        "french": {
+            "bw": "Le lanceur contracte tous ses muscles pour augmenter sa Défense.",
+            "xy": "Le lanceur contracte tous ses muscles pour augmenter sa Défense.",
+            "oras": "Le lanceur contracte tous ses muscles pour augmenter sa Défense.",
+            "sm": "Le lanceur contracte tous ses muscles pour augmenter sa Défense.",
+            "usum": "Le lanceur contracte tous ses muscles pour augmenter sa Défense.",
+            "lgpe": "Le lanceur contracte tous ses muscles pour augmenter sa Défense.",
+            "swsh": "Le lanceur contracte tous ses muscles pour augmenter sa Défense."
+        },
+        "japanese-kana": {
+            "xy": "ぜんしんに　ちからを　こめて からだを　かたくして じぶんの　ぼうぎょを　あげる。",
+            "oras": "ぜんしんに　ちからを　こめて からだを　かたくして じぶんの　ぼうぎょを　あげる。",
+            "sm": "ぜんしんに　ちからを　こめて からだを　かたくして じぶんの　ぼうぎょを　あげる。",
+            "usum": "ぜんしんに　ちからを　こめて からだを　かたくして じぶんの　ぼうぎょを　あげる。",
+            "lgpe": "ぜんしんに　ちからを　こめて からだを　かたくして じぶんの　ぼうぎょを　あげる。",
+            "swsh": "ぜんしんに　ちからを　こめて からだを　かたくして じぶんの　ぼうぎょを　あげる。"
+        },
+        "korean": {
+            "xy": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다.",
+            "oras": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다.",
+            "sm": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다.",
+            "usum": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다.",
+            "lgpe": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다.",
+            "swsh": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다."
+        },
+        "german": {
+            "xy": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert.",
+            "oras": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert.",
+            "sm": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert.",
+            "usum": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert.",
+            "lgpe": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert.",
+            "swsh": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert."
+        },
+        "spanish": {
+            "xy": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "oras": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "sm": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "usum": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "lgpe": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "swsh": "Tensa la musculatura del usuario para aumentar la Defensa."
+        },
+        "italian": {
+            "xy": "Tutti i muscoli del corpo si tonificano per aumentare la Difesa.",
+            "oras": "Tutti i muscoli del corpo si tonificano per aumentare la Difesa.",
+            "sm": "Tutti i muscoli del corpo si tonificano per aumentare la Difesa.",
+            "usum": "Tutti i muscoli del corpo si tonificano per aumentare la Difesa.",
+            "lgpe": "Tutti i muscoli del corpo si tonificano per aumentare la Difesa.",
+            "swsh": "Tutti i muscoli del corpo si tonificano per aumentare la Difesa."
+        },
+        "japanese": {
+            "xy": "全身に　力を　こめて 体を　硬くして 自分の　防御を　あげる。",
+            "oras": "全身に　力を　こめて 体を　硬くして 自分の　防御を　あげる。",
+            "sm": "全身に　力を　こめて 体を　硬くして 自分の　防御を　あげる。",
+            "usum": "全身に　力を　こめて 体を　硬くして 自分の　防御を　あげる。",
+            "lgpe": "全身に　力を　こめて 体を　硬くして 自分の　防御を　あげる。",
+            "swsh": "全身に　力を　こめて 体を　硬くして 自分の　防御を　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "oras": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "sm": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "usum": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "lgpe": "Tensa la musculatura del usuario para aumentar la Defensa.",
+            "swsh": "Tensa la musculatura del usuario para aumentar la Defensa."
+        },
+        "traditional-chinese": {
+            "sm": "使用全身的力量讓身體硬化， 提高自己的防禦。",
+            "usum": "使用全身的力量讓身體硬化， 提高自己的防禦。",
+            "lgpe": "使用全身的力量讓身體硬化， 提高自己的防禦。",
+            "swsh": "使用全身的力量讓身體硬化， 提高自己的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "全身使劲，让身体变硬， 从而提高自己的防御。",
+            "usum": "全身使劲，让身体变硬， 从而提高自己的防御。",
+            "lgpe": "全身使劲，让身体变硬， 从而提高自己的防御。",
+            "swsh": "全身使劲，让身体变硬， 从而提高自己的防御。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Defense by one stage.",
+        "shortEffect": "Raises the user’s Defense by one stage."
+    }
 }

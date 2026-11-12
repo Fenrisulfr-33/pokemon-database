@@ -1,42 +1,145 @@
 {
-  "_id": 387,
-  "key": "last-resort",
-  "name": {
-    "english": "Last Resort",
-    "japanese": "とっておき",
-    "chinese": "珍藏",
-    "korean": "뒀다쓰기",
-    "german": "Última Baza",
-    "french": "Zuflucht",
-    "italian": "Last Resort",
-    "spanish": "Ultimascelta"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 5,
-  "power": 140,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "This move can be used\nonly after the user\nhas used all the\nother moves it knows\nin the battle.",
-    "platinum": "This move can be used\nonly after the user\nhas used all the\nother moves it knows\nin the battle.",
-    "heartgold-soulsilver": "This move can be used\nonly after the user\nhas used all the\nother moves it knows\nin the battle.",
-    "black-white": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
-    "black-2-white-2": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
-    "x-y": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
-    "omega-ruby-alpha-sapphire": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
-    "sun-moon": "This move can be used only after the user has used\nall the other moves it knows in the battle.",
-    "ultra-sun-ultra-moon": "This move can be used only after the user has used\nall the other moves it knows in the battle.",
-    "lets-go-pikachu-lets-go-eevee": "This move can be used only after the user has used\nall the other moves it knows in the battle.",
-    "sword-shield": "This move can be used only after the user has used\nall the other moves it knows in the battle."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  This move can only be used if each of the user's other moves has been used at least once since the user entered the field.  If this is the user's only move, this move will fail.",
-    "shortEffect": "Can only be used after all of the user's other moves have been used."
-  },
-  "priority": 0
+    "_id": 387,
+    "key": "last-resort",
+    "name": {
+        "japanese-kana": "とっておき",
+        "korean": "비장의무기",
+        "traditional-chinese": "珍藏",
+        "french": "Dernier Recours",
+        "german": "Zuflucht",
+        "spanish": "Última Baza",
+        "italian": "Ultimascelta",
+        "english": "Last Resort",
+        "japanese": "とっておき",
+        "simplified-chinese": "珍藏",
+        "latin-american-spanish": "Último Recurso"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 5,
+    "power": 140,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 130
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "pt": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "hgss": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "bw": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "b2w2": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "xy": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "oras": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "sm": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "usum": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "lgpe": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "swsh": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "la": "This move can be used only after the user has used all the other moves it knows in the battle.",
+            "sv": "This move can be used only after the user has used all the other moves it knows in the battle."
+        },
+        "french": {
+            "bw": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.",
+            "xy": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.",
+            "oras": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.",
+            "sm": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.",
+            "usum": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.",
+            "lgpe": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.",
+            "swsh": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres."
+        },
+        "japanese-kana": {
+            "xy": "せんとうちゅうに　おぼえている　わざを すべて　つかうと　はじめて　だせる とっておきの　わざ。",
+            "oras": "せんとうちゅうに　おぼえている　わざを すべて　つかうと　はじめて　だせる とっておきの　わざ。",
+            "sm": "せんとうちゅうに　おぼえている　わざを すべて　つかうと　はじめて　だせる とっておきの　わざ。",
+            "usum": "せんとうちゅうに　おぼえている　わざを すべて　つかうと　はじめて　だせる とっておきの　わざ。",
+            "lgpe": "せんとうちゅうに　おぼえている　わざを すべて　つかうと　はじめて　だせる とっておきの　わざ。",
+            "swsh": "せんとうちゅうに　おぼえている　わざを すべて　つかうと　はじめて　だせる とっておきの　わざ。"
+        },
+        "korean": {
+            "xy": "배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 필살기이다.",
+            "oras": "배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 필살기이다.",
+            "sm": "배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 필살기이다.",
+            "usum": "배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 필살기이다.",
+            "lgpe": "배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 필살기이다.",
+            "swsh": "배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 필살기이다."
+        },
+        "german": {
+            "xy": "Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.",
+            "oras": "Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.",
+            "sm": "Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.",
+            "usum": "Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.",
+            "lgpe": "Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.",
+            "swsh": "Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind."
+        },
+        "spanish": {
+            "xy": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "oras": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "sm": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "usum": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "lgpe": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "swsh": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon."
+        },
+        "italian": {
+            "xy": "Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute.",
+            "oras": "Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute.",
+            "sm": "Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute.",
+            "usum": "Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute.",
+            "lgpe": "Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute.",
+            "swsh": "Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute."
+        },
+        "japanese": {
+            "xy": "戦闘中に　おぼえている　技を すべて　使うと　はじめて　だせる とっておきの　技。",
+            "oras": "戦闘中に　おぼえている　技を すべて　使うと　はじめて　だせる とっておきの　技。",
+            "sm": "戦闘中に　おぼえている　技を すべて　使うと　はじめて　だせる とっておきの　技。",
+            "usum": "戦闘中に　おぼえている　技を すべて　使うと　はじめて　だせる とっておきの　技。",
+            "lgpe": "戦闘中に　おぼえている　技を すべて　使うと　はじめて　だせる とっておきの　技。",
+            "swsh": "戦闘中に　おぼえている　技を すべて　使うと　はじめて　だせる とっておきの　技。"
+        },
+        "latin-american-spanish": {
+            "xy": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "oras": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "sm": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "usum": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "lgpe": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+            "swsh": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon."
+        },
+        "traditional-chinese": {
+            "sm": "在戰鬥中將其他已學會的招式 全部使用過後， 才能夠使出的珍藏招式。",
+            "usum": "在戰鬥中將其他已學會的招式 全部使用過後， 才能夠使出的珍藏招式。",
+            "lgpe": "在戰鬥中將其他已學會的招式 全部使用過後， 才能夠使出的珍藏招式。",
+            "swsh": "在戰鬥中將其他已學會的招式 全部使用過後， 才能夠使出的珍藏招式。"
+        },
+        "simplified-chinese": {
+            "sm": "当战斗中已学会的招式 全部使用过后， 才能开始使出珍藏的招式。",
+            "usum": "当战斗中已学会的招式 全部使用过后， 才能开始使出珍藏的招式。",
+            "lgpe": "当战斗中已学会的招式 全部使用过后， 才能开始使出珍藏的招式。",
+            "swsh": "当战斗中已学会的招式 全部使用过后， 才能开始使出珍藏的招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  This move can only be used if each of the user’s other moves has been used at least once since the user entered the field.  If this is the user’s only move, this move will fail.",
+        "shortEffect": "Can only be used after all of the user’s other moves have been used."
+    }
 }

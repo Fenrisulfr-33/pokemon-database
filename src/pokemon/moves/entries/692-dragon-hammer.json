@@ -1,35 +1,117 @@
 {
-  "_id": 692,
-  "key": "dragon-hammer",
-  "name": {
-    "english": "Dragon Hammer",
-    "japanese": "ドラゴンハンマー",
-    "chinese": "龍錘",
-    "korean": "드래곤해머",
-    "german": "Martillo Dragón",
-    "french": "Drachenhammer",
-    "italian": "Dragon Hammer",
-    "spanish": "Marteldrago"
-  },
-  "type": "Dragon",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user uses its body like a hammer to attack the\ntarget and inflict damage.",
-    "ultra-sun-ultra-moon": "The user uses its body like a hammer to attack the\ntarget and inflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "The user uses its body like a hammer to attack the\ntarget and inflict damage.",
-    "sword-shield": "The user uses its body like a hammer to attack the\ntarget and inflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 692,
+    "key": "dragon-hammer",
+    "name": {
+        "japanese-kana": "ドラゴンハンマー",
+        "korean": "드래곤해머",
+        "traditional-chinese": "龍錘",
+        "french": "Draco-Marteau",
+        "german": "Drachenhammer",
+        "spanish": "Martillo Dragón",
+        "italian": "Marteldrago",
+        "english": "Dragon Hammer",
+        "japanese": "ドラゴンハンマー",
+        "simplified-chinese": "龙锤",
+        "latin-american-spanish": "Martillo Dragón"
+    },
+    "type": "dragon",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "からだを　ハンマーのように つかって　あいてに　おそいかかり ダメージを　あたえる。",
+            "usum": "からだを　ハンマーのように つかって　あいてに　おそいかかり ダメージを　あたえる。",
+            "lgpe": "からだを　ハンマーのように つかって　あいてに　おそいかかり ダメージを　あたえる。",
+            "swsh": "からだを　ハンマーのように つかって　あいてに　おそいかかり ダメージを　あたえる。"
+        },
+        "korean": {
+            "sm": "몸을 해머처럼 써서 상대를 덮쳐 데미지를 준다.",
+            "usum": "몸을 해머처럼 써서 상대를 덮쳐 데미지를 준다.",
+            "lgpe": "몸을 해머처럼 써서 상대를 덮쳐 데미지를 준다.",
+            "swsh": "몸을 해머처럼 써서 상대를 덮쳐 데미지를 준다."
+        },
+        "traditional-chinese": {
+            "sm": "像錘子般地使用身體 向對手發動襲擊， 給予傷害。",
+            "usum": "像錘子般地使用身體 向對手發動襲擊， 給予傷害。",
+            "lgpe": "像錘子般地使用身體 向對手發動襲擊， 給予傷害。",
+            "swsh": "像錘子般地使用身體 向對手發動襲擊， 給予傷害。"
+        },
+        "french": {
+            "sm": "Le lanceur utilise son corps comme un véritable marteau pour écraser la cible.",
+            "usum": "Le lanceur utilise son corps comme un véritable marteau pour écraser la cible.",
+            "lgpe": "Le lanceur utilise son corps comme un véritable marteau pour écraser la cible.",
+            "swsh": "Le lanceur utilise son corps comme un véritable marteau pour écraser la cible."
+        },
+        "german": {
+            "sm": "Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.",
+            "usum": "Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.",
+            "lgpe": "Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.",
+            "swsh": "Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet."
+        },
+        "spanish": {
+            "sm": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+            "usum": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+            "lgpe": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+            "swsh": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño."
+        },
+        "italian": {
+            "sm": "Chi la usa infligge danni al bersaglio usando il proprio corpo come se fosse un martello.",
+            "usum": "Chi la usa infligge danni al bersaglio usando il proprio corpo come se fosse un martello.",
+            "lgpe": "Chi la usa infligge danni al bersaglio usando il proprio corpo come se fosse un martello.",
+            "swsh": "Chi la usa infligge danni al bersaglio usando il proprio corpo come se fosse un martello."
+        },
+        "english": {
+            "sm": "The user uses its body like a hammer to attack the target and inflict damage.",
+            "usum": "The user uses its body like a hammer to attack the target and inflict damage.",
+            "lgpe": "The user uses its body like a hammer to attack the target and inflict damage.",
+            "swsh": "The user uses its body like a hammer to attack the target and inflict damage.",
+            "la": "The user uses its body like a hammer to attack the target and inflict damage.",
+            "sv": "The user wields its body like a hammer to attack the target and inflict damage."
+        },
+        "japanese": {
+            "sm": "体を　ハンマーのように 使って　相手に　襲いかかり ダメージを　与える。",
+            "usum": "体を　ハンマーのように 使って　相手に　襲いかかり ダメージを　与える。",
+            "lgpe": "体を　ハンマーのように 使って　相手に　襲いかかり ダメージを　与える。",
+            "swsh": "体を　ハンマーのように 使って　相手に　襲いかかり ダメージを　与える。"
+        },
+        "simplified-chinese": {
+            "sm": "将身体当作锤子， 向对手发动袭击， 给予伤害。",
+            "usum": "将身体当作锤子， 向对手发动袭击， 给予伤害。",
+            "lgpe": "将身体当作锤子， 向对手发动袭击， 给予伤害。",
+            "swsh": "将身体当作锤子， 向对手发动袭击， 给予伤害。"
+        },
+        "latin-american-spanish": {
+            "sm": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+            "usum": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+            "lgpe": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+            "swsh": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

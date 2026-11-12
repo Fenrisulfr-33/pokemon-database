@@ -1,39 +1,138 @@
 {
-  "_id": 493,
-  "key": "simple-beam",
-  "name": {
-    "english": "Simple Beam",
-    "japanese": "シンプルビーム",
-    "chinese": "单纯光线",
-    "korean": "심플빔",
-    "german": "Onda Simple",
-    "french": "Wankelstrahl",
-    "italian": "Simple Beam",
-    "spanish": "Ondisinvolta"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user’s mysterious psychic wave\nchanges the target’s Ability to Simple.",
-    "black-2-white-2": "The user’s mysterious psychic wave\nchanges the target’s Ability to Simple.",
-    "x-y": "The user’s mysterious psychic wave\nchanges the target’s Ability to Simple.",
-    "omega-ruby-alpha-sapphire": "The user’s mysterious psychic wave\nchanges the target’s Ability to Simple.",
-    "sun-moon": "The user’s mysterious psychic wave changes the\ntarget’s Ability to Simple.",
-    "ultra-sun-ultra-moon": "The user’s mysterious psychic wave changes the\ntarget’s Ability to Simple.",
-    "lets-go-pikachu-lets-go-eevee": "The user’s mysterious psychic wave changes the\ntarget’s Ability to Simple.",
-    "sword-shield": "The user’s mysterious psychic wave changes the\ntarget’s Ability to Simple."
-  },
-  "effect": {
-    "full": "Changes the target's ability to simple.",
-    "shortEffect": "Changes the target's ability to Simple."
-  },
-  "priority": 0
+    "_id": 493,
+    "key": "simple-beam",
+    "name": {
+        "japanese-kana": "シンプルビーム",
+        "korean": "심플빔",
+        "traditional-chinese": "單純光束",
+        "french": "Rayon Simple",
+        "german": "Wankelstrahl",
+        "spanish": "Onda Simple",
+        "italian": "Ondisinvolta",
+        "english": "Simple Beam",
+        "japanese": "シンプルビーム",
+        "simplified-chinese": "单纯光束",
+        "latin-american-spanish": "Onda Simple"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur envoie des ondes mystérieuses à l’ennemi. Sa capacité spéciale devient Simple.",
+            "xy": "Le lanceur envoie des ondes mystérieuses à l’ennemi. Son talent devient Simple.",
+            "oras": "Le lanceur envoie des ondes mystérieuses à l’ennemi. Son talent devient Simple.",
+            "sm": "Le lanceur envoie des ondes mystérieuses à l’ennemi. Son talent devient Simple.",
+            "usum": "Le lanceur envoie des ondes mystérieuses à l’ennemi. Son talent devient Simple.",
+            "lgpe": "Le lanceur envoie des ondes mystérieuses à l’ennemi. Son talent devient Simple.",
+            "swsh": "Le lanceur envoie des ondes mystérieuses à l’ennemi. Son talent devient Simple."
+        },
+        "english": {
+            "bw": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "b2w2": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "xy": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "oras": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "sm": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "usum": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "lgpe": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "swsh": "The user’s mysterious psychic wave changes the target’s Ability to Simple.",
+            "la": "The user's mysterious psychic wave changes the target's Ability to Simple.",
+            "sv": "The user emits a mysterious psychic wave that changes the target's Ability to Simple."
+        },
+        "japanese-kana": {
+            "xy": "なぞの　ねんぱを　あいてに　おくる。 ねんぱを　うけとった　あいては とくせいが　たんじゅんに　なる。",
+            "oras": "なぞの　ねんぱを　あいてに　おくる。 ねんぱを　うけとった　あいては とくせいが　たんじゅんに　なる。",
+            "sm": "なぞの　ねんぱを　あいてに　おくる。 ねんぱを　うけとった　あいては とくせいが　たんじゅんに　なる。",
+            "usum": "なぞの　ねんぱを　あいてに　おくる。 ねんぱを　うけとった　あいては とくせいが　たんじゅんに　なる。",
+            "lgpe": "なぞの　ねんぱを　あいてに　おくる。 ねんぱを　うけとった　あいては とくせいが　たんじゅんに　なる。",
+            "swsh": "なぞの　ねんぱを　あいてに　おくる。 ねんぱを　うけとった　あいては とくせいが　たんじゅんに　なる。"
+        },
+        "korean": {
+            "xy": "수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다.",
+            "oras": "수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다.",
+            "sm": "수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다.",
+            "usum": "수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다.",
+            "lgpe": "수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다.",
+            "swsh": "수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다."
+        },
+        "german": {
+            "xy": "Bestrahlt das Ziel mit mysteriösen Energiewellen. Bei einem Treffer wird dessen Fähigkeit zu Wankelmut.",
+            "oras": "Bestrahlt das Ziel mit mysteriösen Energiewellen. Bei einem Treffer wird dessen Fähigkeit zu Wankelmut.",
+            "sm": "Bestrahlt das Ziel mit mysteriösen Energiewellen. Bei einem Treffer wird dessen Fähigkeit zu Wankelmut.",
+            "usum": "Bestrahlt das Ziel mit mysteriösen Energiewellen. Bei einem Treffer wird dessen Fähigkeit zu Wankelmut.",
+            "lgpe": "Bestrahlt das Ziel mit mysteriösen Energiewellen. Bei einem Treffer wird dessen Fähigkeit zu Wankelmut.",
+            "swsh": "Bestrahlt das Ziel mit mysteriösen Energiewellen. Bei einem Treffer wird dessen Fähigkeit zu Wankelmut."
+        },
+        "spanish": {
+            "xy": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "oras": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "sm": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "usum": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "lgpe": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "swsh": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple."
+        },
+        "italian": {
+            "xy": "Chi la usa emette un misterioso raggio psichico che trasforma l’abilità del Pokémon colpito in Disinvoltura.",
+            "oras": "Chi la usa emette un misterioso raggio psichico che trasforma l’abilità del Pokémon colpito in Disinvoltura.",
+            "sm": "Chi la usa emette un misterioso raggio psichico che trasforma l’abilità del Pokémon colpito in Disinvoltura.",
+            "usum": "Chi la usa emette un misterioso raggio psichico che trasforma l’abilità del Pokémon colpito in Disinvoltura.",
+            "lgpe": "Chi la usa emette un misterioso raggio psichico che trasforma l’abilità del Pokémon colpito in Disinvoltura.",
+            "swsh": "Chi la usa emette un misterioso raggio psichico che trasforma l’abilità del Pokémon colpito in Disinvoltura."
+        },
+        "japanese": {
+            "xy": "なぞの　念波を　相手に　送る。 念波を　受けとった　相手は 特性が　たんじゅんに　なる。",
+            "oras": "なぞの　念波を　相手に　送る。 念波を　受けとった　相手は 特性が　たんじゅんに　なる。",
+            "sm": "なぞの　念波を　相手に　送る。 念波を　受けとった　相手は 特性が　たんじゅんに　なる。",
+            "usum": "なぞの　念波を　相手に　送る。 念波を　受けとった　相手は 特性が　たんじゅんに　なる。",
+            "lgpe": "なぞの　念波を　相手に　送る。 念波を　受けとった　相手は 特性が　たんじゅんに　なる。",
+            "swsh": "なぞの　念波を　相手に　送る。 念波を　受けとった　相手は 特性が　たんじゅんに　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "oras": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "sm": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "usum": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "lgpe": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.",
+            "swsh": "Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射謎樣的念力波。 接收了念力波的對手， 特性會變成單純。",
+            "usum": "向對手發射謎樣的念力波。 接收了念力波的對手， 特性會變成單純。",
+            "lgpe": "向對手發射謎樣的念力波。 接收了念力波的對手， 特性會變成單純。",
+            "swsh": "向對手發射謎樣的念力波。 接收了念力波的對手， 特性會變成單純。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发送谜之念波。 接收到念波的对手， 其特性会变为单纯。",
+            "usum": "向对手发送谜之念波。 接收到念波的对手， 其特性会变为单纯。",
+            "lgpe": "向对手发送谜之念波。 接收到念波的对手， 其特性会变为单纯。",
+            "swsh": "向对手发送谜之念波。 接收到念波的对手， 其特性会变为单纯。"
+        }
+    },
+    "effect": {
+        "full": "Changes the target’s ability to Simple.",
+        "shortEffect": "Changes the target’s ability to Simple."
+    }
 }

@@ -1,45 +1,148 @@
 {
-  "_id": 253,
-  "key": "uproar",
-  "name": {
-    "english": "Uproar",
-    "japanese": "さわぐ",
-    "chinese": "吵闹",
-    "korean": "소란피기",
-    "german": "Alboroto",
-    "french": "Aufruhr",
-    "italian": "Uproar",
-    "spanish": "Baraonda"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "random-opponent",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Causes an uproar for 2 to 5\nturns and prevents sleep.",
-    "emerald": "Causes an uproar for 2 to 5\nturns and prevents sleep.",
-    "firered-leafgreen": "The user attacks in\nan uproar that\nprevents sleep for\ntwo to five turns.",
-    "diamond-pearl": "The user attacks in\nan uproar for two to\nfive turns. Over that\ntime, no one can fall\nasleep.",
-    "platinum": "The user attacks in\nan uproar for two to\nfive turns. Over that\ntime, no one can fall\nasleep.",
-    "heartgold-soulsilver": "The user attacks in\nan uproar for two to\nfive turns. Over that\ntime, no one can fall\nasleep.",
-    "black-white": "The user attacks in an uproar for\nthree turns. Over that time,\nno one can fall asleep.",
-    "black-2-white-2": "The user attacks in an uproar for\nthree turns. Over that time,\nno one can fall asleep.",
-    "x-y": "The user attacks in an uproar for\nthree turns. During that time,\nno one can fall asleep.",
-    "omega-ruby-alpha-sapphire": "The user attacks in an uproar for\nthree turns. During that time,\nno one can fall asleep.",
-    "sun-moon": "The user attacks in an uproar for three turns.\nDuring that time, no Pokémon can fall asleep.",
-    "ultra-sun-ultra-moon": "The user attacks in an uproar for three turns.\nDuring that time, no Pokémon can fall asleep.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks in an uproar for three turns.\nDuring that time, no Pokémon can fall asleep.",
-    "sword-shield": "The user attacks in an uproar for three turns.\nDuring that time, no Pokémon can fall asleep."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User is forced to use this move for 2–5 turns, selected at random.  All Pokémon on the field wake up, and none can fall to sleep until the lock-in ends.\n\nPokémon cannot use rest during this effect.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time."
-  },
-  "priority": 0
+    "_id": 253,
+    "key": "uproar",
+    "name": {
+        "japanese-kana": "さわぐ",
+        "korean": "소란피기",
+        "traditional-chinese": "吵鬧",
+        "french": "Brouhaha",
+        "german": "Aufruhr",
+        "spanish": "Alboroto",
+        "italian": "Baraonda",
+        "english": "Uproar",
+        "japanese": "さわぐ",
+        "simplified-chinese": "吵闹",
+        "latin-american-spanish": "Alboroto"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cute",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "random-opponent",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 3,
+        "maxTurns": 3,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 50
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Causes an uproar for 2 to 5 turns and prevents sleep.",
+            "em": "Causes an uproar for 2 to 5 turns and prevents sleep.",
+            "frlg": "The user attacks in an uproar that prevents sleep for two to five turns.",
+            "dp": "The user attacks in an uproar for two to five turns. Over that time, no one can fall asleep.",
+            "pt": "The user attacks in an uproar for two to five turns. Over that time, no one can fall asleep.",
+            "hgss": "The user attacks in an uproar for two to five turns. Over that time, no one can fall asleep.",
+            "bw": "The user attacks in an uproar for three turns. Over that time, no one can fall asleep.",
+            "b2w2": "The user attacks in an uproar for three turns. Over that time, no one can fall asleep.",
+            "xy": "The user attacks in an uproar for three turns. During that time, no one can fall asleep.",
+            "oras": "The user attacks in an uproar for three turns. During that time, no one can fall asleep.",
+            "sm": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+            "usum": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+            "lgpe": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+            "swsh": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+            "la": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+            "sv": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep."
+        },
+        "french": {
+            "bw": "Le lanceur attaque en rugissant durant 3 tours. Pendant ce temps, personne ne peut s’endormir.",
+            "xy": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir.",
+            "oras": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir.",
+            "sm": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir.",
+            "usum": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir.",
+            "lgpe": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir.",
+            "swsh": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir."
+        },
+        "japanese-kana": {
+            "xy": "３ターンの　あいだ さわいで　あいてを　こうげきする。 そのあいだは　だれも　ねむれなく　なる。",
+            "oras": "３ターンの　あいだ さわいで　あいてを　こうげきする。 そのあいだは　だれも　ねむれなく　なる。",
+            "sm": "３ターンの　あいだ さわいで　あいてを　こうげきする。 そのあいだは　だれも　ねむれなく　なる。",
+            "usum": "３ターンの　あいだ さわいで　あいてを　こうげきする。 そのあいだは　だれも　ねむれなく　なる。",
+            "lgpe": "３ターンの　あいだ さわいで　あいてを　こうげきする。 そのあいだは　だれも　ねむれなく　なる。",
+            "swsh": "３ターンの　あいだ さわいで　あいてを　こうげきする。 そのあいだは　だれも　ねむれなく　なる。"
+        },
+        "korean": {
+            "xy": "3턴 동안 소란 피워 공격한다. 그 동안은 아무도 잠들지 않게 된다.",
+            "oras": "3턴 동안 소란 피워 공격한다. 그동안은 아무도 잠들지 않게 된다.",
+            "sm": "3턴 동안 소란 피워 공격한다. 그동안은 아무도 잠들지 않게 된다.",
+            "usum": "3턴 동안 소란 피워 공격한다. 그동안은 아무도 잠들지 않게 된다.",
+            "lgpe": "3턴 동안 소란 피워 공격한다. 그동안은 아무도 잠들지 않게 된다.",
+            "swsh": "3턴 동안 소란 피워 공격한다. 그동안은 아무도 잠들지 않게 된다."
+        },
+        "german": {
+            "xy": "Anwender greift an, indem er über drei Runden hinweg einen Aufruhr erzeugt. Verhindert Schlaf.",
+            "oras": "Anwender greift an, indem er über drei Runden hinweg einen Aufruhr erzeugt. Verhindert Schlaf.",
+            "sm": "Anwender greift an, indem er über drei Runden hinweg einen Aufruhr erzeugt. Verhindert Schlaf.",
+            "usum": "Anwender greift an, indem er über drei Runden hinweg einen Aufruhr erzeugt. Verhindert Schlaf.",
+            "lgpe": "Anwender greift an, indem er über drei Runden hinweg einen Aufruhr erzeugt. Verhindert Schlaf.",
+            "swsh": "Anwender greift an, indem er über drei Runden hinweg einen Aufruhr erzeugt. Verhindert Schlaf."
+        },
+        "spanish": {
+            "xy": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "oras": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "sm": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "usum": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "lgpe": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "swsh": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno.",
+            "oras": "Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno.",
+            "sm": "Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno.",
+            "usum": "Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno.",
+            "lgpe": "Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno.",
+            "swsh": "Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno."
+        },
+        "japanese": {
+            "xy": "３ターンの　あいだ 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。",
+            "oras": "３ターンの　あいだ 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。",
+            "sm": "３ターンの　間 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。",
+            "usum": "３ターンの　間 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。",
+            "lgpe": "３ターンの　間 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。",
+            "swsh": "３ターンの　間 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "oras": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "sm": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "usum": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "lgpe": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+            "swsh": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos."
+        },
+        "traditional-chinese": {
+            "sm": "在３回合內 大吵大鬧攻擊對手。 在此期間誰都無法入眠。",
+            "usum": "在３回合內 大吵大鬧攻擊對手。 在此期間誰都無法入眠。",
+            "lgpe": "在３回合內 大吵大鬧攻擊對手。 在此期間誰都無法入眠。",
+            "swsh": "在３回合內 大吵大鬧攻擊對手。 在此期間誰都無法入眠。"
+        },
+        "simplified-chinese": {
+            "sm": "在３回合内 用骚乱攻击对手。 在此期间谁都不能入眠。",
+            "usum": "在３回合内 用骚乱攻击对手。 在此期间谁都不能入眠。",
+            "lgpe": "在３回合内 用骚乱攻击对手。 在此期间谁都不能入眠。",
+            "swsh": "在３回合内 用骚乱攻击对手。 在此期间谁都不能入眠。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User is forced to use this move for 2–5 turns, selected at random.  All Pokémon on the field wake up, and none can fall to sleep until the lock-in ends. Pokémon cannot use Rest during this effect. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time."
+    }
 }

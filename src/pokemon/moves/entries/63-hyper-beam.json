@@ -1,47 +1,146 @@
 {
-  "_id": 63,
-  "key": "hyper-beam",
-  "name": {
-    "english": "Hyper Beam",
-    "japanese": "はかいこうせん",
-    "chinese": "破坏死光",
-    "korean": "파괴광선",
-    "german": "Hiperrayo",
-    "french": "Hyperstrahl",
-    "italian": "Hyper Beam",
-    "spanish": "Iper Raggio"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "1st turn: Attack\n2nd turn: Rest",
-    "crystal": "1st turn: Attack\n2nd turn: Rest",
-    "ruby-sapphire": "Powerful, but leaves the\nuser immobile the next turn.",
-    "emerald": "Powerful, but leaves the\nuser immobile the next turn.",
-    "firered-leafgreen": "A severely damaging\nattack that makes\nthe user rest on\nthe next turn.",
-    "diamond-pearl": "The foe is attacked\nwith a powerful beam.\nThe user must rest\non the next turn to\nregain its energy.",
-    "platinum": "The foe is attacked\nwith a powerful beam.\nThe user must rest\non the next turn to\nregain its energy.",
-    "heartgold-soulsilver": "The foe is attacked\nwith a powerful beam.\nThe user must rest\non the next turn to\nregain its energy.",
-    "black-white": "The target is attacked with a powerful\nbeam. The user must rest on the next\nturn to regain its energy.",
-    "black-2-white-2": "The target is attacked with a powerful\nbeam. The user must rest on the next\nturn to regain its energy.",
-    "x-y": "The target is attacked with a powerful\nbeam. The user can’t move on the next turn.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with a powerful\nbeam. The user can’t move on the next turn.",
-    "sun-moon": "The target is attacked with a powerful beam.\nThe user can’t move on the next turn.",
-    "ultra-sun-ultra-moon": "The target is attacked with a powerful beam.\nThe user can’t move on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with a powerful beam.\nThe user can’t move on the next turn.",
-    "sword-shield": "The target is attacked with a powerful beam.\nThe user can’t move on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-    "shortEffect": "User foregoes its next turn to recharge."
-  },
-  "priority": 0
+    "_id": 63,
+    "key": "hyper-beam",
+    "name": {
+        "japanese-kana": "はかいこうせん",
+        "korean": "파괴광선",
+        "traditional-chinese": "破壞光線",
+        "french": "Ultralaser",
+        "german": "Hyperstrahl",
+        "spanish": "Hiperrayo",
+        "italian": "Iper Raggio",
+        "english": "Hyper Beam",
+        "japanese": "はかいこうせん",
+        "simplified-chinese": "破坏光线",
+        "latin-american-spanish": "Hiperrayo"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "1st turn: Attack 2nd turn: Rest",
+            "cr": "1st turn: Attack 2nd turn: Rest",
+            "rs": "Powerful, but leaves the user immobile the next turn.",
+            "em": "Powerful, but leaves the user immobile the next turn.",
+            "frlg": "A severely damaging attack that makes the user rest on the next turn.",
+            "dp": "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
+            "pt": "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
+            "hgss": "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
+            "bw": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
+            "b2w2": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
+            "xy": "The target is attacked with a powerful beam. The user can’t move on the next turn.",
+            "oras": "The target is attacked with a powerful beam. The user can’t move on the next turn.",
+            "sm": "The target is attacked with a powerful beam. The user can’t move on the next turn.",
+            "usum": "The target is attacked with a powerful beam. The user can’t move on the next turn.",
+            "lgpe": "The target is attacked with a powerful beam. The user can’t move on the next turn.",
+            "swsh": "The target is attacked with a powerful beam. The user can’t move on the next turn.",
+            "la": "The target is attacked with a powerful beam.",
+            "sv": "The target is attacked with a powerful beam. The user can't move on the next turn."
+        },
+        "french": {
+            "bw": "Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "xy": "Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "oras": "Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "sm": "Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "usum": "Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "lgpe": "Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant.",
+            "swsh": "Projette un puissant rayon sur l’ennemi. Le lanceur doit se reposer au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "つよい　こうせんを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "oras": "つよい　こうせんを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "sm": "つよい　こうせんを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "usum": "つよい　こうせんを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "lgpe": "つよい　こうせんを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "swsh": "つよい　こうせんを あいてに　はっしゃして　こうげきする。 つぎの　ターンは　うごけなく　なる。"
+        },
+        "korean": {
+            "xy": "강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다.",
+            "oras": "강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다.",
+            "sm": "강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다.",
+            "usum": "강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다.",
+            "lgpe": "강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다.",
+            "swsh": "강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다."
+        },
+        "german": {
+            "xy": "Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.",
+            "oras": "Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.",
+            "sm": "Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.",
+            "usum": "Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.",
+            "lgpe": "Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.",
+            "swsh": "Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen."
+        },
+        "spanish": {
+            "xy": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "oras": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "sm": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "usum": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "lgpe": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "swsh": "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.",
+            "oras": "Colpisce il bersaglio con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.",
+            "sm": "Colpisce il bersaglio con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.",
+            "usum": "Colpisce il bersaglio con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.",
+            "lgpe": "Colpisce il bersaglio con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.",
+            "swsh": "Colpisce il bersaglio con un potente raggio. Chi la usa salta il turno successivo per recuperare energia."
+        },
+        "japanese": {
+            "xy": "強い　光線を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "oras": "強い　光線を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "sm": "強い　光線を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "usum": "強い　光線を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "lgpe": "強い　光線を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。",
+            "swsh": "強い　光線を 相手に　発射して　攻撃する。 次の　ターンは　動けなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "oras": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "sm": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "usum": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "lgpe": "Es eficaz, pero el atacante deberá descansar en el siguiente turno.",
+            "swsh": "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 強烈的光線進行攻擊。 下一回合自己將無法動彈。",
+            "usum": "向對手發射 強烈的光線進行攻擊。 下一回合自己將無法動彈。",
+            "lgpe": "向對手發射 強烈的光線進行攻擊。 下一回合自己將無法動彈。",
+            "swsh": "向對手發射 強烈的光線進行攻擊。 下一回合自己將無法動彈。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 强烈的光线进行攻击。 下一回合自己将无法动弹。",
+            "usum": "向对手发射 强烈的光线进行攻击。 下一回合自己将无法动弹。",
+            "lgpe": "向对手发射 强烈的光线进行攻击。 下一回合自己将无法动弹。",
+            "swsh": "向对手发射 强烈的光线进行攻击。 下一回合自己将无法动弹。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+        "shortEffect": "User foregoes its next turn to recharge."
+    }
 }

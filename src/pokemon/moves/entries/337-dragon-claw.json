@@ -1,45 +1,144 @@
 {
-  "_id": 337,
-  "key": "dragon-claw",
-  "name": {
-    "english": "Dragon Claw",
-    "japanese": "ドラゴンクロー",
-    "chinese": "龙爪",
-    "korean": "드래곤크루",
-    "german": "Garra Dragón",
-    "french": "Drachenklaue",
-    "italian": "Dragon Claw",
-    "spanish": "Dragartigli"
-  },
-  "type": "Dragon",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Slashes the foe with sharp\nclaws.",
-    "emerald": "Slashes the foe with sharp\nclaws.",
-    "firered-leafgreen": "Sharp, huge claws\nhook and slash the\nfoe quickly and\nwith great power.",
-    "diamond-pearl": "The user slashes the\nfoe with huge, sharp\nclaws.\n\n",
-    "platinum": "The user slashes the\nfoe with huge, sharp\nclaws.\n\n",
-    "heartgold-soulsilver": "The user slashes the\nfoe with huge, sharp\nclaws.\n\n",
-    "black-white": "The user slashes the target with huge,\nsharp claws.",
-    "black-2-white-2": "The user slashes the target with huge,\nsharp claws.",
-    "x-y": "The user slashes the target with huge,\nsharp claws.",
-    "omega-ruby-alpha-sapphire": "The user slashes the target with huge,\nsharp claws.",
-    "sun-moon": "The user slashes the target with huge sharp claws.",
-    "ultra-sun-ultra-moon": "The user slashes the target with huge sharp claws.",
-    "lets-go-pikachu-lets-go-eevee": "The user slashes the target with huge sharp claws.",
-    "sword-shield": "The user slashes the target with huge sharp claws."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 337,
+    "key": "dragon-claw",
+    "name": {
+        "japanese-kana": "ドラゴンクロー",
+        "korean": "드래곤클로",
+        "traditional-chinese": "龍爪",
+        "french": "Draco-Griffe",
+        "german": "Drachenklaue",
+        "spanish": "Garra Dragón",
+        "italian": "Dragartigli",
+        "english": "Dragon Claw",
+        "japanese": "ドラゴンクロー",
+        "simplified-chinese": "龙爪",
+        "latin-american-spanish": "Garra Dragón"
+    },
+    "type": "dragon",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Slashes the foe with sharp claws.",
+            "em": "Slashes the foe with sharp claws.",
+            "frlg": "Sharp, huge claws hook and slash the foe quickly and with great power.",
+            "dp": "The user slashes the foe with huge, sharp claws.",
+            "pt": "The user slashes the foe with huge, sharp claws.",
+            "hgss": "The user slashes the foe with huge, sharp claws.",
+            "bw": "The user slashes the target with huge, sharp claws.",
+            "b2w2": "The user slashes the target with huge, sharp claws.",
+            "xy": "The user slashes the target with huge, sharp claws.",
+            "oras": "The user slashes the target with huge, sharp claws.",
+            "sm": "The user slashes the target with huge sharp claws.",
+            "usum": "The user slashes the target with huge sharp claws.",
+            "lgpe": "The user slashes the target with huge sharp claws.",
+            "swsh": "The user slashes the target with huge sharp claws.",
+            "la": "The user slashes the target with huge, sharp claws. This move has a heightened chance of landing a critical hit.",
+            "sv": "The user slashes the target with huge, sharp claws to inflict damage."
+        },
+        "french": {
+            "bw": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.",
+            "xy": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.",
+            "oras": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.",
+            "sm": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.",
+            "usum": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.",
+            "lgpe": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.",
+            "swsh": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées."
+        },
+        "japanese-kana": {
+            "xy": "するどく　とがった　きょだいな　ツメで あいてを　きりさいて　こうげきする。",
+            "oras": "するどく　とがった　きょだいな　ツメで あいてを　きりさいて　こうげきする。",
+            "sm": "するどく　とがった　きょだいな　ツメで あいてを　きりさいて　こうげきする。",
+            "usum": "するどく　とがった　きょだいな　ツメで あいてを　きりさいて　こうげきする。",
+            "lgpe": "するどく　とがった　きょだいな　ツメで あいてを　きりさいて　こうげきする。",
+            "swsh": "するどく　とがった　きょだいな　ツメで あいてを　きりさいて　こうげきする。"
+        },
+        "korean": {
+            "xy": "날카롭고 뾰족한 거대한 발톱으로 상대를 베어 갈라서 공격한다.",
+            "oras": "날카롭고 뾰족한 거대한 발톱으로 상대를 베어 갈라서 공격한다.",
+            "sm": "날카롭고 뾰족한 거대한 발톱으로 상대를 베어 갈라서 공격한다.",
+            "usum": "날카롭고 뾰족한 거대한 발톱으로 상대를 베어 갈라서 공격한다.",
+            "lgpe": "날카롭고 뾰족한 거대한 발톱으로 상대를 베어 갈라서 공격한다.",
+            "swsh": "날카롭고 뾰족한 거대한 발톱으로 상대를 베어 갈라서 공격한다."
+        },
+        "german": {
+            "xy": "Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.",
+            "oras": "Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.",
+            "sm": "Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.",
+            "usum": "Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.",
+            "lgpe": "Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.",
+            "swsh": "Der Anwender greift das Ziel mit riesigen, scharfen Klauen an."
+        },
+        "spanish": {
+            "xy": "Araña al objetivo con garras afiladas.",
+            "oras": "Araña al objetivo con garras afiladas.",
+            "sm": "Araña al objetivo con garras afiladas.",
+            "usum": "Araña al objetivo con garras afiladas.",
+            "lgpe": "Araña al objetivo con garras afiladas.",
+            "swsh": "Araña al objetivo con garras afiladas."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con artigli affilati che graffiano il bersaglio rapidamente e con grande forza.",
+            "oras": "Chi la usa attacca con artigli affilati che graffiano il bersaglio rapidamente e con grande forza.",
+            "sm": "Chi la usa attacca con artigli affilati che graffiano il bersaglio rapidamente e con grande forza.",
+            "usum": "Chi la usa attacca con artigli affilati che graffiano il bersaglio rapidamente e con grande forza.",
+            "lgpe": "Chi la usa attacca con artigli affilati che graffiano il bersaglio rapidamente e con grande forza.",
+            "swsh": "Chi la usa attacca con artigli affilati che graffiano il bersaglio rapidamente e con grande forza."
+        },
+        "japanese": {
+            "xy": "鋭く　とがった　巨大な　ツメで 相手を　切り裂いて　攻撃する。",
+            "oras": "鋭く　とがった　巨大な　ツメで 相手を　切り裂いて　攻撃する。",
+            "sm": "鋭く　とがった　巨大な　ツメで 相手を　切り裂いて　攻撃する。",
+            "usum": "鋭く　とがった　巨大な　ツメで 相手を　切り裂いて　攻撃する。",
+            "lgpe": "鋭く　とがった　巨大な　ツメで 相手を　切り裂いて　攻撃する。",
+            "swsh": "鋭く　とがった　巨大な　ツメで 相手を　切り裂いて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Araña al objetivo con garras afiladas.",
+            "oras": "Araña al objetivo con garras afiladas.",
+            "sm": "Araña al objetivo con garras afiladas.",
+            "usum": "Araña al objetivo con garras afiladas.",
+            "lgpe": "Araña al objetivo con garras afiladas.",
+            "swsh": "Araña al objetivo con garras afiladas."
+        },
+        "traditional-chinese": {
+            "sm": "用尖銳的巨爪 撕裂對手進行攻擊。",
+            "usum": "用尖銳的巨爪 撕裂對手進行攻擊。",
+            "lgpe": "用尖銳的巨爪 撕裂對手進行攻擊。",
+            "swsh": "用尖銳的巨爪 撕裂對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用尖锐的巨爪 劈开对手进行攻击。",
+            "usum": "用尖锐的巨爪 劈开对手进行攻击。",
+            "lgpe": "用尖锐的巨爪 劈开对手进行攻击。",
+            "swsh": "用尖锐的巨爪 劈开对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

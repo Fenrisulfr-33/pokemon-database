@@ -1,42 +1,141 @@
 {
-  "_id": 415,
-  "key": "switcheroo",
-  "name": {
-    "english": "Switcheroo",
-    "japanese": "すりかえ",
-    "chinese": "掉包",
-    "korean": "바꿔치기",
-    "german": "Trapicheo",
-    "french": "Wechseldich",
-    "italian": "Switcheroo",
-    "spanish": "Rapidscambio"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user trades held\nitems with the foe\nfaster than the eye\ncan follow.\n",
-    "platinum": "The user trades held\nitems with the foe\nfaster than the eye\ncan follow.\n",
-    "heartgold-soulsilver": "The user trades held\nitems with the foe\nfaster than the eye\ncan follow.\n",
-    "black-white": "The user trades held items with the target\nfaster than the eye can follow.",
-    "black-2-white-2": "The user trades held items with the target\nfaster than the eye can follow.",
-    "x-y": "The user trades held items with the target\nfaster than the eye can follow.",
-    "omega-ruby-alpha-sapphire": "The user trades held items with the target\nfaster than the eye can follow.",
-    "sun-moon": "The user trades held items with the target faster\nthan the eye can follow.",
-    "ultra-sun-ultra-moon": "The user trades held items with the target faster\nthan the eye can follow.",
-    "lets-go-pikachu-lets-go-eevee": "The user trades held items with the target faster\nthan the eye can follow.",
-    "sword-shield": "The user trades held items with the target faster\nthan the eye can follow."
-  },
-  "effect": {
-    "full": "User and target permanently swap held items.  Works even if one of the Pokémon isn't holding anything.  If either Pokémon is holding mail, this move will fail.\n\nIf either Pokémon has multitype or sticky hold, this move will fail.\n\nIf this move results in a Pokémon obtaining choice band, choice scarf, or choice specs, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn.\n\nNeither the user nor the target can recover its item with recycle.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "User and target swap items."
-  },
-  "priority": 0
+    "_id": 415,
+    "key": "switcheroo",
+    "name": {
+        "japanese-kana": "すりかえ",
+        "korean": "바꿔치기",
+        "traditional-chinese": "掉包",
+        "french": "Passe-Passe",
+        "german": "Wechseldich",
+        "spanish": "Trapicheo",
+        "italian": "Rapidscambio",
+        "english": "Switcheroo",
+        "japanese": "すりかえ",
+        "simplified-chinese": "掉包",
+        "latin-american-spanish": "Trueque"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "cool",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user trades held items with the foe faster than the eye can follow.",
+            "pt": "The user trades held items with the foe faster than the eye can follow.",
+            "hgss": "The user trades held items with the foe faster than the eye can follow.",
+            "bw": "The user trades held items with the target faster than the eye can follow.",
+            "b2w2": "The user trades held items with the target faster than the eye can follow.",
+            "xy": "The user trades held items with the target faster than the eye can follow.",
+            "oras": "The user trades held items with the target faster than the eye can follow.",
+            "sm": "The user trades held items with the target faster than the eye can follow.",
+            "usum": "The user trades held items with the target faster than the eye can follow.",
+            "lgpe": "The user trades held items with the target faster than the eye can follow.",
+            "swsh": "The user trades held items with the target faster than the eye can follow.",
+            "la": "The user trades held items with the target faster than the eye can follow.",
+            "sv": "The user trades held items with the target faster than the eye can follow."
+        },
+        "french": {
+            "bw": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.",
+            "xy": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.",
+            "oras": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.",
+            "sm": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.",
+            "usum": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.",
+            "lgpe": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.",
+            "swsh": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre."
+        },
+        "japanese-kana": {
+            "xy": "めにも　とまらぬ　はやさで じぶんと　あいての もちものを　こうかんする。",
+            "oras": "めにも　とまらぬ　はやさで じぶんと　あいての もちものを　こうかんする。",
+            "sm": "めにも　とまらぬ　はやさで じぶんと　あいての もちものを　こうかんする。",
+            "usum": "めにも　とまらぬ　はやさで じぶんと　あいての もちものを　こうかんする。",
+            "lgpe": "めにも　とまらぬ　はやさで じぶんと　あいての もちものを　こうかんする。",
+            "swsh": "めにも　とまらぬ　はやさで じぶんと　あいての もちものを　こうかんする。"
+        },
+        "korean": {
+            "xy": "눈에 보이지 않는 속도로 자신과 상대가 지닌 물건을 교환한다.",
+            "oras": "눈에 보이지 않는 속도로 자신과 상대가 지닌 물건을 교환한다.",
+            "sm": "눈에 보이지 않는 속도로 자신과 상대가 지닌 물건을 교환한다.",
+            "usum": "눈에 보이지 않는 속도로 자신과 상대가 지닌 물건을 교환한다.",
+            "lgpe": "눈에 보이지 않는 속도로 자신과 상대가 지닌 물건을 교환한다.",
+            "swsh": "눈에 보이지 않는 속도로 자신과 상대가 지닌 물건을 교환한다."
+        },
+        "german": {
+            "xy": "Item wird in Windeseile mit dem Ziel getauscht.",
+            "oras": "Item wird in Windeseile mit dem Ziel getauscht.",
+            "sm": "Item wird in Windeseile mit dem Ziel getauscht.",
+            "usum": "Item wird in Windeseile mit dem Ziel getauscht.",
+            "lgpe": "Item wird in Windeseile mit dem Ziel getauscht.",
+            "swsh": "Anwender tauscht in Windeseile sein getragenes Item mit dem des Zieles."
+        },
+        "spanish": {
+            "xy": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "oras": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "sm": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "usum": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "lgpe": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "swsh": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista."
+        },
+        "italian": {
+            "xy": "Chi la usa scambia lo strumento che ha con quello del bersaglio a una velocità impressionante.",
+            "oras": "Chi la usa scambia lo strumento che ha con quello del bersaglio a una velocità impressionante.",
+            "sm": "Chi la usa scambia lo strumento che ha con quello del bersaglio a una velocità impressionante.",
+            "usum": "Chi la usa scambia lo strumento che ha con quello del bersaglio a una velocità impressionante.",
+            "lgpe": "Chi la usa scambia lo strumento che ha con quello del bersaglio a una velocità impressionante.",
+            "swsh": "Chi la usa scambia lo strumento che ha con quello del bersaglio a una velocità impressionante."
+        },
+        "japanese": {
+            "xy": "目にも　とまらぬ　速さで 自分と　相手の 持ち物を　交換する。",
+            "oras": "目にも　とまらぬ　速さで 自分と　相手の 持ち物を　交換する。",
+            "sm": "目にも　とまらぬ　速さで 自分と　相手の 持ち物を　交換する。",
+            "usum": "目にも　とまらぬ　速さで 自分と　相手の 持ち物を　交換する。",
+            "lgpe": "目にも　とまらぬ　速さで 自分と　相手の 持ち物を　交換する。",
+            "swsh": "目にも　とまらぬ　速さで 自分と　相手の 持ち物を　交換する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "oras": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "sm": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "usum": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "lgpe": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+            "swsh": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista."
+        },
+        "traditional-chinese": {
+            "sm": "以肉眼看不清的速度 將自己和對手的持有物互相交換。",
+            "usum": "以肉眼看不清的速度 將自己和對手的持有物互相交換。",
+            "lgpe": "以肉眼看不清的速度 將自己和對手的持有物互相交換。",
+            "swsh": "以肉眼看不清的速度 將自己和對手的持有物互相交換。"
+        },
+        "simplified-chinese": {
+            "sm": "用一闪而过的速度 交换自己和对手的持有物。",
+            "usum": "用一闪而过的速度 交换自己和对手的持有物。",
+            "lgpe": "用一闪而过的速度 交换自己和对手的持有物。",
+            "swsh": "用一闪而过的速度 交换自己和对手的持有物。"
+        }
+    },
+    "effect": {
+        "full": "User and target permanently swap held items.  Works even if one of the Pokémon isn’t holding anything.  If either Pokémon is holding mail, this move will fail. If either Pokémon has Multitype or Sticky Hold, this move will fail. If this move results in a Pokémon obtaining Choice Band, Choice Scarf, or Choice Specs, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn. Neither the user nor the target can recover its item with Recycle. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "User and target swap items."
+    }
 }

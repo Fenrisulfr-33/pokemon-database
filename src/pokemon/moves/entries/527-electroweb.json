@@ -1,39 +1,138 @@
 {
-  "_id": 527,
-  "key": "electroweb",
-  "name": {
-    "english": "Electroweb",
-    "japanese": "エレキネット",
-    "chinese": "电网",
-    "korean": "일렉트릭네트",
-    "german": "Electrotela",
-    "french": "Elektronetz",
-    "italian": "Electroweb",
-    "spanish": "Elettrotela"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 55,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 5,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "black-white": "The user captures and attacks opposing\nPokémon by using an electric net. It\nreduces the targets’ Speed stat.",
-    "black-2-white-2": "The user captures and attacks opposing\nPokémon by using an electric net. It\nreduces the targets’ Speed stat.",
-    "x-y": "The user attacks and captures opposing\nPokémon using an electric net.\nThis lowers their Speed stat.",
-    "omega-ruby-alpha-sapphire": "The user attacks and captures opposing\nPokémon using an electric net.\nThis lowers their Speed stat.",
-    "sun-moon": "The user attacks and captures opposing Pokémon\nusing an electric net. This lowers their Speed stat.",
-    "ultra-sun-ultra-moon": "The user attacks and captures opposing Pokémon\nusing an electric net. This lowers their Speed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks and captures opposing Pokémon\nusing an electric net. This lowers their Speed stat.",
-    "sword-shield": "The user attacks and captures opposing Pokémon\nusing an electric net. This lowers their Speed stats."
-  },
-  "effect": {
-    "full": "Lowers the target's Speed by one stage.",
-    "shortEffect": "Lowers the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 527,
+    "key": "electroweb",
+    "name": {
+        "japanese-kana": "エレキネット",
+        "korean": "일렉트릭네트",
+        "traditional-chinese": "電網",
+        "french": "Toile Élek",
+        "german": "Elektronetz",
+        "spanish": "Electrotela",
+        "italian": "Elettrotela",
+        "english": "Electroweb",
+        "japanese": "エレキネット",
+        "simplified-chinese": "电网",
+        "latin-american-spanish": "Electrotela"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 55,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.",
+            "xy": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.",
+            "oras": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.",
+            "sm": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.",
+            "usum": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.",
+            "lgpe": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.",
+            "swsh": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi."
+        },
+        "english": {
+            "bw": "The user captures and attacks opposing Pokémon by using an electric net. It reduces the targets’ Speed stat.",
+            "b2w2": "The user captures and attacks opposing Pokémon by using an electric net. It reduces the targets’ Speed stat.",
+            "xy": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.",
+            "oras": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.",
+            "sm": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.",
+            "usum": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.",
+            "lgpe": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.",
+            "swsh": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stats.",
+            "la": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stats.",
+            "sv": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats."
+        },
+        "japanese-kana": {
+            "xy": "でんきの　ネットで あいてを　つかまえて　こうげきする。 あいての　すばやさを　さげる。",
+            "oras": "でんきの　ネットで あいてを　つかまえて　こうげきする。 あいての　すばやさを　さげる。",
+            "sm": "でんきの　ネットで あいてを　つかまえて　こうげきする。 あいての　すばやさを　さげる。",
+            "usum": "でんきの　ネットで あいてを　つかまえて　こうげきする。 あいての　すばやさを　さげる。",
+            "lgpe": "でんきの　ネットで あいてを　つかまえて　こうげきする。 あいての　すばやさを　さげる。",
+            "swsh": "でんきの　ネットで あいてを　つかまえて　こうげきする。 あいての　すばやさを　さげる。"
+        },
+        "korean": {
+            "xy": "전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "oras": "전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "sm": "전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "usum": "전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "lgpe": "전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "swsh": "전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.",
+            "oras": "Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.",
+            "sm": "Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.",
+            "usum": "Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.",
+            "lgpe": "Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.",
+            "swsh": "Fängt gegnerische Pokémon mit einem elektrischen Netz und senkt deren Initiative."
+        },
+        "spanish": {
+            "xy": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "oras": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "sm": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "usum": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "lgpe": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "swsh": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca i nemici intorno a sé catturandoli con una ragnatela elettrica e riducendone la Velocità.",
+            "oras": "Chi la usa attacca i nemici intorno a sé catturandoli con una ragnatela elettrica e riducendone la Velocità.",
+            "sm": "Chi la usa attacca i nemici intorno a sé catturandoli con una ragnatela elettrica e riducendone la Velocità.",
+            "usum": "Chi la usa attacca i nemici intorno a sé catturandoli con una ragnatela elettrica e riducendone la Velocità.",
+            "lgpe": "Chi la usa attacca i nemici intorno a sé catturandoli con una ragnatela elettrica e riducendone la Velocità.",
+            "swsh": "Chi la usa attacca i nemici intorno a sé catturandoli con una ragnatela elettrica e riducendone la Velocità."
+        },
+        "japanese": {
+            "xy": "電気の　ネットで 相手を　捕まえて　攻撃する。 相手の　素早さを　さげる。",
+            "oras": "電気の　ネットで 相手を　捕まえて　攻撃する。 相手の　素早さを　さげる。",
+            "sm": "電気の　ネットで 相手を　捕まえて　攻撃する。 相手の　素早さを　さげる。",
+            "usum": "電気の　ネットで 相手を　捕まえて　攻撃する。 相手の　素早さを　さげる。",
+            "lgpe": "電気の　ネットで 相手を　捕まえて　攻撃する。 相手の　素早さを　さげる。",
+            "swsh": "電気の　ネットで 相手を　捕まえて　攻撃する。 相手の　素早さを　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "oras": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "sm": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "usum": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "lgpe": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+            "swsh": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "用電網捉住對手進行攻擊。 可降低對手的速度。",
+            "usum": "用電網捉住對手進行攻擊。 可降低對手的速度。",
+            "lgpe": "用電網捉住對手進行攻擊。 可降低對手的速度。",
+            "swsh": "用電網捉住對手進行攻擊。 可降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "用电网捉住对手进行攻击。 降低对手的速度。",
+            "usum": "用电网捉住对手进行攻击。 降低对手的速度。",
+            "lgpe": "用电网捉住对手进行攻击。 降低对手的速度。",
+            "swsh": "用电网捉住对手进行攻击。 降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Speed by one stage.",
+        "shortEffect": "Lowers the target’s Speed by one stage."
+    }
 }

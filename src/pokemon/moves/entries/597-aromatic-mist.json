@@ -1,37 +1,135 @@
 {
-  "_id": 597,
-  "key": "aromatic-mist",
-  "name": {
-    "english": "Aromatic Mist",
-    "japanese": "アロマミスト",
-    "chinese": "芳香薄霧",
-    "korean": "아로마미스트",
-    "german": "Niebla Aromática",
-    "french": "Duftwolke",
-    "italian": "Aromatic Mist",
-    "spanish": "Nebularoma"
-  },
-  "type": "Fairy",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 6,
-  "target": "ally",
-  "changes": [],
-  "description": {
-    "x-y": "The user raises the Sp. Def stat of an ally\nPokémon by using a mysterious aroma.",
-    "omega-ruby-alpha-sapphire": "The user raises the Sp. Def stat of an ally\nPokémon by using a mysterious aroma.",
-    "sun-moon": "The user raises the Sp. Def stat of an ally Pokémon\nby using a mysterious aroma.",
-    "ultra-sun-ultra-moon": "The user raises the Sp. Def stat of an ally Pokémon\nby using a mysterious aroma.",
-    "lets-go-pikachu-lets-go-eevee": "The user raises the Sp. Def stat of an ally Pokémon\nby using a mysterious aroma.",
-    "sword-shield": "The user raises the Sp. Def stat of an ally Pokémon\nby using a mysterious aroma."
-  },
-  "effect": {
-    "full": "Raises a selected ally's Special Defense by one stage.",
-    "shortEffect": "Raises a selected ally's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 597,
+    "key": "aromatic-mist",
+    "name": {
+        "japanese-kana": "アロマミスト",
+        "korean": "아로마미스트",
+        "traditional-chinese": "芳香薄霧",
+        "french": "Brume Capiteuse",
+        "german": "Duftwolke",
+        "spanish": "Niebla Aromática",
+        "italian": "Nebularoma",
+        "english": "Aromatic Mist",
+        "japanese": "アロマミスト",
+        "simplified-chinese": "芳香薄雾",
+        "latin-american-spanish": "Niebla Aromática"
+    },
+    "type": "fairy",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "ally",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ふしぎな　アロマの　かおりによって みかたの　とくぼうを　あげる。",
+            "oras": "ふしぎな　アロマの　かおりによって  かたの　とくぼうを　あげる。",
+            "sm": "ふしぎな　アロマの　かおりによって みかたの　とくぼうを　あげる。",
+            "usum": "ふしぎな　アロマの　かおりによって みかたの　とくぼうを　あげる。",
+            "lgpe": "ふしぎな　アロマの　かおりによって みかたの　とくぼうを　あげる。",
+            "swsh": "ふしぎな　アロマの　かおりによって みかたの　とくぼうを　あげる。"
+        },
+        "korean": {
+            "xy": "신비한 아로마 향으로 같은 편의 특수방어를 올린다.",
+            "oras": "신비한 아로마 향으로 같은 편의 특수방어를 올린다.",
+            "sm": "신비한 아로마 향으로 같은 편의 특수방어를 올린다.",
+            "usum": "신비한 아로마 향으로 같은 편의 특수방어를 올린다.",
+            "lgpe": "신비한 아로마 향으로 같은 편의 특수방어를 올린다.",
+            "swsh": "신비한 아로마 향으로 같은 편의 특수방어를 올린다."
+        },
+        "french": {
+            "xy": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié.",
+            "oras": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié.",
+            "sm": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié.",
+            "usum": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié.",
+            "lgpe": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié.",
+            "swsh": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié."
+        },
+        "german": {
+            "xy": "Der Anwender erhöht mithilfe eines mysteriösen Duftes die Spezial-Verteidigung eines Mitstreiters.",
+            "oras": "Der Anwender erhöht mithilfe eines mysteriösen Duftes die Spezial-Verteidigung eines Mitstreiters.",
+            "sm": "Der Anwender erhöht mithilfe eines mysteriösen Duftes die Spezial-Verteidigung eines Mitstreiters.",
+            "usum": "Der Anwender erhöht mithilfe eines mysteriösen Duftes die Spezial-Verteidigung eines Mitstreiters.",
+            "lgpe": "Der Anwender erhöht mithilfe eines mysteriösen Duftes die Spezial-Verteidigung eines Mitstreiters.",
+            "swsh": "Der Anwender erhöht mithilfe eines mysteriösen Duftes die Spezial-Verteidigung eines Mitstreiters."
+        },
+        "spanish": {
+            "xy": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "oras": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "sm": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "usum": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "lgpe": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "swsh": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa."
+        },
+        "italian": {
+            "xy": "Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.",
+            "oras": "Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.",
+            "sm": "Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.",
+            "usum": "Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.",
+            "lgpe": "Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.",
+            "swsh": "Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma."
+        },
+        "english": {
+            "xy": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+            "oras": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+            "sm": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+            "usum": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+            "lgpe": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+            "swsh": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+            "la": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+            "sv": "The user boosts the Sp. Def stat of an ally Pokémon by using a mysterious aroma."
+        },
+        "japanese": {
+            "xy": "不思議な　アロマの　香りによって 味方の　特防を　あげる。",
+            "oras": "不思議な　アロマの　香りによって 味方の　特防を　あげる。",
+            "sm": "不思議な　アロマの　香りによって 味方の　特防を　あげる。",
+            "usum": "不思議な　アロマの　香りによって 味方の　特防を　あげる。",
+            "lgpe": "不思議な　アロマの　香りによって 味方の　特防を　あげる。",
+            "swsh": "不思議な　アロマの　香りによって 味方の　特防を　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "oras": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "sm": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "usum": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "lgpe": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+            "swsh": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa."
+        },
+        "traditional-chinese": {
+            "sm": "利用神奇的芳香， 提高我方寶可夢的特防。",
+            "usum": "利用神奇的芳香， 提高我方寶可夢的特防。",
+            "lgpe": "利用神奇的芳香， 提高我方寶可夢的特防。",
+            "swsh": "利用神奇的芳香， 提高我方寶可夢的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "通过神奇的芳香， 提高我方宝可梦的特防。",
+            "usum": "通过神奇的芳香， 提高我方宝可梦的特防。",
+            "lgpe": "通过神奇的芳香， 提高我方宝可梦的特防。",
+            "swsh": "通过神奇的芳香， 提高我方宝可梦的特防。"
+        }
+    },
+    "effect": {
+        "full": "Raises a selected ally’s Special Defense by one stage.",
+        "shortEffect": "Raises a selected ally’s Special Defense by one stage."
+    }
 }

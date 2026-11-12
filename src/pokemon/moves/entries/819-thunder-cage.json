@@ -1,32 +1,84 @@
 {
-  "_id": 819,
-  "key": "thunder-cage",
-  "name": {
-    "english": "Thunder Cage",
-    "japanese": "サンダープリズン",
-    "chinese": "雷電囚籠",
-    "korean": "썬더프리즌",
-    "german": "Electrojaula",
-    "french": "Blitzgefängnis",
-    "italian": "Thunder Cage",
-    "spanish": "Elettrogabbia"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 80,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user traps the target in a cage of sparking\nelectricity for four to five turns."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 819,
+    "key": "thunder-cage",
+    "name": {
+        "japanese-kana": "サンダープリズン",
+        "korean": "썬더프리즌",
+        "traditional-chinese": "雷電囚籠",
+        "french": "Voltageôle",
+        "german": "Blitzgefängnis",
+        "spanish": "Electrojaula",
+        "italian": "Elettrogabbia",
+        "english": "Thunder Cage",
+        "japanese": "サンダープリズン",
+        "simplified-chinese": "雷电囚笼",
+        "latin-american-spanish": "Electrojaula"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 80,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 5,
+        "maxTurns": 6,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "ほとばしる　でんきの　おりの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。"
+        },
+        "korean": {
+            "swsh": "전기가 흐르는 우리 안에 4-5턴 동안 상대를 가두어 공격한다."
+        },
+        "traditional-chinese": {
+            "swsh": "將對手困在 電流奔竄的電牢中， 在４～５回合內進行攻擊。"
+        },
+        "french": {
+            "swsh": "Le lanceur frappe l’ennemi, et le piège dans une prison électrique qui dure de quatre à cinq tours."
+        },
+        "german": {
+            "swsh": "Das Ziel wird für vier bis fünf Runden in einem elektrischen Käfig gefangen."
+        },
+        "spanish": {
+            "swsh": "El objetivo queda atrapado en una jaula electrificada que permanece en el terreno de cuatro a cinco turnos."
+        },
+        "italian": {
+            "swsh": "Il Pokémon attacca il bersaglio imprigionandolo in una gabbia di elettricità, che sprigiona corrente per quattro o cinque turni."
+        },
+        "english": {
+            "swsh": "The user traps the target in a cage of sparking electricity for four to five turns.",
+            "la": "The user traps the target in a cage of sparking electricity for four to five turns.",
+            "sv": "The user traps the target inside a cage of sparking electricity that inflicts damage for four to five turns."
+        },
+        "japanese": {
+            "swsh": "ほとばしる　電気の　おりの　中に ４ー５ターンの　間 相手を　閉じこめて　攻撃する。"
+        },
+        "simplified-chinese": {
+            "swsh": "将对手困在 电流四溅的囚笼中， 在４～５回合内进行攻击。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El objetivo queda atrapado en una jaula electrificada que permanece en el terreno de cuatro a cinco turnos."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

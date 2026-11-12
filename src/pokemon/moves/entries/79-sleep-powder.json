@@ -1,47 +1,146 @@
 {
-  "_id": 79,
-  "key": "sleep-powder",
-  "name": {
-    "english": "Sleep Powder",
-    "japanese": "ねむりごな",
-    "chinese": "睡眠粉",
-    "korean": "수면가루",
-    "german": "Somnífero",
-    "french": "Schlafpuder",
-    "italian": "Sleep Powder",
-    "spanish": "Sonnifero"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 15,
-  "power": null,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "May cause the foe\nto fall asleep.",
-    "crystal": "May cause the foe\nto fall asleep.",
-    "ruby-sapphire": "Scatters a powder that may\ncause the foe to sleep.",
-    "emerald": "Scatters a powder that may\ncause the foe to sleep.",
-    "firered-leafgreen": "A sleep-inducing\ndust is scattered\nin high volume\naround a foe.",
-    "diamond-pearl": "The user scatters a\nbig cloud of sleep-\ninducing dust around\nthe foe.\n",
-    "platinum": "The user scatters a\nbig cloud of sleep-\ninducing dust around\nthe foe.\n",
-    "heartgold-soulsilver": "The user scatters a\nbig cloud of sleep-\ninducing dust around\nthe foe.\n",
-    "black-white": "The user scatters a big cloud\nof sleep-inducing dust\naround the target.",
-    "black-2-white-2": "The user scatters a big cloud\nof sleep-inducing dust\naround the target.",
-    "x-y": "The user scatters a big cloud\nof sleep-inducing dust\naround the target.",
-    "omega-ruby-alpha-sapphire": "The user scatters a big cloud\nof sleep-inducing dust\naround the target.",
-    "sun-moon": "The user scatters a big cloud of sleep-inducing dust\naround the target.",
-    "ultra-sun-ultra-moon": "The user scatters a big cloud of sleep-inducing dust\naround the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user scatters a big cloud of sleep-inducing dust\naround the target.",
-    "sword-shield": "The user scatters a big cloud of sleep-inducing dust\naround the target."
-  },
-  "effect": {
-    "full": "Puts the target to sleep.",
-    "shortEffect": "Puts the target to sleep."
-  },
-  "priority": 0
+    "_id": 79,
+    "key": "sleep-powder",
+    "name": {
+        "japanese-kana": "ねむりごな",
+        "korean": "수면가루",
+        "traditional-chinese": "催眠粉",
+        "french": "Poudre Dodo",
+        "german": "Schlafpuder",
+        "spanish": "Somnífero",
+        "italian": "Sonnifero",
+        "english": "Sleep Powder",
+        "japanese": "ねむりごな",
+        "simplified-chinese": "催眠粉",
+        "latin-american-spanish": "Somnífero"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": "smart",
+    "pp": 15,
+    "power": null,
+    "accuracy": 75,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "sleep",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "May cause the foe to fall asleep.",
+            "cr": "May cause the foe to fall asleep.",
+            "rs": "Scatters a powder that may cause the foe to sleep.",
+            "em": "Scatters a powder that may cause the foe to sleep.",
+            "frlg": "A sleep-inducing dust is scattered in high volume around a foe.",
+            "dp": "The user scatters a big cloud of sleep- inducing dust around the foe.",
+            "pt": "The user scatters a big cloud of sleep- inducing dust around the foe.",
+            "hgss": "The user scatters a big cloud of sleep- inducing dust around the foe.",
+            "bw": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "b2w2": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "xy": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "oras": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "sm": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "usum": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "lgpe": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "swsh": "The user scatters a big cloud of sleep-inducing dust around the target.",
+            "la": "The user scatters a cloud of sleep-inducing powder that makes the target drowsy.",
+            "sv": "The user scatters a cloud of soporific dust that puts the target to sleep."
+        },
+        "french": {
+            "bw": "Le lanceur répand une poudre soporifique qui endort la cible.",
+            "xy": "Le lanceur répand une poudre soporifique qui endort la cible.",
+            "oras": "Le lanceur répand une poudre soporifique qui endort la cible.",
+            "sm": "Le lanceur répand une poudre soporifique qui endort la cible.",
+            "usum": "Le lanceur répand une poudre soporifique qui endort la cible.",
+            "lgpe": "Le lanceur répand une poudre soporifique qui endort la cible.",
+            "swsh": "Le lanceur répand une poudre soporifique qui endort la cible."
+        },
+        "japanese-kana": {
+            "xy": "ねむくなる　こなを たくさん　ふりまいて あいてを　ねむり　じょうたいに　する。",
+            "oras": "ねむくなる　こなを たくさん　ふりまいて あいてを　ねむり　じょうたいに　する。",
+            "sm": "ねむくなる　こなを たくさん　ふりまいて あいてを　ねむり　じょうたいに　する。",
+            "usum": "ねむくなる　こなを たくさん　ふりまいて あいてを　ねむり　じょうたいに　する。",
+            "lgpe": "ねむくなる　こなを たくさん　ふりまいて あいてを　ねむり　じょうたいに　する。",
+            "swsh": "ねむくなる　こなを たくさん　ふりまいて あいてを　ねむり　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.",
+            "oras": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.",
+            "sm": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.",
+            "usum": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.",
+            "lgpe": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.",
+            "swsh": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다."
+        },
+        "german": {
+            "xy": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt.",
+            "oras": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt.",
+            "sm": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt.",
+            "usum": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt.",
+            "lgpe": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt.",
+            "swsh": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt."
+        },
+        "spanish": {
+            "xy": "Esparce polvo que duerme al objetivo.",
+            "oras": "Esparce polvo que duerme al objetivo.",
+            "sm": "Esparce polvo que duerme al objetivo.",
+            "usum": "Esparce polvo que duerme al objetivo.",
+            "lgpe": "Esparce polvo que duerme al objetivo.",
+            "swsh": "Esparce polvo que duerme al objetivo."
+        },
+        "italian": {
+            "xy": "Investe il bersaglio con una grande nuvola di polvere soporifera che lo fa addormentare.",
+            "oras": "Investe il bersaglio con una grande nuvola di polvere soporifera che lo fa addormentare.",
+            "sm": "Investe il bersaglio con una grande nuvola di polvere soporifera che lo fa addormentare.",
+            "usum": "Investe il bersaglio con una grande nuvola di polvere soporifera che lo fa addormentare.",
+            "lgpe": "Investe il bersaglio con una grande nuvola di polvere soporifera che lo fa addormentare.",
+            "swsh": "Investe il bersaglio con una grande nuvola di polvere soporifera che lo fa addormentare."
+        },
+        "japanese": {
+            "xy": "眠くなる　粉を たくさん　ふりまいて 相手を　眠り状態に　する。",
+            "oras": "眠くなる　粉を たくさん　ふりまいて 相手を　眠り状態に　する。",
+            "sm": "眠くなる　粉を たくさん　ふりまいて 相手を　眠り状態に　する。",
+            "usum": "眠くなる　粉を たくさん　ふりまいて 相手を　眠り状態に　する。",
+            "lgpe": "眠くなる　粉を たくさん　ふりまいて 相手を　眠り状態に　する。",
+            "swsh": "眠くなる　粉を たくさん　ふりまいて 相手を　眠り状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Esparce polvo que duerme al objetivo.",
+            "oras": "Esparce polvo que duerme al objetivo.",
+            "sm": "Esparce polvo que duerme al objetivo.",
+            "usum": "Esparce polvo que duerme al objetivo.",
+            "lgpe": "Esparce polvo que duerme al objetivo.",
+            "swsh": "Esparce polvo que duerme al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "撒出大量令人想睡的粉末， 讓對手陷入睡眠狀態。",
+            "usum": "撒出大量令人想睡的粉末， 讓對手陷入睡眠狀態。",
+            "lgpe": "撒出大量令人想睡的粉末， 讓對手陷入睡眠狀態。",
+            "swsh": "撒出大量令人想睡的粉末， 讓對手陷入睡眠狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "撒出催眠粉， 从而让对手陷入睡眠状态。",
+            "usum": "撒出催眠粉， 从而让对手陷入睡眠状态。",
+            "lgpe": "撒出催眠粉， 从而让对手陷入睡眠状态。",
+            "swsh": "撒出催眠粉， 从而让对手陷入睡眠状态。"
+        }
+    },
+    "effect": {
+        "full": "Puts the target to sleep.",
+        "shortEffect": "Puts the target to sleep."
+    }
 }

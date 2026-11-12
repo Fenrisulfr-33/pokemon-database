@@ -4,7 +4,26 @@
     "title": "Pokemon Move",
     "description": "Schema for Pokemon move data validation",
     "type": "object",
-    "required": ["_id", "key", "name", "type", "category", "generation"],
+    "required": [
+        "_id",
+        "key",
+        "name",
+        "type",
+        "category",
+        "contest",
+        "pp",
+        "power",
+        "accuracy",
+        "contact",
+        "generation",
+        "priority",
+        "target",
+        "meta",
+        "changes",
+        "effectChanges",
+        "flavorText",
+        "effect"
+    ],
     "properties": {
         "_id": {
             "type": "integer",
@@ -13,53 +32,108 @@
         },
         "key": {
             "type": "string",
-            "pattern": "^[a-z0-9-,]+$",
+            "pattern": "^[a-z0-9-]+$",
             "description": "URL-safe key identifier"
         },
         "name": {
             "type": "object",
             "required": ["english"],
-            "properties": {
-                "english": { "type": "string", "minLength": 1 },
-                "japanese": { "type": "string" },
-                "chinese": { "type": "string" },
-                "korean": { "type": "string" },
-                "german": { "type": "string" },
-                "french": { "type": "string" },
-                "italian": { "type": "string" },
-                "spanish": { "type": "string" }
-            }
+            "description": "Move name keyed by language (pokeApi/pokeApiFormat.js)",
+            "propertyNames": { "pattern": "^[a-z0-9-]+$" },
+            "additionalProperties": { "type": "string", "minLength": 1 }
         },
-        "type": {
-            "type": "string",
-            "enum": [
-                "Normal",
-                "Fire",
-                "Water",
-                "Electric",
-                "Grass",
-                "Ice",
-                "Fighting",
-                "Poison",
-                "Ground",
-                "Flying",
-                "Psychic",
-                "Bug",
-                "Rock",
-                "Ghost",
-                "Dragon",
-                "Dark",
-                "Steel",
-                "Fairy"
-            ]
-        },
+        "type": { "$ref": "#/definitions/type" },
         "category": {
             "type": "string",
-            "enum": ["Physical", "Special", "Status"]
+            "enum": ["physical", "special", "status"]
         },
         "contest": {
             "type": ["string", "null"],
-            "enum": ["Cool", "Beautiful", "Cute", "Clever", "Tough", null]
+            "enum": ["cool", "beauty", "cute", "smart", "tough", null]
+        },
+        "pp": { "$ref": "#/definitions/pp" },
+        "power": { "$ref": "#/definitions/power" },
+        "accuracy": { "$ref": "#/definitions/accuracy" },
+        "contact": {
+            "type": "boolean",
+            "description": "true for the moves listed in moves/CONTACT.md"
+        },
+        "generation": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9
+        },
+        "priority": {
+            "type": "integer",
+            "minimum": -7,
+            "maximum": 5
+        },
+        "target": {
+            "type": "string",
+            "enum": [
+                "specific-move",
+                "selected-pokemon-me-first",
+                "ally",
+                "users-field",
+                "user-or-ally",
+                "opponents-field",
+                "user",
+                "random-opponent",
+                "all-other-pokemon",
+                "selected-pokemon",
+                "all-opponents",
+                "entire-field",
+                "user-and-allies",
+                "all-pokemon",
+                "all-allies",
+                "fainting-pokemon"
+            ]
+        },
+        "meta": {
+            "oneOf": [{ "$ref": "#/definitions/meta" }, { "type": "null" }],
+            "description": "PokeAPI meta; null when PokeAPI has none"
+        },
+        "changes": {
+            "type": "object",
+            "description": "Values the move had before each game key",
+            "additionalProperties": false,
+            "patternProperties": {
+                "^[a-z0-9-]+$": { "$ref": "#/definitions/change" }
+            }
+        },
+        "effectChanges": {
+            "$ref": "#/definitions/textByLanguageAndGame",
+            "description": "Older effect text, keyed by language, then game key (constants/GAME_KEYS.js)"
+        },
+        "flavorText": {
+            "$ref": "#/definitions/textByLanguageAndGame",
+            "description": "In-game move text, keyed by language, then game key (constants/GAME_KEYS.js)"
+        },
+        "effect": { "$ref": "#/definitions/effect" }
+    },
+    "definitions": {
+        "type": {
+            "type": "string",
+            "enum": [
+                "normal",
+                "fire",
+                "water",
+                "electric",
+                "grass",
+                "ice",
+                "fighting",
+                "poison",
+                "ground",
+                "flying",
+                "psychic",
+                "bug",
+                "rock",
+                "ghost",
+                "dragon",
+                "dark",
+                "steel",
+                "fairy"
+            ]
         },
         "pp": {
             "type": "integer",
@@ -76,57 +150,118 @@
             "minimum": 0,
             "maximum": 100
         },
-        "contact": {
-            "type": ["boolean", "null"]
-        },
-        "generation": {
+        "percent": {
             "type": "integer",
-            "minimum": 1,
-            "maximum": 9
+            "minimum": 0,
+            "maximum": 100
         },
-        "target": {
-            "type": "string",
-            "enum": [
-                "selected-pokemon",
-                "all-opponents",
-                "user",
-                "random-opponent",
-                "all-other-pokemon",
-                "entire-field",
-                "user-and-allies",
-                "all-pokemon",
-                "user-or-ally",
-                "ally",
-                "all-allies",
-                "opponents-field"
-            ]
-        },
-        "changes": {
-            "type": "array",
-            "items": {
-                "type": "object"
-            }
-        },
-        "description": {
-            "type": "object",
-            "patternProperties": {
-                "^[a-z0-9-]+$": {
-                    "type": "string"
-                }
-            }
+        "nullableCount": {
+            "type": ["integer", "null"],
+            "minimum": 1
         },
         "effect": {
             "type": "object",
             "required": ["full", "shortEffect"],
+            "additionalProperties": false,
             "properties": {
                 "full": { "type": "string" },
                 "shortEffect": { "type": "string" }
             }
         },
-        "priority": {
-            "type": "integer",
-            "minimum": -7,
-            "maximum": 5
+        "meta": {
+            "type": "object",
+            "required": [
+                "category",
+                "ailment",
+                "minHits",
+                "maxHits",
+                "minTurns",
+                "maxTurns",
+                "drain",
+                "healing",
+                "critRate",
+                "ailmentChance",
+                "flinchChance",
+                "statChance"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "category": {
+                    "type": "string",
+                    "enum": [
+                        "damage",
+                        "ailment",
+                        "net-good-stats",
+                        "heal",
+                        "damage-ailment",
+                        "swagger",
+                        "damage-lower",
+                        "damage-raise",
+                        "damage-heal",
+                        "ohko",
+                        "whole-field-effect",
+                        "field-effect",
+                        "force-switch",
+                        "unique"
+                    ]
+                },
+                "ailment": {
+                    "type": "string",
+                    "pattern": "^[a-z-]+$"
+                },
+                "minHits": { "$ref": "#/definitions/nullableCount" },
+                "maxHits": { "$ref": "#/definitions/nullableCount" },
+                "minTurns": { "$ref": "#/definitions/nullableCount" },
+                "maxTurns": { "$ref": "#/definitions/nullableCount" },
+                "drain": {
+                    "type": "integer",
+                    "minimum": -100,
+                    "maximum": 100,
+                    "description": "% of damage dealt; negative is recoil"
+                },
+                "healing": {
+                    "type": "integer",
+                    "minimum": -100,
+                    "maximum": 100,
+                    "description": "% of max HP; negative is HP lost"
+                },
+                "critRate": { "type": "integer", "minimum": 0 },
+                "ailmentChance": { "$ref": "#/definitions/percent" },
+                "flinchChance": { "$ref": "#/definitions/percent" },
+                "statChance": { "$ref": "#/definitions/percent" }
+            }
+        },
+        "change": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": false,
+            "properties": {
+                "accuracy": { "$ref": "#/definitions/accuracy" },
+                "power": { "$ref": "#/definitions/power" },
+                "pp": { "$ref": "#/definitions/pp" },
+                "effectChance": { "$ref": "#/definitions/percent" },
+                "type": {
+                    "anyOf": [
+                        { "$ref": "#/definitions/type" },
+                        { "const": "unknown" }
+                    ],
+                    "description": "unknown is the ??? type (Curse before bw)"
+                },
+                "effect": { "$ref": "#/definitions/effect" }
+            }
+        },
+        "textByLanguageAndGame": {
+            "type": "object",
+            "additionalProperties": false,
+            "patternProperties": {
+                "^[a-z0-9-]+$": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "patternProperties": {
+                        "^[a-z0-9-]+$": { "type": "string", "minLength": 1 }
+                    }
+                }
+            }
         }
     },
     "additionalProperties": false

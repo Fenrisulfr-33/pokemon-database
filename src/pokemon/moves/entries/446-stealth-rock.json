@@ -1,42 +1,141 @@
 {
-  "_id": 446,
-  "key": "stealth-rock",
-  "name": {
-    "english": "Stealth Rock",
-    "japanese": "ステルスロック",
-    "chinese": "隐形岩",
-    "korean": "스텔스록",
-    "german": "Trampa Rocas",
-    "french": "Tarnsteine",
-    "italian": "Stealth Rock",
-    "spanish": "Levitoroccia"
-  },
-  "type": "Rock",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "opponents-field",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle.",
-    "platinum": "The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle.",
-    "heartgold-soulsilver": "The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle.",
-    "black-white": "The user lays a trap of levitating stones\naround the opponent’s team. The trap\nhurts opponents that switch into battle.",
-    "black-2-white-2": "The user lays a trap of levitating stones\naround the opponent’s team. The trap\nhurts opponents that switch into battle.",
-    "x-y": "The user lays a trap of levitating stones\naround the opposing team. The trap hurts\nopposing Pokémon that switch into battle.",
-    "omega-ruby-alpha-sapphire": "The user lays a trap of levitating stones\naround the opposing team. The trap hurts\nopposing Pokémon that switch into battle.",
-    "sun-moon": "The user lays a trap of levitating stones around the\nopposing team. The trap hurts opposing Pokémon\nthat switch into battle.",
-    "ultra-sun-ultra-moon": "The user lays a trap of levitating stones around the\nopposing team. The trap hurts opposing Pokémon\nthat switch into battle.",
-    "lets-go-pikachu-lets-go-eevee": "The user lays a trap of levitating stones around the\nopposing team. The trap hurts opposing Pokémon\nthat switch into battle.",
-    "sword-shield": "The user lays a trap of levitating stones around the\nopposing team. The trap hurts opposing Pokémon\nthat switch into battle."
-  },
-  "effect": {
-    "full": "Spreads sharp rocks around the opposing field, damaging any Pokémon that enters the field for 1/8 its max HP.  This damage is affected by the entering Pokémon's susceptibility to rock moves.\n\nrapid spin removes this effect from its user's side of the field.",
-    "shortEffect": "Causes damage when opposing Pokémon switch in."
-  },
-  "priority": 0
+    "_id": 446,
+    "key": "stealth-rock",
+    "name": {
+        "japanese-kana": "ステルスロック",
+        "korean": "스텔스록",
+        "traditional-chinese": "隱形岩",
+        "french": "Piège de Roc",
+        "german": "Tarnsteine",
+        "spanish": "Trampa Rocas",
+        "italian": "Levitoroccia",
+        "english": "Stealth Rock",
+        "japanese": "ステルスロック",
+        "simplified-chinese": "隐形岩",
+        "latin-american-spanish": "Trampa de Rocas"
+    },
+    "type": "rock",
+    "category": "status",
+    "contest": "cool",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "opponents-field",
+    "meta": {
+        "category": "field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.",
+            "pt": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.",
+            "hgss": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.",
+            "bw": "The user lays a trap of levitating stones around the opponent’s team. The trap hurts opponents that switch into battle.",
+            "b2w2": "The user lays a trap of levitating stones around the opponent’s team. The trap hurts opponents that switch into battle.",
+            "xy": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+            "oras": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+            "sm": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+            "usum": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+            "lgpe": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+            "swsh": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+            "la": "The user launches countless stones at the target. Stone splinters left behind by this attack continue to damage the target for several turns.",
+            "sv": "The user lays a trap of levitating stones around the opposing team. The trap damages opposing Pokémon that switch into battle."
+        },
+        "french": {
+            "bw": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout ennemi entrant au combat.",
+            "xy": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat.",
+            "oras": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat.",
+            "sm": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat.",
+            "usum": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat.",
+            "lgpe": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat.",
+            "swsh": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat."
+        },
+        "japanese-kana": {
+            "xy": "あいての　まわりに　むすうの　いわを うかべて　こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "oras": "あいての　まわりに　むすうの　いわを うかべて　こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "sm": "あいての　まわりに　むすうの　いわを うかべて　こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "usum": "あいての　まわりに　むすうの　いわを うかべて　こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "lgpe": "あいての　まわりに　むすうの　いわを うかべて　こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+            "swsh": "あいての　まわりに　むすうの　いわを うかべて　こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "상대의 주위에 무수한 바위를 띄워 교체해서 나온 상대 포켓몬에게 데미지를 준다.",
+            "oras": "상대의 주위에 무수한 바위를 띄워 교체해서 나온 상대 포켓몬에게 데미지를 준다.",
+            "sm": "상대의 주위에 무수한 바위를 띄워 교체해서 나온 상대 포켓몬에게 데미지를 준다.",
+            "usum": "상대의 주위에 무수한 바위를 띄워 교체해서 나온 상대 포켓몬에게 데미지를 준다.",
+            "lgpe": "상대의 주위에 무수한 바위를 띄워 교체해서 나온 상대 포켓몬에게 데미지를 준다.",
+            "swsh": "상대의 주위에 무수한 바위를 띄워 교체해서 나온 상대 포켓몬에게 데미지를 준다."
+        },
+        "german": {
+            "xy": "Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.",
+            "oras": "Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.",
+            "sm": "Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.",
+            "usum": "Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.",
+            "lgpe": "Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.",
+            "swsh": "Der Anwender legt eine Falle aus schwebenden Steinen aus, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden."
+        },
+        "spanish": {
+            "xy": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "oras": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "sm": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "usum": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "lgpe": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "swsh": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate."
+        },
+        "italian": {
+            "xy": "Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.",
+            "oras": "Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.",
+            "sm": "Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.",
+            "usum": "Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.",
+            "lgpe": "Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.",
+            "swsh": "Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo."
+        },
+        "japanese": {
+            "xy": "相手の　周りに　無数の　岩を 浮かべて　交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "oras": "相手の　周りに　無数の　岩を 浮かべて　交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "sm": "相手の　周りに　無数の　岩を 浮かべて　交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "usum": "相手の　周りに　無数の　岩を 浮かべて　交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "lgpe": "相手の　周りに　無数の　岩を 浮かべて　交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+            "swsh": "相手の　周りに　無数の　岩を 浮かべて　交代で　でてきた　相手の ポケモンに　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "oras": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "sm": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "usum": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "lgpe": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+            "swsh": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate."
+        },
+        "traditional-chinese": {
+            "sm": "在對手周圍撒下無數飄浮的岩石， 讓對手替換出場的寶可夢受到傷害。",
+            "usum": "在對手周圍撒下無數飄浮的岩石， 讓對手替換出場的寶可夢受到傷害。",
+            "lgpe": "在對手周圍撒下無數飄浮的岩石， 讓對手替換出場的寶可夢受到傷害。",
+            "swsh": "在對手周圍撒下無數飄浮的岩石， 讓對手替換出場的寶可夢受到傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "将无数岩石悬浮在对手的周围， 从而对替换出场的对手的 宝可梦给予伤害。",
+            "usum": "将无数岩石悬浮在对手的周围， 从而对替换出场的对手的 宝可梦给予伤害。",
+            "lgpe": "将无数岩石悬浮在对手的周围， 从而对替换出场的对手的 宝可梦给予伤害。",
+            "swsh": "将无数岩石悬浮在对手的周围， 从而对替换出场的对手的 宝可梦给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Spreads sharp rocks around the opposing field, damaging any Pokémon that enters the field for 1/8 its max HP.  This damage is affected by the entering Pokémon’s susceptibility to Rock moves. Rapid Spin removes this effect from its user’s side of the field.",
+        "shortEffect": "Causes damage when opposing Pokémon switch in."
+    }
 }

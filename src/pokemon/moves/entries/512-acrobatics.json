@@ -1,39 +1,138 @@
 {
-  "_id": 512,
-  "key": "acrobatics",
-  "name": {
-    "english": "Acrobatics",
-    "japanese": "アクロバット",
-    "chinese": "特技演员",
-    "korean": "애크러뱃",
-    "german": "Acróbata",
-    "french": "Akrobatik",
-    "italian": "Acrobatics",
-    "spanish": "Acrobazia"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 55,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user nimbly strikes the target.\nIf the user is not holding an item,\nthis attack inflicts massive damage.",
-    "black-2-white-2": "The user nimbly strikes the target.\nIf the user is not holding an item,\nthis attack inflicts massive damage.",
-    "x-y": "The user nimbly strikes the target.\nIf the user is not holding an item,\nthis attack inflicts massive damage.",
-    "omega-ruby-alpha-sapphire": "The user nimbly strikes the target.\nIf the user is not holding an item,\nthis attack inflicts massive damage.",
-    "sun-moon": "The user nimbly strikes the target. If the user is not\nholding an item, this attack inflicts massive damage.",
-    "ultra-sun-ultra-moon": "The user nimbly strikes the target. If the user is not\nholding an item, this attack inflicts massive damage.",
-    "lets-go-pikachu-lets-go-eevee": "The user nimbly strikes the target. If the user is not\nholding an item, this attack inflicts massive damage.",
-    "sword-shield": "The user nimbly strikes the target. If the user is not\nholding an item, this attack inflicts massive damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the user has no held item, this move has double power.",
-    "shortEffect": "Has double power if the user has no held item."
-  },
-  "priority": 0
+    "_id": 512,
+    "key": "acrobatics",
+    "name": {
+        "japanese-kana": "アクロバット",
+        "korean": "애크러뱃",
+        "traditional-chinese": "雜技",
+        "french": "Acrobatie",
+        "german": "Akrobatik",
+        "spanish": "Acróbata",
+        "italian": "Acrobazia",
+        "english": "Acrobatics",
+        "japanese": "アクロバット",
+        "simplified-chinese": "杂技",
+        "latin-american-spanish": "Acrobacia"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 55,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+            "xy": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+            "oras": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+            "sm": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+            "usum": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+            "lgpe": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+            "swsh": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts."
+        },
+        "english": {
+            "bw": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "b2w2": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "xy": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "oras": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "sm": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "usum": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "lgpe": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "swsh": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "la": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+            "sv": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item."
+        },
+        "japanese-kana": {
+            "xy": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。",
+            "oras": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。",
+            "sm": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。",
+            "usum": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。",
+            "lgpe": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。",
+            "swsh": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.",
+            "oras": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.",
+            "sm": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.",
+            "usum": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.",
+            "lgpe": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.",
+            "swsh": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다."
+        },
+        "german": {
+            "xy": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an.",
+            "oras": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an.",
+            "sm": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an.",
+            "usum": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an.",
+            "lgpe": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an.",
+            "swsh": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an."
+        },
+        "spanish": {
+            "xy": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "oras": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "sm": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "usum": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "lgpe": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "swsh": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+        },
+        "italian": {
+            "xy": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.",
+            "oras": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.",
+            "sm": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.",
+            "usum": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.",
+            "lgpe": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.",
+            "swsh": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni."
+        },
+        "japanese": {
+            "xy": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。",
+            "oras": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。",
+            "sm": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。",
+            "usum": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。",
+            "lgpe": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。",
+            "swsh": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "oras": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "sm": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "usum": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "lgpe": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+            "swsh": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+        },
+        "traditional-chinese": {
+            "sm": "輕巧地攻擊對手。 自己沒有攜帶道具時， 能給予對手較大的傷害。",
+            "usum": "輕巧地攻擊對手。 自己沒有攜帶道具時， 能給予對手較大的傷害。",
+            "lgpe": "輕巧地攻擊對手。 自己沒有攜帶道具時， 能給予對手較大的傷害。",
+            "swsh": "輕巧地攻擊對手。 自己沒有攜帶道具時， 能給予對手較大的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "轻巧地攻击对手。 自己没有携带道具时， 会给予较大的伤害。",
+            "usum": "轻巧地攻击对手。 自己没有携带道具时， 会给予较大的伤害。",
+            "lgpe": "轻巧地攻击对手。 自己没有携带道具时， 会给予较大的伤害。",
+            "swsh": "轻巧地攻击对手。 自己没有携带道具时， 会给予较大的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the user has no held item, this move has double power.",
+        "shortEffect": "Has double power if the user has no held item."
+    }
 }

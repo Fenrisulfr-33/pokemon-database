@@ -1,47 +1,154 @@
 {
-  "_id": 38,
-  "key": "double-edge",
-  "name": {
-    "english": "Double-Edge",
-    "japanese": "すてみタックル",
-    "chinese": "舍身攻击",
-    "korean": "이판사판태클",
-    "german": "Doble Filo",
-    "french": "Risikotackle",
-    "italian": "Double-Edge",
-    "spanish": "Sdoppiatore"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A tackle that also\nhurts the user.",
-    "crystal": "A tackle that also\nhurts the user.",
-    "ruby-sapphire": "A life-risking tackle that\nalso hurts the user.",
-    "emerald": "A life-risking tackle that\nalso hurts the user.",
-    "firered-leafgreen": "A reckless, life-\nrisking tackle that\nalso hurts the user\na little.",
-    "diamond-pearl": "A reckless, life-\nrisking tackle.\nIt also damages the\nuser by a fairly large\namount, however.",
-    "platinum": "A reckless, life-\nrisking tackle.\nIt also damages the\nuser by a fairly large\namount, however.",
-    "heartgold-soulsilver": "A reckless, life-\nrisking tackle.\nIt also damages the\nuser by a fairly large\namount, however.",
-    "black-white": "A reckless, life-risking tackle.\nIt also damages the user by a fairly large\namount, however.",
-    "black-2-white-2": "A reckless, life-risking tackle.\nIt also damages the user by a fairly large\namount, however.",
-    "x-y": "A reckless, life-risking tackle.\nThis also damages the user\nquite a lot.",
-    "omega-ruby-alpha-sapphire": "A reckless, life-risking tackle.\nThis also damages the user\nquite a lot.",
-    "sun-moon": "A reckless, life-risking tackle. This also damages the\nuser quite a lot.",
-    "ultra-sun-ultra-moon": "A reckless, life-risking tackle. This also damages the\nuser quite a lot.",
-    "lets-go-pikachu-lets-go-eevee": "A reckless, life-risking tackle. This also damages the\nuser quite a lot.",
-    "sword-shield": "A reckless, life-risking tackle in which the user rushes\nthe target. This also damages the user quite a lot."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
-    "shortEffect": "User receives 1/3 the damage inflicted in recoil."
-  },
-  "priority": 0
+    "_id": 38,
+    "key": "double-edge",
+    "name": {
+        "japanese-kana": "すてみタックル",
+        "korean": "이판사판태클",
+        "traditional-chinese": "捨身衝撞",
+        "french": "Damoclès",
+        "german": "Risikotackle",
+        "spanish": "Doble Filo",
+        "italian": "Sdoppiatore",
+        "english": "Double-Edge",
+        "japanese": "すてみタックル",
+        "simplified-chinese": "舍身冲撞",
+        "latin-american-spanish": "Doble Filo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -33,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "power": 100,
+            "effect": {
+                "full": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+                "shortEffect": "User receives 1/4 the damage it inflicts in recoil."
+            }
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A tackle that also hurts the user.",
+            "cr": "A tackle that also hurts the user.",
+            "rs": "A life-risking tackle that also hurts the user.",
+            "em": "A life-risking tackle that also hurts the user.",
+            "frlg": "A reckless, life- risking tackle that also hurts the user a little.",
+            "dp": "A reckless, life- risking tackle. It also damages the user by a fairly large amount, however.",
+            "pt": "A reckless, life- risking tackle. It also damages the user by a fairly large amount, however.",
+            "hgss": "A reckless, life- risking tackle. It also damages the user by a fairly large amount, however.",
+            "bw": "A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.",
+            "b2w2": "A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.",
+            "xy": "A reckless, life-risking tackle. This also damages the user quite a lot.",
+            "oras": "A reckless, life-risking tackle. This also damages the user quite a lot.",
+            "sm": "A reckless, life-risking tackle. This also damages the user quite a lot.",
+            "usum": "A reckless, life-risking tackle. This also damages the user quite a lot.",
+            "lgpe": "A reckless, life-risking tackle. This also damages the user quite a lot.",
+            "swsh": "A reckless, life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+            "la": "A reckless, life-risking tackle in which the user rushes the target. This also damages the user.",
+            "sv": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot."
+        },
+        "french": {
+            "bw": "Une dangereuse charge. Inflige aussi des dégâts assez importants au lanceur.",
+            "xy": "Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur.",
+            "oras": "Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur.",
+            "sm": "Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur.",
+            "usum": "Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur.",
+            "lgpe": "Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur.",
+            "swsh": "Une charge dangereuse et imprudente. Blesse aussi gravement le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "いのちを　かけて あいてに　とっしんして　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "oras": "いのちを　かけて あいてに　とっしんして　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "sm": "いのちを　かけて あいてに　とっしんして　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "usum": "いのちを　かけて あいてに　とっしんして　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "lgpe": "いのちを　かけて あいてに　とっしんして　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+            "swsh": "いのちを　かけて あいてに　とっしんして　こうげきする。 じぶんも　かなり　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 상당한 데미지를 입는다.",
+            "oras": "목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 상당한 데미지를 입는다.",
+            "sm": "목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 상당한 데미지를 입는다.",
+            "usum": "목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 상당한 데미지를 입는다.",
+            "lgpe": "목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 상당한 데미지를 입는다.",
+            "swsh": "목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 상당한 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.",
+            "oras": "Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.",
+            "sm": "Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.",
+            "usum": "Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.",
+            "lgpe": "Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.",
+            "swsh": "Lebensgefährlicher Angriff, bei dem sich der Anwender selbst verletzt."
+        },
+        "spanish": {
+            "xy": "Ataque arriesgado que también hiere al agresor.",
+            "oras": "Ataque arriesgado que también hiere al agresor.",
+            "sm": "Ataque arriesgado que también hiere al agresor.",
+            "usum": "Ataque arriesgado que también hiere al agresor.",
+            "lgpe": "Ataque arriesgado que también hiere al agresor.",
+            "swsh": "Ataque arriesgado que también hiere al agresor."
+        },
+        "italian": {
+            "xy": "Carica spietata e pericolosa che danneggia molto anche chi la usa.",
+            "oras": "Carica spietata e pericolosa che danneggia molto anche chi la usa.",
+            "sm": "Carica spietata e pericolosa che danneggia molto anche chi la usa.",
+            "usum": "Carica spietata e pericolosa che danneggia molto anche chi la usa.",
+            "lgpe": "Carica spietata e pericolosa che danneggia molto anche chi la usa.",
+            "swsh": "Carica spietata e pericolosa che danneggia molto anche chi la usa."
+        },
+        "japanese": {
+            "xy": "命を　懸けて 相手に　突進して　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "oras": "命を　懸けて 相手に　突進して　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "sm": "命を　懸けて 相手に　突進して　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "usum": "命を　懸けて 相手に　突進して　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "lgpe": "命を　懸けて 相手に　突進して　攻撃する。 自分も　かなり　ダメージを　受ける。",
+            "swsh": "命を　懸けて 相手に　突進して　攻撃する。 自分も　かなり　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque arriesgado que también hiere al agresor.",
+            "oras": "Ataque arriesgado que también hiere al agresor.",
+            "sm": "Ataque arriesgado que también hiere al agresor.",
+            "usum": "Ataque arriesgado que también hiere al agresor.",
+            "lgpe": "Ataque arriesgado que también hiere al agresor.",
+            "swsh": "Ataque arriesgado que también hiere al agresor."
+        },
+        "traditional-chinese": {
+            "sm": "捨身衝撞對手進行攻擊。 自己也會受到不小的傷害。",
+            "usum": "捨身衝撞對手進行攻擊。 自己也會受到不小的傷害。",
+            "lgpe": "捨身衝撞對手進行攻擊。 自己也會受到不小的傷害。",
+            "swsh": "捨身衝撞對手進行攻擊。 自己也會受到不小的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "拼命地猛撞向对手进行攻击。 自己也会受到不小的伤害。",
+            "usum": "拼命地猛撞向对手进行攻击。 自己也会受到不小的伤害。",
+            "lgpe": "拼命地猛撞向对手进行攻击。 自己也会受到不小的伤害。",
+            "swsh": "拼命地猛撞向对手进行攻击。 自己也会受到不小的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+        "shortEffect": "User receives 1/3 the damage inflicted in recoil."
+    }
 }

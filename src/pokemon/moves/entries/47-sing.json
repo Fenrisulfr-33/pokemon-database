@@ -1,47 +1,146 @@
 {
-  "_id": 47,
-  "key": "sing",
-  "name": {
-    "english": "Sing",
-    "japanese": "うたう",
-    "chinese": "唱歌",
-    "korean": "노래하기",
-    "german": "Canto",
-    "french": "Gesang",
-    "italian": "Sing",
-    "spanish": "Canto"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 15,
-  "power": null,
-  "accuracy": 55,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "May cause the foe\nto fall asleep.",
-    "crystal": "May cause the foe\nto fall asleep.",
-    "ruby-sapphire": "A soothing song lulls the\nfoe into a deep slumber.",
-    "emerald": "A soothing song lulls the\nfoe into a deep slumber.",
-    "firered-leafgreen": "A soothing song\nin a calming voice\nlulls the foe into\na deep slumber.",
-    "diamond-pearl": "A soothing lullaby is\nsung in a calming\nvoice that puts the\nfoe into a deep\nslumber.",
-    "platinum": "A soothing lullaby is\nsung in a calming\nvoice that puts the\nfoe into a deep\nslumber.",
-    "heartgold-soulsilver": "A soothing lullaby is\nsung in a calming\nvoice that puts the\nfoe into a deep\nslumber.",
-    "black-white": "A soothing lullaby is sung in a calming\nvoice that puts the target into a deep\nslumber.",
-    "black-2-white-2": "A soothing lullaby is sung in a calming\nvoice that puts the target into a deep\nslumber.",
-    "x-y": "A soothing lullaby is sung in a calming\nvoice that puts the target into a\ndeep slumber.",
-    "omega-ruby-alpha-sapphire": "A soothing lullaby is sung in a calming\nvoice that puts the target into a\ndeep slumber.",
-    "sun-moon": "A soothing lullaby is sung in a calming voice that\nputs the target into a deep slumber.",
-    "ultra-sun-ultra-moon": "A soothing lullaby is sung in a calming voice that\nputs the target into a deep slumber.",
-    "lets-go-pikachu-lets-go-eevee": "A soothing lullaby is sung in a calming voice that\nputs the target into a deep slumber.",
-    "sword-shield": "A soothing lullaby is sung in a calming voice that\nputs the target into a deep slumber."
-  },
-  "effect": {
-    "full": "Puts the target to sleep.",
-    "shortEffect": "Puts the target to sleep."
-  },
-  "priority": 0
+    "_id": 47,
+    "key": "sing",
+    "name": {
+        "japanese-kana": "うたう",
+        "korean": "노래하기",
+        "traditional-chinese": "唱歌",
+        "french": "Berceuse",
+        "german": "Gesang",
+        "spanish": "Canto",
+        "italian": "Canto",
+        "english": "Sing",
+        "japanese": "うたう",
+        "simplified-chinese": "唱歌",
+        "latin-american-spanish": "Canto"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 15,
+    "power": null,
+    "accuracy": 55,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "sleep",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "May cause the foe to fall asleep.",
+            "cr": "May cause the foe to fall asleep.",
+            "rs": "A soothing song lulls the foe into a deep slumber.",
+            "em": "A soothing song lulls the foe into a deep slumber.",
+            "frlg": "A soothing song in a calming voice lulls the foe into a deep slumber.",
+            "dp": "A soothing lullaby is sung in a calming voice that puts the foe into a deep slumber.",
+            "pt": "A soothing lullaby is sung in a calming voice that puts the foe into a deep slumber.",
+            "hgss": "A soothing lullaby is sung in a calming voice that puts the foe into a deep slumber.",
+            "bw": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "b2w2": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "xy": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "oras": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "sm": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "usum": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "lgpe": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "swsh": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "la": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+            "sv": "A soothing lullaby is sung in a beautiful voice that puts the target to sleep."
+        },
+        "french": {
+            "bw": "Une berceuse plonge l’ennemi dans un profond sommeil.",
+            "xy": "Une berceuse plonge l’ennemi dans un profond sommeil.",
+            "oras": "Une berceuse plonge l’ennemi dans un profond sommeil.",
+            "sm": "Une berceuse plonge l’ennemi dans un profond sommeil.",
+            "usum": "Une berceuse plonge l’ennemi dans un profond sommeil.",
+            "lgpe": "Une berceuse plonge l’ennemi dans un profond sommeil.",
+            "swsh": "Une berceuse plonge l’ennemi dans un profond sommeil."
+        },
+        "japanese-kana": {
+            "xy": "ここちよい　きれいな うたごえを　きかせて あいてを　ねむり　じょうたいに　する。",
+            "oras": "ここちよい　きれいな うたごえを　きかせて あいてを　ねむり　じょうたいに　する。",
+            "sm": "ここちよい　きれいな うたごえを　きかせて あいてを　ねむり　じょうたいに　する。",
+            "usum": "ここちよい　きれいな うたごえを　きかせて あいてを　ねむり　じょうたいに　する。",
+            "lgpe": "ここちよい　きれいな うたごえを　きかせて あいてを　ねむり　じょうたいに　する。",
+            "swsh": "ここちよい　きれいな うたごえを　きかせて あいてを　ねむり　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다.",
+            "oras": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다.",
+            "sm": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다.",
+            "usum": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다.",
+            "lgpe": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다.",
+            "swsh": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다."
+        },
+        "german": {
+            "xy": "Ein Lied, das das Ziel in tiefen Schlaf versetzt.",
+            "oras": "Ein Lied, das das Ziel in tiefen Schlaf versetzt.",
+            "sm": "Ein Lied, das das Ziel in tiefen Schlaf versetzt.",
+            "usum": "Ein Lied, das das Ziel in tiefen Schlaf versetzt.",
+            "lgpe": "Ein Lied, das das Ziel in tiefen Schlaf versetzt.",
+            "swsh": "Ein Lied, das das Ziel in tiefen Schlaf versetzt."
+        },
+        "spanish": {
+            "xy": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "oras": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "sm": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "usum": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "lgpe": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "swsh": "Cancioncilla que hace dormir profundamente al objetivo."
+        },
+        "italian": {
+            "xy": "Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.",
+            "oras": "Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.",
+            "sm": "Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.",
+            "usum": "Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.",
+            "lgpe": "Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.",
+            "swsh": "Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio."
+        },
+        "japanese": {
+            "xy": "心地好い　きれいな 歌声を　聞かせて 相手を　眠り状態に　する。",
+            "oras": "心地好い　きれいな 歌声を　聞かせて 相手を　眠り状態に　する。",
+            "sm": "心地好い　きれいな 歌声を　聞かせて 相手を　眠り状態に　する。",
+            "usum": "心地好い　きれいな 歌声を　聞かせて 相手を　眠り状態に　する。",
+            "lgpe": "心地好い　きれいな 歌声を　聞かせて 相手を　眠り状態に　する。",
+            "swsh": "心地好い　きれいな 歌声を　聞かせて 相手を　眠り状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "oras": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "sm": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "usum": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "lgpe": "Cancioncilla que hace dormir profundamente al objetivo.",
+            "swsh": "Cancioncilla que hace dormir profundamente al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "唱出舒服美妙的歌聲， 讓對手陷入睡眠狀態。",
+            "usum": "唱出舒服美妙的歌聲， 讓對手陷入睡眠狀態。",
+            "lgpe": "唱出舒服美妙的歌聲， 讓對手陷入睡眠狀態。",
+            "swsh": "唱出舒服美妙的歌聲， 讓對手陷入睡眠狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "让对手听舒适、 美妙的歌声， 从而陷入睡眠状态。",
+            "usum": "让对手听舒适、 美妙的歌声， 从而陷入睡眠状态。",
+            "lgpe": "让对手听舒适、 美妙的歌声， 从而陷入睡眠状态。",
+            "swsh": "让对手听舒适、 美妙的歌声， 从而陷入睡眠状态。"
+        }
+    },
+    "effect": {
+        "full": "Puts the target to sleep.",
+        "shortEffect": "Puts the target to sleep."
+    }
 }

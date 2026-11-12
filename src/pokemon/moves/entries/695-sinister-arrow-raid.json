@@ -1,35 +1,115 @@
 {
-  "_id": 695,
-  "key": "sinister-arrow-raid",
-  "name": {
-    "english": "Sinister Arrow Raid",
-    "japanese": "シャドーアローズストライク",
-    "chinese": "遮天蔽日暗影箭",
-    "korean": "섀도애로우즈스트라이크",
-    "german": "Aluvión de Flechas Sombrías",
-    "french": "Schatten-Pfeilregen",
-    "italian": "Sinister Arrow Raid",
-    "spanish": "Dardoassalto Spettrale"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": null,
-  "pp": 1,
-  "power": 180,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user, Decidueye, creates countless arrows\nusing its Z-Power and shoots the target with\nfull force.",
-    "ultra-sun-ultra-moon": "The user, Decidueye, creates countless arrows\nusing its Z-Power and shoots the target with\nfull force.",
-    "lets-go-pikachu-lets-go-eevee": "The user, Decidueye, creates countless arrows\nusing its Z-Power and shoots the target with\nfull force.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 695,
+    "key": "sinister-arrow-raid",
+    "name": {
+        "japanese-kana": "シャドーアローズストライク",
+        "korean": "섀도애로우즈스트라이크",
+        "traditional-chinese": "遮天蔽日暗影箭",
+        "french": "Fureur des Plumes Spectrales",
+        "german": "Schatten-Pfeilregen",
+        "spanish": "Aluvión de Flechas Sombrías",
+        "italian": "Dardoassalto Spettrale",
+        "english": "Sinister Arrow Raid",
+        "japanese": "シャドーアローズストライク",
+        "simplified-chinese": "遮天蔽日暗影箭",
+        "latin-american-spanish": "Aluvión de Flechas Sombrías"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": null,
+    "pp": 1,
+    "power": 180,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "Ｚパワーで　むすうの　やを　つくりだした ジュナイパーが　ぜんりょくで あいてを　いぬく　こうげき。",
+            "usum": "Ｚパワーで　むすうの　やを　つくりだした ジュナイパーが　ぜんりょくで あいてを　いぬく　こうげき。",
+            "lgpe": "Ｚパワーで　むすうの　やを　つくりだした ジュナイパーが　ぜんりょくで あいてを　いぬく　こうげき。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "sm": "Z파워로 무수한 화살을 만들어낸 모크나이퍼가 전력으로 상대를 꿰뚫는 공격이다.",
+            "usum": "Z파워로 무수한 화살을 만들어낸 모크나이퍼가 전력으로 상대를 꿰뚫는 공격이다.",
+            "lgpe": "Z파워로 무수한 화살을 만들어낸 모크나이퍼가 전력으로 상대를 꿰뚫는 공격이다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "sm": "透過Ｚ力量製造出 無數箭的狙射樹梟 全力射穿對手進行攻擊。",
+            "usum": "透過Ｚ力量製造出 無數箭的狙射樹梟 全力射穿對手進行攻擊。",
+            "lgpe": "透過Ｚ力量製造出 無數箭的狙射樹梟 全力射穿對手進行攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "sm": "Archéduc utilise la Force Z pour créer un nuage de flèches qui transpercent la cible.",
+            "usum": "Archéduc utilise la Force Z pour créer un nuage de flèches qui transpercent la cible.",
+            "lgpe": "Archéduc utilise la Force Z pour créer un nuage de flèches qui transpercent la cible.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "sm": "Silvarro stellt mit Z-Kraft unzählige Pfeile her und lässt diese auf das Ziel niederprasseln.",
+            "usum": "Silvarro stellt mit Z-Kraft unzählige Pfeile her und lässt diese auf das Ziel niederprasseln.",
+            "lgpe": "Silvarro stellt mit Z-Kraft unzählige Pfeile her und lässt diese auf das Ziel niederprasseln.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "sm": "Decidueye usa el Poder Z para proyectar multitud de flechas potentísimas que atraviesan a su oponente.",
+            "usum": "Decidueye usa el Poder Z para proyectar multitud de flechas potentísimas que atraviesan a su oponente.",
+            "lgpe": "Decidueye usa el Poder Z para proyectar multitud de flechas potentísimas que atraviesan a su oponente.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "sm": "Grazie al Potere Z, Decidueye crea una formazione di frecce che colpisce il bersaglio a gran velocità.",
+            "usum": "Grazie al Potere Z, Decidueye crea una formazione di frecce che colpisce il bersaglio a gran velocità.",
+            "lgpe": "Grazie al Potere Z, Decidueye crea una formazione di frecce che colpisce il bersaglio a gran velocità.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "sm": "The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.",
+            "usum": "The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.",
+            "lgpe": "The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "sm": "Ｚパワーで　無数の　矢を　作りだした ジュナイパーが　全力で 相手を　射抜く　攻撃。",
+            "usum": "Ｚパワーで　無数の　矢を　作りだした ジュナイパーが　全力で 相手を　射抜く　攻撃。",
+            "lgpe": "Ｚパワーで　無数の　矢を　作りだした ジュナイパーが　全力で 相手を　射抜く　攻撃。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "sm": "通过Ｚ力量制造出 无数箭的狙射树枭 将全力射穿对手进行攻击。",
+            "usum": "通过Ｚ力量制造出 无数箭的狙射树枭 将全力射穿对手进行攻击。",
+            "lgpe": "通过Ｚ力量制造出 无数箭的狙射树枭 将全力射穿对手进行攻击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "sm": "Decidueye usa el Poder Z para proyectar multitud de flechas potentísimas que atraviesan a su oponente.",
+            "usum": "Decidueye usa el Poder Z para proyectar multitud de flechas potentísimas que atraviesan a su oponente.",
+            "lgpe": "Decidueye usa el Poder Z para proyectar multitud de flechas potentísimas que atraviesan a su oponente.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

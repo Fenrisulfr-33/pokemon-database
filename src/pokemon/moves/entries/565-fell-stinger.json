@@ -1,37 +1,139 @@
 {
-  "_id": 565,
-  "key": "fell-stinger",
-  "name": {
-    "english": "Fell Stinger",
-    "japanese": "とどめばり",
-    "chinese": "击倒针刺",
-    "korean": "마지막일침",
-    "german": "Aguijón Letal",
-    "french": "Stachelfinale",
-    "italian": "Fell Stinger",
-    "spanish": "Pungiglione"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": null,
-  "pp": 25,
-  "power": 30,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "When the user knocks out a target\nwith this move, the user’s Attack stat\nrises sharply.",
-    "omega-ruby-alpha-sapphire": "When the user knocks out a target\nwith this move, the user’s Attack stat\nrises sharply.",
-    "sun-moon": "When the user knocks out a target with this move,\nthe user’s Attack stat rises drastically.",
-    "ultra-sun-ultra-moon": "When the user knocks out a target with this move,\nthe user’s Attack stat rises drastically.",
-    "lets-go-pikachu-lets-go-eevee": "When the user knocks out a target with this move,\nthe user’s Attack stat rises drastically.",
-    "sword-shield": "When the user knocks out a target with this move,\nthe user’s Attack stat rises drastically."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Raises the user's Attack by two stages if it KOs the target.",
-    "shortEffect": "Raises the user's Attack by two stages if it KOs the target."
-  },
-  "priority": 0
+    "_id": 565,
+    "key": "fell-stinger",
+    "name": {
+        "japanese-kana": "とどめばり",
+        "korean": "마지막일침",
+        "traditional-chinese": "致命針刺",
+        "french": "Dard Mortel",
+        "german": "Stachelfinale",
+        "spanish": "Aguijón Letal",
+        "italian": "Pungiglione",
+        "english": "Fell Stinger",
+        "japanese": "とどめばり",
+        "simplified-chinese": "致命针刺",
+        "latin-american-spanish": "Aguijón Letal"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": null,
+    "pp": 25,
+    "power": 50,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "power": 30
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "この　わざを　つかって あいてを　たおすと こうげきが　ぐーんと　あがる。",
+            "oras": "この　わざを　つかって あいてを　たおすと こうげきが　ぐーんと　あがる。",
+            "sm": "この　わざを　つかって あいてを　たおすと こうげきが　ぐぐーんと　あがる。",
+            "usum": "この　わざを　つかって あいてを　たおすと こうげきが　ぐぐーんと　あがる。",
+            "lgpe": "この　わざを　つかって あいてを　たおすと こうげきが　ぐぐーんと　あがる。",
+            "swsh": "この　わざを　つかって あいてを　たおすと こうげきが　ぐぐーんと　あがる。"
+        },
+        "korean": {
+            "xy": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 크게 오른다.",
+            "oras": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 크게 오른다.",
+            "sm": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 매우 크게 오른다.",
+            "usum": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 매우 크게 오른다.",
+            "lgpe": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 매우 크게 오른다.",
+            "swsh": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 매우 크게 오른다."
+        },
+        "french": {
+            "xy": "Augmente fortement l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.",
+            "oras": "Augmente fortement l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.",
+            "sm": "Augmente beaucoup l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.",
+            "usum": "Augmente beaucoup l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.",
+            "lgpe": "Augmente beaucoup l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.",
+            "swsh": "Augmente énormément l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité."
+        },
+        "german": {
+            "xy": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark.",
+            "oras": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark.",
+            "sm": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.",
+            "usum": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.",
+            "lgpe": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.",
+            "swsh": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch."
+        },
+        "spanish": {
+            "xy": "Al derrotar al objetivo utilizando este movimiento, aumenta mucho el Ataque del usuario.",
+            "oras": "Al derrotar al objetivo utilizando este movimiento, aumenta mucho el Ataque del usuario.",
+            "sm": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.",
+            "usum": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.",
+            "lgpe": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.",
+            "swsh": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario."
+        },
+        "italian": {
+            "xy": "L’Attacco di chi la usa aumenta notevolmente se grazie alla mossa il bersaglio va KO.",
+            "oras": "L’Attacco di chi la usa aumenta notevolmente se grazie alla mossa il bersaglio va KO.",
+            "sm": "L’Attacco di chi la usa aumenta moltissimo se grazie alla mossa il bersaglio va KO.",
+            "usum": "L’Attacco di chi la usa aumenta moltissimo se grazie alla mossa il bersaglio va KO.",
+            "lgpe": "L’Attacco di chi la usa aumenta moltissimo se grazie alla mossa il bersaglio va KO.",
+            "swsh": "L’Attacco di chi la usa aumenta moltissimo se grazie alla mossa il bersaglio va KO."
+        },
+        "english": {
+            "xy": "When the user knocks out a target with this move, the user’s Attack stat rises sharply.",
+            "oras": "When the user knocks out a target with this move, the user’s Attack stat rises sharply.",
+            "sm": "When the user knocks out a target with this move, the user’s Attack stat rises drastically.",
+            "usum": "When the user knocks out a target with this move, the user’s Attack stat rises drastically.",
+            "lgpe": "When the user knocks out a target with this move, the user’s Attack stat rises drastically.",
+            "swsh": "When the user knocks out a target with this move, the user’s Attack stat rises drastically.",
+            "la": "When the user knocks out a target with this move, the user's Attack stat rises drastically.",
+            "sv": "When the user knocks out a target with this move, the user's Attack stat is boosted drastically."
+        },
+        "japanese": {
+            "xy": "この　技を　使って 相手を　倒すと 攻撃が　ぐーんと　あがる。",
+            "oras": "この　技を　使って 相手を　倒すと 攻撃が　ぐーんと　あがる。",
+            "sm": "この　技を　使って 相手を　倒すと 攻撃が　ぐぐーんと　あがる。",
+            "usum": "この　技を　使って 相手を　倒すと 攻撃が　ぐぐーんと　あがる。",
+            "lgpe": "この　技を　使って 相手を　倒すと 攻撃が　ぐぐーんと　あがる。",
+            "swsh": "この　技を　使って 相手を　倒すと 攻撃が　ぐぐーんと　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Al derrotar al objetivo utilizando este movimiento, aumenta mucho el Ataque del usuario.",
+            "oras": "Al derrotar al objetivo utilizando este movimiento, aumenta mucho el Ataque del usuario.",
+            "sm": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.",
+            "usum": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.",
+            "lgpe": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.",
+            "swsh": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "使用此招式打倒對手時， 自己的攻擊會極大幅提高。",
+            "usum": "使用此招式打倒對手時， 自己的攻擊會極大幅提高。",
+            "lgpe": "使用此招式打倒對手時， 自己的攻擊會極大幅提高。",
+            "swsh": "使用此招式打倒對手時， 自己的攻擊會極大幅提高。"
+        },
+        "simplified-chinese": {
+            "sm": "如果使用此招式打倒对手， 攻击会巨幅提高。",
+            "usum": "如果使用此招式打倒对手， 攻击会巨幅提高。",
+            "lgpe": "如果使用此招式打倒对手， 攻击会巨幅提高。",
+            "swsh": "如果使用此招式打倒对手， 攻击会巨幅提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Raises the user’s Attack by two stages if it KOs the target.",
+        "shortEffect": "Raises the user’s Attack by two stages if it KOs the target."
+    }
 }

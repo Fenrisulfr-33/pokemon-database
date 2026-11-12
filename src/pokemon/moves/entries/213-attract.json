@@ -1,47 +1,146 @@
 {
-  "_id": 213,
-  "key": "attract",
-  "name": {
-    "english": "Attract",
-    "japanese": "メロメロ",
-    "chinese": "迷人",
-    "korean": "헤롱헤롱",
-    "german": "Atracción",
-    "french": "Anziehung",
-    "italian": "Attract",
-    "spanish": "Attrazione"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 15,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Makes the opposite\ngender infatuated.",
-    "crystal": "Makes the opposite\ngender infatuated.",
-    "ruby-sapphire": "Makes the opposite gender\nless likely to attack.",
-    "emerald": "Makes the opposite gender\nless likely to attack.",
-    "firered-leafgreen": "If it is the other\ngender, the foe is\nmade infatuated and\nunlikely to attack.",
-    "diamond-pearl": "If it is the opposite\ngender of the user,\nthe foe becomes\ninfatuated and less\nlikely to attack.",
-    "platinum": "If it is the opposite\ngender of the user,\nthe foe becomes\ninfatuated and less\nlikely to attack.",
-    "heartgold-soulsilver": "If it is the opposite\ngender of the user,\nthe foe becomes\ninfatuated and less\nlikely to attack.",
-    "black-white": "If it is the opposite gender of the user,\nthe target becomes infatuated and less\nlikely to attack.",
-    "black-2-white-2": "If it is the opposite gender of the user,\nthe target becomes infatuated and less\nlikely to attack.",
-    "x-y": "If it is the opposite gender of the user,\nthe target becomes infatuated and less\nlikely to attack.",
-    "omega-ruby-alpha-sapphire": "If it is the opposite gender of the user,\nthe target becomes infatuated and less\nlikely to attack.",
-    "sun-moon": "If it is the opposite gender of the user, the target\nbecomes infatuated and less likely to attack.",
-    "ultra-sun-ultra-moon": "If it is the opposite gender of the user, the target\nbecomes infatuated and less likely to attack.",
-    "lets-go-pikachu-lets-go-eevee": "If it is the opposite gender of the user, the target\nbecomes infatuated and less likely to attack.",
-    "sword-shield": "If it is the opposite gender of the user, the target\nbecomes infatuated and less likely to attack."
-  },
-  "effect": {
-    "full": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pokémon leaves the field, this effect ends.",
-    "shortEffect": "Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user."
-  },
-  "priority": 0
+    "_id": 213,
+    "key": "attract",
+    "name": {
+        "japanese-kana": "メロメロ",
+        "korean": "헤롱헤롱",
+        "traditional-chinese": "迷人",
+        "french": "Attraction",
+        "german": "Anziehung",
+        "spanish": "Atracción",
+        "italian": "Attrazione",
+        "english": "Attract",
+        "japanese": "メロメロ",
+        "simplified-chinese": "迷人",
+        "latin-american-spanish": "Atracción"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 15,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "infatuation",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Makes the opposite gender infatuated.",
+            "cr": "Makes the opposite gender infatuated.",
+            "rs": "Makes the opposite gender less likely to attack.",
+            "em": "Makes the opposite gender less likely to attack.",
+            "frlg": "If it is the other gender, the foe is made infatuated and unlikely to attack.",
+            "dp": "If it is the opposite gender of the user, the foe becomes infatuated and less likely to attack.",
+            "pt": "If it is the opposite gender of the user, the foe becomes infatuated and less likely to attack.",
+            "hgss": "If it is the opposite gender of the user, the foe becomes infatuated and less likely to attack.",
+            "bw": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "b2w2": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "xy": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "oras": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "sm": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "usum": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "lgpe": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "swsh": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "la": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+            "sv": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves."
+        },
+        "french": {
+            "bw": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+            "xy": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+            "oras": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+            "sm": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+            "usum": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+            "lgpe": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+            "swsh": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer."
+        },
+        "japanese-kana": {
+            "xy": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。",
+            "oras": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。",
+            "sm": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。",
+            "usum": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。",
+            "lgpe": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。",
+            "swsh": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。"
+        },
+        "korean": {
+            "xy": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다.",
+            "oras": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다.",
+            "sm": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다.",
+            "usum": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다.",
+            "lgpe": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다.",
+            "swsh": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다."
+        },
+        "german": {
+            "xy": "Angriff auf Anwender vom anderen Geschlecht wird unwahrscheinlich.",
+            "oras": "Angriff auf Anwender vom anderen Geschlecht wird unwahrscheinlich.",
+            "sm": "Wenn das Ziel nicht dem Geschlecht des Anwenders angehört, fühlt es sich zu ihm hingezogen und greift eventuell nicht an.",
+            "usum": "Wenn das Ziel nicht dem Geschlecht des Anwenders angehört, fühlt es sich zu ihm hingezogen und greift eventuell nicht an.",
+            "lgpe": "Wenn das Ziel nicht dem Geschlecht des Anwenders angehört, fühlt es sich zu ihm hingezogen und greift eventuell nicht an.",
+            "swsh": "Wenn das Ziel nicht dem Geschlecht des Anwenders angehört, fühlt es sich zu ihm hingezogen und greift eventuell nicht an."
+        },
+        "spanish": {
+            "xy": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "oras": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "sm": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "usum": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "lgpe": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "swsh": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+        },
+        "italian": {
+            "xy": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare.",
+            "oras": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare.",
+            "sm": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare.",
+            "usum": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare.",
+            "lgpe": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare.",
+            "swsh": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare."
+        },
+        "japanese": {
+            "xy": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。",
+            "oras": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。",
+            "sm": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。",
+            "usum": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。",
+            "lgpe": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。",
+            "swsh": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "oras": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "sm": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "usum": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "lgpe": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+            "swsh": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+        },
+        "traditional-chinese": {
+            "sm": "♂誘惑♀而♀誘惑♂， 讓對手著迷。 對手將難以使用招式。",
+            "usum": "♂誘惑♀而♀誘惑♂， 讓對手著迷。 對手將難以使用招式。",
+            "lgpe": "♂誘惑♀而♀誘惑♂， 讓對手著迷。 對手將難以使用招式。",
+            "swsh": "♂誘惑♀而♀誘惑♂， 讓對手著迷。 對手將難以使用招式。"
+        },
+        "simplified-chinese": {
+            "sm": "♂诱惑♀或♀诱惑♂， 让对手着迷。 对手将很难使出招式。",
+            "usum": "♂诱惑♀或♀诱惑♂， 让对手着迷。 对手将很难使出招式。",
+            "lgpe": "♂诱惑♀或♀诱惑♂， 让对手着迷。 对手将很难使出招式。",
+            "swsh": "♂诱惑♀或♀诱惑♂， 让对手着迷。 对手将很难使出招式。"
+        }
+    },
+    "effect": {
+        "full": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pokémon leaves the field, this effect ends.",
+        "shortEffect": "Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user."
+    }
 }

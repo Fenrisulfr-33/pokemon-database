@@ -1,47 +1,154 @@
 {
-  "_id": 22,
-  "key": "vine-whip",
-  "name": {
-    "english": "Vine Whip",
-    "japanese": "つるのムチ",
-    "chinese": "藤鞭",
-    "korean": "덩굴채찍",
-    "german": "Látigo Cepa",
-    "french": "Rankenhieb",
-    "italian": "Vine Whip",
-    "spanish": "Frustata"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 25,
-  "power": 45,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Whips the foe with\nslender vines.",
-    "crystal": "Whips the foe with\nslender vines.",
-    "ruby-sapphire": "Strikes the foe with\nslender, whiplike vines.",
-    "emerald": "Strikes the foe with\nslender, whiplike vines.",
-    "firered-leafgreen": "The foe is struck\nwith slender, whip­\nlike vines.",
-    "diamond-pearl": "The foe is struck\nwith slender, whiplike\nvines to inflict\ndamage.\n",
-    "platinum": "The foe is struck\nwith slender, whiplike\nvines to inflict\ndamage.\n",
-    "heartgold-soulsilver": "The foe is struck\nwith slender, whiplike\nvines to inflict\ndamage.\n",
-    "black-white": "The target is struck with slender,\nwhiplike vines to inflict damage.",
-    "black-2-white-2": "The target is struck with slender,\nwhiplike vines to inflict damage.",
-    "x-y": "The target is struck with slender,\nwhiplike vines to inflict damage.",
-    "omega-ruby-alpha-sapphire": "The target is struck with slender,\nwhiplike vines to inflict damage.",
-    "sun-moon": "The target is struck with slender, whiplike vines to\ninflict damage.",
-    "ultra-sun-ultra-moon": "The target is struck with slender, whiplike vines to\ninflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "The target is struck with slender, whiplike vines to\ninflict damage.",
-    "sword-shield": "The target is struck with slender, whiplike vines to\ninflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 22,
+    "key": "vine-whip",
+    "name": {
+        "japanese-kana": "つるのムチ",
+        "korean": "덩굴채찍",
+        "traditional-chinese": "藤鞭",
+        "french": "Fouet Lianes",
+        "german": "Rankenhieb",
+        "spanish": "Látigo Cepa",
+        "italian": "Frustata",
+        "english": "Vine Whip",
+        "japanese": "つるのムチ",
+        "simplified-chinese": "藤鞭",
+        "latin-american-spanish": "Látigo Cepa"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 25,
+    "power": 45,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "pp": 10
+        },
+        "xy": {
+            "power": 35,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Whips the foe with slender vines.",
+            "cr": "Whips the foe with slender vines.",
+            "rs": "Strikes the foe with slender, whiplike vines.",
+            "em": "Strikes the foe with slender, whiplike vines.",
+            "frlg": "The foe is struck with slender, whiplike vines.",
+            "dp": "The foe is struck with slender, whiplike vines to inflict damage.",
+            "pt": "The foe is struck with slender, whiplike vines to inflict damage.",
+            "hgss": "The foe is struck with slender, whiplike vines to inflict damage.",
+            "bw": "The target is struck with slender, whiplike vines to inflict damage.",
+            "b2w2": "The target is struck with slender, whiplike vines to inflict damage.",
+            "xy": "The target is struck with slender, whiplike vines to inflict damage.",
+            "oras": "The target is struck with slender, whiplike vines to inflict damage.",
+            "sm": "The target is struck with slender, whiplike vines to inflict damage.",
+            "usum": "The target is struck with slender, whiplike vines to inflict damage.",
+            "lgpe": "The target is struck with slender, whiplike vines to inflict damage.",
+            "swsh": "The target is struck with slender, whiplike vines to inflict damage.",
+            "la": "The target is struck with slender, whiplike vines to inflict damage.",
+            "sv": "The target is struck with slender, whiplike vines to inflict damage."
+        },
+        "french": {
+            "bw": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts.",
+            "xy": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts.",
+            "oras": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts.",
+            "sm": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts.",
+            "usum": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts.",
+            "lgpe": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts.",
+            "swsh": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts."
+        },
+        "japanese-kana": {
+            "xy": "ムチのように　しなる　ほそながい　つるで あいてを　たたきつけて　こうげきする。",
+            "oras": "ムチのように　しなる　ほそながい　つるで あいてを　たたきつけて　こうげきする。",
+            "sm": "ムチのように　しなる　ほそながい　つるで あいてを　たたきつけて　こうげきする。",
+            "usum": "ムチのように　しなる　ほそながい　つるで あいてを　たたきつけて　こうげきする。",
+            "lgpe": "ムチのように　しなる　ほそながい　つるで あいてを　たたきつけて　こうげきする。",
+            "swsh": "ムチのように　しなる　ほそながい　つるで あいてを　たたきつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다.",
+            "oras": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다.",
+            "sm": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다.",
+            "usum": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다.",
+            "lgpe": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다.",
+            "swsh": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다."
+        },
+        "german": {
+            "xy": "Peitschenähnlicher Schlag mit Ranken.",
+            "oras": "Peitschenähnlicher Schlag mit Ranken.",
+            "sm": "Peitschenähnlicher Schlag mit Ranken.",
+            "usum": "Peitschenähnlicher Schlag mit Ranken.",
+            "lgpe": "Peitschenähnlicher Schlag mit Ranken.",
+            "swsh": "Peitschenähnlicher Schlag mit Ranken."
+        },
+        "spanish": {
+            "xy": "Azota al objetivo con ramas finas.",
+            "oras": "Azota al objetivo con ramas finas.",
+            "sm": "Azota al objetivo con ramas finas.",
+            "usum": "Azota al objetivo con ramas finas.",
+            "lgpe": "Azota al objetivo con ramas finas.",
+            "swsh": "Azota al objetivo con ramas finas."
+        },
+        "italian": {
+            "xy": "Infligge danni al bersaglio con liane sottili simili a fruste.",
+            "oras": "Infligge danni al bersaglio con liane sottili simili a fruste.",
+            "sm": "Infligge danni al bersaglio con liane sottili simili a fruste.",
+            "usum": "Infligge danni al bersaglio con liane sottili simili a fruste.",
+            "lgpe": "Infligge danni al bersaglio con liane sottili simili a fruste.",
+            "swsh": "Infligge danni al bersaglio con liane sottili simili a fruste."
+        },
+        "japanese": {
+            "xy": "ムチのように　しなる　細長い　つるで 相手を　たたきつけて　攻撃する。",
+            "oras": "ムチのように　しなる　細長い　つるで 相手を　たたきつけて　攻撃する。",
+            "sm": "ムチのように　しなる　細長い　つるで 相手を　たたきつけて　攻撃する。",
+            "usum": "ムチのように　しなる　細長い　つるで 相手を　たたきつけて　攻撃する。",
+            "lgpe": "ムチのように　しなる　細長い　つるで 相手を　たたきつけて　攻撃する。",
+            "swsh": "ムチのように　しなる　細長い　つるで 相手を　たたきつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Azota al objetivo con ramas finas.",
+            "oras": "Azota al objetivo con ramas finas.",
+            "sm": "Azota al objetivo con ramas finas.",
+            "usum": "Azota al objetivo con ramas finas.",
+            "lgpe": "Azota al objetivo con ramas finas.",
+            "swsh": "Azota al objetivo con ramas finas."
+        },
+        "traditional-chinese": {
+            "sm": "將如同鞭子般彎曲而細長的藤蔓 甩向對手進行攻擊。",
+            "usum": "將如同鞭子般彎曲而細長的藤蔓 甩向對手進行攻擊。",
+            "lgpe": "將如同鞭子般彎曲而細長的藤蔓 甩向對手進行攻擊。",
+            "swsh": "將如同鞭子般彎曲而細長的藤蔓 甩向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用如同鞭子般弯曲而细长的藤蔓 摔打对手进行攻击。",
+            "usum": "用如同鞭子般弯曲而细长的藤蔓 摔打对手进行攻击。",
+            "lgpe": "用如同鞭子般弯曲而细长的藤蔓 摔打对手进行攻击。",
+            "swsh": "用如同鞭子般弯曲而细长的藤蔓 摔打对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

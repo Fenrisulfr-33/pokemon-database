@@ -1,45 +1,144 @@
 {
-  "_id": 252,
-  "key": "fake-out",
-  "name": {
-    "english": "Fake Out",
-    "japanese": "ねこだまし",
-    "chinese": "假动作",
-    "korean": "속이다",
-    "german": "Sorpresa",
-    "french": "Mogelhieb",
-    "italian": "Fake Out",
-    "spanish": "Bruciapelo"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 10,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A 1st-turn, 1st-strike move\nthat causes flinching.",
-    "emerald": "A 1st-turn, 1st-strike move\nthat causes flinching.",
-    "firered-leafgreen": "An attack that hits\nfirst and causes\nflinching. Usable\nonly on 1st turn.",
-    "diamond-pearl": "An attack that hits\nfirst and makes the\ntarget flinch.\nThis move works only\non the first turn.",
-    "platinum": "An attack that hits\nfirst and makes the\ntarget flinch.\nThis move works only\non the first turn.",
-    "heartgold-soulsilver": "An attack that hits\nfirst and makes the\ntarget flinch. It only\nworks the first turn\nthe user is in battle.",
-    "black-white": "An attack that hits first and makes the\ntarget flinch. It only works the first turn\nthe user is in battle.",
-    "black-2-white-2": "An attack that hits first and makes the\ntarget flinch. It only works the first turn\nthe user is in battle.",
-    "x-y": "An attack that hits first and makes the\ntarget flinch. It only works the first turn\nthe user is in battle.",
-    "omega-ruby-alpha-sapphire": "An attack that hits first and makes the\ntarget flinch. It only works the first turn\nthe user is in battle.",
-    "sun-moon": "This attack hits first and makes the target flinch.\nIt only works the first turn the user is in battle.",
-    "ultra-sun-ultra-moon": "This attack hits first and makes the target flinch.\nIt only works the first turn the user is in battle.",
-    "lets-go-pikachu-lets-go-eevee": "This attack hits first and makes the target flinch.\nIt only works the first turn the user is in battle.",
-    "sword-shield": "This attack hits first and makes the target flinch.\nIt only works the first turn each time the user\nenters battle."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Causes the target to flinch.  Can only be used on the user's first turn after entering the field.",
-    "shortEffect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
-  },
-  "priority": 3
+    "_id": 252,
+    "key": "fake-out",
+    "name": {
+        "japanese-kana": "ねこだまし",
+        "korean": "속이기",
+        "traditional-chinese": "擊掌奇襲",
+        "french": "Bluff",
+        "german": "Mogelhieb",
+        "spanish": "Sorpresa",
+        "italian": "Bruciapelo",
+        "english": "Fake Out",
+        "japanese": "ねこだまし",
+        "simplified-chinese": "击掌奇袭",
+        "latin-american-spanish": "Sorpresa"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 10,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 3,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 100,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A 1st-turn, 1st-strike move that causes flinching.",
+            "em": "A 1st-turn, 1st-strike move that causes flinching.",
+            "frlg": "An attack that hits first and causes flinching. Usable only on 1st turn.",
+            "dp": "An attack that hits first and makes the target flinch. This move works only on the first turn.",
+            "pt": "An attack that hits first and makes the target flinch. This move works only on the first turn.",
+            "hgss": "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "bw": "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "b2w2": "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "xy": "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "oras": "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "sm": "This attack hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "usum": "This attack hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "lgpe": "This attack hits first and makes the target flinch. It only works the first turn the user is in battle.",
+            "swsh": "This attack hits first and makes the target flinch. It only works the first turn each time the user enters battle.",
+            "la": "This attack hits first and makes the target flinch. It only works the first turn each time the user enters battle.",
+            "sv": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle."
+        },
+        "french": {
+            "bw": "Permet de frapper en premier et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+            "xy": "Permet de frapper en premier et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+            "oras": "Permet de frapper en premier et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+            "sm": "Permet de frapper en priorité et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+            "usum": "Permet de frapper en priorité et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+            "lgpe": "Permet de frapper en priorité et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+            "swsh": "Permet de frapper en priorité et apeure l’ennemi. Ne fonctionne qu’au premier tour."
+        },
+        "japanese-kana": {
+            "xy": "せんせい　こうげきで　あいてを ひるませる。せんとうに　でたら すぐに　ださないと　せいこう　しない。",
+            "oras": "せんせい　こうげきで　あいてを ひるませる。せんとうに　でたら すぐに　ださないと　せいこう　しない。",
+            "sm": "せんせい　こうげきで　あいてを ひるませる。せんとうに　でたら すぐに　ださないと　せいこう　しない。",
+            "usum": "せんせい　こうげきで　あいてを ひるませる。せんとうに　でたら すぐに　ださないと　せいこう　しない。",
+            "lgpe": "せんせい　こうげきで　あいてを ひるませる。せんとうに　でたら すぐに　ださないと　せいこう　しない。",
+            "swsh": "せんせい　こうげきで　あいてを ひるませる。せんとうに　でたら すぐに　ださないと　せいこう　しない。"
+        },
+        "korean": {
+            "xy": "선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다.",
+            "oras": "선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다.",
+            "sm": "선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다.",
+            "usum": "선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다.",
+            "lgpe": "선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다.",
+            "swsh": "선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다."
+        },
+        "german": {
+            "xy": "Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.",
+            "oras": "Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.",
+            "sm": "Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.",
+            "usum": "Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.",
+            "lgpe": "Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.",
+            "swsh": "Erstschlag-Attacke, die das Ziel zurückschrecken lässt. Gelingt nur, wenn sie sofort eingesetzt wird, nachdem der Anwender das Kampffeld betreten hat."
+        },
+        "spanish": {
+            "xy": "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "oras": "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "sm": "Movimiento de prioridad alta que, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "usum": "Movimiento de prioridad alta que, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "lgpe": "Movimiento de prioridad alta que, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "swsh": "Amedrenta al objetivo con este movimiento de prioridad alta. Solo sirve en el primer turno."
+        },
+        "italian": {
+            "xy": "Mossa che fa agire per primi e fa tentennare il bersaglio. Funziona solo appena scesi in campo.",
+            "oras": "Mossa che fa agire per primi e fa tentennare il bersaglio. Funziona solo appena scesi in campo.",
+            "sm": "Mossa ad alta priorità che fa tentennare il bersaglio. Funziona solo appena scesi in campo.",
+            "usum": "Mossa ad alta priorità che fa tentennare il bersaglio. Funziona solo appena scesi in campo.",
+            "lgpe": "Mossa ad alta priorità che fa tentennare il bersaglio. Funziona solo appena scesi in campo.",
+            "swsh": "Mossa ad alta priorità che fa tentennare il bersaglio. Funziona solo appena scesi in campo."
+        },
+        "japanese": {
+            "xy": "先制攻撃で　相手を　ひるませる。 戦闘に　でたら すぐに　ださないと　成功しない。",
+            "oras": "先制攻撃で　相手を　ひるませる。 戦闘に　でたら すぐに　ださないと　成功しない。",
+            "sm": "先制攻撃で　相手を　ひるませる。 戦闘に　でたら すぐに　ださないと　成功しない。",
+            "usum": "先制攻撃で　相手を　ひるませる。 戦闘に　でたら すぐに　ださないと　成功しない。",
+            "lgpe": "先制攻撃で　相手を　ひるませる。 戦闘に　でたら すぐに　ださないと　成功しない。",
+            "swsh": "先制攻撃で　相手を　ひるませる。 戦闘に　でたら すぐに　ださないと　成功しない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "oras": "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "sm": "Movimiento de prioridad alta que, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "usum": "Movimiento de prioridad alta que, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "lgpe": "Movimiento de prioridad alta que, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+            "swsh": "Amedrenta al objetivo con este movimiento de prioridad alta. Solo sirve en el primer turno."
+        },
+        "traditional-chinese": {
+            "sm": "利用先制攻擊使對手畏縮。 要在上場後立即使用才會成功。",
+            "usum": "利用先制攻擊使對手畏縮。 要在上場後立即使用才會成功。",
+            "lgpe": "利用先制攻擊使對手畏縮。 要在上場後立即使用才會成功。",
+            "swsh": "利用先制攻擊使對手畏縮。 要在上場後立即使用才會成功。"
+        },
+        "simplified-chinese": {
+            "sm": "进行先制攻击，使对手畏缩。 要在出场后立刻使出才能成功。",
+            "usum": "进行先制攻击，使对手畏缩。 要在出场后立刻使出才能成功。",
+            "lgpe": "进行先制攻击，使对手畏缩。 要在出场后立刻使出才能成功。",
+            "swsh": "进行先制攻击，使对手畏缩。 要在出场后立刻使出才能成功。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Causes the target to flinch.  Can only be used on the user’s first turn after entering the field.",
+        "shortEffect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
+    }
 }

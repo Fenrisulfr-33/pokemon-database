@@ -1,47 +1,150 @@
 {
-  "_id": 92,
-  "key": "toxic",
-  "name": {
-    "english": "Toxic",
-    "japanese": "どくどく",
-    "chinese": "猛毒素",
-    "korean": "맹독",
-    "german": "Tóxico",
-    "french": "Toxin",
-    "italian": "Toxic",
-    "spanish": "Tossina"
-  },
-  "type": "Poison",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "emerald": "Poisons the foe with an\nintensifying toxin.",
-    "gold-silver": "A poison move with\nincreasing damage.",
-    "crystal": "A poison move with\nincreasing damage.",
-    "ruby-sapphire": "Poisons the foe with an\nintensifying toxin.",
-    "firered-leafgreen": "A move that badly\npoisons the foe.\nIts poison damage\nworsens every turn.",
-    "diamond-pearl": "A move that leaves\nthe target badly\npoisoned.\nIts poison damage\nworsens every turn.",
-    "platinum": "A move that leaves\nthe target badly\npoisoned.\nIts poison damage\nworsens every turn.",
-    "heartgold-soulsilver": "A move that leaves\nthe target badly\npoisoned.\nIts poison damage\nworsens every turn.",
-    "black-white": "A move that leaves the target\nbadly poisoned.\nIts poison damage worsens every turn.",
-    "black-2-white-2": "A move that leaves the target\nbadly poisoned.\nIts poison damage worsens every turn.",
-    "x-y": "A move that leaves the target\nbadly poisoned.\nIts poison damage worsens every turn.",
-    "omega-ruby-alpha-sapphire": "A move that leaves the target\nbadly poisoned.\nIts poison damage worsens every turn.",
-    "sun-moon": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.",
-    "ultra-sun-ultra-moon": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.",
-    "lets-go-pikachu-lets-go-eevee": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.",
-    "sword-shield": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn."
-  },
-  "effect": {
-    "full": "Badly poisons the target.  Never misses when used by a poison-type Pokémon.",
-    "shortEffect": "Badly poisons the target, inflicting more damage every turn."
-  },
-  "priority": 0
+    "_id": 92,
+    "key": "toxic",
+    "name": {
+        "japanese-kana": "どくどく",
+        "korean": "맹독",
+        "traditional-chinese": "劇毒",
+        "french": "Toxik",
+        "german": "Toxin",
+        "spanish": "Tóxico",
+        "italian": "Tossina",
+        "english": "Toxic",
+        "japanese": "どくどく",
+        "simplified-chinese": "剧毒",
+        "latin-american-spanish": "Tóxico"
+    },
+    "type": "poison",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 15,
+        "maxTurns": 15,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 85
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A poison move with increasing damage.",
+            "cr": "A poison move with increasing damage.",
+            "rs": "Poisons the foe with an intensifying toxin.",
+            "em": "Poisons the foe with an intensifying toxin.",
+            "frlg": "A move that badly poisons the foe. Its poison damage worsens every turn.",
+            "dp": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "pt": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "hgss": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "bw": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "b2w2": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "xy": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "oras": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "sm": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "usum": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "lgpe": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "swsh": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "la": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+            "sv": "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
+        },
+        "french": {
+            "bw": "Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour.",
+            "xy": "Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour.",
+            "oras": "Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour.",
+            "sm": "Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour.",
+            "usum": "Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour.",
+            "lgpe": "Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour.",
+            "swsh": "Empoisonne gravement l’ennemi. Les dégâts dus au poison augmentent à chaque tour."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　もうどくの じょうたいに　する。ターンが　すすむほど どくの　ダメージが　ふえていく。",
+            "oras": "あいてを　もうどくの じょうたいに　する。ターンが　すすむほど どくの　ダメージが　ふえていく。",
+            "sm": "あいてを　もうどくの じょうたいに　する。　ターンが　すすむほど どくの　ダメージが　ふえていく。",
+            "usum": "あいてを　もうどくの じょうたいに　する。　ターンが　すすむほど どくの　ダメージが　ふえていく。",
+            "lgpe": "あいてを　もうどくの じょうたいに　する。　ターンが　すすむほど どくの　ダメージが　ふえていく。",
+            "swsh": "あいてを　もうどくの じょうたいに　する。　ターンが　すすむほど どくの　ダメージが　ふえていく。"
+        },
+        "korean": {
+            "xy": "상대를 맹독의 상태로 만든다. 턴이 진행될수록 독의 데미지가 증가한다.",
+            "oras": "상대를 맹독의 상태로 만든다. 턴이 진행될수록 독의 데미지가 증가한다.",
+            "sm": "상대를 맹독의 상태로 만든다. 턴이 진행될수록 독의 데미지가 증가한다.",
+            "usum": "상대를 맹독의 상태로 만든다. 턴이 진행될수록 독의 데미지가 증가한다.",
+            "lgpe": "상대를 맹독의 상태로 만든다. 턴이 진행될수록 독의 데미지가 증가한다.",
+            "swsh": "상대를 맹독의 상태로 만든다. 턴이 진행될수록 독의 데미지가 증가한다."
+        },
+        "german": {
+            "xy": "Vergiftet das Ziel mit einem potenten Toxin schwer. Vergiftung wird von Runde zu Runde stärker.",
+            "oras": "Vergiftet das Ziel mit einem potenten Toxin schwer. Vergiftung wird von Runde zu Runde stärker.",
+            "sm": "Vergiftet das Ziel mit einem potenten Toxin schwer. Die Vergiftung wird von Runde zu Runde stärker.",
+            "usum": "Vergiftet das Ziel mit einem potenten Toxin schwer. Die Vergiftung wird von Runde zu Runde stärker.",
+            "lgpe": "Vergiftet das Ziel mit einem potenten Toxin schwer. Die Vergiftung wird von Runde zu Runde stärker.",
+            "swsh": "Vergiftet das Ziel mit einem potenten Toxin schwer. Die Vergiftung wird von Runde zu Runde stärker."
+        },
+        "spanish": {
+            "xy": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "oras": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "sm": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "usum": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "lgpe": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "swsh": "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+        },
+        "italian": {
+            "xy": "Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno.",
+            "oras": "Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno.",
+            "sm": "Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno.",
+            "usum": "Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno.",
+            "lgpe": "Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno.",
+            "swsh": "Iperavvelena il bersaglio con una potente tossina. Il danno peggiora a ogni turno."
+        },
+        "japanese": {
+            "xy": "相手を　猛毒の　状態に　する。 ターンが　すすむほど 毒の　ダメージが　増えていく。",
+            "oras": "相手を　猛毒の　状態に　する。 ターンが　すすむほど 毒の　ダメージが　増えていく。",
+            "sm": "相手を　猛毒の　状態に　する。 ターンが　すすむほど 毒の　ダメージが　増えていく。",
+            "usum": "相手を　猛毒の　状態に　する。 ターンが　すすむほど 毒の　ダメージが　増えていく。",
+            "lgpe": "相手を　猛毒の　状態に　する。 ターンが　すすむほど 毒の　ダメージが　増えていく。",
+            "swsh": "相手を　猛毒の　状態に　する。 ターンが　すすむほど 毒の　ダメージが　増えていく。"
+        },
+        "latin-american-spanish": {
+            "xy": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "oras": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "sm": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "usum": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "lgpe": "Envenena gravemente al objetivo y causa un daño mayor en cada turno.",
+            "swsh": "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+        },
+        "traditional-chinese": {
+            "sm": "讓對手陷入劇毒狀態。 中毒傷害會隨著 回合的進行而增加。",
+            "usum": "讓對手陷入劇毒狀態。 中毒傷害會隨著 回合的進行而增加。",
+            "lgpe": "讓對手陷入劇毒狀態。 中毒傷害會隨著 回合的進行而增加。",
+            "swsh": "讓對手陷入劇毒狀態。 中毒傷害會隨著 回合的進行而增加。"
+        },
+        "simplified-chinese": {
+            "sm": "让对手陷入剧毒状态。 随着回合的推进， 中毒伤害会增加。",
+            "usum": "让对手陷入剧毒状态。 随着回合的推进， 中毒伤害会增加。",
+            "lgpe": "让对手陷入剧毒状态。 随着回合的推进， 中毒伤害会增加。",
+            "swsh": "让对手陷入剧毒状态。 随着回合的推进， 中毒伤害会增加。"
+        }
+    },
+    "effect": {
+        "full": "Badly poisons the target.  Never misses when used by a Poison-type Pokémon.",
+        "shortEffect": "Badly poisons the target, inflicting more damage every turn."
+    }
 }

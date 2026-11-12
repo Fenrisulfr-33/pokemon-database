@@ -1,42 +1,141 @@
 {
-  "_id": 457,
-  "key": "head-smash",
-  "name": {
-    "english": "Head Smash",
-    "japanese": "もろはのずつき",
-    "chinese": "双刃头锤",
-    "korean": "양날박치기",
-    "german": "Testarazo",
-    "french": "Kopfstoß",
-    "italian": "Head Smash",
-    "spanish": "Zuccata"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 80,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user delivers a\nlife-endangering head\nbutt at full power.\nThe user also takes\nterrible damage.",
-    "platinum": "The user delivers a\nlife-endangering head\nbutt at full power.\nThe user also takes\nterrible damage.",
-    "heartgold-soulsilver": "The user delivers a\nlife-endangering\nattack at full power.\nThe user also takes\nterrible damage.",
-    "black-white": "The user attacks the target with a\nhazardous, full-power headbutt.\nThe user also takes terrible damage.",
-    "black-2-white-2": "The user attacks the target with a\nhazardous, full-power headbutt.\nThe user also takes terrible damage.",
-    "x-y": "The user attacks the target with a\nhazardous, full-power headbutt.\nThis also damages the user terribly.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with a\nhazardous, full-power headbutt.\nThis also damages the user terribly.",
-    "sun-moon": "The user attacks the target with a hazardous,\nfull-power headbutt. This also damages the\nuser terribly.",
-    "ultra-sun-ultra-moon": "The user attacks the target with a hazardous,\nfull-power headbutt. This also damages the\nuser terribly.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with a hazardous,\nfull-power headbutt. This also damages the\nuser terribly.",
-    "sword-shield": "The user attacks the target with a hazardous,\nfull-power headbutt. This also damages the\nuser terribly."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/2 the damage it inflicts in recoil.",
-    "shortEffect": "User receives 1/2 the damage inflicted in recoil."
-  },
-  "priority": 0
+    "_id": 457,
+    "key": "head-smash",
+    "name": {
+        "japanese-kana": "もろはのずつき",
+        "korean": "양날박치기",
+        "traditional-chinese": "雙刃頭錘",
+        "french": "Fracass’Tête",
+        "german": "Kopfstoß",
+        "spanish": "Testarazo",
+        "italian": "Zuccata",
+        "english": "Head Smash",
+        "japanese": "もろはのずつき",
+        "simplified-chinese": "双刃头锤",
+        "latin-american-spanish": "Topetazo"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 80,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -50,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user delivers a life-endangering head butt at full power. The user also takes terrible damage.",
+            "pt": "The user delivers a life-endangering head butt at full power. The user also takes terrible damage.",
+            "hgss": "The user delivers a life-endangering attack at full power. The user also takes terrible damage.",
+            "bw": "The user attacks the target with a hazardous, full-power headbutt. The user also takes terrible damage.",
+            "b2w2": "The user attacks the target with a hazardous, full-power headbutt. The user also takes terrible damage.",
+            "xy": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.",
+            "oras": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.",
+            "sm": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.",
+            "usum": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.",
+            "lgpe": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.",
+            "swsh": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.",
+            "la": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user.",
+            "sv": "The user attacks the target with a hazardous full-power headbutt. This also damages the user terribly."
+        },
+        "french": {
+            "bw": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.",
+            "xy": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.",
+            "oras": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.",
+            "sm": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.",
+            "usum": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.",
+            "lgpe": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.",
+            "swsh": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。じぶんも ものすごい　ダメージを　うける。",
+            "oras": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。じぶんも ものすごい　ダメージを　うける。",
+            "sm": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。　じぶんも ものすごい　ダメージを　うける。",
+            "usum": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。　じぶんも ものすごい　ダメージを　うける。",
+            "lgpe": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。　じぶんも ものすごい　ダメージを　うける。",
+            "swsh": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。　じぶんも ものすごい　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "목숨을 걸고 혼신의 힘으로 상대에게 박치기를 한다. 자신도 굉장한 데미지를 입는다.",
+            "oras": "목숨을 걸고 혼신의 힘으로 상대에게 박치기를 한다. 자신도 굉장한 데미지를 입는다.",
+            "sm": "목숨을 걸고 혼신의 힘으로 상대에게 박치기를 한다. 자신도 굉장한 데미지를 입는다.",
+            "usum": "목숨을 걸고 혼신의 힘으로 상대에게 박치기를 한다. 자신도 굉장한 데미지를 입는다.",
+            "lgpe": "목숨을 걸고 혼신의 힘으로 상대에게 박치기를 한다. 자신도 굉장한 데미지를 입는다.",
+            "swsh": "목숨을 걸고 혼신의 힘으로 상대에게 박치기를 한다. 자신도 굉장한 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Anwender greift unter Einsatz seines Lebens mit einem Kopfstoß an und nimmt dabei selbst jede Menge Schaden.",
+            "oras": "Anwender greift unter Einsatz seines Lebens mit einem Kopfstoß an und nimmt dabei selbst jede Menge Schaden.",
+            "sm": "Anwender greift unter Einsatz seines Lebens mit einem Kopfstoß an und nimmt dabei selbst jede Menge Schaden.",
+            "usum": "Anwender greift unter Einsatz seines Lebens mit einem Kopfstoß an und nimmt dabei selbst jede Menge Schaden.",
+            "lgpe": "Anwender greift unter Einsatz seines Lebens mit einem Kopfstoß an und nimmt dabei selbst jede Menge Schaden.",
+            "swsh": "Anwender greift unter Einsatz seines Lebens mit einem Kopfstoß an und nimmt dabei selbst jede Menge Schaden."
+        },
+        "spanish": {
+            "xy": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "oras": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "sm": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "usum": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "lgpe": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "swsh": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.",
+            "oras": "Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.",
+            "sm": "Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.",
+            "usum": "Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.",
+            "lgpe": "Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.",
+            "swsh": "Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli."
+        },
+        "japanese": {
+            "xy": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。自分も ものすごい　ダメージを　受ける。",
+            "oras": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。自分も ものすごい　ダメージを　受ける。",
+            "sm": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。　自分も ものすごい　ダメージを　受ける。",
+            "usum": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。　自分も ものすごい　ダメージを　受ける。",
+            "lgpe": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。　自分も ものすごい　ダメージを　受ける。",
+            "swsh": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。　自分も ものすごい　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "oras": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "sm": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "usum": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "lgpe": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+            "swsh": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado."
+        },
+        "traditional-chinese": {
+            "sm": "使出渾身力量， 捨身向對手進行頭錘攻擊。 自己也會受到非常大的傷害。",
+            "usum": "使出渾身力量， 捨身向對手進行頭錘攻擊。 自己也會受到非常大的傷害。",
+            "lgpe": "使出渾身力量， 捨身向對手進行頭錘攻擊。 自己也會受到非常大的傷害。",
+            "swsh": "使出渾身力量， 捨身向對手進行頭錘攻擊。 自己也會受到非常大的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "拼命使出浑身力气， 向对手进行头锤攻击。 自己也会受到非常大的伤害。",
+            "usum": "拼命使出浑身力气， 向对手进行头锤攻击。 自己也会受到非常大的伤害。",
+            "lgpe": "拼命使出浑身力气， 向对手进行头锤攻击。 自己也会受到非常大的伤害。",
+            "swsh": "拼命使出浑身力气， 向对手进行头锤攻击。 自己也会受到非常大的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/2 the damage it inflicts in recoil.",
+        "shortEffect": "User receives 1/2 the damage inflicted in recoil."
+    }
 }

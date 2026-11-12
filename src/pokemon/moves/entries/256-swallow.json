@@ -1,45 +1,144 @@
 {
-  "_id": 256,
-  "key": "swallow",
-  "name": {
-    "english": "Swallow",
-    "japanese": "のみこむ",
-    "chinese": "吞下",
-    "korean": "꿀꺽",
-    "german": "Tragar",
-    "french": "Verzehrer",
-    "italian": "Swallow",
-    "spanish": "Introenergia"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Absorbs stockpiled power\nand restores HP.",
-    "emerald": "Absorbs stockpiled power\nand restores HP.",
-    "firered-leafgreen": "The energy it built\nusing STOCKPILE is\nabsorbed to restore\nHP.",
-    "diamond-pearl": "The power stored\nusing the move\nStockpile is absorbed\nby the user to heal\nits HP.",
-    "platinum": "The power stored\nusing the move\nStockpile is absorbed\nby the user to heal\nits HP.",
-    "heartgold-soulsilver": "The power stored\nusing the move\nStockpile is absorbed\nby the user to heal\nits HP.",
-    "black-white": "The power stored using the move Stockpile\nis absorbed by the user to heal its HP.\nStoring more power heals more HP.",
-    "black-2-white-2": "The power stored using the move Stockpile\nis absorbed by the user to heal its HP.\nStoring more power heals more HP.",
-    "x-y": "The power stored using the move Stockpile\nis absorbed by the user to heal its HP.\nStoring more power heals more HP.",
-    "omega-ruby-alpha-sapphire": "The power stored using the move Stockpile\nis absorbed by the user to heal its HP.\nStoring more power heals more HP.",
-    "sun-moon": "The power stored using the move Stockpile is\nabsorbed by the user to heal its HP. Storing more\npower heals more HP.",
-    "ultra-sun-ultra-moon": "The power stored using the move Stockpile is\nabsorbed by the user to heal its HP. Storing more\npower heals more HP.",
-    "lets-go-pikachu-lets-go-eevee": "The power stored using the move Stockpile is\nabsorbed by the user to heal its HP. Storing more\npower heals more HP.",
-    "sword-shield": "The power stored using the move Stockpile is\nabsorbed by the user to heal its HP. Storing more\npower heals more HP."
-  },
-  "effect": {
-    "full": "Heals the user depending on the amount of energy stored by stockpile: 1/4 its max HP after one use, 1/2 its max HP after two uses, or fully after three uses.  Stored energy is consumed, and the user's Defense and Special Defense are reset to what they would be if stockpile had not been used.  If the user has no energy stored, this move will fail.",
-    "shortEffect": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
-  },
-  "priority": 0
+    "_id": 256,
+    "key": "swallow",
+    "name": {
+        "japanese-kana": "のみこむ",
+        "korean": "꿀꺽",
+        "traditional-chinese": "吞下",
+        "french": "Avale",
+        "german": "Verzehrer",
+        "spanish": "Tragar",
+        "italian": "Introenergia",
+        "english": "Swallow",
+        "japanese": "のみこむ",
+        "simplified-chinese": "吞下",
+        "latin-american-spanish": "Tragar"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 25,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Absorbs stockpiled power and restores HP.",
+            "em": "Absorbs stockpiled power and restores HP.",
+            "frlg": "The energy it built using STOCKPILE is absorbed to restore HP.",
+            "dp": "The power stored using the move Stockpile is absorbed by the user to heal its HP.",
+            "pt": "The power stored using the move Stockpile is absorbed by the user to heal its HP.",
+            "hgss": "The power stored using the move Stockpile is absorbed by the user to heal its HP.",
+            "bw": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "b2w2": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "xy": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "oras": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "sm": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "usum": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "lgpe": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "swsh": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "la": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+            "sv": "The power stored using the move Stockpile is absorbed by the user to restore its own HP. The more power is stored, the more HP is restored."
+        },
+        "french": {
+            "bw": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.",
+            "xy": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.",
+            "oras": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.",
+            "sm": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.",
+            "usum": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.",
+            "lgpe": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.",
+            "swsh": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV."
+        },
+        "japanese-kana": {
+            "xy": "たくわえた　ちからを　のみこんで じぶんの　ＨＰを　かいふく　する。 たくわえて　いるほど　かいふく　する。",
+            "oras": "たくわえた　ちからを　の こんで じぶんの　ＨＰを　かいふく　する。 たくわえて　いるほど　かいふく　する。",
+            "sm": "たくわえた　ちからを　のみこんで じぶんの　ＨＰを　かいふく　する。 たくわえて　いるほど　かいふく　する。",
+            "usum": "たくわえた　ちからを　のみこんで じぶんの　ＨＰを　かいふく　する。 たくわえて　いるほど　かいふく　する。",
+            "lgpe": "たくわえた　ちからを　のみこんで じぶんの　ＨＰを　かいふく　する。 たくわえて　いるほど　かいふく　する。",
+            "swsh": "たくわえた　ちからを　のみこんで じぶんの　ＨＰを　かいふく　する。 たくわえて　いるほど　かいふく　する。"
+        },
+        "korean": {
+            "xy": "비축된 힘을 꿀꺽해서 자신의 HP를 회복한다. 비축된 만큼 회복한다.",
+            "oras": "비축된 힘을 꿀꺽해서 자신의 HP를 회복한다. 비축된 만큼 회복한다.",
+            "sm": "비축된 힘을 꿀꺽해서 자신의 HP를 회복한다. 비축된 만큼 회복한다.",
+            "usum": "비축된 힘을 꿀꺽해서 자신의 HP를 회복한다. 비축된 만큼 회복한다.",
+            "lgpe": "비축된 힘을 꿀꺽해서 자신의 HP를 회복한다. 비축된 만큼 회복한다.",
+            "swsh": "비축된 힘을 꿀꺽해서 자신의 HP를 회복한다. 비축된 만큼 회복한다."
+        },
+        "german": {
+            "xy": "Absorbiert die gehortete Kraft, um KP aufzufüllen.",
+            "oras": "Absorbiert die gehortete Kraft, um KP aufzufüllen.",
+            "sm": "Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.",
+            "usum": "Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.",
+            "lgpe": "Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.",
+            "swsh": "Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt."
+        },
+        "spanish": {
+            "xy": "Absorbe la energía acumulada con Reserva y restaura PS.",
+            "oras": "Absorbe la energía acumulada con Reserva y restaura PS.",
+            "sm": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.",
+            "usum": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.",
+            "lgpe": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.",
+            "swsh": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen."
+        },
+        "italian": {
+            "xy": "Chi la usa assorbe l’energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l’energia, più PS si recuperano.",
+            "oras": "Chi la usa assorbe l’energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l’energia, più PS si recuperano.",
+            "sm": "Chi la usa assorbe l’energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l’energia, più PS si recuperano.",
+            "usum": "Chi la usa assorbe l’energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l’energia, più PS si recuperano.",
+            "lgpe": "Chi la usa assorbe l’energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l’energia, più PS si recuperano.",
+            "swsh": "Chi la usa assorbe l’energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l’energia, più PS si recuperano."
+        },
+        "japanese": {
+            "xy": "蓄えた　力を　のみこんで 自分の　ＨＰを　回復する。 蓄えているほど　回復する。",
+            "oras": "蓄えた　力を　の こんで 自分の　ＨＰを　回復する。 蓄えているほど　回復する。",
+            "sm": "蓄えた　力を　のみこんで 自分の　ＨＰを　回復する。 蓄えているほど　回復する。",
+            "usum": "蓄えた　力を　のみこんで 自分の　ＨＰを　回復する。 蓄えているほど　回復する。",
+            "lgpe": "蓄えた　力を　のみこんで 自分の　ＨＰを　回復する。 蓄えているほど　回復する。",
+            "swsh": "蓄えた　力を　のみこんで 自分の　ＨＰを　回復する。 蓄えているほど　回復する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Absorbe la energía acumulada con Reserva y restaura PS.",
+            "oras": "Absorbe la energía acumulada con Reserva y restaura PS.",
+            "sm": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.",
+            "usum": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.",
+            "lgpe": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.",
+            "swsh": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen."
+        },
+        "traditional-chinese": {
+            "sm": "將蓄積的力量吞下， 回復自己的ＨＰ。 蓄積得越多，回復越多。",
+            "usum": "將蓄積的力量吞下， 回復自己的ＨＰ。 蓄積得越多，回復越多。",
+            "lgpe": "將蓄積的力量吞下， 回復自己的HP。 蓄積得越多，回復越多。",
+            "swsh": "將蓄積的力量吞下， 回復自己的ＨＰ。 蓄積得越多，回復越多。"
+        },
+        "simplified-chinese": {
+            "sm": "将积蓄的力量吞下， 从而回复自己的ＨＰ。 积蓄得越多，回复越大。",
+            "usum": "将积蓄的力量吞下， 从而回复自己的ＨＰ。 积蓄得越多，回复越大。",
+            "lgpe": "将积蓄的力量吞下， 从而回复自己的HP。 积蓄得越多，回复越大。",
+            "swsh": "将积蓄的力量吞下， 从而回复自己的ＨＰ。 积蓄得越多，回复越大。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user depending on the amount of energy stored by Stockpile: 1/4 its max HP after one use, 1/2 its max HP after two uses, or fully after three uses.  Stored energy is consumed, and the user’s Defense and Special Defense are reset to what they would be if Stockpile had not been used.  If the user has no energy stored, this move will fail.",
+        "shortEffect": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
+    }
 }

@@ -1,37 +1,135 @@
 {
-  "_id": 571,
-  "key": "forests-curse",
-  "name": {
-    "english": "Forest's Curse",
-    "japanese": "もりののろい",
-    "chinese": "森林诅咒",
-    "korean": "숲의저주",
-    "german": "Condena Silvana",
-    "french": "Waldesfluch",
-    "italian": "Forest’s Curse",
-    "spanish": "Boscomalocchio"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user puts a forest curse on the target.\nAfflicted targets are now Grass type as well.",
-    "omega-ruby-alpha-sapphire": "The user puts a forest curse on the target.\nAfflicted targets are now Grass type as well.",
-    "sun-moon": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
-    "ultra-sun-ultra-moon": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
-    "lets-go-pikachu-lets-go-eevee": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
-    "sword-shield": "The user puts a forest curse on the target.\nThe target is now Grass type as well."
-  },
-  "effect": {
-    "full": "Adds grass to the target's types.",
-    "shortEffect": "Adds grass to the target's types."
-  },
-  "priority": 0
+    "_id": 571,
+    "key": "forests-curse",
+    "name": {
+        "japanese-kana": "もりののろい",
+        "korean": "숲의저주",
+        "traditional-chinese": "森林詛咒",
+        "french": "Maléfice Sylvain",
+        "german": "Waldesfluch",
+        "spanish": "Condena Silvana",
+        "italian": "Boscomalocchio",
+        "english": "Forest’s Curse",
+        "japanese": "もりののろい",
+        "simplified-chinese": "森林咒术",
+        "latin-american-spanish": "Condena Silvana"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "あいてに　もりののろいを　かける。 のろいを　かけられた　あいては タイプに　くさタイプが　ついかされる。",
+            "oras": "あいてに　もりののろいを　かける。 のろいを　かけられた　あいては タイプに　くさタイプが　ついかされる。",
+            "sm": "あいてに　もりののろいを　かける。 のろいを　かけられた　あいては タイプに　くさタイプが　ついかされる。",
+            "usum": "あいてに　もりののろいを　かける。 のろいを　かけられた　あいては タイプに　くさタイプが　ついかされる。",
+            "lgpe": "あいてに　もりののろいを　かける。 のろいを　かけられた　あいては タイプに　くさタイプが　ついかされる。",
+            "swsh": "あいてに　もりののろいを　かける。 のろいを　かけられた　あいては タイプに　くさタイプが　ついかされる。"
+        },
+        "korean": {
+            "xy": "상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.",
+            "oras": "상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.",
+            "sm": "상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.",
+            "usum": "상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.",
+            "lgpe": "상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.",
+            "swsh": "상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다."
+        },
+        "french": {
+            "xy": "La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels.",
+            "oras": "La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels.",
+            "sm": "La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels.",
+            "usum": "La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels.",
+            "lgpe": "La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels.",
+            "swsh": "La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels."
+        },
+        "german": {
+            "xy": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt.",
+            "oras": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt.",
+            "sm": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt.",
+            "usum": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt.",
+            "lgpe": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt.",
+            "swsh": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt."
+        },
+        "spanish": {
+            "xy": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "oras": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "sm": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "usum": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "lgpe": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "swsh": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales."
+        },
+        "italian": {
+            "xy": "Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.",
+            "oras": "Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.",
+            "sm": "Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.",
+            "usum": "Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.",
+            "lgpe": "Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.",
+            "swsh": "Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba."
+        },
+        "english": {
+            "xy": "The user puts a forest curse on the target. Afflicted targets are now Grass type as well.",
+            "oras": "The user puts a forest curse on the target. Afflicted targets are now Grass type as well.",
+            "sm": "The user puts a forest curse on the target. The target is now Grass type as well.",
+            "usum": "The user puts a forest curse on the target. The target is now Grass type as well.",
+            "lgpe": "The user puts a forest curse on the target. The target is now Grass type as well.",
+            "swsh": "The user puts a forest curse on the target. The target is now Grass type as well.",
+            "la": "The user puts a forest curse on the target. The target is now Grass type as well.",
+            "sv": "The user puts a forest curse on the target. This adds Grass type to the target's type."
+        },
+        "japanese": {
+            "xy": "相手に　森ののろいを　かける。 のろいを　かけられた　相手は タイプに　くさタイプが　追加される。",
+            "oras": "相手に　森ののろいを　かける。 のろいを　かけられた　相手は タイプに　くさタイプが　追加される。",
+            "sm": "相手に　森ののろいを　かける。 のろいを　かけられた　相手は タイプに　くさタイプが　追加される。",
+            "usum": "相手に　森ののろいを　かける。 のろいを　かけられた　相手は タイプに　くさタイプが　追加される。",
+            "lgpe": "相手に　森ののろいを　かける。 のろいを　かけられた　相手は タイプに　くさタイプが　追加される。",
+            "swsh": "相手に　森ののろいを　かける。 のろいを　かけられた　相手は タイプに　くさタイプが　追加される。"
+        },
+        "latin-american-spanish": {
+            "xy": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "oras": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "sm": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "usum": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "lgpe": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+            "swsh": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales."
+        },
+        "traditional-chinese": {
+            "sm": "向對手施加森林詛咒。 中了詛咒的對手 會被追加草屬性。",
+            "usum": "向對手施加森林詛咒。 中了詛咒的對手 會被追加草屬性。",
+            "lgpe": "向對手施加森林詛咒。 中了詛咒的對手 會被追加草屬性。",
+            "swsh": "向對手施加森林詛咒。 中了詛咒的對手 會被追加草屬性。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手施加森林诅咒。 中了诅咒的对手 会被追加草属性。",
+            "usum": "向对手施加森林诅咒。 中了诅咒的对手 会被追加草属性。",
+            "lgpe": "向对手施加森林诅咒。 中了诅咒的对手 会被追加草属性。",
+            "swsh": "向对手施加森林诅咒。 中了诅咒的对手 会被追加草属性。"
+        }
+    },
+    "effect": {
+        "full": "Adds Grass to the target’s types.",
+        "shortEffect": "Adds Grass to the target’s types."
+    }
 }

@@ -1,39 +1,142 @@
 {
-  "_id": 490,
-  "key": "low-sweep",
-  "name": {
-    "english": "Low Sweep",
-    "japanese": "ローキック",
-    "chinese": "低空踢",
-    "korean": "로킥",
-    "german": "Puntapié",
-    "french": "Fußtritt",
-    "italian": "Low Sweep",
-    "spanish": "Calciobasso"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks the target’s legs\nswiftly, reducing the target’s\nSpeed stat.",
-    "black-2-white-2": "The user attacks the target’s legs\nswiftly, reducing the target’s\nSpeed stat.",
-    "x-y": "The user makes a swift attack on the target’s legs,\nwhich lowers the target’s Speed stat.",
-    "omega-ruby-alpha-sapphire": "The user makes a swift attack on the target’s legs,\nwhich lowers the target’s Speed stat.",
-    "sun-moon": "The user makes a swift attack on the target’s legs,\nwhich lowers the target’s Speed stat.",
-    "ultra-sun-ultra-moon": "The user makes a swift attack on the target’s legs,\nwhich lowers the target’s Speed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user makes a swift attack on the target’s legs,\nwhich lowers the target’s Speed stat.",
-    "sword-shield": "The user makes a swift attack on the target’s legs,\nwhich lowers the target’s Speed stat."
-  },
-  "effect": {
-    "full": "Lowers the target's Speed by one stage.",
-    "shortEffect": "Lowers the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 490,
+    "key": "low-sweep",
+    "name": {
+        "japanese-kana": "ローキック",
+        "korean": "로킥",
+        "traditional-chinese": "下盤踢",
+        "french": "Balayette",
+        "german": "Fußtritt",
+        "spanish": "Puntapié",
+        "italian": "Calciobasso",
+        "english": "Low Sweep",
+        "japanese": "ローキック",
+        "simplified-chinese": "下盘踢",
+        "latin-american-spanish": "Barredora"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {
+        "xy": {
+            "power": 60
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Un coup rapide qui vise les pieds de l’ennemi et diminue sa Vitesse.",
+            "xy": "Un coup rapide qui vise les pieds de l’ennemi et diminue sa Vitesse.",
+            "oras": "Un coup rapide qui vise les pieds de l’ennemi et diminue sa Vitesse.",
+            "sm": "Un coup rapide qui affecte la mobilité de l’ennemi et diminue sa Vitesse.",
+            "usum": "Un coup rapide qui affecte la mobilité de l’ennemi et diminue sa Vitesse.",
+            "lgpe": "Un coup rapide qui affecte la mobilité de l’ennemi et diminue sa Vitesse.",
+            "swsh": "Un coup rapide qui affecte la mobilité de l’ennemi et diminue sa Vitesse."
+        },
+        "english": {
+            "bw": "The user attacks the target’s legs swiftly, reducing the target’s Speed stat.",
+            "b2w2": "The user attacks the target’s legs swiftly, reducing the target’s Speed stat.",
+            "xy": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.",
+            "oras": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.",
+            "sm": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.",
+            "usum": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.",
+            "lgpe": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.",
+            "swsh": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.",
+            "la": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
+            "sv": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat."
+        },
+        "japanese-kana": {
+            "xy": "すばやい　うごきで　あいての　あしを ねらって　こうげきする。 あいての　すばやさを　さげる。",
+            "oras": "すばやい　うごきで　あいての　あしを ねらって　こうげきする。 あいての　すばやさを　さげる。",
+            "sm": "すばやい　うごきで　あいての　あしを ねらって　こうげきする。 あいての　すばやさを　さげる。",
+            "usum": "すばやい　うごきで　あいての　あしを ねらって　こうげきする。 あいての　すばやさを　さげる。",
+            "lgpe": "すばやい　うごきで　あいての　あしを ねらって　こうげきする。 あいての　すばやさを　さげる。",
+            "swsh": "すばやい　うごきで　あいての　あしを ねらって　こうげきする。 あいての　すばやさを　さげる。"
+        },
+        "korean": {
+            "xy": "재빠른 움직임으로 상대의 다리를 노려 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "oras": "재빠른 움직임으로 상대의 다리를 노려 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "sm": "재빠른 움직임으로 상대의 다리를 노려 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "usum": "재빠른 움직임으로 상대의 다리를 노려 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "lgpe": "재빠른 움직임으로 상대의 다리를 노려 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "swsh": "재빠른 움직임으로 상대의 다리를 노려 공격한다. 상대의 스피드를 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Anwender greift mit blitzschnellen Bewegungen die Beine des Zieles an und senkt dessen Initiative.",
+            "oras": "Anwender greift mit blitzschnellen Bewegungen die Beine des Zieles an und senkt dessen Initiative.",
+            "sm": "Anwender greift mit blitzschnellen Bewegungen die Beine des Zieles an und senkt dessen Initiative.",
+            "usum": "Anwender greift mit blitzschnellen Bewegungen die Beine des Zieles an und senkt dessen Initiative.",
+            "lgpe": "Anwender greift mit blitzschnellen Bewegungen die Beine des Zieles an und senkt dessen Initiative.",
+            "swsh": "Anwender greift mit blitzschnellen Bewegungen die Beine des Zieles an und senkt dessen Initiative."
+        },
+        "spanish": {
+            "xy": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "oras": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "sm": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "usum": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "lgpe": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "swsh": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.",
+            "oras": "Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.",
+            "sm": "Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.",
+            "usum": "Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.",
+            "lgpe": "Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.",
+            "swsh": "Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità."
+        },
+        "japanese": {
+            "xy": "素早い　動きで　相手の　足を ねらって　攻撃する。 相手の　素早さを　さげる。",
+            "oras": "素早い　動きで　相手の　足を ねらって　攻撃する。 相手の　素早さを　さげる。",
+            "sm": "素早い　動きで　相手の　足を ねらって　攻撃する。 相手の　素早さを　さげる。",
+            "usum": "素早い　動きで　相手の　足を ねらって　攻撃する。 相手の　素早さを　さげる。",
+            "lgpe": "素早い　動きで　相手の　足を ねらって　攻撃する。 相手の　素早さを　さげる。",
+            "swsh": "素早い　動きで　相手の　足を ねらって　攻撃する。 相手の　素早さを　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "oras": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "sm": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "usum": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "lgpe": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+            "swsh": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "瞄準對手的腳， 以敏捷的動作進行攻擊。 可降低對手的速度。",
+            "usum": "瞄準對手的腳， 以敏捷的動作進行攻擊。 可降低對手的速度。",
+            "lgpe": "瞄準對手的腳， 以敏捷的動作進行攻擊。 可降低對手的速度。",
+            "swsh": "瞄準對手的腳， 以敏捷的動作進行攻擊。 可降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "以敏捷的动作瞄准 对手的脚进行攻击。 降低对手的速度。",
+            "usum": "以敏捷的动作瞄准 对手的脚进行攻击。 降低对手的速度。",
+            "lgpe": "以敏捷的动作瞄准 对手的脚进行攻击。 降低对手的速度。",
+            "swsh": "以敏捷的动作瞄准 对手的脚进行攻击。 降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Speed by one stage.",
+        "shortEffect": "Lowers the target’s Speed by one stage."
+    }
 }

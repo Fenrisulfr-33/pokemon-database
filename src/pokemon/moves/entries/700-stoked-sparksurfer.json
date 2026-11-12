@@ -1,35 +1,115 @@
 {
-  "_id": 700,
-  "key": "stoked-sparksurfer",
-  "name": {
-    "english": "Stoked Sparksurfer",
-    "japanese": "ライトニングサーフライド",
-    "chinese": "駕雷馭電戲衝浪",
-    "korean": "라이트닝서프라이드",
-    "german": "Surfeo Galvánico",
-    "french": "Blitz-Wellenritt",
-    "italian": "Stoked Sparksurfer",
-    "spanish": "Elettrosurf Folgorante"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": null,
-  "pp": 1,
-  "power": 175,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move leaves\nthe target with paralysis.",
-    "ultra-sun-ultra-moon": "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move leaves\nthe target with paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move leaves\nthe target with paralysis.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 700,
+    "key": "stoked-sparksurfer",
+    "name": {
+        "japanese-kana": "ライトニングサーフライド",
+        "korean": "라이트닝서프라이드",
+        "traditional-chinese": "駕雷馭電戲衝浪",
+        "french": "Électro-Surf Survolté",
+        "german": "Blitz-Wellenritt",
+        "spanish": "Surfeo Galvánico",
+        "italian": "Elettrosurf Folgorante",
+        "english": "Stoked Sparksurfer",
+        "japanese": "ライトニングサーフライド",
+        "simplified-chinese": "驾雷驭电戏冲浪",
+        "latin-american-spanish": "Surfeo Galvánico"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": null,
+    "pp": 1,
+    "power": 175,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "Ｚパワーを　えた　アローラちほうの ライチュウが　ぜんりょくで　こうげきする。 あいてを　まひ　じょうたいに　する。",
+            "usum": "Ｚパワーを　えた　アローラちほうの ライチュウが　ぜんりょくで　こうげきする。 あいてを　まひ　じょうたいに　する。",
+            "lgpe": "Ｚパワーを　えた　アローラちほうの ライチュウが　ぜんりょくで　こうげきする。 あいてを　まひ　じょうたいに　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "sm": "Z파워를 얻은 알로라지방의 라이츄가 전력으로 공격한다. 상대를 마비 상태로 만든다.",
+            "usum": "Z파워를 얻은 알로라지방의 라이츄가 전력으로 공격한다. 상대를 마비 상태로 만든다.",
+            "lgpe": "Z파워를 얻은 알로라지방의 라이츄가 전력으로 공격한다. 상대를 마비 상태로 만든다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "sm": "得到Ｚ力量的阿羅拉地區的 雷丘全力進行攻擊。 讓對手陷入麻痺狀態。",
+            "usum": "得到Ｚ力量的阿羅拉地區的 雷丘全力進行攻擊。 讓對手陷入麻痺狀態。",
+            "lgpe": "得到Ｚ力量的阿羅拉地區的 雷丘全力進行攻擊。 讓對手陷入麻痺狀態。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "sm": "Le Raichu de la région d’Alola utilise la Force Z pour frapper la cible et la paralyser.",
+            "usum": "Le Raichu de la région d’Alola utilise la Force Z pour frapper la cible et la paralyser.",
+            "lgpe": "Le Raichu de la région d’Alola utilise la Force Z pour frapper la cible et la paralyser.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "sm": "Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.",
+            "usum": "Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.",
+            "lgpe": "Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "sm": "Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado.",
+            "usum": "Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado.",
+            "lgpe": "Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "sm": "Grazie al Potere Z, il Raichu di Alola attacca con tutta la sua potenza e paralizza il bersaglio.",
+            "usum": "Grazie al Potere Z, il Raichu di Alola attacca con tutta la sua potenza e paralizza il bersaglio.",
+            "lgpe": "Grazie al Potere Z, il Raichu di Alola attacca con tutta la sua potenza e paralizza il bersaglio.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "sm": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
+            "usum": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
+            "lgpe": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "sm": "Ｚパワーを　得た　アローラ地方の ライチュウが　全力で　攻撃する。 相手を　まひ　状態に　する。",
+            "usum": "Ｚパワーを　得た　アローラ地方の ライチュウが　全力で　攻撃する。 相手を　まひ　状態に　する。",
+            "lgpe": "Ｚパワーを　得た　アローラ地方の ライチュウが　全力で　攻撃する。 相手を　まひ　状態に　する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "sm": "得到Ｚ力量的阿罗拉地区的 雷丘将全力进行攻击。 从而让对手陷入麻痹状态。",
+            "usum": "得到Ｚ力量的阿罗拉地区的 雷丘将全力进行攻击。 从而让对手陷入麻痹状态。",
+            "lgpe": "得到Ｚ力量的阿罗拉地区的 雷丘将全力进行攻击。 从而让对手陷入麻痹状态。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "sm": "Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado.",
+            "usum": "Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado.",
+            "lgpe": "Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

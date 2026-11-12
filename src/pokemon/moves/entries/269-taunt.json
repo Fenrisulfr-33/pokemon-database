@@ -1,45 +1,144 @@
 {
-  "_id": 269,
-  "key": "taunt",
-  "name": {
-    "english": "Taunt",
-    "japanese": "ちょうはつ",
-    "chinese": "挑拨",
-    "korean": "도발",
-    "german": "Mofa",
-    "french": "Verhöhner",
-    "italian": "Taunt",
-    "spanish": "Provocazione"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Taunts the foe into only\nusing attack moves.",
-    "emerald": "Taunts the foe into only\nusing attack moves.",
-    "firered-leafgreen": "The foe is taunted\ninto a rage that\nallows it to use\nonly attack moves.",
-    "diamond-pearl": "The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for two\nto four turns.",
-    "platinum": "The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for two\nto four turns.",
-    "heartgold-soulsilver": "The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for two\nto four turns.",
-    "black-white": "The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.",
-    "black-2-white-2": "The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.",
-    "x-y": "The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.",
-    "omega-ruby-alpha-sapphire": "The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.",
-    "sun-moon": "The target is taunted into a rage that allows it to use\nonly attack moves for three turns.",
-    "ultra-sun-ultra-moon": "The target is taunted into a rage that allows it to use\nonly attack moves for three turns.",
-    "lets-go-pikachu-lets-go-eevee": "The target is taunted into a rage that allows it to use\nonly attack moves for three turns.",
-    "sword-shield": "The target is taunted into a rage that allows it to use\nonly attack moves for three turns."
-  },
-  "effect": {
-    "full": "Target is forced to only use damaging moves for the next 3–5 turns, selected at random.  Moves that select other moves not known in advance do not count as damaging.\n\nassist, copycat, me first, metronome, mirror move, and sleep talk do not directly inflict damage and thus may not be used.\n\nbide, counter, endeavor, metal burst, and mirror coat are allowed.",
-    "shortEffect": "For the next few turns, the target can only use damaging moves."
-  },
-  "priority": 0
+    "_id": 269,
+    "key": "taunt",
+    "name": {
+        "japanese-kana": "ちょうはつ",
+        "korean": "도발",
+        "traditional-chinese": "挑釁",
+        "french": "Provoc",
+        "german": "Verhöhner",
+        "spanish": "Mofa",
+        "italian": "Provocazione",
+        "english": "Taunt",
+        "japanese": "ちょうはつ",
+        "simplified-chinese": "挑衅",
+        "latin-american-spanish": "Provocación"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Taunts the foe into only using attack moves.",
+            "em": "Taunts the foe into only using attack moves.",
+            "frlg": "The foe is taunted into a rage that allows it to use only attack moves.",
+            "dp": "The foe is taunted into a rage that allows it to use only attack moves for two to four turns.",
+            "pt": "The foe is taunted into a rage that allows it to use only attack moves for two to four turns.",
+            "hgss": "The foe is taunted into a rage that allows it to use only attack moves for two to four turns.",
+            "bw": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "b2w2": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "xy": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "oras": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "sm": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "usum": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "lgpe": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "swsh": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "la": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+            "sv": "The target is taunted into a rage that allows it to use only attack moves for three turns."
+        },
+        "french": {
+            "bw": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant 3 tours.",
+            "xy": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.",
+            "oras": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.",
+            "sm": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.",
+            "usum": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.",
+            "lgpe": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.",
+            "swsh": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours."
+        },
+        "japanese-kana": {
+            "xy": "あいてを　おこらせる。３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。",
+            "oras": "あいてを　おこらせる。３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。",
+            "sm": "あいてを　おこらせる。　３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。",
+            "usum": "あいてを　おこらせる。　３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。",
+            "lgpe": "あいてを　おこらせる。　３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。",
+            "swsh": "あいてを　おこらせる。　３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。"
+        },
+        "korean": {
+            "xy": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다.",
+            "oras": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다.",
+            "sm": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다.",
+            "usum": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다.",
+            "lgpe": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다.",
+            "swsh": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다."
+        },
+        "german": {
+            "xy": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen.",
+            "oras": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen.",
+            "sm": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen.",
+            "usum": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen.",
+            "lgpe": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen.",
+            "swsh": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen."
+        },
+        "spanish": {
+            "xy": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "oras": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "sm": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "usum": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "lgpe": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "swsh": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+        },
+        "italian": {
+            "xy": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni.",
+            "oras": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni.",
+            "sm": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni.",
+            "usum": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni.",
+            "lgpe": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni.",
+            "swsh": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni."
+        },
+        "japanese": {
+            "xy": "相手を　怒らせる。３ターンの あいだ　相手は　ダメージを 与える　技しか　だせなくなる。",
+            "oras": "相手を　怒らせる。３ターンの あいだ　相手は　ダメージを 与える　技しか　だせなくなる。",
+            "sm": "相手を　怒らせる。　３ターンの 間　相手は　ダメージを 与える　技しか　だせなくなる。",
+            "usum": "相手を　怒らせる。　３ターンの 間　相手は　ダメージを 与える　技しか　だせなくなる。",
+            "lgpe": "相手を　怒らせる。　３ターンの 間　相手は　ダメージを 与える　技しか　だせなくなる。",
+            "swsh": "相手を　怒らせる。　３ターンの 間　相手は　ダメージを 与える　技しか　だせなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "oras": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "sm": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "usum": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "lgpe": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+            "swsh": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+        },
+        "traditional-chinese": {
+            "sm": "激怒對手。 在３回合內讓對手 只能使出給予傷害的招式。",
+            "usum": "激怒對手。 在３回合內讓對手 只能使出給予傷害的招式。",
+            "lgpe": "激怒對手。 在３回合內讓對手 只能使出給予傷害的招式。",
+            "swsh": "激怒對手。 在３回合內讓對手 只能使出給予傷害的招式。"
+        },
+        "simplified-chinese": {
+            "sm": "使对手愤怒。 在３回合内让对手 只能使出给予伤害的招式。",
+            "usum": "使对手愤怒。 在３回合内让对手 只能使出给予伤害的招式。",
+            "lgpe": "使对手愤怒。 在３回合内让对手 只能使出给予伤害的招式。",
+            "swsh": "使对手愤怒。 在３回合内让对手 只能使出给予伤害的招式。"
+        }
+    },
+    "effect": {
+        "full": "Target is forced to only use damaging moves for the next 3–5 turns, selected at random.  Moves that select other moves not known in advance do not count as damaging. Assist, Copycat, Me First, Metronome, Mirror Move, and Sleep Talk do not directly inflict damage and thus may not be used. Bide, Counter, Endeavor, Metal Burst, and Mirror Coat are allowed.",
+        "shortEffect": "For the next few turns, the target can only use damaging moves."
+    }
 }

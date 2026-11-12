@@ -1,47 +1,146 @@
 {
-  "_id": 201,
-  "key": "sandstorm",
-  "name": {
-    "english": "Sandstorm",
-    "japanese": "すなあらし",
-    "chinese": "沙雹",
-    "korean": "모래바람",
-    "german": "Tormenta Arena",
-    "french": "Sandsturm",
-    "italian": "Sandstorm",
-    "spanish": "Terrempesta"
-  },
-  "type": "Rock",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "gold-silver": "Inflicts damage\nevery turn.",
-    "crystal": "Inflicts damage\nevery turn.",
-    "ruby-sapphire": "Causes a sandstorm that\nrages for several turns.",
-    "emerald": "Causes a sandstorm that\nrages for several turns.",
-    "firered-leafgreen": "A 5-turn sandstorm\nthat damages all\ntypes except ROCK,\nGROUND, and STEEL.",
-    "diamond-pearl": "A five-turn sand­\nstorm is summoned\nto hurt all combatant\ntypes except Rock, \nGround, and Steel.",
-    "platinum": "A five-turn sand­\nstorm is summoned\nto hurt all combatant\ntypes except Rock, \nGround, and Steel.",
-    "heartgold-soulsilver": "A five-turn sand­\nstorm is summoned\nto hurt all combatant\ntypes except Rock, \nGround, and Steel.",
-    "black-white": "A five-turn sandstorm is summoned\nto hurt all combatants except the\nRock, Ground, and Steel types.",
-    "black-2-white-2": "A five-turn sandstorm is summoned\nto hurt all combatants except the\nRock, Ground, and Steel types.",
-    "x-y": "A five-turn sandstorm is summoned\nto hurt all combatants except the\nRock, Ground, and Steel types.",
-    "omega-ruby-alpha-sapphire": "A five-turn sandstorm is summoned\nto hurt all combatants except the\nRock, Ground, and Steel types.",
-    "sun-moon": "A five-turn sandstorm is summoned to hurt all\ncombatants except the Rock, Ground, and\nSteel types. It raises the Sp. Def stat of Rock types.",
-    "ultra-sun-ultra-moon": "A five-turn sandstorm is summoned to hurt all\ncombatants except the Rock, Ground, and\nSteel types. It raises the Sp. Def stat of Rock types.",
-    "lets-go-pikachu-lets-go-eevee": "A five-turn sandstorm is summoned to hurt all\ncombatants except the Rock, Ground, and\nSteel types. It raises the Sp. Def stat of Rock types.",
-    "sword-shield": "A five-turn sandstorm is summoned to hurt all\ncombatants except Rock, Ground, and Steel types.\nIt raises the Sp. Def stat of Rock types."
-  },
-  "effect": {
-    "full": "Changes the weather to a sandstorm for five turns.  Pokémon that are not ground, rock, or steel take 1/16 their max HP at the end of every turn.  Every rock Pokémon's original Special Defense is raised by 50% for the duration of this effect.\n\nsolar beam's power is halved.\n\nmoonlight, morning sun, and synthesis only heal 1/4 the user's max HP.",
-    "shortEffect": "Changes the weather to a sandstorm for five turns."
-  },
-  "priority": 0
+    "_id": 201,
+    "key": "sandstorm",
+    "name": {
+        "japanese-kana": "すなあらし",
+        "korean": "모래바람",
+        "traditional-chinese": "沙暴",
+        "french": "Tempête de Sable",
+        "german": "Sandsturm",
+        "spanish": "Tormenta de Arena",
+        "italian": "Terrempesta",
+        "english": "Sandstorm",
+        "japanese": "すなあらし",
+        "simplified-chinese": "沙暴",
+        "latin-american-spanish": "Tormenta de Arena"
+    },
+    "type": "rock",
+    "category": "status",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Inflicts damage every turn.",
+            "cr": "Inflicts damage every turn.",
+            "rs": "Causes a sandstorm that rages for several turns.",
+            "em": "Causes a sandstorm that rages for several turns.",
+            "frlg": "A 5-turn sandstorm that damages all types except ROCK, GROUND, and STEEL.",
+            "dp": "A five-turn sandstorm is summoned to hurt all combatant types except Rock, Ground, and Steel.",
+            "pt": "A five-turn sandstorm is summoned to hurt all combatant types except Rock, Ground, and Steel.",
+            "hgss": "A five-turn sandstorm is summoned to hurt all combatant types except Rock, Ground, and Steel.",
+            "bw": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
+            "b2w2": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
+            "xy": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
+            "oras": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
+            "sm": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
+            "usum": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
+            "lgpe": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
+            "swsh": "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
+            "la": "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
+            "sv": "A five-turn sandstorm is summoned to damage all Pokémon except Rock, Ground, and Steel types. The sandstorm also boosts the Sp. Def stats of Rock types."
+        },
+        "french": {
+            "bw": "Une tempête de sable de 5 tours qui blesse tous les Pokémon sauf les types Roche, Sol et Acier.",
+            "xy": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de types Roche, Sol et Acier.",
+            "oras": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de types Roche, Sol et Acier.",
+            "sm": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Déf. Spé. des Pokémon Roche.",
+            "usum": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Déf. Spé. des Pokémon Roche.",
+            "lgpe": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Défense Spéciale des Pokémon Roche.",
+            "swsh": "Une tempête de sable blesse tous les Pokémon pendant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Défense Spéciale des Pokémon Roche."
+        },
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　すなあらしで いわ　じめん　はがねタイプ　いがいの ポケモンに　ダメージを　あたえる。",
+            "oras": "５ターンの　あいだ　すなあらしで いわ　じめん　はがねタイプ　いがいの ポケモンに　ダメージを　あたえる。",
+            "sm": "５ターンの　あいだ　すなあらしで　いわ じめん　はがねタイプ　いがいに　ダメージ。 いわタイプの　とくぼうが　あがる。",
+            "usum": "５ターンの　あいだ　すなあらしで　いわ じめん　はがねタイプ　いがいに　ダメージ。 いわタイプの　とくぼうが　あがる。",
+            "lgpe": "５ターンの　あいだ　すなあらしで　いわ じめん　はがねタイプ　いがいに　ダメージ。 いわタイプの　とくぼうが　あがる。",
+            "swsh": "５ターンの　あいだ　すなあらしで　いわ じめん　はがねタイプ　いがいに　ダメージ。 いわタイプの　とくぼうが　あがる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 모래바람으로 바위, 땅, 강철타입 이외의 포켓몬에게 데미지를 준다.",
+            "oras": "5턴 동안 모래바람으로 바위, 땅, 강철타입 이외의 포켓몬에게 데미지를 준다.",
+            "sm": "5턴 동안 모래바람으로 바위 땅, 강철타입 이외에 데미지를 준다. 바위타입의 특수방어가 올라간다.",
+            "usum": "5턴 동안 모래바람으로 바위 땅, 강철타입 이외에 데미지를 준다. 바위타입의 특수방어가 올라간다.",
+            "lgpe": "5턴 동안 모래바람으로 바위 땅, 강철타입 이외에 데미지를 준다. 바위타입의 특수방어가 올라간다.",
+            "swsh": "5턴 동안 모래바람을 일으켜 바위 땅, 강철타입 이외의 상대에게 데미지를 준다. 바위타입의 특수방어가 올라간다."
+        },
+        "german": {
+            "xy": "Sandsturm für fünf Runden. Fügt Pokémon von jedem Typ außer Gestein, Boden und Stahl Schaden zu.",
+            "oras": "Sandsturm für fünf Runden. Fügt Pokémon von jedem Typ außer Gestein, Boden und Stahl Schaden zu.",
+            "sm": "Sandsturm für fünf Runden. Schadet Pokémon aller Typen außer Gestein, Boden und Stahl. Erhöht die Spezial-Verteidigung von Gesteins-Pokémon.",
+            "usum": "Sandsturm für fünf Runden. Schadet Pokémon aller Typen außer Gestein, Boden und Stahl. Erhöht die Spezial-Verteidigung von Gesteins-Pokémon.",
+            "lgpe": "Sandsturm für fünf Runden. Schadet Pokémon aller Typen außer Gestein, Boden und Stahl. Erhöht die Spezial-Verteidigung von Gesteins-Pokémon.",
+            "swsh": "Sandsturm für fünf Runden. Schadet Pokémon aller Typen außer Gestein, Boden und Stahl. Erhöht die Spezial-Verteidigung von Gesteins-Pokémon."
+        },
+        "spanish": {
+            "xy": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero.",
+            "oras": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero.",
+            "sm": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.",
+            "usum": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.",
+            "lgpe": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.",
+            "swsh": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca."
+        },
+        "italian": {
+            "xy": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.",
+            "oras": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.",
+            "sm": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi esclusi Terra, Roccia e Acciaio. Aumenta la Dif. Speciale dei Pokémon di tipo Roccia.",
+            "usum": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi esclusi Terra, Roccia e Acciaio. Aumenta la Dif. Speciale dei Pokémon di tipo Roccia.",
+            "lgpe": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi esclusi Terra, Roccia e Acciaio. Aumenta la Dif. Speciale dei Pokémon di tipo Roccia.",
+            "swsh": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi esclusi Terra, Roccia e Acciaio. Aumenta la Dif. Speciale dei Pokémon di tipo Roccia."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　砂あらしで いわ　じめん　はがねタイプ　以外の ポケモンに　ダメージを　与える。",
+            "oras": "５ターンの　あいだ　砂あらしで いわ　じめん　はがねタイプ　以外の ポケモンに　ダメージを　与える。",
+            "sm": "５ターンの　間　砂あらしで　いわ じめん　はがねタイプ　以外に　ダメージ。 いわタイプの　特防が　あがる。",
+            "usum": "５ターンの　間　砂あらしで　いわ じめん　はがねタイプ　以外に　ダメージ。 いわタイプの　特防が　あがる。",
+            "lgpe": "５ターンの　間　砂あらしで　いわ じめん　はがねタイプ　以外に　ダメージ。 いわタイプの　特防が　あがる。",
+            "swsh": "５ターンの　間　砂あらしで　いわ じめん　はがねタイプ　以外に　ダメージ。 いわタイプの　特防が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero.",
+            "oras": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero.",
+            "sm": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.",
+            "usum": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.",
+            "lgpe": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.",
+            "swsh": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca."
+        },
+        "traditional-chinese": {
+            "sm": "揚起沙暴，在５回合內給予 岩石、地面和鋼屬性以外的寶可夢傷害。 岩石屬性寶可夢的特防會提高。",
+            "usum": "揚起沙暴，在５回合內給予 岩石、地面和鋼屬性以外的寶可夢傷害。 岩石屬性寶可夢的特防會提高。",
+            "lgpe": "揚起沙暴，在５回合內給予 岩石、地面和鋼屬性以外的寶可夢傷害。 岩石屬性寶可夢的特防會提高。",
+            "swsh": "揚起沙暴，在５回合內給予 岩石、地面和鋼屬性以外的寶可夢傷害。 岩石屬性寶可夢的特防會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内扬起沙暴，除岩石、地面和 钢属性以外的宝可梦，都会受到伤害。 岩石属性的特防还会提高。",
+            "usum": "在５回合内扬起沙暴，除岩石、地面和 钢属性以外的宝可梦，都会受到伤害。 岩石属性的特防还会提高。",
+            "lgpe": "在５回合内扬起沙暴，除岩石、地面和 钢属性以外的宝可梦，都会受到伤害。 岩石属性的特防还会提高。",
+            "swsh": "在５回合内扬起沙暴，除岩石、地面和 钢属性以外的宝可梦，都会受到伤害。 岩石属性的特防还会提高。"
+        }
+    },
+    "effect": {
+        "full": "Changes the weather to a sandstorm for five turns.  Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn.  Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "shortEffect": "Changes the weather to a sandstorm for five turns."
+    }
 }

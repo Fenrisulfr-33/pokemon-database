@@ -1,47 +1,157 @@
 {
-  "_id": 251,
-  "key": "beat-up",
-  "name": {
-    "english": "Beat Up",
-    "japanese": "ふくろだたき",
-    "chinese": "痛打一气",
-    "korean": "집단구타",
-    "german": "Paliza",
-    "french": "Prügler",
-    "italian": "Beat Up",
-    "spanish": "Picchiaduro"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Party POKéMON join\nin the attack.\n",
-    "crystal": "Party POKéMON join\nin the attack.\n",
-    "ruby-sapphire": "Summons party POKéMON to\njoin in the attack.",
-    "emerald": "Summons party POKéMON to\njoin in the attack.",
-    "firered-leafgreen": "All party POKéMON\njoin in the attack.\nThe more allies,\nthe more damage.",
-    "diamond-pearl": "The user gets all the\nparty Pokémon to\nattack the foe. The\nmore party Pokémon,\nthe more damage.",
-    "platinum": "The user gets all the\nparty Pokémon to\nattack the foe. The\nmore party Pokémon,\nthe more damage.",
-    "heartgold-soulsilver": "The user gets all the\nparty Pokémon to\nattack the foe. The\nmore party Pokémon,\nthe more damage.",
-    "black-white": "The user gets all party Pokémon to attack\nthe target. The more party Pokémon,\nthe greater the number of attacks.",
-    "black-2-white-2": "The user gets all party Pokémon to attack\nthe target. The more party Pokémon,\nthe greater the number of attacks.",
-    "x-y": "The user gets all party Pokémon to attack\nthe target. The more party Pokémon,\nthe greater the number of attacks.",
-    "omega-ruby-alpha-sapphire": "The user gets all party Pokémon to attack\nthe target. The more party Pokémon,\nthe greater the number of attacks.",
-    "sun-moon": "The user gets all party Pokémon to attack the target.\nThe more party Pokémon, the greater the number\nof attacks.",
-    "ultra-sun-ultra-moon": "The user gets all party Pokémon to attack the target.\nThe more party Pokémon, the greater the number\nof attacks.",
-    "lets-go-pikachu-lets-go-eevee": "The user gets all party Pokémon to attack the target.\nThe more party Pokémon, the greater the number\nof attacks.",
-    "sword-shield": "The user gets all party Pokémon to attack the target.\nThe more party Pokémon, the greater the number\nof attacks."
-  },
-  "effect": {
-    "full": "Inflicts typeless regular damage.  Every Pokémon in the user's party, excepting those that have fainted or have a major status effect, attacks the target.  Calculated stats are ignored; the base stats for the target and assorted attackers are used instead.  The random factor in the damage formula is not used.  dark Pokémon still get STAB.\n\nThis effect breaks through wonder guard.",
-    "shortEffect": "Hits once for every conscious Pokémon the trainer has."
-  },
-  "priority": 0
+    "_id": 251,
+    "key": "beat-up",
+    "name": {
+        "japanese-kana": "ふくろだたき",
+        "korean": "집단구타",
+        "traditional-chinese": "圍攻",
+        "french": "Baston",
+        "german": "Prügler",
+        "spanish": "Paliza",
+        "italian": "Picchiaduro",
+        "english": "Beat Up",
+        "japanese": "ふくろだたき",
+        "simplified-chinese": "围攻",
+        "latin-american-spanish": "Paliza"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 6,
+        "maxHits": 6,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 10
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "bw": "Détermine les dommages en utilisant l’Attack de base du lanceur et de ses alliés et la Defense de base de l’adversaire à la place des stats calculées."
+        },
+        "english": {
+            "bw": "Determines damage using each participant’s base Attack and the opponent’s base Defense in place of calculated stats."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Party POKéMON join in the attack.",
+            "cr": "Party POKéMON join in the attack.",
+            "rs": "Summons party POKéMON to join in the attack.",
+            "em": "Summons party POKéMON to join in the attack.",
+            "frlg": "All party POKéMON join in the attack. The more allies, the more damage.",
+            "dp": "The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.",
+            "pt": "The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.",
+            "hgss": "The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.",
+            "bw": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "b2w2": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "xy": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "oras": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "sm": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "usum": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "lgpe": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "swsh": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "la": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+            "sv": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks."
+        },
+        "french": {
+            "bw": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.",
+            "xy": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.",
+            "oras": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.",
+            "sm": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.",
+            "usum": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.",
+            "lgpe": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.",
+            "swsh": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques."
+        },
+        "japanese-kana": {
+            "xy": "みかた　ぜんいんで　こうげきする。 なかまの　ポケモンが　おおいほど わざの　こうげきかいすうが　ふえる。",
+            "oras": "かた　ぜんいんで　こうげきする。 なかまの　ポケモンが　おおいほど わざの　こうげきかいすうが　ふえる。",
+            "sm": "みかた　ぜんいんで　こうげきする。 なかまの　ポケモンが　おおいほど わざの　こうげきかいすうが　ふえる。",
+            "usum": "みかた　ぜんいんで　こうげきする。 なかまの　ポケモンが　おおいほど わざの　こうげきかいすうが　ふえる。",
+            "lgpe": "みかた　ぜんいんで　こうげきする。 なかまの　ポケモンが　おおいほど わざの　こうげきかいすうが　ふえる。",
+            "swsh": "みかた　ぜんいんで　こうげきする。 なかまの　ポケモンが　おおいほど わざの　こうげきかいすうが　ふえる。"
+        },
+        "korean": {
+            "xy": "같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.",
+            "oras": "같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.",
+            "sm": "같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.",
+            "usum": "같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.",
+            "lgpe": "같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.",
+            "swsh": "같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다."
+        },
+        "german": {
+            "xy": "Das gesamte Team nimmt aktiv am Kampf teil. Je mehr Pokémon, desto höher die Anzahl der Angriffe.",
+            "oras": "Das gesamte Team nimmt aktiv am Kampf teil. Je mehr Pokémon, desto höher die Anzahl der Angriffe.",
+            "sm": "Das gesamte Team nimmt aktiv am Kampf teil. Je mehr Pokémon, desto höher die Anzahl der Angriffe.",
+            "usum": "Das gesamte Team nimmt aktiv am Kampf teil. Je mehr Pokémon, desto höher die Anzahl der Angriffe.",
+            "lgpe": "Das gesamte Team nimmt aktiv am Kampf teil. Je mehr Pokémon, desto höher die Anzahl der Angriffe.",
+            "swsh": "Der Anwender greift zusammen mit allen Mitgliedern seines Teams das Ziel an. Je mehr Pokémon sich im Team befinden, desto höher die Anzahl der Angriffe."
+        },
+        "spanish": {
+            "xy": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "oras": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "sm": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "usum": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "lgpe": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "swsh": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará."
+        },
+        "italian": {
+            "xy": "Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.",
+            "oras": "Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.",
+            "sm": "Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.",
+            "usum": "Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.",
+            "lgpe": "Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.",
+            "swsh": "Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi."
+        },
+        "japanese": {
+            "xy": "味方　全員で　攻撃する。 仲間の　ポケモンが　多いほど 技の　攻撃回数が　増える。",
+            "oras": "味方　全員で　攻撃する。 仲間の　ポケモンが　多いほど 技の　攻撃回数が　増える。",
+            "sm": "味方　全員で　攻撃する。 仲間の　ポケモンが　多いほど 技の　攻撃回数が　増える。",
+            "usum": "味方　全員で　攻撃する。 仲間の　ポケモンが　多いほど 技の　攻撃回数が　増える。",
+            "lgpe": "味方　全員で　攻撃する。 仲間の　ポケモンが　多いほど 技の　攻撃回数が　増える。",
+            "swsh": "味方　全員で　攻撃する。 仲間の　ポケモンが　多いほど 技の　攻撃回数が　増える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "oras": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "sm": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "usum": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "lgpe": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+            "swsh": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará."
+        },
+        "traditional-chinese": {
+            "sm": "讓我方所有寶可夢進行攻擊。 同行的寶可夢越多， 招式的攻擊次數越多。",
+            "usum": "讓我方所有寶可夢進行攻擊。 同行的寶可夢越多， 招式的攻擊次數越多。",
+            "lgpe": "讓我方所有寶可夢進行攻擊。 同行的寶可夢越多， 招式的攻擊次數越多。",
+            "swsh": "讓我方所有寶可夢進行攻擊。 同行的寶可夢越多， 招式的攻擊次數越多。"
+        },
+        "simplified-chinese": {
+            "sm": "我方全员进行攻击。 同行的宝可梦越多， 招式的攻击次数越多。",
+            "usum": "我方全员进行攻击。 同行的宝可梦越多， 招式的攻击次数越多。",
+            "lgpe": "我方全员进行攻击。 同行的宝可梦越多， 招式的攻击次数越多。",
+            "swsh": "我方全员进行攻击。 同行的宝可梦越多， 招式的攻击次数越多。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts typeless regular damage.  Every Pokémon in the user’s party, excepting those that have fainted or have a major status effect, attacks the target.  Calculated stats are ignored; the base stats for the target and assorted attackers are used instead.  The random factor in the damage formula is not used.  Dark Pokémon still get STAB. This effect breaks through Wonder Guard.",
+        "shortEffect": "Hits once for every conscious Pokémon the trainer has."
+    }
 }

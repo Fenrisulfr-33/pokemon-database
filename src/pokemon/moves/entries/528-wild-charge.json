@@ -1,39 +1,138 @@
 {
-  "_id": 528,
-  "key": "wild-charge",
-  "name": {
-    "english": "Wild Charge",
-    "japanese": "ワイルドボルト",
-    "chinese": "疯狂伏特",
-    "korean": "와일드볼트",
-    "german": "Voltio Cruel",
-    "french": "Stromstoß",
-    "italian": "Wild Charge",
-    "spanish": "Sprizzalampo"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user shrouds itself in electricity\nand smashes into its target.\nIt also damages the user a little.",
-    "black-2-white-2": "The user shrouds itself in electricity\nand smashes into its target.\nIt also damages the user a little.",
-    "x-y": "The user shrouds itself in electricity\nand smashes into its target.\nThis also damages the user a little.",
-    "omega-ruby-alpha-sapphire": "The user shrouds itself in electricity\nand smashes into its target.\nThis also damages the user a little.",
-    "sun-moon": "The user shrouds itself in electricity and smashes\ninto its target. This also damages the user a little.",
-    "ultra-sun-ultra-moon": "The user shrouds itself in electricity and smashes\ninto its target. This also damages the user a little.",
-    "lets-go-pikachu-lets-go-eevee": "The user shrouds itself in electricity and smashes\ninto its target. This also damages the user a little.",
-    "sword-shield": "The user shrouds itself in electricity and smashes\ninto its target. This also damages the user a little."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
-    "shortEffect": "User receives 1/4 the damage it inflicts in recoil."
-  },
-  "priority": 0
+    "_id": 528,
+    "key": "wild-charge",
+    "name": {
+        "japanese-kana": "ワイルドボルト",
+        "korean": "와일드볼트",
+        "traditional-chinese": "瘋狂伏特",
+        "french": "Éclair Fou",
+        "german": "Stromstoß",
+        "spanish": "Voltio Cruel",
+        "italian": "Sprizzalampo",
+        "english": "Wild Charge",
+        "japanese": "ワイルドボルト",
+        "simplified-chinese": "疯狂伏特",
+        "latin-american-spanish": "Carga Salvaje"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 90,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -25,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Une charge électrique violente qui blesse aussi légèrement le lanceur.",
+            "xy": "Une charge électrique violente qui blesse aussi légèrement le lanceur.",
+            "oras": "Une charge électrique violente qui blesse aussi légèrement le lanceur.",
+            "sm": "Une charge électrique violente qui blesse aussi légèrement le lanceur.",
+            "usum": "Une charge électrique violente qui blesse aussi légèrement le lanceur.",
+            "lgpe": "Une charge électrique violente qui blesse aussi légèrement le lanceur.",
+            "swsh": "Une charge électrique violente qui blesse aussi légèrement le lanceur."
+        },
+        "english": {
+            "bw": "The user shrouds itself in electricity and smashes into its target. It also damages the user a little.",
+            "b2w2": "The user shrouds itself in electricity and smashes into its target. It also damages the user a little.",
+            "xy": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+            "oras": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+            "sm": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+            "usum": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+            "lgpe": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+            "swsh": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+            "la": "The user shrouds itself in electricity and smashes into its target. This also damages the user and may leave the target with paralysis.",
+            "sv": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little."
+        },
+        "japanese-kana": {
+            "xy": "でんきを　まとって あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "oras": "でんきを　まとって あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "sm": "でんきを　まとって あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "usum": "でんきを　まとって あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "lgpe": "でんきを　まとって あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "swsh": "でんきを　まとって あいてに　ぶつかって　こうげきする。 じぶんも　すこし　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "oras": "전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "sm": "전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "usum": "전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "lgpe": "전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다.",
+            "swsh": "전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Anwender erzeugt Spannung und greift an, indem er auf Kollisionskurs geht. Er selbst erleidet dabei ebenfalls leichten Schaden.",
+            "oras": "Anwender erzeugt Spannung und greift an, indem er auf Kollisionskurs geht. Er selbst erleidet dabei ebenfalls leichten Schaden.",
+            "sm": "Anwender erzeugt Spannung und greift an, indem er auf Kollisionskurs geht. Er selbst erleidet dabei ebenfalls leichten Schaden.",
+            "usum": "Anwender erzeugt Spannung und greift an, indem er auf Kollisionskurs geht. Er selbst erleidet dabei ebenfalls leichten Schaden.",
+            "lgpe": "Anwender erzeugt Spannung und greift an, indem er auf Kollisionskurs geht. Er erleidet selbst leichten Schaden.",
+            "swsh": "Anwender erzeugt Spannung und greift an, indem er auf Kollisionskurs geht. Er erleidet selbst leichten Schaden."
+        },
+        "spanish": {
+            "xy": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "oras": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "sm": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "usum": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "lgpe": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "swsh": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa."
+        },
+        "italian": {
+            "xy": "Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.",
+            "oras": "Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.",
+            "sm": "Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.",
+            "usum": "Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.",
+            "lgpe": "Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.",
+            "swsh": "Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo."
+        },
+        "japanese": {
+            "xy": "電気を　まとって 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "oras": "電気を　まとって 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "sm": "電気を　まとって 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "usum": "電気を　まとって 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "lgpe": "電気を　まとって 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "swsh": "電気を　まとって 相手に　ぶつかって　攻撃する。 自分も　少し　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "oras": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "sm": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "usum": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "lgpe": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa.",
+            "swsh": "Carga eléctrica muy potente que también hiere ligeramente a quien la usa."
+        },
+        "traditional-chinese": {
+            "sm": "讓電流圍繞全身， 衝撞對手進行攻擊。 自己也會受到少許傷害。",
+            "usum": "讓電流圍繞全身， 衝撞對手進行攻擊。 自己也會受到少許傷害。",
+            "lgpe": "讓電流圍繞全身， 衝撞對手進行攻擊。 自己也會受到少許傷害。",
+            "swsh": "讓電流圍繞全身， 衝撞對手進行攻擊。 自己也會受到少許傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "让电流覆盖全身 撞向对手进行攻击。 自己也会受到少许伤害。",
+            "usum": "让电流覆盖全身 撞向对手进行攻击。 自己也会受到少许伤害。",
+            "lgpe": "让电流覆盖全身 撞向对手进行攻击。 自己也会受到少许伤害。",
+            "swsh": "让电流覆盖全身， 撞向对手进行攻击。 自己也会受到少许伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+        "shortEffect": "User receives 1/4 the damage it inflicts in recoil."
+    }
 }

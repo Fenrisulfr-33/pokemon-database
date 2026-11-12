@@ -1,47 +1,144 @@
 {
-  "_id": 233,
-  "key": "vital-throw",
-  "name": {
-    "english": "Vital Throw",
-    "japanese": "あてみなげ",
-    "chinese": "一招制敌",
-    "korean": "받아던지기",
-    "german": "Tiro Vital",
-    "french": "Überwurf",
-    "italian": "Vital Throw",
-    "spanish": "Vitaltiro"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 70,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A 2nd-strike move\nthat never misses.",
-    "crystal": "A 2nd-strike move\nthat never misses.",
-    "ruby-sapphire": "Makes the user’s move last,\nbut it never misses.",
-    "emerald": "Makes the user’s move last,\nbut it never misses.",
-    "firered-leafgreen": "Makes the user\nattack after the\nfoe. In return,\nit will not miss.",
-    "diamond-pearl": "The user allows the\nfoe to attack first.\nIn return, this throw\nmove is guaranteed\nnot to miss.",
-    "platinum": "The user allows the\nfoe to attack first.\nIn return, this throw\nmove is guaranteed\nnot to miss.",
-    "heartgold-soulsilver": "The user allows the\nfoe to attack first.\nIn return, this throw\nmove is guaranteed\nnot to miss.",
-    "black-white": "The user attacks last.\nIn return, this throw move is\nguaranteed not to miss.",
-    "black-2-white-2": "The user attacks last.\nIn return, this throw move is\nguaranteed not to miss.",
-    "x-y": "The user attacks last. In return, this throw\nmove never misses.",
-    "omega-ruby-alpha-sapphire": "The user attacks last. In return, this throw\nmove never misses.",
-    "sun-moon": "The user attacks last. In return, this throw move\nnever misses.",
-    "ultra-sun-ultra-moon": "The user attacks last. In return, this throw move\nnever misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks last. In return, this throw move\nnever misses.",
-    "sword-shield": "The user attacks last. In return, this throw move\nnever misses."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": -1
+    "_id": 233,
+    "key": "vital-throw",
+    "name": {
+        "japanese-kana": "あてみなげ",
+        "korean": "받아던지기",
+        "traditional-chinese": "借力摔",
+        "french": "Corps Perdu",
+        "german": "Überwurf",
+        "spanish": "Llave Vital",
+        "italian": "Vitaltiro",
+        "english": "Vital Throw",
+        "japanese": "あてみなげ",
+        "simplified-chinese": "借力摔",
+        "latin-american-spanish": "Llave Vital"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 70,
+    "accuracy": null,
+    "contact": true,
+    "generation": 2,
+    "priority": -1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A 2nd-strike move that never misses.",
+            "cr": "A 2nd-strike move that never misses.",
+            "rs": "Makes the user’s move last, but it never misses.",
+            "em": "Makes the user’s move last, but it never misses.",
+            "frlg": "Makes the user attack after the foe. In return, it will not miss.",
+            "dp": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss.",
+            "pt": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss.",
+            "hgss": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss.",
+            "bw": "The user attacks last. In return, this throw move is guaranteed not to miss.",
+            "b2w2": "The user attacks last. In return, this throw move is guaranteed not to miss.",
+            "xy": "The user attacks last. In return, this throw move never misses.",
+            "oras": "The user attacks last. In return, this throw move never misses.",
+            "sm": "The user attacks last. In return, this throw move never misses.",
+            "usum": "The user attacks last. In return, this throw move never misses.",
+            "lgpe": "The user attacks last. In return, this throw move never misses.",
+            "swsh": "The user attacks last. In return, this throw move never misses."
+        },
+        "french": {
+            "bw": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais.",
+            "xy": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais.",
+            "oras": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais.",
+            "sm": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais.",
+            "usum": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais.",
+            "lgpe": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais.",
+            "swsh": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais."
+        },
+        "japanese-kana": {
+            "xy": "あいてより　あとに　こうげきする。 そのかわり　じぶんの　こうげきは かならず　めいちゅうする。",
+            "oras": "あいてより　あとに　こうげきする。 そのかわり　じぶんの　こうげきは かならず　めいちゅうする。",
+            "sm": "あいてより　あとに　こうげきする。 そのかわり　じぶんの　こうげきは かならず　めいちゅうする。",
+            "usum": "あいてより　あとに　こうげきする。 そのかわり　じぶんの　こうげきは かならず　めいちゅうする。",
+            "lgpe": "あいてより　あとに　こうげきする。 そのかわり　じぶんの　こうげきは かならず　めいちゅうする。",
+            "swsh": "あいてより　あとに　こうげきする。 そのかわり　じぶんの　こうげきは かならず　めいちゅうする。"
+        },
+        "korean": {
+            "xy": "상대보다 나중에 공격한다. 그 대신 자신의 공격은 반드시 명중한다.",
+            "oras": "상대보다 나중에 공격한다. 그 대신 자신의 공격은 반드시 명중한다.",
+            "sm": "상대보다 나중에 공격한다. 그 대신 자신의 공격은 반드시 명중한다.",
+            "usum": "상대보다 나중에 공격한다. 그 대신 자신의 공격은 반드시 명중한다.",
+            "lgpe": "상대보다 나중에 공격한다. 그 대신 자신의 공격은 반드시 명중한다.",
+            "swsh": "상대보다 나중에 공격한다. 그 대신 자신의 공격은 반드시 명중한다."
+        },
+        "german": {
+            "xy": "Anwender greift als Letzter an, hat dafür aber eine Treffergarantie beim eigenen Angriff.",
+            "oras": "Anwender greift als Letzter an, hat dafür aber eine Treffergarantie beim eigenen Angriff.",
+            "sm": "Anwender greift als Letzter an, hat dafür aber eine Treffergarantie beim eigenen Angriff.",
+            "usum": "Anwender greift als Letzter an, hat dafür aber eine Treffergarantie beim eigenen Angriff.",
+            "lgpe": "Anwender greift als Letzter an, hat dafür aber eine Treffergarantie beim eigenen Angriff.",
+            "swsh": "Anwender greift als Letzter an, hat dafür aber eine Treffergarantie beim eigenen Angriff."
+        },
+        "spanish": {
+            "xy": "El usuario ataca el último, pero no falla.",
+            "oras": "El usuario ataca el último, pero no falla.",
+            "sm": "El usuario ataca el último, pero no falla.",
+            "usum": "El usuario ataca el último, pero no falla.",
+            "lgpe": "El usuario ataca el último, pero no falla.",
+            "swsh": "El usuario ataca el último, pero no falla."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca per ultimo, ma il colpo è sempre infallibile.",
+            "oras": "Chi la usa attacca per ultimo, ma il colpo è sempre infallibile.",
+            "sm": "Chi la usa attacca per ultimo, ma il colpo è sempre infallibile.",
+            "usum": "Chi la usa attacca per ultimo, ma il colpo è sempre infallibile.",
+            "lgpe": "Chi la usa attacca per ultimo, ma il colpo è sempre infallibile.",
+            "swsh": "Chi la usa attacca per ultimo, ma il colpo è sempre infallibile."
+        },
+        "japanese": {
+            "xy": "相手より　あとに　攻撃する。 そのかわり　自分の　攻撃は 必ず　命中する。",
+            "oras": "相手より　あとに　攻撃する。 そのかわり　自分の　攻撃は 必ず　命中する。",
+            "sm": "相手より　あとに　攻撃する。 そのかわり　自分の　攻撃は 必ず　命中する。",
+            "usum": "相手より　あとに　攻撃する。 そのかわり　自分の　攻撃は 必ず　命中する。",
+            "lgpe": "相手より　あとに　攻撃する。 そのかわり　自分の　攻撃は 必ず　命中する。",
+            "swsh": "相手より　あとに　攻撃する。 そのかわり　自分の　攻撃は 必ず　命中する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario ataca el último, pero no falla.",
+            "oras": "El usuario ataca el último, pero no falla.",
+            "sm": "El usuario ataca el último, pero no falla.",
+            "usum": "El usuario ataca el último, pero no falla.",
+            "lgpe": "El usuario ataca el último, pero no falla.",
+            "swsh": "El usuario ataca el último, pero no falla."
+        },
+        "traditional-chinese": {
+            "sm": "攻擊的順序會在對手之後。 但是自己的攻擊必定會命中。",
+            "usum": "攻擊的順序會在對手之後。 但是自己的攻擊必定會命中。",
+            "lgpe": "攻擊的順序會在對手之後。 但是自己的攻擊必定會命中。",
+            "swsh": "攻擊的順序會在對手之後。 但是自己的攻擊必定會命中。"
+        },
+        "simplified-chinese": {
+            "sm": "会在对手之后进行攻击。 但是自己的攻击必定会命中。",
+            "usum": "会在对手之后进行攻击。 但是自己的攻击必定会命中。",
+            "lgpe": "会在对手之后进行攻击。 但是自己的攻击必定会命中。",
+            "swsh": "会在对手之后进行攻击。 但是自己的攻击必定会命中。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

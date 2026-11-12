@@ -1,37 +1,133 @@
 {
-  "_id": 600,
-  "key": "powder",
-  "name": {
-    "english": "Powder",
-    "japanese": "ふんじん",
-    "chinese": "粉塵",
-    "korean": "분진",
-    "german": "Polvo Explosivo",
-    "french": "Pulverschleuder",
-    "italian": "Powder",
-    "spanish": "Pulviscoppio"
-  },
-  "type": "Bug",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user covers the target in a powder\nthat explodes and damages the target\nif it uses a Fire-type move.",
-    "omega-ruby-alpha-sapphire": "The user covers the target in a powder\nthat explodes and damages the target\nif it uses a Fire-type move.",
-    "sun-moon": "The user covers the target in a combustible powder.\nIf the target uses a Fire-type move, the powder\nexplodes and damages the target.",
-    "ultra-sun-ultra-moon": "The user covers the target in a combustible powder.\nIf the target uses a Fire-type move, the powder\nexplodes and damages the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user covers the target in a combustible powder.\nIf the target uses a Fire-type move, the powder\nexplodes and damages the target.",
-    "sword-shield": "The user covers the target in a combustible powder.\nIf the target uses a Fire-type move, the powder\nexplodes and damages the target."
-  },
-  "effect": {
-    "full": "Explodes if the target uses a fire move this turn, damaging it for 1/4 its max HP and preventing the move.",
-    "shortEffect": "Explodes if the target uses a fire move this turn, damaging it for 1/4 its max HP and preventing the move."
-  },
-  "priority": 1
+    "_id": 600,
+    "key": "powder",
+    "name": {
+        "japanese-kana": "ふんじん",
+        "korean": "분진",
+        "traditional-chinese": "粉塵",
+        "french": "Nuée de Poudre",
+        "german": "Pulverschleuder",
+        "spanish": "Polvo Explosivo",
+        "italian": "Pulviscoppio",
+        "english": "Powder",
+        "japanese": "ふんじん",
+        "simplified-chinese": "粉尘",
+        "latin-american-spanish": "Pólvora"
+    },
+    "type": "bug",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ふんじんを　あびせた　あいてが ほのおわざを　つかうと ばくはつして　ダメージを　あたえる。",
+            "oras": "ふんじんを　あびせた　あいてが ほのおわざを　つかうと ばくはつして　ダメージを　あたえる。",
+            "sm": "ふんじんを　あびせた　あいてが ほのおわざを　つかうと ばくはつして　ダメージを　あたえる。",
+            "usum": "ふんじんを　あびせた　あいてが ほのおわざを　つかうと ばくはつして　ダメージを　あたえる。",
+            "lgpe": "ふんじんを　あびせた　あいてが ほのおわざを　つかうと ばくはつして　ダメージを　あたえる。",
+            "swsh": "ふんじんを　あびせた　あいてが ほのおわざを　つかうと ばくはつして　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "분진을 뒤집어쓴 상대가 불꽃 기술을 쓰면 폭발하여 데미지를 준다.",
+            "oras": "분진을 뒤집어쓴 상대가 불꽃 기술을 쓰면 폭발하여 데미지를 준다.",
+            "sm": "분진을 뒤집어쓴 상대가 불꽃 기술을 쓰면 폭발하여 데미지를 준다.",
+            "usum": "분진을 뒤집어쓴 상대가 불꽃 기술을 쓰면 폭발하여 데미지를 준다.",
+            "lgpe": "분진을 뒤집어쓴 상대가 불꽃 기술을 쓰면 폭발하여 데미지를 준다.",
+            "swsh": "분진을 뒤집어쓴 상대가 불꽃 기술을 쓰면 폭발하여 데미지를 준다."
+        },
+        "french": {
+            "xy": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts.",
+            "oras": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts.",
+            "sm": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts.",
+            "usum": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts.",
+            "lgpe": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts.",
+            "swsh": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts."
+        },
+        "german": {
+            "xy": "Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.",
+            "oras": "Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.",
+            "sm": "Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.",
+            "usum": "Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.",
+            "lgpe": "Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.",
+            "swsh": "Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet."
+        },
+        "spanish": {
+            "xy": "Esparce un polvo sobre el Pokémon objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "oras": "Esparce un polvo sobre el Pokémon objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "sm": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "usum": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "lgpe": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "swsh": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene coperto da un pulviscolo che esplode danneggiandolo se questi utilizza una mossa di tipo Fuoco nello stesso turno.",
+            "oras": "Il bersaglio viene coperto da un pulviscolo che esplode danneggiandolo se questi utilizza una mossa di tipo Fuoco nello stesso turno.",
+            "sm": "Il bersaglio viene coperto da un pulviscolo che esplode danneggiandolo se questi utilizza una mossa di tipo Fuoco nello stesso turno.",
+            "usum": "Il bersaglio viene coperto da un pulviscolo che esplode danneggiandolo se questi utilizza una mossa di tipo Fuoco nello stesso turno.",
+            "lgpe": "Il bersaglio viene coperto da un pulviscolo che esplode danneggiandolo se questi utilizza una mossa di tipo Fuoco nello stesso turno.",
+            "swsh": "Il bersaglio viene coperto da un pulviscolo che esplode danneggiandolo se questi utilizza una mossa di tipo Fuoco nello stesso turno."
+        },
+        "english": {
+            "xy": "The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.",
+            "oras": "The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.",
+            "sm": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.",
+            "usum": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.",
+            "lgpe": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.",
+            "swsh": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target."
+        },
+        "japanese": {
+            "xy": "ふんじんを　浴びせた　相手が ほのお技を　使うと 爆発して　ダメージを　与える。",
+            "oras": "ふんじんを　浴びせた　相手が ほのお技を　使うと 爆発して　ダメージを　与える。",
+            "sm": "ふんじんを　浴びせた　相手が ほのお技を　使うと 爆発して　ダメージを　与える。",
+            "usum": "ふんじんを　浴びせた　相手が ほのお技を　使うと 爆発して　ダメージを　与える。",
+            "lgpe": "ふんじんを　浴びせた　相手が ほのお技を　使うと 爆発して　ダメージを　与える。",
+            "swsh": "ふんじんを　浴びせた　相手が ほのお技を　使うと 爆発して　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Esparce un polvo sobre el Pokémon objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "oras": "Esparce un polvo sobre el Pokémon objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "sm": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "usum": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "lgpe": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+            "swsh": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño."
+        },
+        "traditional-chinese": {
+            "sm": "被撒到粉塵的對手 使用火屬性招式時， 會發生爆炸並受到傷害。",
+            "usum": "被撒到粉塵的對手 使用火屬性招式時， 會發生爆炸並受到傷害。",
+            "lgpe": "被撒到粉塵的對手 使用火屬性招式時， 會發生爆炸並受到傷害。",
+            "swsh": "被撒到粉塵的對手 使用火屬性招式時， 會發生爆炸並受到傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "如果被撒到粉尘的对手 使用火招式， 则会爆炸并给予伤害。",
+            "usum": "如果被撒到粉尘的对手 使用火招式， 则会爆炸并给予伤害。",
+            "lgpe": "如果被撒到粉尘的对手 使用火招式， 则会爆炸并给予伤害。",
+            "swsh": "如果被撒到粉尘的对手 使用火招式， 则会爆炸并给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Explodes if the target uses a Fire move this turn, damaging it for 1/4 its max HP and preventing the move.",
+        "shortEffect": "Explodes if the target uses a Fire move this turn, damaging it for 1/4 its max HP and preventing the move."
+    }
 }

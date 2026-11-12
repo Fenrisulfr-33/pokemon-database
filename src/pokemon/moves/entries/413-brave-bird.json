@@ -1,42 +1,141 @@
 {
-  "_id": 413,
-  "key": "brave-bird",
-  "name": {
-    "english": "Brave Bird",
-    "japanese": "ブレイブバード",
-    "chinese": "神鸟特攻",
-    "korean": "브레이브버드",
-    "german": "Pájaro Osado",
-    "french": "Sturzflug",
-    "italian": "Brave Bird",
-    "spanish": "Baldeali"
-  },
-  "type": "Flying",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 15,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.",
-    "platinum": "The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.",
-    "heartgold-soulsilver": "The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.",
-    "black-white": "The user tucks in its wings and charges\nfrom a low altitude.\nThe user also takes serious damage.",
-    "black-2-white-2": "The user tucks in its wings and charges\nfrom a low altitude.\nThe user also takes serious damage.",
-    "x-y": "The user tucks in its wings and charges\nfrom a low altitude.\nThis also damages the user quite a lot.",
-    "omega-ruby-alpha-sapphire": "The user tucks in its wings and charges\nfrom a low altitude.\nThis also damages the user quite a lot.",
-    "sun-moon": "The user tucks in its wings and charges from a low\naltitude. This also damages the user quite a lot.",
-    "ultra-sun-ultra-moon": "The user tucks in its wings and charges from a low\naltitude. This also damages the user quite a lot.",
-    "lets-go-pikachu-lets-go-eevee": "The user tucks in its wings and charges from a low\naltitude. This also damages the user quite a lot.",
-    "sword-shield": "The user tucks in its wings and charges from a low\naltitude. This also damages the user quite a lot."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
-    "shortEffect": "User receives 1/3 the damage inflicted in recoil."
-  },
-  "priority": 0
+    "_id": 413,
+    "key": "brave-bird",
+    "name": {
+        "japanese-kana": "ブレイブバード",
+        "korean": "브레이브버드",
+        "traditional-chinese": "勇鳥猛攻",
+        "french": "Rapace",
+        "german": "Sturzflug",
+        "spanish": "Pájaro Osado",
+        "italian": "Baldeali",
+        "english": "Brave Bird",
+        "japanese": "ブレイブバード",
+        "simplified-chinese": "勇鸟猛攻",
+        "latin-american-spanish": "Ave Brava"
+    },
+    "type": "flying",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 15,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -33,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user tucks in its wings and charges from a low altitude. The user also takes serious damage.",
+            "pt": "The user tucks in its wings and charges from a low altitude. The user also takes serious damage.",
+            "hgss": "The user tucks in its wings and charges from a low altitude. The user also takes serious damage.",
+            "bw": "The user tucks in its wings and charges from a low altitude. The user also takes serious damage.",
+            "b2w2": "The user tucks in its wings and charges from a low altitude. The user also takes serious damage.",
+            "xy": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+            "oras": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+            "sm": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+            "usum": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+            "lgpe": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+            "swsh": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+            "la": "The user tucks in its wings and charges at a low altitude. This also damages the user.",
+            "sv": "The user tucks in its wings and charges at a low altitude. This also damages the user quite a lot."
+        },
+        "french": {
+            "bw": "Le lanceur replie ses ailes et charge en rase-mottes. Le lanceur subit aussi de graves dégâts.",
+            "xy": "Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.",
+            "oras": "Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.",
+            "sm": "Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.",
+            "usum": "Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.",
+            "lgpe": "Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.",
+            "swsh": "Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur."
+        },
+        "japanese-kana": {
+            "xy": "はねを　おりたたみ ていくう　ひこうで　とつげきする。 じぶんも　かなり　ダメージを　うける。",
+            "oras": "はねを　おりたた  ていくう　ひこうで　とつげきする。 じぶんも　かなり　ダメージを　うける。",
+            "sm": "はねを　おりたたみ ていくう　ひこうで　とつげきする。 じぶんも　かなり　ダメージを　うける。",
+            "usum": "はねを　おりたたみ ていくう　ひこうで　とつげきする。 じぶんも　かなり　ダメージを　うける。",
+            "lgpe": "はねを　おりたたみ ていくう　ひこうで　とつげきする。 じぶんも　かなり　ダメージを　うける。",
+            "swsh": "はねを　おりたたみ ていくう　ひこうで　とつげきする。 じぶんも　かなり　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다.",
+            "oras": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다.",
+            "sm": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다.",
+            "usum": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다.",
+            "lgpe": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다.",
+            "swsh": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Anwender greift aus niedriger Höhe an. Er erleidet bei dieser Attacke selbst großen Schaden.",
+            "oras": "Anwender greift aus niedriger Höhe an. Er erleidet bei dieser Attacke selbst großen Schaden.",
+            "sm": "Anwender greift aus niedriger Höhe an. Er erleidet bei dieser Attacke selbst großen Schaden.",
+            "usum": "Anwender greift aus niedriger Höhe an. Er erleidet bei dieser Attacke selbst großen Schaden.",
+            "lgpe": "Anwender greift aus niedriger Höhe an. Er erleidet bei dieser Attacke selbst großen Schaden.",
+            "swsh": "Anwender greift aus niedriger Höhe an. Er erleidet bei dieser Attacke selbst großen Schaden."
+        },
+        "spanish": {
+            "xy": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "oras": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "sm": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "usum": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "lgpe": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "swsh": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado."
+        },
+        "italian": {
+            "xy": "Chi la usa si nasconde sotto le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni.",
+            "oras": "Chi la usa si nasconde sotto le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni.",
+            "sm": "Chi la usa ripiega le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni.",
+            "usum": "Chi la usa ripiega le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni.",
+            "lgpe": "Chi la usa ripiega le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni.",
+            "swsh": "Chi la usa ripiega le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni."
+        },
+        "japanese": {
+            "xy": "はねを　おりたたみ 低空飛行で　突撃する。 自分も　かなり　ダメージを　受ける。",
+            "oras": "はねを　おりたた  低空飛行で　突撃する。 自分も　かなり　ダメージを　受ける。",
+            "sm": "はねを　おりたたみ 低空飛行で　突撃する。 自分も　かなり　ダメージを　受ける。",
+            "usum": "はねを　おりたたみ 低空飛行で　突撃する。 自分も　かなり　ダメージを　受ける。",
+            "lgpe": "はねを　おりたたみ 低空飛行で　突撃する。 自分も　かなり　ダメージを　受ける。",
+            "swsh": "はねを　おりたたみ 低空飛行で　突撃する。 自分も　かなり　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "oras": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "sm": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "usum": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "lgpe": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+            "swsh": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado."
+        },
+        "traditional-chinese": {
+            "sm": "收起翅膀， 低空飛行突擊對手。 自己也會受到不小的傷害。",
+            "usum": "收起翅膀， 低空飛行突擊對手。 自己也會受到不小的傷害。",
+            "lgpe": "收起翅膀， 低空飛行突擊對手。 自己也會受到不小的傷害。",
+            "swsh": "收起翅膀， 低空飛行突擊對手。 自己也會受到不小的傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "收拢翅膀， 通过低空飞行突击对手。 自己也会受到不小的伤害。",
+            "usum": "收拢翅膀， 通过低空飞行突击对手。 自己也会受到不小的伤害。",
+            "lgpe": "收拢翅膀， 通过低空飞行突击对手。 自己也会受到不小的伤害。",
+            "swsh": "收拢翅膀， 通过低空飞行突击对手。 自己也会受到不小的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+        "shortEffect": "User receives 1/3 the damage inflicted in recoil."
+    }
 }

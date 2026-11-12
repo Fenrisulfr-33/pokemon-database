@@ -1,35 +1,117 @@
 {
-  "_id": 665,
-  "key": "ice-hammer",
-  "name": {
-    "english": "Ice Hammer",
-    "japanese": "アイスハンマー",
-    "chinese": "冰錘",
-    "korean": "아이스해머",
-    "german": "Martillo Hielo",
-    "french": "Eishammer",
-    "italian": "Ice Hammer",
-    "spanish": "Martelgelo"
-  },
-  "type": "Ice",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 100,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however.",
-    "ultra-sun-ultra-moon": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however.",
-    "lets-go-pikachu-lets-go-eevee": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however.",
-    "sword-shield": "The user swings and hits with its strong, heavy fist.\nIt lowers the user’s Speed, however."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then lowers the user's Speed by one stage.",
-    "shortEffect": "Lowers user's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 665,
+    "key": "ice-hammer",
+    "name": {
+        "japanese-kana": "アイスハンマー",
+        "korean": "아이스해머",
+        "traditional-chinese": "冰錘",
+        "french": "Marteau de Glace",
+        "german": "Eishammer",
+        "spanish": "Martillo Hielo",
+        "italian": "Martelgelo",
+        "english": "Ice Hammer",
+        "japanese": "アイスハンマー",
+        "simplified-chinese": "冰锤",
+        "latin-american-spanish": "Martillo Hielo"
+    },
+    "type": "ice",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 100,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "usum": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "lgpe": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+            "swsh": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。"
+        },
+        "korean": {
+            "sm": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "usum": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "lgpe": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+            "swsh": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다."
+        },
+        "traditional-chinese": {
+            "sm": "揮舞強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。",
+            "usum": "揮舞強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。",
+            "lgpe": "揮舞強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。",
+            "swsh": "揮出強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。"
+        },
+        "french": {
+            "sm": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.",
+            "usum": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.",
+            "lgpe": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.",
+            "swsh": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur."
+        },
+        "german": {
+            "sm": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "usum": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "lgpe": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+            "swsh": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders."
+        },
+        "spanish": {
+            "sm": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+            "usum": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+            "lgpe": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+            "swsh": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida."
+        },
+        "italian": {
+            "sm": "Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la Velocità di chi la usa.",
+            "usum": "Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la Velocità di chi la usa.",
+            "lgpe": "Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la Velocità di chi la usa.",
+            "swsh": "Infligge danni al bersaglio colpendolo con un pugno molto potente. Riduce la Velocità di chi la usa."
+        },
+        "english": {
+            "sm": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "usum": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "lgpe": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "swsh": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+            "la": "The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.",
+            "sv": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat."
+        },
+        "japanese": {
+            "sm": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "usum": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "lgpe": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+            "swsh": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。"
+        },
+        "simplified-chinese": {
+            "sm": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。",
+            "usum": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。",
+            "lgpe": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。",
+            "swsh": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。"
+        },
+        "latin-american-spanish": {
+            "sm": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+            "usum": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+            "lgpe": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.",
+            "swsh": "Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage, then lowers the user’s Speed by one stage.",
+        "shortEffect": "Lowers user’s Speed by one stage."
+    }
 }

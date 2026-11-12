@@ -1,45 +1,142 @@
 {
-  "_id": 279,
-  "key": "revenge",
-  "name": {
-    "english": "Revenge",
-    "japanese": "リベンジ",
-    "chinese": "报仇",
-    "korean": "리벤지",
-    "german": "Desquite",
-    "french": "Vergeltung",
-    "italian": "Revenge",
-    "spanish": "Vendetta"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "An attack that gains power\nif injured by the foe.",
-    "emerald": "An attack that gains power\nif injured by the foe.",
-    "firered-leafgreen": "An attack move that\ngains in intensity if\nthe target has hurt\nthe user.",
-    "diamond-pearl": "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn.",
-    "platinum": "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn.",
-    "heartgold-soulsilver": "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn.",
-    "black-white": "An attack move that inflicts double the\ndamage if the user has been hurt by the\nopponent in the same turn.",
-    "black-2-white-2": "An attack move that inflicts double the\ndamage if the user has been hurt by the\nopponent in the same turn.",
-    "x-y": "An attack move that inflicts double the\ndamage if the user has been hurt by the\nopponent in the same turn.",
-    "omega-ruby-alpha-sapphire": "An attack move that inflicts double the\ndamage if the user has been hurt by the\nopponent in the same turn.",
-    "sun-moon": "This attack move’s power is doubled if the user has\nbeen hurt by the opponent in the same turn.",
-    "ultra-sun-ultra-moon": "This attack move’s power is doubled if the user has\nbeen hurt by the opponent in the same turn.",
-    "lets-go-pikachu-lets-go-eevee": "This attack move’s power is doubled if the user has\nbeen hurt by the opponent in the same turn.",
-    "sword-shield": "This attack move’s power is doubled if the user has\nbeen hurt by the opponent in the same turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target damaged the user this turn and was the last to do so, this move has double power.\n\npain split does not count as damaging the user.",
-    "shortEffect": "Inflicts double damage if the user takes damage before attacking this turn."
-  },
-  "priority": -4
+    "_id": 279,
+    "key": "revenge",
+    "name": {
+        "japanese-kana": "リベンジ",
+        "korean": "리벤지",
+        "traditional-chinese": "報復",
+        "french": "Vendetta",
+        "german": "Vergeltung",
+        "spanish": "Desquite",
+        "italian": "Vendetta",
+        "english": "Revenge",
+        "japanese": "リベンジ",
+        "simplified-chinese": "报复",
+        "latin-american-spanish": "Desquite"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": -4,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "An attack that gains power if injured by the foe.",
+            "em": "An attack that gains power if injured by the foe.",
+            "frlg": "An attack move that gains in intensity if the target has hurt the user.",
+            "dp": "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.",
+            "pt": "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.",
+            "hgss": "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.",
+            "bw": "An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn.",
+            "b2w2": "An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn.",
+            "xy": "An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn.",
+            "oras": "An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn.",
+            "sm": "This attack move’s power is doubled if the user has been hurt by the opponent in the same turn.",
+            "usum": "This attack move’s power is doubled if the user has been hurt by the opponent in the same turn.",
+            "lgpe": "This attack move’s power is doubled if the user has been hurt by the opponent in the same turn.",
+            "swsh": "This attack move’s power is doubled if the user has been hurt by the opponent in the same turn."
+        },
+        "french": {
+            "bw": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.",
+            "xy": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.",
+            "oras": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.",
+            "sm": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.",
+            "usum": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.",
+            "lgpe": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.",
+            "swsh": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour."
+        },
+        "japanese-kana": {
+            "xy": "あいてから　わざを　うけていると その　あいてに　たいして あたえる　ダメージが　２ばいに　なる。",
+            "oras": "あいてから　わざを　うけていると その　あいてに　たいして あたえる　ダメージが　２ばいに　なる。",
+            "sm": "あいてから　わざを　うけていると その　あいてに　たいして あたえる　ダメージが　２ばいに　なる。",
+            "usum": "あいてから　わざを　うけていると その　あいてに　たいして あたえる　ダメージが　２ばいに　なる。",
+            "lgpe": "あいてから　わざを　うけていると その　あいてに　たいして あたえる　ダメージが　２ばいに　なる。",
+            "swsh": "あいてから　わざを　うけていると その　あいてに　たいして あたえる　ダメージが　２ばいに　なる。"
+        },
+        "korean": {
+            "xy": "상대에게 기술을 받으면 그 상대에게 주는 데미지가 2배가 된다.",
+            "oras": "상대에게 기술을 받으면 그 상대에게 주는 데미지가 2배가 된다.",
+            "sm": "상대에게 기술을 받으면 그 상대에게 주는 데미지가 2배가 된다.",
+            "usum": "상대에게 기술을 받으면 그 상대에게 주는 데미지가 2배가 된다.",
+            "lgpe": "상대에게 기술을 받으면 그 상대에게 주는 데미지가 2배가 된다.",
+            "swsh": "상대에게 기술을 받으면 그 상대에게 주는 데미지가 2배가 된다."
+        },
+        "german": {
+            "xy": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden vom Ziel des Angriffes genommen hat.",
+            "oras": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden vom Ziel des Angriffes genommen hat.",
+            "sm": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden durch das Ziel erlitten hat.",
+            "usum": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden durch das Ziel erlitten hat.",
+            "lgpe": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden durch das Ziel erlitten hat.",
+            "swsh": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden durch das Ziel erlitten hat."
+        },
+        "spanish": {
+            "xy": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "oras": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "sm": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "usum": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "lgpe": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "swsh": "Ataque que produce el doble de daño si el usuario resulta herido en el mismo turno."
+        },
+        "italian": {
+            "xy": "Mossa d’attacco che infligge un danno doppio se si è stati colpiti dal Pokémon bersaglio nello stesso turno.",
+            "oras": "Mossa d’attacco che infligge un danno doppio se si è stati colpiti dal Pokémon bersaglio nello stesso turno.",
+            "sm": "Mossa d’attacco che infligge un danno doppio se si è stati colpiti dal Pokémon bersaglio nello stesso turno.",
+            "usum": "Mossa d’attacco che infligge un danno doppio se si è stati colpiti dal Pokémon bersaglio nello stesso turno.",
+            "lgpe": "Mossa d’attacco che infligge un danno doppio se si è stati colpiti dal Pokémon bersaglio nello stesso turno.",
+            "swsh": "Mossa d’attacco che infligge un danno doppio se si è stati colpiti dal Pokémon bersaglio nello stesso turno."
+        },
+        "japanese": {
+            "xy": "相手から　技を　受けていると その相手に　対して 与える　ダメージが　２倍に　なる。",
+            "oras": "相手から　技を　受けていると その相手に　対して 与える　ダメージが　２倍に　なる。",
+            "sm": "相手から　技を　受けていると その相手に　対して 与える　ダメージが　２倍に　なる。",
+            "usum": "相手から　技を　受けていると その相手に　対して 与える　ダメージが　２倍に　なる。",
+            "lgpe": "相手から　技を　受けていると その相手に　対して 与える　ダメージが　２倍に　なる。",
+            "swsh": "相手から　技を　受けていると その相手に　対して 与える　ダメージが　２倍に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "oras": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "sm": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "usum": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "lgpe": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+            "swsh": "Ataque que produce el doble de daño si el usuario resulta herido en el mismo turno."
+        },
+        "traditional-chinese": {
+            "sm": "如果受到對手的招式攻擊， 給予該對手的傷害就會變成２倍。",
+            "usum": "如果受到對手的招式攻擊， 給予該對手的傷害就會變成２倍。",
+            "lgpe": "如果受到對手的招式攻擊， 給予該對手的傷害就會變成２倍。",
+            "swsh": "如果受到對手的招式攻擊， 給予該對手的傷害就會變成２倍。"
+        },
+        "simplified-chinese": {
+            "sm": "如果受到对手的招式攻击， 就能给予对手２倍的伤害。",
+            "usum": "如果受到对手的招式攻击， 就能给予对手２倍的伤害。",
+            "lgpe": "如果受到对手的招式攻击， 就能给予对手２倍的伤害。",
+            "swsh": "如果受到对手的招式攻击， 就能给予对手２倍的伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target damaged the user this turn and was the last to do so, this move has double power. Pain Split does not count as damaging the user.",
+        "shortEffect": "Inflicts double damage if the user takes damage before attacking this turn."
+    }
 }

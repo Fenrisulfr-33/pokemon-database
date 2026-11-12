@@ -1,47 +1,154 @@
 {
-  "_id": 157,
-  "key": "rock-slide",
-  "name": {
-    "english": "Rock Slide",
-    "japanese": "いわなだれ",
-    "chinese": "山崩地裂",
-    "korean": "스톤샤워",
-    "german": "Avalancha",
-    "french": "Steinhagel",
-    "italian": "Rock Slide",
-    "spanish": "Frana"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 75,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause flinching.",
-    "crystal": "An attack that may\ncause flinching.",
-    "ruby-sapphire": "Large boulders are hurled.\nMay cause flinching.",
-    "emerald": "Large boulders are hurled.\nMay cause flinching.",
-    "firered-leafgreen": "Large boulders are\nhurled at the foe.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "Large boulders are\nhurled at the foe to\ninflict damage.\nIt may also make the\ntarget flinch.",
-    "platinum": "Large boulders are\nhurled at the foe to\ninflict damage.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "Large boulders are\nhurled at the foe to\ninflict damage.\nIt may also make the\ntarget flinch.",
-    "black-white": "Large boulders are hurled at the opposing\nteam to inflict damage. It may also make\nthe targets flinch.",
-    "black-2-white-2": "Large boulders are hurled at the opposing\nteam to inflict damage. It may also make\nthe targets flinch.",
-    "x-y": "Large boulders are hurled at the opposing\nPokémon to inflict damage. This may also make\nthe opposing Pokémon flinch.",
-    "omega-ruby-alpha-sapphire": "Large boulders are hurled at the opposing\nPokémon to inflict damage. This may also make\nthe opposing Pokémon flinch.",
-    "sun-moon": "Large boulders are hurled at the opposing Pokémon\nto inflict damage. This may also make the opposing\nPokémon flinch.",
-    "ultra-sun-ultra-moon": "Large boulders are hurled at the opposing Pokémon\nto inflict damage. This may also make the opposing\nPokémon flinch.",
-    "lets-go-pikachu-lets-go-eevee": "Large boulders are hurled at the opposing Pokémon\nto inflict damage. This may also make the opposing\nPokémon flinch.",
-    "sword-shield": "Large boulders are hurled at opposing Pokémon to\ninflict damage. This may also make the opposing\nPokémon flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 157,
+    "key": "rock-slide",
+    "name": {
+        "japanese-kana": "いわなだれ",
+        "korean": "스톤샤워",
+        "traditional-chinese": "岩崩",
+        "french": "Éboulement",
+        "german": "Steinhagel",
+        "spanish": "Avalancha",
+        "italian": "Frana",
+        "english": "Rock Slide",
+        "japanese": "いわなだれ",
+        "simplified-chinese": "岩崩",
+        "latin-american-spanish": "Avalancha"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 75,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 0,
+            "effect": {
+                "full": "Inflicts regular damage.",
+                "shortEffect": "Inflicts regular damage with no additional effect."
+            }
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause flinching.",
+            "cr": "An attack that may cause flinching.",
+            "rs": "Large boulders are hurled. May cause flinching.",
+            "em": "Large boulders are hurled. May cause flinching.",
+            "frlg": "Large boulders are hurled at the foe. It may make the foe flinch.",
+            "dp": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch.",
+            "pt": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch.",
+            "hgss": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch.",
+            "bw": "Large boulders are hurled at the opposing team to inflict damage. It may also make the targets flinch.",
+            "b2w2": "Large boulders are hurled at the opposing team to inflict damage. It may also make the targets flinch.",
+            "xy": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+            "oras": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+            "sm": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+            "usum": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+            "lgpe": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+            "swsh": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+            "la": "Large boulders are hurled at the target to inflict damage.",
+            "sv": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
+        },
+        "french": {
+            "bw": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+            "xy": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+            "oras": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+            "sm": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+            "usum": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+            "lgpe": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+            "swsh": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Schleudert riesige Felsen auf Ziele in der Umgebung, die eventuell zurückschrecken.",
+            "oras": "Schleudert riesige Felsen auf Ziele in der Umgebung, die eventuell zurückschrecken.",
+            "sm": "Schleudert riesige Felsen auf Ziele in der Umgebung, die eventuell zurückschrecken.",
+            "usum": "Schleudert riesige Felsen auf Ziele in der Umgebung, die eventuell zurückschrecken.",
+            "lgpe": "Schleudert riesige Felsen auf Ziele in der Umgebung, die eventuell zurückschrecken.",
+            "swsh": "Schleudert riesige Felsen auf gegnerische Pokémon, die eventuell zurückschrecken."
+        },
+        "spanish": {
+            "xy": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "oras": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "sm": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "usum": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "lgpe": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "swsh": "Lanza grandes pedruscos. Puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "I nemici intorno a chi la usa vengono colpiti da grandi massi che possono anche farli tentennare.",
+            "oras": "I nemici intorno a chi la usa vengono colpiti da grandi massi che possono anche farli tentennare.",
+            "sm": "I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare.",
+            "usum": "I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare.",
+            "lgpe": "I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare.",
+            "swsh": "I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare."
+        },
+        "japanese": {
+            "xy": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "oras": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "sm": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "usum": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "lgpe": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+            "swsh": "Lanza grandes pedruscos. Puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將大岩石 猛烈地砸向對手進行攻擊。 有時會讓對手畏縮。",
+            "usum": "將大岩石 猛烈地砸向對手進行攻擊。 有時會讓對手畏縮。",
+            "lgpe": "將大岩石 猛烈地砸向對手進行攻擊。 有時會讓對手畏縮。",
+            "swsh": "將大岩石 猛烈地砸向對手進行攻擊。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "将大岩石 猛烈地撞向对手进行攻击。 有时会使对手畏缩。",
+            "usum": "将大岩石 猛烈地撞向对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "将大岩石 猛烈地撞向对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "将大岩石 猛烈地撞向对手进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

@@ -1,45 +1,150 @@
 {
-  "_id": 353,
-  "key": "doom-desire",
-  "name": {
-    "english": "Doom Desire",
-    "japanese": "はめつのねがい",
-    "chinese": "破灭愿望",
-    "korean": "파멸의소원",
-    "german": "Deseo Oculto",
-    "french": "Kismetwunsch",
-    "italian": "Doom Desire",
-    "spanish": "Obbliderio"
-  },
-  "type": "Steel",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 140,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Summons strong sunlight to\nattack 2 turns later.",
-    "emerald": "Summons strong sunlight to\nattack 2 turns later.",
-    "firered-leafgreen": "A move that attacks\nthe foe with a\nblast of light two\nturns after use.",
-    "diamond-pearl": "Two turns after this\nmove is used, the\nuser blasts the foe\nwith a concentrated\nbundle of light.",
-    "platinum": "Two turns after this\nmove is used, the\nuser blasts the foe\nwith a concentrated\nbundle of light.",
-    "heartgold-soulsilver": "Two turns after this\nmove is used, the\nuser blasts the foe\nwith a concentrated\nbundle of light.",
-    "black-white": "Two turns after this move is used, the\nuser blasts the target with a\nconcentrated bundle of light.",
-    "black-2-white-2": "Two turns after this move is used, the\nuser blasts the target with a\nconcentrated bundle of light.",
-    "x-y": "Two turns after this move is used, the\nuser blasts the target with a\nconcentrated bundle of light.",
-    "omega-ruby-alpha-sapphire": "Two turns after this move is used, the\nuser blasts the target with a\nconcentrated bundle of light.",
-    "sun-moon": "Two turns after this move is used, a concentrated\nbundle of light blasts the target.\n",
-    "ultra-sun-ultra-moon": "Two turns after this move is used, a concentrated\nbundle of light blasts the target.\n",
-    "lets-go-pikachu-lets-go-eevee": "Two turns after this move is used, a concentrated\nbundle of light blasts the target.",
-    "sword-shield": "Two turns after this move is used, a concentrated\nbundle of light blasts the target."
-  },
-  "effect": {
-    "full": "Inflicts typeless regular damage at the end of the third turn, starting with this one.  This move cannot score a critical hit.  If the target switches out, its replacement will be hit instead.  Damage is calculated at the time this move is used; stat changes and switching out during the delay won't change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.\n\nThis effect breaks through wonder guard.\n\nIf the target is protected by protect or detect on the turn this move is used, this move will fail.  However, the damage on the third turn will break through protection.\n\nThe damage is applied at the end of the turn, so it ignores endure and focus sash.\n\nThis move cannot be copied by mirror move.",
-    "shortEffect": "Hits the target two turns later."
-  },
-  "priority": 0
+    "_id": 353,
+    "key": "doom-desire",
+    "name": {
+        "japanese-kana": "はめつのねがい",
+        "korean": "파멸의소원",
+        "traditional-chinese": "破滅之願",
+        "french": "Vœu Destructeur",
+        "german": "Kismetwunsch",
+        "spanish": "Deseo Oculto",
+        "italian": "Obbliderio",
+        "english": "Doom Desire",
+        "japanese": "はめつのねがい",
+        "simplified-chinese": "破灭之愿",
+        "latin-american-spanish": "Deseo Final"
+    },
+    "type": "steel",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": 140,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 85,
+            "power": 120
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Summons strong sunlight to attack 2 turns later.",
+            "em": "Summons strong sunlight to attack 2 turns later.",
+            "frlg": "A move that attacks the foe with a blast of light two turns after use.",
+            "dp": "Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.",
+            "pt": "Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.",
+            "hgss": "Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.",
+            "bw": "Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",
+            "b2w2": "Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",
+            "xy": "Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",
+            "oras": "Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",
+            "sm": "Two turns after this move is used, a concentrated bundle of light blasts the target.",
+            "usum": "Two turns after this move is used, a concentrated bundle of light blasts the target.",
+            "lgpe": "Two turns after this move is used, a concentrated bundle of light blasts the target.",
+            "swsh": "Two turns after this move is used, a concentrated bundle of light blasts the target.",
+            "la": "Two turns after this move is used, a concentrated bundle of light blasts the target.",
+            "sv": "This move can't be used. It's recommended that this move is forgotten. Once forgotten, this move can't be remembered.",
+            "ttm": "Two turns after this move is used, a concentrated bundle of light blasts the target."
+        },
+        "french": {
+            "bw": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi 2 tours plus tard.",
+            "xy": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard.",
+            "oras": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard.",
+            "sm": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard.",
+            "usum": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard.",
+            "lgpe": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard.",
+            "swsh": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard."
+        },
+        "japanese-kana": {
+            "xy": "わざを　つかった　２ターン　あとに むすうの　ひかりの　たばで あいてを　こうげきする。",
+            "oras": "わざを　つかった　２ターン　あとに むすうの　ひかりの　たばで あいてを　こうげきする。",
+            "sm": "わざを　つかった　２ターン　あとに むすうの　ひかりの　たばで あいてを　こうげきする。",
+            "usum": "わざを　つかった　２ターン　あとに むすうの　ひかりの　たばで あいてを　こうげきする。",
+            "lgpe": "わざを　つかった　２ターン　あとに むすうの　ひかりの　たばで あいてを　こうげきする。",
+            "swsh": "わざを　つかった　２ターン　あとに むすうの　ひかりの　たばで あいてを　こうげきする。"
+        },
+        "korean": {
+            "xy": "기술을 사용한 2턴 뒤에 무수한 빛의 다발이 상대를 공격한다.",
+            "oras": "기술을 사용한 2턴 뒤에 무수한 빛의 다발이 상대를 공격한다.",
+            "sm": "기술을 사용한 2턴 뒤에 무수한 빛의 다발이 상대를 공격한다.",
+            "usum": "기술을 사용한 2턴 뒤에 무수한 빛의 다발이 상대를 공격한다.",
+            "lgpe": "기술을 사용한 2턴 뒤에 무수한 빛의 다발이 상대를 공격한다.",
+            "swsh": "기술을 사용한 2턴 뒤에 무수한 빛의 다발이 상대를 공격한다."
+        },
+        "german": {
+            "xy": "Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.",
+            "oras": "Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.",
+            "sm": "Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.",
+            "usum": "Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.",
+            "lgpe": "Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.",
+            "swsh": "Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz."
+        },
+        "spanish": {
+            "xy": "Concentra un haz de luz y ataca dos turnos después.",
+            "oras": "Concentra un haz de luz y ataca dos turnos después.",
+            "sm": "Concentra un haz de luz y ataca dos turnos después.",
+            "usum": "Concentra un haz de luz y ataca dos turnos después.",
+            "lgpe": "Concentra un haz de luz y ataca dos turnos después.",
+            "swsh": "Concentra un haz de luz y ataca dos turnos después."
+        },
+        "italian": {
+            "xy": "Intensa luce solare che colpisce il bersaglio dopo due turni dall’uso della mossa.",
+            "oras": "Intensa luce solare che colpisce il bersaglio dopo due turni dall’uso della mossa.",
+            "sm": "Intenso fascio di luce che colpisce il bersaglio dopo due turni dall’uso della mossa.",
+            "usum": "Intenso fascio di luce che colpisce il bersaglio dopo due turni dall’uso della mossa.",
+            "lgpe": "Intenso fascio di luce che colpisce il bersaglio dopo due turni dall’uso della mossa.",
+            "swsh": "Intenso fascio di luce che colpisce il bersaglio dopo due turni dall’uso della mossa."
+        },
+        "japanese": {
+            "xy": "技を　使った　２ターン後に 無数の　光の　束で 相手を　攻撃する。",
+            "oras": "技を　使った　２ターン後に 無数の　光の　束で 相手を　攻撃する。",
+            "sm": "技を　使った　２ターン後に 無数の　光の　束で 相手を　攻撃する。",
+            "usum": "技を　使った　２ターン後に 無数の　光の　束で 相手を　攻撃する。",
+            "lgpe": "技を　使った　２ターン後に 無数の　光の　束で 相手を　攻撃する。",
+            "swsh": "技を　使った　２ターン後に 無数の　光の　束で 相手を　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Concentra un haz de luz y ataca dos turnos después.",
+            "oras": "Concentra un haz de luz y ataca dos turnos después.",
+            "sm": "Concentra un haz de luz y ataca dos turnos después.",
+            "usum": "Concentra un haz de luz y ataca dos turnos después.",
+            "lgpe": "Concentra un haz de luz y ataca dos turnos después.",
+            "swsh": "Concentra un haz de luz y ataca dos turnos después."
+        },
+        "traditional-chinese": {
+            "sm": "使用招式的２回合後， 向對手發射無數道光束 進行攻擊。",
+            "usum": "使用招式的２回合後， 向對手發射無數道光束 進行攻擊。",
+            "lgpe": "使用招式的２回合後， 向對手發射無數道光束 進行攻擊。",
+            "swsh": "使用招式的２回合後， 向對手發射無數道光束 進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "使用招式２回合后， 会用无数道光束攻击对手。",
+            "usum": "使用招式２回合后， 会用无数道光束攻击对手。",
+            "lgpe": "使用招式２回合后， 会用无数道光束攻击对手。",
+            "swsh": "使用招式２回合后， 会用无数道光束攻击对手。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts typeless regular damage at the end of the third turn, starting with this one.  This move cannot score a critical hit.  If the target switches out, its replacement will be hit instead.  Damage is calculated at the time this move is used; stat changes and switching out during the delay won’t change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn. This effect breaks through Wonder Guard. If the target is protected by Protect or Detect on the turn this move is used, this move will fail.  However, the damage on the third turn will break through protection. The damage is applied at the end of the turn, so it ignores Endure and Focus Sash. This move cannot be copied by Mirror Move.",
+        "shortEffect": "Hits the target two turns later."
+    }
 }

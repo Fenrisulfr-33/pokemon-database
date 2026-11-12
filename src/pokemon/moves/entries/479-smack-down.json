@@ -1,39 +1,138 @@
 {
-  "_id": 479,
-  "key": "smack-down",
-  "name": {
-    "english": "Smack Down",
-    "japanese": "うちおとす",
-    "chinese": "击落",
-    "korean": "떨어뜨리기",
-    "german": "Antiaéreo",
-    "french": "Katapult",
-    "italian": "Smack Down",
-    "spanish": "Abbattimento"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 50,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user throws a stone or projectile to\nattack an opponent. A flying Pokémon will\nfall to the ground when hit.",
-    "black-2-white-2": "The user throws a stone or projectile to\nattack an opponent. A flying Pokémon will\nfall to the ground when hit.",
-    "x-y": "The user throws a stone or similar projectile\nto attack an opponent. A flying Pokémon\nwill fall to the ground when it’s hit.",
-    "omega-ruby-alpha-sapphire": "The user throws a stone or similar projectile\nto attack an opponent. A flying Pokémon\nwill fall to the ground when it’s hit.",
-    "sun-moon": "The user throws a stone or similar projectile to\nattack an opponent. A flying Pokémon will fall to the\nground when it’s hit.",
-    "ultra-sun-ultra-moon": "The user throws a stone or similar projectile to\nattack an opponent. A flying Pokémon will fall to the\nground when it’s hit.",
-    "lets-go-pikachu-lets-go-eevee": "The user throws a stone or similar projectile to\nattack an opponent. A flying Pokémon will fall to the\nground when it’s hit.",
-    "sword-shield": "The user throws a stone or similar projectile to\nattack the target. A flying Pokémon will fall to the\nground when it’s hit."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Removes the target's immunity to ground-type damage.  This effect removes any existing Ground immunity due to levitate, magnet rise, or telekinesis, and causes the target's flying type to be ignored when it takes Ground damage.\n\nIf the target isn't immune to Ground damage, this move will fail.\n\nThis move can hit Pokémon under the effect of bounce, fly, or sky drop, and ends the effect of Bounce or Fly.",
-    "shortEffect": "Removes any immunity to Ground damage."
-  },
-  "priority": 0
+    "_id": 479,
+    "key": "smack-down",
+    "name": {
+        "japanese-kana": "うちおとす",
+        "korean": "떨어뜨리기",
+        "traditional-chinese": "擊落",
+        "french": "Anti-Air",
+        "german": "Katapult",
+        "spanish": "Antiaéreo",
+        "italian": "Abbattimento",
+        "english": "Smack Down",
+        "japanese": "うちおとす",
+        "simplified-chinese": "击落",
+        "latin-american-spanish": "Antiaéreo"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 50,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "unknown",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol.",
+            "xy": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol.",
+            "oras": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol.",
+            "sm": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol.",
+            "usum": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol.",
+            "lgpe": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol.",
+            "swsh": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol."
+        },
+        "english": {
+            "bw": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when hit.",
+            "b2w2": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when hit.",
+            "xy": "The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it’s hit.",
+            "oras": "The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it’s hit.",
+            "sm": "The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it’s hit.",
+            "usum": "The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it’s hit.",
+            "lgpe": "The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it’s hit.",
+            "swsh": "The user throws a stone or similar projectile to attack the target. A flying Pokémon will fall to the ground when it’s hit.",
+            "la": "The user throws a stone or similar projectile to attack the target. A flying Pokémon will fall to the ground when it's hit.",
+            "sv": "The user throws a stone or similar projectile to attack the target. If the target is in the air, it will be knocked down to the ground."
+        },
+        "japanese-kana": {
+            "xy": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。あいては うちおとされて　じめんに　おちる。",
+            "oras": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。あいては うちおとされて　じめんに　おちる。",
+            "sm": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。　あいては うちおとされて　じめんに　おちる。",
+            "usum": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。　あいては うちおとされて　じめんに　おちる。",
+            "lgpe": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。　あいては うちおとされて　じめんに　おちる。",
+            "swsh": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。　あいては うちおとされて　じめんに　おちる。"
+        },
+        "korean": {
+            "xy": "돌이나 구슬을 던져서 날고 있는 상대를 공격한다. 맞은 상대는 땅에 떨어진다.",
+            "oras": "돌이나 구슬을 던져서 날고 있는 상대를 공격한다. 맞은 상대는 땅에 떨어진다.",
+            "sm": "돌이나 구슬을 던져서 날고 있는 상대를 공격한다. 맞은 상대는 땅에 떨어진다.",
+            "usum": "돌이나 구슬을 던져서 날고 있는 상대를 공격한다. 맞은 상대는 땅에 떨어진다.",
+            "lgpe": "돌이나 구슬을 던져서 날고 있는 상대를 공격한다. 맞은 상대는 땅에 떨어진다.",
+            "swsh": "돌이나 구슬을 던져서 날고 있는 상대를 공격한다. 맞은 상대는 땅에 떨어진다."
+        },
+        "german": {
+            "xy": "Greift das Ziel mit Steinen und Wurfgeschossen an. Fliegende Ziele fallen dabei vom Himmel und landen auf dem Boden.",
+            "oras": "Greift das Ziel mit Steinen und Wurfgeschossen an. Fliegende Ziele fallen dabei vom Himmel und landen auf dem Boden.",
+            "sm": "Greift das Ziel mit Steinen und Wurfgeschossen an. Fliegende Ziele fallen dabei vom Himmel und landen auf dem Boden.",
+            "usum": "Greift das Ziel mit Steinen und Wurfgeschossen an. Fliegende Ziele fallen dabei vom Himmel und landen auf dem Boden.",
+            "lgpe": "Greift das Ziel mit Steinen und Wurfgeschossen an. Fliegende Ziele fallen dabei vom Himmel und landen auf dem Boden.",
+            "swsh": "Greift das Ziel mit Steinen und Wurfgeschossen an. Fliegende Ziele fallen dabei vom Himmel und landen auf dem Boden."
+        },
+        "spanish": {
+            "xy": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "oras": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "sm": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "usum": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "lgpe": "Ataca lanzando una piedra o un proyectil. Si el objetivo está en el aire, lo estrella contra el suelo.",
+            "swsh": "Ataca lanzando una piedra o un proyectil. Si el objetivo está en el aire, lo estrella contra el suelo."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.",
+            "oras": "Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.",
+            "sm": "Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.",
+            "usum": "Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.",
+            "lgpe": "Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.",
+            "swsh": "Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere."
+        },
+        "japanese": {
+            "xy": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。相手は うち落とされて　地面に　落ちる。",
+            "oras": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。相手は うち落とされて　地面に　落ちる。",
+            "sm": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。　相手は うち落とされて　地面に　落ちる。",
+            "usum": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。　相手は うち落とされて　地面に　落ちる。",
+            "lgpe": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。　相手は うち落とされて　地面に　落ちる。",
+            "swsh": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。　相手は うち落とされて　地面に　落ちる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "oras": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "sm": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "usum": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+            "lgpe": "Ataca lanzando una piedra o un proyectil. Si el objetivo está en el aire, lo estrella contra el suelo.",
+            "swsh": "Ataca lanzando una piedra o un proyectil. Si el objetivo está en el aire, lo estrella contra el suelo."
+        },
+        "traditional-chinese": {
+            "sm": "向空中的對手投擲石頭或炮彈等物體 進行攻擊。對手會被擊落，掉到地面。",
+            "usum": "向空中的對手投擲石頭或炮彈等物體 進行攻擊。對手會被擊落，掉到地面。",
+            "lgpe": "向空中的對手投擲石頭或炮彈等物體 進行攻擊。對手會被擊落，掉到地面。",
+            "swsh": "向空中的對手投擲石頭或炮彈等物體 進行攻擊。對手會被擊落，掉到地面。"
+        },
+        "simplified-chinese": {
+            "sm": "扔石头或炮弹， 攻击飞行的对手。 对手会被击落，掉到地面。",
+            "usum": "扔石头或炮弹， 攻击飞行的对手。 对手会被击落，掉到地面。",
+            "lgpe": "扔石头或炮弹， 攻击飞行的对手。 对手会被击落，掉到地面。",
+            "swsh": "扔石头或炮弹， 攻击飞行的对手。 对手会被击落，掉到地面。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Removes the target’s immunity to Ground-type damage.  This effect removes any existing Ground immunity due to Levitate, Magnet Rise, or Telekinesis, and causes the target’s Flying type to be ignored when it takes Ground damage. If the target isn’t immune to Ground damage, this move will fail. This move can hit Pokémon under the effect of Bounce, Fly, or Sky Drop, and ends the effect of Bounce or Fly.",
+        "shortEffect": "Removes any immunity to Ground damage."
+    }
 }

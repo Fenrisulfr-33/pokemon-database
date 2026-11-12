@@ -1,47 +1,156 @@
 {
-  "_id": 130,
-  "key": "skull-bash",
-  "name": {
-    "english": "Skull Bash",
-    "japanese": "ロケットずつき",
-    "chinese": "火箭头槌",
-    "korean": "로케트박치기",
-    "german": "Cabezazo",
-    "french": "Schädelwumme",
-    "italian": "Skull Bash",
-    "spanish": "Capocciata"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 130,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "1st turn: Prepare\n2nd turn: Attack",
-    "crystal": "1st turn: Prepare\n2nd turn: Attack",
-    "ruby-sapphire": "Tucks in the head, then\nattacks on the next turn.",
-    "emerald": "Tucks in the head, then\nattacks on the next turn.",
-    "firered-leafgreen": "The user raises its\nDEFENSE in the 1st\nturn, then attacks\nin the 2nd turn.",
-    "diamond-pearl": "The user tucks in its\nhead to raise its\nDefense in the first\nturn, then rams the\nfoe on the next turn.",
-    "platinum": "The user tucks in its\nhead to raise its\nDefense in the first\nturn, then rams the\nfoe on the next turn.",
-    "heartgold-soulsilver": "The user tucks in its\nhead to raise its\nDefense in the first\nturn, then rams the\nfoe on the next turn.",
-    "black-white": "The user tucks in its head to raise its\nDefense in the first turn, then\nrams the target on the next turn.",
-    "black-2-white-2": "The user tucks in its head to raise its\nDefense in the first turn, then\nrams the target on the next turn.",
-    "x-y": "The user tucks in its head to raise its\nDefense in the first turn, then\nrams the target on the next turn.",
-    "omega-ruby-alpha-sapphire": "The user tucks in its head to raise its\nDefense in the first turn, then\nrams the target on the next turn.",
-    "sun-moon": "The user tucks in its head to raise its Defense\nstat on the first turn, then rams the target on the\nnext turn.",
-    "ultra-sun-ultra-moon": "The user tucks in its head to raise its Defense\nstat on the first turn, then rams the target on the\nnext turn.",
-    "lets-go-pikachu-lets-go-eevee": "The user tucks in its head to raise its Defense\nstat on the first turn, then rams the target on the\nnext turn.",
-    "sword-shield": "The user tucks in its head to raise its Defense\nstat on the first turn, then rams the target on the\nnext turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Raises the user's Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "Raises the user's Defense by one stage.  User charges for one turn before attacking."
-  },
-  "priority": 0
+    "_id": 130,
+    "key": "skull-bash",
+    "name": {
+        "japanese-kana": "ロケットずつき",
+        "korean": "로켓박치기",
+        "traditional-chinese": "火箭頭錘",
+        "french": "Coud’Krâne",
+        "german": "Schädelwumme",
+        "spanish": "Cabezazo",
+        "italian": "Capocciata",
+        "english": "Skull Bash",
+        "japanese": "ロケットずつき",
+        "simplified-chinese": "火箭头锤",
+        "latin-american-spanish": "Cabezazo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 130,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 100,
+            "pp": 15
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "N’augmente pas la Defense."
+        },
+        "english": {
+            "gs": "Does not raise Defense."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "1st turn: Prepare 2nd turn: Attack",
+            "cr": "1st turn: Prepare 2nd turn: Attack",
+            "rs": "Tucks in the head, then attacks on the next turn.",
+            "em": "Tucks in the head, then attacks on the next turn.",
+            "frlg": "The user raises its DEFENSE in the 1st turn, then attacks in the 2nd turn.",
+            "dp": "The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.",
+            "pt": "The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.",
+            "hgss": "The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.",
+            "bw": "The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.",
+            "b2w2": "The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.",
+            "xy": "The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.",
+            "oras": "The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.",
+            "sm": "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.",
+            "usum": "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.",
+            "lgpe": "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.",
+            "swsh": "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn."
+        },
+        "french": {
+            "bw": "Le lanceur baisse la tête pour augmenter sa Défense au 1er tour et percuter l’ennemi au 2è.",
+            "xy": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second.",
+            "oras": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second.",
+            "sm": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second.",
+            "usum": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second.",
+            "lgpe": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second.",
+            "swsh": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second."
+        },
+        "japanese-kana": {
+            "xy": "１ターンめに　あたまを　ひっこめて ぼうぎょを　あげる。 ２ターンめに　あいてを　こうげきする。",
+            "oras": "１ターンめに　あたまを　ひっこめて ぼうぎょを　あげる。 ２ターンめに　あいてを　こうげきする。",
+            "sm": "１ターンめに　あたまを　ひっこめて ぼうぎょを　あげる。 ２ターンめに　あいてを　こうげきする。",
+            "usum": "１ターンめに　あたまを　ひっこめて ぼうぎょを　あげる。 ２ターンめに　あいてを　こうげきする。",
+            "lgpe": "１ターンめに　あたまを　ひっこめて ぼうぎょを　あげる。 ２ターンめに　あいてを　こうげきする。",
+            "swsh": "１ターンめに　あたまを　ひっこめて ぼうぎょを　あげる。 ２ターンめに　あいてを　こうげきする。"
+        },
+        "korean": {
+            "xy": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다.",
+            "oras": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다.",
+            "sm": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다.",
+            "usum": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다.",
+            "lgpe": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다.",
+            "swsh": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다."
+        },
+        "german": {
+            "xy": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.",
+            "oras": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.",
+            "sm": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.",
+            "usum": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.",
+            "lgpe": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.",
+            "swsh": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an."
+        },
+        "spanish": {
+            "xy": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "oras": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "sm": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "usum": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "lgpe": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "swsh": "El usuario se prepara y sube su Defensa en el primer turno y en el segundo arremete con un cabezazo."
+        },
+        "italian": {
+            "xy": "Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo.",
+            "oras": "Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo.",
+            "sm": "Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo.",
+            "usum": "Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo.",
+            "lgpe": "Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo.",
+            "swsh": "Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo."
+        },
+        "japanese": {
+            "xy": "１ターン目に　頭を　ひっこめて 防御を　あげる。 ２ターン目に　相手を　攻撃する。",
+            "oras": "１ターン目に　頭を　ひっこめて 防御を　あげる。 ２ターン目に　相手を　攻撃する。",
+            "sm": "１ターン目に　頭を　ひっこめて 防御を　あげる。 ２ターン目に　相手を　攻撃する。",
+            "usum": "１ターン目に　頭を　ひっこめて 防御を　あげる。 ２ターン目に　相手を　攻撃する。",
+            "lgpe": "１ターン目に　頭を　ひっこめて 防御を　あげる。 ２ターン目に　相手を　攻撃する。",
+            "swsh": "１ターン目に　頭を　ひっこめて 防御を　あげる。 ２ターン目に　相手を　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "oras": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "sm": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "usum": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "lgpe": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+            "swsh": "El usuario se prepara y sube su Defensa en el primer turno y en el segundo arremete con un cabezazo."
+        },
+        "traditional-chinese": {
+            "sm": "使用後的第１回合把頭後縮，提高防禦。 並於第２回合攻擊對手。",
+            "usum": "使用後的第１回合把頭後縮，提高防禦。 並於第２回合攻擊對手。",
+            "lgpe": "使用後的第１回合把頭後縮，提高防禦。 並於第２回合攻擊對手。",
+            "swsh": "使用後的第１回合把頭後縮，提高防禦。 並於第２回合攻擊對手。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合把头缩进去， 从而提高防御。 第２回合攻击对手。",
+            "usum": "第１回合把头缩进去， 从而提高防御。 第２回合攻击对手。",
+            "lgpe": "第１回合把头缩进去， 从而提高防御。 第２回合攻击对手。",
+            "swsh": "第１回合把头缩进去， 从而提高防御。 第２回合攻击对手。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Raises the user’s Defense by one stage.  User then charges for one turn before attacking. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "Raises the user’s Defense by one stage.  User charges for one turn before attacking."
+    }
 }

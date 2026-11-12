@@ -1,47 +1,146 @@
 {
-  "_id": 97,
-  "key": "agility",
-  "name": {
-    "english": "Agility",
-    "japanese": "こうそくいどう",
-    "chinese": "高速移动",
-    "korean": "고속이동",
-    "german": "Agilidad",
-    "french": "Agilität",
-    "italian": "Agility",
-    "spanish": "Agilità"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Sharply increases\nthe user's SPEED.",
-    "crystal": "Sharply increases\nthe user's SPEED.",
-    "ruby-sapphire": "Relaxes the body to sharply\nboost SPEED.",
-    "emerald": "Relaxes the body to sharply\nboost SPEED.",
-    "firered-leafgreen": "The user relaxes\nand lightens its\nbody to sharply\nboost its SPEED.",
-    "diamond-pearl": "The user relaxes and\nlightens its body to\nmove faster.\nIt sharply boosts\nthe Speed stat.",
-    "platinum": "The user relaxes and\nlightens its body to\nmove faster.\nIt sharply boosts\nthe Speed stat.",
-    "heartgold-soulsilver": "The user relaxes and\nlightens its body to\nmove faster.\nIt sharply boosts\nthe Speed stat.",
-    "black-white": "The user relaxes and lightens its body to\nmove faster. It sharply boosts\nthe Speed stat.",
-    "black-2-white-2": "The user relaxes and lightens its body to\nmove faster. It sharply boosts\nthe Speed stat.",
-    "x-y": "The user relaxes and lightens its body to\nmove faster. This sharply raises the Speed stat.",
-    "omega-ruby-alpha-sapphire": "The user relaxes and lightens its body to\nmove faster. This sharply raises the Speed stat.",
-    "sun-moon": "The user relaxes and lightens its body to move\nfaster. This sharply raises the Speed stat.",
-    "ultra-sun-ultra-moon": "The user relaxes and lightens its body to move\nfaster. This sharply raises the Speed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user relaxes and lightens its body to move\nfaster. This sharply raises the Speed stat.",
-    "sword-shield": "The user relaxes and lightens its body to move\nfaster. This sharply raises the Speed stat."
-  },
-  "effect": {
-    "full": "Raises the user's Speed by two stages.",
-    "shortEffect": "Raises the user's Speed by two stages."
-  },
-  "priority": 0
+    "_id": 97,
+    "key": "agility",
+    "name": {
+        "japanese-kana": "こうそくいどう",
+        "korean": "고속이동",
+        "traditional-chinese": "高速移動",
+        "french": "Hâte",
+        "german": "Agilität",
+        "spanish": "Agilidad",
+        "italian": "Agilità",
+        "english": "Agility",
+        "japanese": "こうそくいどう",
+        "simplified-chinese": "高速移动",
+        "latin-american-spanish": "Agilidad"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cool",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Sharply increases the user's SPEED.",
+            "cr": "Sharply increases the user's SPEED.",
+            "rs": "Relaxes the body to sharply boost SPEED.",
+            "em": "Relaxes the body to sharply boost SPEED.",
+            "frlg": "The user relaxes and lightens its body to sharply boost its SPEED.",
+            "dp": "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
+            "pt": "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
+            "hgss": "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
+            "bw": "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
+            "b2w2": "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
+            "xy": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+            "oras": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+            "sm": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+            "usum": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+            "lgpe": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+            "swsh": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+            "la": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+            "sv": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat."
+        },
+        "french": {
+            "bw": "Le lanceur se relaxe et allège son corps pour augmenter considérablement sa Vitesse.",
+            "xy": "Le lanceur se relaxe et allège son corps pour augmenter considérablement sa Vitesse.",
+            "oras": "Le lanceur se relaxe et allège son corps pour augmenter considérablement sa Vitesse.",
+            "sm": "Le lanceur se relaxe et allège son corps pour beaucoup augmenter sa Vitesse.",
+            "usum": "Le lanceur se relaxe et allège son corps pour beaucoup augmenter sa Vitesse.",
+            "lgpe": "Le lanceur se relaxe et allège son corps pour beaucoup augmenter sa Vitesse.",
+            "swsh": "Le lanceur se relaxe et allège son corps pour beaucoup augmenter sa Vitesse."
+        },
+        "japanese-kana": {
+            "xy": "ちからを　ぬいて　からだを　かるくして こうそくで　うごく。 じぶんの　すばやさを　ぐーんと　あげる。",
+            "oras": "ちからを　ぬいて　からだを　かるくして こうそくで　うごく。 じぶんの　すばやさを　ぐーんと　あげる。",
+            "sm": "ちからを　ぬいて　からだを　かるくして こうそくで　うごく。 じぶんの　すばやさを　ぐーんと　あげる。",
+            "usum": "ちからを　ぬいて　からだを　かるくして こうそくで　うごく。 じぶんの　すばやさを　ぐーんと　あげる。",
+            "lgpe": "ちからを　ぬいて　からだを　かるくして こうそくで　うごく。 じぶんの　すばやさを　ぐーんと　あげる。",
+            "swsh": "ちからを　ぬいて　からだを　かるくして こうそくで　うごく。 じぶんの　すばやさを　ぐーんと　あげる。"
+        },
+        "korean": {
+            "xy": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다.",
+            "oras": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다.",
+            "sm": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다.",
+            "usum": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다.",
+            "lgpe": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다.",
+            "swsh": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다."
+        },
+        "german": {
+            "xy": "Entspannt den Körper, um den Initiative-Wert stark zu steigern.",
+            "oras": "Entspannt den Körper, um den Initiative-Wert stark zu steigern.",
+            "sm": "Entspannt den Körper, um den Initiative-Wert stark zu erhöhen.",
+            "usum": "Entspannt den Körper, um den Initiative-Wert stark zu erhöhen.",
+            "lgpe": "Entspannt den Körper, um den Initiative-Wert stark zu erhöhen.",
+            "swsh": "Entspannt den Körper, um den Initiative-Wert stark zu erhöhen."
+        },
+        "spanish": {
+            "xy": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "oras": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "sm": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "usum": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "lgpe": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "swsh": "Relaja el cuerpo para ganar mucha Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.",
+            "oras": "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.",
+            "sm": "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.",
+            "usum": "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.",
+            "lgpe": "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.",
+            "swsh": "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità."
+        },
+        "japanese": {
+            "xy": "力を　ぬいて　体を　軽くして 高速で　動く。 自分の　素早さを　ぐーんと　あげる。",
+            "oras": "力を　ぬいて　体を　軽くして 高速で　動く。 自分の　素早さを　ぐーんと　あげる。",
+            "sm": "力を　ぬいて　体を　軽くして 高速で　動く。 自分の　素早さを　ぐーんと　あげる。",
+            "usum": "力を　ぬいて　体を　軽くして 高速で　動く。 自分の　素早さを　ぐーんと　あげる。",
+            "lgpe": "力を　ぬいて　体を　軽くして 高速で　動く。 自分の　素早さを　ぐーんと　あげる。",
+            "swsh": "力を　ぬいて　体を　軽くして 高速で　動く。 自分の　素早さを　ぐーんと　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "oras": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "sm": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "usum": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "lgpe": "Relaja el cuerpo para ganar mucha Velocidad.",
+            "swsh": "Relaja el cuerpo para ganar mucha Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "放鬆身體， 讓自己變得輕盈以進行高速移動。 可大幅提高自己的速度。",
+            "usum": "放鬆身體， 讓自己變得輕盈以進行高速移動。 可大幅提高自己的速度。",
+            "lgpe": "放鬆身體， 讓自己變得輕盈以進行高速移動。 可大幅提高自己的速度。",
+            "swsh": "放鬆身體， 讓自己變得輕盈以進行高速移動。 可大幅提高自己的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "让身体放松变得轻盈， 以便高速移动。 大幅提高自己的速度。",
+            "usum": "让身体放松变得轻盈， 以便高速移动。 大幅提高自己的速度。",
+            "lgpe": "让身体放松变得轻盈， 以便高速移动。 大幅提高自己的速度。",
+            "swsh": "让身体放松变得轻盈， 以便高速移动。 大幅提高自己的速度。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Speed by two stages.",
+        "shortEffect": "Raises the user’s Speed by two stages."
+    }
 }

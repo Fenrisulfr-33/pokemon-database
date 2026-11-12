@@ -1,45 +1,143 @@
 {
-  "_id": 307,
-  "key": "blast-burn",
-  "name": {
-    "english": "Blast Burn",
-    "japanese": "ブラストバーン",
-    "chinese": "爆炸燃烧",
-    "korean": "블러스트번",
-    "german": "Anillo Ígneo",
-    "french": "Lohekanonade",
-    "italian": "Blast Burn",
-    "spanish": "Incendio"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 150,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Powerful, but leaves the\nuser immobile the next turn.",
-    "emerald": "Powerful, but leaves the\nuser immobile the next turn.",
-    "firered-leafgreen": "The foe is hit with\na huge explosion.\nThe user can’t move\non the next turn.",
-    "diamond-pearl": "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever.",
-    "platinum": "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever.",
-    "heartgold-soulsilver": "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever.",
-    "black-white": "The target is razed by a fiery explosion.\nThe user must rest on the\nnext turn, however.",
-    "black-2-white-2": "The target is razed by a fiery explosion.\nThe user must rest on the\nnext turn, however.",
-    "x-y": "The target is razed by a fiery explosion.\nThe user can’t move on the next turn.",
-    "omega-ruby-alpha-sapphire": "The target is razed by a fiery explosion.\nThe user can’t move on the next turn.",
-    "sun-moon": "The target is razed by a fiery explosion. The user\ncan’t move on the next turn.",
-    "ultra-sun-ultra-moon": "The target is razed by a fiery explosion. The user\ncan’t move on the next turn.",
-    "lets-go-pikachu-lets-go-eevee": "The target is razed by a fiery explosion. The user\ncan’t move on the next turn.",
-    "sword-shield": "The target is razed by a fiery explosion. The user\ncan’t move on the next turn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-    "shortEffect": "User foregoes its next turn to recharge."
-  },
-  "priority": 0
+    "_id": 307,
+    "key": "blast-burn",
+    "name": {
+        "japanese-kana": "ブラストバーン",
+        "korean": "블라스트번",
+        "traditional-chinese": "爆炸烈焰",
+        "french": "Rafale Feu",
+        "german": "Lohekanonade",
+        "spanish": "Anillo Ígneo",
+        "italian": "Incendio",
+        "english": "Blast Burn",
+        "japanese": "ブラストバーン",
+        "simplified-chinese": "爆炸烈焰",
+        "latin-american-spanish": "Anillo de Fuego"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 150,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Powerful, but leaves the user immobile the next turn.",
+            "em": "Powerful, but leaves the user immobile the next turn.",
+            "frlg": "The foe is hit with a huge explosion. The user can’t move on the next turn.",
+            "dp": "The foe is razed by a fiery explosion. The user must rest on the next turn, however.",
+            "pt": "The foe is razed by a fiery explosion. The user must rest on the next turn, however.",
+            "hgss": "The foe is razed by a fiery explosion. The user must rest on the next turn, however.",
+            "bw": "The target is razed by a fiery explosion. The user must rest on the next turn, however.",
+            "b2w2": "The target is razed by a fiery explosion. The user must rest on the next turn, however.",
+            "xy": "The target is razed by a fiery explosion. The user can’t move on the next turn.",
+            "oras": "The target is razed by a fiery explosion. The user can’t move on the next turn.",
+            "sm": "The target is razed by a fiery explosion. The user can’t move on the next turn.",
+            "usum": "The target is razed by a fiery explosion. The user can’t move on the next turn.",
+            "lgpe": "The target is razed by a fiery explosion. The user can’t move on the next turn.",
+            "swsh": "The target is razed by a fiery explosion. The user can’t move on the next turn.",
+            "sv": "The target is razed by a fiery explosion. The user can't move on the next turn."
+        },
+        "french": {
+            "bw": "Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant.",
+            "xy": "Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant.",
+            "oras": "Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant.",
+            "sm": "Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant.",
+            "usum": "Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant.",
+            "lgpe": "Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant.",
+            "swsh": "Une explosion ardente souffle l’adversaire. Le lanceur doit se reposer au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "ばくはつの　ほのおで あいてを　やきつくして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "oras": "ばくはつの　ほのおで あいてを　やきつくして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "sm": "ばくはつの　ほのおで あいてを　やきつくして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "usum": "ばくはつの　ほのおで あいてを　やきつくして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "lgpe": "ばくはつの　ほのおで あいてを　やきつくして　こうげきする。 つぎの　ターンは　うごけなく　なる。",
+            "swsh": "ばくはつの　ほのおで あいてを　やきつくして　こうげきする。 つぎの　ターンは　うごけなく　なる。"
+        },
+        "korean": {
+            "xy": "폭발하는 불꽃으로 상대를 태워서 공격한다. 다음 턴은 움직일 수 없다.",
+            "oras": "폭발하는 불꽃으로 상대를 태워서 공격한다. 다음 턴은 움직일 수 없다.",
+            "sm": "폭발하는 불꽃으로 상대를 태워서 공격한다. 다음 턴은 움직일 수 없다.",
+            "usum": "폭발하는 불꽃으로 상대를 태워서 공격한다. 다음 턴은 움직일 수 없다.",
+            "lgpe": "폭발하는 불꽃으로 상대를 태워서 공격한다. 다음 턴은 움직일 수 없다.",
+            "swsh": "폭발하는 불꽃으로 상대를 태워서 공격한다. 다음 턴은 움직일 수 없다."
+        },
+        "german": {
+            "xy": "Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.",
+            "oras": "Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.",
+            "sm": "Das Ziel wird von einer starken Explosion getroffen. Angreifer setzt eine Runde aus.",
+            "usum": "Das Ziel wird von einer starken Explosion getroffen. Angreifer setzt eine Runde aus.",
+            "lgpe": "Das Ziel wird von einer starken Explosion getroffen. Angreifer setzt eine Runde aus.",
+            "swsh": "Das Ziel wird von einer starken Explosion getroffen. Anwender setzt eine Runde aus."
+        },
+        "spanish": {
+            "xy": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "oras": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "sm": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "usum": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "lgpe": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "swsh": "Explosión de fuego. El atacante debe descansar el siguiente turno."
+        },
+        "italian": {
+            "xy": "Potente esplosione che danneggia il bersaglio, ma fa saltare il turno successivo a chi la provoca.",
+            "oras": "Potente esplosione che danneggia il bersaglio, ma fa saltare il turno successivo a chi la provoca.",
+            "sm": "Potente esplosione che danneggia il bersaglio, ma fa saltare il turno successivo a chi la provoca.",
+            "usum": "Potente esplosione che danneggia il bersaglio, ma fa saltare il turno successivo a chi la provoca.",
+            "lgpe": "Potente esplosione che danneggia il bersaglio, ma fa saltare il turno successivo a chi la provoca.",
+            "swsh": "Potente esplosione che danneggia il bersaglio, ma fa saltare il turno successivo a chi la provoca."
+        },
+        "japanese": {
+            "xy": "爆発の　炎で 相手を　焼きつくして　攻撃する。 次の　ターンは　動けなくなる。",
+            "oras": "爆発の　炎で 相手を　焼きつくして　攻撃する。 次の　ターンは　動けなくなる。",
+            "sm": "爆発の　炎で 相手を　焼きつくして　攻撃する。 次の　ターンは　動けなくなる。",
+            "usum": "爆発の　炎で 相手を　焼きつくして　攻撃する。 次の　ターンは　動けなくなる。",
+            "lgpe": "爆発の　炎で 相手を　焼きつくして　攻撃する。 次の　ターンは　動けなくなる。",
+            "swsh": "爆発の　炎で 相手を　焼きつくして　攻撃する。 次の　ターンは　動けなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "oras": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "sm": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "usum": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "lgpe": "Explosión de fuego. El atacante debe descansar el siguiente turno.",
+            "swsh": "Explosión de fuego. El atacante debe descansar el siguiente turno."
+        },
+        "traditional-chinese": {
+            "sm": "用爆炸的火焰 燒盡對手進行攻擊。 下一回合自己將無法動彈。",
+            "usum": "用爆炸的火焰 燒盡對手進行攻擊。 下一回合自己將無法動彈。",
+            "lgpe": "用爆炸的火焰 燒盡對手進行攻擊。 下一回合自己將無法動彈。",
+            "swsh": "用爆炸的火焰 燒盡對手進行攻擊。 下一回合自己將無法動彈。"
+        },
+        "simplified-chinese": {
+            "sm": "用爆炸的火焰 烧尽对手进行攻击。 下一回合自己将无法动弹。",
+            "usum": "用爆炸的火焰 烧尽对手进行攻击。 下一回合自己将无法动弹。",
+            "lgpe": "用爆炸的火焰 烧尽对手进行攻击。 下一回合自己将无法动弹。",
+            "swsh": "用爆炸的火焰 烧尽对手进行攻击。 下一回合自己将无法动弹。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+        "shortEffect": "User foregoes its next turn to recharge."
+    }
 }

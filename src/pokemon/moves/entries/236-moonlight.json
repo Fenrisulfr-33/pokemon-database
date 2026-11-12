@@ -1,47 +1,150 @@
 {
-  "_id": 236,
-  "key": "moonlight",
-  "name": {
-    "english": "Moonlight",
-    "japanese": "つきのひかり",
-    "chinese": "月光",
-    "korean": "달의불빛",
-    "german": "Luz Lunar",
-    "french": "Mondschein",
-    "italian": "Moonlight",
-    "spanish": "Lucelunare"
-  },
-  "type": "Fairy",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "Restores HP\n(varies by time).",
-    "crystal": "Restores HP\n(varies by time).",
-    "ruby-sapphire": "Restores HP. The amount\nvaries with the weather.",
-    "emerald": "Restores HP. The amount\nvaries with the weather.",
-    "firered-leafgreen": "Restores the user’s\nHP. The amount of\nHP regained varies\nwith the weather.",
-    "diamond-pearl": "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.",
-    "platinum": "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.",
-    "heartgold-soulsilver": "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.",
-    "black-white": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
-    "black-2-white-2": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
-    "x-y": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
-    "omega-ruby-alpha-sapphire": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
-    "sun-moon": "The user restores its own HP. The amount of HP\nregained varies with the weather.",
-    "ultra-sun-ultra-moon": "The user restores its own HP. The amount of HP\nregained varies with the weather.",
-    "lets-go-pikachu-lets-go-eevee": "The user restores its own HP. The amount of HP\nregained varies with the weather.",
-    "sword-shield": "The user restores its own HP. The amount of HP\nregained varies with the weather."
-  },
-  "effect": {
-    "full": "Heals the user for half its max HP.\n\nDuring sunny day, the healing is increased to 2/3 max HP.\n\nDuring hail, rain dance, or sandstorm, the healing is decreased to 1/4 max HP.",
-    "shortEffect": "Heals the user by half its max HP.  Affected by weather."
-  },
-  "priority": 0
+    "_id": 236,
+    "key": "moonlight",
+    "name": {
+        "japanese-kana": "つきのひかり",
+        "korean": "달빛",
+        "traditional-chinese": "月光",
+        "french": "Rayon Lune",
+        "german": "Mondschein",
+        "spanish": "Luz Lunar",
+        "italian": "Lucelunare",
+        "english": "Moonlight",
+        "japanese": "つきのひかり",
+        "simplified-chinese": "月光",
+        "latin-american-spanish": "Luz Lunar"
+    },
+    "type": "fairy",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "heal",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 50,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "type": "normal"
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Restores HP (varies by time).",
+            "cr": "Restores HP (varies by time).",
+            "rs": "Restores HP. The amount varies with the weather.",
+            "em": "Restores HP. The amount varies with the weather.",
+            "frlg": "Restores the user’s HP. The amount of HP regained varies with the weather.",
+            "dp": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "pt": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "hgss": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "bw": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "b2w2": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "xy": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "oras": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "sm": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "usum": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "lgpe": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "swsh": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "la": "The user restores its own HP. The amount of HP regained varies with the weather.",
+            "sv": "The user restores its own HP. The amount of HP regained varies with the weather."
+        },
+        "french": {
+            "bw": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.",
+            "xy": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.",
+            "oras": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.",
+            "sm": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.",
+            "usum": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.",
+            "lgpe": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.",
+            "swsh": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo."
+        },
+        "japanese-kana": {
+            "xy": "じぶんの　ＨＰを　かいふく　する。 てんきに　よって かいふくの　りょうが　へんか　する。",
+            "oras": "じぶんの　ＨＰを　かいふく　する。 てんきに　よって かいふくの　りょうが　へんか　する。",
+            "sm": "じぶんの　ＨＰを　かいふく　する。 てんきに　よって かいふくの　りょうが　へんか　する。",
+            "usum": "じぶんの　ＨＰを　かいふく　する。 てんきに　よって かいふくの　りょうが　へんか　する。",
+            "lgpe": "じぶんの　ＨＰを　かいふく　する。 てんきに　よって かいふくの　りょうが　へんか　する。",
+            "swsh": "じぶんの　ＨＰを　かいふく　する。 てんきに　よって かいふくの　りょうが　へんか　する。"
+        },
+        "korean": {
+            "xy": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다.",
+            "oras": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다.",
+            "sm": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다.",
+            "usum": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다.",
+            "lgpe": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다.",
+            "swsh": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다."
+        },
+        "german": {
+            "xy": "Füllt KP des Anwenders auf. Die Menge hängt vom Wetter ab.",
+            "oras": "Füllt KP des Anwenders auf. Die Menge hängt vom Wetter ab.",
+            "sm": "Füllt KP des Anwenders auf. Die Menge hängt vom Wetter ab.",
+            "usum": "Füllt KP des Anwenders auf. Die Menge hängt vom Wetter ab.",
+            "lgpe": "Füllt KP des Anwenders auf. Die Menge hängt vom Wetter ab.",
+            "swsh": "Füllt KP des Anwenders auf. Die Menge hängt vom Wetter ab."
+        },
+        "spanish": {
+            "xy": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "oras": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "sm": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "usum": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "lgpe": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "swsh": "Restaura PS del usuario. La cantidad varía según el tiempo que haga."
+        },
+        "italian": {
+            "xy": "Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.",
+            "oras": "Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.",
+            "sm": "Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.",
+            "usum": "Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.",
+            "lgpe": "Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.",
+            "swsh": "Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche."
+        },
+        "japanese": {
+            "xy": "自分の　ＨＰを　回復する。 天気に　よって 回復の　量が　変化する。",
+            "oras": "自分の　ＨＰを　回復する。 天気に　よって 回復の　量が　変化する。",
+            "sm": "自分の　ＨＰを　回復する。 天気に　よって 回復の　量が　変化する。",
+            "usum": "自分の　ＨＰを　回復する。 天気に　よって 回復の　量が　変化する。",
+            "lgpe": "自分の　ＨＰを　回復する。 天気に　よって 回復の　量が　変化する。",
+            "swsh": "自分の　ＨＰを　回復する。 天気に　よって 回復の　量が　変化する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "oras": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "sm": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "usum": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "lgpe": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+            "swsh": "Restaura PS del usuario. La cantidad varía según el tiempo que haga."
+        },
+        "traditional-chinese": {
+            "sm": "回復自己的ＨＰ。 回復量會隨著天氣的不同 而有所變化。",
+            "usum": "回復自己的ＨＰ。 回復量會隨著天氣的不同 而有所變化。",
+            "lgpe": "回復自己的HP。 回復量會隨著天氣的不同 而有所變化。",
+            "swsh": "回復自己的ＨＰ。 回復量會隨著天氣的不同 而有所變化。"
+        },
+        "simplified-chinese": {
+            "sm": "回复自己的ＨＰ。 根据天气的不同， 回复量也会有所变化。",
+            "usum": "回复自己的ＨＰ。 根据天气的不同， 回复量也会有所变化。",
+            "lgpe": "回复自己的HP。 根据天气的不同， 回复量也会有所变化。",
+            "swsh": "回复自己的ＨＰ。 根据天气的不同， 回复量也会有所变化。"
+        }
+    },
+    "effect": {
+        "full": "Heals the user for half its max HP. During Sunny Day, the healing is increased to 2/3 max HP. During Hail, Rain Dance, or Sandstorm, the healing is decreased to 1/4 max HP.",
+        "shortEffect": "Heals the user by half its max HP.  Affected by weather."
+    }
 }

@@ -1,45 +1,148 @@
 {
-  "_id": 282,
-  "key": "knock-off",
-  "name": {
-    "english": "Knock Off",
-    "japanese": "はたきおとす",
-    "chinese": "落拳",
-    "korean": "탁쳐서떨구기",
-    "german": "Desarme",
-    "french": "Abschlag",
-    "italian": "Knock Off",
-    "spanish": "Privazione"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 20,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Knocks down the foe’s held\nitem to prevent its use.",
-    "emerald": "Knocks down the foe’s held\nitem to prevent its use.",
-    "firered-leafgreen": "Knocks down the\nfoe’s held item to\nprevent its use\nduring the battle.",
-    "diamond-pearl": "The user slaps down\nthe foe’s held item,\npreventing the item\nfrom being used\nduring the battle.",
-    "platinum": "The user slaps down\nthe foe’s held item,\npreventing the item\nfrom being used\nduring the battle.",
-    "heartgold-soulsilver": "The user slaps down\nthe foe’s held item,\npreventing the item\nfrom being used\nduring the battle.",
-    "black-white": "The user slaps down the target’s\nheld item, preventing that item\nfrom being used in the battle.",
-    "black-2-white-2": "The user slaps down the target’s\nheld item, preventing that item\nfrom being used in the battle.",
-    "x-y": "The user slaps down the target’s held item, and\nthat item can’t be used in that battle. The move\ndoes more damage if the target has a held item.",
-    "omega-ruby-alpha-sapphire": "The user slaps down the target’s held item, and\nthat item can’t be used in that battle. The move\ndoes more damage if the target has a held item.",
-    "sun-moon": "The user slaps down the target’s held item, and that\nitem can’t be used in that battle. The move does\nmore damage if the target has a held item.",
-    "ultra-sun-ultra-moon": "The user slaps down the target’s held item, and that\nitem can’t be used in that battle. The move does\nmore damage if the target has a held item.",
-    "lets-go-pikachu-lets-go-eevee": "The user slaps down the target’s held item, and that\nitem can’t be used in that battle. The move does\nmore damage if the target has a held item.",
-    "sword-shield": "The user slaps down the target’s held item, and that\nitem can’t be used in that battle. The move does\nmore damage if the target has a held item."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky hold, it will take damage but not lose its item.",
-    "shortEffect": "Target drops its held item."
-  },
-  "priority": 0
+    "_id": 282,
+    "key": "knock-off",
+    "name": {
+        "japanese-kana": "はたきおとす",
+        "korean": "탁쳐서떨구기",
+        "traditional-chinese": "拍落",
+        "french": "Sabotage",
+        "german": "Abschlag",
+        "spanish": "Desarme",
+        "italian": "Privazione",
+        "english": "Knock Off",
+        "japanese": "はたきおとす",
+        "simplified-chinese": "拍落",
+        "latin-american-spanish": "Desarme"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Knocks down the foe’s held item to prevent its use.",
+            "em": "Knocks down the foe’s held item to prevent its use.",
+            "frlg": "Knocks down the foe’s held item to prevent its use during the battle.",
+            "dp": "The user slaps down the foe’s held item, preventing the item from being used during the battle.",
+            "pt": "The user slaps down the foe’s held item, preventing the item from being used during the battle.",
+            "hgss": "The user slaps down the foe’s held item, preventing the item from being used during the battle.",
+            "bw": "The user slaps down the target’s held item, preventing that item from being used in the battle.",
+            "b2w2": "The user slaps down the target’s held item, preventing that item from being used in the battle.",
+            "xy": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item.",
+            "oras": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item.",
+            "sm": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item.",
+            "usum": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item.",
+            "lgpe": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item.",
+            "swsh": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item.",
+            "la": "The user slaps down the target's held item, and that item can't be used in that battle. The move does more damage if the target has a held item.",
+            "sv": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item."
+        },
+        "french": {
+            "bw": "Le lanceur fait tomber l’objet tenu par l’ennemi pour le rendre inutilisable durant le combat.",
+            "xy": "Fait plus de dégâts aux cibles qui tiennent un objet. De plus, fait tomber cet objet et empêche la cible de l’utiliser jusqu’à la fin du combat.",
+            "oras": "Fait plus de dégâts aux cibles qui tiennent un objet. De plus, fait tomber cet objet et empêche la cible de l’utiliser jusqu’à la fin du combat.",
+            "sm": "Fait plus de dégâts aux cibles qui tiennent un objet. De plus, fait tomber cet objet et empêche la cible de l’utiliser jusqu’à la fin du combat.",
+            "usum": "Fait plus de dégâts aux cibles qui tiennent un objet. De plus, fait tomber cet objet et empêche la cible de l’utiliser jusqu’à la fin du combat.",
+            "lgpe": "Fait plus de dégâts aux cibles qui tiennent un objet. De plus, fait tomber cet objet et empêche la cible de l’utiliser jusqu’à la fin du combat.",
+            "swsh": "Fait plus de dégâts aux cibles qui tiennent un objet. De plus, fait tomber cet objet et empêche la cible de l’utiliser jusqu’à la fin du combat."
+        },
+        "japanese-kana": {
+            "xy": "あいての　もちものを　はたき　おとして せんとうが　おわるまで　つかえなくする。 ものをもつ　あいてには　ダメージがます。",
+            "oras": "あいての　もちものを　はたき　おとして せんとうが　おわるまで　つかえなくする。 ものをもつ　あいてには　ダメージがます。",
+            "sm": "あいての　もちものを　はたき　おとして せんとうが　おわるまで　つかえなくする。 ものをもつ　あいてには　ダメージがます。",
+            "usum": "あいての　もちものを　はたき　おとして せんとうが　おわるまで　つかえなくする。 ものをもつ　あいてには　ダメージがます。",
+            "lgpe": "あいての　もちものを　はたき　おとして せんとうが　おわるまで　つかえなくする。 ものをもつ　あいてには　ダメージがます。",
+            "swsh": "あいての　もちものを　はたき　おとして せんとうが　おわるまで　つかえなくする。 ものをもつ　あいてには　ダメージがます。"
+        },
+        "korean": {
+            "xy": "상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다.",
+            "oras": "상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다.",
+            "sm": "상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다.",
+            "usum": "상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다.",
+            "lgpe": "상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다.",
+            "swsh": "상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다."
+        },
+        "german": {
+            "xy": "Schlägt das Item des Zieles weg und vereitelt so dessen Gebrauch während des Kampfes. Mehr Schaden gegen Ziele, die ein Item bei sich tragen.",
+            "oras": "Schlägt das Item des Zieles weg und vereitelt so dessen Gebrauch während des Kampfes. Mehr Schaden gegen Ziele, die ein Item bei sich tragen.",
+            "sm": "Schlägt das Item des Zieles weg und vereitelt so dessen Gebrauch während des Kampfes. Mehr Schaden gegen Ziele, die ein Item bei sich tragen.",
+            "usum": "Schlägt das Item des Zieles weg und vereitelt so dessen Gebrauch während des Kampfes. Mehr Schaden gegen Ziele, die ein Item bei sich tragen.",
+            "lgpe": "Schlägt das Item des Zieles weg und vereitelt so dessen Gebrauch während des Kampfes. Mehr Schaden gegen Ziele, die ein Item bei sich tragen.",
+            "swsh": "Schlägt das Item des Zieles weg und vereitelt so dessen Gebrauch während des Kampfes. Mehr Schaden gegen Ziele, die ein Item bei sich tragen."
+        },
+        "spanish": {
+            "xy": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "oras": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "sm": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "usum": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "lgpe": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "swsh": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+        },
+        "italian": {
+            "xy": "Attacco che blocca lo strumento del bersaglio, impedendone l’uso nella lotta. La sua potenza aumenta se il Pokémon colpito ha uno strumento.",
+            "oras": "Attacco che blocca lo strumento del bersaglio, impedendone l’uso nella lotta. La sua potenza aumenta se il Pokémon colpito ha uno strumento.",
+            "sm": "Attacco che fa cadere lo strumento del bersaglio, impedendone l’uso nella lotta. La sua potenza aumenta se il Pokémon colpito ha uno strumento.",
+            "usum": "Attacco che fa cadere lo strumento del bersaglio, impedendone l’uso nella lotta. La sua potenza aumenta se il Pokémon colpito ha uno strumento.",
+            "lgpe": "Attacco che fa cadere lo strumento del bersaglio, impedendone l’uso nella lotta. La sua potenza aumenta se il Pokémon colpito ha uno strumento.",
+            "swsh": "Attacco che fa cadere lo strumento del bersaglio, impedendone l’uso nella lotta. La sua potenza aumenta se il Pokémon colpito ha uno strumento."
+        },
+        "japanese": {
+            "xy": "相手の　持ち物を　はたき　落として 戦闘が　終わるまで　使えなくする。 物を持つ　相手には　ダメージが増す。",
+            "oras": "相手の　持ち物を　はたき　落として 戦闘が　終わるまで　使えなくする。 物を持つ　相手には　ダメージが増す。",
+            "sm": "相手の　持ち物を　はたき　落として 戦闘が　終わるまで　使えなくする。 物を持つ　相手には　ダメージが増す。",
+            "usum": "相手の　持ち物を　はたき　落として 戦闘が　終わるまで　使えなくする。 物を持つ　相手には　ダメージが増す。",
+            "lgpe": "相手の　持ち物を　はたき　落として 戦闘が　終わるまで　使えなくする。 物を持つ　相手には　ダメージが増す。",
+            "swsh": "相手の　持ち物を　はたき　落として 戦闘が　終わるまで　使えなくする。 物を持つ　相手には　ダメージが増す。"
+        },
+        "latin-american-spanish": {
+            "xy": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "oras": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "sm": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "usum": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "lgpe": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.",
+            "swsh": "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+        },
+        "traditional-chinese": {
+            "sm": "拍落對手的持有物， 讓對手在戰鬥結束前都無法使用。 對手有攜帶物品時，傷害會增加。",
+            "usum": "拍落對手的持有物， 讓對手在戰鬥結束前都無法使用。 對手有攜帶物品時，傷害會增加。",
+            "lgpe": "拍落對手的持有物， 讓對手在戰鬥結束前都無法使用。 對手有攜帶物品時，傷害會增加。",
+            "swsh": "拍落對手的持有物， 讓對手在戰鬥結束前都無法使用。 對手有攜帶物品時，傷害會增加。"
+        },
+        "simplified-chinese": {
+            "sm": "拍落对手的持有物， 直到战斗结束都不能使用。 对手携带道具时会增加伤害。",
+            "usum": "拍落对手的持有物， 直到战斗结束都不能使用。 对手携带道具时会增加伤害。",
+            "lgpe": "拍落对手的持有物， 直到战斗结束都不能使用。 对手携带道具时会增加伤害。",
+            "swsh": "拍落对手的持有物， 直到战斗结束都不能使用。 对手携带道具时会增加伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Target loses its held item. Neither the user nor the target can recover its item with Recycle. If the target has Multitype or Sticky Hold, it will take damage but not lose its item.",
+        "shortEffect": "Target drops its held item."
+    }
 }

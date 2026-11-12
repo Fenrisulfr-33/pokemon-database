@@ -1,47 +1,146 @@
 {
-  "_id": 21,
-  "key": "slam",
-  "name": {
-    "english": "Slam",
-    "japanese": "たたきつける",
-    "chinese": "叩打",
-    "korean": "힘껏치기",
-    "german": "Atizar",
-    "french": "Slam",
-    "italian": "Slam",
-    "spanish": "Schianto"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 20,
-  "power": 80,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Slams the foe with\na tail, vine, etc.",
-    "crystal": "Slams the foe with\na tail, vine, etc.",
-    "ruby-sapphire": "Slams the foe with a long\ntail, vine, etc.",
-    "emerald": "Slams the foe with a long\ntail, vine, etc.",
-    "firered-leafgreen": "The foe is struck\nwith a long tail,\nvines, etc.",
-    "diamond-pearl": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
-    "platinum": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
-    "heartgold-soulsilver": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
-    "black-white": "The target is slammed with a long tail,\nvines, etc., to inflict damage.",
-    "black-2-white-2": "The target is slammed with a long tail,\nvines, etc., to inflict damage.",
-    "x-y": "The target is slammed with a long tail,\nvines, or the like to inflict damage.",
-    "omega-ruby-alpha-sapphire": "The target is slammed with a long tail,\nvines, or the like to inflict damage.",
-    "sun-moon": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
-    "ultra-sun-ultra-moon": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
-    "sword-shield": "The target is slammed with a long tail, vines, or the\nlike to inflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 21,
+    "key": "slam",
+    "name": {
+        "japanese-kana": "たたきつける",
+        "korean": "힘껏치기",
+        "traditional-chinese": "摔打",
+        "french": "Souplesse",
+        "german": "Slam",
+        "spanish": "Atizar",
+        "italian": "Schianto",
+        "english": "Slam",
+        "japanese": "たたきつける",
+        "simplified-chinese": "摔打",
+        "latin-american-spanish": "Golpazo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 75,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Slams the foe with a tail, vine, etc.",
+            "cr": "Slams the foe with a tail, vine, etc.",
+            "rs": "Slams the foe with a long tail, vine, etc.",
+            "em": "Slams the foe with a long tail, vine, etc.",
+            "frlg": "The foe is struck with a long tail, vines, etc.",
+            "dp": "The foe is slammed with a long tail, vines, etc., to inflict damage.",
+            "pt": "The foe is slammed with a long tail, vines, etc., to inflict damage.",
+            "hgss": "The foe is slammed with a long tail, vines, etc., to inflict damage.",
+            "bw": "The target is slammed with a long tail, vines, etc., to inflict damage.",
+            "b2w2": "The target is slammed with a long tail, vines, etc., to inflict damage.",
+            "xy": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+            "oras": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+            "sm": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+            "usum": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+            "lgpe": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+            "swsh": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+            "la": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+            "sv": "The target is slammed with a long tail, vines, or the like to inflict damage."
+        },
+        "french": {
+            "bw": "Fouette l’ennemi avec la queue, une liane, etc. pour infliger des dégâts.",
+            "xy": "Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts.",
+            "oras": "Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts.",
+            "sm": "Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts.",
+            "usum": "Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts.",
+            "lgpe": "Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts.",
+            "swsh": "Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts."
+        },
+        "japanese-kana": {
+            "xy": "ながい　しっぽや　つるなどを　つかい あいてを　たたきつけて　こうげきする。",
+            "oras": "ながい　しっぽや　つるなどを　つかい あいてを　たたきつけて　こうげきする。",
+            "sm": "ながい　しっぽや　つるなどを　つかい あいてを　たたきつけて　こうげきする。",
+            "usum": "ながい　しっぽや　つるなどを　つかい あいてを　たたきつけて　こうげきする。",
+            "lgpe": "ながい　しっぽや　つるなどを　つかい あいてを　たたきつけて　こうげきする。",
+            "swsh": "ながい　しっぽや　つるなどを　つかい あいてを　たたきつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다.",
+            "oras": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다.",
+            "sm": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다.",
+            "usum": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다.",
+            "lgpe": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다.",
+            "swsh": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다."
+        },
+        "german": {
+            "xy": "Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.",
+            "oras": "Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.",
+            "sm": "Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.",
+            "usum": "Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.",
+            "lgpe": "Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.",
+            "swsh": "Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem."
+        },
+        "spanish": {
+            "xy": "Golpea con las extremidades.",
+            "oras": "Golpea con las extremidades.",
+            "sm": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.",
+            "usum": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.",
+            "lgpe": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.",
+            "swsh": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo."
+        },
+        "italian": {
+            "xy": "Infligge danni al bersaglio con la coda, con una liana o simili.",
+            "oras": "Infligge danni al bersaglio con la coda, con una liana o simili.",
+            "sm": "Infligge danni al bersaglio con la coda, con una liana o con qualcosa di simile.",
+            "usum": "Infligge danni al bersaglio con la coda, con una liana o con qualcosa di simile.",
+            "lgpe": "Infligge danni al bersaglio con la coda, con una liana o con qualcosa di simile.",
+            "swsh": "Infligge danni al bersaglio con la coda, con una liana o con qualcosa di simile."
+        },
+        "japanese": {
+            "xy": "長い　しっぽや　つるなどを　使い 相手を　たたきつけて　攻撃する。",
+            "oras": "長い　しっぽや　つるなどを　使い 相手を　たたきつけて　攻撃する。",
+            "sm": "長い　しっぽや　つるなどを　使い 相手を　たたきつけて　攻撃する。",
+            "usum": "長い　しっぽや　つるなどを　使い 相手を　たたきつけて　攻撃する。",
+            "lgpe": "長い　しっぽや　つるなどを　使い 相手を　たたきつけて　攻撃する。",
+            "swsh": "長い　しっぽや　つるなどを　使い 相手を　たたきつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea con las extremidades.",
+            "oras": "Golpea con las extremidades.",
+            "sm": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.",
+            "usum": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.",
+            "lgpe": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.",
+            "swsh": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "將長長的尾巴或藤蔓等 甩向對手進行攻擊。",
+            "usum": "將長長的尾巴或藤蔓等 甩向對手進行攻擊。",
+            "lgpe": "將長長的尾巴或藤蔓等 甩向對手進行攻擊。",
+            "swsh": "將長長的尾巴或藤蔓等 甩向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "使用长长的尾巴或藤蔓等 摔打对手进行攻击。",
+            "usum": "使用长长的尾巴或藤蔓等 摔打对手进行攻击。",
+            "lgpe": "使用长长的尾巴或藤蔓等 摔打对手进行攻击。",
+            "swsh": "使用长长的尾巴或藤蔓等 摔打对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

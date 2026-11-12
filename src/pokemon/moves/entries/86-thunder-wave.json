@@ -1,47 +1,150 @@
 {
-  "_id": 86,
-  "key": "thunder-wave",
-  "name": {
-    "english": "Thunder Wave",
-    "japanese": "でんじは",
-    "chinese": "电磁波",
-    "korean": "전기자석파",
-    "german": "Onda Trueno",
-    "french": "Donnerwelle",
-    "italian": "Thunder Wave",
-    "spanish": "Tuononda"
-  },
-  "type": "Electric",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A move that may\ncause paralysis.",
-    "crystal": "A move that may\ncause paralysis.",
-    "ruby-sapphire": "A weak jolt of electricity\nthat paralyzes the foe.",
-    "emerald": "A weak jolt of electricity\nthat paralyzes the foe.",
-    "firered-leafgreen": "A weak electric\nshock that is sure\nto cause paralysis\nif it hits.",
-    "diamond-pearl": "A weak electric\ncharge is launched at\nthe foe.\nIt causes paralysis if\nit hits.",
-    "platinum": "A weak electric\ncharge is launched at\nthe foe.\nIt causes paralysis if\nit hits.",
-    "heartgold-soulsilver": "A weak electric\ncharge is launched at\nthe foe.\nIt causes paralysis if\nit hits.",
-    "black-white": "A weak electric charge is launched at\nthe target. It causes paralysis if it hits.",
-    "black-2-white-2": "A weak electric charge is launched at\nthe target. It causes paralysis if it hits.",
-    "x-y": "The user launches a weak jolt\nof electricity that paralyzes the target.",
-    "omega-ruby-alpha-sapphire": "The user launches a weak jolt\nof electricity that paralyzes the target.",
-    "sun-moon": "The user launches a weak jolt of electricity that\nparalyzes the target.",
-    "ultra-sun-ultra-moon": "The user launches a weak jolt of electricity that\nparalyzes the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user launches a weak jolt of electricity that\nparalyzes the target.",
-    "sword-shield": "The user launches a weak jolt of electricity that\nparalyzes the target."
-  },
-  "effect": {
-    "full": "Paralyzes the target.",
-    "shortEffect": "Paralyzes the target."
-  },
-  "priority": 0
+    "_id": 86,
+    "key": "thunder-wave",
+    "name": {
+        "japanese-kana": "でんじは",
+        "korean": "전기자석파",
+        "traditional-chinese": "電磁波",
+        "french": "Cage Éclair",
+        "german": "Donnerwelle",
+        "spanish": "Onda Trueno",
+        "italian": "Tuononda",
+        "english": "Thunder Wave",
+        "japanese": "でんじは",
+        "simplified-chinese": "电磁波",
+        "latin-american-spanish": "Onda Trueno"
+    },
+    "type": "electric",
+    "category": "status",
+    "contest": "cool",
+    "pp": 20,
+    "power": null,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "accuracy": 100
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move that may cause paralysis.",
+            "cr": "A move that may cause paralysis.",
+            "rs": "A weak jolt of electricity that paralyzes the foe.",
+            "em": "A weak jolt of electricity that paralyzes the foe.",
+            "frlg": "A weak electric shock that is sure to cause paralysis if it hits.",
+            "dp": "A weak electric charge is launched at the foe. It causes paralysis if it hits.",
+            "pt": "A weak electric charge is launched at the foe. It causes paralysis if it hits.",
+            "hgss": "A weak electric charge is launched at the foe. It causes paralysis if it hits.",
+            "bw": "A weak electric charge is launched at the target. It causes paralysis if it hits.",
+            "b2w2": "A weak electric charge is launched at the target. It causes paralysis if it hits.",
+            "xy": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "oras": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "sm": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "usum": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "lgpe": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "swsh": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "la": "The user launches a weak jolt of electricity that paralyzes the target.",
+            "sv": "The user launches a weak jolt of electricity that paralyzes the target."
+        },
+        "french": {
+            "bw": "Un faible choc électrique frappe l’ennemi. Si l’attaque touche, celui-ci est paralysé.",
+            "xy": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.",
+            "oras": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.",
+            "sm": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.",
+            "usum": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.",
+            "lgpe": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.",
+            "swsh": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé."
+        },
+        "japanese-kana": {
+            "xy": "よわい　でんげきを　あびせる　ことで あいてを　まひ　じょうたいに　する。",
+            "oras": "よわい　でんげきを　あびせる　ことで あいてを　まひ　じょうたいに　する。",
+            "sm": "よわい　でんげきを　あびせる　ことで あいてを　まひ　じょうたいに　する。",
+            "usum": "よわい　でんげきを　あびせる　ことで あいてを　まひ　じょうたいに　する。",
+            "lgpe": "よわい　でんげきを　あびせる　ことで あいてを　まひ　じょうたいに　する。",
+            "swsh": "よわい　でんげきを　あびせる　ことで あいてを　まひ　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "약한 전격을 날려서 상대를 마비 상태로 만든다.",
+            "oras": "약한 전격을 날려서 상대를 마비 상태로 만든다.",
+            "sm": "약한 전격을 날려서 상대를 마비 상태로 만든다.",
+            "usum": "약한 전격을 날려서 상대를 마비 상태로 만든다.",
+            "lgpe": "약한 전격을 날려서 상대를 마비 상태로 만든다.",
+            "swsh": "약한 전격을 날려서 상대를 마비 상태로 만든다."
+        },
+        "german": {
+            "xy": "Ein schwacher Stromstoß, der das Ziel paralysiert.",
+            "oras": "Ein schwacher Stromstoß, der das Ziel paralysiert.",
+            "sm": "Ein schwacher Stromstoß, der das Ziel paralysiert.",
+            "usum": "Ein schwacher Stromstoß, der das Ziel paralysiert.",
+            "lgpe": "Ein schwacher Stromstoß, der das Ziel paralysiert.",
+            "swsh": "Ein schwacher Stromstoß, der das Ziel paralysiert."
+        },
+        "spanish": {
+            "xy": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "oras": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "sm": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "usum": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "lgpe": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "swsh": "Una ligera descarga que paraliza al objetivo si lo alcanza."
+        },
+        "italian": {
+            "xy": "Il bersaglio viene colpito da una debole scarica elettrica che, se va a segno, ne causa la paralisi.",
+            "oras": "Il nemico viene colpito da una debole scarica elettrica che, se va a segno, ne causa la paralisi.",
+            "sm": "Colpisce il bersaglio con una debole scarica elettrica che lo paralizza.",
+            "usum": "Colpisce il bersaglio con una debole scarica elettrica che lo paralizza.",
+            "lgpe": "Colpisce il bersaglio con una debole scarica elettrica che lo paralizza.",
+            "swsh": "Colpisce il bersaglio con una debole scarica elettrica che lo paralizza."
+        },
+        "japanese": {
+            "xy": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。",
+            "oras": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。",
+            "sm": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。",
+            "usum": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。",
+            "lgpe": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。",
+            "swsh": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "oras": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "sm": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "usum": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "lgpe": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+            "swsh": "Una ligera descarga que paraliza al objetivo si lo alcanza."
+        },
+        "traditional-chinese": {
+            "sm": "放出微弱的電流。 讓對手陷入麻痺狀態。",
+            "usum": "放出微弱的電流。 讓對手陷入麻痺狀態。",
+            "lgpe": "放出微弱的電流。 讓對手陷入麻痺狀態。",
+            "swsh": "放出微弱的電流。 讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发出 微弱的电击， 从而让对手陷入麻痹状态。",
+            "usum": "向对手发出 微弱的电击， 从而让对手陷入麻痹状态。",
+            "lgpe": "向对手发出 微弱的电击， 从而让对手陷入麻痹状态。",
+            "swsh": "向对手发出 微弱的电击， 从而让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Paralyzes the target.",
+        "shortEffect": "Paralyzes the target."
+    }
 }

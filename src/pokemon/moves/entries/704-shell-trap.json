@@ -1,35 +1,115 @@
 {
-  "_id": 704,
-  "key": "shell-trap",
-  "name": {
-    "english": "Shell Trap",
-    "japanese": "トラップシェル",
-    "chinese": "陷阱甲殼",
-    "korean": "트랩셸",
-    "german": "Coraza Trampa",
-    "french": "Panzerfalle",
-    "italian": "Shell Trap",
-    "spanish": "Gusciotrappola"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 150,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user sets a shell trap. If the user is hit by a\nphysical move, the trap will explode and inflict\ndamage on the opposing Pokémon.",
-    "ultra-sun-ultra-moon": "The user sets a shell trap. If the user is hit by a\nphysical move, the trap will explode and inflict\ndamage on the opposing Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The user sets a shell trap. If the user is hit by a\nphysical move, the trap will explode and inflict\ndamage on the opposing Pokémon.",
-    "sword-shield": "The user sets a shell trap. If the user is hit by a\nphysical move, the trap will explode and inflict\ndamage on opposing Pokémon."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the user was not yet hit by an opponent's physical move this turn, this move will fail.",
-    "shortEffect": "Only inflicts damage if the user was hit by a physical move this turn."
-  },
-  "priority": -3
+    "_id": 704,
+    "key": "shell-trap",
+    "name": {
+        "japanese-kana": "トラップシェル",
+        "korean": "트랩셸",
+        "traditional-chinese": "陷阱甲殼",
+        "french": "Carapiège",
+        "german": "Panzerfalle",
+        "spanish": "Coraza Trampa",
+        "italian": "Gusciotrappola",
+        "english": "Shell Trap",
+        "japanese": "トラップシェル",
+        "simplified-chinese": "陷阱甲壳",
+        "latin-american-spanish": "Trampa Coraza"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 150,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": -3,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "こうらの　トラップを　しかける。 あいてが　ぶつり　わざを　だすと ばくはつして　ダメージを　あたえる。",
+            "usum": "こうらの　トラップを　しかける。 あいてが　ぶつり　わざを　だすと ばくはつして　ダメージを　あたえる。",
+            "lgpe": "こうらの　トラップを　しかける。 あいてが　ぶつり　わざを　だすと ばくはつして　ダメージを　あたえる。",
+            "swsh": "こうらの　トラップを　しかける。 あいてが　ぶつり　わざを　だすと ばくはつして　ダメージを　あたえる。"
+        },
+        "korean": {
+            "sm": "껍질의 트랩을 설치한다. 상대가 물리 기술을 쓰면 폭발해서 데미지를 준다.",
+            "usum": "껍질의 트랩을 설치한다. 상대가 물리 기술을 쓰면 폭발해서 데미지를 준다.",
+            "lgpe": "껍질의 트랩을 설치한다. 상대가 물리 기술을 쓰면 폭발해서 데미지를 준다.",
+            "swsh": "껍질의 트랩을 설치한다. 상대가 물리 기술을 쓰면 폭발해서 데미지를 준다."
+        },
+        "traditional-chinese": {
+            "sm": "設下甲殼陷阱。 若對手使出物理招式， 就會爆炸並給予傷害。",
+            "usum": "設下甲殼陷阱。 若對手使出物理招式， 就會爆炸並給予傷害。",
+            "lgpe": "設下甲殼陷阱。 若對手使出物理招式， 就會爆炸並給予傷害。",
+            "swsh": "設下甲殼陷阱。 若對手使出物理招式， 就會爆炸並給予傷害。"
+        },
+        "french": {
+            "sm": "Pose une carapace piégée. Si l’adversaire utilise une capacité physique, la carapace explose et lui inflige des dégâts.",
+            "usum": "Pose une carapace piégée. Si l’adversaire utilise une capacité physique, la carapace explose et lui inflige des dégâts.",
+            "lgpe": "Pose une carapace piégée. Si l’adversaire utilise une capacité physique, la carapace explose et lui inflige des dégâts.",
+            "swsh": "Pose une carapace piégée. Si l’adversaire utilise une capacité physique, la carapace explose et lui inflige des dégâts."
+        },
+        "german": {
+            "sm": "Der Anwender legt eine Panzerfalle. Wird er von einer physischen Attacke getroffen, explodiert die Falle und fügt dem Angreifer Schaden zu.",
+            "usum": "Der Anwender legt eine Panzerfalle. Wird er von einer physischen Attacke getroffen, explodiert die Falle und fügt dem Angreifer Schaden zu.",
+            "lgpe": "Der Anwender legt eine Panzerfalle. Wird er von einer physischen Attacke getroffen, explodiert die Falle und fügt dem Angreifer Schaden zu.",
+            "swsh": "Der Anwender legt eine Panzerfalle. Wird er von einer physischen Attacke getroffen, explodiert die Falle und fügt gegnerischen Pokémon Schaden zu."
+        },
+        "spanish": {
+            "sm": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño.",
+            "usum": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño.",
+            "lgpe": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño.",
+            "swsh": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y los oponentes sufren daño."
+        },
+        "italian": {
+            "sm": "Il guscio del Pokémon diventa una trappola. Se un nemico lo colpisce con una mossa fisica, innesca un’esplosione e subisce dei danni.",
+            "usum": "Il guscio del Pokémon diventa una trappola. Se un nemico lo colpisce con una mossa fisica, innesca un’esplosione e subisce dei danni.",
+            "lgpe": "Il guscio del Pokémon diventa una trappola. Se un nemico lo colpisce con una mossa fisica, innesca un’esplosione e subisce dei danni.",
+            "swsh": "Il guscio del Pokémon diventa una trappola. Se un nemico lo colpisce con una mossa fisica, innesca un’esplosione e subisce dei danni."
+        },
+        "english": {
+            "sm": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opposing Pokémon.",
+            "usum": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opposing Pokémon.",
+            "lgpe": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opposing Pokémon.",
+            "swsh": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on opposing Pokémon."
+        },
+        "japanese": {
+            "sm": "こうらの　トラップを　しかける。 相手が　物理技を　出すと 爆発して　ダメージを　与える。",
+            "usum": "こうらの　トラップを　しかける。 相手が　物理技を　出すと 爆発して　ダメージを　与える。",
+            "lgpe": "こうらの　トラップを　しかける。 相手が　物理技を　出すと 爆発して　ダメージを　与える。",
+            "swsh": "こうらの　トラップを　しかける。 相手が　物理技を　出すと 爆発して　ダメージを　与える。"
+        },
+        "simplified-chinese": {
+            "sm": "设下甲壳陷阱。 如果对手使出物理招式， 陷阱就会爆炸并给予对手伤害。",
+            "usum": "设下甲壳陷阱。 如果对手使出物理招式， 陷阱就会爆炸并给予对手伤害。",
+            "lgpe": "设下甲壳陷阱。 如果对手使出物理招式， 陷阱就会爆炸并给予对手伤害。",
+            "swsh": "设下甲壳陷阱。 如果对手使出物理招式， 陷阱就会爆炸并给予对手伤害。"
+        },
+        "latin-american-spanish": {
+            "sm": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño.",
+            "usum": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño.",
+            "lgpe": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño.",
+            "swsh": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y los oponentes sufren daño."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the user was not yet hit by an opponent’s physical move this turn, this move will fail.",
+        "shortEffect": "Only inflicts damage if the user was hit by a physical move this turn."
+    }
 }

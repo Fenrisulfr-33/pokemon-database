@@ -1,47 +1,146 @@
 {
-  "_id": 188,
-  "key": "sludge-bomb",
-  "name": {
-    "english": "Sludge Bomb",
-    "japanese": "ヘドロばくだん",
-    "chinese": "臭泥爆弹",
-    "korean": "오물폭탄",
-    "german": "Bomba Lodo",
-    "french": "Matschbombe",
-    "italian": "Sludge Bomb",
-    "spanish": "Fangobomba"
-  },
-  "type": "Poison",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\npoison the foe.",
-    "crystal": "An attack that may\npoison the foe.",
-    "ruby-sapphire": "Sludge is hurled to inflict\ndamage. May also poison.",
-    "emerald": "Sludge is hurled to inflict\ndamage. May also poison.",
-    "firered-leafgreen": "Filthy sludge is\nhurled at the foe.\nIt may poison the\ntarget.",
-    "diamond-pearl": "The user attacks by\nhurling filthy sludge\nat the foe.\nIt may also poison\nthe target.",
-    "platinum": "The user attacks by\nhurling filthy sludge\nat the foe.\nIt may also poison\nthe target.",
-    "heartgold-soulsilver": "The user attacks by\nhurling filthy sludge\nat the foe.\nIt may also poison\nthe target.",
-    "black-white": "Unsanitary sludge is hurled at the target.\nIt may also poison the target.",
-    "black-2-white-2": "Unsanitary sludge is hurled at the target.\nIt may also poison the target.",
-    "x-y": "Unsanitary sludge is hurled at the target.\nThis may also poison the target.",
-    "omega-ruby-alpha-sapphire": "Unsanitary sludge is hurled at the target.\nThis may also poison the target.",
-    "sun-moon": "Unsanitary sludge is hurled at the target. This may\nalso poison the target.",
-    "ultra-sun-ultra-moon": "Unsanitary sludge is hurled at the target. This may\nalso poison the target.",
-    "lets-go-pikachu-lets-go-eevee": "Unsanitary sludge is hurled at the target. This may\nalso poison the target.",
-    "sword-shield": "Unsanitary sludge is hurled at the target. This may\nalso poison the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
-    "shortEffect": "Has a $effect_chance% chance to poison the target."
-  },
-  "priority": 0
+    "_id": 188,
+    "key": "sludge-bomb",
+    "name": {
+        "japanese-kana": "ヘドロばくだん",
+        "korean": "오물폭탄",
+        "traditional-chinese": "污泥炸彈",
+        "french": "Bombe Beurk",
+        "german": "Matschbombe",
+        "spanish": "Bomba Lodo",
+        "italian": "Fangobomba",
+        "english": "Sludge Bomb",
+        "japanese": "ヘドロばくだん",
+        "simplified-chinese": "污泥炸弹",
+        "latin-american-spanish": "Bomba Lodo"
+    },
+    "type": "poison",
+    "category": "special",
+    "contest": "tough",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may poison the foe.",
+            "cr": "An attack that may poison the foe.",
+            "rs": "Sludge is hurled to inflict damage. May also poison.",
+            "em": "Sludge is hurled to inflict damage. May also poison.",
+            "frlg": "Filthy sludge is hurled at the foe. It may poison the target.",
+            "dp": "The user attacks by hurling filthy sludge at the foe. It may also poison the target.",
+            "pt": "The user attacks by hurling filthy sludge at the foe. It may also poison the target.",
+            "hgss": "The user attacks by hurling filthy sludge at the foe. It may also poison the target.",
+            "bw": "Unsanitary sludge is hurled at the target. It may also poison the target.",
+            "b2w2": "Unsanitary sludge is hurled at the target. It may also poison the target.",
+            "xy": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+            "oras": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+            "sm": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+            "usum": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+            "lgpe": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+            "swsh": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+            "la": "Unsanitary sludge is hurled at the target to deal damage. This may also poison the target.",
+            "sv": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target."
+        },
+        "french": {
+            "bw": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+            "xy": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+            "oras": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+            "sm": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+            "usum": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+            "lgpe": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+            "swsh": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner."
+        },
+        "japanese-kana": {
+            "xy": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。",
+            "oras": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。",
+            "sm": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。",
+            "usum": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。",
+            "lgpe": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。",
+            "swsh": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다.",
+            "oras": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다.",
+            "sm": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다.",
+            "usum": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다.",
+            "lgpe": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다.",
+            "swsh": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet.",
+            "oras": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet.",
+            "sm": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet.",
+            "usum": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet.",
+            "lgpe": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet.",
+            "swsh": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet."
+        },
+        "spanish": {
+            "xy": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "oras": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "sm": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "usum": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "lgpe": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "swsh": "Arroja residuos al objetivo. Puede llegar a envenenar."
+        },
+        "italian": {
+            "xy": "Lancio di fango malsano che arreca danno al bersaglio. Può anche avvelenarlo.",
+            "oras": "Lancio di fango malsano che arreca danno al bersaglio. Può anche avvelenarlo.",
+            "sm": "Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo.",
+            "usum": "Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo.",
+            "lgpe": "Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo.",
+            "swsh": "Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo."
+        },
+        "japanese": {
+            "xy": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。",
+            "oras": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。",
+            "sm": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。",
+            "usum": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。",
+            "lgpe": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。",
+            "swsh": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "oras": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "sm": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "usum": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "lgpe": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+            "swsh": "Arroja residuos al objetivo. Puede llegar a envenenar."
+        },
+        "traditional-chinese": {
+            "sm": "向對手投擲污泥進行攻擊。 有時會讓對手陷入中毒狀態。",
+            "usum": "向對手投擲污泥進行攻擊。 有時會讓對手陷入中毒狀態。",
+            "lgpe": "向對手投擲污泥進行攻擊。 有時會讓對手陷入中毒狀態。",
+            "swsh": "向對手投擲污泥進行攻擊。 有時會讓對手陷入中毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用污泥投掷对手进行攻击。 有时会让对手陷入中毒状态。",
+            "usum": "用污泥投掷对手进行攻击。 有时会让对手陷入中毒状态。",
+            "lgpe": "用污泥投掷对手进行攻击。 有时会让对手陷入中毒状态。",
+            "swsh": "用污泥投掷对手进行攻击。 有时会让对手陷入中毒状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to poison the target.",
+        "shortEffect": "Has a chance to poison the target."
+    }
 }

@@ -1,39 +1,138 @@
 {
-  "_id": 523,
-  "key": "bulldoze",
-  "name": {
-    "english": "Bulldoze",
-    "japanese": "じならし",
-    "chinese": "整地",
-    "korean": "땅고르기",
-    "german": "Terratemblor",
-    "french": "Dampfwalze",
-    "italian": "Bulldoze",
-    "spanish": "Battiterra"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user stomps down on the ground\nand attacks everything in the area. Hit\nPokémon’s Speed stat is reduced.",
-    "black-2-white-2": "The user stomps down on the ground\nand attacks everything in the area. Hit\nPokémon’s Speed stat is reduced.",
-    "x-y": "The user strikes everything around it\nby stomping down on the ground.\nThis lowers the Speed stat of those hit.",
-    "omega-ruby-alpha-sapphire": "The user strikes everything around it\nby stomping down on the ground.\nThis lowers the Speed stat of those hit.",
-    "sun-moon": "The user strikes everything around it by stomping\ndown on the ground. This lowers the Speed stat of\nthose hit.",
-    "ultra-sun-ultra-moon": "The user strikes everything around it by stomping\ndown on the ground. This lowers the Speed stat of\nthose hit.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes everything around it by stomping\ndown on the ground. This lowers the Speed stat of\nthose hit.",
-    "sword-shield": "The user strikes everything around it by stomping\ndown on the ground. This lowers the Speed stats of\nthose hit."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 523,
+    "key": "bulldoze",
+    "name": {
+        "japanese-kana": "じならし",
+        "korean": "땅고르기",
+        "traditional-chinese": "重踏",
+        "french": "Piétisol",
+        "german": "Dampfwalze",
+        "spanish": "Terratemblor",
+        "italian": "Battiterra",
+        "english": "Bulldoze",
+        "japanese": "じならし",
+        "simplified-chinese": "重踏",
+        "latin-american-spanish": "Terratemblor"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi la Vitesse.",
+            "xy": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse.",
+            "oras": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse.",
+            "sm": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse.",
+            "usum": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse.",
+            "lgpe": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse.",
+            "swsh": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse."
+        },
+        "english": {
+            "bw": "The user stomps down on the ground and attacks everything in the area. Hit Pokémon’s Speed stat is reduced.",
+            "b2w2": "The user stomps down on the ground and attacks everything in the area. Hit Pokémon’s Speed stat is reduced.",
+            "xy": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stat of those hit.",
+            "oras": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stat of those hit.",
+            "sm": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stat of those hit.",
+            "usum": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stat of those hit.",
+            "lgpe": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stat of those hit.",
+            "swsh": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
+            "la": "The user tramples its target into the ground, dealing damage. This also lowers the target’s action speed.",
+            "sv": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit."
+        },
+        "japanese-kana": {
+            "xy": "じめんを　ふみならして　じぶんの まわりに　いるものを　こうげきする。 あいての　すばやさを　さげる。",
+            "oras": "じめんを　ふ ならして　じぶんの まわりに　いるものを　こうげきする。 あいての　すばやさを　さげる。",
+            "sm": "じめんを　ふみならして　じぶんの まわりに　いるものを　こうげきする。 あいての　すばやさを　さげる。",
+            "usum": "じめんを　ふみならして　じぶんの まわりに　いるものを　こうげきする。 あいての　すばやさを　さげる。",
+            "lgpe": "じめんを　ふみならして　じぶんの まわりに　いるものを　こうげきする。 あいての　すばやさを　さげる。",
+            "swsh": "じめんを　ふみならして　じぶんの まわりに　いるものを　こうげきする。 あいての　すばやさを　さげる。"
+        },
+        "korean": {
+            "xy": "땅을 힘껏 밟아 자신의 주위에 있는 포켓몬을 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "oras": "땅을 힘껏 밟아 자신의 주위에 있는 포켓몬을 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "sm": "땅을 힘껏 밟아 자신의 주위에 있는 포켓몬을 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "usum": "땅을 힘껏 밟아 자신의 주위에 있는 포켓몬을 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "lgpe": "땅을 힘껏 밟아 자신의 주위에 있는 포켓몬을 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "swsh": "땅을 힘껏 밟아 자신의 주위에 있는 포켓몬을 공격한다. 상대의 스피드를 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Anwender greift an, indem er den Boden um sich herum plattwalzt. Die Initiative aller betroffenen Pokémon sinkt.",
+            "oras": "Anwender greift an, indem er den Boden um sich herum plattwalzt. Die Initiative aller betroffenen Pokémon sinkt.",
+            "sm": "Anwender greift an, indem er den Boden um sich herum plattwalzt. Die Initiative aller betroffenen Pokémon sinkt.",
+            "usum": "Anwender greift an, indem er den Boden um sich herum plattwalzt. Die Initiative aller betroffenen Pokémon sinkt.",
+            "lgpe": "Anwender greift an, indem er den Boden um sich herum plattwalzt. Die Initiative aller Pokémon in der Umgebung sinkt.",
+            "swsh": "Anwender walzt den Boden platt und greift dabei alle Pokémon im Umkreis an. Die Initiative aller betroffenen Pokémon sinkt."
+        },
+        "spanish": {
+            "xy": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "oras": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "sm": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "usum": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "lgpe": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "swsh": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa calpesta il terreno e scatena un terremoto che danneggia i Pokémon nei paraggi, riducendone la Velocità.",
+            "oras": "Chi la usa calpesta il terreno e scatena un terremoto che danneggia i Pokémon nei paraggi, riducendone la Velocità.",
+            "sm": "Chi la usa calpesta il terreno e scatena un terremoto che danneggia i Pokémon nei paraggi, riducendone la Velocità.",
+            "usum": "Chi la usa calpesta il terreno e scatena un terremoto che danneggia i Pokémon nei paraggi, riducendone la Velocità.",
+            "lgpe": "Chi la usa calpesta il terreno e scatena un terremoto che danneggia i Pokémon nei paraggi, riducendone la Velocità.",
+            "swsh": "Chi la usa calpesta il terreno e scatena un terremoto che danneggia i Pokémon nei paraggi, riducendone la Velocità."
+        },
+        "japanese": {
+            "xy": "地面を　踏みならして　自分の 周りに　いるものを　攻撃する。 相手の　素早さを　さげる。",
+            "oras": "地面を　踏 ならして　自分の 周りに　いるものを　攻撃する。 相手の　素早さを　さげる。",
+            "sm": "地面を　踏みならして　自分の 周りに　いるものを　攻撃する。 相手の　素早さを　さげる。",
+            "usum": "地面を　踏みならして　自分の 周りに　いるものを　攻撃する。 相手の　素早さを　さげる。",
+            "lgpe": "地面を　踏みならして　自分の 周りに　いるものを　攻撃する。 相手の　素早さを　さげる。",
+            "swsh": "地面を　踏みならして　自分の 周りに　いるものを　攻撃する。 相手の　素早さを　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "oras": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "sm": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "usum": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "lgpe": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.",
+            "swsh": "Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "用力踩踏地面， 攻擊自己周圍所有的寶可夢。 可降低對手的速度。",
+            "usum": "用力踩踏地面， 攻擊自己周圍所有的寶可夢。 可降低對手的速度。",
+            "lgpe": "用力踩踏地面， 攻擊自己周圍所有的寶可夢。 可降低對手的速度。",
+            "swsh": "用力踩踏地面， 攻擊自己周圍所有的寶可夢。 可降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "用力踩踏地面并攻击 自己周围所有的宝可梦。 降低对方的速度。",
+            "usum": "用力踩踏地面并攻击 自己周围所有的宝可梦。 降低对方的速度。",
+            "lgpe": "用力踩踏地面并攻击 自己周围所有的宝可梦。 降低对方的速度。",
+            "swsh": "用力踩踏地面并攻击 自己周围所有的宝可梦。 降低对方的速度。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

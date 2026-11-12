@@ -1,42 +1,145 @@
 {
-  "_id": 403,
-  "key": "air-slash",
-  "name": {
-    "english": "Air Slash",
-    "japanese": "エアスラッシュ",
-    "chinese": "空气砍",
-    "korean": "에어슬래시",
-    "german": "Tajo Aéreo",
-    "french": "Luftschnitt",
-    "italian": "Air Slash",
-    "spanish": "Eterelama"
-  },
-  "type": "Flying",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 75,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user attacks with\na blade of air that\nslices even the sky.\nIt may also make the\ntarget flinch.",
-    "platinum": "The user attacks with\na blade of air that\nslices even the sky.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The user attacks with\na blade of air that\nslices even the sky.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user attacks with a blade of air that\nslices even the sky. It may also make the\ntarget flinch.",
-    "black-2-white-2": "The user attacks with a blade of air that\nslices even the sky. It may also make the\ntarget flinch.",
-    "x-y": "The user attacks with a blade of air that\nslices even the sky. This may also make the\ntarget flinch.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a blade of air that\nslices even the sky. This may also make the\ntarget flinch.",
-    "sun-moon": "The user attacks with a blade of air that slices even\nthe sky. This may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The user attacks with a blade of air that slices even\nthe sky. This may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a blade of air that slices even\nthe sky. This may also make the target flinch.",
-    "sword-shield": "The user attacks with a blade of air that slices even\nthe sky. This may also make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 403,
+    "key": "air-slash",
+    "name": {
+        "japanese-kana": "エアスラッシュ",
+        "korean": "에어슬래시",
+        "traditional-chinese": "空氣斬",
+        "french": "Lame d’Air",
+        "german": "Luftschnitt",
+        "spanish": "Tajo Aéreo",
+        "italian": "Eterelama",
+        "english": "Air Slash",
+        "japanese": "エアスラッシュ",
+        "simplified-chinese": "空气之刃",
+        "latin-american-spanish": "Corte Aéreo"
+    },
+    "type": "flying",
+    "category": "special",
+    "contest": "cool",
+    "pp": 15,
+    "power": 75,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 30,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "pp": 20
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
+            "pt": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
+            "hgss": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
+            "bw": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
+            "b2w2": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
+            "xy": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+            "oras": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+            "sm": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+            "usum": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+            "lgpe": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+            "swsh": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+            "la": "The user attacks with a blade of air that slices even the sky.",
+            "sv": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.",
+            "oras": "Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.",
+            "sm": "Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.",
+            "usum": "Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.",
+            "lgpe": "Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi.",
+            "swsh": "Le lanceur attaque avec une lame d’air qui fend tout. Peut aussi apeurer l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "そらをも　きりさく くうきの　やいばで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "そらをも　きりさく くうきの　やいばで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "そらをも　きりさく くうきの　やいばで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "そらをも　きりさく くうきの　やいばで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "そらをも　きりさく くうきの　やいばで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "そらをも　きりさく くうきの　やいばで　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "하늘까지 베어 가르는 공기의 칼날로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "하늘까지 베어 가르는 공기의 칼날로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "하늘까지 베어 가르는 공기의 칼날로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "하늘까지 베어 가르는 공기의 칼날로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "하늘까지 베어 가르는 공기의 칼날로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "하늘까지 베어 가르는 공기의 칼날로 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.",
+            "oras": "Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.",
+            "sm": "Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.",
+            "usum": "Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.",
+            "lgpe": "Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.",
+            "swsh": "Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "oras": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "sm": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "usum": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "lgpe": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "swsh": "Ataca con un viento afilado que incluso corta el aire. También puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca con un vento tagliente che squarcia il cielo. Può anche far tentennare il Pokémon colpito.",
+            "oras": "Chi la usa attacca con un vento tagliente che squarcia il cielo. Può anche far tentennare il Pokémon colpito.",
+            "sm": "Chi la usa attacca con un vento tagliente che squarcia il cielo. Può anche far tentennare il Pokémon colpito.",
+            "usum": "Chi la usa attacca con un vento tagliente che squarcia il cielo. Può anche far tentennare il Pokémon colpito.",
+            "lgpe": "Chi la usa attacca con un vento tagliente che squarcia il cielo. Può anche far tentennare il Pokémon colpito.",
+            "swsh": "Chi la usa attacca con un vento tagliente che squarcia il cielo. Può anche far tentennare il Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "空をも　切り裂く 空気の　刃で　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "空をも　切り裂く 空気の　刃で　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "空をも　切り裂く 空気の　刃で　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "空をも　切り裂く 空気の　刃で　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "空をも　切り裂く 空気の　刃で　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "空をも　切り裂く 空気の　刃で　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "oras": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "sm": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "usum": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "lgpe": "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.",
+            "swsh": "Ataca con un viento afilado que incluso corta el aire. También puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用連天空也能劈開的 空氣之刃進行攻擊。 有時會使對手畏縮。",
+            "usum": "用連天空也能劈開的 空氣之刃進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "用連天空也能劈開的 空氣之刃進行攻擊。 有時會使對手畏縮。",
+            "swsh": "用連天空也能劈開的 空氣之刃進行攻擊。 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "用连天空也能劈开的 空气之刃进行攻击。 有时会使对手畏缩。",
+            "usum": "用连天空也能劈开的 空气之刃进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用连天空也能劈开的 空气之刃进行攻击。 有时会使对手畏缩。",
+            "swsh": "用连天空也能劈开的 空气之刃进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

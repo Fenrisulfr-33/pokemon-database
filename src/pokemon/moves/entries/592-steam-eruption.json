@@ -1,37 +1,135 @@
 {
-  "_id": 592,
-  "key": "steam-eruption",
-  "name": {
-    "english": "Steam Eruption",
-    "japanese": "スチームバースト",
-    "chinese": "蒸汽爆炸",
-    "korean": "스팀버스트",
-    "german": "Chorro de Vapor",
-    "french": "Dampfschwall",
-    "italian": "Steam Eruption",
-    "spanish": "Vaporscoppio"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": null,
-  "pp": 5,
-  "power": 110,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ultra-sun-ultra-moon": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
-    "x-y": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
-    "omega-ruby-alpha-sapphire": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
-    "sun-moon": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
-    "sword-shield": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 592,
+    "key": "steam-eruption",
+    "name": {
+        "japanese-kana": "スチームバースト",
+        "korean": "스팀버스트",
+        "traditional-chinese": "蒸汽爆炸",
+        "french": "Jet de Vapeur",
+        "german": "Dampfschwall",
+        "spanish": "Chorro de Vapor",
+        "italian": "Vaporscoppio",
+        "english": "Steam Eruption",
+        "japanese": "スチームバースト",
+        "simplified-chinese": "蒸汽爆炸",
+        "latin-american-spanish": "Chorro de Vapor"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": null,
+    "pp": 5,
+    "power": 110,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ものすごく　あつい　じょうきを あいてに　あびせる。 あいては　やけどする　ことがある。",
+            "oras": "ものすごく　あつい　じょうきを あいてに　あびせる。 あいては　やけどする　ことがある。",
+            "sm": "ものすごく　あつい　じょうきを あいてに　あびせる。 あいては　やけどする　ことがある。",
+            "usum": "ものすごく　あつい　じょうきを あいてに　あびせる。 あいては　やけどする　ことがある。",
+            "lgpe": "ものすごく　あつい　じょうきを あいてに　あびせる。 あいては　やけどする　ことがある。",
+            "swsh": "ものすごく　あつい　じょうきを あいてに　あびせる。 あいては　やけどする　ことがある。"
+        },
+        "korean": {
+            "xy": "상대에게 굉장히 뜨거운 증기를 뿜는다. 상대는 화상을 입기도 한다.",
+            "oras": "상대에게 굉장히 뜨거운 증기를 뿜는다. 상대는 화상을 입기도 한다.",
+            "sm": "상대에게 굉장히 뜨거운 증기를 뿜는다. 상대는 화상을 입기도 한다.",
+            "usum": "상대에게 굉장히 뜨거운 증기를 뿜는다. 상대는 화상을 입기도 한다.",
+            "lgpe": "상대에게 굉장히 뜨거운 증기를 뿜는다. 상대는 화상을 입기도 한다.",
+            "swsh": "상대에게 굉장히 뜨거운 증기를 뿜는다. 상대는 화상을 입기도 한다."
+        },
+        "french": {
+            "xy": "Plonge l’ennemi dans une chaleur étouffante. Peut le brûler.",
+            "oras": "Plonge l’ennemi dans une chaleur étouffante. Peut le brûler.",
+            "sm": "Plonge l’ennemi dans une chaleur étouffante. Peut le brûler.",
+            "usum": "Plonge l’ennemi dans une chaleur étouffante. Peut le brûler.",
+            "lgpe": "Plonge l’ennemi dans une chaleur étouffante. Peut le brûler.",
+            "swsh": "Plonge l’ennemi dans une chaleur étouffante. Peut le brûler."
+        },
+        "german": {
+            "xy": "Der Anwender feuert einen siedend heißen Dampfschwall auf das Ziel ab. Dieses kann dabei Verbrennungen erleiden.",
+            "oras": "Der Anwender feuert einen siedend heißen Dampfschwall auf das Ziel ab. Dieses kann dabei Verbrennungen erleiden.",
+            "sm": "Der Anwender feuert einen siedend heißen Dampfschwall auf das Ziel ab. Dieses kann dabei Verbrennungen erleiden.",
+            "usum": "Der Anwender feuert einen siedend heißen Dampfschwall auf das Ziel ab. Dieses kann dabei Verbrennungen erleiden.",
+            "lgpe": "Der Anwender feuert einen siedend heißen Dampfschwall auf das Ziel ab. Dieses kann dabei Verbrennungen erleiden.",
+            "swsh": "Der Anwender feuert einen siedend heißen Dampfschwall auf das Ziel ab. Dieses kann dabei Verbrennungen erleiden."
+        },
+        "spanish": {
+            "xy": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "oras": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "sm": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "usum": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "lgpe": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "swsh": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo."
+        },
+        "italian": {
+            "xy": "Travolge il bersaglio con un’ondata di vapore rovente che può anche scottarlo.",
+            "oras": "Travolge il bersaglio con un’ondata di vapore rovente che può anche scottarlo.",
+            "sm": "Travolge il bersaglio con un’ondata di vapore rovente che può anche scottarlo.",
+            "usum": "Travolge il bersaglio con un’ondata di vapore rovente che può anche scottarlo.",
+            "lgpe": "Travolge il bersaglio con un’ondata di vapore rovente che può anche scottarlo.",
+            "swsh": "Travolge il bersaglio con un’ondata di vapore rovente che può anche scottarlo."
+        },
+        "english": {
+            "xy": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+            "oras": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+            "sm": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+            "usum": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+            "lgpe": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+            "swsh": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+            "la": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+            "sv": "The user immerses the target in superheated steam. This may also leave the target with a burn."
+        },
+        "japanese": {
+            "xy": "ものすごく　熱い　蒸気を 相手に　浴びせる。 相手は　やけどする　ことがある。",
+            "oras": "ものすごく　熱い　蒸気を 相手に　浴びせる。 相手は　やけどする　ことがある。",
+            "sm": "ものすごく　熱い　蒸気を 相手に　浴びせる。 相手は　やけどする　ことがある。",
+            "usum": "ものすごく　熱い　蒸気を 相手に　浴びせる。 相手は　やけどする　ことがある。",
+            "lgpe": "ものすごく　熱い　蒸気を 相手に　浴びせる。 相手は　やけどする　ことがある。",
+            "swsh": "ものすごく　熱い　蒸気を 相手に　浴びせる。 相手は　やけどする　ことがある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "oras": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "sm": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "usum": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "lgpe": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+            "swsh": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo."
+        },
+        "traditional-chinese": {
+            "sm": "將超高溫的蒸汽噴向對手。 有時會讓對手陷入灼傷狀態。",
+            "usum": "將超高溫的蒸汽噴向對手。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "將超高溫的蒸汽噴向對手。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "將超高溫的蒸汽噴向對手。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "将滚烫的蒸汽喷向对手。 有时会让对手灼伤。",
+            "usum": "将滚烫的蒸汽喷向对手。 有时会让对手灼伤。",
+            "lgpe": "将滚烫的蒸汽喷向对手。 有时会让对手灼伤。",
+            "swsh": "将滚烫的蒸汽喷向对手。 有时会让对手灼伤。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

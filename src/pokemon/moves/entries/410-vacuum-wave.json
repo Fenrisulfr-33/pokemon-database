@@ -1,42 +1,141 @@
 {
-  "_id": 410,
-  "key": "vacuum-wave",
-  "name": {
-    "english": "Vacuum Wave",
-    "japanese": "しんくうは",
-    "chinese": "真空波",
-    "korean": "진공파",
-    "german": "Onda Vacío",
-    "french": "Vakuumwelle",
-    "italian": "Vacuum Wave",
-    "spanish": "Vuotonda"
-  },
-  "type": "Fighting",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 30,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user whirls its\nfists to send a wave\nof pure vacuum at\nthe foe. This move\nalways goes first.",
-    "platinum": "The user whirls its\nfists to send a wave\nof pure vacuum at\nthe foe. This move\nalways goes first.",
-    "heartgold-soulsilver": "The user whirls its\nfists to send a wave\nof pure vacuum at\nthe foe. This move\nalways goes first.",
-    "black-white": "The user whirls its fists to send a wave\nof pure vacuum at the target. This move\nalways goes first.",
-    "black-2-white-2": "The user whirls its fists to send a wave\nof pure vacuum at the target. This move\nalways goes first.",
-    "x-y": "The user whirls its fists to send a wave\nof pure vacuum at the target.\nThis move always goes first.",
-    "omega-ruby-alpha-sapphire": "The user whirls its fists to send a wave\nof pure vacuum at the target.\nThis move always goes first.",
-    "sun-moon": "The user whirls its fists to send a wave of pure\nvacuum at the target. This move always goes first.",
-    "ultra-sun-ultra-moon": "The user whirls its fists to send a wave of pure\nvacuum at the target. This move always goes first.",
-    "lets-go-pikachu-lets-go-eevee": "The user whirls its fists to send a wave of pure\nvacuum at the target. This move always goes first.",
-    "sword-shield": "The user whirls its fists to send a wave of pure\nvacuum at the target. This move always goes first."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 1
+    "_id": 410,
+    "key": "vacuum-wave",
+    "name": {
+        "japanese-kana": "しんくうは",
+        "korean": "진공파",
+        "traditional-chinese": "真空波",
+        "french": "Onde Vide",
+        "german": "Vakuumwelle",
+        "spanish": "Onda Vacío",
+        "italian": "Vuotonda",
+        "english": "Vacuum Wave",
+        "japanese": "しんくうは",
+        "simplified-chinese": "真空波",
+        "latin-american-spanish": "Onda de Vacío"
+    },
+    "type": "fighting",
+    "category": "special",
+    "contest": "smart",
+    "pp": 30,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user whirls its fists to send a wave of pure vacuum at the foe. This move always goes first.",
+            "pt": "The user whirls its fists to send a wave of pure vacuum at the foe. This move always goes first.",
+            "hgss": "The user whirls its fists to send a wave of pure vacuum at the foe. This move always goes first.",
+            "bw": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "b2w2": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "xy": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "oras": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "sm": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "usum": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "lgpe": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "swsh": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "la": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+            "sv": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first."
+        },
+        "french": {
+            "bw": "Le lanceur agite son poing pour projeter une onde de vide. Frappe toujours en premier.",
+            "xy": "Le lanceur agite son poing pour projeter une onde de vide. Frappe toujours en premier.",
+            "oras": "Le lanceur agite son poing pour projeter une onde de vide. Frappe toujours en premier.",
+            "sm": "Le lanceur agite son poing pour projeter une onde de vide. Frappe en priorité.",
+            "usum": "Le lanceur agite son poing pour projeter une onde de vide. Frappe en priorité.",
+            "lgpe": "Le lanceur agite son poing pour projeter une onde de vide. Frappe en priorité.",
+            "swsh": "Le lanceur agite son poing pour projeter une onde de vide. Frappe en priorité."
+        },
+        "japanese-kana": {
+            "xy": "こぶしを　ふって しんくうの　なみを　まきおこす。 かならず　せんせい　こうげき　できる。",
+            "oras": "こぶしを　ふって しんくうの　な を　まきおこす。 かならず　せんせい　こうげき　できる。",
+            "sm": "こぶしを　ふって しんくうの　なみを　まきおこす。 かならず　せんせい　こうげき　できる。",
+            "usum": "こぶしを　ふって しんくうの　なみを　まきおこす。 かならず　せんせい　こうげき　できる。",
+            "lgpe": "こぶしを　ふって しんくうの　なみを　まきおこす。 かならず　せんせい　こうげき　できる。",
+            "swsh": "こぶしを　ふって しんくうの　なみを　まきおこす。 かならず　せんせい　こうげき　できる。"
+        },
+        "korean": {
+            "xy": "주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제공격을 할 수 있다.",
+            "oras": "주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제공격을 할 수 있다.",
+            "sm": "주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제공격을 할 수 있다.",
+            "usum": "주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제공격을 할 수 있다.",
+            "lgpe": "주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제공격을 할 수 있다.",
+            "swsh": "주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제공격을 할 수 있다."
+        },
+        "german": {
+            "xy": "Ein Faustwirbel sendet eine Vakuumwelle auf das Ziel. Erstschlaggarantie.",
+            "oras": "Ein Faustwirbel sendet eine Vakuumwelle auf das Ziel. Erstschlaggarantie.",
+            "sm": "Ein Faustwirbel sendet eine Vakuumwelle auf das Ziel. Hohe Erstschlagquote.",
+            "usum": "Ein Faustwirbel sendet eine Vakuumwelle auf das Ziel. Hohe Erstschlagquote.",
+            "lgpe": "Ein Faustwirbel sendet eine Vakuumwelle auf das Ziel. Hohe Erstschlagquote.",
+            "swsh": "Erstschlag-Attacke, bei der ein Faustwirbel eine Vakuumwelle auf das Ziel sendet."
+        },
+        "spanish": {
+            "xy": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento siempre va primero.",
+            "oras": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento siempre va primero.",
+            "sm": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.",
+            "usum": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.",
+            "lgpe": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.",
+            "swsh": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta."
+        },
+        "italian": {
+            "xy": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio e attacca per primo.",
+            "oras": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio e attacca per primo.",
+            "sm": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio. Questa mossa ha priorità alta.",
+            "usum": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio. Questa mossa ha priorità alta.",
+            "lgpe": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio. Questa mossa ha priorità alta.",
+            "swsh": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio. Questa mossa ha priorità alta."
+        },
+        "japanese": {
+            "xy": "こぶしを　ふって 真空の　波を　まきおこす。 必ず　先制攻撃できる。",
+            "oras": "こぶしを　ふって 真空の　波を　まきおこす。 必ず　先制攻撃できる。",
+            "sm": "こぶしを　ふって 真空の　波を　まきおこす。 必ず　先制攻撃できる。",
+            "usum": "こぶしを　ふって 真空の　波を　まきおこす。 必ず　先制攻撃できる。",
+            "lgpe": "こぶしを　ふって 真空の　波を　まきおこす。 必ず　先制攻撃できる。",
+            "swsh": "こぶしを　ふって 真空の　波を　まきおこす。 必ず　先制攻撃できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento siempre va primero.",
+            "oras": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento siempre va primero.",
+            "sm": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.",
+            "usum": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.",
+            "lgpe": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.",
+            "swsh": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta."
+        },
+        "traditional-chinese": {
+            "sm": "揮動拳頭， 捲起真空波。 必定能夠發動先制攻擊。",
+            "usum": "揮動拳頭， 捲起真空波。 必定能夠發動先制攻擊。",
+            "lgpe": "揮動拳頭， 捲起真空波。 必定能夠發動先制攻擊。",
+            "swsh": "揮動拳頭， 捲起真空波。 必定能夠發動先制攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "挥动拳头， 掀起真空波。 必定能够先制攻击。",
+            "usum": "挥动拳头， 掀起真空波。 必定能够先制攻击。",
+            "lgpe": "挥动拳头， 掀起真空波。 必定能够先制攻击。",
+            "swsh": "挥动拳头， 掀起真空波。 必定能够先制攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

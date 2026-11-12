@@ -1,47 +1,146 @@
 {
-  "_id": 154,
-  "key": "fury-swipes",
-  "name": {
-    "english": "Fury Swipes",
-    "japanese": "みだれひっかき",
-    "chinese": "疯狂乱抓",
-    "korean": "마구할퀴기",
-    "german": "Golpes Furia",
-    "french": "Kratzfurie",
-    "italian": "Fury Swipes",
-    "spanish": "Sfuriate"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 18,
-  "accuracy": 80,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Quickly scratches\n2-5 times.",
-    "crystal": "Quickly scratches\n2-5 times.",
-    "ruby-sapphire": "Rakes the foe with sharp\nclaws, etc., 2 to 5 times.",
-    "emerald": "Rakes the foe with sharp\nclaws, etc., 2 to 5 times.",
-    "firered-leafgreen": "The foe is raked\nwith sharp claws or\nscythes two to five\ntimes.",
-    "diamond-pearl": "The foe is raked with\nsharp claws or\nscythes for two to\nfive times in quick\nsuccession.",
-    "platinum": "The foe is raked with\nsharp claws or\nscythes for two to\nfive times in quick\nsuccession.",
-    "heartgold-soulsilver": "The foe is raked with\nsharp claws or\nscythes for two to\nfive times in quick\nsuccession.",
-    "black-white": "The target is raked with sharp claws or\nscythes for two to five times in\nquick succession.",
-    "black-2-white-2": "The target is raked with sharp claws or\nscythes for two to five times in\nquick succession.",
-    "x-y": "The target is raked with sharp claws or\nscythes quickly two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "The target is raked with sharp claws or\nscythes quickly two to five times in a row.",
-    "sun-moon": "The target is raked with sharp claws or scythes\nquickly two to five times in a row.",
-    "ultra-sun-ultra-moon": "The target is raked with sharp claws or scythes\nquickly two to five times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The target is raked with sharp claws or scythes\nquickly two to five times in a row.",
-    "sword-shield": "The target is raked with sharp claws or scythes\nquickly two to five times in a row."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 154,
+    "key": "fury-swipes",
+    "name": {
+        "japanese-kana": "みだれひっかき",
+        "korean": "마구할퀴기",
+        "traditional-chinese": "亂抓",
+        "french": "Combo-Griffe",
+        "german": "Kratzfurie",
+        "spanish": "Golpes Furia",
+        "italian": "Sfuriate",
+        "english": "Fury Swipes",
+        "japanese": "みだれひっかき",
+        "simplified-chinese": "乱抓",
+        "latin-american-spanish": "Garras Furiosas"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 18,
+    "accuracy": 80,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Quickly scratches 2-5 times.",
+            "cr": "Quickly scratches 2-5 times.",
+            "rs": "Rakes the foe with sharp claws, etc., 2 to 5 times.",
+            "em": "Rakes the foe with sharp claws, etc., 2 to 5 times.",
+            "frlg": "The foe is raked with sharp claws or scythes two to five times.",
+            "dp": "The foe is raked with sharp claws or scythes for two to five times in quick succession.",
+            "pt": "The foe is raked with sharp claws or scythes for two to five times in quick succession.",
+            "hgss": "The foe is raked with sharp claws or scythes for two to five times in quick succession.",
+            "bw": "The target is raked with sharp claws or scythes for two to five times in quick succession.",
+            "b2w2": "The target is raked with sharp claws or scythes for two to five times in quick succession.",
+            "xy": "The target is raked with sharp claws or scythes quickly two to five times in a row.",
+            "oras": "The target is raked with sharp claws or scythes quickly two to five times in a row.",
+            "sm": "The target is raked with sharp claws or scythes quickly two to five times in a row.",
+            "usum": "The target is raked with sharp claws or scythes quickly two to five times in a row.",
+            "lgpe": "The target is raked with sharp claws or scythes quickly two to five times in a row.",
+            "swsh": "The target is raked with sharp claws or scythes quickly two to five times in a row.",
+            "la": "The target is raked with sharp claws or scythes quickly two to five times in a row.",
+            "sv": "The user attacks by raking the target with claws, scythes, or the like. This move hits two to five times in a row."
+        },
+        "french": {
+            "bw": "L’ennemi est lacéré par des faux ou des griffes de 2 à 5 fois.",
+            "xy": "L’ennemi est lacéré par des faux ou des griffes de deux à cinq fois d’affilée.",
+            "oras": "L’ennemi est lacéré par des faux ou des griffes de deux à cinq fois d’affilée.",
+            "sm": "L’ennemi est lacéré par des faux ou des griffes de deux à cinq fois d’affilée.",
+            "usum": "L’ennemi est lacéré par des faux ou des griffes de deux à cinq fois d’affilée.",
+            "lgpe": "L’ennemi est lacéré par des faux ou des griffes de deux à cinq fois d’affilée.",
+            "swsh": "L’ennemi est lacéré par des faux ou des griffes de deux à cinq fois d’affilée."
+        },
+        "japanese-kana": {
+            "xy": "ツメや　カマなどで あいてを　ひっかいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "ツメや　カマなどで あいてを　ひっかいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "ツメや　カマなどで あいてを　ひっかいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "ツメや　カマなどで あいてを　ひっかいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "ツメや　カマなどで あいてを　ひっかいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "ツメや　カマなどで あいてを　ひっかいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。"
+        },
+        "korean": {
+            "xy": "손톱이나 낫 등으로 상대를 할퀴어서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "손톱이나 낫 등으로 상대를 할퀴어서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "손톱이나 낫 등으로 상대를 할퀴어서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "손톱이나 낫 등으로 상대를 할퀴어서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "손톱이나 낫 등으로 상대를 할퀴어서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "손톱이나 낫 등으로 상대를 할퀴어서 공격한다. 2-5회 동안 연속으로 쓴다."
+        },
+        "german": {
+            "xy": "Beharkt das Ziel zwei- bis fünfmal mit scharfen Klauen oder Sicheln.",
+            "oras": "Beharkt das Ziel zwei- bis fünfmal mit scharfen Klauen oder Sicheln.",
+            "sm": "Beharkt das Ziel zwei- bis fünfmal mit scharfen Klauen oder Sicheln.",
+            "usum": "Beharkt das Ziel zwei- bis fünfmal mit scharfen Klauen oder Sicheln.",
+            "lgpe": "Beharkt das Ziel zwei- bis fünfmal mit scharfen Klauen oder Sicheln.",
+            "swsh": "Beharkt das Ziel zwei- bis fünfmal mit scharfen Klauen oder Sicheln."
+        },
+        "spanish": {
+            "xy": "Araña rápidamente de dos a cinco veces.",
+            "oras": "Araña rápidamente de dos a cinco veces.",
+            "sm": "Araña rápidamente de dos a cinco veces.",
+            "usum": "Araña rápidamente de dos a cinco veces.",
+            "lgpe": "Araña rápidamente de dos a cinco veces.",
+            "swsh": "Araña rápidamente de dos a cinco veces."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione.",
+            "oras": "Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione.",
+            "sm": "Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione.",
+            "usum": "Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione.",
+            "lgpe": "Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione.",
+            "swsh": "Colpisce il bersaglio con artigli o falci affilate da due a cinque volte in rapida successione."
+        },
+        "japanese": {
+            "xy": "ツメや　カマなどで 相手を　ひっかいて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "ツメや　カマなどで 相手を　ひっかいて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "ツメや　カマなどで 相手を　ひっかいて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "ツメや　カマなどで 相手を　ひっかいて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "ツメや　カマなどで 相手を　ひっかいて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "ツメや　カマなどで 相手を　ひっかいて　攻撃する。 ２ー５回の　間　連続で　だす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Araña rápidamente de dos a cinco veces.",
+            "oras": "Araña rápidamente de dos a cinco veces.",
+            "sm": "Araña rápidamente de dos a cinco veces.",
+            "usum": "Araña rápidamente de dos a cinco veces.",
+            "lgpe": "Araña rápidamente de dos a cinco veces.",
+            "swsh": "Araña rápidamente de dos a cinco veces."
+        },
+        "traditional-chinese": {
+            "sm": "用爪子或鐮刀等 向對手進行攻擊。 可連續攻擊２～５次。",
+            "usum": "用爪子或鐮刀等 向對手進行攻擊。 可連續攻擊２～５次。",
+            "lgpe": "用爪子或鐮刀等 向對手進行攻擊。 可連續攻擊２～５次。",
+            "swsh": "用爪子或鐮刀等 向對手進行攻擊。 可連續攻擊２～５次。"
+        },
+        "simplified-chinese": {
+            "sm": "用爪子或镰刀等 抓对手进行攻击。 连续攻击２～５次。",
+            "usum": "用爪子或镰刀等 抓对手进行攻击。 连续攻击２～５次。",
+            "lgpe": "用爪子或镰刀等 抓对手进行攻击。 连续攻击２～５次。",
+            "swsh": "用爪子或镰刀等 抓对手进行攻击。 连续攻击２～５次。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

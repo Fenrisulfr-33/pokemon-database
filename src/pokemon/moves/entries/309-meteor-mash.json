@@ -1,45 +1,149 @@
 {
-  "_id": 309,
-  "key": "meteor-mash",
-  "name": {
-    "english": "Meteor Mash",
-    "japanese": "コメットパンチ",
-    "chinese": "流星拳",
-    "korean": "코멧펀치",
-    "german": "Puño Meteoro",
-    "french": "Sternenhieb",
-    "italian": "Meteor Mash",
-    "spanish": "Meteorpugno"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Fires a meteor-like punch.\nMay raise ATTACK.",
-    "emerald": "Fires a meteor-like punch.\nMay raise ATTACK.",
-    "firered-leafgreen": "The foe is hit with\na hard, fast punch.\nIt may also raise\nthe user’s ATTACK.",
-    "diamond-pearl": "The foe is hit with a\nhard punch fired\nlike a meteor.\nIt may also raise\nthe user’s Attack.",
-    "platinum": "The foe is hit with a\nhard punch fired\nlike a meteor.\nIt may also raise\nthe user’s Attack.",
-    "heartgold-soulsilver": "The foe is hit with a\nhard punch fired\nlike a meteor.\nIt may also raise\nthe user’s Attack.",
-    "black-white": "The target is hit with a hard punch fired\nlike a meteor. It may also raise\nthe user’s Attack.",
-    "black-2-white-2": "The target is hit with a hard punch fired\nlike a meteor. It may also raise\nthe user’s Attack.",
-    "x-y": "The target is hit with a hard punch fired\nlike a meteor. This may also raise\nthe user’s Attack stat.",
-    "omega-ruby-alpha-sapphire": "The target is hit with a hard punch fired\nlike a meteor. This may also raise\nthe user’s Attack stat.",
-    "sun-moon": "The target is hit with a hard punch fired like a\nmeteor. This may also raise the user’s Attack stat.",
-    "ultra-sun-ultra-moon": "The target is hit with a hard punch fired like a\nmeteor. This may also raise the user’s Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit with a hard punch fired like a\nmeteor. This may also raise the user’s Attack stat.",
-    "sword-shield": "The target is hit with a hard punch fired like a\nmeteor. This may also raise the user’s Attack stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage. Has a $effect_chance% chance to raise the user's Attack one stage.",
-    "shortEffect": "Has a $effect_chance% chance to raise the user's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 309,
+    "key": "meteor-mash",
+    "name": {
+        "japanese-kana": "コメットパンチ",
+        "korean": "코멧펀치",
+        "traditional-chinese": "彗星拳",
+        "french": "Poing Météore",
+        "german": "Sternenhieb",
+        "spanish": "Puño Meteoro",
+        "italian": "Meteorpugno",
+        "english": "Meteor Mash",
+        "japanese": "コメットパンチ",
+        "simplified-chinese": "彗星拳",
+        "latin-american-spanish": "Puño Meteoro"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 20
+    },
+    "changes": {
+        "xy": {
+            "accuracy": 85,
+            "power": 100
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Fires a meteor-like punch. May raise ATTACK.",
+            "em": "Fires a meteor-like punch. May raise ATTACK.",
+            "frlg": "The foe is hit with a hard, fast punch. It may also raise the user’s ATTACK.",
+            "dp": "The foe is hit with a hard punch fired like a meteor. It may also raise the user’s Attack.",
+            "pt": "The foe is hit with a hard punch fired like a meteor. It may also raise the user’s Attack.",
+            "hgss": "The foe is hit with a hard punch fired like a meteor. It may also raise the user’s Attack.",
+            "bw": "The target is hit with a hard punch fired like a meteor. It may also raise the user’s Attack.",
+            "b2w2": "The target is hit with a hard punch fired like a meteor. It may also raise the user’s Attack.",
+            "xy": "The target is hit with a hard punch fired like a meteor. This may also raise the user’s Attack stat.",
+            "oras": "The target is hit with a hard punch fired like a meteor. This may also raise the user’s Attack stat.",
+            "sm": "The target is hit with a hard punch fired like a meteor. This may also raise the user’s Attack stat.",
+            "usum": "The target is hit with a hard punch fired like a meteor. This may also raise the user’s Attack stat.",
+            "lgpe": "The target is hit with a hard punch fired like a meteor. This may also raise the user’s Attack stat.",
+            "swsh": "The target is hit with a hard punch fired like a meteor. This may also raise the user’s Attack stat.",
+            "la": "The target is hit with a hard punch fired like a meteor. This may also raise the user's Attack stat.",
+            "sv": "The target is hit with a hard punch fired like a meteor. This may also boost the user’s Attack stat."
+        },
+        "french": {
+            "bw": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.",
+            "xy": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.",
+            "oras": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.",
+            "sm": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.",
+            "usum": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.",
+            "lgpe": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.",
+            "swsh": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。じぶんの こうげきが　あがることが　ある。",
+            "oras": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。じぶんの こうげきが　あがることが　ある。",
+            "sm": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。　じぶんの こうげきが　あがることが　ある。",
+            "usum": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。　じぶんの こうげきが　あがることが　ある。",
+            "lgpe": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。　じぶんの こうげきが　あがることが　ある。",
+            "swsh": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。　じぶんの こうげきが　あがることが　ある。"
+        },
+        "korean": {
+            "xy": "혜성과 같은 펀치를 날려서 상대를 공격한다. 자신의 공격이 올라갈 때가 있다.",
+            "oras": "혜성과 같은 펀치를 날려서 상대를 공격한다. 자신의 공격이 올라갈 때가 있다.",
+            "sm": "혜성과 같은 펀치를 날려서 상대를 공격한다. 자신의 공격이 올라갈 때가 있다.",
+            "usum": "혜성과 같은 펀치를 날려서 상대를 공격한다. 자신의 공격이 올라갈 때가 있다.",
+            "lgpe": "혜성과 같은 펀치를 날려서 상대를 공격한다. 자신의 공격이 올라갈 때가 있다.",
+            "swsh": "혜성과 같은 펀치를 날려서 상대를 공격한다. 자신의 공격이 올라갈 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit einem harten, schnellen Schlag. Erhöht eventuell Angriffs-Wert des Anwenders.",
+            "oras": "Angriff mit einem harten, schnellen Schlag. Erhöht eventuell Angriffs-Wert des Anwenders.",
+            "sm": "Angriff mit einem harten, schnellen Schlag. Erhöht eventuell Angriffs-Wert des Anwenders.",
+            "usum": "Angriff mit einem harten, schnellen Schlag. Erhöht eventuell Angriffs-Wert des Anwenders.",
+            "lgpe": "Angriff mit einem harten, schnellen Schlag. Erhöht eventuell Angriffs-Wert des Anwenders.",
+            "swsh": "Angriff mit einem harten, schnellen Schlag. Erhöht eventuell Angriffs-Wert des Anwenders."
+        },
+        "spanish": {
+            "xy": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "oras": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "sm": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "usum": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "lgpe": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "swsh": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l’Attacco di chi la usa.",
+            "oras": "Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l’Attacco di chi la usa.",
+            "sm": "Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l’Attacco di chi la usa.",
+            "usum": "Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l’Attacco di chi la usa.",
+            "lgpe": "Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l’Attacco di chi la usa.",
+            "swsh": "Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l’Attacco di chi la usa."
+        },
+        "japanese": {
+            "xy": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。自分の 攻撃が　あがることが　ある。",
+            "oras": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。自分の 攻撃が　あがることが　ある。",
+            "sm": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。　自分の 攻撃が　あがることが　ある。",
+            "usum": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。　自分の 攻撃が　あがることが　ある。",
+            "lgpe": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。　自分の 攻撃が　あがることが　ある。",
+            "swsh": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。　自分の 攻撃が　あがることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "oras": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "sm": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "usum": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "lgpe": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+            "swsh": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor."
+        },
+        "traditional-chinese": {
+            "sm": "使出如同彗星般的拳頭攻擊對手。 有時會提高自己的攻擊。",
+            "usum": "使出如同彗星般的拳頭攻擊對手。 有時會提高自己的攻擊。",
+            "lgpe": "使出如同彗星般的拳頭攻擊對手。 有時會提高自己的攻擊。",
+            "swsh": "使出如同彗星般的拳頭攻擊對手。 有時會提高自己的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "使出彗星般的拳头攻击对手。 有时会提高自己的攻击。",
+            "usum": "使出彗星般的拳头攻击对手。 有时会提高自己的攻击。",
+            "lgpe": "使出彗星般的拳头攻击对手。 有时会提高自己的攻击。",
+            "swsh": "使出彗星般的拳头攻击对手。 有时会提高自己的攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. Has a chance to raise the user’s Attack one stage.",
+        "shortEffect": "Has a chance to raise the user’s Attack by one stage."
+    }
 }

@@ -1,45 +1,151 @@
 {
-  "_id": 268,
-  "key": "charge",
-  "name": {
-    "english": "Charge",
-    "japanese": "じゅうでん",
-    "chinese": "充电",
-    "korean": "충전",
-    "german": "Carga",
-    "french": "Ladevorgang",
-    "italian": "Charge",
-    "spanish": "Sottocarica"
-  },
-  "type": "Electric",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Charges power to boost the\nelectric move used next.",
-    "emerald": "Charges power to boost the\nelectric move used next.",
-    "firered-leafgreen": "The user charges\npower to boost the\nELECTRIC move it\nuses next.",
-    "diamond-pearl": "The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser’s Sp. Def stat.",
-    "platinum": "The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser’s Sp. Def stat.",
-    "heartgold-soulsilver": "The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser’s Sp. Def stat.",
-    "black-white": "The user boosts the power of the Electric\nmove it uses on the next turn. It also\nraises the user’s Sp. Def stat.",
-    "black-2-white-2": "The user boosts the power of the Electric\nmove it uses on the next turn. It also\nraises the user’s Sp. Def stat.",
-    "x-y": "The user boosts the power of the Electric\nmove it uses on the next turn. This also\nraises the user’s Sp. Def stat.",
-    "omega-ruby-alpha-sapphire": "The user boosts the power of the Electric\nmove it uses on the next turn. This also\nraises the user’s Sp. Def stat.",
-    "sun-moon": "The user boosts the power of the Electric move it\nuses on the next turn. This also raises the user’s\nSp. Def stat.",
-    "ultra-sun-ultra-moon": "The user boosts the power of the Electric move it\nuses on the next turn. This also raises the user’s\nSp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user boosts the power of the Electric move it\nuses on the next turn. This also raises the user’s\nSp. Def stat.",
-    "sword-shield": "The user boosts the power of the Electric move it\nuses on the next turn. This also raises the user’s\nSp. Def stat."
-  },
-  "effect": {
-    "full": "Raises the user's Special Defense by one stage.  If the user uses an electric move next turn, its power will be doubled.",
-    "shortEffect": "Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn."
-  },
-  "priority": 0
+    "_id": 268,
+    "key": "charge",
+    "name": {
+        "japanese-kana": "じゅうでん",
+        "korean": "충전",
+        "traditional-chinese": "充電",
+        "french": "Chargeur",
+        "german": "Ladevorgang",
+        "spanish": "Carga",
+        "italian": "Sottocarica",
+        "english": "Charge",
+        "japanese": "じゅうでん",
+        "simplified-chinese": "充电",
+        "latin-american-spanish": "Carga"
+    },
+    "type": "electric",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "dp": "N’augmente pas la Special Defense du lanceur."
+        },
+        "english": {
+            "dp": "Does not raise the user’s Special Defense."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "rs": "Charges power to boost the electric move used next.",
+            "em": "Charges power to boost the electric move used next.",
+            "frlg": "The user charges power to boost the ELECTRIC move it uses next.",
+            "dp": "The user boosts the power of the Electric move it uses next. It also raises the user’s Sp. Def stat.",
+            "pt": "The user boosts the power of the Electric move it uses next. It also raises the user’s Sp. Def stat.",
+            "hgss": "The user boosts the power of the Electric move it uses next. It also raises the user’s Sp. Def stat.",
+            "bw": "The user boosts the power of the Electric move it uses on the next turn. It also raises the user’s Sp. Def stat.",
+            "b2w2": "The user boosts the power of the Electric move it uses on the next turn. It also raises the user’s Sp. Def stat.",
+            "xy": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
+            "oras": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
+            "sm": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
+            "usum": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
+            "lgpe": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
+            "swsh": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
+            "la": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user's Sp. Def stat.",
+            "sv": "The user becomes charged, boosting the power of the next Electric-type move it uses. This also boosts the user's Sp. Def stat."
+        },
+        "french": {
+            "bw": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.",
+            "xy": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.",
+            "oras": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.",
+            "sm": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.",
+            "usum": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.",
+            "lgpe": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.",
+            "swsh": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "つぎの　ターンに　だす　でんきタイプの わざの　いりょくを　あげる。 じぶんの　とくぼうも　あがる。",
+            "oras": "つぎの　ターンに　だす　でんきタイプの わざの　いりょくを　あげる。 じぶんの　とくぼうも　あがる。",
+            "sm": "つぎの　ターンに　だす　でんきタイプの わざの　いりょくを　あげる。 じぶんの　とくぼうも　あがる。",
+            "usum": "つぎの　ターンに　だす　でんきタイプの わざの　いりょくを　あげる。 じぶんの　とくぼうも　あがる。",
+            "lgpe": "つぎの　ターンに　だす　でんきタイプの わざの　いりょくを　あげる。 じぶんの　とくぼうも　あがる。",
+            "swsh": "つぎの　ターンに　だす　でんきタイプの わざの　いりょくを　あげる。 じぶんの　とくぼうも　あがる。"
+        },
+        "korean": {
+            "xy": "다음 턴에 쓸 전기타입 기술의 위력을 올린다. 자신의 특수방어도 올라간다.",
+            "oras": "다음 턴에 쓸 전기타입 기술의 위력을 올린다. 자신의 특수방어도 올라간다.",
+            "sm": "다음 턴에 쓸 전기타입 기술의 위력을 올린다. 자신의 특수방어도 올라간다.",
+            "usum": "다음 턴에 쓸 전기타입 기술의 위력을 올린다. 자신의 특수방어도 올라간다.",
+            "lgpe": "다음 턴에 쓸 전기타입 기술의 위력을 올린다. 자신의 특수방어도 올라간다.",
+            "swsh": "다음 턴에 쓸 전기타입 기술의 위력을 올린다. 자신의 특수방어도 올라간다."
+        },
+        "german": {
+            "xy": "Lädt Energie für die kommende Elektro-Attacke auf. Erhöht die Spezial-Verteidigung.",
+            "oras": "Lädt Energie für die kommende Elektro-Attacke auf. Erhöht die Spezial-Verteidigung.",
+            "sm": "Hebt die Stärke für die kommende Elektro-Attacke an und erhöht die Spezial-Verteidigung.",
+            "usum": "Hebt die Stärke für die kommende Elektro-Attacke an und erhöht die Spezial-Verteidigung.",
+            "lgpe": "Hebt die Stärke für die kommende Elektro-Attacke an und erhöht die Spezial-Verteidigung.",
+            "swsh": "Hebt die Stärke für die kommende Elektro-Attacke an und erhöht die Spezial-Verteidigung."
+        },
+        "spanish": {
+            "xy": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "oras": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "sm": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "usum": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "lgpe": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "swsh": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial."
+        },
+        "italian": {
+            "xy": "Potenzia la mossa di tipo Elettro usata subito dopo. Aumenta anche la Difesa Speciale di chi la usa.",
+            "oras": "Potenzia la mossa di tipo Elettro usata subito dopo. Aumenta anche la Difesa Speciale di chi la usa.",
+            "sm": "Potenzia la mossa di tipo Elettro usata subito dopo. Aumenta anche la Difesa Speciale di chi la usa.",
+            "usum": "Potenzia la mossa di tipo Elettro usata subito dopo. Aumenta anche la Difesa Speciale di chi la usa.",
+            "lgpe": "Potenzia la mossa di tipo Elettro usata subito dopo. Aumenta anche la Difesa Speciale di chi la usa.",
+            "swsh": "Potenzia la mossa di tipo Elettro usata subito dopo. Aumenta anche la Difesa Speciale di chi la usa."
+        },
+        "japanese": {
+            "xy": "次の　ターンに　だす　でんきタイプの 技の　威力を　あげる。 自分の　特防も　あがる。",
+            "oras": "次の　ターンに　だす　でんきタイプの 技の　威力を　あげる。 自分の　特防も　あがる。",
+            "sm": "次の　ターンに　だす　でんきタイプの 技の　威力を　あげる。 自分の　特防も　あがる。",
+            "usum": "次の　ターンに　だす　でんきタイプの 技の　威力を　あげる。 自分の　特防も　あがる。",
+            "lgpe": "次の　ターンに　だす　でんきタイプの 技の　威力を　あげる。 自分の　特防も　あがる。",
+            "swsh": "次の　ターンに　だす　でんきタイプの 技の　威力を　あげる。 自分の　特防も　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "oras": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "sm": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "usum": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "lgpe": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+            "swsh": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial."
+        },
+        "traditional-chinese": {
+            "sm": "提高下一回合使出的 電屬性招式威力。 也會提高自己的特防。",
+            "usum": "提高下一回合使出的 電屬性招式威力。 也會提高自己的特防。",
+            "lgpe": "提高下一回合使出的 電屬性招式威力。 也會提高自己的特防。",
+            "swsh": "提高下一回合使出的 電屬性招式威力。 也會提高自己的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "提高下一回合使出的 电属性的招式威力。 自己的特防也会提高。",
+            "usum": "提高下一回合使出的 电属性的招式威力。 自己的特防也会提高。",
+            "lgpe": "提高下一回合使出的 电属性的招式威力。 自己的特防也会提高。",
+            "swsh": "提高下一回合使出的 电属性的招式威力。 自己的特防也会提高。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Special Defense by one stage.  If the user uses an Electric move next turn, its power will be doubled.",
+        "shortEffect": "Raises the user’s Special Defense by one stage.  User’s Electric moves have doubled power next turn."
+    }
 }

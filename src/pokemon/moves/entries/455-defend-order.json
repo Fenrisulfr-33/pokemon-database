@@ -1,42 +1,141 @@
 {
-  "_id": 455,
-  "key": "defend-order",
-  "name": {
-    "english": "Defend Order",
-    "japanese": "ぼうぎょしれい",
-    "chinese": "防御指令",
-    "korean": "방어지령",
-    "german": "A Defender",
-    "french": "Blockbefehl",
-    "italian": "Defend Order",
-    "spanish": "Comandoscudo"
-  },
-  "type": "Bug",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user calls out\nits underlings to\nmake a living shield,\nraising its Defense\nand Sp. Def stats.",
-    "platinum": "The user calls out\nits underlings to\nshield its body,\nraising its Defense\nand Sp. Def stats.",
-    "heartgold-soulsilver": "The user calls out\nits underlings to\nshield its body,\nraising its Defense\nand Sp. Def stats.",
-    "black-white": "The user calls out its underlings to\nshield its body, raising its Defense\nand Sp. Def stats.",
-    "black-2-white-2": "The user calls out its underlings to\nshield its body, raising its Defense\nand Sp. Def stats.",
-    "x-y": "The user calls out its underlings to\nshield its body, raising its Defense\nand Sp. Def stats.",
-    "omega-ruby-alpha-sapphire": "The user calls out its underlings to\nshield its body, raising its Defense\nand Sp. Def stats.",
-    "sun-moon": "The user calls out its underlings to shield its body,\nraising its Defense and Sp. Def stats.",
-    "ultra-sun-ultra-moon": "The user calls out its underlings to shield its body,\nraising its Defense and Sp. Def stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user calls out its underlings to shield its body,\nraising its Defense and Sp. Def stats.",
-    "sword-shield": "The user calls out its underlings to shield its body,\nraising its Defense and Sp. Def stats."
-  },
-  "effect": {
-    "full": "Raises the user's Defense and Special Defense by one stage.",
-    "shortEffect": "Raises the user's Defense and Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 455,
+    "key": "defend-order",
+    "name": {
+        "japanese-kana": "ぼうぎょしれい",
+        "korean": "방어지령",
+        "traditional-chinese": "防禦指令",
+        "french": "Appel Défense",
+        "german": "Blockbefehl",
+        "spanish": "A Defender",
+        "italian": "Comandoscudo",
+        "english": "Defend Order",
+        "japanese": "ぼうぎょしれい",
+        "simplified-chinese": "防御指令",
+        "latin-american-spanish": "A Defender"
+    },
+    "type": "bug",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user calls out its underlings to make a living shield, raising its Defense and Sp. Def stats.",
+            "pt": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "hgss": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "bw": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "b2w2": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "xy": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "oras": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "sm": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "usum": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "lgpe": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "swsh": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "la": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+            "sv": "The user calls out its underlings to shield its body, boosting its Defense and Sp. Def stats."
+        },
+        "french": {
+            "bw": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.",
+            "xy": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.",
+            "oras": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.",
+            "sm": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.",
+            "usum": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.",
+            "lgpe": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.",
+            "swsh": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale."
+        },
+        "japanese-kana": {
+            "xy": "しもべを　よびだして　じぶんの　からだに おおい　つかせる。ぼうぎょと　とくぼうを あげることが　できる。",
+            "oras": "しもべを　よびだして　じぶんの　からだに おおい　つかせる。ぼうぎょと　とくぼうを あげることが　できる。",
+            "sm": "しもべを　よびだして　じぶんの　からだに おおい　つかせる。ぼうぎょと　とくぼうを あげることが　できる。",
+            "usum": "しもべを　よびだして　じぶんの　からだに おおい　つかせる。ぼうぎょと　とくぼうを あげることが　できる。",
+            "lgpe": "しもべを　よびだして　じぶんの　からだに おおい　つかせる。ぼうぎょと　とくぼうを あげることが　できる。",
+            "swsh": "しもべを　よびだして　じぶんの　からだに おおい　つかせる。ぼうぎょと　とくぼうを あげることが　できる。"
+        },
+        "korean": {
+            "xy": "부하를 불러내어 자신의 몸을 뒤덮게 한다. 방어와 특수방어를 올릴 수 있다.",
+            "oras": "부하를 불러내어 자신의 몸을 뒤덮게 한다. 방어와 특수방어를 올릴 수 있다.",
+            "sm": "부하를 불러내어 자신의 몸을 뒤덮게 한다. 방어와 특수방어를 올릴 수 있다.",
+            "usum": "부하를 불러내어 자신의 몸을 뒤덮게 한다. 방어와 특수방어를 올릴 수 있다.",
+            "lgpe": "부하를 불러내어 자신의 몸을 뒤덮게 한다. 방어와 특수방어를 올릴 수 있다.",
+            "swsh": "부하를 불러내어 자신의 몸을 뒤덮게 한다. 방어와 특수방어를 올릴 수 있다."
+        },
+        "german": {
+            "xy": "Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.",
+            "oras": "Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.",
+            "sm": "Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.",
+            "usum": "Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.",
+            "lgpe": "Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.",
+            "swsh": "Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung."
+        },
+        "spanish": {
+            "xy": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "oras": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "sm": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "usum": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "lgpe": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "swsh": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial."
+        },
+        "italian": {
+            "xy": "Chi la usa raduna i suoi sgherri per creare uno scudo, aumentando Difesa e Difesa Speciale.",
+            "oras": "Chi la usa raduna i suoi sgherri per creare uno scudo, aumentando Difesa e Difesa Speciale.",
+            "sm": "Chi la usa raduna i suoi sgherri per creare uno scudo, aumentando Difesa e Difesa Speciale.",
+            "usum": "Chi la usa raduna i suoi sgherri per creare uno scudo, aumentando Difesa e Difesa Speciale.",
+            "lgpe": "Chi la usa raduna i suoi sgherri per creare uno scudo, aumentando Difesa e Difesa Speciale.",
+            "swsh": "Chi la usa raduna i suoi sgherri per creare uno scudo, aumentando Difesa e Difesa Speciale."
+        },
+        "japanese": {
+            "xy": "しもべを　呼びだして　自分の　体に おおい　つかせる。防御と　特防を あげることが　できる。",
+            "oras": "しもべを　呼びだして　自分の　体に おおい　つかせる。防御と　特防を あげることが　できる。",
+            "sm": "しもべを　呼びだして　自分の　体に おおい　つかせる。防御と　特防を あげることが　できる。",
+            "usum": "しもべを　呼びだして　自分の　体に おおい　つかせる。防御と　特防を あげることが　できる。",
+            "lgpe": "しもべを　呼びだして　自分の　体に おおい　つかせる。防御と　特防を あげることが　できる。",
+            "swsh": "しもべを　呼びだして　自分の　体に おおい　つかせる。防御と　特防を あげることが　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "oras": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "sm": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "usum": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "lgpe": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+            "swsh": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial."
+        },
+        "traditional-chinese": {
+            "sm": "呼喚手下，覆蓋住自己的身體。 可提高自己的防禦和特防。",
+            "usum": "呼喚手下，覆蓋住自己的身體。 可提高自己的防禦和特防。",
+            "lgpe": "呼喚手下，覆蓋住自己的身體。 可提高自己的防禦和特防。",
+            "swsh": "呼喚手下，覆蓋住自己的身體。 可提高自己的防禦和特防。"
+        },
+        "simplified-chinese": {
+            "sm": "召唤手下， 让其附在自己的身体上。 可以提高自己的防御和特防。",
+            "usum": "召唤手下， 让其附在自己的身体上。 可以提高自己的防御和特防。",
+            "lgpe": "召唤手下， 让其附在自己的身体上。 可以提高自己的防御和特防。",
+            "swsh": "召唤手下， 让其附在自己的身体上。 可以提高自己的防御和特防。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Defense and Special Defense by one stage.",
+        "shortEffect": "Raises the user’s Defense and Special Defense by one stage."
+    }
 }

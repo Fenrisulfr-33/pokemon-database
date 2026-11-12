@@ -1,45 +1,144 @@
 {
-  "_id": 271,
-  "key": "trick",
-  "name": {
-    "english": "Trick",
-    "japanese": "トリック",
-    "chinese": "骗术",
-    "korean": "트릭",
-    "german": "Truco",
-    "french": "Trickbetrug",
-    "italian": "Trick",
-    "spanish": "Raggiro"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Tricks the foe into trading\nheld items.",
-    "emerald": "Tricks the foe into trading\nheld items.",
-    "firered-leafgreen": "A move that tricks\nthe foe into\ntrading held items\nwith the user.",
-    "diamond-pearl": "The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n",
-    "platinum": "The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n",
-    "heartgold-soulsilver": "The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n",
-    "black-white": "The user catches the target off guard\nand swaps its held item with its own.",
-    "black-2-white-2": "The user catches the target off guard\nand swaps its held item with its own.",
-    "x-y": "The user catches the target off guard\nand swaps its held item with its own.",
-    "omega-ruby-alpha-sapphire": "The user catches the target off guard\nand swaps its held item with its own.",
-    "sun-moon": "The user catches the target off guard and swaps its\nheld item with its own.",
-    "ultra-sun-ultra-moon": "The user catches the target off guard and swaps its\nheld item with its own.",
-    "lets-go-pikachu-lets-go-eevee": "The user catches the target off guard and swaps its\nheld item with its own.",
-    "sword-shield": "The user catches the target off guard and swaps its\nheld item with its own."
-  },
-  "effect": {
-    "full": "User and target permanently swap held items.  Works even if one of the Pokémon isn't holding anything.  If either Pokémon is holding mail, this move will fail.\n\nIf either Pokémon has multitype or sticky hold, this move will fail.\n\nIf this move results in a Pokémon obtaining choice band, choice scarf, or choice specs, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn.\n\nNeither the user nor the target can recover its item with recycle.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "User and target swap items."
-  },
-  "priority": 0
+    "_id": 271,
+    "key": "trick",
+    "name": {
+        "japanese-kana": "トリック",
+        "korean": "트릭",
+        "traditional-chinese": "戲法",
+        "french": "Tour de Magie",
+        "german": "Trickbetrug",
+        "spanish": "Truco",
+        "italian": "Raggiro",
+        "english": "Trick",
+        "japanese": "トリック",
+        "simplified-chinese": "戏法",
+        "latin-american-spanish": "Truco"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "smart",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Tricks the foe into trading held items.",
+            "em": "Tricks the foe into trading held items.",
+            "frlg": "A move that tricks the foe into trading held items with the user.",
+            "dp": "The user catches the foe off guard and swaps the foe’s held item with its own.",
+            "pt": "The user catches the foe off guard and swaps the foe’s held item with its own.",
+            "hgss": "The user catches the foe off guard and swaps the foe’s held item with its own.",
+            "bw": "The user catches the target off guard and swaps its held item with its own.",
+            "b2w2": "The user catches the target off guard and swaps its held item with its own.",
+            "xy": "The user catches the target off guard and swaps its held item with its own.",
+            "oras": "The user catches the target off guard and swaps its held item with its own.",
+            "sm": "The user catches the target off guard and swaps its held item with its own.",
+            "usum": "The user catches the target off guard and swaps its held item with its own.",
+            "lgpe": "The user catches the target off guard and swaps its held item with its own.",
+            "swsh": "The user catches the target off guard and swaps its held item with its own.",
+            "la": "The user catches the target off guard and swaps its held item with its own.",
+            "sv": "The user catches the target off guard and swaps the target's held item with its own."
+        },
+        "french": {
+            "bw": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.",
+            "xy": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.",
+            "oras": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.",
+            "sm": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.",
+            "usum": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.",
+            "lgpe": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.",
+            "swsh": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien."
+        },
+        "japanese-kana": {
+            "xy": "あいての　すきを　ついて じぶんと　あいての もちものを　こうかんする。",
+            "oras": "あいての　すきを　ついて じぶんと　あいての もちものを　こうかんする。",
+            "sm": "あいての　すきを　ついて じぶんと　あいての もちものを　こうかんする。",
+            "usum": "あいての　すきを　ついて じぶんと　あいての もちものを　こうかんする。",
+            "lgpe": "あいての　すきを　ついて じぶんと　あいての もちものを　こうかんする。",
+            "swsh": "あいての　すきを　ついて じぶんと　あいての もちものを　こうかんする。"
+        },
+        "korean": {
+            "xy": "상대의 빈틈을 노려 자신과 상대가 지닌 물건을 교환한다.",
+            "oras": "상대의 빈틈을 노려 자신과 상대가 지닌 물건을 교환한다.",
+            "sm": "상대의 빈틈을 노려 자신과 상대가 지닌 물건을 교환한다.",
+            "usum": "상대의 빈틈을 노려 자신과 상대가 지닌 물건을 교환한다.",
+            "lgpe": "상대의 빈틈을 노려 자신과 상대가 지닌 물건을 교환한다.",
+            "swsh": "상대의 빈틈을 노려 자신과 상대가 지닌 물건을 바꿔치기한다."
+        },
+        "german": {
+            "xy": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items.",
+            "oras": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items.",
+            "sm": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items.",
+            "usum": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items.",
+            "lgpe": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items.",
+            "swsh": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items."
+        },
+        "spanish": {
+            "xy": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "oras": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "sm": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "usum": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "lgpe": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "swsh": "Engaña al objetivo desprevenido e intercambia objetos."
+        },
+        "italian": {
+            "xy": "Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.",
+            "oras": "Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.",
+            "sm": "Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.",
+            "usum": "Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.",
+            "lgpe": "Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.",
+            "swsh": "Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio."
+        },
+        "japanese": {
+            "xy": "相手の　すきを　ついて 自分と　相手の 持ち物を　交換する。",
+            "oras": "相手の　すきを　ついて 自分と　相手の 持ち物を　交換する。",
+            "sm": "相手の　すきを　ついて 自分と　相手の 持ち物を　交換する。",
+            "usum": "相手の　すきを　ついて 自分と　相手の 持ち物を　交換する。",
+            "lgpe": "相手の　すきを　ついて 自分と　相手の 持ち物を　交換する。",
+            "swsh": "相手の　すきを　ついて 自分と　相手の 持ち物を　交換する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "oras": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "sm": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "usum": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "lgpe": "Engaña al objetivo desprevenido e intercambia objetos.",
+            "swsh": "Engaña al objetivo desprevenido e intercambia objetos."
+        },
+        "traditional-chinese": {
+            "sm": "在對手露出空隙時， 趁機交換自己和對手的持有物。",
+            "usum": "在對手露出空隙時， 趁機交換自己和對手的持有物。",
+            "lgpe": "在對手露出空隙時， 趁機交換自己和對手的持有物。",
+            "swsh": "在對手露出空隙時， 趁機交換自己和對手的持有物。"
+        },
+        "simplified-chinese": {
+            "sm": "抓住对手的空隙， 交换自己和对手的持有物。",
+            "usum": "抓住对手的空隙， 交换自己和对手的持有物。",
+            "lgpe": "抓住对手的空隙， 交换自己和对手的持有物。",
+            "swsh": "抓住对手的空隙， 交换自己和对手的持有物。"
+        }
+    },
+    "effect": {
+        "full": "User and target permanently swap held items.  Works even if one of the Pokémon isn’t holding anything.  If either Pokémon is holding mail, this move will fail. If either Pokémon has Multitype or Sticky Hold, this move will fail. If this move results in a Pokémon obtaining Choice Band, Choice Scarf, or Choice Specs, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn. Neither the user nor the target can recover its item with Recycle. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "User and target swap items."
+    }
 }

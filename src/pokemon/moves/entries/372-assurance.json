@@ -1,42 +1,145 @@
 {
-  "_id": 372,
-  "key": "assurance",
-  "name": {
-    "english": "Assurance",
-    "japanese": "ダメおし",
-    "chinese": "再三嘱咐‎",
-    "korean": "승부굳히기",
-    "german": "Buena Baza",
-    "french": "Gewissheit",
-    "italian": "Assurance",
-    "spanish": "Garanzia"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "If the foe has\nalready taken some\ndamage in the same\nturn, this attack’s\npower is doubled.",
-    "platinum": "If the foe has\nalready taken some\ndamage in the same\nturn, this attack’s\npower is doubled.",
-    "heartgold-soulsilver": "If the foe has\nalready taken some\ndamage in the same\nturn, this attack’s\npower is doubled.",
-    "black-white": "If the target has already taken some\ndamage in the same turn, this attack’s\npower is doubled.",
-    "black-2-white-2": "If the target has already taken some\ndamage in the same turn, this attack’s\npower is doubled.",
-    "x-y": "If the target has already taken some\ndamage in the same turn, this attack’s\npower is doubled.",
-    "omega-ruby-alpha-sapphire": "If the target has already taken some\ndamage in the same turn, this attack’s\npower is doubled.",
-    "sun-moon": "If the target has already taken some damage in the\nsame turn, this attack’s power is doubled.",
-    "ultra-sun-ultra-moon": "If the target has already taken some damage in the\nsame turn, this attack’s power is doubled.",
-    "lets-go-pikachu-lets-go-eevee": "If the target has already taken some damage in the\nsame turn, this attack’s power is doubled.",
-    "sword-shield": "If the target has already taken some damage in the\nsame turn, this attack’s power is doubled."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target takes damage this turn for any reason before this move is used, this move has double power.",
-    "shortEffect": "Power is doubled if the target has already received damage this turn."
-  },
-  "priority": 0
+    "_id": 372,
+    "key": "assurance",
+    "name": {
+        "japanese-kana": "ダメおし",
+        "korean": "승부굳히기",
+        "traditional-chinese": "惡意追擊",
+        "french": "Assurance",
+        "german": "Gewissheit",
+        "spanish": "Buena Baza",
+        "italian": "Garanzia",
+        "english": "Assurance",
+        "japanese": "ダメおし",
+        "simplified-chinese": "恶意追击",
+        "latin-american-spanish": "Garantía"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 50
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "If the foe has already taken some damage in the same turn, this attack’s power is doubled.",
+            "pt": "If the foe has already taken some damage in the same turn, this attack’s power is doubled.",
+            "hgss": "If the foe has already taken some damage in the same turn, this attack’s power is doubled.",
+            "bw": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "b2w2": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "xy": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "oras": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "sm": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "usum": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "lgpe": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "swsh": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+            "la": "If the target has already taken some damage in the same turn, this attack's power is doubled.",
+            "sv": "This move's power is doubled if the target has already taken some damage in the same turn."
+        },
+        "french": {
+            "bw": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.",
+            "xy": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.",
+            "oras": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.",
+            "sm": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.",
+            "usum": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.",
+            "lgpe": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.",
+            "swsh": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour."
+        },
+        "japanese-kana": {
+            "xy": "そのターンに　あいてが すでに　ダメージを　うけて　いたら わざの　いりょくは　２ばいに　なる。",
+            "oras": "そのターンに　あいてが すでに　ダメージを　うけて　いたら わざの　いりょくは　２ばいに　なる。",
+            "sm": "そのターンに　あいてが すでに　ダメージを　うけて　いたら わざの　いりょくは　２ばいに　なる。",
+            "usum": "そのターンに　あいてが すでに　ダメージを　うけて　いたら わざの　いりょくは　２ばいに　なる。",
+            "lgpe": "そのターンに　あいてが すでに　ダメージを　うけて　いたら わざの　いりょくは　２ばいに　なる。",
+            "swsh": "そのターンに　あいてが すでに　ダメージを　うけて　いたら わざの　いりょくは　２ばいに　なる。"
+        },
+        "korean": {
+            "xy": "그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.",
+            "oras": "그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.",
+            "sm": "그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.",
+            "usum": "그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.",
+            "lgpe": "그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.",
+            "swsh": "그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다."
+        },
+        "german": {
+            "xy": "Hat das Ziel während der Runde schon Schaden genommen, wird die Kraft der Attacke verdoppelt.",
+            "oras": "Hat das Ziel während der Runde schon Schaden genommen, wird die Kraft der Attacke verdoppelt.",
+            "sm": "Hat das Ziel während der Runde schon Schaden genommen, wird die Stärke der Attacke verdoppelt.",
+            "usum": "Hat das Ziel während der Runde schon Schaden genommen, wird die Stärke der Attacke verdoppelt.",
+            "lgpe": "Hat das Ziel während der Runde schon Schaden genommen, wird die Stärke der Attacke verdoppelt.",
+            "swsh": "Hat das Ziel während der Runde schon Schaden genommen, wird die Stärke der Attacke verdoppelt."
+        },
+        "spanish": {
+            "xy": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "oras": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "sm": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "usum": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "lgpe": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "swsh": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+        },
+        "italian": {
+            "xy": "Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia.",
+            "oras": "Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia.",
+            "sm": "Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia.",
+            "usum": "Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia.",
+            "lgpe": "Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia.",
+            "swsh": "Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia."
+        },
+        "japanese": {
+            "xy": "そのターンに　相手が すでに　ダメージを　受けていたら 技の　威力は　２倍に　なる。",
+            "oras": "そのターンに　相手が すでに　ダメージを　受けていたら 技の　威力は　２倍に　なる。",
+            "sm": "そのターンに　相手が すでに　ダメージを　受けていたら 技の　威力は　２倍に　なる。",
+            "usum": "そのターンに　相手が すでに　ダメージを　受けていたら 技の　威力は　２倍に　なる。",
+            "lgpe": "そのターンに　相手が すでに　ダメージを　受けていたら 技の　威力は　２倍に　なる。",
+            "swsh": "そのターンに　相手が すでに　ダメージを　受けていたら 技の　威力は　２倍に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "oras": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "sm": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "usum": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "lgpe": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+            "swsh": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+        },
+        "traditional-chinese": {
+            "sm": "如果此回合內對手 已受到傷害， 招式威力會變成２倍。",
+            "usum": "如果此回合內對手 已受到傷害， 招式威力會變成２倍。",
+            "lgpe": "如果此回合內對手 已受到傷害， 招式威力會變成２倍。",
+            "swsh": "如果此回合內對手 已受到傷害， 招式威力會變成２倍。"
+        },
+        "simplified-chinese": {
+            "sm": "如果此回合内对手 已经受到伤害的话， 招式威力会变成２倍。",
+            "usum": "如果此回合内对手 已经受到伤害的话， 招式威力会变成２倍。",
+            "lgpe": "如果此回合内对手 已经受到伤害的话， 招式威力会变成２倍。",
+            "swsh": "如果此回合内对手 已经受到伤害的话， 招式威力会变成２倍。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target takes damage this turn for any reason before this move is used, this move has double power.",
+        "shortEffect": "Power is doubled if the target has already received damage this turn."
+    }
 }

@@ -1,37 +1,135 @@
 {
-  "_id": 604,
-  "key": "electric-terrain",
-  "name": {
-    "english": "Electric Terrain",
-    "japanese": "エレキフィールド",
-    "chinese": "電氣場地",
-    "korean": "일렉트릭필드",
-    "german": "Campo Eléctrico",
-    "french": "Elektrofeld",
-    "italian": "Electric Terrain",
-    "spanish": "Campo Elettrico"
-  },
-  "type": "Electric",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 6,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "x-y": "The user electrifies the ground under\neveryone’s feet for five turns.\nPokémon on the ground no longer fall asleep.",
-    "omega-ruby-alpha-sapphire": "The user electrifies the ground under\neveryone’s feet for five turns.\nPokémon on the ground no longer fall asleep.",
-    "sun-moon": "The user electrifies the ground for five turns,\npowering up Electric-type moves. Pokémon on the\nground no longer fall asleep.",
-    "ultra-sun-ultra-moon": "The user electrifies the ground for five turns,\npowering up Electric-type moves. Pokémon on the\nground no longer fall asleep.",
-    "lets-go-pikachu-lets-go-eevee": "The user electrifies the ground for five turns,\npowering up Electric-type moves. Pokémon on the\nground no longer fall asleep.",
-    "sword-shield": "The user electrifies the ground for five turns,\npowering up Electric-type moves. Pokémon on the\nground no longer fall asleep."
-  },
-  "effect": {
-    "full": "For five turns, prevents all Pokémon on the ground from sleeping and strengthens their electric moves to 1.5× their power.\n\nChanges nature power to thunderbolt.",
-    "shortEffect": "For five turns, prevents all Pokémon on the ground from sleeping and strengthens their electric moves to 1.5× their power."
-  },
-  "priority": 0
+    "_id": 604,
+    "key": "electric-terrain",
+    "name": {
+        "japanese-kana": "エレキフィールド",
+        "korean": "일렉트릭필드",
+        "traditional-chinese": "電氣場地",
+        "french": "Champ Électrifié",
+        "german": "Elektrofeld",
+        "spanish": "Campo Eléctrico",
+        "italian": "Campo Elettrico",
+        "english": "Electric Terrain",
+        "japanese": "エレキフィールド",
+        "simplified-chinese": "电气场地",
+        "latin-american-spanish": "Campo Eléctrico"
+    },
+    "type": "electric",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　あしもとを エレキフィールドにする。　じめんにいる ポケモンは　ねむらなくなる。",
+            "oras": "５ターンの　あいだ　あしもとを エレキフィールドにする。　じめんにいる ポケモンは　ねむらなくなる。",
+            "sm": "５ターンのあいだ　エレキフィールドにする。 じめんにいる　ポケモンは　ねむらない。 でんきタイプの　いりょくが　あがる。",
+            "usum": "５ターンのあいだ　エレキフィールドにする。 じめんにいる　ポケモンは　ねむらない。 でんきタイプの　いりょくが　あがる。",
+            "lgpe": "５ターンのあいだ　エレキフィールドにする。 じめんにいる　ポケモンは　ねむらない。 でんきタイプの　いりょくが　あがる。",
+            "swsh": "５ターンのあいだ　エレキフィールドにする。 じめんにいる　ポケモンは　ねむらない。 でんきタイプの　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 발밑을 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않게 된다.",
+            "oras": "5턴 동안 발밑을 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않게 된다.",
+            "sm": "5턴 동안 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않는다. 전기타입의 위력이 올라간다.",
+            "usum": "5턴 동안 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않는다. 전기타입의 위력이 올라간다.",
+            "lgpe": "5턴 동안 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않는다. 전기타입의 위력이 올라간다.",
+            "swsh": "5턴 동안 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않는다. 전기타입의 위력이 올라간다."
+        },
+        "french": {
+            "xy": "Pendant cinq tours, le terrain aux pieds du lanceur se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir.",
+            "oras": "Pendant cinq tours, le terrain aux pieds du lanceur se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir.",
+            "sm": "Pendant cinq tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance des capacités de type Électrik augmente.",
+            "usum": "Pendant cinq tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance des capacités de type Électrik augmente.",
+            "lgpe": "Pendant cinq tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance des capacités de type Électrik augmente.",
+            "swsh": "Pendant cinq tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance des capacités de type Électrik augmente."
+        },
+        "german": {
+            "xy": "Verwandelt den Untergrund fünf Runden lang in ein Elektrofeld und hindert alle Pokémon, die den Boden berühren, am Einschlafen.",
+            "oras": "Verwandelt den Untergrund fünf Runden lang in ein Elektrofeld und hindert alle Pokémon, die den Boden berühren, am Einschlafen.",
+            "sm": "Hindert fünf Runden lang alle Pokémon, die den Boden berühren, am Einschlafen. Erhöht die Stärke von Elektro-Attacken.",
+            "usum": "Hindert fünf Runden lang alle Pokémon, die den Boden berühren, am Einschlafen. Erhöht die Stärke von Elektro-Attacken.",
+            "lgpe": "Hindert fünf Runden lang alle Pokémon, die den Boden berühren, am Einschlafen. Erhöht die Stärke von Elektro-Attacken.",
+            "swsh": "Hindert fünf Runden lang alle Pokémon, die den Boden berühren, am Einschlafen. Erhöht die Stärke von Elektro-Attacken."
+        },
+        "spanish": {
+            "xy": "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo.",
+            "oras": "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo.",
+            "sm": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos.",
+            "usum": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos.",
+            "lgpe": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos.",
+            "swsh": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos."
+        },
+        "italian": {
+            "xy": "Per cinque turni trasforma il terreno di lotta in un campo elettrico, impedendo ai Pokémon a terra di addormentarsi.",
+            "oras": "Per cinque turni trasforma il terreno di lotta in un campo elettrico, impedendo ai Pokémon a terra di addormentarsi.",
+            "sm": "Per cinque turni il terreno entra nello stato di Campo Elettrico: i Pokémon a terra non si addormentano e la potenza delle mosse di tipo Elettro aumenta.",
+            "usum": "Per cinque turni il terreno entra nello stato di Campo Elettrico: i Pokémon a terra non si addormentano e la potenza delle mosse di tipo Elettro aumenta.",
+            "lgpe": "Per cinque turni il terreno entra nello stato di Campo Elettrico: i Pokémon a terra non si addormentano e la potenza delle mosse di tipo Elettro aumenta.",
+            "swsh": "Per cinque turni il terreno entra nello stato di Campo Elettrico: i Pokémon a terra non si addormentano e la potenza delle mosse di tipo Elettro aumenta."
+        },
+        "english": {
+            "xy": "The user electrifies the ground under everyone’s feet for five turns. Pokémon on the ground no longer fall asleep.",
+            "oras": "The user electrifies the ground under everyone’s feet for five turns. Pokémon on the ground no longer fall asleep.",
+            "sm": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.",
+            "usum": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.",
+            "lgpe": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.",
+            "swsh": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.",
+            "la": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.",
+            "sv": "The user turns the ground into Electric Terrain for five turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　足元を エレキフィールドにする。地面にいる ポケモンは　眠らなくなる。",
+            "oras": "５ターンの　あいだ　足元を エレキフィールドにする。地面にいる ポケモンは　眠らなくなる。",
+            "sm": "５ターンの　間　エレキフィールドにする。 地面にいる　ポケモンは　眠らない。 でんきタイプの　威力が　あがる。",
+            "usum": "５ターンの　間　エレキフィールドにする。 地面にいる　ポケモンは　眠らない。 でんきタイプの　威力が　あがる。",
+            "lgpe": "５ターンの　間　エレキフィールドにする。 地面にいる　ポケモンは　眠らない。 でんきタイプの　威力が　あがる。",
+            "swsh": "５ターンの　間　エレキフィールドにする。 地面にいる　ポケモンは　眠らない。 でんきタイプの　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo.",
+            "oras": "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo.",
+            "sm": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos.",
+            "usum": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos.",
+            "lgpe": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos.",
+            "swsh": "Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內將腳下變成電氣場地。 地面上的寶可夢將不會陷入睡眠狀態。 電屬性招式的威力會提高。",
+            "usum": "在５回合內將腳下變成電氣場地。 地面上的寶可夢將不會陷入睡眠狀態。 電屬性招式的威力會提高。",
+            "lgpe": "在５回合內將腳下變成電氣場地。 地面上的寶可夢將不會陷入睡眠狀態。 電屬性招式的威力會提高。",
+            "swsh": "在５回合內將腳下變成電氣場地。 地面上的寶可夢將不會陷入睡眠狀態。 電屬性招式的威力會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内变成电气场地。 地面上的宝可梦将无法入眠。 电属性的招式威力还会提高。",
+            "usum": "在５回合内变成电气场地。 地面上的宝可梦将无法入眠。 电属性的招式威力还会提高。",
+            "lgpe": "在５回合内变成电气场地。 地面上的宝可梦将无法入眠。 电属性的招式威力还会提高。",
+            "swsh": "在５回合内变成电气场地。 地面上的宝可梦将无法入眠。 电属性的招式威力还会提高。"
+        }
+    },
+    "effect": {
+        "full": "For five turns, prevents all Pokémon on the ground from sleeping and strengthens their Electric moves to 1.5× their power. Changes Nature Power to Thunderbolt.",
+        "shortEffect": "For five turns, prevents all Pokémon on the ground from sleeping and strengthens their Electric moves to 1.5× their power."
+    }
 }

@@ -1,29 +1,84 @@
 {
-  "_id": 776,
-  "key": "body-press",
-  "name": {
-    "english": "Body Press",
-    "japanese": "ボディプレス",
-    "chinese": "撲擊",
-    "korean": "바디프레스",
-    "german": "Plancha Corporal",
-    "french": "Body Press",
-    "italian": "Body Press",
-    "spanish": "Schiacciacorpo"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user attacks by slamming its body into the target.\nThe higher the user’s Defense, the more damage it can\ninflict on the target."
-  },
-  "effect": {},
-  "priority": 0
+    "_id": 776,
+    "key": "body-press",
+    "name": {
+        "japanese-kana": "ボディプレス",
+        "korean": "바디프레스",
+        "traditional-chinese": "撲擊",
+        "french": "Big Splash",
+        "german": "Body Press",
+        "spanish": "Plancha Corporal",
+        "italian": "Schiacciacorpo",
+        "english": "Body Press",
+        "japanese": "ボディプレス",
+        "simplified-chinese": "扑击",
+        "latin-american-spanish": "Plancha Corporal"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "からだを　ぶつけて　こうげき。 ぼうぎょが　たかいほど あたえる　ダメージが　ふえる。"
+        },
+        "korean": {
+            "swsh": "몸을 부딪쳐서 공격한다. 방어가 높을수록 주는 데미지가 올라간다."
+        },
+        "traditional-chinese": {
+            "swsh": "用身體撞向對手進行攻擊。 自己的防禦越高， 給予對手的傷害越大。"
+        },
+        "french": {
+            "swsh": "Le lanceur utilise son corps pour attaquer sa cible. Plus la Défense du lanceur est élevée, plus les dégâts infligés sont importants."
+        },
+        "german": {
+            "swsh": "Der Anwender greift mit seinem ganzen Körper an. Je höher seine Verteidigung ist, desto mehr Schaden richtet er an."
+        },
+        "spanish": {
+            "swsh": "El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcional a su Defensa."
+        },
+        "italian": {
+            "swsh": "Chi la usa schiaccia il bersaglio con il suo corpo. Più la sua Difesa è alta, maggiori sono i danni inflitti."
+        },
+        "english": {
+            "swsh": "The user attacks by slamming its body into the target. The higher the user’s Defense, the more damage it can inflict on the target.",
+            "la": "The user attacks by slamming its body into the target. The higher the user's Defense, the more damage it can inflict on the target.",
+            "sv": "The user attacks by slamming its body into the target. The higher the user's Defense stat, the greater the damage this move deals."
+        },
+        "japanese": {
+            "swsh": "体を　ぶつけて　攻撃。 防御が　高いほど 与える　ダメージが　増える。"
+        },
+        "simplified-chinese": {
+            "swsh": "用身体撞向对手进行攻击。 防御越高， 给予的伤害就越高。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcional a su Defensa."
+        }
+    },
+    "effect": {
+        "full": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "shortEffect": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes."
+    }
 }

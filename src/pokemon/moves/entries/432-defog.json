@@ -1,42 +1,141 @@
 {
-  "_id": 432,
-  "key": "defog",
-  "name": {
-    "english": "Defog",
-    "japanese": "きりばらい",
-    "chinese": "清除浓雾",
-    "korean": "안개제거",
-    "german": "Despejar",
-    "french": "Auflockern",
-    "italian": "Defog",
-    "spanish": "Scacciabruma"
-  },
-  "type": "Flying",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "Obstacles are moved,\nreducing the foe’s\nevasion stat. It can\nalso be used to\nclear deep fog, etc.",
-    "platinum": "Obstacles are moved,\nreducing the foe’s\nevasion stat. It can\nalso be used to\nclear deep fog, etc.",
-    "heartgold-soulsilver": "It reduces the foe’s\nevasion stat. It also\nremoves spikes,\nlight screens, etc.",
-    "black-white": "A strong wind blows away the target’s\nobstacles such as Reflect or Light Screen.\nIt also lowers the target’s evasiveness.",
-    "black-2-white-2": "A strong wind blows away the target’s\nobstacles such as Reflect or Light Screen.\nIt also lowers the target’s evasiveness.",
-    "x-y": "A strong wind blows away the target’s\nbarriers such as Reflect or Light Screen.\nThis also lowers the target’s evasiveness.",
-    "omega-ruby-alpha-sapphire": "A strong wind blows away the target’s\nbarriers such as Reflect or Light Screen.\nThis also lowers the target’s evasiveness.",
-    "sun-moon": "A strong wind blows away the target’s barriers such\nas Reflect or Light Screen. This also lowers the\ntarget’s evasiveness.",
-    "ultra-sun-ultra-moon": "A strong wind blows away the target’s barriers such\nas Reflect or Light Screen. This also lowers the\ntarget’s evasiveness.",
-    "lets-go-pikachu-lets-go-eevee": "A strong wind blows away the target’s barriers such\nas Reflect or Light Screen. This also lowers the\ntarget’s evasiveness.",
-    "sword-shield": "A strong wind blows away the target’s barriers such\nas Reflect or Light Screen. This also lowers the\ntarget’s evasiveness."
-  },
-  "effect": {
-    "full": "Lowers the target's evasion by one stage.  Clears away fog.  Removes the effects of mist, light screen, reflect, safeguard, spikes, stealth rock, and toxic spikes from the target's side of the field.\n\nIf the target is protected by mist, it will prevent the evasion change, then be removed by this move.",
-    "shortEffect": "Lowers the target's evasion by one stage.  Removes field effects from the enemy field."
-  },
-  "priority": 0
+    "_id": 432,
+    "key": "defog",
+    "name": {
+        "japanese-kana": "きりばらい",
+        "korean": "안개제거",
+        "traditional-chinese": "清除濃霧",
+        "french": "Anti-Brume",
+        "german": "Auflockern",
+        "spanish": "Despejar",
+        "italian": "Scacciabruma",
+        "english": "Defog",
+        "japanese": "きりばらい",
+        "simplified-chinese": "清除浓雾",
+        "latin-american-spanish": "Desempañar"
+    },
+    "type": "flying",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog, etc.",
+            "pt": "Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog, etc.",
+            "hgss": "It reduces the foe’s evasion stat. It also removes spikes, light screens, etc.",
+            "bw": "A strong wind blows away the target’s obstacles such as Reflect or Light Screen. It also lowers the target’s evasiveness.",
+            "b2w2": "A strong wind blows away the target’s obstacles such as Reflect or Light Screen. It also lowers the target’s evasiveness.",
+            "xy": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
+            "oras": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
+            "sm": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
+            "usum": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
+            "lgpe": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
+            "swsh": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
+            "la": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+            "sv": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness."
+        },
+        "french": {
+            "bw": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.",
+            "xy": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.",
+            "oras": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.",
+            "sm": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.",
+            "usum": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.",
+            "lgpe": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.",
+            "swsh": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive."
+        },
+        "japanese-kana": {
+            "xy": "つよいかぜで　あいての　リフレクターや ひかりのかべ　などを　はらいのける。 かいひりつも　さげる。",
+            "oras": "つよいかぜで　あいての　リフレクターや ひかりのかべ　などを　はらいのける。 かいひりつも　さげる。",
+            "sm": "つよいかぜで　あいての　リフレクターや ひかりのかべ　などを　はらいのける。 かいひりつも　さげる。",
+            "usum": "つよいかぜで　あいての　リフレクターや ひかりのかべ　などを　はらいのける。 かいひりつも　さげる。",
+            "lgpe": "つよいかぜで　あいての　リフレクターや ひかりのかべ　などを　はらいのける。 かいひりつも　さげる。",
+            "swsh": "つよいかぜで　あいての　リフレクターや ひかりのかべ　などを　はらいのける。 かいひりつも　さげる。"
+        },
+        "korean": {
+            "xy": "강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 떨어뜨린다.",
+            "oras": "강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 떨어뜨린다.",
+            "sm": "강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 떨어뜨린다.",
+            "usum": "강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 떨어뜨린다.",
+            "lgpe": "강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 떨어뜨린다.",
+            "swsh": "강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.",
+            "oras": "Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.",
+            "sm": "Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.",
+            "usum": "Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.",
+            "lgpe": "Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.",
+            "swsh": "Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Ausweichwert."
+        },
+        "spanish": {
+            "xy": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "oras": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "sm": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "usum": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "lgpe": "Levanta un potente viento que barre el Reflejo o la Pantalla de Luz del objetivo y reduce su Evasión.",
+            "swsh": "Potente viento que barre el reflejo o la pantalla de luz creada por el objetivo. También puede reducir su Evasión."
+        },
+        "italian": {
+            "xy": "Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d’elusione del bersaglio.",
+            "oras": "Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d’elusione del bersaglio.",
+            "sm": "Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d’elusione del bersaglio.",
+            "usum": "Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d’elusione del bersaglio.",
+            "lgpe": "Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d’elusione del bersaglio.",
+            "swsh": "Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d’elusione del bersaglio."
+        },
+        "japanese": {
+            "xy": "強い風で　相手の　リフレクターや ひかりのかべ　などを　はらいのける。 回避率も　さげる。",
+            "oras": "強い風で　相手の　リフレクターや ひかりのかべ　などを　はらいのける。 回避率も　さげる。",
+            "sm": "強い風で　相手の　リフレクターや ひかりのかべ　などを　はらいのける。 回避率も　さげる。",
+            "usum": "強い風で　相手の　リフレクターや ひかりのかべ　などを　はらいのける。 回避率も　さげる。",
+            "lgpe": "強い風で　相手の　リフレクターや ひかりのかべ　などを　はらいのける。 回避率も　さげる。",
+            "swsh": "強い風で　相手の　リフレクターや ひかりのかべ　などを　はらいのける。 回避率も　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "oras": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "sm": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "usum": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+            "lgpe": "Levanta un potente viento que barre el Reflejo o la Pantalla de Luz del objetivo y reduce su Evasión.",
+            "swsh": "Potente viento que barre el reflejo o la pantalla de luz creada por el objetivo. También puede reducir su Evasión."
+        },
+        "traditional-chinese": {
+            "sm": "用強風吹開對手的 反射壁或光牆等。 也會降低對手的閃避率。",
+            "usum": "用強風吹開對手的 反射壁或光牆等。 也會降低對手的閃避率。",
+            "lgpe": "用強風吹開對手的 反射壁或光牆等。 也會降低對手的閃避率。",
+            "swsh": "用強風吹開對手的 反射壁或光牆等。 也會降低對手的閃避率。"
+        },
+        "simplified-chinese": {
+            "sm": "用强风吹开对手的 反射壁或光墙等。 也会降低对手的闪避率。",
+            "usum": "用强风吹开对手的 反射壁或光墙等。 也会降低对手的闪避率。",
+            "lgpe": "用强风吹开对手的 反射壁或光墙等。 也会降低对手的闪避率。",
+            "swsh": "用强风吹开对手的 反射壁或光墙等。 也会降低对手的闪避率。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s evasion by one stage.  Clears away fog.  Removes the effects of Mist, Light Screen, Reflect, Safeguard, Spikes, Stealth Rock, and Toxic Spikes from the target’s side of the field. If the target is protected by Mist, it will prevent the evasion change, then be removed by this move.",
+        "shortEffect": "Lowers the target’s evasion by one stage.  Removes field effects from the enemy field."
+    }
 }

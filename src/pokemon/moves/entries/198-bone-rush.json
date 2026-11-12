@@ -1,47 +1,150 @@
 {
-  "_id": 198,
-  "key": "bone-rush",
-  "name": {
-    "english": "Bone Rush",
-    "japanese": "ボーンラッシュ",
-    "chinese": "骨击一气",
-    "korean": "본러쉬",
-    "german": "Ataque Óseo",
-    "french": "Knochenhatz",
-    "italian": "Bone Rush",
-    "spanish": "Ossoraffica"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 25,
-  "accuracy": 80,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that\nhits 2-5 times.",
-    "crystal": "An attack that\nhits 2-5 times.",
-    "ruby-sapphire": "Strikes the foe with a bone\nin hand 2 to 5 times.",
-    "emerald": "Strikes the foe with a bone\nin hand 2 to 5 times.",
-    "firered-leafgreen": "The user strikes\nthe foe with a bone\nin hand two to five\ntimes.",
-    "diamond-pearl": "The user strikes at\nthe foe with a hard\nbone two to five\ntimes in a row.\n",
-    "platinum": "The user strikes at\nthe foe with a hard\nbone two to five\ntimes in a row.\n",
-    "heartgold-soulsilver": "The user strikes at\nthe foe with a hard\nbone two to five\ntimes in a row.\n",
-    "black-white": "The user strikes the target with a hard\nbone two to five times in a row.",
-    "black-2-white-2": "The user strikes the target with a hard\nbone two to five times in a row.",
-    "x-y": "The user strikes the target with a hard\nbone two to five times in a row.",
-    "omega-ruby-alpha-sapphire": "The user strikes the target with a hard\nbone two to five times in a row.",
-    "sun-moon": "The user strikes the target with a hard bone two to\nfive times in a row.",
-    "ultra-sun-ultra-moon": "The user strikes the target with a hard bone two to\nfive times in a row.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes the target with a hard bone two to\nfive times in a row.",
-    "sword-shield": "The user strikes the target with a hard bone two to\nfive times in a row."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-    "shortEffect": "Hits 2-5 times in one turn."
-  },
-  "priority": 0
+    "_id": 198,
+    "key": "bone-rush",
+    "name": {
+        "japanese-kana": "ボーンラッシュ",
+        "korean": "본러시",
+        "traditional-chinese": "骨棒亂打",
+        "french": "Charge Os",
+        "german": "Knochenhatz",
+        "spanish": "Ataque Óseo",
+        "italian": "Ossoraffica",
+        "english": "Bone Rush",
+        "japanese": "ボーンラッシュ",
+        "simplified-chinese": "骨棒乱打",
+        "latin-american-spanish": "Hueso Veloz"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": 25,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 80
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that hits 2-5 times.",
+            "cr": "An attack that hits 2-5 times.",
+            "rs": "Strikes the foe with a bone in hand 2 to 5 times.",
+            "em": "Strikes the foe with a bone in hand 2 to 5 times.",
+            "frlg": "The user strikes the foe with a bone in hand two to five times.",
+            "dp": "The user strikes at the foe with a hard bone two to five times in a row.",
+            "pt": "The user strikes at the foe with a hard bone two to five times in a row.",
+            "hgss": "The user strikes at the foe with a hard bone two to five times in a row.",
+            "bw": "The user strikes the target with a hard bone two to five times in a row.",
+            "b2w2": "The user strikes the target with a hard bone two to five times in a row.",
+            "xy": "The user strikes the target with a hard bone two to five times in a row.",
+            "oras": "The user strikes the target with a hard bone two to five times in a row.",
+            "sm": "The user strikes the target with a hard bone two to five times in a row.",
+            "usum": "The user strikes the target with a hard bone two to five times in a row.",
+            "lgpe": "The user strikes the target with a hard bone two to five times in a row.",
+            "swsh": "The user strikes the target with a hard bone two to five times in a row.",
+            "la": "The user strikes the target with a hard bone two to five times in a row.",
+            "sv": "The user attacks by striking the target with a hard bone. This move hits two to five times in a row."
+        },
+        "french": {
+            "bw": "Le lanceur frappe l’ennemi 2 à 5 fois avec un os.",
+            "xy": "Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée.",
+            "oras": "Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée.",
+            "sm": "Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée.",
+            "usum": "Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée.",
+            "lgpe": "Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée.",
+            "swsh": "Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée."
+        },
+        "japanese-kana": {
+            "xy": "かたい　ホネで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "oras": "かたい　ホネで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "sm": "かたい　ホネで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "usum": "かたい　ホネで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "lgpe": "かたい　ホネで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+            "swsh": "かたい　ホネで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。"
+        },
+        "korean": {
+            "xy": "단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "oras": "단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "sm": "단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "usum": "단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "lgpe": "단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+            "swsh": "단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다."
+        },
+        "german": {
+            "xy": "Greift Ziel zwei- bis fünfmal in Folge mit einem harten Knochen an.",
+            "oras": "Greift Ziel zwei- bis fünfmal in Folge mit einem harten Knochen an.",
+            "sm": "Greift Ziel zwei- bis fünfmal in Folge mit einem harten Knochen an.",
+            "usum": "Greift Ziel zwei- bis fünfmal in Folge mit einem harten Knochen an.",
+            "lgpe": "Greift Ziel zwei- bis fünfmal in Folge mit einem harten Knochen an.",
+            "swsh": "Greift Ziel zwei- bis fünfmal in Folge mit einem harten Knochen an."
+        },
+        "spanish": {
+            "xy": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "oras": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "sm": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "usum": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "lgpe": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "swsh": "Hueso en ristre, aporrea al objetivo de dos a cinco veces."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio con un osso da due a cinque volte di fila.",
+            "oras": "Chi la usa colpisce il bersaglio con un osso da due a cinque volte di fila.",
+            "sm": "Chi la usa colpisce il bersaglio con un osso da due a cinque volte di fila.",
+            "usum": "Chi la usa colpisce il bersaglio con un osso da due a cinque volte di fila.",
+            "lgpe": "Chi la usa colpisce il bersaglio con un osso da due a cinque volte di fila.",
+            "swsh": "Chi la usa colpisce il bersaglio con un osso da due a cinque volte di fila."
+        },
+        "japanese": {
+            "xy": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "oras": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+            "sm": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "usum": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "lgpe": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+            "swsh": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "oras": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "sm": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "usum": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "lgpe": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+            "swsh": "Hueso en ristre, aporrea al objetivo de dos a cinco veces."
+        },
+        "traditional-chinese": {
+            "sm": "用堅硬的骨頭 毆打對手進行攻擊。 連續攻擊２～５次。",
+            "usum": "用堅硬的骨頭 毆打對手進行攻擊。 連續攻擊２～５次。",
+            "lgpe": "用堅硬的骨頭 毆打對手進行攻擊。 連續攻擊２～５次。",
+            "swsh": "用堅硬的骨頭 毆打對手進行攻擊。 連續攻擊２～５次。"
+        },
+        "simplified-chinese": {
+            "sm": "用坚硬的骨头 殴打对手进行攻击。 连续攻击２～５次。",
+            "usum": "用坚硬的骨头 殴打对手进行攻击。 连续攻击２～５次。",
+            "lgpe": "用坚硬的骨头 殴打对手进行攻击。 连续攻击２～５次。",
+            "swsh": "用坚硬的骨头 殴打对手进行攻击。 连续攻击２～５次。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits 2–5 times in one turn. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+        "shortEffect": "Hits 2-5 times in one turn."
+    }
 }

@@ -1,35 +1,117 @@
 {
-  "_id": 683,
-  "key": "speed-swap",
-  "name": {
-    "english": "Speed Swap",
-    "japanese": "スピードスワップ",
-    "chinese": "速度互換",
-    "korean": "스피드스웹",
-    "german": "Cambiavelocidad",
-    "french": "Initiativetausch",
-    "italian": "Speed Swap",
-    "spanish": "Velociscambio"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user exchanges Speed stats with the target.",
-    "ultra-sun-ultra-moon": "The user exchanges Speed stats with the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user exchanges Speed stats with the target.",
-    "sword-shield": "The user exchanges Speed stats with the target."
-  },
-  "effect": {
-    "full": "Exchanges the original Speed stats of the user and target.",
-    "shortEffect": "Exchanges the user's Speed with the target's."
-  },
-  "priority": 0
+    "_id": 683,
+    "key": "speed-swap",
+    "name": {
+        "japanese-kana": "スピードスワップ",
+        "korean": "스피드스왑",
+        "traditional-chinese": "速度互換",
+        "french": "Permuvitesse",
+        "german": "Initiativetausch",
+        "spanish": "Cambiavelocidad",
+        "italian": "Velociscambio",
+        "english": "Speed Swap",
+        "japanese": "スピードスワップ",
+        "simplified-chinese": "速度互换",
+        "latin-american-spanish": "Cambiavelocidad"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "あいての　すばやさと じぶんの　すばやさを いれかえて　しまう。",
+            "usum": "あいての　すばやさと じぶんの　すばやさを いれかえて　しまう。",
+            "lgpe": "あいての　すばやさと じぶんの　すばやさを いれかえて　しまう。",
+            "swsh": "あいての　すばやさと じぶんの　すばやさを いれかえて　しまう。"
+        },
+        "korean": {
+            "sm": "상대의 스피드와 자신의 스피드를 교체한다.",
+            "usum": "상대의 스피드와 자신의 스피드를 교체한다.",
+            "lgpe": "상대의 스피드와 자신의 스피드를 교체한다.",
+            "swsh": "상대의 스피드와 자신의 스피드를 교체한다."
+        },
+        "traditional-chinese": {
+            "sm": "將對手和自己的速度 進行互換。",
+            "usum": "將對手和自己的速度 進行互換。",
+            "lgpe": "將對手和自己的速度 進行互換。",
+            "swsh": "將對手和自己的速度 進行互換。"
+        },
+        "french": {
+            "sm": "Intervertit la Vitesse du lanceur et celle de la cible.",
+            "usum": "Intervertit la Vitesse du lanceur et celle de la cible.",
+            "lgpe": "Intervertit la Vitesse du lanceur et celle de la cible.",
+            "swsh": "Intervertit la Vitesse du lanceur et celle de la cible."
+        },
+        "german": {
+            "sm": "Der Anwender tauscht seinen Initiative-Wert mit dem des Zieles.",
+            "usum": "Der Anwender tauscht seinen Initiative-Wert mit dem des Zieles.",
+            "lgpe": "Der Anwender tauscht seinen Initiative-Wert mit dem des Zieles.",
+            "swsh": "Der Anwender tauscht seinen Initiative-Wert mit dem des Zieles."
+        },
+        "spanish": {
+            "sm": "Intercambia su Velocidad por la del oponente.",
+            "usum": "Intercambia su Velocidad por la del oponente.",
+            "lgpe": "Intercambia su Velocidad por la del oponente.",
+            "swsh": "Intercambia su Velocidad por la del oponente."
+        },
+        "italian": {
+            "sm": "Chi la usa scambia la propria Velocità con quella del bersaglio.",
+            "usum": "Chi la usa scambia la propria Velocità con quella del bersaglio.",
+            "lgpe": "Chi la usa scambia la propria Velocità con quella del bersaglio.",
+            "swsh": "Chi la usa scambia la propria Velocità con quella del bersaglio."
+        },
+        "english": {
+            "sm": "The user exchanges Speed stats with the target.",
+            "usum": "The user exchanges Speed stats with the target.",
+            "lgpe": "The user exchanges Speed stats with the target.",
+            "swsh": "The user exchanges Speed stats with the target.",
+            "la": "The user exchanges Speed stats with the target.",
+            "sv": "The user exchanges Speed stats with the target."
+        },
+        "japanese": {
+            "sm": "相手の　素早さと 自分の　素早さを 入れ替えてしまう。",
+            "usum": "相手の　素早さと 自分の　素早さを 入れ替えてしまう。",
+            "lgpe": "相手の　素早さと 自分の　素早さを 入れ替えてしまう。",
+            "swsh": "相手の　素早さと 自分の　素早さを 入れ替えてしまう。"
+        },
+        "simplified-chinese": {
+            "sm": "将对手和自己的速度 进行互换。",
+            "usum": "将对手和自己的速度 进行互换。",
+            "lgpe": "将对手和自己的速度 进行互换。",
+            "swsh": "将对手和自己的速度 进行互换。"
+        },
+        "latin-american-spanish": {
+            "sm": "Intercambia su Velocidad por la del oponente.",
+            "usum": "Intercambia su Velocidad por la del oponente.",
+            "lgpe": "Intercambia su Velocidad por la del oponente.",
+            "swsh": "Intercambia su Velocidad por la del oponente."
+        }
+    },
+    "effect": {
+        "full": "Exchanges the original Speed stats of the user and target.",
+        "shortEffect": "Exchanges the user’s Speed with the target’s."
+    }
 }

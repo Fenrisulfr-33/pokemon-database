@@ -1,35 +1,117 @@
 {
-  "_id": 709,
-  "key": "accelerock",
-  "name": {
-    "english": "Accelerock",
-    "japanese": "アクセルロック",
-    "chinese": "衝岩",
-    "korean": "액셀록",
-    "german": "Roca Veloz",
-    "french": "Turbofelsen",
-    "italian": "Accelerock",
-    "spanish": "Rocciarapida"
-  },
-  "type": "Rock",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user smashes into the target at high speed.\nThis move always goes first.",
-    "ultra-sun-ultra-moon": "The user smashes into the target at high speed.\nThis move always goes first.",
-    "lets-go-pikachu-lets-go-eevee": "The user smashes into the target at high speed.\nThis move always goes first.",
-    "sword-shield": "The user smashes into the target at high speed.\nThis move always goes first."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 1
+    "_id": 709,
+    "key": "accelerock",
+    "name": {
+        "japanese-kana": "アクセルロック",
+        "korean": "액셀록",
+        "traditional-chinese": "衝岩",
+        "french": "Vif Roc",
+        "german": "Turbofelsen",
+        "spanish": "Roca Veloz",
+        "italian": "Rocciarapida",
+        "english": "Accelerock",
+        "japanese": "アクセルロック",
+        "simplified-chinese": "冲岩",
+        "latin-american-spanish": "Roca Veloz"
+    },
+    "type": "rock",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 7,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "すばやい　スピードで あいてに　ぶつかって　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "usum": "すばやい　スピードで あいてに　ぶつかって　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "lgpe": "すばやい　スピードで あいてに　ぶつかって　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "swsh": "すばやい　スピードで あいてに　ぶつかって　こうげきする。 かならず　せんせい　こうげき　できる。"
+        },
+        "korean": {
+            "sm": "재빠른 스피드로 상대에게 부딪쳐서 공격한다. 반드시 선제공격할 수 있다.",
+            "usum": "재빠른 스피드로 상대에게 부딪쳐서 공격한다. 반드시 선제공격할 수 있다.",
+            "lgpe": "재빠른 스피드로 상대에게 부딪쳐서 공격한다. 반드시 선제공격할 수 있다.",
+            "swsh": "재빠른 스피드로 상대에게 부딪쳐서 공격한다. 반드시 선제공격할 수 있다."
+        },
+        "traditional-chinese": {
+            "sm": "迅速撞向對手進行攻擊。 必定能夠發動先制攻擊。",
+            "usum": "迅速撞向對手進行攻擊。 必定能夠發動先制攻擊。",
+            "lgpe": "迅速撞向對手進行攻擊。 必定能夠發動先制攻擊。",
+            "swsh": "迅速撞向對手進行攻擊。 必定能夠發動先制攻擊。"
+        },
+        "french": {
+            "sm": "Le lanceur charge l’ennemi à toute vitesse. Frappe en priorité.",
+            "usum": "Le lanceur charge l’ennemi à toute vitesse. Frappe en priorité.",
+            "lgpe": "Le lanceur charge l’ennemi à toute vitesse. Frappe en priorité.",
+            "swsh": "Le lanceur charge l’ennemi à toute vitesse. Frappe en priorité."
+        },
+        "german": {
+            "sm": "Der Anwender prallt mit großer Geschwindigkeit auf das Ziel. Hohe Erstschlagquote.",
+            "usum": "Der Anwender prallt mit großer Geschwindigkeit auf das Ziel. Hohe Erstschlagquote.",
+            "lgpe": "Der Anwender prallt mit großer Geschwindigkeit auf das Ziel. Hohe Erstschlagquote.",
+            "swsh": "Bei dieser Erstschlag-Attacke prallt der Anwender mit großer Geschwindigkeit auf das Ziel."
+        },
+        "spanish": {
+            "sm": "El usuario se lanza contra el objetivo a gran velocidad. Siempre ataca primero.",
+            "usum": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta.",
+            "lgpe": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta.",
+            "swsh": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta.",
+            "usum": "Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta.",
+            "lgpe": "Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta.",
+            "swsh": "Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta."
+        },
+        "english": {
+            "sm": "The user smashes into the target at high speed. This move always goes first.",
+            "usum": "The user smashes into the target at high speed. This move always goes first.",
+            "lgpe": "The user smashes into the target at high speed. This move always goes first.",
+            "swsh": "The user smashes into the target at high speed. This move always goes first.",
+            "la": "The user smashes into the target at high speed. This move always goes first.",
+            "sv": "The user smashes into the target at high speed. This move always goes first."
+        },
+        "japanese": {
+            "sm": "素早い　スピードで 相手に　ぶつかって　攻撃する。 必ず　先制攻撃　できる。",
+            "usum": "素早い　スピードで 相手に　ぶつかって　攻撃する。 必ず　先制攻撃　できる。",
+            "lgpe": "素早い　スピードで 相手に　ぶつかって　攻撃する。 必ず　先制攻撃　できる。",
+            "swsh": "素早い　スピードで 相手に　ぶつかって　攻撃する。 必ず　先制攻撃　できる。"
+        },
+        "simplified-chinese": {
+            "sm": "迅速撞向对手进行攻击。 必定能够先制攻击。",
+            "usum": "迅速撞向对手进行攻击。 必定能够先制攻击。",
+            "lgpe": "迅速撞向对手进行攻击。 必定能够先制攻击。",
+            "swsh": "迅速撞向对手进行攻击。 必定能够先制攻击。"
+        },
+        "latin-american-spanish": {
+            "sm": "El usuario se lanza contra el objetivo a gran velocidad. Siempre ataca primero.",
+            "usum": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta.",
+            "lgpe": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta.",
+            "swsh": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

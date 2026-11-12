@@ -1,42 +1,141 @@
 {
-  "_id": 440,
-  "key": "cross-poison",
-  "name": {
-    "english": "Cross Poison",
-    "japanese": "クロスポイズン",
-    "chinese": "十字毒药",
-    "korean": "크로스포이즌",
-    "german": "Veneno X",
-    "french": "Giftstreich",
-    "italian": "Cross Poison",
-    "spanish": "Velenocroce"
-  },
-  "type": "Poison",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "A slashing attack\nthat may also leave\nthe target poisoned.\nIt has a high\ncritical-hit ratio.",
-    "platinum": "A slashing attack\nthat may also leave\nthe target poisoned.\nIt has a high\ncritical-hit ratio.",
-    "heartgold-soulsilver": "A slashing attack\nthat may also leave\nthe target poisoned.\nIt has a high\ncritical-hit ratio.",
-    "black-white": "A slashing attack with a poisonous blade\nthat may also leave the target poisoned.\nCritical hits land more easily.",
-    "black-2-white-2": "A slashing attack with a poisonous blade\nthat may also leave the target poisoned.\nCritical hits land more easily.",
-    "x-y": "A slashing attack with a poisonous blade\nthat may also poison the target.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "A slashing attack with a poisonous blade\nthat may also poison the target.\nCritical hits land more easily.",
-    "sun-moon": "A slashing attack with a poisonous blade that may\nalso poison the target. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "A slashing attack with a poisonous blade that may\nalso poison the target. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "A slashing attack with a poisonous blade that may\nalso poison the target. Critical hits land more easily.",
-    "sword-shield": "A slashing attack with a poisonous blade that may\nalso poison the target. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move. Has a $effect_chance% chance to poison the target.",
-    "shortEffect": "Has an increased chance for a critical hit and a $effect_chance% chance to poison the target."
-  },
-  "priority": 0
+    "_id": 440,
+    "key": "cross-poison",
+    "name": {
+        "japanese-kana": "クロスポイズン",
+        "korean": "크로스포이즌",
+        "traditional-chinese": "十字毒刃",
+        "french": "Poison Croix",
+        "german": "Giftstreich",
+        "spanish": "Veneno X",
+        "italian": "Velenocroce",
+        "english": "Cross Poison",
+        "japanese": "クロスポイズン",
+        "simplified-chinese": "十字毒刃",
+        "latin-american-spanish": "Veneno X"
+    },
+    "type": "poison",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.",
+            "pt": "A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.",
+            "hgss": "A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.",
+            "bw": "A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.",
+            "b2w2": "A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.",
+            "xy": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.",
+            "oras": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.",
+            "sm": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.",
+            "usum": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.",
+            "lgpe": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.",
+            "swsh": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.",
+            "la": "A slashing attack with a toxic blade that may also poison the target. This move has a heightened chance of landing a critical hit.",
+            "sv": "A slashing attack with a poisonous blade that may also poison the target. This move has a heightened chance of landing a critical hit."
+        },
+        "french": {
+            "bw": "Un coup tranchant qui peut empoisonner l’ennemi. Taux de critiques élevé.",
+            "xy": "Un coup tranchant qui peut empoisonner l’ennemi. Taux de critiques élevé.",
+            "oras": "Un coup tranchant qui peut empoisonner l’ennemi. Taux de critiques élevé.",
+            "sm": "Un coup tranchant qui peut empoisonner l’ennemi. Taux de critique élevé.",
+            "usum": "Un coup tranchant qui peut empoisonner l’ennemi. Taux de critique élevé.",
+            "lgpe": "Un coup tranchant qui peut empoisonner l’ennemi. Taux de critique élevé.",
+            "swsh": "Un coup tranchant qui peut empoisonner l’ennemi. Taux de critiques élevé."
+        },
+        "japanese-kana": {
+            "xy": "どくの　やいばで　あいてを　きりさく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "oras": "どくの　やいばで　あいてを　きりさく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "sm": "どくの　やいばで　あいてを　きりさく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "usum": "どくの　やいばで　あいてを　きりさく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "lgpe": "どくの　やいばで　あいてを　きりさく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+            "swsh": "どくの　やいばで　あいてを　きりさく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。"
+        },
+        "korean": {
+            "xy": "독 칼날로 상대를 베어 가른다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "oras": "독 칼날로 상대를 베어 가른다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "sm": "독 칼날로 상대를 베어 가른다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "usum": "독 칼날로 상대를 베어 가른다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "lgpe": "독 칼날로 상대를 베어 가른다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+            "swsh": "독 칼날로 상대를 베어 가른다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.",
+            "oras": "Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.",
+            "sm": "Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.",
+            "usum": "Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.",
+            "lgpe": "Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.",
+            "swsh": "Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "oras": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "sm": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "usum": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "lgpe": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "swsh": "Tajo que puede envenenar al objetivo. Suele ser crítico."
+        },
+        "italian": {
+            "xy": "Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.",
+            "oras": "Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.",
+            "sm": "Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.",
+            "usum": "Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.",
+            "lgpe": "Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.",
+            "swsh": "Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "毒の　刃で　相手を　切り裂く。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "oras": "毒の　刃で　相手を　切り裂く。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "sm": "毒の　刃で　相手を　切り裂く。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "usum": "毒の　刃で　相手を　切り裂く。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "lgpe": "毒の　刃で　相手を　切り裂く。 毒状態に　することが　あり 急所にも　当たりやすい。",
+            "swsh": "毒の　刃で　相手を　切り裂く。 毒状態に　することが　あり 急所にも　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "oras": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "sm": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "usum": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "lgpe": "Tajo que puede envenenar al objetivo. Suele ser crítico.",
+            "swsh": "Tajo que puede envenenar al objetivo. Suele ser crítico."
+        },
+        "traditional-chinese": {
+            "sm": "用毒刃劈開對手。 有時會讓對手陷入中毒狀態， 也容易擊中要害。",
+            "usum": "用毒刃劈開對手。 有時會讓對手陷入中毒狀態， 也容易擊中要害。",
+            "lgpe": "用毒刃劈開對手。 有時會讓對手陷入中毒狀態， 也容易擊中要害。",
+            "swsh": "用毒刃劈開對手。 有時會讓對手陷入中毒狀態， 也容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "用毒刃劈开对手。 有时会让对手陷入中毒状态， 也容易击中要害。",
+            "usum": "用毒刃劈开对手。 有时会让对手陷入中毒状态， 也容易击中要害。",
+            "lgpe": "用毒刃劈开对手。 有时会让对手陷入中毒状态， 也容易击中要害。",
+            "swsh": "用毒刃劈开对手。 有时会让对手陷入中毒状态， 也容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move. Has a chance to poison the target.",
+        "shortEffect": "Has an increased chance for a critical hit and a chance to poison the target."
+    }
 }

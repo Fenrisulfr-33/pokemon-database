@@ -1,47 +1,146 @@
 {
-  "_id": 114,
-  "key": "haze",
-  "name": {
-    "english": "Haze",
-    "japanese": "くろいきり",
-    "chinese": "黑雾",
-    "korean": "흑안개",
-    "german": "Niebla",
-    "french": "Dunkelnebel",
-    "italian": "Haze",
-    "spanish": "Nube"
-  },
-  "type": "Ice",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 30,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "gold-silver": "Eliminates all\nstat changes.",
-    "crystal": "Eliminates all\nstat changes.",
-    "ruby-sapphire": "Creates a black haze that\neliminates all stat changes.",
-    "emerald": "Creates a black haze that\neliminates all stat changes.",
-    "firered-leafgreen": "Eliminates all stat\nchanges among all\nPOKéMON engaged in\nbattle.",
-    "diamond-pearl": "The user creates a\nhaze that eliminates\nevery stat change\namong all the Pokémon\nengaged in battle.",
-    "platinum": "The user creates a\nhaze that eliminates\nevery stat change\namong all the Pokémon\nengaged in battle.",
-    "heartgold-soulsilver": "The user creates a\nhaze that eliminates\nevery stat change\namong all the Pokémon\nengaged in battle.",
-    "black-white": "The user creates a haze that eliminates\nevery stat change among all the Pokémon\nengaged in battle.",
-    "black-2-white-2": "The user creates a haze that eliminates\nevery stat change among all the Pokémon\nengaged in battle.",
-    "x-y": "The user creates a haze that eliminates\nevery stat change among all the Pokémon\nengaged in battle.",
-    "omega-ruby-alpha-sapphire": "The user creates a haze that eliminates\nevery stat change among all the Pokémon\nengaged in battle.",
-    "sun-moon": "The user creates a haze that eliminates every stat\nchange among all the Pokémon engaged in battle.",
-    "ultra-sun-ultra-moon": "The user creates a haze that eliminates every stat\nchange among all the Pokémon engaged in battle.",
-    "lets-go-pikachu-lets-go-eevee": "The user creates a haze that eliminates every stat\nchange among all the Pokémon engaged in battle.",
-    "sword-shield": "The user creates a haze that eliminates every stat\nchange among all the Pokémon engaged in battle."
-  },
-  "effect": {
-    "full": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of clear body or white smoke.",
-    "shortEffect": "Resets all Pokémon's stats, accuracy, and evasion."
-  },
-  "priority": 0
+    "_id": 114,
+    "key": "haze",
+    "name": {
+        "japanese-kana": "くろいきり",
+        "korean": "흑안개",
+        "traditional-chinese": "黑霧",
+        "french": "Buée Noire",
+        "german": "Dunkelnebel",
+        "spanish": "Niebla",
+        "italian": "Nube",
+        "english": "Haze",
+        "japanese": "くろいきり",
+        "simplified-chinese": "黑雾",
+        "latin-american-spanish": "Niebla"
+    },
+    "type": "ice",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 30,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Eliminates all stat changes.",
+            "cr": "Eliminates all stat changes.",
+            "rs": "Creates a black haze that eliminates all stat changes.",
+            "em": "Creates a black haze that eliminates all stat changes.",
+            "frlg": "Eliminates all stat changes among all POKéMON engaged in battle.",
+            "dp": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "pt": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "hgss": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "bw": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "b2w2": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "xy": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "oras": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "sm": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "usum": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "lgpe": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "swsh": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "la": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+            "sv": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
+        },
+        "french": {
+            "bw": "Un brouillard qui annule les changements de stats de tous les Pokémon au combat.",
+            "xy": "Un brouillard qui annule les changements de stats de tous les Pokémon au combat.",
+            "oras": "Un brouillard qui annule les changements de stats de tous les Pokémon au combat.",
+            "sm": "Un brouillard qui annule les changements de stats de tous les Pokémon au combat.",
+            "usum": "Un brouillard qui annule les changements de stats de tous les Pokémon au combat.",
+            "lgpe": "Un brouillard qui annule les changements de stats de tous les Pokémon au combat.",
+            "swsh": "Crée un brouillard qui annule les changements de stats de tous les Pokémon au combat."
+        },
+        "japanese-kana": {
+            "xy": "くろいきりを　だして　せんとうに でている　ポケモン　ぜんいんの のうりょく　へんかを　もとに　もどす。",
+            "oras": "くろいきりを　だして　せんとうに でている　ポケモン　ぜんいんの のうりょく　へんかを　もとに　もどす。",
+            "sm": "くろいきりを　だして　せんとうに でている　ポケモン　ぜんいんの のうりょく　へんかを　もとに　もどす。",
+            "usum": "くろいきりを　だして　せんとうに でている　ポケモン　ぜんいんの のうりょく　へんかを　もとに　もどす。",
+            "lgpe": "くろいきりを　だして　せんとうに でている　ポケモン　ぜんいんの のうりょく　へんかを　もとに　もどす。",
+            "swsh": "くろいきりを　だして　せんとうに でている　ポケモン　ぜんいんの のうりょく　へんかを　もとに　もどす。"
+        },
+        "korean": {
+            "xy": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.",
+            "oras": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.",
+            "sm": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.",
+            "usum": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.",
+            "lgpe": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.",
+            "swsh": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다."
+        },
+        "german": {
+            "xy": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.",
+            "oras": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.",
+            "sm": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.",
+            "usum": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.",
+            "lgpe": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.",
+            "swsh": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert."
+        },
+        "spanish": {
+            "xy": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "oras": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "sm": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "usum": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "lgpe": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "swsh": "Neblina que elimina los cambios de características de todos los Pokémon en combate."
+        },
+        "italian": {
+            "xy": "Chi la usa crea una nube nera che annulla ogni modifica alle statistiche di tutti i Pokémon in campo.",
+            "oras": "Chi la usa crea una nube nera che annulla ogni modifica alle statistiche di tutti i Pokémon in campo.",
+            "sm": "Chi la usa crea una nube nera che annulla ogni modifica alle statistiche di tutti i Pokémon in campo.",
+            "usum": "Chi la usa crea una nube nera che annulla ogni modifica alle statistiche di tutti i Pokémon in campo.",
+            "lgpe": "Chi la usa crea una nube nera che annulla ogni modifica alle statistiche di tutti i Pokémon in campo.",
+            "swsh": "Chi la usa crea una nube nera che annulla ogni modifica alle statistiche di tutti i Pokémon in campo."
+        },
+        "japanese": {
+            "xy": "黒い霧を　だして　戦闘に でている　ポケモン　全員の 能力変化を　もとに　もどす。",
+            "oras": "黒い霧を　だして　戦闘に でている　ポケモン　全員の 能力変化を　もとに　もどす。",
+            "sm": "黒い霧を　だして　戦闘に でている　ポケモン　全員の 能力変化を　もとに　もどす。",
+            "usum": "黒い霧を　だして　戦闘に でている　ポケモン　全員の 能力変化を　もとに　もどす。",
+            "lgpe": "黒い霧を　だして　戦闘に でている　ポケモン　全員の 能力変化を　もとに　もどす。",
+            "swsh": "黒い霧を　だして　戦闘に でている　ポケモン　全員の 能力変化を　もとに　もどす。"
+        },
+        "latin-american-spanish": {
+            "xy": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "oras": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "sm": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "usum": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "lgpe": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+            "swsh": "Neblina que elimina los cambios de características de todos los Pokémon en combate."
+        },
+        "traditional-chinese": {
+            "sm": "放出黑霧，讓場上全體寶可夢的 能力變化回到初始狀態。",
+            "usum": "放出黑霧，讓場上全體寶可夢的 能力變化回到初始狀態。",
+            "lgpe": "放出黑霧，讓場上全體寶可夢的 能力變化回到初始狀態。",
+            "swsh": "放出黑霧，讓場上全體寶可夢的 能力變化回到初始狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "升起黑雾，将正在场上战斗的 全体宝可梦的能力变回原点。",
+            "usum": "升起黑雾，将正在场上战斗的 全体宝可梦的能力变回原点。",
+            "lgpe": "升起黑雾，将正在场上战斗的 全体宝可梦的能力变回原点。",
+            "swsh": "升起黑雾，将正在场上战斗的 全体宝可梦的能力变回原点。"
+        }
+    },
+    "effect": {
+        "full": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field. This does not count as a stat reduction for the purposes of Clear Body or White Smoke.",
+        "shortEffect": "Resets all Pokémon’s stats, accuracy, and evasion."
+    }
 }

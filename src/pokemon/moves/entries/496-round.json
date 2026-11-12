@@ -1,39 +1,138 @@
 {
-  "_id": 496,
-  "key": "round",
-  "name": {
-    "english": "Round",
-    "japanese": "りんしょう",
-    "chinese": "轮唱",
-    "korean": "돌림노래",
-    "german": "Canon",
-    "french": "Kanon",
-    "italian": "Round",
-    "spanish": "Coro"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks the target with a song.\nOthers can join in the Round and make\nthe attack do greater damage.",
-    "black-2-white-2": "The user attacks the target with a song.\nOthers can join in the Round and make\nthe attack do greater damage.",
-    "x-y": "The user attacks the target with a song.\nOthers can join in the Round and make\nthe attack do greater damage.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with a song.\nOthers can join in the Round and make\nthe attack do greater damage.",
-    "sun-moon": "The user attacks the target with a song. Others can\njoin in the Round to increase the power of\nthe attack.",
-    "ultra-sun-ultra-moon": "The user attacks the target with a song. Others can\njoin in the Round to increase the power of\nthe attack.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with a song. Others can\njoin in the Round to increase the power of\nthe attack.",
-    "sword-shield": "The user attacks the target with a song. Others can\njoin in the Round to increase the power of\nthe attack."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pokémon using other moves will then continue to act as usual.",
-    "shortEffect": "Has double power if it's used more than once per turn."
-  },
-  "priority": 0
+    "_id": 496,
+    "key": "round",
+    "name": {
+        "japanese-kana": "りんしょう",
+        "korean": "돌림노래",
+        "traditional-chinese": "輪唱",
+        "french": "Chant Canon",
+        "german": "Kanon",
+        "spanish": "Canon",
+        "italian": "Coro",
+        "english": "Round",
+        "japanese": "りんしょう",
+        "simplified-chinese": "轮唱",
+        "latin-american-spanish": "Canon"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+            "xy": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+            "oras": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+            "sm": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+            "usum": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+            "lgpe": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+            "swsh": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente."
+        },
+        "english": {
+            "bw": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
+            "b2w2": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
+            "xy": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
+            "oras": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
+            "sm": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+            "usum": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+            "lgpe": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+            "swsh": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+            "la": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+            "sv": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted."
+        },
+        "japanese-kana": {
+            "xy": "うたで　あいてを　こうげきする。 みんなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。",
+            "oras": "うたで　あいてを　こうげきする。  んなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。",
+            "sm": "うたで　あいてを　こうげきする。 みんなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。",
+            "usum": "うたで　あいてを　こうげきする。 みんなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。",
+            "lgpe": "うたで　あいてを　こうげきする。 みんなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。",
+            "swsh": "うたで　あいてを　こうげきする。 みんなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。"
+        },
+        "korean": {
+            "xy": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다.",
+            "oras": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다.",
+            "sm": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다.",
+            "usum": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다.",
+            "lgpe": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다.",
+            "swsh": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다."
+        },
+        "german": {
+            "xy": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, steigt die Stärke.",
+            "oras": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, steigt die Stärke.",
+            "sm": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, steigt die Stärke.",
+            "usum": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, steigt die Stärke.",
+            "lgpe": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, steigt die Stärke.",
+            "swsh": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, steigt die Stärke."
+        },
+        "spanish": {
+            "xy": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "oras": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "sm": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "usum": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "lgpe": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "swsh": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+        },
+        "italian": {
+            "xy": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano.",
+            "oras": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano.",
+            "sm": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano.",
+            "usum": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano.",
+            "lgpe": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano.",
+            "swsh": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano."
+        },
+        "japanese": {
+            "xy": "歌で　相手を　攻撃する。 みんなで　輪唱すると　続けて だすことが　でき　威力も　あがる。",
+            "oras": "歌で　相手を　攻撃する。  んなで　輪唱すると　続けて だすことが　でき　威力も　あがる。",
+            "sm": "歌で　相手を　攻撃する。 みんなで　輪唱すると　続けて だすことが　でき　威力も　あがる。",
+            "usum": "歌で　相手を　攻撃する。 みんなで　輪唱すると　続けて だすことが　でき　威力も　あがる。",
+            "lgpe": "歌で　相手を　攻撃する。 みんなで　輪唱すると　続けて だすことが　でき　威力も　あがる。",
+            "swsh": "歌で　相手を　攻撃する。 みんなで　輪唱すると　続けて だすことが　でき　威力も　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "oras": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "sm": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "usum": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "lgpe": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+            "swsh": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+        },
+        "traditional-chinese": {
+            "sm": "用歌聲攻擊對手。 大家一起輪唱便可以接連使出， 威力也會提高。",
+            "usum": "用歌聲攻擊對手。 大家一起輪唱便可以接連使出， 威力也會提高。",
+            "lgpe": "用歌聲攻擊對手。 大家一起輪唱便可以接連使出， 威力也會提高。",
+            "swsh": "用歌聲攻擊對手。 大家一起輪唱便可以接連使出， 威力也會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "用歌声攻击对手。 同伴还可以接着使出轮唱招式， 威力也会提高。",
+            "usum": "用歌声攻击对手。 同伴还可以接着使出轮唱招式， 威力也会提高。",
+            "lgpe": "用歌声攻击对手。 同伴还可以接着使出轮唱招式， 威力也会提高。",
+            "swsh": "用歌声攻击对手。 同伴还可以接着使出轮唱招式， 威力也会提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If Round has already been used this turn, this move’s power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pokémon using other moves will then continue to act as usual.",
+        "shortEffect": "Has double power if it’s used more than once per turn."
+    }
 }

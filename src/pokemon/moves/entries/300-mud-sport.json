@@ -1,45 +1,142 @@
 {
-  "_id": 300,
-  "key": "mud-sport",
-  "name": {
-    "english": "Mud Sport",
-    "japanese": "どろあそび",
-    "chinese": "玩泥巴",
-    "korean": "흙놀이",
-    "german": "Chapoteo Lodo",
-    "french": "Lehmsuhler",
-    "italian": "Mud Sport",
-    "spanish": "Fangata"
-  },
-  "type": "Ground",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Covers the user in mud to\nraise electrical resistance.",
-    "emerald": "Covers the user in mud to\nraise electrical resistance.",
-    "firered-leafgreen": "Weakens ELECTRIC-\ntype attacks while\nthe user is in the\nbattle.",
-    "diamond-pearl": "The user covers\nitself with mud. It\nweakens Electric-\ntype moves while the\nuser is in the battle.",
-    "platinum": "The user covers\nitself with mud. It\nweakens Electric-\ntype moves while the\nuser is in the battle.",
-    "heartgold-soulsilver": "The user covers\nitself with mud. It\nweakens Electric-\ntype moves while the\nuser is in the battle.",
-    "black-white": "The user covers itself with mud. It\nweakens Electric-type moves while the\nuser is in the battle.",
-    "black-2-white-2": "The user covers itself with mud. It\nweakens Electric-type moves while the\nuser is in the battle.",
-    "x-y": "The user covers itself with mud.\nThis weakens Electric-type moves\nfor five turns.",
-    "omega-ruby-alpha-sapphire": "The user covers itself with mud.\nThis weakens Electric-type moves\nfor five turns.",
-    "sun-moon": "The user kicks up mud on the battlefield. This\nweakens Electric-type moves for five turns.",
-    "ultra-sun-ultra-moon": "The user kicks up mud on the battlefield. This\nweakens Electric-type moves for five turns.",
-    "lets-go-pikachu-lets-go-eevee": "The user kicks up mud on the battlefield. This\nweakens Electric-type moves for five turns.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "electric moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends.",
-    "shortEffect": "Halves all Electric-type damage."
-  },
-  "priority": 0
+    "_id": 300,
+    "key": "mud-sport",
+    "name": {
+        "japanese-kana": "どろあそび",
+        "korean": "흙놀이",
+        "traditional-chinese": "玩泥巴",
+        "french": "Lance-Boue",
+        "german": "Lehmsuhler",
+        "spanish": "Chapoteo Lodo",
+        "italian": "Fangata",
+        "english": "Mud Sport",
+        "japanese": "どろあそび",
+        "simplified-chinese": "玩泥巴",
+        "latin-american-spanish": "Chapoteo de Lodo"
+    },
+    "type": "ground",
+    "category": "status",
+    "contest": "cute",
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Covers the user in mud to raise electrical resistance.",
+            "em": "Covers the user in mud to raise electrical resistance.",
+            "frlg": "Weakens ELECTRIC- type attacks while the user is in the battle.",
+            "dp": "The user covers itself with mud. It weakens Electric- type moves while the user is in the battle.",
+            "pt": "The user covers itself with mud. It weakens Electric- type moves while the user is in the battle.",
+            "hgss": "The user covers itself with mud. It weakens Electric- type moves while the user is in the battle.",
+            "bw": "The user covers itself with mud. It weakens Electric-type moves while the user is in the battle.",
+            "b2w2": "The user covers itself with mud. It weakens Electric-type moves while the user is in the battle.",
+            "xy": "The user covers itself with mud. This weakens Electric-type moves for five turns.",
+            "oras": "The user covers itself with mud. This weakens Electric-type moves for five turns.",
+            "sm": "The user kicks up mud on the battlefield. This weakens Electric-type moves for five turns.",
+            "usum": "The user kicks up mud on the battlefield. This weakens Electric-type moves for five turns.",
+            "lgpe": "The user kicks up mud on the battlefield. This weakens Electric-type moves for five turns.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur se couvre de boue pour affaiblir les capacités Électrik quand il combat.",
+            "xy": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant cinq tours.",
+            "oras": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant cinq tours.",
+            "sm": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant cinq tours.",
+            "usum": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant cinq tours.",
+            "lgpe": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant cinq tours.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "あたりを　どろまみれにする。 ５ターンの　あいだ でんきタイプの　わざを　よわめる。",
+            "oras": "あたりを　どろま れにする。 ５ターンの　あいだ でんきタイプの　わざを　よわめる。",
+            "sm": "あたりを　どろまみれにする。 ５ターンの　あいだ でんきタイプの　わざを　よわめる。",
+            "usum": "あたりを　どろまみれにする。 ５ターンの　あいだ でんきタイプの　わざを　よわめる。",
+            "lgpe": "あたりを　どろまみれにする。 ５ターンの　あいだ でんきタイプの　わざを　よわめる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "주위를 진흙투성이로 만든다. 5턴 동안 전기타입의 기술을 약하게 한다.",
+            "oras": "주위를 진흙투성이로 만든다. 5턴 동안 전기타입의 기술을 약하게 한다.",
+            "sm": "주위를 진흙투성이로 만든다. 5턴 동안 전기타입의 기술을 약하게 한다.",
+            "usum": "주위를 진흙투성이로 만든다. 5턴 동안 전기타입의 기술을 약하게 한다.",
+            "lgpe": "주위를 진흙투성이로 만든다. 5턴 동안 전기타입의 기술을 약하게 한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Schwächt Elektro-Attacken, solang der Anwender am Kampf teilnimmt.",
+            "oras": "Schwächt Elektro-Attacken, solang der Anwender am Kampf teilnimmt.",
+            "sm": "Schwächt Elektro-Attacken für die Dauer von fünf Runden.",
+            "usum": "Schwächt Elektro-Attacken für die Dauer von fünf Runden.",
+            "lgpe": "Schwächt Elektro-Attacken für die Dauer von fünf Runden.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "oras": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "sm": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "usum": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "lgpe": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa sparge fango sul campo di lotta indebolendo per cinque turni le mosse di tipo Elettro.",
+            "oras": "Chi la usa sparge fango sul campo di lotta indebolendo per cinque turni le mosse di tipo Elettro.",
+            "sm": "Chi la usa sparge fango sul campo di lotta indebolendo per cinque turni le mosse di tipo Elettro.",
+            "usum": "Chi la usa sparge fango sul campo di lotta indebolendo per cinque turni le mosse di tipo Elettro.",
+            "lgpe": "Chi la usa sparge fango sul campo di lotta indebolendo per cinque turni le mosse di tipo Elettro.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "あたりを　泥まみれにする。 ５ターンの　あいだ でんきタイプの　技を　弱める。",
+            "oras": "あたりを　泥ま れにする。 ５ターンの　あいだ でんきタイプの　技を　弱める。",
+            "sm": "あたりを　泥まみれにする。 ５ターンの　間 でんきタイプの　技を　弱める。",
+            "usum": "あたりを　泥まみれにする。 ５ターンの　間 でんきタイプの　技を　弱める。",
+            "lgpe": "あたりを　泥まみれにする。 ５ターンの　間 でんきタイプの　技を　弱める。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "oras": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "sm": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "usum": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "lgpe": "El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "將周圍弄得到處是泥。 在５回合內減弱電屬性的招式。",
+            "usum": "將周圍弄得到處是泥。 在５回合內減弱電屬性的招式。",
+            "lgpe": "將周圍弄得到處是泥。 在５回合內減弱電屬性的招式。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "一旦使用此招式， 周围就会弄得到处是泥。 在５回合内减弱电属性的招式。",
+            "usum": "一旦使用此招式， 周围就会弄得到处是泥。 在５回合内减弱电属性的招式。",
+            "lgpe": "一旦使用此招式， 周围就会弄得到处是泥。 在５回合内减弱电属性的招式。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Electric moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends.",
+        "shortEffect": "Halves all Electric-type damage."
+    }
 }

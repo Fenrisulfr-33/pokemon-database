@@ -1,35 +1,115 @@
 {
-  "_id": 698,
-  "key": "guardian-of-alola",
-  "name": {
-    "english": "Guardian of Alola",
-    "japanese": "ガーディアン・デ・アローラ",
-    "chinese": "巨人衛士・阿羅拉",
-    "korean": "알로라의수호자",
-    "german": "Cólera del Guardián",
-    "french": "Alolas Wächter",
-    "italian": "Guardian of Alola",
-    "spanish": "Collera del Guardiano"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 1,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user, the Land Spirit Pokémon, obtains Alola’s\nenergy using its Z-Power and attacks the target with\nfull force. This reduces the target’s HP greatly.",
-    "ultra-sun-ultra-moon": "The user, the Land Spirit Pokémon, obtains Alola’s\nenergy using its Z-Power and attacks the target with\nfull force. This reduces the target’s HP greatly.",
-    "lets-go-pikachu-lets-go-eevee": "The user, the Land Spirit Pokémon, obtains Alola’s\nenergy using its Z-Power and attacks the target with\nfull force. This reduces the target’s HP greatly.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts direct damage equal to ¾ of the target's remaining HP.",
-    "shortEffect": "Damages the target for 75% of its remaining HP."
-  },
-  "priority": 0
+    "_id": 698,
+    "key": "guardian-of-alola",
+    "name": {
+        "japanese-kana": "ガーディアン・デ・アローラ",
+        "korean": "알로라의수호자",
+        "traditional-chinese": "巨人衛士・阿羅拉",
+        "french": "Colère du Gardien d’Alola",
+        "german": "Alolas Wächter",
+        "spanish": "Cólera del Guardián",
+        "italian": "Collera del Guardiano",
+        "english": "Guardian of Alola",
+        "japanese": "ガーディアン・デ・アローラ",
+        "simplified-chinese": "巨人卫士・阿罗拉",
+        "latin-american-spanish": "Cólera del Guardián"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 1,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "Ｚパワーで　アローラの　ちからを　えた とちがみポケモン　ぜんりょくの　こうげき。 あいての　のこりＨＰを　たくさん　へらす。",
+            "usum": "Ｚパワーで　アローラの　ちからを　えた とちがみポケモン　ぜんりょくの　こうげき。 あいての　のこりＨＰを　たくさん　へらす。",
+            "lgpe": "Ｚパワーで　アローラの　ちからを　えた とちがみポケモン　ぜんりょくの　こうげき。 あいての　のこりＨＰを　たくさん　へらす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "sm": "Z파워로 알로라의 힘을 얻은 토속신포켓몬 전력의 공격. 상대의 남은 HP를 많이 줄인다.",
+            "usum": "Z파워로 알로라의 힘을 얻은 토속신포켓몬 전력의 공격. 상대의 남은 HP를 많이 줄인다.",
+            "lgpe": "Z파워로 알로라의 힘을 얻은 토속신포켓몬 전력의 공격. 상대의 남은 HP를 많이 줄인다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "sm": "透過Ｚ力量得到阿羅拉之力的 土地神寶可夢的全力攻擊。 會大量減少對手的現有ＨＰ。",
+            "usum": "透過Ｚ力量得到阿羅拉之力的 土地神寶可夢的全力攻擊。 會大量減少對手的現有ＨＰ。",
+            "lgpe": "透過Ｚ力量得到阿羅拉之力的 土地神寶可夢的全力攻擊。 會大量減少對手的現有HP。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "sm": "Le Pokémon Tutélaire utilise la Force Z et déchaîne toute la puissance d’Alola sur sa cible. Inflige des dégâts en fonction des PV restants de celle-ci.",
+            "usum": "Le Pokémon Tutélaire utilise la Force Z et déchaîne toute la puissance d’Alola sur sa cible. Inflige des dégâts en fonction des PV restants de celle-ci.",
+            "lgpe": "Le Pokémon Tutélaire utilise la Force Z et déchaîne toute la puissance d’Alola sur sa cible. Inflige des dégâts en fonction des PV restants de celle-ci.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "sm": "Ein gewaltiger Angriff des Schutzpatrons, der durch Z-Kraft die Kraft Alolas erlangt hat. Reduziert die verbleibenden KP des Zieles stark.",
+            "usum": "Ein gewaltiger Angriff des Schutzpatrons, der durch Z-Kraft die Kraft Alolas erlangt hat. Reduziert die verbleibenden KP des Zieles stark.",
+            "lgpe": "Ein gewaltiger Angriff des Schutzpatrons, der durch Z-Kraft die Kraft Alolas erlangt hat. Reduziert die verbleibenden KP des Zieles stark.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "sm": "Los Pokémon Dios Nativo canalizan la energía de Alola gracias al Poder Z y atacan con gran fuerza a sus rivales reduciendo un gran porcentaje de sus PS.",
+            "usum": "Los Pokémon Dios Nativo canalizan la energía de Alola gracias al Poder Z y atacan con gran fuerza a sus rivales reduciendo un gran porcentaje de sus PS.",
+            "lgpe": "Los Pokémon Dios Nativo canalizan la energía de Alola gracias al Poder Z y atacan con gran fuerza a sus rivales. Reducen un gran porcentaje de sus PS.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "sm": "Grazie al Potere Z, il Nume Locale evoca l’energia di Alola e attacca con grande potenza, facendo perdere al bersaglio la maggior parte dei suoi PS.",
+            "usum": "Grazie al Potere Z, il Nume Locale evoca l’energia di Alola e attacca con grande potenza, facendo perdere al bersaglio la maggior parte dei suoi PS.",
+            "lgpe": "Grazie al Potere Z, il Nume Locale evoca l’energia di Alola e attacca con grande potenza, facendo perdere al bersaglio la maggior parte dei suoi PS.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "sm": "The user, the Land Spirit Pokémon, obtains Alola’s energy using its Z-Power and attacks the target with full force. This reduces the target’s HP greatly.",
+            "usum": "The user, the Land Spirit Pokémon, obtains Alola’s energy using its Z-Power and attacks the target with full force. This reduces the target’s HP greatly.",
+            "lgpe": "The user, the Land Spirit Pokémon, obtains Alola’s energy using its Z-Power and attacks the target with full force. This reduces the target’s HP greatly.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "sm": "Ｚパワーで　アローラの　力を　得た とちがみポケモン　全力の　攻撃。 相手の　残りＨＰを　たくさん　減らす。",
+            "usum": "Ｚパワーで　アローラの　力を　得た とちがみポケモン　全力の　攻撃。 相手の　残りＨＰを　たくさん　減らす。",
+            "lgpe": "Ｚパワーで　アローラの　力を　得た とちがみポケモン　全力の　攻撃。 相手の　残りＨＰを　たくさん　減らす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "sm": "通过Ｚ力量得到阿罗拉之力的 土地神宝可梦将全力进行攻击。 对手的剩余ＨＰ会减少很多。",
+            "usum": "通过Ｚ力量得到阿罗拉之力的 土地神宝可梦将全力进行攻击。 对手的剩余ＨＰ会减少很多。",
+            "lgpe": "通过Ｚ力量得到阿罗拉之力的 土地神宝可梦将全力进行攻击。 对手的剩余HP会减少很多。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "sm": "Los Pokémon Dios Nativo canalizan la energía de Alola gracias al Poder Z y atacan con gran fuerza a sus rivales reduciendo un gran porcentaje de sus PS.",
+            "usum": "Los Pokémon Dios Nativo canalizan la energía de Alola gracias al Poder Z y atacan con gran fuerza a sus rivales reduciendo un gran porcentaje de sus PS.",
+            "lgpe": "Los Pokémon Dios Nativo canalizan la energía de Alola gracias al Poder Z y atacan con gran fuerza a sus rivales. Reducen un gran porcentaje de sus PS.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts direct damage equal to ¾ of the target’s remaining HP.",
+        "shortEffect": "Damages the target for 75% of its remaining HP."
+    }
 }

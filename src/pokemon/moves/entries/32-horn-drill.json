@@ -1,47 +1,146 @@
 {
-  "_id": 32,
-  "key": "horn-drill",
-  "name": {
-    "english": "Horn Drill",
-    "japanese": "つのドリル",
-    "chinese": "独角钻",
-    "korean": "뿔드릴",
-    "german": "Perforador",
-    "french": "Hornbohrer",
-    "italian": "Horn Drill",
-    "spanish": "Perforcorno"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 5,
-  "power": null,
-  "accuracy": 30,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A one-hit KO,\ndrill attack.",
-    "crystal": "A one-hit KO,\ndrill attack.",
-    "ruby-sapphire": "A one-hit KO attack that\nuses a horn like a drill.",
-    "emerald": "A one-hit KO attack that\nuses a horn like a drill.",
-    "firered-leafgreen": "The horn is rotated\nlike a drill to ram.\nThe foe will faint\nif it hits.",
-    "diamond-pearl": "The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.",
-    "platinum": "The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.",
-    "heartgold-soulsilver": "The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.",
-    "black-white": "The user stabs the target with a horn\nthat rotates like a drill.\nIf it hits, the target faints instantly.",
-    "black-2-white-2": "The user stabs the target with a horn\nthat rotates like a drill.\nIf it hits, the target faints instantly.",
-    "x-y": "The user stabs the target with a horn\nthat rotates like a drill. The target\nfaints instantly if this attack hits.",
-    "omega-ruby-alpha-sapphire": "The user stabs the target with a horn\nthat rotates like a drill. The target\nfaints instantly if this attack hits.",
-    "sun-moon": "The user stabs the target with a horn that rotates\nlike a drill. The target faints instantly if this\nattack hits.",
-    "ultra-sun-ultra-moon": "The user stabs the target with a horn that rotates\nlike a drill. The target faints instantly if this\nattack hits.",
-    "lets-go-pikachu-lets-go-eevee": "The user stabs the target with a horn that rotates\nlike a drill. The target faints instantly if this\nattack hits.",
-    "sword-shield": "The user stabs the target with a horn that rotates\nlike a drill. The target faints instantly if this\nattack hits."
-  },
-  "effect": {
-    "full": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
-    "shortEffect": "Causes a one-hit KO."
-  },
-  "priority": 0
+    "_id": 32,
+    "key": "horn-drill",
+    "name": {
+        "japanese-kana": "つのドリル",
+        "korean": "뿔드릴",
+        "traditional-chinese": "角鑽",
+        "french": "Empal’Korne",
+        "german": "Hornbohrer",
+        "spanish": "Perforador",
+        "italian": "Perforcorno",
+        "english": "Horn Drill",
+        "japanese": "つのドリル",
+        "simplified-chinese": "角钻",
+        "latin-american-spanish": "Cuerno Taladro"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 5,
+    "power": null,
+    "accuracy": 30,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ohko",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A one-hit KO, drill attack.",
+            "cr": "A one-hit KO, drill attack.",
+            "rs": "A one-hit KO attack that uses a horn like a drill.",
+            "em": "A one-hit KO attack that uses a horn like a drill.",
+            "frlg": "The horn is rotated like a drill to ram. The foe will faint if it hits.",
+            "dp": "The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits.",
+            "pt": "The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits.",
+            "hgss": "The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits.",
+            "bw": "The user stabs the target with a horn that rotates like a drill. If it hits, the target faints instantly.",
+            "b2w2": "The user stabs the target with a horn that rotates like a drill. If it hits, the target faints instantly.",
+            "xy": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.",
+            "oras": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.",
+            "sm": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.",
+            "usum": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.",
+            "lgpe": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.",
+            "swsh": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.",
+            "la": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits.",
+            "sv": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits."
+        },
+        "french": {
+            "bw": "Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "xy": "Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "oras": "Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "sm": "Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "usum": "Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "lgpe": "Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+            "swsh": "Un coup de corne en vrille qui empale l’ennemi, le mettant K.O. sur le coup s’il est touché."
+        },
+        "japanese-kana": {
+            "xy": "かいてんする　つのを あいてに　つきさして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "oras": "かいてんする　つのを あいてに　つきさして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "sm": "かいてんする　つのを あいてに　つきさして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "usum": "かいてんする　つのを あいてに　つきさして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "lgpe": "かいてんする　つのを あいてに　つきさして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+            "swsh": "かいてんする　つのを あいてに　つきさして　こうげきする。 あたれば　いちげきで　ひんしに　する。"
+        },
+        "korean": {
+            "xy": "회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다.",
+            "oras": "회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다.",
+            "sm": "회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다.",
+            "usum": "회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다.",
+            "lgpe": "회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다.",
+            "swsh": "회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다."
+        },
+        "german": {
+            "xy": "K.O.-Attacke, bei der ein Horn als Bohrer eingesetzt wird.",
+            "oras": "K.O.-Attacke, bei der ein Horn als Bohrer eingesetzt wird.",
+            "sm": "Attacke, bei der ein Horn als Bohrer eingesetzt wird. Ist sie erfolgreich, führt sie zu einem K.O.",
+            "usum": "Attacke, bei der ein Horn als Bohrer eingesetzt wird. Ist sie erfolgreich, führt sie zu einem K.O.",
+            "lgpe": "Attacke, bei der ein Horn als Bohrer eingesetzt wird. Ist sie erfolgreich, führt sie zu einem K.O.",
+            "swsh": "Attacke, bei der ein Horn als Bohrer eingesetzt wird. Ist sie erfolgreich, führt sie zu einem K.O."
+        },
+        "spanish": {
+            "xy": "Ataque con taladro que fulmina en un golpe al objetivo si le toca.",
+            "oras": "Ataque con taladro que fulmina en un golpe al objetivo si le toca.",
+            "sm": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza.",
+            "usum": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza.",
+            "lgpe": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza.",
+            "swsh": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO.",
+            "oras": "Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO.",
+            "sm": "Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO.",
+            "usum": "Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO.",
+            "lgpe": "Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO.",
+            "swsh": "Colpisce il bersaglio con un corno perforante come un trapano. Se il colpo va a segno, il Pokémon colpito va KO."
+        },
+        "japanese": {
+            "xy": "回転する　つのを 相手に　突き刺して　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "oras": "回転する　つのを 相手に　突き刺して　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "sm": "回転する　つのを 相手に　突き刺して　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "usum": "回転する　つのを 相手に　突き刺して　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "lgpe": "回転する　つのを 相手に　突き刺して　攻撃する。 当たれば　一撃で　ひんしに　する。",
+            "swsh": "回転する　つのを 相手に　突き刺して　攻撃する。 当たれば　一撃で　ひんしに　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque con taladro que fulmina en un golpe al objetivo si le toca.",
+            "oras": "Ataque con taladro que fulmina en un golpe al objetivo si le toca.",
+            "sm": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza.",
+            "usum": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza.",
+            "lgpe": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza.",
+            "swsh": "Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza."
+        },
+        "traditional-chinese": {
+            "sm": "用旋轉的角 刺進對手進行攻擊。 只要命中就會一擊瀕死。",
+            "usum": "用旋轉的角 刺進對手進行攻擊。 只要命中就會一擊瀕死。",
+            "lgpe": "用旋轉的角 刺進對手進行攻擊。 只要命中就會一擊瀕死。",
+            "swsh": "用旋轉的角 刺進對手進行攻擊。 只要命中就會一擊瀕死。"
+        },
+        "simplified-chinese": {
+            "sm": "用旋转的角 刺入对手进行攻击。 只要命中就会一击濒死。",
+            "usum": "用旋转的角 刺入对手进行攻击。 只要命中就会一击濒死。",
+            "lgpe": "用旋转的角 刺入对手进行攻击。 只要命中就会一击濒死。",
+            "swsh": "用旋转的角 刺入对手进行攻击。 只要命中就会一击濒死。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail. Because this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting. The effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+        "shortEffect": "Causes a one-hit KO."
+    }
 }

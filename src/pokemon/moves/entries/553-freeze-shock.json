@@ -1,39 +1,138 @@
 {
-  "_id": 553,
-  "key": "freeze-shock",
-  "name": {
-    "english": "Freeze Shock",
-    "japanese": "フリーズボルト",
-    "chinese": "冻结伏特",
-    "korean": "프리즈볼트",
-    "german": "Rayo Gélido",
-    "french": "Frostvolt",
-    "italian": "Freeze Shock",
-    "spanish": "Elettrogelo"
-  },
-  "type": "Ice",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 140,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "On the second turn, the user hits the\ntarget with electrically charged ice.\nIt may leave the target with paralysis.",
-    "black-2-white-2": "On the second turn, the user hits the\ntarget with electrically charged ice.\nIt may leave the target with paralysis.",
-    "x-y": "On the second turn, the user hits the\ntarget with electrically charged ice.\nThis may also leave the target with paralysis.",
-    "omega-ruby-alpha-sapphire": "On the second turn, the user hits the\ntarget with electrically charged ice.\nThis may also leave the target with paralysis.",
-    "sun-moon": "On the second turn, the user hits the target with\nelectrically charged ice. This may also leave the\ntarget with paralysis.",
-    "ultra-sun-ultra-moon": "On the second turn, the user hits the target with\nelectrically charged ice. This may also leave the\ntarget with paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "On the second turn, the user hits the target with\nelectrically charged ice. This may also leave the\ntarget with paralysis.",
-    "sword-shield": "On the second turn, the user hits the target with\nelectrically charged ice. This may also leave the\ntarget with paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.  User charges for one turn before attacking.",
-    "shortEffect": "Requires a turn to charge before attacking.  Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 553,
+    "key": "freeze-shock",
+    "name": {
+        "japanese-kana": "フリーズボルト",
+        "korean": "프리즈볼트",
+        "traditional-chinese": "冰凍伏特",
+        "french": "Éclair Gelé",
+        "german": "Frostvolt",
+        "spanish": "Rayo Gélido",
+        "italian": "Elettrogelo",
+        "english": "Freeze Shock",
+        "japanese": "フリーズボルト",
+        "simplified-chinese": "冰冻伏特",
+        "latin-american-spanish": "Rayo Gélido"
+    },
+    "type": "ice",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 140,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "xy": "Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "oras": "Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "sm": "Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "usum": "Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "lgpe": "Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser.",
+            "swsh": "Projette un bloc de glace électrifié sur l’ennemi au second tour. Peut aussi le paralyser."
+        },
+        "english": {
+            "bw": "On the second turn, the user hits the target with electrically charged ice. It may leave the target with paralysis.",
+            "b2w2": "On the second turn, the user hits the target with electrically charged ice. It may leave the target with paralysis.",
+            "xy": "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.",
+            "oras": "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.",
+            "sm": "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.",
+            "usum": "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.",
+            "lgpe": "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.",
+            "swsh": "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.",
+            "la": "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis.",
+            "sv": "The turn after using this move, the user hits the target with electrically charged ice to inflict damage. This may also leave the target with paralysis."
+        },
+        "japanese-kana": {
+            "xy": "でんきを　まとった　こおりの　かたまりで ２ターンめに　あいてを　たたきつける。 まひ　じょうたいに　することが　ある。",
+            "oras": "でんきを　まとった　こおりの　かたまりで ２ターンめに　あいてを　たたきつける。 まひ　じょうたいに　することが　ある。",
+            "sm": "でんきを　まとった　こおりの　かたまりで ２ターンめに　あいてを　たたきつける。 まひ　じょうたいに　することが　ある。",
+            "usum": "でんきを　まとった　こおりの　かたまりで ２ターンめに　あいてを　たたきつける。 まひ　じょうたいに　することが　ある。",
+            "lgpe": "でんきを　まとった　こおりの　かたまりで ２ターンめに　あいてを　たたきつける。 まひ　じょうたいに　することが　ある。",
+            "swsh": "でんきを　まとった　こおりの　かたまりで ２ターンめに　あいてを　たたきつける。 まひ　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "전기를 두른 얼음 덩어리로 2턴째에 상대를 내리친다. 마비 상태로 만들 때가 있다.",
+            "oras": "전기를 두른 얼음덩어리로 2턴째에 상대를 내리친다. 마비 상태로 만들 때가 있다.",
+            "sm": "전기를 두른 얼음덩어리로 2턴째에 상대를 내리친다. 마비 상태로 만들 때가 있다.",
+            "usum": "전기를 두른 얼음덩어리로 2턴째에 상대를 내리친다. 마비 상태로 만들 때가 있다.",
+            "lgpe": "전기를 두른 얼음덩어리로 2턴째에 상대를 내리친다. 마비 상태로 만들 때가 있다.",
+            "swsh": "전기를 두른 얼음덩어리로 2턴째에 상대를 내리친다. 마비 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Feuert in der zweiten Runde elektrisch geladene Eisklumpen auf das Ziel ab. Paralysiert das Ziel eventuell.",
+            "oras": "Feuert in der zweiten Runde elektrisch geladene Eisklumpen auf das Ziel ab. Paralysiert das Ziel eventuell.",
+            "sm": "Feuert in der zweiten Runde elektrisch geladene Eisklumpen auf das Ziel ab. Paralysiert das Ziel eventuell.",
+            "usum": "Feuert in der zweiten Runde elektrisch geladene Eisklumpen auf das Ziel ab. Paralysiert das Ziel eventuell.",
+            "lgpe": "Feuert in der zweiten Runde elektrisch geladene Eisklumpen auf das Ziel ab. Paralysiert das Ziel eventuell.",
+            "swsh": "Feuert in der zweiten Runde elektrisch geladene Eisklumpen auf das Ziel ab. Paralysiert das Ziel eventuell."
+        },
+        "spanish": {
+            "xy": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "oras": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "sm": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "usum": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "lgpe": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "swsh": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia contro il bersaglio al turno successivo una sfera di ghiaccio ricoperta di elettricità. Può anche paralizzarlo.",
+            "oras": "Chi la usa lancia contro il bersaglio al turno successivo una sfera di ghiaccio ricoperta di elettricità. Può anche paralizzarlo.",
+            "sm": "Chi la usa lancia contro il bersaglio al turno successivo una sfera di ghiaccio ricoperta di elettricità. Può anche paralizzarlo.",
+            "usum": "Chi la usa lancia contro il bersaglio al turno successivo una sfera di ghiaccio ricoperta di elettricità. Può anche paralizzarlo.",
+            "lgpe": "Chi la usa lancia contro il bersaglio al turno successivo una sfera di ghiaccio ricoperta di elettricità. Può anche paralizzarlo.",
+            "swsh": "Chi la usa lancia contro il bersaglio al turno successivo una sfera di ghiaccio ricoperta di elettricità. Può anche paralizzarlo."
+        },
+        "japanese": {
+            "xy": "電気を　まとった　氷の　塊で ２ターン目に　相手を　たたきつける。 まひ状態に　することが　ある。",
+            "oras": "電気を　まとった　氷の　塊で ２ターン目に　相手を　たたきつける。 まひ状態に　することが　ある。",
+            "sm": "電気を　まとった　氷の　塊で ２ターン目に　相手を　たたきつける。 まひ状態に　することが　ある。",
+            "usum": "電気を　まとった　氷の　塊で ２ターン目に　相手を　たたきつける。 まひ状態に　することが　ある。",
+            "lgpe": "電気を　まとった　氷の　塊で ２ターン目に　相手を　たたきつける。 まひ状態に　することが　ある。",
+            "swsh": "電気を　まとった　氷の　塊で ２ターン目に　相手を　たたきつける。 まひ状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "oras": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "sm": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "usum": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "lgpe": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.",
+            "swsh": "El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar."
+        },
+        "traditional-chinese": {
+            "sm": "製造出帶有電流的冰塊， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "usum": "製造出帶有電流的冰塊， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "lgpe": "製造出帶有電流的冰塊， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。",
+            "swsh": "製造出帶有電流的冰塊， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用覆盖着电流的冰块， 在第２回合撞向对手。 有时会让对手陷入麻痹状态。",
+            "usum": "用覆盖着电流的冰块， 在第２回合撞向对手。 有时会让对手陷入麻痹状态。",
+            "lgpe": "用覆盖着电流的冰块， 在第２回合撞向对手。 有时会让对手陷入麻痹状态。",
+            "swsh": "用覆盖着电流的冰块， 在第２回合撞向对手。 有时会让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.  User charges for one turn before attacking.",
+        "shortEffect": "Requires a turn to charge before attacking.  Has a chance to paralyze the target."
+    }
 }

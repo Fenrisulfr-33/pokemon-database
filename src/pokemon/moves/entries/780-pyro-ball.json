@@ -1,32 +1,84 @@
 {
-  "_id": 780,
-  "key": "pyro-ball",
-  "name": {
-    "english": "Pyro Ball",
-    "japanese": "かえんボール",
-    "chinese": "火焰球",
-    "korean": "화염볼",
-    "german": "Balón Ígneo",
-    "french": "Feuerball",
-    "italian": "Pyro Ball",
-    "spanish": "Palla Infuocata"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 120,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user attacks by igniting a small stone and launching\nit as a fiery ball at the target. This may also leave the\ntarget with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
-    "shortEffect": "Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 780,
+    "key": "pyro-ball",
+    "name": {
+        "japanese-kana": "かえんボール",
+        "korean": "화염볼",
+        "traditional-chinese": "火焰球",
+        "french": "Ballon Brûlant",
+        "german": "Feuerball",
+        "spanish": "Balón Ígneo",
+        "italian": "Palla Infuocata",
+        "english": "Pyro Ball",
+        "japanese": "かえんボール",
+        "simplified-chinese": "火焰球",
+        "latin-american-spanish": "Balón Ígneo"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 120,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "こいしを　もやした　ほのおの　ボールで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "swsh": "작은 돌을 태운 불꽃의 공으로 상대를 공격한다. 화상 상태로 만들 때가 있다."
+        },
+        "traditional-chinese": {
+            "swsh": "燃燒小石子， 形成火球攻擊對手。 有時會讓對手陷入灼傷狀態。"
+        },
+        "french": {
+            "swsh": "Le lanceur attaque avec un ballon fait à partir d’un caillou enflammé. Peut aussi brûler la cible."
+        },
+        "german": {
+            "swsh": "Der Anwender greift mit einem Ball aus Feuer an, den er durch Anzünden eines kleinen Steins erzeugt. Fügt dem Ziel eventuell Verbrennungen zu."
+        },
+        "spanish": {
+            "swsh": "El usuario prende una pequeña piedra para crear una bola de fuego con la que ataca al rival. Puede causar quemaduras."
+        },
+        "italian": {
+            "swsh": "Chi la usa attacca con una palla creata incendiando una piccola pietra. Può anche scottare il bersaglio."
+        },
+        "english": {
+            "swsh": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn.",
+            "la": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn.",
+            "sv": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn."
+        },
+        "japanese": {
+            "swsh": "小石を　燃やした　炎の　ボールで 相手を　攻撃する。 やけど　状態に　することが　ある。"
+        },
+        "simplified-chinese": {
+            "swsh": "点燃小石子，形成火球攻击对手。 有时会使对手陷入灼伤状态。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario prende una pequeña piedra para crear una bola de fuego con la que ataca al rival. Puede causar quemaduras."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn the target.",
+        "shortEffect": "Has a chance to burn the target."
+    }
 }

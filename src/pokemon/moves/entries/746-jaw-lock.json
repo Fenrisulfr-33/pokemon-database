@@ -1,32 +1,84 @@
 {
-  "_id": 746,
-  "key": "jaw-lock",
-  "name": {
-    "english": "Jaw Lock",
-    "japanese": "くらいつく",
-    "chinese": "緊咬不放",
-    "korean": "물고버티기",
-    "german": "Presa Maxilar",
-    "french": "Fesselbiss",
-    "italian": "Jaw Lock",
-    "spanish": "Morsostretto"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "This move prevents the user and the target from\nswitching out until either of them faints. The effect goes\naway if either of the Pokémon leaves the field."
-  },
-  "effect": {
-    "full": "Inflicts regular damage, then (if successful) sets leech seed on the target.",
-    "shortEffect": "Seeds the target after inflicting damage."
-  },
-  "priority": 0
+    "_id": 746,
+    "key": "jaw-lock",
+    "name": {
+        "japanese-kana": "くらいつく",
+        "korean": "물고버티기",
+        "traditional-chinese": "緊咬不放",
+        "french": "Croque Fort",
+        "german": "Fesselbiss",
+        "spanish": "Presa Maxilar",
+        "italian": "Morsostretto",
+        "english": "Jaw Lock",
+        "japanese": "くらいつく",
+        "simplified-chinese": "紧咬不放",
+        "latin-american-spanish": "Presa Maxilar"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "おたがい　ひんしに　なるまで こうたいが　できなくなる。　どちらかの ポケモンが　いなくなると　こうかはきえる。"
+        },
+        "korean": {
+            "swsh": "어느 한쪽이 기절할 때까지 교체할 수 없게 된다. 한쪽의 포켓몬이 없어지면 효과가 사라진다."
+        },
+        "traditional-chinese": {
+            "swsh": "使攻擊對象及自己在陷入瀕死前 都無法進行替換。當兩隻寶可夢 其中一方退場時，效果就會消失。"
+        },
+        "french": {
+            "swsh": "Le lanceur et sa cible ne peuvent plus quitter le terrain jusqu’à ce que l’un d’entre eux tombe K.O. L’effet est annulé si l’un des deux Pokémon disparaît."
+        },
+        "german": {
+            "swsh": "Anwender und Ziel können nicht ausgetauscht werden, bis einer von ihnen kampfunfähig wird. Der Effekt endet, wenn eines der Pokémon das Kampffeld verlässt."
+        },
+        "spanish": {
+            "swsh": "Impide que tanto el atacante como el defensor puedan ser intercambiados hasta que uno de ellos se debilite o abandone el terreno de combate."
+        },
+        "italian": {
+            "swsh": "Impedisce a chi la usa e al bersaglio di essere sostituiti finché non vanno KO. L’effetto svanisce se uno dei due lascia il campo."
+        },
+        "english": {
+            "swsh": "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pokémon leaves the field.",
+            "la": "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pokémon leaves the field.",
+            "sv": "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pokémon leaves the field."
+        },
+        "japanese": {
+            "swsh": "お互い　ひんしに　なるまで 交代が　できなくなる。　どちらかの ポケモンが　いなくなると　効果は消える。"
+        },
+        "simplified-chinese": {
+            "swsh": "使双方直到一方濒死为止 无法替换宝可梦。 其中一方退场则可以解除效果。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Impide que tanto el atacante como el defensor puedan ser intercambiados hasta que uno de ellos se debilite o abandone el terreno de combate."
+        }
+    },
+    "effect": {
+        "full": "Inflicts damage, then prevents you and the target from switching out. The user or target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. If they do, the effect ends.",
+        "shortEffect": "Prevents you and the target from switching out."
+    }
 }

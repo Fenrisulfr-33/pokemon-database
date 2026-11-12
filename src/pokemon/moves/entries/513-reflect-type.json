@@ -1,39 +1,138 @@
 {
-  "_id": 513,
-  "key": "reflect-type",
-  "name": {
-    "english": "Reflect Type",
-    "japanese": "ミラータイプ",
-    "chinese": "镜子系",
-    "korean": "미러타입",
-    "german": "Clonatipo",
-    "french": "Typenspiegel",
-    "italian": "Reflect Type",
-    "spanish": "Riflettipo"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user reflects the target’s type,\nmaking it the same type as the target.",
-    "black-2-white-2": "The user reflects the target’s type,\nmaking it the same type as the target.",
-    "x-y": "The user reflects the target’s type,\nmaking it the same type as the target.",
-    "omega-ruby-alpha-sapphire": "The user reflects the target’s type,\nmaking it the same type as the target.",
-    "sun-moon": "The user reflects the target’s type, making it the\nsame type as the target.",
-    "ultra-sun-ultra-moon": "The user reflects the target’s type, making it the\nsame type as the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user reflects the target’s type, making it the\nsame type as the target.",
-    "sword-shield": "The user reflects the target’s type, making the user the\nsame type as the target."
-  },
-  "effect": {
-    "full": "User's type changes to match the target's.",
-    "shortEffect": "User becomes the target's type."
-  },
-  "priority": 0
+    "_id": 513,
+    "key": "reflect-type",
+    "name": {
+        "japanese-kana": "ミラータイプ",
+        "korean": "미러타입",
+        "traditional-chinese": "鏡面屬性",
+        "french": "Copie-Type",
+        "german": "Typenspiegel",
+        "spanish": "Clonatipo",
+        "italian": "Riflettipo",
+        "english": "Reflect Type",
+        "japanese": "ミラータイプ",
+        "simplified-chinese": "镜面属性",
+        "latin-american-spanish": "Clonatipo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur copie le type de la cible et devient du même type.",
+            "xy": "Le lanceur copie le type de la cible et devient du même type.",
+            "oras": "Le lanceur copie le type de la cible et devient du même type.",
+            "sm": "Le lanceur copie le type de la cible et devient du même type.",
+            "usum": "Le lanceur copie le type de la cible et devient du même type.",
+            "lgpe": "Le lanceur copie le type de la cible et devient du même type.",
+            "swsh": "Le lanceur copie le type de la cible et devient du même type."
+        },
+        "english": {
+            "bw": "The user reflects the target’s type, making it the same type as the target.",
+            "b2w2": "The user reflects the target’s type, making it the same type as the target.",
+            "xy": "The user reflects the target’s type, making it the same type as the target.",
+            "oras": "The user reflects the target’s type, making it the same type as the target.",
+            "sm": "The user reflects the target’s type, making it the same type as the target.",
+            "usum": "The user reflects the target’s type, making it the same type as the target.",
+            "lgpe": "The user reflects the target’s type, making it the same type as the target.",
+            "swsh": "The user reflects the target’s type, making the user the same type as the target.",
+            "la": "The user reflects the target's type, making the user the same type as the target.",
+            "sv": "The user reflects the target's type to become the same type as the target."
+        },
+        "japanese-kana": {
+            "xy": "あいての　タイプを　はんしゃして じぶんも　おなじ　タイプに　なる。",
+            "oras": "あいての　タイプを　はんしゃして じぶんも　おなじ　タイプに　なる。",
+            "sm": "あいての　タイプを　はんしゃして じぶんも　おなじ　タイプに　なる。",
+            "usum": "あいての　タイプを　はんしゃして じぶんも　おなじ　タイプに　なる。",
+            "lgpe": "あいての　タイプを　はんしゃして じぶんも　おなじ　タイプに　なる。",
+            "swsh": "あいての　タイプを　はんしゃして じぶんも　おなじ　タイプに　なる。"
+        },
+        "korean": {
+            "xy": "상대의 타입을 반사해서 자신도 똑같은 타입이 된다.",
+            "oras": "상대의 타입을 반사해서 자신도 똑같은 타입이 된다.",
+            "sm": "상대의 타입을 반사해서 자신도 똑같은 타입이 된다.",
+            "usum": "상대의 타입을 반사해서 자신도 똑같은 타입이 된다.",
+            "lgpe": "상대의 타입을 반사해서 자신도 똑같은 타입이 된다.",
+            "swsh": "상대의 타입을 반사해서 자신도 똑같은 타입이 된다."
+        },
+        "german": {
+            "xy": "Anwender bildet das Ziel nach und nimmt dabei dessen Typ an.",
+            "oras": "Anwender bildet das Ziel nach und nimmt dabei dessen Typ an.",
+            "sm": "Anwender ahmt das Ziel nach und nimmt dabei dessen Typ an.",
+            "usum": "Anwender ahmt das Ziel nach und nimmt dabei dessen Typ an.",
+            "lgpe": "Anwender ahmt das Ziel nach und nimmt dabei dessen Typ an.",
+            "swsh": "Anwender ahmt das Ziel nach und nimmt dabei dessen Typ an."
+        },
+        "spanish": {
+            "xy": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "oras": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "sm": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "usum": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "lgpe": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "swsh": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa cambia il proprio tipo in quello del bersaglio.",
+            "oras": "Chi la usa cambia il proprio tipo in quello del bersaglio.",
+            "sm": "Chi la usa cambia il proprio tipo in quello del bersaglio.",
+            "usum": "Chi la usa cambia il proprio tipo in quello del bersaglio.",
+            "lgpe": "Chi la usa cambia il proprio tipo in quello del bersaglio.",
+            "swsh": "Chi la usa cambia il proprio tipo in quello del bersaglio."
+        },
+        "japanese": {
+            "xy": "相手の　タイプを　反射して 自分も　同じ　タイプに　なる。",
+            "oras": "相手の　タイプを　反射して 自分も　同じ　タイプに　なる。",
+            "sm": "相手の　タイプを　反射して 自分も　同じ　タイプに　なる。",
+            "usum": "相手の　タイプを　反射して 自分も　同じ　タイプに　なる。",
+            "lgpe": "相手の　タイプを　反射して 自分も　同じ　タイプに　なる。",
+            "swsh": "相手の　タイプを　反射して 自分も　同じ　タイプに　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "oras": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "sm": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "usum": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "lgpe": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+            "swsh": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "在自己身上反映出對手的屬性， 讓自己也變成相同的屬性。",
+            "usum": "在自己身上反映出對手的屬性， 讓自己也變成相同的屬性。",
+            "lgpe": "在自己身上反映出對手的屬性， 讓自己也變成相同的屬性。",
+            "swsh": "在自己身上反映出對手的屬性， 讓自己也變成相同的屬性。"
+        },
+        "simplified-chinese": {
+            "sm": "反射对手的属性， 让自己也变成一样的属性。",
+            "usum": "反射对手的属性， 让自己也变成一样的属性。",
+            "lgpe": "反射对手的属性， 让自己也变成一样的属性。",
+            "swsh": "反射对手的属性， 让自己也变成一样的属性。"
+        }
+    },
+    "effect": {
+        "full": "User’s type changes to match the target’s.",
+        "shortEffect": "User becomes the target’s type."
+    }
 }

@@ -1,29 +1,84 @@
 {
-  "_id": 752,
-  "key": "teatime",
-  "name": {
-    "english": "Teatime",
-    "japanese": "おちゃかい",
-    "chinese": "茶會",
-    "korean": "다과회",
-    "german": "Hora del Té",
-    "french": "Teatime",
-    "italian": "Teatime",
-    "spanish": "Ora del Tè"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 8,
-  "target": "all-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user has teatime with all the Pokémon in the battle.\nEach Pokémon eats its held Berry."
-  },
-  "effect": {},
-  "priority": 0
+    "_id": 752,
+    "key": "teatime",
+    "name": {
+        "japanese-kana": "おちゃかい",
+        "korean": "다과회",
+        "traditional-chinese": "茶會",
+        "french": "Thérémonie",
+        "german": "Teatime",
+        "spanish": "Hora del Té",
+        "italian": "Ora del Tè",
+        "english": "Teatime",
+        "japanese": "おちゃかい",
+        "simplified-chinese": "茶会",
+        "latin-american-spanish": "Hora del Té"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "all-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "おちゃかいを　ひらいて ばにいる　ポケモンが　それぞれ もっている　きのみを　たべる。"
+        },
+        "korean": {
+            "swsh": "다과회를 열어서 배틀에 나와 있는 포켓몬이 각각 지니고 있는 나무열매를 먹는다."
+        },
+        "traditional-chinese": {
+            "swsh": "舉辦茶會， 在場上的寶可夢都會 吃掉自己攜帶的樹果。"
+        },
+        "french": {
+            "swsh": "Le lanceur invite tous les Pokémon sur le terrain à prendre le goûter autour d’une tasse de thé. Ceux qui tiennent une Baie la mangent."
+        },
+        "german": {
+            "swsh": "Der Anwender lädt alle am Kampf beteiligten Pokémon zu einem Teekränzchen ein, woraufhin diese die Beeren essen, die sie bei sich tragen."
+        },
+        "spanish": {
+            "swsh": "El usuario invita a tomar el té a todos los presentes en el terreno de combate, lo que hace que ingieran las bayas que lleven equipadas."
+        },
+        "italian": {
+            "swsh": "Chi la usa invita tutti i Pokémon in campo a prendere il tè. Quelli che hanno con sé una bacca la mangiano."
+        },
+        "english": {
+            "swsh": "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.",
+            "la": "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.",
+            "sv": "The user has teatime with all the Pokémon currently in the battle. Each Pokémon eats its held Berry."
+        },
+        "japanese": {
+            "swsh": "おちゃかいを　ひらいて 場にいる　ポケモンが　それぞれ 持っている　きのみを　食べる。"
+        },
+        "simplified-chinese": {
+            "swsh": "举办一场茶会， 场上的所有宝可梦都会 吃掉自己携带的树果。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario invita a tomar el té a todos los presentes en el terreno de combate, lo que hace que ingieran las bayas que lleven equipadas."
+        }
+    },
+    "effect": {
+        "full": "All Pokemon on the field consume their held berries. This effect is not prevented by Substitute, Embargo, Magic Room, Klutz, or Unnerve. Fails if no active Pokemon is holding a berry.",
+        "shortEffect": "All Pokemon on the field consume their held berries."
+    }
 }

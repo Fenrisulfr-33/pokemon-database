@@ -1,45 +1,151 @@
 {
-  "_id": 343,
-  "key": "covet",
-  "name": {
-    "english": "Covet",
-    "japanese": "ほしがる",
-    "chinese": "渴望",
-    "korean": "탐내다",
-    "german": "Antojo",
-    "french": "Bezirzer",
-    "italian": "Covet",
-    "spanish": "Supplica"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cute",
-  "pp": 40,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Cutely begs to obtain an\nitem held by the foe.",
-    "emerald": "Cutely begs to obtain an\nitem held by the foe.",
-    "firered-leafgreen": "A cutely executed\nattack that also\nsteals the foe’s\nhold item.",
-    "diamond-pearl": "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n",
-    "platinum": "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n",
-    "heartgold-soulsilver": "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n",
-    "black-white": "The user endearingly approaches\nthe target, then steals the target’s\nheld item.",
-    "black-2-white-2": "The user endearingly approaches\nthe target, then steals the target’s\nheld item.",
-    "x-y": "The user endearingly approaches\nthe target, then steals the target’s\nheld item.",
-    "omega-ruby-alpha-sapphire": "The user endearingly approaches\nthe target, then steals the target’s\nheld item.",
-    "sun-moon": "The user endearingly approaches the target, then\nsteals the target’s held item.",
-    "ultra-sun-ultra-moon": "The user endearingly approaches the target, then\nsteals the target’s held item.",
-    "lets-go-pikachu-lets-go-eevee": "The user endearingly approaches the target, then\nsteals the target’s held item.",
-    "sword-shield": "The user endearingly approaches the target, then\nsteals the target’s held item."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with sticky hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Takes the target's item."
-  },
-  "priority": 0
+    "_id": 343,
+    "key": "covet",
+    "name": {
+        "japanese-kana": "ほしがる",
+        "korean": "탐내다",
+        "traditional-chinese": "渴望",
+        "french": "Implore",
+        "german": "Bezirzer",
+        "spanish": "Antojo",
+        "italian": "Supplica",
+        "english": "Covet",
+        "japanese": "ほしがる",
+        "simplified-chinese": "渴望",
+        "latin-american-spanish": "Antojo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cute",
+    "pp": 25,
+    "power": 60,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "power": 40
+        },
+        "xy": {
+            "pp": 40
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Cutely begs to obtain an item held by the foe.",
+            "em": "Cutely begs to obtain an item held by the foe.",
+            "frlg": "A cutely executed attack that also steals the foe’s hold item.",
+            "dp": "The user endearingly approaches the foe, then steals the item the foe is holding.",
+            "pt": "The user endearingly approaches the foe, then steals the item the foe is holding.",
+            "hgss": "The user endearingly approaches the foe, then steals the item the foe is holding.",
+            "bw": "The user endearingly approaches the target, then steals the target’s held item.",
+            "b2w2": "The user endearingly approaches the target, then steals the target’s held item.",
+            "xy": "The user endearingly approaches the target, then steals the target’s held item.",
+            "oras": "The user endearingly approaches the target, then steals the target’s held item.",
+            "sm": "The user endearingly approaches the target, then steals the target’s held item.",
+            "usum": "The user endearingly approaches the target, then steals the target’s held item.",
+            "lgpe": "The user endearingly approaches the target, then steals the target’s held item.",
+            "swsh": "The user endearingly approaches the target, then steals the target’s held item.",
+            "la": "The user endearingly approaches the target, then steals the target's held item.",
+            "sv": "The user endearingly approaches the target, then steals the target's held item."
+        },
+        "french": {
+            "bw": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.",
+            "xy": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.",
+            "oras": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.",
+            "sm": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.",
+            "usum": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.",
+            "lgpe": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.",
+            "swsh": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient."
+        },
+        "japanese-kana": {
+            "xy": "かわいく　あまえながら あいてに　ちかづき もっている　どうぐを　うばう。",
+            "oras": "かわいく　あまえながら あいてに　ちかづき もっている　どうぐを　うばう。",
+            "sm": "かわいく　あまえながら あいてに　ちかづき もっている　どうぐを　うばう。",
+            "usum": "かわいく　あまえながら あいてに　ちかづき もっている　どうぐを　うばう。",
+            "lgpe": "かわいく　あまえながら あいてに　ちかづき もっている　どうぐを　うばう。",
+            "swsh": "かわいく　あまえながら あいてに　ちかづき もっている　どうぐを　うばう。"
+        },
+        "korean": {
+            "xy": "귀엽게 애교부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.",
+            "oras": "귀엽게 애교 부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.",
+            "sm": "귀엽게 애교 부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.",
+            "usum": "귀엽게 애교 부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.",
+            "lgpe": "귀엽게 애교 부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.",
+            "swsh": "귀엽게 애교 부리며 상대에게 다가가 지니고 있는 도구를 뺏는다."
+        },
+        "german": {
+            "xy": "Bittet charmant um das getragene Item des Zieles und stiehlt es dann.",
+            "oras": "Bittet charmant um das getragene Item des Zieles und stiehlt es dann.",
+            "sm": "Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.",
+            "usum": "Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.",
+            "lgpe": "Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.",
+            "swsh": "Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item."
+        },
+        "spanish": {
+            "xy": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "oras": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "sm": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "usum": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "lgpe": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "swsh": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento.",
+            "oras": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento.",
+            "sm": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento.",
+            "usum": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento.",
+            "lgpe": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento.",
+            "swsh": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento."
+        },
+        "japanese": {
+            "xy": "かわいく　あまえながら 相手に　ちかづき 持っている　道具を　うばう。",
+            "oras": "かわいく　あまえながら 相手に　ちかづき 持っている　道具を　うばう。",
+            "sm": "かわいく　あまえながら 相手に　ちかづき 持っている　道具を　うばう。",
+            "usum": "かわいく　あまえながら 相手に　ちかづき 持っている　道具を　うばう。",
+            "lgpe": "かわいく　あまえながら 相手に　ちかづき 持っている　道具を　うばう。",
+            "swsh": "かわいく　あまえながら 相手に　ちかづき 持っている　道具を　うばう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "oras": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "sm": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "usum": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "lgpe": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+            "swsh": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve."
+        },
+        "traditional-chinese": {
+            "sm": "一邊可愛地撒嬌， 一邊靠近對手， 奪取對手攜帶的道具。",
+            "usum": "一邊可愛地撒嬌， 一邊靠近對手， 奪取對手攜帶的道具。",
+            "lgpe": "一邊可愛地撒嬌， 一邊靠近對手， 奪取對手攜帶的道具。",
+            "swsh": "一邊可愛地撒嬌， 一邊靠近對手， 奪取對手攜帶的道具。"
+        },
+        "simplified-chinese": {
+            "sm": "一边可爱地撒娇， 一边靠近对手进行攻击， 还能夺取对手携带的道具。",
+            "usum": "一边可爱地撒娇， 一边靠近对手进行攻击， 还能夺取对手携带的道具。",
+            "lgpe": "一边可爱地撒娇， 一边靠近对手进行攻击， 还能夺取对手携带的道具。",
+            "swsh": "一边可爱地撒娇， 一边靠近对手进行攻击， 还能夺取对手携带的道具。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken. Pokémon with Sticky Hold or Multitype are immune to the item theft effect. The target cannot recover its item with Recycle. This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Takes the target’s item."
+    }
 }

@@ -1,37 +1,135 @@
 {
-  "_id": 585,
-  "key": "moonblast",
-  "name": {
-    "english": "Moonblast",
-    "japanese": "ムーンフォース",
-    "chinese": "月之力量",
-    "korean": "문포스",
-    "german": "Fuerza Lunar",
-    "french": "Mondgewalt",
-    "italian": "Moonblast",
-    "spanish": "Forza Lunare"
-  },
-  "type": "Fairy",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 95,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "Borrowing the power of the moon,\nthe user attacks the target.\nThis may also lower the target’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "Borrowing the power of the moon,\nthe user attacks the target.\nThis may also lower the target’s Sp. Atk stat.",
-    "sun-moon": "Borrowing the power of the moon, the user attacks\nthe target. This may also lower the target’s\nSp. Atk stat.",
-    "ultra-sun-ultra-moon": "Borrowing the power of the moon, the user attacks\nthe target. This may also lower the target’s\nSp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "Borrowing the power of the moon, the user attacks\nthe target. This may also lower the target’s\nSp. Atk stat.",
-    "sword-shield": "Borrowing the power of the moon, the user attacks\nthe target. This may also lower the target’s\nSp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 585,
+    "key": "moonblast",
+    "name": {
+        "japanese-kana": "ムーンフォース",
+        "korean": "문포스",
+        "traditional-chinese": "月亮之力",
+        "french": "Pouvoir Lunaire",
+        "german": "Mondgewalt",
+        "spanish": "Fuerza Lunar",
+        "italian": "Forza Lunare",
+        "english": "Moonblast",
+        "japanese": "ムーンフォース",
+        "simplified-chinese": "月亮之力",
+        "latin-american-spanish": "Fuerza Lunar"
+    },
+    "type": "fairy",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 95,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 30
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "つきの　パワーを　かりて あいてを　こうげきする。　あいての とくこうを　さげる　ことがある。",
+            "oras": "つきの　パワーを　かりて あいてを　こうげきする。　あいての とくこうを　さげる　ことがある。",
+            "sm": "つきの　パワーを　かりて あいてを　こうげきする。　あいての とくこうを　さげる　ことがある。",
+            "usum": "つきの　パワーを　かりて あいてを　こうげきする。　あいての とくこうを　さげる　ことがある。",
+            "lgpe": "つきの　パワーを　かりて あいてを　こうげきする。　あいての とくこうを　さげる　ことがある。",
+            "swsh": "つきの　パワーを　かりて あいてを　こうげきする。　あいての とくこうを　さげる　ことがある。"
+        },
+        "korean": {
+            "xy": "달의 파워를 빌려서 상대를 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "oras": "달의 파워를 빌려서 상대를 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "sm": "달의 파워를 빌려서 상대를 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "usum": "달의 파워를 빌려서 상대를 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "lgpe": "달의 파워를 빌려서 상대를 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+            "swsh": "달의 파워를 빌려서 상대를 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다."
+        },
+        "french": {
+            "xy": "Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale.",
+            "oras": "Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale.",
+            "sm": "Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale.",
+            "usum": "Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale.",
+            "lgpe": "Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale.",
+            "swsh": "Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale."
+        },
+        "german": {
+            "xy": "Der Anwender macht sich die Kraft des Mondes zunutze, um anzugreifen. Gelegentlich wird dabei der Spezial-Angriff des Zieles gesenkt.",
+            "oras": "Der Anwender macht sich die Kraft des Mondes zunutze, um anzugreifen. Gelegentlich wird dabei der Spezial-Angriff des Zieles gesenkt.",
+            "sm": "Der Anwender macht sich die Kraft des Mondes zunutze, um anzugreifen. Gelegentlich wird dabei der Spezial-Angriff des Zieles gesenkt.",
+            "usum": "Der Anwender macht sich die Kraft des Mondes zunutze, um anzugreifen. Gelegentlich wird dabei der Spezial-Angriff des Zieles gesenkt.",
+            "lgpe": "Der Anwender macht sich die Kraft des Mondes zunutze, um anzugreifen. Gelegentlich wird dabei der Spezial-Angriff des Zieles gesenkt.",
+            "swsh": "Der Anwender macht sich die Kraft des Mondes zunutze, um anzugreifen. Gelegentlich wird dabei der Spezial-Angriff des Zieles gesenkt."
+        },
+        "spanish": {
+            "xy": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "oras": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "sm": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "usum": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "lgpe": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "swsh": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "oras": "Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "sm": "Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "usum": "Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "lgpe": "Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l’Attacco Speciale.",
+            "swsh": "Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l’Attacco Speciale."
+        },
+        "english": {
+            "xy": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
+            "oras": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
+            "sm": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
+            "usum": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
+            "lgpe": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
+            "swsh": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
+            "la": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s offensive stats.",
+            "sv": "Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat."
+        },
+        "japanese": {
+            "xy": "月の　パワーを　かりて 相手を　攻撃する。　相手の 特攻を　さげる　ことがある。",
+            "oras": "月の　パワーを　かりて 相手を　攻撃する。　相手の 特攻を　さげる　ことがある。",
+            "sm": "月の　パワーを　かりて 相手を　攻撃する。　相手の 特攻を　さげる　ことがある。",
+            "usum": "月の　パワーを　かりて 相手を　攻撃する。　相手の 特攻を　さげる　ことがある。",
+            "lgpe": "月の　パワーを　かりて 相手を　攻撃する。　相手の 特攻を　さげる　ことがある。",
+            "swsh": "月の　パワーを　かりて 相手を　攻撃する。　相手の 特攻を　さげる　ことがある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "oras": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "sm": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "usum": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "lgpe": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+            "swsh": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "借用月亮的力量攻擊對手。 有時會降低對手的特攻。",
+            "usum": "借用月亮的力量攻擊對手。 有時會降低對手的特攻。",
+            "lgpe": "借用月亮的力量攻擊對手。 有時會降低對手的特攻。",
+            "swsh": "借用月亮的力量攻擊對手。 有時會降低對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "借用月亮的力量攻击对手。 有时会降低对手的特攻。",
+            "usum": "借用月亮的力量攻击对手。 有时会降低对手的特攻。",
+            "lgpe": "借用月亮的力量攻击对手。 有时会降低对手的特攻。",
+            "swsh": "借用月亮的力量攻击对手。 有时会降低对手的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Attack by one stage."
+    }
 }

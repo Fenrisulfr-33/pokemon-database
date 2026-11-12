@@ -1,37 +1,135 @@
 {
-  "_id": 566,
-  "key": "phantom-force",
-  "name": {
-    "english": "Phantom Force",
-    "japanese": "ゴーストダイブ",
-    "chinese": "幽灵俯冲",
-    "korean": "고스트다이브",
-    "german": "Golpe Fantasma",
-    "french": "Phantomkraft",
-    "italian": "Phantom Force",
-    "spanish": "Spettrotuffo"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user vanishes somewhere, then strikes\nthe target on the next turn.\nThis move hits even if the target protects itself.",
-    "omega-ruby-alpha-sapphire": "The user vanishes somewhere, then strikes\nthe target on the next turn.\nThis move hits even if the target protects itself.",
-    "sun-moon": "The user vanishes somewhere, then strikes the\ntarget on the next turn. This move hits even if the\ntarget protects itself.",
-    "ultra-sun-ultra-moon": "The user vanishes somewhere, then strikes the\ntarget on the next turn. This move hits even if the\ntarget protects itself.",
-    "lets-go-pikachu-lets-go-eevee": "The user vanishes somewhere, then strikes the\ntarget on the next turn. This move hits even if the\ntarget protects itself.",
-    "sword-shield": "The user vanishes somewhere, then strikes the\ntarget on the next turn. This move hits even if the\ntarget protects itself."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User vanishes for one turn, becoming immune to attack, and hits on the second turn.\n\nThis move ignores the effects of detect and protect.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
-  },
-  "priority": 0
+    "_id": 566,
+    "key": "phantom-force",
+    "name": {
+        "japanese-kana": "ゴーストダイブ",
+        "korean": "고스트다이브",
+        "traditional-chinese": "潛靈奇襲",
+        "french": "Hantise",
+        "german": "Phantomkraft",
+        "spanish": "Golpe Fantasma",
+        "italian": "Spettrotuffo",
+        "english": "Phantom Force",
+        "japanese": "ゴーストダイブ",
+        "simplified-chinese": "潜灵奇袭",
+        "latin-american-spanish": "Golpe Fantasma"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "１ターンめで　どこかに　きえて ２ターンめに　あいてを　こうげきする。 まもりを　むしして　こうげきできる。",
+            "oras": "１ターンめで　どこかに　きえて ２ターンめに　あいてを　こうげきする。 まもりを　むしして　こうげきできる。",
+            "sm": "１ターンめで　どこかに　きえて ２ターンめに　あいてを　こうげきする。 まもりを　むしして　こうげきできる。",
+            "usum": "１ターンめで　どこかに　きえて ２ターンめに　あいてを　こうげきする。 まもりを　むしして　こうげきできる。",
+            "lgpe": "１ターンめで　どこかに　きえて ２ターンめに　あいてを　こうげきする。 まもりを　むしして　こうげきできる。",
+            "swsh": "１ターンめで　どこかに　きえて ２ターンめに　あいてを　こうげきする。 まもりを　むしして　こうげきできる。"
+        },
+        "korean": {
+            "xy": "1턴째에 어디론가 사라져서 2턴째에 상대를 공격한다. 기술 방어를 무시하고 공격할 수 있다.",
+            "oras": "1턴째에 어디론가 사라져서 2턴째에 상대를 공격한다. 기술 방어를 무시하고 공격할 수 있다.",
+            "sm": "1턴째에 어디론가 사라져서 2턴째에 상대를 공격한다. 기술 방어를 무시하고 공격할 수 있다.",
+            "usum": "1턴째에 어디론가 사라져서 2턴째에 상대를 공격한다. 기술 방어를 무시하고 공격할 수 있다.",
+            "lgpe": "1턴째에 어디론가 사라져서 2턴째에 상대를 공격한다. 기술 방어를 무시하고 공격할 수 있다.",
+            "swsh": "1턴째에 어디론가 사라져서 2턴째에 상대를 공격한다. 기술 방어를 무시하고 공격할 수 있다."
+        },
+        "french": {
+            "xy": "Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.",
+            "oras": "Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.",
+            "sm": "Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.",
+            "usum": "Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.",
+            "lgpe": "Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.",
+            "swsh": "Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections."
+        },
+        "german": {
+            "xy": "Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.",
+            "oras": "Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.",
+            "sm": "Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.",
+            "usum": "Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.",
+            "lgpe": "Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.",
+            "swsh": "Der Anwender verschwindet in Runde 1, um seine Kraft zu sammeln, und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt."
+        },
+        "spanish": {
+            "xy": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "oras": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "sm": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "usum": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "lgpe": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "swsh": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose."
+        },
+        "italian": {
+            "xy": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le difese del bersaglio.",
+            "oras": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le difese del bersaglio.",
+            "sm": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le protezioni del bersaglio.",
+            "usum": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le protezioni del bersaglio.",
+            "lgpe": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le protezioni del bersaglio.",
+            "swsh": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le protezioni del bersaglio."
+        },
+        "english": {
+            "xy": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+            "oras": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+            "sm": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+            "usum": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+            "lgpe": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+            "swsh": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+            "la": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+            "sv": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself."
+        },
+        "japanese": {
+            "xy": "１ターンめで　どこかに　消えて ２ターンめに　相手を　攻撃する。 守りを　無視して　攻撃できる。",
+            "oras": "１ターンめで　どこかに　消えて ２ターンめに　相手を　攻撃する。 守りを　無視して　攻撃できる。",
+            "sm": "１ターンめで　どこかに　消えて ２ターンめに　相手を　攻撃する。 守りを　無視して　攻撃できる。",
+            "usum": "１ターンめで　どこかに　消えて ２ターンめに　相手を　攻撃する。 守りを　無視して　攻撃できる。",
+            "lgpe": "１ターンめで　どこかに　消えて ２ターンめに　相手を　攻撃する。 守りを　無視して　攻撃できる。",
+            "swsh": "１ターンめで　どこかに　消えて ２ターンめに　相手を　攻撃する。 守りを　無視して　攻撃できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "oras": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "sm": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "usum": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "lgpe": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+            "swsh": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose."
+        },
+        "traditional-chinese": {
+            "sm": "使用後的第１回合消失到某處， 並於第２回合攻擊對手。 可不顧對手的守護進行攻擊。",
+            "usum": "使用後的第１回合消失到某處， 並於第２回合攻擊對手。 可不顧對手的守護進行攻擊。",
+            "lgpe": "使用後的第１回合消失到某處， 並於第２回合攻擊對手。 可不顧對手的守護進行攻擊。",
+            "swsh": "使用後的第１回合消失到某處， 並於第２回合攻擊對手。 可不顧對手的守護進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "第１回合消失在某处， 第２回合攻击对手。 可以无视守护进行攻击。",
+            "usum": "第１回合消失在某处， 第２回合攻击对手。 可以无视守护进行攻击。",
+            "lgpe": "第１回合消失在某处， 第２回合攻击对手。 可以无视守护进行攻击。",
+            "swsh": "第１回合消失在某处， 第２回合攻击对手。 可以无视守护进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User vanishes for one turn, becoming immune to attack, and hits on the second turn. This move ignores the effects of Detect and Protect. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+    }
 }

@@ -1,39 +1,138 @@
 {
-  "_id": 529,
-  "key": "drill-run",
-  "name": {
-    "english": "Drill Run",
-    "japanese": "ドリルライナー",
-    "chinese": "低空钻",
-    "korean": "드릴라이너",
-    "german": "Taladradora",
-    "french": "Schlagbohrer",
-    "italian": "Drill Run",
-    "spanish": "Giravvita"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
-    "black-2-white-2": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
-    "x-y": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
-    "sun-moon": "The user crashes into its target while rotating its\nbody like a drill. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "The user crashes into its target while rotating its\nbody like a drill. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The user crashes into its target while rotating its\nbody like a drill. Critical hits land more easily.",
-    "sword-shield": "The user crashes into its target while rotating its\nbody like a drill. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 529,
+    "key": "drill-run",
+    "name": {
+        "japanese-kana": "ドリルライナー",
+        "korean": "드릴라이너",
+        "traditional-chinese": "直衝鑽",
+        "french": "Tunnelier",
+        "german": "Schlagbohrer",
+        "spanish": "Taladradora",
+        "italian": "Giravvita",
+        "english": "Drill Run",
+        "japanese": "ドリルライナー",
+        "simplified-chinese": "直冲钻",
+        "latin-american-spanish": "Taladradora"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critiques élevé.",
+            "xy": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critiques élevé.",
+            "oras": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critiques élevé.",
+            "sm": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critique élevé.",
+            "usum": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critique élevé.",
+            "lgpe": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critique élevé.",
+            "swsh": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur l’ennemi. Taux de critiques élevé."
+        },
+        "english": {
+            "bw": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "b2w2": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "xy": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "oras": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "sm": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "usum": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "lgpe": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "swsh": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "la": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+            "sv": "The user crashes into the target while rotating its body like a drill. This move has a heightened chance of landing a critical hit."
+        },
+        "japanese-kana": {
+            "xy": "ドリルのように　からだを　かいてん しながら　あいてに　たいあたりする。 きゅうしょに　あたりやすい。",
+            "oras": "ドリルのように　からだを　かいてん しながら　あいてに　たいあたりする。 きゅうしょに　あたりやすい。",
+            "sm": "ドリルのように　からだを　かいてん しながら　あいてに　たいあたりする。 きゅうしょに　あたりやすい。",
+            "usum": "ドリルのように　からだを　かいてん しながら　あいてに　たいあたりする。 きゅうしょに　あたりやすい。",
+            "lgpe": "ドリルのように　からだを　かいてん しながら　あいてに　たいあたりする。 きゅうしょに　あたりやすい。",
+            "swsh": "ドリルのように　からだを　かいてん しながら　あいてに　たいあたりする。 きゅうしょに　あたりやすい。"
+        },
+        "korean": {
+            "xy": "드릴처럼 몸을 회전시켜서 상대에게 몸통박치기한다. 급소에 맞기 쉽다.",
+            "oras": "드릴처럼 몸을 회전시켜서 상대에게 몸통박치기한다. 급소에 맞기 쉽다.",
+            "sm": "드릴처럼 몸을 회전시켜서 상대에게 몸통박치기한다. 급소에 맞기 쉽다.",
+            "usum": "드릴처럼 몸을 회전시켜서 상대에게 몸통박치기한다. 급소에 맞기 쉽다.",
+            "lgpe": "드릴처럼 몸을 회전시켜서 상대에게 몸통박치기한다. 급소에 맞기 쉽다.",
+            "swsh": "드릴처럼 몸을 회전시켜서 상대에게 몸통박치기한다. 급소에 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Anwender rammt das Ziel, während er seinen Körper wie einen Bohrer dreht. Hohe Volltrefferquote.",
+            "oras": "Anwender rammt das Ziel, während er seinen Körper wie einen Bohrer dreht. Hohe Volltrefferquote.",
+            "sm": "Anwender rammt das Ziel, während er seinen Körper wie einen Bohrer dreht. Hohe Volltrefferquote.",
+            "usum": "Anwender rammt das Ziel, während er seinen Körper wie einen Bohrer dreht. Hohe Volltrefferquote.",
+            "lgpe": "Anwender rammt das Ziel, während er seinen Körper wie einen Bohrer dreht. Hohe Volltrefferquote.",
+            "swsh": "Anwender rammt das Ziel, während er seinen Körper wie einen Bohrer dreht. Hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "oras": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "sm": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "usum": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "lgpe": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "swsh": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa si scaglia sul bersaglio ruotando su se stesso come un trapano perforante. Probabile brutto colpo.",
+            "oras": "Chi la usa si scaglia sul bersaglio ruotando su se stesso come un trapano perforante. Probabile brutto colpo.",
+            "sm": "Chi la usa si scaglia sul bersaglio ruotando su se stesso come un trapano perforante. Probabile brutto colpo.",
+            "usum": "Chi la usa si scaglia sul bersaglio ruotando su se stesso come un trapano perforante. Probabile brutto colpo.",
+            "lgpe": "Chi la usa si scaglia sul bersaglio ruotando su se stesso come un trapano perforante. Probabile brutto colpo.",
+            "swsh": "Chi la usa si scaglia sul bersaglio ruotando su se stesso come un trapano perforante. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "ドリルのように　体を　回転しながら 相手に　体当たりする。 急所に　当たりやすい。",
+            "oras": "ドリルのように　体を　回転しながら 相手に　体当たりする。 急所に　当たりやすい。",
+            "sm": "ドリルのように　体を　回転しながら 相手に　体当たりする。 急所に　当たりやすい。",
+            "usum": "ドリルのように　体を　回転しながら 相手に　体当たりする。 急所に　当たりやすい。",
+            "lgpe": "ドリルのように　体を　回転しながら 相手に　体当たりする。 急所に　当たりやすい。",
+            "swsh": "ドリルのように　体を　回転しながら 相手に　体当たりする。 急所に　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "oras": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "sm": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "usum": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "lgpe": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.",
+            "swsh": "El usuario golpea usando su cuerpo como un taladro. Suele ser crítico."
+        },
+        "traditional-chinese": {
+            "sm": "像鑽頭一樣旋轉身體， 猛烈地撞擊對手。 容易擊中要害。",
+            "usum": "像鑽頭一樣旋轉身體， 猛烈地撞擊對手。 容易擊中要害。",
+            "lgpe": "像鑽頭一樣旋轉身體， 猛烈地撞擊對手。 容易擊中要害。",
+            "swsh": "像鑽頭一樣旋轉身體， 猛烈地撞擊對手。 容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "像钢钻一样，一边旋转身体 一边撞击对手。 容易击中要害。",
+            "usum": "像钢钻一样，一边旋转身体 一边撞击对手。 容易击中要害。",
+            "lgpe": "像钢钻一样，一边旋转身体 一边撞击对手。 容易击中要害。",
+            "swsh": "像钢钻一样，一边旋转身体 一边撞击对手。 容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

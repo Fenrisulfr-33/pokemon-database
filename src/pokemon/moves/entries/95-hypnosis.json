@@ -1,47 +1,153 @@
 {
-  "_id": 95,
-  "key": "hypnosis",
-  "name": {
-    "english": "Hypnosis",
-    "japanese": "さいみんじゅつ",
-    "chinese": "催眠术",
-    "korean": "최면술",
-    "german": "Hipnosis",
-    "french": "Hypnose",
-    "italian": "Hypnosis",
-    "spanish": "Ipnosi"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": 60,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "May put the foe to\nsleep.",
-    "crystal": "May put the foe to\nsleep.",
-    "ruby-sapphire": "A hypnotizing move that\nmay induce sleep.",
-    "emerald": "A hypnotizing move that\nmay induce sleep.",
-    "firered-leafgreen": "Hypnotic suggestion\nis used to make the\nfoe fall into a\ndeep sleep.",
-    "diamond-pearl": "The user employs\nhypnotic suggestion\nto make the target\nfall into a deep\nsleep.",
-    "platinum": "The user employs\nhypnotic suggestion\nto make the target\nfall into a deep\nsleep.",
-    "heartgold-soulsilver": "The user employs\nhypnotic suggestion\nto make the target\nfall into a deep\nsleep.",
-    "black-white": "The user employs hypnotic suggestion\nto make the target fall into a deep sleep.",
-    "black-2-white-2": "The user employs hypnotic suggestion\nto make the target fall into a deep sleep.",
-    "x-y": "The user employs hypnotic suggestion\nto make the target fall into a deep sleep.",
-    "omega-ruby-alpha-sapphire": "The user employs hypnotic suggestion\nto make the target fall into a deep sleep.",
-    "sun-moon": "The user employs hypnotic suggestion to make the\ntarget fall into a deep sleep.",
-    "ultra-sun-ultra-moon": "The user employs hypnotic suggestion to make the\ntarget fall into a deep sleep.",
-    "lets-go-pikachu-lets-go-eevee": "The user employs hypnotic suggestion to make the\ntarget fall into a deep sleep.",
-    "sword-shield": "The user employs hypnotic suggestion to make the\ntarget fall into a deep sleep."
-  },
-  "effect": {
-    "full": "Puts the target to sleep.",
-    "shortEffect": "Puts the target to sleep."
-  },
-  "priority": 0
+    "_id": 95,
+    "key": "hypnosis",
+    "name": {
+        "japanese-kana": "さいみんじゅつ",
+        "korean": "최면술",
+        "traditional-chinese": "催眠術",
+        "french": "Hypnose",
+        "german": "Hypnose",
+        "spanish": "Hipnosis",
+        "italian": "Ipnosi",
+        "english": "Hypnosis",
+        "japanese": "さいみんじゅつ",
+        "simplified-chinese": "催眠术",
+        "latin-american-spanish": "Hipnosis"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": 60,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "sleep",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "accuracy": 60
+        },
+        "pt": {
+            "accuracy": 70
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "May put the foe to sleep.",
+            "cr": "May put the foe to sleep.",
+            "rs": "A hypnotizing move that may induce sleep.",
+            "em": "A hypnotizing move that may induce sleep.",
+            "frlg": "Hypnotic suggestion is used to make the foe fall into a deep sleep.",
+            "dp": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "pt": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "hgss": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "bw": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "b2w2": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "xy": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "oras": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "sm": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "usum": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "lgpe": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "swsh": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+            "la": "The user employs hypnotic suggestion to make the target drowsy.",
+            "sv": "The user employs hypnotic suggestion to make the target fall asleep."
+        },
+        "french": {
+            "bw": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.",
+            "xy": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.",
+            "oras": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.",
+            "sm": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.",
+            "usum": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.",
+            "lgpe": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.",
+            "swsh": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil."
+        },
+        "japanese-kana": {
+            "xy": "ねむけを　さそう　あんじを　かけて あいてを　ねむり　じょうたいに　する。",
+            "oras": "ねむけを　さそう　あんじを　かけて あいてを　ねむり　じょうたいに　する。",
+            "sm": "ねむけを　さそう　あんじを　かけて あいてを　ねむり　じょうたいに　する。",
+            "usum": "ねむけを　さそう　あんじを　かけて あいてを　ねむり　じょうたいに　する。",
+            "lgpe": "ねむけを　さそう　あんじを　かけて あいてを　ねむり　じょうたいに　する。",
+            "swsh": "ねむけを　さそう　あんじを　かけて あいてを　ねむり　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.",
+            "oras": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.",
+            "sm": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.",
+            "usum": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.",
+            "lgpe": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.",
+            "swsh": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다."
+        },
+        "german": {
+            "xy": "Hypnose-Attacke, die das Ziel in Schlaf versetzt.",
+            "oras": "Hypnose-Attacke, die das Ziel in Schlaf versetzt.",
+            "sm": "Hypnose-Attacke, die das Ziel in Schlaf versetzt.",
+            "usum": "Hypnose-Attacke, die das Ziel in Schlaf versetzt.",
+            "lgpe": "Hypnose-Attacke, die das Ziel in Schlaf versetzt.",
+            "swsh": "Hypnose-Attacke, die das Ziel in Schlaf versetzt."
+        },
+        "spanish": {
+            "xy": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "oras": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "sm": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "usum": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "lgpe": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "swsh": "Ataque hipnótico que hace dormir profundamente al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.",
+            "oras": "Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.",
+            "sm": "Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.",
+            "usum": "Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.",
+            "lgpe": "Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.",
+            "swsh": "Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio."
+        },
+        "japanese": {
+            "xy": "眠気を　誘う　暗示を　かけて 相手を　眠り状態に　する。",
+            "oras": "眠気を　誘う　暗示を　かけて 相手を　眠り状態に　する。",
+            "sm": "眠気を　誘う　暗示を　かけて 相手を　眠り状態に　する。",
+            "usum": "眠気を　誘う　暗示を　かけて 相手を　眠り状態に　する。",
+            "lgpe": "眠気を　誘う　暗示を　かけて 相手を　眠り状態に　する。",
+            "swsh": "眠気を　誘う　暗示を　かけて 相手を　眠り状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "oras": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "sm": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "usum": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "lgpe": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+            "swsh": "Ataque hipnótico que hace dormir profundamente al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "施加引發睡意的暗示， 讓對手陷入睡眠狀態。",
+            "usum": "施加引發睡意的暗示， 讓對手陷入睡眠狀態。",
+            "lgpe": "施加引發睡意的暗示， 讓對手陷入睡眠狀態。",
+            "swsh": "施加引發睡意的暗示， 讓對手陷入睡眠狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "施以诱导睡意的暗示， 让对手陷入睡眠状态。",
+            "usum": "施以诱导睡意的暗示， 让对手陷入睡眠状态。",
+            "lgpe": "施以诱导睡意的暗示， 让对手陷入睡眠状态。",
+            "swsh": "施以诱导睡意的暗示， 让对手陷入睡眠状态。"
+        }
+    },
+    "effect": {
+        "full": "Puts the target to sleep.",
+        "shortEffect": "Puts the target to sleep."
+    }
 }

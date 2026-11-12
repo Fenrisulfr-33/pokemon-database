@@ -1,47 +1,148 @@
 {
-  "_id": 170,
-  "key": "mind-reader",
-  "name": {
-    "english": "Mind Reader",
-    "japanese": "こころのめ",
-    "chinese": "心眼",
-    "korean": "마음의눈",
-    "german": "Telépata",
-    "french": "Willensleser",
-    "italian": "Mind Reader",
-    "spanish": "Leggimente"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Ensures the next\nattack will hit.",
-    "crystal": "Ensures the next\nattack will hit.",
-    "ruby-sapphire": "Senses the foe’s action to\nensure the next move’s hit.",
-    "emerald": "Senses the foe’s action to\nensure the next move’s hit.",
-    "firered-leafgreen": "The user predicts\nthe foe’s action to\nensure its next\nattack hits.",
-    "diamond-pearl": "The user senses the\nfoe’s movements\nwith its mind to\nensure its next\nattack does not miss.",
-    "platinum": "The user senses the\nfoe’s movements\nwith its mind to\nensure its next\nattack does not miss.",
-    "heartgold-soulsilver": "The user senses the\nfoe’s movements\nwith its mind to\nensure its next\nattack does not miss.",
-    "black-white": "The user senses the target’s movements\nwith its mind to ensure its next\nattack does not miss the target.",
-    "black-2-white-2": "The user senses the target’s movements\nwith its mind to ensure its next\nattack does not miss the target.",
-    "x-y": "The user senses the target’s movements\nwith its mind to ensure its next\nattack does not miss the target.",
-    "omega-ruby-alpha-sapphire": "The user senses the target’s movements\nwith its mind to ensure its next\nattack does not miss the target.",
-    "sun-moon": "The user senses the target’s movements with its\nmind to ensure its next attack does not miss\nthe target.",
-    "ultra-sun-ultra-moon": "The user senses the target’s movements with its\nmind to ensure its next attack does not miss\nthe target.",
-    "lets-go-pikachu-lets-go-eevee": "The user senses the target’s movements with its\nmind to ensure its next attack does not miss\nthe target.",
-    "sword-shield": "The user senses the target’s movements with its\nmind to ensure its next attack does not miss\nthe target."
-  },
-  "effect": {
-    "full": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores accuracy and evasion modifiers.\n\nOne-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as dig or fly.\n\nIf the target uses detect or protect while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.\n\nThis effect is passed on by baton pass.",
-    "shortEffect": "Ensures that the user's next move will hit the target."
-  },
-  "priority": 0
+    "_id": 170,
+    "key": "mind-reader",
+    "name": {
+        "japanese-kana": "こころのめ",
+        "korean": "마음의눈",
+        "traditional-chinese": "心之眼",
+        "french": "Lire-Esprit",
+        "german": "Willensleser",
+        "spanish": "Telépata",
+        "italian": "Leggimente",
+        "english": "Mind Reader",
+        "japanese": "こころのめ",
+        "simplified-chinese": "心之眼",
+        "latin-american-spanish": "Telépata"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "pp": 40
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Ensures the next attack will hit.",
+            "cr": "Ensures the next attack will hit.",
+            "rs": "Senses the foe’s action to ensure the next move’s hit.",
+            "em": "Senses the foe’s action to ensure the next move’s hit.",
+            "frlg": "The user predicts the foe’s action to ensure its next attack hits.",
+            "dp": "The user senses the foe’s movements with its mind to ensure its next attack does not miss.",
+            "pt": "The user senses the foe’s movements with its mind to ensure its next attack does not miss.",
+            "hgss": "The user senses the foe’s movements with its mind to ensure its next attack does not miss.",
+            "bw": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+            "b2w2": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+            "xy": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+            "oras": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+            "sm": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+            "usum": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+            "lgpe": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+            "swsh": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target."
+        },
+        "french": {
+            "bw": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.",
+            "xy": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.",
+            "oras": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.",
+            "sm": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.",
+            "usum": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.",
+            "lgpe": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.",
+            "swsh": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant."
+        },
+        "japanese-kana": {
+            "xy": "あいての　うごきを　こころで　かんじて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "oras": "あいての　うごきを　こころで　かんじて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "sm": "あいての　うごきを　こころで　かんじて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "usum": "あいての　うごきを　こころで　かんじて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "lgpe": "あいての　うごきを　こころで　かんじて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "swsh": "あいての　うごきを　こころで　かんじて つぎの　こうげきが　かならず あいてに　あたるように　する。"
+        },
+        "korean": {
+            "xy": "상대의 움직임을 마음으로 읽고 다음 공격이 반드시 상대에게 명중되게 한다.",
+            "oras": "상대의 움직임을 마음으로 읽고 다음 공격이 반드시 상대에게 명중되게 한다.",
+            "sm": "상대의 움직임을 마음으로 읽고 다음 공격이 반드시 상대에게 명중되게 한다.",
+            "usum": "상대의 움직임을 마음으로 읽고 다음 공격이 반드시 상대에게 명중되게 한다.",
+            "lgpe": "상대의 움직임을 마음으로 읽고 다음 공격이 반드시 상대에게 명중되게 한다.",
+            "swsh": "상대의 움직임을 마음으로 읽고 다음 공격이 반드시 상대에게 명중되게 한다."
+        },
+        "german": {
+            "xy": "Ahnt Bewegungen des Zieles voraus, um zu gewährleisten, dass die nächste eigene Attacke trifft.",
+            "oras": "Ahnt Bewegungen des Zieles voraus, um zu gewährleisten, dass die nächste eigene Attacke trifft.",
+            "sm": "Ahnt Bewegungen des Zieles voraus, um zu gewährleisten, dass die nächste eigene Attacke trifft.",
+            "usum": "Ahnt Bewegungen des Zieles voraus, um zu gewährleisten, dass die nächste eigene Attacke trifft.",
+            "lgpe": "Ahnt Bewegungen des Zieles voraus, um zu gewährleisten, dass die nächste eigene Attacke trifft.",
+            "swsh": "Ahnt Bewegungen des Zieles voraus, um zu gewährleisten, dass die nächste eigene Attacke trifft."
+        },
+        "spanish": {
+            "xy": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "oras": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "sm": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "usum": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "lgpe": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "swsh": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle."
+        },
+        "italian": {
+            "xy": "Chi la usa prevede i movimenti del bersaglio per mandare a segno l’attacco successivo.",
+            "oras": "Chi la usa prevede i movimenti del bersaglio per mandare a segno l’attacco successivo.",
+            "sm": "Chi la usa prevede i movimenti del bersaglio per mandare a segno l’attacco successivo.",
+            "usum": "Chi la usa prevede i movimenti del bersaglio per mandare a segno l’attacco successivo.",
+            "lgpe": "Chi la usa prevede i movimenti del bersaglio per mandare a segno l’attacco successivo.",
+            "swsh": "Chi la usa prevede i movimenti del bersaglio per mandare a segno l’attacco successivo."
+        },
+        "japanese": {
+            "xy": "相手の　動きを　心で　感じて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "oras": "相手の　動きを　心で　感じて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "sm": "相手の　動きを　心で　感じて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "usum": "相手の　動きを　心で　感じて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "lgpe": "相手の　動きを　心で　感じて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "swsh": "相手の　動きを　心で　感じて 次の　攻撃が　必ず 相手に　当たるように　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "oras": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "sm": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "usum": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "lgpe": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+            "swsh": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle."
+        },
+        "traditional-chinese": {
+            "sm": "用心感受對手的行動模式， 下次攻擊時必定 會命中對手。",
+            "usum": "用心感受對手的行動模式， 下次攻擊時必定 會命中對手。",
+            "lgpe": "用心感受對手的行動模式， 下次攻擊時必定 會命中對手。",
+            "swsh": "用心感受對手的行動模式， 下次攻擊時必定 會命中對手。"
+        },
+        "simplified-chinese": {
+            "sm": "用心感受对手的行动， 下次攻击必定 会击中对手。",
+            "usum": "用心感受对手的行动， 下次攻击必定 会击中对手。",
+            "lgpe": "用心感受对手的行动， 下次攻击必定 会击中对手。",
+            "swsh": "用心感受对手的行动， 下次攻击必定 会击中对手。"
+        }
+    },
+    "effect": {
+        "full": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores accuracy and evasion modifiers. One-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as Dig or Fly. If the target uses Detect or Protect while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection. This effect is passed on by Baton Pass.",
+        "shortEffect": "Ensures that the user’s next move will hit the target."
+    }
 }

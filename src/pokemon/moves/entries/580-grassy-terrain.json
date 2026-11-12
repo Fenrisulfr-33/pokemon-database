@@ -1,37 +1,135 @@
 {
-  "_id": 580,
-  "key": "grassy-terrain",
-  "name": {
-    "english": "Grassy Terrain",
-    "japanese": "グラスフィールド",
-    "chinese": "草原场地",
-    "korean": "그래스필드",
-    "german": "Campo de Hierba",
-    "french": "Grasfeld",
-    "italian": "Grassy Terrain",
-    "spanish": "Campo Erboso"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "x-y": "The user turns the ground under everyone’s feet\nto grass for five turns. This restores the HP of\nPokémon on the ground a little every turn.",
-    "omega-ruby-alpha-sapphire": "The user turns the ground under everyone’s feet\nto grass for five turns. This restores the HP of\nPokémon on the ground a little every turn.",
-    "sun-moon": "The user turns the ground to grass for five turns.\nThis restores the HP of Pokémon on the ground a\nlittle every turn and powers up Grass type-moves.",
-    "ultra-sun-ultra-moon": "The user turns the ground to grass for five turns.\nThis restores the HP of Pokémon on the ground a\nlittle every turn and powers up Grass type-moves.",
-    "lets-go-pikachu-lets-go-eevee": "The user turns the ground to grass for five turns.\nThis restores the HP of Pokémon on the ground a\nlittle every turn and powers up Grass-type moves.",
-    "sword-shield": "The user turns the ground to grass for five turns.\nThis restores the HP of Pokémon on the ground a\nlittle every turn and powers up Grass-type moves."
-  },
-  "effect": {
-    "full": "For five turns, heals all Pokémon on the ground for 1/16 their max HP each turn and strengthens their grass moves to 1.5× their power.\n\nChanges nature power to energy ball.",
-    "shortEffect": "For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their grass moves to 1.5× their power."
-  },
-  "priority": 0
+    "_id": 580,
+    "key": "grassy-terrain",
+    "name": {
+        "japanese-kana": "グラスフィールド",
+        "korean": "그래스필드",
+        "traditional-chinese": "青草場地",
+        "french": "Champ Herbu",
+        "german": "Grasfeld",
+        "spanish": "Campo de Hierba",
+        "italian": "Campo Erboso",
+        "english": "Grassy Terrain",
+        "japanese": "グラスフィールド",
+        "simplified-chinese": "青草场地",
+        "latin-american-spanish": "Campo de Césped"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ　あしもとを グラスフィールドにする。　じめんにいる ポケモンは　まいターン　かいふくする。",
+            "oras": "５ターンの　あいだ　あしもとを グラスフィールドにする。　じめんにいる ポケモンは　まいターン　かいふくする。",
+            "sm": "５ターンのあいだ　グラスフィールドにする。 じめんにいると　まいターン　かいふくする。 くさタイプの　いりょくが　あがる。",
+            "usum": "５ターンのあいだ　グラスフィールドにする。 じめんにいると　まいターン　かいふくする。 くさタイプの　いりょくが　あがる。",
+            "lgpe": "５ターンのあいだ　グラスフィールドにする。 じめんにいると　まいターン　かいふくする。 くさタイプの　いりょくが　あがる。",
+            "swsh": "５ターンのあいだ　グラスフィールドにする。 じめんにいると　まいターン　かいふくする。 くさタイプの　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "5턴 동안 발밑을 그래스필드로 만든다. 땅에 있는 포켓몬은 매 턴 회복한다.",
+            "oras": "5턴 동안 발밑을 그래스필드로 만든다. 땅에 있는 포켓몬은 매 턴 회복한다.",
+            "sm": "5턴 동안 그래스필드로 만든다. 땅에 있으면 매 턴 회복한다. 풀타입의 위력이 올라간다.",
+            "usum": "5턴 동안 그래스필드로 만든다. 땅에 있으면 매 턴 회복한다. 풀타입의 위력이 올라간다.",
+            "lgpe": "5턴 동안 그래스필드로 만든다. 땅에 있으면 매 턴 회복한다. 풀타입의 위력이 올라간다.",
+            "swsh": "5턴 동안 그래스필드로 만든다. 땅에 있으면 매 턴 회복한다. 풀타입의 위력이 올라간다."
+        },
+        "french": {
+            "xy": "Pendant cinq tours, le terrain aux pieds du lanceur se transforme en gazon. Les Pokémon au sol récupèrent des PV à chaque tour.",
+            "oras": "Pendant cinq tours, le terrain aux pieds du lanceur se transforme en gazon. Les Pokémon au sol récupèrent des PV à chaque tour.",
+            "sm": "Pendant cinq tours, les Pokémon au sol récupèrent quelques PV à chaque tour et la puissance des capacités de type Plante augmente.",
+            "usum": "Pendant cinq tours, les Pokémon au sol récupèrent quelques PV à chaque tour et la puissance des capacités de type Plante augmente.",
+            "lgpe": "Pendant cinq tours, les Pokémon au sol récupèrent quelques PV à chaque tour et la puissance des capacités de type Plante augmente.",
+            "swsh": "Pendant cinq tours, les Pokémon au sol récupèrent quelques PV à chaque tour et la puissance des capacités de type Plante augmente."
+        },
+        "german": {
+            "xy": "Verwandelt den Untergrund fünf Runden lang in ein Grasfeld und heilt in jeder neuen Runde alle Pokémon, die den Boden berühren.",
+            "oras": "Verwandelt den Untergrund fünf Runden lang in ein Grasfeld und heilt in jeder neuen Runde alle Pokémon, die den Boden berühren.",
+            "sm": "Regeneriert fünf Runden lang in jeder neuen Runde ein paar KP aller Pokémon, die den Boden berühren. Erhöht die Stärke von Pflanzen-Attacken.",
+            "usum": "Regeneriert fünf Runden lang in jeder neuen Runde ein paar KP aller Pokémon, die den Boden berühren. Erhöht die Stärke von Pflanzen-Attacken.",
+            "lgpe": "Regeneriert fünf Runden lang in jeder neuen Runde ein paar KP aller Pokémon, die den Boden berühren. Erhöht die Stärke von Pflanzen-Attacken.",
+            "swsh": "Regeneriert fünf Runden lang in jeder neuen Runde ein paar KP aller Pokémon, die den Boden berühren. Erhöht die Stärke von Pflanzen-Attacken."
+        },
+        "spanish": {
+            "xy": "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno.",
+            "oras": "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno.",
+            "sm": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.",
+            "usum": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.",
+            "lgpe": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.",
+            "swsh": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno."
+        },
+        "italian": {
+            "xy": "Per cinque turni trasforma il terreno di lotta in un campo erboso, facendo recuperare PS ai Pokémon a terra in ogni turno.",
+            "oras": "Per cinque turni trasforma il terreno di lotta in un campo erboso, facendo recuperare PS ai Pokémon a terra in ogni turno.",
+            "sm": "Per cinque turni il terreno entra nello stato di Campo Erboso: i Pokémon a terra recuperano PS e la potenza delle mosse di tipo Erba aumenta.",
+            "usum": "Per cinque turni il terreno entra nello stato di Campo Erboso: i Pokémon a terra recuperano PS e la potenza delle mosse di tipo Erba aumenta.",
+            "lgpe": "Per cinque turni il terreno entra nello stato di Campo Erboso: i Pokémon a terra recuperano PS e la potenza delle mosse di tipo Erba aumenta.",
+            "swsh": "Per cinque turni il terreno entra nello stato di Campo Erboso: i Pokémon a terra recuperano PS a ogni turno e la potenza delle mosse di tipo Erba aumenta."
+        },
+        "english": {
+            "xy": "The user turns the ground under everyone’s feet to grass for five turns. This restores the HP of Pokémon on the ground a little every turn.",
+            "oras": "The user turns the ground under everyone’s feet to grass for five turns. This restores the HP of Pokémon on the ground a little every turn.",
+            "sm": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass type-moves.",
+            "usum": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass type-moves.",
+            "lgpe": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
+            "swsh": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
+            "la": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
+            "sv": "The user turns the ground into Grassy Terrain for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ　足元を グラスフィールドにする。地面にいる ポケモンは　毎ターン　回復する。",
+            "oras": "５ターンの　あいだ　足元を グラスフィールドにする。地面にいる ポケモンは　毎ターン　回復する。",
+            "sm": "５ターンの　間　グラスフィールドにする。 地面にいると　毎ターン　回復する。 くさタイプの　威力が　あがる。",
+            "usum": "５ターンの　間　グラスフィールドにする。 地面にいると　毎ターン　回復する。 くさタイプの　威力が　あがる。",
+            "lgpe": "５ターンの　間　グラスフィールドにする。 地面にいると　毎ターン　回復する。 くさタイプの　威力が　あがる。",
+            "swsh": "５ターンの　間　グラスフィールドにする。 地面にいると　毎ターン　回復する。 くさタイプの　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno.",
+            "oras": "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno.",
+            "sm": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.",
+            "usum": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.",
+            "lgpe": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.",
+            "swsh": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內將腳下變成青草場地。 地面上的寶可夢每回合都會回復ＨＰ。 草屬性招式的威力會提高。",
+            "usum": "在５回合內將腳下變成青草場地。 地面上的寶可夢每回合都會回復ＨＰ。 草屬性招式的威力會提高。",
+            "lgpe": "在５回合內將腳下變成青草場地。 地面上的寶可夢每回合都會回復HP。 草屬性招式的威力會提高。",
+            "swsh": "在５回合內將腳下變成青草場地。 地面上的寶可夢每回合都會回復ＨＰ。 草屬性招式的威力會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内变成青草场地。 地面上的宝可梦每回合都能回复。 草属性的招式威力还会提高。",
+            "usum": "在５回合内变成青草场地。 地面上的宝可梦每回合都能回复。 草属性的招式威力还会提高。",
+            "lgpe": "在５回合内变成青草场地。 地面上的宝可梦每回合都能回复。 草属性的招式威力还会提高。",
+            "swsh": "在５回合内变成青草场地。 地面上的宝可梦每回合都能回复。 草属性的招式威力还会提高。"
+        }
+    },
+    "effect": {
+        "full": "For five turns, heals all Pokémon on the ground for 1/16 their max HP each turn and strengthens their Grass moves to 1.5× their power. Changes Nature Power to Energy Ball.",
+        "shortEffect": "For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their Grass moves to 1.5× their power."
+    }
 }

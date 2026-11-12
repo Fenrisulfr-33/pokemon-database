@@ -1,47 +1,146 @@
 {
-  "_id": 196,
-  "key": "icy-wind",
-  "name": {
-    "english": "Icy Wind",
-    "japanese": "こごえるかぜ",
-    "chinese": "冻风",
-    "korean": "얼다바람",
-    "german": "Viento Hielo",
-    "french": "Eissturm",
-    "italian": "Icy Wind",
-    "spanish": "Ventogelato"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 55,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 2,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "A chilling attack that\nlowers the foe’s SPEED.",
-    "emerald": "A chilling attack that\nlowers the foe’s SPEED.",
-    "firered-leafgreen": "A chilling wind is\nused to attack.\nIt also lowers the\nSPEED stat.",
-    "diamond-pearl": "The user attacks with\na gust of chilled air.\nIt also lowers the\ntarget’s Speed stat.\n",
-    "crystal": "An icy attack that\nlowers SPEED.",
-    "gold-silver": "An icy attack that\nlowers SPEED.",
-    "platinum": "The user attacks with\na gust of chilled air.\nIt also lowers the\ntarget’s Speed stat.\n",
-    "heartgold-soulsilver": "The user attacks with\na gust of chilled air.\nIt also lowers the\ntarget’s Speed stat.\n",
-    "black-white": "The user attacks with a gust of\nchilled air. It also reduces the targets’\nSpeed stat.",
-    "black-2-white-2": "The user attacks with a gust of\nchilled air. It also reduces the targets’\nSpeed stat.",
-    "x-y": "The user attacks with a gust of chilled air.\nThis also lowers the opposing Pokémon’s\nSpeed stats.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a gust of chilled air.\nThis also lowers the opposing Pokémon’s\nSpeed stats.",
-    "sun-moon": "The user attacks with a gust of chilled air. This also\nlowers the opposing Pokémon’s Speed stats.",
-    "ultra-sun-ultra-moon": "The user attacks with a gust of chilled air. This also\nlowers the opposing Pokémon’s Speed stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a gust of chilled air. This also\nlowers the opposing Pokémon’s Speed stats.",
-    "sword-shield": "The user attacks with a gust of chilled air. This also\nlowers opposing Pokémon’s Speed stats."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Speed by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Speed by one stage."
-  },
-  "priority": 0
+    "_id": 196,
+    "key": "icy-wind",
+    "name": {
+        "japanese-kana": "こごえるかぜ",
+        "korean": "얼어붙은바람",
+        "traditional-chinese": "冰凍之風",
+        "french": "Vent Glace",
+        "german": "Eissturm",
+        "spanish": "Viento Hielo",
+        "italian": "Ventogelato",
+        "english": "Icy Wind",
+        "japanese": "こごえるかぜ",
+        "simplified-chinese": "冰冻之风",
+        "latin-american-spanish": "Viento Helado"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 55,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An icy attack that lowers SPEED.",
+            "cr": "An icy attack that lowers SPEED.",
+            "rs": "A chilling attack that lowers the foe’s SPEED.",
+            "em": "A chilling attack that lowers the foe’s SPEED.",
+            "frlg": "A chilling wind is used to attack. It also lowers the SPEED stat.",
+            "dp": "The user attacks with a gust of chilled air. It also lowers the target’s Speed stat.",
+            "pt": "The user attacks with a gust of chilled air. It also lowers the target’s Speed stat.",
+            "hgss": "The user attacks with a gust of chilled air. It also lowers the target’s Speed stat.",
+            "bw": "The user attacks with a gust of chilled air. It also reduces the targets’ Speed stat.",
+            "b2w2": "The user attacks with a gust of chilled air. It also reduces the targets’ Speed stat.",
+            "xy": "The user attacks with a gust of chilled air. This also lowers the opposing Pokémon’s Speed stats.",
+            "oras": "The user attacks with a gust of chilled air. This also lowers the opposing Pokémon’s Speed stats.",
+            "sm": "The user attacks with a gust of chilled air. This also lowers the opposing Pokémon’s Speed stats.",
+            "usum": "The user attacks with a gust of chilled air. This also lowers the opposing Pokémon’s Speed stats.",
+            "lgpe": "The user attacks with a gust of chilled air. This also lowers the opposing Pokémon’s Speed stats.",
+            "swsh": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon’s Speed stats.",
+            "la": "The user attacks with a gust of chilled air.",
+            "sv": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats."
+        },
+        "french": {
+            "bw": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.",
+            "xy": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.",
+            "oras": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.",
+            "sm": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.",
+            "usum": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.",
+            "lgpe": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse.",
+            "swsh": "Une bourrasque de vent froid blesse l’ennemi. Réduit aussi sa Vitesse."
+        },
+        "japanese-kana": {
+            "xy": "つめたい　れいきを あいてに　ふきつけて　こうげきする。 あいての　すばやさを　さげる。",
+            "oras": "つめたい　れいきを あいてに　ふきつけて　こうげきする。 あいての　すばやさを　さげる。",
+            "sm": "つめたい　れいきを あいてに　ふきつけて　こうげきする。 あいての　すばやさを　さげる。",
+            "usum": "つめたい　れいきを あいてに　ふきつけて　こうげきする。 あいての　すばやさを　さげる。",
+            "lgpe": "つめたい　れいきを あいてに　ふきつけて　こうげきする。 あいての　すばやさを　さげる。",
+            "swsh": "つめたい　れいきを あいてに　ふきつけて　こうげきする。 あいての　すばやさを　さげる。"
+        },
+        "korean": {
+            "xy": "차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "oras": "차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "sm": "차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "usum": "차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "lgpe": "차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨린다.",
+            "swsh": "차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Eis-Attacke, die dem Ziel Schaden zufügt und seinen Initiative-Wert senkt.",
+            "oras": "Eis-Attacke, die dem Ziel Schaden zufügt und seinen Initiative-Wert senkt.",
+            "sm": "Eis-Attacke, die dem Ziel Schaden zufügt und seinen Initiative-Wert senkt.",
+            "usum": "Eis-Attacke, die dem Ziel Schaden zufügt und seinen Initiative-Wert senkt.",
+            "lgpe": "Eis-Attacke, die dem Ziel Schaden zufügt und seinen Initiative-Wert senkt.",
+            "swsh": "Eis-Attacke, die gegnerischen Pokémon Schaden zufügt und ihren Initiative-Wert senkt."
+        },
+        "spanish": {
+            "xy": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "oras": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "sm": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "usum": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "lgpe": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "swsh": "Ataque con aire helado que baja la Velocidad de los rivales."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca i nemici intorno con una folata di aria gelida e ne riduce anche la Velocità.",
+            "oras": "Chi la usa attacca i nemici intorno con una folata di aria gelida e ne riduce anche la Velocità.",
+            "sm": "Chi la usa attacca i nemici intorno con una folata di aria gelida e ne riduce anche la Velocità.",
+            "usum": "Chi la usa attacca i nemici intorno con una folata di aria gelida e ne riduce anche la Velocità.",
+            "lgpe": "Chi la usa attacca i nemici intorno con una folata di aria gelida e ne riduce anche la Velocità.",
+            "swsh": "Chi la usa attacca i nemici intorno con una folata di aria gelida e ne riduce anche la Velocità."
+        },
+        "japanese": {
+            "xy": "凍てつく　冷気を 相手に　吹きつけて　攻撃する。 相手の　素早さを　さげる。",
+            "oras": "凍てつく　冷気を 相手に　吹きつけて　攻撃する。 相手の　素早さを　さげる。",
+            "sm": "凍てつく　冷気を 相手に　吹きつけて　攻撃する。 相手の　素早さを　さげる。",
+            "usum": "凍てつく　冷気を 相手に　吹きつけて　攻撃する。 相手の　素早さを　さげる。",
+            "lgpe": "凍てつく　冷気を 相手に　吹きつけて　攻撃する。 相手の　素早さを　さげる。",
+            "swsh": "凍てつく　冷気を 相手に　吹きつけて　攻撃する。 相手の　素早さを　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "oras": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "sm": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "usum": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "lgpe": "Ataque con aire helado que baja la Velocidad de los rivales.",
+            "swsh": "Ataque con aire helado que baja la Velocidad de los rivales."
+        },
+        "traditional-chinese": {
+            "sm": "將冰冷的寒氣 吹向對手進行攻擊。 可降低對手的速度。",
+            "usum": "將冰冷的寒氣 吹向對手進行攻擊。 可降低對手的速度。",
+            "lgpe": "將冰冷的寒氣 吹向對手進行攻擊。 可降低對手的速度。",
+            "swsh": "將冰冷的寒氣 吹向對手進行攻擊。 可降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "将结冰的冷气 吹向对手进行攻击。 会降低对手的速度。",
+            "usum": "将结冰的冷气 吹向对手进行攻击。 会降低对手的速度。",
+            "lgpe": "将结冰的冷气 吹向对手进行攻击。 会降低对手的速度。",
+            "swsh": "将结冰的冷气 吹向对手进行攻击。 会降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Speed by one stage."
+    }
 }

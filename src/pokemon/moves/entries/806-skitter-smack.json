@@ -1,32 +1,84 @@
 {
-  "_id": 806,
-  "key": "skitter-smack",
-  "name": {
-    "english": "Skitter Smack",
-    "japanese": "はいよるいちげき",
-    "chinese": "爬擊",
-    "korean": "엄습하는일격",
-    "german": "Golpe Rastrero",
-    "french": "Krabbelkracher",
-    "italian": "Skitter Smack",
-    "spanish": "Strisciacolpo"
-  },
-  "type": "Bug",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 70,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user skitters behind the target to attack. This also\nlowers the target’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 806,
+    "key": "skitter-smack",
+    "name": {
+        "japanese-kana": "はいよるいちげき",
+        "korean": "엄습하는일격",
+        "traditional-chinese": "爬擊",
+        "french": "Ravage Rampant",
+        "german": "Krabbelkracher",
+        "spanish": "Golpe Rastrero",
+        "italian": "Strisciacolpo",
+        "english": "Skitter Smack",
+        "japanese": "はいよるいちげき",
+        "simplified-chinese": "爬击",
+        "latin-american-spanish": "Golpe Rastrero"
+    },
+    "type": "bug",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 70,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "はいごから　はいより　こうげきする。 あいての　とくこうを　さげる。"
+        },
+        "korean": {
+            "swsh": "배후에서 엄습해서 공격한다. 상대의 특수공격을 떨어뜨린다."
+        },
+        "traditional-chinese": {
+            "swsh": "從對手背後爬近後進行攻擊。 會降低對手的特攻。"
+        },
+        "french": {
+            "swsh": "Le lanceur rampe derrière l’ennemi pour l’attaquer. Baisse l’Attaque Spéciale de la cible."
+        },
+        "german": {
+            "swsh": "Der Anwender kriecht hinter das Ziel, greift es an und senkt dabei dessen Spezial-Angriff."
+        },
+        "spanish": {
+            "swsh": "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial."
+        },
+        "italian": {
+            "swsh": "Chi la usa attacca il bersaglio strisciandogli alle spalle e riducendo il suo Attacco Speciale."
+        },
+        "english": {
+            "swsh": "The user skitters behind the target to attack. This also lowers the target’s Sp. Atk stat.",
+            "la": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.",
+            "sv": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat."
+        },
+        "japanese": {
+            "swsh": "背後から　はいより　攻撃する。 相手の　特攻を　さげる。"
+        },
+        "simplified-chinese": {
+            "swsh": "从对手背后爬近后进行攻击。 会降低对手的特攻。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial."
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Special Attack by one stage.",
+        "shortEffect": "Lowers the target’s Special Attack by one stage."
+    }
 }

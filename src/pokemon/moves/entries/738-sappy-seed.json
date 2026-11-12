@@ -1,33 +1,99 @@
 {
-  "_id": 738,
-  "key": "sappy-seed",
-  "name": {
-    "english": "Sappy Seed",
-    "japanese": "すくすくボンバー",
-    "chinese": "茁茁轟炸",
-    "korean": "쑥쑥봄버",
-    "german": "Leafitobombas",
-    "french": "Sprießbomben",
-    "italian": "Sappy Seed",
-    "spanish": "Bombafrush"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 100,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The user grows a gigantic stalk that scatters seeds\nto attack the target. The seeds drain the target’s\nHP every turn.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 738,
+    "key": "sappy-seed",
+    "name": {
+        "japanese-kana": "すくすくボンバー",
+        "korean": "쑥쑥봄버",
+        "traditional-chinese": "茁茁轟炸",
+        "french": "Évo-Écolo",
+        "german": "Sprießbomben",
+        "spanish": "Leafitobombas",
+        "italian": "Bombafrush",
+        "english": "Sappy Seed",
+        "japanese": "すくすくボンバー",
+        "simplified-chinese": "茁茁炸弹",
+        "latin-american-spanish": "Leafitobombas"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 100,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "leech-seed",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "swsh": {
+            "accuracy": 100,
+            "power": 90,
+            "pp": 15
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "lgpe": "きょだいな　ツルを　はやし　タネを まきちらかして　こうげきする。　タネは まいターン　あいての　HPを　すいとる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "lgpe": "거대한 덩굴을 자라게 하고 씨를 흩뿌려서 공격한다. 씨는 매 턴 상대의 HP를 흡수한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "traditional-chinese": {
+            "lgpe": "長出巨大的藤蔓， 散播種子進行攻擊。 種子每回合都會吸取對手的HP。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "french": {
+            "lgpe": "Une liane géante surgit du sol et bombarde l’adversaire de graines qui lui dérobent des PV à chaque tour. Ces PV sont ensuite absorbés par Évoli.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "lgpe": "Evoli lässt eine riesige Ranke wachsen, von der Samen herabfallen, die dem Ziel schaden und ihm in jeder Runde KP absaugen.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "lgpe": "Hace brotar un tallo gigante que bombardea al rival con unas semillas que le drenan PS en cada turno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "lgpe": "Fa crescere un’enorme pianta che colpisce il bersaglio con una pioggia di semi. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "lgpe": "The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target’s HP every turn.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "lgpe": "巨大な　ツルを　生やし　タネを 撒きちらかして　攻撃する。　タネは 毎ターン　相手の　HPを　吸いとる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "simplified-chinese": {
+            "lgpe": "长出巨大的藤蔓， 播撒种子进行攻击。 种子每回合都会吸取对手的HP。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        },
+        "latin-american-spanish": {
+            "lgpe": "Hace brotar un tallo gigante que bombardea al rival con unas semillas que le drenan PS en cada turno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

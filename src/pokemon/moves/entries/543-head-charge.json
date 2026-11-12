@@ -1,39 +1,136 @@
 {
-  "_id": 543,
-  "key": "head-charge",
-  "name": {
-    "english": "Head Charge",
-    "japanese": "アフロブレイク",
-    "chinese": "爆爆头突击",
-    "korean": "아프로브레이크",
-    "german": "Ariete",
-    "french": "Steinschädel",
-    "italian": "Head Charge",
-    "spanish": "Ricciolata"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user charges its head into its\ntarget, using its powerful guard hair.\nIt also damages the user a little.",
-    "black-2-white-2": "The user charges its head into its\ntarget, using its powerful guard hair.\nIt also damages the user a little.",
-    "x-y": "The user charges its head into its\ntarget, using its powerful guard hair.\nThis also damages the user a little.",
-    "omega-ruby-alpha-sapphire": "The user charges its head into its\ntarget, using its powerful guard hair.\nThis also damages the user a little.",
-    "sun-moon": "The user charges its head into its target, using its\npowerful guard hair. This also damages the user\na little.",
-    "ultra-sun-ultra-moon": "The user charges its head into its target, using its\npowerful guard hair. This also damages the user\na little.",
-    "lets-go-pikachu-lets-go-eevee": "The user charges its head into its target, using its\npowerful guard hair. This also damages the user\na little.",
-    "sword-shield": "The user charges its head into its target, using its\npowerful guard hair. This also damages the user\na little."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
-    "shortEffect": "User receives 1/4 the damage it inflicts in recoil."
-  },
-  "priority": 0
+    "_id": 543,
+    "key": "head-charge",
+    "name": {
+        "japanese-kana": "アフロブレイク",
+        "korean": "아프로브레이크",
+        "traditional-chinese": "爆炸頭突擊",
+        "french": "Peignée",
+        "german": "Steinschädel",
+        "spanish": "Ariete",
+        "italian": "Ricciolata",
+        "english": "Head Charge",
+        "japanese": "アフロブレイク",
+        "simplified-chinese": "爆炸头突击",
+        "latin-american-spanish": "Carga de Cabeza"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -25,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.",
+            "xy": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.",
+            "oras": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.",
+            "sm": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.",
+            "usum": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.",
+            "lgpe": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.",
+            "swsh": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur."
+        },
+        "english": {
+            "bw": "The user charges its head into its target, using its powerful guard hair. It also damages the user a little.",
+            "b2w2": "The user charges its head into its target, using its powerful guard hair. It also damages the user a little.",
+            "xy": "The user charges its head into its target, using its powerful guard hair. This also damages the user a little.",
+            "oras": "The user charges its head into its target, using its powerful guard hair. This also damages the user a little.",
+            "sm": "The user charges its head into its target, using its powerful guard hair. This also damages the user a little.",
+            "usum": "The user charges its head into its target, using its powerful guard hair. This also damages the user a little.",
+            "lgpe": "The user charges its head into its target, using its powerful guard hair. This also damages the user a little.",
+            "swsh": "The user charges its head into its target, using its powerful guard hair. This also damages the user a little."
+        },
+        "japanese-kana": {
+            "xy": "すごい　アフロの　あたまで あいてに　とっしんして　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "oras": "すごい　アフロの　あたまで あいてに　とっしんして　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "sm": "すごい　アフロの　あたまで あいてに　とっしんして　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "usum": "すごい　アフロの　あたまで あいてに　とっしんして　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "lgpe": "すごい　アフロの　あたまで あいてに　とっしんして　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+            "swsh": "すごい　アフロの　あたまで あいてに　とっしんして　こうげきする。 じぶんも　すこし　ダメージを　うける。"
+        },
+        "korean": {
+            "xy": "굉장한 아프로 머리로 상대에게 돌진하여 공격한다. 자신도 조금 데미지를 입는다.",
+            "oras": "굉장한 아프로 머리로 상대에게 돌진하여 공격한다. 자신도 조금 데미지를 입는다.",
+            "sm": "굉장한 아프로 머리로 상대에게 돌진하여 공격한다. 자신도 조금 데미지를 입는다.",
+            "usum": "굉장한 아프로 머리로 상대에게 돌진하여 공격한다. 자신도 조금 데미지를 입는다.",
+            "lgpe": "굉장한 아프로 머리로 상대에게 돌진하여 공격한다. 자신도 조금 데미지를 입는다.",
+            "swsh": "굉장한 아프로 머리로 상대에게 돌진하여 공격한다. 자신도 조금 데미지를 입는다."
+        },
+        "german": {
+            "xy": "Rempelattacke mit ausgeflippter Retrofrisur. Anwender nimmt selbst leichten Schaden.",
+            "oras": "Rempelattacke mit ausgeflippter Retrofrisur. Anwender nimmt selbst leichten Schaden.",
+            "sm": "Rempelattacke mit ausgeflippter Retrofrisur. Anwender nimmt selbst leichten Schaden.",
+            "usum": "Rempelattacke mit ausgeflippter Retrofrisur. Anwender nimmt selbst leichten Schaden.",
+            "lgpe": "Rempelattacke mit ausgeflippter Retrofrisur. Anwender nimmt selbst leichten Schaden.",
+            "swsh": "Rempelattacke mit ausgeflippter Retrofrisur. Anwender nimmt selbst leichten Schaden."
+        },
+        "spanish": {
+            "xy": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "oras": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "sm": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "usum": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "lgpe": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "swsh": "Propina un tremendo cabezazo. También daña al usuario un poco."
+        },
+        "italian": {
+            "xy": "Chi la usa carica il bersaglio con la testa in stile afro, ma subisce un po’ di danni per il contraccolpo.",
+            "oras": "Chi la usa carica il bersaglio con la testa in stile afro, ma subisce un po’ di danni per il contraccolpo.",
+            "sm": "Chi la usa carica il bersaglio con la testa in stile afro, ma subisce un po’ di danni per il contraccolpo.",
+            "usum": "Chi la usa carica il bersaglio con la testa in stile afro, ma subisce un po’ di danni per il contraccolpo.",
+            "lgpe": "Chi la usa carica il bersaglio con la testa in stile afro, ma subisce un po’ di danni per il contraccolpo.",
+            "swsh": "Chi la usa carica il bersaglio con la testa in stile afro, ma subisce un po’ di danni per il contraccolpo."
+        },
+        "japanese": {
+            "xy": "すごい　アフロの　頭で 相手に　突進して　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "oras": "すごい　アフロの　頭で 相手に　突進して　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "sm": "すごい　アフロの　頭で 相手に　突進して　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "usum": "すごい　アフロの　頭で 相手に　突進して　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "lgpe": "すごい　アフロの　頭で 相手に　突進して　攻撃する。 自分も　少し　ダメージを　受ける。",
+            "swsh": "すごい　アフロの　頭で 相手に　突進して　攻撃する。 自分も　少し　ダメージを　受ける。"
+        },
+        "latin-american-spanish": {
+            "xy": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "oras": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "sm": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "usum": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "lgpe": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+            "swsh": "Propina un tremendo cabezazo. También daña al usuario un poco."
+        },
+        "traditional-chinese": {
+            "sm": "用帥氣的爆炸頭 猛撞對手進行攻擊。 自己也會受到少許傷害。",
+            "usum": "用帥氣的爆炸頭 猛撞對手進行攻擊。 自己也會受到少許傷害。",
+            "lgpe": "用帥氣的爆炸頭 猛撞對手進行攻擊。 自己也會受到少許傷害。",
+            "swsh": "用帥氣的爆炸頭 猛撞對手進行攻擊。 自己也會受到少許傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "用厉害的爆炸头 猛撞向对手进行攻击。 自己也会受到少许伤害。",
+            "usum": "用厉害的爆炸头 猛撞向对手进行攻击。 自己也会受到少许伤害。",
+            "lgpe": "用厉害的爆炸头 猛撞向对手进行攻击。 自己也会受到少许伤害。",
+            "swsh": "用厉害的爆炸头 猛撞向对手进行攻击。 自己也会受到少许伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+        "shortEffect": "User receives 1/4 the damage it inflicts in recoil."
+    }
 }

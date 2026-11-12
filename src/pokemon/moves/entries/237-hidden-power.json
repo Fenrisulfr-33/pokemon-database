@@ -1,47 +1,148 @@
 {
-  "_id": 237,
-  "key": "hidden-power",
-  "name": {
-    "english": "Hidden Power",
-    "japanese": "めざめるパワー",
-    "chinese": "催醒",
-    "korean": "잠재파워",
-    "german": "Poder Oculto",
-    "french": "Kraftreserve",
-    "italian": "Hidden Power",
-    "spanish": "Introforza"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "The power varies\nwith the POKéMON.",
-    "crystal": "The power varies\nwith the POKéMON.",
-    "ruby-sapphire": "The effectiveness varies\nwith the user.",
-    "emerald": "The effectiveness varies\nwith the user.",
-    "firered-leafgreen": "An attack that\nvaries in type and\nintensity depending\non the user.",
-    "diamond-pearl": "A unique attack that\nvaries in type and\nintensity depending\non the Pokémon using\nit.",
-    "platinum": "A unique attack that\nvaries in type and\nintensity depending\non the Pokémon using\nit.",
-    "heartgold-soulsilver": "A unique attack that\nvaries in type and\nintensity depending\non the Pokémon using\nit.",
-    "black-white": "A unique attack that varies in type and\nintensity depending on the Pokémon\nusing it.",
-    "black-2-white-2": "A unique attack that varies in type and\nintensity depending on the Pokémon\nusing it.",
-    "x-y": "A unique attack that varies in type\ndepending on the Pokémon using it.\n",
-    "omega-ruby-alpha-sapphire": "A unique attack that varies in type\ndepending on the Pokémon using it.\n",
-    "sun-moon": "A unique attack that varies in type depending on the\nPokémon using it.",
-    "ultra-sun-ultra-moon": "A unique attack that varies in type depending on the\nPokémon using it.",
-    "lets-go-pikachu-lets-go-eevee": "A unique attack that varies in type depending on the\nPokémon using it.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Power and type are determined by the user's IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time.",
-    "shortEffect": "Power and type depend upon user's IVs.  Power can range from 30 to 70."
-  },
-  "priority": 0
+    "_id": 237,
+    "key": "hidden-power",
+    "name": {
+        "japanese-kana": "めざめるパワー",
+        "korean": "잠재파워",
+        "traditional-chinese": "覺醒力量",
+        "french": "Puissance Cachée",
+        "german": "Kraftreserve",
+        "spanish": "Poder Oculto",
+        "italian": "Introforza",
+        "english": "Hidden Power",
+        "japanese": "めざめるパワー",
+        "simplified-chinese": "觉醒力量",
+        "latin-american-spanish": "Poder Oculto"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "smart",
+    "pp": 15,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 1
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "The power varies with the POKéMON.",
+            "cr": "The power varies with the POKéMON.",
+            "rs": "The effectiveness varies with the user.",
+            "em": "The effectiveness varies with the user.",
+            "frlg": "An attack that varies in type and intensity depending on the user.",
+            "dp": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
+            "pt": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
+            "hgss": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
+            "bw": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
+            "b2w2": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
+            "xy": "A unique attack that varies in type depending on the Pokémon using it.",
+            "oras": "A unique attack that varies in type depending on the Pokémon using it.",
+            "sm": "A unique attack that varies in type depending on the Pokémon using it.",
+            "usum": "A unique attack that varies in type depending on the Pokémon using it.",
+            "lgpe": "A unique attack that varies in type depending on the Pokémon using it.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Attaque dont la puissance et le type dépendent du Pokémon qui l’utilise.",
+            "xy": "Attaque dont le type dépend du Pokémon qui l’utilise.",
+            "oras": "Attaque dont le type dépend du Pokémon qui l’utilise.",
+            "sm": "Attaque dont le type dépend du Pokémon qui l’utilise.",
+            "usum": "Attaque dont le type dépend du Pokémon qui l’utilise.",
+            "lgpe": "Attaque dont le type dépend du Pokémon qui l’utilise.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "わざを　つかった　ポケモンに　よって わざの　タイプが　かわる。",
+            "oras": "わざを　つかった　ポケモンに　よって わざの　タイプが　かわる。",
+            "sm": "わざを　つかった　ポケモンに　よって わざの　タイプが　かわる。",
+            "usum": "わざを　つかった　ポケモンに　よって わざの　タイプが　かわる。",
+            "lgpe": "わざを　つかった　ポケモンに　よって わざの　タイプが　かわる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "기술을 쓴 포켓몬에 따라 기술의 타입이 바뀐다.",
+            "oras": "기술을 쓴 포켓몬에 따라 기술의 타입이 바뀐다.",
+            "sm": "기술을 쓴 포켓몬에 따라 기술의 타입이 바뀐다.",
+            "usum": "기술을 쓴 포켓몬에 따라 기술의 타입이 바뀐다.",
+            "lgpe": "기술을 쓴 포켓몬에 따라 기술의 타입이 바뀐다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Wirkung und Typ der Attacke hängen vom Anwender ab.",
+            "oras": "Wirkung und Typ der Attacke hängen vom Anwender ab.",
+            "sm": "Wirkung und Typ der Attacke hängen vom Anwender ab.",
+            "usum": "Wirkung und Typ der Attacke hängen vom Anwender ab.",
+            "lgpe": "Wirkung und Typ der Attacke hängen vom Anwender ab.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "oras": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "sm": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "usum": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "lgpe": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Mossa singolare che cambia tipo a seconda del Pokémon che la usa.",
+            "oras": "Mossa singolare che cambia tipo a seconda del Pokémon che la usa.",
+            "sm": "Mossa singolare che cambia tipo a seconda del Pokémon che la usa.",
+            "usum": "Mossa singolare che cambia tipo a seconda del Pokémon che la usa.",
+            "lgpe": "Mossa singolare che cambia tipo a seconda del Pokémon che la usa.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "技を　使った　ポケモンに　よって 技の　タイプが　変わる。",
+            "oras": "技を　使った　ポケモンに　よって 技の　タイプが　変わる。",
+            "sm": "技を　使った　ポケモンに　よって 技の　タイプが　変わる。",
+            "usum": "技を　使った　ポケモンに　よって 技の　タイプが　変わる。",
+            "lgpe": "技を　使った　ポケモンに　よって 技の　タイプが　変わる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "oras": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "sm": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "usum": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "lgpe": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "招式的屬性會隨著 使用此招式的寶可夢而改變。",
+            "usum": "招式的屬性會隨著 使用此招式的寶可夢而改變。",
+            "lgpe": "招式的屬性會隨著 使用此招式的寶可夢而改變。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "招式的属性会随着 使用此招式的宝可梦而改变。",
+            "usum": "招式的属性会随着 使用此招式的宝可梦而改变。",
+            "lgpe": "招式的属性会随着 使用此招式的宝可梦而改变。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Power and type are determined by the user’s IVs. Power is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.) Power is always between 30 and 70, inclusive.  Average power is 49.5. Type is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table. Value | Type ----: | --------     0 | Fighting     1 | Flying     2 | Poison     3 | Ground     4 | Rock     5 | Bug     6 | Ghost     7 | Steel     8 | Fire     9 | Water    10 | Grass    11 | Electric    12 | Psychic    13 | Ice    14 | Dragon    15 | Dark This move thus cannot be Normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, Bug, Fighting, and Grass appear 5/64 of the time, and Dark only 1/64 of the time.",
+        "shortEffect": "Power and type depend upon user’s IVs.  Power can range from 30 to 70."
+    }
 }

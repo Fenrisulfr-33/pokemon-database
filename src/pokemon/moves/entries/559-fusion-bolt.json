@@ -1,39 +1,138 @@
 {
-  "_id": 559,
-  "key": "fusion-bolt",
-  "name": {
-    "english": "Fusion Bolt",
-    "japanese": "クロスサンダー",
-    "chinese": "十字交叉闪电",
-    "korean": "크로스썬더",
-    "german": "Rayo Fusión",
-    "french": "Kreuzdonner",
-    "italian": "Fusion Bolt",
-    "spanish": "Incrotuono"
-  },
-  "type": "Electric",
-  "category": "Physical",
-  "contest": null,
-  "pp": 5,
-  "power": 100,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user throws down a giant thunderbolt.\nThis attack does greater damage\nwhen influenced by an enormous flame.",
-    "black-2-white-2": "The user throws down a giant thunderbolt.\nThis attack does greater damage\nwhen influenced by an enormous flame.",
-    "x-y": "The user throws down a giant thunderbolt.\nThis move is more powerful when\ninfluenced by an enormous flame.",
-    "omega-ruby-alpha-sapphire": "The user throws down a giant thunderbolt.\nThis move is more powerful when\ninfluenced by an enormous flame.",
-    "sun-moon": "The user throws down a giant lightning bolt. This\nmove’s power is increased when influenced by an\nenormous flame.",
-    "ultra-sun-ultra-moon": "The user throws down a giant lightning bolt. This\nmove’s power is increased when influenced by an\nenormous flame.",
-    "lets-go-pikachu-lets-go-eevee": "The user throws down a giant lightning bolt. This\nmove’s power is increased when influenced by an\nenormous flame.",
-    "sword-shield": "The user throws down a giant lightning bolt. This\nmove’s power is increased when influenced by an\nenormous flame."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If a friendly Pokémon used fusion flare earlier this turn, this move has double power.",
-    "shortEffect": "With Fusion Flare, inflicts double damage."
-  },
-  "priority": 0
+    "_id": 559,
+    "key": "fusion-bolt",
+    "name": {
+        "japanese-kana": "クロスサンダー",
+        "korean": "크로스썬더",
+        "traditional-chinese": "交錯閃電",
+        "french": "Éclair Croix",
+        "german": "Kreuzdonner",
+        "spanish": "Rayo Fusión",
+        "italian": "Incrotuono",
+        "english": "Fusion Bolt",
+        "japanese": "クロスサンダー",
+        "simplified-chinese": "交错闪电",
+        "latin-american-spanish": "Rayo Fusión"
+    },
+    "type": "electric",
+    "category": "physical",
+    "contest": null,
+    "pp": 5,
+    "power": 100,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix.",
+            "xy": "Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix.",
+            "oras": "Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix.",
+            "sm": "Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix.",
+            "usum": "Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix.",
+            "lgpe": "Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix.",
+            "swsh": "Projette un orbe électrique gigantesque. L’effet augmente sous l’influence de Flamme Croix."
+        },
+        "english": {
+            "bw": "The user throws down a giant thunderbolt. This attack does greater damage when influenced by an enormous flame.",
+            "b2w2": "The user throws down a giant thunderbolt. This attack does greater damage when influenced by an enormous flame.",
+            "xy": "The user throws down a giant thunderbolt. This move is more powerful when influenced by an enormous flame.",
+            "oras": "The user throws down a giant thunderbolt. This move is more powerful when influenced by an enormous flame.",
+            "sm": "The user throws down a giant lightning bolt. This move’s power is increased when influenced by an enormous flame.",
+            "usum": "The user throws down a giant lightning bolt. This move’s power is increased when influenced by an enormous flame.",
+            "lgpe": "The user throws down a giant lightning bolt. This move’s power is increased when influenced by an enormous flame.",
+            "swsh": "The user throws down a giant lightning bolt. This move’s power is increased when influenced by an enormous flame.",
+            "la": "The user throws down a giant lightning bolt. This move's power is increased when influenced by an enormous flame.",
+            "sv": "The user throws down a giant lightning bolt. This move's power is boosted when influenced by an enormous flame."
+        },
+        "japanese-kana": {
+            "xy": "きょだいな　いかずちを　たたきつける。 きょだいな　ほのおの　えいきょうをうけ わざの　いりょくが　あがる。",
+            "oras": "きょだいな　いかずちを　たたきつける。 きょだいな　ほのおの　えいきょうをうけ わざの　いりょくが　あがる。",
+            "sm": "きょだいな　いかずちを　たたきつける。 きょだいな　ほのおの　えいきょうをうけ わざの　いりょくが　あがる。",
+            "usum": "きょだいな　いかずちを　たたきつける。 きょだいな　ほのおの　えいきょうをうけ わざの　いりょくが　あがる。",
+            "lgpe": "きょだいな　いかずちを　たたきつける。 きょだいな　ほのおの　えいきょうをうけ わざの　いりょくが　あがる。",
+            "swsh": "きょだいな　いかずちを　たたきつける。 きょだいな　ほのおの　えいきょうをうけ わざの　いりょくが　あがる。"
+        },
+        "korean": {
+            "xy": "거대한 천둥을 내리친다. 거대한 불꽃의 영향을 받아 기술의 위력이 올라간다.",
+            "oras": "거대한 천둥을 내리친다. 거대한 불꽃의 영향을 받아 기술의 위력이 올라간다.",
+            "sm": "거대한 천둥을 내리친다. 거대한 불꽃의 영향을 받아 기술의 위력이 올라간다.",
+            "usum": "거대한 천둥을 내리친다. 거대한 불꽃의 영향을 받아 기술의 위력이 올라간다.",
+            "lgpe": "거대한 천둥을 내리친다. 거대한 불꽃의 영향을 받아 기술의 위력이 올라간다.",
+            "swsh": "거대한 천둥을 내리친다. 거대한 불꽃의 영향을 받아 기술의 위력이 올라간다."
+        },
+        "german": {
+            "xy": "Feuert einen monströsen Blitz ab. Wird die Attacke durch eine gigantische Flamme modifiziert, steigt die Stärke.",
+            "oras": "Feuert einen monströsen Blitz ab. Wird die Attacke durch eine gigantische Flamme modifiziert, steigt die Stärke.",
+            "sm": "Feuert einen monströsen Blitz ab. Wird die Attacke durch eine gigantische Flamme modifiziert, steigt die Stärke.",
+            "usum": "Feuert einen monströsen Blitz ab. Wird die Attacke durch eine gigantische Flamme modifiziert, steigt die Stärke.",
+            "lgpe": "Feuert einen monströsen Blitz ab. Wird die Attacke durch eine gigantische Flamme modifiziert, steigt die Stärke.",
+            "swsh": "Feuert einen monströsen Blitz ab. Wird die Attacke durch eine gigantische Flamme modifiziert, steigt die Stärke."
+        },
+        "spanish": {
+            "xy": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "oras": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "sm": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "usum": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "lgpe": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "swsh": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia un fulmine enorme. Se usata in combinazione con Incrofiamma, il danno provocato dalla mossa aumenta.",
+            "oras": "Chi la usa lancia un fulmine enorme. Se usata in combinazione con Incrofiamma, il danno provocato dalla mossa aumenta.",
+            "sm": "Chi la usa lancia un fulmine enorme. Se usata in combinazione con Incrofiamma, il danno provocato dalla mossa aumenta.",
+            "usum": "Chi la usa lancia un fulmine enorme. Se usata in combinazione con Incrofiamma, il danno provocato dalla mossa aumenta.",
+            "lgpe": "Chi la usa lancia un fulmine enorme. Se usata in combinazione con Incrofiamma, il danno provocato dalla mossa aumenta.",
+            "swsh": "Chi la usa lancia un fulmine enorme. Se usata in combinazione con Incrofiamma, il danno provocato dalla mossa aumenta."
+        },
+        "japanese": {
+            "xy": "巨大な　雷を　たたきつける。 巨大な　炎の　影響を受け 技の　威力が　あがる。",
+            "oras": "巨大な　雷を　たたきつける。 巨大な　炎の　影響を受け 技の　威力が　あがる。",
+            "sm": "巨大な　雷を　たたきつける。 巨大な　炎の　影響を受け 技の　威力が　あがる。",
+            "usum": "巨大な　雷を　たたきつける。 巨大な　炎の　影響を受け 技の　威力が　あがる。",
+            "lgpe": "巨大な　雷を　たたきつける。 巨大な　炎の　影響を受け 技の　威力が　あがる。",
+            "swsh": "巨大な　雷を　たたきつける。 巨大な　炎の　影響を受け 技の　威力が　あがる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "oras": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "sm": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "usum": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "lgpe": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.",
+            "swsh": "Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada."
+        },
+        "traditional-chinese": {
+            "sm": "放出巨大的閃電攻擊對手。 受到巨大的火焰影響時， 招式的威力會提高。",
+            "usum": "放出巨大的閃電攻擊對手。 受到巨大的火焰影響時， 招式的威力會提高。",
+            "lgpe": "放出巨大的閃電攻擊對手。 受到巨大的火焰影響時， 招式的威力會提高。",
+            "swsh": "放出巨大的閃電攻擊對手。 受到巨大的火焰影響時， 招式的威力會提高。"
+        },
+        "simplified-chinese": {
+            "sm": "释放出巨大的闪电。 受到巨大的火焰影响时， 招式威力会提高。",
+            "usum": "释放出巨大的闪电。 受到巨大的火焰影响时， 招式威力会提高。",
+            "lgpe": "释放出巨大的闪电。 受到巨大的火焰影响时， 招式威力会提高。",
+            "swsh": "释放出巨大的闪电。 受到巨大的火焰影响时， 招式威力会提高。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If a friendly Pokémon used Fusion Flare earlier this turn, this move has double power.",
+        "shortEffect": "With Fusion Flare, inflicts double damage."
+    }
 }

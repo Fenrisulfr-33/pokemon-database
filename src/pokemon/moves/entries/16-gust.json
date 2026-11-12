@@ -1,47 +1,161 @@
 {
-  "_id": 16,
-  "key": "gust",
-  "name": {
-    "english": "Gust",
-    "japanese": "かぜおこし",
-    "chinese": "烈暴风",
-    "korean": "바람일으키기",
-    "german": "Tornado",
-    "french": "Windstoß",
-    "italian": "Gust",
-    "spanish": "Raffica"
-  },
-  "type": "Flying",
-  "category": "Special",
-  "contest": "Smart",
-  "pp": 35,
-  "power": 40,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Whips up a strong\ngust of wind.",
-    "crystal": "Whips up a strong\ngust of wind.",
-    "ruby-sapphire": "Strikes the foe with a gust\nof wind whipped up by wings.",
-    "emerald": "Strikes the foe with a gust\nof wind whipped up by wings.",
-    "firered-leafgreen": "Strikes the foe\nwith a gust of wind\nwhipped up by\nwings.",
-    "diamond-pearl": "A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n",
-    "platinum": "A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n",
-    "heartgold-soulsilver": "A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n",
-    "black-white": "A gust of wind is whipped up by wings and\nlaunched at the target to inflict damage.",
-    "black-2-white-2": "A gust of wind is whipped up by wings and\nlaunched at the target to inflict damage.",
-    "x-y": "A gust of wind is whipped up by wings and\nlaunched at the target to inflict damage.",
-    "omega-ruby-alpha-sapphire": "A gust of wind is whipped up by wings and\nlaunched at the target to inflict damage.",
-    "sun-moon": "A gust of wind is whipped up by wings and launched\nat the target to inflict damage.",
-    "ultra-sun-ultra-moon": "A gust of wind is whipped up by wings and launched\nat the target to inflict damage.",
-    "lets-go-pikachu-lets-go-eevee": "A gust of wind is whipped up by wings and launched\nat the target to inflict damage.",
-    "sword-shield": "A gust of wind is whipped up by wings and launched\nat the target to inflict damage."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.\n\nIf the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",
-    "shortEffect": "Inflicts regular damage and can hit Pokémon in the air."
-  },
-  "priority": 0
+    "_id": 16,
+    "key": "gust",
+    "name": {
+        "japanese-kana": "かぜおこし",
+        "korean": "바람일으키기",
+        "traditional-chinese": "起風",
+        "french": "Tornade",
+        "german": "Windstoß",
+        "spanish": "Tornado",
+        "italian": "Raffica",
+        "english": "Gust",
+        "japanese": "かぜおこし",
+        "simplified-chinese": "起风",
+        "latin-american-spanish": "Ráfaga de Aire"
+    },
+    "type": "flying",
+    "category": "special",
+    "contest": "smart",
+    "pp": 35,
+    "power": 40,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "type": "normal",
+            "effect": {
+                "full": "Inflicts regular damage.",
+                "shortEffect": "Inflicts regular damage with no additional effect."
+            }
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "Ne touche pas les Pokémon sous les effets de Vol."
+        },
+        "english": {
+            "gs": "Does not hit Pokémon under the effects of Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "Whips up a strong gust of wind.",
+            "cr": "Whips up a strong gust of wind.",
+            "rs": "Strikes the foe with a gust of wind whipped up by wings.",
+            "em": "Strikes the foe with a gust of wind whipped up by wings.",
+            "frlg": "Strikes the foe with a gust of wind whipped up by wings.",
+            "dp": "A gust of wind is whipped up by wings and launched at the foe to inflict damage.",
+            "pt": "A gust of wind is whipped up by wings and launched at the foe to inflict damage.",
+            "hgss": "A gust of wind is whipped up by wings and launched at the foe to inflict damage.",
+            "bw": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "b2w2": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "xy": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "oras": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "sm": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "usum": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "lgpe": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "swsh": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "la": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+            "sv": "A gust of wind is whipped up by wings and launched at the target to inflict damage."
+        },
+        "french": {
+            "bw": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.",
+            "xy": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.",
+            "oras": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.",
+            "sm": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.",
+            "usum": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.",
+            "lgpe": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.",
+            "swsh": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "つばさで　おこした　はげしい　かぜを あいてに　ぶつけて　こうげきする。",
+            "oras": "つばさで　おこした　はげしい　かぜを あいてに　ぶつけて　こうげきする。",
+            "sm": "つばさで　おこした　はげしい　かぜを あいてに　ぶつけて　こうげきする。",
+            "usum": "つばさで　おこした　はげしい　かぜを あいてに　ぶつけて　こうげきする。",
+            "lgpe": "つばさで　おこした　はげしい　かぜを あいてに　ぶつけて　こうげきする。",
+            "swsh": "つばさで　おこした　はげしい　かぜを あいてに　ぶつけて　こうげきする。"
+        },
+        "korean": {
+            "xy": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다.",
+            "oras": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다.",
+            "sm": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다.",
+            "usum": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다.",
+            "lgpe": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다.",
+            "swsh": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다."
+        },
+        "german": {
+            "xy": "Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.",
+            "oras": "Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.",
+            "sm": "Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.",
+            "usum": "Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.",
+            "lgpe": "Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.",
+            "swsh": "Trifft das Ziel mit einem Windstoß, den es mit seinen Flügeln erzeugt."
+        },
+        "spanish": {
+            "xy": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "oras": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "sm": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "usum": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "lgpe": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "swsh": "Crea un tornado con las alas y lo lanza contra el objetivo."
+        },
+        "italian": {
+            "xy": "Infligge danni al bersaglio con una folata di vento sollevata dalle ali.",
+            "oras": "Infligge danni al bersaglio con una folata di vento sollevata dalle ali.",
+            "sm": "Infligge danni al bersaglio con una folata di vento sollevata dalle ali.",
+            "usum": "Infligge danni al bersaglio con una folata di vento sollevata dalle ali.",
+            "lgpe": "Infligge danni al bersaglio con una folata di vento sollevata dalle ali.",
+            "swsh": "Infligge danni al bersaglio con una folata di vento sollevata dalle ali."
+        },
+        "japanese": {
+            "xy": "翼で　おこした　激しい　風を 相手に　ぶつけて　攻撃する。",
+            "oras": "翼で　おこした　激しい　風を 相手に　ぶつけて　攻撃する。",
+            "sm": "翼で　おこした　激しい　風を 相手に　ぶつけて　攻撃する。",
+            "usum": "翼で　おこした　激しい　風を 相手に　ぶつけて　攻撃する。",
+            "lgpe": "翼で　おこした　激しい　風を 相手に　ぶつけて　攻撃する。",
+            "swsh": "翼で　おこした　激しい　風を 相手に　ぶつけて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "oras": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "sm": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "usum": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "lgpe": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+            "swsh": "Crea un tornado con las alas y lo lanza contra el objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用翅膀刮起狂風， 吹向對手進行攻擊。",
+            "usum": "用翅膀刮起狂風， 吹向對手進行攻擊。",
+            "lgpe": "用翅膀刮起狂風， 吹向對手進行攻擊。",
+            "swsh": "用翅膀刮起狂風， 吹向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "用翅膀将刮起的狂风 袭向对手进行攻击。",
+            "usum": "用翅膀将刮起的狂风 袭向对手进行攻击。",
+            "lgpe": "用翅膀将刮起的狂风 袭向对手进行攻击。",
+            "swsh": "用翅膀将刮起的狂风 袭向对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. If the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power.",
+        "shortEffect": "Inflicts regular damage and can hit Pokémon in the air."
+    }
 }

@@ -1,35 +1,117 @@
 {
-  "_id": 664,
-  "key": "sparkling-aria",
-  "name": {
-    "english": "Sparkling Aria",
-    "japanese": "うたかたのアリア",
-    "chinese": "泡影的詠歎調",
-    "korean": "물거품아리아",
-    "german": "Aria Burbuja",
-    "french": "Schaumserenade",
-    "italian": "Sparkling Aria",
-    "spanish": "Canto Effimero"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user bursts into song, emitting many bubbles.\nAny Pokémon suffering from a burn will be healed\nby the touch of these bubbles.",
-    "ultra-sun-ultra-moon": "The user bursts into song, emitting many bubbles.\nAny Pokémon suffering from a burn will be healed\nby the touch of these bubbles.",
-    "lets-go-pikachu-lets-go-eevee": "The user bursts into song, emitting many bubbles.\nAny Pokémon suffering from a burn will be healed\nby the touch of these bubbles.",
-    "sword-shield": "The user bursts into song, emitting many bubbles.\nAny Pokémon suffering from a burn will be healed\nby the touch of these bubbles."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target has a burn and takes damage from this move, its burn is healed.",
-    "shortEffect": "Cures the target of burns."
-  },
-  "priority": 0
+    "_id": 664,
+    "key": "sparkling-aria",
+    "name": {
+        "japanese-kana": "うたかたのアリア",
+        "korean": "물거품아리아",
+        "traditional-chinese": "泡影的詠歎調",
+        "french": "Aria de l’Écume",
+        "german": "Schaumserenade",
+        "spanish": "Aria Burbuja",
+        "italian": "Canto Effimero",
+        "english": "Sparkling Aria",
+        "japanese": "うたかたのアリア",
+        "simplified-chinese": "泡影的咏叹调",
+        "latin-american-spanish": "Aria Burbuja"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "うたうことによって　たくさんの バルーンを　ほうしゅつする。 わざを　うけると　やけどが　なおる。",
+            "usum": "うたうことによって　たくさんの バルーンを　ほうしゅつする。 わざを　うけると　やけどが　なおる。",
+            "lgpe": "うたうことによって　たくさんの バルーンを　ほうしゅつする。 わざを　うけると　やけどが　なおる。",
+            "swsh": "うたうことによって　たくさんの バルーンを　ほうしゅつする。 わざを　うけると　やけどが　なおる。"
+        },
+        "korean": {
+            "sm": "노래 부르는 것으로 많은 벌룬을 방출한다. 기술에 맞으면 화상이 낫는다.",
+            "usum": "노래 부르는 것으로 많은 벌룬을 방출한다. 기술에 맞으면 화상이 낫는다.",
+            "lgpe": "노래 부르는 것으로 많은 벌룬을 방출한다. 기술에 맞으면 화상이 낫는다.",
+            "swsh": "노래 부르는 것으로 많은 벌룬을 방출한다. 기술에 맞으면 화상이 낫는다."
+        },
+        "traditional-chinese": {
+            "sm": "隨著歌聲放出許多水球。 受此招式攻擊時， 灼傷會被治癒。",
+            "usum": "隨著歌聲放出許多水球。 受此招式攻擊時， 灼傷會被治癒。",
+            "lgpe": "隨著歌聲放出許多水球。 受此招式攻擊時， 灼傷會被治癒。",
+            "swsh": "隨著歌聲放出許多水球。 受此招式攻擊時， 灼傷會被治癒。"
+        },
+        "french": {
+            "sm": "Le lanceur émet plusieurs bulles en chantant. Soigne les brûlures des Pokémon touchés par ces bulles.",
+            "usum": "Le lanceur émet plusieurs bulles en chantant. Soigne les brûlures des Pokémon touchés par ces bulles.",
+            "lgpe": "Le lanceur émet plusieurs bulles en chantant. Soigne les brûlures des Pokémon touchés par ces bulles.",
+            "swsh": "Le lanceur émet plusieurs bulles en chantant. Soigne les brûlures des Pokémon touchés par ces bulles."
+        },
+        "german": {
+            "sm": "Durch Gesang erzeugte Blasen werden auf das Ziel geschleudert. Alle Pokémon, die dadurch Schaden erleiden, werden auch von Verbrennungen geheilt.",
+            "usum": "Durch Gesang erzeugte Blasen werden auf das Ziel geschleudert. Alle Pokémon, die dadurch Schaden erleiden, werden auch von Verbrennungen geheilt.",
+            "lgpe": "Durch Gesang erzeugte Blasen werden auf das Ziel geschleudert. Alle Pokémon, die dadurch Schaden erleiden, werden auch von Verbrennungen geheilt.",
+            "swsh": "Durch Gesang erzeugte Blasen werden auf das Ziel geschleudert. Alle Pokémon, die dadurch Schaden erleiden, werden auch von Verbrennungen geheilt."
+        },
+        "spanish": {
+            "sm": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.",
+            "usum": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.",
+            "lgpe": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.",
+            "swsh": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño."
+        },
+        "italian": {
+            "sm": "Chi la usa si mette a cantare emettendo tanti palloncini d’acqua. I Pokémon che subiscono danni da questa mossa guariscono dalle scottature.",
+            "usum": "Chi la usa si mette a cantare emettendo tanti palloncini d’acqua. I Pokémon che subiscono danni da questa mossa guariscono dalle scottature.",
+            "lgpe": "Chi la usa si mette a cantare emettendo tanti palloncini d’acqua. I Pokémon che subiscono danni da questa mossa guariscono dalle scottature.",
+            "swsh": "Chi la usa si mette a cantare emettendo tanti palloncini d’acqua. I Pokémon che subiscono danni da questa mossa guariscono dalle scottature."
+        },
+        "english": {
+            "sm": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles.",
+            "usum": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles.",
+            "lgpe": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles.",
+            "swsh": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles.",
+            "la": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles.",
+            "sv": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be cured by the touch of these bubbles."
+        },
+        "japanese": {
+            "sm": "歌うことによって　たくさんの バルーンを　放出する。 技を　受けると　やけどが　治る。",
+            "usum": "歌うことによって　たくさんの バルーンを　放出する。 技を　受けると　やけどが　治る。",
+            "lgpe": "歌うことによって　たくさんの バルーンを　放出する。 技を　受けると　やけどが　治る。",
+            "swsh": "歌うことによって　たくさんの バルーンを　放出する。 技を　受けると　やけどが　治る。"
+        },
+        "simplified-chinese": {
+            "sm": "随着唱歌会放出很多气球。 受到此招式攻击时， 灼伤会被治愈。",
+            "usum": "随着唱歌会放出很多气球。 受到此招式攻击时， 灼伤会被治愈。",
+            "lgpe": "随着唱歌会放出很多气球。 受到此招式攻击时， 灼伤会被治愈。",
+            "swsh": "随着唱歌会放出很多气球。 受到此招式攻击时， 灼伤会被治愈。"
+        },
+        "latin-american-spanish": {
+            "sm": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.",
+            "usum": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.",
+            "lgpe": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.",
+            "swsh": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target has a burn and takes damage from this move, its burn is healed.",
+        "shortEffect": "Cures the target of burns."
+    }
 }

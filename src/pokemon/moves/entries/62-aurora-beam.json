@@ -1,47 +1,146 @@
 {
-  "_id": 62,
-  "key": "aurora-beam",
-  "name": {
-    "english": "Aurora Beam",
-    "japanese": "オーロラビーム",
-    "chinese": "极光束",
-    "korean": "오로라빔",
-    "german": "Rayo Aurora",
-    "french": "Aurorastrahl",
-    "italian": "Aurora Beam",
-    "spanish": "Raggiaurora"
-  },
-  "type": "Ice",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nlower ATTACK.",
-    "crystal": "An attack that may\nlower ATTACK.",
-    "ruby-sapphire": "Fires a rainbow-colored\nbeam that may lower ATTACK.",
-    "emerald": "Fires a rainbow-colored\nbeam that may lower ATTACK.",
-    "firered-leafgreen": "A rainbow-colored\nattack beam.\nIt may lower the\nfoe’s ATTACK stat.",
-    "diamond-pearl": "The foe is hit with a\nrainbow-colored beam.\nIt may also lower the\ntarget’s Attack\nstat.",
-    "platinum": "The foe is hit with a\nrainbow-colored beam.\nIt may also lower the\ntarget’s Attack\nstat.",
-    "heartgold-soulsilver": "The foe is hit with a\nrainbow-colored beam.\nIt may also lower the\ntarget’s Attack\nstat.",
-    "black-white": "The target is hit with a rainbow-colored\nbeam. This may also lower the target’s\nAttack stat.",
-    "black-2-white-2": "The target is hit with a rainbow-colored\nbeam. This may also lower the target’s\nAttack stat.",
-    "x-y": "The target is hit with a rainbow-colored\nbeam. This may also lower the target’s\nAttack stat.",
-    "omega-ruby-alpha-sapphire": "The target is hit with a rainbow-colored\nbeam. This may also lower the target’s\nAttack stat.",
-    "sun-moon": "The target is hit with a rainbow-colored beam.\nThis may also lower the target’s Attack stat.",
-    "ultra-sun-ultra-moon": "The target is hit with a rainbow-colored beam.\nThis may also lower the target’s Attack stat.",
-    "lets-go-pikachu-lets-go-eevee": "The target is hit with a rainbow-colored beam.\nThis may also lower the target’s Attack stat.",
-    "sword-shield": "The target is hit with a rainbow-colored beam.\nThis may also lower the target’s Attack stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Attack by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Attack by one stage."
-  },
-  "priority": 0
+    "_id": 62,
+    "key": "aurora-beam",
+    "name": {
+        "japanese-kana": "オーロラビーム",
+        "korean": "오로라빔",
+        "traditional-chinese": "極光束",
+        "french": "Onde Boréale",
+        "german": "Aurorastrahl",
+        "spanish": "Rayo Aurora",
+        "italian": "Raggiaurora",
+        "english": "Aurora Beam",
+        "japanese": "オーロラビーム",
+        "simplified-chinese": "极光束",
+        "latin-american-spanish": "Rayo Aurora"
+    },
+    "type": "ice",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may lower ATTACK.",
+            "cr": "An attack that may lower ATTACK.",
+            "rs": "Fires a rainbow-colored beam that may lower ATTACK.",
+            "em": "Fires a rainbow-colored beam that may lower ATTACK.",
+            "frlg": "A rainbow-colored attack beam. It may lower the foe’s ATTACK stat.",
+            "dp": "The foe is hit with a rainbow-colored beam. It may also lower the target’s Attack stat.",
+            "pt": "The foe is hit with a rainbow-colored beam. It may also lower the target’s Attack stat.",
+            "hgss": "The foe is hit with a rainbow-colored beam. It may also lower the target’s Attack stat.",
+            "bw": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "b2w2": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "xy": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "oras": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "sm": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "usum": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "lgpe": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "swsh": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+            "la": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
+            "sv": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat."
+        },
+        "french": {
+            "bw": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.",
+            "xy": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.",
+            "oras": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.",
+            "sm": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.",
+            "usum": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.",
+            "lgpe": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.",
+            "swsh": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque."
+        },
+        "japanese-kana": {
+            "xy": "にじいろの　ビームを あいてに　はっしゃして　こうげきする。 こうげきを　さげる　ことが　ある。",
+            "oras": "にじいろの　ビームを あいてに　はっしゃして　こうげきする。 こうげきを　さげる　ことが　ある。",
+            "sm": "にじいろの　ビームを あいてに　はっしゃして　こうげきする。 こうげきを　さげる　ことが　ある。",
+            "usum": "にじいろの　ビームを あいてに　はっしゃして　こうげきする。 こうげきを　さげる　ことが　ある。",
+            "lgpe": "にじいろの　ビームを あいてに　はっしゃして　こうげきする。 こうげきを　さげる　ことが　ある。",
+            "swsh": "にじいろの　ビームを あいてに　はっしゃして　こうげきする。 こうげきを　さげる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다.",
+            "oras": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다.",
+            "sm": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다.",
+            "usum": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다.",
+            "lgpe": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다.",
+            "swsh": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Regenbogenfarbener Strahl, der eventuell den Angriffs-Wert des Zieles senkt.",
+            "oras": "Regenbogenfarbener Strahl, der eventuell den Angriffs-Wert des Zieles senkt.",
+            "sm": "Regenbogenfarbener Strahl, der eventuell den Angriffs-Wert des Zieles senkt.",
+            "usum": "Regenbogenfarbener Strahl, der eventuell den Angriffs-Wert des Zieles senkt.",
+            "lgpe": "Regenbogenfarbener Strahl, der eventuell den Angriffs-Wert des Zieles senkt.",
+            "swsh": "Regenbogenfarbener Strahl, der eventuell den Angriffs-Wert des Zieles senkt."
+        },
+        "spanish": {
+            "xy": "Rayo multicolor que puede reducir el Ataque.",
+            "oras": "Rayo multicolor que puede reducir el Ataque.",
+            "sm": "Rayo multicolor que puede reducir el Ataque.",
+            "usum": "Rayo multicolor que puede reducir el Ataque.",
+            "lgpe": "Rayo multicolor que puede reducir el Ataque.",
+            "swsh": "Rayo multicolor que puede reducir el Ataque."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un raggio dai colori dell’iride. Può anche ridurne l’Attacco.",
+            "oras": "Colpisce il bersaglio con un raggio dai colori dell’iride. Può anche ridurne l’Attacco.",
+            "sm": "Colpisce il bersaglio con un raggio dai colori dell’iride. Può anche ridurne l’Attacco.",
+            "usum": "Colpisce il bersaglio con un raggio dai colori dell’iride. Può anche ridurne l’Attacco.",
+            "lgpe": "Colpisce il bersaglio con un raggio dai colori dell’iride. Può anche ridurne l’Attacco.",
+            "swsh": "Colpisce il bersaglio con un raggio dai colori dell’iride. Può anche ridurne l’Attacco."
+        },
+        "japanese": {
+            "xy": "にじいろの　ビームを 相手に　発射して　攻撃する。 攻撃を　さげる　ことが　ある。",
+            "oras": "にじいろの　ビームを 相手に　発射して　攻撃する。 攻撃を　さげる　ことが　ある。",
+            "sm": "にじいろの　ビームを 相手に　発射して　攻撃する。 攻撃を　さげる　ことが　ある。",
+            "usum": "にじいろの　ビームを 相手に　発射して　攻撃する。 攻撃を　さげる　ことが　ある。",
+            "lgpe": "にじいろの　ビームを 相手に　発射して　攻撃する。 攻撃を　さげる　ことが　ある。",
+            "swsh": "にじいろの　ビームを 相手に　発射して　攻撃する。 攻撃を　さげる　ことが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Rayo multicolor que puede reducir el Ataque.",
+            "oras": "Rayo multicolor que puede reducir el Ataque.",
+            "sm": "Rayo multicolor que puede reducir el Ataque.",
+            "usum": "Rayo multicolor que puede reducir el Ataque.",
+            "lgpe": "Rayo multicolor que puede reducir el Ataque.",
+            "swsh": "Rayo multicolor que puede reducir el Ataque."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 七彩光束進行攻擊。 有時會降低對手的攻擊。",
+            "usum": "向對手發射 七彩光束進行攻擊。 有時會降低對手的攻擊。",
+            "lgpe": "向對手發射 七彩光束進行攻擊。 有時會降低對手的攻擊。",
+            "swsh": "向對手發射 七彩光束進行攻擊。 有時會降低對手的攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 虹色光束进行攻击。 有时会降低对手的攻击。",
+            "usum": "向对手发射 虹色光束进行攻击。 有时会降低对手的攻击。",
+            "lgpe": "向对手发射 虹色光束进行攻击。 有时会降低对手的攻击。",
+            "swsh": "向对手发射 虹色光束进行攻击。 有时会降低对手的攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Attack by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Attack by one stage."
+    }
 }

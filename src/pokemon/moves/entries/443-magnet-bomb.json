@@ -1,42 +1,146 @@
 {
-  "_id": 443,
-  "key": "magnet-bomb",
-  "name": {
-    "english": "Magnet Bomb",
-    "japanese": "マグネットボム",
-    "chinese": "磁铁爆弹",
-    "korean": "마그넷봄",
-    "german": "Bomba Imán",
-    "french": "Magnetbombe",
-    "italian": "Magnet Bomb",
-    "spanish": "Bombagnete"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 60,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user launches a\nsteel bomb that\nsticks to the target.\nThis attack will not\nmiss.",
-    "platinum": "The user launches a\nsteel bomb that\nsticks to the target.\nThis attack will not\nmiss.",
-    "heartgold-soulsilver": "The user launches a\nsteel bomb that\nsticks to the target.\nThis attack will not\nmiss.",
-    "black-white": "The user launches steel bombs that\nstick to the target.\nThis attack will not miss.",
-    "black-2-white-2": "The user launches steel bombs that\nstick to the target.\nThis attack will not miss.",
-    "x-y": "The user launches steel bombs that\nstick to the target.\nThis attack never misses.",
-    "omega-ruby-alpha-sapphire": "The user launches steel bombs that\nstick to the target.\nThis attack never misses.",
-    "sun-moon": "The user launches steel bombs that stick to the\ntarget. This attack never misses.",
-    "ultra-sun-ultra-moon": "The user launches steel bombs that stick to the\ntarget. This attack never misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user launches steel bombs that stick to the\ntarget. This attack never misses.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 443,
+    "key": "magnet-bomb",
+    "name": {
+        "japanese-kana": "マグネットボム",
+        "korean": "마그넷봄",
+        "traditional-chinese": "磁鐵炸彈",
+        "french": "Bombe Aimant",
+        "german": "Magnetbombe",
+        "spanish": "Bomba Imán",
+        "italian": "Bombagnete",
+        "english": "Magnet Bomb",
+        "japanese": "マグネットボム",
+        "simplified-chinese": "磁铁炸弹",
+        "latin-american-spanish": "Magnetobomba"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "dp": "The user launches a steel bomb that sticks to the target. This attack will not miss.",
+            "pt": "The user launches a steel bomb that sticks to the target. This attack will not miss.",
+            "hgss": "The user launches a steel bomb that sticks to the target. This attack will not miss.",
+            "bw": "The user launches steel bombs that stick to the target. This attack will not miss.",
+            "b2w2": "The user launches steel bombs that stick to the target. This attack will not miss.",
+            "xy": "The user launches steel bombs that stick to the target. This attack never misses.",
+            "oras": "The user launches steel bombs that stick to the target. This attack never misses.",
+            "sm": "The user launches steel bombs that stick to the target. This attack never misses.",
+            "usum": "The user launches steel bombs that stick to the target. This attack never misses.",
+            "lgpe": "The user launches steel bombs that stick to the target. This attack never misses.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais.",
+            "xy": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais.",
+            "oras": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais.",
+            "sm": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais.",
+            "usum": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais.",
+            "lgpe": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "あいてに　すいつく はがねの　ばくだんを　はっしゃする。 こうげきは　かならず　めいちゅう　する。",
+            "oras": "あいてに　すいつく はがねの　ばくだんを　はっしゃする。 こうげきは　かならず　めいちゅう　する。",
+            "sm": "あいてに　すいつく はがねの　ばくだんを　はっしゃする。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "あいてに　すいつく はがねの　ばくだんを　はっしゃする。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "あいてに　すいつく はがねの　ばくだんを　はっしゃする。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "상대에게 달라붙는 강철의 폭탄을 발사한다. 공격은 반드시 명중한다.",
+            "oras": "상대에게 달라붙는 강철의 폭탄을 발사한다. 공격은 반드시 명중한다.",
+            "sm": "상대에게 달라붙는 강철의 폭탄을 발사한다. 공격은 반드시 명중한다.",
+            "usum": "상대에게 달라붙는 강철의 폭탄을 발사한다. 공격은 반드시 명중한다.",
+            "lgpe": "상대에게 달라붙는 강철의 폭탄을 발사한다. 공격은 반드시 명중한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Ziel wird durch Haftbomben getroffen. Diese Attacke trifft immer.",
+            "oras": "Ziel wird durch Haftbomben getroffen. Diese Attacke trifft immer.",
+            "sm": "Ziel wird durch Haftbomben getroffen. Diese Attacke trifft immer.",
+            "usum": "Ziel wird durch Haftbomben getroffen. Diese Attacke trifft immer.",
+            "lgpe": "Ziel wird durch Haftbomben getroffen. Diese Attacke trifft immer.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "oras": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "sm": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "usum": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "lgpe": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa lancia bombe d’acciaio che si attaccano al bersaglio. Una mossa infallibile.",
+            "oras": "Chi la usa lancia bombe d’acciaio che si attaccano al bersaglio. Una mossa infallibile.",
+            "sm": "Chi la usa lancia bombe d’acciaio che si attaccano al bersaglio. Una mossa infallibile.",
+            "usum": "Chi la usa lancia bombe d’acciaio che si attaccano al bersaglio. Una mossa infallibile.",
+            "lgpe": "Chi la usa lancia bombe d’acciaio che si attaccano al bersaglio. Una mossa infallibile.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "相手に　吸いつく 鋼の　爆弾を　発射する。 攻撃は　必ず　命中　する。",
+            "oras": "相手に　吸いつく 鋼の　爆弾を　発射する。 攻撃は　必ず　命中　する。",
+            "sm": "相手に　吸いつく 鋼の　爆弾を　発射する。 攻撃は　必ず　命中　する。",
+            "usum": "相手に　吸いつく 鋼の　爆弾を　発射する。 攻撃は　必ず　命中　する。",
+            "lgpe": "相手に　吸いつく 鋼の　爆弾を　発射する。 攻撃は　必ず　命中　する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "oras": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "sm": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "usum": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "lgpe": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "發射能吸住對手的 鋼鐵炸彈。 攻擊必定會命中。",
+            "usum": "發射能吸住對手的 鋼鐵炸彈。 攻擊必定會命中。",
+            "lgpe": "發射能吸住對手的 鋼鐵炸彈。 攻擊必定會命中。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "发射吸住对手的 钢铁炸弹。 攻击必定会命中。",
+            "usum": "发射吸住对手的 钢铁炸弹。 攻击必定会命中。",
+            "lgpe": "发射吸住对手的 钢铁炸弹。 攻击必定会命中。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

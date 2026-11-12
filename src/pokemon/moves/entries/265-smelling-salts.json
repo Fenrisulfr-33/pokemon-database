@@ -1,45 +1,146 @@
 {
-  "_id": 265,
-  "key": "smelling-salts",
-  "name": {
-    "english": "Smelling Salts",
-    "japanese": "きつけ",
-    "chinese": "苏醒",
-    "korean": "정신차리기",
-    "german": "Estímulo",
-    "french": "Riechsalz",
-    "italian": "Smelling Salts",
-    "spanish": "Maniereforti"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 10,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Powerful against paralyzed\nfoes, but also heals them.",
-    "emerald": "Powerful against paralyzed\nfoes, but also heals them.",
-    "firered-leafgreen": "Doubly effective on\na paralyzed foe,\nbut it also cures\nthe foe’s paralysis.",
-    "diamond-pearl": "This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe’s\nparalysis, however.",
-    "platinum": "This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe’s\nparalysis, however.",
-    "heartgold-soulsilver": "This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe’s\nparalysis, however.",
-    "black-white": "This attack inflicts double damage on a\ntarget with paralysis. It also cures the\ntarget’s paralysis, however.",
-    "black-2-white-2": "This attack inflicts double damage on a\ntarget with paralysis. It also cures the\ntarget’s paralysis, however.",
-    "x-y": "This attack inflicts double damage on a\ntarget with paralysis. This also cures the\ntarget’s paralysis, however.",
-    "omega-ruby-alpha-sapphire": "This attack inflicts double damage on a\ntarget with paralysis. This also cures the\ntarget’s paralysis, however.",
-    "sun-moon": "This attack’s power is doubled when used on a\ntarget with paralysis. This also cures the target’s\nparalysis, however.",
-    "ultra-sun-ultra-moon": "This attack’s power is doubled when used on a\ntarget with paralysis. This also cures the target’s\nparalysis, however.",
-    "lets-go-pikachu-lets-go-eevee": "This attack’s power is doubled when used on a\ntarget with paralysis. This also cures the target’s\nparalysis, however.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target is paralyzed, this move has double power, and the target is cured of its paralysis.",
-    "shortEffect": "If the target is paralyzed, inflicts double damage and cures the paralysis."
-  },
-  "priority": 0
+    "_id": 265,
+    "key": "smelling-salts",
+    "name": {
+        "japanese-kana": "きつけ",
+        "korean": "정신차리기",
+        "traditional-chinese": "清醒",
+        "french": "Stimulant",
+        "german": "Riechsalz",
+        "spanish": "Estímulo",
+        "italian": "Maniereforti",
+        "english": "Smelling Salts",
+        "japanese": "きつけ",
+        "simplified-chinese": "清醒",
+        "latin-american-spanish": "Estímulo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 10,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 60
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Powerful against paralyzed foes, but also heals them.",
+            "em": "Powerful against paralyzed foes, but also heals them.",
+            "frlg": "Doubly effective on a paralyzed foe, but it also cures the foe’s paralysis.",
+            "dp": "This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.",
+            "pt": "This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.",
+            "hgss": "This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.",
+            "bw": "This attack inflicts double damage on a target with paralysis. It also cures the target’s paralysis, however.",
+            "b2w2": "This attack inflicts double damage on a target with paralysis. It also cures the target’s paralysis, however.",
+            "xy": "This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however.",
+            "oras": "This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however.",
+            "sm": "This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.",
+            "usum": "This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.",
+            "lgpe": "This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie.",
+            "xy": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie.",
+            "oras": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie.",
+            "sm": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie.",
+            "usum": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie.",
+            "lgpe": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "まひ　じょうたいの　あいてには いりょくが　２ばいに　なるが かわりに　あいての　まひが　なおる。",
+            "oras": "まひ　じょうたいの　あいてには いりょくが　２ばいに　なるが かわりに　あいての　まひが　なおる。",
+            "sm": "まひ　じょうたいの　あいてには いりょくが　２ばいに　なるが かわりに　あいての　まひが　なおる。",
+            "usum": "まひ　じょうたいの　あいてには いりょくが　２ばいに　なるが かわりに　あいての　まひが　なおる。",
+            "lgpe": "まひ　じょうたいの　あいてには いりょくが　２ばいに　なるが かわりに　あいての　まひが　なおる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "마비 상태의 상대에게는 위력이 2배가 되지만 대신 상대의 마비가 풀린다.",
+            "oras": "마비 상태의 상대에게는 위력이 2배가 되지만 대신 상대의 마비가 풀린다.",
+            "sm": "마비 상태의 상대에게는 위력이 2배가 되지만 대신 상대의 마비가 풀린다.",
+            "usum": "마비 상태의 상대에게는 위력이 2배가 되지만 대신 상대의 마비가 풀린다.",
+            "lgpe": "마비 상태의 상대에게는 위력이 2배가 되지만 대신 상대의 마비가 풀린다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.",
+            "oras": "Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.",
+            "sm": "Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.",
+            "usum": "Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.",
+            "lgpe": "Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "oras": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "sm": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "usum": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "lgpe": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Infligge un danno doppio a un bersaglio paralizzato, ma ne cura anche la paralisi.",
+            "oras": "Infligge un danno doppio a un bersaglio paralizzato, ma ne cura anche la paralisi.",
+            "sm": "Infligge un danno doppio a un bersaglio paralizzato, ma ne cura anche la paralisi.",
+            "usum": "Infligge un danno doppio a un bersaglio paralizzato, ma ne cura anche la paralisi.",
+            "lgpe": "Infligge un danno doppio a un bersaglio paralizzato, ma ne cura anche la paralisi.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "まひ状態の　相手には 威力が　２倍に　なるが かわりに　相手の　まひが　治る。",
+            "oras": "まひ状態の　相手には 威力が　２倍に　なるが かわりに　相手の　まひが　治る。",
+            "sm": "まひ状態の　相手には 威力が　２倍に　なるが かわりに　相手の　まひが　治る。",
+            "usum": "まひ状態の　相手には 威力が　２倍に　なるが かわりに　相手の　まひが　治る。",
+            "lgpe": "まひ状態の　相手には 威力が　２倍に　なるが かわりに　相手の　まひが　治る。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "oras": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "sm": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "usum": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "lgpe": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "攻擊陷入麻痺狀態的對手時， 威力會變成２倍。 但也會治癒對手的麻痺。",
+            "usum": "攻擊陷入麻痺狀態的對手時， 威力會變成２倍。 但也會治癒對手的麻痺。",
+            "lgpe": "攻擊陷入麻痺狀態的對手時， 威力會變成２倍。 但也會治癒對手的麻痺。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "对于麻痹状态下的对手， 威力会变成２倍。 但相反对手的麻痹也会被治愈。",
+            "usum": "对于麻痹状态下的对手， 威力会变成２倍。 但相反对手的麻痹也会被治愈。",
+            "lgpe": "对于麻痹状态下的对手， 威力会变成２倍。 但相反对手的麻痹也会被治愈。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target is paralyzed, this move has double power, and the target is cured of its paralysis.",
+        "shortEffect": "If the target is paralyzed, inflicts double damage and cures the paralysis."
+    }
 }

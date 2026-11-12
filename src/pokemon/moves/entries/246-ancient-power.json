@@ -1,47 +1,146 @@
 {
-  "_id": 246,
-  "key": "ancient-power",
-  "name": {
-    "english": "Ancient Power",
-    "japanese": "げんしのちから",
-    "chinese": "原始之力",
-    "korean": "원시의힘",
-    "german": "Poder Pasado",
-    "french": "Antik-Kraft",
-    "italian": "Ancient Power",
-    "spanish": "Forzantica"
-  },
-  "type": "Rock",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 5,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\nraise all stats.",
-    "crystal": "An attack that may\nraise all stats.",
-    "ruby-sapphire": "An attack that may raise\nall stats.",
-    "emerald": "An attack that may raise\nall stats.",
-    "firered-leafgreen": "An ancient power is\nused to attack. It\nmay also raise all\nthe user’s stats.",
-    "diamond-pearl": "The user attacks with\na prehistoric power.\nIt may also raise all\nthe user’s stats at\nonce.",
-    "platinum": "The user attacks with\na prehistoric power.\nIt may also raise all\nthe user’s stats at\nonce.",
-    "heartgold-soulsilver": "The user attacks with\na prehistoric power.\nIt may also raise all\nthe user’s stats at\nonce.",
-    "black-white": "The user attacks with a prehistoric power.\nIt may also raise all the user’s stats\nat once.",
-    "black-2-white-2": "The user attacks with a prehistoric power.\nIt may also raise all the user’s stats\nat once.",
-    "x-y": "The user attacks with a prehistoric power.\nThis may also raise all the user’s stats\nat once.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a prehistoric power.\nThis may also raise all the user’s stats\nat once.",
-    "sun-moon": "The user attacks with a prehistoric power.\nThis may also raise all the user’s stats at once.",
-    "ultra-sun-ultra-moon": "The user attacks with a prehistoric power.\nThis may also raise all the user’s stats at once.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a prehistoric power.\nThis may also raise all the user’s stats at once.",
-    "sword-shield": "The user attacks with a prehistoric power.\nThis may also raise all the user’s stats at once."
-  },
-  "effect": {
-    "full": "Inflicts regular damage. Has a $effect_chance% chance to raise all of the user's stats one stage.",
-    "shortEffect": "Has a $effect_chance% chance to raise all of the user's stats by one stage."
-  },
-  "priority": 0
+    "_id": 246,
+    "key": "ancient-power",
+    "name": {
+        "japanese-kana": "げんしのちから",
+        "korean": "원시의힘",
+        "traditional-chinese": "原始之力",
+        "french": "Pouvoir Antique",
+        "german": "Antik-Kraft",
+        "spanish": "Poder Pasado",
+        "italian": "Forzantica",
+        "english": "Ancient Power",
+        "japanese": "げんしのちから",
+        "simplified-chinese": "原始之力",
+        "latin-american-spanish": "Poder Antiguo"
+    },
+    "type": "rock",
+    "category": "special",
+    "contest": "tough",
+    "pp": 5,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may raise all stats.",
+            "cr": "An attack that may raise all stats.",
+            "rs": "An attack that may raise all stats.",
+            "em": "An attack that may raise all stats.",
+            "frlg": "An ancient power is used to attack. It may also raise all the user’s stats.",
+            "dp": "The user attacks with a prehistoric power. It may also raise all the user’s stats at once.",
+            "pt": "The user attacks with a prehistoric power. It may also raise all the user’s stats at once.",
+            "hgss": "The user attacks with a prehistoric power. It may also raise all the user’s stats at once.",
+            "bw": "The user attacks with a prehistoric power. It may also raise all the user’s stats at once.",
+            "b2w2": "The user attacks with a prehistoric power. It may also raise all the user’s stats at once.",
+            "xy": "The user attacks with a prehistoric power. This may also raise all the user’s stats at once.",
+            "oras": "The user attacks with a prehistoric power. This may also raise all the user’s stats at once.",
+            "sm": "The user attacks with a prehistoric power. This may also raise all the user’s stats at once.",
+            "usum": "The user attacks with a prehistoric power. This may also raise all the user’s stats at once.",
+            "lgpe": "The user attacks with a prehistoric power. This may also raise all the user’s stats at once.",
+            "swsh": "The user attacks with a prehistoric power. This may also raise all the user’s stats at once.",
+            "la": "The user attacks with a primeval power. This may also raise the user's offensive and defensive stats.",
+            "sv": "The user attacks with a prehistoric power. This may also boost all the user's stats at once."
+        },
+        "french": {
+            "bw": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.",
+            "xy": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.",
+            "oras": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.",
+            "sm": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.",
+            "usum": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.",
+            "lgpe": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.",
+            "swsh": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup."
+        },
+        "japanese-kana": {
+            "xy": "げんしの　ちからで　こうげきする。 じぶんの　すべての のうりょくが　あがることが　ある。",
+            "oras": "げんしの　ちからで　こうげきする。 じぶんの　すべての のうりょくが　あがることが　ある。",
+            "sm": "げんしの　ちからで　こうげきする。 じぶんの　すべての のうりょくが　あがることが　ある。",
+            "usum": "げんしの　ちからで　こうげきする。 じぶんの　すべての のうりょくが　あがることが　ある。",
+            "lgpe": "げんしの　ちからで　こうげきする。 じぶんの　すべての のうりょくが　あがることが　ある。",
+            "swsh": "げんしの　ちからで　こうげきする。 じぶんの　すべての のうりょくが　あがることが　ある。"
+        },
+        "korean": {
+            "xy": "원시의 힘으로 공격한다. 자신의 모든 능력이 오를 때가 있다.",
+            "oras": "원시의 힘으로 공격한다. 자신의 모든 능력이 오를 때가 있다.",
+            "sm": "원시의 힘으로 공격한다. 자신의 모든 능력이 오를 때가 있다.",
+            "usum": "원시의 힘으로 공격한다. 자신의 모든 능력이 오를 때가 있다.",
+            "lgpe": "원시의 힘으로 공격한다. 자신의 모든 능력이 오를 때가 있다.",
+            "swsh": "원시의 힘으로 공격한다. 자신의 모든 능력이 오를 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.",
+            "oras": "Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.",
+            "sm": "Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.",
+            "usum": "Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.",
+            "lgpe": "Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.",
+            "swsh": "Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann."
+        },
+        "spanish": {
+            "xy": "Ataque prehistórico que puede subir todas las características.",
+            "oras": "Ataque prehistórico que puede subir todas las características.",
+            "sm": "Ataque prehistórico que puede subir todas las características.",
+            "usum": "Ataque prehistórico que puede subir todas las características.",
+            "lgpe": "Ataque prehistórico que puede subir todas las características.",
+            "swsh": "Ataque prehistórico que puede subir todas las características."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.",
+            "oras": "Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.",
+            "sm": "Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.",
+            "usum": "Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.",
+            "lgpe": "Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.",
+            "swsh": "Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche."
+        },
+        "japanese": {
+            "xy": "原始の　力で　攻撃する。 自分の　すべての 能力が　あがることが　ある。",
+            "oras": "原始の　力で　攻撃する。 自分の　すべての 能力が　あがることが　ある。",
+            "sm": "原始の　力で　攻撃する。 自分の　すべての 能力が　あがることが　ある。",
+            "usum": "原始の　力で　攻撃する。 自分の　すべての 能力が　あがることが　ある。",
+            "lgpe": "原始の　力で　攻撃する。 自分の　すべての 能力が　あがることが　ある。",
+            "swsh": "原始の　力で　攻撃する。 自分の　すべての 能力が　あがることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque prehistórico que puede subir todas las características.",
+            "oras": "Ataque prehistórico que puede subir todas las características.",
+            "sm": "Ataque prehistórico que puede subir todas las características.",
+            "usum": "Ataque prehistórico que puede subir todas las características.",
+            "lgpe": "Ataque prehistórico que puede subir todas las características.",
+            "swsh": "Ataque prehistórico que puede subir todas las características."
+        },
+        "traditional-chinese": {
+            "sm": "用原始之力進行攻擊。 有時會提高 自己的所有能力。",
+            "usum": "用原始之力進行攻擊。 有時會提高 自己的所有能力。",
+            "lgpe": "用原始之力進行攻擊。 有時會提高 自己的所有能力。",
+            "swsh": "用原始之力進行攻擊。 有時會提高 自己的所有能力。"
+        },
+        "simplified-chinese": {
+            "sm": "用原始之力进行攻击。 有时会提高 自己所有的能力。",
+            "usum": "用原始之力进行攻击。 有时会提高 自己所有的能力。",
+            "lgpe": "用原始之力进行攻击。 有时会提高 自己所有的能力。",
+            "swsh": "用原始之力进行攻击。 有时会提高 自己所有的能力。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. Has a chance to raise all of the user’s stats one stage.",
+        "shortEffect": "Has a chance to raise all of the user’s stats by one stage."
+    }
 }

@@ -1,35 +1,117 @@
 {
-  "_id": 662,
-  "key": "spirit-shackle",
-  "name": {
-    "english": "Spirit Shackle",
-    "japanese": "かげぬい",
-    "chinese": "縫影",
-    "korean": "그림자꿰매기",
-    "german": "Puntada Sombría",
-    "french": "Schattenfessel",
-    "italian": "Spirit Shackle",
-    "spanish": "Cucitura d’Ombra"
-  },
-  "type": "Ghost",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 7,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sun-moon": "The user attacks while simultaneously stitching the\ntarget’s shadow to the ground to prevent the target\nfrom escaping.",
-    "ultra-sun-ultra-moon": "The user attacks while simultaneously stitching the\ntarget’s shadow to the ground to prevent the target\nfrom escaping.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks while simultaneously stitching the\ntarget’s shadow to the ground to prevent the target\nfrom escaping.",
-    "sword-shield": "The user attacks while simultaneously stitching the\ntarget’s shadow to the ground to prevent the target\nfrom escaping."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Traps the target.",
-    "shortEffect": "Traps the target."
-  },
-  "priority": 0
+    "_id": 662,
+    "key": "spirit-shackle",
+    "name": {
+        "japanese-kana": "かげぬい",
+        "korean": "그림자꿰매기",
+        "traditional-chinese": "縫影",
+        "french": "Tisse Ombre",
+        "german": "Schattenfessel",
+        "spanish": "Puntada Sombría",
+        "italian": "Cucitura d’Ombra",
+        "english": "Spirit Shackle",
+        "japanese": "かげぬい",
+        "simplified-chinese": "缝影",
+        "latin-american-spanish": "Puntada Sombría"
+    },
+    "type": "ghost",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 7,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "sm": "こうげきと　どうじに あいての　かげを　ぬいつけて にげられなくする。",
+            "usum": "こうげきと　どうじに あいての　かげを　ぬいつけて にげられなくする。",
+            "lgpe": "こうげきと　どうじに あいての　かげを　ぬいつけて にげられなくする。",
+            "swsh": "こうげきと　どうじに あいての　かげを　ぬいつけて にげられなくする。"
+        },
+        "korean": {
+            "sm": "공격과 동시에 상대의 그림자를 꿰매 도망칠 수 없게 한다.",
+            "usum": "공격과 동시에 상대의 그림자를 꿰매 도망칠 수 없게 한다.",
+            "lgpe": "공격과 동시에 상대의 그림자를 꿰매 도망칠 수 없게 한다.",
+            "swsh": "공격과 동시에 상대의 그림자를 꿰매 도망칠 수 없게 한다."
+        },
+        "traditional-chinese": {
+            "sm": "攻擊的同時， 縫住對手的影子， 使其無法逃走。",
+            "usum": "攻擊的同時， 縫住對手的影子， 使其無法逃走。",
+            "lgpe": "攻擊的同時， 縫住對手的影子， 使其無法逃走。",
+            "swsh": "攻擊的同時， 縫住對手的影子， 使其無法逃走。"
+        },
+        "french": {
+            "sm": "Une attaque qui coud l’ennemi à son ombre, ce qui l’empêche de s’enfuir.",
+            "usum": "Une attaque qui coud l’ennemi à son ombre, ce qui l’empêche de s’enfuir.",
+            "lgpe": "Une attaque qui coud l’ennemi à son ombre, ce qui l’empêche de s’enfuir.",
+            "swsh": "Une attaque qui coud l’ennemi à son ombre, ce qui l’empêche de s’enfuir."
+        },
+        "german": {
+            "sm": "Der Anwender greift das Ziel an und näht zugleich dessen Schatten am Boden fest, sodass es nicht entkommen kann.",
+            "usum": "Der Anwender greift das Ziel an und näht zugleich dessen Schatten am Boden fest, sodass es nicht entkommen kann.",
+            "lgpe": "Der Anwender greift das Ziel an und näht zugleich dessen Schatten am Boden fest, sodass es nicht entkommen kann.",
+            "swsh": "Der Anwender greift das Ziel an und näht zugleich dessen Schatten am Boden fest, sodass es nicht entkommen kann."
+        },
+        "spanish": {
+            "sm": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno, impidiendo su huida.",
+            "usum": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno, impidiendo su huida.",
+            "lgpe": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida.",
+            "swsh": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida."
+        },
+        "italian": {
+            "sm": "Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire.",
+            "usum": "Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire.",
+            "lgpe": "Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire.",
+            "swsh": "Chi la usa attacca il bersaglio e fissa la sua ombra a terra impedendogli di fuggire."
+        },
+        "english": {
+            "sm": "The user attacks while simultaneously stitching the target’s shadow to the ground to prevent the target from escaping.",
+            "usum": "The user attacks while simultaneously stitching the target’s shadow to the ground to prevent the target from escaping.",
+            "lgpe": "The user attacks while simultaneously stitching the target’s shadow to the ground to prevent the target from escaping.",
+            "swsh": "The user attacks while simultaneously stitching the target’s shadow to the ground to prevent the target from escaping.",
+            "la": "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from escaping.",
+            "sv": "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from fleeing."
+        },
+        "japanese": {
+            "sm": "攻撃と　同時に 相手の　影を　縫い付けて 逃げられなくする。",
+            "usum": "攻撃と　同時に 相手の　影を　縫い付けて 逃げられなくする。",
+            "lgpe": "攻撃と　同時に 相手の　影を　縫い付けて 逃げられなくする。",
+            "swsh": "攻撃と　同時に 相手の　影を　縫い付けて 逃げられなくする。"
+        },
+        "simplified-chinese": {
+            "sm": "攻击的同时， 缝住对手的影子， 使其无法逃走。",
+            "usum": "攻击的同时， 缝住对手的影子， 使其无法逃走。",
+            "lgpe": "攻击的同时， 缝住对手的影子， 使其无法逃走。",
+            "swsh": "攻击的同时， 缝住对手的影子， 使其无法逃走。"
+        },
+        "latin-american-spanish": {
+            "sm": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno, impidiendo su huida.",
+            "usum": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno, impidiendo su huida.",
+            "lgpe": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida.",
+            "swsh": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Traps the target.",
+        "shortEffect": "Traps the target."
+    }
 }

@@ -1,45 +1,144 @@
 {
-  "_id": 306,
-  "key": "crush-claw",
-  "name": {
-    "english": "Crush Claw",
-    "japanese": "ブレイククロー",
-    "chinese": "突击爪",
-    "korean": "브레이크크루",
-    "german": "Garra Brutal",
-    "french": "Zermalmklaue",
-    "italian": "Crush Claw",
-    "spanish": "Tritartigli"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 75,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Tears at the foe with sharp\nclaws. May lower DEFENSE.",
-    "emerald": "Tears at the foe with sharp\nclaws. May lower DEFENSE.",
-    "firered-leafgreen": "The foe is attacked\nwith sharp claws.\nIt may also lower\nthe foe’s DEFENSE.",
-    "diamond-pearl": "The user slashes the\nfoe with hard and\nsharp claws.\nIt may also lower the\ntarget’s Defense.",
-    "platinum": "The user slashes the\nfoe with hard and\nsharp claws.\nIt may also lower the\ntarget’s Defense.",
-    "heartgold-soulsilver": "The user slashes the\nfoe with hard and\nsharp claws.\nIt may also lower the\ntarget’s Defense.",
-    "black-white": "The user slashes the target with hard\nand sharp claws.\nIt may also lower the target’s Defense.",
-    "black-2-white-2": "The user slashes the target with hard\nand sharp claws.\nIt may also lower the target’s Defense.",
-    "x-y": "The user slashes the target with hard\nand sharp claws. This may also lower\nthe target’s Defense stat.",
-    "omega-ruby-alpha-sapphire": "The user slashes the target with hard\nand sharp claws. This may also lower\nthe target’s Defense stat.",
-    "sun-moon": "The user slashes the target with hard and sharp\nclaws. This may also lower the target’s Defense stat.",
-    "ultra-sun-ultra-moon": "The user slashes the target with hard and sharp\nclaws. This may also lower the target’s Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user slashes the target with hard and sharp\nclaws. This may also lower the target’s Defense stat.",
-    "sword-shield": "The user slashes the target with hard and sharp\nclaws. This may also lower the target’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Defense by one stage."
-  },
-  "priority": 0
+    "_id": 306,
+    "key": "crush-claw",
+    "name": {
+        "japanese-kana": "ブレイククロー",
+        "korean": "브레이크클로",
+        "traditional-chinese": "撕裂爪",
+        "french": "Éclate Griffe",
+        "german": "Zermalmklaue",
+        "spanish": "Garra Brutal",
+        "italian": "Tritartigli",
+        "english": "Crush Claw",
+        "japanese": "ブレイククロー",
+        "simplified-chinese": "撕裂爪",
+        "latin-american-spanish": "Garra Brutal"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 10,
+    "power": 75,
+    "accuracy": 95,
+    "contact": true,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 50
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Tears at the foe with sharp claws. May lower DEFENSE.",
+            "em": "Tears at the foe with sharp claws. May lower DEFENSE.",
+            "frlg": "The foe is attacked with sharp claws. It may also lower the foe’s DEFENSE.",
+            "dp": "The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.",
+            "pt": "The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.",
+            "hgss": "The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.",
+            "bw": "The user slashes the target with hard and sharp claws. It may also lower the target’s Defense.",
+            "b2w2": "The user slashes the target with hard and sharp claws. It may also lower the target’s Defense.",
+            "xy": "The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.",
+            "oras": "The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.",
+            "sm": "The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.",
+            "usum": "The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.",
+            "lgpe": "The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.",
+            "swsh": "The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.",
+            "la": "The user slashes the target with hard and sharp claws. This may also lower the target's Defense stat.",
+            "sv": "The user slashes the target with hard and sharp claws. This may also lower the target's Defense stat."
+        },
+        "french": {
+            "bw": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.",
+            "xy": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.",
+            "oras": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.",
+            "sm": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.",
+            "usum": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.",
+            "lgpe": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.",
+            "swsh": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense."
+        },
+        "japanese-kana": {
+            "xy": "かたく　するどい　ツメで　きりさいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "oras": "かたく　するどい　ツメで　きりさいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "sm": "かたく　するどい　ツメで　きりさいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "usum": "かたく　するどい　ツメで　きりさいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "lgpe": "かたく　するどい　ツメで　きりさいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+            "swsh": "かたく　するどい　ツメで　きりさいて こうげきする。あいての　ぼうぎょを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "oras": "단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "sm": "단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "usum": "단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+            "swsh": "단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.",
+            "oras": "Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.",
+            "sm": "Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.",
+            "usum": "Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.",
+            "lgpe": "Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.",
+            "swsh": "Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert."
+        },
+        "spanish": {
+            "xy": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "oras": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "sm": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "usum": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "lgpe": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "swsh": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con artigli robusti e affilati che possono ridurne la Difesa.",
+            "oras": "Colpisce il bersaglio con artigli robusti e affilati che possono ridurne la Difesa.",
+            "sm": "Colpisce il bersaglio con artigli robusti e affilati che possono ridurne la Difesa.",
+            "usum": "Colpisce il bersaglio con artigli robusti e affilati che possono ridurne la Difesa.",
+            "lgpe": "Colpisce il bersaglio con artigli robusti e affilati che possono ridurne la Difesa.",
+            "swsh": "Colpisce il bersaglio con artigli robusti e affilati che possono ridurne la Difesa."
+        },
+        "japanese": {
+            "xy": "硬く　鋭い　ツメで 切り裂いて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "oras": "硬く　鋭い　ツメで 切り裂いて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "sm": "硬く　鋭い　ツメで 切り裂いて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "usum": "硬く　鋭い　ツメで 切り裂いて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "lgpe": "硬く　鋭い　ツメで 切り裂いて　攻撃する。 相手の　防御を　さげることが　ある。",
+            "swsh": "硬く　鋭い　ツメで 切り裂いて　攻撃する。 相手の　防御を　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "oras": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "sm": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "usum": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "lgpe": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+            "swsh": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa."
+        },
+        "traditional-chinese": {
+            "sm": "用堅硬的銳爪 撕裂對手進行攻擊。 有時會降低對手的防禦。",
+            "usum": "用堅硬的銳爪 撕裂對手進行攻擊。 有時會降低對手的防禦。",
+            "lgpe": "用堅硬的銳爪 撕裂對手進行攻擊。 有時會降低對手的防禦。",
+            "swsh": "用堅硬的銳爪 撕裂對手進行攻擊。 有時會降低對手的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "用坚硬的锐爪 劈开对手进行攻击。 有时会降低对手的防御。",
+            "usum": "用坚硬的锐爪 劈开对手进行攻击。 有时会降低对手的防御。",
+            "lgpe": "用坚硬的锐爪 劈开对手进行攻击。 有时会降低对手的防御。",
+            "swsh": "用坚硬的锐爪 劈开对手进行攻击。 有时会降低对手的防御。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Defense by one stage."
+    }
 }

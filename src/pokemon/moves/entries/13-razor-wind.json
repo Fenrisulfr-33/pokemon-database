@@ -1,47 +1,148 @@
 {
-  "_id": 13,
-  "key": "razor-wind",
-  "name": {
-    "english": "Razor Wind",
-    "japanese": "かまいたち",
-    "chinese": "旋风刀",
-    "korean": "칼바람",
-    "german": "Viento Cortante",
-    "french": "Klingensturm",
-    "italian": "Razor Wind",
-    "spanish": "Ventagliente"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "1st turn: Prepare\n2nd turn: Attack",
-    "crystal": "1st turn: Prepare\n2nd turn: Attack",
-    "ruby-sapphire": "A 2-turn move that strikes\nthe foe on the 2nd turn.",
-    "emerald": "A 2-turn move that strikes\nthe foe on the 2nd turn.",
-    "firered-leafgreen": "Blades of wind hit\nthe foe on the 2nd\nturn. It has a high\ncritical-hit ratio.",
-    "diamond-pearl": "A two-turn attack.\nBlades of wind hit the\nfoe on the second\nturn. It has a high\ncritical-hit ratio.",
-    "platinum": "A two-turn attack.\nBlades of wind hit the\nfoe on the second\nturn. It has a high\ncritical-hit ratio.",
-    "heartgold-soulsilver": "A two-turn attack.\nBlades of wind hit the\nfoe on the second\nturn. It has a high\ncritical-hit ratio.",
-    "black-white": "A two-turn attack. Blades of wind hit\nopposing Pokémon on the second turn.\nCritical hits land more easily.",
-    "black-2-white-2": "A two-turn attack. Blades of wind hit\nopposing Pokémon on the second turn.\nCritical hits land more easily.",
-    "x-y": "A two-turn attack. Blades of wind hit\nopposing Pokémon on the second turn.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "A two-turn attack. Blades of wind hit\nopposing Pokémon on the second turn.\nCritical hits land more easily.",
-    "sun-moon": "In this two-turn attack, blades of wind hit opposing\nPokémon on the second turn. Critical hits land\nmore easily.",
-    "ultra-sun-ultra-moon": "In this two-turn attack, blades of wind hit opposing\nPokémon on the second turn. Critical hits land\nmore easily.",
-    "lets-go-pikachu-lets-go-eevee": "In this two-turn attack, blades of wind hit opposing\nPokémon on the second turn. Critical hits land\nmore easily.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk.",
-    "shortEffect": "Requires a turn to charge before attacking."
-  },
-  "priority": 0
+    "_id": 13,
+    "key": "razor-wind",
+    "name": {
+        "japanese-kana": "かまいたち",
+        "korean": "칼바람",
+        "traditional-chinese": "旋風刀",
+        "french": "Coupe-Vent",
+        "german": "Klingensturm",
+        "spanish": "Viento Cortante",
+        "italian": "Ventagliente",
+        "english": "Razor Wind",
+        "japanese": "かまいたち",
+        "simplified-chinese": "旋风刀",
+        "latin-american-spanish": "Viento Cortante"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cool",
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "rs": {
+            "accuracy": 75
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "1st turn: Prepare 2nd turn: Attack",
+            "cr": "1st turn: Prepare 2nd turn: Attack",
+            "rs": "A 2-turn move that strikes the foe on the 2nd turn.",
+            "em": "A 2-turn move that strikes the foe on the 2nd turn.",
+            "frlg": "Blades of wind hit the foe on the 2nd turn. It has a high critical-hit ratio.",
+            "dp": "A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.",
+            "pt": "A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.",
+            "hgss": "A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.",
+            "bw": "A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.",
+            "b2w2": "A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.",
+            "xy": "A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.",
+            "oras": "A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.",
+            "sm": "In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.",
+            "usum": "In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.",
+            "lgpe": "In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Attaque en 2 tours. Des lames de vent frappent l’ennemi au 2è tour. Taux de critiques élevé.",
+            "xy": "Attaque en deux tours. Des lames de vent frappent l’ennemi au second tour. Taux de critiques élevé.",
+            "oras": "Attaque en deux tours. Des lames de vent frappent l’ennemi au second tour. Taux de critiques élevé.",
+            "sm": "Attaque en deux tours. Des lames de vent frappent l’ennemi au second tour. Taux de critique élevé.",
+            "usum": "Attaque en deux tours. Des lames de vent frappent l’ennemi au second tour. Taux de critique élevé.",
+            "lgpe": "Attaque en deux tours. Des lames de vent frappent l’ennemi au second tour. Taux de critique élevé.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "かぜの　やいばを　つくり ２ターンめに　あいてを　こうげきする。 きゅうしょに　あたりやすい。",
+            "oras": "かぜの　やいばを　つくり ２ターンめに　あいてを　こうげきする。 きゅうしょに　あたりやすい。",
+            "sm": "かぜの　やいばを　つくり ２ターンめに　あいてを　こうげきする。 きゅうしょに　あたりやすい。",
+            "usum": "かぜの　やいばを　つくり ２ターンめに　あいてを　こうげきする。 きゅうしょに　あたりやすい。",
+            "lgpe": "かぜの　やいばを　つくり ２ターンめに　あいてを　こうげきする。 きゅうしょに　あたりやすい。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "바람의 칼날을 만들어 2턴째에 상대를 공격한다. 급소에 맞기 쉽다.",
+            "oras": "바람의 칼날을 만들어 2턴째에 상대를 공격한다. 급소에 맞기 쉽다.",
+            "sm": "바람의 칼날을 만들어 2턴째에 상대를 공격한다. 급소에 맞기 쉽다.",
+            "usum": "바람의 칼날을 만들어 2턴째에 상대를 공격한다. 급소에 맞기 쉽다.",
+            "lgpe": "바람의 칼날을 만들어 2턴째에 상대를 공격한다. 급소에 맞기 쉽다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.",
+            "oras": "Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.",
+            "sm": "Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.",
+            "usum": "Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.",
+            "lgpe": "Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "oras": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "sm": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "usum": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "lgpe": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa genera un turbine al primo turno e attacca al secondo. Probabile brutto colpo.",
+            "oras": "Chi la usa genera un turbine al primo turno e attacca al secondo. Probabile brutto colpo.",
+            "sm": "Chi la usa genera un turbine al primo turno e attacca al secondo. Probabile brutto colpo.",
+            "usum": "Chi la usa genera un turbine al primo turno e attacca al secondo. Probabile brutto colpo.",
+            "lgpe": "Chi la usa genera un turbine al primo turno e attacca al secondo. Probabile brutto colpo.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "風の　刃を　つくり ２ターン目に　相手を　攻撃する。 急所に　当たりやすい。",
+            "oras": "風の　刃を　つくり ２ターン目に　相手を　攻撃する。 急所に　当たりやすい。",
+            "sm": "風の　刃を　つくり ２ターン目に　相手を　攻撃する。 急所に　当たりやすい。",
+            "usum": "風の　刃を　つくり ２ターン目に　相手を　攻撃する。 急所に　当たりやすい。",
+            "lgpe": "風の　刃を　つくり ２ターン目に　相手を　攻撃する。 急所に　当たりやすい。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "oras": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "sm": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "usum": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "lgpe": "Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "製造出風之刃， 在下一回合攻擊對手。 容易擊中要害。",
+            "usum": "製造出風之刃， 在下一回合攻擊對手。 容易擊中要害。",
+            "lgpe": "製造出風之刃， 在下一回合攻擊對手。 容易擊中要害。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "制造风之刃， 于第２回合攻击对手。 容易击中要害。",
+            "usum": "制造风之刃， 于第２回合攻击对手。 容易击中要害。",
+            "lgpe": "制造风之刃， 于第２回合攻击对手。 容易击中要害。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.  User charges for one turn before attacking. This move cannot be selected by Sleep Talk.",
+        "shortEffect": "Requires a turn to charge before attacking."
+    }
 }

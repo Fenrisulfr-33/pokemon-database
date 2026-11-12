@@ -1,32 +1,84 @@
 {
-  "_id": 799,
-  "key": "scale-shot",
-  "name": {
-    "english": "Scale Shot",
-    "japanese": "スケイルショット",
-    "chinese": "鱗射",
-    "korean": "스케일샷",
-    "german": "Ráfaga Escamas",
-    "french": "Schuppenschuss",
-    "italian": "Scale Shot",
-    "spanish": "Squamacolpo"
-  },
-  "type": "Dragon",
-  "category": "Physical",
-  "contest": null,
-  "pp": 20,
-  "power": 25,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user attacks by shooting scales two to five times\nin a row. This move boosts the user’s Speed stat but\nlowers its Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 799,
+    "key": "scale-shot",
+    "name": {
+        "japanese-kana": "スケイルショット",
+        "korean": "스케일샷",
+        "traditional-chinese": "鱗射",
+        "french": "Rafale Écailles",
+        "german": "Schuppenschuss",
+        "spanish": "Ráfaga Escamas",
+        "italian": "Squamacolpo",
+        "english": "Scale Shot",
+        "japanese": "スケイルショット",
+        "simplified-chinese": "鳞射",
+        "latin-american-spanish": "Disparo Escamas"
+    },
+    "type": "dragon",
+    "category": "physical",
+    "contest": null,
+    "pp": 20,
+    "power": 25,
+    "accuracy": 90,
+    "contact": false,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 5,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "ウロコを　うちだして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。 すばやさが　あがるが　ぼうぎょが　さがる。"
+        },
+        "korean": {
+            "swsh": "비늘을 쏘아서 공격한다. 2-5회 동안 연속으로 쓴다. 스피드가 올라가지만 방어가 떨어진다."
+        },
+        "traditional-chinese": {
+            "swsh": "射出鱗片進行攻擊。 可連續攻擊２～５次。 速度會提高但防禦會降低。"
+        },
+        "french": {
+            "swsh": "Le lanceur projette des écailles sur la cible de deux à cinq fois d’affilée. Augmente la Vitesse, mais diminue la Défense."
+        },
+        "german": {
+            "swsh": "Der Anwender greift das Ziel zwei- bis fünfmal hintereinander mit Schuppen-Geschossen an. Erhöht die eigene Initiative, aber senkt die Verteidigung."
+        },
+        "spanish": {
+            "swsh": "Lanza escamas al objetivo de dos a cinco veces seguidas. Aumenta la Velocidad del usuario, pero reduce su Defensa."
+        },
+        "italian": {
+            "swsh": "Il Pokémon attacca lanciando delle squame da due a cinque volte di fila. Aumenta la Velocità di chi la usa, ma ne riduce la Difesa."
+        },
+        "english": {
+            "swsh": "The user attacks by shooting scales two to five times in a row. This move boosts the user’s Speed stat but lowers its Defense stat.",
+            "la": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat.",
+            "sv": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat."
+        },
+        "japanese": {
+            "swsh": "ウロコを　撃ちだして　攻撃する。 ２ー５回の　間　連続で　だす。 素早さが　あがるが　防御が　さがる。"
+        },
+        "simplified-chinese": {
+            "swsh": "发射鳞片进行攻击。 连续攻击２～５次。 速度会提高但防御会降低。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Lanza escamas al objetivo de dos a cinco veces seguidas. Aumenta la Velocidad del usuario, pero reduce su Defensa."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage two to five times in a row, raising the user’s Speed and lowering the user’s Defense by one stage each upon last hit.",
+        "shortEffect": "Boosts the user’s Speed and lowers their Defense by one stage after inflicting damage two to five times in a row."
+    }
 }

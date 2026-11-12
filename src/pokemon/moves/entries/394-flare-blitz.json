@@ -1,42 +1,141 @@
 {
-  "_id": 394,
-  "key": "flare-blitz",
-  "name": {
-    "english": "Flare Blitz",
-    "japanese": "フレアドライブ",
-    "chinese": "爆炎电击",
-    "korean": "플레어드라이브",
-    "german": "Envite Ígneo",
-    "french": "Flammenblitz",
-    "italian": "Flare Blitz",
-    "spanish": "Fuococarica"
-  },
-  "type": "Fire",
-  "category": "Physical",
-  "contest": "Smart",
-  "pp": 15,
-  "power": 120,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user cloaks\nitself in fire and\ncharges at the foe.\nThe user sustains\nserious damage, too.",
-    "platinum": "The user cloaks\nitself in fire and\ncharges at the foe.\nThe user sustains\nserious damage, too.",
-    "heartgold-soulsilver": "The user cloaks\nitself in fire and\ncharges at the foe.\nThe user sustains\nserious damage, too.",
-    "black-white": "The user cloaks itself in fire and charges\nat the target. The user sustains serious\ndamage and may leave the target burned.",
-    "black-2-white-2": "The user cloaks itself in fire and charges\nat the target. The user sustains serious\ndamage and may leave the target burned.",
-    "x-y": "The user cloaks itself in fire and charges the target.\nThis also damages the user quite a lot.\nThis may leave the target with a burn.",
-    "omega-ruby-alpha-sapphire": "The user cloaks itself in fire and charges the target.\nThis also damages the user quite a lot.\nThis may leave the target with a burn.",
-    "sun-moon": "The user cloaks itself in fire and charges the target.\nThis also damages the user quite a lot. This attack\nmay leave the target with a burn.",
-    "ultra-sun-ultra-moon": "The user cloaks itself in fire and charges the target.\nThis also damages the user quite a lot. This attack\nmay leave the target with a burn.",
-    "lets-go-pikachu-lets-go-eevee": "The user cloaks itself in fire and charges the target.\nThis also damages the user quite a lot. This attack\nmay leave the target with a burn.",
-    "sword-shield": "The user cloaks itself in fire and charges the target.\nThis also damages the user quite a lot. This attack\nmay leave the target with a burn."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.  Has a $effect_chance% chance to burn the target.  Frozen Pokémon may use this move, in which case they will thaw.",
-    "shortEffect": "User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to burn the target."
-  },
-  "priority": 0
+    "_id": 394,
+    "key": "flare-blitz",
+    "name": {
+        "japanese-kana": "フレアドライブ",
+        "korean": "플레어드라이브",
+        "traditional-chinese": "閃焰衝鋒",
+        "french": "Boutefeu",
+        "german": "Flammenblitz",
+        "spanish": "Envite Ígneo",
+        "italian": "Fuococarica",
+        "english": "Flare Blitz",
+        "japanese": "フレアドライブ",
+        "simplified-chinese": "闪焰冲锋",
+        "latin-american-spanish": "Erupción"
+    },
+    "type": "fire",
+    "category": "physical",
+    "contest": "smart",
+    "pp": 15,
+    "power": 120,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "burn",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": -33,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user cloaks itself in fire and charges at the foe. The user sustains serious damage, too.",
+            "pt": "The user cloaks itself in fire and charges at the foe. The user sustains serious damage, too.",
+            "hgss": "The user cloaks itself in fire and charges at the foe. The user sustains serious damage, too.",
+            "bw": "The user cloaks itself in fire and charges at the target. The user sustains serious damage and may leave the target burned.",
+            "b2w2": "The user cloaks itself in fire and charges at the target. The user sustains serious damage and may leave the target burned.",
+            "xy": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This may leave the target with a burn.",
+            "oras": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This may leave the target with a burn.",
+            "sm": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",
+            "usum": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",
+            "lgpe": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",
+            "swsh": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",
+            "la": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user and may leave the target with a burn.",
+            "sv": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn."
+        },
+        "french": {
+            "bw": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.",
+            "xy": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.",
+            "oras": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.",
+            "sm": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.",
+            "usum": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.",
+            "lgpe": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.",
+            "swsh": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "ほのおを　まとって　とっしんする。 じぶんも　かなり　ダメージを　うける。 やけど　じょうたいに　することが　ある。",
+            "oras": "ほのおを　まとって　とっしんする。 じぶんも　かなり　ダメージを　うける。 やけど　じょうたいに　することが　ある。",
+            "sm": "ほのおを　まとって　とっしんする。 じぶんも　かなり　ダメージを　うける。 やけど　じょうたいに　することが　ある。",
+            "usum": "ほのおを　まとって　とっしんする。 じぶんも　かなり　ダメージを　うける。 やけど　じょうたいに　することが　ある。",
+            "lgpe": "ほのおを　まとって　とっしんする。 じぶんも　かなり　ダメージを　うける。 やけど　じょうたいに　することが　ある。",
+            "swsh": "ほのおを　まとって　とっしんする。 じぶんも　かなり　ダメージを　うける。 やけど　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다.",
+            "oras": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다.",
+            "sm": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다.",
+            "usum": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다.",
+            "lgpe": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다.",
+            "swsh": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das sich eventuell verbrennt. Anwender nimmt selbst großen Schaden.",
+            "oras": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das sich eventuell verbrennt. Anwender nimmt selbst großen Schaden.",
+            "sm": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das dadurch eventuell Verbrennungen erleidet. Anwender nimmt selbst großen Schaden.",
+            "usum": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das dadurch eventuell Verbrennungen erleidet. Anwender nimmt selbst großen Schaden.",
+            "lgpe": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das dadurch eventuell Verbrennungen erleidet. Anwender nimmt selbst großen Schaden.",
+            "swsh": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das dadurch eventuell Verbrennungen erleidet. Anwender nimmt selbst großen Schaden."
+        },
+        "spanish": {
+            "xy": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daños. Puede quemar.",
+            "oras": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daños. Puede quemar.",
+            "sm": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.",
+            "usum": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.",
+            "lgpe": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.",
+            "swsh": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar."
+        },
+        "italian": {
+            "xy": "Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare il Pokémon colpito.",
+            "oras": "Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare il Pokémon colpito.",
+            "sm": "Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare il Pokémon colpito.",
+            "usum": "Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare il Pokémon colpito.",
+            "lgpe": "Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare il Pokémon colpito.",
+            "swsh": "Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare il Pokémon colpito."
+        },
+        "japanese": {
+            "xy": "炎を　まとって　突進する。 自分も　かなり　ダメージを　受ける。 やけど状態に　することが　ある。",
+            "oras": "炎を　まとって　突進する。 自分も　かなり　ダメージを　受ける。 やけど状態に　することが　ある。",
+            "sm": "炎を　まとって　突進する。 自分も　かなり　ダメージを　受ける。 やけど状態に　することが　ある。",
+            "usum": "炎を　まとって　突進する。 自分も　かなり　ダメージを　受ける。 やけど状態に　することが　ある。",
+            "lgpe": "炎を　まとって　突進する。 自分も　かなり　ダメージを　受ける。 やけど状態に　することが　ある。",
+            "swsh": "炎を　まとって　突進する。 自分も　かなり　ダメージを　受ける。 やけど状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daños. Puede quemar.",
+            "oras": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daños. Puede quemar.",
+            "sm": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.",
+            "usum": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.",
+            "lgpe": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.",
+            "swsh": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar."
+        },
+        "traditional-chinese": {
+            "sm": "將火焰圍繞全身後猛撞對手。 自己也會受到不小的傷害。 有時會讓對手陷入灼傷狀態。",
+            "usum": "將火焰圍繞全身後猛撞對手。 自己也會受到不小的傷害。 有時會讓對手陷入灼傷狀態。",
+            "lgpe": "將火焰圍繞全身後猛撞對手。 自己也會受到不小的傷害。 有時會讓對手陷入灼傷狀態。",
+            "swsh": "將火焰圍繞全身後猛撞對手。 自己也會受到不小的傷害。 有時會讓對手陷入灼傷狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "让火焰覆盖全身猛撞向对手。 自己也会受到不小的伤害。 有时会让对手陷入灼伤状态。",
+            "usum": "让火焰覆盖全身猛撞向对手。 自己也会受到不小的伤害。 有时会让对手陷入灼伤状态。",
+            "lgpe": "让火焰覆盖全身猛撞向对手。 自己也会受到不小的伤害。 有时会让对手陷入灼伤状态。",
+            "swsh": "让火焰覆盖全身猛撞向对手。 自己也会受到不小的伤害。 有时会让对手陷入灼伤状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.  Has a chance to burn the target.  Frozen Pokémon may use this move, in which case they will thaw.",
+        "shortEffect": "User takes 1/3 the damage inflicted in recoil.  Has a chance to burn the target."
+    }
 }

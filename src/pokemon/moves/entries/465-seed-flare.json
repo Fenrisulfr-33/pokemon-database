@@ -1,42 +1,141 @@
 {
-  "_id": 465,
-  "key": "seed-flare",
-  "name": {
-    "english": "Seed Flare",
-    "japanese": "シードフレア",
-    "chinese": "种子闪光",
-    "korean": "시드플레어",
-    "german": "Fogonazo",
-    "french": "Schocksamen",
-    "italian": "Seed Flare",
-    "spanish": "Infuriaseme"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 120,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user generates\na shock wave from\nwithin its body.\nIt may also lower the\ntarget’s Sp. Def.",
-    "platinum": "The user generates\na shock wave from\nwithin its body.\nIt may also lower the\ntarget’s Sp. Def.",
-    "heartgold-soulsilver": "The user generates\na shock wave from\nwithin its body.\nIt may also lower the\ntarget’s Sp. Def.",
-    "black-white": "The user emits a shock wave from\nits body to attack its target. It may\nharshly lower the target’s Sp. Def.",
-    "black-2-white-2": "The user emits a shock wave from\nits body to attack its target. It may\nharshly lower the target’s Sp. Def.",
-    "x-y": "The user emits a shock wave from\nits body to attack its target. This may\nalso harshly lower the target’s Sp. Def.",
-    "omega-ruby-alpha-sapphire": "The user emits a shock wave from\nits body to attack its target. This may\nalso harshly lower the target’s Sp. Def.",
-    "sun-moon": "The user emits a shock wave from its body to attack\nits target. This may also harshly lower the target’s\nSp. Def stat.",
-    "ultra-sun-ultra-moon": "The user emits a shock wave from its body to attack\nits target. This may also harshly lower the target’s\nSp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user emits a shock wave from its body to attack\nits target. This may also harshly lower the target’s\nSp. Def stat.",
-    "sword-shield": "The user emits a shock wave from its body to attack\nits target. This may also harshly lower the target’s\nSp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by two stages.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by two stages."
-  },
-  "priority": 0
+    "_id": 465,
+    "key": "seed-flare",
+    "name": {
+        "japanese-kana": "シードフレア",
+        "korean": "시드플레어",
+        "traditional-chinese": "種子閃光",
+        "french": "Fulmigraine",
+        "german": "Schocksamen",
+        "spanish": "Fulgor Semilla",
+        "italian": "Infuriaseme",
+        "english": "Seed Flare",
+        "japanese": "シードフレア",
+        "simplified-chinese": "种子闪光",
+        "latin-american-spanish": "Fulgor Semilla"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": 120,
+    "accuracy": 85,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 40
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user generates a shock wave from within its body. It may also lower the target’s Sp. Def.",
+            "pt": "The user generates a shock wave from within its body. It may also lower the target’s Sp. Def.",
+            "hgss": "The user generates a shock wave from within its body. It may also lower the target’s Sp. Def.",
+            "bw": "The user emits a shock wave from its body to attack its target. It may harshly lower the target’s Sp. Def.",
+            "b2w2": "The user emits a shock wave from its body to attack its target. It may harshly lower the target’s Sp. Def.",
+            "xy": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def.",
+            "oras": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def.",
+            "sm": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def stat.",
+            "usum": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def stat.",
+            "lgpe": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def stat.",
+            "swsh": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def stat.",
+            "la": "The user emits a shock wave from its body to attack its target. This may also lower the target’s defensive stats.",
+            "sv": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target's Sp. Def stat."
+        },
+        "french": {
+            "bw": "Le corps du lanceur émet une onde de choc. Peut aussi baisser grandement la Défense Spéciale de la cible.",
+            "xy": "Le corps du lanceur émet une onde de choc. Peut aussi baisser grandement la Défense Spéciale de la cible.",
+            "oras": "Le corps du lanceur émet une onde de choc. Peut aussi baisser fortement la Défense Spéciale de la cible.",
+            "sm": "Le corps du lanceur émet une onde de choc. Peut aussi beaucoup baisser la Défense Spéciale de la cible.",
+            "usum": "Le corps du lanceur émet une onde de choc. Peut aussi beaucoup baisser la Défense Spéciale de la cible.",
+            "lgpe": "Le corps du lanceur émet une onde de choc. Peut aussi beaucoup baisser la Défense Spéciale de la cible.",
+            "swsh": "Le corps du lanceur émet une onde de choc. Peut aussi beaucoup baisser la Défense Spéciale de la cible."
+        },
+        "japanese-kana": {
+            "xy": "からだの　なかから　しょうげきはを はっせい　させる。あいての　とくぼうを がくっと　さげることが　ある。",
+            "oras": "からだの　なかから　しょうげきはを はっせい　させる。あいての　とくぼうを がくっと　さげることが　ある。",
+            "sm": "からだの　なかから　しょうげきはを はっせい　させる。あいての　とくぼうを がくっと　さげることが　ある。",
+            "usum": "からだの　なかから　しょうげきはを はっせい　させる。あいての　とくぼうを がくっと　さげることが　ある。",
+            "lgpe": "からだの　なかから　しょうげきはを はっせい　させる。あいての　とくぼうを がくっと　さげることが　ある。",
+            "swsh": "からだの　なかから　しょうげきはを はっせい　させる。あいての　とくぼうを がくっと　さげることが　ある。"
+        },
+        "korean": {
+            "xy": "몸속에서 충격파를 발생시킨다. 상대의 특수방어를 크게 떨어뜨릴 때가 있다.",
+            "oras": "몸속에서 충격파를 발생시킨다. 상대의 특수방어를 크게 떨어뜨릴 때가 있다.",
+            "sm": "몸속에서 충격파를 발생시킨다. 상대의 특수방어를 크게 떨어뜨릴 때가 있다.",
+            "usum": "몸속에서 충격파를 발생시킨다. 상대의 특수방어를 크게 떨어뜨릴 때가 있다.",
+            "lgpe": "몸속에서 충격파를 발생시킨다. 상대의 특수방어를 크게 떨어뜨릴 때가 있다.",
+            "swsh": "몸속에서 충격파를 발생시킨다. 상대의 특수방어를 크게 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird stark gesenkt.",
+            "oras": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird stark gesenkt.",
+            "sm": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird eventuell stark gesenkt.",
+            "usum": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird eventuell stark gesenkt.",
+            "lgpe": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird eventuell stark gesenkt.",
+            "swsh": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird eventuell stark gesenkt."
+        },
+        "spanish": {
+            "xy": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "oras": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "sm": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "usum": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "lgpe": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "swsh": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa genera un’onda d’urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio.",
+            "oras": "Chi la usa genera un’onda d’urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio.",
+            "sm": "Chi la usa genera un’onda d’urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio.",
+            "usum": "Chi la usa genera un’onda d’urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio.",
+            "lgpe": "Chi la usa genera un’onda d’urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio.",
+            "swsh": "Chi la usa genera un’onda d’urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio."
+        },
+        "japanese": {
+            "xy": "体の　中から　衝撃波を 発生させる。相手の　特防を がくっと　さげることが　ある。",
+            "oras": "体の　中から　衝撃波を 発生させる。相手の　特防を がくっと　さげることが　ある。",
+            "sm": "体の　中から　衝撃波を 発生させる。相手の　特防を がくっと　さげることが　ある。",
+            "usum": "体の　中から　衝撃波を 発生させる。相手の　特防を がくっと　さげることが　ある。",
+            "lgpe": "体の　中から　衝撃波を 発生させる。相手の　特防を がくっと　さげることが　ある。",
+            "swsh": "体の　中から　衝撃波を 発生させる。相手の　特防を がくっと　さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "oras": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "sm": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "usum": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "lgpe": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+            "swsh": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "從身體裡發出衝擊波攻擊對手。 有時會大幅降低對手的特防。",
+            "usum": "從身體裡發出衝擊波攻擊對手。 有時會大幅降低對手的特防。",
+            "lgpe": "從身體裡發出衝擊波攻擊對手。 有時會大幅降低對手的特防。",
+            "swsh": "從身體裡發出衝擊波攻擊對手。 有時會大幅降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "从身体里产生冲击波。 有时会大幅降低对手的特防。",
+            "usum": "从身体里产生冲击波。 有时会大幅降低对手的特防。",
+            "lgpe": "从身体里产生冲击波。 有时会大幅降低对手的特防。",
+            "swsh": "从身体里产生冲击波。 有时会大幅降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by two stages.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by two stages."
+    }
 }

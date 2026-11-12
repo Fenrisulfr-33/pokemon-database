@@ -1,32 +1,82 @@
 {
-  "_id": 743,
-  "key": "max-guard",
-  "name": {
-    "english": "Max Guard",
-    "japanese": "ダイウォール",
-    "chinese": "極巨防壁",
-    "korean": "다이월",
-    "german": "Maxibarrera",
-    "french": "Dyna-Wall",
-    "italian": "Max Guard",
-    "spanish": "Dynabarriera"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": "No",
-  "generation": 8,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "sword-shield": "This move enables the user to protect itself from\nall attacks. Its chance of failing rises if it is used\nin succession."
-  },
-  "effect": {
-    "full": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nlock on, mind reader, and no guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move.\n\nthunder during rain dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish song\n* shadow force\n* Moves that merely copy the user, such as transform or psych up\n\nThis move cannot be selected by assist or metronome.",
-    "shortEffect": "Prevents any moves from hitting the user this turn."
-  },
-  "priority": 4
+    "_id": 743,
+    "key": "max-guard",
+    "name": {
+        "japanese-kana": "ダイウォール",
+        "korean": "다이월",
+        "traditional-chinese": "極巨防壁",
+        "french": "Gardomax",
+        "german": "Dyna-Wall",
+        "spanish": "Maxibarrera",
+        "italian": "Dynabarriera",
+        "english": "Max Guard",
+        "japanese": "ダイウォール",
+        "simplified-chinese": "极巨防壁",
+        "latin-american-spanish": "Maxibarrera"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 8,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。"
+        },
+        "korean": {
+            "swsh": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다."
+        },
+        "traditional-chinese": {
+            "swsh": "完全防住對手的所有攻擊。 連續使用時容易失敗。"
+        },
+        "french": {
+            "swsh": "Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite."
+        },
+        "german": {
+            "swsh": "Anwender wehrt jede Attacke ab. Scheitert eventuell bei Wiederholung."
+        },
+        "spanish": {
+            "swsh": "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+        },
+        "italian": {
+            "swsh": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire."
+        },
+        "english": {
+            "swsh": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
+        },
+        "japanese": {
+            "swsh": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。"
+        },
+        "simplified-chinese": {
+            "swsh": "完全抵挡 对手的攻击。 连续使出则容易失败。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+        }
+    },
+    "effect": {
+        "full": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail. If the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail. Lock-On, Mind Reader, and No Guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold); those are always blocked by this move. Thunder during Rain Dance and Blizzard during Hail have a 30% chance to break through this move. The following effects are not prevented by this move: * Acupressure from an ally * Curse’s curse effect * Delayed damage from Doom Desire and Future Sight; however, these moves will be prevented if they are used this turn * Feint, which will also end this move’s protection after it hits * Imprison * Perish Song * Shadow Force * Moves that merely copy the user, such as Transform or Psych Up This move cannot be selected by Assist or Metronome.",
+        "shortEffect": "Prevents any moves from hitting the user this turn."
+    }
 }

@@ -1,47 +1,154 @@
 {
-  "_id": 161,
-  "key": "tri-attack",
-  "name": {
-    "english": "Tri Attack",
-    "japanese": "トライアタック",
-    "chinese": "三角攻击",
-    "korean": "트라이어택",
-    "german": "Triataque",
-    "french": "Triplette",
-    "italian": "Tri Attack",
-    "spanish": "Tripletta"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Fires three kinds\nof beams at once.",
-    "crystal": "Fires three kinds\nof beams at once.",
-    "ruby-sapphire": "Fires three types of beams\nat the same time.",
-    "emerald": "Fires three types of beams\nat the same time.",
-    "firered-leafgreen": "A simultaneous\n3-beam attack that\nmay paralyze, burn,\nor freeze the foe.",
-    "diamond-pearl": "The user strikes with\na simultaneous three-\nbeam attack. May also\nparalyze, burn, or\nfreeze the target.",
-    "platinum": "The user strikes with\na simultaneous three-\nbeam attack. May also\nparalyze, burn, or\nfreeze the target.",
-    "heartgold-soulsilver": "The user strikes with\na simultaneous three-\nbeam attack. May also\nparalyze, burn, or\nfreeze the target.",
-    "black-white": "The user strikes with a simultaneous\nthree-beam attack. May also burn, freeze,\nor leave the target with paralysis.",
-    "black-2-white-2": "The user strikes with a simultaneous\nthree-beam attack. May also burn, freeze,\nor leave the target with paralysis.",
-    "x-y": "The user strikes with a simultaneous\nthree-beam attack. May also burn, freeze,\nor leave the target with paralysis.",
-    "omega-ruby-alpha-sapphire": "The user strikes with a simultaneous\nthree-beam attack. May also burn, freeze,\nor leave the target with paralysis.",
-    "sun-moon": "The user strikes with a simultaneous three-beam\nattack. May also burn, freeze, or paralyze the target.",
-    "ultra-sun-ultra-moon": "The user strikes with a simultaneous three-beam\nattack. May also burn, freeze, or paralyze the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes with a simultaneous three-beam attack.\nThis may also burn, freeze, or paralyze the target.",
-    "sword-shield": "The user strikes with a simultaneous three-beam attack.\nThis may also burn, freeze, or paralyze the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
-    "shortEffect": "Has a $effect_chance% chance to burn, freeze, or paralyze the target."
-  },
-  "priority": 0
+    "_id": 161,
+    "key": "tri-attack",
+    "name": {
+        "japanese-kana": "トライアタック",
+        "korean": "트라이어택",
+        "traditional-chinese": "三重攻擊",
+        "french": "Triplattaque",
+        "german": "Triplette",
+        "spanish": "Triataque",
+        "italian": "Tripletta",
+        "english": "Tri Attack",
+        "japanese": "トライアタック",
+        "simplified-chinese": "三重攻击",
+        "latin-american-spanish": "Triataque"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "unknown",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 20,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "gs": {
+            "effectChance": 0,
+            "effect": {
+                "full": "Inflicts regular damage.",
+                "shortEffect": "Inflicts regular damage with no additional effect."
+            }
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Fires three kinds of beams at once.",
+            "cr": "Fires three kinds of beams at once.",
+            "rs": "Fires three types of beams at the same time.",
+            "em": "Fires three types of beams at the same time.",
+            "frlg": "A simultaneous 3-beam attack that may paralyze, burn, or freeze the foe.",
+            "dp": "The user strikes with a simultaneous three- beam attack. May also paralyze, burn, or freeze the target.",
+            "pt": "The user strikes with a simultaneous three- beam attack. May also paralyze, burn, or freeze the target.",
+            "hgss": "The user strikes with a simultaneous three- beam attack. May also paralyze, burn, or freeze the target.",
+            "bw": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis.",
+            "b2w2": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis.",
+            "xy": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis.",
+            "oras": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis.",
+            "sm": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or paralyze the target.",
+            "usum": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or paralyze the target.",
+            "lgpe": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target.",
+            "swsh": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target.",
+            "la": "The user strikes with a simultaneous three-beam attack. This may also leave the target with a burn, paralysis, or frostbite.",
+            "sv": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target."
+        },
+        "french": {
+            "bw": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.",
+            "xy": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.",
+            "oras": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.",
+            "sm": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.",
+            "usum": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.",
+            "lgpe": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.",
+            "swsh": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "３つの　こうせんで　こうげきする。 まひか　やけどか　こおりじょうたいの どれかに　することが　ある。",
+            "oras": "３つの　こうせんで　こうげきする。 まひか　やけどか　こおりじょうたいの どれかに　することが　ある。",
+            "sm": "３つの　こうせんで　こうげきする。 まひか　やけどか　こおりじょうたいの どれかに　することが　ある。",
+            "usum": "３つの　こうせんで　こうげきする。 まひか　やけどか　こおりじょうたいの どれかに　することが　ある。",
+            "lgpe": "３つの　こうせんで　こうげきする。 まひか　やけどか　こおりじょうたいの どれかに　することが　ある。",
+            "swsh": "３つの　こうせんで　こうげきする。 まひか　やけどか　こおりじょうたいの どれかに　することが　ある。"
+        },
+        "korean": {
+            "xy": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다.",
+            "oras": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다.",
+            "sm": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다.",
+            "usum": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다.",
+            "lgpe": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다.",
+            "swsh": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Feuert drei Strahlen ab. Verursacht eventuell Paralyse, Verbrennung oder Einfrieren.",
+            "oras": "Feuert drei Strahlen ab. Verursacht eventuell Paralyse, Verbrennung oder Einfrieren.",
+            "sm": "Feuert drei Strahlen ab. Verursacht eventuell Paralyse, Verbrennung oder Einfrieren.",
+            "usum": "Feuert drei Strahlen ab. Verursacht eventuell Paralyse, Verbrennung oder Einfrieren.",
+            "lgpe": "Feuert drei Strahlen ab. Verursacht eventuell Paralyse, Verbrennung oder Einfrieren.",
+            "swsh": "Feuert drei Strahlen ab. Verursacht eventuell Paralyse, Verbrennung oder Einfrieren."
+        },
+        "spanish": {
+            "xy": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "oras": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "sm": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "usum": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "lgpe": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "swsh": "Ataque triple que puede paralizar, quemar o congelar al objetivo."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con tre sfere simultanee che possono paralizzarlo, scottarlo o congelarlo.",
+            "oras": "Colpisce il bersaglio con tre sfere simultanee che possono paralizzarlo, scottarlo o congelarlo.",
+            "sm": "Colpisce il bersaglio con tre sfere simultanee che possono paralizzarlo, scottarlo o congelarlo.",
+            "usum": "Colpisce il bersaglio con tre sfere simultanee che possono paralizzarlo, scottarlo o congelarlo.",
+            "lgpe": "Colpisce il bersaglio con tre sfere simultanee che possono paralizzarlo, scottarlo o congelarlo.",
+            "swsh": "Colpisce il bersaglio con tre raggi di luce che possono paralizzarlo, scottarlo o congelarlo."
+        },
+        "japanese": {
+            "xy": "３つの　光線で　攻撃する。 まひか　やけどか　こおり状態の どれかに　することが　ある。",
+            "oras": "３つの　光線で　攻撃する。 まひか　やけどか　こおり状態の どれかに　することが　ある。",
+            "sm": "３つの　光線で　攻撃する。 まひか　やけどか　こおり状態の どれかに　することが　ある。",
+            "usum": "３つの　光線で　攻撃する。 まひか　やけどか　こおり状態の どれかに　することが　ある。",
+            "lgpe": "３つの　光線で　攻撃する。 まひか　やけどか　こおり状態の どれかに　することが　ある。",
+            "swsh": "３つの　光線で　攻撃する。 まひか　やけどか　こおり状態の どれかに　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "oras": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "sm": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "usum": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "lgpe": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+            "swsh": "Ataque triple que puede paralizar, quemar o congelar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用３種光線進行攻擊。 有時會讓對手陷入 麻痺、灼傷或冰凍的狀態。",
+            "usum": "用３種光線進行攻擊。 有時會讓對手陷入 麻痺、灼傷或冰凍的狀態。",
+            "lgpe": "用３種光線進行攻擊。 有時會讓對手陷入 麻痺、灼傷或冰凍的狀態。",
+            "swsh": "用３種光線進行攻擊。 有時會讓對手陷入 麻痺、灼傷或冰凍的狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用３种光线进行攻击。 有时会让对手陷入 麻痹、灼伤或冰冻的状态。",
+            "usum": "用３种光线进行攻击。 有时会让对手陷入 麻痹、灼伤或冰冻的状态。",
+            "lgpe": "用３种光线进行攻击。 有时会让对手陷入 麻痹、灼伤或冰冻的状态。",
+            "swsh": "用３种光线进行攻击。 有时会让对手陷入 麻痹、灼伤或冰冻的状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
+        "shortEffect": "Has a chance to burn, freeze, or paralyze the target."
+    }
 }

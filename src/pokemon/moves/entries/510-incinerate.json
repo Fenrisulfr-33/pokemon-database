@@ -1,39 +1,142 @@
 {
-  "_id": 510,
-  "key": "incinerate",
-  "name": {
-    "english": "Incinerate",
-    "japanese": "やきつくす",
-    "chinese": "烧尽",
-    "korean": "불태우기",
-    "german": "Calcinación",
-    "french": "Einäschern",
-    "italian": "Incinerate",
-    "spanish": "Bruciatutto"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks the target with fire.\nIf the target is holding a Berry, the\nBerry becomes burnt up and unusable.",
-    "black-2-white-2": "The user attacks the target with fire.\nIf the target is holding a Berry, the\nBerry becomes burnt up and unusable.",
-    "x-y": "The user attacks opposing Pokémon with fire.\nIf a Pokémon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
-    "omega-ruby-alpha-sapphire": "The user attacks opposing Pokémon with fire.\nIf a Pokémon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
-    "sun-moon": "The user attacks opposing Pokémon with fire.\nIf a Pokémon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
-    "ultra-sun-ultra-moon": "The user attacks opposing Pokémon with fire.\nIf a Pokémon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks opposing Pokémon with fire.\nIf a Pokémon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
-    "sword-shield": "The user attacks opposing Pokémon with fire.\nIf a Pokémon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If the target is holding a berry, it's destroyed and cannot be used in response to this move.",
-    "shortEffect": "Destroys the target's held berry."
-  },
-  "priority": 0
+    "_id": 510,
+    "key": "incinerate",
+    "name": {
+        "japanese-kana": "やきつくす",
+        "korean": "불태우기",
+        "traditional-chinese": "燒盡",
+        "french": "Calcination",
+        "german": "Einäschern",
+        "spanish": "Calcinación",
+        "italian": "Bruciatutto",
+        "english": "Incinerate",
+        "japanese": "やきつくす",
+        "simplified-chinese": "烧净",
+        "latin-american-spanish": "Incinerar"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 30
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Des flammes calcinent l’ennemi. S’il tient une Baie, elle est brûlée et devient inutilisable.",
+            "xy": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable.",
+            "oras": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable.",
+            "sm": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable.",
+            "usum": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable.",
+            "lgpe": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable.",
+            "swsh": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable."
+        },
+        "english": {
+            "bw": "The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.",
+            "b2w2": "The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.",
+            "xy": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+            "oras": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+            "sm": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+            "usum": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+            "lgpe": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+            "swsh": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+            "la": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+            "sv": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable."
+        },
+        "japanese-kana": {
+            "xy": "ほのおで　あいてを　こうげきする。 あいてが　きのみなどを　もっている　とき もやして　つかえなく　する。",
+            "oras": "ほのおで　あいてを　こうげきする。 あいてが　きの などを　もっている　とき もやして　つかえなく　する。",
+            "sm": "ほのおで　あいてを　こうげきする。 あいてが　きのみなどを　もっている　とき もやして　つかえなく　する。",
+            "usum": "ほのおで　あいてを　こうげきする。 あいてが　きのみなどを　もっている　とき もやして　つかえなく　する。",
+            "lgpe": "ほのおで　あいてを　こうげきする。 あいてが　きのみなどを　もっている　とき もやして　つかえなく　する。",
+            "swsh": "ほのおで　あいてを　こうげきする。 あいてが　きのみなどを　もっている　とき もやして　つかえなく　する。"
+        },
+        "korean": {
+            "xy": "불꽃으로 상대를 공격한다. 상대가 나무열매 등을 지니고 있을 때 불태워서 쓸 수 없게 만든다.",
+            "oras": "불꽃으로 상대를 공격한다. 상대가 나무열매 등을 지니고 있을 때 불태워서 쓸 수 없게 만든다.",
+            "sm": "불꽃으로 상대를 공격한다. 상대가 나무열매 등을 지니고 있을 때 불태워서 쓸 수 없게 만든다.",
+            "usum": "불꽃으로 상대를 공격한다. 상대가 나무열매 등을 지니고 있을 때 불태워서 쓸 수 없게 만든다.",
+            "lgpe": "불꽃으로 상대를 공격한다. 상대가 나무열매 등을 지니고 있을 때 불태워서 쓸 수 없게 만든다.",
+            "swsh": "불꽃으로 상대를 공격한다. 상대가 나무열매 등을 지니고 있을 때 불태워서 쓸 수 없게 만든다."
+        },
+        "german": {
+            "xy": "Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.",
+            "oras": "Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.",
+            "sm": "Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.",
+            "usum": "Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.",
+            "lgpe": "Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.",
+            "swsh": "Eine Feuer-Attacke. Trägt ein gegnerisches Pokémon eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren."
+        },
+        "spanish": {
+            "xy": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+            "oras": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+            "sm": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+            "usum": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se quemarán y ya no se podrán usar.",
+            "lgpe": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se quemarán y ya no se podrán usar.",
+            "swsh": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se quemarán y ya no se podrán usar."
+        },
+        "italian": {
+            "xy": "Attacca i nemici che ha intorno con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che i Pokémon hanno con sé.",
+            "oras": "Attacca i nemici che ha intorno con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che i Pokémon hanno con sé.",
+            "sm": "Attacca i nemici che ha intorno con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che i Pokémon hanno con sé.",
+            "usum": "Attacca i nemici che ha intorno con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che i Pokémon hanno con sé.",
+            "lgpe": "Attacca i nemici che ha intorno con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che i Pokémon hanno con sé.",
+            "swsh": "Attacca i nemici che ha intorno con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che i Pokémon hanno con sé."
+        },
+        "japanese": {
+            "xy": "炎で　相手を　攻撃する。 相手が　きのみなどを　持っているとき 燃やして　使えなくする。",
+            "oras": "炎で　相手を　攻撃する。 相手が　きの などを　持っているとき 燃やして　使えなくする。",
+            "sm": "炎で　相手を　攻撃する。 相手が　きのみなどを　持っているとき 燃やして　使えなくする。",
+            "usum": "炎で　相手を　攻撃する。 相手が　きのみなどを　持っているとき 燃やして　使えなくする。",
+            "lgpe": "炎で　相手を　攻撃する。 相手が　きのみなどを　持っているとき 燃やして　使えなくする。",
+            "swsh": "炎で　相手を　攻撃する。 相手が　きのみなどを　持っているとき 燃やして　使えなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+            "oras": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+            "sm": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+            "usum": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se quemarán y ya no se podrán usar.",
+            "lgpe": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se quemarán y ya no se podrán usar.",
+            "swsh": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se quemarán y ya no se podrán usar."
+        },
+        "traditional-chinese": {
+            "sm": "用火焰攻擊對手。 能夠燒掉對手攜帶的樹果等道具， 讓對手無法使用。",
+            "usum": "用火焰攻擊對手。 能夠燒掉對手攜帶的樹果等道具， 讓對手無法使用。",
+            "lgpe": "用火焰攻擊對手。 能夠燒掉對手攜帶的樹果等道具， 讓對手無法使用。",
+            "swsh": "用火焰攻擊對手。 能夠燒掉對手攜帶的樹果等道具， 讓對手無法使用。"
+        },
+        "simplified-chinese": {
+            "sm": "用火焰攻击对手。 对手携带树果等时， 会烧掉，使其不能使用。",
+            "usum": "用火焰攻击对手。 对手携带树果等时， 会烧掉，使其不能使用。",
+            "lgpe": "用火焰攻击对手。 对手携带树果等时， 会烧掉，使其不能使用。",
+            "swsh": "用火焰攻击对手。 对手携带树果等时， 会烧掉，使其不能使用。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If the target is holding a berry, it’s destroyed and cannot be used in response to this move.",
+        "shortEffect": "Destroys the target’s held berry."
+    }
 }

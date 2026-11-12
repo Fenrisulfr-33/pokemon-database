@@ -1,37 +1,133 @@
 {
-  "_id": 615,
-  "key": "thousand-waves",
-  "name": {
-    "english": "Thousand Waves",
-    "japanese": "サウザンウェーブ",
-    "chinese": "千波激盪",
-    "korean": "사우전드웨이브",
-    "german": "Mil Temblores",
-    "french": "Tausend Wellen",
-    "italian": "Thousand Waves",
-    "spanish": "Mille Onde"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "x-y": "The user attacks with a wave\nthat crawls along the ground.\nThose hit can’t flee from battle.",
-    "omega-ruby-alpha-sapphire": "The user attacks with a wave\nthat crawls along the ground.\nThose hit can’t flee from battle.",
-    "sun-moon": "The user attacks with a wave that crawls along the\nground. Those hit can’t flee from battle.",
-    "ultra-sun-ultra-moon": "The user attacks with a wave that crawls along the\nground. Those hit can’t flee from battle.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks with a wave that crawls along\nthe ground. Those it hits can’t flee from battle.",
-    "sword-shield": "The user attacks with a wave that crawls along\nthe ground. Those it hits can’t flee from battle."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Traps the target.",
-    "shortEffect": "Prevents the target from leaving battle."
-  },
-  "priority": 0
+    "_id": 615,
+    "key": "thousand-waves",
+    "name": {
+        "japanese-kana": "サウザンウェーブ",
+        "korean": "사우전드웨이브",
+        "traditional-chinese": "千波激盪",
+        "french": "Myria-Vagues",
+        "german": "Tausend Wellen",
+        "spanish": "Mil Temblores",
+        "italian": "Mille Onde",
+        "english": "Thousand Waves",
+        "japanese": "サウザンウェーブ",
+        "simplified-chinese": "千波激荡",
+        "latin-american-spanish": "Mil Temblores"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ちをはう　なみによって　こうげき。 なみに　まきこまれた　あいては せんとうから　にげられなくなる。",
+            "oras": "ちをはう　な によって　こうげき。 な に　まきこまれた　あいては せんとうから　にげられなくなる。",
+            "sm": "ちをはう　なみによって　こうげき。 なみに　まきこまれた　あいては せんとうから　にげられなくなる。",
+            "usum": "ちをはう　なみによって　こうげき。 なみに　まきこまれた　あいては せんとうから　にげられなくなる。",
+            "lgpe": "ちをはう　なみによって　こうげき。 なみに　まきこまれた　あいては せんとうから　にげられなくなる。",
+            "swsh": "ちをはう　なみによって　こうげき。 なみに　まきこまれた　あいては せんとうから　にげられなくなる。"
+        },
+        "korean": {
+            "xy": "땅 위를 뻗어 나가는 파도로 공격한다. 파도에 휩쓸린 상대는 전투에서 도망칠 수 없게 된다.",
+            "oras": "땅 위를 뻗어 나가는 파도로 공격한다. 파도에 휩쓸린 상대는 전투에서 도망칠 수 없게 된다.",
+            "sm": "땅 위를 뻗어 나가는 파도로 공격한다. 파도에 휩쓸린 상대는 전투에서 도망칠 수 없게 된다.",
+            "usum": "땅 위를 뻗어 나가는 파도로 공격한다. 파도에 휩쓸린 상대는 전투에서 도망칠 수 없게 된다.",
+            "lgpe": "땅 위를 뻗어 나가는 파도로 공격한다. 파도에 휩쓸린 상대는 전투에서 도망칠 수 없게 된다.",
+            "swsh": "땅 위를 뻗어 나가는 파도로 공격한다. 파도에 휩쓸린 상대는 전투에서 도망칠 수 없게 된다."
+        },
+        "french": {
+            "xy": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper.",
+            "oras": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper.",
+            "sm": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper.",
+            "usum": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper.",
+            "lgpe": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper.",
+            "swsh": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper."
+        },
+        "german": {
+            "xy": "Der Anwender greift mit einer Welle an, die dicht über dem Boden verläuft und alle Pokémon, die sie erfasst, an der Flucht hindert.",
+            "oras": "Der Anwender greift mit einer Welle an, die dicht über dem Boden verläuft und alle Pokémon, die sie erfasst, an der Flucht hindert.",
+            "sm": "Der Anwender greift mit einer Welle an, die dicht über dem Boden verläuft und alle Pokémon, die sie erfasst, an der Flucht hindert.",
+            "usum": "Der Anwender greift mit einer Welle an, die dicht über dem Boden verläuft und alle Pokémon, die sie erfasst, an der Flucht hindert.",
+            "lgpe": "Der Anwender greift mit einer Welle an, die dicht über dem Boden verläuft und alle Pokémon, die sie erfasst, an der Flucht hindert.",
+            "swsh": "Der Anwender greift mit einer Welle an, die dicht über dem Boden verläuft und alle Pokémon, die sie erfasst, an der Flucht hindert."
+        },
+        "spanish": {
+            "xy": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "oras": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "sm": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "usum": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "lgpe": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "swsh": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate."
+        },
+        "italian": {
+            "xy": "Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.",
+            "oras": "Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.",
+            "sm": "Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.",
+            "usum": "Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.",
+            "lgpe": "Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.",
+            "swsh": "Un’onda strisciante investe i nemici intorno impedendo loro di fuggire."
+        },
+        "english": {
+            "xy": "The user attacks with a wave that crawls along the ground. Those hit can’t flee from battle.",
+            "oras": "The user attacks with a wave that crawls along the ground. Those hit can’t flee from battle.",
+            "sm": "The user attacks with a wave that crawls along the ground. Those hit can’t flee from battle.",
+            "usum": "The user attacks with a wave that crawls along the ground. Those hit can’t flee from battle.",
+            "lgpe": "The user attacks with a wave that crawls along the ground. Those it hits can’t flee from battle.",
+            "swsh": "The user attacks with a wave that crawls along the ground. Those it hits can’t flee from battle."
+        },
+        "japanese": {
+            "xy": "地をはう　波によって　攻撃。 波に　巻き込まれた　相手は 戦闘から　逃げられなくなる。",
+            "oras": "地をはう　波によって　攻撃。 波に　巻き込まれた　相手は 戦闘から　逃げられなくなる。",
+            "sm": "地をはう　波によって　攻撃。 波に　巻き込まれた　相手は 戦闘から　逃げられなくなる。",
+            "usum": "地をはう　波によって　攻撃。 波に　巻き込まれた　相手は 戦闘から　逃げられなくなる。",
+            "lgpe": "地をはう　波によって　攻撃。 波に　巻き込まれた　相手は 戦闘から　逃げられなくなる。",
+            "swsh": "地をはう　波によって　攻撃。 波に　巻き込まれた　相手は 戦闘から　逃げられなくなる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "oras": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "sm": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "usum": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "lgpe": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+            "swsh": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate."
+        },
+        "traditional-chinese": {
+            "sm": "化成波浪從地面進行攻擊。 被捲入波浪中的對手 將無法從戰鬥中逃走。",
+            "usum": "化成波浪從地面進行攻擊。 被捲入波浪中的對手 將無法從戰鬥中逃走。",
+            "lgpe": "化成波浪從地面進行攻擊。 被捲入波浪中的對手 將無法從戰鬥中逃走。",
+            "swsh": "化成波浪從地面進行攻擊。 被捲入波浪中的對手 將無法從戰鬥中逃走。"
+        },
+        "simplified-chinese": {
+            "sm": "从地面掀起波浪进行攻击。 被掀入波浪中的对手， 将无法从战斗中逃走。",
+            "usum": "从地面掀起波浪进行攻击。 被掀入波浪中的对手， 将无法从战斗中逃走。",
+            "lgpe": "从地面掀起波浪进行攻击。 被掀入波浪中的对手， 将无法从战斗中逃走。",
+            "swsh": "从地面掀起波浪进行攻击。 被掀入波浪中的对手， 将无法从战斗中逃走。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Traps the target.",
+        "shortEffect": "Prevents the target from leaving battle."
+    }
 }

@@ -1,42 +1,141 @@
 {
-  "_id": 400,
-  "key": "night-slash",
-  "name": {
-    "english": "Night Slash",
-    "japanese": "つじぎり",
-    "chinese": "街头试刀",
-    "korean": "깜짝베기",
-    "german": "Tajo Umbrío",
-    "french": "Nachthieb",
-    "italian": "Night Slash",
-    "spanish": "Nottesferza"
-  },
-  "type": "Dark",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 15,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user slashes the\nfoe the instant an\nopportunity arises.\nIt has a high\ncritical-hit ratio.",
-    "platinum": "The user slashes the\nfoe the instant an\nopportunity arises.\nIt has a high\ncritical-hit ratio.",
-    "heartgold-soulsilver": "The user slashes the\nfoe the instant an\nopportunity arises.\nIt has a high\ncritical-hit ratio.",
-    "black-white": "The user slashes the target\nthe instant an opportunity arises.\nCritical hits land more easily.",
-    "black-2-white-2": "The user slashes the target\nthe instant an opportunity arises.\nCritical hits land more easily.",
-    "x-y": "The user slashes the target\nthe instant an opportunity arises.\nCritical hits land more easily.",
-    "omega-ruby-alpha-sapphire": "The user slashes the target\nthe instant an opportunity arises.\nCritical hits land more easily.",
-    "sun-moon": "The user slashes the target the instant an\nopportunity arises. Critical hits land more easily.",
-    "ultra-sun-ultra-moon": "The user slashes the target the instant an\nopportunity arises. Critical hits land more easily.",
-    "lets-go-pikachu-lets-go-eevee": "The user slashes the target the instant an\nopportunity arises. Critical hits land more easily.",
-    "sword-shield": "The user slashes the target the instant an\nopportunity arises. Critical hits land more easily."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
-    "shortEffect": "Has an increased chance for a critical hit."
-  },
-  "priority": 0
+    "_id": 400,
+    "key": "night-slash",
+    "name": {
+        "japanese-kana": "つじぎり",
+        "korean": "깜짝베기",
+        "traditional-chinese": "暗襲要害",
+        "french": "Tranche-Nuit",
+        "german": "Nachthieb",
+        "spanish": "Tajo Umbrío",
+        "italian": "Nottesferza",
+        "english": "Night Slash",
+        "japanese": "つじぎり",
+        "simplified-chinese": "暗袭要害",
+        "latin-american-spanish": "Corte Umbrío"
+    },
+    "type": "dark",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 15,
+    "power": 70,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 1,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.",
+            "pt": "The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.",
+            "hgss": "The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.",
+            "bw": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "b2w2": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "xy": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "oras": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "sm": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "usum": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "lgpe": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "swsh": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+            "la": "The user slashes the target the instant the target lowers its guard. This move has a heightened chance of landing a critical hit.",
+            "sv": "The user slashes the target the instant an opportunity arises. This move has a heightened chance of landing a critical hit."
+        },
+        "french": {
+            "bw": "Le lanceur lacère l’ennemi à la première occasion. Taux de critiques élevé.",
+            "xy": "Le lanceur lacère l’ennemi à la première occasion. Taux de critiques élevé.",
+            "oras": "Le lanceur lacère l’ennemi à la première occasion. Taux de critiques élevé.",
+            "sm": "Le lanceur lacère l’ennemi à la première occasion. Taux de critique élevé.",
+            "usum": "Le lanceur lacère l’ennemi à la première occasion. Taux de critique élevé.",
+            "lgpe": "Le lanceur lacère l’ennemi à la première occasion. Taux de critique élevé.",
+            "swsh": "Le lanceur lacère l’ennemi à la première occasion. Taux de critiques élevé."
+        },
+        "japanese-kana": {
+            "xy": "いっしゅんの　すきを　ついて あいてを　きりはらう。 きゅうしょに　あたりやすい。",
+            "oras": "いっしゅんの　すきを　ついて あいてを　きりはらう。 きゅうしょに　あたりやすい。",
+            "sm": "いっしゅんの　すきを　ついて あいてを　きりはらう。 きゅうしょに　あたりやすい。",
+            "usum": "いっしゅんの　すきを　ついて あいてを　きりはらう。 きゅうしょに　あたりやすい。",
+            "lgpe": "いっしゅんの　すきを　ついて あいてを　きりはらう。 きゅうしょに　あたりやすい。",
+            "swsh": "いっしゅんの　すきを　ついて あいてを　きりはらう。 きゅうしょに　あたりやすい。"
+        },
+        "korean": {
+            "xy": "순간적으로 틈을 노려 상대를 베어 버린다. 급소에 맞기 쉽다.",
+            "oras": "순간적으로 틈을 노려 상대를 베어 버린다. 급소에 맞기 쉽다.",
+            "sm": "순간적으로 틈을 노려 상대를 베어 버린다. 급소에 맞기 쉽다.",
+            "usum": "순간적으로 틈을 노려 상대를 베어 버린다. 급소에 맞기 쉽다.",
+            "lgpe": "순간적으로 틈을 노려 상대를 베어 버린다. 급소에 맞기 쉽다.",
+            "swsh": "순간적으로 틈을 노려 상대를 베어 버린다. 급소에 맞기 쉽다."
+        },
+        "german": {
+            "xy": "Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.",
+            "oras": "Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.",
+            "sm": "Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.",
+            "usum": "Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.",
+            "lgpe": "Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.",
+            "swsh": "Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote."
+        },
+        "spanish": {
+            "xy": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "oras": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "sm": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "usum": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "lgpe": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "swsh": "Ataca al objetivo a la primera oportunidad. Suele ser crítico."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio appena si presenta l’occasione. Probabile brutto colpo.",
+            "oras": "Chi la usa colpisce il bersaglio appena si presenta l’occasione. Probabile brutto colpo.",
+            "sm": "Chi la usa colpisce il bersaglio appena si presenta l’occasione. Probabile brutto colpo.",
+            "usum": "Chi la usa colpisce il bersaglio appena si presenta l’occasione. Probabile brutto colpo.",
+            "lgpe": "Chi la usa colpisce il bersaglio appena si presenta l’occasione. Probabile brutto colpo.",
+            "swsh": "Chi la usa colpisce il bersaglio appena si presenta l’occasione. Probabile brutto colpo."
+        },
+        "japanese": {
+            "xy": "一瞬の　すきを　ついて 相手を　切りはらう。 急所に　当たりやすい。",
+            "oras": "一瞬の　すきを　ついて 相手を　切りはらう。 急所に　当たりやすい。",
+            "sm": "一瞬の　すきを　ついて 相手を　切りはらう。 急所に　当たりやすい。",
+            "usum": "一瞬の　すきを　ついて 相手を　切りはらう。 急所に　当たりやすい。",
+            "lgpe": "一瞬の　すきを　ついて 相手を　切りはらう。 急所に　当たりやすい。",
+            "swsh": "一瞬の　すきを　ついて 相手を　切りはらう。 急所に　当たりやすい。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "oras": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "sm": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "usum": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "lgpe": "Ataca al objetivo a la primera oportunidad. Suele ser crítico.",
+            "swsh": "Ataca al objetivo a la primera oportunidad. Suele ser crítico."
+        },
+        "traditional-chinese": {
+            "sm": "抓住瞬間的空隙 斬切對手。 容易擊中要害。",
+            "usum": "抓住瞬間的空隙 斬切對手。 容易擊中要害。",
+            "lgpe": "抓住瞬間的空隙 斬切對手。 容易擊中要害。",
+            "swsh": "抓住瞬間的空隙 斬切對手。 容易擊中要害。"
+        },
+        "simplified-chinese": {
+            "sm": "抓住瞬间的空隙 切斩对手。 容易击中要害。",
+            "usum": "抓住瞬间的空隙 切斩对手。 容易击中要害。",
+            "lgpe": "抓住瞬间的空隙 切斩对手。 容易击中要害。",
+            "swsh": "抓住瞬间的空隙 切斩对手。 容易击中要害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+        "shortEffect": "Has an increased chance for a critical hit."
+    }
 }

@@ -1,45 +1,144 @@
 {
-  "_id": 262,
-  "key": "memento",
-  "name": {
-    "english": "Memento",
-    "japanese": "おきみやげ",
-    "chinese": "临别礼物",
-    "korean": "추억의선물",
-    "german": "Legado",
-    "french": "Memento-Mori",
-    "italian": "Memento",
-    "spanish": "Memento"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "The user faints and lowers\nthe foe’s abilities.",
-    "emerald": "The user faints and lowers\nthe foe’s abilities.",
-    "firered-leafgreen": "The user faints,\nbut sharply lowers\nthe foe’s ATTACK\nand SP. ATK.",
-    "diamond-pearl": "The user faints upon\nusing this move.\nIn return, it sharply\nlowers the target’s\nAttack and Sp. Atk.",
-    "platinum": "The user faints upon\nusing this move.\nIn return, it sharply\nlowers the target’s\nAttack and Sp. Atk.",
-    "heartgold-soulsilver": "The user faints upon\nusing this move.\nIn return, it sharply\nlowers the target’s\nAttack and Sp. Atk.",
-    "black-white": "The user faints when using this move.\nIn return, it harshly lowers the target’s\nAttack and Sp. Atk.",
-    "black-2-white-2": "The user faints when using this move.\nIn return, it harshly lowers the target’s\nAttack and Sp. Atk.",
-    "x-y": "The user faints when using this move.\nIn return, this harshly lowers the target’s\nAttack and Sp. Atk stats.",
-    "omega-ruby-alpha-sapphire": "The user faints when using this move.\nIn return, this harshly lowers the target’s\nAttack and Sp. Atk stats.",
-    "sun-moon": "The user faints when using this move. In return, this\nharshly lowers the target’s Attack and Sp. Atk stats.",
-    "ultra-sun-ultra-moon": "The user faints when using this move. In return, this\nharshly lowers the target’s Attack and Sp. Atk stats.",
-    "lets-go-pikachu-lets-go-eevee": "The user faints when using this move. In return, this\nharshly lowers the target’s Attack and Sp. Atk stats.",
-    "sword-shield": "The user faints when using this move. In return, this\nharshly lowers the target’s Attack and Sp. Atk stats."
-  },
-  "effect": {
-    "full": "Lowers the target's Attack and Special Attack by two stages.  User faints.",
-    "shortEffect": "Lowers the target's Attack and Special Attack by two stages.  User faints."
-  },
-  "priority": 0
+    "_id": 262,
+    "key": "memento",
+    "name": {
+        "japanese-kana": "おきみやげ",
+        "korean": "추억의선물",
+        "traditional-chinese": "臨別禮物",
+        "french": "Souvenir",
+        "german": "Memento-Mori",
+        "spanish": "Legado",
+        "italian": "Memento",
+        "english": "Memento",
+        "japanese": "おきみやげ",
+        "simplified-chinese": "临别礼物",
+        "latin-american-spanish": "Recuerdo"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "The user faints and lowers the foe’s abilities.",
+            "em": "The user faints and lowers the foe’s abilities.",
+            "frlg": "The user faints, but sharply lowers the foe’s ATTACK and SP. ATK.",
+            "dp": "The user faints upon using this move. In return, it sharply lowers the target’s Attack and Sp. Atk.",
+            "pt": "The user faints upon using this move. In return, it sharply lowers the target’s Attack and Sp. Atk.",
+            "hgss": "The user faints upon using this move. In return, it sharply lowers the target’s Attack and Sp. Atk.",
+            "bw": "The user faints when using this move. In return, it harshly lowers the target’s Attack and Sp. Atk.",
+            "b2w2": "The user faints when using this move. In return, it harshly lowers the target’s Attack and Sp. Atk.",
+            "xy": "The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.",
+            "oras": "The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.",
+            "sm": "The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.",
+            "usum": "The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.",
+            "lgpe": "The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.",
+            "swsh": "The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.",
+            "la": "The user faints when using this move. In return, this harshly lowers the target's Attack and Sp. Atk stats.",
+            "sv": "The user faints. In return, the target's Attack and Sp. Atk stats are harshly lowered."
+        },
+        "french": {
+            "bw": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup.",
+            "xy": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup.",
+            "oras": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup.",
+            "sm": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup.",
+            "usum": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup.",
+            "lgpe": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup.",
+            "swsh": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup."
+        },
+        "japanese-kana": {
+            "xy": "じぶんは　ひんしに　なるが　そのかわりに あいての　こうげきと　とくこうを がくっと　さげる。",
+            "oras": "じぶんは　ひんしに　なるが　そのかわりに あいての　こうげきと　とくこうを がくっと　さげる。",
+            "sm": "じぶんは　ひんしに　なるが　そのかわりに あいての　こうげきと　とくこうを がくっと　さげる。",
+            "usum": "じぶんは　ひんしに　なるが　そのかわりに あいての　こうげきと　とくこうを がくっと　さげる。",
+            "lgpe": "じぶんは　ひんしに　なるが　そのかわりに あいての　こうげきと　とくこうを がくっと　さげる。",
+            "swsh": "じぶんは　ひんしに　なるが　そのかわりに あいての　こうげきと　とくこうを がくっと　さげる。"
+        },
+        "korean": {
+            "xy": "자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 크게 떨어뜨린다.",
+            "oras": "자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 크게 떨어뜨린다.",
+            "sm": "자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 크게 떨어뜨린다.",
+            "usum": "자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 크게 떨어뜨린다.",
+            "lgpe": "자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 크게 떨어뜨린다.",
+            "swsh": "자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 크게 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Der Anwender wird besiegt und senkt den Angriffs-Wert und den Spezial-Angriff des Zieles stark.",
+            "oras": "Der Anwender wird besiegt. Gleichzeitig werden der Angriff und Spezial-Angriff des Zieles stark gesenkt.",
+            "sm": "Der Anwender wird besiegt. Gleichzeitig werden der Angriff und Spezial-Angriff des Zieles stark gesenkt.",
+            "usum": "Der Anwender wird besiegt. Gleichzeitig werden der Angriff und Spezial-Angriff des Zieles stark gesenkt.",
+            "lgpe": "Der Anwender wird besiegt. Gleichzeitig werden der Angriff und Spezial-Angriff des Zieles stark gesenkt.",
+            "swsh": "Der Anwender wird besiegt. Gleichzeitig werden der Angriff und Spezial-Angriff des Zieles stark gesenkt."
+        },
+        "spanish": {
+            "xy": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "oras": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "sm": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "usum": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "lgpe": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "swsh": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa va KO. Tuttavia, riduce di molto l’Attacco e l’Attacco Speciale del bersaglio.",
+            "oras": "Chi la usa va KO. Tuttavia, riduce di molto l’Attacco e l’Attacco Speciale del bersaglio.",
+            "sm": "Chi la usa va KO. Tuttavia, riduce di molto l’Attacco e l’Attacco Speciale del bersaglio.",
+            "usum": "Chi la usa va KO. Tuttavia, riduce di molto l’Attacco e l’Attacco Speciale del bersaglio.",
+            "lgpe": "Chi la usa va KO. Tuttavia, riduce di molto l’Attacco e l’Attacco Speciale del bersaglio.",
+            "swsh": "Chi la usa va KO. Tuttavia, riduce di molto l’Attacco e l’Attacco Speciale del bersaglio."
+        },
+        "japanese": {
+            "xy": "自分は　ひんしに　なるが　そのかわりに 相手の　攻撃と　特攻を がくっと　さげる。",
+            "oras": "自分は　ひんしに　なるが　そのかわりに 相手の　攻撃と　特攻を がくっと　さげる。",
+            "sm": "自分は　ひんしに　なるが　そのかわりに 相手の　攻撃と　特攻を がくっと　さげる。",
+            "usum": "自分は　ひんしに　なるが　そのかわりに 相手の　攻撃と　特攻を がくっと　さげる。",
+            "lgpe": "自分は　ひんしに　なるが　そのかわりに 相手の　攻撃と　特攻を がくっと　さげる。",
+            "swsh": "自分は　ひんしに　なるが　そのかわりに 相手の　攻撃と　特攻を がくっと　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "oras": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "sm": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "usum": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "lgpe": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+            "swsh": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "雖然自己會陷入瀕死， 但可以大幅降低 對手的攻擊和特攻。",
+            "usum": "雖然自己會陷入瀕死， 但可以大幅降低 對手的攻擊和特攻。",
+            "lgpe": "雖然自己會陷入瀕死， 但可以大幅降低 對手的攻擊和特攻。",
+            "swsh": "雖然自己會陷入瀕死， 但可以大幅降低 對手的攻擊和特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "虽然会使自己陷入濒死， 但是能够大幅降低 对手的攻击和特攻。",
+            "usum": "虽然会使自己陷入濒死， 但是能够大幅降低 对手的攻击和特攻。",
+            "lgpe": "虽然会使自己陷入濒死， 但是能够大幅降低 对手的攻击和特攻。",
+            "swsh": "虽然会使自己陷入濒死， 但是能够大幅降低 对手的攻击和特攻。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Attack and Special Attack by two stages.  User faints.",
+        "shortEffect": "Lowers the target’s Attack and Special Attack by two stages.  User faints."
+    }
 }

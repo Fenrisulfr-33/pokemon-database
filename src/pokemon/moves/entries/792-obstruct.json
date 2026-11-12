@@ -1,29 +1,82 @@
 {
-  "_id": 792,
-  "key": "obstruct",
-  "name": {
-    "english": "Obstruct",
-    "japanese": "ブロッキング",
-    "chinese": "攔堵",
-    "korean": "블로킹",
-    "german": "Obstrucción",
-    "french": "Abblocker",
-    "italian": "Obstruct",
-    "spanish": "Sbarramento"
-  },
-  "type": "Dark",
-  "category": "Status",
-  "contest": null,
-  "pp": 10,
-  "power": null,
-  "accuracy": 100,
-  "contact": "No",
-  "generation": 8,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "sword-shield": "This move enables the user to protect itself from all attacks.\nIts chance of failing rises if it is used in succession.\nDirect contact harshly lowers the attacker’s Defense stat."
-  },
-  "effect": {},
-  "priority": 4
+    "_id": 792,
+    "key": "obstruct",
+    "name": {
+        "japanese-kana": "ブロッキング",
+        "korean": "블로킹",
+        "traditional-chinese": "攔堵",
+        "french": "Blocage",
+        "german": "Abblocker",
+        "spanish": "Obstrucción",
+        "italian": "Sbarramento",
+        "english": "Obstruct",
+        "japanese": "ブロッキング",
+        "simplified-chinese": "拦堵",
+        "latin-american-spanish": "Obstrucción"
+    },
+    "type": "dark",
+    "category": "status",
+    "contest": null,
+    "pp": 10,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 8,
+    "priority": 4,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "あいての　こうげきを　まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。 ふれると　ぼうぎょが　がくっと　さがる。"
+        },
+        "korean": {
+            "swsh": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다. 접촉한 상대의 방어를 크게 떨어뜨린다."
+        },
+        "traditional-chinese": {
+            "swsh": "完全防住對手的所有攻擊。 連續使用時容易失敗。 一旦觸碰到，防禦會大幅降低。"
+        },
+        "french": {
+            "swsh": "Le lanceur se protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite. Baisse beaucoup la Défense de l’assaillant s’il utilise une attaque directe."
+        },
+        "german": {
+            "swsh": "Der Anwender wehrt jede Attacke ab. Berührt ihn währenddessen ein Pokémon, sinkt dessen Verteidigung stark. Scheitert eventuell bei Wiederholung."
+        },
+        "spanish": {
+            "swsh": "Frena todos los ataques, pero puede fallar si se usa repetidamente. Reduce mucho la Defensa de quien ejecute un movimiento de contacto contra el usuario."
+        },
+        "italian": {
+            "swsh": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire. Se un Pokémon tocca chi la usa, la sua Difesa diminuisce di molto."
+        },
+        "english": {
+            "swsh": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession. Direct contact harshly lowers the attacker’s Defense stat."
+        },
+        "japanese": {
+            "swsh": "相手の　攻撃を　まったく　受けない。 連続で　だすと　失敗しやすい。 触れると　防御が　がくっと　下がる。"
+        },
+        "simplified-chinese": {
+            "swsh": "完全抵挡对手的攻击。 连续使出则容易失败。 一旦触碰，防御就会大幅降低。"
+        },
+        "latin-american-spanish": {
+            "swsh": "Frena todos los ataques, pero puede fallar si se usa repetidamente. Reduce mucho la Defensa de quien ejecute un movimiento de contacto contra el usuario."
+        }
+    },
+    "effect": {
+        "full": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "shortEffect": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages."
+    }
 }

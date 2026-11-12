@@ -1,47 +1,146 @@
 {
-  "_id": 162,
-  "key": "super-fang",
-  "name": {
-    "english": "Super Fang",
-    "japanese": "いかりのまえば",
-    "chinese": "愤怒之牙",
-    "korean": "분노의앞니",
-    "german": "Superdiente",
-    "french": "Superzahn",
-    "italian": "Super Fang",
-    "spanish": "Superzanna"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": null,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Cuts the foe's HP\nby 1/2.",
-    "crystal": "Cuts the foe's HP\nby 1/2.",
-    "ruby-sapphire": "Attacks with sharp fangs\nand cuts half the foe’s HP.",
-    "emerald": "Attacks with sharp fangs\nand cuts half the foe’s HP.",
-    "firered-leafgreen": "The user attacks\nwith sharp fangs\nand halves the\nfoe’s HP.",
-    "diamond-pearl": "The user chomps hard\non the foe with its\nsharp front fangs.\nIt cuts the target’s\nHP to half.",
-    "platinum": "The user chomps hard\non the foe with its\nsharp front fangs.\nIt cuts the target’s\nHP to half.",
-    "heartgold-soulsilver": "The user chomps hard\non the foe with its\nsharp front fangs.\nIt cuts the target’s\nHP to half.",
-    "black-white": "The user chomps hard on the\ntarget with its sharp front fangs.\nIt cuts the target’s HP to half.",
-    "black-2-white-2": "The user chomps hard on the\ntarget with its sharp front fangs.\nIt cuts the target’s HP to half.",
-    "x-y": "The user chomps hard on the\ntarget with its sharp front fangs.\nThis cuts the target’s HP in half.",
-    "omega-ruby-alpha-sapphire": "The user chomps hard on the\ntarget with its sharp front fangs.\nThis cuts the target’s HP in half.",
-    "sun-moon": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half.",
-    "ultra-sun-ultra-moon": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half.",
-    "lets-go-pikachu-lets-go-eevee": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half.",
-    "sword-shield": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half."
-  },
-  "effect": {
-    "full": "Inflicts typeless damage equal to half the target's remaining HP.",
-    "shortEffect": "Inflicts damage equal to half the target's HP."
-  },
-  "priority": 0
+    "_id": 162,
+    "key": "super-fang",
+    "name": {
+        "japanese-kana": "いかりのまえば",
+        "korean": "분노의앞니",
+        "traditional-chinese": "憤怒門牙",
+        "french": "Croc Fatal",
+        "german": "Superzahn",
+        "spanish": "Superdiente",
+        "italian": "Superzanna",
+        "english": "Super Fang",
+        "japanese": "いかりのまえば",
+        "simplified-chinese": "愤怒门牙",
+        "latin-american-spanish": "Supercolmillo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 10,
+    "power": null,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Cuts the foe's HP by 1/2.",
+            "cr": "Cuts the foe's HP by 1/2.",
+            "rs": "Attacks with sharp fangs and cuts half the foe’s HP.",
+            "em": "Attacks with sharp fangs and cuts half the foe’s HP.",
+            "frlg": "The user attacks with sharp fangs and halves the foe’s HP.",
+            "dp": "The user chomps hard on the foe with its sharp front fangs. It cuts the target’s HP to half.",
+            "pt": "The user chomps hard on the foe with its sharp front fangs. It cuts the target’s HP to half.",
+            "hgss": "The user chomps hard on the foe with its sharp front fangs. It cuts the target’s HP to half.",
+            "bw": "The user chomps hard on the target with its sharp front fangs. It cuts the target’s HP to half.",
+            "b2w2": "The user chomps hard on the target with its sharp front fangs. It cuts the target’s HP to half.",
+            "xy": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half.",
+            "oras": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half.",
+            "sm": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half.",
+            "usum": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half.",
+            "lgpe": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half.",
+            "swsh": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half.",
+            "la": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half.",
+            "sv": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half."
+        },
+        "french": {
+            "bw": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.",
+            "xy": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.",
+            "oras": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.",
+            "sm": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.",
+            "usum": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.",
+            "lgpe": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.",
+            "swsh": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "するどい　まえばで はげしく　かみついて　こうげきする。 あいての　ＨＰは　はんぶんに　なる。",
+            "oras": "するどい　まえばで はげしく　か ついて　こうげきする。 あいての　ＨＰは　はんぶんに　なる。",
+            "sm": "するどい　まえばで はげしく　かみついて　こうげきする。 あいての　ＨＰは　はんぶんに　なる。",
+            "usum": "するどい　まえばで はげしく　かみついて　こうげきする。 あいての　ＨＰは　はんぶんに　なる。",
+            "lgpe": "するどい　まえばで はげしく　かみついて　こうげきする。 あいての　ＨＰは　はんぶんに　なる。",
+            "swsh": "するどい　まえばで はげしく　かみついて　こうげきする。 あいての　ＨＰは　はんぶんに　なる。"
+        },
+        "korean": {
+            "xy": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.",
+            "oras": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.",
+            "sm": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.",
+            "usum": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.",
+            "lgpe": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.",
+            "swsh": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다."
+        },
+        "german": {
+            "xy": "Greift mit scharfen Reißzähnen an. KP des Zieles werden halbiert.",
+            "oras": "Greift mit scharfen Reißzähnen an. KP des Zieles werden halbiert.",
+            "sm": "Greift mit scharfen Reißzähnen an. KP des Zieles werden halbiert.",
+            "usum": "Greift mit scharfen Reißzähnen an. KP des Zieles werden halbiert.",
+            "lgpe": "Greift mit scharfen Reißzähnen an. KP des Zieles werden halbiert.",
+            "swsh": "Greift mit scharfen Reißzähnen an. KP des Zieles werden halbiert."
+        },
+        "spanish": {
+            "xy": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "oras": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "sm": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "usum": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "lgpe": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "swsh": "Finos colmillos que reducen a la mitad los PS del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.",
+            "oras": "Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.",
+            "sm": "Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.",
+            "usum": "Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.",
+            "lgpe": "Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.",
+            "swsh": "Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS."
+        },
+        "japanese": {
+            "xy": "鋭い　前歯で 激しく　かみついて　攻撃する。 相手の　ＨＰは　半分に　なる。",
+            "oras": "鋭い　前歯で 激しく　か ついて　攻撃する。 相手の　ＨＰは　半分に　なる。",
+            "sm": "鋭い　前歯で 激しく　かみついて　攻撃する。 相手の　ＨＰは　半分に　なる。",
+            "usum": "鋭い　前歯で 激しく　かみついて　攻撃する。 相手の　ＨＰは　半分に　なる。",
+            "lgpe": "鋭い　前歯で 激しく　かみついて　攻撃する。 相手の　ＨＰは　半分に　なる。",
+            "swsh": "鋭い　前歯で 激しく　かみついて　攻撃する。 相手の　ＨＰは　半分に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "oras": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "sm": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "usum": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "lgpe": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+            "swsh": "Finos colmillos que reducen a la mitad los PS del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用銳利的門牙 猛烈地咬住對手進行攻擊。 對手的ＨＰ將會減半。",
+            "usum": "用銳利的門牙 猛烈地咬住對手進行攻擊。 對手的ＨＰ將會減半。",
+            "lgpe": "用銳利的門牙 猛烈地咬住對手進行攻擊。 對手的HP將會減半。",
+            "swsh": "用銳利的門牙 猛烈地咬住對手進行攻擊。 對手的ＨＰ將會減半。"
+        },
+        "simplified-chinese": {
+            "sm": "用锋利的门牙 猛烈地咬住对手进行攻击。 对手的ＨＰ减半。",
+            "usum": "用锋利的门牙 猛烈地咬住对手进行攻击。 对手的ＨＰ减半。",
+            "lgpe": "用锋利的门牙 猛烈地咬住对手进行攻击。 对手的HP减半。",
+            "swsh": "用锋利的门牙 猛烈地咬住对手进行攻击。 对手的ＨＰ减半。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts typeless damage equal to half the target’s remaining HP.",
+        "shortEffect": "Inflicts damage equal to half the target’s HP."
+    }
 }

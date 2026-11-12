@@ -1,42 +1,141 @@
 {
-  "_id": 356,
-  "key": "gravity",
-  "name": {
-    "english": "Gravity",
-    "japanese": "じゅうりょく",
-    "chinese": "重力",
-    "korean": "중력",
-    "german": "Gravedad",
-    "french": "Erdanziehung",
-    "italian": "Gravity",
-    "spanish": "Gravità"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "Gravity is intensified\nfor five turns, making\nmoves involving flying\nunusable and\nnegating Levitation.",
-    "platinum": "Gravity is intensified\nfor five turns, making\nmoves involving flying\nunusable and\nnegating Levitation.",
-    "heartgold-soulsilver": "Gravity is intensified\nfor five turns, making\nmoves involving flying\nunusable and\nnegating Levitation.",
-    "black-white": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
-    "black-2-white-2": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
-    "x-y": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
-    "omega-ruby-alpha-sapphire": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
-    "sun-moon": "Enables Flying-type Pokémon or Pokémon with the\nLevitate Ability to be hit by Ground-type moves.\nFlying moves can’t be used.",
-    "ultra-sun-ultra-moon": "Enables Flying-type Pokémon or Pokémon with the\nLevitate Ability to be hit by Ground-type moves.\nFlying moves can’t be used.",
-    "lets-go-pikachu-lets-go-eevee": "Enables Flying-type Pokémon or Pokémon with the\nLevitate Ability to be hit by Ground-type moves.\nFlying moves can’t be used.",
-    "sword-shield": "This move enables Flying-type Pokémon or Pokémon\nwith the Levitate Ability to be hit by Ground-type\nmoves. Moves that involve flying can’t be used."
-  },
-  "effect": {
-    "full": "For five turns (including this one), all immunities to ground moves are disabled.  For the duration of this effect, the evasion of every Pokémon on the field is lowered by two stages.  Cancels the effects of bounce, fly, and sky drop.\n\nSpecifically, flying Pokémon and those with levitate or that have used magnet rise are no longer immune to ground attacks, arena trap, spikes, or toxic spikes.\n\nbounce, fly, sky drop, high jump kick, jump kick, and splash cannot be used while this move is in effect.\n\n*Bug*: If this move is used during a double or triple battle while Pokémon are under the effect of sky drop, Sky Drop's effect is not correctly canceled on its target, and it remains high in the air indefinitely.  As Sky Drop prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
-    "shortEffect": "Disables moves and immunities that involve flying or levitating for five turns."
-  },
-  "priority": 0
+    "_id": 356,
+    "key": "gravity",
+    "name": {
+        "japanese-kana": "じゅうりょく",
+        "korean": "중력",
+        "traditional-chinese": "重力",
+        "french": "Gravité",
+        "german": "Erdanziehung",
+        "spanish": "Gravedad",
+        "italian": "Gravità",
+        "english": "Gravity",
+        "japanese": "じゅうりょく",
+        "simplified-chinese": "重力",
+        "latin-american-spanish": "Gravedad"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.",
+            "pt": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.",
+            "hgss": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.",
+            "bw": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.",
+            "b2w2": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.",
+            "xy": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.",
+            "oras": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.",
+            "sm": "Enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Flying moves can’t be used.",
+            "usum": "Enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Flying moves can’t be used.",
+            "lgpe": "Enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Flying moves can’t be used.",
+            "swsh": "This move enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Moves that involve flying can’t be used.",
+            "la": "This move enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Moves that involve flying can't be used.",
+            "sv": "Enables Flying types or Pokémon with the Levitate Ability to be hit by Ground-type moves for five turns. Moves that involve flying can't be used."
+        },
+        "french": {
+            "bw": "La gravité augmente pendant 5 tours, ce qui empêche les capacités volantes et annule Lévitation.",
+            "xy": "La gravité augmente pendant cinq tours, ce qui empêche les capacités volantes et annule Lévitation.",
+            "oras": "La gravité augmente pendant cinq tours, ce qui empêche les capacités volantes et annule Lévitation.",
+            "sm": "Pendant cinq tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables.",
+            "usum": "Pendant cinq tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables.",
+            "lgpe": "Pendant cinq tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables.",
+            "swsh": "Pendant cinq tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables."
+        },
+        "japanese-kana": {
+            "xy": "５ターンの　あいだ じゅうりょくを　つよくして　ふゆうや そらへ　とぶ　わざを　つかえなく　する。",
+            "oras": "５ターンの　あいだ じゅうりょくを　つよくして　ふゆうや そらへ　とぶ　わざを　つかえなく　する。",
+            "sm": "５ターンのあいだ　ふゆうや　ひこうタイプに じめんタイプの　わざが　あたるようになる。 くうちゅうに　とぶ　わざも　つかえない。",
+            "usum": "５ターンのあいだ　ふゆうや　ひこうタイプに じめんタイプの　わざが　あたるようになる。 くうちゅうに　とぶ　わざも　つかえない。",
+            "lgpe": "５ターンのあいだ　ふゆうや　ひこうタイプに じめんタイプの　わざが　あたるようになる。 くうちゅうに　とぶ　わざも　つかえない。",
+            "swsh": "５ターンのあいだ　ふゆうや　ひこうタイプに じめんタイプの　わざが　あたるようになる。 くうちゅうに　とぶ　わざも　つかえない。"
+        },
+        "korean": {
+            "xy": "5턴 동안 중력을 강하게 해서 부유나 하늘을 나는 기술을 사용할 수 없게 한다.",
+            "oras": "5턴 동안 중력을 강하게 해서 부유나 하늘을 나는 기술을 사용할 수 없게 한다.",
+            "sm": "5턴 동안 부유나 비행타입에 땅타입의 기술이 맞게 된다. 공중으로 나는 기술도 사용할 수 없다.",
+            "usum": "5턴 동안 부유나 비행타입에 땅타입의 기술이 맞게 된다. 공중으로 나는 기술도 사용할 수 없다.",
+            "lgpe": "5턴 동안 부유나 비행타입에 땅타입의 기술이 맞게 된다. 공중으로 나는 기술도 사용할 수 없다.",
+            "swsh": "5턴 동안 부유나 비행타입에 땅타입의 기술이 맞게 된다. 공중으로 나는 기술도 사용할 수 없다."
+        },
+        "german": {
+            "xy": "Die Gravitation wird für fünf Runden erhöht. Macht Fliegen unmöglich und verhindert Schwebe.",
+            "oras": "Die Gravitation wird für fünf Runden erhöht. Macht Fliegen unmöglich und verhindert Schwebe.",
+            "sm": "Ermöglicht es, Flug-Pokémon oder Pokémon mit der Fähigkeit Schwebe mit Boden-Attacken zu treffen. Verhindert Attacken, bei denen der Anwender fliegt.",
+            "usum": "Ermöglicht es, Flug-Pokémon oder Pokémon mit der Fähigkeit Schwebe mit Boden-Attacken zu treffen. Verhindert Attacken, bei denen der Anwender fliegt.",
+            "lgpe": "Ermöglicht es, Flug-Pokémon oder Pokémon mit der Fähigkeit Schwebe mit Boden-Attacken zu treffen. Verhindert Attacken, bei denen der Anwender fliegt.",
+            "swsh": "Ermöglicht es, Flug-Pokémon oder Pokémon mit der Fähigkeit Schwebe mit Boden-Attacken zu treffen. Verhindert Attacken, bei denen der Anwender fliegt."
+        },
+        "spanish": {
+            "xy": "La gravedad aumenta durante cinco turnos, lo que impide acciones que impliquen volar o levitar.",
+            "oras": "La gravedad aumenta durante cinco turnos, lo que impide acciones que impliquen volar o levitar.",
+            "sm": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.",
+            "usum": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.",
+            "lgpe": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.",
+            "swsh": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra."
+        },
+        "italian": {
+            "xy": "Intensifica la gravità per cinque turni. Le mosse che fanno volare sono inutilizzabili e l’abilità Levitazione non ha effetto.",
+            "oras": "Intensifica la gravità per cinque turni. Le mosse che fanno volare sono inutilizzabili e l’abilità Levitazione non ha effetto.",
+            "sm": "Per cinque turni rende vulnerabili alle mosse di tipo Terra i Pokémon con Levitazione o di tipo Volante. Non è possibile usare mosse che fanno volare.",
+            "usum": "Per cinque turni rende vulnerabili alle mosse di tipo Terra i Pokémon con Levitazione o di tipo Volante. Non è possibile usare mosse che fanno volare.",
+            "lgpe": "Per cinque turni rende vulnerabili alle mosse di tipo Terra i Pokémon con Levitazione o di tipo Volante. Non è possibile usare mosse che fanno volare.",
+            "swsh": "Per cinque turni rende vulnerabili alle mosse di tipo Terra i Pokémon con Levitazione o di tipo Volante. Non è possibile usare mosse che fanno volare."
+        },
+        "japanese": {
+            "xy": "５ターンの　あいだ 重力を　強くして　ふゆうや 空へ　飛ぶ　技を　使えなくする。",
+            "oras": "５ターンの　あいだ 重力を　強くして　ふゆうや 空へ　飛ぶ　技を　使えなくする。",
+            "sm": "５ターンの間　ふゆうや　ひこうタイプに じめんタイプの　技が　当たるようになる。 空中に　飛ぶ　技も　使えない。",
+            "usum": "５ターンの間　ふゆうや　ひこうタイプに じめんタイプの　技が　当たるようになる。 空中に　飛ぶ　技も　使えない。",
+            "lgpe": "５ターンの間　ふゆうや　ひこうタイプに じめんタイプの　技が　当たるようになる。 空中に　飛ぶ　技も　使えない。",
+            "swsh": "５ターンの間　ふゆうや　ひこうタイプに じめんタイプの　技が　当たるようになる。 空中に　飛ぶ　技も　使えない。"
+        },
+        "latin-american-spanish": {
+            "xy": "La gravedad aumenta durante cinco turnos, lo que impide acciones que impliquen volar o levitar.",
+            "oras": "La gravedad aumenta durante cinco turnos, lo que impide acciones que impliquen volar o levitar.",
+            "sm": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.",
+            "usum": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.",
+            "lgpe": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.",
+            "swsh": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra."
+        },
+        "traditional-chinese": {
+            "sm": "在５回合內，飄浮特性和飛行屬性的 寶可夢會被地面屬性的招式擊中。 且無法使用飛向空中的招式。",
+            "usum": "在５回合內，飄浮特性和飛行屬性的 寶可夢會被地面屬性的招式擊中。 且無法使用飛向空中的招式。",
+            "lgpe": "在５回合內，飄浮特性和飛行屬性的 寶可夢會被地面屬性的招式擊中。 且無法使用飛向空中的招式。",
+            "swsh": "在５回合內，飄浮特性和飛行屬性的 寶可夢會被地面屬性的招式擊中。 且無法使用飛向空中的招式。"
+        },
+        "simplified-chinese": {
+            "sm": "在５回合内，飘浮特性和飞行属性的 宝可梦会被地面属性的招式击中。 飞向空中的招式也将无法使用。",
+            "usum": "在５回合内，飘浮特性和飞行属性的 宝可梦会被地面属性的招式击中。 飞向空中的招式也将无法使用。",
+            "lgpe": "在５回合内，飘浮特性和飞行属性的 宝可梦会被地面属性的招式击中。 飞向空中的招式也将无法使用。",
+            "swsh": "在５回合内，飘浮特性和飞行属性的 宝可梦会被地面属性的招式击中。 飞向空中的招式也将无法使用。"
+        }
+    },
+    "effect": {
+        "full": "For five turns (including this one), all immunities to Ground moves are disabled.  For the duration of this effect, the evasion of every Pokémon on the field is lowered by two stages.  Cancels the effects of Bounce, Fly, and Sky Drop. Specifically, Flying Pokémon and those with Levitate or that have used Magnet Rise are no longer immune to Ground attacks, Arena Trap, Spikes, or Toxic Spikes. Bounce, Fly, Sky Drop, High Jump Kick, Jump Kick, and Splash cannot be used while this move is in effect. *Bug*: If this move is used during a double or triple battle while Pokémon are under the effect of Sky Drop, Sky Drop’s effect is not correctly canceled on its target, and it remains high in the air indefinitely.  As Sky Drop prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
+        "shortEffect": "Disables moves and immunities that involve flying or levitating for five turns."
+    }
 }

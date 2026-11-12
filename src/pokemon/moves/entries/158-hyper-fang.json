@@ -1,47 +1,144 @@
 {
-  "_id": 158,
-  "key": "hyper-fang",
-  "name": {
-    "english": "Hyper Fang",
-    "japanese": "ひっさつまえば",
-    "chinese": "必杀门牙",
-    "korean": "필살앞니",
-    "german": "Hipercolmillo",
-    "french": "Hyperzahn",
-    "italian": "Hyper Fang",
-    "spanish": "Iperzanna"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 90,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that may\ncause flinching.",
-    "crystal": "An attack that may\ncause flinching.",
-    "ruby-sapphire": "Attacks with sharp fangs.\nMay cause flinching.",
-    "emerald": "Attacks with sharp fangs.\nMay cause flinching.",
-    "firered-leafgreen": "The foe is attacked\nwith sharp fangs.\nIt may make the\nfoe flinch.",
-    "diamond-pearl": "The user bites hard\non the foe with its\nsharp front fangs.\nIt may also make the\ntarget flinch.",
-    "platinum": "The user bites hard\non the foe with its\nsharp front fangs.\nIt may also make the\ntarget flinch.",
-    "heartgold-soulsilver": "The user bites hard\non the foe with its\nsharp front fangs.\nIt may also make the\ntarget flinch.",
-    "black-white": "The user bites hard on the target\nwith its sharp front fangs.\nIt may also make the target flinch.",
-    "black-2-white-2": "The user bites hard on the target\nwith its sharp front fangs.\nIt may also make the target flinch.",
-    "x-y": "The user bites hard on the target\nwith its sharp front fangs.\nThis may also make the target flinch.",
-    "omega-ruby-alpha-sapphire": "The user bites hard on the target\nwith its sharp front fangs.\nThis may also make the target flinch.",
-    "sun-moon": "The user bites hard on the target with its sharp\nfront fangs. This may also make the target flinch.",
-    "ultra-sun-ultra-moon": "The user bites hard on the target with its sharp\nfront fangs. This may also make the target flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user bites hard on the target with its sharp\nfront fangs. This may also make the target flinch.",
-    "sword-shield": "The user bites hard on the target with its sharp\nfront fangs. This may also make the target flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 158,
+    "key": "hyper-fang",
+    "name": {
+        "japanese-kana": "ひっさつまえば",
+        "korean": "필살앞니",
+        "traditional-chinese": "必殺門牙",
+        "french": "Croc de Mort",
+        "german": "Hyperzahn",
+        "spanish": "Hipercolmillo",
+        "italian": "Iperzanna",
+        "english": "Hyper Fang",
+        "japanese": "ひっさつまえば",
+        "simplified-chinese": "终结门牙",
+        "latin-american-spanish": "Hipercolmillo"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 90,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 10,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may cause flinching.",
+            "cr": "An attack that may cause flinching.",
+            "rs": "Attacks with sharp fangs. May cause flinching.",
+            "em": "Attacks with sharp fangs. May cause flinching.",
+            "frlg": "The foe is attacked with sharp fangs. It may make the foe flinch.",
+            "dp": "The user bites hard on the foe with its sharp front fangs. It may also make the target flinch.",
+            "pt": "The user bites hard on the foe with its sharp front fangs. It may also make the target flinch.",
+            "hgss": "The user bites hard on the foe with its sharp front fangs. It may also make the target flinch.",
+            "bw": "The user bites hard on the target with its sharp front fangs. It may also make the target flinch.",
+            "b2w2": "The user bites hard on the target with its sharp front fangs. It may also make the target flinch.",
+            "xy": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
+            "oras": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
+            "sm": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
+            "usum": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
+            "lgpe": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
+            "swsh": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch."
+        },
+        "french": {
+            "bw": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi apeurer l’ennemi.",
+            "xy": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer.",
+            "oras": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer.",
+            "sm": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer.",
+            "usum": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer.",
+            "lgpe": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer.",
+            "swsh": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "するどい　まえばで つよく　かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "oras": "するどい　まえばで つよく　か ついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "sm": "するどい　まえばで つよく　かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "usum": "するどい　まえばで つよく　かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "するどい　まえばで つよく　かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "するどい　まえばで つよく　かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "oras": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "sm": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Angriff mit scharfen Reißzähnen. Ziel schreckt eventuell zurück.",
+            "oras": "Angriff mit scharfen Reißzähnen. Ziel schreckt eventuell zurück.",
+            "sm": "Angriff mit scharfen Reißzähnen. Ziel schreckt eventuell zurück.",
+            "usum": "Angriff mit scharfen Reißzähnen. Ziel schreckt eventuell zurück.",
+            "lgpe": "Angriff mit scharfen Reißzähnen. Ziel schreckt eventuell zurück.",
+            "swsh": "Angriff mit scharfen Reißzähnen. Ziel schreckt eventuell zurück."
+        },
+        "spanish": {
+            "xy": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "oras": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "sm": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "usum": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "lgpe": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "swsh": "Ataca con agudos colmillos. Puede amedrentar al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa morde il bersaglio con i suoi incisivi affilati. Può anche farlo tentennare.",
+            "oras": "Chi la usa morde il bersaglio con i suoi incisivi affilati. Può anche farlo tentennare.",
+            "sm": "Chi la usa morde il bersaglio con i suoi incisivi affilati. Può anche farlo tentennare.",
+            "usum": "Chi la usa morde il bersaglio con i suoi incisivi affilati. Può anche farlo tentennare.",
+            "lgpe": "Chi la usa morde il bersaglio con i suoi incisivi affilati. Può anche farlo tentennare.",
+            "swsh": "Chi la usa morde il bersaglio con i suoi incisivi affilati. Può anche farlo tentennare."
+        },
+        "japanese": {
+            "xy": "鋭い　前歯で 強く　かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "oras": "鋭い　前歯で 強く　か ついて　攻撃する。 相手を　ひるませることが　ある。",
+            "sm": "鋭い　前歯で 強く　かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "usum": "鋭い　前歯で 強く　かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "lgpe": "鋭い　前歯で 強く　かみついて　攻撃する。 相手を　ひるませることが　ある。",
+            "swsh": "鋭い　前歯で 強く　かみついて　攻撃する。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "oras": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "sm": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "usum": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "lgpe": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+            "swsh": "Ataca con agudos colmillos. Puede amedrentar al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "用銳利的門牙 牢牢咬住對手進行攻擊。 有時會使對手畏縮。",
+            "usum": "用銳利的門牙 牢牢咬住對手進行攻擊。 有時會使對手畏縮。",
+            "lgpe": "用銳利的門牙 牢牢咬住對手進行攻擊。 有時會使對手畏縮。",
+            "swsh": "用銳利的門牙 牢牢咬住對手進行攻擊。 有時會使對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "用锋利的门牙 牢牢地咬住对手进行攻击。 有时会使对手畏缩。",
+            "usum": "用锋利的门牙 牢牢地咬住对手进行攻击。 有时会使对手畏缩。",
+            "lgpe": "用锋利的门牙 牢牢地咬住对手进行攻击。 有时会使对手畏缩。",
+            "swsh": "用锋利的门牙 牢牢地咬住对手进行攻击。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

@@ -1,47 +1,146 @@
 {
-  "_id": 245,
-  "key": "extreme-speed",
-  "name": {
-    "english": "Extreme Speed",
-    "japanese": "しんそく",
-    "chinese": "神速",
-    "korean": "신속",
-    "german": "Veloc. Extrema",
-    "french": "Turbotempo",
-    "italian": "Extreme Speed",
-    "spanish": "Extrarapido"
-  },
-  "type": "Normal",
-  "category": "Physical",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "A powerful first-\nstrike move.",
-    "crystal": "A powerful first-\nstrike move.",
-    "ruby-sapphire": "An extremely fast and\npowerful attack.",
-    "emerald": "An extremely fast and\npowerful attack.",
-    "firered-leafgreen": "A blindingly speedy\ncharge attack that\nalways goes before\nany other.",
-    "diamond-pearl": "The user charges the\nfoe at blinding speed.\nThis attack always\ngoes before any\nother move.",
-    "platinum": "The user charges the\nfoe at blinding speed.\nThis attack always\ngoes before any\nother move.",
-    "heartgold-soulsilver": "The user charges the\nfoe at blinding speed.\nThis attack always\ngoes before any\nother move.",
-    "black-white": "The user charges the target at blinding\nspeed. This attack always goes\nbefore any other move.",
-    "black-2-white-2": "The user charges the target at blinding\nspeed. This attack always goes\nbefore any other move.",
-    "x-y": "The user charges the target at blinding\nspeed. This move always goes first.",
-    "omega-ruby-alpha-sapphire": "The user charges the target at blinding\nspeed. This move always goes first.",
-    "sun-moon": "The user charges the target at blinding speed.\nThis move always goes first.",
-    "ultra-sun-ultra-moon": "The user charges the target at blinding speed.\nThis move always goes first.",
-    "lets-go-pikachu-lets-go-eevee": "The user charges the target at blinding speed.\nThis move always goes first.",
-    "sword-shield": "The user charges the target at blinding speed.\nThis move always goes first."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 2
+    "_id": 245,
+    "key": "extreme-speed",
+    "name": {
+        "japanese-kana": "しんそく",
+        "korean": "신속",
+        "traditional-chinese": "神速",
+        "french": "Vitesse Extrême",
+        "german": "Turbotempo",
+        "spanish": "Velocidad Extrema",
+        "italian": "Extrarapido",
+        "english": "Extreme Speed",
+        "japanese": "しんそく",
+        "simplified-chinese": "神速",
+        "latin-american-spanish": "Velocidad Extrema"
+    },
+    "type": "normal",
+    "category": "physical",
+    "contest": "cool",
+    "pp": 5,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 2,
+    "priority": 2,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A powerful first- strike move.",
+            "cr": "A powerful first- strike move.",
+            "rs": "An extremely fast and powerful attack.",
+            "em": "An extremely fast and powerful attack.",
+            "frlg": "A blindingly speedy charge attack that always goes before any other.",
+            "dp": "The user charges the foe at blinding speed. This attack always goes before any other move.",
+            "pt": "The user charges the foe at blinding speed. This attack always goes before any other move.",
+            "hgss": "The user charges the foe at blinding speed. This attack always goes before any other move.",
+            "bw": "The user charges the target at blinding speed. This attack always goes before any other move.",
+            "b2w2": "The user charges the target at blinding speed. This attack always goes before any other move.",
+            "xy": "The user charges the target at blinding speed. This move always goes first.",
+            "oras": "The user charges the target at blinding speed. This move always goes first.",
+            "sm": "The user charges the target at blinding speed. This move always goes first.",
+            "usum": "The user charges the target at blinding speed. This move always goes first.",
+            "lgpe": "The user charges the target at blinding speed. This move always goes first.",
+            "swsh": "The user charges the target at blinding speed. This move always goes first.",
+            "la": "The user charges the target at blinding speed. This move always goes first.",
+            "sv": "The user charges the target at blinding speed. This move always goes first."
+        },
+        "french": {
+            "bw": "Le lanceur charge à une vitesse renversante. Cette attaque a toujours l’initiative.",
+            "xy": "Le lanceur charge à une vitesse renversante. Frappe toujours en premier.",
+            "oras": "Le lanceur charge à une vitesse renversante. Frappe toujours en premier.",
+            "sm": "Le lanceur charge à une vitesse renversante. Frappe en priorité.",
+            "usum": "Le lanceur charge à une vitesse renversante. Frappe en priorité.",
+            "lgpe": "Le lanceur charge à une vitesse renversante. Frappe en priorité.",
+            "swsh": "Le lanceur charge à une vitesse renversante. Frappe en priorité."
+        },
+        "japanese-kana": {
+            "xy": "めにも　とまらぬ　ものすごい　はやさで あいてに　とっしんして　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "oras": "めにも　とまらぬ　ものすごい　はやさで あいてに　とっしんして　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "sm": "めにも　とまらぬ　ものすごい　はやさで あいてに　とっしんして　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "usum": "めにも　とまらぬ　ものすごい　はやさで あいてに　とっしんして　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "lgpe": "めにも　とまらぬ　ものすごい　はやさで あいてに　とっしんして　こうげきする。 かならず　せんせい　こうげき　できる。",
+            "swsh": "めにも　とまらぬ　ものすごい　はやさで あいてに　とっしんして　こうげきする。 かならず　せんせい　こうげき　できる。"
+        },
+        "korean": {
+            "xy": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다. 반드시 선제공격을 할 수 있다.",
+            "oras": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다. 반드시 선제공격을 할 수 있다.",
+            "sm": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다. 반드시 선제공격을 할 수 있다.",
+            "usum": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다. 반드시 선제공격을 할 수 있다.",
+            "lgpe": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다. 반드시 선제공격을 할 수 있다.",
+            "swsh": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다. 반드시 선제공격을 할 수 있다."
+        },
+        "german": {
+            "xy": "Extrem schnelle und kraftvolle Attacke, die stets zuerst trifft.",
+            "oras": "Extrem schnelle und kraftvolle Attacke, die stets zuerst trifft.",
+            "sm": "Extrem schnelle und kraftvolle Attacke mit hoher Erstschlagquote.",
+            "usum": "Extrem schnelle und kraftvolle Attacke mit hoher Erstschlagquote.",
+            "lgpe": "Extrem schnelle und kraftvolle Attacke mit hoher Erstschlagquote.",
+            "swsh": "Extrem schnelle und kraftvolle Erstschlag-Attacke."
+        },
+        "spanish": {
+            "xy": "Ataque muy rápido que siempre se realiza el primero.",
+            "oras": "Ataque muy rápido que siempre se realiza el primero.",
+            "sm": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.",
+            "usum": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.",
+            "lgpe": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.",
+            "swsh": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta."
+        },
+        "italian": {
+            "xy": "Chi la usa carica il bersaglio a una velocità impressionante e attacca sempre per primo.",
+            "oras": "Chi la usa carica il bersaglio a una velocità impressionante e attacca sempre per primo.",
+            "sm": "Chi la usa carica il bersaglio a una velocità impressionante. Questa mossa ha priorità alta.",
+            "usum": "Chi la usa carica il bersaglio a una velocità impressionante. Questa mossa ha priorità alta.",
+            "lgpe": "Chi la usa carica il bersaglio a una velocità impressionante. Questa mossa ha priorità alta.",
+            "swsh": "Chi la usa carica il bersaglio a una velocità impressionante. Questa mossa ha priorità alta."
+        },
+        "japanese": {
+            "xy": "目にも　留まらぬ　ものすごい　速さで 相手に　突進して　攻撃する。 必ず　先制攻撃　できる。",
+            "oras": "目にも　留まらぬ　ものすごい　速さで 相手に　突進して　攻撃する。 必ず　先制攻撃　できる。",
+            "sm": "目にも　留まらぬ　ものすごい　速さで 相手に　突進して　攻撃する。 必ず　先制攻撃　できる。",
+            "usum": "目にも　留まらぬ　ものすごい　速さで 相手に　突進して　攻撃する。 必ず　先制攻撃　できる。",
+            "lgpe": "目にも　留まらぬ　ものすごい　速さで 相手に　突進して　攻撃する。 必ず　先制攻撃　できる。",
+            "swsh": "目にも　留まらぬ　ものすごい　速さで 相手に　突進して　攻撃する。 必ず　先制攻撃　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataque muy rápido que siempre se realiza el primero.",
+            "oras": "Ataque muy rápido que siempre se realiza el primero.",
+            "sm": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.",
+            "usum": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.",
+            "lgpe": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.",
+            "swsh": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta."
+        },
+        "traditional-chinese": {
+            "sm": "以迅雷不及掩耳之勢 猛撞向對手進行攻擊。 必定能夠發動先制攻擊。",
+            "usum": "以迅雷不及掩耳之勢 猛撞向對手進行攻擊。 必定能夠發動先制攻擊。",
+            "lgpe": "以迅雷不及掩耳之勢 猛撞向對手進行攻擊。 必定能夠發動先制攻擊。",
+            "swsh": "以迅雷不及掩耳之勢 猛撞向對手進行攻擊。 必定能夠發動先制攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "以迅雷不及掩耳之势 猛撞向对手进行攻击。 必定能够先制攻击。",
+            "usum": "以迅雷不及掩耳之势 猛撞向对手进行攻击。 必定能够先制攻击。",
+            "lgpe": "以迅雷不及掩耳之势 猛撞向对手进行攻击。 必定能够先制攻击。",
+            "swsh": "以迅雷不及掩耳之势 猛撞向对手进行攻击。 必定能够先制攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

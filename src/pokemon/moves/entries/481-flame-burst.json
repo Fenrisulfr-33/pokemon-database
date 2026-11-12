@@ -1,39 +1,136 @@
 {
-  "_id": 481,
-  "key": "flame-burst",
-  "name": {
-    "english": "Flame Burst",
-    "japanese": "はじけるほのお",
-    "chinese": "爆炸火焰",
-    "korean": "불꽃튀기기",
-    "german": "Pirotecnia",
-    "french": "Funkenflug",
-    "italian": "Flame Burst",
-    "spanish": "Pirolancio"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": null,
-  "pp": 15,
-  "power": 70,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks the target with a\nbursting flame. The bursting flame damages\nPokémon next to the target as well.",
-    "black-2-white-2": "The user attacks the target with a\nbursting flame. The bursting flame damages\nPokémon next to the target as well.",
-    "x-y": "The user attacks the target with a\nbursting flame. The bursting flame damages\nPokémon next to the target as well.",
-    "omega-ruby-alpha-sapphire": "The user attacks the target with a\nbursting flame. The bursting flame damages\nPokémon next to the target as well.",
-    "sun-moon": "The user attacks the target with a bursting flame.\nThe bursting flame damages Pokémon next to the\ntarget as well.",
-    "ultra-sun-ultra-moon": "The user attacks the target with a bursting flame.\nThe bursting flame damages Pokémon next to the\ntarget as well.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks the target with a bursting flame.\nThe bursting flame damages Pokémon next to the\ntarget as well.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If this move successfully hits the target, any Pokémon adjacent to the target are damaged for 1/16 their max HP.",
-    "shortEffect": "Deals splash damage to Pokémon next to the target."
-  },
-  "priority": 0
+    "_id": 481,
+    "key": "flame-burst",
+    "name": {
+        "japanese-kana": "はじけるほのお",
+        "korean": "불꽃튀기기",
+        "traditional-chinese": "烈焰濺射",
+        "french": "Rebondifeu",
+        "german": "Funkenflug",
+        "spanish": "Pirotecnia",
+        "italian": "Pirolancio",
+        "english": "Flame Burst",
+        "japanese": "はじけるほのお",
+        "simplified-chinese": "烈焰溅射",
+        "latin-american-spanish": "Golpe de Fuego"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": null,
+    "pp": 15,
+    "power": 70,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Quand l’attaque atteint sa cible, elle projette des flammes qui touchent tout ennemi situé à côté.",
+            "xy": "Quand l’attaque atteint sa cible, elle projette des flammes qui touchent tout ennemi situé à côté.",
+            "oras": "Quand l’attaque atteint sa cible, elle projette des flammes qui touchent tout ennemi situé à côté.",
+            "sm": "Quand l’attaque atteint sa cible, elle projette des flammes qui touchent tout ennemi situé à côté.",
+            "usum": "Quand l’attaque atteint sa cible, elle projette des flammes qui touchent tout ennemi situé à côté.",
+            "lgpe": "Quand l’attaque atteint sa cible, elle projette des flammes qui touchent tout ennemi situé à côté.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "english": {
+            "bw": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+            "b2w2": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+            "xy": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+            "oras": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+            "sm": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+            "usum": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+            "lgpe": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese-kana": {
+            "xy": "あたると　はじける　ほのおで　あいてを こうげきする。はじけた　ほのおは となりの　あいてにも　ふりかかる。",
+            "oras": "あたると　はじける　ほのおで　あいてを こうげきする。はじけた　ほのおは となりの　あいてにも　ふりかかる。",
+            "sm": "あたると　はじける　ほのおで　あいてを こうげきする。はじけた　ほのおは となりの　あいてにも　ふりかかる。",
+            "usum": "あたると　はじける　ほのおで　あいてを こうげきする。はじけた　ほのおは となりの　あいてにも　ふりかかる。",
+            "lgpe": "あたると　はじける　ほのおで　あいてを こうげきする。はじけた　ほのおは となりの　あいてにも　ふりかかる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "맞으면 튀는 불꽃으로 상대를 공격한다. 튕긴 불꽃은 옆의 상대에게도 쏟아진다.",
+            "oras": "맞으면 튀는 불꽃으로 상대를 공격한다. 튕긴 불꽃은 옆의 상대에게도 쏟아진다.",
+            "sm": "맞으면 튀는 불꽃으로 상대를 공격한다. 튕긴 불꽃은 옆의 상대에게도 쏟아진다.",
+            "usum": "맞으면 튀는 불꽃으로 상대를 공격한다. 튕긴 불꽃은 옆의 상대에게도 쏟아진다.",
+            "lgpe": "맞으면 튀는 불꽃으로 상대를 공격한다. 튕긴 불꽃은 옆의 상대에게도 쏟아진다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.",
+            "oras": "Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.",
+            "sm": "Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.",
+            "usum": "Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.",
+            "lgpe": "Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "oras": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "sm": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "usum": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "lgpe": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa emana una fiammata che colpisce il bersaglio e si propaga fino a raggiungere i Pokémon vicini.",
+            "oras": "Chi la usa emana una fiammata che colpisce il bersaglio e si propaga fino a raggiungere i Pokémon vicini.",
+            "sm": "Chi la usa emana una fiammata che colpisce il bersaglio e si propaga fino a raggiungere i Pokémon vicini.",
+            "usum": "Chi la usa emana una fiammata che colpisce il bersaglio e si propaga fino a raggiungere i Pokémon vicini.",
+            "lgpe": "Chi la usa emana una fiammata che colpisce il bersaglio e si propaga fino a raggiungere i Pokémon vicini.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "当たると　はじける　炎で　相手を 攻撃する。はじけた　炎は 隣の　相手にも　ふりかかる。",
+            "oras": "当たると　はじける　炎で　相手を 攻撃する。はじけた　炎は 隣の　相手にも　ふりかかる。",
+            "sm": "当たると　はじける　炎で　相手を 攻撃する。はじけた　炎は 隣の　相手にも　ふりかかる。",
+            "usum": "当たると　はじける　炎で　相手を 攻撃する。はじけた　炎は 隣の　相手にも　ふりかかる。",
+            "lgpe": "当たると　はじける　炎で　相手を 攻撃する。はじけた　炎は 隣の　相手にも　ふりかかる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "oras": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "sm": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "usum": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "lgpe": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用命中後會爆裂開來的火焰 攻擊對手。爆裂後的火焰 也會波及到對手身旁的同伴。",
+            "usum": "用命中後會爆裂開來的火焰 攻擊對手。爆裂後的火焰 也會波及到對手身旁的同伴。",
+            "lgpe": "用命中後會爆裂開來的火焰 攻擊對手。爆裂後的火焰 也會波及到對手身旁的同伴。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "如果击中，爆裂的火焰会 攻击到对手。爆裂出的火焰 还会飞溅到旁边的对手。",
+            "usum": "如果击中，爆裂的火焰会 攻击到对手。爆裂出的火焰 还会飞溅到旁边的对手。",
+            "lgpe": "如果击中，爆裂的火焰会 攻击到对手。爆裂出的火焰 还会飞溅到旁边的对手。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If this move successfully hits the target, any Pokémon adjacent to the target are damaged for 1/16 their max HP.",
+        "shortEffect": "Deals splash damage to Pokémon next to the target."
+    }
 }

@@ -1,45 +1,144 @@
 {
-  "_id": 334,
-  "key": "iron-defense",
-  "name": {
-    "english": "Iron Defense",
-    "japanese": "てっぺき",
-    "chinese": "铁壁",
-    "korean": "철벽",
-    "german": "Defensa Férrea",
-    "french": "Eisenabwehr",
-    "italian": "Iron Defense",
-    "spanish": "Ferroscudo"
-  },
-  "type": "Steel",
-  "category": "Status",
-  "contest": "Tough",
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Hardens the body’s surface\nto sharply raise DEFENSE.",
-    "emerald": "Hardens the body’s surface\nto sharply raise DEFENSE.",
-    "firered-leafgreen": "The user hardens\nits body’s surface\nto sharply raise its\nDEFENSE stat.",
-    "diamond-pearl": "The user hardens\nits body’s surface\nlike iron, sharply\nraising its Defense\nstat.",
-    "platinum": "The user hardens\nits body’s surface\nlike iron, sharply\nraising its Defense\nstat.",
-    "heartgold-soulsilver": "The user hardens\nits body’s surface\nlike iron, sharply\nraising its Defense\nstat.",
-    "black-white": "The user hardens its body’s surface\nlike iron, sharply raising its\nDefense stat.",
-    "black-2-white-2": "The user hardens its body’s surface\nlike iron, sharply raising its\nDefense stat.",
-    "x-y": "The user hardens its body’s surface\nlike iron, sharply raising its\nDefense stat.",
-    "omega-ruby-alpha-sapphire": "The user hardens its body’s surface\nlike iron, sharply raising its\nDefense stat.",
-    "sun-moon": "The user hardens its body’s surface like iron,\nsharply raising its Defense stat.",
-    "ultra-sun-ultra-moon": "The user hardens its body’s surface like iron,\nsharply raising its Defense stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user hardens its body’s surface like iron,\nsharply raising its Defense stat.",
-    "sword-shield": "The user hardens its body’s surface like iron,\nsharply raising its Defense stat."
-  },
-  "effect": {
-    "full": "Raises the user's Defense by two stages.",
-    "shortEffect": "Raises the user's Defense by two stages."
-  },
-  "priority": 0
+    "_id": 334,
+    "key": "iron-defense",
+    "name": {
+        "japanese-kana": "てっぺき",
+        "korean": "철벽",
+        "traditional-chinese": "鐵壁",
+        "french": "Mur de Fer",
+        "german": "Eisenabwehr",
+        "spanish": "Defensa Férrea",
+        "italian": "Ferroscudo",
+        "english": "Iron Defense",
+        "japanese": "てっぺき",
+        "simplified-chinese": "铁壁",
+        "latin-american-spanish": "Defensa de Hierro"
+    },
+    "type": "steel",
+    "category": "status",
+    "contest": "tough",
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Hardens the body’s surface to sharply raise DEFENSE.",
+            "em": "Hardens the body’s surface to sharply raise DEFENSE.",
+            "frlg": "The user hardens its body’s surface to sharply raise its DEFENSE stat.",
+            "dp": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "pt": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "hgss": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "bw": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "b2w2": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "xy": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "oras": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "sm": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "usum": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "lgpe": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "swsh": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+            "la": "The user hardens its body's surface like iron, raising its defensive stats.",
+            "sv": "The user hardens its body's surface like iron, sharply boosting its Defense stat."
+        },
+        "french": {
+            "bw": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente considérablement sa Défense.",
+            "xy": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente considérablement sa Défense.",
+            "oras": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente considérablement sa Défense.",
+            "sm": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente beaucoup sa Défense.",
+            "usum": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente beaucoup sa Défense.",
+            "lgpe": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente beaucoup sa Défense.",
+            "swsh": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente beaucoup sa Défense."
+        },
+        "japanese-kana": {
+            "xy": "ひふを　てつのように かたくする　ことで じぶんの　ぼうぎょを　ぐーんと　あげる。",
+            "oras": "ひふを　てつのように かたくする　ことで じぶんの　ぼうぎょを　ぐーんと　あげる。",
+            "sm": "ひふを　てつのように かたくする　ことで じぶんの　ぼうぎょを　ぐーんと　あげる。",
+            "usum": "ひふを　てつのように かたくする　ことで じぶんの　ぼうぎょを　ぐーんと　あげる。",
+            "lgpe": "ひふを　てつのように かたくする　ことで じぶんの　ぼうぎょを　ぐーんと　あげる。",
+            "swsh": "ひふを　てつのように かたくする　ことで じぶんの　ぼうぎょを　ぐーんと　あげる。"
+        },
+        "korean": {
+            "xy": "피부를 쇠처럼 단단하게 함으로써 자신의 방어를 크게 올린다.",
+            "oras": "피부를 쇠처럼 단단하게 함으로써 자신의 방어를 크게 올린다.",
+            "sm": "피부를 쇠처럼 단단하게 함으로써 자신의 방어를 크게 올린다.",
+            "usum": "피부를 쇠처럼 단단하게 함으로써 자신의 방어를 크게 올린다.",
+            "lgpe": "피부를 쇠처럼 단단하게 함으로써 자신의 방어를 크게 올린다.",
+            "swsh": "피부를 쇠처럼 단단하게 만듦으로써 자신의 방어를 크게 올린다."
+        },
+        "german": {
+            "xy": "Anwender stärkt den Körper, um den Verteidigungs-Wert stark zu erhöhen.",
+            "oras": "Anwender stärkt den Körper, um den Verteidigungs-Wert stark zu erhöhen.",
+            "sm": "Anwender stärkt den Körper, um den Verteidigungs-Wert stark zu erhöhen.",
+            "usum": "Anwender stärkt den Körper, um den Verteidigungs-Wert stark zu erhöhen.",
+            "lgpe": "Anwender stärkt den Körper, um den Verteidigungs-Wert stark zu erhöhen.",
+            "swsh": "Anwender stärkt den Körper, um den Verteidigungs-Wert stark zu erhöhen."
+        },
+        "spanish": {
+            "xy": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "oras": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "sm": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "usum": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "lgpe": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "swsh": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa."
+        },
+        "italian": {
+            "xy": "Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.",
+            "oras": "Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.",
+            "sm": "Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.",
+            "usum": "Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.",
+            "lgpe": "Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.",
+            "swsh": "Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa."
+        },
+        "japanese": {
+            "xy": "皮膚を　鉄のように 硬くする　ことで 自分の　防御を　ぐーんと　あげる。",
+            "oras": "皮膚を　鉄のように 硬くする　ことで 自分の　防御を　ぐーんと　あげる。",
+            "sm": "皮膚を　鉄のように 硬くする　ことで 自分の　防御を　ぐーんと　あげる。",
+            "usum": "皮膚を　鉄のように 硬くする　ことで 自分の　防御を　ぐーんと　あげる。",
+            "lgpe": "皮膚を　鉄のように 硬くする　ことで 自分の　防御を　ぐーんと　あげる。",
+            "swsh": "皮膚を　鉄のように 硬くする　ことで 自分の　防御を　ぐーんと　あげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "oras": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "sm": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "usum": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "lgpe": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+            "swsh": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa."
+        },
+        "traditional-chinese": {
+            "sm": "將皮膚變得堅硬如鐵， 大幅提高自己的防禦。",
+            "usum": "將皮膚變得堅硬如鐵， 大幅提高自己的防禦。",
+            "lgpe": "將皮膚變得堅硬如鐵， 大幅提高自己的防禦。",
+            "swsh": "將皮膚變得堅硬如鐵， 大幅提高自己的防禦。"
+        },
+        "simplified-chinese": {
+            "sm": "将皮肤变得坚硬如铁， 从而大幅提高自己的防御。",
+            "usum": "将皮肤变得坚硬如铁， 从而大幅提高自己的防御。",
+            "lgpe": "将皮肤变得坚硬如铁， 从而大幅提高自己的防御。",
+            "swsh": "将皮肤变得坚硬如铁， 从而大幅提高自己的防御。"
+        }
+    },
+    "effect": {
+        "full": "Raises the user’s Defense by two stages.",
+        "shortEffect": "Raises the user’s Defense by two stages."
+    }
 }

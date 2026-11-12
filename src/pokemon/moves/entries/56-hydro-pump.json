@@ -1,47 +1,150 @@
 {
-  "_id": 56,
-  "key": "hydro-pump",
-  "name": {
-    "english": "Hydro Pump",
-    "japanese": "ハイドロポンプ",
-    "chinese": "水炮",
-    "korean": "하이드로펌프",
-    "german": "Hidrobomba",
-    "french": "Hydropumpe",
-    "italian": "Hydro Pump",
-    "spanish": "Idropompa"
-  },
-  "type": "Water",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 110,
-  "accuracy": 80,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The target is blasted by a huge volume\nof water launched under great pressure.",
-    "gold-silver": "A powerful water-\ntype attack.",
-    "crystal": "A powerful water-\ntype attack.",
-    "ruby-sapphire": "Blasts water at high power\nto strike the foe.",
-    "emerald": "Blasts water at high power\nto strike the foe.",
-    "firered-leafgreen": "A high volume of\nwater is blasted at\nthe foe under great\npressure.",
-    "diamond-pearl": "The foe is blasted by\na huge volume of\nwater launched under\ngreat pressure.\n",
-    "platinum": "The foe is blasted by\na huge volume of\nwater launched under\ngreat pressure.\n",
-    "heartgold-soulsilver": "The foe is blasted by\na huge volume of\nwater launched under\ngreat pressure.\n",
-    "black-2-white-2": "The target is blasted by a huge volume\nof water launched under great pressure.",
-    "x-y": "The target is blasted by a huge volume\nof water launched under great pressure.",
-    "omega-ruby-alpha-sapphire": "The target is blasted by a huge volume\nof water launched under great pressure.",
-    "sun-moon": "The target is blasted by a huge volume of water\nlaunched under great pressure.",
-    "ultra-sun-ultra-moon": "The target is blasted by a huge volume of water\nlaunched under great pressure.",
-    "lets-go-pikachu-lets-go-eevee": "The target is blasted by a huge volume of water\nlaunched under great pressure.",
-    "sword-shield": "The target is blasted by a huge volume of water\nlaunched under great pressure."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 56,
+    "key": "hydro-pump",
+    "name": {
+        "japanese-kana": "ハイドロポンプ",
+        "korean": "하이드로펌프",
+        "traditional-chinese": "水炮",
+        "french": "Hydrocanon",
+        "german": "Hydropumpe",
+        "spanish": "Hidrobomba",
+        "italian": "Idropompa",
+        "english": "Hydro Pump",
+        "japanese": "ハイドロポンプ",
+        "simplified-chinese": "水炮",
+        "latin-american-spanish": "Hidrobomba"
+    },
+    "type": "water",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 110,
+    "accuracy": 80,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 120
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A powerful water- type attack.",
+            "cr": "A powerful water- type attack.",
+            "rs": "Blasts water at high power to strike the foe.",
+            "em": "Blasts water at high power to strike the foe.",
+            "frlg": "A high volume of water is blasted at the foe under great pressure.",
+            "dp": "The foe is blasted by a huge volume of water launched under great pressure.",
+            "pt": "The foe is blasted by a huge volume of water launched under great pressure.",
+            "hgss": "The foe is blasted by a huge volume of water launched under great pressure.",
+            "bw": "The target is blasted by a huge volume of water launched under great pressure.",
+            "b2w2": "The target is blasted by a huge volume of water launched under great pressure.",
+            "xy": "The target is blasted by a huge volume of water launched under great pressure.",
+            "oras": "The target is blasted by a huge volume of water launched under great pressure.",
+            "sm": "The target is blasted by a huge volume of water launched under great pressure.",
+            "usum": "The target is blasted by a huge volume of water launched under great pressure.",
+            "lgpe": "The target is blasted by a huge volume of water launched under great pressure.",
+            "swsh": "The target is blasted by a huge volume of water launched under great pressure.",
+            "la": "The target is blasted by a huge volume of water launched under great pressure.",
+            "sv": "The target is blasted by a huge volume of water launched under great pressure."
+        },
+        "french": {
+            "bw": "Un puissant jet d’eau est dirigé sur l’ennemi.",
+            "xy": "Un puissant jet d’eau est dirigé sur l’ennemi.",
+            "oras": "Un puissant jet d’eau est dirigé sur l’ennemi.",
+            "sm": "Un puissant jet d’eau est dirigé sur l’ennemi.",
+            "usum": "Un puissant jet d’eau est dirigé sur l’ennemi.",
+            "lgpe": "Un puissant jet d’eau est dirigé sur l’ennemi.",
+            "swsh": "Un puissant jet d’eau est dirigé sur l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "たいりょうの　みずを はげしい　いきおいで あいてに　はっしゃして　こうげきする。",
+            "oras": "たいりょうの　 ずを はげしい　いきおいで あいてに　はっしゃして　こうげきする。",
+            "sm": "たいりょうの　みずを はげしい　いきおいで あいてに　はっしゃして　こうげきする。",
+            "usum": "たいりょうの　みずを はげしい　いきおいで あいてに　はっしゃして　こうげきする。",
+            "lgpe": "たいりょうの　みずを はげしい　いきおいで あいてに　はっしゃして　こうげきする。",
+            "swsh": "たいりょうの　みずを はげしい　いきおいで あいてに　はっしゃして　こうげきする。"
+        },
+        "korean": {
+            "xy": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.",
+            "oras": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.",
+            "sm": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.",
+            "usum": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.",
+            "lgpe": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.",
+            "swsh": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다."
+        },
+        "german": {
+            "xy": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.",
+            "oras": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.",
+            "sm": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.",
+            "usum": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.",
+            "lgpe": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.",
+            "swsh": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel."
+        },
+        "spanish": {
+            "xy": "Lanza una gran masa de agua a presión para atacar.",
+            "oras": "Lanza una gran masa de agua a presión para atacar.",
+            "sm": "Lanza una gran masa de agua a presión para atacar.",
+            "usum": "Lanza una gran masa de agua a presión para atacar.",
+            "lgpe": "Lanza una gran masa de agua a presión para atacar.",
+            "swsh": "Lanza una gran masa de agua a presión para atacar."
+        },
+        "italian": {
+            "xy": "Il bersaglio è travolto da un potente getto d’acqua spruzzato ad altissima pressione.",
+            "oras": "Il bersaglio è travolto da un potente getto d’acqua spruzzato ad altissima pressione.",
+            "sm": "Il bersaglio è travolto da un potente getto d’acqua spruzzato ad altissima pressione.",
+            "usum": "Il bersaglio è travolto da un potente getto d’acqua spruzzato ad altissima pressione.",
+            "lgpe": "Il bersaglio è travolto da un potente getto d’acqua spruzzato ad altissima pressione.",
+            "swsh": "Il bersaglio è travolto da un potente getto d’acqua spruzzato ad altissima pressione."
+        },
+        "japanese": {
+            "xy": "大量の　水を 激しい　勢いで 相手に　発射して　攻撃する。",
+            "oras": "大量の　水を 激しい　勢いで 相手に　発射して　攻撃する。",
+            "sm": "大量の　水を 激しい　勢いで 相手に　発射して　攻撃する。",
+            "usum": "大量の　水を 激しい　勢いで 相手に　発射して　攻撃する。",
+            "lgpe": "大量の　水を 激しい　勢いで 相手に　発射して　攻撃する。",
+            "swsh": "大量の　水を 激しい　勢いで 相手に　発射して　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza una gran masa de agua a presión para atacar.",
+            "oras": "Lanza una gran masa de agua a presión para atacar.",
+            "sm": "Lanza una gran masa de agua a presión para atacar.",
+            "usum": "Lanza una gran masa de agua a presión para atacar.",
+            "lgpe": "Lanza una gran masa de agua a presión para atacar.",
+            "swsh": "Lanza una gran masa de agua a presión para atacar."
+        },
+        "traditional-chinese": {
+            "sm": "向對手猛烈地噴射 大量水流進行攻擊。",
+            "usum": "向對手猛烈地噴射 大量水流進行攻擊。",
+            "lgpe": "向對手猛烈地噴射 大量水流進行攻擊。",
+            "swsh": "向對手猛烈地噴射 大量水流進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手猛烈地喷射 大量水流进行攻击。",
+            "usum": "向对手猛烈地喷射 大量水流进行攻击。",
+            "lgpe": "向对手猛烈地喷射 大量水流进行攻击。",
+            "swsh": "向对手猛烈地喷射 大量水流进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

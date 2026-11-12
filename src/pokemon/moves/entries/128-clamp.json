@@ -1,47 +1,149 @@
 {
-  "_id": 128,
-  "key": "clamp",
-  "name": {
-    "english": "Clamp",
-    "japanese": "からではさむ",
-    "chinese": "夹壳",
-    "korean": "껍질끼우기",
-    "german": "Tenaza",
-    "french": "Schnapper",
-    "italian": "Clamp",
-    "spanish": "Tenaglia"
-  },
-  "type": "Water",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 10,
-  "power": 35,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Traps the foe for\n2-5 turns.",
-    "crystal": "Traps the foe for\n2-5 turns.",
-    "ruby-sapphire": "Traps and squeezes the\nfoe for 2 to 5 turns.",
-    "emerald": "Traps and squeezes the\nfoe for 2 to 5 turns.",
-    "firered-leafgreen": "The foe is clamped\nand squeezed by\nthe user’s shell for\ntwo to five turns.",
-    "diamond-pearl": "The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\ntwo to five turns.",
-    "platinum": "The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\ntwo to five turns.",
-    "heartgold-soulsilver": "The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\ntwo to five turns.",
-    "black-white": "The target is clamped and squeezed by\nthe user’s very thick and sturdy shell for\nfour to five turns.",
-    "black-2-white-2": "The target is clamped and squeezed by\nthe user’s very thick and sturdy shell for\nfour to five turns.",
-    "x-y": "The target is clamped and squeezed by\nthe user’s very thick and sturdy shell for\nfour to five turns.",
-    "omega-ruby-alpha-sapphire": "The target is clamped and squeezed by\nthe user’s very thick and sturdy shell for\nfour to five turns.",
-    "sun-moon": "The target is clamped and squeezed by the user’s\nvery thick and sturdy shell for four to five turns.",
-    "ultra-sun-ultra-moon": "The target is clamped and squeezed by the user’s\nvery thick and sturdy shell for four to five turns.",
-    "lets-go-pikachu-lets-go-eevee": "The target is clamped and squeezed by the user’s\nvery thick and sturdy shell for four to five turns.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
-    "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
-  },
-  "priority": 0
+    "_id": 128,
+    "key": "clamp",
+    "name": {
+        "japanese-kana": "からではさむ",
+        "korean": "껍질끼우기",
+        "traditional-chinese": "貝殼夾擊",
+        "french": "Claquoir",
+        "german": "Schnapper",
+        "spanish": "Tenaza",
+        "italian": "Tenaglia",
+        "english": "Clamp",
+        "japanese": "からではさむ",
+        "simplified-chinese": "贝壳夹击",
+        "latin-american-spanish": "Tenaza"
+    },
+    "type": "water",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 35,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 5,
+        "maxTurns": 6,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 75,
+            "pp": 10
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Traps the foe for 2-5 turns.",
+            "cr": "Traps the foe for 2-5 turns.",
+            "rs": "Traps and squeezes the foe for 2 to 5 turns.",
+            "em": "Traps and squeezes the foe for 2 to 5 turns.",
+            "frlg": "The foe is clamped and squeezed by the user’s shell for two to five turns.",
+            "dp": "The foe is clamped and squeezed by the user’s very thick and sturdy shell for two to five turns.",
+            "pt": "The foe is clamped and squeezed by the user’s very thick and sturdy shell for two to five turns.",
+            "hgss": "The foe is clamped and squeezed by the user’s very thick and sturdy shell for two to five turns.",
+            "bw": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+            "b2w2": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+            "xy": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+            "oras": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+            "sm": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+            "usum": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+            "lgpe": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Le lanceur piège l’ennemi dans sa dure coquille et l’écrase pendant 4 à 5 tours.",
+            "xy": "Le lanceur piège l’ennemi dans sa dure coquille et l’écrase pendant quatre à cinq tours.",
+            "oras": "Le lanceur piège l’ennemi dans sa dure coquille et l’écrase pendant quatre à cinq tours.",
+            "sm": "Le lanceur piège l’ennemi dans sa dure coquille et l’écrase pendant quatre à cinq tours.",
+            "usum": "Le lanceur piège l’ennemi dans sa dure coquille et l’écrase pendant quatre à cinq tours.",
+            "lgpe": "Le lanceur piège l’ennemi dans sa dure coquille et l’écrase pendant quatre à cinq tours.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "とても　がんじょうな　ぶあつい　からに ４ー５ターンの　あいだ あいてを　はさんで　こうげきする。",
+            "oras": "とても　がんじょうな　ぶあつい　からに ４ー５ターンの　あいだ あいてを　はさんで　こうげきする。",
+            "sm": "とても　がんじょうな　ぶあつい　からに ４ー５ターンの　あいだ あいてを　はさんで　こうげきする。",
+            "usum": "とても　がんじょうな　ぶあつい　からに ４ー５ターンの　あいだ あいてを　はさんで　こうげきする。",
+            "lgpe": "とても　がんじょうな　ぶあつい　からに ４ー５ターンの　あいだ あいてを　はさんで　こうげきする。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "매우 튼튼하고 두꺼운 껍질에 4-5턴 동안 상대를 끼워서 공격한다.",
+            "oras": "매우 튼튼하고 두꺼운 껍질에 4-5턴 동안 상대를 끼워서 공격한다.",
+            "sm": "매우 튼튼하고 두꺼운 껍질에 4-5턴 동안 상대를 끼워서 공격한다.",
+            "usum": "매우 튼튼하고 두꺼운 껍질에 4-5턴 동안 상대를 끼워서 공격한다.",
+            "lgpe": "매우 튼튼하고 두꺼운 껍질에 4-5턴 동안 상대를 끼워서 공격한다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Fängt und quetscht das Ziel über vier bis fünf Runden durch die harte Schale des Anwenders.",
+            "oras": "Fängt und quetscht das Ziel über vier bis fünf Runden durch die harte Schale des Anwenders.",
+            "sm": "Fängt und quetscht das Ziel über vier bis fünf Runden durch die harte Schale des Anwenders.",
+            "usum": "Fängt und quetscht das Ziel über vier bis fünf Runden durch die harte Schale des Anwenders.",
+            "lgpe": "Fängt und quetscht das Ziel über vier bis fünf Runden durch die harte Schale des Anwenders.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "oras": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "sm": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "usum": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "lgpe": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.",
+            "oras": "Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.",
+            "sm": "Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.",
+            "usum": "Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.",
+            "lgpe": "Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "とても　頑丈な　ぶあつい　殻に ４ー５ターンの　あいだ 相手を　はさんで　攻撃する。",
+            "oras": "とても　頑丈な　ぶあつい　殻に ４ー５ターンの　あいだ 相手を　はさんで　攻撃する。",
+            "sm": "とても　頑丈な　ぶあつい　殻に ４ー５ターンの　間 相手を　はさんで　攻撃する。",
+            "usum": "とても　頑丈な　ぶあつい　殻に ４ー５ターンの　間 相手を　はさんで　攻撃する。",
+            "lgpe": "とても　頑丈な　ぶあつい　殻に ４ー５ターンの　間 相手を　はさんで　攻撃する。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "oras": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "sm": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "usum": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "lgpe": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "用非常堅固且厚實的貝殼， 在４～５回合內 夾住對手進行攻擊。",
+            "usum": "用非常堅固且厚實的貝殼， 在４～５回合內 夾住對手進行攻擊。",
+            "lgpe": "用非常堅固且厚實的貝殼， 在４～５回合內 夾住對手進行攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "用非常坚固且厚实的贝壳， 在４～５回合内 夹住对手进行攻击。",
+            "usum": "用非常坚固且厚实的贝壳， 在４～５回合内 夹住对手进行攻击。",
+            "lgpe": "用非常坚固且厚实的贝壳， 在４～５回合内 夹住对手进行攻击。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

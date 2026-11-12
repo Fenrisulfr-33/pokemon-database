@@ -1,39 +1,138 @@
 {
-  "_id": 547,
-  "key": "relic-song",
-  "name": {
-    "english": "Relic Song",
-    "japanese": "いにしえのうた",
-    "chinese": "古老之歌",
-    "korean": "옛노래",
-    "german": "Canto Arcaico",
-    "french": "Urgesang",
-    "italian": "Relic Song",
-    "spanish": "Cantoantico"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 75,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "black-white": "The user sings an ancient song and attacks\nby appealing to the hearts of those\nlistening. It may also induce sleep.",
-    "black-2-white-2": "The user sings an ancient song and attacks\nby appealing to the hearts of those\nlistening. It may also induce sleep.",
-    "x-y": "The user sings an ancient song and attacks\nby appealing to the hearts of the listening\nopposing Pokémon. This may also induce sleep.",
-    "omega-ruby-alpha-sapphire": "The user sings an ancient song and attacks\nby appealing to the hearts of the listening\nopposing Pokémon. This may also induce sleep.",
-    "sun-moon": "The user sings an ancient song and attacks by\nappealing to the hearts of the listening opposing\nPokémon. This may also induce sleep.",
-    "ultra-sun-ultra-moon": "The user sings an ancient song and attacks by\nappealing to the hearts of the listening opposing\nPokémon. This may also induce sleep.",
-    "lets-go-pikachu-lets-go-eevee": "The user sings an ancient song and attacks by\nappealing to the hearts of the listening opposing\nPokémon. This may also induce sleep.",
-    "sword-shield": "The user sings an ancient song and attacks by\nappealing to the hearts of the listening opposing\nPokémon. This may also induce sleep."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to put the target to sleep.\nIf the user is a meloetta, it will toggle between Aria and Pirouette Forme.",
-    "shortEffect": "Has a $effect_chance% chance to put the target to sleep."
-  },
-  "priority": 0
+    "_id": 547,
+    "key": "relic-song",
+    "name": {
+        "japanese-kana": "いにしえのうた",
+        "korean": "옛노래",
+        "traditional-chinese": "古老之歌",
+        "french": "Chant Antique",
+        "german": "Urgesang",
+        "spanish": "Canto Arcaico",
+        "italian": "Cantoantico",
+        "english": "Relic Song",
+        "japanese": "いにしえのうた",
+        "simplified-chinese": "古老之歌",
+        "latin-american-spanish": "Canto Arcaico"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 75,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "sleep",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut endormir l’ennemi.",
+            "xy": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir.",
+            "oras": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir.",
+            "sm": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir.",
+            "usum": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir.",
+            "lgpe": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir.",
+            "swsh": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir."
+        },
+        "english": {
+            "bw": "The user sings an ancient song and attacks by appealing to the hearts of those listening. It may also induce sleep.",
+            "b2w2": "The user sings an ancient song and attacks by appealing to the hearts of those listening. It may also induce sleep.",
+            "xy": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+            "oras": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+            "sm": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+            "usum": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+            "lgpe": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+            "swsh": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+            "la": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+            "sv": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep."
+        },
+        "japanese-kana": {
+            "xy": "いにしえのうたを　あいてに　きかせて こころに　うったえて　こうげきする。 ねむり　じょうたいに　することが　ある。",
+            "oras": "いにしえのうたを　あいてに　きかせて こころに　うったえて　こうげきする。 ねむり　じょうたいに　することが　ある。",
+            "sm": "いにしえのうたを　あいてに　きかせて こころに　うったえて　こうげきする。 ねむり　じょうたいに　することが　ある。",
+            "usum": "いにしえのうたを　あいてに　きかせて こころに　うったえて　こうげきする。 ねむり　じょうたいに　することが　ある。",
+            "lgpe": "いにしえのうたを　あいてに　きかせて こころに　うったえて　こうげきする。 ねむり　じょうたいに　することが　ある。",
+            "swsh": "いにしえのうたを　あいてに　きかせて こころに　うったえて　こうげきする。 ねむり　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "옛노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다.",
+            "oras": "옛 노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다.",
+            "sm": "옛 노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다.",
+            "usum": "옛 노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다.",
+            "lgpe": "옛 노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다.",
+            "swsh": "옛 노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender greift mit Urgesang an, der Ziele in der Nähe im tiefsten Inneren anspricht. Diese schlafen eventuell ein.",
+            "oras": "Anwender greift mit Urgesang an, der Ziele in der Nähe im tiefsten Inneren anspricht. Diese schlafen eventuell ein.",
+            "sm": "Anwender greift mit Urgesang an, der Ziele in der Nähe im tiefsten Inneren anspricht. Diese schlafen eventuell ein.",
+            "usum": "Anwender greift mit Urgesang an, der Ziele in der Nähe im tiefsten Inneren anspricht. Diese schlafen eventuell ein.",
+            "lgpe": "Anwender greift mit Urgesang an, der Ziele in der Nähe im tiefsten Inneren anspricht. Diese schlafen eventuell ein.",
+            "swsh": "Anwender greift mit Urgesang an, der gegnerische Pokémon im tiefsten Inneren anspricht. Diese schlafen eventuell ein."
+        },
+        "spanish": {
+            "xy": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "oras": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "sm": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "usum": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "lgpe": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "swsh": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca i nemici intorno a sé intonando un’antica melodia che colpisce il loro spirito. Può anche farli addormentare.",
+            "oras": "Chi la usa attacca i nemici intorno a sé intonando un’antica melodia che colpisce il loro spirito. Può anche farli addormentare.",
+            "sm": "Chi la usa attacca i nemici intorno a sé intonando un’antica melodia che colpisce il loro spirito. Può anche farli addormentare.",
+            "usum": "Chi la usa attacca i nemici intorno a sé intonando un’antica melodia che colpisce il loro spirito. Può anche farli addormentare.",
+            "lgpe": "Chi la usa attacca i nemici intorno a sé intonando un’antica melodia che colpisce il loro spirito. Può anche farli addormentare.",
+            "swsh": "Chi la usa attacca i nemici intorno a sé intonando un’antica melodia che colpisce il loro spirito. Può anche farli addormentare."
+        },
+        "japanese": {
+            "xy": "いにしえのうたを　相手に　聞かせて 心に　うったえて　攻撃する。 眠り状態に　することが　ある。",
+            "oras": "いにしえのうたを　相手に　聞かせて 心に　うったえて　攻撃する。 眠り状態に　することが　ある。",
+            "sm": "いにしえのうたを　相手に　聞かせて 心に　うったえて　攻撃する。 眠り状態に　することが　ある。",
+            "usum": "いにしえのうたを　相手に　聞かせて 心に　うったえて　攻撃する。 眠り状態に　することが　ある。",
+            "lgpe": "いにしえのうたを　相手に　聞かせて 心に　うったえて　攻撃する。 眠り状態に　することが　ある。",
+            "swsh": "いにしえのうたを　相手に　聞かせて 心に　うったえて　攻撃する。 眠り状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "oras": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "sm": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "usum": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "lgpe": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+            "swsh": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos."
+        },
+        "traditional-chinese": {
+            "sm": "唱出古老之歌， 打動對手的心進行攻擊。 有時會讓對手陷入睡眠狀態。",
+            "usum": "唱出古老之歌， 打動對手的心進行攻擊。 有時會讓對手陷入睡眠狀態。",
+            "lgpe": "唱出古老之歌， 打動對手的心進行攻擊。 有時會讓對手陷入睡眠狀態。",
+            "swsh": "唱出古老之歌， 打動對手的心進行攻擊。 有時會讓對手陷入睡眠狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "让对手听古老之歌， 打动对手的内心进行攻击。 有时会让对手陷入睡眠状态。",
+            "usum": "让对手听古老之歌， 打动对手的内心进行攻击。 有时会让对手陷入睡眠状态。",
+            "lgpe": "让对手听古老之歌， 打动对手的内心进行攻击。 有时会让对手陷入睡眠状态。",
+            "swsh": "让对手听古老之歌， 打动对手的内心进行攻击。 有时会让对手陷入睡眠状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to put the target to sleep. If the user is a Meloetta, it will toggle between Aria and Pirouette Forme.",
+        "shortEffect": "Has a chance to put the target to sleep."
+    }
 }

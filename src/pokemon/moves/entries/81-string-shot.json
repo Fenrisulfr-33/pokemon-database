@@ -1,47 +1,153 @@
 {
-  "_id": 81,
-  "key": "string-shot",
-  "name": {
-    "english": "String Shot",
-    "japanese": "いとをはく",
-    "chinese": "吐丝",
-    "korean": "실뿜기",
-    "german": "Disparo Demora",
-    "french": "Fadenschuss",
-    "italian": "String Shot",
-    "spanish": "Millebave"
-  },
-  "type": "Bug",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 40,
-  "power": null,
-  "accuracy": 95,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "A move that lowers\nthe foe's SPEED.",
-    "crystal": "A move that lowers\nthe foe's SPEED.",
-    "ruby-sapphire": "Binds the foe with string\nto reduce its SPEED.",
-    "emerald": "Binds the foe with string\nto reduce its SPEED.",
-    "firered-leafgreen": "The foe is bound\nwith strings shot\nfrom the mouth to\nreduce its SPEED.",
-    "diamond-pearl": "The foe is bound with\nsilk blown from the\nuser’s mouth.\nIt reduces the\ntarget’s Speed stat.",
-    "platinum": "The foe is bound with\nsilk blown from the\nuser’s mouth.\nIt reduces the\ntarget’s Speed stat.",
-    "heartgold-soulsilver": "The foe is bound with\nsilk blown from the\nuser’s mouth.\nIt reduces the\ntarget’s Speed stat.",
-    "black-white": "The targets are bound with silk blown\nfrom the user’s mouth. This silk reduces\nthe targets’ Speed stat.",
-    "black-2-white-2": "The targets are bound with silk blown\nfrom the user’s mouth. This silk reduces\nthe targets’ Speed stat.",
-    "x-y": "The opposing Pokémon are bound\nwith silk blown from the user’s mouth\nthat harshly lowers the Speed stat.",
-    "omega-ruby-alpha-sapphire": "The opposing Pokémon are bound\nwith silk blown from the user’s mouth\nthat harshly lowers the Speed stat.",
-    "sun-moon": "The opposing Pokémon are bound with silk blown\nfrom the user’s mouth that harshly lowers the\nSpeed stat.",
-    "ultra-sun-ultra-moon": "The opposing Pokémon are bound with silk blown\nfrom the user’s mouth that harshly lowers the\nSpeed stat.",
-    "lets-go-pikachu-lets-go-eevee": "The opposing Pokémon are bound with silk blown\nfrom the user’s mouth that harshly lowers the\nSpeed stat.",
-    "sword-shield": "Opposing Pokémon are bound with silk blown from\nthe user’s mouth that harshly lowers the Speed stat."
-  },
-  "effect": {
-    "full": "Lowers the target's Speed by two stages.",
-    "shortEffect": "Lowers the target's Speed by two stages."
-  },
-  "priority": 0
+    "_id": 81,
+    "key": "string-shot",
+    "name": {
+        "japanese-kana": "いとをはく",
+        "korean": "실뿜기",
+        "traditional-chinese": "吐絲",
+        "french": "Sécrétion",
+        "german": "Fadenschuss",
+        "spanish": "Disparo Demora",
+        "italian": "Millebave",
+        "english": "String Shot",
+        "japanese": "いとをはく",
+        "simplified-chinese": "吐丝",
+        "latin-american-spanish": "Disparo de Seda"
+    },
+    "type": "bug",
+    "category": "status",
+    "contest": "smart",
+    "pp": 40,
+    "power": null,
+    "accuracy": 95,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "sm": {
+            "effect": {
+                "full": "Lowers the target’s Speed by one stage.",
+                "shortEffect": "Lowers the target’s Speed by one stage."
+            }
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move that lowers the foe's SPEED.",
+            "cr": "A move that lowers the foe's SPEED.",
+            "rs": "Binds the foe with string to reduce its SPEED.",
+            "em": "Binds the foe with string to reduce its SPEED.",
+            "frlg": "The foe is bound with strings shot from the mouth to reduce its SPEED.",
+            "dp": "The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.",
+            "pt": "The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.",
+            "hgss": "The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.",
+            "bw": "The targets are bound with silk blown from the user’s mouth. This silk reduces the targets’ Speed stat.",
+            "b2w2": "The targets are bound with silk blown from the user’s mouth. This silk reduces the targets’ Speed stat.",
+            "xy": "The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.",
+            "oras": "The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.",
+            "sm": "The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.",
+            "usum": "The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.",
+            "lgpe": "The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.",
+            "swsh": "Opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.",
+            "la": "Opposing Pokémon are bound with silk blown from the user's mouth that harshly lowers the Speed stat.",
+            "sv": "The user blows silk from its mouth that binds opposing Pokémon and harshly lowers their Speed stats."
+        },
+        "french": {
+            "bw": "Le lanceur crache de la soie pour ligoter l’ennemi et baisser sa Vitesse.",
+            "xy": "Le lanceur crache de la soie pour ligoter l’ennemi et baisser sensiblement sa Vitesse.",
+            "oras": "Le lanceur crache de la soie pour ligoter l’ennemi et baisser sensiblement sa Vitesse.",
+            "sm": "Le lanceur crache de la soie pour ligoter l’ennemi et beaucoup baisser sa Vitesse.",
+            "usum": "Le lanceur crache de la soie pour ligoter l’ennemi et beaucoup baisser sa Vitesse.",
+            "lgpe": "Le lanceur crache de la soie pour ligoter l’ennemi et beaucoup baisser sa Vitesse.",
+            "swsh": "Le lanceur crache de la soie pour ligoter l’ennemi et beaucoup baisser sa Vitesse."
+        },
+        "japanese-kana": {
+            "xy": "くちから　ふきだした いとを　まきつけて　あいての すばやさを　がくっと　さげる。",
+            "oras": "くちから　ふきだした いとを　まきつけて　あいての すばやさを　がくっと　さげる。",
+            "sm": "くちから　ふきだした いとを　まきつけて　あいての すばやさを　がくっと　さげる。",
+            "usum": "くちから　ふきだした いとを　まきつけて　あいての すばやさを　がくっと　さげる。",
+            "lgpe": "くちから　ふきだした いとを　まきつけて　あいての すばやさを　がくっと　さげる。",
+            "swsh": "くちから　ふきだした いとを　まきつけて　あいての すばやさを　がくっと　さげる。"
+        },
+        "korean": {
+            "xy": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다.",
+            "oras": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다.",
+            "sm": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다.",
+            "usum": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다.",
+            "lgpe": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다.",
+            "swsh": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다."
+        },
+        "german": {
+            "xy": "Umwickelt Ziele in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.",
+            "oras": "Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.",
+            "sm": "Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.",
+            "usum": "Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.",
+            "lgpe": "Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.",
+            "swsh": "Umwickelt gegnerische Pokémon mit Fäden aus dem Mund und senkt ihren Initiative-Wert."
+        },
+        "spanish": {
+            "xy": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "oras": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "sm": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "usum": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "lgpe": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "swsh": "Lanza seda a los rivales y reduce mucho su Velocidad."
+        },
+        "italian": {
+            "xy": "Chi la usa produce della seta che avvolge i nemici intorno e ne riduce di molto la Velocità.",
+            "oras": "Chi la usa produce della seta che avvolge i nemici intorno e ne riduce di molto la Velocità.",
+            "sm": "Chi la usa produce della seta che avvolge i nemici intorno e ne riduce di molto la Velocità.",
+            "usum": "Chi la usa produce della seta che avvolge i nemici intorno e ne riduce di molto la Velocità.",
+            "lgpe": "Chi la usa produce della seta che avvolge i nemici intorno e ne riduce di molto la Velocità.",
+            "swsh": "Chi la usa produce della seta che avvolge i nemici intorno e ne riduce di molto la Velocità."
+        },
+        "japanese": {
+            "xy": "口から　吹きだした 糸を　まきつけて　相手の 素早さを　がくっと　さげる。",
+            "oras": "口から　吹きだした 糸を　まきつけて　相手の 素早さを　がくっと　さげる。",
+            "sm": "口から　吹きだした 糸を　まきつけて　相手の 素早さを　がくっと　さげる。",
+            "usum": "口から　吹きだした 糸を　まきつけて　相手の 素早さを　がくっと　さげる。",
+            "lgpe": "口から　吹きだした 糸を　まきつけて　相手の 素早さを　がくっと　さげる。",
+            "swsh": "口から　吹きだした 糸を　まきつけて　相手の 素早さを　がくっと　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "oras": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "sm": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "usum": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "lgpe": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+            "swsh": "Lanza seda a los rivales y reduce mucho su Velocidad."
+        },
+        "traditional-chinese": {
+            "sm": "用口中吐出的絲纏繞對手， 大幅降低對手的速度。",
+            "usum": "用口中吐出的絲纏繞對手， 大幅降低對手的速度。",
+            "lgpe": "用口中吐出的絲纏繞對手， 大幅降低對手的速度。",
+            "swsh": "用口中吐出的絲纏繞對手， 大幅降低對手的速度。"
+        },
+        "simplified-chinese": {
+            "sm": "用口中吐出的丝缠绕对手， 从而大幅降低对手的速度。",
+            "usum": "用口中吐出的丝缠绕对手， 从而大幅降低对手的速度。",
+            "lgpe": "用口中吐出的丝缠绕对手， 从而大幅降低对手的速度。",
+            "swsh": "用口中吐出的丝缠绕对手， 从而大幅降低对手的速度。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Speed by two stages.",
+        "shortEffect": "Lowers the target’s Speed by two stages."
+    }
 }

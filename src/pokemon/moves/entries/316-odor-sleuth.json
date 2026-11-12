@@ -1,45 +1,142 @@
 {
-  "_id": 316,
-  "key": "odor-sleuth",
-  "name": {
-    "english": "Odor Sleuth",
-    "japanese": "かぎわける",
-    "chinese": "气味侦测",
-    "korean": "냄새구별",
-    "german": "Rastreo",
-    "french": "Schnüffler",
-    "italian": "Odor Sleuth",
-    "spanish": "Segugio"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 40,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Negates the foe’s efforts\nto heighten evasiveness.",
-    "emerald": "Negates the foe’s efforts\nto heighten evasiveness.",
-    "firered-leafgreen": "Completely negates\nthe foe’s efforts to\nheighten its ability\nto evade.",
-    "diamond-pearl": "Enables the user to\nhit a Ghost type with\nany type of move. It\nalso enables the user\nto hit an evasive foe.",
-    "platinum": "Enables the user to\nhit a Ghost type with\nany type of move. It\nalso enables the user\nto hit an evasive foe.",
-    "heartgold-soulsilver": "Enables the user to\nhit a Ghost type with\nany type of move. It\nalso enables the user\nto hit an evasive foe.",
-    "black-white": "Enables a Ghost-type target to be hit with\nNormal- and Fighting-type attacks. It also\nenables an evasive target to be hit.",
-    "black-2-white-2": "Enables a Ghost-type target to be hit with\nNormal- and Fighting-type attacks. It also\nenables an evasive target to be hit.",
-    "x-y": "Enables a Ghost-type target to be hit by\nNormal- and Fighting-type attacks. This also\nenables an evasive target to be hit.",
-    "omega-ruby-alpha-sapphire": "Enables a Ghost-type target to be hit by\nNormal- and Fighting-type attacks. This also\nenables an evasive target to be hit.",
-    "sun-moon": "Enables a Ghost-type target to be hit by Normal-\nand Fighting-type attacks. This also enables an\nevasive target to be hit.",
-    "ultra-sun-ultra-moon": "Enables a Ghost-type target to be hit by Normal-\nand Fighting-type attacks. This also enables an\nevasive target to be hit.",
-    "lets-go-pikachu-lets-go-eevee": "Enables a Ghost-type target to be hit by Normal-\nand Fighting-type attacks. This also enables an\nevasive target to be hit.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Resets the target's evasion to normal and prevents any further boosting until the target leaves the field.  A ghost under this effect takes normal damage from normal and fighting moves.  This move itself ignores accuracy and evasion modifiers.",
-    "shortEffect": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
-  },
-  "priority": 0
+    "_id": 316,
+    "key": "odor-sleuth",
+    "name": {
+        "japanese-kana": "かぎわける",
+        "korean": "냄새구별",
+        "traditional-chinese": "氣味偵測",
+        "french": "Flair",
+        "german": "Schnüffler",
+        "spanish": "Rastreo",
+        "italian": "Segugio",
+        "english": "Odor Sleuth",
+        "japanese": "かぎわける",
+        "simplified-chinese": "气味侦测",
+        "latin-american-spanish": "Rastreo"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 40,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "no-type-immunity",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Negates the foe’s efforts to heighten evasiveness.",
+            "em": "Negates the foe’s efforts to heighten evasiveness.",
+            "frlg": "Completely negates the foe’s efforts to heighten its ability to evade.",
+            "dp": "Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",
+            "pt": "Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",
+            "hgss": "Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",
+            "bw": "Enables a Ghost-type target to be hit with Normal- and Fighting-type attacks. It also enables an evasive target to be hit.",
+            "b2w2": "Enables a Ghost-type target to be hit with Normal- and Fighting-type attacks. It also enables an evasive target to be hit.",
+            "xy": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+            "oras": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+            "sm": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+            "usum": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+            "lgpe": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité et de toucher un ennemi insaisissable.",
+            "xy": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité ou de toucher un ennemi insaisissable.",
+            "oras": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité ou de toucher un ennemi insaisissable.",
+            "sm": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité ou de toucher un ennemi insaisissable.",
+            "usum": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité ou de toucher un ennemi insaisissable.",
+            "lgpe": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité ou de toucher un ennemi insaisissable.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "ゴーストタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "oras": "ゴーストタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "sm": "ゴーストタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "usum": "ゴーストタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "lgpe": "ゴーストタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "고스트타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "oras": "고스트타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "sm": "고스트타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "usum": "고스트타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "lgpe": "고스트타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Erlaubt es, Geist-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "oras": "Erlaubt es, Geister-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "sm": "Ermöglicht es, Geister-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "usum": "Ermöglicht es, Geister-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "lgpe": "Ermöglicht es, Geister-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "oras": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "sm": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "usum": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "lgpe": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.",
+            "oras": "Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.",
+            "sm": "Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.",
+            "usum": "Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.",
+            "lgpe": "Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "ゴーストタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "oras": "ゴーストタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "sm": "ゴーストタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "usum": "ゴーストタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "lgpe": "ゴーストタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "oras": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "sm": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "usum": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "lgpe": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "讓對幽靈屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。",
+            "usum": "讓對幽靈屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。",
+            "lgpe": "讓對幽靈屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "对幽灵属性宝可梦没有效果的招式 以及闪避率高的对手， 使用后变得能够打中。",
+            "usum": "使出后对幽灵属性宝可梦没有 效果的招式以及闪避率高的对手， 变得能够打中。",
+            "lgpe": "使出后对幽灵属性宝可梦没有 效果的招式以及闪避率高的对手， 变得能够打中。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Resets the target’s evasion to normal and prevents any further boosting until the target leaves the field.  A Ghost under this effect takes normal damage from Normal and Fighting moves.  This move itself ignores accuracy and evasion modifiers.",
+        "shortEffect": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost."
+    }
 }

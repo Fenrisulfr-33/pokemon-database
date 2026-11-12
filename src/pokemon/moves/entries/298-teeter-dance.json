@@ -1,45 +1,144 @@
 {
-  "_id": 298,
-  "key": "teeter-dance",
-  "name": {
-    "english": "Teeter Dance",
-    "japanese": "フラフラダンス",
-    "chinese": "摇晃舞",
-    "korean": "흔들흔들댄스",
-    "german": "Danza Caos",
-    "french": "Taumeltanz",
-    "italian": "Teeter Dance",
-    "spanish": "Strampadanza"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Confuses all POKéMON on\nthe scene.",
-    "emerald": "Confuses all POKéMON on\nthe scene.",
-    "firered-leafgreen": "A wobbly dance\nthat confuses all\nthe POKéMON in\nbattle.",
-    "diamond-pearl": "The user performs a\nwobbly dance that\nconfuses all the\nPokémon in battle.\n",
-    "platinum": "The user performs a\nwobbly dance that\nconfuses all the\nPokémon in battle.\n",
-    "heartgold-soulsilver": "The user performs a\nwobbly dance that\nconfuses all the\nPokémon in battle.\n",
-    "black-white": "The user performs a wobbly dance that\nconfuses the Pokémon around it.",
-    "black-2-white-2": "The user performs a wobbly dance that\nconfuses the Pokémon around it.",
-    "x-y": "The user performs a wobbly dance that\nconfuses the Pokémon around it.",
-    "omega-ruby-alpha-sapphire": "The user performs a wobbly dance that\nconfuses the Pokémon around it.",
-    "sun-moon": "The user performs a wobbly dance that confuses\nthe Pokémon around it.",
-    "ultra-sun-ultra-moon": "The user performs a wobbly dance that confuses\nthe Pokémon around it.",
-    "lets-go-pikachu-lets-go-eevee": "The user performs a wobbly dance that confuses\nthe Pokémon around it.",
-    "sword-shield": "The user performs a wobbly dance that confuses\nthe Pokémon around it."
-  },
-  "effect": {
-    "full": "Confuses all targets.",
-    "shortEffect": "Confuses the target."
-  },
-  "priority": 0
+    "_id": 298,
+    "key": "teeter-dance",
+    "name": {
+        "japanese-kana": "フラフラダンス",
+        "korean": "흔들흔들댄스",
+        "traditional-chinese": "搖晃舞",
+        "french": "Danse Folle",
+        "german": "Taumeltanz",
+        "spanish": "Danza Caos",
+        "italian": "Strampadanza",
+        "english": "Teeter Dance",
+        "japanese": "フラフラダンス",
+        "simplified-chinese": "摇晃舞",
+        "latin-american-spanish": "Danza del Caos"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Confuses all POKéMON on the scene.",
+            "em": "Confuses all POKéMON on the scene.",
+            "frlg": "A wobbly dance that confuses all the POKéMON in battle.",
+            "dp": "The user performs a wobbly dance that confuses all the Pokémon in battle.",
+            "pt": "The user performs a wobbly dance that confuses all the Pokémon in battle.",
+            "hgss": "The user performs a wobbly dance that confuses all the Pokémon in battle.",
+            "bw": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "b2w2": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "xy": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "oras": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "sm": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "usum": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "lgpe": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "swsh": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "la": "The user performs a wobbly dance that confuses the Pokémon around it.",
+            "sv": "The user performs a wobbly dance that confuses every Pokémon around it."
+        },
+        "french": {
+            "bw": "Danse qui rend confus tous les Pokémon autour du lanceur.",
+            "xy": "Danse qui rend confus tous les Pokémon autour du lanceur.",
+            "oras": "Danse qui rend confus tous les Pokémon autour du lanceur.",
+            "sm": "Danse qui rend confus tous les Pokémon autour du lanceur.",
+            "usum": "Danse qui rend confus tous les Pokémon autour du lanceur.",
+            "lgpe": "Danse qui rend confus tous les Pokémon autour du lanceur.",
+            "swsh": "Danse qui rend confus tous les Pokémon autour du lanceur."
+        },
+        "japanese-kana": {
+            "xy": "フラフラと　ダンスを　おどって じぶんの　まわりに　いるものを こんらん　じょうたいに　させる。",
+            "oras": "フラフラと　ダンスを　おどって じぶんの　まわりに　いるものを こんらん　じょうたいに　させる。",
+            "sm": "フラフラと　ダンスを　おどって じぶんの　まわりに　いるものを こんらん　じょうたいに　させる。",
+            "usum": "フラフラと　ダンスを　おどって じぶんの　まわりに　いるものを こんらん　じょうたいに　させる。",
+            "lgpe": "フラフラと　ダンスを　おどって じぶんの　まわりに　いるものを こんらん　じょうたいに　させる。",
+            "swsh": "フラフラと　ダンスを　おどって じぶんの　まわりに　いるものを こんらん　じょうたいに　させる。"
+        },
+        "korean": {
+            "xy": "흔들흔들 댄스를 춰서 주위에 있는 포켓몬을 혼란 상태로 만든다.",
+            "oras": "흔들흔들 댄스를 춰서 주위에 있는 포켓몬을 혼란 상태로 만든다.",
+            "sm": "흔들흔들 댄스를 춰서 주위에 있는 포켓몬을 혼란 상태로 만든다.",
+            "usum": "흔들흔들 댄스를 춰서 주위에 있는 포켓몬을 혼란 상태로 만든다.",
+            "lgpe": "흔들흔들 댄스를 춰서 주위에 있는 포켓몬을 혼란 상태로 만든다.",
+            "swsh": "흔들흔들 댄스를 춰서 주위에 있는 포켓몬을 혼란 상태로 만든다."
+        },
+        "german": {
+            "xy": "Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.",
+            "oras": "Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.",
+            "sm": "Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.",
+            "usum": "Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.",
+            "lgpe": "Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.",
+            "swsh": "Ein Wackeltanz, der alle Pokémon im Umkreis verwirrt."
+        },
+        "spanish": {
+            "xy": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "oras": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "sm": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "usum": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "lgpe": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "swsh": "Danza histérica que confunde a los Pokémon que están alrededor del usuario."
+        },
+        "italian": {
+            "xy": "Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.",
+            "oras": "Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.",
+            "sm": "Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.",
+            "usum": "Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.",
+            "lgpe": "Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.",
+            "swsh": "Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno."
+        },
+        "japanese": {
+            "xy": "フラフラと　ダンスを　おどって 自分の　周りに　いるものを 混乱状態に　させる。",
+            "oras": "フラフラと　ダンスを　おどって 自分の　周りに　いるものを 混乱状態に　させる。",
+            "sm": "フラフラと　ダンスを　おどって 自分の　周りに　いるものを 混乱状態に　させる。",
+            "usum": "フラフラと　ダンスを　おどって 自分の　周りに　いるものを 混乱状態に　させる。",
+            "lgpe": "フラフラと　ダンスを　おどって 自分の　周りに　いるものを 混乱状態に　させる。",
+            "swsh": "フラフラと　ダンスを　おどって 自分の　周りに　いるものを 混乱状態に　させる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "oras": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "sm": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "usum": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "lgpe": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+            "swsh": "Danza histérica que confunde a los Pokémon que están alrededor del usuario."
+        },
+        "traditional-chinese": {
+            "sm": "搖搖晃晃地跳起舞， 讓自己周圍的寶可夢 陷入混亂狀態。",
+            "usum": "搖搖晃晃地跳起舞， 讓自己周圍的寶可夢 陷入混亂狀態。",
+            "lgpe": "搖搖晃晃地跳起舞， 讓自己周圍的寶可夢 陷入混亂狀態。",
+            "swsh": "搖搖晃晃地跳起舞， 讓自己周圍的寶可夢 陷入混亂狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "摇摇晃晃地跳起舞蹈， 让自己周围的宝可梦 陷入混乱状态。",
+            "usum": "摇摇晃晃地跳起舞蹈， 让自己周围的宝可梦 陷入混乱状态。",
+            "lgpe": "摇摇晃晃地跳起舞蹈， 让自己周围的宝可梦 陷入混乱状态。",
+            "swsh": "摇摇晃晃地跳起舞蹈， 让自己周围的宝可梦 陷入混乱状态。"
+        }
+    },
+    "effect": {
+        "full": "Confuses all targets.",
+        "shortEffect": "Confuses the target."
+    }
 }

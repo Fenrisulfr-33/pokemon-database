@@ -1,37 +1,133 @@
 {
-  "_id": 616,
-  "key": "lands-wrath",
-  "name": {
-    "english": "Land's Wrath",
-    "japanese": "グランドフォース",
-    "chinese": "大地神力",
-    "korean": "그라운드포스",
-    "german": "Fuerza Telúrica",
-    "french": "Bodengewalt",
-    "italian": "Land’s Wrath",
-    "spanish": "Forza Tellurica"
-  },
-  "type": "Ground",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 6,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "x-y": "The user gathers the energy of the land\nand focuses that power on opposing\nPokémon to damage them.",
-    "omega-ruby-alpha-sapphire": "The user gathers the energy of the land\nand focuses that power on opposing\nPokémon to damage them.",
-    "sun-moon": "The user gathers the energy of the land and focuses\nthat power on opposing Pokémon to damage them.",
-    "ultra-sun-ultra-moon": "The user gathers the energy of the land and focuses\nthat power on opposing Pokémon to damage them.",
-    "lets-go-pikachu-lets-go-eevee": "The user gathers the energy of the land and focuses\nthat power on opposing Pokémon to damage them.",
-    "sword-shield": "The user gathers the energy of the land and focuses\nthat power on opposing Pokémon to damage them."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 616,
+    "key": "lands-wrath",
+    "name": {
+        "japanese-kana": "グランドフォース",
+        "korean": "그라운드포스",
+        "traditional-chinese": "大地神力",
+        "french": "Force Chtonienne",
+        "german": "Bodengewalt",
+        "spanish": "Fuerza Telúrica",
+        "italian": "Forza Tellurica",
+        "english": "Land’s Wrath",
+        "japanese": "グランドフォース",
+        "simplified-chinese": "大地神力",
+        "latin-american-spanish": "Fuerza Telúrica"
+    },
+    "type": "ground",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "だいちの　パワーを　あつめ ちからを　あいてに　しゅうちゅう させて　ダメージを　あたえる。",
+            "oras": "だいちの　パワーを　あつめ ちからを　あいてに　しゅうちゅう させて　ダメージを　あたえる。",
+            "sm": "だいちの　パワーを　あつめ ちからを　あいてに　しゅうちゅう させて　ダメージを　あたえる。",
+            "usum": "だいちの　パワーを　あつめ ちからを　あいてに　しゅうちゅう させて　ダメージを　あたえる。",
+            "lgpe": "だいちの　パワーを　あつめ ちからを　あいてに　しゅうちゅう させて　ダメージを　あたえる。",
+            "swsh": "だいちの　パワーを　あつめ ちからを　あいてに　しゅうちゅう させて　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "대지의 힘을 모으고 그 힘을 상대에게 집중시켜서 데미지를 준다.",
+            "oras": "대지의 힘을 모으고 그 힘을 상대에게 집중시켜서 데미지를 준다.",
+            "sm": "대지의 힘을 모으고 그 힘을 상대에게 집중시켜서 데미지를 준다.",
+            "usum": "대지의 힘을 모으고 그 힘을 상대에게 집중시켜서 데미지를 준다.",
+            "lgpe": "대지의 힘을 모으고 그 힘을 상대에게 집중시켜서 데미지를 준다.",
+            "swsh": "대지의 힘을 모으고 그 힘을 상대에게 집중시켜서 데미지를 준다."
+        },
+        "french": {
+            "xy": "Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts.",
+            "oras": "Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts.",
+            "sm": "Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts.",
+            "usum": "Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts.",
+            "lgpe": "Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts.",
+            "swsh": "Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts."
+        },
+        "german": {
+            "xy": "Der Anwender sammelt die Kraft des weiten Landes und greift an, indem er sie gebündelt auf das Ziel lenkt.",
+            "oras": "Der Anwender sammelt die Kraft des weiten Landes und greift an, indem er sie gebündelt auf das Ziel lenkt.",
+            "sm": "Der Anwender sammelt die Kraft des weiten Landes und greift an, indem er sie gebündelt auf das Ziel lenkt.",
+            "usum": "Der Anwender sammelt die Kraft des weiten Landes und greift an, indem er sie gebündelt auf das Ziel lenkt.",
+            "lgpe": "Der Anwender sammelt die Kraft des weiten Landes und greift an, indem er sie gebündelt auf das Ziel lenkt.",
+            "swsh": "Der Anwender sammelt die Kraft des weiten Landes und greift an, indem er sie gebündelt auf gegnerische Pokémon lenkt."
+        },
+        "spanish": {
+            "xy": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "oras": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "sm": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "usum": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "lgpe": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "swsh": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos."
+        },
+        "italian": {
+            "xy": "Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno, danneggiandoli.",
+            "oras": "Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno, danneggiandoli.",
+            "sm": "Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno, danneggiandoli.",
+            "usum": "Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno, danneggiandoli.",
+            "lgpe": "Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno, danneggiandoli.",
+            "swsh": "Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno, danneggiandoli."
+        },
+        "english": {
+            "xy": "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.",
+            "oras": "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.",
+            "sm": "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.",
+            "usum": "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.",
+            "lgpe": "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.",
+            "swsh": "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them."
+        },
+        "japanese": {
+            "xy": "大地の　パワーを　集め 力を　相手に　集中させて ダメージを　与える。",
+            "oras": "大地の　パワーを　集め 力を　相手に　集中させて ダメージを　与える。",
+            "sm": "大地の　パワーを　集め 力を　相手に　集中させて ダメージを　与える。",
+            "usum": "大地の　パワーを　集め 力を　相手に　集中させて ダメージを　与える。",
+            "lgpe": "大地の　パワーを　集め 力を　相手に　集中させて ダメージを　与える。",
+            "swsh": "大地の　パワーを　集め 力を　相手に　集中させて ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "oras": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "sm": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "usum": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "lgpe": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+            "swsh": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos."
+        },
+        "traditional-chinese": {
+            "sm": "聚集大地的能量後， 將力量集中攻擊對手給予傷害。",
+            "usum": "聚集大地的能量後， 將力量集中攻擊對手給予傷害。",
+            "lgpe": "聚集大地的能量後， 將力量集中攻擊對手給予傷害。",
+            "swsh": "聚集大地的能量後， 將力量集中攻擊對手給予傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "聚集大地的力量， 将此力量集中攻击对手， 并给予伤害。",
+            "usum": "聚集大地的力量， 将此力量集中攻击对手， 并给予伤害。",
+            "lgpe": "聚集大地的力量， 将此力量集中攻击对手， 并给予伤害。",
+            "swsh": "聚集大地的力量， 将此力量集中攻击对手， 并给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

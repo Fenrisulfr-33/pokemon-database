@@ -1,39 +1,136 @@
 {
-  "_id": 544,
-  "key": "gear-grind",
-  "name": {
-    "english": "Gear Grind",
-    "japanese": "ギアソーサー",
-    "chinese": "齿轮飞盘",
-    "korean": "기어소서",
-    "german": "Rueda Doble",
-    "french": "Klikkdiskus",
-    "italian": "Gear Grind",
-    "spanish": "Ingracolpo"
-  },
-  "type": "Steel",
-  "category": "Physical",
-  "contest": null,
-  "pp": 15,
-  "power": 50,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks by throwing\ntwo steel gears at its target.",
-    "black-2-white-2": "The user attacks by throwing\ntwo steel gears at its target.",
-    "x-y": "The user attacks by throwing\nsteel gears at its target twice.",
-    "omega-ruby-alpha-sapphire": "The user attacks by throwing\nsteel gears at its target twice.",
-    "sun-moon": "The user attacks by throwing steel gears at its\ntarget twice.",
-    "ultra-sun-ultra-moon": "The user attacks by throwing steel gears at its\ntarget twice.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by throwing steel gears at its\ntarget twice.",
-    "sword-shield": "The user attacks by throwing steel gears at its\ntarget twice."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Hits twice in one turn.",
-    "shortEffect": "Hits twice in one turn."
-  },
-  "priority": 0
+    "_id": 544,
+    "key": "gear-grind",
+    "name": {
+        "japanese-kana": "ギアソーサー",
+        "korean": "기어소서",
+        "traditional-chinese": "齒輪飛盤",
+        "french": "Lancécrou",
+        "german": "Klikkdiskus",
+        "spanish": "Rueda Doble",
+        "italian": "Ingracolpo",
+        "english": "Gear Grind",
+        "japanese": "ギアソーサー",
+        "simplified-chinese": "齿轮飞盘",
+        "latin-american-spanish": "Rueda Doble"
+    },
+    "type": "steel",
+    "category": "physical",
+    "contest": null,
+    "pp": 15,
+    "power": 50,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": 2,
+        "maxHits": 2,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée.",
+            "xy": "Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée.",
+            "oras": "Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée.",
+            "sm": "Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée.",
+            "usum": "Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée.",
+            "lgpe": "Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée.",
+            "swsh": "Le lanceur jette deux écrous d’acier qui frappent l’ennemi deux fois d’affilée."
+        },
+        "english": {
+            "bw": "The user attacks by throwing two steel gears at its target.",
+            "b2w2": "The user attacks by throwing two steel gears at its target.",
+            "xy": "The user attacks by throwing steel gears at its target twice.",
+            "oras": "The user attacks by throwing steel gears at its target twice.",
+            "sm": "The user attacks by throwing steel gears at its target twice.",
+            "usum": "The user attacks by throwing steel gears at its target twice.",
+            "lgpe": "The user attacks by throwing steel gears at its target twice.",
+            "swsh": "The user attacks by throwing steel gears at its target twice."
+        },
+        "japanese-kana": {
+            "xy": "こうてつの　ギアを　あいてに なげつけて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "oras": "こうてつの　ギアを　あいてに なげつけて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "sm": "こうてつの　ギアを　あいてに なげつけて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "usum": "こうてつの　ギアを　あいてに なげつけて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "lgpe": "こうてつの　ギアを　あいてに なげつけて　こうげきする。２かい れんぞくで　ダメージを　あたえる。",
+            "swsh": "こうてつの　ギアを　あいてに なげつけて　こうげきする。２かい れんぞくで　ダメージを　あたえる。"
+        },
+        "korean": {
+            "xy": "강철의 기어를 상대에게 던져서 공격한다. 2회 연속으로 데미지를 준다.",
+            "oras": "강철의 기어를 상대에게 던져서 공격한다. 2회 연속으로 데미지를 준다.",
+            "sm": "강철의 기어를 상대에게 던져서 공격한다. 2회 연속으로 데미지를 준다.",
+            "usum": "강철의 기어를 상대에게 던져서 공격한다. 2회 연속으로 데미지를 준다.",
+            "lgpe": "강철의 기어를 상대에게 던져서 공격한다. 2회 연속으로 데미지를 준다.",
+            "swsh": "강철의 기어를 상대에게 던져서 공격한다. 2회 연속으로 데미지를 준다."
+        },
+        "german": {
+            "xy": "Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.",
+            "oras": "Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.",
+            "sm": "Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.",
+            "usum": "Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.",
+            "lgpe": "Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.",
+            "swsh": "Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander."
+        },
+        "spanish": {
+            "xy": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "oras": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "sm": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "usum": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "lgpe": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "swsh": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro dei dischi d’acciaio.",
+            "oras": "Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro dei dischi d’acciaio.",
+            "sm": "Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro degli ingranaggi d’acciaio.",
+            "usum": "Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro degli ingranaggi d’acciaio.",
+            "lgpe": "Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro degli ingranaggi d’acciaio.",
+            "swsh": "Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro degli ingranaggi d’acciaio."
+        },
+        "japanese": {
+            "xy": "鋼鉄の　ギアを　相手に 投げつけて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "oras": "鋼鉄の　ギアを　相手に 投げつけて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "sm": "鋼鉄の　ギアを　相手に 投げつけて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "usum": "鋼鉄の　ギアを　相手に 投げつけて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "lgpe": "鋼鉄の　ギアを　相手に 投げつけて　攻撃する。 ２回連続で　ダメージを　与える。",
+            "swsh": "鋼鉄の　ギアを　相手に 投げつけて　攻撃する。 ２回連続で　ダメージを　与える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "oras": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "sm": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "usum": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "lgpe": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.",
+            "swsh": "Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces."
+        },
+        "traditional-chinese": {
+            "sm": "向對手投擲 鋼鐵齒輪進行攻擊。 連續２次給予傷害。",
+            "usum": "向對手投擲 鋼鐵齒輪進行攻擊。 連續２次給予傷害。",
+            "lgpe": "向對手投擲 鋼鐵齒輪進行攻擊。 連續２次給予傷害。",
+            "swsh": "向對手投擲 鋼鐵齒輪進行攻擊。 連續２次給予傷害。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手投掷 钢铁齿轮进行攻击。 连续２次给予伤害。",
+            "usum": "向对手投掷 钢铁齿轮进行攻击。 连续２次给予伤害。",
+            "lgpe": "向对手投掷 钢铁齿轮进行攻击。 连续２次给予伤害。",
+            "swsh": "向对手投掷 钢铁齿轮进行攻击。 连续２次给予伤害。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Hits twice in one turn.",
+        "shortEffect": "Hits twice in one turn."
+    }
 }

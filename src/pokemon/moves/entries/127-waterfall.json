@@ -1,47 +1,146 @@
 {
-  "_id": 127,
-  "key": "waterfall",
-  "name": {
-    "english": "Waterfall",
-    "japanese": "たきのぼり",
-    "chinese": "鱼跃龙门",
-    "korean": "폭포오르기",
-    "german": "Cascada",
-    "french": "Kaskade",
-    "italian": "Waterfall",
-    "spanish": "Cascata"
-  },
-  "type": "Water",
-  "category": "Physical",
-  "contest": "Tough",
-  "pp": 15,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An aquatic charge\nattack.",
-    "crystal": "An aquatic charge\nattack.",
-    "ruby-sapphire": "Charges the foe with speed\nto climb waterfalls.",
-    "emerald": "Charges the foe with speed\nto climb waterfalls.",
-    "firered-leafgreen": "A powerful charge\nattack. It can also\nbe used to climb\na waterfall.",
-    "diamond-pearl": "The user charges the\nfoe at an awesome\nspeed.\nIt can also be used\nto climb a waterfall.",
-    "platinum": "The user charges the\nfoe at an awesome\nspeed.\nIt can also be used\nto climb a waterfall.",
-    "heartgold-soulsilver": "The user charges at\nthe foe rapidly, and\nmay make it flinch.\nIt can also be used\nto climb a waterfall.",
-    "black-white": "The user charges at the target\nand may make it flinch.\nIt can also be used to climb a waterfall.",
-    "black-2-white-2": "The user charges at the target\nand may make it flinch.\nIt can also be used to climb a waterfall.",
-    "x-y": "The user charges at the target and may make it\nflinch. This can also be used to climb a waterfall.",
-    "omega-ruby-alpha-sapphire": "The user charges at the target and may make it\nflinch. This can also be used to climb a waterfall.",
-    "sun-moon": "The user charges at the target and may make\nit flinch.",
-    "ultra-sun-ultra-moon": "The user charges at the target and may make\nit flinch.",
-    "lets-go-pikachu-lets-go-eevee": "The user charges at the target and may make\nit flinch.",
-    "sword-shield": "The user charges at the target and may make\nit flinch."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
-    "shortEffect": "Has a $effect_chance% chance to make the target flinch."
-  },
-  "priority": 0
+    "_id": 127,
+    "key": "waterfall",
+    "name": {
+        "japanese-kana": "たきのぼり",
+        "korean": "폭포오르기",
+        "traditional-chinese": "攀瀑",
+        "french": "Cascade",
+        "german": "Kaskade",
+        "spanish": "Cascada",
+        "italian": "Cascata",
+        "english": "Waterfall",
+        "japanese": "たきのぼり",
+        "simplified-chinese": "攀瀑",
+        "latin-american-spanish": "Cascada"
+    },
+    "type": "water",
+    "category": "physical",
+    "contest": "tough",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 20,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An aquatic charge attack.",
+            "cr": "An aquatic charge attack.",
+            "rs": "Charges the foe with speed to climb waterfalls.",
+            "em": "Charges the foe with speed to climb waterfalls.",
+            "frlg": "A powerful charge attack. It can also be used to climb a waterfall.",
+            "dp": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall.",
+            "pt": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall.",
+            "hgss": "The user charges at the foe rapidly, and may make it flinch. It can also be used to climb a waterfall.",
+            "bw": "The user charges at the target and may make it flinch. It can also be used to climb a waterfall.",
+            "b2w2": "The user charges at the target and may make it flinch. It can also be used to climb a waterfall.",
+            "xy": "The user charges at the target and may make it flinch. This can also be used to climb a waterfall.",
+            "oras": "The user charges at the target and may make it flinch. This can also be used to climb a waterfall.",
+            "sm": "The user charges at the target and may make it flinch.",
+            "usum": "The user charges at the target and may make it flinch.",
+            "lgpe": "The user charges at the target and may make it flinch.",
+            "swsh": "The user charges at the target and may make it flinch.",
+            "la": "The user charges at the target and may make it flinch.",
+            "sv": "The user charges at the target and may make it flinch."
+        },
+        "french": {
+            "bw": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer. Permet aussi de franchir une cascade.",
+            "xy": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer. Permet aussi de franchir une cascade.",
+            "oras": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer. Permet aussi de franchir une cascade.",
+            "sm": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer.",
+            "usum": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer.",
+            "lgpe": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer.",
+            "swsh": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer."
+        },
+        "japanese-kana": {
+            "xy": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。 たきも　およいで　のぼれる。",
+            "oras": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。 たきも　およいで　のぼれる。",
+            "sm": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。",
+            "usum": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。",
+            "lgpe": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。",
+            "swsh": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。"
+        },
+        "korean": {
+            "xy": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다. 폭포도 거슬러 올라갈 수 있다.",
+            "oras": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다. 폭포도 거슬러 올라갈 수 있다.",
+            "sm": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다.",
+            "usum": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다.",
+            "lgpe": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다.",
+            "swsh": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt. Wasserfälle können damit erklommen werden.",
+            "oras": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt. Wasserfälle können damit erklommen werden.",
+            "sm": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.",
+            "usum": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.",
+            "lgpe": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.",
+            "swsh": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt."
+        },
+        "spanish": {
+            "xy": "Embiste con un gran impulso que puede hacer retroceder. También sirve para remontar cascadas.",
+            "oras": "Embiste con un gran impulso que puede hacer retroceder. También sirve para remontar cascadas.",
+            "sm": "Embiste con un gran impulso que puede hacer retroceder.",
+            "usum": "Embiste con un gran impulso que puede hacer retroceder.",
+            "lgpe": "Embiste con un gran impulso que puede hacer retroceder.",
+            "swsh": "Embiste con un gran impulso que puede llegar a amedrentar."
+        },
+        "italian": {
+            "xy": "Carica il bersaglio a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.",
+            "oras": "Carica il bersaglio a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.",
+            "sm": "Carica il bersaglio a grande velocità e può farlo tentennare.",
+            "usum": "Carica il bersaglio a grande velocità e può farlo tentennare.",
+            "lgpe": "Carica il bersaglio a grande velocità e può farlo tentennare.",
+            "swsh": "Carica il bersaglio a grande velocità e può farlo tentennare."
+        },
+        "japanese": {
+            "xy": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。 滝も　泳いで　のぼれる。",
+            "oras": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。 滝も　泳いで　のぼれる。",
+            "sm": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。",
+            "usum": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。",
+            "lgpe": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。",
+            "swsh": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Embiste con un gran impulso que puede hacer retroceder. También sirve para remontar cascadas.",
+            "oras": "Embiste con un gran impulso que puede hacer retroceder. También sirve para remontar cascadas.",
+            "sm": "Embiste con un gran impulso que puede hacer retroceder.",
+            "usum": "Embiste con un gran impulso que puede hacer retroceder.",
+            "lgpe": "Embiste con un gran impulso que puede hacer retroceder.",
+            "swsh": "Embiste con un gran impulso que puede llegar a amedrentar."
+        },
+        "traditional-chinese": {
+            "sm": "以驚人的氣勢撲向對手。 有時會讓對手畏縮。",
+            "usum": "以驚人的氣勢撲向對手。 有時會讓對手畏縮。",
+            "lgpe": "以驚人的氣勢撲向對手。 有時會讓對手畏縮。",
+            "swsh": "以驚人的氣勢撲向對手。 有時會讓對手畏縮。"
+        },
+        "simplified-chinese": {
+            "sm": "以惊人的气势扑向对手。 有时会使对手畏缩。",
+            "usum": "以惊人的气势扑向对手。 有时会使对手畏缩。",
+            "lgpe": "以惊人的气势扑向对手。 有时会使对手畏缩。",
+            "swsh": "以惊人的气势扑向对手。 有时会使对手畏缩。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to make the target flinch.",
+        "shortEffect": "Has a chance to make the target flinch."
+    }
 }

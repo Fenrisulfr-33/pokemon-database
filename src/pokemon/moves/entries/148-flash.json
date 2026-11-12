@@ -1,47 +1,148 @@
 {
-  "_id": 148,
-  "key": "flash",
-  "name": {
-    "english": "Flash",
-    "japanese": "フラッシュ",
-    "chinese": "闪光",
-    "korean": "플래시",
-    "german": "Destello",
-    "french": "Blitz",
-    "italian": "Flash",
-    "spanish": "Flash"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Blinds the foe to\nreduce accuracy.",
-    "crystal": "Blinds the foe to\nreduce accuracy.",
-    "ruby-sapphire": "Looses a powerful blast of\nlight that cuts accuracy.",
-    "emerald": "Looses a powerful blast of\nlight that cuts accuracy.",
-    "firered-leafgreen": "A blast of light\nthat cuts the foe’s\naccuracy. It also\nilluminates caves.",
-    "diamond-pearl": "The user flashes a\nlight that cuts the\nfoe’s accuracy.\nIt can also be used\nto illuminate caves.",
-    "platinum": "The user flashes a\nlight that cuts the\nfoe’s accuracy.\nIt can also be used\nto illuminate caves.",
-    "heartgold-soulsilver": "The user flashes a\nlight that cuts the\nfoe’s accuracy.\nIt can also be used\nto illuminate caves.",
-    "black-white": "The user flashes a bright light that cuts\nthe target’s accuracy.\nIt can also be used to illuminate caves.",
-    "black-2-white-2": "The user flashes a bright light that cuts\nthe target’s accuracy.\nIt can also be used to illuminate caves.",
-    "x-y": "The user flashes a bright light that cuts\nthe target’s accuracy.",
-    "omega-ruby-alpha-sapphire": "The user flashes a bright light that cuts the\ntarget’s accuracy.\nIt can also be used to illuminate dark caves.",
-    "sun-moon": "The user flashes a bright light that cuts the\ntarget’s accuracy.",
-    "ultra-sun-ultra-moon": "The user flashes a bright light that cuts the\ntarget’s accuracy.",
-    "lets-go-pikachu-lets-go-eevee": "The user flashes a bright light that cuts the\ntarget’s accuracy.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Lowers the target's accuracy by one stage.",
-    "shortEffect": "Lowers the target's accuracy by one stage."
-  },
-  "priority": 0
+    "_id": 148,
+    "key": "flash",
+    "name": {
+        "japanese-kana": "フラッシュ",
+        "korean": "플래시",
+        "traditional-chinese": "閃光",
+        "french": "Flash",
+        "german": "Blitz",
+        "spanish": "Destello",
+        "italian": "Flash",
+        "english": "Flash",
+        "japanese": "フラッシュ",
+        "simplified-chinese": "闪光",
+        "latin-american-spanish": "Destello"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "beauty",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "accuracy": 70
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Blinds the foe to reduce accuracy.",
+            "cr": "Blinds the foe to reduce accuracy.",
+            "rs": "Looses a powerful blast of light that cuts accuracy.",
+            "em": "Looses a powerful blast of light that cuts accuracy.",
+            "frlg": "A blast of light that cuts the foe’s accuracy. It also illuminates caves.",
+            "dp": "The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves.",
+            "pt": "The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves.",
+            "hgss": "The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves.",
+            "bw": "The user flashes a bright light that cuts the target’s accuracy. It can also be used to illuminate caves.",
+            "b2w2": "The user flashes a bright light that cuts the target’s accuracy. It can also be used to illuminate caves.",
+            "xy": "The user flashes a bright light that cuts the target’s accuracy.",
+            "oras": "The user flashes a bright light that cuts the target’s accuracy. It can also be used to illuminate dark caves.",
+            "sm": "The user flashes a bright light that cuts the target’s accuracy.",
+            "usum": "The user flashes a bright light that cuts the target’s accuracy.",
+            "lgpe": "The user flashes a bright light that cuts the target’s accuracy.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Explosion lumineuse qui fait baisser la Précision de l’ennemi. Permet aussi d’éclairer les grottes.",
+            "xy": "Une explosion lumineuse qui fait baisser la Précision de l’ennemi.",
+            "oras": "Explosion lumineuse qui fait baisser la Précision de l’ennemi. Illumine les endroits sombres.",
+            "sm": "Explosion lumineuse qui fait baisser la Précision de l’ennemi.",
+            "usum": "Explosion lumineuse qui fait baisser la Précision de l’ennemi.",
+            "lgpe": "Explosion lumineuse qui fait baisser la Précision de l’ennemi.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。",
+            "oras": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。 くらいばしょも　あかるく　てらせる。",
+            "sm": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。",
+            "usum": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。",
+            "lgpe": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다.",
+            "oras": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다. 어두운 곳도 밝게 비출 수 있다.",
+            "sm": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다.",
+            "usum": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다.",
+            "lgpe": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt.",
+            "oras": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt. Erhellt dunkle Orte.",
+            "sm": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt.",
+            "usum": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt.",
+            "lgpe": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Luz cegadora que baja la Precisión del objetivo.",
+            "oras": "Luz cegadora que baja la Precisión del objetivo. También puede usarse para iluminar lugares oscuros.",
+            "sm": "Luz cegadora que baja la Precisión del objetivo.",
+            "usum": "Luz cegadora que baja la Precisión del objetivo.",
+            "lgpe": "Luz cegadora que baja la Precisión del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione.",
+            "oras": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione. Serve anche per illuminare i luoghi bui.",
+            "sm": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione.",
+            "usum": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione.",
+            "lgpe": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "まぶしい　光で　相手の 命中率を　さげる。",
+            "oras": "まぶしい　光で　相手の 命中率を　さげる。 暗い場所も　明るく　照らせる。",
+            "sm": "まぶしい　光で　相手の 命中率を　さげる。",
+            "usum": "まぶしい　光で　相手の 命中率を　さげる。",
+            "lgpe": "まぶしい　光で　相手の 命中率を　さげる。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Luz cegadora que baja la Precisión del objetivo.",
+            "oras": "Luz cegadora que baja la Precisión del objetivo. También puede usarse para iluminar lugares oscuros.",
+            "sm": "Luz cegadora que baja la Precisión del objetivo.",
+            "usum": "Luz cegadora que baja la Precisión del objetivo.",
+            "lgpe": "Luz cegadora que baja la Precisión del objetivo.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "放出耀眼的光芒， 降低對手的命中率。",
+            "usum": "放出耀眼的光芒， 降低對手的命中率。",
+            "lgpe": "放出耀眼的光芒， 降低對手的命中率。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "使出耀眼光芒， 从而降低对手的命中率。",
+            "usum": "使出耀眼光芒， 从而降低对手的命中率。",
+            "lgpe": "使出耀眼光芒， 从而降低对手的命中率。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s accuracy by one stage.",
+        "shortEffect": "Lowers the target’s accuracy by one stage."
+    }
 }

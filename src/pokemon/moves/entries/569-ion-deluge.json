@@ -1,37 +1,133 @@
 {
-  "_id": 569,
-  "key": "ion-deluge",
-  "name": {
-    "english": "Ion Deluge",
-    "japanese": "プラズマシャワー",
-    "chinese": "电浆阵雨",
-    "korean": "플라스마샤워",
-    "german": "Cortina Plasma",
-    "french": "Plasmaschauer",
-    "italian": "Ion Deluge",
-    "spanish": "Pioggiaplasma"
-  },
-  "type": "Electric",
-  "category": "Status",
-  "contest": null,
-  "pp": 25,
-  "power": null,
-  "accuracy": 25,
-  "contact": null,
-  "generation": 6,
-  "target": "entire-field",
-  "changes": [],
-  "description": {
-    "x-y": "The user disperses electrically charged\nparticles, which changes Normal-type\nmoves to Electric-type moves.",
-    "omega-ruby-alpha-sapphire": "The user disperses electrically charged\nparticles, which changes Normal-type\nmoves to Electric-type moves.",
-    "sun-moon": "The user disperses electrically charged particles,\nwhich changes Normal-type moves to\nElectric-type moves.",
-    "ultra-sun-ultra-moon": "The user disperses electrically charged particles,\nwhich changes Normal-type moves to\nElectric-type moves.",
-    "lets-go-pikachu-lets-go-eevee": "The user disperses electrically charged particles,\nwhich changes Normal-type moves to\nElectric-type moves.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Changes all Pokémon's normal moves to electric moves for the rest of the turn.",
-    "shortEffect": "Changes all normal moves to electric moves for the rest of the turn."
-  },
-  "priority": 1
+    "_id": 569,
+    "key": "ion-deluge",
+    "name": {
+        "japanese-kana": "プラズマシャワー",
+        "korean": "플라스마샤워",
+        "traditional-chinese": "等離子浴",
+        "french": "Déluge Plasmique",
+        "german": "Plasmaschauer",
+        "spanish": "Cortina Plasma",
+        "italian": "Pioggiaplasma",
+        "english": "Ion Deluge",
+        "japanese": "プラズマシャワー",
+        "simplified-chinese": "等离子浴",
+        "latin-american-spanish": "Cortina Plasma"
+    },
+    "type": "electric",
+    "category": "status",
+    "contest": null,
+    "pp": 25,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 1,
+    "target": "entire-field",
+    "meta": {
+        "category": "whole-field-effect",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "でんきを　おびた　りゅうしを かくさんし　ノーマルタイプの　わざを でんきタイプに　してしまう。",
+            "oras": "でんきを　おびた　りゅうしを かくさんし　ノーマルタイプの　わざを でんきタイプに　してしまう。",
+            "sm": "でんきを　おびた　りゅうしを かくさんし　ノーマルタイプの　わざを でんきタイプに　してしまう。",
+            "usum": "でんきを　おびた　りゅうしを かくさんし　ノーマルタイプの　わざを でんきタイプに　してしまう。",
+            "lgpe": "でんきを　おびた　りゅうしを かくさんし　ノーマルタイプの　わざを でんきタイプに　してしまう。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "전기를 띤 입자를 확산시켜 노말타입 기술을 전기타입으로 바꿔버린다.",
+            "oras": "전기를 띤 입자를 확산시켜 노말타입 기술을 전기타입으로 바꿔버린다.",
+            "sm": "전기를 띤 입자를 확산시켜 노말타입 기술을 전기타입으로 바꿔버린다.",
+            "usum": "전기를 띤 입자를 확산시켜 노말타입 기술을 전기타입으로 바꿔버린다.",
+            "lgpe": "전기를 띤 입자를 확산시켜 노말타입 기술을 전기타입으로 바꿔버린다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "french": {
+            "xy": "Diffuse des particules saturées d’électricité qui transforment les capacités de type Normal en capacités de type Électrik.",
+            "oras": "Diffuse des particules saturées d’électricité qui transforment les capacités de type Normal en capacités de type Électrik.",
+            "sm": "Diffuse des particules saturées d’électricité qui transforment les capacités de type Normal en capacités de type Électrik.",
+            "usum": "Diffuse des particules saturées d’électricité qui transforment les capacités de type Normal en capacités de type Électrik.",
+            "lgpe": "Diffuse des particules saturées d’électricité qui transforment les capacités de type Normal en capacités de type Électrik.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "german": {
+            "xy": "Versprüht elektrisch geladene Partikel und bewirkt, dass Normal-Attacken den Typ Elektro annehmen.",
+            "oras": "Versprüht elektrisch geladene Partikel und bewirkt, dass Normal-Attacken den Typ Elektro annehmen.",
+            "sm": "Versprüht elektrisch geladene Partikel und bewirkt, dass Normal-Attacken den Typ Elektro annehmen.",
+            "usum": "Versprüht elektrisch geladene Partikel und bewirkt, dass Normal-Attacken den Typ Elektro annehmen.",
+            "lgpe": "Versprüht elektrisch geladene Partikel und bewirkt, dass Normal-Attacken den Typ Elektro annehmen.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "oras": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "sm": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "usum": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "lgpe": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.",
+            "oras": "Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.",
+            "sm": "Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.",
+            "usum": "Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.",
+            "lgpe": "Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "english": {
+            "xy": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+            "oras": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+            "sm": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+            "usum": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+            "lgpe": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese": {
+            "xy": "電気を　帯びた　粒子を 拡散し　ノーマルタイプの　技を でんきタイプに　してしまう。",
+            "oras": "電気を　帯びた　粒子を 拡散し　ノーマルタイプの　技を でんきタイプに　してしまう。",
+            "sm": "電気を　帯びた　粒子を 拡散し　ノーマルタイプの　技を でんきタイプに　してしまう。",
+            "usum": "電気を　帯びた　粒子を 拡散し　ノーマルタイプの　技を でんきタイプに　してしまう。",
+            "lgpe": "電気を　帯びた　粒子を 拡散し　ノーマルタイプの　技を でんきタイプに　してしまう。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "oras": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "sm": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "usum": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "lgpe": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "讓帶電粒子擴散開來， 使一般屬性的招式 變成電屬性。",
+            "usum": "讓帶電粒子擴散開來， 使一般屬性的招式 變成電屬性。",
+            "lgpe": "讓帶電粒子擴散開來， 使一般屬性的招式 變成電屬性。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "将带电粒子扩散开来， 使一般属性的招式变成电属性。",
+            "usum": "将带电粒子扩散开来， 使一般属性的招式变成电属性。",
+            "lgpe": "将带电粒子扩散开来， 使一般属性的招式变成电属性。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Changes all Pokémon’s Normal moves to Electric moves for the rest of the turn.",
+        "shortEffect": "Changes all Normal moves to Electric moves for the rest of the turn."
+    }
 }

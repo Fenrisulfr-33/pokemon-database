@@ -1,45 +1,144 @@
 {
-  "_id": 275,
-  "key": "ingrain",
-  "name": {
-    "english": "Ingrain",
-    "japanese": "ねをはる",
-    "chinese": "根深蒂固",
-    "korean": "뿌리박기",
-    "german": "Arraigo",
-    "french": "Verwurzler",
-    "italian": "Ingrain",
-    "spanish": "Radicamento"
-  },
-  "type": "Grass",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 3,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "ruby-sapphire": "Lays roots that restore HP.\nThe user can’t switch out.",
-    "emerald": "Lays roots that restore HP.\nThe user can’t switch out.",
-    "firered-leafgreen": "The user lays roots\nthat restore HP on\nevery turn.\nIt can’t switch out.",
-    "diamond-pearl": "The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out.",
-    "platinum": "The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out.",
-    "heartgold-soulsilver": "The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out.",
-    "black-white": "The user lays roots that restore\nits HP on every turn. Because it is\nrooted, it can’t switch out.",
-    "black-2-white-2": "The user lays roots that restore\nits HP on every turn. Because it is\nrooted, it can’t switch out.",
-    "x-y": "The user lays roots that restore\nits HP on every turn. Because it is\nrooted, it can’t switch out.",
-    "omega-ruby-alpha-sapphire": "The user lays roots that restore\nits HP on every turn. Because it is\nrooted, it can’t switch out.",
-    "sun-moon": "The user lays roots that restore its HP on every turn.\nBecause it’s rooted, it can’t switch out.",
-    "ultra-sun-ultra-moon": "The user lays roots that restore its HP on every turn.\nBecause it’s rooted, it can’t switch out.",
-    "lets-go-pikachu-lets-go-eevee": "The user lays roots that restore its HP on every turn.\nBecause it’s rooted, it can’t switch out.",
-    "sword-shield": "The user lays roots that restore its HP on every turn.\nBecause it’s rooted, it can’t switch out."
-  },
-  "effect": {
-    "full": "Prevents the user from switching out.  User regains 1/16 of its max HP at the end of every turn.  If the user was immune to ground attacks, it will now take normal damage from them.\n\nroar and whirlwind will not affect the user.  The user cannot use magnet rise.\n\nThe user may still use u turn to leave the field.\n\nThis effect can be passed with baton pass.",
-    "shortEffect": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn."
-  },
-  "priority": 0
+    "_id": 275,
+    "key": "ingrain",
+    "name": {
+        "japanese-kana": "ねをはる",
+        "korean": "뿌리박기",
+        "traditional-chinese": "扎根",
+        "french": "Racines",
+        "german": "Verwurzler",
+        "spanish": "Arraigo",
+        "italian": "Radicamento",
+        "english": "Ingrain",
+        "japanese": "ねをはる",
+        "simplified-chinese": "扎根",
+        "latin-american-spanish": "Arraigo"
+    },
+    "type": "grass",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "user",
+    "meta": {
+        "category": "ailment",
+        "ailment": "ingrain",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "Lays roots that restore HP. The user can’t switch out.",
+            "em": "Lays roots that restore HP. The user can’t switch out.",
+            "frlg": "The user lays roots that restore HP on every turn. It can’t switch out.",
+            "dp": "The user lays roots that restore HP on every turn. Because it is rooted, it can’t switch out.",
+            "pt": "The user lays roots that restore HP on every turn. Because it is rooted, it can’t switch out.",
+            "hgss": "The user lays roots that restore HP on every turn. Because it is rooted, it can’t switch out.",
+            "bw": "The user lays roots that restore its HP on every turn. Because it is rooted, it can’t switch out.",
+            "b2w2": "The user lays roots that restore its HP on every turn. Because it is rooted, it can’t switch out.",
+            "xy": "The user lays roots that restore its HP on every turn. Because it is rooted, it can’t switch out.",
+            "oras": "The user lays roots that restore its HP on every turn. Because it is rooted, it can’t switch out.",
+            "sm": "The user lays roots that restore its HP on every turn. Because it’s rooted, it can’t switch out.",
+            "usum": "The user lays roots that restore its HP on every turn. Because it’s rooted, it can’t switch out.",
+            "lgpe": "The user lays roots that restore its HP on every turn. Because it’s rooted, it can’t switch out.",
+            "swsh": "The user lays roots that restore its HP on every turn. Because it’s rooted, it can’t switch out.",
+            "la": "The user lays roots that restore its HP on every turn. Because it's rooted, it can't switch out.",
+            "sv": "The user lays roots that restore its own HP every turn. Because the user is now rooted, it can't switch out."
+        },
+        "french": {
+            "bw": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir.",
+            "xy": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir.",
+            "oras": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir.",
+            "sm": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir.",
+            "usum": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir.",
+            "lgpe": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir.",
+            "swsh": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir."
+        },
+        "japanese-kana": {
+            "xy": "だいちに　ねを　はり　まいターン じぶんの　ＨＰを　かいふく　する。 ねを　はっているので　いれかえられない。",
+            "oras": "だいちに　ねを　はり　まいターン じぶんの　ＨＰを　かいふく　する。 ねを　はっているので　いれかえられない。",
+            "sm": "だいちに　ねを　はり　まいターン じぶんの　ＨＰを　かいふく　する。 ねを　はっているので　いれかえられない。",
+            "usum": "だいちに　ねを　はり　まいターン じぶんの　ＨＰを　かいふく　する。 ねを　はっているので　いれかえられない。",
+            "lgpe": "だいちに　ねを　はり　まいターン じぶんの　ＨＰを　かいふく　する。 ねを　はっているので　いれかえられない。",
+            "swsh": "だいちに　ねを　はり　まいターン じぶんの　ＨＰを　かいふく　する。 ねを　はっているので　いれかえられない。"
+        },
+        "korean": {
+            "xy": "대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.",
+            "oras": "대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.",
+            "sm": "대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.",
+            "usum": "대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.",
+            "lgpe": "대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.",
+            "swsh": "대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다."
+        },
+        "german": {
+            "xy": "Verwurzelung füllt jede Runde KP auf. Austausch ist unmöglich.",
+            "oras": "Verwurzelung füllt jede Runde KP auf. Austausch und Flucht sind unmöglich.",
+            "sm": "Verwurzelung füllt jede Runde KP auf. Austausch und Flucht sind unmöglich.",
+            "usum": "Verwurzelung füllt jede Runde KP auf. Austausch und Flucht sind unmöglich.",
+            "lgpe": "Verwurzelung füllt jede Runde KP auf. Austausch und Flucht sind unmöglich.",
+            "swsh": "Verwurzelung füllt jede Runde KP auf. Austausch und Flucht sind unmöglich."
+        },
+        "spanish": {
+            "xy": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "oras": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "sm": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "usum": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "lgpe": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "swsh": "Echa raíces para recuperar PS en cada turno, pero impide el relevo."
+        },
+        "italian": {
+            "xy": "Chi la usa mette delle radici che gli fanno recuperare PS a ogni turno. Non può essere sostituito.",
+            "oras": "Chi la usa mette delle radici che gli fanno recuperare PS a ogni turno. Non può essere sostituito.",
+            "sm": "Chi la usa mette delle radici che gli fanno recuperare PS a ogni turno. Non può essere sostituito.",
+            "usum": "Chi la usa mette delle radici che gli fanno recuperare PS a ogni turno. Non può essere sostituito.",
+            "lgpe": "Chi la usa mette delle radici che gli fanno recuperare PS a ogni turno. Non può essere sostituito.",
+            "swsh": "Chi la usa mette delle radici che gli fanno recuperare PS a ogni turno. Non può essere sostituito."
+        },
+        "japanese": {
+            "xy": "大地に　根を　張り 毎ターン　自分の　ＨＰを　回復する。 根を　張っているので　入れ替えられない。",
+            "oras": "大地に　根を　張り 毎ターン　自分の　ＨＰを　回復する。 根を　張っているので　入れ替えられない。",
+            "sm": "大地に　根を　張り 毎ターン　自分の　ＨＰを　回復する。 根を　張っているので　入れ替えられない。",
+            "usum": "大地に　根を　張り 毎ターン　自分の　ＨＰを　回復する。 根を　張っているので　入れ替えられない。",
+            "lgpe": "大地に　根を　張り 毎ターン　自分の　ＨＰを　回復する。 根を　張っているので　入れ替えられない。",
+            "swsh": "大地に　根を　張り 毎ターン　自分の　ＨＰを　回復する。 根を　張っているので　入れ替えられない。"
+        },
+        "latin-american-spanish": {
+            "xy": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "oras": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "sm": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "usum": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "lgpe": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+            "swsh": "Echa raíces para recuperar PS en cada turno, pero impide el relevo."
+        },
+        "traditional-chinese": {
+            "sm": "在大地上扎根， 每回合會回復自己的ＨＰ。 但扎根之後無法進行替換。",
+            "usum": "在大地上扎根， 每回合會回復自己的ＨＰ。 但扎根之後無法進行替換。",
+            "lgpe": "在大地上扎根， 每回合會回復自己的HP。 但扎根之後無法進行替換。",
+            "swsh": "在大地上扎根， 每回合會回復自己的ＨＰ。 但扎根之後無法進行替換。"
+        },
+        "simplified-chinese": {
+            "sm": "在大地上扎根， 每回合回复自己的ＨＰ。 因为扎根了，所以不能替换宝可梦。",
+            "usum": "在大地上扎根， 每回合回复自己的ＨＰ。 因为扎根了，所以不能替换宝可梦。",
+            "lgpe": "在大地上扎根， 每回合回复自己的HP。 因为扎根了，所以不能替换宝可梦。",
+            "swsh": "在大地上扎根， 每回合回复自己的ＨＰ。 因为扎根了，所以不能替换宝可梦。"
+        }
+    },
+    "effect": {
+        "full": "Prevents the user from switching out.  User regains 1/16 of its max HP at the end of every turn.  If the user was immune to Ground attacks, it will now take normal damage from them. Roar and Whirlwind will not affect the user.  The user cannot use Magnet Rise. The user may still use U-turn to leave the field. This effect can be passed with Baton Pass.",
+        "shortEffect": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn."
+    }
 }

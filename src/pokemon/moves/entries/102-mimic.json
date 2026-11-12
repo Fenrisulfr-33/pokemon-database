@@ -1,47 +1,146 @@
 {
-  "_id": 102,
-  "key": "mimic",
-  "name": {
-    "english": "Mimic",
-    "japanese": "ものまね",
-    "chinese": "模仿",
-    "korean": "흉내내기",
-    "german": "Mimético",
-    "french": "Mimikry",
-    "italian": "Mimic",
-    "spanish": "Mimica"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Cute",
-  "pp": 10,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Copies a move used\nby the foe.",
-    "crystal": "Copies a move used\nby the foe.",
-    "ruby-sapphire": "Copies a move used by the\nfoe during one battle.",
-    "emerald": "Copies a move used by the\nfoe during one battle.",
-    "firered-leafgreen": "The user copies the\nmove last used by\nthe foe for the\nrest of the battle.",
-    "diamond-pearl": "The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle.",
-    "platinum": "The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle.",
-    "heartgold-soulsilver": "The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle.",
-    "black-white": "The user copies the target’s last move.\nThe move can be used during battle\nuntil the Pokémon is switched out.",
-    "black-2-white-2": "The user copies the target’s last move.\nThe move can be used during battle\nuntil the Pokémon is switched out.",
-    "x-y": "The user copies the target’s last move.\nThe move can be used during battle\nuntil the Pokémon is switched out.",
-    "omega-ruby-alpha-sapphire": "The user copies the target’s last move.\nThe move can be used during battle\nuntil the Pokémon is switched out.",
-    "sun-moon": "The user copies the target’s last move. The move\ncan be used during battle until the Pokémon is\nswitched out.",
-    "ultra-sun-ultra-moon": "The user copies the target’s last move. The move\ncan be used during battle until the Pokémon is\nswitched out.",
-    "lets-go-pikachu-lets-go-eevee": "The user copies the target’s last move. The move\ncan be used during battle until the Pokémon is\nswitched out.",
-    "sword-shield": "The user copies the target’s last move. The move\ncan be used during battle until the Pokémon is\nswitched out."
-  },
-  "effect": {
-    "full": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome, nor forced by encore.",
-    "shortEffect": "Copies the target's last used move."
-  },
-  "priority": 0
+    "_id": 102,
+    "key": "mimic",
+    "name": {
+        "japanese-kana": "ものまね",
+        "korean": "흉내내기",
+        "traditional-chinese": "模仿",
+        "french": "Copie",
+        "german": "Mimikry",
+        "spanish": "Mimético",
+        "italian": "Mimica",
+        "english": "Mimic",
+        "japanese": "ものまね",
+        "simplified-chinese": "模仿",
+        "latin-american-spanish": "Mímica"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "cute",
+    "pp": 10,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Copies a move used by the foe.",
+            "cr": "Copies a move used by the foe.",
+            "rs": "Copies a move used by the foe during one battle.",
+            "em": "Copies a move used by the foe during one battle.",
+            "frlg": "The user copies the move last used by the foe for the rest of the battle.",
+            "dp": "The user copies the move last used by the foe. The move can be used for the rest of the battle.",
+            "pt": "The user copies the move last used by the foe. The move can be used for the rest of the battle.",
+            "hgss": "The user copies the move last used by the foe. The move can be used for the rest of the battle.",
+            "bw": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "b2w2": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "xy": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "oras": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "sm": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "usum": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "lgpe": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "swsh": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
+            "la": "The user copies the target's last move. The move can be used during battle until the Pokémon is switched out.",
+            "sv": "The user copies the move last used by the target. The copied move can be used until the user of Mimic leaves the battle."
+        },
+        "french": {
+            "bw": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat.",
+            "xy": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat.",
+            "oras": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat.",
+            "sm": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat.",
+            "usum": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat.",
+            "lgpe": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat.",
+            "swsh": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat."
+        },
+        "japanese-kana": {
+            "xy": "あいてが　さいごに　つかった　わざを せんとうの　あいだ じぶんの　わざに　することが　できる。",
+            "oras": "あいてが　さいごに　つかった　わざを せんとうの　あいだ じぶんの　わざに　することが　できる。",
+            "sm": "あいてが　さいごに　つかった　わざを せんとうの　あいだ じぶんの　わざに　することが　できる。",
+            "usum": "あいてが　さいごに　つかった　わざを せんとうの　あいだ じぶんの　わざに　することが　できる。",
+            "lgpe": "あいてが　さいごに　つかった　わざを せんとうの　あいだ じぶんの　わざに　することが　できる。",
+            "swsh": "あいてが　さいごに　つかった　わざを せんとうの　あいだ じぶんの　わざに　することが　できる。"
+        },
+        "korean": {
+            "xy": "상대가 마지막에 사용한 기술을 배틀을 하는 동안 자신의 기술로 만들 수 있다.",
+            "oras": "상대가 마지막에 사용한 기술을 배틀을 하는 동안 자신의 기술로 만들 수 있다.",
+            "sm": "상대가 마지막에 사용한 기술을 배틀을 하는 동안 자신의 기술로 만들 수 있다.",
+            "usum": "상대가 마지막에 사용한 기술을 배틀을 하는 동안 자신의 기술로 만들 수 있다.",
+            "lgpe": "상대가 마지막에 사용한 기술을 배틀을 하는 동안 자신의 기술로 만들 수 있다.",
+            "swsh": "상대가 마지막에 사용한 기술을 배틀을 하는 동안 자신의 기술로 만들 수 있다."
+        },
+        "german": {
+            "xy": "Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.",
+            "oras": "Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.",
+            "sm": "Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.",
+            "usum": "Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.",
+            "lgpe": "Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.",
+            "swsh": "Kopiert die zuvor ausgeführte Attacke des Zieles. Diese kann im Kampf bis zur Auswechslung verwendet werden."
+        },
+        "spanish": {
+            "xy": "Copia el último movimiento usado por el objetivo. Dicho movimiento se podrá usar mientras el Pokémon no sea cambiado.",
+            "oras": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "sm": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "usum": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "lgpe": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "swsh": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate."
+        },
+        "italian": {
+            "xy": "Copia l’ultima mossa usata dal bersaglio. La mossa copiata si può utilizzare fino alla sostituzione del Pokémon che l’ha usata.",
+            "oras": "Chi la usa copia l’ultima mossa usata dal bersaglio e la conserva finché rimane in campo.",
+            "sm": "Chi la usa copia l’ultima mossa usata dal bersaglio e la conserva finché rimane in campo.",
+            "usum": "Chi la usa copia l’ultima mossa usata dal bersaglio e la conserva finché rimane in campo.",
+            "lgpe": "Chi la usa copia l’ultima mossa usata dal bersaglio e la conserva finché rimane in campo.",
+            "swsh": "Chi la usa copia l’ultima mossa usata dal bersaglio e la conserva finché rimane in campo."
+        },
+        "japanese": {
+            "xy": "相手が　最後に　使った　技を 戦闘の　あいだ 自分の　技に　することが　できる。",
+            "oras": "相手が　最後に　使った　技を 戦闘の　あいだ 自分の　技に　することが　できる。",
+            "sm": "相手が　最後に　使った　技を 戦闘の　あいだ 自分の　技に　することが　できる。",
+            "usum": "相手が　最後に　使った　技を 戦闘の　あいだ 自分の　技に　することが　できる。",
+            "lgpe": "相手が　最後に　使った　技を 戦闘の　あいだ 自分の　技に　することが　できる。",
+            "swsh": "相手が　最後に　使った　技を 戦闘の　あいだ 自分の　技に　することが　できる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Copia el último movimiento usado por el objetivo. Dicho movimiento se podrá usar mientras el Pokémon no sea cambiado.",
+            "oras": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "sm": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "usum": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "lgpe": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.",
+            "swsh": "Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate."
+        },
+        "traditional-chinese": {
+            "sm": "在戰鬥期間， 將對手最近一次使用的招式 變成自己的招式。",
+            "usum": "在戰鬥期間， 將對手最近一次使用的招式 變成自己的招式。",
+            "lgpe": "在戰鬥期間， 將對手最近一次使用的招式 變成自己的招式。",
+            "swsh": "在戰鬥期間， 將對手最近一次使用的招式 變成自己的招式。"
+        },
+        "simplified-chinese": {
+            "sm": "可以将对手 最后使用的招式， 在战斗内变成自己的招式。",
+            "usum": "可以将对手 最后使用的招式， 在战斗内变成自己的招式。",
+            "lgpe": "可以将对手 最后使用的招式， 在战斗内变成自己的招式。",
+            "swsh": "可以将对手 最后使用的招式， 在战斗内变成自己的招式。"
+        }
+    },
+    "effect": {
+        "full": "This move is replaced by the target’s last successfully used move, and its PP changes to 5.  If the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field. If Chatter, Metronome, Mimic, Sketch, or Struggle is selected, this move will fail. This move cannot be copied by Mirror Move, nor selected by Assist or Metronome, nor forced by Encore.",
+        "shortEffect": "Copies the target’s last used move."
+    }
 }

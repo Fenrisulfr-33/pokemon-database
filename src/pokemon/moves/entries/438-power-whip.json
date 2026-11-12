@@ -1,42 +1,141 @@
 {
-  "_id": 438,
-  "key": "power-whip",
-  "name": {
-    "english": "Power Whip",
-    "japanese": "パワーウィップ",
-    "chinese": "能量鞭打",
-    "korean": "파워휩",
-    "german": "Latigazo",
-    "french": "Blattgeißel",
-    "italian": "Power Whip",
-    "spanish": "Vigorcolpo"
-  },
-  "type": "Grass",
-  "category": "Physical",
-  "contest": "Beauty",
-  "pp": 10,
-  "power": 120,
-  "accuracy": 85,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user violently\nwhirls its vines or\ntentacles to harshly\nlash the foe.\n",
-    "platinum": "The user violently\nwhirls its vines or\ntentacles to harshly\nlash the foe.\n",
-    "heartgold-soulsilver": "The user violently\nwhirls its vines or\ntentacles to harshly\nlash the foe.\n",
-    "black-white": "The user violently whirls its vines or\ntentacles to harshly lash the target.",
-    "black-2-white-2": "The user violently whirls its vines or\ntentacles to harshly lash the target.",
-    "x-y": "The user violently whirls its vines or\ntentacles to harshly lash the target.",
-    "omega-ruby-alpha-sapphire": "The user violently whirls its vines or\ntentacles to harshly lash the target.",
-    "sun-moon": "The user violently whirls its vines, tentacles, or the \nlike to harshly lash the target.",
-    "ultra-sun-ultra-moon": "The user violently whirls its vines, tentacles, or the \nlike to harshly lash the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user violently whirls its vines, tentacles, or the\nlike to harshly lash the target.",
-    "sword-shield": "The user violently whirls its vines, tentacles, or the\nlike to harshly lash the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 438,
+    "key": "power-whip",
+    "name": {
+        "japanese-kana": "パワーウィップ",
+        "korean": "파워휩",
+        "traditional-chinese": "強力鞭打",
+        "french": "Mégafouet",
+        "german": "Blattgeißel",
+        "spanish": "Latigazo",
+        "italian": "Vigorcolpo",
+        "english": "Power Whip",
+        "japanese": "パワーウィップ",
+        "simplified-chinese": "强力鞭打",
+        "latin-american-spanish": "Latigazo"
+    },
+    "type": "grass",
+    "category": "physical",
+    "contest": "beauty",
+    "pp": 10,
+    "power": 120,
+    "accuracy": 85,
+    "contact": true,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user violently whirls its vines or tentacles to harshly lash the foe.",
+            "pt": "The user violently whirls its vines or tentacles to harshly lash the foe.",
+            "hgss": "The user violently whirls its vines or tentacles to harshly lash the foe.",
+            "bw": "The user violently whirls its vines or tentacles to harshly lash the target.",
+            "b2w2": "The user violently whirls its vines or tentacles to harshly lash the target.",
+            "xy": "The user violently whirls its vines or tentacles to harshly lash the target.",
+            "oras": "The user violently whirls its vines or tentacles to harshly lash the target.",
+            "sm": "The user violently whirls its vines, tentacles, or the like to harshly lash the target.",
+            "usum": "The user violently whirls its vines, tentacles, or the like to harshly lash the target.",
+            "lgpe": "The user violently whirls its vines, tentacles, or the like to harshly lash the target.",
+            "swsh": "The user violently whirls its vines, tentacles, or the like to harshly lash the target.",
+            "la": "The user violently whirls its vines, tentacles, or the like to harshly lash the target.",
+            "sv": "The user violently whirls its vines, tentacles, or the like to lash the target."
+        },
+        "french": {
+            "bw": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.",
+            "xy": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.",
+            "oras": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.",
+            "sm": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.",
+            "usum": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.",
+            "lgpe": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.",
+            "swsh": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "ツタや　しょくしゅを　はげしく　ふるって あいてを　たたきつけ　こうげきする。",
+            "oras": "ツタや　しょくしゅを　はげしく　ふるって あいてを　たたきつけ　こうげきする。",
+            "sm": "ツタや　しょくしゅを　はげしく　ふるって あいてを　たたきつけ　こうげきする。",
+            "usum": "ツタや　しょくしゅを　はげしく　ふるって あいてを　たたきつけ　こうげきする。",
+            "lgpe": "ツタや　しょくしゅを　はげしく　ふるって あいてを　たたきつけ　こうげきする。",
+            "swsh": "ツタや　しょくしゅを　はげしく　ふるって あいてを　たたきつけ　こうげきする。"
+        },
+        "korean": {
+            "xy": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.",
+            "oras": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.",
+            "sm": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.",
+            "usum": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.",
+            "lgpe": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.",
+            "swsh": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다."
+        },
+        "german": {
+            "xy": "Anwender wirbelt seine Ranken oder Tentakel peitschenartig gegen das Ziel.",
+            "oras": "Anwender wirbelt seine Ranken oder Tentakel peitschenartig gegen das Ziel.",
+            "sm": "Anwender wirbelt seine Ranken oder Tentakel peitschenartig gegen das Ziel.",
+            "usum": "Anwender wirbelt seine Ranken oder Tentakel peitschenartig gegen das Ziel.",
+            "lgpe": "Anwender wirbelt seine Ranken oder Tentakel peitschenartig gegen das Ziel.",
+            "swsh": "Anwender wirbelt seine Ranken oder Tentakel peitschenartig gegen das Ziel."
+        },
+        "spanish": {
+            "xy": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "oras": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "sm": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "usum": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "lgpe": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "swsh": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio.",
+            "oras": "Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio.",
+            "sm": "Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio.",
+            "usum": "Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio.",
+            "lgpe": "Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio.",
+            "swsh": "Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio."
+        },
+        "japanese": {
+            "xy": "ツタや　触手を　激しく　ふるって 相手を　たたきつけ　攻撃する。",
+            "oras": "ツタや　触手を　激しく　ふるって 相手を　たたきつけ　攻撃する。",
+            "sm": "ツタや　触手を　激しく　ふるって 相手を　たたきつけ　攻撃する。",
+            "usum": "ツタや　触手を　激しく　ふるって 相手を　たたきつけ　攻撃する。",
+            "lgpe": "ツタや　触手を　激しく　ふるって 相手を　たたきつけ　攻撃する。",
+            "swsh": "ツタや　触手を　激しく　ふるって 相手を　たたきつけ　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "oras": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "sm": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "usum": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "lgpe": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+            "swsh": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "激烈地揮舞藤蔓或觸手 向對手進行攻擊。",
+            "usum": "激烈地揮舞藤蔓或觸手 向對手進行攻擊。",
+            "lgpe": "激烈地揮舞藤蔓或觸手 向對手進行攻擊。",
+            "swsh": "激烈地揮舞藤蔓或觸手 向對手進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "激烈地挥舞青藤或触手 摔打对手进行攻击。",
+            "usum": "激烈地挥舞青藤或触手 摔打对手进行攻击。",
+            "lgpe": "激烈地挥舞青藤或触手 摔打对手进行攻击。",
+            "swsh": "激烈地挥舞青藤或触手 摔打对手进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.",
+        "shortEffect": "Inflicts regular damage with no additional effect."
+    }
 }

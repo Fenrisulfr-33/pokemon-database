@@ -1,47 +1,146 @@
 {
-  "_id": 48,
-  "key": "supersonic",
-  "name": {
-    "english": "Supersonic",
-    "japanese": "ちょうおんぱ",
-    "chinese": "超音波",
-    "korean": "초음파",
-    "german": "Supersónico",
-    "french": "Superschall",
-    "italian": "Supersonic",
-    "spanish": "Supersuono"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": 55,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Sound waves that\ncause confusion.",
-    "crystal": "Sound waves that\ncause confusion.",
-    "ruby-sapphire": "Emits bizarre sound waves\nthat may confuse the foe.",
-    "emerald": "Emits bizarre sound waves\nthat may confuse the foe.",
-    "firered-leafgreen": "The user generates\nodd sound waves.\nIt may confuse the\nfoe.",
-    "diamond-pearl": "The user generates\nodd sound waves from\nits body.\nIt may confuse the\ntarget.",
-    "platinum": "The user generates\nodd sound waves from\nits body.\nIt may confuse the\ntarget.",
-    "heartgold-soulsilver": "The user generates\nodd sound waves from\nits body.\nIt may confuse the\ntarget.",
-    "black-white": "The user generates odd sound waves from\nits body. It may confuse the target.",
-    "black-2-white-2": "The user generates odd sound waves from\nits body. It may confuse the target.",
-    "x-y": "The user generates odd sound waves from\nits body that confuse the target.",
-    "omega-ruby-alpha-sapphire": "The user generates odd sound waves from\nits body that confuse the target.",
-    "sun-moon": "The user generates odd sound waves from its body\nthat confuse the target.",
-    "ultra-sun-ultra-moon": "The user generates odd sound waves from its body\nthat confuse the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user generates odd sound waves from its body\nthat confuse the target.",
-    "sword-shield": "The user generates odd sound waves from its body\nthat confuse the target."
-  },
-  "effect": {
-    "full": "Confuses the target.",
-    "shortEffect": "Confuses the target."
-  },
-  "priority": 0
+    "_id": 48,
+    "key": "supersonic",
+    "name": {
+        "japanese-kana": "ちょうおんぱ",
+        "korean": "초음파",
+        "traditional-chinese": "超音波",
+        "french": "Ultrason",
+        "german": "Superschall",
+        "spanish": "Supersónico",
+        "italian": "Supersuono",
+        "english": "Supersonic",
+        "japanese": "ちょうおんぱ",
+        "simplified-chinese": "超音波",
+        "latin-american-spanish": "Supersónico"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": 55,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Sound waves that cause confusion.",
+            "cr": "Sound waves that cause confusion.",
+            "rs": "Emits bizarre sound waves that may confuse the foe.",
+            "em": "Emits bizarre sound waves that may confuse the foe.",
+            "frlg": "The user generates odd sound waves. It may confuse the foe.",
+            "dp": "The user generates odd sound waves from its body. It may confuse the target.",
+            "pt": "The user generates odd sound waves from its body. It may confuse the target.",
+            "hgss": "The user generates odd sound waves from its body. It may confuse the target.",
+            "bw": "The user generates odd sound waves from its body. It may confuse the target.",
+            "b2w2": "The user generates odd sound waves from its body. It may confuse the target.",
+            "xy": "The user generates odd sound waves from its body that confuse the target.",
+            "oras": "The user generates odd sound waves from its body that confuse the target.",
+            "sm": "The user generates odd sound waves from its body that confuse the target.",
+            "usum": "The user generates odd sound waves from its body that confuse the target.",
+            "lgpe": "The user generates odd sound waves from its body that confuse the target.",
+            "swsh": "The user generates odd sound waves from its body that confuse the target.",
+            "la": "The user generates odd sound waves from its body that confuse the target.",
+            "sv": "The user generates odd sound waves from its body that confuse the target."
+        },
+        "french": {
+            "bw": "Le lanceur produit d’étranges ondes sonores qui rendent confus.",
+            "xy": "Le lanceur produit d’étranges ondes sonores qui rendent confus.",
+            "oras": "Le lanceur produit d’étranges ondes sonores qui rendent la cible confuse.",
+            "sm": "Le lanceur produit d’étranges ondes sonores qui rendent la cible confuse.",
+            "usum": "Le lanceur produit d’étranges ondes sonores qui rendent la cible confuse.",
+            "lgpe": "Le lanceur produit d’étranges ondes sonores qui rendent la cible confuse.",
+            "swsh": "Le lanceur produit d’étranges ondes sonores qui rendent la cible confuse."
+        },
+        "japanese-kana": {
+            "xy": "とくしゅな　おんぱを からだから　はっして あいてを　こんらん　させる。",
+            "oras": "とくしゅな　おんぱを からだから　はっして あいてを　こんらん　させる。",
+            "sm": "とくしゅな　おんぱを からだから　はっして あいてを　こんらん　させる。",
+            "usum": "とくしゅな　おんぱを からだから　はっして あいてを　こんらん　させる。",
+            "lgpe": "とくしゅな　おんぱを からだから　はっして あいてを　こんらん　させる。",
+            "swsh": "とくしゅな　おんぱを からだから　はっして あいてを　こんらん　させる。"
+        },
+        "korean": {
+            "xy": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다.",
+            "oras": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다.",
+            "sm": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다.",
+            "usum": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다.",
+            "lgpe": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다.",
+            "swsh": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다."
+        },
+        "german": {
+            "xy": "Ausstoß bizarrer Schallwellen. Das Ziel wird verwirrt.",
+            "oras": "Ausstoß bizarrer Schallwellen. Das Ziel wird verwirrt.",
+            "sm": "Ausstoß bizarrer Schallwellen. Das Ziel wird verwirrt.",
+            "usum": "Ausstoß bizarrer Schallwellen. Das Ziel wird verwirrt.",
+            "lgpe": "Ausstoß bizarrer Schallwellen. Das Ziel wird verwirrt.",
+            "swsh": "Ausstoß bizarrer Schallwellen. Das Ziel wird verwirrt."
+        },
+        "spanish": {
+            "xy": "Raras ondas sónicas que confunden al objetivo.",
+            "oras": "Raras ondas sónicas que confunden al objetivo.",
+            "sm": "Raras ondas sónicas que confunden al objetivo.",
+            "usum": "Raras ondas sónicas que confunden al objetivo.",
+            "lgpe": "Raras ondas sónicas que confunden al objetivo.",
+            "swsh": "Raras ondas sónicas que confunden al objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.",
+            "oras": "Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.",
+            "sm": "Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.",
+            "usum": "Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.",
+            "lgpe": "Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.",
+            "swsh": "Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio."
+        },
+        "japanese": {
+            "xy": "特殊な　音波を 体から　発して 相手を　混乱させる。",
+            "oras": "特殊な　音波を 体から　発して 相手を　混乱させる。",
+            "sm": "特殊な　音波を 体から　発して 相手を　混乱させる。",
+            "usum": "特殊な　音波を 体から　発して 相手を　混乱させる。",
+            "lgpe": "特殊な　音波を 体から　発して 相手を　混乱させる。",
+            "swsh": "特殊な　音波を 体から　発して 相手を　混乱させる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Raras ondas sónicas que confunden al objetivo.",
+            "oras": "Raras ondas sónicas que confunden al objetivo.",
+            "sm": "Raras ondas sónicas que confunden al objetivo.",
+            "usum": "Raras ondas sónicas que confunden al objetivo.",
+            "lgpe": "Raras ondas sónicas que confunden al objetivo.",
+            "swsh": "Raras ondas sónicas que confunden al objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "從身上發出 特殊的音波， 讓對手陷入混亂狀態。",
+            "usum": "從身上發出 特殊的音波， 讓對手陷入混亂狀態。",
+            "lgpe": "從身上發出 特殊的音波， 讓對手陷入混亂狀態。",
+            "swsh": "從身上發出 特殊的音波， 讓對手陷入混亂狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "从身体发出 特殊的音波， 从而使对手混乱。",
+            "usum": "从身体发出 特殊的音波， 从而使对手混乱。",
+            "lgpe": "从身体发出 特殊的音波， 从而使对手混乱。",
+            "swsh": "从身体发出 特殊的音波， 从而使对手混乱。"
+        }
+    },
+    "effect": {
+        "full": "Confuses the target.",
+        "shortEffect": "Confuses the target."
+    }
 }

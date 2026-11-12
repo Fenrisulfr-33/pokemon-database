@@ -1,37 +1,135 @@
 {
-  "_id": 590,
-  "key": "confide",
-  "name": {
-    "english": "Confide",
-    "japanese": "ないしょばなし",
-    "chinese": "私话",
-    "korean": "비밀이야기",
-    "german": "Confidencia",
-    "french": "Vertrauenssache",
-    "italian": "Confide",
-    "spanish": "Confidenza"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 6,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "x-y": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target’s Sp. Atk stat.",
-    "omega-ruby-alpha-sapphire": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target’s Sp. Atk stat.",
-    "sun-moon": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target’s Sp. Atk stat.",
-    "ultra-sun-ultra-moon": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target’s Sp. Atk stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target’s Sp. Atk stat.",
-    "sword-shield": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target’s Sp. Atk stat."
-  },
-  "effect": {
-    "full": "Lowers the target's Special Attack by one stage.",
-    "shortEffect": "Lowers the target's Special Attack by one stage."
-  },
-  "priority": 0
+    "_id": 590,
+    "key": "confide",
+    "name": {
+        "japanese-kana": "ないしょばなし",
+        "korean": "비밀이야기",
+        "traditional-chinese": "密語",
+        "french": "Confidence",
+        "german": "Vertrauenssache",
+        "spanish": "Confidencia",
+        "italian": "Confidenza",
+        "english": "Confide",
+        "japanese": "ないしょばなし",
+        "simplified-chinese": "密语",
+        "latin-american-spanish": "Confidencia"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 6,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "net-good-stats",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "xy": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。",
+            "oras": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。",
+            "sm": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。",
+            "usum": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。",
+            "lgpe": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。",
+            "swsh": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。"
+        },
+        "korean": {
+            "xy": "비밀 이야기를 하면서 상대의 집중력을 잃게 하여 상대의 특수공격을 떨어뜨린다.",
+            "oras": "비밀 이야기를 하면서 상대의 집중력을 잃게 하여 상대의 특수공격을 떨어뜨린다.",
+            "sm": "비밀 이야기를 해서 상대의 집중력을 잃게 하여 특수공격을 떨어뜨린다.",
+            "usum": "비밀 이야기를 해서 상대의 집중력을 잃게 하여 특수공격을 떨어뜨린다.",
+            "lgpe": "비밀 이야기를 해서 상대의 집중력을 잃게 하여 특수공격을 떨어뜨린다.",
+            "swsh": "비밀 이야기를 해서 상대의 집중력을 잃게 하여 특수공격을 떨어뜨린다."
+        },
+        "french": {
+            "xy": "Dévoile des secrets à l’ennemi qui perd sa concentration et voit son Attaque Spéciale diminuer.",
+            "oras": "Dévoile des secrets à l’ennemi qui perd sa concentration et voit son Attaque Spéciale diminuer.",
+            "sm": "Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer.",
+            "usum": "Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer.",
+            "lgpe": "Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer.",
+            "swsh": "Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer."
+        },
+        "german": {
+            "xy": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise seine Konzentration. Der Spezial-Angriff des Zieles sinkt.",
+            "oras": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise seine Konzentration. Der Spezial-Angriff des Zieles sinkt.",
+            "sm": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise dessen Konzentration. Der Spezial-Angriff des Zieles sinkt.",
+            "usum": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise dessen Konzentration. Der Spezial-Angriff des Zieles sinkt.",
+            "lgpe": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise dessen Konzentration. Der Spezial-Angriff des Zieles sinkt.",
+            "swsh": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise dessen Konzentration. Der Spezial-Angriff des Zieles sinkt."
+        },
+        "spanish": {
+            "xy": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "oras": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "sm": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "usum": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "lgpe": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "swsh": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente."
+        },
+        "italian": {
+            "xy": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale.",
+            "oras": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale.",
+            "sm": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale.",
+            "usum": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale.",
+            "lgpe": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale.",
+            "swsh": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale."
+        },
+        "english": {
+            "xy": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+            "oras": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+            "sm": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+            "usum": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+            "lgpe": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+            "swsh": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+            "la": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.",
+            "sv": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat."
+        },
+        "japanese": {
+            "xy": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。",
+            "oras": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。",
+            "sm": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。",
+            "usum": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。",
+            "lgpe": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。",
+            "swsh": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "oras": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "sm": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "usum": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "lgpe": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+            "swsh": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente."
+        },
+        "traditional-chinese": {
+            "sm": "向對手低聲密語， 使對手失去集中力， 降低對手的特攻。",
+            "usum": "向對手低聲密語， 使對手失去集中力， 降低對手的特攻。",
+            "lgpe": "向對手低聲密語， 使對手失去集中力， 降低對手的特攻。",
+            "swsh": "向對手低聲密語， 使對手失去集中力， 降低對手的特攻。"
+        },
+        "simplified-chinese": {
+            "sm": "和对手进行密语， 使其失去集中力， 从而降低对手的特攻。",
+            "usum": "和对手进行密语， 使其失去集中力， 从而降低对手的特攻。",
+            "lgpe": "和对手进行密语， 使其失去集中力， 从而降低对手的特攻。",
+            "swsh": "和对手进行密语， 使其失去集中力， 从而降低对手的特攻。"
+        }
+    },
+    "effect": {
+        "full": "Lowers the target’s Special Attack by one stage.",
+        "shortEffect": "Lowers the target’s Special Attack by one stage."
+    }
 }

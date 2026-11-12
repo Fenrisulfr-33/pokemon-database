@@ -1,42 +1,141 @@
 {
-  "_id": 405,
-  "key": "bug-buzz",
-  "name": {
-    "english": "Bug Buzz",
-    "japanese": "むしのさざめき",
-    "chinese": "虫鸣",
-    "korean": "벌레의야단법석",
-    "german": "Zumbido",
-    "french": "Käfergebrumm",
-    "italian": "Bug Buzz",
-    "spanish": "Ronzio"
-  },
-  "type": "Bug",
-  "category": "Special",
-  "contest": "Cute",
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user vibrates its\nwings to generate a\ndamaging sound wave.\nIt may also lower the\nfoe’s Sp. Def stat.",
-    "platinum": "The user vibrates its\nwings to generate a\ndamaging sound wave.\nIt may also lower the\nfoe’s Sp. Def stat.",
-    "heartgold-soulsilver": "The user vibrates its\nwings to generate a\ndamaging sound wave.\nIt may also lower the\nfoe’s Sp. Def stat.",
-    "black-white": "The user vibrates its wings to generate a\ndamaging sound wave. It may also lower\nthe target’s Sp. Def stat.",
-    "black-2-white-2": "The user vibrates its wings to generate a\ndamaging sound wave. It may also lower\nthe target’s Sp. Def stat.",
-    "x-y": "The user vibrates its wings to generate a\ndamaging sound wave. This may also lower\nthe target’s Sp. Def stat.",
-    "omega-ruby-alpha-sapphire": "The user vibrates its wings to generate a\ndamaging sound wave. This may also lower\nthe target’s Sp. Def stat.",
-    "sun-moon": "The user generates a damaging sound wave by\nvibration. This may also lower the target’s\nSp. Def stat.",
-    "ultra-sun-ultra-moon": "The user generates a damaging sound wave by\nvibration. This may also lower the target’s\nSp. Def stat.",
-    "lets-go-pikachu-lets-go-eevee": "The user generates a damaging sound wave by\nvibration. This may also lower the target’s\nSp. Def stat.",
-    "sword-shield": "The user generates a damaging sound wave by\nvibration. This may also lower the target’s\nSp. Def stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-    "shortEffect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
-  },
-  "priority": 0
+    "_id": 405,
+    "key": "bug-buzz",
+    "name": {
+        "japanese-kana": "むしのさざめき",
+        "korean": "벌레의야단법석",
+        "traditional-chinese": "蟲鳴",
+        "french": "Bourdon",
+        "german": "Käfergebrumm",
+        "spanish": "Zumbido",
+        "italian": "Ronzio",
+        "english": "Bug Buzz",
+        "japanese": "むしのさざめき",
+        "simplified-chinese": "虫鸣",
+        "latin-american-spanish": "Zumbido"
+    },
+    "type": "bug",
+    "category": "special",
+    "contest": "cute",
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The user vibrates its wings to generate a damaging sound wave. It may also lower the foe’s Sp. Def stat.",
+            "pt": "The user vibrates its wings to generate a damaging sound wave. It may also lower the foe’s Sp. Def stat.",
+            "hgss": "The user vibrates its wings to generate a damaging sound wave. It may also lower the foe’s Sp. Def stat.",
+            "bw": "The user vibrates its wings to generate a damaging sound wave. It may also lower the target’s Sp. Def stat.",
+            "b2w2": "The user vibrates its wings to generate a damaging sound wave. It may also lower the target’s Sp. Def stat.",
+            "xy": "The user vibrates its wings to generate a damaging sound wave. This may also lower the target’s Sp. Def stat.",
+            "oras": "The user vibrates its wings to generate a damaging sound wave. This may also lower the target’s Sp. Def stat.",
+            "sm": "The user generates a damaging sound wave by vibration. This may also lower the target’s Sp. Def stat.",
+            "usum": "The user generates a damaging sound wave by vibration. This may also lower the target’s Sp. Def stat.",
+            "lgpe": "The user generates a damaging sound wave by vibration. This may also lower the target’s Sp. Def stat.",
+            "swsh": "The user generates a damaging sound wave by vibration. This may also lower the target’s Sp. Def stat.",
+            "la": "The user vibrates to generate a damaging sound wave. This may also lower the target’s defensive stats.",
+            "sv": "The user vibrates to generate a damaging sound wave. This may also lower the target's Sp. Def stat."
+        },
+        "french": {
+            "bw": "Le lanceur fait vibrer ses ailes pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "xy": "Le lanceur fait vibrer ses ailes pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "oras": "Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "sm": "Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "usum": "Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "lgpe": "Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+            "swsh": "Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "はねの　しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。",
+            "oras": "はねの　しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。",
+            "sm": "しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。",
+            "usum": "しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。",
+            "lgpe": "しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。",
+            "swsh": "しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。"
+        },
+        "korean": {
+            "xy": "날개의 진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "oras": "날개의 진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "sm": "진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "usum": "진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "lgpe": "진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+            "swsh": "진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender schlägt mit den Flügeln und erzeugt eine Schockwelle. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "oras": "Anwender schlägt mit den Flügeln und erzeugt eine Schockwelle. Senkt eventuell Spezial-Verteidigung des Zieles.",
+            "sm": "Anwender erzeugt Schallwellen, die beim Ziel Schaden verursachen und eventuell dessen Spezial-Verteidigung senken.",
+            "usum": "Anwender erzeugt Schallwellen, die beim Ziel Schaden verursachen und eventuell dessen Spezial-Verteidigung senken.",
+            "lgpe": "Anwender erzeugt Schallwellen, die beim Ziel Schaden verursachen und eventuell dessen Spezial-Verteidigung senken.",
+            "swsh": "Anwender erzeugt Schallwellen, die beim Ziel Schaden verursachen und eventuell dessen Spezial-Verteidigung senken."
+        },
+        "spanish": {
+            "xy": "El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo.",
+            "oras": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "sm": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "usum": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo."
+        },
+        "italian": {
+            "xy": "Chi la usa fa vibrare le ali creando un’onda sonora pericolosa. Può anche ridurre la Difesa Speciale del bersaglio.",
+            "oras": "Chi la usa fa vibrare le ali creando un’onda sonora pericolosa. Può anche ridurre la Difesa Speciale del bersaglio.",
+            "sm": "Chi la usa crea un’onda sonora che infligge danni. Può anche ridurre la Difesa Speciale del bersaglio.",
+            "usum": "Chi la usa crea un’onda sonora che infligge danni. Può anche ridurre la Difesa Speciale del bersaglio.",
+            "lgpe": "Chi la usa crea un’onda sonora che infligge danni. Può anche ridurre la Difesa Speciale del bersaglio.",
+            "swsh": "Chi la usa crea un’onda sonora che infligge danni. Può anche ridurre la Difesa Speciale del bersaglio."
+        },
+        "japanese": {
+            "xy": "はねの　振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。",
+            "oras": "はねの　振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。",
+            "sm": "振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。",
+            "usum": "振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。",
+            "lgpe": "振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。",
+            "swsh": "振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo.",
+            "oras": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "sm": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "usum": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "lgpe": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+            "swsh": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo."
+        },
+        "traditional-chinese": {
+            "sm": "利用振動產生出的音波進行攻擊。 有時會降低對手的特防。",
+            "usum": "利用振動產生出的音波進行攻擊。 有時會降低對手的特防。",
+            "lgpe": "利用振動產生出的音波進行攻擊。 有時會降低對手的特防。",
+            "swsh": "利用振動產生出的音波進行攻擊。 有時會降低對手的特防。"
+        },
+        "simplified-chinese": {
+            "sm": "利用振动发出音波进行攻击。 有时会降低对手的特防。",
+            "usum": "利用振动发出音波进行攻击。 有时会降低对手的特防。",
+            "lgpe": "利用振动发出音波进行攻击。 有时会降低对手的特防。",
+            "swsh": "利用振动发出音波进行攻击。 有时会降低对手的特防。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+        "shortEffect": "Has a chance to lower the target’s Special Defense by one stage."
+    }
 }

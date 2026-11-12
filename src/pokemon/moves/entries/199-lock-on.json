@@ -1,47 +1,146 @@
 {
-  "_id": 199,
-  "key": "lock-on",
-  "name": {
-    "english": "Lock-On",
-    "japanese": "ロックオン",
-    "chinese": "锁定",
-    "korean": "록온",
-    "german": "Fijar Blanco",
-    "french": "Zielschuss",
-    "italian": "Lock-On",
-    "spanish": "Localizza"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 5,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "Ensures the next\nattack will hit.",
-    "crystal": "Ensures the next\nattack will hit.",
-    "ruby-sapphire": "Locks on to the foe to\nensure the next move hits.",
-    "emerald": "Locks on to the foe to\nensure the next move hits.",
-    "firered-leafgreen": "The user locks on\nto the foe, making\nthe next move sure\nto hit.",
-    "diamond-pearl": "The user takes sure\naim at the foe.\nIt ensures the next\nattack does not fail\nto hit the target.",
-    "platinum": "The user takes sure\naim at the foe.\nIt ensures the next\nattack does not fail\nto hit the target.",
-    "heartgold-soulsilver": "The user takes sure\naim at the foe.\nIt ensures the next\nattack does not fail\nto hit the target.",
-    "black-white": "The user takes sure aim at the target.\nIt ensures the next attack does not fail\nto hit the target.",
-    "black-2-white-2": "The user takes sure aim at the target.\nIt ensures the next attack does not fail\nto hit the target.",
-    "x-y": "The user takes sure aim at the target.\nThis ensures the next attack does not\nmiss the target.",
-    "omega-ruby-alpha-sapphire": "The user takes sure aim at the target.\nThis ensures the next attack does not\nmiss the target.",
-    "sun-moon": "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.",
-    "ultra-sun-ultra-moon": "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.",
-    "sword-shield": "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target."
-  },
-  "effect": {
-    "full": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores accuracy and evasion modifiers.\n\nOne-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as dig or fly.\n\nIf the target uses detect or protect while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.\n\nThis effect is passed on by baton pass.",
-    "shortEffect": "Ensures that the user's next move will hit the target."
-  },
-  "priority": 0
+    "_id": 199,
+    "key": "lock-on",
+    "name": {
+        "japanese-kana": "ロックオン",
+        "korean": "록온",
+        "traditional-chinese": "鎖定",
+        "french": "Verrouillage",
+        "german": "Zielschuss",
+        "spanish": "Fijar Blanco",
+        "italian": "Localizza",
+        "english": "Lock-On",
+        "japanese": "ロックオン",
+        "simplified-chinese": "锁定",
+        "latin-american-spanish": "Fijar Blanco"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 5,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Ensures the next attack will hit.",
+            "cr": "Ensures the next attack will hit.",
+            "rs": "Locks on to the foe to ensure the next move hits.",
+            "em": "Locks on to the foe to ensure the next move hits.",
+            "frlg": "The user locks on to the foe, making the next move sure to hit.",
+            "dp": "The user takes sure aim at the foe. It ensures the next attack does not fail to hit the target.",
+            "pt": "The user takes sure aim at the foe. It ensures the next attack does not fail to hit the target.",
+            "hgss": "The user takes sure aim at the foe. It ensures the next attack does not fail to hit the target.",
+            "bw": "The user takes sure aim at the target. It ensures the next attack does not fail to hit the target.",
+            "b2w2": "The user takes sure aim at the target. It ensures the next attack does not fail to hit the target.",
+            "xy": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+            "oras": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+            "sm": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+            "usum": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+            "lgpe": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+            "swsh": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+            "la": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+            "sv": "The user takes sure aim at the target. This ensures the user's next move does not miss that target."
+        },
+        "french": {
+            "bw": "Verrouille l’ennemi pour ne pas le rater au tour suivant.",
+            "xy": "Verrouille l’ennemi pour ne pas le rater au tour suivant.",
+            "oras": "Verrouille l’ennemi pour ne pas le rater au tour suivant.",
+            "sm": "Verrouille l’ennemi pour ne pas le rater au tour suivant.",
+            "usum": "Verrouille l’ennemi pour ne pas le rater au tour suivant.",
+            "lgpe": "Verrouille l’ennemi pour ne pas le rater au tour suivant.",
+            "swsh": "Verrouille l’ennemi pour ne pas le rater au tour suivant."
+        },
+        "japanese-kana": {
+            "xy": "しょうじゅんを　しっかり　あわせて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "oras": "しょうじゅんを　しっかり　あわせて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "sm": "しょうじゅんを　しっかり　あわせて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "usum": "しょうじゅんを　しっかり　あわせて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "lgpe": "しょうじゅんを　しっかり　あわせて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+            "swsh": "しょうじゅんを　しっかり　あわせて つぎの　こうげきが　かならず あいてに　あたるように　する。"
+        },
+        "korean": {
+            "xy": "조준을 잘 맞춰 다음 공격이 반드시 상대에게 명중하도록 한다.",
+            "oras": "조준을 잘 맞춰 다음 공격이 반드시 상대에게 명중하도록 한다.",
+            "sm": "조준을 잘 맞춰 다음 공격이 반드시 상대에게 명중하도록 한다.",
+            "usum": "조준을 잘 맞춰 다음 공격이 반드시 상대에게 명중하도록 한다.",
+            "lgpe": "조준을 잘 맞춰 다음 공격이 반드시 상대에게 명중하도록 한다.",
+            "swsh": "조준을 잘 맞춰 다음 공격이 반드시 상대에게 명중하도록 한다."
+        },
+        "german": {
+            "xy": "Visiert das Ziel an und trifft in der nächsten Runde garantiert.",
+            "oras": "Visiert das Ziel an und trifft in der nächsten Runde garantiert.",
+            "sm": "Visiert das Ziel an und trifft in der nächsten Runde garantiert.",
+            "usum": "Visiert das Ziel an und trifft in der nächsten Runde garantiert.",
+            "lgpe": "Visiert das Ziel an und trifft in der nächsten Runde garantiert.",
+            "swsh": "Visiert das Ziel an und trifft in der nächsten Runde garantiert."
+        },
+        "spanish": {
+            "xy": "Fija el blanco para que el siguiente ataque no falle.",
+            "oras": "Fija el blanco para que el siguiente ataque no falle.",
+            "sm": "Fija el blanco para que el siguiente ataque no falle.",
+            "usum": "Fija el blanco para que el siguiente ataque no falle.",
+            "lgpe": "Fija el blanco para que el siguiente ataque no falle.",
+            "swsh": "Fija el blanco para que el siguiente ataque no falle."
+        },
+        "italian": {
+            "xy": "Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.",
+            "oras": "Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.",
+            "sm": "Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.",
+            "usum": "Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.",
+            "lgpe": "Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.",
+            "swsh": "Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno."
+        },
+        "japanese": {
+            "xy": "照準を　しっかり　あわせて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "oras": "照準を　しっかり　あわせて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "sm": "照準を　しっかり　あわせて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "usum": "照準を　しっかり　あわせて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "lgpe": "照準を　しっかり　あわせて 次の　攻撃が　必ず 相手に　当たるように　する。",
+            "swsh": "照準を　しっかり　あわせて 次の　攻撃が　必ず 相手に　当たるように　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Fija el blanco para que el siguiente ataque no falle.",
+            "oras": "Fija el blanco para que el siguiente ataque no falle.",
+            "sm": "Fija el blanco para que el siguiente ataque no falle.",
+            "usum": "Fija el blanco para que el siguiente ataque no falle.",
+            "lgpe": "Fija el blanco para que el siguiente ataque no falle.",
+            "swsh": "Fija el blanco para que el siguiente ataque no falle."
+        },
+        "traditional-chinese": {
+            "sm": "精確地瞄準， 下次攻擊時一定 會命中對手。",
+            "usum": "精確地瞄準， 下次攻擊時一定 會命中對手。",
+            "lgpe": "精確地瞄準， 下次攻擊時一定 會命中對手。",
+            "swsh": "精確地瞄準， 下次攻擊時一定 會命中對手。"
+        },
+        "simplified-chinese": {
+            "sm": "紧紧瞄准对手， 下次攻击必定会打中。",
+            "usum": "紧紧瞄准对手， 下次攻击必定会打中。",
+            "lgpe": "紧紧瞄准对手， 下次攻击必定会打中。",
+            "swsh": "紧紧瞄准对手， 下次攻击必定会打中。"
+        }
+    },
+    "effect": {
+        "full": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores accuracy and evasion modifiers. One-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as Dig or Fly. If the target uses Detect or Protect while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection. This effect is passed on by Baton Pass.",
+        "shortEffect": "Ensures that the user’s next move will hit the target."
+    }
 }

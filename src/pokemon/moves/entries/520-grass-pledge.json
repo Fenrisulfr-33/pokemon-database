@@ -1,39 +1,142 @@
 {
-  "_id": 520,
-  "key": "grass-pledge",
-  "name": {
-    "english": "Grass Pledge",
-    "japanese": "くさのちかい",
-    "chinese": "草的誓约",
-    "korean": "풀의맹세",
-    "german": "Voto Planta",
-    "french": "Pflanzensäulen",
-    "italian": "Grass Pledge",
-    "spanish": "Erbapatto"
-  },
-  "type": "Grass",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 80,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "A column of grass hits opposing Pokémon.\nWhen used with its water equivalent, its\ndamage increases into a vast swamp.",
-    "black-2-white-2": "A column of grass hits opposing Pokémon.\nWhen used with its water equivalent, its\ndamage increases into a vast swamp.",
-    "x-y": "A column of grass hits the target. When used with\nits water equivalent, its damage increases and\na vast swamp appears.",
-    "omega-ruby-alpha-sapphire": "A column of grass hits the target. When used with\nits water equivalent, its damage increases and\na vast swamp appears.",
-    "sun-moon": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears.",
-    "ultra-sun-ultra-moon": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears.",
-    "lets-go-pikachu-lets-go-eevee": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears.",
-    "sword-shield": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  If a friendly Pokémon used fire pledge earlier this turn, all opposing Pokémon will take 1/8 their max HP in damage at the end of every turn for four turns (including this one).",
-    "shortEffect": "With Fire Pledge, damages opposing Pokémon for 1/8 their max HP every turn for four turns."
-  },
-  "priority": 0
+    "_id": 520,
+    "key": "grass-pledge",
+    "name": {
+        "japanese-kana": "くさのちかい",
+        "korean": "풀의맹세",
+        "traditional-chinese": "草之誓約",
+        "french": "Aire d’Herbe",
+        "german": "Pflanzensäulen",
+        "spanish": "Voto Planta",
+        "italian": "Erbapatto",
+        "english": "Grass Pledge",
+        "japanese": "くさのちかい",
+        "simplified-chinese": "草之誓约",
+        "latin-american-spanish": "Voto Planta"
+    },
+    "type": "grass",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 50
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît.",
+            "xy": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît.",
+            "oras": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît.",
+            "sm": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît.",
+            "usum": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît.",
+            "lgpe": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît.",
+            "swsh": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît."
+        },
+        "english": {
+            "bw": "A column of grass hits opposing Pokémon. When used with its water equivalent, its damage increases into a vast swamp.",
+            "b2w2": "A column of grass hits opposing Pokémon. When used with its water equivalent, its damage increases into a vast swamp.",
+            "xy": "A column of grass hits the target. When used with its water equivalent, its damage increases and a vast swamp appears.",
+            "oras": "A column of grass hits the target. When used with its water equivalent, its damage increases and a vast swamp appears.",
+            "sm": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears.",
+            "usum": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears.",
+            "lgpe": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears.",
+            "swsh": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears.",
+            "la": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears.",
+            "sv": "A column of grass hits the target. When used with its water counterpart, this move's power is boosted and a vast swamp appears."
+        },
+        "japanese-kana": {
+            "xy": "くさの　はしらで　こうげきする。 みずと　くみあわせると　いりょくが あがって　あたりが　しつげんに　なる。",
+            "oras": "くさの　はしらで　こうげきする。  ずと　く あわせると　いりょくが あがって　あたりが　しつげんに　なる。",
+            "sm": "くさの　はしらで　こうげきする。 みずと　くみあわせると　いりょくが あがって　あたりが　しつげんに　なる。",
+            "usum": "くさの　はしらで　こうげきする。 みずと　くみあわせると　いりょくが あがって　あたりが　しつげんに　なる。",
+            "lgpe": "くさの　はしらで　こうげきする。 みずと　くみあわせると　いりょくが あがって　あたりが　しつげんに　なる。",
+            "swsh": "くさの　はしらで　こうげきする。 みずと　くみあわせると　いりょくが あがって　あたりが　しつげんに　なる。"
+        },
+        "korean": {
+            "xy": "풀기둥으로 공격한다. 물과 조합하면 위력이 올라가고 주변이 습지초원이 된다.",
+            "oras": "풀기둥으로 공격한다. 물과 조합하면 위력이 올라가고 주변이 습지초원이 된다.",
+            "sm": "풀기둥으로 공격한다. 물과 조합하면 위력이 올라가고 주변이 습지초원이 된다.",
+            "usum": "풀기둥으로 공격한다. 물과 조합하면 위력이 올라가고 주변이 습지초원이 된다.",
+            "lgpe": "풀기둥으로 공격한다. 물과 조합하면 위력이 올라가고 주변이 습지초원이 된다.",
+            "swsh": "풀기둥으로 공격한다. 물과 조합하면 위력이 올라가고 주변이 습지초원이 된다."
+        },
+        "german": {
+            "xy": "Ein Angriff mit Pflanzsäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf.",
+            "oras": "Ein Angriff mit Pflanzsäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf.",
+            "sm": "Ein Angriff mit Pflanzensäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf.",
+            "usum": "Ein Angriff mit Pflanzensäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf.",
+            "lgpe": "Ein Angriff mit Pflanzensäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf.",
+            "swsh": "Ein Angriff mit Pflanzensäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf."
+        },
+        "spanish": {
+            "xy": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "oras": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "sm": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "usum": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "lgpe": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "swsh": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia."
+        },
+        "italian": {
+            "xy": "Attacca il bersaglio con una colonna d’erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude.",
+            "oras": "Attacca il bersaglio con una colonna d’erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude.",
+            "sm": "Attacca il bersaglio con una colonna d’erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude.",
+            "usum": "Attacca il bersaglio con una colonna d’erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude.",
+            "lgpe": "Attacca il bersaglio con una colonna d’erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude.",
+            "swsh": "Attacca il bersaglio con una colonna d’erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude."
+        },
+        "japanese": {
+            "xy": "草の柱で　攻撃する。 みずと　組みあわせると　威力が あがって　あたりが　湿原に　なる。",
+            "oras": "草の柱で　攻撃する。  ずと　組 あわせると　威力が あがって　あたりが　湿原に　なる。",
+            "sm": "草の柱で　攻撃する。 みずと　組みあわせると　威力が あがって　あたりが　湿原に　なる。",
+            "usum": "草の柱で　攻撃する。 みずと　組みあわせると　威力が あがって　あたりが　湿原に　なる。",
+            "lgpe": "草の柱で　攻撃する。 みずと　組みあわせると　威力が あがって　あたりが　湿原に　なる。",
+            "swsh": "草の柱で　攻撃する。 みずと　組みあわせると　威力が あがって　あたりが　湿原に　なる。"
+        },
+        "latin-american-spanish": {
+            "xy": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "oras": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "sm": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "usum": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "lgpe": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+            "swsh": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia."
+        },
+        "traditional-chinese": {
+            "sm": "用草柱進行攻擊。 和水之誓約同時使用時，威力會提高， 周圍會變成濕地。",
+            "usum": "用草柱進行攻擊。 和水之誓約同時使用時，威力會提高， 周圍會變成濕地。",
+            "lgpe": "用草柱進行攻擊。 和水之誓約同時使用時，威力會提高， 周圍會變成濕地。",
+            "swsh": "用草柱進行攻擊。 和水之誓約同時使用時，威力會提高， 周圍會變成濕地。"
+        },
+        "simplified-chinese": {
+            "sm": "用草柱进行攻击。 如果和水组合，威力就会提高， 周围会变成湿地。",
+            "usum": "用草柱进行攻击。 如果和水组合，威力就会提高， 周围会变成湿地。",
+            "lgpe": "用草柱进行攻击。 如果和水组合，威力就会提高， 周围会变成湿地。",
+            "swsh": "用草柱进行攻击。 如果和水组合，威力就会提高， 周围会变成湿地。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  If a friendly Pokémon used Fire Pledge earlier this turn, all opposing Pokémon will take 1/8 their max HP in damage at the end of every turn for four turns (including this one).",
+        "shortEffect": "With Fire Pledge, damages opposing Pokémon for 1/8 their max HP every turn for four turns."
+    }
 }

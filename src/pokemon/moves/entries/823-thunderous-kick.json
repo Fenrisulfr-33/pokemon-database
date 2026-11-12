@@ -1,32 +1,84 @@
 {
-  "_id": 823,
-  "key": "thunderous-kick",
-  "name": {
-    "english": "Thunderous Kick",
-    "japanese": "らいめいげり",
-    "chinese": "雷鳴蹴擊",
-    "korean": "천둥차기",
-    "german": "Patada Relámpago",
-    "french": "Donnernder Tritt",
-    "italian": "Thunderous Kick",
-    "spanish": "Calcio Tonante"
-  },
-  "type": "Fighting",
-  "category": "Physical",
-  "contest": null,
-  "pp": 10,
-  "power": 90,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 8,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "sword-shield": "The user overwhelms the target with lightning-like\nmovement before delivering a kick. This also lowers\nthe target’s Defense stat."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.",
-    "shortEffect": "Inflicts regular damage with no additional effect."
-  },
-  "priority": 0
+    "_id": 823,
+    "key": "thunderous-kick",
+    "name": {
+        "japanese-kana": "らいめいげり",
+        "korean": "천둥차기",
+        "traditional-chinese": "雷鳴蹴擊",
+        "french": "Coup Fulgurant",
+        "german": "Donnernder Tritt",
+        "spanish": "Patada Relámpago",
+        "italian": "Calcio Tonante",
+        "english": "Thunderous Kick",
+        "japanese": "らいめいげり",
+        "simplified-chinese": "雷鸣蹴击",
+        "latin-american-spanish": "Patada Relámpago"
+    },
+    "type": "fighting",
+    "category": "physical",
+    "contest": null,
+    "pp": 10,
+    "power": 90,
+    "accuracy": 100,
+    "contact": true,
+    "generation": 8,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-lower",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 100
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "japanese-kana": {
+            "swsh": "かみなりの　ような　うごきで あいてを　ほんろう　しながら　キックする。 あいての　ぼうぎょを　さげる。"
+        },
+        "korean": {
+            "swsh": "번개 같은 움직임으로 상대를 농락하며 킥을 날린다. 상대의 방어를 떨어뜨린다."
+        },
+        "traditional-chinese": {
+            "swsh": "以雷電般的動作 一邊戲弄對手一邊使出踢擊。 可降低對手的防禦。"
+        },
+        "french": {
+            "swsh": "Le lanceur assène un coup de pied à la cible à la vitesse de l’éclair. Baisse aussi la Défense de la cible."
+        },
+        "german": {
+            "swsh": "Der Anwender bringt das Ziel mit blitzschnellen Bewegungen durcheinander und tritt dann zu. Senkt die Verteidigung des Zieles."
+        },
+        "spanish": {
+            "swsh": "El usuario desconcierta al rival con movimientos centelleantes y le propina una patada. Baja la Defensa del objetivo."
+        },
+        "italian": {
+            "swsh": "Il Pokémon sferra calci al bersaglio dopo averlo distratto con movimenti fulminei, riducendone la Difesa."
+        },
+        "english": {
+            "swsh": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target’s Defense stat.",
+            "la": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target's Defense stat.",
+            "sv": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target's Defense stat."
+        },
+        "japanese": {
+            "swsh": "雷の　ような　動きで 相手を　翻弄しながら　キックする。 相手の　防御を　さげる。"
+        },
+        "simplified-chinese": {
+            "swsh": "以雷电般的动作 戏耍对手的同时使出脚踢。 可降低对手的防御。"
+        },
+        "latin-american-spanish": {
+            "swsh": "El usuario desconcierta al rival con movimientos centelleantes y le propina una patada. Baja la Defensa del objetivo."
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Lowers the target’s Defense by one stage.",
+        "shortEffect": "Lowers the target’s Defense by one stage after inflicting damage."
+    }
 }

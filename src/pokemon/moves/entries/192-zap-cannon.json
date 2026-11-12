@@ -1,47 +1,150 @@
 {
-  "_id": 192,
-  "key": "zap-cannon",
-  "name": {
-    "english": "Zap Cannon",
-    "japanese": "でんじほう",
-    "chinese": "电磁炮",
-    "korean": "전자포",
-    "german": "Electrocañón",
-    "french": "Blitzkanone",
-    "italian": "Zap Cannon",
-    "spanish": "Falcecannone"
-  },
-  "type": "Electric",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 5,
-  "power": 120,
-  "accuracy": 50,
-  "contact": null,
-  "generation": 2,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that\nalways paralyzes.",
-    "crystal": "An attack that\nalways paralyzes.",
-    "ruby-sapphire": "Powerful and sure to cause\nparalysis, but inaccurate.",
-    "emerald": "Powerful and sure to cause\nparalysis, but inaccurate.",
-    "firered-leafgreen": "An electric blast is\nfired like a cannon\nto inflict damage\nand paralyze.",
-    "diamond-pearl": "The user fires an\nelectric blast like a\ncannon to inflict\ndamage and cause\nparalysis.",
-    "platinum": "The user fires an\nelectric blast like a\ncannon to inflict\ndamage and cause\nparalysis.",
-    "heartgold-soulsilver": "The user fires an\nelectric blast like a\ncannon to inflict\ndamage and cause\nparalysis.",
-    "black-white": "The user fires an electric blast like a\ncannon to inflict damage and\ncause paralysis.",
-    "black-2-white-2": "The user fires an electric blast like a\ncannon to inflict damage and\ncause paralysis.",
-    "x-y": "The user fires an electric blast like a\ncannon to inflict damage and\ncause paralysis.",
-    "omega-ruby-alpha-sapphire": "The user fires an electric blast like a\ncannon to inflict damage and\ncause paralysis.",
-    "sun-moon": "The user fires an electric blast like a cannon to inflict\ndamage and cause paralysis.",
-    "ultra-sun-ultra-moon": "The user fires an electric blast like a cannon to inflict\ndamage and cause paralysis.",
-    "lets-go-pikachu-lets-go-eevee": "The user fires an electric blast like a cannon to inflict\ndamage and cause paralysis.",
-    "sword-shield": "The user fires an electric blast like a cannon to inflict\ndamage and cause paralysis."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
-    "shortEffect": "Has a $effect_chance% chance to paralyze the target."
-  },
-  "priority": 0
+    "_id": 192,
+    "key": "zap-cannon",
+    "name": {
+        "japanese-kana": "でんじほう",
+        "korean": "전자포",
+        "traditional-chinese": "電磁炮",
+        "french": "Élecanon",
+        "german": "Blitzkanone",
+        "spanish": "Electrocañón",
+        "italian": "Falcecannone",
+        "english": "Zap Cannon",
+        "japanese": "でんじほう",
+        "simplified-chinese": "电磁炮",
+        "latin-american-spanish": "Electrocañón"
+    },
+    "type": "electric",
+    "category": "special",
+    "contest": "cool",
+    "pp": 5,
+    "power": 120,
+    "accuracy": 50,
+    "contact": false,
+    "generation": 2,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "paralysis",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "power": 100
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that always paralyzes.",
+            "cr": "An attack that always paralyzes.",
+            "rs": "Powerful and sure to cause paralysis, but inaccurate.",
+            "em": "Powerful and sure to cause paralysis, but inaccurate.",
+            "frlg": "An electric blast is fired like a cannon to inflict damage and paralyze.",
+            "dp": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "pt": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "hgss": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "bw": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "b2w2": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "xy": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "oras": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "sm": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "usum": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "lgpe": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "swsh": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "la": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+            "sv": "The user attacks by firing an electric blast like a cannon. This also leaves the target with paralysis."
+        },
+        "french": {
+            "bw": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.",
+            "xy": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.",
+            "oras": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.",
+            "sm": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.",
+            "usum": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.",
+            "lgpe": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.",
+            "swsh": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "たいほうの　ような でんきを　はっしゃして　こうげきする。 あいてを　まひの　じょうたいに　する。",
+            "oras": "たいほうの　ような でんきを　はっしゃして　こうげきする。 あいてを　まひの　じょうたいに　する。",
+            "sm": "たいほうの　ような でんきを　はっしゃして　こうげきする。 あいてを　まひの　じょうたいに　する。",
+            "usum": "たいほうの　ような でんきを　はっしゃして　こうげきする。 あいてを　まひの　じょうたいに　する。",
+            "lgpe": "たいほうの　ような でんきを　はっしゃして　こうげきする。 あいてを　まひの　じょうたいに　する。",
+            "swsh": "たいほうの　ような でんきを　はっしゃして　こうげきする。 あいてを　まひの　じょうたいに　する。"
+        },
+        "korean": {
+            "xy": "대포처럼 전기를 발사해서 공격한다. 상대를 마비 상태로 만든다.",
+            "oras": "대포처럼 전기를 발사해서 공격한다. 상대를 마비 상태로 만든다.",
+            "sm": "대포처럼 전기를 발사해서 공격한다. 상대를 마비 상태로 만든다.",
+            "usum": "대포처럼 전기를 발사해서 공격한다. 상대를 마비 상태로 만든다.",
+            "lgpe": "대포처럼 전기를 발사해서 공격한다. 상대를 마비 상태로 만든다.",
+            "swsh": "대포처럼 전기를 발사해서 공격한다. 상대를 마비 상태로 만든다."
+        },
+        "german": {
+            "xy": "Kanonenähnlicher Elektro-Schuss, der schadet und paralysiert.",
+            "oras": "Kanonenähnlicher Elektro-Schuss, der schadet und paralysiert.",
+            "sm": "Kanonenähnlicher Elektro-Schuss, der schadet und paralysiert.",
+            "usum": "Kanonenähnlicher Elektro-Schuss, der schadet und paralysiert.",
+            "lgpe": "Kanonenähnlicher Elektro-Schuss, der schadet und paralysiert.",
+            "swsh": "Kanonenähnlicher Elektro-Schuss, der schadet und paralysiert."
+        },
+        "spanish": {
+            "xy": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "oras": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "sm": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "usum": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "lgpe": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "swsh": "Dispara una descarga eléctrica que causa daño y parálisis."
+        },
+        "italian": {
+            "xy": "Chi la usa provoca un’esplosione elettrica che infligge danni e paralizza il bersaglio.",
+            "oras": "Chi la usa provoca un’esplosione elettrica che infligge danni e paralizza il bersaglio.",
+            "sm": "Chi la usa scaglia una sfera elettrica che infligge danni e paralizza il bersaglio.",
+            "usum": "Chi la usa scaglia una sfera elettrica che infligge danni e paralizza il bersaglio.",
+            "lgpe": "Chi la usa scaglia una sfera elettrica che infligge danni e paralizza il bersaglio.",
+            "swsh": "Chi la usa scaglia una sfera elettrica che infligge danni e paralizza il bersaglio."
+        },
+        "japanese": {
+            "xy": "大砲の　ような 電気を　発射して　攻撃する。 相手を　まひの　状態に　する。",
+            "oras": "大砲の　ような 電気を　発射して　攻撃する。 相手を　まひの　状態に　する。",
+            "sm": "大砲の　ような 電気を　発射して　攻撃する。 相手を　まひの　状態に　する。",
+            "usum": "大砲の　ような 電気を　発射して　攻撃する。 相手を　まひの　状態に　する。",
+            "lgpe": "大砲の　ような 電気を　発射して　攻撃する。 相手を　まひの　状態に　する。",
+            "swsh": "大砲の　ような 電気を　発射して　攻撃する。 相手を　まひの　状態に　する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "oras": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "sm": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "usum": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "lgpe": "Dispara una descarga eléctrica que causa daño y parálisis.",
+            "swsh": "Dispara una descarga eléctrica que causa daño y parálisis."
+        },
+        "traditional-chinese": {
+            "sm": "發射如大炮般的 電流進行攻擊。 能讓對手陷入麻痺狀態。",
+            "usum": "發射如大炮般的 電流進行攻擊。 能讓對手陷入麻痺狀態。",
+            "lgpe": "發射如大炮般的 電流進行攻擊。 能讓對手陷入麻痺狀態。",
+            "swsh": "發射如大炮般的 電流進行攻擊。 能讓對手陷入麻痺狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "发射大炮一样的 电流进行攻击。 让对手陷入麻痹状态。",
+            "usum": "发射大炮一样的 电流进行攻击。 让对手陷入麻痹状态。",
+            "lgpe": "发射大炮一样的 电流进行攻击。 让对手陷入麻痹状态。",
+            "swsh": "发射大炮一样的 电流进行攻击。 让对手陷入麻痹状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to paralyze the target.",
+        "shortEffect": "Has a chance to paralyze the target."
+    }
 }

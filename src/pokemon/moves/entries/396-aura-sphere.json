@@ -1,42 +1,152 @@
 {
-  "_id": 396,
-  "key": "aura-sphere",
-  "name": {
-    "english": "Aura Sphere",
-    "japanese": "はどうだん",
-    "chinese": "波导弹",
-    "korean": "파동탄",
-    "german": "Esfera Aural",
-    "french": "Aurasphäre",
-    "italian": "Aura Sphere",
-    "spanish": "Forzasfera"
-  },
-  "type": "Fighting",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": 80,
-  "accuracy": null,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The user looses a\nblast of aura power\nfrom deep within its\nbody. This move is\ncertain to hit.",
-    "platinum": "The user looses a\nblast of aura power\nfrom deep within its\nbody. This move is\ncertain to hit.",
-    "heartgold-soulsilver": "The user looses a\nblast of aura power\nfrom deep within its\nbody. This move is\ncertain to hit.",
-    "black-white": "The user looses a blast of aura power\nfrom deep within its body at the target.\nThis move is certain to hit.",
-    "black-2-white-2": "The user looses a blast of aura power\nfrom deep within its body at the target.\nThis move is certain to hit.",
-    "x-y": "The user lets loose a blast of aura power\nfrom deep within its body at the target.\nThis attack never misses.",
-    "omega-ruby-alpha-sapphire": "The user lets loose a blast of aura power\nfrom deep within its body at the target.\nThis attack never misses.",
-    "sun-moon": "The user lets loose a blast of aura power from deep\nwithin its body at the target. This attack\nnever misses.",
-    "ultra-sun-ultra-moon": "The user lets loose a blast of aura power from deep\nwithin its body at the target. This attack\nnever misses.",
-    "lets-go-pikachu-lets-go-eevee": "The user lets loose a blast of aura power from deep\nwithin its body at the target. This attack\nnever misses.",
-    "sword-shield": "The user lets loose a blast of aura power from deep\nwithin its body at the target. This attack\nnever misses."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 396,
+    "key": "aura-sphere",
+    "name": {
+        "japanese-kana": "はどうだん",
+        "korean": "파동탄",
+        "traditional-chinese": "波導彈",
+        "french": "Aurasphère",
+        "german": "Aurasphäre",
+        "spanish": "Esfera Aural",
+        "italian": "Forzasfera",
+        "english": "Aura Sphere",
+        "japanese": "はどうだん",
+        "simplified-chinese": "波导弹",
+        "latin-american-spanish": "Aura Esfera"
+    },
+    "type": "fighting",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": 80,
+    "accuracy": null,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 90
+        }
+    },
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "dp": "The user looses a blast of aura power from deep within its body. This move is certain to hit.",
+            "pt": "The user looses a blast of aura power from deep within its body. This move is certain to hit.",
+            "hgss": "The user looses a blast of aura power from deep within its body. This move is certain to hit.",
+            "bw": "The user looses a blast of aura power from deep within its body at the target. This move is certain to hit.",
+            "b2w2": "The user looses a blast of aura power from deep within its body at the target. This move is certain to hit.",
+            "xy": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+            "oras": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+            "sm": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+            "usum": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+            "lgpe": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+            "swsh": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+            "la": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+            "sv": "The user lets loose a pulse of aura power from deep within its body at the target. This attack never misses."
+        },
+        "french": {
+            "bw": "Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.",
+            "xy": "Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.",
+            "oras": "Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.",
+            "sm": "Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.",
+            "usum": "Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.",
+            "lgpe": "Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais.",
+            "swsh": "Le lanceur dégage une aura et projette de l’énergie. N’échoue jamais."
+        },
+        "japanese-kana": {
+            "xy": "からだの　おくから　はどうの　ちからを あいてに　うちはなつ。 こうげきは　かならず　めいちゅう　する。",
+            "oras": "からだの　おくから　はどうの　ちからを あいてに　うちはなつ。 こうげきは　かならず　めいちゅう　する。",
+            "sm": "からだの　おくから　はどうの　ちからを あいてに　うちはなつ。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "からだの　おくから　はどうの　ちからを あいてに　うちはなつ。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "からだの　おくから　はどうの　ちからを あいてに　うちはなつ。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "からだの　おくから　はどうの　ちからを あいてに　うちはなつ。 こうげきは　かならず　めいちゅう　する。"
+        },
+        "korean": {
+            "xy": "몸속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다.",
+            "oras": "몸속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다.",
+            "sm": "몸속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다.",
+            "usum": "몸속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다.",
+            "lgpe": "몸속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다.",
+            "swsh": "몸속에서 파동의 힘을 끌어내 상대에게 쏜다. 공격은 반드시 명중한다."
+        },
+        "german": {
+            "xy": "Tief aus dem Inneren des Anwenders löst sich ein kraftvoller Stoß Auraenergie. Trifft in jedem Fall.",
+            "oras": "Tief aus dem Inneren des Anwenders löst sich ein kraftvoller Stoß Auraenergie. Trifft in jedem Fall.",
+            "sm": "Tief aus dem Inneren des Anwenders löst sich ein kraftvoller Stoß Aura-Energie. Trifft in jedem Fall.",
+            "usum": "Tief aus dem Inneren des Anwenders löst sich ein kraftvoller Stoß Aura-Energie. Trifft in jedem Fall.",
+            "lgpe": "Tief aus dem Inneren des Anwenders löst sich ein kraftvoller Stoß Aura-Energie. Trifft in jedem Fall.",
+            "swsh": "Tief aus dem Inneren des Anwenders löst sich ein kraftvoller Stoß Aura-Energie. Diese Attacke trifft garantiert."
+        },
+        "spanish": {
+            "xy": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "oras": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "sm": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "usum": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "lgpe": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "swsh": "Libera, desde su interior, una inmensa descarga de aura. Es infalible."
+        },
+        "italian": {
+            "xy": "Chi la usa rilascia una forza eterea dal profondo del corpo. La mossa è infallibile.",
+            "oras": "Chi la usa rilascia una forza eterea dal profondo del corpo. La mossa è infallibile.",
+            "sm": "Chi la usa rilascia una forza eterea dal profondo del corpo. La mossa è infallibile.",
+            "usum": "Chi la usa rilascia una forza eterea dal profondo del corpo. La mossa è infallibile.",
+            "lgpe": "Chi la usa rilascia una forza eterea dal profondo del corpo. La mossa è infallibile.",
+            "swsh": "Chi la usa rilascia una forza eterea dal profondo del corpo. La mossa è infallibile."
+        },
+        "japanese": {
+            "xy": "体の　奥から　波導の　力を 相手に　うち放つ。 攻撃は　必ず　命中する。",
+            "oras": "体の　奥から　波導の　力を 相手に　うち放つ。 攻撃は　必ず　命中する。",
+            "sm": "体の　奥から　波導の　力を 相手に　うち放つ。 攻撃は　必ず　命中する。",
+            "usum": "体の　奥から　波導の　力を 相手に　うち放つ。 攻撃は　必ず　命中する。",
+            "lgpe": "体の　奥から　波導の　力を 相手に　うち放つ。 攻撃は　必ず　命中する。",
+            "swsh": "体の　奥から　波導の　力を 相手に　うち放つ。 攻撃は　必ず　命中する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "oras": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "sm": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "usum": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "lgpe": "Libera una descarga de la fuerza del aura desde su interior. Es infalible.",
+            "swsh": "Libera, desde su interior, una inmensa descarga de aura. Es infalible."
+        },
+        "traditional-chinese": {
+            "sm": "將來自體內深處的波導之力 擊向對手。 攻擊必定會命中。",
+            "usum": "將來自體內深處的波導之力 擊向對手。 攻擊必定會命中。",
+            "lgpe": "將來自體內深處的波導之力 擊向對手。 攻擊必定會命中。",
+            "swsh": "將來自體內深處的波導之力 擊向對手。 攻擊必定會命中。"
+        },
+        "simplified-chinese": {
+            "sm": "从体内产生出波导之力， 然后向对手发出。 攻击必定会命中。",
+            "usum": "从体内产生出波导之力， 然后向对手发出。 攻击必定会命中。",
+            "lgpe": "从体内产生出波导之力， 然后向对手发出。 攻击必定会命中。",
+            "swsh": "从体内产生出波导之力， 然后向对手发出。 攻击必定会命中。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

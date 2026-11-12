@@ -1,47 +1,153 @@
 {
-  "_id": 50,
-  "key": "disable",
-  "name": {
-    "english": "Disable",
-    "japanese": "かなしばり",
-    "chinese": "石化功",
-    "korean": "사슬묶기",
-    "german": "Anulación",
-    "french": "Aussetzer",
-    "italian": "Disable",
-    "spanish": "Inibitore"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": "Smart",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "ultra-sun-ultra-moon": "For four turns, this move prevents the target from\nusing the move it last used.",
-    "gold-silver": "Disables the foe's\nmost recent move.",
-    "crystal": "Disables the foe's\nmost recent move.",
-    "ruby-sapphire": "Psychically disables one of\nthe foe’s moves.",
-    "emerald": "Psychically disables one of\nthe foe’s moves.",
-    "firered-leafgreen": "For a few turns,\nit prevents the foe\nfrom using the move\nit last used.",
-    "diamond-pearl": "For several turns,\nthis move prevents\nthe foe from using\nthe move it last\nused.",
-    "platinum": "For several turns,\nthis move prevents\nthe foe from using\nthe move it last\nused.",
-    "heartgold-soulsilver": "For several turns,\nthis move prevents\nthe foe from using\nthe move it last\nused.",
-    "black-white": "For four turns, this move prevents the\ntarget from using the move it last used.",
-    "black-2-white-2": "For four turns, this move prevents the\ntarget from using the move it last used.",
-    "x-y": "For four turns, this move prevents the\ntarget from using the move it last used.",
-    "omega-ruby-alpha-sapphire": "For four turns, this move prevents the\ntarget from using the move it last used.",
-    "sun-moon": "For four turns, this move prevents the target from\nusing the move it last used.",
-    "lets-go-pikachu-lets-go-eevee": "For four turns, this move prevents the target from\nusing the move it last used.",
-    "sword-shield": "For four turns, this move prevents the target from\nusing the move it last used."
-  },
-  "effect": {
-    "full": "Disables the target's last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the field.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
-    "shortEffect": "Disables the target's last used move for 1-8 turns."
-  },
-  "priority": 0
+    "_id": 50,
+    "key": "disable",
+    "name": {
+        "japanese-kana": "かなしばり",
+        "korean": "사슬묶기",
+        "traditional-chinese": "定身法",
+        "french": "Entrave",
+        "german": "Aussetzer",
+        "spanish": "Anulación",
+        "italian": "Inibitore",
+        "english": "Disable",
+        "japanese": "かなしばり",
+        "simplified-chinese": "定身法",
+        "latin-american-spanish": "Anulación"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": "smart",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "disable",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 4,
+        "maxTurns": 4,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "dp": {
+            "accuracy": 55
+        },
+        "bw": {
+            "accuracy": 80
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Disables the foe's most recent move.",
+            "cr": "Disables the foe's most recent move.",
+            "rs": "Psychically disables one of the foe’s moves.",
+            "em": "Psychically disables one of the foe’s moves.",
+            "frlg": "For a few turns, it prevents the foe from using the move it last used.",
+            "dp": "For several turns, this move prevents the foe from using the move it last used.",
+            "pt": "For several turns, this move prevents the foe from using the move it last used.",
+            "hgss": "For several turns, this move prevents the foe from using the move it last used.",
+            "bw": "For four turns, this move prevents the target from using the move it last used.",
+            "b2w2": "For four turns, this move prevents the target from using the move it last used.",
+            "xy": "For four turns, this move prevents the target from using the move it last used.",
+            "oras": "For four turns, this move prevents the target from using the move it last used.",
+            "sm": "For four turns, this move prevents the target from using the move it last used.",
+            "usum": "For four turns, this move prevents the target from using the move it last used.",
+            "lgpe": "For four turns, this move prevents the target from using the move it last used.",
+            "swsh": "For four turns, this move prevents the target from using the move it last used.",
+            "la": "For four turns, this move prevents the target from using the move it last used.",
+            "sv": "For four turns, the target will be unable to use whichever move it last used."
+        },
+        "french": {
+            "bw": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.",
+            "xy": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.",
+            "oras": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.",
+            "sm": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.",
+            "usum": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.",
+            "lgpe": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.",
+            "swsh": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours."
+        },
+        "japanese-kana": {
+            "xy": "あいての　うごきを　とめて ちょくぜんに　だしていた　わざを ４ターンの　あいだ　つかえなく　する。",
+            "oras": "あいての　うごきを　とめて ちょくぜんに　だしていた　わざを ４ターンの　あいだ　つかえなく　する。",
+            "sm": "あいての　うごきを　とめて ちょくぜんに　だしていた　わざを ４ターンの　あいだ　つかえなく　する。",
+            "usum": "あいての　うごきを　とめて ちょくぜんに　だしていた　わざを ４ターンの　あいだ　つかえなく　する。",
+            "lgpe": "あいての　うごきを　とめて ちょくぜんに　だしていた　わざを ４ターンの　あいだ　つかえなく　する。",
+            "swsh": "あいての　うごきを　とめて ちょくぜんに　だしていた　わざを ４ターンの　あいだ　つかえなく　する。"
+        },
+        "korean": {
+            "xy": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.",
+            "oras": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.",
+            "sm": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.",
+            "usum": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.",
+            "lgpe": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.",
+            "swsh": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다."
+        },
+        "german": {
+            "xy": "Die zuletzt eingesetzte Attacke des Zieles wird für mehrere Runden blockiert.",
+            "oras": "Die zuletzt eingesetzte Attacke des Zieles wird für mehrere Runden blockiert.",
+            "sm": "Die zuletzt eingesetzte Attacke des Zieles wird für vier Runden blockiert.",
+            "usum": "Die zuletzt eingesetzte Attacke des Zieles wird für vier Runden blockiert.",
+            "lgpe": "Die zuletzt eingesetzte Attacke des Zieles wird für vier Runden blockiert.",
+            "swsh": "Die zuletzt eingesetzte Attacke des Zieles wird für vier Runden blockiert."
+        },
+        "spanish": {
+            "xy": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "oras": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "sm": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "usum": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "lgpe": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "swsh": "Desactiva el último movimiento del objetivo durante cuatro turnos."
+        },
+        "italian": {
+            "xy": "Per quattro turni impedisce al bersaglio di riutilizzare l’ultima mossa usata.",
+            "oras": "Per quattro turni impedisce al bersaglio di riutilizzare l’ultima mossa usata.",
+            "sm": "Per quattro turni impedisce al bersaglio di riutilizzare l’ultima mossa usata.",
+            "usum": "Per quattro turni impedisce al bersaglio di riutilizzare l’ultima mossa usata.",
+            "lgpe": "Per quattro turni impedisce al bersaglio di riutilizzare l’ultima mossa usata.",
+            "swsh": "Per quattro turni impedisce al bersaglio di riutilizzare l’ultima mossa usata."
+        },
+        "japanese": {
+            "xy": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　あいだ　使えなくする。",
+            "oras": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　あいだ　使えなくする。",
+            "sm": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　間　使えなくする。",
+            "usum": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　間　使えなくする。",
+            "lgpe": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　間　使えなくする。",
+            "swsh": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　間　使えなくする。"
+        },
+        "latin-american-spanish": {
+            "xy": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "oras": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "sm": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "usum": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "lgpe": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+            "swsh": "Desactiva el último movimiento del objetivo durante cuatro turnos."
+        },
+        "traditional-chinese": {
+            "sm": "阻止對手出招， 最近一次使用的招式 在４回合內無法使用。",
+            "usum": "阻止對手出招， 最近一次使用的招式 在４回合內無法使用。",
+            "lgpe": "阻止對手出招， 最近一次使用的招式 在４回合內無法使用。",
+            "swsh": "阻止對手出招， 最近一次使用的招式 在４回合內無法使用。"
+        },
+        "simplified-chinese": {
+            "sm": "阻碍对手行动， 之前使出的招式 将在４回合内无法使用。",
+            "usum": "阻碍对手行动， 之前使出的招式 将在４回合内无法使用。",
+            "lgpe": "阻碍对手行动， 之前使出的招式 将在４回合内无法使用。",
+            "swsh": "阻碍对手行动， 之前使出的招式 将在４回合内无法使用。"
+        }
+    },
+    "effect": {
+        "full": "Disables the target’s last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the field.  If the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
+        "shortEffect": "Disables the target’s last used move for 1-8 turns."
+    }
 }

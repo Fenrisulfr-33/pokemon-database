@@ -28,16 +28,21 @@ src/pokemon/
 │   ├── CheckNationalPokedex.js
 │   ├── fileUtils.js
 │   ├── getAbilities.js   # getAbilities(): every ability in abilities/entries
+│   ├── getMoves.js       # getMoves(): every move in moves/entries
+│   ├── testHelpers.js    # shared test helpers (findDuplicates, toKey, ...)
 │   ├── save.js
 │   ├── save.test.js
 │   └── upsertToMongo.js
 ├── moves/
-│   ├── entries/          # 920 individual move JSON files (e.g. 1-pound.json)
-│   ├── games/            # 22 files, one per game/game-group (00-template.json ... 21-scarlet-violet.json)
+│   ├── entries/          # 919 individual move JSON files (e.g. 1-pound.json)
+│   ├── machines-records/
+│   ├── CONTACT.md        # moves that make contact (sets contact: true)
+│   ├── moves.test.js     # data checks on moves/entries
+│   ├── moves.schema.test.js # schema rejects malformed moves
 │   ├── README.md
-│   ├── folderLoop.js
-│   ├── moves.filename-id.test.js
-│   └── test_entires_id.js
+│   ├── schema.json
+│   ├── upsert.js
+│   └── validation.mjs    # npm run moves:validate
 ├── pokedex/
 │   ├── dexes/
 │   │   ├── dexes_objects/   # 32 per-game/region dex JSON files (00_dex_map.js + 31 dex jsons)

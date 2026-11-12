@@ -1,39 +1,138 @@
 {
-  "_id": 502,
-  "key": "ally-switch",
-  "name": {
-    "english": "Ally Switch",
-    "japanese": "サイドチェンジ",
-    "chinese": "位置交换",
-    "korean": "사이드체인지",
-    "german": "Cambio de Banda",
-    "french": "Seitentausch",
-    "italian": "Ally Switch",
-    "spanish": "Cambiaposto"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "black-white": "The user teleports using a strange power\nand switches its place with one of\nits allies.",
-    "black-2-white-2": "The user teleports using a strange power\nand switches its place with one of\nits allies.",
-    "x-y": "The user teleports using a strange\npower and switches places with one of\nits allies.",
-    "omega-ruby-alpha-sapphire": "The user teleports using a strange\npower and switches places with one of\nits allies.",
-    "sun-moon": "The user teleports using a strange power and\nswitches places with one of its allies.",
-    "ultra-sun-ultra-moon": "The user teleports using a strange power and\nswitches places with one of its allies.",
-    "lets-go-pikachu-lets-go-eevee": "The user teleports using a strange power and\nswitches places with one of its allies.",
-    "sword-shield": "The user teleports using a strange power and\nswitches places with one of its allies."
-  },
-  "effect": {
-    "full": "User switches position on the field with the friendly Pokémon opposite it.  If the user is in the middle position in a triple battle, or there are no other friendly Pokémon, this move will fail.",
-    "shortEffect": "User switches places with the friendly Pokémon opposite it."
-  },
-  "priority": 2
+    "_id": 502,
+    "key": "ally-switch",
+    "name": {
+        "japanese-kana": "サイドチェンジ",
+        "korean": "사이드체인지",
+        "traditional-chinese": "交換場地",
+        "french": "Interversion",
+        "german": "Seitentausch",
+        "spanish": "Cambio de Banda",
+        "italian": "Cambiaposto",
+        "english": "Ally Switch",
+        "japanese": "サイドチェンジ",
+        "simplified-chinese": "交换场地",
+        "latin-american-spanish": "Cambio de Lado"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 2,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.",
+            "xy": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.",
+            "oras": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.",
+            "sm": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.",
+            "usum": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.",
+            "lgpe": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.",
+            "swsh": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain."
+        },
+        "english": {
+            "bw": "The user teleports using a strange power and switches its place with one of its allies.",
+            "b2w2": "The user teleports using a strange power and switches its place with one of its allies.",
+            "xy": "The user teleports using a strange power and switches places with one of its allies.",
+            "oras": "The user teleports using a strange power and switches places with one of its allies.",
+            "sm": "The user teleports using a strange power and switches places with one of its allies.",
+            "usum": "The user teleports using a strange power and switches places with one of its allies.",
+            "lgpe": "The user teleports using a strange power and switches places with one of its allies.",
+            "swsh": "The user teleports using a strange power and switches places with one of its allies.",
+            "la": "The user teleports using a strange power and switches places with one of its allies.",
+            "sv": "The user teleports using a strange power and switches places with one of its allies. This move's chance of failing rises if it is used in succession."
+        },
+        "japanese-kana": {
+            "xy": "ふしぎな　ちからで　テレポートして じぶんと　みかたの　いばしょを いれかえる。",
+            "oras": "ふしぎな　ちからで　テレポートして じぶんと　 かたの　いばしょを いれかえる。",
+            "sm": "ふしぎな　ちからで　テレポートして じぶんと　みかたの　いばしょを いれかえる。",
+            "usum": "ふしぎな　ちからで　テレポートして じぶんと　みかたの　いばしょを いれかえる。",
+            "lgpe": "ふしぎな　ちからで　テレポートして じぶんと　みかたの　いばしょを いれかえる。",
+            "swsh": "ふしぎな　ちからで　テレポートして じぶんと　みかたの　いばしょを いれかえる。"
+        },
+        "korean": {
+            "xy": "이상한 힘으로 순간이동하여 자신과 같은 편이 있는 장소를 바꾼다.",
+            "oras": "이상한 힘으로 순간이동하여 자신과 같은 편이 있는 장소를 바꾼다.",
+            "sm": "이상한 힘으로 순간이동하여 자신과 같은 편이 있는 장소를 바꾼다.",
+            "usum": "이상한 힘으로 순간이동하여 자신과 같은 편이 있는 장소를 바꾼다.",
+            "lgpe": "이상한 힘으로 순간이동하여 자신과 같은 편이 있는 장소를 바꾼다.",
+            "swsh": "이상한 힘으로 순간이동하여 자신과 같은 편의 위치를 바꾼다."
+        },
+        "german": {
+            "xy": "Wundersame Kräfte teleportieren den Anwender an den Platz eines Mitstreiters.",
+            "oras": "Wundersame Kräfte teleportieren den Anwender an den Platz eines Mitstreiters.",
+            "sm": "Wundersame Kräfte teleportieren den Anwender an den Platz eines Mitstreiters.",
+            "usum": "Wundersame Kräfte teleportieren den Anwender an den Platz eines Mitstreiters.",
+            "lgpe": "Wundersame Kräfte teleportieren den Anwender an den Platz eines Mitstreiters.",
+            "swsh": "Wundersame Kräfte teleportieren den Anwender an den Platz eines Mitstreiters."
+        },
+        "spanish": {
+            "xy": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "oras": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "sm": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "usum": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "lgpe": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "swsh": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate."
+        },
+        "italian": {
+            "xy": "Chi la usa si teletrasporta al posto di un alleato in campo, grazie a un misterioso potere.",
+            "oras": "Chi la usa si teletrasporta al posto di un alleato in campo, grazie a un misterioso potere.",
+            "sm": "Chi la usa cambia di posto con un alleato in campo grazie a un misterioso potere.",
+            "usum": "Chi la usa cambia di posto con un alleato in campo grazie a un misterioso potere.",
+            "lgpe": "Chi la usa cambia di posto con un alleato in campo grazie a un misterioso potere.",
+            "swsh": "Chi la usa cambia di posto con un alleato in campo grazie a un misterioso potere."
+        },
+        "japanese": {
+            "xy": "不思議な　力で　テレポートして 自分と　味方の　居場所を 入れ替える。",
+            "oras": "不思議な　力で　テレポートして 自分と　味方の　居場所を 入れ替える。",
+            "sm": "不思議な　力で　テレポートして 自分と　味方の　居場所を 入れ替える。",
+            "usum": "不思議な　力で　テレポートして 自分と　味方の　居場所を 入れ替える。",
+            "lgpe": "不思議な　力で　テレポートして 自分と　味方の　居場所を 入れ替える。",
+            "swsh": "不思議な　力で　テレポートして 自分と　味方の　居場所を 入れ替える。"
+        },
+        "latin-american-spanish": {
+            "xy": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "oras": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "sm": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "usum": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "lgpe": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+            "swsh": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate."
+        },
+        "traditional-chinese": {
+            "sm": "用神奇的力量瞬間移動， 讓自己和同伴的所在位置互換。",
+            "usum": "用神奇的力量瞬間移動， 讓自己和同伴的所在位置互換。",
+            "lgpe": "用神奇的力量瞬間移動， 讓自己和同伴的所在位置互換。",
+            "swsh": "用神奇的力量瞬間移動， 讓自己和同伴的所在位置互換。"
+        },
+        "simplified-chinese": {
+            "sm": "用神奇的力量瞬间移动， 互换自己和同伴所在的位置。",
+            "usum": "用神奇的力量瞬间移动， 互换自己和同伴所在的位置。",
+            "lgpe": "用神奇的力量瞬间移动， 互换自己和同伴所在的位置。",
+            "swsh": "用神奇的力量瞬间移动， 互换自己和同伴所在的位置。"
+        }
+    },
+    "effect": {
+        "full": "User switches position on the field with the friendly Pokémon opposite it.  If the user is in the middle position in a triple battle, or there are no other friendly Pokémon, this move will fail.",
+        "shortEffect": "User switches places with the friendly Pokémon opposite it."
+    }
 }

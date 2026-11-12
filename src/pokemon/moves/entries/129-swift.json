@@ -1,47 +1,153 @@
 {
-  "_id": 129,
-  "key": "swift",
-  "name": {
-    "english": "Swift",
-    "japanese": "スピードスター",
-    "chinese": "高速星星",
-    "korean": "스피드스타",
-    "german": "Rapidez",
-    "french": "Sternschauer",
-    "italian": "Swift",
-    "spanish": "Comete"
-  },
-  "type": "Normal",
-  "category": "Special",
-  "contest": "Cool",
-  "pp": 20,
-  "power": 60,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "all-opponents",
-  "changes": [],
-  "description": {
-    "gold-silver": "An attack that\nnever misses.",
-    "crystal": "An attack that\nnever misses.",
-    "ruby-sapphire": "Sprays star-shaped rays\nthat never miss.",
-    "emerald": "Sprays star-shaped rays\nthat never miss.",
-    "firered-leafgreen": "Star-shaped rays\nthat never miss are\nfired at all foes in\nbattle.",
-    "diamond-pearl": "Star-shaped rays are\nshot at the foe.\nThis attack never\nmisses.\n",
-    "platinum": "Star-shaped rays are\nshot at the foe.\nThis attack never\nmisses.\n",
-    "heartgold-soulsilver": "Star-shaped rays are\nshot at the foe.\nThis attack never\nmisses.\n",
-    "black-white": "Star-shaped rays are shot at the opposing\nteam. This attack never misses.",
-    "black-2-white-2": "Star-shaped rays are shot at the opposing\nteam. This attack never misses.",
-    "x-y": "Star-shaped rays are shot at the opposing\nPokémon. This attack never misses.",
-    "omega-ruby-alpha-sapphire": "Star-shaped rays are shot at the opposing\nPokémon. This attack never misses.",
-    "sun-moon": "Star-shaped rays are shot at the opposing Pokémon.\nThis attack never misses.",
-    "ultra-sun-ultra-moon": "Star-shaped rays are shot at the opposing Pokémon.\nThis attack never misses.",
-    "lets-go-pikachu-lets-go-eevee": "Star-shaped rays are shot at the opposing Pokémon.\nThis attack never misses.",
-    "sword-shield": "Star-shaped rays are shot at opposing Pokémon.\nThis attack never misses."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
-    "shortEffect": "Never misses."
-  },
-  "priority": 0
+    "_id": 129,
+    "key": "swift",
+    "name": {
+        "japanese-kana": "スピードスター",
+        "korean": "스피드스타",
+        "traditional-chinese": "高速星星",
+        "french": "Météores",
+        "german": "Sternschauer",
+        "spanish": "Meteoros",
+        "italian": "Comete",
+        "english": "Swift",
+        "japanese": "スピードスター",
+        "simplified-chinese": "高速星星",
+        "latin-american-spanish": "Meteoros"
+    },
+    "type": "normal",
+    "category": "special",
+    "contest": "cool",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "all-opponents",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {
+        "french": {
+            "gs": "Touche les Pokémon sous les effets de Tunnel et Vol."
+        },
+        "english": {
+            "gs": "Hits Pokémon under the effects of Dig and Fly."
+        }
+    },
+    "flavorText": {
+        "english": {
+            "gs": "An attack that never misses.",
+            "cr": "An attack that never misses.",
+            "rs": "Sprays star-shaped rays that never miss.",
+            "em": "Sprays star-shaped rays that never miss.",
+            "frlg": "Star-shaped rays that never miss are fired at all foes in battle.",
+            "dp": "Star-shaped rays are shot at the foe. This attack never misses.",
+            "pt": "Star-shaped rays are shot at the foe. This attack never misses.",
+            "hgss": "Star-shaped rays are shot at the foe. This attack never misses.",
+            "bw": "Star-shaped rays are shot at the opposing team. This attack never misses.",
+            "b2w2": "Star-shaped rays are shot at the opposing team. This attack never misses.",
+            "xy": "Star-shaped rays are shot at the opposing Pokémon. This attack never misses.",
+            "oras": "Star-shaped rays are shot at the opposing Pokémon. This attack never misses.",
+            "sm": "Star-shaped rays are shot at the opposing Pokémon. This attack never misses.",
+            "usum": "Star-shaped rays are shot at the opposing Pokémon. This attack never misses.",
+            "lgpe": "Star-shaped rays are shot at the opposing Pokémon. This attack never misses.",
+            "swsh": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+            "la": "Star-shaped rays are shot at the target. This attack never misses.",
+            "sv": "Star-shaped rays are shot at opposing Pokémon. This attack never misses."
+        },
+        "french": {
+            "bw": "Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.",
+            "xy": "Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.",
+            "oras": "Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.",
+            "sm": "Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.",
+            "usum": "Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.",
+            "lgpe": "Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi.",
+            "swsh": "Le lanceur envoie des rayons d’étoiles. Touche toujours l’ennemi."
+        },
+        "japanese-kana": {
+            "xy": "ほしがたの　ひかりを　はっしゃして あいてを　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "oras": "ほしがたの　ひかりを　はっしゃして あいてを　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "sm": "ほしがたの　ひかりを　はっしゃして あいてを　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "usum": "ほしがたの　ひかりを　はっしゃして あいてを　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "lgpe": "ほしがたの　ひかりを　はっしゃして あいてを　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+            "swsh": "ほしがたの　ひかりを　はっしゃして あいてを　こうげきする。 こうげきは　かならず　めいちゅう　する。"
+        },
+        "korean": {
+            "xy": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다.",
+            "oras": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다.",
+            "sm": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다.",
+            "usum": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다.",
+            "lgpe": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다.",
+            "swsh": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다."
+        },
+        "german": {
+            "xy": "Verschießt sternförmige Strahlen, die stets treffen, auf Ziele in der Umgebung.",
+            "oras": "Verschießt sternförmige Strahlen, die stets treffen, auf Gegner in der Umgebung.",
+            "sm": "Verschießt sternförmige Strahlen, die stets treffen, auf Gegner in der Umgebung.",
+            "usum": "Verschießt sternförmige Strahlen, die stets treffen, auf Gegner in der Umgebung.",
+            "lgpe": "Verschießt sternförmige Strahlen, die stets treffen, auf Gegner in der Umgebung.",
+            "swsh": "Verschießt sternförmige Strahlen, die stets treffen, auf gegnerische Pokémon."
+        },
+        "spanish": {
+            "xy": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "oras": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "sm": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "usum": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "lgpe": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "swsh": "Lanza rayos en forma de estrella que no fallan nunca."
+        },
+        "italian": {
+            "xy": "Chi la usa colpisce i nemici intorno con raggi a forma di stella. Questo attacco è infallibile.",
+            "oras": "Chi la usa colpisce i nemici intorno con raggi a forma di stella. Questo attacco è infallibile.",
+            "sm": "Chi la usa colpisce i nemici intorno con raggi a forma di stella. Questo attacco è infallibile.",
+            "usum": "Chi la usa colpisce i nemici intorno con raggi a forma di stella. Questo attacco è infallibile.",
+            "lgpe": "Chi la usa colpisce i nemici intorno con raggi a forma di stella. Questo attacco è infallibile.",
+            "swsh": "Chi la usa colpisce i nemici intorno con raggi a forma di stella. Questo attacco è infallibile."
+        },
+        "japanese": {
+            "xy": "星型の　光を　発射して 相手を　攻撃する。 攻撃は　必ず　命中する。",
+            "oras": "星型の　光を　発射して 相手を　攻撃する。 攻撃は　必ず　命中する。",
+            "sm": "星型の　光を　発射して 相手を　攻撃する。 攻撃は　必ず　命中する。",
+            "usum": "星型の　光を　発射して 相手を　攻撃する。 攻撃は　必ず　命中する。",
+            "lgpe": "星型の　光を　発射して 相手を　攻撃する。 攻撃は　必ず　命中する。",
+            "swsh": "星型の　光を　発射して 相手を　攻撃する。 攻撃は　必ず　命中する。"
+        },
+        "latin-american-spanish": {
+            "xy": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "oras": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "sm": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "usum": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "lgpe": "Lanza rayos en forma de estrella que no fallan nunca.",
+            "swsh": "Lanza rayos en forma de estrella que no fallan nunca."
+        },
+        "traditional-chinese": {
+            "sm": "發射星型光線攻擊對手。 攻擊必定會命中。",
+            "usum": "發射星型光線攻擊對手。 攻擊必定會命中。",
+            "lgpe": "發射星型光線攻擊對手。 攻擊必定會命中。",
+            "swsh": "發射星型光線攻擊對手。 攻擊必定會命中。"
+        },
+        "simplified-chinese": {
+            "sm": "发射星形的光攻击对手。 攻击必定会命中。",
+            "usum": "发射星形的光攻击对手。 攻击必定会命中。",
+            "lgpe": "发射星形的光攻击对手。 攻击必定会命中。",
+            "swsh": "发射星形的光攻击对手。 攻击必定会命中。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+        "shortEffect": "Never misses."
+    }
 }

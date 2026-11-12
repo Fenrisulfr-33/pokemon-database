@@ -1,42 +1,148 @@
 {
-  "_id": 463,
-  "key": "magma-storm",
-  "name": {
-    "english": "Magma Storm",
-    "japanese": "マグマストーム",
-    "chinese": "岩浆暴风",
-    "korean": "마그마스톰",
-    "german": "Lluvia Ígnea",
-    "french": "Lavasturm",
-    "italian": "Magma Storm",
-    "spanish": "Magmaclisma"
-  },
-  "type": "Fire",
-  "category": "Special",
-  "contest": "Tough",
-  "pp": 5,
-  "power": 120,
-  "accuracy": 75,
-  "contact": null,
-  "generation": 4,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "diamond-pearl": "The foe becomes\ntrapped within a\nmaelstrom of fire\nthat rages for two\nto five turns.",
-    "platinum": "The foe becomes\ntrapped within a\nmaelstrom of fire\nthat rages for two\nto five turns.",
-    "heartgold-soulsilver": "The foe becomes\ntrapped within a\nmaelstrom of fire\nthat rages for two\nto five turns.",
-    "black-white": "The target becomes trapped\nwithin a maelstrom of fire that rages\nfor four to five turns.",
-    "black-2-white-2": "The target becomes trapped\nwithin a maelstrom of fire that rages\nfor four to five turns.",
-    "x-y": "The target becomes trapped\nwithin a maelstrom of fire that rages\nfor four to five turns.",
-    "omega-ruby-alpha-sapphire": "The target becomes trapped\nwithin a maelstrom of fire that rages\nfor four to five turns.",
-    "sun-moon": "The target becomes trapped within a maelstrom of\nfire that rages for four to five turns.",
-    "ultra-sun-ultra-moon": "The target becomes trapped within a maelstrom of\nfire that rages for four to five turns.",
-    "lets-go-pikachu-lets-go-eevee": "The target becomes trapped within a maelstrom of\nfire that rages for four to five turns.",
-    "sword-shield": "The target becomes trapped within a maelstrom of\nfire that rages for four to five turns."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
-    "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
-  },
-  "priority": 0
+    "_id": 463,
+    "key": "magma-storm",
+    "name": {
+        "japanese-kana": "マグマストーム",
+        "korean": "마그마스톰",
+        "traditional-chinese": "熔岩風暴",
+        "french": "Vortex Magma",
+        "german": "Lavasturm",
+        "spanish": "Lluvia Ígnea",
+        "italian": "Magmaclisma",
+        "english": "Magma Storm",
+        "japanese": "マグマストーム",
+        "simplified-chinese": "熔岩风暴",
+        "latin-american-spanish": "Lluvia Ígnea"
+    },
+    "type": "fire",
+    "category": "special",
+    "contest": "tough",
+    "pp": 5,
+    "power": 100,
+    "accuracy": 75,
+    "contact": false,
+    "generation": 4,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "trap",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 5,
+        "maxTurns": 6,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 100,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "bw": {
+            "accuracy": 70
+        },
+        "xy": {
+            "power": 120
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "dp": "The foe becomes trapped within a maelstrom of fire that rages for two to five turns.",
+            "pt": "The foe becomes trapped within a maelstrom of fire that rages for two to five turns.",
+            "hgss": "The foe becomes trapped within a maelstrom of fire that rages for two to five turns.",
+            "bw": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "b2w2": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "xy": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "oras": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "sm": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "usum": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "lgpe": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "swsh": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+            "la": "The user envelops the target in a maelstrom of fire. This also leaves the target with a burn.",
+            "sv": "The user traps the target inside a maelstrom of fire that inflicts damage for four to five turns."
+        },
+        "french": {
+            "bw": "L’ennemi est pris dans un tourbillon de feu qui dure de 4 à 5 tours.",
+            "xy": "L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours.",
+            "oras": "L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours.",
+            "sm": "L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours.",
+            "usum": "L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours.",
+            "lgpe": "L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours.",
+            "swsh": "L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours."
+        },
+        "japanese-kana": {
+            "xy": "はげしく　もえたぎる　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "oras": "はげしく　もえたぎる　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "sm": "はげしく　もえたぎる　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "usum": "はげしく　もえたぎる　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "lgpe": "はげしく　もえたぎる　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+            "swsh": "はげしく　もえたぎる　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。"
+        },
+        "korean": {
+            "xy": "세차게 타오르는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "oras": "세차게 타오르는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "sm": "세차게 타오르는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "usum": "세차게 타오르는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "lgpe": "세차게 타오르는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+            "swsh": "세차게 타오르는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다."
+        },
+        "german": {
+            "xy": "Das Ziel wird in einen Feuersog gezogen, der vier bis fünf Runden aktiv ist.",
+            "oras": "Das Ziel wird in einen Feuersog gezogen, der vier bis fünf Runden aktiv ist.",
+            "sm": "Das Ziel wird in einen Feuersog gezogen, der vier bis fünf Runden aktiv ist.",
+            "usum": "Das Ziel wird in einen Feuersog gezogen, der vier bis fünf Runden aktiv ist.",
+            "lgpe": "Das Ziel wird in einen Feuersog gezogen, der vier bis fünf Runden aktiv ist.",
+            "swsh": "Das Ziel wird in einen Feuersog gezogen, der vier bis fünf Runden aktiv ist."
+        },
+        "spanish": {
+            "xy": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "oras": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "sm": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "usum": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "lgpe": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "swsh": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos."
+        },
+        "italian": {
+            "xy": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "oras": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "sm": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "usum": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "lgpe": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+            "swsh": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni."
+        },
+        "japanese": {
+            "xy": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　あいだ 相手を　閉じこめて　攻撃する。",
+            "oras": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　あいだ 相手を　閉じこめて　攻撃する。",
+            "sm": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+            "usum": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+            "lgpe": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+            "swsh": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　間 相手を　閉じこめて　攻撃する。"
+        },
+        "latin-american-spanish": {
+            "xy": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "oras": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "sm": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "usum": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "lgpe": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+            "swsh": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos."
+        },
+        "traditional-chinese": {
+            "sm": "將對手困在 熊熊燃燒的火焰中， 在４～５回合內進行攻擊。",
+            "usum": "將對手困在 熊熊燃燒的火焰中， 在４～５回合內進行攻擊。",
+            "lgpe": "將對手困在 熊熊燃燒的火焰中， 在４～５回合內進行攻擊。",
+            "swsh": "將對手困在 熊熊燃燒的火焰中， 在４～５回合內進行攻擊。"
+        },
+        "simplified-chinese": {
+            "sm": "将对手困在 熊熊燃烧的火焰中， 在４～５回合内进行攻击。",
+            "usum": "将对手困在 熊熊燃烧的火焰中， 在４～５回合内进行攻击。",
+            "lgpe": "将对手困在 熊熊燃烧的火焰中， 在４～５回合内进行攻击。",
+            "swsh": "将对手困在 熊熊燃烧的火焰中， 在４～５回合内进行攻击。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "shortEffect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+    }
 }

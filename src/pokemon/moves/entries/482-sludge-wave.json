@@ -1,39 +1,138 @@
 {
-  "_id": 482,
-  "key": "sludge-wave",
-  "name": {
-    "english": "Sludge Wave",
-    "japanese": "ヘドロウェーブ",
-    "chinese": "泥浆波",
-    "korean": "오물웨이브",
-    "german": "Onda Tóxica",
-    "french": "Schlammwoge",
-    "italian": "Sludge Wave",
-    "spanish": "Fangonda"
-  },
-  "type": "Poison",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 95,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 5,
-  "target": "all-other-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "It swamps the area around the user with a\ngiant sludge wave.\nIt may also poison those hit.",
-    "black-2-white-2": "It swamps the area around the user with a\ngiant sludge wave.\nIt may also poison those hit.",
-    "x-y": "The user strikes everything around it\nby swamping the area with a giant sludge wave.\nThis may also poison those hit.",
-    "omega-ruby-alpha-sapphire": "The user strikes everything around it\nby swamping the area with a giant sludge wave.\nThis may also poison those hit.",
-    "sun-moon": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
-    "ultra-sun-ultra-moon": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
-    "lets-go-pikachu-lets-go-eevee": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
-    "sword-shield": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
-    "shortEffect": "Has a $effect_chance% chance to poison the target."
-  },
-  "priority": 0
+    "_id": 482,
+    "key": "sludge-wave",
+    "name": {
+        "japanese-kana": "ヘドロウェーブ",
+        "korean": "오물웨이브",
+        "traditional-chinese": "污泥波",
+        "french": "Cradovague",
+        "german": "Schlammwoge",
+        "spanish": "Onda Tóxica",
+        "italian": "Fangonda",
+        "english": "Sludge Wave",
+        "japanese": "ヘドロウェーブ",
+        "simplified-chinese": "污泥波",
+        "latin-american-spanish": "Ola de Lodo"
+    },
+    "type": "poison",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 95,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "poison",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+            "xy": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+            "oras": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+            "sm": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+            "usum": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+            "lgpe": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+            "swsh": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner."
+        },
+        "english": {
+            "bw": "It swamps the area around the user with a giant sludge wave. It may also poison those hit.",
+            "b2w2": "It swamps the area around the user with a giant sludge wave. It may also poison those hit.",
+            "xy": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+            "oras": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+            "sm": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+            "usum": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+            "lgpe": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+            "swsh": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+            "la": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+            "sv": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits."
+        },
+        "japanese-kana": {
+            "xy": "ヘドロの　なみで　じぶんの まわりに　いるものを　こうげきする。 どく　じょうたいに　することが　ある。",
+            "oras": "ヘドロの　な で　じぶんの まわりに　いるものを　こうげきする。 どく　じょうたいに　することが　ある。",
+            "sm": "ヘドロの　なみで　じぶんの まわりに　いるものを　こうげきする。 どく　じょうたいに　することが　ある。",
+            "usum": "ヘドロの　なみで　じぶんの まわりに　いるものを　こうげきする。 どく　じょうたいに　することが　ある。",
+            "lgpe": "ヘドロの　なみで　じぶんの まわりに　いるものを　こうげきする。 どく　じょうたいに　することが　ある。",
+            "swsh": "ヘドロの　なみで　じぶんの まわりに　いるものを　こうげきする。 どく　じょうたいに　することが　ある。"
+        },
+        "korean": {
+            "xy": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다.",
+            "oras": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다.",
+            "sm": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다.",
+            "usum": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다.",
+            "lgpe": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다.",
+            "swsh": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다."
+        },
+        "german": {
+            "xy": "Greift Pokémon in der Nähe des Anwenders mit einer Schlammwelle an. Diese werden eventuell vergiftet.",
+            "oras": "Greift Pokémon in der Nähe des Anwenders mit einer Schlammwelle an. Diese werden eventuell vergiftet.",
+            "sm": "Greift Pokémon in der Nähe des Anwenders mit einer Schlammwelle an. Diese werden eventuell vergiftet.",
+            "usum": "Greift Pokémon in der Nähe des Anwenders mit einer Schlammwelle an. Diese werden eventuell vergiftet.",
+            "lgpe": "Greift Pokémon in der Nähe des Anwenders mit einer Schlammwelle an. Diese werden eventuell vergiftet.",
+            "swsh": "Greift alle Pokémon im Umkreis mit einer Schlammwelle an. Diese werden eventuell auch vergiftet."
+        },
+        "spanish": {
+            "xy": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "oras": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "sm": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "usum": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "lgpe": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "swsh": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+        },
+        "italian": {
+            "xy": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.",
+            "oras": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.",
+            "sm": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.",
+            "usum": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.",
+            "lgpe": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.",
+            "swsh": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli."
+        },
+        "japanese": {
+            "xy": "ヘドロの　波で　自分の 周りに　いるものを　攻撃する。 毒状態に　することが　ある。",
+            "oras": "ヘドロの　波で　自分の 周りに　いるものを　攻撃する。 毒状態に　することが　ある。",
+            "sm": "ヘドロの　波で　自分の 周りに　いるものを　攻撃する。 毒状態に　することが　ある。",
+            "usum": "ヘドロの　波で　自分の 周りに　いるものを　攻撃する。 毒状態に　することが　ある。",
+            "lgpe": "ヘドロの　波で　自分の 周りに　いるものを　攻撃する。 毒状態に　することが　ある。",
+            "swsh": "ヘドロの　波で　自分の 周りに　いるものを　攻撃する。 毒状態に　することが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "oras": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "sm": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "usum": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "lgpe": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+            "swsh": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+        },
+        "traditional-chinese": {
+            "sm": "用污泥波攻擊 自己周圍所有的寶可夢。 有時會讓對手陷入中毒狀態。",
+            "usum": "用污泥波攻擊 自己周圍所有的寶可夢。 有時會讓對手陷入中毒狀態。",
+            "lgpe": "用污泥波攻擊 自己周圍所有的寶可夢。 有時會讓對手陷入中毒狀態。",
+            "swsh": "用污泥波攻擊 自己周圍所有的寶可夢。 有時會讓對手陷入中毒狀態。"
+        },
+        "simplified-chinese": {
+            "sm": "用污泥波攻击 自己周围所有的宝可梦。 有时会陷入中毒状态。",
+            "usum": "用污泥波攻击 自己周围所有的宝可梦。 有时会陷入中毒状态。",
+            "lgpe": "用污泥波攻击 自己周围所有的宝可梦。 有时会陷入中毒状态。",
+            "swsh": "用污泥波攻击 自己周围所有的宝可梦。 有时会陷入中毒状态。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to poison the target.",
+        "shortEffect": "Has a chance to poison the target."
+    }
 }

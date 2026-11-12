@@ -1,47 +1,146 @@
 {
-  "_id": 60,
-  "key": "psybeam",
-  "name": {
-    "english": "Psybeam",
-    "japanese": "サイケこうせん",
-    "chinese": "幻象光",
-    "korean": "환상빔",
-    "german": "Psicorrayo",
-    "french": "Psystrahl",
-    "italian": "Psybeam",
-    "spanish": "Psicoraggio"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": 65,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 1,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with a peculiar ray. This may\nalso leave the target confused.",
-    "gold-silver": "An attack that may\nconfuse the foe.",
-    "crystal": "An attack that may\nconfuse the foe.",
-    "ruby-sapphire": "Fires a peculiar ray that\nmay confuse the foe.",
-    "emerald": "Fires a peculiar ray that\nmay confuse the foe.",
-    "firered-leafgreen": "A peculiar ray is\nshot at the foe.\nIt may leave the\nfoe confused.",
-    "diamond-pearl": "The foe is attacked\nwith a peculiar ray.\nIt may also leave the\ntarget confused.\n",
-    "platinum": "The foe is attacked\nwith a peculiar ray.\nIt may also leave the\ntarget confused.\n",
-    "heartgold-soulsilver": "The foe is attacked\nwith a peculiar ray.\nIt may also leave the\ntarget confused.\n",
-    "black-white": "The target is attacked with a peculiar ray.\nIt may also cause confusion.",
-    "black-2-white-2": "The target is attacked with a peculiar ray.\nIt may also cause confusion.",
-    "x-y": "The target is attacked with a peculiar ray.\nThis may also leave the target confused.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with a peculiar ray.\nThis may also leave the target confused.",
-    "sun-moon": "The target is attacked with a peculiar ray. This may\nalso leave the target confused.",
-    "ultra-sun-ultra-moon": "The target is attacked with a peculiar ray. This may\nalso leave the target confused.",
-    "sword-shield": "The target is attacked with a peculiar ray. This may\nalso leave the target confused."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 60,
+    "key": "psybeam",
+    "name": {
+        "japanese-kana": "サイケこうせん",
+        "korean": "환상빔",
+        "traditional-chinese": "幻象光線",
+        "french": "Rafale Psy",
+        "german": "Psystrahl",
+        "spanish": "Psicorrayo",
+        "italian": "Psicoraggio",
+        "english": "Psybeam",
+        "japanese": "サイケこうせん",
+        "simplified-chinese": "幻象光线",
+        "latin-american-spanish": "Psicorrayo"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 1,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 10,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "An attack that may confuse the foe.",
+            "cr": "An attack that may confuse the foe.",
+            "rs": "Fires a peculiar ray that may confuse the foe.",
+            "em": "Fires a peculiar ray that may confuse the foe.",
+            "frlg": "A peculiar ray is shot at the foe. It may leave the foe confused.",
+            "dp": "The foe is attacked with a peculiar ray. It may also leave the target confused.",
+            "pt": "The foe is attacked with a peculiar ray. It may also leave the target confused.",
+            "hgss": "The foe is attacked with a peculiar ray. It may also leave the target confused.",
+            "bw": "The target is attacked with a peculiar ray. It may also cause confusion.",
+            "b2w2": "The target is attacked with a peculiar ray. It may also cause confusion.",
+            "xy": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+            "oras": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+            "sm": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+            "usum": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+            "lgpe": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+            "swsh": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+            "la": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+            "sv": "The target is attacked with a peculiar ray. This may also confuse the target."
+        },
+        "french": {
+            "bw": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.",
+            "xy": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.",
+            "oras": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.",
+            "sm": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.",
+            "usum": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.",
+            "lgpe": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.",
+            "swsh": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus."
+        },
+        "japanese-kana": {
+            "xy": "ふしぎな　こうせんを あいてに　はっしゃして　こうげきする。 こんらん　させることが　ある。",
+            "oras": "ふしぎな　こうせんを あいてに　はっしゃして　こうげきする。 こんらん　させることが　ある。",
+            "sm": "ふしぎな　こうせんを あいてに　はっしゃして　こうげきする。 こんらん　させることが　ある。",
+            "usum": "ふしぎな　こうせんを あいてに　はっしゃして　こうげきする。 こんらん　させることが　ある。",
+            "lgpe": "ふしぎな　こうせんを あいてに　はっしゃして　こうげきする。 こんらん　させることが　ある。",
+            "swsh": "ふしぎな　こうせんを あいてに　はっしゃして　こうげきする。 こんらん　させることが　ある。"
+        },
+        "korean": {
+            "xy": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다.",
+            "oras": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다.",
+            "sm": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다.",
+            "usum": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다.",
+            "lgpe": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다.",
+            "swsh": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다."
+        },
+        "german": {
+            "xy": "Feuert einen Strahl ab, der das Ziel verwirren kann.",
+            "oras": "Feuert einen Strahl ab, der das Ziel verwirren kann.",
+            "sm": "Feuert einen Strahl ab, der das Ziel verwirren kann.",
+            "usum": "Feuert einen Strahl ab, der das Ziel verwirren kann.",
+            "lgpe": "Feuert einen Strahl ab, der das Ziel verwirren kann.",
+            "swsh": "Feuert einen Strahl ab, der das Ziel verwirren kann."
+        },
+        "spanish": {
+            "xy": "Extraño rayo que puede causar confusión.",
+            "oras": "Extraño rayo que puede causar confusión.",
+            "sm": "Extraño rayo que puede causar confusión.",
+            "usum": "Extraño rayo que puede causar confusión.",
+            "lgpe": "Extraño rayo que puede causar confusión.",
+            "swsh": "Extraño rayo que puede causar confusión."
+        },
+        "italian": {
+            "xy": "Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.",
+            "oras": "Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.",
+            "sm": "Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.",
+            "usum": "Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.",
+            "lgpe": "Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.",
+            "swsh": "Colpisce il bersaglio con un raggio speciale. Può anche confonderlo."
+        },
+        "japanese": {
+            "xy": "不思議な　光線を 相手に　発射して　攻撃する。 混乱させることが　ある。",
+            "oras": "不思議な　光線を 相手に　発射して　攻撃する。 混乱させることが　ある。",
+            "sm": "不思議な　光線を 相手に　発射して　攻撃する。 混乱させることが　ある。",
+            "usum": "不思議な　光線を 相手に　発射して　攻撃する。 混乱させることが　ある。",
+            "lgpe": "不思議な　光線を 相手に　発射して　攻撃する。 混乱させることが　ある。",
+            "swsh": "不思議な　光線を 相手に　発射して　攻撃する。 混乱させることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Extraño rayo que puede causar confusión.",
+            "oras": "Extraño rayo que puede causar confusión.",
+            "sm": "Extraño rayo que puede causar confusión.",
+            "usum": "Extraño rayo que puede causar confusión.",
+            "lgpe": "Extraño rayo que puede causar confusión.",
+            "swsh": "Extraño rayo que puede causar confusión."
+        },
+        "traditional-chinese": {
+            "sm": "向對手發射 神奇的光線進行攻擊。 有時會使對手混亂。",
+            "usum": "向對手發射 神奇的光線進行攻擊。 有時會使對手混亂。",
+            "lgpe": "向對手發射 神奇的光線進行攻擊。 有時會使對手混亂。",
+            "swsh": "向對手發射 神奇的光線進行攻擊。 有時會使對手混亂。"
+        },
+        "simplified-chinese": {
+            "sm": "向对手发射 神奇的光线进行攻击。 有时会使对手混乱。",
+            "usum": "向对手发射 神奇的光线进行攻击。 有时会使对手混乱。",
+            "lgpe": "向对手发射 神奇的光线进行攻击。 有时会使对手混乱。",
+            "swsh": "向对手发射 神奇的光线进行攻击。 有时会使对手混乱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

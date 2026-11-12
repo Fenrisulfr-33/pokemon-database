@@ -1,39 +1,136 @@
 {
-  "_id": 516,
-  "key": "bestow",
-  "name": {
-    "english": "Bestow",
-    "japanese": "ギフトパス",
-    "chinese": "礼物传递",
-    "korean": "기프트패스",
-    "german": "Ofrenda",
-    "french": "Offerte",
-    "italian": "Bestow",
-    "spanish": "Cediregalo"
-  },
-  "type": "Normal",
-  "category": "Status",
-  "contest": null,
-  "pp": 15,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user passes its held item to the\ntarget when the target isn’t holding\nan item.",
-    "black-2-white-2": "The user passes its held item to the\ntarget when the target isn’t holding\nan item.",
-    "x-y": "The user passes its held item to the\ntarget when the target isn’t holding\nan item.",
-    "omega-ruby-alpha-sapphire": "The user passes its held item to the\ntarget when the target isn’t holding\nan item.",
-    "sun-moon": "The user passes its held item to the target when the\ntarget isn’t holding an item.",
-    "ultra-sun-ultra-moon": "The user passes its held item to the target when the\ntarget isn’t holding an item.",
-    "lets-go-pikachu-lets-go-eevee": "The user passes its held item to the target when the\ntarget isn’t holding an item.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Transfers the user's held item to the target.  If the user has no held item, or the target already has a held item, this move will fail.",
-    "shortEffect": "Gives the user's held item to the target."
-  },
-  "priority": 0
+    "_id": 516,
+    "key": "bestow",
+    "name": {
+        "japanese-kana": "ギフトパス",
+        "korean": "기프트패스",
+        "traditional-chinese": "傳遞禮物",
+        "french": "Passe-Cadeau",
+        "german": "Offerte",
+        "spanish": "Ofrenda",
+        "italian": "Cediregalo",
+        "english": "Bestow",
+        "japanese": "ギフトパス",
+        "simplified-chinese": "传递礼物",
+        "latin-american-spanish": "Ofrenda"
+    },
+    "type": "normal",
+    "category": "status",
+    "contest": null,
+    "pp": 15,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Si la cible ne tient pas d’objet, le lanceur lui donne l’objet qu’il tient.",
+            "xy": "Si la cible ne tient pas d’objet, le lanceur lui donne l’objet qu’il tient.",
+            "oras": "Si la cible ne tient pas d’objet, le lanceur lui donne l’objet qu’il tient.",
+            "sm": "Si la cible ne tient pas d’objet, le lanceur lui donne l’objet qu’il tient.",
+            "usum": "Si la cible ne tient pas d’objet, le lanceur lui donne l’objet qu’il tient.",
+            "lgpe": "Si la cible ne tient pas d’objet, le lanceur lui donne l’objet qu’il tient.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "english": {
+            "bw": "The user passes its held item to the target when the target isn’t holding an item.",
+            "b2w2": "The user passes its held item to the target when the target isn’t holding an item.",
+            "xy": "The user passes its held item to the target when the target isn’t holding an item.",
+            "oras": "The user passes its held item to the target when the target isn’t holding an item.",
+            "sm": "The user passes its held item to the target when the target isn’t holding an item.",
+            "usum": "The user passes its held item to the target when the target isn’t holding an item.",
+            "lgpe": "The user passes its held item to the target when the target isn’t holding an item.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "japanese-kana": {
+            "xy": "あいてが　どうぐを　もっていない　とき じぶんが　もっている　どうぐを あいてに　わたす。",
+            "oras": "あいてが　どうぐを　もっていない　とき じぶんが　もっている　どうぐを あいてに　わたす。",
+            "sm": "あいてが　どうぐを　もっていない　とき じぶんが　もっている　どうぐを あいてに　わたす。",
+            "usum": "あいてが　どうぐを　もっていない　とき じぶんが　もっている　どうぐを あいてに　わたす。",
+            "lgpe": "あいてが　どうぐを　もっていない　とき じぶんが　もっている　どうぐを あいてに　わたす。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "상대가 도구를 지니고 있지 않을 때 자신이 지니고 있는 도구를 상대에게 건넨다.",
+            "oras": "상대가 도구를 지니고 있지 않을 때 자신이 지니고 있는 도구를 상대에게 건넨다.",
+            "sm": "상대가 도구를 지니고 있지 않을 때 자신이 지니고 있는 도구를 상대에게 건넨다.",
+            "usum": "상대가 도구를 지니고 있지 않을 때 자신이 지니고 있는 도구를 상대에게 건넨다.",
+            "lgpe": "상대가 도구를 지니고 있지 않을 때 자신이 지니고 있는 도구를 상대에게 건넨다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Trägt das Ziel gerade kein Item bei sich, erhält es das Item, das sich aktuell im Besitz des Anwenders befindet.",
+            "oras": "Trägt das Ziel gerade kein Item bei sich, erhält es das Item, das sich aktuell im Besitz des Anwenders befindet.",
+            "sm": "Trägt das Ziel gerade kein Item bei sich, erhält es das Item, das sich aktuell im Besitz des Anwenders befindet.",
+            "usum": "Trägt das Ziel gerade kein Item bei sich, erhält es das Item, das sich aktuell im Besitz des Anwenders befindet.",
+            "lgpe": "Trägt das Ziel gerade kein Item bei sich, erhält es das Item, das sich aktuell im Besitz des Anwenders befindet.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "oras": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "sm": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "usum": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "lgpe": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Chi la usa consegna il proprio strumento al bersaglio, se questi ne è sprovvisto.",
+            "oras": "Chi la usa consegna il proprio strumento al bersaglio, se questi ne è sprovvisto.",
+            "sm": "Chi la usa consegna il proprio strumento al bersaglio, se questi ne è sprovvisto.",
+            "usum": "Chi la usa consegna il proprio strumento al bersaglio, se questi ne è sprovvisto.",
+            "lgpe": "Chi la usa consegna il proprio strumento al bersaglio, se questi ne è sprovvisto.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "相手が　道具を　持っていないとき 自分が　持っている　道具を 相手に　わたす。",
+            "oras": "相手が　道具を　持っていないとき 自分が　持っている　道具を 相手に　わたす。",
+            "sm": "相手が　道具を　持っていないとき 自分が　持っている　道具を 相手に　わたす。",
+            "usum": "相手が　道具を　持っていないとき 自分が　持っている　道具を 相手に　わたす。",
+            "lgpe": "相手が　道具を　持っていないとき 自分が　持っている　道具を 相手に　わたす。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "oras": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "sm": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "usum": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "lgpe": "Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "當對手沒有攜帶道具時， 能夠將自己攜帶的道具交給對手。",
+            "usum": "當對手沒有攜帶道具時， 能夠將自己攜帶的道具交給對手。",
+            "lgpe": "當對手沒有攜帶道具時， 能夠將自己攜帶的道具交給對手。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "当对手未携带道具时， 能够将自己携带的道具交给对手。",
+            "usum": "当对手未携带道具时， 能够将自己携带的道具交给对手。",
+            "lgpe": "当对手未携带道具时， 能够将自己携带的道具交给对手。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Transfers the user’s held item to the target.  If the user has no held item, or the target already has a held item, this move will fail.",
+        "shortEffect": "Gives the user’s held item to the target."
+    }
 }

@@ -1,39 +1,142 @@
 {
-  "_id": 542,
-  "key": "hurricane",
-  "name": {
-    "english": "Hurricane",
-    "japanese": "ぼうふう",
-    "chinese": "暴风",
-    "korean": "폭풍",
-    "german": "Vendaval",
-    "french": "Orkan",
-    "italian": "Hurricane",
-    "spanish": "Tifone"
-  },
-  "type": "Flying",
-  "category": "Special",
-  "contest": null,
-  "pp": 10,
-  "power": 120,
-  "accuracy": 70,
-  "contact": null,
-  "generation": 5,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "black-white": "The user attacks by wrapping its opponent\nin a fierce wind that flies up into the sky.\nIt may also confuse the target.",
-    "black-2-white-2": "The user attacks by wrapping its opponent\nin a fierce wind that flies up into the sky.\nIt may also confuse the target.",
-    "x-y": "The user attacks by wrapping its opponent\nin a fierce wind that flies up into the sky.\nThis may also confuse the target.",
-    "omega-ruby-alpha-sapphire": "The user attacks by wrapping its opponent\nin a fierce wind that flies up into the sky.\nThis may also confuse the target.",
-    "sun-moon": "The user attacks by wrapping its opponent in a\nfierce wind that flies up into the sky. This may also\nconfuse the target.",
-    "ultra-sun-ultra-moon": "The user attacks by wrapping its opponent in a\nfierce wind that flies up into the sky. This may also\nconfuse the target.",
-    "lets-go-pikachu-lets-go-eevee": "The user attacks by wrapping its opponent in a\nfierce wind that flies up into the sky. This may also\nconfuse the target.",
-    "sword-shield": "The user attacks by wrapping its opponent in a\nfierce wind that flies up into the sky. This may also\nconfuse the target."
-  },
-  "effect": {
-    "full": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.\n\nThis move can hit Pokémon under the effect of bounce, fly, or sky drop.\n\nDuring rain dance, this move has 100% accuracy.  During sunny day, this move has 50% accuracy.",
-    "shortEffect": "Has a $effect_chance% chance to confuse the target."
-  },
-  "priority": 0
+    "_id": 542,
+    "key": "hurricane",
+    "name": {
+        "japanese-kana": "ぼうふう",
+        "korean": "폭풍",
+        "traditional-chinese": "暴風",
+        "french": "Vent Violent",
+        "german": "Orkan",
+        "spanish": "Vendaval",
+        "italian": "Tifone",
+        "english": "Hurricane",
+        "japanese": "ぼうふう",
+        "simplified-chinese": "暴风",
+        "latin-american-spanish": "Huracán"
+    },
+    "type": "flying",
+    "category": "special",
+    "contest": null,
+    "pp": 10,
+    "power": 110,
+    "accuracy": 70,
+    "contact": false,
+    "generation": 5,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-ailment",
+        "ailment": "confusion",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": 2,
+        "maxTurns": 5,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 30,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {
+        "xy": {
+            "power": 120
+        }
+    },
+    "effectChanges": {},
+    "flavorText": {
+        "french": {
+            "bw": "Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.",
+            "xy": "Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.",
+            "oras": "Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.",
+            "sm": "Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.",
+            "usum": "Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.",
+            "lgpe": "Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus.",
+            "swsh": "Le lanceur déclenche une tempête de vents violents qui s’abat sur l’ennemi. Peut aussi le rendre confus."
+        },
+        "english": {
+            "bw": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. It may also confuse the target.",
+            "b2w2": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. It may also confuse the target.",
+            "xy": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.",
+            "oras": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.",
+            "sm": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.",
+            "usum": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.",
+            "lgpe": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.",
+            "swsh": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.",
+            "la": "The user attacks by wrapping its opponent in a fierce wind.",
+            "sv": "The user attacks by wrapping its opponent in a fierce wind. This may also confuse the target."
+        },
+        "japanese-kana": {
+            "xy": "きょうれつな　かぜで　あいてを つつみこんで　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "oras": "きょうれつな　かぜで　あいてを つつ こんで　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "sm": "きょうれつな　かぜで　あいてを つつみこんで　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "usum": "きょうれつな　かぜで　あいてを つつみこんで　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "lgpe": "きょうれつな　かぜで　あいてを つつみこんで　こうげきする。 あいてを　こんらん　させることが　ある。",
+            "swsh": "きょうれつな　かぜで　あいてを つつみこんで　こうげきする。 あいてを　こんらん　させることが　ある。"
+        },
+        "korean": {
+            "xy": "강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "oras": "강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "sm": "강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "usum": "강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "lgpe": "강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 혼란시킬 때가 있다.",
+            "swsh": "강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 혼란시킬 때가 있다."
+        },
+        "german": {
+            "xy": "Anwender greift das Ziel an, indem er es mit heftigen Windböen umgibt. Ziel wird eventuell verwirrt.",
+            "oras": "Anwender greift das Ziel an, indem er es mit heftigen Windböen umgibt. Ziel wird eventuell verwirrt.",
+            "sm": "Anwender greift das Ziel an, indem er es mit heftigen Windböen umgibt. Ziel wird eventuell verwirrt.",
+            "usum": "Anwender greift das Ziel an, indem er es mit heftigen Windböen umgibt. Ziel wird eventuell verwirrt.",
+            "lgpe": "Anwender greift das Ziel an, indem er es mit heftigen Windböen umgibt. Ziel wird eventuell verwirrt.",
+            "swsh": "Anwender greift das Ziel an, indem er es mit heftigen Windböen umgibt. Ziel wird eventuell verwirrt."
+        },
+        "spanish": {
+            "xy": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "oras": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "sm": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "usum": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "lgpe": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "swsh": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo."
+        },
+        "italian": {
+            "xy": "Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo.",
+            "oras": "Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo.",
+            "sm": "Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo.",
+            "usum": "Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo.",
+            "lgpe": "Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo.",
+            "swsh": "Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo."
+        },
+        "japanese": {
+            "xy": "強烈な　風で　相手を 包みこんで　攻撃する。 相手を　混乱させることが　ある。",
+            "oras": "強烈な　風で　相手を 包 こんで　攻撃する。 相手を　混乱させることが　ある。",
+            "sm": "強烈な　風で　相手を 包みこんで　攻撃する。 相手を　混乱させることが　ある。",
+            "usum": "強烈な　風で　相手を 包みこんで　攻撃する。 相手を　混乱させることが　ある。",
+            "lgpe": "強烈な　風で　相手を 包みこんで　攻撃する。 相手を　混乱させることが　ある。",
+            "swsh": "強烈な　風で　相手を 包みこんで　攻撃する。 相手を　混乱させることが　ある。"
+        },
+        "latin-american-spanish": {
+            "xy": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "oras": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "sm": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "usum": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "lgpe": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.",
+            "swsh": "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo."
+        },
+        "traditional-chinese": {
+            "sm": "用強烈的風席捲 對手進行攻擊。 有時會使對手混亂。",
+            "usum": "用強烈的風席捲 對手進行攻擊。 有時會使對手混亂。",
+            "lgpe": "用強烈的風席捲 對手進行攻擊。 有時會使對手混亂。",
+            "swsh": "用強烈的風席捲 對手進行攻擊。 有時會使對手混亂。"
+        },
+        "simplified-chinese": {
+            "sm": "用强烈的风席卷 对手进行攻击。 有时会使对手混乱。",
+            "usum": "用强烈的风席卷 对手进行攻击。 有时会使对手混乱。",
+            "lgpe": "用强烈的风席卷 对手进行攻击。 有时会使对手混乱。",
+            "swsh": "用强烈的风席卷 对手进行攻击。 有时会使对手混乱。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage.  Has a chance to confuse the target. This move can hit Pokémon under the effect of Bounce, Fly, or Sky Drop. During Rain Dance, this move has 100% accuracy.  During Sunny Day, this move has 50% accuracy.",
+        "shortEffect": "Has a chance to confuse the target."
+    }
 }

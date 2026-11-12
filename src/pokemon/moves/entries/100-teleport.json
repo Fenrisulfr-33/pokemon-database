@@ -1,47 +1,146 @@
 {
-  "_id": 100,
-  "key": "teleport",
-  "name": {
-    "english": "Teleport",
-    "japanese": "テレポート",
-    "chinese": "瞬间移动",
-    "korean": "순간이동",
-    "german": "Teletransporte",
-    "french": "Teleport",
-    "italian": "Teleport",
-    "spanish": "Teletrasporto"
-  },
-  "type": "Psychic",
-  "category": "Status",
-  "contest": "Cool",
-  "pp": 20,
-  "power": null,
-  "accuracy": null,
-  "contact": null,
-  "generation": 1,
-  "target": "user",
-  "changes": [],
-  "description": {
-    "gold-silver": "A move for fleeing\nfrom battle.",
-    "crystal": "A move for fleeing\nfrom battle.",
-    "ruby-sapphire": "A psychic move for fleeing\nfrom battle instantly.",
-    "emerald": "A psychic move for fleeing\nfrom battle instantly.",
-    "firered-leafgreen": "Use it to flee from\nany wild POKéMON.\nAlso warps to the\nlast POKé CENTER.",
-    "diamond-pearl": "Use it to flee from\nany wild Pokémon.\nIt may also be used\nto warp to the last\nPoké Center visited.",
-    "platinum": "Use it to flee from\nany wild Pokémon.\nIt may also be used\nto warp to the last\nPoké Center visited.",
-    "heartgold-soulsilver": "Use it to flee from\nany wild Pokémon.\nIt can also warp to\nthe last Pokémon\nCenter visited.",
-    "black-white": "Use it to flee from any wild Pokémon.\nIt can also warp to the last Pokémon\nCenter visited.",
-    "black-2-white-2": "Use it to flee from any wild Pokémon.\nIt can also warp to the last Pokémon\nCenter visited.",
-    "x-y": "Use it to flee from any wild Pokémon.\nIt can also warp to the last Pokémon\nCenter visited.",
-    "omega-ruby-alpha-sapphire": "Use it to flee from any wild Pokémon.\nIt can also warp to the last Pokémon\nCenter visited.",
-    "sun-moon": "Use it to flee from any wild Pokémon.",
-    "ultra-sun-ultra-moon": "Use it to flee from any wild Pokémon.",
-    "lets-go-pikachu-lets-go-eevee": "The user switches places with a different Pokémon\ninstantly, using telekinetic power.",
-    "sword-shield": "The user switches places with a party Pokémon in\nwaiting, if any. If a wild Pokémon uses this move,\nit flees."
-  },
-  "effect": {
-    "full": "Does nothing.  Wild battles end immediately.",
-    "shortEffect": "Immediately ends wild battles.  No effect otherwise."
-  },
-  "priority": -6
+    "_id": 100,
+    "key": "teleport",
+    "name": {
+        "japanese-kana": "テレポート",
+        "korean": "순간이동",
+        "traditional-chinese": "瞬間移動",
+        "french": "Téléport",
+        "german": "Teleport",
+        "spanish": "Teletransporte",
+        "italian": "Teletrasporto",
+        "english": "Teleport",
+        "japanese": "テレポート",
+        "simplified-chinese": "瞬间移动",
+        "latin-american-spanish": "Teletransporte"
+    },
+    "type": "psychic",
+    "category": "status",
+    "contest": "cool",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "contact": false,
+    "generation": 1,
+    "priority": -6,
+    "target": "user",
+    "meta": {
+        "category": "unique",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "A move for fleeing from battle.",
+            "cr": "A move for fleeing from battle.",
+            "rs": "A psychic move for fleeing from battle instantly.",
+            "em": "A psychic move for fleeing from battle instantly.",
+            "frlg": "Use it to flee from any wild POKéMON. Also warps to the last POKé CENTER.",
+            "dp": "Use it to flee from any wild Pokémon. It may also be used to warp to the last Poké Center visited.",
+            "pt": "Use it to flee from any wild Pokémon. It may also be used to warp to the last Poké Center visited.",
+            "hgss": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.",
+            "bw": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.",
+            "b2w2": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.",
+            "xy": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.",
+            "oras": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.",
+            "sm": "Use it to flee from any wild Pokémon.",
+            "usum": "Use it to flee from any wild Pokémon.",
+            "lgpe": "The user switches places with a different Pokémon instantly, using telekinetic power.",
+            "swsh": "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees.",
+            "la": "The user switches places with a party Pokémon in waiting, if there is any able to battle. If a wild Pokémon uses this move, it flees.",
+            "sv": "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees."
+        },
+        "french": {
+            "bw": "Permet de fuir un Pokémon sauvage. Permet aussi de revenir au dernier Centre Pokémon visité.",
+            "xy": "Permet de fuir un Pokémon sauvage. Permet aussi de revenir au dernier Centre Pokémon visité.",
+            "oras": "Permet de fuir un Pokémon sauvage. Permet aussi de revenir au dernier Centre Pokémon visité.",
+            "sm": "Permet de fuir une rencontre avec un Pokémon sauvage.",
+            "usum": "Permet de fuir une rencontre avec un Pokémon sauvage.",
+            "lgpe": "Le lanceur utilise sa force psychique pour se téléporter et échanger sa place avec un autre Pokémon de l’équipe.",
+            "swsh": "Permet de changer de place avec un autre Pokémon de l’équipe s’il y en a. Quand cette capacité est utilisée par un Pokémon sauvage, celui-ci fuit le combat."
+        },
+        "japanese-kana": {
+            "xy": "やせい　ポケモンとの　せんとうを やめる。さいごに　はいった ポケセンの　ある　まちにも　いける。",
+            "oras": "やせい　ポケモンとの　せんとうを やめる。さいごに　はいった ポケセンの　ある　まちにも　いける。",
+            "sm": "やせい　ポケモン　との せんとうを　やめて　にげる。",
+            "usum": "やせい　ポケモン　との せんとうを　やめて　にげる。",
+            "lgpe": "ねんりきを　つかい　いっしゅんで ひかえの　ポケモンと　いれかわる。",
+            "swsh": "ひかえの　ポケモンが　いるときに つかうと　いれかわる。 やせいの　ポケモンは　にげてしまう。"
+        },
+        "korean": {
+            "xy": "야생 포켓몬과 배틀을 그만둔다. 마지막에 들어갔던 포켓몬센터가 있는 도시에도 갈 수 있다.",
+            "oras": "야생 포켓몬과 배틀을 그만둔다. 마지막에 들어갔던 포켓몬센터가 있는 도시에도 갈 수 있다.",
+            "sm": "야생 포켓몬과 배틀을 그만두고 도망간다.",
+            "usum": "야생 포켓몬과 배틀을 그만두고 도망간다.",
+            "lgpe": "염동력을 사용해서 순식간에 교대 포켓몬과 교체한다.",
+            "swsh": "교대할 포켓몬이 있을 때 사용하면 교체한다. 야생 포켓몬은 도망가 버린다."
+        },
+        "german": {
+            "xy": "Ermöglicht die sofortige Flucht vor wilden Pokémon. Kann den Anwender außerdem zum zuletzt besuchten Pokémon-Center teleportieren.",
+            "oras": "Ermöglicht die sofortige Flucht vor wilden Pokémon. Kann den Anwender außerdem zum zuletzt besuchten Pokémon-Center teleportieren.",
+            "sm": "Ermöglicht die sofortige Flucht vor wilden Pokémon.",
+            "usum": "Ermöglicht die sofortige Flucht vor wilden Pokémon.",
+            "lgpe": "Anwender nutzt telekinetische Energie, um sich sofort gegen ein anderes Pokémon auszutauschen.",
+            "swsh": "Der Anwender tauscht den Platz mit einem anderen Team-Mitglied, sofern vorhanden. Setzen wilde Pokémon die Attacke ein, ergreifen diese die Flucht."
+        },
+        "spanish": {
+            "xy": "Permite huir al instante de combates contra Pokémon salvajes o viajar al último Centro Pokémon visitado.",
+            "oras": "Permite huir al instante de combates contra Pokémon salvajes o viajar al último Centro Pokémon visitado.",
+            "sm": "Permite huir al instante de combates contra Pokémon salvajes.",
+            "usum": "Permite huir al instante de combates contra Pokémon salvajes.",
+            "lgpe": "El usuario emplea sus poderes telequinéticos para cambiar al instante el puesto con otro miembro del equipo.",
+            "swsh": "Permite al usuario cambiarse por otro Pokémon del equipo, si es posible. Si un Pokémon salvaje usa este movimiento, huye del combate."
+        },
+        "italian": {
+            "xy": "Fa fuggire dai Pokémon selvatici. Fuori dalla lotta porta all’ultimo Centro Pokémon visitato.",
+            "oras": "Fa fuggire dai Pokémon selvatici. Fuori dalla lotta porta all’ultimo Centro Pokémon visitato.",
+            "sm": "Fa fuggire dai Pokémon selvatici.",
+            "usum": "Fa fuggire dai Pokémon selvatici.",
+            "lgpe": "Chi la usa sfrutta la psicocinesi per farsi sostituire da un Pokémon della squadra.",
+            "swsh": "Chi la usa viene sostituito se ci sono altri Pokémon in squadra. Se un Pokémon selvatico usa questa mossa, fugge dalla lotta."
+        },
+        "japanese": {
+            "xy": "野生ポケモンとの　戦闘を　やめる。 最後に　はいった ポケセンの　ある　街にも　行ける。",
+            "oras": "野生ポケモンとの　戦闘を　やめる。 最後に　はいった ポケセンの　ある　街にも　行ける。",
+            "sm": "野生　ポケモンとの 戦闘を　やめて　逃げる。",
+            "usum": "野生　ポケモンとの 戦闘を　やめて　逃げる。",
+            "lgpe": "念力を　使い　一瞬で 控えの　ポケモンと　入れかわる。",
+            "swsh": "ひかえの　ポケモンが　いるときに 使うと　入れ替わる。 野生の　ポケモンは　逃げてしまう。"
+        },
+        "latin-american-spanish": {
+            "xy": "Permite huir al instante de combates contra Pokémon salvajes o viajar al último Centro Pokémon visitado.",
+            "oras": "Permite huir al instante de combates contra Pokémon salvajes o viajar al último Centro Pokémon visitado.",
+            "sm": "Permite huir al instante de combates contra Pokémon salvajes.",
+            "usum": "Permite huir al instante de combates contra Pokémon salvajes.",
+            "lgpe": "El usuario emplea sus poderes telequinéticos para cambiar al instante el puesto con otro miembro del equipo.",
+            "swsh": "Permite al usuario cambiarse por otro Pokémon del equipo, si es posible. Si un Pokémon salvaje usa este movimiento, huye del combate."
+        },
+        "traditional-chinese": {
+            "sm": "停止和野生寶可夢戰鬥並逃走。",
+            "usum": "停止和野生寶可夢戰鬥並逃走。",
+            "lgpe": "使用念力， 瞬間與後備寶可夢替換。",
+            "swsh": "在有後備寶可夢時使用， 可進行替換。 野生寶可夢則會逃走。"
+        },
+        "simplified-chinese": {
+            "sm": "停止和野生宝可梦战斗并逃走。",
+            "usum": "停止和野生宝可梦战斗并逃走。",
+            "lgpe": "使用念力， 瞬间与后备宝可梦进行替换。",
+            "swsh": "当有后备宝可梦在时， 如果使用就可以进行替换。 野生的宝可梦会逃走。"
+        }
+    },
+    "effect": {
+        "full": "Does nothing.  Wild battles end immediately.",
+        "shortEffect": "Immediately ends wild battles.  No effect otherwise."
+    }
 }

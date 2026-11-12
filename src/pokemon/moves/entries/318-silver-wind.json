@@ -1,45 +1,142 @@
 {
-  "_id": 318,
-  "key": "silver-wind",
-  "name": {
-    "english": "Silver Wind",
-    "japanese": "ぎんいろのかぜ",
-    "chinese": "银色旋风",
-    "korean": "은빛바람",
-    "german": "Viento Plata",
-    "french": "Silberhauch",
-    "italian": "Silver Wind",
-    "spanish": "Ventargenteo"
-  },
-  "type": "Bug",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 5,
-  "power": 60,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 3,
-  "target": "selected-pokemon",
-  "changes": [],
-  "description": {
-    "emerald": "A powdery attack that may\nraise abilities.",
-    "ruby-sapphire": "A powdery attack that may\nraise abilities.",
-    "firered-leafgreen": "The foe is attacked\nwith a silver dust.\nIt may raise all\nthe user’s stats.",
-    "diamond-pearl": "The foe is attacked\nwith powdery scales\nblown by wind.\nIt may also raise all\nthe user’s stats.",
-    "platinum": "The foe is attacked\nwith powdery scales\nblown by wind.\nIt may also raise all\nthe user’s stats.",
-    "heartgold-soulsilver": "The foe is attacked\nwith powdery scales\nblown by wind.\nIt may also raise all\nthe user’s stats.",
-    "black-white": "The target is attacked with powdery\nscales blown by wind.\nIt may also raise all the user’s stats.",
-    "black-2-white-2": "The target is attacked with powdery\nscales blown by wind.\nIt may also raise all the user’s stats.",
-    "x-y": "The target is attacked with powdery\nscales blown by wind.\nThis may also raise all the user’s stats.",
-    "omega-ruby-alpha-sapphire": "The target is attacked with powdery\nscales blown by wind.\nThis may also raise all the user’s stats.",
-    "sun-moon": "The target is attacked with powdery scales blown\nby the wind. This may also raise all the user’s stats.",
-    "ultra-sun-ultra-moon": "The target is attacked with powdery scales blown\nby the wind. This may also raise all the user’s stats.",
-    "lets-go-pikachu-lets-go-eevee": "The target is attacked with powdery scales blown\nby the wind. This may also raise all the user’s stats.",
-    "sword-shield": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered."
-  },
-  "effect": {
-    "full": "Inflicts regular damage. Has a $effect_chance% chance to raise all of the user's stats one stage.",
-    "shortEffect": "Has a $effect_chance% chance to raise all of the user's stats by one stage."
-  },
-  "priority": 0
+    "_id": 318,
+    "key": "silver-wind",
+    "name": {
+        "japanese-kana": "ぎんいろのかぜ",
+        "korean": "은빛바람",
+        "traditional-chinese": "銀色旋風",
+        "french": "Vent Argenté",
+        "german": "Silberhauch",
+        "spanish": "Viento Plata",
+        "italian": "Ventargenteo",
+        "english": "Silver Wind",
+        "japanese": "ぎんいろのかぜ",
+        "simplified-chinese": "银色旋风",
+        "latin-american-spanish": "Viento Plateado"
+    },
+    "type": "bug",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 5,
+    "power": 60,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 3,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "meta": {
+        "category": "damage-raise",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 10
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "rs": "A powdery attack that may raise abilities.",
+            "em": "A powdery attack that may raise abilities.",
+            "frlg": "The foe is attacked with a silver dust. It may raise all the user’s stats.",
+            "dp": "The foe is attacked with powdery scales blown by wind. It may also raise all the user’s stats.",
+            "pt": "The foe is attacked with powdery scales blown by wind. It may also raise all the user’s stats.",
+            "hgss": "The foe is attacked with powdery scales blown by wind. It may also raise all the user’s stats.",
+            "bw": "The target is attacked with powdery scales blown by wind. It may also raise all the user’s stats.",
+            "b2w2": "The target is attacked with powdery scales blown by wind. It may also raise all the user’s stats.",
+            "xy": "The target is attacked with powdery scales blown by wind. This may also raise all the user’s stats.",
+            "oras": "The target is attacked with powdery scales blown by wind. This may also raise all the user’s stats.",
+            "sm": "The target is attacked with powdery scales blown by the wind. This may also raise all the user’s stats.",
+            "usum": "The target is attacked with powdery scales blown by the wind. This may also raise all the user’s stats.",
+            "lgpe": "The target is attacked with powdery scales blown by the wind. This may also raise all the user’s stats.",
+            "swsh": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+        },
+        "french": {
+            "bw": "Vent qui projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur.",
+            "xy": "Vent qui projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur.",
+            "oras": "Vent qui projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur.",
+            "sm": "Vent qui projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur.",
+            "usum": "Vent qui projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur.",
+            "lgpe": "Un vent se lève et projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur.",
+            "swsh": "Cette capacité ne peut pas être utilisée. Il est recommandé de l’oublier, même s’il sera impossible de se la remémorer une fois oubliée."
+        },
+        "japanese-kana": {
+            "xy": "かぜに　りんぷんを　のせて　あいてを こうげきする。じぶんの　すべての のうりょくが　あがることが　ある。",
+            "oras": "かぜに　りんぷんを　のせて　あいてを こうげきする。じぶんの　すべての のうりょくが　あがることが　ある。",
+            "sm": "かぜに　りんぷんを　のせて　あいてを こうげきする。じぶんの　すべての のうりょくが　あがることが　ある。",
+            "usum": "かぜに　りんぷんを　のせて　あいてを こうげきする。じぶんの　すべての のうりょくが　あがることが　ある。",
+            "lgpe": "かぜに　りんぷんを　のせて　あいてを こうげきする。じぶんの　すべての のうりょくが　あがることが　ある。",
+            "swsh": "このわざは　つかえません おもいだすことが　できなくなりますが わざを　わすれることを　おすすめします"
+        },
+        "korean": {
+            "xy": "바람에 날개 가루를 날려서 상대를 공격한다. 자신의 모든 능력이 올라갈 때가 있다.",
+            "oras": "바람에 날개 가루를 날려서 상대를 공격한다. 자신의 모든 능력이 올라갈 때가 있다.",
+            "sm": "바람에 날개 가루를 날려서 상대를 공격한다. 자신의 모든 능력이 올라갈 때가 있다.",
+            "usum": "바람에 날개 가루를 날려서 상대를 공격한다. 자신의 모든 능력이 올라갈 때가 있다.",
+            "lgpe": "바람에 날개 가루를 날려서 상대를 공격한다. 자신의 모든 능력이 올라갈 때가 있다.",
+            "swsh": "사용할 수 없는 기술입니다. 다시 배우게 할 수 없지만 기술을 잊게 하는 것을 권장합니다."
+        },
+        "german": {
+            "xy": "Angriff mit Silberstaub. Eventuell werden alle Statuswerte des Anwenders erhöht.",
+            "oras": "Angriff mit Silberstaub. Eventuell werden alle Statuswerte des Anwenders erhöht.",
+            "sm": "Angriff mit Silberstaub. Eventuell werden alle Statuswerte des Anwenders erhöht.",
+            "usum": "Angriff mit Silberstaub. Eventuell werden alle Statuswerte des Anwenders erhöht.",
+            "lgpe": "Angriff mit Silberstaub. Eventuell werden alle Statuswerte des Anwenders erhöht.",
+            "swsh": "Diese Attacke kann nicht eingesetzt werden. Du solltest dein Pokémon sie vergessen lassen. Beachte aber, dass es sich danach nicht wieder an sie erinnern kann."
+        },
+        "spanish": {
+            "xy": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "oras": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "sm": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "usum": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "lgpe": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "italian": {
+            "xy": "Attacca con un forte vento di polvere di squame. Tutte le statistiche di chi la usa possono salire.",
+            "oras": "Attacca con un forte vento di polvere di squame. Tutte le statistiche di chi la usa possono salire.",
+            "sm": "Attacca con un forte vento di polvere di squame. Tutte le statistiche di chi la usa possono salire.",
+            "usum": "Attacca con un forte vento di polvere di squame. Tutte le statistiche di chi la usa possono salire.",
+            "lgpe": "Attacca con un forte vento di polvere di squame. Tutte le statistiche di chi la usa possono salire.",
+            "swsh": "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
+        },
+        "japanese": {
+            "xy": "風に　りんぷんを　のせて　相手を 攻撃する。自分の　すべての 能力が　あがることが　ある。",
+            "oras": "風に　りんぷんを　のせて　相手を 攻撃する。自分の　すべての 能力が　あがることが　ある。",
+            "sm": "風に　りんぷんを　のせて　相手を 攻撃する。自分の　すべての 能力が　あがることが　ある。",
+            "usum": "風に　りんぷんを　のせて　相手を 攻撃する。自分の　すべての 能力が　あがることが　ある。",
+            "lgpe": "風に　りんぷんを　のせて　相手を 攻撃する。自分の　すべての 能力が　あがることが　ある。",
+            "swsh": "この技は　使えません 思い出すことが　できなくなりますが 技を　忘れることを　おすすめします"
+        },
+        "latin-american-spanish": {
+            "xy": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "oras": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "sm": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "usum": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "lgpe": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+            "swsh": "Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente."
+        },
+        "traditional-chinese": {
+            "sm": "乘著風飄送鱗粉攻擊對手。 有時會提高自己的所有能力。",
+            "usum": "乘著風飄送鱗粉攻擊對手。 有時會提高自己的所有能力。",
+            "lgpe": "乘著風飄送鱗粉攻擊對手。 有時會提高自己的所有能力。",
+            "swsh": "無法使用此招式。 雖然忘記後將無法再想起來， 但還是建議忘記此招式。"
+        },
+        "simplified-chinese": {
+            "sm": "在风中掺入鳞粉攻击对手。 有时会提高自己的全部能力。",
+            "usum": "在风中掺入鳞粉攻击对手。 有时会提高自己的全部能力。",
+            "lgpe": "在风中掺入鳞粉攻击对手。 有时会提高自己的全部能力。",
+            "swsh": "无法使用这个招式。 虽然忘记之后就再也想不起来了， 但还是建议忘记这个招式。"
+        }
+    },
+    "effect": {
+        "full": "Inflicts regular damage. Has a chance to raise all of the user’s stats one stage.",
+        "shortEffect": "Has a chance to raise all of the user’s stats by one stage."
+    }
 }

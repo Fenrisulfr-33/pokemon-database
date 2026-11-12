@@ -1,47 +1,146 @@
 {
-  "_id": 243,
-  "key": "mirror-coat",
-  "name": {
-    "english": "Mirror Coat",
-    "japanese": "ミラーコート",
-    "chinese": "表面涂层",
-    "korean": "미러코트",
-    "german": "Manto Espejo",
-    "french": "Spiegelcape",
-    "italian": "Mirror Coat",
-    "spanish": "Specchiovelo"
-  },
-  "type": "Psychic",
-  "category": "Special",
-  "contest": "Beauty",
-  "pp": 20,
-  "power": null,
-  "accuracy": 100,
-  "contact": null,
-  "generation": 2,
-  "target": "specific-move",
-  "changes": [],
-  "description": {
-    "gold-silver": "Counters a SPCL.\nATK. move double.",
-    "crystal": "Counters a SPCL.\nATK move double.",
-    "ruby-sapphire": "Counters the foe’s special\nattack at double the power.",
-    "emerald": "Counters the foe’s special\nattack at double the power.",
-    "firered-leafgreen": "A retaliation move\nthat pays back the\nfoe’s special attack\ndouble.",
-    "diamond-pearl": "A retaliation move\nthat counters any\nspecial attack,\ninflicting double the\ndamage taken.",
-    "platinum": "A retaliation move\nthat counters any\nspecial attack,\ninflicting double the\ndamage taken.",
-    "heartgold-soulsilver": "A retaliation move\nthat counters any\nspecial attack,\ninflicting double the\ndamage taken.",
-    "black-white": "A retaliation move that counters any\nspecial attack, inflicting double the\ndamage taken.",
-    "black-2-white-2": "A retaliation move that counters any\nspecial attack, inflicting double the\ndamage taken.",
-    "x-y": "A retaliation move that counters any\nspecial attack, inflicting double the\ndamage taken.",
-    "omega-ruby-alpha-sapphire": "A retaliation move that counters any\nspecial attack, inflicting double the\ndamage taken.",
-    "sun-moon": "A retaliation move that counters any special attack,\ninflicting double the damage taken.",
-    "ultra-sun-ultra-moon": "A retaliation move that counters any special attack,\ninflicting double the damage taken.",
-    "lets-go-pikachu-lets-go-eevee": "A retaliation move that counters any special attack,\ninflicting double the damage taken.",
-    "sword-shield": "A retaliation move that counters any special attack,\ninflicting double the damage taken."
-  },
-  "effect": {
-    "full": "Targets the last opposing Pokémon to hit the user with a special move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome.",
-    "shortEffect": "Inflicts twice the damage the user received from the last special hit it took."
-  },
-  "priority": -5
+    "_id": 243,
+    "key": "mirror-coat",
+    "name": {
+        "japanese-kana": "ミラーコート",
+        "korean": "미러코트",
+        "traditional-chinese": "鏡面反射",
+        "french": "Voile Miroir",
+        "german": "Spiegelcape",
+        "spanish": "Manto Espejo",
+        "italian": "Specchiovelo",
+        "english": "Mirror Coat",
+        "japanese": "ミラーコート",
+        "simplified-chinese": "镜面反射",
+        "latin-american-spanish": "Escudo Espejo"
+    },
+    "type": "psychic",
+    "category": "special",
+    "contest": "beauty",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "contact": false,
+    "generation": 2,
+    "priority": -5,
+    "target": "specific-move",
+    "meta": {
+        "category": "damage",
+        "ailment": "none",
+        "minHits": null,
+        "maxHits": null,
+        "minTurns": null,
+        "maxTurns": null,
+        "drain": 0,
+        "healing": 0,
+        "critRate": 0,
+        "ailmentChance": 0,
+        "flinchChance": 0,
+        "statChance": 0
+    },
+    "changes": {},
+    "effectChanges": {},
+    "flavorText": {
+        "english": {
+            "gs": "Counters a SPCL. ATK. move double.",
+            "cr": "Counters a SPCL. ATK move double.",
+            "rs": "Counters the foe’s special attack at double the power.",
+            "em": "Counters the foe’s special attack at double the power.",
+            "frlg": "A retaliation move that pays back the foe’s special attack double.",
+            "dp": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "pt": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "hgss": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "bw": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "b2w2": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "xy": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "oras": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "sm": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "usum": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "lgpe": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "swsh": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "la": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+            "sv": "A retaliatory attack that counters any special move, inflicting double the damage taken."
+        },
+        "french": {
+            "bw": "Une riposte qui contre n’importe quelle attaque spéciale en infligeant le double des dégâts subis.",
+            "xy": "Une riposte qui contre n’importe quelle attaque spéciale en infligeant le double des dégâts subis.",
+            "oras": "Une riposte qui contre n’importe quelle attaque spéciale en infligeant le double des dégâts subis.",
+            "sm": "Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis.",
+            "usum": "Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis.",
+            "lgpe": "Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis.",
+            "swsh": "Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis."
+        },
+        "japanese-kana": {
+            "xy": "あいてから　うけた　とくしゅ　こうげきの ダメージを　２ばいに　して そのあいてに　かえす。",
+            "oras": "あいてから　うけた　とくしゅ　こうげきの ダメージを　２ばいに　して そのあいてに　かえす。",
+            "sm": "あいてから　うけた　とくしゅ　こうげきの ダメージを　２ばいに　して そのあいてに　かえす。",
+            "usum": "あいてから　うけた　とくしゅ　こうげきの ダメージを　２ばいに　して そのあいてに　かえす。",
+            "lgpe": "あいてから　うけた　とくしゅ　こうげきの ダメージを　２ばいに　して そのあいてに　かえす。",
+            "swsh": "あいてから　うけた　とくしゅ　こうげきの ダメージを　２ばいに　して そのあいてに　かえす。"
+        },
+        "korean": {
+            "xy": "상대에게 받은 특수공격의 데미지를 2배로 만들어 그 상대에게 돌려준다.",
+            "oras": "상대에게 받은 특수공격의 데미지를 2배로 만들어 그 상대에게 돌려준다.",
+            "sm": "상대에게 받은 특수공격의 데미지를 2배로 만들어 그 상대에게 돌려준다.",
+            "usum": "상대에게 받은 특수공격의 데미지를 2배로 만들어 그 상대에게 돌려준다.",
+            "lgpe": "상대에게 받은 특수공격의 데미지를 2배로 만들어 그 상대에게 돌려준다.",
+            "swsh": "상대에게 받은 특수공격의 데미지를 2배로 만들어 그 상대에게 돌려준다."
+        },
+        "german": {
+            "xy": "Kontert den Spezial-Angriff des Gegners mit doppeltem Schaden.",
+            "oras": "Kontert den Spezial-Angriff des Gegners mit doppeltem Schaden.",
+            "sm": "Kontert den Spezial-Angriff des Gegners mit doppeltem Schaden.",
+            "usum": "Kontert den Spezial-Angriff des Gegners mit doppeltem Schaden.",
+            "lgpe": "Kontert den Spezial-Angriff des Gegners mit doppeltem Schaden.",
+            "swsh": "Kontert die Spezial-Attacke des Gegners mit doppeltem Schaden."
+        },
+        "spanish": {
+            "xy": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "oras": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "sm": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "usum": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "lgpe": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "swsh": "Responde a un ataque especial ocasionando el doble del daño recibido."
+        },
+        "italian": {
+            "xy": "Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.",
+            "oras": "Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.",
+            "sm": "Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.",
+            "usum": "Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.",
+            "lgpe": "Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.",
+            "swsh": "Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto."
+        },
+        "japanese": {
+            "xy": "相手から　受けた　特殊攻撃の ダメージを　２倍に　して その相手に　返す。",
+            "oras": "相手から　受けた　特殊攻撃の ダメージを　２倍に　して その相手に　返す。",
+            "sm": "相手から　受けた　特殊攻撃の ダメージを　２倍に　して その相手に　返す。",
+            "usum": "相手から　受けた　特殊攻撃の ダメージを　２倍に　して その相手に　返す。",
+            "lgpe": "相手から　受けた　特殊攻撃の ダメージを　２倍に　して その相手に　返す。",
+            "swsh": "相手から　受けた　特殊攻撃の ダメージを　２倍に　して その相手に　返す。"
+        },
+        "latin-american-spanish": {
+            "xy": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "oras": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "sm": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "usum": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "lgpe": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+            "swsh": "Responde a un ataque especial ocasionando el doble del daño recibido."
+        },
+        "traditional-chinese": {
+            "sm": "將來自對手的特殊攻擊傷害加倍後， 返還給該對手。",
+            "usum": "將來自對手的特殊攻擊傷害加倍後， 返還給該對手。",
+            "lgpe": "將來自對手的特殊攻擊傷害加倍後， 返還給該對手。",
+            "swsh": "將來自對手的特殊攻擊傷害加倍後， 返還給該對手。"
+        },
+        "simplified-chinese": {
+            "sm": "从对手那里受到 特殊攻击的伤害将以 ２倍返还给同一个对手。",
+            "usum": "从对手那里受到 特殊攻击的伤害将以 ２倍返还给同一个对手。",
+            "lgpe": "从对手那里受到 特殊攻击的伤害将以 ２倍返还给同一个对手。",
+            "swsh": "从对手那里受到 特殊攻击的伤害将以 ２倍返还给同一个对手。"
+        }
+    },
+    "effect": {
+        "full": "Targets the last opposing Pokémon to hit the user with a special move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored. This move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+        "shortEffect": "Inflicts twice the damage the user received from the last special hit it took."
+    }
 }
