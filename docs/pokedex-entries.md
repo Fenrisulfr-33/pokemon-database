@@ -133,7 +133,7 @@ Things to look at:
 | `1012-poltchageist.json` | Poltchageist |
 | `1013-sinistcha.json` | Sinistcha |
 | `1014-okidogi.json` | Okidogi |
-| `1015-monkidori.json` | Munkidori |
+| `1015-munkidori.json` | Munkidori |
 | `1016-fezandipiti.json` | Fezandipiti |
 | `1017-ogerpon.json` | Ogerpon |
 | `1018-archaludon.json` | Archaludon |

@@ -100,18 +100,6 @@ an error.
 Embody Aspect (303) has empty `pokemonWithAbility` lists. The
 Terastallized Ogerpon forms that have it aren't in `forms/`.
 
-## Pokedex gender with `null` that isn't genderless
-
-Blank gender values became `null`. These 16 aren't genderless, so the
-`null` is missing data:
-
-- `null` male, `100` female: Ogerpon (1017, 1017.01–1017.03),
-  Archaludon (1018). Archaludon should be 50 / 50.
-- `100` male, `null` female: Okidogi (1014), Munkidori (1015),
-  Fezandipiti (1016), Bloodmoon Ursaluna (901.01)
-- both `null`: Wyrdeer (899), Kleavor (900), Ursaluna (901), Basculegion
-  (902), Sneasler (903), Overqwil (904), Enamorus (905)
-
 ## Pokedex entries filed under the wrong form
 
 `forms/paldean/128.03-paldea-aqua-breed-tauros.json` has its

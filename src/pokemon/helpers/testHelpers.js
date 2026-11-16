@@ -36,4 +36,33 @@ function findMissingIds(ids) {
     return missingIds;
 }
 
-export { findDuplicates, findMissingIds, listJsonFileNames, toKey };
+function findGenderedWithNullRatio(entries) {
+    return entries
+        .filter(({ gender }) => !gender.genderless)
+        .filter(({ gender }) => gender.male === null || gender.female === null)
+        .map((entry) => entry._id);
+}
+
+function findGenderedNotSummingTo100(entries) {
+    return entries
+        .filter(({ gender }) => !gender.genderless)
+        .filter(({ gender }) => gender.male + gender.female !== 100)
+        .map((entry) => entry._id);
+}
+
+function findGenderlessWithRatio(entries) {
+    return entries
+        .filter(({ gender }) => gender.genderless)
+        .filter(({ gender }) => gender.male !== null || gender.female !== null)
+        .map((entry) => entry._id);
+}
+
+export {
+    findDuplicates,
+    findGenderedNotSummingTo100,
+    findGenderedWithNullRatio,
+    findGenderlessWithRatio,
+    findMissingIds,
+    listJsonFileNames,
+    toKey,
+};
