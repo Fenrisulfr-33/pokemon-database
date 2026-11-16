@@ -285,9 +285,9 @@ function convertHeightIntoMeters(height) {
  * @returns {Object} Height in feet and inches
  */
 function convertHeightIntoFeetInches(height) {
-	const totalInches = height * 10 / 2.54; // convert decimeters to inches
+	const totalInches = Math.round(height * 10 / 2.54);
 	const feet = Math.floor(totalInches / 12);
-	const inches = Math.round(totalInches % 12);
+	const inches = totalInches % 12;
 	return { feet, inches };
 }
 
@@ -430,6 +430,7 @@ function transformPokemonMoves(data) {
 }
 
 export {
+	convertHeightIntoFeetInches,
 	transformGenerationData,
 	transformPokedexData,
 	transformAbilityData,

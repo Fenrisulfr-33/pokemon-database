@@ -100,67 +100,6 @@ an error.
 Embody Aspect (303) has empty `pokemonWithAbility` lists. The
 Terastallized Ogerpon forms that have it aren't in `forms/`.
 
-## Pokedex height and weight changed by the PokeAPI switch
-
-On 2026-11-12 `info.height` and `info.weight` were replaced with PokeAPI
-numbers. For 1,089 of 1,132 pokemon the old display string matched. The
-43 below changed. Most old values were from another form (Hoopa had
-Hoopa Unbound's, Wishiwashi had School Form's, Growlithe had Hisuian
-Growlithe's), so PokeAPI is right for them. Two look wrong in PokeAPI:
-
-- `forms/alternate/901.01-bloodmoon-ursaluna.json`: PokeAPI gives normal
-  Ursaluna's numbers. 2.7 m, 333.0 kg is right.
-- `forms/alternate/999.01-roaming-gimmighoul.json`: PokeAPI says 1.0 kg;
-  0.1 kg is right.
-
-| File               | Old               | PokeAPI          |
-| ------------------ | ----------------- | ---------------- |
-| `1011-dripplin`    | 0.4 m, 4.4 kg     | 0.4 m, 9.7 kg    |
-| `1014-okidogi`     | 1.8 m, 92 kg      | 1.8 m, 92.2 kg   |
-| `1018-archaludon`  | 1.2 m, 39.8 kg    | 2.0 m, 60.0 kg   |
-| `215-sneasel`      | 0.9 m, 27.0 kg    | 0.9 m, 28.0 kg   |
-| `483-dialga`       | 7.0 m, 850.0 kg   | 5.4 m, 683.0 kg  |
-| `484-palkia`       | 6.3 m, 660.0 kg   | 4.2 m, 336.0 kg  |
-| `487-giratina`     | 6.9 m, 650.0 kg   | 4.5 m, 750.0 kg  |
-| `492-shaymin`      | 0.4 m, 5.2 kg     | 0.2 m, 2.1 kg    |
-| `503-samurott`     | 1.5 m, 58.2 kg    | 1.5 m, 94.6 kg   |
-| `549-lilligant`    | 1.2 m, 19.2 kg    | 1.1 m, 16.3 kg   |
-| `555-darmanitan`   | 1.7 m, 120.0 kg   | 1.3 m, 92.9 kg   |
-| `571-zoroark`      | 1.6 m, 73.0 kg    | 1.6 m, 81.1 kg   |
-| `58-growlithe`     | 0.8 m, 22.7 kg    | 0.7 m, 19.0 kg   |
-| `59-arcanine`      | 2.0 m, 168.0 kg   | 1.9 m, 155.0 kg  |
-| `628-braviary`     | 1.7 m, 43.4 kg    | 1.5 m, 41.0 kg   |
-| `641-tornadus`     | 1.4 m, 63.0 kg    | 1.5 m, 63.0 kg   |
-| `642-thundurus`    | 3.0 m, 61.0 kg    | 1.5 m, 61.0 kg   |
-| `645-landorus`     | 1.3 m, 68.0 kg    | 1.5 m, 68.0 kg   |
-| `646-kyurem`       | 3.6 m, 325.0 kg   | 3.0 m, 325.0 kg  |
-| `705-sliggoo`      | 0.7 m, 68.5 kg    | 0.8 m, 17.5 kg   |
-| `706-goodra`       | 1.7 m, 334.1 kg   | 2.0 m, 150.5 kg  |
-| `710-pumpkaboo`    | 0.8 m, 15.0 kg    | 0.4 m, 5.0 kg    |
-| `711-gourgeist`    | 1.7 m, 39.0 kg    | 0.9 m, 12.5 kg   |
-| `713-avalugg`      | 1.4 m, 262.4 kg   | 2.0 m, 505.0 kg  |
-| `718-zygarde`      | 4.5 m, 610.0 kg   | 5.0 m, 305.0 kg  |
-| `720-hoopa`        | 6.5 m, 490.0 kg   | 0.5 m, 9.0 kg    |
-| `724-decidueye`    | 1.6 m, 37.0 kg    | 1.6 m, 36.6 kg   |
-| `746-wishiwashi`   | 8.2 m, 78.6 kg    | 0.2 m, 0.3 kg    |
-| `774-minior`       | 0.3 m, 0.3 kg     | 0.3 m, 40.0 kg   |
-| `800-necrozma`     | 7.5 m, 230.0 kg   | 2.4 m, 230.0 kg  |
-| `858-hatterene`    | 2.1 m, 5.0 kg     | 2.1 m, 5.1 kg    |
-| `890-eternatus`    | 100.0 m, blank    | 20.0 m, 950.0 kg |
-| `898-calyrex`      | 2.4 m, 53.6 kg    | 1.1 m, 7.7 kg    |
-| `899-wyrdeer`      | blank             | 1.8 m, 95.1 kg   |
-| `900-kleavor`      | blank             | 1.8 m, 89.0 kg   |
-| `901-ursaluna`     | blank             | 2.4 m, 290.0 kg  |
-| `902-basculegion`  | blank             | 3.0 m, 110.0 kg  |
-| `903-sneasler`     | blank             | 1.3 m, 43.0 kg   |
-| `904-overqwil`     | blank             | 2.5 m, 60.5 kg   |
-| `905-enamorus`     | blank             | 1.6 m, 48.0 kg   |
-| `982-dudunsparce`  | 4.5 m, 47.4 kg    | 3.6 m, 39.2 kg   |
-
-`pokeApi/helpers.mjs` `convertHeightIntoFeetInches` rounds only the
-leftover inches, so 3 dm gives 0′12″ instead of 1′00″. The README
-formula rounds the total inches first.
-
 ## Pokedex gender with `null` that isn't genderless
 
 Blank gender values became `null`. These 16 aren't genderless, so the
@@ -221,3 +160,7 @@ Added 2026-11-12 (`forms/cosmetic/`, 227 files). Not fixed:
 - **Super Size Pumpkaboo and Gourgeist** (710.03, 711.03) count as
   visual because their stats equal the base entries, but in the games the
   sizes have different stats, so 710/711 may hold the wrong numbers.
+- **Minior Meteor colours** (774.01–774.06, Orange to Violet Meteor)
+  are visual files for forms that don't exist: Minior has one Meteor
+  Form (the base, 774) and seven Core colours (774.07–774.13). The
+  colour files come from PokeAPI and aren't in the Minior form tab.
