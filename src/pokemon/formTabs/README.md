@@ -14,4 +14,4 @@ src/pokemon/
 # Goals
 
 Forms folder and formsTabs folder should be connected in some way where when forms get added or updated, the formsTab gets updated. 
-Example: If I add a `18.1-<pokemon_name>` file inside forms folder that meets schema validation it will create if not exist a `18-<pokemon_name>` formsTab, or if already exists add to it. 
+Example: If I add a `18.01-<pokemon_name>` file inside forms folder that meets schema validation it will create if not exist a `18-<pokemon_name>` formsTab, or if already exists add to it. 

@@ -7,43 +7,21 @@ Results of checking every reference between the `entries/` folders
 
 | Reference                                    | Checked | Broken |
 | -------------------------------------------- | ------: | -----: |
-| `national-dex.abilities` ids → `abilities`   | 2,596   | 0      |
-| `abilities.pokemonWithAbility` ids → `national-dex` | 2,284 | 0 |
+| `national-dex` + `forms/` abilities → `abilities` | 2,790 | 0  |
+| `abilities.pokemonWithAbility` ids → `national-dex` + `forms/` | 2,790 | 0 |
 | `learnsets` moveId → `moves`                 | 649,566 | 0      |
-| `learnsets._id` → `national-dex`             | 1,075   | 0      |
+| `learnsets._id` → `national-dex` + `forms/`  | 1,075   | 0      |
 
-## `national-dex.evolution` for pokemon not in a chain
+## Forms aren't uploaded yet
 
-This field is the `_id` of the evolution chain the pokemon is in, from
-`evolutions/entries`. Pokemon in no chain use `null` (the 37 that had
-`0` were set to `null` on 2026-11-12).
+Form ids in `evolutions`, `form-tabs`, `learnsets` and
+`abilities.pokemonWithAbility` are `forms/` ids. `forms/` has no upsert
+yet, so in Mongo those ids have no pokemon document.
 
-A form (decimal `_id`) that isn't in a chain itself uses the chain of
-its base pokemon, `Math.floor(_id)`, so the site can show a Mega's base
-line. Set on 2026-11-12 for 30 forms; 25 Megas from Mega Gyarados on had
-stale ids one or two below the right chain.
+## Forms without a learnset
 
-Galarian Farfetch'd (83.1) and Galarian Corsola (222.1) have their own
-chains (298, 297), so they keep those.
-
-Corsola (222) is in no chain and had `296` (Grookey's line); it was set
-to `null` on 2026-11-12.
-
-## `evolutions` ids missing from `national-dex`
-
-21 ids inside chains have no pokemon document, mostly Hisuian forms:
-`58.1`, `59.1`, `100.1`, `157.1`, `215.1`, `503.1`, `549.1`, `570.1`...
-These forms now have files in `forms/hisuian/`, but they are not in
-`pokedex/entries`, so they aren't uploaded.
-
-## `form-tabs` ids missing from `national-dex`
-
-- `898.1` and `898.2` (Calyrex riders) appear in `pokemonIds` and `tab`.
-- `562.2` and `618.2` appear in `tab`.
-
-## Pokemon without a learnset
-
-57 `national-dex` documents (mostly forms) have no `learnsets` document.
+203 of the 253 full forms have no `learnsets` document. Every base
+pokemon has one.
 
 ## Moves with no effect text
 
@@ -106,9 +84,8 @@ an error.
   - no game key before the move's generation: 11 moves have
     `effectChanges` for games from before they existed.
 
-- `abilities/abilities.test.js`, 2 of 11 tests:
-  - english names: "As One" is used by both 266 and 267.
-  - `pokemonWithAbility`: 308–314 have no field (see below).
+- `abilities/abilities.test.js`, 1 of 11 tests: english names, "As One"
+  is used by both 266 and 267.
 
 - `_test/evolution-id-list.test.mjs` reads `_test/evolution-id-list.json`,
   which doesn't exist.
@@ -120,21 +97,8 @@ an error.
 
 ## Abilities with no pokemon
 
-Battle Bond, Power Construct, Neuroforce, both As One entries and Embody
-Aspect (303) have empty `pokemonWithAbility` lists. The forms that have
-them (Ash-Greninja, Zygarde, Ultra Necrozma, the Calyrex riders, the
-Terastallized Ogerpon forms) are in `forms/` or missing, but not in
-`pokedex/entries`.
-
-308–314 (Piercing Drill, Dragonize, Mega Sol, Spicy Spray, Eelevate,
-Fire Mane, Aura Guard) have no `pokemonWithAbility` at all, and no
-pokedex entry uses them. `updatePokemonWithAbility.js` throws
-`No pokemonWithAbility key` on these files, so it can't be run until
-they have the field.
-
-`updatePokemonWithAbility.js` and `pokeApi/abilities/getAbilities.js`
-both write each list on one line, but the current ability files have
-one id per line, so the first run of either one reformats every file.
+Embody Aspect (303) has empty `pokemonWithAbility` lists. The
+Terastallized Ogerpon forms that have it aren't in `forms/`.
 
 ## Pokedex height and weight changed by the PokeAPI switch
 
@@ -144,10 +108,10 @@ numbers. For 1,089 of 1,132 pokemon the old display string matched. The
 Hoopa Unbound's, Wishiwashi had School Form's, Growlithe had Hisuian
 Growlithe's), so PokeAPI is right for them. Two look wrong in PokeAPI:
 
-- `901.1-ursaluna` (Bloodmoon): PokeAPI gives normal Ursaluna's numbers.
-  The old 2.7 m, 333.0 kg was right.
-- `999.1-gimmighoul` (Roaming): PokeAPI says 1.0 kg; the old 0.1 kg was
-  right.
+- `forms/alternate/901.01-bloodmoon-ursaluna.json`: PokeAPI gives normal
+  Ursaluna's numbers. 2.7 m, 333.0 kg is right.
+- `forms/alternate/999.01-roaming-gimmighoul.json`: PokeAPI says 1.0 kg;
+  0.1 kg is right.
 
 | File               | Old               | PokeAPI          |
 | ------------------ | ----------------- | ---------------- |
@@ -187,40 +151,32 @@ Growlithe's), so PokeAPI is right for them. Two look wrong in PokeAPI:
 | `899-wyrdeer`      | blank             | 1.8 m, 95.1 kg   |
 | `900-kleavor`      | blank             | 1.8 m, 89.0 kg   |
 | `901-ursaluna`     | blank             | 2.4 m, 290.0 kg  |
-| `901.1-ursaluna`   | 2.7 m, 333.0 kg   | 2.4 m, 290.0 kg  |
 | `902-basculegion`  | blank             | 3.0 m, 110.0 kg  |
 | `903-sneasler`     | blank             | 1.3 m, 43.0 kg   |
 | `904-overqwil`     | blank             | 2.5 m, 60.5 kg   |
 | `905-enamorus`     | blank             | 1.6 m, 48.0 kg   |
 | `982-dudunsparce`  | 4.5 m, 47.4 kg    | 3.6 m, 39.2 kg   |
-| `999.1-gimmighoul` | 0.1 m, 0.1 kg     | 0.1 m, 1.0 kg    |
 
 `pokeApi/helpers.mjs` `convertHeightIntoFeetInches` rounds only the
 leftover inches, so 3 dm gives 0′12″ instead of 1′00″. The README
 formula rounds the total inches first.
-
-## Pokedex types that disagree with PokeAPI
-
-- `254.1-mega-sceptile`: `grass`, should be `grass`, `dragon`
-- `334.1-mega-altaria`: `dragon`, `flying`, should be `dragon`, `fairy`
-- `1017.3-ogerpon-cornerstone-mask`: `grass`, should be `grass`, `rock`
 
 ## Pokedex gender with `null` that isn't genderless
 
 Blank gender values became `null`. These 16 aren't genderless, so the
 `null` is missing data:
 
-- `null` male, `100` female: Ogerpon (1017, 1017.1–1017.3), Archaludon
-  (1018). Archaludon should be 50 / 50.
+- `null` male, `100` female: Ogerpon (1017, 1017.01–1017.03),
+  Archaludon (1018). Archaludon should be 50 / 50.
 - `100` male, `null` female: Okidogi (1014), Munkidori (1015),
-  Fezandipiti (1016), Bloodmoon Ursaluna (901.1)
+  Fezandipiti (1016), Bloodmoon Ursaluna (901.01)
 - both `null`: Wyrdeer (899), Kleavor (900), Ursaluna (901), Basculegion
   (902), Sneasler (903), Overqwil (904), Enamorus (905)
 
 ## Pokedex entries filed under the wrong form
 
-`128.3-tauros.json` (Aqua Breed) has its `pokedexEntries` under
-"Blaze Breed".
+`forms/paldean/128.03-paldea-aqua-breed-tauros.json` has its
+`pokedexEntries` under "Blaze Breed".
 
 ## Form files (`src/pokemon/forms`)
 
@@ -265,5 +221,3 @@ Added 2026-11-12 (`forms/cosmetic/`, 227 files). Not fixed:
 - **Super Size Pumpkaboo and Gourgeist** (710.03, 711.03) count as
   visual because their stats equal the base entries, but in the games the
   sizes have different stats, so 710/711 may hold the wrong numbers.
-- **Form tab ids**: the 28 new tabs use `#.01` ids, the other 93 use
-  `#.1`.

@@ -2,16 +2,13 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import {
     buildPokemonWithAbility,
     emptyLists,
+    readPokemonWithAbilities,
     replaceBlock,
 } from "#abilities/updatePokemonWithAbility.js";
-import {
-    ABILITIES_ENTRIES_DIR,
-    POKEDEX_ENTRIES_DIR,
-} from "#helpers/paths.js";
+import { ABILITIES_ENTRIES_DIR } from "#helpers/paths.js";
 import { fetchData } from "../apiRequest.mjs";
 import { amountOfAbilities, generationKey } from "../CONSTANTS.mjs";
 import {
@@ -66,9 +63,7 @@ function saveEntry(entry) {
 
 async function getAbilities() {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-    const listsByAbility = buildPokemonWithAbility(
-        readJsonDir(POKEDEX_ENTRIES_DIR)
-    );
+    const listsByAbility = buildPokemonWithAbility(readPokemonWithAbilities());
     for (let abilityId = 1; abilityId <= amountOfAbilities; abilityId++) {
         const ability = await fetchData(`ability/${abilityId}`);
         const entry = transformAbility(

@@ -25,7 +25,6 @@ form name (`50% Forme`, `Meteor Form`, `Disguised Form`,
 | Check | Count |
 | --- | --- |
 | `pokedex/entries` files with 2 or more keys | 24 |
-| `pokedex/entries` forms with no entries (of 107) | 22 |
 | `pokedex/entries` base pokemon with no entries | 24 |
 | `forms/` files with no entries (of 553) | 360 |
 | ...of those, base file has other keys | 131 |
@@ -116,33 +115,6 @@ Things to look at:
 - `678-meowstic` and `876-indeedee` have a `Male` key, and
   `592-frillish` and `593-jellicent` a `Male <name>` key; their female
   entries are now only in the female form files.
-
-## `pokedex/entries` forms with no entries
-
-| File | Name |
-| --- | --- |
-| `208.1-mega-steelix.json` | Mega Steelix |
-| `254.1-mega-sceptile.json` | Mega Sceptile |
-| `257.1-mega-blaziken.json` | Mega Blaziken |
-| `260.1-mega-swampert.json` | Mega Swampert |
-| `282.1-mega-gardevoir.json` | Mega Gardevoir |
-| `306.1-mega-aggron.json` | Mega Aggron |
-| `308.1-mega-medicham.json` | Mega Medicham |
-| `323.1-mega-camerupt.json` | Mega Camerupt |
-| `334.1-mega-altaria.json` | Mega Altaria |
-| `380.1-mega-latias.json` | Mega Latias |
-| `381.1-mega-latios.json` | Mega Latios |
-| `382.1-primal-kyogre.json` | Primal Kyogre |
-| `383.1-primal-groudon.json` | Primal Groudon |
-| `384.1-mega-rayquaza.json` | Mega Rayquaza |
-| `460.1-mega-abomasnow.json` | Mega Abomasnow |
-| `475.1-mega-gallade.json` | Mega Gallade |
-| `531.1-mega-audino.json` | Mega Audino |
-| `719.1-mega-diancie.json` | Mega Diancie |
-| `901.1-ursaluna.json` | Ursaluna |
-| `1017.1-ogerpon-wellspring-mask.json` | Ogerpon |
-| `1017.2-ogerpon-hearthflame-mask.json` | Ogerpon |
-| `1017.3-ogerpon-cornerstone-mask.json` | Ogerpon |
 
 ## `pokedex/entries` base pokemon with no entries
 

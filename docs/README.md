@@ -85,13 +85,13 @@ any of them. Look-ups happen on the website server.
 | From                                   | To                  | Notes                                    |
 | -------------------------------------- | ------------------- | ---------------------------------------- |
 | `national-dex.abilities.{normal[],hidden}` | `abilities._id` | ids only; names come from `abilities` |
-| `abilities.pokemonWithAbility.{normal,hidden}[]` | `national-dex._id` | reverse of the line above, built by `abilities/updatePokemonWithAbility.js`; includes forms |
-| `learnsets._id`                        | `national-dex._id`  | one learnset per pokemon, 1:1            |
+| `abilities.pokemonWithAbility.{normal,hidden}[]` | `national-dex._id`, `forms/` `_id` | reverse of the line above plus full forms, built by `abilities/updatePokemonWithAbility.js` |
+| `learnsets._id`                        | `national-dex._id`, `forms/` `_id` | one learnset per pokemon or form, 1:1 |
 | `learnsets.{game}.{method}[][last]`    | `moves._id`         | `moveId` is always the last tuple value  |
 | `national-dex.evolution`               | `evolutions._id`    | chain the pokemon belongs to (see [known issues](known-issues.md)) |
-| `evolutions.evolution` stage `[id, how]` | `national-dex._id`  | every pokemon in the chain               |
+| `evolutions.evolution` stage `[id, how]` | `national-dex._id`, `forms/` `_id` | every pokemon in the chain |
 | `form-tabs._id`                        | `national-dex._id`  | the base form                            |
-| `form-tabs.pokemonIds[]`, `tab[].id`   | `national-dex._id`  | every form shown in the tab bar          |
+| `form-tabs.pokemonIds[]`, `tab[].id`   | `national-dex._id`, `forms/` `_id` | every form shown in the tab bar |
 
 Copies such as `name` next to an `id`, and `type` inside evolution
 stages, are denormalised for display. If the source changes, the copies
@@ -100,9 +100,10 @@ must be rebuilt.
 ## IDs
 
 - A pokemon's `_id` is its national dex number: `6` is Charizard.
-- Forms use the base number plus a decimal: `6.1` is Mega Charizard X,
-  `1017.2` is Hearthflame Mask Ogerpon. The same decimal id is used in
-  `national-dex`, `learnsets`, `form-tabs` and `forms/`.
+- `national-dex` (`pokedex/entries`) holds base pokemon only. Forms live
+  in `src/pokemon/forms/` and use the base number plus a two-digit
+  decimal: `6.01` is Mega Charizard X, `1017.02` is Hearthflame Mask
+  Ogerpon. Any collection that refers to a form uses this id.
 - `abilities._id` and `moves._id` match PokeAPI ids.
 - `evolutions._id` is a chain number that has nothing to do with pokemon
   ids: chain `2` is Charmander → Charmeleon → Charizard.

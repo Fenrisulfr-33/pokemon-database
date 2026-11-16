@@ -46,7 +46,7 @@
         },
         "pokemonWithAbility": {
             "type": "object",
-            "description": "Pokedex ids (forms included), built from pokedex/entries by updatePokemonWithAbility.js",
+            "description": "Pokemon and form ids, built from pokedex/entries and full forms in forms/ by updatePokemonWithAbility.js",
             "required": ["normal", "hidden"],
             "additionalProperties": false,
             "properties": {
@@ -80,7 +80,7 @@
         "pokemonId": {
             "type": "number",
             "minimum": 1,
-            "description": "national-dex _id; forms use a decimal suffix"
+            "description": "national-dex _id, or forms/ _id for a form (e.g. 6.01)"
         }
     },
     "additionalProperties": false

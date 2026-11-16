@@ -9,14 +9,15 @@ Schema: `src/pokemon/abilities/schema.json`. `_id` is the PokeAPI id.
 
 | Field                                  | Points to          |
 | -------------------------------------- | ------------------ |
-| `pokemonWithAbility.{normal,hidden}[]` | `national-dex._id` |
+| `pokemonWithAbility.{normal,hidden}[]` | `national-dex._id`, `forms/` `_id` |
 
-The reverse link is `national-dex.abilities.{normal[],hidden}`.
-`pokemonWithAbility` is built from it, so after changing a pokemon's
-abilities run `node src/pokemon/abilities/updatePokemonWithAbility.js`
-instead of editing ability files by hand. Lists include forms (decimal
-ids) and are sorted by id. 308–314 have no `pokemonWithAbility` yet
-(see `docs/known-issues.md`).
+The reverse link is `abilities.{normal[],hidden}` in `pokedex/entries`
+and in the full forms in `forms/` (visual forms share their base's
+abilities, so they aren't listed). `pokemonWithAbility` is built from
+those, so after changing a pokemon's or form's abilities run
+`node src/pokemon/abilities/updatePokemonWithAbility.js` instead of
+editing ability files by hand. Lists are sorted by id, one id per line.
+An ability no pokemon has gets the field only once a pokemon uses it.
 
 ## Fields
 
@@ -29,7 +30,7 @@ ids) and are sorted by id. 308–314 have no `pokemonWithAbility` yet
 | `effect`             | object | `shortEffect`, `full` (English)             |
 | `effectChanges`      | object | `{language: {gameKey: older effect text}}`  |
 | `flavorText`         | object | `{language: {gameKey: in-game text}}`       |
-| `pokemonWithAbility` | object | `normal`, `hidden`: pokedex ids             |
+| `pokemonWithAbility` | object | `normal`, `hidden`: pokemon and form ids    |
 
 Language keys are listed in `src/pokemon/pokeApi/abilities/README.md`.
 Game keys come from `GAME_KEYS` in `src/pokemon/constants/GAME_KEYS.js`.

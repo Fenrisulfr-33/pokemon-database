@@ -6,13 +6,13 @@ relates to the collections.
 ## `forms/`
 
 Per-form pokemon documents, grouped by kind (`megas/`, `alolan/`,
-`gigantamax/`...). They have the same shape as
-[national-dex](collections/national-dex.md) and use decimal ids
-(`479.1-rotom-heat.json`).
+`gigantamax/`...). Full forms have the same shape as
+[national-dex](collections/national-dex.md); visual forms hold only what
+differs from their base. Ids are the base number plus a two-digit
+decimal (`479.01-heat-rotom.json`). See `src/pokemon/forms/README.md`.
 
-Nothing uploads `forms/` yet. Today, forms reach Mongo only through the
-decimal files in `pokedex/entries`. Ids are shared, so a form file and
-its `pokedex/entries` copy describe the same `national-dex` document.
+Nothing uploads `forms/` yet; it will get its own upsert, separate from
+`national-dex`.
 
 ## `pokedex/dexes/dexes_objects/`
 

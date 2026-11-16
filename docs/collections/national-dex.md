@@ -1,8 +1,9 @@
 # national-dex
 
-One document per pokemon and per form. Source:
-`src/pokemon/pokedex/entries/{_id}-{key}.json` (1,132 files, 107 of them
-forms with a decimal `_id`). Schema: `src/pokemon/pokedex/schema.json`.
+One document per base pokemon. Source:
+`src/pokemon/pokedex/entries/{_id}-{key}.json` (1,025 files). Schema:
+`src/pokemon/pokedex/schema.json`. Forms are in `src/pokemon/forms/` (see
+`src/pokemon/forms/README.md`).
 
 ## Relations
 
@@ -18,15 +19,15 @@ forms with a decimal `_id`). Schema: `src/pokemon/pokedex/schema.json`.
 
 | Field            | Type              | Notes                                    |
 | ---------------- | ----------------- | ---------------------------------------- |
-| `_id`            | number            | national dex number; decimal for forms   |
-| `key`            | string            | slug, e.g. `charizard`, `alolan-marowak` |
+| `_id`            | number            | national dex number                      |
+| `key`            | string            | slug, e.g. `charizard`, `mr-mime`        |
 | `name`           | object            | `english` plus 7 other languages         |
 | `type`           | array             | 1-2 lowercase types, e.g. `["fire"]`     |
 | `abilities`      | object            | `normal`: 1-2 ids in slot order; `hidden`: id or `null` |
 | `baseStats`      | object            | `hp atk def spatk spdef spd total`       |
 | `info`           | object            | `height` (dm), `weight` (hg) from PokeAPI |
 | `gender`         | object            | `male`, `female` (number or `null`), `genderless` |
-| `evolution`      | number \| null    | chain id; forms use the base chain      |
+| `evolution`      | number \| null    | chain id                                 |
 | `generation`     | number            |                                          |
 | `evs`            | object            | only stats that give EVs, e.g. `{spatk: 3}` |
 | `eggGroups`      | array             | strings                                  |

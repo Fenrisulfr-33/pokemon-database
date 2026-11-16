@@ -1,4 +1,3 @@
-import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import validateEntries from "#genericFunctions/schemaValidation.mjs";
 import { getAbilities } from "#helpers/getAbilities.js";
 import {
@@ -7,12 +6,12 @@ import {
     listJsonFileNames,
     toKey,
 } from "#helpers/testHelpers.js";
-import {
-    ABILITIES_ENTRIES_DIR,
-    POKEDEX_ENTRIES_DIR,
-} from "#helpers/paths.js";
+import { ABILITIES_ENTRIES_DIR } from "#helpers/paths.js";
 import { GAME_KEYS } from "../constants/GAME_KEYS.js";
-import { buildPokemonWithAbility } from "./updatePokemonWithAbility.js";
+import {
+    buildPokemonWithAbility,
+    readPokemonWithAbilities,
+} from "./updatePokemonWithAbility.js";
 import schema from "./schema.json" with { type: "json" };
 
 const TEXT_BY_GAME_FIELDS = ["flavorText", "effectChanges"];
@@ -33,7 +32,7 @@ function listAbilityIds(pokemon) {
 }
 
 const abilities = getAbilities();
-const pokedex = readJsonDir(POKEDEX_ENTRIES_DIR);
+const pokemonWithAbilities = readPokemonWithAbilities();
 
 describe("abilities", () => {
     test("file names follow {_id}-{key}.json", () => {
@@ -98,10 +97,10 @@ describe("abilities", () => {
         expect([...unknownGameKeys]).toEqual([]);
     });
 
-    test("every pokedex ability id has an ability entry", () => {
+    test("every pokemon and form ability id has an ability entry", () => {
         const knownIds = new Set(abilities.map((ability) => ability._id));
         const unknownIds = [];
-        for (const pokemon of pokedex) {
+        for (const pokemon of pokemonWithAbilities) {
             for (const abilityId of listAbilityIds(pokemon)) {
                 if (!knownIds.has(abilityId)) {
                     unknownIds.push(`${pokemon._id}: ${abilityId}`);
@@ -113,15 +112,15 @@ describe("abilities", () => {
 
     test("hidden ability is not also a normal ability", () => {
         const overlaps = [];
-        for (const pokemon of pokedex) {
+        for (const pokemon of pokemonWithAbilities) {
             const { normal, hidden } = pokemon.abilities;
             if (normal.includes(hidden)) overlaps.push(pokemon._id);
         }
         expect(overlaps).toEqual([]);
     });
 
-    test("pokemonWithAbility matches pokedex/entries", () => {
-        const expectedLists = buildPokemonWithAbility(pokedex);
+    test("pokemonWithAbility matches pokedex/entries and forms/", () => {
+        const expectedLists = buildPokemonWithAbility(pokemonWithAbilities);
         const mismatches = [];
         for (const ability of abilities) {
             const expected = expectedLists.get(ability._id)

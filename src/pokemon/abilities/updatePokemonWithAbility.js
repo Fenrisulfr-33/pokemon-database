@@ -4,10 +4,22 @@ import { fileURLToPath } from "url";
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import {
     ABILITIES_ENTRIES_DIR,
+    FORMS_DIR,
     POKEDEX_ENTRIES_DIR,
 } from "#helpers/paths.js";
 
 const BLOCK_KEY = '"pokemonWithAbility":';
+
+function readFormsWithAbilities() {
+    return fs.readdirSync(FORMS_DIR, { withFileTypes: true })
+        .filter((entry) => entry.isDirectory())
+        .flatMap((folder) => readJsonDir(path.join(FORMS_DIR, folder.name)))
+        .filter((form) => form.abilities !== undefined);
+}
+
+function readPokemonWithAbilities() {
+    return [...readJsonDir(POKEDEX_ENTRIES_DIR), ...readFormsWithAbilities()];
+}
 
 function emptyLists() {
     return { normal: [], hidden: [] };
@@ -54,12 +66,21 @@ function findBlockEnd(text, openIndex) {
     throw new Error("Unbalanced pokemonWithAbility block");
 }
 
+function formatIdList(ids, indent, newline) {
+    if (ids.length === 0) return "[]";
+    const itemIndent = indent.repeat(3);
+    const items = ids.map((id) => `${itemIndent}${id}`).join(`,${newline}`);
+    return `[${newline}${items}${newline}${indent.repeat(2)}]`;
+}
+
 function formatBlock(lists, indent, newline) {
     const innerIndent = indent + indent;
+    const normal = formatIdList(lists.normal, indent, newline);
+    const hidden = formatIdList(lists.hidden, indent, newline);
     return [
         "{",
-        `${innerIndent}"normal": [${lists.normal.join(", ")}],`,
-        `${innerIndent}"hidden": [${lists.hidden.join(", ")}]`,
+        `${innerIndent}"normal": ${normal},`,
+        `${innerIndent}"hidden": ${hidden}`,
         `${indent}}`,
     ].join(newline);
 }
@@ -76,11 +97,24 @@ function replaceBlock(text, lists) {
     return text.slice(0, openIndex) + block + text.slice(closeIndex);
 }
 
+function appendBlock(text, lists) {
+    const newline = text.includes("\r\n") ? "\r\n" : "\n";
+    const indent = text.match(/^([ \t]+)"_id"/m)[1];
+    const closeIndex = text.lastIndexOf("}");
+    const body = text.slice(0, closeIndex).trimEnd();
+    const block = formatBlock(lists, indent, newline);
+    return `${body},${newline}${indent}${BLOCK_KEY} ${block}${newline}`
+        + text.slice(closeIndex);
+}
+
 function updateAbilityFile(filePath, listsByAbility) {
     const text = fs.readFileSync(filePath, "utf8");
     const ability = JSON.parse(text);
-    const lists = listsByAbility.get(ability._id) ?? emptyLists();
-    const updatedText = replaceBlock(text, lists);
+    const lists = listsByAbility.get(ability._id);
+    if (!ability.pokemonWithAbility && !lists) return false;
+    const updatedText = ability.pokemonWithAbility
+        ? replaceBlock(text, lists ?? emptyLists())
+        : appendBlock(text, lists);
     if (updatedText === text) return false;
     fs.writeFileSync(filePath, updatedText);
     return true;
@@ -107,9 +141,7 @@ function reportUnknownAbilities(listsByAbility, filePaths) {
 }
 
 function updatePokemonWithAbility() {
-    const listsByAbility = buildPokemonWithAbility(
-        readJsonDir(POKEDEX_ENTRIES_DIR)
-    );
+    const listsByAbility = buildPokemonWithAbility(readPokemonWithAbilities());
     const filePaths = abilityFilePaths();
     reportUnknownAbilities(listsByAbility, filePaths);
     const changedCount = filePaths.filter(
@@ -127,6 +159,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 export {
     buildPokemonWithAbility,
     emptyLists,
+    readPokemonWithAbilities,
     replaceBlock,
     updatePokemonWithAbility,
 };

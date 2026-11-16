@@ -1,8 +1,11 @@
-import { fetchData } from './APIrequest.mjs';
+import fs from 'fs';
+
+import { POKEAPI_FORMS_DIR } from '#helpers/paths.js';
+import { fetchData } from './apiRequest.mjs';
 import { transformPokemonData, saveJsonFile } from './helpers.mjs';
 
 const endpoint = "pokemon/";
-const saveFolder = './forms';
+const saveFolder = POKEAPI_FORMS_DIR;
 /**
  * Moves have the following keys as of the time of this build.
  * _id
@@ -26,6 +29,7 @@ async function buildForms() {
 	console.log("Building pokemon...");
 	// get all available keys whenever update occurs
 	const availableKeys = new Set();
+	fs.mkdirSync(saveFolder, { recursive: true });
 
 	// Go through each generation, fetch the data, modify, save
 	for (let pokemon = 10001; pokemon <= 10326; pokemon++) {

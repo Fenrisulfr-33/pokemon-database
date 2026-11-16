@@ -11,7 +11,7 @@ server fills in move details from `moves`.
 
 | Field                         | Points to          |
 | ----------------------------- | ------------------ |
-| `_id`                         | `national-dex._id` (same id, 1:1) |
+| `_id`                         | `national-dex._id`, or `forms/` `_id` for a form (1:1) |
 | last value of every tuple     | `moves._id`        |
 
 ## Shape
