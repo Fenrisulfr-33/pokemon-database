@@ -1,7 +1,8 @@
 # Known issues
 
-Results of checking every reference between the `entries/` folders
-(2026-11-10). Nothing here was fixed.
+Results of checking every reference between the `entries/` folders.
+
+Whenever a known issue is fixed, commit and remove the section that known-issue related too.
 
 ## Links that hold
 
@@ -40,9 +41,8 @@ were removed from `changes`, and `getMoves.js` skips them.
 
 These came from PokeAPI and were not fixed:
 
-- `power: 0` instead of `null` on 16 status moves (829 Power Shift,
-  837 Victory Dance, 842 Shelter, 849, 850, 852, 858, 863, 867, 868,
-  880–883, 908, 913) and on Hard Press (912), whose power varies.
+- `power: 0` instead of `null` on Hard Press (912), whose power
+  varies. (The 16 status moves with `power: 0` were fixed 2026-11-16.)
 - `effectChanges` for games from before the move existed. Most are an
   English `gs` change ("Hits Pokémon under the effects of Dig and
   Fly.") on Shadow Punch (325), Aerial Ace (332), Magical Leaf (345),
@@ -73,12 +73,10 @@ an error.
 
 ## Failing tests
 
-6 of 8 test suites fail (`npm test`):
+5 of 10 test suites fail (`npm test`):
 
-- `moves/moves.test.js`, 3 of 20 tests (see "Move data from PokeAPI"
-  below):
-  - status moves have no power: 16 generation 9 status moves have
-    `power: 0` instead of `null`.
+- `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"
+  above):
   - damaging moves use null for variable power: Hard Press (912) has
     `power: 0`.
   - no game key before the move's generation: 11 moves have
@@ -89,7 +87,6 @@ an error.
 
 - `_test/evolution-id-list.test.mjs` reads `_test/evolution-id-list.json`,
   which doesn't exist.
-- `pokedex/pokedex.test.js` fails with `pokedex is not defined`.
 - `pokedex/dexes/archer-dexes.test.js`: the Legends ZA dex has 145
   entries instead of 232, and isn't in `dexNo` order.
 - `pokedex/dexes/dexes.test.js`: `ULTRA_SUN_ULTRA_MOON_MELEMELE` has
