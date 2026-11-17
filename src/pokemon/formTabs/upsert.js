@@ -1,6 +1,7 @@
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 import upsertEntries from "../helpers/upsertEntries.js";
+import schema from "./schema.json" with { type: "json" };
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import { FORM_TABS_ENTRIES_DIR } from "#helpers/paths.js";
 
@@ -19,7 +20,8 @@ async function run() {
 		environment: process.env.MONGO_ENV, 
 		dbName: `pokemon-${process.env.MONGO_ENV}`, 
 		collectionName: "form-tabs", 
-		entries: formTabs });
+		entries: formTabs,
+		schema });
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

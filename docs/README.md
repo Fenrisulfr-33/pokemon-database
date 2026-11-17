@@ -13,7 +13,7 @@ document, and its `_id` is the Mongo `_id`.
 | `moves`        | `src/pokemon/moves/entries`      | `npm run upsert:moves`      | `moves/schema.json`      |
 | `learnsets`    | `src/pokemon/learnsets/entries`  | `npm run upsert:learnsets`  | `learnsets/schema.json`  |
 | `evolutions`   | `src/pokemon/evolutions/entries` | `npm run upsert:evolutions` | `evolutions/schema.json` |
-| `form-tabs`    | `src/pokemon/formTabs/entries`   | `node src/pokemon/formTabs/upsert.js` | none           |
+| `form-tabs`    | `src/pokemon/formTabs/entries`   | `node src/pokemon/formTabs/upsert.js` | `formTabs/schema.json` |
 
 One page per collection:
 

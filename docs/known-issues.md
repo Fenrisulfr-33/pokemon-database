@@ -59,13 +59,9 @@ Older PokeAPI flavor text splits hyphenated words across lines
 the move and ability entries. It isn't removed automatically because
 some line-ending hyphens may belong to the text.
 
-## Missing schema checks
-
-`form-tabs` has no schema, so bad data uploads without an error.
-
 ## Failing tests
 
-5 of 11 test suites fail (`npm test`):
+5 of 12 test suites fail (`npm test`):
 
 - `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"
   above):

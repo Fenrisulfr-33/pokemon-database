@@ -34,6 +34,7 @@ website lives in a separate repo).
 	- `npm run evolutions:validate`
     - `npm run moves:validate` 
 	- `npm run learnsets:validate`
+	- `npm run form-tabs:validate`
 - Upload: 
 	- `npm run upsert:<abilities|moves|learnsets|pokemon|evolutions|all>`
 
@@ -43,6 +44,7 @@ After every change:
    Don't add new failures.
 2. The `*:validate` script for any entity whose data changed.
 3. Update any documentation pertaining to the change.
+4. If the change fixed a `known-issue` in `known-issues.md` remove the section pertaining to the `known-isses`.
 
 ## Conventions
 - Treat `src/pokemon/evolutions/entries` as the source of truth for

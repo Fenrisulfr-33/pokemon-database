@@ -2,7 +2,9 @@
 
 One document per pokemon that has more than one form. It drives the form
 switcher (tab bar) on the website. Source:
-`src/pokemon/formTabs/entries/{_id}-{key}.json` (126 files). No schema.
+`src/pokemon/formTabs/entries/{_id}-{key}.json` (126 files). Schema:
+`src/pokemon/formTabs/schema.json`, checked with
+`npm run form-tabs:validate`.
 
 Uploaded with `node src/pokemon/formTabs/upsert.js`; it is not part of
 `npm run upsert:all` and has no npm script.
@@ -40,7 +42,7 @@ English form names, e.g. `Plant Cloak`.
 {
     "_id": 1017,
     "pokemonIds": [1017, 1017.01, 1017.02, 1017.03],
-    "key": "ogrepon",
+    "key": "ogerpon",
     "tab": [
         { "id": 1017, "name": "Teal Mask" },
         { "id": 1017.01, "name": "Wellspring Mask" },

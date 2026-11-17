@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://pokemon-database.com/schemas/form-tabs.json",
+    "title": "PokemonFormTabEntry",
+    "description": "Schema for one entry in src/pokemon/formTabs/entries. See docs/collections/form-tabs.md.",
+    "type": "object",
+    "required": ["_id", "key", "pokemonIds", "tab"],
+    "additionalProperties": false,
+    "properties": {
+        "_id": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "national-dex _id of the base form; equals pokemonIds[0]"
+        },
+        "key": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "national-dex key of the base form"
+        },
+        "pokemonIds": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "description": "Base national-dex _id first, then each forms/ _id",
+            "items": { "$ref": "#/definitions/pokemonId" }
+        },
+        "tab": {
+            "type": "array",
+            "minItems": 2,
+            "description": "Tab label per form, in pokemonIds order",
+            "items": { "$ref": "#/definitions/tab" }
+        }
+    },
+    "definitions": {
+        "pokemonId": {
+            "type": "number",
+            "minimum": 1,
+            "description": "national-dex _id, or a forms/ _id such as 412.01"
+        },
+        "tab": {
+            "type": "object",
+            "required": ["id", "name"],
+            "additionalProperties": false,
+            "properties": {
+                "id": { "$ref": "#/definitions/pokemonId" },
+                "name": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Label shown on the tab"
+                }
+            }
+        }
+    }
+}
