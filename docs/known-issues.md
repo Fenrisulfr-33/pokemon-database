@@ -30,13 +30,6 @@ Moves 827–919 (generation 8 Legends Arceus and generation 9) have empty
 `effect.full` and `effect.shortEffect`. PokeAPI has no English effect
 text for them yet. The schema allows empty strings here.
 
-## Move changes PokeAPI can't describe
-
-For 12 moves (Teleport, Struggle, Perish Song, Nature Power, Howl, ...)
-PokeAPI lists a past value for a game with every field `null`. Whatever
-changed (probably the target) isn't in PokeAPI. These empty entries
-were removed from `changes`, and `getMoves.js` skips them.
-
 ## Move data from PokeAPI
 
 These came from PokeAPI and were not fixed:
