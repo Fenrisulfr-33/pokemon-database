@@ -2,7 +2,9 @@
 
 The moves each pokemon can learn, by game and learn method. Source:
 `src/pokemon/learnsets/entries/{_id}-{key}.json` (1,075 files).
-Uploaded by `npm run upsert:moves` after the moves collection. No schema.
+Uploaded by `npm run upsert:learnsets`. Schema:
+`src/pokemon/learnsets/schema.json`, checked with
+`npm run learnsets:validate`.
 
 This is the join between pokemon and moves: it stores only ids, and the
 server fills in move details from `moves`.

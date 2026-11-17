@@ -8,7 +8,10 @@ Learnsets is a collection that stores all the moves a pokemon can learn by game.
 - The data orginally came from `moves/games/{id-gameName}.json`, which was
   converted once by `buildLearnsets.mjs`. Both were removed afterwards, so
   `entries/` is now the source of truth and is edited directly.
-- Currently no tests, as data has to be checked manually/interpreted from pokeAPI, then manually verified differences.
+- `schema.json` checks the shape of every entry (`npm run
+  learnsets:validate`, rejection cases in `learnsets.schema.test.js`).
+  Whether the moves are actually correct still has to be checked
+  manually against PokeAPI.
 
 ## Data Model
 

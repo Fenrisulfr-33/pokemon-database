@@ -11,7 +11,7 @@ document, and its `_id` is the Mongo `_id`.
 | `national-dex` | `src/pokemon/pokedex/entries`    | `npm run upsert:pokemon`    | `pokedex/schema.json`    |
 | `abilities`    | `src/pokemon/abilities/entries`  | `npm run upsert:abilities`  | `abilities/schema.json`  |
 | `moves`        | `src/pokemon/moves/entries`      | `npm run upsert:moves`      | `moves/schema.json`      |
-| `learnsets`    | `src/pokemon/learnsets/entries`  | `npm run upsert:moves`      | none                     |
+| `learnsets`    | `src/pokemon/learnsets/entries`  | `npm run upsert:learnsets`  | `learnsets/schema.json`  |
 | `evolutions`   | `src/pokemon/evolutions/entries` | `npm run upsert:evolutions` | `evolutions/schema.json` |
 | `form-tabs`    | `src/pokemon/formTabs/entries`   | `node src/pokemon/formTabs/upsert.js` | none           |
 
@@ -130,5 +130,5 @@ flowchart LR
 - `replaceOne` swaps the whole document, so fields removed from a file
   disappear from Mongo on the next upload. Documents whose file was
   deleted are **not** removed from Mongo.
-- `npm run upsert:all` runs abilities, moves (+ learnsets), pokemon and
+- `npm run upsert:all` runs abilities, moves, learnsets, pokemon and
   evolutions. It does not upload `form-tabs`.

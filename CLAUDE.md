@@ -27,10 +27,15 @@ website lives in a separate repo).
   (see `imports` in `package.json`)
 
 ## Commands
-- Test: `npm test`
-- Validate: `npm run pokedex:validate`, `npm run evolutions:validate`,
-  `npm run moves:validate`
-- Upload: `npm run upsert:<abilities|moves|pokemon|evolutions|all>`
+- Test: 
+	- `npm test`
+- Validate: 
+	- `npm run pokedex:validate` 
+	- `npm run evolutions:validate`
+    - `npm run moves:validate` 
+	- `npm run learnsets:validate`
+- Upload: 
+	- `npm run upsert:<abilities|moves|learnsets|pokemon|evolutions|all>`
 
 ## Verification
 After every change:

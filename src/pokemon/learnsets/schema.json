@@ -1,0 +1,169 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://pokemon-database.com/schemas/learnsets.json",
+    "title": "PokemonLearnsetEntry",
+    "description": "Schema for one entry in src/pokemon/learnsets/entries. See docs/collections/learnsets.md for the tuple shapes this schema encodes.",
+    "type": "object",
+    "required": ["_id"],
+    "minProperties": 2,
+    "additionalProperties": false,
+    "properties": {
+        "_id": {
+            "type": "number",
+            "minimum": 1,
+            "description": "national-dex _id; forms use a decimal suffix, e.g. 3.01"
+        },
+        "rb": { "$ref": "#/definitions/game" },
+        "ye": { "$ref": "#/definitions/game" },
+        "gs": { "$ref": "#/definitions/game" },
+        "cr": { "$ref": "#/definitions/game" },
+        "rs": { "$ref": "#/definitions/game" },
+        "em": { "$ref": "#/definitions/game" },
+        "frlg": { "$ref": "#/definitions/game" },
+        "dp": { "$ref": "#/definitions/game" },
+        "pt": { "$ref": "#/definitions/game" },
+        "hgss": { "$ref": "#/definitions/game" },
+        "bw": { "$ref": "#/definitions/game" },
+        "b2w2": { "$ref": "#/definitions/game" },
+        "xy": { "$ref": "#/definitions/game" },
+        "oras": { "$ref": "#/definitions/game" },
+        "sm": { "$ref": "#/definitions/game" },
+        "usum": { "$ref": "#/definitions/game" },
+        "lgpe": { "$ref": "#/definitions/game" },
+        "swsh": { "$ref": "#/definitions/game" },
+        "bdsp": { "$ref": "#/definitions/game" },
+        "la": { "$ref": "#/definitions/game" },
+        "sv": { "$ref": "#/definitions/game" },
+        "za": { "$ref": "#/definitions/game" }
+    },
+    "definitions": {
+        "game": {
+            "type": "object",
+            "description": "Learn methods for one game; empty methods are left out",
+            "minProperties": 1,
+            "additionalProperties": false,
+            "properties": {
+                "lv": { "$ref": "#/definitions/levelMoves" },
+                "tm": { "$ref": "#/definitions/machineMoves" },
+                "hm": { "$ref": "#/definitions/hiddenMachineMoves" },
+                "tr": { "$ref": "#/definitions/machineMoves" },
+                "eg": { "$ref": "#/definitions/plainMoves" },
+                "tu": { "$ref": "#/definitions/plainMoves" },
+                "ev": { "$ref": "#/definitions/plainMoves" },
+                "rm": { "$ref": "#/definitions/plainMoves" },
+                "spm": { "$ref": "#/definitions/plainMoves" },
+                "pe": { "$ref": "#/definitions/preEvolutionMoves" },
+                "to": { "$ref": "#/definitions/transferOnlyMoves" },
+                "sp": { "$ref": "#/definitions/specialMoves" },
+                "zc": { "$ref": "#/definitions/plainMoves" },
+                "lbe": { "$ref": "#/definitions/plainMoves" },
+                "fc": { "$ref": "#/definitions/plainMoves" }
+            }
+        },
+        "moveId": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "moves _id; always the last value in a tuple"
+        },
+        "methodKey": {
+            "enum": ["lv", "tm", "hm", "tu", "eg", "ev", "pe", "sp"],
+            "description": "How the move was learned in the earlier stage or game"
+        },
+        "levelMoves": {
+            "type": "array",
+            "minItems": 1,
+            "description": "[level, moveId]",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "type": "integer", "minimum": 1 },
+                    { "$ref": "#/definitions/moveId" }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+            }
+        },
+        "machineMoves": {
+            "type": "array",
+            "minItems": 1,
+            "description": "[machineNumber, moveId]; 0 is valid (TM00, TR00)",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "type": "integer", "minimum": 0 },
+                    { "$ref": "#/definitions/moveId" }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+            }
+        },
+        "hiddenMachineMoves": {
+            "type": "array",
+            "minItems": 1,
+            "description": "[hmNumber, moveId]",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "type": "integer", "minimum": 1 },
+                    { "$ref": "#/definitions/moveId" }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+            }
+        },
+        "plainMoves": {
+            "type": "array",
+            "minItems": 1,
+            "description": "[moveId]",
+            "items": {
+                "type": "array",
+                "items": [{ "$ref": "#/definitions/moveId" }],
+                "minItems": 1,
+                "maxItems": 1
+            }
+        },
+        "preEvolutionMoves": {
+            "type": "array",
+            "minItems": 1,
+            "description": "[methodKey, moveId]",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "$ref": "#/definitions/methodKey" },
+                    { "$ref": "#/definitions/moveId" }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+            }
+        },
+        "transferOnlyMoves": {
+            "type": "array",
+            "minItems": 1,
+            "description": "[generation, methodKey, moveId]",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "type": "integer", "minimum": 1, "maximum": 9 },
+                    { "$ref": "#/definitions/methodKey" },
+                    { "$ref": "#/definitions/moveId" }
+                ],
+                "minItems": 3,
+                "maxItems": 3
+            }
+        },
+        "specialMoves": {
+            "type": "array",
+            "minItems": 1,
+            "description": "[note, moveId]; note is the original event or form text",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "type": "string", "minLength": 1 },
+                    { "$ref": "#/definitions/moveId" }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+            }
+        }
+    }
+}
