@@ -29,3 +29,28 @@ function formatWeight(hectograms) {
 ```
 
 `68` → `6.8 kg (15.0 lbs)`, `905` → `90.5 kg (199.5 lbs)`
+
+### nameOrigin
+
+A list of `[word, meaning]` pairs, in display order. Empty meanings
+still need filling in (see `DATA_CHECK.md`).
+
+```json
+    "nameOrigin": [
+        ["mirai", "Japanese for ‘future’"],
+        ["-don", "common dinosaur suffix, from the Greek for ‘tooth’"]
+    ],
+```
+
+### pokedexEntries
+
+A list of `{ gameKey: description }` objects, one per game, using the
+game keys in `src/pokemon/KEYS.md`. Each file holds only its own
+pokemon's entries; other forms' entries live in their `forms/` files.
+
+```json
+    "pokedexEntries": [
+        { "sc": "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful." },
+        { "vi": "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning." }
+    ]
+```

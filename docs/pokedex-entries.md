@@ -3,118 +3,26 @@
 The state of `pokedexEntries` in `src/pokemon/pokedex/entries` and
 `src/pokemon/forms` (checked 2026-11-12).
 
-`pokedexEntries` is keyed by display name. Base pokemon files used to
-hold some forms' entries under a second key as well (e.g. `Hisuian
-Growlithe` in `58-growlithe.json`). On 2026-11-12 every entry that was
-in both a base file and a form file was kept in one place only:
-
-- A form's entry stays in the form's file and was removed from the base
-  file (96 keys from 76 base files).
-- The base's own entry stays in the base file and was removed from the
-  form (12 form files): Zen Mode Darmanitan's `Darmanitan` (both
-  copies), Three-Segment Dudunsparce's `Two-segment Form` (both
-  copies), and the 6 Meteor Minior colors, Totem Disguised Mimikyu and
-  50% Power Construct Zygarde, which only had a copy of the base entry.
-
-For Zygarde, Minior, Mimikyu and Dudunsparce the base's own key is a
-form name (`50% Forme`, `Meteor Form`, `Disguised Form`,
-`Two-segment Form`), so those keys stayed in the base file.
+`pokedexEntries` is a list of `{ gameKey: description }` objects (game
+keys from `src/pokemon/KEYS.md`). Each file holds only its own
+pokemon's or form's entries. Files in `forms/needs-pokemon-file/` keep
+the form name only in the file name.
 
 ## Summary
 
 | Check | Count |
 | --- | --- |
-| `pokedex/entries` files with 2 or more keys | 24 |
+| `pokedex/entries` files with 2 or more keys | 0 |
 | `pokedex/entries` base pokemon with no entries | 24 |
 | `forms/` files with no entries (of 553) | 360 |
 | ...of those, base file has other keys | 131 |
 
 ## `pokedex/entries` files with 2 or more keys
 
-Rechecked 2026-11-13, after the cosmetic forms were added to
-`forms/cosmetic`. The list is the same 24 files, and none of their keys
-is also in a form file.
-
-The cosmetic move took the other forms' entries out of these base
-files, so most second keys are now the base's own form name:
-
-| Base file | Moved to |
-| --- | --- |
-| `421-cherrim.json` | `Sunshine Form` in `cosmetic/421.01-sunshine-form-cherrim.json` |
-| `422-shellos.json` | `East Sea` in `cosmetic/422.01-east-sea-shellos.json` |
-| `423-gastrodon.json` | `East Sea` in `cosmetic/423.01-east-sea-gastrodon.json` |
-| `592-frillish.json` | `Female Frillish` in `cosmetic/592.01-female-frillish.json` |
-| `593-jellicent.json` | `Female Jellicent` in `cosmetic/593.01-female-jellicent.json` |
-
-Shellos and Gastrodon's old `East Sea Form` key was merged into
-`East Sea`, so they no longer have two East Sea keys.
-
-### Base's own form
-
-The extra key is the base pokemon's own (default) form. These are fine
-where they are.
-
-| File | Keys | Key names |
-| --- | --- | --- |
-| `421-cherrim.json` | 2 | Cherrim, Overcast Form |
-| `422-shellos.json` | 2 | Shellos, West Sea |
-| `423-gastrodon.json` | 2 | Gastrodon, West Sea |
-| `550-basculin.json` | 2 | Basculin, Red-striped Form |
-| `555-darmanitan.json` | 2 | Darmanitan, Standard Mode |
-| `592-frillish.json` | 2 | Frillish, Male Frillish |
-| `593-jellicent.json` | 2 | Jellicent, Male Jellicent |
-| `647-keldeo.json` | 2 | Keldeo, Ordinary Form |
-| `678-meowstic.json` | 2 | Meowstic, Male |
-| `681-aegislash.json` | 2 | Aegislash, Shield Forme |
-
-### Keys that match one form file
-
-The form file exists but has no entries, so these keys could move into
-it (see "`forms/` files with no entries" below).
-
-| File | Keys | Key names | Form file |
-| --- | --- | --- | --- |
-| `413-wormadam.json` | 3 | Plant Cloak, Sandy Cloak, Trash Cloak | `alternate/413.01-sandy-wormadam`, `alternate/413.02-trash-wormadam` |
-| `670-floette.json` | 2 | Floette, Eternal Flower | `alternate/670.01-eternal-floette` |
-| `710-pumpkaboo.json` | 5 | Pumpkaboo, Average Size, Small Size, Large Size, Super Size | `alternate/710.01`–`710.03` (small, large, super) |
-| `711-gourgeist.json` | 5 | Gourgeist, Average Size, Small Size, Large Size, Super Size | `alternate/711.01`–`711.03` (small, large, super) |
-| `741-oricorio.json` | 2 | Baile Style, Pa'u Style | `alternate/741.02-pau-oricorio` |
-| `800-necrozma.json` | 3 | Necrozma, Dusk Mane Necrozma, Dawn Wings Necrozma | `alternate/800.01-dusk-necrozma`, `alternate/800.02-dawn-necrozma` |
-| `875-eiscue.json` | 2 | Ice Face, Noice Face | `alternate/875.01-noice-eiscue` |
-| `888-zacian.json` | 2 | Crowned Sword, Hero Of Many Battles | `alternate/888.01-crowned-zacian` |
-| `889-zamazenta.json` | 2 | Crowned Shield, Hero Of Many Battles | `alternate/889.01-crowned-zamazenta` |
-
-`Plant Cloak`, `Average Size`, `Baile Style`, `Ice Face` and
-`Hero Of Many Battles` are the base's own form.
-
-### Keys shared by several form files
-
-One key covers a group of forms, so there is no single file to move it
-to.
-
-| File | Keys | Key names | Covers |
-| --- | --- | --- | --- |
-| `25-pikachu.json` | 2 | Pikachu, Cap Pikachu | `pikachu/25.07`–`25.15` (cap forms, which also have their own `<Region> Cap` keys) |
-| `773-silvally.json` | 2 | Silvally, Memory Form | `cosmetic/773.01`–`773.17` (type forms) |
-| `774-minior.json` | 2 | Meteor Form, Core Form | `alternate/774.07`–`774.13` (core colors) |
-| `869-alcremie.json` | 9 | Caramel Swirl Flavor, Vanilla Cream Flavor, Lemon Cream Flavor, Matcha Cream Flavor, Salted Cream Flavor, Mint Cream Flavor, Rainbow Swirl Flavor, Ruby Swirl Flavor, Ruby Cream Flavor | `cosmetic/869.02`–`869.63`, keyed by cream; each cream has 7 sweet forms |
-
-`Meteor Form` and `Vanilla Cream Flavor` are the base's own form.
-
-### No form file
-
-| File | Keys | Key names |
-| --- | --- | --- |
-| `521-unfezant.json` | 3 | Unfezant, Female Unfezant, Male Unfezant |
-
-Unfezant's gender difference has no form file in `forms/`, so both
-gender keys stay in the base file.
-
-Things to look at:
-
-- `678-meowstic` and `876-indeedee` have a `Male` key, and
-  `592-frillish` and `593-jellicent` a `Male <name>` key; their female
-  entries are now only in the female form files.
+None. Each pokedex file keeps only its base form's key. The 37 extra
+keys were moved to `forms/needs-pokemon-file/{_id}-{form-key}.json`
+(`_id`, `key` and that one `pokedexEntries` key) until they get a
+real form file.
 
 ## `pokedex/entries` base pokemon with no entries
 

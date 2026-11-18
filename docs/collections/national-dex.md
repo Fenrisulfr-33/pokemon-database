@@ -37,9 +37,15 @@ One document per base pokemon. Source:
 | `baseExp`        | number            | optional                                 |
 | `growthRate`     | string \| null    |                                          |
 | `eggCycles`      | number \| null    |                                          |
-| `nameOrigin`     | object            | `{word: meaning}`                        |
-| `pokedexEntries` | object            | `{formName: [{game, desc}]}`             |
+| `nameOrigin`     | array             | `[[word, meaning]]`                      |
+| `pokedexEntries` | array             | `[{gameKey: desc}]`                      |
 | `pokedexNumber`  | object            | **added on upload**, `{game: dexNo}`     |
+
+Each `pokedexEntries` key is a game key from
+[`KEYS.md`](../../src/pokemon/KEYS.md): a single game (`go`), a
+version group (`rb`), or games from the same group (`dpp`). Games from
+different groups get separate entries, even when the text is the same
+(`x` and `or`).
 
 `info.height` and `info.weight` are PokeAPI units. Display formulas are
 in `src/pokemon/pokedex/README.md`.
@@ -65,9 +71,9 @@ each regional dex in `pokedex/dexes/dexes_objects/` and records its
     "evolution": 2,
     "generation": 1,
     "evs": { "spatk": 3 },
-    "pokedexEntries": {
-        "Charizard": [{ "game": "red-blue", "desc": "Spits fire..." }]
-    }
+    "pokedexEntries": [
+        { "rb": "Spits fire..." }
+    ]
 }
 ```
 

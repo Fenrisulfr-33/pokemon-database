@@ -35,6 +35,8 @@ website lives in a separate repo).
     - `npm run moves:validate` 
 	- `npm run learnsets:validate`
 	- `npm run form-tabs:validate`
+- Data check: 
+	- `npm run pokedex:data-check` (writes `src/pokemon/pokedex/DATA_CHECK.md`)
 - Upload: 
 	- `npm run upsert:<abilities|moves|learnsets|pokemon|evolutions|all>`
 

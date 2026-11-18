@@ -199,24 +199,27 @@
             "description": "Not yet populated for every entry"
         },
         "nameOrigin": {
-            "type": "object",
-            "description": "Free-form word-fragment -> meaning map, e.g. { \"bulb\": \"a type of plant\" }",
-            "additionalProperties": { "type": "string" }
+            "type": "array",
+            "description": "[word, meaning] pairs in display order, e.g. [\"bulb\", \"a type of plant\"]. Meaning may be empty until filled in (see DATA_CHECK.md)",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "type": "string", "minLength": 1 },
+                    { "type": "string" }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+            }
         },
         "pokedexEntries": {
-            "type": "object",
-            "description": "Keyed by display name (base form and, for entries covering a regional form in the same file, the form's display name)",
-            "additionalProperties": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "required": ["game", "desc"],
-                    "additionalProperties": false,
-                    "properties": {
-                        "game": { "type": "string", "minLength": 1 },
-                        "desc": { "type": "string", "minLength": 1 }
-                    }
-                }
+            "type": "array",
+            "description": "One { gameKey: description } object per entry, in game order; game keys are from src/pokemon/KEYS.md",
+            "items": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 1,
+                "propertyNames": { "pattern": "^[a-z0-9]+$" },
+                "additionalProperties": { "type": "string", "minLength": 1 }
             }
         },
         "moves": {

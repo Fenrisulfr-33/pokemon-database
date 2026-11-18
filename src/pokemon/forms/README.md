@@ -14,6 +14,8 @@ src/pokemon/
     |--gigantamax/  # Gigantamax forms
     |--hisuian/     # Hisuian regional forms
     |--megas/       # Mega Evolutions, including Legends Z-A megas
+    |--needs-pokemon-file/ # pokedexEntries moved out of base files;
+    |                      # only _id, key, pokedexEntries, to look into
     |--paldean/     # Paldean regional forms (Tauros breeds, Wooper)
     |--pikachu/     # Pikachu caps, cosplay and partner forms
     |--primal/      # Primal Reversions
