@@ -35,7 +35,7 @@ One document per base pokemon. Source:
 | `catchRate`      | number \| null    |                                          |
 | `baseFriendship` | number \| null    |                                          |
 | `baseExp`        | number            | optional                                 |
-| `growthRate`     | string \| null    |                                          |
+| `growthRate`     | integer           | `growth-rates._id` (1 Slow, 2 Medium Slow, 3 Medium Fast, 4 Fast, 5 Erratic, 6 Fluctuating) |
 | `eggCycles`      | number \| null    |                                          |
 | `nameOrigin`     | array             | `[[word, meaning]]`                      |
 | `pokedexEntries` | array             | `[{gameKey: desc}]`                      |

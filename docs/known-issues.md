@@ -61,7 +61,7 @@ some line-ending hyphens may belong to the text.
 
 ## Failing tests
 
-5 of 12 test suites fail (`npm test`):
+5 of 13 test suites fail (`npm test`):
 
 - `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"
   above):

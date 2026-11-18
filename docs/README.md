@@ -14,6 +14,7 @@ document, and its `_id` is the Mongo `_id`.
 | `learnsets`    | `src/pokemon/learnsets/entries`  | `npm run upsert:learnsets`  | `learnsets/schema.json`  |
 | `evolutions`   | `src/pokemon/evolutions/entries` | `npm run upsert:evolutions` | `evolutions/schema.json` |
 | `form-tabs`    | `src/pokemon/formTabs/entries`   | `node src/pokemon/formTabs/upsert.js` | `formTabs/schema.json` |
+| `growth-rates` | `src/pokemon/growth-rate/entries` | `npm run upsert:growth-rate` | `growth-rate/schema.json` |
 
 One page per collection:
 
@@ -23,6 +24,8 @@ One page per collection:
 - [learnsets](collections/learnsets.md): which pokemon learn which moves
 - [evolutions](collections/evolutions.md): evolution chains
 - [form-tabs](collections/form-tabs.md): form switcher for a pokemon
+- [growth-rates](../src/pokemon/growth-rate/README.md): experience
+  curves, referenced by `growthRate`
 - [pokedex entries](pokedex-entries.md): which files have
   `pokedexEntries`, and which forms are missing them
 

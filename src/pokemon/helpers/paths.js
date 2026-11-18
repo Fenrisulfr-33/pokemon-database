@@ -9,6 +9,7 @@ const ABILITIES_ENTRIES_DIR = path.join(__dirname, "../abilities/entries");
 const EVOLUTIONS_ENTRIES_DIR = path.join(__dirname, "../evolutions/entries");
 const FORM_TABS_ENTRIES_DIR = path.join(__dirname, "../formTabs/entries");
 const LEARNSETS_ENTRIES_DIR = path.join(__dirname, "../learnsets/entries");
+const GROWTH_RATE_ENTRIES_DIR = path.join(__dirname, "../growth-rate/entries");
 const FORMS_DIR = path.join(__dirname, "../forms");
 const POKEAPI_DIR = path.join(__dirname, "../pokeApi");
 const POKEAPI_POKEMON_DIR = path.join(POKEAPI_DIR, "pokemon");
@@ -19,6 +20,6 @@ const POKEAPI_COSMETIC_FORMS_DIR = path.join(POKEAPI_DIR, "cosmeticForms");
 
 export { MOVES_ENTRIES_DIR, POKEDEX_ENTRIES_DIR,
 	ABILITIES_ENTRIES_DIR, EVOLUTIONS_ENTRIES_DIR, FORM_TABS_ENTRIES_DIR,
-	LEARNSETS_ENTRIES_DIR, FORMS_DIR, POKEAPI_POKEMON_DIR, POKEAPI_FORMS_DIR,
+	LEARNSETS_ENTRIES_DIR, GROWTH_RATE_ENTRIES_DIR, FORMS_DIR, POKEAPI_POKEMON_DIR, POKEAPI_FORMS_DIR,
 	POKEAPI_FORM_DETAILS_DIR, POKEAPI_GENERATIONS_DIR,
 	POKEAPI_COSMETIC_FORMS_DIR };

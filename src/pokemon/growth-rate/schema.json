@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://pokemon-database.com/schemas/growth-rates.json",
+    "title": "PokemonGrowthRateEntry",
+    "description": "Schema for one entry in src/pokemon/growth-rate/entries. See src/pokemon/growth-rate/README.md.",
+    "type": "object",
+    "required": ["_id", "key", "name", "formula", "levels", "pokemon"],
+    "additionalProperties": false,
+    "properties": {
+        "_id": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Referenced by national-dex and forms growthRate"
+        },
+        "key": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "English name in lowercase, e.g. medium-fast"
+        },
+        "name": {
+            "type": "object",
+            "required": ["english"],
+            "description": "Name by language",
+            "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "formula": {
+            "type": "string",
+            "minLength": 1,
+            "description": "LaTeX formula for the experience needed at level x"
+        },
+        "levels": {
+            "type": "array",
+            "minItems": 100,
+            "maxItems": 100,
+            "description": "Total experience needed for each level, 1 to 100",
+            "items": {
+                "type": "object",
+                "required": ["level", "experience"],
+                "additionalProperties": false,
+                "properties": {
+                    "level": { "type": "integer", "minimum": 1, "maximum": 100 },
+                    "experience": { "type": "integer", "minimum": 0 }
+                }
+            }
+        },
+        "pokemon": {
+            "type": "array",
+            "uniqueItems": true,
+            "description": "national-dex and forms _ids with this growth rate, lowest first; built by updatePokemonWithGrowthRate.js",
+            "items": { "type": "number", "minimum": 1 }
+        }
+    }
+}

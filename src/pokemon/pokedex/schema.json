@@ -184,8 +184,10 @@
             "description": "Not yet populated for every entry"
         },
         "growthRate": {
-            "type": ["string", "null"],
-            "enum": ["Slow", "Medium Slow", "Medium Fast", "Fast", "Fluctuating", "Erratic", "", null]
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6,
+            "description": "growth-rate _id (src/pokemon/growth-rate/entries)"
         },
         "eggCycles": {
             "type": ["integer", "null"],

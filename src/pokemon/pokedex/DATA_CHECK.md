@@ -21,7 +21,7 @@ Don't edit by hand; fix the entry files and run it again.
 | pokedexEntries | 24 |
 | pokedexEntries games | 896 |
 | evs | 197 |
-| growthRate | 16 |
+| growthRate | 0 |
 | eggGroups | 7 |
 | species | 9 |
 | catchRate | 7 |
@@ -888,13 +888,13 @@ Don't edit by hand; fix the entry files and run it again.
 | 896 | Glastrier | nameOrigin; pokedexEntries games: sv |
 | 897 | Spectrier | nameOrigin; pokedexEntries games: sv |
 | 898 | Calyrex | nameOrigin; pokedexEntries games: sv; evs |
-| 899 | Wyrdeer | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; growthRate; species; catchRate; baseFriendship; eggCycles |
-| 900 | Kleavor | nameOrigin; pokedexEntries; pokedexEntries games: la, sv, za; evs; growthRate; species; catchRate; baseFriendship; eggCycles |
-| 901 | Ursaluna | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; growthRate; species; catchRate; baseFriendship; eggCycles |
-| 902 | Basculegion | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; growthRate; species; catchRate; baseFriendship; eggCycles |
-| 903 | Sneasler | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; growthRate; species; catchRate; baseFriendship; eggCycles |
-| 904 | Overqwil | nameOrigin; pokedexEntries; pokedexEntries games: la, sv, za; evs; growthRate; species; catchRate; baseFriendship; eggCycles |
-| 905 | Enamorus | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; growthRate; species; catchRate; baseFriendship; eggCycles |
+| 899 | Wyrdeer | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; species; catchRate; baseFriendship; eggCycles |
+| 900 | Kleavor | nameOrigin; pokedexEntries; pokedexEntries games: la, sv, za; evs; species; catchRate; baseFriendship; eggCycles |
+| 901 | Ursaluna | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; species; catchRate; baseFriendship; eggCycles |
+| 902 | Basculegion | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; species; catchRate; baseFriendship; eggCycles |
+| 903 | Sneasler | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; species; catchRate; baseFriendship; eggCycles |
+| 904 | Overqwil | nameOrigin; pokedexEntries; pokedexEntries games: la, sv, za; evs; species; catchRate; baseFriendship; eggCycles |
+| 905 | Enamorus | nameOrigin; pokedexEntries; pokedexEntries games: la, sv; evs; species; catchRate; baseFriendship; eggCycles |
 | 906 | Sprigatito | evs |
 | 907 | Floragato | evs |
 | 908 | Meowscarada | evs |
@@ -996,15 +996,15 @@ Don't edit by hand; fix the entry files and run it again.
 | 1006 | Iron-Valiant | evs |
 | 1007 | Koraidon | evs |
 | 1008 | Miraidon | evs |
-| 1009 | Walking Wake | nameOrigin; pokedexEntries; pokedexEntries games: sv; evs; growthRate |
-| 1010 | Iron Leaves | nameOrigin; pokedexEntries; pokedexEntries games: sv; evs; growthRate |
-| 1011 | Dipplin | nameOrigin; pokedexEntries; pokedexEntries games: sv; growthRate; eggGroups; species |
-| 1012 | Poltchageist | nameOrigin; pokedexEntries; pokedexEntries games: sv; growthRate; eggGroups |
-| 1013 | Sinistcha | nameOrigin; pokedexEntries; pokedexEntries games: sv; growthRate; eggGroups |
-| 1014 | Okidogi | nameOrigin; pokedexEntries; pokedexEntries games: sv; growthRate; eggGroups |
-| 1015 | Munkidori | nameOrigin; pokedexEntries; pokedexEntries games: sv; growthRate; eggGroups |
-| 1016 | Fezandipiti | nameOrigin; pokedexEntries; pokedexEntries games: sv; growthRate; eggGroups |
-| 1017 | Ogerpon | nameOrigin; pokedexEntries; pokedexEntries games: sv; growthRate; eggGroups |
+| 1009 | Walking Wake | nameOrigin; pokedexEntries; pokedexEntries games: sv; evs |
+| 1010 | Iron Leaves | nameOrigin; pokedexEntries; pokedexEntries games: sv; evs |
+| 1011 | Dipplin | nameOrigin; pokedexEntries; pokedexEntries games: sv; eggGroups; species |
+| 1012 | Poltchageist | nameOrigin; pokedexEntries; pokedexEntries games: sv; eggGroups |
+| 1013 | Sinistcha | nameOrigin; pokedexEntries; pokedexEntries games: sv; eggGroups |
+| 1014 | Okidogi | nameOrigin; pokedexEntries; pokedexEntries games: sv; eggGroups |
+| 1015 | Munkidori | nameOrigin; pokedexEntries; pokedexEntries games: sv; eggGroups |
+| 1016 | Fezandipiti | nameOrigin; pokedexEntries; pokedexEntries games: sv; eggGroups |
+| 1017 | Ogerpon | nameOrigin; pokedexEntries; pokedexEntries games: sv; eggGroups |
 | 1018 | Archaludon | nameOrigin; pokedexEntries; pokedexEntries games: sv |
 | 1019 | Hydrapple | nameOrigin; pokedexEntries; pokedexEntries games: sv; species |
 | 1020 | Gouging Fire | nameOrigin; pokedexEntries; pokedexEntries games: sv |
