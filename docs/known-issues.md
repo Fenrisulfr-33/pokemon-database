@@ -80,6 +80,19 @@ some line-ending hyphens may belong to the text.
 - `pokedex/dexes/dexes.test.js`: `ULTRA_SUN_ULTRA_MOON_MELEMELE` has
   149 entries instead of 150.
 
+## Hyphenated English names
+
+`name.english` is hyphenated for 984–995 and 1005–1006 (`Great-Tusk`,
+`Iron-Valiant`). The games use spaces.
+
+## Pokedex entries games that can't be filled
+
+`DATA_CHECK.md` lists a game as missing when the pokemon has a learnset
+for it. 532 pokemon still have missing games after filling from
+Bulbapedia (2026-11-18). Usually the pokemon isn't in that game's
+Pokédex (it's only transferable), so there's no entry to add. Form-only
+entries (Hisuian Typhlosion in LA, etc.) weren't added to base files.
+
 ## Abilities with no pokemon
 
 Embody Aspect (303) has empty `pokemonWithAbility` lists. The
@@ -107,7 +120,8 @@ Rebuilt from PokeAPI on 2026-11-12. Problems found:
 - **Empty `pokedexEntries`**: 134 forms (64 Megas, 10 Totems, 2
   Gigantamax and 58 others such as the Deoxys, Rotom, Minior and Ogerpon
   forms). PokeAPI has no form-specific entries. Full list in
-  `docs/pokedex-entries.md`.
+  `docs/pokedex-entries.md`. Bulbapedia has entries for 902.01,
+  905.01, 1012.01, 1013.01 and 1017.01–1017.03.
 - **Female forms** (Meowstic, Indeedee, Oinkologne, Female Mega
   Meowstic) are `0` / `100`; Female Basculegion is `null` / `null`
   because base 902 has no gender data.
