@@ -10,12 +10,10 @@ import {
 
 const POKEDEX_DIR = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = path.join(POKEDEX_DIR, "DATA_CHECK.md");
-const DYNAMAX_ADVENTURES_FILE = path.join(
-    POKEDEX_DIR,
-    "dexes",
-    "DYNAMAX_ADVENTURES.md"
-);
-const DYNAMAX_ADVENTURES_GAMES = ["sw", "sh"];
+const NO_ENTRY_LISTS = [
+    { file: "DYNAMAX_ADVENTURES.md", games: ["sw", "sh"] },
+    { file: "SNACKSWORTH_LEGENDARIES.md", games: ["sc", "vi"] },
+];
 
 const GAMES_BY_LEARNSET_KEY = {
     rb: ["re", "bl"], ye: ["ye"], gs: ["go", "si"], cr: ["cr"],
@@ -46,27 +44,35 @@ function isEmpty(value) {
     return false;
 }
 
-function readDynamaxAdventureIds() {
+function readListedIds(fileName) {
     const rowPattern = /^\| (\d+) \|/;
-    return new Set(
-        fs.readFileSync(DYNAMAX_ADVENTURES_FILE, "utf8")
-            .split("\n")
-            .map((line) => line.match(rowPattern))
-            .filter(Boolean)
-            .map((match) => Number(match[1]))
-    );
+    return fs.readFileSync(path.join(POKEDEX_DIR, "dexes", fileName), "utf8")
+        .split("\n")
+        .map((line) => line.match(rowPattern))
+        .filter(Boolean)
+        .map((match) => Number(match[1]));
 }
 
-function listCoveredGames(pokemon, dynamaxAdventureIds) {
+function readNoEntryGames() {
+    const noEntryGamesById = new Map();
+    for (const { file, games } of NO_ENTRY_LISTS) {
+        for (const pokemonId of readListedIds(file)) {
+            const listed = noEntryGamesById.get(pokemonId) ?? [];
+            noEntryGamesById.set(pokemonId, [...listed, ...games]);
+        }
+    }
+    return noEntryGamesById;
+}
+
+function listCoveredGames(pokemon, noEntryGamesById) {
     const entryGames = pokemon.pokedexEntries
         .flatMap(Object.keys)
         .flatMap((gameKey) => COMBINED_GAMES[gameKey] ?? [gameKey]);
-    if (!dynamaxAdventureIds.has(pokemon._id)) return entryGames;
-    return [...entryGames, ...DYNAMAX_ADVENTURES_GAMES];
+    return [...entryGames, ...(noEntryGamesById.get(pokemon._id) ?? [])];
 }
 
-function describeMissingGames(learnset, pokemon, dynamaxAdventureIds) {
-    const covered = new Set(listCoveredGames(pokemon, dynamaxAdventureIds));
+function describeMissingGames(learnset, pokemon, noEntryGamesById) {
+    const covered = new Set(listCoveredGames(pokemon, noEntryGamesById));
     return Object.keys(learnset ?? {})
         .filter((learnsetKey) => GAMES_BY_LEARNSET_KEY[learnsetKey])
         .flatMap((learnsetKey) => {
@@ -85,17 +91,17 @@ function listMissingNameOrigin(pokemon) {
     return words.length ? [`nameOrigin meaning: ${words.join(", ")}`] : [];
 }
 
-function listMissing(pokemon, learnset, dynamaxAdventureIds) {
+function listMissing(pokemon, learnset, noEntryGamesById) {
     const missing = listMissingNameOrigin(pokemon);
     if (isEmpty(pokemon.pokedexEntries)) missing.push("pokedexEntries");
-    const games = describeMissingGames(learnset, pokemon, dynamaxAdventureIds);
+    const games = describeMissingGames(learnset, pokemon, noEntryGamesById);
     if (games.length) missing.push(`pokedexEntries games: ${games.join(", ")}`);
     const fields = OTHER_FIELDS.filter((field) => isEmpty(pokemon[field]));
     return [...missing, ...fields];
 }
 
 function buildRows(pokedex, learnsetsById) {
-    const dynamaxAdventureIds = readDynamaxAdventureIds();
+    const noEntryGamesById = readNoEntryGames();
     return pokedex
         .sort((first, second) => first._id - second._id)
         .map((pokemon) => ({
@@ -103,7 +109,7 @@ function buildRows(pokedex, learnsetsById) {
             missing: listMissing(
                 pokemon,
                 learnsetsById.get(pokemon._id),
-                dynamaxAdventureIds
+                noEntryGamesById
             ),
         }))
         .filter(({ missing }) => missing.length > 0);
@@ -146,8 +152,9 @@ Don't edit by hand; fix the entry files and run it again.
   empty meaning.
 - **pokedexEntries games**: games in the pokemon's learnset with no
   entry, as \`KEYS.md\` keys. A group key (\`swsh\`) means both games
-  are missing. \`sw\` / \`sh\` aren't checked for pokemon in
-  \`dexes/DYNAMAX_ADVENTURES.md\`: they have no entry in those games.
+  are missing. Pokemon in \`dexes/DYNAMAX_ADVENTURES.md\` (\`sw\` /
+  \`sh\`) and \`dexes/SNACKSWORTH_LEGENDARIES.md\` (\`sc\` / \`vi\`)
+  aren't checked for those games: they have no entry in them.
 - \`name.korean\` is only in the summary: it's missing for most pokemon.
 - \`gender\`, \`abilities.hidden\` and \`evolution\` can be null on
   purpose, so they aren't checked.

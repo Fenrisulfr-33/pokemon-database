@@ -7,8 +7,9 @@ Don't edit by hand; fix the entry files and run it again.
   empty meaning.
 - **pokedexEntries games**: games in the pokemon's learnset with no
   entry, as `KEYS.md` keys. A group key (`swsh`) means both games
-  are missing. `sw` / `sh` aren't checked for pokemon in
-  `dexes/DYNAMAX_ADVENTURES.md`: they have no entry in those games.
+  are missing. Pokemon in `dexes/DYNAMAX_ADVENTURES.md` (`sw` /
+  `sh`) and `dexes/SNACKSWORTH_LEGENDARIES.md` (`sc` / `vi`)
+  aren't checked for those games: they have no entry in them.
 - `name.korean` is only in the summary: it's missing for most pokemon.
 - `gender`, `abilities.hidden` and `evolution` can be null on
   purpose, so they aren't checked.
@@ -20,7 +21,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 532 |
+| pokedexEntries games | 526 |
 | evs | 195 |
 | growthRate | 0 |
 | eggGroups | 7 |
@@ -95,9 +96,9 @@ Don't edit by hand; fix the entry files and run it again.
 | 139 | Omastar | pokedexEntries games: sm |
 | 140 | Kabuto | pokedexEntries games: sm |
 | 141 | Kabutops | pokedexEntries games: sm |
-| 144 | Articuno | pokedexEntries games: sm, usum, sv |
-| 145 | Zapdos | pokedexEntries games: sm, usum, sv |
-| 146 | Moltres | pokedexEntries games: sm, usum, sv |
+| 144 | Articuno | pokedexEntries games: sm, usum |
+| 145 | Zapdos | pokedexEntries games: sm, usum |
+| 146 | Moltres | pokedexEntries games: sm, usum |
 | 150 | Mewtwo | pokedexEntries games: sm, usum, sv |
 | 151 | Mew | pokedexEntries games: sm, usum, sv |
 | 152 | Chikorita | pokedexEntries games: sm, usum |
@@ -165,14 +166,14 @@ Don't edit by hand; fix the entry files and run it again.
 | 237 | Hitmontop | pokedexEntries games: sm, usum |
 | 238 | Smoochum | pokedexEntries games: sm |
 | 242 | Blissey | evs |
-| 243 | Raikou | pokedexEntries games: sm, usum, sv |
-| 244 | Entei | pokedexEntries games: sm, usum, sv |
-| 245 | Suicune | pokedexEntries games: sm, usum, sv |
+| 243 | Raikou | pokedexEntries games: sm, usum |
+| 244 | Entei | pokedexEntries games: sm, usum |
+| 245 | Suicune | pokedexEntries games: sm, usum |
 | 246 | Larvitar | pokedexEntries games: sm |
 | 247 | Pupitar | pokedexEntries games: sm |
 | 248 | Tyranitar | pokedexEntries games: sm |
-| 249 | Lugia | pokedexEntries games: sm, usum, sv |
-| 250 | Ho-Oh | pokedexEntries games: sm, usum, sv |
+| 249 | Lugia | pokedexEntries games: sm, usum |
+| 250 | Ho-Oh | pokedexEntries games: sm, usum |
 | 251 | Celebi | pokedexEntries games: sm, usum; evs |
 | 252 | Treecko | pokedexEntries games: sm, usum, swsh |
 | 253 | Grovyle | pokedexEntries games: sm, usum, swsh |
@@ -275,11 +276,11 @@ Don't edit by hand; fix the entry files and run it again.
 | 377 | Regirock | pokedexEntries games: sm, usum, sv |
 | 378 | Regice | pokedexEntries games: sm, usum, sv |
 | 379 | Registeel | pokedexEntries games: sm, usum, sv |
-| 380 | Latias | pokedexEntries games: sm, usum, sv |
-| 381 | Latios | pokedexEntries games: sm, usum, sv |
-| 382 | Kyogre | pokedexEntries games: sm, usum, sv |
-| 383 | Groudon | pokedexEntries games: sm, usum, sv |
-| 384 | Rayquaza | pokedexEntries games: sm, usum, sv |
+| 380 | Latias | pokedexEntries games: sm, usum |
+| 381 | Latios | pokedexEntries games: sm, usum |
+| 382 | Kyogre | pokedexEntries games: sm, usum |
+| 383 | Groudon | pokedexEntries games: sm, usum |
+| 384 | Rayquaza | pokedexEntries games: sm, usum |
 | 385 | Jirachi | pokedexEntries games: sm, usum, sv; evs |
 | 386 | Deoxys | pokedexEntries games: sm, usum, sv |
 | 387 | Turtwig | pokedexEntries games: sm, usum |
@@ -485,15 +486,15 @@ Don't edit by hand; fix the entry files and run it again.
 | 635 | Hydreigon | pokedexEntries games: sm, usum |
 | 636 | Larvesta | pokedexEntries games: sm |
 | 637 | Volcarona | pokedexEntries games: sm |
-| 638 | Cobalion | pokedexEntries games: sm, usum, sv |
-| 639 | Terrakion | pokedexEntries games: sm, usum, sv |
-| 640 | Virizion | pokedexEntries games: sm, usum, sv |
+| 638 | Cobalion | pokedexEntries games: sm, usum |
+| 639 | Terrakion | pokedexEntries games: sm, usum |
+| 640 | Virizion | pokedexEntries games: sm, usum |
 | 641 | Tornadus | pokedexEntries games: sm, usum, sv |
 | 642 | Thundurus | pokedexEntries games: sm, usum, sv |
-| 643 | Reshiram | pokedexEntries games: sm, usum, sv |
-| 644 | Zekrom | pokedexEntries games: sm, usum, sv |
+| 643 | Reshiram | pokedexEntries games: sm, usum |
+| 644 | Zekrom | pokedexEntries games: sm, usum |
 | 645 | Landorus | pokedexEntries games: sm, usum, sv |
-| 646 | Kyurem | pokedexEntries games: sm, usum, sv |
+| 646 | Kyurem | pokedexEntries games: sm, usum |
 | 647 | Keldeo | pokedexEntries games: sm, usum, sv |
 | 648 | Meloetta | pokedexEntries games: sm, usum, sv |
 | 649 | Genesect | pokedexEntries games: sm, usum, swsh |
@@ -567,10 +568,7 @@ Don't edit by hand; fix the entry files and run it again.
 | 773 | Silvally | evs |
 | 789 | Cosmog | pokedexEntries games: sv; evs |
 | 790 | Cosmoem | pokedexEntries games: sv |
-| 791 | Solgaleo | pokedexEntries games: sv |
-| 792 | Lunala | pokedexEntries games: sv |
 | 799 | Guzzlord | evs |
-| 800 | Necrozma | pokedexEntries games: sv |
 | 801 | Magearna | pokedexEntries games: swsh, sv |
 | 803 | Poipole | pokedexEntries games: swsh |
 | 804 | Naganadel | pokedexEntries games: swsh |
@@ -619,13 +617,13 @@ Don't edit by hand; fix the entry files and run it again.
 | 888 | Zacian | pokedexEntries games: sv |
 | 889 | Zamazenta | pokedexEntries games: sv |
 | 890 | Eternatus | nameOrigin meaning: eternal; pokedexEntries games: sv; evs |
-| 891 | Kubfu | nameOrigin; pokedexEntries games: sv |
+| 891 | Kubfu | nameOrigin |
 | 892 | Urshifu | nameOrigin; pokedexEntries games: sv |
 | 893 | Zarude | nameOrigin; pokedexEntries games: sv |
 | 894 | Regieleki | nameOrigin; pokedexEntries games: sv |
 | 895 | Regidrago | nameOrigin; pokedexEntries games: sv; evs |
-| 896 | Glastrier | nameOrigin; pokedexEntries games: sv |
-| 897 | Spectrier | nameOrigin; pokedexEntries games: sv |
+| 896 | Glastrier | nameOrigin |
+| 897 | Spectrier | nameOrigin |
 | 898 | Calyrex | nameOrigin; pokedexEntries games: sv; evs |
 | 899 | Wyrdeer | pokedexEntries games: sv; evs; species; catchRate; baseFriendship; eggCycles |
 | 900 | Kleavor | evs; species; catchRate; baseFriendship; eggCycles |

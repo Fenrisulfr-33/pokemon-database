@@ -88,7 +88,7 @@ some line-ending hyphens may belong to the text.
 ## Pokedex entries games that can't be filled
 
 `DATA_CHECK.md` lists a game as missing when the pokemon has a learnset
-for it. 532 pokemon still have missing games after filling from
+for it. 526 pokemon still have missing games after filling from
 Bulbapedia (2026-11-18). Usually the pokemon isn't in that game's
 Pokédex (it's only transferable), so there's no entry to add. Form-only
 entries (Hisuian Typhlosion in LA, etc.) weren't added to base files.
