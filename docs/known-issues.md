@@ -79,11 +79,7 @@ some line-ending hyphens may belong to the text.
 
 ## Failing tests
 
-5 of 14 test suites fail (`npm test`):
-
-- `pokedex/pokedex.test.js`, 2 of 10 tests:
-  - the two "pokedex entries by game" tests (see "Pokedex entries games
-    that can't be filled" below).
+4 of 15 test suites fail (`npm test`):
 
 - `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"
   above):
@@ -104,20 +100,6 @@ some line-ending hyphens may belong to the text.
 
 `name.english` is hyphenated for 984–995 and 1005–1006 (`Great-Tusk`,
 `Iron-Valiant`). The games use spaces.
-
-## Pokedex entries games that can't be filled
-
-Two tests in `pokedex/pokedex.test.js` ("pokedex entries by game") fail
-on these. `DATA_CHECK.md` lists them as `dex games` and
-`learnset games`.
-
-- **In a dex, no entry** (3 pokemon):
-  - `swsh`: Numel (322), Shellos (422), Gastrodon (423).
-- **Learnset, no entry or acquisition list** (10 pokemon): mythicals in
-  `swsh` (Victini, Genesect, Diancie, Volcanion, Magearna, Poipole,
-  Naganadel) and `sv` (Meloetta), plus Shellos and Gastrodon in `swsh`.
-  They need a `noEntryPokemon` list (event / HOME transfer) for that
-  game.
 
 ## Abilities with no pokemon
 

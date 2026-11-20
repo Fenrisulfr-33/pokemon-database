@@ -55,6 +55,8 @@ TODO: Once dexes_objects has been verified, combine dexes that are exactly the s
 
 4. `acquisition/` has one file per way of getting pokemon in a game,
    named `<gameGroup>-<method>.json` after its `method`.
+   - `games`: single-game keys (`sc`, `vi`), not group keys (`sv`);
+     group keys never match.
    - `pokemon`: the list to show on the site (e.g. a Dynamax Adventures
      rentals page). Left out when there's no page for it (transfers).
    - `noEntryPokemon`: pokemon (with their evolution families) that are

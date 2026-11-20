@@ -24,8 +24,8 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 0 |
 | nameOrigin meaning | 0 |
 | pokedexEntries | 0 |
-| dex games | 3 |
-| learnset games | 10 |
+| dex games | 0 |
+| learnset games | 0 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
@@ -40,14 +40,3 @@ Don't edit by hand; fix the entry files and run it again.
 
 | _id | Name | Missing |
 | ---: | --- | --- |
-| 322 | Numel | dex games: swsh |
-| 422 | Shellos | dex games: swsh; learnset games: swsh |
-| 423 | Gastrodon | dex games: swsh; learnset games: swsh |
-| 494 | Victini | learnset games: swsh |
-| 648 | Meloetta | learnset games: sv |
-| 649 | Genesect | learnset games: swsh |
-| 719 | Diancie | learnset games: swsh |
-| 721 | Volcanion | learnset games: swsh |
-| 801 | Magearna | learnset games: swsh |
-| 803 | Poipole | learnset games: swsh |
-| 804 | Naganadel | learnset games: swsh |
