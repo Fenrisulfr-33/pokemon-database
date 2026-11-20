@@ -22,7 +22,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 180 |
+| pokedexEntries games | 96 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
@@ -37,39 +37,15 @@ Don't edit by hand; fix the entry files and run it again.
 
 | _id | Name | Missing |
 | ---: | --- | --- |
-| 58 | Growlithe | pokedexEntries games: la |
-| 59 | Arcanine | pokedexEntries games: la |
-| 69 | Bellsprout | pokedexEntries games: sm |
-| 70 | Weepinbell | pokedexEntries games: sm |
-| 71 | Victreebel | pokedexEntries games: sm |
 | 100 | Voltorb | pokedexEntries games: usum, la |
 | 101 | Electrode | pokedexEntries games: usum, la |
-| 111 | Rhyhorn | pokedexEntries games: sm |
-| 112 | Rhydon | pokedexEntries games: sm |
-| 116 | Horsea | pokedexEntries games: sm |
-| 117 | Seadra | pokedexEntries games: sm |
 | 150 | Mewtwo | pokedexEntries games: sv |
 | 151 | Mew | pokedexEntries games: sv |
-| 152 | Chikorita | pokedexEntries games: sm |
-| 153 | Bayleef | pokedexEntries games: sm |
-| 154 | Meganium | pokedexEntries games: sm |
-| 155 | Cyndaquil | pokedexEntries games: sm |
-| 156 | Quilava | pokedexEntries games: sm |
-| 157 | Typhlosion | pokedexEntries games: sm, la |
-| 158 | Totodile | pokedexEntries games: sm |
-| 159 | Croconaw | pokedexEntries games: sm |
-| 160 | Feraligatr | pokedexEntries games: sm |
-| 175 | Togepi | pokedexEntries games: sm |
-| 176 | Togetic | pokedexEntries games: sm |
-| 183 | Marill | pokedexEntries games: sm |
-| 184 | Azumarill | pokedexEntries games: sm |
+| 157 | Typhlosion | pokedexEntries games: la |
 | 193 | Yanma | pokedexEntries games: usum |
 | 194 | Wooper | pokedexEntries games: usum |
 | 211 | Qwilfish | pokedexEntries games: la |
 | 218 | Slugma | pokedexEntries games: usum |
-| 220 | Swinub | pokedexEntries games: sm |
-| 221 | Piloswine | pokedexEntries games: sm |
-| 230 | Kingdra | pokedexEntries games: sm |
 | 249 | Lugia | pokedexEntries games: sv |
 | 252 | Treecko | pokedexEntries games: swsh |
 | 253 | Grovyle | pokedexEntries games: swsh |
@@ -85,31 +61,15 @@ Don't edit by hand; fix the entry files and run it again.
 | 273 | Seedot | pokedexEntries games: usum |
 | 275 | Shiftry | pokedexEntries games: usum |
 | 276 | Taillow | pokedexEntries games: usum |
-| 287 | Slakoth | pokedexEntries games: sm |
-| 288 | Vigoroth | pokedexEntries games: sm |
-| 289 | Slaking | pokedexEntries games: sm |
-| 298 | Azurill | pokedexEntries games: sm |
 | 307 | Meditite | pokedexEntries games: usum |
-| 315 | Roselia | pokedexEntries games: sm |
 | 325 | Spoink | pokedexEntries games: usum |
 | 333 | Swablu | pokedexEntries games: usum |
-| 363 | Spheal | pokedexEntries games: sm |
-| 364 | Sealeo | pokedexEntries games: sm |
-| 365 | Walrein | pokedexEntries games: sm |
 | 377 | Regirock | pokedexEntries games: sv |
 | 378 | Regice | pokedexEntries games: sv |
 | 379 | Registeel | pokedexEntries games: sv |
 | 381 | Latios | pokedexEntries games: swsh |
 | 385 | Jirachi | pokedexEntries games: sv |
 | 386 | Deoxys | pokedexEntries games: sv |
-| 396 | Starly | pokedexEntries games: sm |
-| 397 | Staravia | pokedexEntries games: sm |
-| 398 | Staraptor | pokedexEntries games: sm |
-| 403 | Shinx | pokedexEntries games: sm |
-| 404 | Luxio | pokedexEntries games: sm |
-| 405 | Luxray | pokedexEntries games: sm |
-| 406 | Budew | pokedexEntries games: sm |
-| 407 | Roserade | pokedexEntries games: sm |
 | 418 | Buizel | pokedexEntries games: usum |
 | 421 | Cherrim | pokedexEntries games: swsh |
 | 422 | Shellos | pokedexEntries games: swsh |
@@ -117,9 +77,6 @@ Don't edit by hand; fix the entry files and run it again.
 | 449 | Hippopotas | pokedexEntries games: usum |
 | 451 | Skorupi | pokedexEntries games: usum |
 | 459 | Snover | pokedexEntries games: usum |
-| 464 | Rhyperior | pokedexEntries games: sm |
-| 468 | Togekiss | pokedexEntries games: sm |
-| 473 | Mamoswine | pokedexEntries games: sm |
 | 480 | Uxie | pokedexEntries games: sv |
 | 481 | Mesprit | pokedexEntries games: sv |
 | 482 | Azelf | pokedexEntries games: sv |
@@ -135,52 +92,14 @@ Don't edit by hand; fix the entry files and run it again.
 | 492 | Shaymin | pokedexEntries games: sv |
 | 493 | Arceus | pokedexEntries games: sv |
 | 494 | Victini | pokedexEntries games: swsh |
-| 495 | Snivy | pokedexEntries games: sm |
-| 496 | Servine | pokedexEntries games: sm |
-| 497 | Serperior | pokedexEntries games: sm |
-| 498 | Tepig | pokedexEntries games: sm |
-| 499 | Pignite | pokedexEntries games: sm |
-| 500 | Emboar | pokedexEntries games: sm |
-| 501 | Oshawott | pokedexEntries games: sm |
-| 502 | Dewott | pokedexEntries games: sm |
-| 503 | Samurott | pokedexEntries games: sm, la |
-| 532 | Timburr | pokedexEntries games: sm |
-| 533 | Gurdurr | pokedexEntries games: sm |
-| 534 | Conkeldurr | pokedexEntries games: sm |
-| 540 | Sewaddle | pokedexEntries games: sm |
-| 541 | Swadloon | pokedexEntries games: sm |
-| 542 | Leavanny | pokedexEntries games: sm |
-| 543 | Venipede | pokedexEntries games: sm |
-| 544 | Whirlipede | pokedexEntries games: sm |
-| 545 | Scolipede | pokedexEntries games: sm |
+| 503 | Samurott | pokedexEntries games: la |
 | 549 | Lilligant | pokedexEntries games: la |
 | 550 | Basculin | pokedexEntries games: la |
 | 557 | Dwebble | pokedexEntries games: usum |
 | 570 | Zorua | pokedexEntries games: la |
 | 571 | Zoroark | pokedexEntries games: la |
-| 574 | Gothita | pokedexEntries games: sm |
-| 575 | Gothorita | pokedexEntries games: sm |
-| 576 | Gothitelle | pokedexEntries games: sm |
-| 577 | Solosis | pokedexEntries games: sm |
-| 578 | Duosion | pokedexEntries games: sm |
-| 579 | Reuniclus | pokedexEntries games: sm |
 | 580 | Ducklett | pokedexEntries games: usum |
-| 599 | Klink | pokedexEntries games: sm |
-| 600 | Klang | pokedexEntries games: sm |
-| 601 | Klinklang | pokedexEntries games: sm |
-| 602 | Tynamo | pokedexEntries games: sm |
-| 603 | Eelektrik | pokedexEntries games: sm |
-| 604 | Eelektross | pokedexEntries games: sm |
-| 607 | Litwick | pokedexEntries games: sm |
-| 608 | Lampent | pokedexEntries games: sm |
-| 609 | Chandelure | pokedexEntries games: sm |
-| 610 | Axew | pokedexEntries games: sm |
-| 611 | Fraxure | pokedexEntries games: sm |
-| 612 | Haxorus | pokedexEntries games: sm |
 | 628 | Braviary | pokedexEntries games: la |
-| 633 | Deino | pokedexEntries games: sm |
-| 634 | Zweilous | pokedexEntries games: sm |
-| 635 | Hydreigon | pokedexEntries games: sm |
 | 641 | Tornadus | pokedexEntries games: sv |
 | 642 | Thundurus | pokedexEntries games: sv |
 | 645 | Landorus | pokedexEntries games: sv |
@@ -188,9 +107,6 @@ Don't edit by hand; fix the entry files and run it again.
 | 648 | Meloetta | pokedexEntries games: sv |
 | 649 | Genesect | pokedexEntries games: swsh |
 | 658 | Greninja | pokedexEntries games: sv, za |
-| 679 | Honedge | pokedexEntries games: sm |
-| 680 | Doublade | pokedexEntries games: sm |
-| 681 | Aegislash | pokedexEntries games: sm |
 | 688 | Binacle | pokedexEntries games: usum |
 | 694 | Helioptile | pokedexEntries games: usum |
 | 705 | Sliggoo | pokedexEntries games: la |
