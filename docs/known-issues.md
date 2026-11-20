@@ -111,15 +111,13 @@ Two tests in `pokedex/pokedex.test.js` ("pokedex entries by game") fail
 on these. `DATA_CHECK.md` lists them as `dex games` and
 `learnset games`.
 
-- **In a dex, no entry** (5 pokemon):
+- **In a dex, no entry** (3 pokemon):
   - `swsh`: Numel (322), Shellos (422), Gastrodon (423).
-  - `sv`: Steelix (208), Greninja (658).
-  - `za`: Greninja (658).
-- **Learnset, no entry or acquisition list** (13 pokemon): mythicals in
+- **Learnset, no entry or acquisition list** (10 pokemon): mythicals in
   `swsh` (Victini, Genesect, Diancie, Volcanion, Magearna, Poipole,
-  Naganadel) and `sv` (Meloetta), plus Perrserker and Urshifu in `sv`
-  and Greninja in `za`. They need a `noEntryPokemon` list
-  (event / HOME transfer) for that game.
+  Naganadel) and `sv` (Meloetta), plus Shellos and Gastrodon in `swsh`.
+  They need a `noEntryPokemon` list (event / HOME transfer) for that
+  game.
 
 ## Abilities with no pokemon
 
