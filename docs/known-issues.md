@@ -21,8 +21,14 @@ yet, so in Mongo those ids have no pokemon document.
 
 ## Forms without a learnset
 
-203 of the 253 full forms have no `learnsets` document. Every base
+201 of the 253 full forms have no `learnsets` document. Every base
 pokemon has one.
+
+## Hisuian Growlithe and Arcanine missing `sv` learnsets
+
+`58.01-hisui-growlithe.json` and `59.01-hisui-arcanine.json` in
+`learnsets/` only have `la`. Both can be transferred into Scarlet /
+Violet, so they need an `sv` learnset too.
 
 ## Moves with no effect text
 
