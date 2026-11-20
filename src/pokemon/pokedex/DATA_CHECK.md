@@ -22,7 +22,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 96 |
+| pokedexEntries games | 87 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
@@ -47,15 +47,6 @@ Don't edit by hand; fix the entry files and run it again.
 | 211 | Qwilfish | pokedexEntries games: la |
 | 218 | Slugma | pokedexEntries games: usum |
 | 249 | Lugia | pokedexEntries games: sv |
-| 252 | Treecko | pokedexEntries games: swsh |
-| 253 | Grovyle | pokedexEntries games: swsh |
-| 254 | Sceptile | pokedexEntries games: swsh |
-| 255 | Torchic | pokedexEntries games: swsh |
-| 256 | Combusken | pokedexEntries games: swsh |
-| 257 | Blaziken | pokedexEntries games: swsh |
-| 258 | Mudkip | pokedexEntries games: swsh |
-| 259 | Marshtomp | pokedexEntries games: swsh |
-| 260 | Swampert | pokedexEntries games: swsh |
 | 270 | Lotad | pokedexEntries games: usum |
 | 272 | Ludicolo | pokedexEntries games: usum |
 | 273 | Seedot | pokedexEntries games: usum |

@@ -118,7 +118,6 @@ Terastallized Ogerpon forms that have it aren't in `forms/`.
 13. Lugia is a Snacksworth legendary with no `sc` / `vi` entry, so it
 probably doesn't belong in that dex. Because it's there, the data check
 flags Lugia as missing `sv` entries.
-
 ## Form files (`src/pokemon/forms`)
 
 Rebuilt from PokeAPI on 2026-11-12. Problems found:
