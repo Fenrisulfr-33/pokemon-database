@@ -37,7 +37,7 @@ const DEX_FILES = [
     ["SCARLET_VIOLET", "29-scarlet-violet.json"],
     ["THE_TEAL_MASK", "30-teal-mask.json"],
     ["THE_INDIGO_DISK", "31-indigo-disk.json"],
-    // TODO: add legends ZA once 32-legends-za.json is complete
+    ["POKEMON_DEX_LEGEND_ZA", "32-legends-za.json"],
     // TODO: add mega dimension
 ];
 

@@ -11,9 +11,9 @@ describe('Legends ZA Dex validation', () => {
     });
 
     test('Legends ZA dex should be in order by dexNo', () => {
-        for (let i = 1; i < legendsZaDex.length; i++) {
+        for (let i = 0; i < legendsZaDex.length; i++) {
             const currentDexNo = legendsZaDex[i].dexNo;
-            expect(currentDexNo).toBe(i);
+            expect(currentDexNo).toBe(i + 1);
         };
     });
 

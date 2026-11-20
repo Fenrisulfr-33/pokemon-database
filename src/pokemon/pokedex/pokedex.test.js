@@ -1,5 +1,12 @@
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
-import { POKEDEX_ENTRIES_DIR } from "#helpers/paths.js";
+import {
+    LEARNSETS_ENTRIES_DIR,
+    POKEDEX_ENTRIES_DIR,
+} from "#helpers/paths.js";
+import {
+    findDexGamesWithoutEntry,
+    findLearnsetGamesWithoutAcquisition,
+} from "#pokedex/entryCoverage.mjs";
 import {
     findBlankSpecies,
     findEmptyEggGroups,
@@ -42,6 +49,20 @@ describe("pokedex required data", () => {
     test("species is not null or empty", () => {
         expect(findBlankSpecies(pokedexEntries)).toEqual([]);
     });
+});
+
+describe("pokedex entries by game", () => {
+    test("pokemon in a game's dex have a pokedexEntry for it", () => {
+        expect(findDexGamesWithoutEntry(pokedexEntries)).toEqual([]);
+    });
+
+    test("pokemon with a learnset for a game have an entry or acquisition",
+        () => {
+            const learnsets = readJsonDir(LEARNSETS_ENTRIES_DIR);
+            expect(
+                findLearnsetGamesWithoutAcquisition(pokedexEntries, learnsets)
+            ).toEqual([]);
+        });
 });
 
 // Test that the amount of files in the entries folder is equal to 1025

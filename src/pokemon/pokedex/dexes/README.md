@@ -53,15 +53,26 @@ TODO: Once dexes_objects has been verified, combine dexes that are exactly the s
    - TODO: Should I reformat the key indicator to be `_id` for the core sorting of the list, and then that way the save file can always sort by that lists key `_id` of the respective list.
 
 
-4. `acquisition/` holds lists of pokemon that are in a game but are only
-   obtained one way, so they have no `pokedexEntries` for that game. The
-   data check skips them for those games.
+4. `acquisition/` has one file per way of getting pokemon in a game,
+   named `<gameGroup>-<method>.json` after its `method`.
+   - `pokemon`: the list to show on the site (e.g. a Dynamax Adventures
+     rentals page). Left out when there's no page for it (transfers).
+   - `noEntryPokemon`: pokemon (with their evolution families) that are
+     in the game this way but have no `pokedexEntries` for it. Left out
+     when every pokemon has an entry.
 
 ```json
 {
-    "method": "transfer",
-    "games": ["us", "um"],
-    "description": "Pokemon only obtainable by transferring through ...",
-    "pokemon": [29, 30, 31]
+    "method": "dynamax-adventures-rentals",
+    "games": ["sw", "sh"],
+    "description": "Rental pokemon offered in Dynamax Adventures.",
+    "pokemon": [1, 4, 7],
+    "noEntryPokemon": [252, 253, 254]
 }
 ```
+
+   `pokedex.test.js` ("pokedex entries by game") checks, for each pokemon
+   in `pokedex/entries`:
+   - in a game's dex in `dexes_objects` → it has an entry for that game.
+   - has a learnset for a game but no entry → it's in a
+     `noEntryPokemon` list for that game.

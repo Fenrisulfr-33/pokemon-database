@@ -5,11 +5,13 @@ Don't edit by hand; fix the entry files and run it again.
 
 - **nameOrigin**: empty list. **nameOrigin meaning**: words with an
   empty meaning.
-- **pokedexEntries games**: games in the pokemon's learnset with no
-  entry, as `KEYS.md` keys. A group key (`swsh`) means both games
-  are missing. Pokemon in a `dexes/acquisition` list aren't checked
-  for that list's `games`, unless they're in that game's dex in
-  `dexes/dexes_objects`: a pokemon in the dex needs an entry.
+- **dex games**: games whose dex in `dexes/dexes_objects` has the
+  pokemon, but it has no entry for that game.
+- **learnset games**: games in the pokemon's learnset with no entry,
+  and the pokemon isn't in a `noEntryPokemon` list in
+  `dexes/acquisition` for that game.
+- Games are `KEYS.md` keys. A group key (`swsh`) means both games
+  are missing.
 - **eggGroups null**: `eggGroups` has a `null` in it.
 - `name.korean` is only in the summary: it's missing for most pokemon.
 - `gender`, `abilities.hidden` and `evolution` can be null on
@@ -22,34 +24,52 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 15 |
+| dex games | 22 |
+| learnset games | 13 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
 | eggGroups | 0 |
-| species | 7 |
-| catchRate | 7 |
-| baseFriendship | 7 |
-| eggCycles | 7 |
+| species | 6 |
+| catchRate | 6 |
+| baseFriendship | 6 |
+| eggCycles | 6 |
 | name.korean | 1025 |
 
 ## By pokemon
 
 | _id | Name | Missing |
 | ---: | --- | --- |
-| 381 | Latios | pokedexEntries games: swsh |
-| 421 | Cherrim | pokedexEntries games: swsh |
-| 422 | Shellos | pokedexEntries games: swsh |
-| 423 | Gastrodon | pokedexEntries games: swsh |
-| 494 | Victini | pokedexEntries games: swsh |
-| 648 | Meloetta | pokedexEntries games: sv |
-| 649 | Genesect | pokedexEntries games: swsh |
-| 658 | Greninja | pokedexEntries games: sv, za |
-| 719 | Diancie | pokedexEntries games: swsh |
-| 721 | Volcanion | pokedexEntries games: swsh |
-| 801 | Magearna | pokedexEntries games: swsh |
-| 803 | Poipole | pokedexEntries games: swsh |
-| 804 | Naganadel | pokedexEntries games: swsh |
+| 58 | Growlithe | dex games: la |
+| 59 | Arcanine | dex games: la |
+| 100 | Voltorb | dex games: la |
+| 101 | Electrode | dex games: la |
+| 157 | Typhlosion | dex games: la |
+| 183 | Marill | dex games: la |
+| 208 | Steelix | dex games: sv |
+| 211 | Qwilfish | dex games: la |
+| 322 | Numel | dex games: swsh |
+| 422 | Shellos | dex games: swsh; learnset games: swsh |
+| 423 | Gastrodon | dex games: swsh; learnset games: swsh |
+| 494 | Victini | learnset games: swsh |
+| 503 | Samurott | dex games: la |
+| 549 | Lilligant | dex games: la |
+| 550 | Basculin | dex games: la |
+| 570 | Zorua | dex games: la |
+| 571 | Zoroark | dex games: la |
+| 628 | Braviary | dex games: la |
+| 648 | Meloetta | learnset games: sv |
+| 649 | Genesect | learnset games: swsh |
+| 658 | Greninja | dex games: sv, za; learnset games: sv, za |
+| 705 | Sliggoo | dex games: la |
+| 706 | Goodra | dex games: la |
+| 713 | Avalugg | dex games: la |
+| 719 | Diancie | learnset games: swsh |
+| 721 | Volcanion | learnset games: swsh |
+| 724 | Decidueye | dex games: la |
+| 801 | Magearna | learnset games: swsh |
+| 803 | Poipole | learnset games: swsh |
+| 804 | Naganadel | learnset games: swsh |
 | 811 | Thwackey | nameOrigin meaning: thwack |
 | 812 | Rillaboom | nameOrigin meaning: gorilla, boom |
 | 814 | Raboot | nameOrigin meaning: rabbit, boot |
@@ -82,7 +102,7 @@ Don't edit by hand; fix the entry files and run it again.
 | 858 | Hatterene | nameOrigin meaning: hat, serene |
 | 860 | Morgrem | nameOrigin meaning: morgue, gremlin |
 | 861 | Grimmsnarl | nameOrigin meaning: grim, snarl |
-| 863 | Perrserker | pokedexEntries games: sv |
+| 863 | Perrserker | learnset games: sv |
 | 864 | Cursola | nameOrigin meaning: curse, solar |
 | 867 | Runerigus | nameOrigin meaning: rune, egregious |
 | 871 | Pincurchin | nameOrigin meaning: pin cushion, sea urchin |
@@ -92,14 +112,13 @@ Don't edit by hand; fix the entry files and run it again.
 | 887 | Dragapult | nameOrigin meaning: dragon, catapult |
 | 890 | Eternatus | nameOrigin meaning: eternal |
 | 891 | Kubfu | nameOrigin |
-| 892 | Urshifu | nameOrigin; pokedexEntries games: sv |
+| 892 | Urshifu | nameOrigin; learnset games: sv |
 | 893 | Zarude | nameOrigin |
 | 894 | Regieleki | nameOrigin |
 | 895 | Regidrago | nameOrigin |
 | 896 | Glastrier | nameOrigin |
 | 897 | Spectrier | nameOrigin |
 | 898 | Calyrex | nameOrigin |
-| 899 | Wyrdeer | species; catchRate; baseFriendship; eggCycles |
 | 900 | Kleavor | species; catchRate; baseFriendship; eggCycles |
 | 901 | Ursaluna | species; catchRate; baseFriendship; eggCycles |
 | 902 | Basculegion | species; catchRate; baseFriendship; eggCycles |

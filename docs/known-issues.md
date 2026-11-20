@@ -73,10 +73,12 @@ some line-ending hyphens may belong to the text.
 
 ## Failing tests
 
-6 of 14 test suites fail (`npm test`):
+5 of 14 test suites fail (`npm test`):
 
-- `pokedex/pokedex.test.js`, 1 of 8 tests ("pokedex required data"):
+- `pokedex/pokedex.test.js`, 3 of 10 tests:
   - species is not null or empty: 899-905.
+  - the two "pokedex entries by game" tests (see "Pokedex entries games
+    that can't be filled" below).
 
 - `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"
   above):
@@ -90,8 +92,6 @@ some line-ending hyphens may belong to the text.
 
 - `_test/evolution-id-list.test.mjs` reads `_test/evolution-id-list.json`,
   which doesn't exist.
-- `pokedex/dexes/archer-dexes.test.js`: the Legends ZA dex has 145
-  entries instead of 232, and isn't in `dexNo` order.
 - `pokedex/dexes/dexes.test.js`: `ULTRA_SUN_ULTRA_MOON_MELEMELE` has
   149 entries instead of 150.
 
@@ -102,11 +102,23 @@ some line-ending hyphens may belong to the text.
 
 ## Pokedex entries games that can't be filled
 
-`DATA_CHECK.md` lists a game as missing when the pokemon has a learnset
-for it. 526 pokemon still have missing games after filling from
-Bulbapedia (2026-11-18). Usually the pokemon isn't in that game's
-Pokédex (it's only transferable), so there's no entry to add. Form-only
-entries (Hisuian Typhlosion in LA, etc.) weren't added to base files.
+Two tests in `pokedex/pokedex.test.js` ("pokedex entries by game") fail
+on these. `DATA_CHECK.md` lists them as `dex games` and
+`learnset games`.
+
+- **In a dex, no entry** (22 pokemon):
+  - `la`: the Legends Arceus dex lists base ids for pokemon whose LA
+    entry is on their Hisuian form (Growlithe 58, Voltorb 100,
+    Typhlosion 157, Samurott 503, Zorua 570, Braviary 628, Goodra 706,
+    Decidueye 724, ...). It may need form ids (`58.01`).
+  - `swsh`: Numel (322), Shellos (422), Gastrodon (423).
+  - `sv`: Steelix (208), Greninja (658).
+  - `za`: Greninja (658).
+- **Learnset, no entry or acquisition list** (13 pokemon): mythicals in
+  `swsh` (Victini, Genesect, Diancie, Volcanion, Magearna, Poipole,
+  Naganadel) and `sv` (Meloetta), plus Perrserker and Urshifu in `sv`
+  and Greninja in `za`. They need a `noEntryPokemon` list
+  (event / HOME transfer) for that game.
 
 ## Abilities with no pokemon
 
