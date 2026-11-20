@@ -21,17 +21,20 @@ yet, so in Mongo those ids have no pokemon document.
 
 ## Forms without a learnset
 
-187 of the 253 full forms have no `learnsets` document. Every base
-pokemon has one. Hisuian Sneasel (215.01) is one of them; base Sneasel
-keeps its `la` learnset because it's also in Legends Arceus.
+186 of the 253 full forms have no `learnsets` document. Every base
+pokemon has one.
 
-## Hisuian forms missing `sv` learnsets
+## Missing Indigo Disk TMs in `sv` learnsets
 
-The 16 Hisuian form files in `learnsets/` (`58.01`, `59.01`, `100.01`,
-`101.01`, `157.01`, `211.01`, `503.01`, `549.01`, `550.02`, `570.01`,
-`571.01`, `628.01`, `705.01`, `706.01`, `713.01`, `724.01`) only have
-`la`. The ones that can be in Scarlet / Violet need an `sv` learnset
-too.
+Some base `sv` learnsets are missing TM172 and up (Indigo Disk). For
+example Growlithe (58) has no TM172 Roar (46), TM204 Double-Edge (38),
+TM207 Temper Flare (915) or TM224 Curse (174); PokeAPI has all four.
+
+## Hisuian forms in Legends Z-A
+
+PokeAPI has `legends-za` moves for Hisuian Qwilfish, Sliggoo, Goodra
+and Avalugg. Base Qwilfish (211), Sliggoo, Goodra and Avalugg have
+`za` learnsets; check whether they belong to the Hisuian forms instead.
 
 ## Moves with no effect text
 

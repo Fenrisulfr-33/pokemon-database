@@ -8,6 +8,10 @@ Learnsets is a collection that stores all the moves a pokemon can learn by game.
 - The data orginally came from `moves/games/{id-gameName}.json`, which was
   converted once by `buildLearnsets.mjs`. Both were removed afterwards, so
   `entries/` is now the source of truth and is edited directly.
+- The Hisuian form files (`58.01`, `215.01`, `550.02`, ...) got their
+  `sv` moves, and Hisuian Sneasel its `la` moves, from PokeAPI's
+  `/pokemon/{id}` endpoint. Evolved forms take their egg moves from
+  their first stage, like the base files do.
 - `schema.json` checks the shape of every entry (`npm run
   learnsets:validate`, rejection cases in `learnsets.schema.test.js`).
   Whether the moves are actually correct still has to be checked
