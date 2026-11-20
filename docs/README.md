@@ -15,6 +15,7 @@ document, and its `_id` is the Mongo `_id`.
 | `evolutions`   | `src/pokemon/evolutions/entries` | `npm run upsert:evolutions` | `evolutions/schema.json` |
 | `form-tabs`    | `src/pokemon/formTabs/entries`   | `node src/pokemon/formTabs/upsert.js` | `formTabs/schema.json` |
 | `growth-rates` | `src/pokemon/growth-rate/entries` | `npm run upsert:growth-rate` | `growth-rate/schema.json` |
+| `egg-groups`   | `src/pokemon/egg-group/entries` | `npm run upsert:egg-group` | `egg-group/schema.json` |
 
 One page per collection:
 
@@ -26,6 +27,8 @@ One page per collection:
 - [form-tabs](collections/form-tabs.md): form switcher for a pokemon
 - [growth-rates](../src/pokemon/growth-rate/README.md): experience
   curves, referenced by `growthRate`
+- [egg-groups](../src/pokemon/egg-group/README.md): breeding groups,
+  referenced by `eggGroups`
 - [pokedex entries](pokedex-entries.md): which files have
   `pokedexEntries`, and which forms are missing them
 
@@ -95,6 +98,8 @@ any of them. Look-ups happen on the website server.
 | `evolutions.evolution` stage `[id, how]` | `national-dex._id`, `forms/` `_id` | every pokemon in the chain |
 | `form-tabs._id`                        | `national-dex._id`  | the base form                            |
 | `form-tabs.pokemonIds[]`, `tab[].id`   | `national-dex._id`, `forms/` `_id` | every form shown in the tab bar |
+| `national-dex.eggGroups[]`, `forms/` `eggGroups[]` | `egg-groups._id` | ids only; names come from `egg-groups` |
+| `egg-groups.pokemon[]`                 | `national-dex._id`  | from PokeAPI, base species only          |
 
 Copies such as `name` next to an `id`, and `type` inside evolution
 stages, are denormalised for display. If the source changes, the copies

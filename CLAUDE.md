@@ -36,12 +36,13 @@ website lives in a separate repo).
 	- `npm run learnsets:validate`
 	- `npm run form-tabs:validate`
 	- `npm run growth-rate:validate`
+	- `npm run egg-group:validate`
 - Data check: 
 	- `npm run pokedex:data-check` (writes `src/pokemon/pokedex/DATA_CHECK.md`)
 - Rebuild growth-rate `pokemon` arrays:
 	- `npm run growth-rate:update-pokemon`
 - Upload: 
-	- `npm run upsert:<abilities|moves|learnsets|pokemon|evolutions|growth-rate|all>`
+	- `npm run upsert:<abilities|moves|learnsets|pokemon|evolutions|growth-rate|egg-group|all>`
 
 ## Verification
 After every change:

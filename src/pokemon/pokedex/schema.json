@@ -158,10 +158,11 @@
         },
         "eggGroups": {
             "type": "array",
-            "description": "Empty or containing null for newer entries whose egg group data hasn't been filled in yet",
+            "description": "egg-group _ids (src/pokemon/egg-group/entries); empty or containing null for entries whose egg groups haven't been filled in yet",
             "items": {
-                "type": ["string", "null"],
-                "enum": ["Amorphous", "Bug", "Ditto", "Dragon", "Fairy", "Field", "Flying", "Grass", "Human-Like", "Mineral", "Monster", "Undiscovered", "Water 1", "Water 2", "Water 3", null]
+                "type": ["integer", "null"],
+                "minimum": 1,
+                "maximum": 15
             }
         },
         "species": {

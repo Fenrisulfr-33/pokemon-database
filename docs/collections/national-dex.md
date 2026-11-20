@@ -30,7 +30,7 @@ One document per base pokemon. Source:
 | `evolution`      | number \| null    | chain id                                 |
 | `generation`     | number            |                                          |
 | `evs`            | object            | only stats that give EVs, e.g. `{spatk: 3}` |
-| `eggGroups`      | array             | strings                                  |
+| `eggGroups`      | array             | `egg-groups._id`s, e.g. `[1, 7]`         |
 | `species`        | string            | e.g. `Flame Pokémon`                     |
 | `catchRate`      | number \| null    |                                          |
 | `baseFriendship` | number \| null    |                                          |

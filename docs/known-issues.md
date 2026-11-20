@@ -61,10 +61,9 @@ some line-ending hyphens may belong to the text.
 
 ## Failing tests
 
-6 of 13 test suites fail (`npm test`):
+6 of 14 test suites fail (`npm test`):
 
-- `pokedex/pokedex.test.js`, 2 of 8 tests ("pokedex required data"):
-  - eggGroups contains no null: 139 entries, mostly 810-950.
+- `pokedex/pokedex.test.js`, 1 of 8 tests ("pokedex required data"):
   - species is not null or empty: 899-905.
 
 - `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"

@@ -23,7 +23,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
 | pokedexEntries games | 180 |
-| eggGroups null | 139 |
+| eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
 | eggGroups | 0 |
@@ -205,142 +205,61 @@ Don't edit by hand; fix the entry files and run it again.
 | 801 | Magearna | pokedexEntries games: swsh, sv |
 | 803 | Poipole | pokedexEntries games: swsh |
 | 804 | Naganadel | pokedexEntries games: swsh |
-| 810 | Grookey | eggGroups null |
-| 811 | Thwackey | nameOrigin meaning: thwack; eggGroups null |
-| 812 | Rillaboom | nameOrigin meaning: gorilla, boom; eggGroups null |
-| 813 | Scorbunny | eggGroups null |
-| 814 | Raboot | nameOrigin meaning: rabbit, boot; eggGroups null |
-| 815 | Cinderace | nameOrigin meaning: cinder, ace; eggGroups null |
-| 816 | Sobble | eggGroups null |
-| 817 | Drizzile | nameOrigin meaning: drizzle, prehensile; eggGroups null |
-| 818 | Inteleon | nameOrigin meaning: intelligence, chameleon; eggGroups null |
-| 819 | Skwovet | nameOrigin meaning: squirrel, covet; eggGroups null |
-| 820 | Greedent | nameOrigin meaning: greedy, rodent; eggGroups null |
-| 821 | Rookidee | nameOrigin meaning: rookie, chickidee; eggGroups null |
-| 822 | Corvisquire | nameOrigin meaning: corvine, squire; eggGroups null |
-| 823 | Corviknight | eggGroups null |
-| 824 | Blipbug | nameOrigin meaning: blip, bug; eggGroups null |
-| 825 | Dottler | nameOrigin meaning: dot; eggGroups null |
-| 826 | Orbeetle | nameOrigin meaning: orb, beetle; eggGroups null |
-| 827 | Nickit | nameOrigin meaning: nick; eggGroups null |
-| 828 | Thievul | nameOrigin meaning: thieve, vulpine; eggGroups null |
-| 829 | Gossifleur | eggGroups null |
-| 830 | Eldegoss | eggGroups null |
-| 831 | Wooloo | eggGroups null |
-| 832 | Dubwool | nameOrigin meaning: double, wool; eggGroups null |
-| 833 | Chewtle | nameOrigin meaning: chew, turtle; eggGroups null |
-| 834 | Drednaw | eggGroups null |
-| 835 | Yamper | eggGroups null |
-| 836 | Boltund | nameOrigin meaning: bolt, hound; eggGroups null |
-| 837 | Rolycoly | eggGroups null |
-| 838 | Carkol | nameOrigin meaning: carbon, coal; eggGroups null |
-| 839 | Coalossal | nameOrigin meaning: coal, colossal; eggGroups null |
-| 840 | Applin | eggGroups null |
-| 841 | Flapple | eggGroups null |
-| 842 | Appletun | eggGroups null |
-| 843 | Silicobra | nameOrigin meaning: silicon, cobra; eggGroups null |
-| 844 | Sandaconda | nameOrigin meaning: sand, anaconda; eggGroups null |
-| 845 | Cramorant | eggGroups null |
-| 846 | Arrokuda | eggGroups null |
-| 847 | Barraskewda | eggGroups null |
-| 848 | Toxel | eggGroups null |
-| 849 | Toxtricity | eggGroups null |
-| 850 | Sizzlipede | nameOrigin meaning: sizzle, centipede; eggGroups null |
-| 851 | Centiskorch | nameOrigin meaning: centipede, scorch; eggGroups null |
-| 852 | Clobbopus | nameOrigin meaning: clobber; eggGroups null |
-| 853 | Grapploct | nameOrigin meaning: grapple; eggGroups null |
-| 854 | Sinistea | nameOrigin meaning: sinister, tea; eggGroups null |
-| 855 | Polteageist | eggGroups null |
-| 856 | Hatenna | nameOrigin meaning: hat; eggGroups null |
-| 857 | Hattrem | nameOrigin meaning: hat; eggGroups null |
-| 858 | Hatterene | nameOrigin meaning: hat, serene; eggGroups null |
-| 859 | Impidimp | eggGroups null |
-| 860 | Morgrem | nameOrigin meaning: morgue, gremlin; eggGroups null |
-| 861 | Grimmsnarl | nameOrigin meaning: grim, snarl; eggGroups null |
-| 862 | Obstagoon | eggGroups null |
-| 863 | Perrserker | pokedexEntries games: sv; eggGroups null |
-| 864 | Cursola | nameOrigin meaning: curse, solar; eggGroups null |
-| 865 | Sirfetch'd | eggGroups null |
-| 866 | Mr. Rime | eggGroups null |
-| 867 | Runerigus | nameOrigin meaning: rune, egregious; eggGroups null |
-| 868 | Milcery | eggGroups null |
-| 869 | Alcremie | eggGroups null |
-| 870 | Falinks | eggGroups null |
-| 871 | Pincurchin | nameOrigin meaning: pin cushion, sea urchin; eggGroups null |
-| 872 | Snom | eggGroups null |
-| 873 | Frosmoth | eggGroups null |
-| 874 | Stonjourner | eggGroups null |
-| 875 | Eiscue | eggGroups null |
-| 876 | Indeedee | nameOrigin meaning: indeed; eggGroups null |
-| 877 | Morpeko | eggGroups null |
-| 878 | Cufant | eggGroups null |
-| 879 | Copperajah | eggGroups null |
-| 880 | Dracozolt | eggGroups null |
-| 881 | Arctozolt | eggGroups null |
-| 882 | Dracovish | eggGroups null |
-| 883 | Arctovish | eggGroups null |
-| 884 | Duraludon | eggGroups null |
-| 885 | Dreepy | nameOrigin meaning: dragon, creepy; eggGroups null |
-| 886 | Drakloak | nameOrigin meaning: dragon, cloak; eggGroups null |
-| 887 | Dragapult | nameOrigin meaning: dragon, catapult; eggGroups null |
-| 888 | Zacian | pokedexEntries games: sv; eggGroups null |
-| 889 | Zamazenta | pokedexEntries games: sv; eggGroups null |
-| 890 | Eternatus | nameOrigin meaning: eternal; pokedexEntries games: sv; eggGroups null |
-| 891 | Kubfu | nameOrigin; eggGroups null |
-| 892 | Urshifu | nameOrigin; pokedexEntries games: sv; eggGroups null |
-| 893 | Zarude | nameOrigin; pokedexEntries games: sv; eggGroups null |
-| 894 | Regieleki | nameOrigin; pokedexEntries games: sv; eggGroups null |
-| 895 | Regidrago | nameOrigin; pokedexEntries games: sv; eggGroups null |
-| 896 | Glastrier | nameOrigin; eggGroups null |
-| 897 | Spectrier | nameOrigin; eggGroups null |
-| 898 | Calyrex | nameOrigin; pokedexEntries games: sv; eggGroups null |
-| 899 | Wyrdeer | pokedexEntries games: sv; eggGroups null; species; catchRate; baseFriendship; eggCycles |
-| 900 | Kleavor | eggGroups null; species; catchRate; baseFriendship; eggCycles |
-| 901 | Ursaluna | eggGroups null; species; catchRate; baseFriendship; eggCycles |
-| 902 | Basculegion | eggGroups null; species; catchRate; baseFriendship; eggCycles |
-| 903 | Sneasler | pokedexEntries games: sv; eggGroups null; species; catchRate; baseFriendship; eggCycles |
-| 904 | Overqwil | eggGroups null; species; catchRate; baseFriendship; eggCycles |
-| 905 | Enamorus | pokedexEntries games: sv; eggGroups null; species; catchRate; baseFriendship; eggCycles |
-| 906 | Sprigatito | eggGroups null |
-| 907 | Floragato | eggGroups null |
-| 908 | Meowscarada | eggGroups null |
-| 909 | Fuecoco | eggGroups null |
-| 910 | Crocalor | eggGroups null |
-| 911 | Skeledirge | eggGroups null |
-| 912 | Quaxly | eggGroups null |
-| 913 | Quaxwell | eggGroups null |
-| 914 | Quaquaval | eggGroups null |
-| 915 | Lechonk | eggGroups null |
-| 917 | Tarountula | eggGroups null |
-| 918 | Spidops | eggGroups null |
-| 919 | Nymble | eggGroups null |
-| 920 | Lokix | eggGroups null |
-| 921 | Pawmi | eggGroups null |
-| 922 | Pawmo | eggGroups null |
-| 923 | Pawmot | eggGroups null |
-| 924 | Tandemaus | eggGroups null |
-| 926 | Fidough | eggGroups null |
-| 927 | Dachsbun | eggGroups null |
-| 928 | Smoliv | eggGroups null |
-| 929 | Dolliv | eggGroups null |
-| 930 | Arboliva | eggGroups null |
-| 931 | Squawkabilly | eggGroups null |
-| 932 | Nacli | eggGroups null |
-| 933 | Naclstack | eggGroups null |
-| 934 | Garganacl | eggGroups null |
-| 935 | Charcadet | eggGroups null |
-| 936 | Armarouge | eggGroups null |
-| 937 | Ceruledge | eggGroups null |
-| 938 | Tadbulb | eggGroups null |
-| 939 | Bellibolt | eggGroups null |
-| 940 | Wattrel | eggGroups null |
-| 941 | Kilowattrel | eggGroups null |
-| 942 | Maschiff | eggGroups null |
-| 943 | Mabosstiff | eggGroups null |
-| 944 | Shroodle | eggGroups null |
-| 945 | Grafaiai | eggGroups null |
-| 946 | Bramblin | eggGroups null |
-| 947 | Brambleghast | eggGroups null |
-| 948 | Toedscool | eggGroups null |
-| 949 | Toedscruel | eggGroups null |
-| 950 | Klawf | eggGroups null |
+| 811 | Thwackey | nameOrigin meaning: thwack |
+| 812 | Rillaboom | nameOrigin meaning: gorilla, boom |
+| 814 | Raboot | nameOrigin meaning: rabbit, boot |
+| 815 | Cinderace | nameOrigin meaning: cinder, ace |
+| 817 | Drizzile | nameOrigin meaning: drizzle, prehensile |
+| 818 | Inteleon | nameOrigin meaning: intelligence, chameleon |
+| 819 | Skwovet | nameOrigin meaning: squirrel, covet |
+| 820 | Greedent | nameOrigin meaning: greedy, rodent |
+| 821 | Rookidee | nameOrigin meaning: rookie, chickidee |
+| 822 | Corvisquire | nameOrigin meaning: corvine, squire |
+| 824 | Blipbug | nameOrigin meaning: blip, bug |
+| 825 | Dottler | nameOrigin meaning: dot |
+| 826 | Orbeetle | nameOrigin meaning: orb, beetle |
+| 827 | Nickit | nameOrigin meaning: nick |
+| 828 | Thievul | nameOrigin meaning: thieve, vulpine |
+| 832 | Dubwool | nameOrigin meaning: double, wool |
+| 833 | Chewtle | nameOrigin meaning: chew, turtle |
+| 836 | Boltund | nameOrigin meaning: bolt, hound |
+| 838 | Carkol | nameOrigin meaning: carbon, coal |
+| 839 | Coalossal | nameOrigin meaning: coal, colossal |
+| 843 | Silicobra | nameOrigin meaning: silicon, cobra |
+| 844 | Sandaconda | nameOrigin meaning: sand, anaconda |
+| 850 | Sizzlipede | nameOrigin meaning: sizzle, centipede |
+| 851 | Centiskorch | nameOrigin meaning: centipede, scorch |
+| 852 | Clobbopus | nameOrigin meaning: clobber |
+| 853 | Grapploct | nameOrigin meaning: grapple |
+| 854 | Sinistea | nameOrigin meaning: sinister, tea |
+| 856 | Hatenna | nameOrigin meaning: hat |
+| 857 | Hattrem | nameOrigin meaning: hat |
+| 858 | Hatterene | nameOrigin meaning: hat, serene |
+| 860 | Morgrem | nameOrigin meaning: morgue, gremlin |
+| 861 | Grimmsnarl | nameOrigin meaning: grim, snarl |
+| 863 | Perrserker | pokedexEntries games: sv |
+| 864 | Cursola | nameOrigin meaning: curse, solar |
+| 867 | Runerigus | nameOrigin meaning: rune, egregious |
+| 871 | Pincurchin | nameOrigin meaning: pin cushion, sea urchin |
+| 876 | Indeedee | nameOrigin meaning: indeed |
+| 885 | Dreepy | nameOrigin meaning: dragon, creepy |
+| 886 | Drakloak | nameOrigin meaning: dragon, cloak |
+| 887 | Dragapult | nameOrigin meaning: dragon, catapult |
+| 888 | Zacian | pokedexEntries games: sv |
+| 889 | Zamazenta | pokedexEntries games: sv |
+| 890 | Eternatus | nameOrigin meaning: eternal; pokedexEntries games: sv |
+| 891 | Kubfu | nameOrigin |
+| 892 | Urshifu | nameOrigin; pokedexEntries games: sv |
+| 893 | Zarude | nameOrigin; pokedexEntries games: sv |
+| 894 | Regieleki | nameOrigin; pokedexEntries games: sv |
+| 895 | Regidrago | nameOrigin; pokedexEntries games: sv |
+| 896 | Glastrier | nameOrigin |
+| 897 | Spectrier | nameOrigin |
+| 898 | Calyrex | nameOrigin; pokedexEntries games: sv |
+| 899 | Wyrdeer | pokedexEntries games: sv; species; catchRate; baseFriendship; eggCycles |
+| 900 | Kleavor | species; catchRate; baseFriendship; eggCycles |
+| 901 | Ursaluna | species; catchRate; baseFriendship; eggCycles |
+| 902 | Basculegion | species; catchRate; baseFriendship; eggCycles |
+| 903 | Sneasler | pokedexEntries games: sv; species; catchRate; baseFriendship; eggCycles |
+| 904 | Overqwil | species; catchRate; baseFriendship; eggCycles |
+| 905 | Enamorus | pokedexEntries games: sv; species; catchRate; baseFriendship; eggCycles |

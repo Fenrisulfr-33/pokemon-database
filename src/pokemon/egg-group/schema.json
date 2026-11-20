@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://pokemon-database.com/schemas/egg-groups.json",
+    "title": "PokemonEggGroupEntry",
+    "description": "Schema for one entry in src/pokemon/egg-group/entries. See src/pokemon/egg-group/README.md.",
+    "type": "object",
+    "required": ["_id", "key", "name", "pokemon"],
+    "additionalProperties": false,
+    "properties": {
+        "_id": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "PokeAPI egg-group id; referenced by national-dex and forms eggGroups"
+        },
+        "key": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "English name in lowercase, e.g. water-1"
+        },
+        "name": {
+            "type": "object",
+            "required": ["english"],
+            "description": "Name by language",
+            "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "pokemon": {
+            "type": "array",
+            "uniqueItems": true,
+            "description": "national-dex _ids in this egg group from PokeAPI pokemon_species, lowest first; no forms",
+            "items": { "type": "integer", "minimum": 1 }
+        }
+    }
+}
