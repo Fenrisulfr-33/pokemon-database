@@ -24,6 +24,12 @@ yet, so in Mongo those ids have no pokemon document.
 186 of the 253 full forms have no `learnsets` document. Every base
 pokemon has one.
 
+## Galarian Meowth has no `sv` learnset
+
+Galarian Meowth (52.02) can be obtained in Scarlet/Violet through
+language classes, but it has no `learnsets` document, so no `sv`
+learnset. PokeAPI (`pokemon/10161`) can fill it.
+
 ## Missing Indigo Disk TMs in `sv` learnsets
 
 Some base `sv` learnsets are missing TM172 and up (Indigo Disk). For
