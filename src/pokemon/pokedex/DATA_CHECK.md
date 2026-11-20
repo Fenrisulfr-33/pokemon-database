@@ -22,7 +22,7 @@ Don't edit by hand; fix the entry files and run it again.
 | Missing | Pokemon |
 | --- | ---: |
 | nameOrigin | 0 |
-| nameOrigin meaning | 27 |
+| nameOrigin meaning | 0 |
 | pokedexEntries | 0 |
 | dex games | 5 |
 | learnset games | 11 |
@@ -53,30 +53,3 @@ Don't edit by hand; fix the entry files and run it again.
 | 801 | Magearna | learnset games: swsh |
 | 803 | Poipole | learnset games: swsh |
 | 804 | Naganadel | learnset games: swsh |
-| 811 | Thwackey | nameOrigin meaning: thwack |
-| 812 | Rillaboom | nameOrigin meaning: gorilla, boom |
-| 814 | Raboot | nameOrigin meaning: rabbit, boot |
-| 815 | Cinderace | nameOrigin meaning: cinder, ace |
-| 817 | Drizzile | nameOrigin meaning: drizzle, prehensile |
-| 818 | Inteleon | nameOrigin meaning: intelligence, chameleon |
-| 819 | Skwovet | nameOrigin meaning: squirrel, covet |
-| 820 | Greedent | nameOrigin meaning: greedy, rodent |
-| 821 | Rookidee | nameOrigin meaning: rookie, chickidee |
-| 822 | Corvisquire | nameOrigin meaning: corvine, squire |
-| 824 | Blipbug | nameOrigin meaning: blip, bug |
-| 825 | Dottler | nameOrigin meaning: dot |
-| 826 | Orbeetle | nameOrigin meaning: orb, beetle |
-| 827 | Nickit | nameOrigin meaning: nick |
-| 828 | Thievul | nameOrigin meaning: thieve, vulpine |
-| 832 | Dubwool | nameOrigin meaning: double, wool |
-| 833 | Chewtle | nameOrigin meaning: chew, turtle |
-| 836 | Boltund | nameOrigin meaning: bolt, hound |
-| 838 | Carkol | nameOrigin meaning: carbon, coal |
-| 839 | Coalossal | nameOrigin meaning: coal, colossal |
-| 843 | Silicobra | nameOrigin meaning: silicon, cobra |
-| 844 | Sandaconda | nameOrigin meaning: sand, anaconda |
-| 850 | Sizzlipede | nameOrigin meaning: sizzle, centipede |
-| 851 | Centiskorch | nameOrigin meaning: centipede, scorch |
-| 852 | Clobbopus | nameOrigin meaning: clobber |
-| 853 | Grapploct | nameOrigin meaning: grapple |
-| 854 | Sinistea | nameOrigin meaning: sinister, tea |

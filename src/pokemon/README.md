@@ -91,3 +91,9 @@ This is MY master key for how the game numbering is stored for dexe entries, mov
 
 23-Champions ?????
 ```
+
+## Rules
+
+### General 
+
+1. Anytime a string has a quote, 'dog', this 'thing', quotes should always be '', not anything else.

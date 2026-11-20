@@ -1,5 +1,9 @@
 # Pokedex
 
+The pokedex is a list of all base form pokemon by their national dex id. This folder serves as a place to solidify that all data here is accurate up until a next game releases. Ideally the information once confirmed accurate will receive a `rule` that it cannot be modified with clear explination as to why that information should be changed. E.G. once all `nameOrigins` have been checked against `pokemonDB` and match, this field should never be edited.
+
+The `rules` will says what fields have been verified and set to `final`. Then things can only be added for new games but previous things cannot.
+
 ### Height formula
 
 ```js
@@ -32,13 +36,14 @@ function formatWeight(hectograms) {
 
 ### nameOrigin
 
-A list of `[word, meaning]` pairs, in display order. Empty meanings
-still need filling in (see `DATA_CHECK.md`).
+A list of `[word, meaning]` pairs, in display order, matching
+[pokemondb's name origins](https://pokemondb.net/etymology). Quotes
+inside a meaning use straight single quotes (`'`).
 
 ```json
     "nameOrigin": [
-        ["mirai", "Japanese for ‘future’"],
-        ["-don", "common dinosaur suffix, from the Greek for ‘tooth’"]
+        ["mirai", "Japanese for 'future'"],
+        ["-don", "common dinosaur suffix, from the Greek for 'tooth'"]
     ],
 ```
 
