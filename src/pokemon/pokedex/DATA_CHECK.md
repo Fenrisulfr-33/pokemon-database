@@ -24,7 +24,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| dex games | 22 |
+| dex games | 5 |
 | learnset games | 13 |
 | eggGroups null | 0 |
 | evs | 0 |
@@ -40,33 +40,16 @@ Don't edit by hand; fix the entry files and run it again.
 
 | _id | Name | Missing |
 | ---: | --- | --- |
-| 58 | Growlithe | dex games: la |
-| 59 | Arcanine | dex games: la |
-| 100 | Voltorb | dex games: la |
-| 101 | Electrode | dex games: la |
-| 157 | Typhlosion | dex games: la |
-| 183 | Marill | dex games: la |
 | 208 | Steelix | dex games: sv |
-| 211 | Qwilfish | dex games: la |
 | 322 | Numel | dex games: swsh |
 | 422 | Shellos | dex games: swsh; learnset games: swsh |
 | 423 | Gastrodon | dex games: swsh; learnset games: swsh |
 | 494 | Victini | learnset games: swsh |
-| 503 | Samurott | dex games: la |
-| 549 | Lilligant | dex games: la |
-| 550 | Basculin | dex games: la |
-| 570 | Zorua | dex games: la |
-| 571 | Zoroark | dex games: la |
-| 628 | Braviary | dex games: la |
 | 648 | Meloetta | learnset games: sv |
 | 649 | Genesect | learnset games: swsh |
 | 658 | Greninja | dex games: sv, za; learnset games: sv, za |
-| 705 | Sliggoo | dex games: la |
-| 706 | Goodra | dex games: la |
-| 713 | Avalugg | dex games: la |
 | 719 | Diancie | learnset games: swsh |
 | 721 | Volcanion | learnset games: swsh |
-| 724 | Decidueye | dex games: la |
 | 801 | Magearna | learnset games: swsh |
 | 803 | Poipole | learnset games: swsh |
 | 804 | Naganadel | learnset games: swsh |

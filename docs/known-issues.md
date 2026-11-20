@@ -106,11 +106,7 @@ Two tests in `pokedex/pokedex.test.js` ("pokedex entries by game") fail
 on these. `DATA_CHECK.md` lists them as `dex games` and
 `learnset games`.
 
-- **In a dex, no entry** (22 pokemon):
-  - `la`: the Legends Arceus dex lists base ids for pokemon whose LA
-    entry is on their Hisuian form (Growlithe 58, Voltorb 100,
-    Typhlosion 157, Samurott 503, Zorua 570, Braviary 628, Goodra 706,
-    Decidueye 724, ...). It may need form ids (`58.01`).
+- **In a dex, no entry** (5 pokemon):
   - `swsh`: Numel (322), Shellos (422), Gastrodon (423).
   - `sv`: Steelix (208), Greninja (658).
   - `za`: Greninja (658).
