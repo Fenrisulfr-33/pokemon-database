@@ -4,6 +4,19 @@ The pokedex is a list of all base form pokemon by their national dex id. This fo
 
 The `rules` will says what fields have been verified and set to `final`. Then things can only be added for new games but previous things cannot.
 
+### Locked fields
+
+`locks/locks.json` lists the fields that are verified and locked, with
+the source they were checked against. Each locked field has a snapshot,
+`locks/<field>.json`, of its value for every pokemon at lock time.
+`locks/locks.test.js` fails if an existing pokemon's value no longer
+matches its snapshot. Pokemon added later aren't checked.
+
+To lock a new field, add it to `locks.json` and run
+`npm run pokedex:lock -- <field>`. To change a locked value on purpose,
+edit the entry and re-run the same command; the snapshot diff shows
+the change.
+
 ### Height formula
 
 ```js

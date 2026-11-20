@@ -39,6 +39,8 @@ website lives in a separate repo).
 	- `npm run egg-group:validate`
 - Data check: 
 	- `npm run pokedex:data-check` (writes `src/pokemon/pokedex/DATA_CHECK.md`)
+- Lock a verified pokedex field (only when I ask):
+	- `npm run pokedex:lock -- <field>`
 - Rebuild growth-rate `pokemon` arrays:
 	- `npm run growth-rate:update-pokemon`
 - Upload: 
@@ -73,3 +75,6 @@ After every change:
 - Don't work on `src/palworld` or `src/temtem` unless asked; Pokemon is
   the only active data set.
 - Don't ask me to run `node -e '...'` commands.
+- Don't edit a field listed in `src/pokemon/pokedex/locks/locks.json`
+  for an existing pokemon, and don't re-run `pokedex:lock`, unless I
+  ask. Adding the field to a new pokemon is fine.
