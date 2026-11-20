@@ -22,7 +22,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 48 |
+| pokedexEntries games | 29 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
@@ -37,43 +37,24 @@ Don't edit by hand; fix the entry files and run it again.
 
 | _id | Name | Missing |
 | ---: | --- | --- |
-| 100 | Voltorb | pokedexEntries games: usum, la |
-| 101 | Electrode | pokedexEntries games: usum, la |
+| 100 | Voltorb | pokedexEntries games: la |
+| 101 | Electrode | pokedexEntries games: la |
 | 157 | Typhlosion | pokedexEntries games: la |
-| 193 | Yanma | pokedexEntries games: usum |
-| 194 | Wooper | pokedexEntries games: usum |
 | 211 | Qwilfish | pokedexEntries games: la |
-| 218 | Slugma | pokedexEntries games: usum |
-| 270 | Lotad | pokedexEntries games: usum |
-| 272 | Ludicolo | pokedexEntries games: usum |
-| 273 | Seedot | pokedexEntries games: usum |
-| 275 | Shiftry | pokedexEntries games: usum |
-| 276 | Taillow | pokedexEntries games: usum |
-| 307 | Meditite | pokedexEntries games: usum |
-| 325 | Spoink | pokedexEntries games: usum |
-| 333 | Swablu | pokedexEntries games: usum |
 | 381 | Latios | pokedexEntries games: swsh |
-| 418 | Buizel | pokedexEntries games: usum |
 | 421 | Cherrim | pokedexEntries games: swsh |
 | 422 | Shellos | pokedexEntries games: swsh |
 | 423 | Gastrodon | pokedexEntries games: swsh |
-| 449 | Hippopotas | pokedexEntries games: usum |
-| 451 | Skorupi | pokedexEntries games: usum |
-| 459 | Snover | pokedexEntries games: usum |
 | 494 | Victini | pokedexEntries games: swsh |
 | 503 | Samurott | pokedexEntries games: la |
 | 549 | Lilligant | pokedexEntries games: la |
 | 550 | Basculin | pokedexEntries games: la |
-| 557 | Dwebble | pokedexEntries games: usum |
 | 570 | Zorua | pokedexEntries games: la |
 | 571 | Zoroark | pokedexEntries games: la |
-| 580 | Ducklett | pokedexEntries games: usum |
 | 628 | Braviary | pokedexEntries games: la |
 | 648 | Meloetta | pokedexEntries games: sv |
 | 649 | Genesect | pokedexEntries games: swsh |
 | 658 | Greninja | pokedexEntries games: sv, za |
-| 688 | Binacle | pokedexEntries games: usum |
-| 694 | Helioptile | pokedexEntries games: usum |
 | 705 | Sliggoo | pokedexEntries games: la |
 | 706 | Goodra | pokedexEntries games: la |
 | 713 | Avalugg | pokedexEntries games: la |
