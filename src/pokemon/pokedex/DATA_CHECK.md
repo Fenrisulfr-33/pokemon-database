@@ -7,9 +7,10 @@ Don't edit by hand; fix the entry files and run it again.
   empty meaning.
 - **pokedexEntries games**: games in the pokemon's learnset with no
   entry, as `KEYS.md` keys. A group key (`swsh`) means both games
-  are missing. Pokemon in `dexes/DYNAMAX_ADVENTURES.md` (`sw` /
-  `sh`) and `dexes/SNACKSWORTH_LEGENDARIES.md` (`sc` / `vi`)
-  aren't checked for those games: they have no entry in them.
+  are missing. Pokemon in a `dexes/acquisition` list aren't checked
+  for that list's `games`, unless they're in that game's dex in
+  `dexes/dexes_objects`: a pokemon in the dex needs an entry.
+- **eggGroups null**: `eggGroups` has a `null` in it.
 - `name.korean` is only in the summary: it's missing for most pokemon.
 - `gender`, `abilities.hidden` and `evolution` can be null on
   purpose, so they aren't checked.
@@ -21,11 +22,12 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 526 |
-| evs | 195 |
+| pokedexEntries games | 180 |
+| eggGroups null | 139 |
+| evs | 138 |
 | growthRate | 0 |
-| eggGroups | 7 |
-| species | 9 |
+| eggGroups | 0 |
+| species | 7 |
 | catchRate | 7 |
 | baseFriendship | 7 |
 | eggCycles | 7 |
@@ -35,530 +37,220 @@ Don't edit by hand; fix the entry files and run it again.
 
 | _id | Name | Missing |
 | ---: | --- | --- |
-| 1 | Bulbasaur | pokedexEntries games: sm, usum |
-| 2 | Ivysaur | pokedexEntries games: sm, usum |
-| 3 | Venusaur | pokedexEntries games: sm, usum |
-| 4 | Charmander | pokedexEntries games: sm, usum |
-| 5 | Charmeleon | pokedexEntries games: sm, usum |
-| 6 | Charizard | pokedexEntries games: sm, usum |
-| 7 | Squirtle | pokedexEntries games: sm, usum |
-| 8 | Wartortle | pokedexEntries games: sm, usum |
-| 9 | Blastoise | pokedexEntries games: sm, usum |
-| 13 | Weedle | pokedexEntries games: sm, usum |
-| 14 | Kakuna | pokedexEntries games: sm, usum |
-| 15 | Beedrill | pokedexEntries games: sm, usum |
-| 16 | Pidgey | pokedexEntries games: sm, usum |
-| 17 | Pidgeotto | pokedexEntries games: sm, usum |
-| 18 | Pidgeot | pokedexEntries games: sm, usum |
-| 23 | Ekans | pokedexEntries games: sm |
-| 24 | Arbok | pokedexEntries games: sm |
-| 29 | Nidoran♀ | pokedexEntries games: sm, usum |
-| 30 | Nidorina | pokedexEntries games: sm, usum |
-| 31 | Nidoqueen | pokedexEntries games: sm, usum |
-| 32 | Nidoran♂ | pokedexEntries games: sm, usum |
-| 33 | Nidorino | pokedexEntries games: sm, usum |
-| 34 | Nidoking | pokedexEntries games: sm, usum |
-| 43 | Oddish | pokedexEntries games: sm, usum |
-| 44 | Gloom | pokedexEntries games: sm, usum |
-| 45 | Vileplume | pokedexEntries games: sm, usum |
-| 48 | Venonat | pokedexEntries games: sm, usum |
-| 49 | Venomoth | pokedexEntries games: sm, usum |
 | 58 | Growlithe | pokedexEntries games: la |
 | 59 | Arcanine | pokedexEntries games: la |
-| 69 | Bellsprout | pokedexEntries games: sm, usum |
-| 70 | Weepinbell | pokedexEntries games: sm, usum |
-| 71 | Victreebel | pokedexEntries games: sm, usum |
-| 77 | Ponyta | pokedexEntries games: sm, usum |
-| 78 | Rapidash | pokedexEntries games: sm, usum |
-| 83 | Farfetch'd | pokedexEntries games: sm, usum |
-| 84 | Doduo | pokedexEntries games: sm, usum |
-| 85 | Dodrio | pokedexEntries games: sm, usum |
-| 86 | Seel | pokedexEntries games: sm |
-| 87 | Dewgong | pokedexEntries games: sm |
-| 95 | Onix | pokedexEntries games: sm, usum |
-| 98 | Krabby | pokedexEntries games: sm, usum |
-| 99 | Kingler | pokedexEntries games: sm, usum |
-| 100 | Voltorb | pokedexEntries games: sm, usum, la |
-| 101 | Electrode | pokedexEntries games: sm, usum, la |
-| 106 | Hitmonlee | pokedexEntries games: sm, usum |
-| 107 | Hitmonchan | pokedexEntries games: sm, usum |
-| 108 | Lickitung | pokedexEntries games: sm |
-| 109 | Koffing | pokedexEntries games: sm, usum |
-| 110 | Weezing | pokedexEntries games: sm, usum |
-| 111 | Rhyhorn | pokedexEntries games: sm, usum |
-| 112 | Rhydon | pokedexEntries games: sm, usum |
-| 114 | Tangela | pokedexEntries games: sm, usum |
-| 116 | Horsea | pokedexEntries games: sm, usum |
-| 117 | Seadra | pokedexEntries games: sm, usum |
-| 122 | Mr. Mime | pokedexEntries games: sm |
-| 124 | Jynx | pokedexEntries games: sm |
-| 138 | Omanyte | pokedexEntries games: sm |
-| 139 | Omastar | pokedexEntries games: sm |
-| 140 | Kabuto | pokedexEntries games: sm |
-| 141 | Kabutops | pokedexEntries games: sm |
-| 144 | Articuno | pokedexEntries games: sm, usum |
-| 145 | Zapdos | pokedexEntries games: sm, usum |
-| 146 | Moltres | pokedexEntries games: sm, usum |
-| 150 | Mewtwo | pokedexEntries games: sm, usum, sv |
-| 151 | Mew | pokedexEntries games: sm, usum, sv |
-| 152 | Chikorita | pokedexEntries games: sm, usum |
-| 153 | Bayleef | pokedexEntries games: sm, usum |
-| 154 | Meganium | pokedexEntries games: sm, usum |
-| 155 | Cyndaquil | pokedexEntries games: sm, usum |
-| 156 | Quilava | pokedexEntries games: sm, usum |
-| 157 | Typhlosion | pokedexEntries games: sm, usum, la |
-| 158 | Totodile | pokedexEntries games: sm, usum |
-| 159 | Croconaw | pokedexEntries games: sm, usum |
-| 160 | Feraligatr | pokedexEntries games: sm, usum |
-| 161 | Sentret | pokedexEntries games: sm, usum |
-| 162 | Furret | pokedexEntries games: sm, usum |
-| 163 | Hoothoot | pokedexEntries games: sm; evs |
-| 164 | Noctowl | pokedexEntries games: sm; evs |
+| 69 | Bellsprout | pokedexEntries games: sm |
+| 70 | Weepinbell | pokedexEntries games: sm |
+| 71 | Victreebel | pokedexEntries games: sm |
+| 100 | Voltorb | pokedexEntries games: usum, la |
+| 101 | Electrode | pokedexEntries games: usum, la |
+| 111 | Rhyhorn | pokedexEntries games: sm |
+| 112 | Rhydon | pokedexEntries games: sm |
+| 116 | Horsea | pokedexEntries games: sm |
+| 117 | Seadra | pokedexEntries games: sm |
+| 150 | Mewtwo | pokedexEntries games: sv |
+| 151 | Mew | pokedexEntries games: sv |
+| 152 | Chikorita | pokedexEntries games: sm |
+| 153 | Bayleef | pokedexEntries games: sm |
+| 154 | Meganium | pokedexEntries games: sm |
+| 155 | Cyndaquil | pokedexEntries games: sm |
+| 156 | Quilava | pokedexEntries games: sm |
+| 157 | Typhlosion | pokedexEntries games: sm, la |
+| 158 | Totodile | pokedexEntries games: sm |
+| 159 | Croconaw | pokedexEntries games: sm |
+| 160 | Feraligatr | pokedexEntries games: sm |
+| 163 | Hoothoot | evs |
+| 164 | Noctowl | evs |
 | 170 | Chinchou | evs |
 | 171 | Lanturn | evs |
 | 174 | Igglybuff | evs |
-| 175 | Togepi | pokedexEntries games: sm, usum |
-| 176 | Togetic | pokedexEntries games: sm, usum |
-| 177 | Natu | pokedexEntries games: sm |
-| 178 | Xatu | pokedexEntries games: sm |
-| 179 | Mareep | pokedexEntries games: sm |
-| 180 | Flaaffy | pokedexEntries games: sm |
-| 181 | Ampharos | pokedexEntries games: sm |
-| 182 | Bellossom | pokedexEntries games: sm, usum |
-| 183 | Marill | pokedexEntries games: sm, usum; evs |
-| 184 | Azumarill | pokedexEntries games: sm, usum; evs |
-| 187 | Hoppip | pokedexEntries games: sm, usum |
-| 188 | Skiploom | pokedexEntries games: sm, usum |
-| 189 | Jumpluff | pokedexEntries games: sm, usum |
-| 190 | Aipom | pokedexEntries games: sm |
-| 191 | Sunkern | pokedexEntries games: sm, usum |
-| 192 | Sunflora | pokedexEntries games: sm, usum |
-| 193 | Yanma | pokedexEntries games: sm, usum |
-| 194 | Wooper | pokedexEntries games: sm, usum; evs |
-| 195 | Quagsire | pokedexEntries games: sm, usum; evs |
-| 201 | Unown | pokedexEntries games: sm, usum |
-| 202 | Wobbuffet | pokedexEntries games: sm, usum; evs |
-| 203 | Girafarig | pokedexEntries games: sm, usum |
-| 204 | Pineco | pokedexEntries games: sm |
-| 205 | Forretress | pokedexEntries games: sm |
-| 206 | Dunsparce | pokedexEntries games: sm; evs |
-| 207 | Gligar | pokedexEntries games: sm, usum |
-| 208 | Steelix | pokedexEntries games: sm, usum |
-| 211 | Qwilfish | pokedexEntries games: sm, usum, la |
-| 213 | Shuckle | pokedexEntries games: sm, usum |
-| 214 | Heracross | pokedexEntries games: sm |
-| 216 | Teddiursa | pokedexEntries games: sm, usum |
-| 217 | Ursaring | pokedexEntries games: sm, usum |
-| 218 | Slugma | pokedexEntries games: sm, usum |
-| 219 | Magcargo | pokedexEntries games: sm, usum |
-| 220 | Swinub | pokedexEntries games: sm, usum |
-| 221 | Piloswine | pokedexEntries games: sm, usum |
-| 223 | Remoraid | pokedexEntries games: sm |
-| 224 | Octillery | pokedexEntries games: sm |
-| 226 | Mantine | pokedexEntries games: sm |
-| 228 | Houndour | pokedexEntries games: sm |
-| 229 | Houndoom | pokedexEntries games: sm |
-| 230 | Kingdra | pokedexEntries games: sm, usum |
-| 231 | Phanpy | pokedexEntries games: sm, usum; evs |
-| 232 | Donphan | pokedexEntries games: sm, usum |
-| 234 | Stantler | pokedexEntries games: sm, usum |
-| 236 | Tyrogue | pokedexEntries games: sm, usum |
-| 237 | Hitmontop | pokedexEntries games: sm, usum |
-| 238 | Smoochum | pokedexEntries games: sm |
+| 175 | Togepi | pokedexEntries games: sm |
+| 176 | Togetic | pokedexEntries games: sm |
+| 183 | Marill | pokedexEntries games: sm; evs |
+| 184 | Azumarill | pokedexEntries games: sm; evs |
+| 193 | Yanma | pokedexEntries games: usum |
+| 194 | Wooper | pokedexEntries games: usum; evs |
+| 195 | Quagsire | evs |
+| 202 | Wobbuffet | evs |
+| 206 | Dunsparce | evs |
+| 211 | Qwilfish | pokedexEntries games: la |
+| 218 | Slugma | pokedexEntries games: usum |
+| 220 | Swinub | pokedexEntries games: sm |
+| 221 | Piloswine | pokedexEntries games: sm |
+| 230 | Kingdra | pokedexEntries games: sm |
+| 231 | Phanpy | evs |
 | 242 | Blissey | evs |
-| 243 | Raikou | pokedexEntries games: sm, usum |
-| 244 | Entei | pokedexEntries games: sm, usum |
-| 245 | Suicune | pokedexEntries games: sm, usum |
-| 246 | Larvitar | pokedexEntries games: sm |
-| 247 | Pupitar | pokedexEntries games: sm |
-| 248 | Tyranitar | pokedexEntries games: sm |
-| 249 | Lugia | pokedexEntries games: sm, usum |
-| 250 | Ho-Oh | pokedexEntries games: sm, usum |
-| 251 | Celebi | pokedexEntries games: sm, usum; evs |
-| 252 | Treecko | pokedexEntries games: sm, usum, swsh |
-| 253 | Grovyle | pokedexEntries games: sm, usum, swsh |
-| 254 | Sceptile | pokedexEntries games: sm, usum, swsh |
-| 255 | Torchic | pokedexEntries games: sm, usum, swsh |
-| 256 | Combusken | pokedexEntries games: sm, usum, swsh |
-| 257 | Blaziken | pokedexEntries games: sm, usum, swsh |
-| 258 | Mudkip | pokedexEntries games: sm, usum, swsh |
-| 259 | Marshtomp | pokedexEntries games: sm, usum, swsh |
-| 260 | Swampert | pokedexEntries games: sm, usum, swsh |
-| 261 | Poochyena | pokedexEntries games: sm, usum |
-| 262 | Mightyena | pokedexEntries games: sm, usum |
-| 263 | Zigzagoon | pokedexEntries games: sm, usum |
-| 264 | Linoone | pokedexEntries games: sm, usum |
-| 265 | Wurmple | pokedexEntries games: sm, usum; evs |
-| 266 | Silcoon | pokedexEntries games: sm, usum |
-| 267 | Beautifly | pokedexEntries games: sm, usum |
-| 268 | Cascoon | pokedexEntries games: sm, usum |
-| 269 | Dustox | pokedexEntries games: sm, usum |
-| 270 | Lotad | pokedexEntries games: sm, usum |
-| 271 | Lombre | pokedexEntries games: sm, usum |
-| 272 | Ludicolo | pokedexEntries games: sm, usum |
-| 273 | Seedot | pokedexEntries games: sm, usum |
-| 274 | Nuzleaf | pokedexEntries games: sm, usum |
-| 275 | Shiftry | pokedexEntries games: sm, usum |
-| 276 | Taillow | pokedexEntries games: sm, usum |
-| 277 | Swellow | pokedexEntries games: sm, usum |
-| 280 | Ralts | pokedexEntries games: sm, usum |
-| 281 | Kirlia | pokedexEntries games: sm, usum |
-| 282 | Gardevoir | pokedexEntries games: sm, usum |
-| 285 | Shroomish | pokedexEntries games: sm, usum; evs |
-| 286 | Breloom | pokedexEntries games: sm, usum |
-| 287 | Slakoth | pokedexEntries games: sm, usum; evs |
-| 288 | Vigoroth | pokedexEntries games: sm, usum |
-| 289 | Slaking | pokedexEntries games: sm, usum; evs |
-| 290 | Nincada | pokedexEntries games: sm, usum |
-| 291 | Ninjask | pokedexEntries games: sm, usum |
-| 292 | Shedinja | pokedexEntries games: sm, usum; evs |
-| 293 | Whismur | pokedexEntries games: sm, usum; evs |
-| 294 | Loudred | pokedexEntries games: sm, usum; evs |
-| 295 | Exploud | pokedexEntries games: sm, usum; evs |
+| 249 | Lugia | pokedexEntries games: sv |
+| 251 | Celebi | evs |
+| 252 | Treecko | pokedexEntries games: swsh |
+| 253 | Grovyle | pokedexEntries games: swsh |
+| 254 | Sceptile | pokedexEntries games: swsh |
+| 255 | Torchic | pokedexEntries games: swsh |
+| 256 | Combusken | pokedexEntries games: swsh |
+| 257 | Blaziken | pokedexEntries games: swsh |
+| 258 | Mudkip | pokedexEntries games: swsh |
+| 259 | Marshtomp | pokedexEntries games: swsh |
+| 260 | Swampert | pokedexEntries games: swsh |
+| 265 | Wurmple | evs |
+| 270 | Lotad | pokedexEntries games: usum |
+| 272 | Ludicolo | pokedexEntries games: usum |
+| 273 | Seedot | pokedexEntries games: usum |
+| 275 | Shiftry | pokedexEntries games: usum |
+| 276 | Taillow | pokedexEntries games: usum |
+| 285 | Shroomish | evs |
+| 287 | Slakoth | pokedexEntries games: sm; evs |
+| 288 | Vigoroth | pokedexEntries games: sm |
+| 289 | Slaking | pokedexEntries games: sm; evs |
+| 292 | Shedinja | evs |
+| 293 | Whismur | evs |
+| 294 | Loudred | evs |
+| 295 | Exploud | evs |
 | 296 | Makuhita | evs |
 | 297 | Hariyama | evs |
-| 298 | Azurill | pokedexEntries games: sm, usum; evs |
-| 300 | Skitty | pokedexEntries games: sm, usum |
-| 301 | Delcatty | pokedexEntries games: sm, usum |
-| 303 | Mawile | pokedexEntries games: sm |
-| 304 | Aron | pokedexEntries games: sm, usum |
-| 305 | Lairon | pokedexEntries games: sm, usum |
-| 306 | Aggron | pokedexEntries games: sm, usum |
-| 307 | Meditite | pokedexEntries games: sm, usum |
-| 308 | Medicham | pokedexEntries games: sm, usum |
-| 309 | Electrike | pokedexEntries games: sm |
-| 310 | Manectric | pokedexEntries games: sm |
-| 311 | Plusle | pokedexEntries games: sm, usum |
-| 312 | Minun | pokedexEntries games: sm, usum |
-| 313 | Volbeat | pokedexEntries games: sm, usum |
-| 314 | Illumise | pokedexEntries games: sm, usum |
-| 315 | Roselia | pokedexEntries games: sm, usum |
-| 316 | Gulpin | pokedexEntries games: sm, usum; evs |
-| 317 | Swalot | pokedexEntries games: sm, usum; evs |
-| 322 | Numel | pokedexEntries games: sm, usum |
-| 323 | Camerupt | pokedexEntries games: sm, usum |
-| 325 | Spoink | pokedexEntries games: sm, usum |
-| 326 | Grumpig | pokedexEntries games: sm, usum |
-| 331 | Cacnea | pokedexEntries games: sm, usum |
-| 332 | Cacturne | pokedexEntries games: sm, usum |
-| 333 | Swablu | pokedexEntries games: sm, usum |
-| 334 | Altaria | pokedexEntries games: sm, usum |
-| 335 | Zangoose | pokedexEntries games: sm, usum |
-| 336 | Seviper | pokedexEntries games: sm, usum |
-| 337 | Lunatone | pokedexEntries games: sm, usum |
-| 338 | Solrock | pokedexEntries games: sm, usum |
+| 298 | Azurill | pokedexEntries games: sm; evs |
+| 307 | Meditite | pokedexEntries games: usum |
+| 315 | Roselia | pokedexEntries games: sm |
+| 316 | Gulpin | evs |
+| 317 | Swalot | evs |
+| 325 | Spoink | pokedexEntries games: usum |
+| 333 | Swablu | pokedexEntries games: usum |
 | 339 | Barboach | evs |
 | 340 | Whiscash | evs |
-| 341 | Corphish | pokedexEntries games: sm |
-| 342 | Crawdaunt | pokedexEntries games: sm |
-| 343 | Baltoy | pokedexEntries games: sm |
-| 344 | Claydol | pokedexEntries games: sm |
-| 345 | Lileep | pokedexEntries games: sm |
-| 346 | Cradily | pokedexEntries games: sm |
-| 347 | Anorith | pokedexEntries games: sm |
-| 348 | Armaldo | pokedexEntries games: sm |
 | 351 | Castform | evs |
-| 352 | Kecleon | pokedexEntries games: sm |
-| 353 | Shuppet | pokedexEntries games: sm |
-| 354 | Banette | pokedexEntries games: sm |
-| 355 | Duskull | pokedexEntries games: sm, usum |
-| 356 | Dusclops | pokedexEntries games: sm, usum |
-| 357 | Tropius | pokedexEntries games: sm; evs |
-| 358 | Chimecho | pokedexEntries games: sm, usum |
-| 360 | Wynaut | pokedexEntries games: sm, usum; evs |
+| 357 | Tropius | evs |
+| 360 | Wynaut | evs |
 | 361 | Snorunt | evs |
-| 363 | Spheal | pokedexEntries games: sm, usum; evs |
-| 364 | Sealeo | pokedexEntries games: sm, usum; evs |
-| 365 | Walrein | pokedexEntries games: sm, usum; evs |
-| 366 | Clamperl | pokedexEntries games: sm |
-| 367 | Huntail | pokedexEntries games: sm |
-| 368 | Gorebyss | pokedexEntries games: sm |
-| 377 | Regirock | pokedexEntries games: sm, usum, sv |
-| 378 | Regice | pokedexEntries games: sm, usum, sv |
-| 379 | Registeel | pokedexEntries games: sm, usum, sv |
-| 380 | Latias | pokedexEntries games: sm, usum |
-| 381 | Latios | pokedexEntries games: sm, usum |
-| 382 | Kyogre | pokedexEntries games: sm, usum |
-| 383 | Groudon | pokedexEntries games: sm, usum |
-| 384 | Rayquaza | pokedexEntries games: sm, usum |
-| 385 | Jirachi | pokedexEntries games: sm, usum, sv; evs |
-| 386 | Deoxys | pokedexEntries games: sm, usum, sv |
-| 387 | Turtwig | pokedexEntries games: sm, usum |
-| 388 | Grotle | pokedexEntries games: sm, usum |
-| 389 | Torterra | pokedexEntries games: sm, usum |
-| 390 | Chimchar | pokedexEntries games: sm, usum |
-| 391 | Monferno | pokedexEntries games: sm, usum |
-| 392 | Infernape | pokedexEntries games: sm, usum |
-| 393 | Piplup | pokedexEntries games: sm, usum |
-| 394 | Prinplup | pokedexEntries games: sm, usum |
-| 395 | Empoleon | pokedexEntries games: sm, usum |
-| 396 | Starly | pokedexEntries games: sm, usum |
-| 397 | Staravia | pokedexEntries games: sm, usum |
-| 398 | Staraptor | pokedexEntries games: sm, usum |
-| 399 | Bidoof | pokedexEntries games: sm, usum; evs |
-| 400 | Bibarel | pokedexEntries games: sm, usum |
-| 401 | Kricketot | pokedexEntries games: sm, usum |
-| 402 | Kricketune | pokedexEntries games: sm, usum |
-| 403 | Shinx | pokedexEntries games: sm, usum |
-| 404 | Luxio | pokedexEntries games: sm, usum |
-| 405 | Luxray | pokedexEntries games: sm, usum |
-| 406 | Budew | pokedexEntries games: sm, usum |
-| 407 | Roserade | pokedexEntries games: sm, usum |
-| 412 | Burmy | pokedexEntries games: sm, usum |
-| 413 | Wormadam | pokedexEntries games: sm, usum |
-| 414 | Mothim | pokedexEntries games: sm, usum |
-| 415 | Combee | pokedexEntries games: sm, usum |
-| 416 | Vespiquen | pokedexEntries games: sm, usum |
-| 417 | Pachirisu | pokedexEntries games: sm, usum |
-| 418 | Buizel | pokedexEntries games: sm, usum |
-| 419 | Floatzel | pokedexEntries games: sm, usum |
-| 420 | Cherubi | pokedexEntries games: sm, usum |
-| 421 | Cherrim | pokedexEntries games: sm, usum, swsh |
+| 363 | Spheal | pokedexEntries games: sm; evs |
+| 364 | Sealeo | pokedexEntries games: sm; evs |
+| 365 | Walrein | pokedexEntries games: sm; evs |
+| 377 | Regirock | pokedexEntries games: sv |
+| 378 | Regice | pokedexEntries games: sv |
+| 379 | Registeel | pokedexEntries games: sv |
+| 381 | Latios | pokedexEntries games: swsh |
+| 385 | Jirachi | pokedexEntries games: sv; evs |
+| 386 | Deoxys | pokedexEntries games: sv |
+| 396 | Starly | pokedexEntries games: sm |
+| 397 | Staravia | pokedexEntries games: sm |
+| 398 | Staraptor | pokedexEntries games: sm |
+| 399 | Bidoof | evs |
+| 403 | Shinx | pokedexEntries games: sm |
+| 404 | Luxio | pokedexEntries games: sm |
+| 405 | Luxray | pokedexEntries games: sm |
+| 406 | Budew | pokedexEntries games: sm |
+| 407 | Roserade | pokedexEntries games: sm |
+| 418 | Buizel | pokedexEntries games: usum |
+| 421 | Cherrim | pokedexEntries games: swsh |
 | 422 | Shellos | pokedexEntries games: swsh; evs |
 | 423 | Gastrodon | pokedexEntries games: swsh; evs |
-| 424 | Ambipom | pokedexEntries games: sm |
 | 425 | Drifloon | evs |
 | 426 | Drifblim | evs |
-| 427 | Buneary | pokedexEntries games: sm |
-| 428 | Lopunny | pokedexEntries games: sm |
-| 431 | Glameow | pokedexEntries games: sm, usum |
-| 432 | Purugly | pokedexEntries games: sm, usum |
-| 433 | Chingling | pokedexEntries games: sm, usum |
-| 434 | Stunky | pokedexEntries games: sm, usum |
-| 435 | Skuntank | pokedexEntries games: sm, usum; evs |
-| 436 | Bronzor | pokedexEntries games: sm, usum |
-| 437 | Bronzong | pokedexEntries games: sm, usum |
-| 439 | Mime Jr. | pokedexEntries games: sm |
+| 435 | Skuntank | evs |
 | 440 | Happiny | evs |
-| 441 | Chatot | pokedexEntries games: sm, usum |
-| 442 | Spiritomb | pokedexEntries games: sm, usum |
 | 446 | Munchlax | evs |
-| 449 | Hippopotas | pokedexEntries games: sm, usum |
-| 450 | Hippowdon | pokedexEntries games: sm, usum |
-| 451 | Skorupi | pokedexEntries games: sm, usum |
-| 452 | Drapion | pokedexEntries games: sm, usum |
-| 453 | Croagunk | pokedexEntries games: sm, usum |
-| 454 | Toxicroak | pokedexEntries games: sm, usum |
-| 455 | Carnivine | pokedexEntries games: sm, usum |
-| 458 | Mantyke | pokedexEntries games: sm |
-| 459 | Snover | pokedexEntries games: sm, usum |
-| 460 | Abomasnow | pokedexEntries games: sm, usum |
-| 463 | Lickilicky | pokedexEntries games: sm; evs |
-| 464 | Rhyperior | pokedexEntries games: sm, usum |
-| 465 | Tangrowth | pokedexEntries games: sm, usum |
-| 468 | Togekiss | pokedexEntries games: sm, usum |
-| 469 | Yanmega | pokedexEntries games: sm, usum |
-| 472 | Gliscor | pokedexEntries games: sm, usum |
-| 473 | Mamoswine | pokedexEntries games: sm, usum |
-| 475 | Gallade | pokedexEntries games: sm, usum |
-| 477 | Dusknoir | pokedexEntries games: sm, usum |
-| 479 | Rotom | pokedexEntries games: sm, usum |
-| 480 | Uxie | pokedexEntries games: sm, usum, sv |
-| 481 | Mesprit | pokedexEntries games: sm, usum, sv |
-| 482 | Azelf | pokedexEntries games: sm, usum, sv |
-| 483 | Dialga | pokedexEntries games: sm, usum, sv |
-| 484 | Palkia | pokedexEntries games: sm, usum, sv |
-| 485 | Heatran | pokedexEntries games: sm, usum, sv |
-| 486 | Regigigas | pokedexEntries games: sm, usum, sv |
-| 487 | Giratina | pokedexEntries games: sm, usum, sv; evs |
-| 488 | Cresselia | pokedexEntries games: sm, usum, sv |
-| 489 | Phione | pokedexEntries games: sm, usum, sv; evs |
-| 490 | Manaphy | pokedexEntries games: sm, usum, sv; evs |
-| 491 | Darkrai | pokedexEntries games: sm, usum, sv |
-| 492 | Shaymin | pokedexEntries games: sm, usum, sv; evs |
-| 493 | Arceus | pokedexEntries games: sm, usum, sv; evs |
-| 494 | Victini | pokedexEntries games: sm, usum, swsh; evs |
-| 495 | Snivy | pokedexEntries games: sm, usum |
-| 496 | Servine | pokedexEntries games: sm, usum |
-| 497 | Serperior | pokedexEntries games: sm, usum |
-| 498 | Tepig | pokedexEntries games: sm, usum; evs |
-| 499 | Pignite | pokedexEntries games: sm, usum |
-| 500 | Emboar | pokedexEntries games: sm, usum |
-| 501 | Oshawott | pokedexEntries games: sm, usum |
-| 502 | Dewott | pokedexEntries games: sm, usum |
-| 503 | Samurott | pokedexEntries games: sm, usum, la |
-| 504 | Patrat | pokedexEntries games: sm, usum |
-| 505 | Watchog | pokedexEntries games: sm, usum |
-| 509 | Purrloin | pokedexEntries games: sm, usum |
-| 510 | Liepard | pokedexEntries games: sm, usum |
-| 511 | Pansage | pokedexEntries games: sm, usum |
-| 512 | Simisage | pokedexEntries games: sm, usum |
-| 513 | Pansear | pokedexEntries games: sm, usum |
-| 514 | Simisear | pokedexEntries games: sm, usum |
-| 515 | Panpour | pokedexEntries games: sm, usum |
-| 516 | Simipour | pokedexEntries games: sm, usum |
-| 517 | Munna | pokedexEntries games: sm, usum; evs |
-| 518 | Musharna | pokedexEntries games: sm, usum; evs |
-| 519 | Pidove | pokedexEntries games: sm, usum |
-| 520 | Tranquill | pokedexEntries games: sm, usum |
-| 521 | Unfezant | pokedexEntries games: sm, usum |
-| 522 | Blitzle | pokedexEntries games: sm, usum |
-| 523 | Zebstrika | pokedexEntries games: sm, usum |
-| 527 | Woobat | pokedexEntries games: sm, usum |
-| 528 | Swoobat | pokedexEntries games: sm, usum |
-| 529 | Drilbur | pokedexEntries games: sm, usum |
-| 530 | Excadrill | pokedexEntries games: sm, usum |
-| 531 | Audino | pokedexEntries games: sm, usum |
-| 532 | Timburr | pokedexEntries games: sm, usum |
-| 533 | Gurdurr | pokedexEntries games: sm, usum |
-| 534 | Conkeldurr | pokedexEntries games: sm, usum |
-| 535 | Tympole | pokedexEntries games: sm, usum |
-| 536 | Palpitoad | pokedexEntries games: sm, usum; evs |
-| 537 | Seismitoad | pokedexEntries games: sm, usum; evs |
-| 538 | Throh | pokedexEntries games: sm, usum; evs |
-| 539 | Sawk | pokedexEntries games: sm, usum |
-| 540 | Sewaddle | pokedexEntries games: sm, usum |
-| 541 | Swadloon | pokedexEntries games: sm, usum |
-| 542 | Leavanny | pokedexEntries games: sm, usum |
-| 543 | Venipede | pokedexEntries games: sm, usum |
-| 544 | Whirlipede | pokedexEntries games: sm, usum |
-| 545 | Scolipede | pokedexEntries games: sm, usum |
+| 449 | Hippopotas | pokedexEntries games: usum |
+| 451 | Skorupi | pokedexEntries games: usum |
+| 459 | Snover | pokedexEntries games: usum |
+| 463 | Lickilicky | evs |
+| 464 | Rhyperior | pokedexEntries games: sm |
+| 468 | Togekiss | pokedexEntries games: sm |
+| 473 | Mamoswine | pokedexEntries games: sm |
+| 480 | Uxie | pokedexEntries games: sv |
+| 481 | Mesprit | pokedexEntries games: sv |
+| 482 | Azelf | pokedexEntries games: sv |
+| 483 | Dialga | pokedexEntries games: sv |
+| 484 | Palkia | pokedexEntries games: sv |
+| 485 | Heatran | pokedexEntries games: sv |
+| 486 | Regigigas | pokedexEntries games: sv |
+| 487 | Giratina | pokedexEntries games: sv; evs |
+| 488 | Cresselia | pokedexEntries games: sv |
+| 489 | Phione | pokedexEntries games: sv; evs |
+| 490 | Manaphy | pokedexEntries games: sv; evs |
+| 491 | Darkrai | pokedexEntries games: sv |
+| 492 | Shaymin | pokedexEntries games: sv; evs |
+| 493 | Arceus | pokedexEntries games: sv; evs |
+| 494 | Victini | pokedexEntries games: swsh; evs |
+| 495 | Snivy | pokedexEntries games: sm |
+| 496 | Servine | pokedexEntries games: sm |
+| 497 | Serperior | pokedexEntries games: sm |
+| 498 | Tepig | pokedexEntries games: sm; evs |
+| 499 | Pignite | pokedexEntries games: sm |
+| 500 | Emboar | pokedexEntries games: sm |
+| 501 | Oshawott | pokedexEntries games: sm |
+| 502 | Dewott | pokedexEntries games: sm |
+| 503 | Samurott | pokedexEntries games: sm, la |
+| 517 | Munna | evs |
+| 518 | Musharna | evs |
+| 532 | Timburr | pokedexEntries games: sm |
+| 533 | Gurdurr | pokedexEntries games: sm |
+| 534 | Conkeldurr | pokedexEntries games: sm |
+| 536 | Palpitoad | evs |
+| 537 | Seismitoad | evs |
+| 538 | Throh | evs |
+| 540 | Sewaddle | pokedexEntries games: sm |
+| 541 | Swadloon | pokedexEntries games: sm |
+| 542 | Leavanny | pokedexEntries games: sm |
+| 543 | Venipede | pokedexEntries games: sm |
+| 544 | Whirlipede | pokedexEntries games: sm |
+| 545 | Scolipede | pokedexEntries games: sm |
 | 549 | Lilligant | pokedexEntries games: la |
-| 550 | Basculin | pokedexEntries games: sm, la |
-| 554 | Darumaka | pokedexEntries games: sm, usum |
-| 555 | Darmanitan | pokedexEntries games: sm, usum |
-| 556 | Maractus | pokedexEntries games: sm, usum |
-| 557 | Dwebble | pokedexEntries games: sm, usum |
-| 558 | Crustle | pokedexEntries games: sm, usum |
-| 559 | Scraggy | pokedexEntries games: sm |
-| 560 | Scrafty | pokedexEntries games: sm |
-| 561 | Sigilyph | pokedexEntries games: sm, usum |
-| 562 | Yamask | pokedexEntries games: sm, usum |
-| 563 | Cofagrigus | pokedexEntries games: sm, usum |
-| 570 | Zorua | pokedexEntries games: sm, la |
-| 571 | Zoroark | pokedexEntries games: sm, la |
-| 572 | Minccino | pokedexEntries games: sm |
-| 573 | Cinccino | pokedexEntries games: sm |
-| 574 | Gothita | pokedexEntries games: sm, usum |
-| 575 | Gothorita | pokedexEntries games: sm, usum |
-| 576 | Gothitelle | pokedexEntries games: sm, usum |
-| 577 | Solosis | pokedexEntries games: sm, usum |
-| 578 | Duosion | pokedexEntries games: sm, usum |
-| 579 | Reuniclus | pokedexEntries games: sm, usum |
-| 580 | Ducklett | pokedexEntries games: sm, usum; evs |
-| 581 | Swanna | pokedexEntries games: sm, usum |
-| 585 | Deerling | pokedexEntries games: sm, usum |
-| 586 | Sawsbuck | pokedexEntries games: sm, usum |
-| 588 | Karrablast | pokedexEntries games: sm, usum |
-| 589 | Escavalier | pokedexEntries games: sm, usum |
-| 590 | Foongus | pokedexEntries games: sm, usum; evs |
-| 591 | Amoonguss | pokedexEntries games: sm, usum; evs |
-| 592 | Frillish | pokedexEntries games: sm |
-| 593 | Jellicent | pokedexEntries games: sm |
+| 550 | Basculin | pokedexEntries games: la |
+| 557 | Dwebble | pokedexEntries games: usum |
+| 570 | Zorua | pokedexEntries games: la |
+| 571 | Zoroark | pokedexEntries games: la |
+| 574 | Gothita | pokedexEntries games: sm |
+| 575 | Gothorita | pokedexEntries games: sm |
+| 576 | Gothitelle | pokedexEntries games: sm |
+| 577 | Solosis | pokedexEntries games: sm |
+| 578 | Duosion | pokedexEntries games: sm |
+| 579 | Reuniclus | pokedexEntries games: sm |
+| 580 | Ducklett | pokedexEntries games: usum; evs |
+| 590 | Foongus | evs |
+| 591 | Amoonguss | evs |
 | 594 | Alomomola | evs |
-| 595 | Joltik | pokedexEntries games: sm, usum |
-| 596 | Galvantula | pokedexEntries games: sm, usum |
-| 597 | Ferroseed | pokedexEntries games: sm, usum |
-| 598 | Ferrothorn | pokedexEntries games: sm, usum |
-| 599 | Klink | pokedexEntries games: sm, usum |
-| 600 | Klang | pokedexEntries games: sm, usum |
-| 601 | Klinklang | pokedexEntries games: sm, usum |
-| 602 | Tynamo | pokedexEntries games: sm, usum |
-| 603 | Eelektrik | pokedexEntries games: sm, usum |
-| 604 | Eelektross | pokedexEntries games: sm, usum |
-| 605 | Elgyem | pokedexEntries games: sm |
-| 606 | Beheeyem | pokedexEntries games: sm |
-| 607 | Litwick | pokedexEntries games: sm, usum |
-| 608 | Lampent | pokedexEntries games: sm, usum |
-| 609 | Chandelure | pokedexEntries games: sm, usum |
-| 610 | Axew | pokedexEntries games: sm, usum |
-| 611 | Fraxure | pokedexEntries games: sm, usum |
-| 612 | Haxorus | pokedexEntries games: sm, usum |
-| 613 | Cubchoo | pokedexEntries games: sm, usum |
-| 614 | Beartic | pokedexEntries games: sm, usum |
-| 615 | Cryogonal | pokedexEntries games: sm, usum |
-| 616 | Shelmet | pokedexEntries games: sm, usum |
-| 617 | Accelgor | pokedexEntries games: sm, usum |
-| 618 | Stunfisk | pokedexEntries games: sm, usum |
-| 619 | Mienfoo | pokedexEntries games: sm |
-| 620 | Mienshao | pokedexEntries games: sm |
-| 621 | Druddigon | pokedexEntries games: sm |
-| 622 | Golett | pokedexEntries games: sm |
-| 623 | Golurk | pokedexEntries games: sm |
-| 624 | Pawniard | pokedexEntries games: sm |
-| 625 | Bisharp | pokedexEntries games: sm |
-| 626 | Bouffalant | pokedexEntries games: sm, usum |
+| 599 | Klink | pokedexEntries games: sm |
+| 600 | Klang | pokedexEntries games: sm |
+| 601 | Klinklang | pokedexEntries games: sm |
+| 602 | Tynamo | pokedexEntries games: sm |
+| 603 | Eelektrik | pokedexEntries games: sm |
+| 604 | Eelektross | pokedexEntries games: sm |
+| 607 | Litwick | pokedexEntries games: sm |
+| 608 | Lampent | pokedexEntries games: sm |
+| 609 | Chandelure | pokedexEntries games: sm |
+| 610 | Axew | pokedexEntries games: sm |
+| 611 | Fraxure | pokedexEntries games: sm |
+| 612 | Haxorus | pokedexEntries games: sm |
 | 628 | Braviary | pokedexEntries games: la |
-| 631 | Heatmor | pokedexEntries games: sm, usum |
-| 632 | Durant | pokedexEntries games: sm, usum |
-| 633 | Deino | pokedexEntries games: sm, usum |
-| 634 | Zweilous | pokedexEntries games: sm, usum |
-| 635 | Hydreigon | pokedexEntries games: sm, usum |
-| 636 | Larvesta | pokedexEntries games: sm |
-| 637 | Volcarona | pokedexEntries games: sm |
-| 638 | Cobalion | pokedexEntries games: sm, usum |
-| 639 | Terrakion | pokedexEntries games: sm, usum |
-| 640 | Virizion | pokedexEntries games: sm, usum |
-| 641 | Tornadus | pokedexEntries games: sm, usum, sv |
-| 642 | Thundurus | pokedexEntries games: sm, usum, sv |
-| 643 | Reshiram | pokedexEntries games: sm, usum |
-| 644 | Zekrom | pokedexEntries games: sm, usum |
-| 645 | Landorus | pokedexEntries games: sm, usum, sv |
-| 646 | Kyurem | pokedexEntries games: sm, usum |
-| 647 | Keldeo | pokedexEntries games: sm, usum, sv |
-| 648 | Meloetta | pokedexEntries games: sm, usum, sv |
-| 649 | Genesect | pokedexEntries games: sm, usum, swsh |
-| 650 | Chespin | pokedexEntries games: sm, usum |
-| 651 | Quilladin | pokedexEntries games: sm, usum |
-| 652 | Chesnaught | pokedexEntries games: sm, usum |
-| 653 | Fennekin | pokedexEntries games: sm, usum |
-| 654 | Braixen | pokedexEntries games: sm, usum |
-| 655 | Delphox | pokedexEntries games: sm, usum |
-| 656 | Froakie | pokedexEntries games: sm, usum |
-| 657 | Frogadier | pokedexEntries games: sm, usum |
-| 658 | Greninja | pokedexEntries games: sm, usum, sv, za |
-| 659 | Bunnelby | pokedexEntries games: sm, usum |
-| 660 | Diggersby | pokedexEntries games: sm, usum; evs |
-| 664 | Scatterbug | pokedexEntries games: sm, usum |
-| 665 | Spewpa | pokedexEntries games: sm, usum |
-| 666 | Vivillon | pokedexEntries games: sm, usum |
-| 667 | Litleo | pokedexEntries games: sm |
-| 668 | Pyroar | pokedexEntries games: sm |
-| 669 | Flabébé | pokedexEntries games: sm |
-| 670 | Floette | pokedexEntries games: sm |
-| 671 | Florges | pokedexEntries games: sm |
-| 672 | Skiddo | pokedexEntries games: sm, usum; evs |
-| 673 | Gogoat | pokedexEntries games: sm, usum; evs |
-| 676 | Furfrou | pokedexEntries games: sm |
-| 677 | Espurr | pokedexEntries games: sm, usum |
-| 678 | Meowstic | pokedexEntries games: sm, usum |
-| 679 | Honedge | pokedexEntries games: sm, usum |
-| 680 | Doublade | pokedexEntries games: sm, usum |
-| 681 | Aegislash | pokedexEntries games: sm, usum |
-| 682 | Spritzee | pokedexEntries games: sm, usum; evs |
-| 683 | Aromatisse | pokedexEntries games: sm, usum; evs |
-| 684 | Swirlix | pokedexEntries games: sm, usum |
-| 685 | Slurpuff | pokedexEntries games: sm, usum |
-| 686 | Inkay | pokedexEntries games: sm |
-| 687 | Malamar | pokedexEntries games: sm |
-| 688 | Binacle | pokedexEntries games: sm, usum |
-| 689 | Barbaracle | pokedexEntries games: sm, usum |
-| 690 | Skrelp | pokedexEntries games: sm |
-| 691 | Dragalge | pokedexEntries games: sm |
-| 692 | Clauncher | pokedexEntries games: sm |
-| 693 | Clawitzer | pokedexEntries games: sm |
-| 694 | Helioptile | pokedexEntries games: sm, usum |
-| 695 | Heliolisk | pokedexEntries games: sm, usum |
-| 696 | Tyrunt | pokedexEntries games: sm |
-| 697 | Tyrantrum | pokedexEntries games: sm |
-| 698 | Amaura | pokedexEntries games: sm; evs |
-| 699 | Aurorus | pokedexEntries games: sm; evs |
-| 701 | Hawlucha | pokedexEntries games: sm |
-| 702 | Dedenne | pokedexEntries games: sm |
+| 633 | Deino | pokedexEntries games: sm |
+| 634 | Zweilous | pokedexEntries games: sm |
+| 635 | Hydreigon | pokedexEntries games: sm |
+| 641 | Tornadus | pokedexEntries games: sv |
+| 642 | Thundurus | pokedexEntries games: sv |
+| 645 | Landorus | pokedexEntries games: sv |
+| 647 | Keldeo | pokedexEntries games: sv |
+| 648 | Meloetta | pokedexEntries games: sv |
+| 649 | Genesect | pokedexEntries games: swsh |
+| 658 | Greninja | pokedexEntries games: sv, za |
+| 660 | Diggersby | evs |
+| 672 | Skiddo | evs |
+| 673 | Gogoat | evs |
+| 679 | Honedge | pokedexEntries games: sm |
+| 680 | Doublade | pokedexEntries games: sm |
+| 681 | Aegislash | pokedexEntries games: sm |
+| 682 | Spritzee | evs |
+| 683 | Aromatisse | evs |
+| 688 | Binacle | pokedexEntries games: usum |
+| 694 | Helioptile | pokedexEntries games: usum |
+| 698 | Amaura | evs |
+| 699 | Aurorus | evs |
 | 705 | Sliggoo | pokedexEntries games: la |
 | 706 | Goodra | pokedexEntries games: la |
-| 710 | Pumpkaboo | pokedexEntries games: sm, usum |
-| 711 | Gourgeist | pokedexEntries games: sm, usum |
-| 712 | Bergmite | pokedexEntries games: sm, usum |
-| 713 | Avalugg | pokedexEntries games: sm, usum, la |
-| 714 | Noibat | pokedexEntries games: sm |
-| 715 | Noivern | pokedexEntries games: sm |
-| 716 | Xerneas | pokedexEntries games: sm, usum; evs |
-| 717 | Yveltal | pokedexEntries games: sm, usum; evs |
+| 713 | Avalugg | pokedexEntries games: la |
+| 716 | Xerneas | evs |
+| 717 | Yveltal | evs |
 | 718 | Zygarde | evs |
-| 719 | Diancie | pokedexEntries games: sm, usum, swsh, sv |
-| 720 | Hoopa | pokedexEntries games: sm, usum, sv |
-| 721 | Volcanion | pokedexEntries games: sm, usum, swsh, sv |
+| 719 | Diancie | pokedexEntries games: swsh, sv |
+| 720 | Hoopa | pokedexEntries games: sv |
+| 721 | Volcanion | pokedexEntries games: swsh, sv |
 | 722 | Rowlet | evs |
 | 723 | Dartrix | evs |
 | 724 | Decidueye | pokedexEntries games: la |
@@ -572,172 +264,143 @@ Don't edit by hand; fix the entry files and run it again.
 | 801 | Magearna | pokedexEntries games: swsh, sv |
 | 803 | Poipole | pokedexEntries games: swsh |
 | 804 | Naganadel | pokedexEntries games: swsh |
-| 811 | Thwackey | nameOrigin meaning: thwack |
-| 812 | Rillaboom | nameOrigin meaning: gorilla, boom |
-| 814 | Raboot | nameOrigin meaning: rabbit, boot |
-| 815 | Cinderace | nameOrigin meaning: cinder, ace |
-| 817 | Drizzile | nameOrigin meaning: drizzle, prehensile |
-| 818 | Inteleon | nameOrigin meaning: intelligence, chameleon |
-| 819 | Skwovet | nameOrigin meaning: squirrel, covet; evs |
-| 820 | Greedent | nameOrigin meaning: greedy, rodent; evs |
-| 821 | Rookidee | nameOrigin meaning: rookie, chickidee |
-| 822 | Corvisquire | nameOrigin meaning: corvine, squire |
-| 824 | Blipbug | nameOrigin meaning: blip, bug |
-| 825 | Dottler | nameOrigin meaning: dot |
-| 826 | Orbeetle | nameOrigin meaning: orb, beetle |
-| 827 | Nickit | nameOrigin meaning: nick |
-| 828 | Thievul | nameOrigin meaning: thieve, vulpine |
-| 832 | Dubwool | nameOrigin meaning: double, wool |
-| 833 | Chewtle | nameOrigin meaning: chew, turtle |
-| 835 | Yamper | evs |
-| 836 | Boltund | nameOrigin meaning: bolt, hound |
-| 838 | Carkol | nameOrigin meaning: carbon, coal |
-| 839 | Coalossal | nameOrigin meaning: coal, colossal |
-| 842 | Appletun | evs |
-| 843 | Silicobra | nameOrigin meaning: silicon, cobra |
-| 844 | Sandaconda | nameOrigin meaning: sand, anaconda |
-| 850 | Sizzlipede | nameOrigin meaning: sizzle, centipede |
-| 851 | Centiskorch | nameOrigin meaning: centipede, scorch |
-| 852 | Clobbopus | nameOrigin meaning: clobber |
-| 853 | Grapploct | nameOrigin meaning: grapple |
-| 854 | Sinistea | nameOrigin meaning: sinister, tea |
-| 856 | Hatenna | nameOrigin meaning: hat |
-| 857 | Hattrem | nameOrigin meaning: hat |
-| 858 | Hatterene | nameOrigin meaning: hat, serene |
-| 860 | Morgrem | nameOrigin meaning: morgue, gremlin |
-| 861 | Grimmsnarl | nameOrigin meaning: grim, snarl |
-| 863 | Perrserker | pokedexEntries games: sv |
-| 864 | Cursola | nameOrigin meaning: curse, solar |
-| 867 | Runerigus | nameOrigin meaning: rune, egregious |
-| 871 | Pincurchin | nameOrigin meaning: pin cushion, sea urchin |
-| 876 | Indeedee | nameOrigin meaning: indeed |
-| 885 | Dreepy | nameOrigin meaning: dragon, creepy |
-| 886 | Drakloak | nameOrigin meaning: dragon, cloak |
-| 887 | Dragapult | nameOrigin meaning: dragon, catapult |
-| 888 | Zacian | pokedexEntries games: sv |
-| 889 | Zamazenta | pokedexEntries games: sv |
-| 890 | Eternatus | nameOrigin meaning: eternal; pokedexEntries games: sv; evs |
-| 891 | Kubfu | nameOrigin |
-| 892 | Urshifu | nameOrigin; pokedexEntries games: sv |
-| 893 | Zarude | nameOrigin; pokedexEntries games: sv |
-| 894 | Regieleki | nameOrigin; pokedexEntries games: sv |
-| 895 | Regidrago | nameOrigin; pokedexEntries games: sv; evs |
-| 896 | Glastrier | nameOrigin |
-| 897 | Spectrier | nameOrigin |
-| 898 | Calyrex | nameOrigin; pokedexEntries games: sv; evs |
-| 899 | Wyrdeer | pokedexEntries games: sv; evs; species; catchRate; baseFriendship; eggCycles |
-| 900 | Kleavor | evs; species; catchRate; baseFriendship; eggCycles |
-| 901 | Ursaluna | evs; species; catchRate; baseFriendship; eggCycles |
-| 902 | Basculegion | evs; species; catchRate; baseFriendship; eggCycles |
-| 903 | Sneasler | pokedexEntries games: sv; evs; species; catchRate; baseFriendship; eggCycles |
-| 904 | Overqwil | evs; species; catchRate; baseFriendship; eggCycles |
-| 905 | Enamorus | pokedexEntries games: sv; evs; species; catchRate; baseFriendship; eggCycles |
-| 906 | Sprigatito | evs |
-| 907 | Floragato | evs |
-| 908 | Meowscarada | evs |
-| 909 | Fuecoco | evs |
-| 910 | Crocalor | evs |
-| 911 | Skeledirge | evs |
-| 912 | Quaxly | evs |
-| 913 | Quaxwell | evs |
-| 914 | Quaquaval | evs |
-| 915 | Lechonk | evs |
+| 810 | Grookey | eggGroups null |
+| 811 | Thwackey | nameOrigin meaning: thwack; eggGroups null |
+| 812 | Rillaboom | nameOrigin meaning: gorilla, boom; eggGroups null |
+| 813 | Scorbunny | eggGroups null |
+| 814 | Raboot | nameOrigin meaning: rabbit, boot; eggGroups null |
+| 815 | Cinderace | nameOrigin meaning: cinder, ace; eggGroups null |
+| 816 | Sobble | eggGroups null |
+| 817 | Drizzile | nameOrigin meaning: drizzle, prehensile; eggGroups null |
+| 818 | Inteleon | nameOrigin meaning: intelligence, chameleon; eggGroups null |
+| 819 | Skwovet | nameOrigin meaning: squirrel, covet; eggGroups null; evs |
+| 820 | Greedent | nameOrigin meaning: greedy, rodent; eggGroups null; evs |
+| 821 | Rookidee | nameOrigin meaning: rookie, chickidee; eggGroups null |
+| 822 | Corvisquire | nameOrigin meaning: corvine, squire; eggGroups null |
+| 823 | Corviknight | eggGroups null |
+| 824 | Blipbug | nameOrigin meaning: blip, bug; eggGroups null |
+| 825 | Dottler | nameOrigin meaning: dot; eggGroups null |
+| 826 | Orbeetle | nameOrigin meaning: orb, beetle; eggGroups null |
+| 827 | Nickit | nameOrigin meaning: nick; eggGroups null |
+| 828 | Thievul | nameOrigin meaning: thieve, vulpine; eggGroups null |
+| 829 | Gossifleur | eggGroups null |
+| 830 | Eldegoss | eggGroups null |
+| 831 | Wooloo | eggGroups null |
+| 832 | Dubwool | nameOrigin meaning: double, wool; eggGroups null |
+| 833 | Chewtle | nameOrigin meaning: chew, turtle; eggGroups null |
+| 834 | Drednaw | eggGroups null |
+| 835 | Yamper | eggGroups null; evs |
+| 836 | Boltund | nameOrigin meaning: bolt, hound; eggGroups null |
+| 837 | Rolycoly | eggGroups null |
+| 838 | Carkol | nameOrigin meaning: carbon, coal; eggGroups null |
+| 839 | Coalossal | nameOrigin meaning: coal, colossal; eggGroups null |
+| 840 | Applin | eggGroups null |
+| 841 | Flapple | eggGroups null |
+| 842 | Appletun | eggGroups null; evs |
+| 843 | Silicobra | nameOrigin meaning: silicon, cobra; eggGroups null |
+| 844 | Sandaconda | nameOrigin meaning: sand, anaconda; eggGroups null |
+| 845 | Cramorant | eggGroups null |
+| 846 | Arrokuda | eggGroups null |
+| 847 | Barraskewda | eggGroups null |
+| 848 | Toxel | eggGroups null |
+| 849 | Toxtricity | eggGroups null |
+| 850 | Sizzlipede | nameOrigin meaning: sizzle, centipede; eggGroups null |
+| 851 | Centiskorch | nameOrigin meaning: centipede, scorch; eggGroups null |
+| 852 | Clobbopus | nameOrigin meaning: clobber; eggGroups null |
+| 853 | Grapploct | nameOrigin meaning: grapple; eggGroups null |
+| 854 | Sinistea | nameOrigin meaning: sinister, tea; eggGroups null |
+| 855 | Polteageist | eggGroups null |
+| 856 | Hatenna | nameOrigin meaning: hat; eggGroups null |
+| 857 | Hattrem | nameOrigin meaning: hat; eggGroups null |
+| 858 | Hatterene | nameOrigin meaning: hat, serene; eggGroups null |
+| 859 | Impidimp | eggGroups null |
+| 860 | Morgrem | nameOrigin meaning: morgue, gremlin; eggGroups null |
+| 861 | Grimmsnarl | nameOrigin meaning: grim, snarl; eggGroups null |
+| 862 | Obstagoon | eggGroups null |
+| 863 | Perrserker | pokedexEntries games: sv; eggGroups null |
+| 864 | Cursola | nameOrigin meaning: curse, solar; eggGroups null |
+| 865 | Sirfetch'd | eggGroups null |
+| 866 | Mr. Rime | eggGroups null |
+| 867 | Runerigus | nameOrigin meaning: rune, egregious; eggGroups null |
+| 868 | Milcery | eggGroups null |
+| 869 | Alcremie | eggGroups null |
+| 870 | Falinks | eggGroups null |
+| 871 | Pincurchin | nameOrigin meaning: pin cushion, sea urchin; eggGroups null |
+| 872 | Snom | eggGroups null |
+| 873 | Frosmoth | eggGroups null |
+| 874 | Stonjourner | eggGroups null |
+| 875 | Eiscue | eggGroups null |
+| 876 | Indeedee | nameOrigin meaning: indeed; eggGroups null |
+| 877 | Morpeko | eggGroups null |
+| 878 | Cufant | eggGroups null |
+| 879 | Copperajah | eggGroups null |
+| 880 | Dracozolt | eggGroups null |
+| 881 | Arctozolt | eggGroups null |
+| 882 | Dracovish | eggGroups null |
+| 883 | Arctovish | eggGroups null |
+| 884 | Duraludon | eggGroups null |
+| 885 | Dreepy | nameOrigin meaning: dragon, creepy; eggGroups null |
+| 886 | Drakloak | nameOrigin meaning: dragon, cloak; eggGroups null |
+| 887 | Dragapult | nameOrigin meaning: dragon, catapult; eggGroups null |
+| 888 | Zacian | pokedexEntries games: sv; eggGroups null |
+| 889 | Zamazenta | pokedexEntries games: sv; eggGroups null |
+| 890 | Eternatus | nameOrigin meaning: eternal; pokedexEntries games: sv; eggGroups null; evs |
+| 891 | Kubfu | nameOrigin; eggGroups null |
+| 892 | Urshifu | nameOrigin; pokedexEntries games: sv; eggGroups null |
+| 893 | Zarude | nameOrigin; pokedexEntries games: sv; eggGroups null |
+| 894 | Regieleki | nameOrigin; pokedexEntries games: sv; eggGroups null |
+| 895 | Regidrago | nameOrigin; pokedexEntries games: sv; eggGroups null; evs |
+| 896 | Glastrier | nameOrigin; eggGroups null |
+| 897 | Spectrier | nameOrigin; eggGroups null |
+| 898 | Calyrex | nameOrigin; pokedexEntries games: sv; eggGroups null; evs |
+| 899 | Wyrdeer | pokedexEntries games: sv; eggGroups null; evs; species; catchRate; baseFriendship; eggCycles |
+| 900 | Kleavor | eggGroups null; evs; species; catchRate; baseFriendship; eggCycles |
+| 901 | Ursaluna | eggGroups null; evs; species; catchRate; baseFriendship; eggCycles |
+| 902 | Basculegion | eggGroups null; evs; species; catchRate; baseFriendship; eggCycles |
+| 903 | Sneasler | pokedexEntries games: sv; eggGroups null; evs; species; catchRate; baseFriendship; eggCycles |
+| 904 | Overqwil | eggGroups null; evs; species; catchRate; baseFriendship; eggCycles |
+| 905 | Enamorus | pokedexEntries games: sv; eggGroups null; evs; species; catchRate; baseFriendship; eggCycles |
+| 906 | Sprigatito | eggGroups null; evs |
+| 907 | Floragato | eggGroups null; evs |
+| 908 | Meowscarada | eggGroups null; evs |
+| 909 | Fuecoco | eggGroups null; evs |
+| 910 | Crocalor | eggGroups null; evs |
+| 911 | Skeledirge | eggGroups null; evs |
+| 912 | Quaxly | eggGroups null; evs |
+| 913 | Quaxwell | eggGroups null; evs |
+| 914 | Quaquaval | eggGroups null; evs |
+| 915 | Lechonk | eggGroups null; evs |
 | 916 | Oinkologne | evs |
-| 917 | Tarountula | evs |
-| 918 | Spidops | evs |
-| 919 | Nymble | evs |
-| 920 | Lokix | evs |
-| 921 | Pawmi | evs |
-| 922 | Pawmo | evs |
-| 923 | Pawmot | evs |
-| 924 | Tandemaus | evs |
-| 926 | Fidough | evs |
-| 927 | Dachsbun | evs |
-| 928 | Smoliv | evs |
-| 929 | Dolliv | evs |
-| 930 | Arboliva | evs |
-| 931 | Squawkabilly | evs |
-| 932 | Nacli | evs |
-| 933 | Naclstack | evs |
-| 934 | Garganacl | evs |
-| 935 | Charcadet | evs |
-| 936 | Armarouge | evs |
-| 937 | Ceruledge | evs |
-| 938 | Tadbulb | evs |
-| 939 | Bellibolt | evs |
-| 940 | Wattrel | evs |
-| 941 | Kilowattrel | evs |
-| 942 | Maschiff | evs |
-| 943 | Mabosstiff | evs |
-| 944 | Shroodle | evs |
-| 945 | Grafaiai | evs |
-| 946 | Bramblin | evs |
-| 947 | Brambleghast | evs |
-| 948 | Toedscool | evs |
-| 949 | Toedscruel | evs |
-| 950 | Klawf | evs |
-| 951 | Capsakid | evs |
-| 952 | Scovillain | evs |
-| 953 | Rellor | evs |
-| 954 | Rabsca | evs |
-| 955 | Flittle | evs |
-| 956 | Espathra | evs |
-| 957 | Tinkatink | evs |
-| 958 | Tinkatuff | evs |
-| 959 | Tinkaton | evs |
-| 960 | Wiglett | evs |
-| 961 | Wugtrio | evs |
-| 962 | Bombirdier | evs |
-| 963 | Finizen | evs |
-| 965 | Varoom | evs |
-| 966 | Revavroom | evs |
-| 967 | Cyclizar | evs |
-| 968 | Orthworm | evs |
-| 969 | Glimmet | evs |
-| 970 | Glimmora | evs |
-| 971 | Greavard | evs |
-| 972 | Houndstone | evs |
-| 973 | Flamigo | evs |
-| 974 | Cetoddle | evs |
-| 975 | Cetitan | evs |
-| 976 | Veluza | evs |
-| 977 | Dondozo | evs |
-| 979 | Annihilape | evs |
-| 980 | Clodsire | evs |
-| 981 | Farigiraf | evs |
-| 982 | Dudunsparce | evs |
-| 983 | Kingambit | evs |
-| 984 | Great-Tusk | evs |
-| 985 | Scream-Tail | evs |
-| 986 | Brute-Bonnet | evs |
-| 987 | Flutter-Mane | evs |
-| 988 | Slither-Wing | evs |
-| 989 | Sandy-Shocks | evs |
-| 990 | Iron-Treads | evs |
-| 991 | Iron-Bundle | evs |
-| 992 | Iron-Hands | evs |
-| 993 | Iron-Jugulis | evs |
-| 994 | Iron-Moth | evs |
-| 995 | Iron-Thorns | evs |
-| 996 | Frigibax | evs |
-| 997 | Arctibax | evs |
-| 998 | Baxcalibur | evs |
-| 1000 | Gholdengo | evs |
-| 1001 | Wo-Chien | evs |
-| 1002 | Chien-Pao | evs |
-| 1003 | Ting-Lu | evs |
-| 1004 | Chi-Yu | evs |
-| 1005 | Roaring-Moon | evs |
-| 1006 | Iron-Valiant | evs |
-| 1007 | Koraidon | evs |
-| 1008 | Miraidon | evs |
-| 1009 | Walking Wake | evs |
-| 1010 | Iron Leaves | evs |
-| 1011 | Dipplin | eggGroups; species |
-| 1012 | Poltchageist | eggGroups |
-| 1013 | Sinistcha | eggGroups |
-| 1014 | Okidogi | eggGroups |
-| 1015 | Munkidori | eggGroups |
-| 1016 | Fezandipiti | eggGroups |
-| 1017 | Ogerpon | eggGroups |
-| 1019 | Hydrapple | species |
+| 917 | Tarountula | eggGroups null; evs |
+| 918 | Spidops | eggGroups null; evs |
+| 919 | Nymble | eggGroups null; evs |
+| 920 | Lokix | eggGroups null; evs |
+| 921 | Pawmi | eggGroups null; evs |
+| 922 | Pawmo | eggGroups null; evs |
+| 923 | Pawmot | eggGroups null; evs |
+| 924 | Tandemaus | eggGroups null; evs |
+| 926 | Fidough | eggGroups null; evs |
+| 927 | Dachsbun | eggGroups null; evs |
+| 928 | Smoliv | eggGroups null; evs |
+| 929 | Dolliv | eggGroups null; evs |
+| 930 | Arboliva | eggGroups null; evs |
+| 931 | Squawkabilly | eggGroups null; evs |
+| 932 | Nacli | eggGroups null; evs |
+| 933 | Naclstack | eggGroups null; evs |
+| 934 | Garganacl | eggGroups null; evs |
+| 935 | Charcadet | eggGroups null; evs |
+| 936 | Armarouge | eggGroups null; evs |
+| 937 | Ceruledge | eggGroups null; evs |
+| 938 | Tadbulb | eggGroups null; evs |
+| 939 | Bellibolt | eggGroups null; evs |
+| 940 | Wattrel | eggGroups null; evs |
+| 941 | Kilowattrel | eggGroups null; evs |
+| 942 | Maschiff | eggGroups null; evs |
+| 943 | Mabosstiff | eggGroups null; evs |
+| 944 | Shroodle | eggGroups null; evs |
+| 945 | Grafaiai | eggGroups null; evs |
+| 946 | Bramblin | eggGroups null; evs |
+| 947 | Brambleghast | eggGroups null; evs |
+| 948 | Toedscool | eggGroups null; evs |
+| 949 | Toedscruel | eggGroups null; evs |
+| 950 | Klawf | eggGroups null; evs |

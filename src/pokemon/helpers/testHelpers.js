@@ -57,12 +57,40 @@ function findGenderlessWithRatio(entries) {
         .map((entry) => entry._id);
 }
 
+function findEmptyEvs(entries) {
+    return entries
+        .filter(({ evs }) => !evs || Object.keys(evs).length === 0)
+        .map((entry) => entry._id);
+}
+
+function findEmptyEggGroups(entries) {
+    return entries
+        .filter(({ eggGroups }) => !eggGroups || eggGroups.length === 0)
+        .map((entry) => entry._id);
+}
+
+function findNullEggGroups(entries) {
+    return entries
+        .filter(({ eggGroups }) => eggGroups?.includes(null))
+        .map((entry) => entry._id);
+}
+
+function findBlankSpecies(entries) {
+    return entries
+        .filter(({ species }) => species === null || species === "")
+        .map((entry) => entry._id);
+}
+
 export {
+    findBlankSpecies,
     findDuplicates,
+    findEmptyEggGroups,
+    findEmptyEvs,
     findGenderedNotSummingTo100,
     findGenderedWithNullRatio,
     findGenderlessWithRatio,
     findMissingIds,
+    findNullEggGroups,
     listJsonFileNames,
     toKey,
 };

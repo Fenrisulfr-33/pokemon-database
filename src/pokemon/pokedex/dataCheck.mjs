@@ -10,9 +10,20 @@ import {
 
 const POKEDEX_DIR = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = path.join(POKEDEX_DIR, "DATA_CHECK.md");
-const NO_ENTRY_LISTS = [
-    { file: "DYNAMAX_ADVENTURES.md", games: ["sw", "sh"] },
-    { file: "SNACKSWORTH_LEGENDARIES.md", games: ["sc", "vi"] },
+const ACQUISITION_DIR = path.join(POKEDEX_DIR, "dexes", "acquisition");
+const DEXES_DIR = path.join(POKEDEX_DIR, "dexes", "dexes_objects");
+
+const DEX_FILES_BY_GAME_GROUP = [
+    [["su", "mo"], ["14-sun-moon-alola.json"]],
+    [["us", "um"], ["19-ultra-sun-ultra-moon-alola.json"]],
+    [["sw", "sh"], [
+        "25-sword-shield.json", "26-isle-of-armor.json",
+        "27-crown-tundra.json",
+    ]],
+    [["sc", "vi"], [
+        "29-scarlet-violet.json", "30-teal-mask.json",
+        "31-indigo-disk.json",
+    ]],
 ];
 
 const GAMES_BY_LEARNSET_KEY = {
@@ -44,21 +55,34 @@ function isEmpty(value) {
     return false;
 }
 
-function readListedIds(fileName) {
-    const rowPattern = /^\| (\d+) \|/;
-    return fs.readFileSync(path.join(POKEDEX_DIR, "dexes", fileName), "utf8")
-        .split("\n")
-        .map((line) => line.match(rowPattern))
-        .filter(Boolean)
-        .map((match) => Number(match[1]));
+function readDexIds(fileNames) {
+    const dexIds = fileNames.flatMap((fileName) => {
+        const filePath = path.join(DEXES_DIR, fileName);
+        const dex = JSON.parse(fs.readFileSync(filePath, "utf8"));
+        return dex.map(({ pokemonId }) => pokemonId);
+    });
+    return new Set(dexIds);
+}
+
+function readDexIdsByGame() {
+    const dexIdsByGame = new Map();
+    for (const [games, fileNames] of DEX_FILES_BY_GAME_GROUP) {
+        const dexIds = readDexIds(fileNames);
+        games.forEach((game) => dexIdsByGame.set(game, dexIds));
+    }
+    return dexIdsByGame;
 }
 
 function readNoEntryGames() {
+    const dexIdsByGame = readDexIdsByGame();
     const noEntryGamesById = new Map();
-    for (const { file, games } of NO_ENTRY_LISTS) {
-        for (const pokemonId of readListedIds(file)) {
+    for (const { games, pokemon } of readJsonDir(ACQUISITION_DIR)) {
+        for (const pokemonId of pokemon) {
+            const outsideDex = games.filter(
+                (game) => !dexIdsByGame.get(game)?.has(pokemonId)
+            );
             const listed = noEntryGamesById.get(pokemonId) ?? [];
-            noEntryGamesById.set(pokemonId, [...listed, ...games]);
+            noEntryGamesById.set(pokemonId, [...listed, ...outsideDex]);
         }
     }
     return noEntryGamesById;
@@ -96,6 +120,7 @@ function listMissing(pokemon, learnset, noEntryGamesById) {
     if (isEmpty(pokemon.pokedexEntries)) missing.push("pokedexEntries");
     const games = describeMissingGames(learnset, pokemon, noEntryGamesById);
     if (games.length) missing.push(`pokedexEntries games: ${games.join(", ")}`);
+    if (pokemon.eggGroups?.includes(null)) missing.push("eggGroups null");
     const fields = OTHER_FIELDS.filter((field) => isEmpty(pokemon[field]));
     return [...missing, ...fields];
 }
@@ -124,7 +149,7 @@ function countBy(rows, label) {
 function renderSummary(rows, pokedex) {
     const labels = [
         "nameOrigin", "nameOrigin meaning", "pokedexEntries",
-        "pokedexEntries games", ...OTHER_FIELDS,
+        "pokedexEntries games", "eggGroups null", ...OTHER_FIELDS,
     ];
     const noKorean = pokedex.filter((pokemon) => isEmpty(pokemon.name.korean));
     const lines = labels.map(
@@ -152,9 +177,10 @@ Don't edit by hand; fix the entry files and run it again.
   empty meaning.
 - **pokedexEntries games**: games in the pokemon's learnset with no
   entry, as \`KEYS.md\` keys. A group key (\`swsh\`) means both games
-  are missing. Pokemon in \`dexes/DYNAMAX_ADVENTURES.md\` (\`sw\` /
-  \`sh\`) and \`dexes/SNACKSWORTH_LEGENDARIES.md\` (\`sc\` / \`vi\`)
-  aren't checked for those games: they have no entry in them.
+  are missing. Pokemon in a \`dexes/acquisition\` list aren't checked
+  for that list's \`games\`, unless they're in that game's dex in
+  \`dexes/dexes_objects\`: a pokemon in the dex needs an entry.
+- **eggGroups null**: \`eggGroups\` has a \`null\` in it.
 - \`name.korean\` is only in the summary: it's missing for most pokemon.
 - \`gender\`, \`abilities.hidden\` and \`evolution\` can be null on
   purpose, so they aren't checked.

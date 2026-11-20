@@ -1,9 +1,13 @@
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import { POKEDEX_ENTRIES_DIR } from "#helpers/paths.js";
 import {
+    findBlankSpecies,
+    findEmptyEggGroups,
+    findEmptyEvs,
     findGenderedNotSummingTo100,
     findGenderedWithNullRatio,
     findGenderlessWithRatio,
+    findNullEggGroups,
 } from "#helpers/testHelpers.js";
 
 const pokedexEntries = readJsonDir(POKEDEX_ENTRIES_DIR);
@@ -19,6 +23,24 @@ describe("pokedex gender", () => {
 
     test("genderless pokemon have null male and female", () => {
         expect(findGenderlessWithRatio(pokedexEntries)).toEqual([]);
+    });
+});
+
+describe("pokedex required data", () => {
+    test("evs is not empty", () => {
+        expect(findEmptyEvs(pokedexEntries)).toEqual([]);
+    });
+
+    test("eggGroups is not empty", () => {
+        expect(findEmptyEggGroups(pokedexEntries)).toEqual([]);
+    });
+
+    test("eggGroups contains no null", () => {
+        expect(findNullEggGroups(pokedexEntries)).toEqual([]);
+    });
+
+    test("species is not null or empty", () => {
+        expect(findBlankSpecies(pokedexEntries)).toEqual([]);
     });
 });
 

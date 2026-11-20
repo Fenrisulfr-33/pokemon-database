@@ -52,3 +52,16 @@ TODO: Once dexes_objects has been verified, combine dexes that are exactly the s
    - TODO: Triple verify the numbered lists dexes. Then append code to `transformDexNumToDexObj.js` to only add new dexes.
    - TODO: Should I reformat the key indicator to be `_id` for the core sorting of the list, and then that way the save file can always sort by that lists key `_id` of the respective list.
 
+
+4. `acquisition/` holds lists of pokemon that are in a game but are only
+   obtained one way, so they have no `pokedexEntries` for that game. The
+   data check skips them for those games.
+
+```json
+{
+    "method": "transfer",
+    "games": ["us", "um"],
+    "description": "Pokemon only obtainable by transferring through ...",
+    "pokemon": [29, 30, 31]
+}
+```

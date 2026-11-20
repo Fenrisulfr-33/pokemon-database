@@ -61,7 +61,13 @@ some line-ending hyphens may belong to the text.
 
 ## Failing tests
 
-5 of 13 test suites fail (`npm test`):
+6 of 13 test suites fail (`npm test`):
+
+- `pokedex/pokedex.test.js`, 3 of 8 tests ("pokedex required data"):
+  - evs is not empty: 138 entries have `evs: {}` (e.g. 163
+    Hoothoot, most of 899-950).
+  - eggGroups contains no null: 139 entries, mostly 810-950.
+  - species is not null or empty: 899-905.
 
 - `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"
   above):
@@ -102,6 +108,13 @@ Terastallized Ogerpon forms that have it aren't in `forms/`.
 
 `forms/paldean/128.03-paldea-aqua-breed-tauros.json` has its
 `pokedexEntries` under "Blaze Breed".
+
+## Lugia in the Indigo Disk dex
+
+`dexes/dexes_objects/31-indigo-disk.json` has Lugia (249) at `dexNo`
+13. Lugia is a Snacksworth legendary with no `sc` / `vi` entry, so it
+probably doesn't belong in that dex. Because it's there, the data check
+flags Lugia as missing `sv` entries.
 
 ## Form files (`src/pokemon/forms`)
 
