@@ -30,10 +30,10 @@ Don't edit by hand; fix the entry files and run it again.
 | evs | 0 |
 | growthRate | 0 |
 | eggGroups | 0 |
-| species | 6 |
-| catchRate | 6 |
-| baseFriendship | 6 |
-| eggCycles | 6 |
+| species | 0 |
+| catchRate | 0 |
+| baseFriendship | 0 |
+| eggCycles | 0 |
 | name.korean | 1025 |
 
 ## By pokemon
@@ -102,9 +102,3 @@ Don't edit by hand; fix the entry files and run it again.
 | 896 | Glastrier | nameOrigin |
 | 897 | Spectrier | nameOrigin |
 | 898 | Calyrex | nameOrigin |
-| 900 | Kleavor | species; catchRate; baseFriendship; eggCycles |
-| 901 | Ursaluna | species; catchRate; baseFriendship; eggCycles |
-| 902 | Basculegion | species; catchRate; baseFriendship; eggCycles |
-| 903 | Sneasler | species; catchRate; baseFriendship; eggCycles |
-| 904 | Overqwil | species; catchRate; baseFriendship; eggCycles |
-| 905 | Enamorus | species; catchRate; baseFriendship; eggCycles |

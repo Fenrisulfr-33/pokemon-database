@@ -75,8 +75,7 @@ some line-ending hyphens may belong to the text.
 
 5 of 14 test suites fail (`npm test`):
 
-- `pokedex/pokedex.test.js`, 3 of 10 tests:
-  - species is not null or empty: 899-905.
+- `pokedex/pokedex.test.js`, 2 of 10 tests:
   - the two "pokedex entries by game" tests (see "Pokedex entries games
     that can't be filled" below).
 
