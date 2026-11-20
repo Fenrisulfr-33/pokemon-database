@@ -110,15 +110,7 @@ Terastallized Ogerpon forms that have it aren't in `forms/`.
 ## Pokedex entries filed under the wrong form
 
 `forms/paldean/128.03-paldea-aqua-breed-tauros.json` has its
-`pokedexEntries` under "Blaze Breed".
-
-## Lugia in the Indigo Disk dex
-
-`dexes/dexes_objects/31-indigo-disk.json` has Lugia (249) at `dexNo`
-13. Lugia is a Snacksworth legendary with no `sc` / `vi` entry, so it
-probably doesn't belong in that dex. Because it's there, the data check
-flags Lugia as missing `sv` entries.
-## Form files (`src/pokemon/forms`)
+`pokedexEntries` under "Blaze Breed".## Form files (`src/pokemon/forms`)
 
 Rebuilt from PokeAPI on 2026-11-12. Problems found:
 

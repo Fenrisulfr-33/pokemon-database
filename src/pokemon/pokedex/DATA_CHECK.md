@@ -22,7 +22,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 87 |
+| pokedexEntries games | 48 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
@@ -39,14 +39,11 @@ Don't edit by hand; fix the entry files and run it again.
 | ---: | --- | --- |
 | 100 | Voltorb | pokedexEntries games: usum, la |
 | 101 | Electrode | pokedexEntries games: usum, la |
-| 150 | Mewtwo | pokedexEntries games: sv |
-| 151 | Mew | pokedexEntries games: sv |
 | 157 | Typhlosion | pokedexEntries games: la |
 | 193 | Yanma | pokedexEntries games: usum |
 | 194 | Wooper | pokedexEntries games: usum |
 | 211 | Qwilfish | pokedexEntries games: la |
 | 218 | Slugma | pokedexEntries games: usum |
-| 249 | Lugia | pokedexEntries games: sv |
 | 270 | Lotad | pokedexEntries games: usum |
 | 272 | Ludicolo | pokedexEntries games: usum |
 | 273 | Seedot | pokedexEntries games: usum |
@@ -55,12 +52,7 @@ Don't edit by hand; fix the entry files and run it again.
 | 307 | Meditite | pokedexEntries games: usum |
 | 325 | Spoink | pokedexEntries games: usum |
 | 333 | Swablu | pokedexEntries games: usum |
-| 377 | Regirock | pokedexEntries games: sv |
-| 378 | Regice | pokedexEntries games: sv |
-| 379 | Registeel | pokedexEntries games: sv |
 | 381 | Latios | pokedexEntries games: swsh |
-| 385 | Jirachi | pokedexEntries games: sv |
-| 386 | Deoxys | pokedexEntries games: sv |
 | 418 | Buizel | pokedexEntries games: usum |
 | 421 | Cherrim | pokedexEntries games: swsh |
 | 422 | Shellos | pokedexEntries games: swsh |
@@ -68,20 +60,6 @@ Don't edit by hand; fix the entry files and run it again.
 | 449 | Hippopotas | pokedexEntries games: usum |
 | 451 | Skorupi | pokedexEntries games: usum |
 | 459 | Snover | pokedexEntries games: usum |
-| 480 | Uxie | pokedexEntries games: sv |
-| 481 | Mesprit | pokedexEntries games: sv |
-| 482 | Azelf | pokedexEntries games: sv |
-| 483 | Dialga | pokedexEntries games: sv |
-| 484 | Palkia | pokedexEntries games: sv |
-| 485 | Heatran | pokedexEntries games: sv |
-| 486 | Regigigas | pokedexEntries games: sv |
-| 487 | Giratina | pokedexEntries games: sv |
-| 488 | Cresselia | pokedexEntries games: sv |
-| 489 | Phione | pokedexEntries games: sv |
-| 490 | Manaphy | pokedexEntries games: sv |
-| 491 | Darkrai | pokedexEntries games: sv |
-| 492 | Shaymin | pokedexEntries games: sv |
-| 493 | Arceus | pokedexEntries games: sv |
 | 494 | Victini | pokedexEntries games: swsh |
 | 503 | Samurott | pokedexEntries games: la |
 | 549 | Lilligant | pokedexEntries games: la |
@@ -91,10 +69,6 @@ Don't edit by hand; fix the entry files and run it again.
 | 571 | Zoroark | pokedexEntries games: la |
 | 580 | Ducklett | pokedexEntries games: usum |
 | 628 | Braviary | pokedexEntries games: la |
-| 641 | Tornadus | pokedexEntries games: sv |
-| 642 | Thundurus | pokedexEntries games: sv |
-| 645 | Landorus | pokedexEntries games: sv |
-| 647 | Keldeo | pokedexEntries games: sv |
 | 648 | Meloetta | pokedexEntries games: sv |
 | 649 | Genesect | pokedexEntries games: swsh |
 | 658 | Greninja | pokedexEntries games: sv, za |
@@ -103,13 +77,10 @@ Don't edit by hand; fix the entry files and run it again.
 | 705 | Sliggoo | pokedexEntries games: la |
 | 706 | Goodra | pokedexEntries games: la |
 | 713 | Avalugg | pokedexEntries games: la |
-| 719 | Diancie | pokedexEntries games: swsh, sv |
-| 720 | Hoopa | pokedexEntries games: sv |
-| 721 | Volcanion | pokedexEntries games: swsh, sv |
+| 719 | Diancie | pokedexEntries games: swsh |
+| 721 | Volcanion | pokedexEntries games: swsh |
 | 724 | Decidueye | pokedexEntries games: la |
-| 789 | Cosmog | pokedexEntries games: sv |
-| 790 | Cosmoem | pokedexEntries games: sv |
-| 801 | Magearna | pokedexEntries games: swsh, sv |
+| 801 | Magearna | pokedexEntries games: swsh |
 | 803 | Poipole | pokedexEntries games: swsh |
 | 804 | Naganadel | pokedexEntries games: swsh |
 | 811 | Thwackey | nameOrigin meaning: thwack |
@@ -152,21 +123,19 @@ Don't edit by hand; fix the entry files and run it again.
 | 885 | Dreepy | nameOrigin meaning: dragon, creepy |
 | 886 | Drakloak | nameOrigin meaning: dragon, cloak |
 | 887 | Dragapult | nameOrigin meaning: dragon, catapult |
-| 888 | Zacian | pokedexEntries games: sv |
-| 889 | Zamazenta | pokedexEntries games: sv |
-| 890 | Eternatus | nameOrigin meaning: eternal; pokedexEntries games: sv |
+| 890 | Eternatus | nameOrigin meaning: eternal |
 | 891 | Kubfu | nameOrigin |
 | 892 | Urshifu | nameOrigin; pokedexEntries games: sv |
-| 893 | Zarude | nameOrigin; pokedexEntries games: sv |
-| 894 | Regieleki | nameOrigin; pokedexEntries games: sv |
-| 895 | Regidrago | nameOrigin; pokedexEntries games: sv |
+| 893 | Zarude | nameOrigin |
+| 894 | Regieleki | nameOrigin |
+| 895 | Regidrago | nameOrigin |
 | 896 | Glastrier | nameOrigin |
 | 897 | Spectrier | nameOrigin |
-| 898 | Calyrex | nameOrigin; pokedexEntries games: sv |
-| 899 | Wyrdeer | pokedexEntries games: sv; species; catchRate; baseFriendship; eggCycles |
+| 898 | Calyrex | nameOrigin |
+| 899 | Wyrdeer | species; catchRate; baseFriendship; eggCycles |
 | 900 | Kleavor | species; catchRate; baseFriendship; eggCycles |
 | 901 | Ursaluna | species; catchRate; baseFriendship; eggCycles |
 | 902 | Basculegion | species; catchRate; baseFriendship; eggCycles |
-| 903 | Sneasler | pokedexEntries games: sv; species; catchRate; baseFriendship; eggCycles |
+| 903 | Sneasler | species; catchRate; baseFriendship; eggCycles |
 | 904 | Overqwil | species; catchRate; baseFriendship; eggCycles |
-| 905 | Enamorus | pokedexEntries games: sv; species; catchRate; baseFriendship; eggCycles |
+| 905 | Enamorus | species; catchRate; baseFriendship; eggCycles |
