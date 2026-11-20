@@ -21,11 +21,11 @@ Don't edit by hand; fix the entry files and run it again.
 
 | Missing | Pokemon |
 | --- | ---: |
-| nameOrigin | 8 |
-| nameOrigin meaning | 40 |
+| nameOrigin | 0 |
+| nameOrigin meaning | 27 |
 | pokedexEntries | 0 |
 | dex games | 5 |
-| learnset games | 13 |
+| learnset games | 11 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
@@ -80,25 +80,3 @@ Don't edit by hand; fix the entry files and run it again.
 | 852 | Clobbopus | nameOrigin meaning: clobber |
 | 853 | Grapploct | nameOrigin meaning: grapple |
 | 854 | Sinistea | nameOrigin meaning: sinister, tea |
-| 856 | Hatenna | nameOrigin meaning: hat |
-| 857 | Hattrem | nameOrigin meaning: hat |
-| 858 | Hatterene | nameOrigin meaning: hat, serene |
-| 860 | Morgrem | nameOrigin meaning: morgue, gremlin |
-| 861 | Grimmsnarl | nameOrigin meaning: grim, snarl |
-| 863 | Perrserker | learnset games: sv |
-| 864 | Cursola | nameOrigin meaning: curse, solar |
-| 867 | Runerigus | nameOrigin meaning: rune, egregious |
-| 871 | Pincurchin | nameOrigin meaning: pin cushion, sea urchin |
-| 876 | Indeedee | nameOrigin meaning: indeed |
-| 885 | Dreepy | nameOrigin meaning: dragon, creepy |
-| 886 | Drakloak | nameOrigin meaning: dragon, cloak |
-| 887 | Dragapult | nameOrigin meaning: dragon, catapult |
-| 890 | Eternatus | nameOrigin meaning: eternal |
-| 891 | Kubfu | nameOrigin |
-| 892 | Urshifu | nameOrigin; learnset games: sv |
-| 893 | Zarude | nameOrigin |
-| 894 | Regieleki | nameOrigin |
-| 895 | Regidrago | nameOrigin |
-| 896 | Glastrier | nameOrigin |
-| 897 | Spectrier | nameOrigin |
-| 898 | Calyrex | nameOrigin |
