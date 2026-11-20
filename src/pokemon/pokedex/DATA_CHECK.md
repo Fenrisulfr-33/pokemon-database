@@ -22,7 +22,7 @@ Don't edit by hand; fix the entry files and run it again.
 | nameOrigin | 8 |
 | nameOrigin meaning | 40 |
 | pokedexEntries | 0 |
-| pokedexEntries games | 29 |
+| pokedexEntries games | 15 |
 | eggGroups null | 0 |
 | evs | 0 |
 | growthRate | 0 |
@@ -37,30 +37,16 @@ Don't edit by hand; fix the entry files and run it again.
 
 | _id | Name | Missing |
 | ---: | --- | --- |
-| 100 | Voltorb | pokedexEntries games: la |
-| 101 | Electrode | pokedexEntries games: la |
-| 157 | Typhlosion | pokedexEntries games: la |
-| 211 | Qwilfish | pokedexEntries games: la |
 | 381 | Latios | pokedexEntries games: swsh |
 | 421 | Cherrim | pokedexEntries games: swsh |
 | 422 | Shellos | pokedexEntries games: swsh |
 | 423 | Gastrodon | pokedexEntries games: swsh |
 | 494 | Victini | pokedexEntries games: swsh |
-| 503 | Samurott | pokedexEntries games: la |
-| 549 | Lilligant | pokedexEntries games: la |
-| 550 | Basculin | pokedexEntries games: la |
-| 570 | Zorua | pokedexEntries games: la |
-| 571 | Zoroark | pokedexEntries games: la |
-| 628 | Braviary | pokedexEntries games: la |
 | 648 | Meloetta | pokedexEntries games: sv |
 | 649 | Genesect | pokedexEntries games: swsh |
 | 658 | Greninja | pokedexEntries games: sv, za |
-| 705 | Sliggoo | pokedexEntries games: la |
-| 706 | Goodra | pokedexEntries games: la |
-| 713 | Avalugg | pokedexEntries games: la |
 | 719 | Diancie | pokedexEntries games: swsh |
 | 721 | Volcanion | pokedexEntries games: swsh |
-| 724 | Decidueye | pokedexEntries games: la |
 | 801 | Magearna | pokedexEntries games: swsh |
 | 803 | Poipole | pokedexEntries games: swsh |
 | 804 | Naganadel | pokedexEntries games: swsh |
