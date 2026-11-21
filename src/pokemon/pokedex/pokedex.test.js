@@ -1,5 +1,7 @@
 import readJsonDir from "#genericFunctions/files/readJsonDir.js";
 import {
+    ABILITIES_ENTRIES_DIR,
+    EVOLUTIONS_ENTRIES_DIR,
     LEARNSETS_ENTRIES_DIR,
     POKEDEX_ENTRIES_DIR,
 } from "#helpers/paths.js";
@@ -8,6 +10,22 @@ import {
     findLearnsetGamesWithoutAcquisition,
 } from "#pokedex/entryCoverage.mjs";
 import {
+    findEvolutionsOutOfRange,
+    findInvalidEvolutionValues,
+    findMissingEvolutions,
+    findPokemonMissingFromChain,
+} from "#pokedex/evolutionChecks.mjs";
+import {
+    findDuplicateTypes,
+    findEvsOutOfRange,
+    findInvalidEvKeys,
+    findInvalidTypes,
+    findMissingAbilities,
+    findUnknownAbilities,
+    findWrongAbilityCount,
+    findWrongTypeCount,
+} from "#pokedex/fieldChecks.mjs";
+import {
     findBlankSpecies,
     findEmptyEggGroups,
     findEmptyEvs,
@@ -15,6 +33,7 @@ import {
     findGenderedNotSummingTo100,
     findGenderedWithNullRatio,
     findGenderlessWithRatio,
+    findMisnamedFiles,
     findNameOriginBlankMeanings,
     findNullEggGroups,
 } from "#helpers/testHelpers.js";
@@ -35,32 +54,52 @@ describe("pokedex gender", () => {
     });
 });
 
-// pokedex evs
-	// Test that each pokemon has evs defined
-
-	// test that evs keys are valid
-
-	// test that evs values are between 1-3
-
-// pokedex type 
-	// Test that each pokemon has one or two types
-
-	// Test that each pokemon has valid types (no null or undefined)
-
-	// Test that each pokemon has valid type combinations (no duplicates, correct number of types)
-
-// pokedex abilities
-	// Test that each pokemon has abilities defined
-
-	// Test that each pokemon has valid abilities (no null or undefined)
-
-	// Test that each pokemon has the correct number of abilities (1-3)
-
-describe("pokedex required data", () => {
-    test("evs is not empty", () => {
+describe("pokedex evs", () => {
+    test("every pokemon has evs defined", () => {
         expect(findEmptyEvs(pokedexEntries)).toEqual([]);
     });
 
+    test("evs keys are valid stat names", () => {
+        expect(findInvalidEvKeys(pokedexEntries)).toEqual([]);
+    });
+
+    test("evs values are between 1 and 3", () => {
+        expect(findEvsOutOfRange(pokedexEntries)).toEqual([]);
+    });
+});
+
+describe("pokedex type", () => {
+    test("every pokemon has one or two types", () => {
+        expect(findWrongTypeCount(pokedexEntries)).toEqual([]);
+    });
+
+    test("every type is a valid type name", () => {
+        expect(findInvalidTypes(pokedexEntries)).toEqual([]);
+    });
+
+    test("no pokemon lists the same type twice", () => {
+        expect(findDuplicateTypes(pokedexEntries)).toEqual([]);
+    });
+});
+
+describe("pokedex abilities", () => {
+    test("every pokemon has normal and hidden abilities defined", () => {
+        expect(findMissingAbilities(pokedexEntries)).toEqual([]);
+    });
+
+    test("every ability id exists in abilities entries", () => {
+        const abilityEntries = readJsonDir(ABILITIES_ENTRIES_DIR);
+        expect(
+            findUnknownAbilities(pokedexEntries, abilityEntries)
+        ).toEqual([]);
+    });
+
+    test("every pokemon has between 1 and 3 abilities", () => {
+        expect(findWrongAbilityCount(pokedexEntries)).toEqual([]);
+    });
+});
+
+describe("pokedex required data", () => {
     test("eggGroups is not empty", () => {
         expect(findEmptyEggGroups(pokedexEntries)).toEqual([]);
     });
@@ -107,20 +146,37 @@ describe("pokedex entries by game", () => {
         });
 });
 
-// Test that the amount of files in the entries folder is equal to 1025
-// TODO: remove forms from entries, we will make an upsert forms function
 test('Pokedex Length', () => {
   expect(pokedexEntries.length).toBe(1025);
 });
 
-// TODO: Test the files match the schema, and that the files have the right keys
-// test('Pokedex models have all keys', () => {
-//   expect(pokedex).toHaveLength(1093);
-// });
+test("file names follow {_id}-{key}.json", () => {
+    const buildFileName = (entry) => `${entry._id}-${entry.key}.json`;
+    expect(findMisnamedFiles(POKEDEX_ENTRIES_DIR, buildFileName)).toEqual([]);
+});
 
-// TODO: Test that files match the _id key values inside the associated file
+describe("pokedex evolution", () => {
+    const evolutionEntries = readJsonDir(EVOLUTIONS_ENTRIES_DIR);
 
-// TODO: Test for evolution keys match the evolution keys in the evolution file, 
-// and that the evolution file has all the right keys
+    test("evolution is an integer or null", () => {
+        expect(findInvalidEvolutionValues(pokedexEntries)).toEqual([]);
+    });
 
-// TODO: Make a test to make sure every pokemon ability has the right key.
+    test("evolution is within the range of evolution ids", () => {
+        expect(
+            findEvolutionsOutOfRange(pokedexEntries, evolutionEntries)
+        ).toEqual([]);
+    });
+
+    test("evolution points to an existing evolution chain", () => {
+        expect(
+            findMissingEvolutions(pokedexEntries, evolutionEntries)
+        ).toEqual([]);
+    });
+
+    test("pokemon is in the evolution chain it points to", () => {
+        expect(
+            findPokemonMissingFromChain(pokedexEntries, evolutionEntries)
+        ).toEqual([]);
+    });
+});

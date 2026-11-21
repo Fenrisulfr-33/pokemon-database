@@ -1,7 +1,9 @@
 # learnsets
 
 The moves each pokemon can learn, by game and learn method. Source:
-`src/pokemon/learnsets/entries/{_id}-{key}.json` (1,092 files).
+`src/pokemon/learnsets/entries/{_id}-{key}.json` (1,092 files), where
+`key` is the pokedex or form entry's `key` (`learnsets.test.js` checks
+this).
 Uploaded by `npm run upsert:learnsets`. Schema:
 `src/pokemon/learnsets/schema.json`, checked with
 `npm run learnsets:validate`.

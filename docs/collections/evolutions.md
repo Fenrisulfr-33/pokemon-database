@@ -2,6 +2,8 @@
 
 One document per evolution chain. Source:
 `src/pokemon/evolutions/entries/{_id}-{firstPokemon}.json` (340 files).
+`_id` is padded to 3 digits and `firstPokemon` is the `key` of the first
+pokemon in `evolution` (`evolutions.test.js` checks this).
 Schema: `src/pokemon/evolutions/schema.json`.
 
 `_id` is a chain number, **not** a pokemon id. Chain `2` is the

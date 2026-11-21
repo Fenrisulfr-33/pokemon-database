@@ -7,6 +7,9 @@ import {
     findGenderedNotSummingTo100,
     findGenderedWithNullRatio,
     findGenderlessWithRatio,
+    findMisnamedFiles,
+    formatEntryId,
+    listFormFolders,
 } from "#helpers/testHelpers.js";
 
 function readFormEntries() {
@@ -30,4 +33,16 @@ describe("forms gender", () => {
     test("genderless forms have null male and female", () => {
         expect(findGenderlessWithRatio(formsWithGender)).toEqual([]);
     });
+});
+
+describe("forms files", () => {
+    const buildFileName = (form) =>
+        `${formatEntryId(form._id)}-${form.key}.json`;
+    const formFolders = listFormFolders()
+        .map((folder) => [path.basename(folder), folder]);
+
+    test.each(formFolders)("%s file names follow {_id}-{key}.json",
+        (folderName, folder) => {
+            expect(findMisnamedFiles(folder, buildFileName)).toEqual([]);
+        });
 });

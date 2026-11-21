@@ -79,7 +79,10 @@ some line-ending hyphens may belong to the text.
 
 ## Failing tests
 
-4 of 15 test suites fail (`npm test`):
+5 of 18 test suites fail (`npm test`):
+
+- `pokedex-numbers/pokedex-numbers.test.js` has no tests yet, so Jest
+  fails the suite ("Your test suite must contain at least one test").
 
 - `moves/moves.test.js`, 2 of 20 tests (see "Move data from PokeAPI"
   above):

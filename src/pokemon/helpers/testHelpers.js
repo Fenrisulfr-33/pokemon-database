@@ -1,10 +1,50 @@
 import fs from "fs";
 import path from "path";
 
+import readJsonDir from "#genericFunctions/files/readJsonDir.js";
+import { FORMS_DIR, POKEDEX_ENTRIES_DIR } from "./paths.js";
+
+/** Holds pokedexEntries waiting for a form file; ids repeat base ids. */
+const FORMS_HOLDING_FOLDER = "needs-pokemon-file";
+
 function listJsonFileNames(directory) {
     return fs
         .readdirSync(directory)
         .filter((fileName) => path.extname(fileName) === ".json");
+}
+
+function formatEntryId(entryId) {
+    return Number.isInteger(entryId) ? String(entryId) : entryId.toFixed(2);
+}
+
+function readJsonFile(filePath) {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function findMisnamedFiles(directory, buildFileName) {
+    return listJsonFileNames(directory)
+        .map((fileName) => ({
+            fileName,
+            expected: buildFileName(
+                readJsonFile(path.join(directory, fileName))
+            ),
+        }))
+        .filter(({ fileName, expected }) => fileName !== expected);
+}
+
+function listFormFolders() {
+    return fs.readdirSync(FORMS_DIR, { withFileTypes: true })
+        .filter((entry) => entry.isDirectory())
+        .filter((folder) => folder.name !== FORMS_HOLDING_FOLDER)
+        .map((folder) => path.join(FORMS_DIR, folder.name));
+}
+
+function buildPokemonKeyById() {
+    const pokemonAndForms = [
+        ...readJsonDir(POKEDEX_ENTRIES_DIR),
+        ...listFormFolders().flatMap(readJsonDir),
+    ];
+    return new Map(pokemonAndForms.map((entry) => [entry._id, entry.key]));
 }
 
 function toKey(englishName) {
@@ -106,6 +146,7 @@ function findNameOriginBlankMeanings(entries) {
 }
 
 export {
+    buildPokemonKeyById,
     findBlankSpecies,
     findEmptyField,
     findNameOriginBlankMeanings,
@@ -115,8 +156,11 @@ export {
     findGenderedNotSummingTo100,
     findGenderedWithNullRatio,
     findGenderlessWithRatio,
+    findMisnamedFiles,
     findMissingIds,
     findNullEggGroups,
+    formatEntryId,
+    listFormFolders,
     listJsonFileNames,
     toKey,
 };

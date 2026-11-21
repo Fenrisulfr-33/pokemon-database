@@ -5,6 +5,10 @@ One document per base pokemon. Source:
 `src/pokemon/pokedex/schema.json`. Forms are in `src/pokemon/forms/` (see
 `src/pokemon/forms/README.md`).
 
+`pokedex/pokedex.test.js` checks that file names match `{_id}-{key}`,
+and that `evolution` is an integer or null that points to an existing
+chain containing the pokemon.
+
 ## Relations
 
 | Field                          | Points to          |
