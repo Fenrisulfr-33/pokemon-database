@@ -37,8 +37,6 @@ website lives in a separate repo).
 	- `npm run form-tabs:validate`
 	- `npm run growth-rate:validate`
 	- `npm run egg-group:validate`
-- Data check: 
-	- `npm run pokedex:data-check` (writes `src/pokemon/pokedex/DATA_CHECK.md`)
 - Lock a verified pokedex field (only when I ask):
 	- `npm run pokedex:lock -- <field>`
 - Rebuild growth-rate `pokemon` arrays:

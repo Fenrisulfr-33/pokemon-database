@@ -81,8 +81,34 @@ function findBlankSpecies(entries) {
         .map((entry) => entry._id);
 }
 
+function isEmpty(value) {
+    if (value === null || value === undefined || value === "") return true;
+    if (Array.isArray(value)) return value.length === 0;
+    if (typeof value === "object") return Object.keys(value).length === 0;
+    return false;
+}
+
+function findEmptyField(entries, field) {
+    return entries
+        .filter((entry) => isEmpty(entry[field]))
+        .map((entry) => entry._id);
+}
+
+function findNameOriginBlankMeanings(entries) {
+    return entries
+        .map(({ _id, nameOrigin = [] }) => ({
+            _id,
+            words: nameOrigin
+                .filter(([, meaning]) => meaning === "")
+                .map(([word]) => word),
+        }))
+        .filter(({ words }) => words.length > 0);
+}
+
 export {
     findBlankSpecies,
+    findEmptyField,
+    findNameOriginBlankMeanings,
     findDuplicates,
     findEmptyEggGroups,
     findEmptyEvs,

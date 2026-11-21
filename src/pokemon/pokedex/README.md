@@ -4,6 +4,10 @@ The pokedex is a list of all base form pokemon by their national dex id. This fo
 
 The `rules` will says what fields have been verified and set to `final`. Then things can only be added for new games but previous things cannot.
 
+## Acquisitions 
+
+In `dexes/acquisition` lives jsons that hold information about pokemon that can be obtained by other means. This can include transferring from bank, home, post-game areas, etc. These lists, if not in any of the associated games dexes, exempt a pokemon from needing a `pokedexEntry` for that associated game.	
+
 ### Locked fields
 
 `locks/locks.json` lists the fields that are verified and locked, with

@@ -11,9 +11,11 @@ import {
     findBlankSpecies,
     findEmptyEggGroups,
     findEmptyEvs,
+    findEmptyField,
     findGenderedNotSummingTo100,
     findGenderedWithNullRatio,
     findGenderlessWithRatio,
+    findNameOriginBlankMeanings,
     findNullEggGroups,
 } from "#helpers/testHelpers.js";
 
@@ -33,6 +35,27 @@ describe("pokedex gender", () => {
     });
 });
 
+// pokedex evs
+	// Test that each pokemon has evs defined
+
+	// test that evs keys are valid
+
+	// test that evs values are between 1-3
+
+// pokedex type 
+	// Test that each pokemon has one or two types
+
+	// Test that each pokemon has valid types (no null or undefined)
+
+	// Test that each pokemon has valid type combinations (no duplicates, correct number of types)
+
+// pokedex abilities
+	// Test that each pokemon has abilities defined
+
+	// Test that each pokemon has valid abilities (no null or undefined)
+
+	// Test that each pokemon has the correct number of abilities (1-3)
+
 describe("pokedex required data", () => {
     test("evs is not empty", () => {
         expect(findEmptyEvs(pokedexEntries)).toEqual([]);
@@ -48,6 +71,25 @@ describe("pokedex required data", () => {
 
     test("species is not null or empty", () => {
         expect(findBlankSpecies(pokedexEntries)).toEqual([]);
+    });
+
+    test.each([
+        "nameOrigin", "pokedexEntries", "growthRate",
+        "catchRate", "baseFriendship", "eggCycles",
+    ])("%s is not empty", (field) => {
+        expect(findEmptyField(pokedexEntries, field)).toEqual([]);
+    });
+
+    test.skip("name.korean is not empty", () => {
+        const names = pokedexEntries.map(({ _id, name }) => ({
+            _id,
+            korean: name.korean,
+        }));
+        expect(findEmptyField(names, "korean")).toEqual([]);
+    });
+
+    test("nameOrigin words all have a meaning", () => {
+        expect(findNameOriginBlankMeanings(pokedexEntries)).toEqual([]);
     });
 });
 
