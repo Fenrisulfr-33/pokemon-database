@@ -1,7 +1,9 @@
 # Keys
 
-Short keys for games and move learn methods.
-Every key is unique across both tables, so they can share a namespace.
+Short keys for games, dexes and move learn methods.
+Game and move keys are unique across both tables, so they can share a
+namespace. A dex key is either the key of the game it belongs to or a
+new key that no game or move uses.
 
 ## Games
 
@@ -9,14 +11,14 @@ Each row is a single game (`gold`), a PokeAPI version group
 (`gold-silver`), or games from the same group (`gold-silver-crystal`
 style, e.g. `diamond-pearl-platinum`). Games from different groups are
 never combined: `x` and `omega-ruby` get separate entries even when the
-text is the same. In code, use `GAME_KEYS` from `constants/GAME_KEYS.js`
-(version group → key).
+text is the same. Names are PokeAPI's. In code, use `GAME_KEYS` from
+`constants/GAME_KEYS.js` (name → key); it has every row below.
 
-`pokedexEntries` is how many `game` values in
-`src/pokemon/pokedex/entries` use that name (counted 2026-11-18).
+`pokedexEntries` is how many entries in `src/pokemon/pokedex/entries`
+use that key (counted 2026-11-20).
 
 | Gen | Game                              | Key    | pokedexEntries |
-| --- | --------------------------------- | ------ | -------------: |
+| --- | --------------------------------- | ------ | -------------- |
 | 1   | `red`                             | `re`   | 0              |
 | 1   | `blue`                            | `bl`   | 0              |
 | 1   | `green`                           | `gr`   | 0              |
@@ -33,9 +35,9 @@ text is the same. In code, use `GAME_KEYS` from `constants/GAME_KEYS.js`
 | 3   | `ruby-sapphire`                   | `rs`   | 180            |
 | 3   | `emerald`                         | `em`   | 386            |
 | 3   | `ruby-sapphire-emerald`           | `rse`  | 0              |
-| 3   | `fire-red`                        | `fr`   | 251            |
-| 3   | `leaf-green`                      | `lg`   | 251            |
-| 3   | `fire-red-leaf-green`             | `frlg` | 135 	        |
+| 3   | `firered`                         | `fr`   | 251            |
+| 3   | `leafgreen`                       | `lg`   | 251            |
+| 3   | `firered-leafgreen`               | `frlg` | 135            |
 | 3   | `colosseum`                       | `co`   | 0              |
 | 3   | `xd`                              | `xd`   | 0              |
 | 4   | `diamond`                         | `di`   | 156            |
@@ -43,9 +45,9 @@ text is the same. In code, use `GAME_KEYS` from `constants/GAME_KEYS.js`
 | 4   | `diamond-pearl`                   | `dp`   | 63             |
 | 4   | `platinum`                        | `pt`   | 219            |
 | 4   | `diamond-pearl-platinum`          | `dpp`  | 274            |
-| 4   | `heart-gold`                      | `hg`   | 258            |
-| 4   | `soul-silver`                     | `ss`   | 258            |
-| 4   | `heart-gold-soul-silver`          | `hgss` | 235 	        |
+| 4   | `heartgold`                       | `hg`   | 258            |
+| 4   | `soulsilver`                      | `ss`   | 258            |
+| 4   | `heartgold-soulsilver`            | `hgss` | 235            |
 | 5   | `black`                           | `bk`   | 156            |
 | 5   | `white`                           | `wh`   | 156            |
 | 5   | `black-white`                     | `bw`   | 493            |
@@ -66,9 +68,9 @@ text is the same. In code, use `GAME_KEYS` from `constants/GAME_KEYS.js`
 | 7   | `ultra-sun-ultra-moon`            | `usum` | 0              |
 | 7   | `lets-go-pikachu`                 | `lgp`  | 0              |
 | 7   | `lets-go-eevee`                   | `lge`  | 0              |
-| 7   | `lets-go-pikachu-eevee`		      | `lgpe` | 153	        |
-| 8   | `sword`                           | `sw`   | 608            |
-| 8   | `shield`                          | `sh`   | 608            |
+| 7   | `lets-go-pikachu-lets-go-eevee`   | `lgpe` | 153            |
+| 8   | `sword`                           | `sw`   | 611            |
+| 8   | `shield`                          | `sh`   | 611            |
 | 8   | `sword-shield`                    | `swsh` | 0              |
 | 8   | `the-isle-of-armor`               | `ioa`  | 0              |
 | 8   | `the-crown-tundra`                | `ct`   | 0              |
@@ -76,21 +78,65 @@ text is the same. In code, use `GAME_KEYS` from `constants/GAME_KEYS.js`
 | 8   | `shining-pearl`                   | `shp`  | 155            |
 | 8   | `brilliant-diamond-shining-pearl` | `bdsp` | 338            |
 | 8   | `legends-arceus`                  | `la`   | 226            |
-| 9   | `scarlet`                         | `sc`   | 663            |
-| 9   | `violet`                          | `vi`   | 663            |
+| 9   | `scarlet`                         | `sc`   | 664            |
+| 9   | `violet`                          | `vi`   | 664            |
 | 9   | `scarlet-violet`                  | `sv`   | 0              |
 | 9   | `the-teal-mask`                   | `ttm`  | 0              |
 | 9   | `the-indigo-disk`                 | `tid`  | 0              |
-| 9   | `legends-za`                      | `za`   | 363            |
+| 9   | `legends-za`                      | `za`   | 364            |
 | 9   | `mega-dimension`                  | `md`   | 0              |
 | 9   | `champions`                       | `ch`   | 0              |
 
-¹ `pokedexEntries` spells these `fire-red-leaf-green`,
-`heart-gold-soul-silver` and `lets-go-pikachu-eevee`; the table keeps
-PokeAPI's names because `GAME_KEYS.js` uses them.
-
 `the-teal-mask` uses `ttm` (not `tm`) so it doesn't collide with
 technical machines.
+
+`shining-pearl` uses `shp` (not `sp`) so it doesn't collide with
+`special`.
+
+## Dexes
+
+One key per regional dex in `pokedex/dexes/dexes_objects`. A dex used
+by one version group reuses that group's game key (`dp`, `swsh`). A
+dex shared by several groups (`red-blue-yellow`) or covering one area
+of a game (`x-y-central`, `sun-moon-melemele`) gets its own key. In code, use
+`DEXES_KEYS` from `constants/DEXES_KEYS.js` (dex name → key).
+
+| Dex                               | Key       |
+| --------------------------------- | --------- |
+| `red-blue-yellow`                 | `rby`     |
+| `gold-silver-crystal`             | `gsc`     |
+| `ruby-sapphire-emerald`           | `rse`     |
+| `firered-leafgreen`               | `frlg`    |
+| `diamond-pearl`                   | `dp`      |
+| `platinum`                        | `pt`      |
+| `heartgold-soulsilver`            | `hgss`    |
+| `black-white`                     | `bw`      |
+| `black-2-white-2`                 | `b2w2`    |
+| `x-y-central`                     | `xycen`   |
+| `x-y-coastal`                     | `xycoa`   |
+| `x-y-mountain`                    | `xymou`   |
+| `omega-ruby-alpha-sapphire`       | `oras`    |
+| `sun-moon-alola`                  | `sm`      |
+| `sun-moon-melemele`               | `smmel`   |
+| `sun-moon-akala`                  | `smaka`   |
+| `sun-moon-ulaula`                 | `smula`   |
+| `sun-moon-poni`                   | `smpon`   |
+| `ultra-sun-ultra-moon-alola`      | `usum`    |
+| `ultra-sun-ultra-moon-melemele`   | `usummel` |
+| `ultra-sun-ultra-moon-akala`      | `usumaka` |
+| `ultra-sun-ultra-moon-ulaula`     | `usumula` |
+| `ultra-sun-ultra-moon-poni`       | `usumpon` |
+| `lets-go-pikachu-lets-go-eevee`   | `lgpe`    |
+| `sword-shield`                    | `swsh`    |
+| `isle-of-armor`                   | `ioa`     |
+| `crown-tundra`                    | `ct`      |
+| `brilliant-diamond-shining-pearl` | `bdsp`    |
+| `legends-arceus`                  | `la`      |
+| `scarlet-violet`                  | `sv`      |
+| `the-teal-mask`                   | `ttm`     |
+| `the-indigo-disk`                 | `tid`     |
+| `legends-za`                      | `za`      |
+| `mega-dimension`                  | `md`      |
 
 ## Move learn methods
 
