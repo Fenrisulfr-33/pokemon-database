@@ -37,6 +37,10 @@ Also:
 - [Not uploaded](not-uploaded.md): `forms/`, `dexes/`, `competitive/`
   and other data that feeds the collections but isn't one
 - [Known issues](known-issues.md): broken or out-of-date references
+- [Bulbapedia check](../src/pokemon/webscraping/bulbapedia/README.md):
+  compares fields with Bulbapedia; open differences go in
+  `differences.md` next to the entity's `entries/` folder (e.g.
+  `src/pokemon/pokedex/differences.md`)
 
 ## How everything connects
 

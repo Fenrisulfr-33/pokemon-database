@@ -39,7 +39,9 @@
     "learnsets:validate": "node src/pokemon/learnsets/validation.mjs",
     "form-tabs:validate": "node src/pokemon/formTabs/validation.mjs",
     "forms:fetch": "node src/pokemon/pokeApi/buildForms.mjs && node src/pokemon/pokeApi/formEntries/fetchFormDetails.js &&node src/pokemon/pokeApi/formEntries/fetchCosmeticForms.js",
-    "forms:build": "node src/pokemon/pokeApi/formEntries/buildFormEntries.js"
+    "forms:build": "node src/pokemon/pokeApi/formEntries/buildFormEntries.js",
+    "bulbapedia:check": "node src/pokemon/webscraping/bulbapedia/checkBulbapedia.js",
+    "bulbapedia:apply": "node src/pokemon/webscraping/bulbapedia/applyBulbapediaDifferences.js"
   },
   "repository": {
     "type": "git",

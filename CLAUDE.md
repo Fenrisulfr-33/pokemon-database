@@ -41,6 +41,10 @@ website lives in a separate repo).
 	- `npm run pokedex:lock -- <field>`
 - Rebuild growth-rate `pokemon` arrays:
 	- `npm run growth-rate:update-pokemon`
+- Check against Bulbapedia (writes `<entity>/differences.md`, never
+  edits data; see the `bulbapedia` skill):
+	- `npm run bulbapedia:check -- pokedexEntries`
+	- `npm run bulbapedia:apply -- pokedexEntries` (rows marked `accept`)
 - Upload: 
 	- `npm run upsert:<abilities|moves|learnsets|pokemon|evolutions|growth-rate|egg-group|all>`
 

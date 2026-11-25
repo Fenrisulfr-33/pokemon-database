@@ -13,8 +13,8 @@ the form name only in the file name.
 | Check | Count |
 | --- | --- |
 | `pokedex/entries` files with 2 or more keys | 0 |
-| `pokedex/entries` base pokemon with no entries | 24 |
-| `forms/` files with no entries (of 553) | 360 |
+| `pokedex/entries` base pokemon with no entries | 0 |
+| `forms/` files with no entries (of 553) | 356 |
 | ...of those, base file has other keys | 131 |
 
 ## `pokedex/entries` files with 2 or more keys
@@ -26,32 +26,7 @@ real form file.
 
 ## `pokedex/entries` base pokemon with no entries
 
-| File | Name |
-| --- | --- |
-| `899-wyrdeer.json` | Wyrdeer |
-| `900-kleavor.json` | Kleavor |
-| `901-ursaluna.json` | Ursaluna |
-| `902-basculegion.json` | Basculegion |
-| `903-sneasler.json` | Sneasler |
-| `904-overqwil.json` | Overqwil |
-| `905-enamorus.json` | Enamorus |
-| `1009-walking-wake.json` | Walking Wake |
-| `1010-iron-leaves.json` | Iron Leaves |
-| `1011-dripplin.json` | Dipplin |
-| `1012-poltchageist.json` | Poltchageist |
-| `1013-sinistcha.json` | Sinistcha |
-| `1014-okidogi.json` | Okidogi |
-| `1015-munkidori.json` | Munkidori |
-| `1016-fezandipiti.json` | Fezandipiti |
-| `1017-ogerpon.json` | Ogerpon |
-| `1018-archaludon.json` | Archaludon |
-| `1019-hydrapple.json` | Hydrapple |
-| `1020-gouging-fire.json` | Gouging Fire |
-| `1021-raging-bolt.json` | Raging Bolt |
-| `1022-iron-boulder.json` | Iron Boulder |
-| `1023-iron-crown.json` | Iron Crown |
-| `1024-terapagos.json` | Terapagos |
-| `1025-pecharunt.json` | Pecharunt |
+None (rechecked 2026-11-24).
 
 ## `forms/` files with no entries
 
@@ -125,9 +100,6 @@ entries may already be.
 | `primal/382.01-primal-kyogre.json` | Primal Kyogre | — |
 | `primal/383.01-primal-groudon.json` | Primal Groudon | — |
 | `megas/384.01-mega-rayquaza.json` | Mega Rayquaza | — |
-| `alternate/386.01-attack-deoxys.json` | Attack Deoxys | — |
-| `alternate/386.02-defense-deoxys.json` | Defense Deoxys | — |
-| `alternate/386.03-speed-deoxys.json` | Speed Deoxys | — |
 | `megas/398.01-mega-staraptor.json` | Mega Staraptor | — |
 | `alternate/413.01-sandy-wormadam.json` | Sandy Wormadam | Plant Cloak, Sandy Cloak, Trash Cloak |
 | `alternate/413.02-trash-wormadam.json` | Trash Wormadam | Plant Cloak, Sandy Cloak, Trash Cloak |
@@ -398,7 +370,6 @@ entries may already be.
 | `alternate/875.01-noice-eiscue.json` | Noice Eiscue | Ice Face, Noice Face |
 | `alternate/888.01-crowned-zacian.json` | Crowned Zacian | Crowned Sword, Hero Of Many Battles |
 | `alternate/889.01-crowned-zamazenta.json` | Crowned Zamazenta | Crowned Shield, Hero Of Many Battles |
-| `alternate/901.01-bloodmoon-ursaluna.json` | Bloodmoon Ursaluna | — |
 | `alternate/902.01-female-basculegion.json` | Female Basculegion | — |
 | `alternate/905.01-therian-enamorus.json` | Therian Enamorus | — |
 | `megas/952.01-mega-scovillain.json` | Mega Scovillain | — |

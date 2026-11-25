@@ -77,6 +77,20 @@ Older PokeAPI flavor text splits hyphenated words across lines
 the move and ability entries. It isn't removed automatically because
 some line-ending hyphens may belong to the text.
 
+## Pokedex entries that differ from Bulbapedia
+
+Base pokemon `pokedexEntries` were checked against Bulbapedia on
+2026-11-24 and fixed to match. Run `npm run bulbapedia:check --
+pokedexEntries` to re-check; open differences are in
+`src/pokemon/pokedex/differences.md`. Still open:
+
+- `386-deoxys` `fr`, `lg`, `em` are the Attack, Defense and Speed
+  Forme entries, and `901-ursaluna` `sc`, `vi` are the Bloodmoon
+  entries. Copies are now in the form files (`386.01`–`386.03`,
+  `901.01`), but they stay in the base files because
+  `pokedex.test.js` expects the base file to have an entry for every
+  game whose dex lists the pokemon.
+
 ## Failing tests
 
 5 of 18 test suites fail (`npm test`):
@@ -126,8 +140,8 @@ Rebuilt from PokeAPI on 2026-11-12. Problems found:
   "Limited Build Koraidon", "Drive Mode Miraidon", etc.
 - **No `baseExp`**: Mega Scovillain, Mega Glimmora, the 3 Tatsugiri Megas
   and Mega Baxcalibur.
-- **Empty `pokedexEntries`**: 134 forms (64 Megas, 10 Totems, 2
-  Gigantamax and 58 others such as the Deoxys, Rotom, Minior and Ogerpon
+- **Empty `pokedexEntries`**: 130 forms (64 Megas, 10 Totems, 2
+  Gigantamax and 54 others such as the Rotom, Minior and Ogerpon
   forms). PokeAPI has no form-specific entries. Full list in
   `docs/pokedex-entries.md`. Bulbapedia has entries for 902.01,
   905.01, 1012.01, 1013.01 and 1017.01–1017.03.
