@@ -4,6 +4,37 @@ The pokedex is a list of all base form pokemon by their national dex id. This fo
 
 The `rules` will says what fields have been verified and set to `final`. Then things can only be added for new games but previous things cannot.
 
+## Pokedex Collection
+
+Folder `pokedex/entries/{pokemon}`.
+
+- `_id` - Object id.
+- `key` - String for search bar.
+- `name` - Object of language names and the pokemon's translation.
+- `type` - Array of strings, min 1, max 2, of pokemon types in lowercase.
+- `abilities` - Object of `normal` array, with `ability._id`, and `hidden` with a single `ability._id`. 
+- `baseStats` - Object of stats with values of a pokemon's base stats.
+- `info` - Object of `height` & `weight` with values that require formulas.
+- `gender` - Object with `male`, `female`, and `genderless` and associated values.
+- `evolution` - Integer of `evolution._id`.
+- `generation` - Integer of the pokemon's generation they came in.
+- `evs` - Object of stats and their value that a pokemon give when defeated in battle.
+- `eggGroups` - Array of `egg-group._id`'s the pokemon falls in.
+- `species` - String of a pokemon's species.
+- `catchRate` - Integer of the pokemon's catch rate.
+- `baseFriendship` - Integer of a pokemon's base friendship.
+- `growthRate` - Integer of a `growth-rate._id`.
+- `eggCycles` - Integer of a pokemon's egg cycle.
+- `nameOrigin` - Array of tuples with name section and it's definition.
+- `pokedexEntries` - Array of Object with a `game_key` and pokedex entry.
+
+## Pokedex Connections
+
+- `abilities` key values are `abilities/entries/{ability}._id`.
+- `evolution` key value is `evolutions/entries/{evolution}._id`.
+- `eggGroups` key values are `egg-groups/entries/{eggGroup}._id`.
+- `growthRate` key value is `growth-rate/entries/{growthRate}._id`.
+
 ## Acquisitions 
 
 In `dexes/acquisition` lives jsons that hold information about pokemon that can be obtained by other means. This can include transferring from bank, home, post-game areas, etc. These lists, if not in any of the associated games dexes, exempt a pokemon from needing a `pokedexEntry` for that associated game.	
@@ -76,3 +107,9 @@ pokemon's entries; other forms' entries live in their `forms/` files.
         { "vi": "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning." }
     ]
 ```
+
+### Species
+
+A string of the pokemon associated pokemon species.
+
+TODO: If every species ends with the word `Pokemon` lets drop it from the database and just populate it on the client, wasted storage.

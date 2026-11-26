@@ -62,6 +62,11 @@ src/pokemon/
 └── README.md
 ```
 
+### Collections & their Connections
+
+
+
+
 ### Game order reference
 This is MY master key for how the game numbering is stored for dexe entries, moves, etc...
 
