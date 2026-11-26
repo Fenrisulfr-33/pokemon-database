@@ -150,8 +150,11 @@ test('Pokedex Length', () => {
   expect(pokedexEntries.length).toBe(1025);
 });
 
-test("file names follow {_id}-{key}.json", () => {
-    const buildFileName = (entry) => `${entry._id}-${entry.key}.json`;
+test("file names follow {padded _id}-{key}.json", () => {
+    const highestId = Math.max(...pokedexEntries.map((entry) => entry._id));
+    const idDigits = String(highestId).length;
+    const buildFileName = (entry) =>
+        `${String(entry._id).padStart(idDigits, "0")}-${entry.key}.json`;
     expect(findMisnamedFiles(POKEDEX_ENTRIES_DIR, buildFileName)).toEqual([]);
 });
 

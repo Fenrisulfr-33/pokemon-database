@@ -1,11 +1,13 @@
 # national-dex
 
 One document per base pokemon. Source:
-`src/pokemon/pokedex/entries/{_id}-{key}.json` (1,025 files). Schema:
+`src/pokemon/pokedex/entries/{padded _id}-{key}.json` (1,025 files,
+e.g. `0001-bulbasaur.json`; ids are zero-padded to the digit count of the
+highest `_id`). Schema:
 `src/pokemon/pokedex/schema.json`. Forms are in `src/pokemon/forms/` (see
 `src/pokemon/forms/README.md`).
 
-`pokedex/pokedex.test.js` checks that file names match `{_id}-{key}`,
+`pokedex/pokedex.test.js` checks that file names match `{padded _id}-{key}`,
 and that `evolution` is an integer or null that points to an existing
 chain containing the pokemon.
 
